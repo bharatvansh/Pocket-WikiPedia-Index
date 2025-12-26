@@ -3,7 +3,7 @@
   "header": {
     "name": "Index: Pocket Wikipedia",
     "description": "indexed with knowledge of items, blocks and mobs",
-    "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "uuid": "d5a071e6-3ce7-4fcc-9b68-77fd28d1e908",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 0]
   },
@@ -11,7 +11,7 @@
     {
       "type": "script",
       "language": "javascript",
-      "uuid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "uuid": "4780fb8f-86c4-4ddc-bebf-47671be35c3b",
       "version": [1, 0, 0],
       "entry": "scripts/main.js"
     }

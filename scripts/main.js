@@ -9,6 +9,20 @@ import { getItemDetails } from "./data/providers/item_provider.js";
 import { getMobDetails } from "./data/providers/mob_provider.js";
 import { renderDetailView } from "./ui/ui_factory.js";
 
+// Formatting codes
+const FMT = {
+    reset: "§r",
+    bold: "§l",
+    gray: "§7",
+    darkGray: "§8",
+    gold: "§6",
+    yellow: "§e",
+    green: "§a",
+    aqua: "§b",
+    red: "§c",
+    white: "§f"
+};
+
 // Main entry point - triggered by using a book
 world.afterEvents.itemUse.subscribe((event) => {
     const { itemStack, source } = event;
@@ -20,17 +34,37 @@ world.afterEvents.itemUse.subscribe((event) => {
 });
 
 /**
- * Shows the main search menu
+ * Shows the main menu with search bar
  * @param {import("@minecraft/server").Player} player
  */
 function showMainMenu(player) {
+    // Count entries by category
+    const blockCount = searchIndex.filter(e => e.category === "block").length;
+    const itemCount = searchIndex.filter(e => e.category === "item").length;
+    const mobCount = searchIndex.filter(e => e.category === "mob").length;
+    const totalCount = searchIndex.length;
+
     const form = new ModalFormData()
-        .title("Pocket Wikipedia")
-        .textField("Search", "Enter item/block/mob name", "");
-    
+        .title("§l Pocket Wikipedia")
+        .textField(
+            `${FMT.gold}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n` +
+            `${FMT.white}Welcome to the Pocket Wikipedia!${FMT.reset}\n` +
+            `${FMT.gray}Your guide to everything Minecraft.${FMT.reset}\n` +
+            `${FMT.gold}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n` +
+            `${FMT.yellow}◆ ${FMT.white}Total Entries: ${FMT.green}${totalCount}${FMT.reset}\n` +
+            `${FMT.gray}  ├─ ${FMT.gold}▣${FMT.gray} Blocks: ${FMT.white}${blockCount}${FMT.reset}\n` +
+            `${FMT.gray}  ├─ ${FMT.aqua}◆${FMT.gray} Items: ${FMT.white}${itemCount}${FMT.reset}\n` +
+            `${FMT.gray}  └─ ${FMT.red}♦${FMT.gray} Mobs: ${FMT.white}${mobCount}${FMT.reset}\n` +
+            `${FMT.green}⚲ Search${FMT.reset}`,
+            "Enter name or ID...",
+            ""
+        );
+
     form.show(player).then((response) => {
-        if (response && response.formValues) {
-            const searchTerm = response.formValues[0]?.toString().toLowerCase() || "";
+        if (response?.canceled) return;
+        
+        const searchTerm = response.formValues[0]?.toString().toLowerCase().trim() || "";
+        if (searchTerm !== "") {
             showSearchResults(player, searchTerm);
         }
     });
@@ -49,27 +83,50 @@ function showSearchResults(player, searchTerm) {
     );
     
     if (results.length === 0) {
-        const form = new ModalFormData()
-            .title("No Results")
-            .textField("No entries found", "Try a different search term", "");
-        form.show(player);
+        const form = new ActionFormData()
+            .title("§c✗ No Results")
+            .body(
+                `${FMT.red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n` +
+                `${FMT.gray}No entries found for:${FMT.reset}\n` +
+                `${FMT.white}"${searchTerm}"${FMT.reset}\n` +
+                `${FMT.red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n\n` +
+                `${FMT.gray}Try a different search term.${FMT.reset}`
+            )
+            .button("§c« Back to Menu");
+        
+        form.show(player).then(() => showMainMenu(player));
         return;
     }
     
     // Create action form with results
     const form = new ActionFormData()
-        .title("Search Results")
-        .body(`Found ${results.length} entries:`);
+        .title("§a⚲ Search Results")
+        .body(
+            `${FMT.green}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n` +
+            `${FMT.gray}Search: ${FMT.white}"${searchTerm}"${FMT.reset}\n` +
+            `${FMT.gray}Found ${FMT.green}${results.length}${FMT.gray} entries${FMT.reset}\n` +
+            `${FMT.green}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}`
+        );
     
     // Add buttons for each result (max 10 to avoid UI issues)
     results.slice(0, 10).forEach(entry => {
-        form.button(entry.name, entry.icon);
+        const catLabel = entry.category === "block" ? "§6▣ Block" : 
+                         entry.category === "item" ? "§b◆ Item" : "§c♦ Mob";
+        form.button(`${catLabel} §8- §f${entry.name}`, entry.icon);
     });
+
+    // Add back button
+    form.button("§c« Back to Menu");
     
     form.show(player).then((response) => {
-        if (response && response.selection !== undefined && response.selection < results.length) {
-            const selectedEntry = results[response.selection];
-            showEntryDetails(player, selectedEntry);
+        if (response?.selection !== undefined) {
+            const maxResults = Math.min(results.length, 10);
+            if (response.selection < maxResults) {
+                const selectedEntry = results[response.selection];
+                showEntryDetails(player, selectedEntry, searchTerm);
+            } else {
+                showMainMenu(player);
+            }
         }
     });
 }
@@ -78,8 +135,9 @@ function showSearchResults(player, searchTerm) {
  * Shows detailed view for a specific entry
  * @param {import("@minecraft/server").Player} player
  * @param {import("./data/search_index.js").SearchEntry} entry
+ * @param {string} searchTerm - The original search term for back navigation
  */
-async function showEntryDetails(player, entry) {
+async function showEntryDetails(player, entry, searchTerm) {
     try {
         // Get detailed content based on entry type
         let details;
@@ -97,13 +155,26 @@ async function showEntryDetails(player, entry) {
                 throw new Error(`Unknown category: ${entry.category}`);
         }
         
-        // Render the appropriate UI based on the entry type
-        renderDetailView(player, entry, details);
+        // Render the appropriate UI with navigation callbacks
+        renderDetailView(
+            player, 
+            entry, 
+            details,
+            () => showSearchResults(player, searchTerm),
+            () => showMainMenu(player)
+        );
     } catch (error) {
         console.error(`Failed to load details for ${entry.id}:`, error);
-        const form = new ModalFormData()
-            .title("Error")
-            .textField("Failed to load details", "An error occurred while loading this entry", "");
-        form.show(player);
+        const form = new ActionFormData()
+            .title("§c✗ Error")
+            .body(
+                `${FMT.red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}\n` +
+                `${FMT.red}Failed to load entry details.${FMT.reset}\n` +
+                `${FMT.gray}Entry: ${FMT.white}${entry.name}${FMT.reset}\n` +
+                `${FMT.red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}`
+            )
+            .button("§c« Back to Menu");
+        
+        form.show(player).then(() => showMainMenu(player));
     }
 }

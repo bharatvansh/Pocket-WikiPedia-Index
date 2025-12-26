@@ -7,6 +7,8 @@
  * @property {string} name - Display Name
  * @property {"block"|"item"|"mob"} category - Entry category
  * @property {string} icon - Path to texture icon
+ * @property {string} themeColor - Minecraft color code for this entry (e.g., "§a" for green)
+ *                                 NOTE: Never use black (§0) - use darkGray (§8) instead for dark colors
  */
 
 /**
@@ -19,13 +21,15 @@ export const searchIndex = [
         id: "minecraft:dirt",
         name: "Dirt",
         category: "block",
-        icon: "textures/blocks/dirt"
+        icon: "textures/blocks/dirt",
+        themeColor: "§6" // gold/brown
     },
     {
         id: "minecraft:stone",
         name: "Stone",
         category: "block",
-        icon: "textures/blocks/stone"
+        icon: "textures/blocks/stone",
+        themeColor: "§7" // gray
     },
     
     // Items
@@ -33,13 +37,15 @@ export const searchIndex = [
         id: "minecraft:iron_sword",
         name: "Iron Sword",
         category: "item",
-        icon: "textures/items/iron_sword"
+        icon: "textures/items/iron_sword",
+        themeColor: "§f" // white/silver
     },
     {
         id: "minecraft:apple",
         name: "Apple",
         category: "item",
-        icon: "textures/items/apple"
+        icon: "textures/items/apple",
+        themeColor: "§c" // red
     },
     
     // Mobs
@@ -47,12 +53,14 @@ export const searchIndex = [
         id: "minecraft:creeper",
         name: "Creeper",
         category: "mob",
-        icon: "textures/entities/creeper"
+        icon: "textures/items/spawn_eggs/spawn_egg_creeper.png",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:pig",
         name: "Pig",
         category: "mob",
-        icon: "textures/entities/pig"
+        icon: "textures/items/spawn_eggs/spawn_egg_pig.png",
+        themeColor: "§d" // pink
     }
 ];
