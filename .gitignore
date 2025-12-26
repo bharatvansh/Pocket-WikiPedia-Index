@@ -1,0 +1,30 @@
+# Pocket Wikipedia Foundation .gitignore
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Build artifacts
+build/
+dist/
+
+# Test files
+test_implementation.js
+verify_implementation.js
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Minecraft specific
+*.mcpack
+*.zip
