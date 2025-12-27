@@ -151,14 +151,20 @@ Instructions:
 - Use Google Search to verify each piece of information from official Minecraft sources.
 - Check if descriptions, stats, behaviors, and other data are accurate for Minecraft Bedrock Edition.
 - Only flag actual factual errors, not style preferences.
+- ALWAYS count how many data entries you verified.
 
-For each issue found, report:
-- Item ID and name
-- Which field is wrong
-- Current value vs correct value
-- Brief explanation
+Response format:
+1. First state: "Verified X entries" (where X is the count of items/mobs/blocks checked)
+2. If issues found, list each:
+   - Item ID and name
+   - Which field is wrong  
+   - Current value vs correct value
+   - Brief explanation
+3. If all data is correct, end with: "All entries are accurate."
 
-If all data is correct, just say "All data verified successfully."`;
+Example good response: "Verified 3 entries. All entries are accurate."
+Example with issues: "Verified 5 entries. Found 1 issue: minecraft:pig has incorrect health value..."`;
+
 
     console.log('Step 1: Verifying with Google Search grounding...');
     const verifyResponse = await client.models.generateContent({
