@@ -219,6 +219,75 @@ export async function getMobDetails(mobId) {
                 { item: "Sculk Catalyst", chance: "1" }
             ],
             description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+        },
+        
+        // New Mobs
+        "minecraft:axolotl": {
+            id: "minecraft:axolotl",
+            name: "Axolotl",
+            health: 14,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 0.15
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Lush Caves"],
+                lightLevel: "0-7",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Helps players fight underwater mobs",
+                "Can attack drowned, guardians, and elder guardians",
+                "Plays dead when out of water to recover health",
+                "Attacks underwater mobs when attacked by player",
+                "Can be picked up with water buckets",
+                "Comes in 5 colors: brown (wild), pink, blue, cyan, and gold",
+                "Will attack fish and squid on behalf of player",
+                "Can be tamed by players with buckets"
+            ],
+            drops: [
+                { item: "Axolotl Bucket", chance: "When bucketed" },
+                { item: "Music Disc (otherside)", chance: "Rare, if tamed axolotl dies" }
+            ],
+            description: "Axolotls are adorable amphibious mobs found in Lush Caves deep underground. They are fierce aquatic fighters that assist players in combat, attacking hostile underwater mobs like Drowned and Guardians. When out of water, axolotls can play dead to regenerate health. Players can pick them up in water buckets for easy transport. They come in various colors including the rare blue variant, and a gold axolotl spawns with Luck III applied."
+        },
+        "minecraft:bee": {
+            id: "minecraft:bee",
+            name: "Bee",
+            health: 10,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 0.15
+            },
+            classification: {
+                type: "Neutral",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Flower Forests", "Plains", "Sunflower Plains"],
+                lightLevel: "9+",
+                groupSize: "1-3"
+            },
+            behaviorTraits: [
+                "Becomes aggressive when its nest or hive is disturbed",
+                "Will chase and attack players within 22 blocks of an upset nest",
+                "Sting players dealing 2 damage and dies after stinging",
+                "Inflicts Poison effect when stinging",
+                "Can be honeyed to stop aggression",
+                "Produces honey and honeycomb from beehives",
+                "Follows players holding flowers",
+                "Can enter and exit beehives freely"
+            ],
+            drops: [
+                { item: "Honeycomb", chance: "When shearing full hive" },
+                { item: "Honey Bottle", chance: "When collecting from hive" },
+                { item: "Beehive", chance: "When crafted with honeycomb" }
+            ],
+            description: "Bees are neutral mobs that inhabit forests and plains biomes, living in natural nests or player-made beehives. They are peaceful unless provoked - disturbing a nest or hive will cause a swarm of angry bees to attack. Bees deliver a poisonous sting that causes them to die after attacking. Players can harvest honey and honeycomb from beehives, and beehives make excellent farm decorations that support beekeeping. Bees are essential for creating renewable farms and getting honeycomb for decorative blocks."
         }
     };
 

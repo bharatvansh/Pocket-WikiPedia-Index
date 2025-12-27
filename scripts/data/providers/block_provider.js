@@ -154,6 +154,50 @@ export async function getBlockDetails(blockId) {
                 yRange: "Any"
             },
             description: "Glowstone is a luminous block that emits the maximum light level of 15, making it an excellent light source. It generates naturally in the Nether on the underside of terrain and in bastion remnants. When broken without Silk Touch, it drops 2-4 glowstone dust, which can be crafted back into glowstone blocks."
+        },
+        
+        // New Blocks
+        "minecraft:obsidian": {
+            id: "minecraft:obsidian",
+            name: "Obsidian",
+            hardness: 50,
+            blastResistance: 12000,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: true
+            },
+            drops: ["Obsidian"],
+            generation: {
+                dimension: "Overworld",
+                yRange: "0-31 (water+lava pools)"
+            },
+            description: "Obsidian is one of the hardest and most blast-resistant blocks in Minecraft, created when water flows onto lava source blocks. It requires a Diamond Pickaxe or Netherite Pickaxe to mine, and is essential for creating Nether Portals and Enchanting Tables. Obsidian is immune to explosions except from wither skulls and ghast fireballs."
+        },
+        "minecraft:netherite_block": {
+            id: "minecraft:netherite_block",
+            name: "Netherite Block",
+            hardness: 50,
+            blastResistance: 12000,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Netherite",
+                silkTouch: true
+            },
+            drops: ["Netherite Block"],
+            generation: {
+                dimension: "The Nether",
+                yRange: "N/A (Crafted only)"
+            },
+            description: "Netherite Block is the ultimate storage and building block in Minecraft, crafted from 9 netherite ingots. It is the most durable block in the game with the highest blast resistance, even surpassing obsidian. Netherite blocks are immune to fire, lava, and ghast fireballs, making them perfect for defensive structures and bases in the Nether."
         }
     };
 

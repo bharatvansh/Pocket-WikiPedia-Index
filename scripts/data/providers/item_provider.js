@@ -177,6 +177,64 @@ export async function getItemDetails(itemId) {
                 "Only obtainable from drowned mobs with a 6.25% drop chance"
             ],
             description: "The Trident is a unique weapon that can be used for both melee and ranged combat. It can be thrown like a spear and retrieved with the Loyalty enchantment. Tridents are obtained exclusively from drowned mobs and can be enhanced with special water-themed enchantments. When enchanted with Channeling, it can summon lightning strikes during thunderstorms."
+        },
+        
+        // New Items
+        "minecraft:netherite_sword": {
+            id: "minecraft:netherite_sword",
+            name: "Netherite Sword",
+            maxStack: 1,
+            durability: 2032,
+            enchantable: true,
+            usage: {
+                primaryUse: "Melee combat",
+                secondaryUse: "Debossing and trimming patterns on armor"
+            },
+            combat: {
+                attackDamage: 8,
+                attackSpeed: 1.6
+            },
+            crafting: {
+                recipeType: "Smithing",
+                ingredients: ["Netherite Ingot", "Diamond Sword"]
+            },
+            specialNotes: [
+                "Can be repaired with Netherite Ingots",
+                "Receives all sword enchantments including Sharpness, Smite, and Bane of Arthropods",
+                "Fire resistant - won't burn in lava or fire",
+                "Has 32% more durability than Diamond Sword",
+                "Can be used to create smithing templates with netherite upgrade"
+            ],
+            description: "The Netherite Sword is the most powerful melee weapon in Minecraft, crafted by upgrading a Diamond Sword in the Smithing Table. It deals 8 damage per hit and has the highest durability of any sword at 2032 uses. Unlike diamond equipment, netherite items are fire-resistant and will not burn when dropped in lava, making them ideal for Nether exploration and combat."
+        },
+        "minecraft:crossbow": {
+            id: "minecraft:crossbow",
+            name: "Crossbow",
+            maxStack: 1,
+            durability: 465,
+            enchantable: true,
+            usage: {
+                primaryUse: "Ranged combat with arrows",
+                secondaryUse: "Firing fireworks for damage"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 0.75
+            },
+            crafting: {
+                recipeType: "Shaped",
+                ingredients: ["Stick x3", "Iron Ingot x1", "String x2", "Tripwire Hook x1"]
+            },
+            specialNotes: [
+                "Can be loaded with arrows or fireworks rockets",
+                "Multishot enchantment fires 3 arrows in a spread pattern",
+                "Piercing enchantment allows arrows to pass through multiple mobs",
+                "Can be loaded while walking but not sprinting",
+                "Has a longer draw time than bows but deals more damage",
+                "Enchantable with Quick Charge for faster reloading",
+                "Fully charged crossbows deal 9 damage with higher accuracy than bows"
+            ],
+            description: "The Crossbow is a ranged weapon that fires arrows with greater power and accuracy than a standard Bow. It takes longer to load but can be pre-loaded and carried ready for combat. Crossbows can be enchanted with unique enchantments like Multishot, which fires three arrows in a spread pattern, and Piercing, which allows arrows to pass through multiple enemies. They can also fire fireworks rockets for explosive damage."
         }
     };
 

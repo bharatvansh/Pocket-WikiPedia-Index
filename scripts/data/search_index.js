@@ -146,5 +146,53 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
         themeColor: "§8" // dark gray
+    },
+    
+    // New Blocks
+    {
+        id: "minecraft:obsidian",
+        name: "Obsidian",
+        category: "block",
+        icon: "textures/blocks/obsidian",
+        themeColor: "§8" // dark gray/purple
+    },
+    {
+        id: "minecraft:netherite_block",
+        name: "Netherite Block",
+        category: "block",
+        icon: "textures/blocks/netherite_block",
+        themeColor: "§4" // dark red/brown
+    },
+    
+    // New Items
+    {
+        id: "minecraft:netherite_sword",
+        name: "Netherite Sword",
+        category: "item",
+        icon: "textures/items/netherite_sword",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:crossbow",
+        name: "Crossbow",
+        category: "item",
+        icon: "textures/items/crossbow",
+        themeColor: "§6" // brown/wood
+    },
+    
+    // New Mobs
+    {
+        id: "minecraft:axolotl",
+        name: "Axolotl",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_axolotl.png",
+        themeColor: "§b" // light pink
+    },
+    {
+        id: "minecraft:bee",
+        name: "Bee",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_bee.png",
+        themeColor: "§e" // yellow/gold
     }
 ];
