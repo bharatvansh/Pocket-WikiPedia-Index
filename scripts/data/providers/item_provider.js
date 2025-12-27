@@ -177,6 +177,64 @@ export async function getItemDetails(itemId) {
                 "Only obtainable from drowned mobs with a 6.25% drop chance"
             ],
             description: "The Trident is a unique weapon that can be used for both melee and ranged combat. It can be thrown like a spear and retrieved with the Loyalty enchantment. Tridents are obtained exclusively from drowned mobs and can be enhanced with special water-themed enchantments. When enchanted with Channeling, it can summon lightning strikes during thunderstorms."
+        },
+        "minecraft:crossbow": {
+            id: "minecraft:crossbow",
+            name: "Crossbow",
+            maxStack: 1,
+            durability: 326,
+            enchantable: true,
+            usage: {
+                primaryUse: "Ranged combat with arrows or fireworks",
+                secondaryUse: "Firing multishot enchanted bolts"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 1.0
+            },
+            crafting: {
+                recipeType: "Shaped",
+                ingredients: ["Stick x3", "Iron Ingot x1", "String x2"]
+            },
+            specialNotes: [
+                "Can be loaded with arrows or firework rockets",
+                "Multishot enchantment fires 3 projectiles at once",
+                "Can be repaired with another crossbow or stick",
+                "Piercing enchantment allows arrows to go through multiple mobs",
+                "Quick Charge reduces loading time",
+                "Can be found as dungeon loot or fished",
+                "Charging crossbow plays unique sound effect"
+            ],
+            description: "The Crossbow is a powerful ranged weapon that fires arrows or fireworks with high damage. Unlike bows, crossbows must be fully loaded before firing and can be enchanted with Multishot to fire three arrows at once. Crossbows have higher durability than bows and can deal significant damage to enemies from a distance."
+        },
+        "minecraft:shield": {
+            id: "minecraft:shield",
+            name: "Shield",
+            maxStack: 1,
+            durability: 336,
+            enchantable: true,
+            usage: {
+                primaryUse: "Blocking incoming attacks",
+                secondaryUse: "Deflecting arrows and projectiles"
+            },
+            combat: {
+                attackDamage: 0,
+                attackSpeed: 1.0
+            },
+            crafting: {
+                recipeType: "Shaped",
+                ingredients: ["Iron Ingot x1", "Wood Plank x6"]
+            },
+            specialNotes: [
+                "Can be dyed to change the design pattern",
+                "Blocking reduces incoming damage significantly",
+                "Can be repaired with iron ingots or another shield",
+                "Fire Aspect enchantments on enemy weapons still deal damage",
+                "Can be enchanted with Unbreaking and Mending",
+                "Cooldown exists between blocking attacks",
+                "Can be used to block while sprinting without slowing down"
+            ],
+            description: "The Shield is an essential defensive item that blocks incoming attacks from mobs and players. When raised, shields can completely block melee attacks, arrows, and most projectile damage. Shields can be customized with different colors using dyes and are essential for surviving encounters with dangerous mobs like the Warden or when facing multiple attackers."
         }
     };
 
