@@ -6,39 +6,6 @@
  * @type {Object.<string, import('../mob_types').MobDetails>}
  */
 export const passiveMobs = {
-    "minecraft:dolphin": {
-        id: "minecraft:dolphin",
-        name: "Dolphin",
-        health: 10,
-        stats: {
-            attackDamage: 0,
-            movementSpeed: 0.4
-        },
-        classification: {
-            type: "Passive",
-            undead: false
-        },
-        spawning: {
-            biomes: ["Ocean", "Deep Ocean", "Cold Ocean", "Deep Cold Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean"],
-            lightLevel: "Any",
-            groupSize: "1-5"
-        },
-        behaviorTraits: [
-            "Friendly aquatic mobs that swim in groups",
-            "Can be ridden by players underwater",
-            "Swim faster when following boats",
-            "Jump out of water frequently",
-            "Lead players to nearby shipwrecks and buried treasure",
-            "Can be fed raw cod or raw salmon to gain trust",
-            "Playful behavior with other dolphins",
-            "Can be led with leads",
-            "Provide Dolphin's Grace effect to nearby players (increased underwater movement speed)"
-        ],
-        drops: [
-            { item: "Experience", chance: "1-3" }
-        ],
-        description: "Dolphins are friendly aquatic mobs that spawn in ocean biomes. They are known for their playful behavior and high intelligence. Dolphins swim in groups and can be ridden by players underwater, making them useful for ocean exploration. When following boats, dolphins swim faster and can lead players to nearby shipwrecks and buried treasure. They provide the Dolphin's Grace effect to nearby players, which increases underwater movement speed. Dolphins can be fed raw cod or raw salmon to gain their trust and can be led with leads. They are completely passive and do not attack players or other mobs."
-    },
     "minecraft:pig": {
         id: "minecraft:pig",
         name: "Pig",
