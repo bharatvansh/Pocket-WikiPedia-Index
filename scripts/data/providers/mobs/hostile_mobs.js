@@ -137,7 +137,7 @@ export const hostileMobs = {
         name: "Breeze",
         health: 30,
         stats: {
-            attackDamage: 2
+            attackDamage: 1
         },
         classification: {
             type: "Hostile",
@@ -150,7 +150,8 @@ export const hostileMobs = {
         },
         behaviorTraits: [
             "Agile hostile mob that appears in Trial Chambers",
-            "Attacks by launching wind charges that deal light damage and strong knockback",
+            "Attacks by launching wind charges that deal low direct damage but strong knockback",
+            "Direct-hit damage scales with difficulty (about 1 on Easy/Normal and 1.5 on Hard)",
             "Uses high jumps and quick repositioning to keep distance from melee attackers",
             "Wind charge impacts create a gust that can push entities and interact with blocks that respond to projectiles",
             "Most dangerous in enclosed rooms where knockback can push players into traps or off ledges"
@@ -158,7 +159,7 @@ export const hostileMobs = {
         drops: [
             { item: "Breeze Rod", chance: "1-2 (increased by Looting)" }
         ],
-        description: "Breezes are hostile mobs encountered in Trial Chambers. Rather than relying on heavy melee hits, a breeze fights with wind charges—projectiles that create a gust on impact, knocking targets back and disrupting positioning. Their mobility and knockback-focused attacks make them especially threatening in compact Trial Chamber arenas, where getting pushed into hazards can be more dangerous than the direct damage itself. Breezes drop breeze rods, a key material for Trial Chambers-related progression and crafting."
+        description: "Breezes are hostile mobs encountered in Trial Chambers. Rather than relying on heavy melee hits, a breeze fights with wind charges—projectiles that create a gust on impact, knocking targets back and disrupting positioning. Their mobility and knockback-focused attacks make them especially threatening in compact Trial Chamber arenas, where getting pushed into hazards can be more dangerous than the direct hit itself. Breezes drop breeze rods, a key material for Trial Chambers-related progression and crafting."
     },
     "minecraft:guardian": {
         id: "minecraft:guardian",
