@@ -183,10 +183,11 @@ export const passiveMobs = {
         spawning: {
             biomes: ["Desert Village"],
             lightLevel: "Any",
-            groupSize: "1-2 (per village)"
+            groupSize: "1 (per village)"
         },
         behaviorTraits: [
             "Tall rideable passive mob that naturally spawns in desert villages",
+            "One camel spawns in the center of each desert village during world generation",
             "Can be saddled and ridden by up to two players at once",
             "Has a dash ability while being ridden, letting it burst forward after a short charge",
             "Can sit down when idle; interacting causes it to stand",
