@@ -204,5 +204,39 @@ export const hostileMobs = {
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
         description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
+    },
+    "minecraft:bogged": {
+        id: "minecraft:bogged",
+        name: "Bogged",
+        health: 16,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers"],
+            lightLevel: "0-7 (Swamps), Any (Trial Chambers)",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Shoots poison arrows that inflict Poison for 4 seconds",
+            "Fires slower than regular skeletons (3.5s cooldown)",
+            "Burns in sunlight unless wearing a helmet or in shade",
+            "Sinks in water but does not drown",
+            "Fears wolves",
+            "Can be sheared to drop mushrooms (reverts to skeleton appearance but stays Bogged)"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Arrow", chance: "0-2" },
+            { item: "Poison Arrow", chance: "50% (increases with Looting)" },
+            { item: "Bow", chance: "8.5% (increases with Looting)" },
+            { item: "Red/Brown Mushroom", chance: "2 (when sheared)" }
+        ],
+        description: "The Bogged is a mossy, mushroom-covered skeleton variant found in swamps, mangrove swamps, and trial chambers. Unlike standard skeletons, the Bogged shoots poison arrows that inflict damage over time, making them dangerous even with good armor. They have slightly less health (16 points) than regular skeletons but compensate with their status-inflicting attacks. The Bogged fires arrows at a slower rate than normal skeletons. Like other undead mobs, they burn in sunlight and are healed by harming potions. Players can shear a Bogged to harvest mushrooms from it, revealing a more skeleton-like appearance underneath the moss."
     }
 };
