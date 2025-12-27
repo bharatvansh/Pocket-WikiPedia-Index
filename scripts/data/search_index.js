@@ -31,6 +31,20 @@ export const searchIndex = [
         icon: "textures/blocks/stone",
         themeColor: "§7" // gray
     },
+    {
+        id: "minecraft:deepslate",
+        name: "Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:copper_ore",
+        name: "Copper Ore",
+        category: "block",
+        icon: "textures/blocks/copper_ore",
+        themeColor: "§6" // orange/copper
+    },
     
     // Items
     {
@@ -47,6 +61,20 @@ export const searchIndex = [
         icon: "textures/items/apple",
         themeColor: "§c" // red
     },
+    {
+        id: "minecraft:diamond_pickaxe",
+        name: "Diamond Pickaxe",
+        category: "item",
+        icon: "textures/items/diamond_pickaxe",
+        themeColor: "§b" // aqua/diamond blue
+    },
+    {
+        id: "minecraft:bow",
+        name: "Bow",
+        category: "item",
+        icon: "textures/items/bow",
+        themeColor: "§e" // yellow
+    },
     
     // Mobs
     {
@@ -62,5 +90,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_pig.png",
         themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:zombie",
+        name: "Zombie",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie.png",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:enderman",
+        name: "Enderman",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_enderman.png",
+        themeColor: "§5" // dark purple
     }
 ];
