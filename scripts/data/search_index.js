@@ -59,7 +59,21 @@ export const searchIndex = [
         icon: "textures/blocks/glowstone",
         themeColor: "§e" // yellow/gold
     },
-    
+    {
+        id: "minecraft:obsidian",
+        name: "Obsidian",
+        category: "block",
+        icon: "textures/blocks/obsidian",
+        themeColor: "§8" // dark purple/black
+    },
+    {
+        id: "minecraft:prismarine",
+        name: "Prismarine",
+        category: "block",
+        icon: "textures/blocks/prismarine",
+        themeColor: "§b" // aqua/teal
+    },
+
     // Items
     {
         id: "minecraft:iron_sword",
@@ -103,7 +117,21 @@ export const searchIndex = [
         icon: "textures/items/trident",
         themeColor: "§b" // aqua
     },
-    
+    {
+        id: "minecraft:shield",
+        name: "Shield",
+        category: "item",
+        icon: "textures/items/shield",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:elytra",
+        name: "Elytra",
+        category: "item",
+        icon: "textures/items/elytra",
+        themeColor: "§e" // light gray/white
+    },
+
     // Mobs
     {
         id: "minecraft:creeper",
@@ -146,5 +174,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:spider",
+        name: "Spider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_spider.png",
+        themeColor: "§8" // dark red/brown
+    },
+    {
+        id: "minecraft:villager",
+        name: "Villager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_villager.png",
+        themeColor: "§6" // brown
     }
 ];
