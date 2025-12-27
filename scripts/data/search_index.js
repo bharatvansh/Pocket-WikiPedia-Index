@@ -45,6 +45,20 @@ export const searchIndex = [
         icon: "textures/blocks/copper_ore",
         themeColor: "§6" // orange/copper
     },
+    {
+        id: "minecraft:amethyst_block",
+        name: "Amethyst Block",
+        category: "block",
+        icon: "textures/blocks/amethyst_block",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:glowstone",
+        name: "Glowstone",
+        category: "block",
+        icon: "textures/blocks/glowstone",
+        themeColor: "§e" // yellow/gold
+    },
     
     // Items
     {
@@ -75,6 +89,20 @@ export const searchIndex = [
         icon: "textures/items/bow",
         themeColor: "§e" // yellow
     },
+    {
+        id: "minecraft:enchanted_golden_apple",
+        name: "Enchanted Golden Apple",
+        category: "item",
+        icon: "textures/items/apple_golden",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:trident",
+        name: "Trident",
+        category: "item",
+        icon: "textures/items/trident",
+        themeColor: "§b" // aqua
+    },
     
     // Mobs
     {
@@ -104,5 +132,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_enderman.png",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:skeleton",
+        name: "Skeleton",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_skeleton.png",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:warden",
+        name: "Warden",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
+        themeColor: "§8" // dark gray
     }
 ];
