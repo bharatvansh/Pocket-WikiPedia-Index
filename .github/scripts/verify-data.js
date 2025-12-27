@@ -128,7 +128,10 @@ function formatReport(result) {
 }
 
 /**
- * Verify all data with Gemini using structured output
+ * Verify all data with Gemini using two-step approach:
+ * Step 1: Use Google Search grounding to verify data
+ * Step 2: Parse the result into structured output
+ * (Gemini doesn't support tools + structured output together)
  */
 async function verifyWithGemini(dataContent) {
     if (!process.env.GEMINI_API_KEY) {
@@ -137,7 +140,8 @@ async function verifyWithGemini(dataContent) {
 
     const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-    const prompt = `You are a Minecraft Bedrock Edition wiki data verifier.
+    // Step 1: Verify with Google Search grounding
+    const verifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier.
 
 Review the following Minecraft data changes (git diff format) and verify their accuracy.
 
@@ -147,21 +151,55 @@ Instructions:
 - Use Google Search to verify each piece of information from official Minecraft sources.
 - Check if descriptions, stats, behaviors, and other data are accurate for Minecraft Bedrock Edition.
 - Only flag actual factual errors, not style preferences.
-- Set hasIssues to true ONLY if you find genuine data accuracy problems.
-- If all data is correct, set hasIssues to false and leave issues array empty.`;
 
-    const response = await client.models.generateContent({
+For each issue found, report:
+- Item ID and name
+- Which field is wrong
+- Current value vs correct value
+- Brief explanation
+
+If all data is correct, just say "All data verified successfully."`;
+
+    console.log('Step 1: Verifying with Google Search grounding...');
+    const verifyResponse = await client.models.generateContent({
         model: 'gemini-2.5-flash',
-        contents: prompt,
+        contents: verifyPrompt,
         config: {
-            responseMimeType: 'application/json',
-            responseSchema: verificationSchema,
             tools: [{ googleSearch: {} }]
         }
     });
 
+    const verificationText = verifyResponse.text;
+    console.log('Verification result:', verificationText);
+
+    // Step 2: Parse into structured format
+    const parsePrompt = `Parse the following verification report into structured JSON format.
+
+Report:
+${verificationText}
+
+Return JSON matching this schema:
+{
+  "summary": { "totalEntriesVerified": number, "issuesFound": number },
+  "hasIssues": boolean (true if any problems found, false if all correct),
+  "issues": [{ "itemId": string, "itemName": string, "field": string, "currentValue": string, "correctValue": string, "explanation": string }],
+  "overallAssessment": string
+}
+
+If the report says "All data verified successfully" or similar, set hasIssues to false and issues to empty array.`;
+
+    console.log('Step 2: Parsing into structured format...');
+    const parseResponse = await client.models.generateContent({
+        model: 'gemini-2.5-flash',
+        contents: parsePrompt,
+        config: {
+            responseMimeType: 'application/json',
+            responseSchema: verificationSchema
+        }
+    });
+
     // Parse the structured JSON response
-    const result = JSON.parse(response.text);
+    const result = JSON.parse(parseResponse.text);
     return result;
 }
 
