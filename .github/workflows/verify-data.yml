@@ -1,0 +1,79 @@
+name: Verify Wiki Data
+
+on:
+  push:
+    paths:
+      - 'scripts/data/**'
+  pull_request:
+    paths:
+      - 'scripts/data/**'
+
+jobs:
+  verify-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need previous commit for diff
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd .github/scripts
+          npm install
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} > changed_files.txt
+          else
+            git diff --name-only HEAD~1 HEAD > changed_files.txt
+          fi
+          echo "Changed files:"
+          cat changed_files.txt
+
+      - name: Run verification
+        id: verify
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: |
+          cd .github/scripts
+          node verify-data.js --files ../../changed_files.txt --output ../../verification_report.md
+          
+      - name: Post verification summary
+        run: |
+          if [ -f verification_report.md ]; then
+            echo "## 📋 Data Verification Report" >> $GITHUB_STEP_SUMMARY
+            cat verification_report.md >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## 📋 Data Verification Report\n\n';
+            
+            if (fs.existsSync('verification_report.md')) {
+              report += fs.readFileSync('verification_report.md', 'utf8');
+            } else {
+              report += '✅ No data changes detected or verification was skipped.';
+            }
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: report
+            });
