@@ -73,6 +73,20 @@ export const searchIndex = [
         icon: "textures/blocks/prismarine",
         themeColor: "§b" // aqua/teal
     },
+    {
+        id: "minecraft:concrete",
+        name: "Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete",
+        themeColor: "§7" // gray/white
+    },
+    {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        category: "block",
+        icon: "textures/blocks/tuff",
+        themeColor: "§8" // dark gray
+    },
 
     // Items
     {
@@ -131,6 +145,20 @@ export const searchIndex = [
         icon: "textures/items/elytra",
         themeColor: "§e" // light gray/white
     },
+    {
+        id: "minecraft:netherite_ingot",
+        name: "Netherite Ingot",
+        category: "item",
+        icon: "textures/items/netherite_ingot",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:shulker_box",
+        name: "Shulker Box",
+        category: "item",
+        icon: "textures/items/shulker_box",
+        themeColor: "§d" // purple
+    },
 
     // Mobs
     {
@@ -188,5 +216,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_villager.png",
         themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:axolotl",
+        name: "Axolotl",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_axolotl.png",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:allay",
+        name: "Allay",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_allay.png",
+        themeColor: "§3" // cyan
     }
 ];

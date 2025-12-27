@@ -235,6 +235,54 @@ export async function getItemDetails(itemId) {
                 "Takes chest armor slot and provides no protection"
             ],
             description: "The Elytra is a rare pair of wings found in End Ships that allows players to glide through the air. When equipped in the chest slot, jumping mid-air activates gliding mode. Elytra durability decreases by one point per second of flight, providing over 7 minutes of flight without enchantments. Firework rockets can be used to boost speed without damaging the elytra. With Unbreaking III, flight time extends to approximately 28 minutes."
+        },
+        "minecraft:netherite_ingot": {
+            id: "minecraft:netherite_ingot",
+            name: "Netherite Ingot",
+            maxStack: 64,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Upgrade diamond gear to netherite",
+                secondaryUse: "Crafting beacon bases and netherite blocks"
+            },
+            crafting: {
+                recipeType: "Crafting",
+                ingredients: ["Netherite Scrap x4", "Gold Ingot x4"]
+            },
+            specialNotes: [
+                "Netherite has blast resistance of 1,200",
+                "Tools and armor float in lava and cannot burn",
+                "Items drop as a block when destroyed by a wither or ghast fireball",
+                "Can be crafted into a 3x3 netherite block for decorative storage",
+                "Higher durability than diamond gear"
+            ],
+            description: "Netherite Ingots are the highest tier material in Minecraft, crafted from netherite scrap and gold ingots. They are used with a smithing table to upgrade diamond equipment to netherite, which offers increased durability and damage resistance. Netherite items float in lava and cannot be destroyed by fire. They are essential for end-game gear and are found in bastion remnant treasure chests."
+        },
+        "minecraft:shulker_box": {
+            id: "minecraft:shulker_box",
+            name: "Shulker Box",
+            maxStack: 1,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Portable 27-slot storage",
+                secondaryUse: "Transporting items securely"
+            },
+            crafting: {
+                recipeType: "Uncraftable",
+                ingredients: ["Found in End Cities"]
+            },
+            specialNotes: [
+                "Has 27 inventory slots for storage",
+                "Items are preserved when the box is broken",
+                "Can be dyed into 16 colors using dyes",
+                "Dyed boxes can be undyed using a cauldron",
+                "Cannot be placed inside other shulker boxes",
+                "Provides 36 slots when stacked in a double chest configuration",
+                "Makes a distinctive sound when opened"
+            ],
+            description: "Shulker Boxes are portable containers found in End Cities that provide 27 slots of storage space. When broken with a pickaxe, the shulker box drops with all its contents preserved, making them ideal for transporting large quantities of items. They can be dyed any of the 16 Minecraft colors to help organize storage or create aesthetic builds. Shulker boxes are essential for late-game exploration and base organization."
         }
     };
 
