@@ -69,5 +69,40 @@ export const neutralMobs = {
             { item: "Spider Eye", chance: "0-1" }
         ],
         description: "Spiders are neutral mobs that become hostile in low light conditions. During the day or in bright areas (light level 12+), they are passive and will not attack unless provoked. At night or in darkness, they become hostile and pursue players. Spiders are unique in their ability to climb any vertical surface, making them dangerous as they can attack from unexpected angles. They drop string and spider eyes, which are useful for crafting and brewing."
+    },
+    "minecraft:bee": {
+        id: "minecraft:bee",
+        name: "Bee",
+        health: 10,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Sunflower Plains", "Flower Forest", "Forest", "Birch Forest", "Old Growth Birch Forest", "Meadow", "Mangrove Swamp", "Cherry Grove"],
+            lightLevel: "Any",
+            groupSize: "1-3 (in bee nests)"
+        },
+        behaviorTraits: [
+            "Neutral mobs that become hostile when attacked or when their nest/hive is disturbed",
+            "All nearby bees become enraged when one is attacked",
+            "Attack only once, then die approximately 1 minute later (lose stinger)",
+            "Apply Poison effect to players on successful sting (10 seconds on Normal, 18 seconds on Hard, no poison on Easy)",
+            "Can be pacified with a campfire placed under their hive",
+            "Collect nectar from flowers and return to hive to make honey",
+            "Can pollinate crops, advancing their growth stages",
+            "Follow players holding flowers and can be bred with any flower",
+            "Are arthropods (Bane of Arthropods effective)",
+            "Babies can fly through small gaps and do not attack",
+            "Bees do not deal damage in Peaceful difficulty"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (adult), 0 (baby)" }
+        ],
+        description: "Bees are neutral arthropod mobs that spawn naturally in bee nests within flower-rich biomes like plains and flower forests. They are the only arthropod mob that can spawn in any difficulty including Peaceful. Bees spend their days collecting nectar from flowers and returning it to their hive to produce honey. When angered (by attacking them, harvesting honey, or destroying their nest without a campfire), bees swarm and attack as a group, stinging once and then dying shortly after. Their sting applies poison to players for varying durations depending on difficulty. Bees are valuable for pollination, as they can accelerate crop growth, and for honey/honeycomb production when housed in beehives. Campfires placed directly under hives pacify bees during harvesting."
     }
 };

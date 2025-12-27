@@ -66,5 +66,37 @@ export const passiveMobs = {
             { item: "None", chance: "N/A" }
         ],
         description: "Villagers are passive NPCs that inhabit villages across the Overworld. They are essential to gameplay due to their trading system, which allows players to exchange emeralds for valuable items including enchanted gear, food, and resources. Each villager has a profession that determines their trades and appearance. Villagers work at job site blocks during the day and sleep at night. They can be converted to zombie villagers by zombie attacks, which can then be cured back to normal with a splash potion of weakness and a golden apple."
+    },
+    "minecraft:axolotl": {
+        id: "minecraft:axolotl",
+        name: "Axolotl",
+        health: 14,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Lush Caves"],
+            lightLevel: "Any (darkness preferred)",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Aquatic mob that attacks hostile aquatic mobs",
+            "Can be bred with buckets of tropical fish",
+            "Can be led with leads and follow players holding tropical fish",
+            "Plays dead when damaged, gaining regeneration for 10 seconds",
+            "Dies after 5 minutes out of water",
+            "Comes in 5 color variants: Leucistic (pink), Wild (brown), Gold, Cyan, and rare Blue (1 in 1200)",
+            "Grants Regeneration I to players who help kill mobs it's fighting",
+            "Attacks drowned, guardians, glow squids, squids, fish, and other aquatic hostile mobs"
+        ],
+        drops: [
+            { item: "Experience", chance: "1 (when killed by player/tamed wolf)" }
+        ],
+        description: "Axolotls are passive aquatic mobs found exclusively in lush caves. They are the only mob that can breed underwater and have 5 color variants, with the rare blue variant having a 1 in 1200 spawn chance. Axolotls are unique helpers that fight hostile aquatic mobs like drowned and guardians. When a player kills a mob that an axolotl is fighting, the player receives Regeneration I for 5 seconds per axolotl, making them valuable allies for underwater exploration. Axolotls can play dead when damaged, recovering health and becoming temporarily immune to enemy attacks. They must be kept in water as they die after 5 minutes on land."
     }
 };
