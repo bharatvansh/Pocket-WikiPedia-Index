@@ -79,10 +79,13 @@ Format your response as a simple markdown report:
 If everything looks correct, just say "All data verified successfully."`;
 
     const response = await client.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-3-pro-preview',
         contents: prompt,
         config: {
-            tools: [{ googleSearch: {} }]
+            thinkingConfig: {
+                thinkingLevel: 'HIGH'  // Maximum reasoning depth
+            },
+            tools: [{ googleSearch: {} }]  // Google Search grounding enabled
         }
     });
 
