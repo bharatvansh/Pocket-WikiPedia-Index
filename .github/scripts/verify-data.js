@@ -1,6 +1,6 @@
 /**
  * Pocket Wikipedia Data Verification Script
- * Uses Google Gemini with Grounding (Google Search) to verify Minecraft wiki data
+ * Simple: Send all changes to Gemini, get verification report
  */
 
 import fs from 'fs';
@@ -9,19 +9,6 @@ import { fileURLToPath } from 'url';
 import { GoogleGenAI } from '@google/genai';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-// Lazy-initialize Gemini client
-let geminiClient = null;
-
-function getGeminiClient() {
-    if (!geminiClient) {
-        if (!process.env.GEMINI_API_KEY) {
-            throw new Error('GEMINI_API_KEY environment variable is not set');
-        }
-        geminiClient = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-    }
-    return geminiClient;
-}
 
 /**
  * Parse command line arguments
@@ -44,183 +31,62 @@ function parseArgs() {
 }
 
 /**
- * Extract data entries from JavaScript files
+ * Read and combine all changed data files
  */
-async function extractDataEntries(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const entries = [];
+function getChangedData(changedFiles) {
+    let allData = '';
 
-    // Extract entries from search_index.js
-    if (filePath.includes('search_index.js')) {
-        const indexRegex = /{\s*id:\s*"([^"]+)",\s*name:\s*"([^"]+)",\s*category:\s*"([^"]+)"/g;
-        let match;
-        while ((match = indexRegex.exec(content)) !== null) {
-            entries.push({
-                id: match[1],
-                name: match[2],
-                category: match[3],
-                type: 'index',
-                file: filePath
-            });
+    for (const file of changedFiles) {
+        const fullPath = path.resolve(__dirname, '../..', file);
+        if (fs.existsSync(fullPath)) {
+            const content = fs.readFileSync(fullPath, 'utf8');
+            allData += `\n--- File: ${file} ---\n${content}\n`;
         }
     }
 
-    // Extract entries from provider files
-    if (filePath.includes('_provider.js')) {
-        // Match block/item/mob data objects
-        const dataRegex = /"(minecraft:[^"]+)":\s*{([^}]+(?:{[^}]*}[^}]*)*)}/g;
-        let match;
-        while ((match = dataRegex.exec(content)) !== null) {
-            const id = match[1];
-            const dataBlock = match[2];
-
-            // Extract key properties
-            const nameMatch = dataBlock.match(/name:\s*"([^"]+)"/);
-            const descMatch = dataBlock.match(/description:\s*"([^"]+)"/);
-            const hardnessMatch = dataBlock.match(/hardness:\s*([\d.]+)/);
-            const healthMatch = dataBlock.match(/health:\s*([\d.]+)/);
-
-            if (nameMatch) {
-                entries.push({
-                    id,
-                    name: nameMatch[1],
-                    description: descMatch ? descMatch[1] : null,
-                    hardness: hardnessMatch ? parseFloat(hardnessMatch[1]) : null,
-                    health: healthMatch ? parseFloat(healthMatch[1]) : null,
-                    type: 'provider',
-                    file: filePath,
-                    rawData: dataBlock
-                });
-            }
-        }
-    }
-
-    return entries;
+    return allData;
 }
 
 /**
- * Verify a single entry using Gemini with Google Search grounding
+ * Verify all data with Gemini in one request
  */
-async function verifyEntry(entry) {
-    let prompt = `Please verify the following Minecraft Bedrock Edition information for "${entry.name}" (${entry.id}). `;
-    prompt += `Search the official Minecraft Wiki and reliable sources to confirm accuracy.\n\n`;
-
-    if (entry.description) {
-        prompt += `Description: "${entry.description}"\n`;
-    }
-    if (entry.hardness !== null) {
-        prompt += `Hardness: ${entry.hardness}\n`;
-    }
-    if (entry.health !== null) {
-        prompt += `Health: ${entry.health}\n`;
-    }
-    if (entry.rawData) {
-        prompt += `\nFull data:\n${entry.rawData}\n`;
+async function verifyWithGemini(dataContent) {
+    if (!process.env.GEMINI_API_KEY) {
+        throw new Error('GEMINI_API_KEY environment variable is not set');
     }
 
-    prompt += `\nRespond in this exact JSON format:
-{
-  "verified": true/false,
-  "accuracy": "high/medium/low",
-  "issues": ["list of any inaccuracies found"],
-  "corrections": ["suggested corrections if any"],
-  "sources": ["URLs of sources checked"]
-}`;
+    const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-    try {
-        const client = getGeminiClient();
+    const prompt = `You are a Minecraft Bedrock Edition wiki data verifier.
 
-        // Use Gemini with Google Search grounding
-        const response = await client.models.generateContent({
-            model: 'gemini-3-flash-preview',
-            contents: prompt,
-            config: {
-                tools: [{ googleSearch: {} }]
-            }
-        });
+Review the following Minecraft data new entries and verify their accuracy using your knowledge.
 
-        const content = response.text;
+${dataContent}
 
-        // Extract JSON from response
-        const jsonMatch = content.match(/\{[\s\S]*\}/);
-        if (jsonMatch) {
-            return {
-                entry,
-                result: JSON.parse(jsonMatch[0]),
-                success: true
-            };
+- Use Internet Web to verify each piece of info from high quality and updated sources.
+- Compare your finding with the existing changes data.
+
+For each entry that has an issue, list:
+- The item name and ID
+- What's wrong
+- The correct value
+
+Format your response as a simple markdown report:
+- Start with a summary (how many verified, how many have issues)
+- Then list any issues found with corrections
+- Be concise, only mention items that have actual problems
+
+If everything looks correct, just say "All data verified successfully."`;
+
+    const response = await client.models.generateContent({
+        model: 'gemini-2.0-flash',
+        contents: prompt,
+        config: {
+            tools: [{ googleSearch: {} }]
         }
+    });
 
-        return {
-            entry,
-            result: { verified: false, issues: ['Could not parse verification response'] },
-            success: false
-        };
-    } catch (error) {
-        return {
-            entry,
-            result: { verified: false, issues: [`API error: ${error.message}`] },
-            success: false
-        };
-    }
-}
-
-/**
- * Generate markdown report
- */
-function generateReport(results) {
-    let report = '';
-    let verified = 0;
-    let issues = 0;
-    let errors = 0;
-
-    for (const { entry, result, success } of results) {
-        if (!success) {
-            errors++;
-            report += `### ❌ ${entry.name} (${entry.id})\n`;
-            report += `**Error:** ${result.issues.join(', ')}\n\n`;
-        } else if (result.verified && result.issues.length === 0) {
-            verified++;
-            report += `### ✅ ${entry.name} (${entry.id})\n`;
-            report += `**Accuracy:** ${result.accuracy}\n\n`;
-        } else {
-            issues++;
-            report += `### ⚠️ ${entry.name} (${entry.id})\n`;
-            report += `**Accuracy:** ${result.accuracy}\n`;
-
-            if (result.issues && result.issues.length > 0) {
-                report += `**Issues Found:**\n`;
-                for (const issue of result.issues) {
-                    report += `- ${issue}\n`;
-                }
-            }
-
-            if (result.corrections && result.corrections.length > 0) {
-                report += `\n**Suggested Corrections:**\n`;
-                for (const correction of result.corrections) {
-                    report += `- ${correction}\n`;
-                }
-            }
-
-            if (result.sources && result.sources.length > 0) {
-                report += `\n**Sources:**\n`;
-                for (const source of result.sources) {
-                    report += `- ${source}\n`;
-                }
-            }
-            report += '\n';
-        }
-    }
-
-    // Summary
-    const summary = `### Summary\n\n` +
-        `| Status | Count |\n` +
-        `|--------|-------|\n` +
-        `| ✅ Verified | ${verified} |\n` +
-        `| ⚠️ Issues Found | ${issues} |\n` +
-        `| ❌ Errors | ${errors} |\n\n`;
-
-    return summary + report;
+    return response.text;
 }
 
 /**
@@ -232,7 +98,7 @@ async function main() {
     console.log('🔍 Pocket Wikipedia Data Verification');
     console.log('=====================================\n');
 
-    // Test mode - verify sample entries
+    // Test mode
     if (options.test) {
         console.log('Running in test mode...\n');
 
@@ -240,24 +106,19 @@ async function main() {
             console.log('⚠️  GEMINI_API_KEY not set. Skipping API test.\n');
             console.log('To test locally, set the environment variable:\n');
             console.log('  $env:GEMINI_API_KEY = "your-api-key"  (PowerShell)');
-            console.log('  set GEMINI_API_KEY=your-api-key       (CMD)');
-            console.log('  export GEMINI_API_KEY=your-api-key    (Bash)\n');
             process.exit(0);
         }
 
-        // Test with a single entry
-        const testEntry = {
-            id: 'minecraft:dirt',
-            name: 'Dirt',
-            description: 'Dirt is one of the most common blocks in Minecraft.',
-            hardness: 0.5,
-            type: 'test',
-            file: 'test'
-        };
+        const testData = `
+"minecraft:dirt": {
+    name: "Dirt",
+    description: "A common block found almost everywhere",
+    hardness: 0.5
+}`;
 
-        console.log(`Testing verification for: ${testEntry.name}`);
-        const result = await verifyEntry(testEntry);
-        console.log('\nResult:', JSON.stringify(result, null, 2));
+        console.log('Testing with sample data...');
+        const result = await verifyWithGemini(testData);
+        console.log('\nResult:\n', result);
         return;
     }
 
@@ -284,49 +145,37 @@ async function main() {
     changedFiles.forEach(f => console.log(`  - ${f}`));
     console.log('');
 
-    // Extract all entries from changed files
-    const allEntries = [];
-    for (const file of changedFiles) {
-        const fullPath = path.resolve(__dirname, '../..', file);
-        if (fs.existsSync(fullPath)) {
-            const entries = await extractDataEntries(fullPath);
-            allEntries.push(...entries);
-        }
-    }
+    // Get all changed data
+    const dataContent = getChangedData(changedFiles);
 
-    if (allEntries.length === 0) {
-        console.log('No data entries found in changed files.');
+    if (!dataContent.trim()) {
+        console.log('No data content found in changed files.');
         if (options.output) {
-            fs.writeFileSync(options.output, '✅ No verifiable data entries found.\n');
+            fs.writeFileSync(options.output, '✅ No verifiable data found.\n');
         }
         return;
     }
 
-    console.log(`Found ${allEntries.length} data entries to verify.\n`);
+    // Verify with Gemini
+    console.log('Sending to Gemini for verification...\n');
 
-    // Verify entries (limit to avoid rate limits)
-    const entriesToVerify = allEntries.slice(0, 10); // Max 10 per run
-    if (allEntries.length > 10) {
-        console.log(`⚠️  Limiting to first 10 entries to avoid rate limits.\n`);
-    }
+    try {
+        const report = await verifyWithGemini(dataContent);
 
-    const results = [];
-    for (const entry of entriesToVerify) {
-        console.log(`Verifying: ${entry.name}...`);
-        const result = await verifyEntry(entry);
-        results.push(result);
+        console.log('--- Verification Report ---\n');
+        console.log(report);
 
-        // Rate limit: wait 1 second between requests
-        await new Promise(resolve => setTimeout(resolve, 1000));
-    }
-
-    // Generate report
-    const report = generateReport(results);
-    console.log('\n' + report);
-
-    if (options.output) {
-        fs.writeFileSync(options.output, report);
-        console.log(`\nReport saved to: ${options.output}`);
+        if (options.output) {
+            fs.writeFileSync(options.output, report);
+            console.log(`\nReport saved to: ${options.output}`);
+        }
+    } catch (error) {
+        const errorMsg = `❌ Verification failed: ${error.message}`;
+        console.error(errorMsg);
+        if (options.output) {
+            fs.writeFileSync(options.output, errorMsg);
+        }
+        process.exit(1);
     }
 }
 
