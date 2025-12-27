@@ -45,7 +45,7 @@ jobs:
       - name: Run verification
         id: verify
         env:
-          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd .github/scripts
           node verify-data.js --files ../../changed_files.txt --output ../../verification_report.md

@@ -8,6 +8,6 @@
     "test": "node verify-data.js --test"
   },
   "dependencies": {
-    "openai": "^4.0.0"
+    "@google/genai": "^1.0.0"
   }
 }

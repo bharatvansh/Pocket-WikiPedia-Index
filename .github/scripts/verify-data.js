@@ -1,29 +1,26 @@
 /**
  * Pocket Wikipedia Data Verification Script
- * Uses Perplexity AI to verify Minecraft wiki data accuracy
+ * Uses Google Gemini with Grounding (Google Search) to verify Minecraft wiki data
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import OpenAI from 'openai';
+import { GoogleGenAI } from '@google/genai';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Lazy-initialize Perplexity client
-let perplexity = null;
+// Lazy-initialize Gemini client
+let geminiClient = null;
 
-function getPerplexityClient() {
-    if (!perplexity) {
-        if (!process.env.PERPLEXITY_API_KEY) {
-            throw new Error('PERPLEXITY_API_KEY environment variable is not set');
+function getGeminiClient() {
+    if (!geminiClient) {
+        if (!process.env.GEMINI_API_KEY) {
+            throw new Error('GEMINI_API_KEY environment variable is not set');
         }
-        perplexity = new OpenAI({
-            apiKey: process.env.PERPLEXITY_API_KEY,
-            baseURL: 'https://api.perplexity.ai'
-        });
+        geminiClient = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
     }
-    return perplexity;
+    return geminiClient;
 }
 
 /**
@@ -102,11 +99,9 @@ async function extractDataEntries(filePath) {
 }
 
 /**
- * Verify a single entry using Perplexity AI
+ * Verify a single entry using Gemini with Google Search grounding
  */
 async function verifyEntry(entry) {
-    const category = entry.id.includes(':') ? entry.id.split(':')[1] : entry.name;
-
     let prompt = `Please verify the following Minecraft Bedrock Edition information for "${entry.name}" (${entry.id}). `;
     prompt += `Search the official Minecraft Wiki and reliable sources to confirm accuracy.\n\n`;
 
@@ -133,23 +128,18 @@ async function verifyEntry(entry) {
 }`;
 
     try {
-        const client = getPerplexityClient();
-        const response = await client.chat.completions.create({
-            model: 'sonar',
-            messages: [
-                {
-                    role: 'system',
-                    content: 'You are a Minecraft wiki fact-checker. Verify game data against official sources. Be precise about game mechanics, stats, and descriptions. Always respond with valid JSON.'
-                },
-                {
-                    role: 'user',
-                    content: prompt
-                }
-            ],
-            max_tokens: 1000
+        const client = getGeminiClient();
+
+        // Use Gemini with Google Search grounding
+        const response = await client.models.generateContent({
+            model: 'gemini-2.5-flash',
+            contents: prompt,
+            config: {
+                tools: [{ googleSearch: {} }]
+            }
         });
 
-        const content = response.choices[0].message.content;
+        const content = response.text;
 
         // Extract JSON from response
         const jsonMatch = content.match(/\{[\s\S]*\}/);
@@ -246,12 +236,12 @@ async function main() {
     if (options.test) {
         console.log('Running in test mode...\n');
 
-        if (!process.env.PERPLEXITY_API_KEY) {
-            console.log('⚠️  PERPLEXITY_API_KEY not set. Skipping API test.\n');
+        if (!process.env.GEMINI_API_KEY) {
+            console.log('⚠️  GEMINI_API_KEY not set. Skipping API test.\n');
             console.log('To test locally, set the environment variable:\n');
-            console.log('  $env:PERPLEXITY_API_KEY = "your-api-key"  (PowerShell)');
-            console.log('  set PERPLEXITY_API_KEY=your-api-key       (CMD)');
-            console.log('  export PERPLEXITY_API_KEY=your-api-key    (Bash)\n');
+            console.log('  $env:GEMINI_API_KEY = "your-api-key"  (PowerShell)');
+            console.log('  set GEMINI_API_KEY=your-api-key       (CMD)');
+            console.log('  export GEMINI_API_KEY=your-api-key    (Bash)\n');
             process.exit(0);
         }
 
