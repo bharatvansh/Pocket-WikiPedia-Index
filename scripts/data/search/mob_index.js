@@ -89,5 +89,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_bee.png",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:allay",
+        name: "Allay",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_allay.png",
+        themeColor: "§d" // light blue
+    },
+    {
+        id: "minecraft:frog",
+        name: "Frog",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_frog.png",
+        themeColor: "§a" // green
     }
 ];
