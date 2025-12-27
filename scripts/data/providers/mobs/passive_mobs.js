@@ -168,5 +168,35 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Frogs are passive mobs introduced in the Wild Update that inhabit swamp and mangrove swamp biomes. They are excellent jumpers, capable of leaping up to 8 blocks high and taking significantly reduced fall damage. Frogs use their long tongues to eat small slimes and small magma cubes—when they eat a small magma cube, it produces a froglight, a decorative light block that comes in three colors: Pearlescent (from warm frogs), Verdant (from cold frogs), and Ochre (from temperate frogs). Frogs come in three variants determined by the biome temperature where their tadpole stage matured. They can be bred using slimeballs and spawn naturally in groups of 2-5. Their unique ability to convert magma cubes into froglights makes them valuable for farming light sources, while their jumping behavior adds life to swamp environments."
+    },
+    "minecraft:camel": {
+        id: "minecraft:camel",
+        name: "Camel",
+        health: 32,
+        stats: {
+            attackDamage: 0
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Desert Village"],
+            lightLevel: "Any",
+            groupSize: "1-2 (per village)"
+        },
+        behaviorTraits: [
+            "Tall rideable passive mob that naturally spawns in desert villages",
+            "Can be saddled and ridden by up to two players at once",
+            "Has a dash ability while being ridden, letting it burst forward after a short charge",
+            "Can sit down when idle; interacting causes it to stand",
+            "Can be bred using cactus",
+            "Its height makes it harder for many melee mobs to reach riders"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Camels are tall passive mobs that spawn in desert villages. Unlike most mounts, they can carry two players at the same time, making them a convenient way to travel together without needing two separate animals. When ridden, camels can perform a short charged dash to quickly reposition or cross gaps, and their height often keeps riders safely above the reach of many ground-based melee attacks. Camels can be bred with cactus, and a saddle is required to ride them."
     }
 };

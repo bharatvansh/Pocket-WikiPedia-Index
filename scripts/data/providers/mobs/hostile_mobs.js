@@ -132,6 +132,34 @@ export const hostileMobs = {
         ],
         description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
     },
+    "minecraft:breeze": {
+        id: "minecraft:breeze",
+        name: "Breeze",
+        health: 30,
+        stats: {
+            attackDamage: 2
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Trial Chambers"],
+            lightLevel: "Any",
+            groupSize: "Varies (spawns from Trial Spawners)"
+        },
+        behaviorTraits: [
+            "Agile hostile mob that appears in Trial Chambers",
+            "Attacks by launching wind charges that deal light damage and strong knockback",
+            "Uses high jumps and quick repositioning to keep distance from melee attackers",
+            "Wind charge impacts create a gust that can push entities and interact with blocks that respond to projectiles",
+            "Most dangerous in enclosed rooms where knockback can push players into traps or off ledges"
+        ],
+        drops: [
+            { item: "Breeze Rod", chance: "1 (increased by Looting)" }
+        ],
+        description: "Breezes are hostile mobs encountered in Trial Chambers. Rather than relying on heavy melee hits, a breeze fights with wind charges—projectiles that create a gust on impact, knocking targets back and disrupting positioning. Their mobility and knockback-focused attacks make them especially threatening in compact Trial Chamber arenas, where getting pushed into hazards can be more dangerous than the direct damage itself. Breezes drop breeze rods, a key material for Trial Chambers-related progression and crafting."
+    },
     "minecraft:guardian": {
         id: "minecraft:guardian",
         name: "Guardian",
