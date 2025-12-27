@@ -45,6 +45,20 @@ export const searchIndex = [
         icon: "textures/blocks/copper_ore",
         themeColor: "§6" // orange/copper
     },
+    {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        category: "block",
+        icon: "textures/blocks/crafting_table",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:ancient_debris",
+        name: "Ancient Debris",
+        category: "block",
+        icon: "textures/blocks/ancient_debris",
+        themeColor: "§8" // dark gray/brown
+    },
     
     // Items
     {
@@ -75,6 +89,20 @@ export const searchIndex = [
         icon: "textures/items/bow",
         themeColor: "§e" // yellow
     },
+    {
+        id: "minecraft:netherite_sword",
+        name: "Netherite Sword",
+        category: "item",
+        icon: "textures/items/netherite_sword",
+        themeColor: "§8" // dark gray/black
+    },
+    {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        category: "item",
+        icon: "textures/items/totem",
+        themeColor: "§e" // gold/yellow
+    },
     
     // Mobs
     {
@@ -104,5 +132,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_enderman.png",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:warden",
+        name: "Warden",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
+        themeColor: "§1" // dark blue
+    },
+    {
+        id: "minecraft:villager",
+        name: "Villager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_villager.png",
+        themeColor: "§6" // brown
     }
 ];

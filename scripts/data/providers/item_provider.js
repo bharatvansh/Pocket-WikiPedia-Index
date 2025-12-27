@@ -124,6 +124,59 @@ export async function getItemDetails(itemId) {
                 "Can be repaired with another bow or string"
             ],
             description: "The Bow is a ranged weapon that shoots arrows at enemies from a distance. It must be charged before firing, with longer charge times resulting in more damage and longer range. Bows are essential for fighting enemies from safety and can be enhanced with various enchantments."
+        },
+        "minecraft:netherite_sword": {
+            id: "minecraft:netherite_sword",
+            name: "Netherite Sword",
+            maxStack: 1,
+            durability: 2031,
+            enchantable: true,
+            usage: {
+                primaryUse: "Melee combat",
+                secondaryUse: "Breaking cobwebs quickly"
+            },
+            combat: {
+                attackDamage: 8,
+                attackSpeed: 1.6
+            },
+            crafting: {
+                recipeType: "Smithing",
+                ingredients: ["Diamond Sword", "Netherite Ingot", "Smithing Template"]
+            },
+            specialNotes: [
+                "Strongest sword in Minecraft",
+                "Cannot be destroyed by lava or fire",
+                "Can be repaired with Netherite Ingots",
+                "Retains enchantments when upgraded from diamond",
+                "Requires netherite upgrade smithing template",
+                "More durable than diamond sword (2031 vs 1561 uses)"
+            ],
+            description: "The Netherite Sword is the most powerful melee weapon in Minecraft. It deals 8 attack damage and has exceptional durability. Netherite tools are fireproof and will float in lava. To create one, you must upgrade a diamond sword using a netherite ingot and a netherite upgrade smithing template at a smithing table."
+        },
+        "minecraft:totem_of_undying": {
+            id: "minecraft:totem_of_undying",
+            name: "Totem of Undying",
+            maxStack: 1,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Prevents death when held",
+                secondaryUse: "Grants regeneration and absorption effects"
+            },
+            crafting: {
+                recipeType: "N/A",
+                ingredients: ["Dropped by Evokers"]
+            },
+            specialNotes: [
+                "Must be held in main hand or off-hand to activate",
+                "Consumed upon use (single-use item)",
+                "Grants Regeneration II for 40 seconds",
+                "Grants Absorption II for 5 seconds",
+                "Grants Fire Resistance for 40 seconds if killed by fire",
+                "Only obtainable from Evokers in Woodland Mansions or Raids",
+                "Restores 1 health point when activated"
+            ],
+            description: "The Totem of Undying is a rare life-saving item that prevents death when held. When you would normally die, the totem is consumed and restores you to 1 health while granting beneficial effects. Totems can only be obtained by defeating Evokers, which spawn in Woodland Mansions and during Raids. This makes them extremely valuable for dangerous situations."
         }
     };
 

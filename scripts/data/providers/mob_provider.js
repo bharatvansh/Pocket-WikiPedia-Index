@@ -155,6 +155,71 @@ export async function getMobDetails(mobId) {
                 { item: "Block", chance: "If carrying one" }
             ],
             description: "Endermen are tall, mysterious neutral mobs that can teleport and pick up blocks. They are normally passive but become hostile if a player looks at their face or attacks them. Endermen are damaged by water and rain, causing them to teleport away rapidly. They drop ender pearls, which are essential for locating and accessing The End dimension."
+        },
+        "minecraft:warden": {
+            id: "minecraft:warden",
+            name: "Warden",
+            health: 500,
+            stats: {
+                attackDamage: 30,
+                movementSpeed: 0.3
+            },
+            classification: {
+                type: "Hostile",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Deep Dark"],
+                lightLevel: "Any",
+                groupSize: "1"
+            },
+            behaviorTraits: [
+                "Blind - relies on sound and vibrations to detect players",
+                "Detects vibrations from movement, mining, and other actions",
+                "Can be distracted by throwing projectiles",
+                "Emerges from the ground when sculk shriekers activate",
+                "Deals massive melee damage that bypasses armor",
+                "Has a powerful sonic boom ranged attack",
+                "Becomes increasingly agitated with continued disturbance",
+                "Despawns after 60 seconds of calm"
+            ],
+            drops: [
+                { item: "Sculk Catalyst", chance: "1" }
+            ],
+            description: "The Warden is the strongest hostile mob in Minecraft, found exclusively in the Deep Dark biome. It is completely blind and hunts using vibrations and smell. The Warden has 500 health points and deals devastating damage that can kill even heavily armored players in a few hits. It cannot be outrun and its sonic boom attack ignores armor and shields. The best strategy is to avoid detection by sneaking and avoiding vibrations."
+        },
+        "minecraft:villager": {
+            id: "minecraft:villager",
+            name: "Villager",
+            health: 20,
+            stats: {
+                attackDamage: 0,
+                movementSpeed: 0.5
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Villages in Plains", "Desert", "Savanna", "Taiga", "Snowy Tundra", "Swamp", "Jungle"],
+                lightLevel: "Any",
+                groupSize: "Varies by village"
+            },
+            behaviorTraits: [
+                "Trades items with players using emeralds",
+                "Has 15 different profession types",
+                "Gains experience and levels up trades through trading",
+                "Requires a job site block to gain a profession",
+                "Sleeps at night and wakes at dawn",
+                "Gossips with other villagers about player actions",
+                "Seeks shelter during rain",
+                "Runs from zombies and other hostile mobs",
+                "Breeds when given food (bread, carrots, potatoes, beetroots)"
+            ],
+            drops: [
+                { item: "Nothing", chance: "N/A" }
+            ],
+            description: "Villagers are passive mobs that live in villages and can trade with players. Each villager can take on one of 15 professions, determined by nearby job site blocks. They offer unique trades for emeralds, and their trade options improve as they gain experience. Villagers are essential for obtaining many rare items like enchanted books, diamond gear, and special food items. Protecting villagers from zombies is important as they can be converted into zombie villagers."
         }
     };
 

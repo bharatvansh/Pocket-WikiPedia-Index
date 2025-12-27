@@ -112,6 +112,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "-16 to 112"
             },
             description: "Copper Ore is a common ore found in the Overworld that drops raw copper when mined. It can be smelted into copper ingots, which are used to craft various copper blocks, lightning rods, and spyglasses. Copper blocks naturally oxidize over time, changing from orange to green."
+        },
+        "minecraft:crafting_table": {
+            id: "minecraft:crafting_table",
+            name: "Crafting Table",
+            hardness: 2.5,
+            blastResistance: 2.5,
+            flammability: true,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Axe",
+                minTier: "None",
+                silkTouch: false
+            },
+            drops: ["Crafting Table"],
+            generation: {
+                dimension: "Overworld",
+                yRange: "Villages, Witch Huts"
+            },
+            description: "The Crafting Table is one of the most essential blocks in Minecraft, providing access to the 3x3 crafting grid needed for most recipes. It can be crafted from 4 wooden planks of any type and is required to craft tools, weapons, armor, and most other items. Crafting tables naturally generate in villages and witch huts."
+        },
+        "minecraft:ancient_debris": {
+            id: "minecraft:ancient_debris",
+            name: "Ancient Debris",
+            hardness: 30.0,
+            blastResistance: 1200.0,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: true
+            },
+            drops: ["Ancient Debris"],
+            generation: {
+                dimension: "The Nether",
+                yRange: "8-119 (most common 8-22)"
+            },
+            description: "Ancient Debris is an extremely rare ore found only in the Nether. It is the raw material needed to create netherite, the strongest material in Minecraft. Ancient Debris has the highest blast resistance of any mineable block and cannot be destroyed by lava. When smelted, it produces netherite scrap, which can be combined with gold to create netherite ingots."
         }
     };
 
