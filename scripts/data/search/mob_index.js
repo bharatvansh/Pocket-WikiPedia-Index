@@ -131,5 +131,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_breeze.png",
         themeColor: "§b" // wind/cyan
+    },
+    {
+        id: "minecraft:strider",
+        name: "Strider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_strider.png",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:pillager",
+        name: "Pillager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_pillager.png",
+        themeColor: "§8" // dark gray
     }
 ];

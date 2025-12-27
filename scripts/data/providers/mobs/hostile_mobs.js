@@ -204,5 +204,49 @@ export const hostileMobs = {
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
         description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
+    },
+    "minecraft:pillager": {
+        id: "minecraft:pillager",
+        name: "Pillager",
+        health: 24,
+        stats: {
+            attackDamage: 5,
+            movementSpeed: 0.35
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Pillager Outpost", "Patrols (any biome)", "Raids (Villages)"],
+            lightLevel: "0-7 (natural spawn), Any (patrols and raids)",
+            groupSize: "2-5 (outposts), 2-5 (patrols), varies (raids)"
+        },
+        behaviorTraits: [
+            "Hostile illager mob that attacks players, villagers, iron golems, and wandering traders on sight",
+            "Equipped with crossbow that fires arrows with a reload time between shots",
+            "Patrols spawn naturally in all biomes, wandering in groups led by a patrol captain",
+            "Patrol captains wear ominous banners on their heads and grant Bad Omen effect when killed",
+            "Bad Omen effect triggers raids when players enter villages",
+            "During raids, pillagers spawn in waves alongside other illagers like vindicators and evokers",
+            "Participates in raids with varying numbers based on difficulty and wave number",
+            "Can open wooden doors but cannot open iron doors",
+            "Celebrates with arms raised after killing a villager",
+            "Can pick up dropped items and weapons",
+            "Crossbow can break from repeated use and pillagers become passive when unarmed",
+            "Unarmed pillagers still chase players but deal no damage",
+            "Can spawn as raid captains in later raid waves, marked by ominous banner",
+            "Naturally spawns at pillager outposts alongside iron golems in cages",
+            "Avoids staying in water and will swim to shore if necessary"
+        ],
+        drops: [
+            { item: "Arrow", chance: "0-2" },
+            { item: "Crossbow", chance: "8.5% (100% if raid captain, increased by Looting)" },
+            { item: "Emerald", chance: "0-1 (65% base chance)" },
+            { item: "Ominous Banner", chance: "If patrol or raid captain" },
+            { item: "Equipped items", chance: "If picked up" },
+            { item: "Experience", chance: "5 (20 if raid captain)" }
+        ],
+        description: "Pillagers are hostile illager mobs that serve as the primary antagonists in Minecraft's raid system. They are aggressive ranged combatants armed with crossbows, making them dangerous at both close and medium range. Pillagers spawn naturally at pillager outposts, which are large tower structures found throughout the Overworld. They also form roaming patrols that wander through all biomes, led by patrol captains distinguished by their ominous banners. When a player kills a patrol captain or raid captain, they receive the Bad Omen status effect, which triggers a raid event when the player enters a village. Raids are multi-wave attacks where pillagers spawn alongside other illager types like vindicators, evokers, and ravagers, with the goal of eliminating all villagers. Pillagers are relentless attackers that target players, villagers, iron golems, and wandering traders. They use crossbows effectively, maintaining distance while firing arrows with regular reload intervals. Their crossbows can break from overuse, rendering them passive but still mobile. Pillagers have notable AI behaviors including celebrating after killing villagers, avoiding deep water, and the ability to open wooden doors. Defeating pillagers yields valuable loot including arrows, crossbows, emeralds, and the distinctive ominous banner from captains. The raid system they're central to provides access to rare items like totems of undying and exclusive enchantments through raid rewards. Pillager outposts also contain valuable loot chests and present interesting tactical challenges due to the presence of multiple pillagers and trapped iron golems."
     }
 };
