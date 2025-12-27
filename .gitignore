@@ -28,3 +28,11 @@ verify_implementation.js
 # Minecraft specific
 *.mcpack
 *.zip
+
+# Temporary search files
+search_results.json
+detailed_search_results.json
+search_*.py
+
+# Python virtual environment
+venv/

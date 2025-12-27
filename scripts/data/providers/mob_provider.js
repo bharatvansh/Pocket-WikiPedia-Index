@@ -219,6 +219,71 @@ export async function getMobDetails(mobId) {
                 { item: "Sculk Catalyst", chance: "1" }
             ],
             description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+        },
+        "minecraft:spider": {
+            id: "minecraft:spider",
+            name: "Spider",
+            health: 16,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 0.3
+            },
+            classification: {
+                type: "Neutral",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Most Overworld biomes"],
+                lightLevel: "0-7 (Hostile), 12+ (Neutral)",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Neutral in daylight (light level 12+), hostile in darkness",
+                "Can climb any block including fences and walls",
+                "Moves faster when hostile",
+                "Jumps at players to attack",
+                "Can fit through 1-block gaps",
+                "Unaffected by cobwebs",
+                "Glowing eyes always visible, even when invisible",
+                "Small chance to spawn with potion effects on hard difficulty"
+            ],
+            drops: [
+                { item: "String", chance: "0-2" },
+                { item: "Spider Eye", chance: "0-1" }
+            ],
+            description: "Spiders are neutral mobs that become hostile in low light conditions. During the day or in bright areas (light level 12+), they are passive and will not attack unless provoked. At night or in darkness, they become hostile and pursue players. Spiders are unique in their ability to climb any vertical surface, making them dangerous as they can attack from unexpected angles. They drop string and spider eyes, which are useful for crafting and brewing."
+        },
+        "minecraft:villager": {
+            id: "minecraft:villager",
+            name: "Villager",
+            health: 20,
+            stats: {
+                attackDamage: 0,
+                movementSpeed: 0.2
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Plains", "Desert", "Savanna", "Taiga", "Snowy Tundra"],
+                lightLevel: "Any",
+                groupSize: "Villages"
+            },
+            behaviorTraits: [
+                "Passive mobs that live in villages",
+                "Can trade with players using emeralds as currency",
+                "Professions determine trade options and appearance",
+                "Gain experience and unlock new trades as they work",
+                "Run indoors during raids or at night",
+                "Socialize with other villagers and share gossip",
+                "Can be cured from zombie villager state with weakness + golden apple",
+                "Iron Golems protect villagers from hostile mobs"
+            ],
+            drops: [
+                { item: "None", chance: "N/A" }
+            ],
+            description: "Villagers are passive NPCs that inhabit villages across the Overworld. They are essential to gameplay due to their trading system, which allows players to exchange emeralds for valuable items including enchanted gear, food, and resources. Each villager has a profession that determines their trades and appearance. Villagers work at job site blocks during the day and sleep at night. They can be converted to zombie villagers by zombie attacks, which can then be cured back to normal with a splash potion of weakness and a golden apple."
         }
     };
 

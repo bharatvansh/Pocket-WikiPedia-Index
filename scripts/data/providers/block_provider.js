@@ -154,6 +154,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "Any"
             },
             description: "Glowstone is a luminous block that emits the maximum light level of 15, making it an excellent light source. It generates naturally in the Nether on the underside of terrain and in bastion remnants. When broken without Silk Touch, it drops 2-4 glowstone dust, which can be crafted back into glowstone blocks."
+        },
+        "minecraft:obsidian": {
+            id: "minecraft:obsidian",
+            name: "Obsidian",
+            hardness: 50,
+            blastResistance: 6000,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: true
+            },
+            drops: ["Obsidian"],
+            generation: {
+                dimension: "Overworld, Nether, The End",
+                yRange: "Any (forms when water meets lava source)"
+            },
+            description: "Obsidian is an extremely hard and blast-resistant block formed when flowing water touches a lava source block. It has the second-highest blast resistance in the game after bedrock, making it immune to normal explosions. Obsidian can only be mined with a diamond or netherite pickaxe. It is used to craft enchanting tables, beacons, ender chests, and to build Nether portal frames."
+        },
+        "minecraft:prismarine": {
+            id: "minecraft:prismarine",
+            name: "Prismarine",
+            hardness: 1.5,
+            blastResistance: 6,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "None",
+                silkTouch: false
+            },
+            drops: ["Prismarine"],
+            generation: {
+                dimension: "Overworld (Ocean Monuments)",
+                yRange: "Any"
+            },
+            description: "Prismarine is a decorative block found exclusively in ocean monuments and underwater ruins. It comes in three variants: prismarine, prismarine bricks, and dark prismarine. Prismarine is obtained by mining it with any pickaxe, and can be crafted from prismarine shards obtained from sea lanterns. Its distinctive teal color makes it popular for underwater builds."
         }
     };
 
