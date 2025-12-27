@@ -156,7 +156,7 @@ export const hostileMobs = {
             "Most dangerous in enclosed rooms where knockback can push players into traps or off ledges"
         ],
         drops: [
-            { item: "Breeze Rod", chance: "1 (increased by Looting)" }
+            { item: "Breeze Rod", chance: "1-2 (increased by Looting)" }
         ],
         description: "Breezes are hostile mobs encountered in Trial Chambers. Rather than relying on heavy melee hits, a breeze fights with wind charges—projectiles that create a gust on impact, knocking targets back and disrupting positioning. Their mobility and knockback-focused attacks make them especially threatening in compact Trial Chamber arenas, where getting pushed into hazards can be more dangerous than the direct damage itself. Breezes drop breeze rods, a key material for Trial Chambers-related progression and crafting."
     },

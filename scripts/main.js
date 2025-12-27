@@ -135,7 +135,7 @@ function showSearchResults(player, searchTerm) {
 /**
  * Shows detailed view for a specific entry
  * @param {import("@minecraft/server").Player} player
- * @param {import("./data/search_index.js").SearchEntry} entry
+ * @param {import("./data/search/index.js").SearchEntry} entry
  * @param {string} searchTerm - The original search term for back navigation
  */
 async function showEntryDetails(player, entry, searchTerm) {

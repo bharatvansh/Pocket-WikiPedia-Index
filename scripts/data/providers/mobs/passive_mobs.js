@@ -194,8 +194,8 @@ export const passiveMobs = {
             "Its height makes it harder for many melee mobs to reach riders"
         ],
         drops: [
-            { item: "Leather", chance: "0-2" },
-            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Saddle", chance: "If equipped" }
         ],
         description: "Camels are tall passive mobs that spawn in desert villages. Unlike most mounts, they can carry two players at the same time, making them a convenient way to travel together without needing two separate animals. When ridden, camels can perform a short charged dash to quickly reposition or cross gaps, and their height often keeps riders safely above the reach of many ground-based melee attacks. Camels can be bred with cactus, and a saddle is required to ride them."
     }
