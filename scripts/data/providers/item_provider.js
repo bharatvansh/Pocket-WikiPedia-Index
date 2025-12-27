@@ -124,6 +124,62 @@ export async function getItemDetails(itemId) {
                 "Can be repaired with another bow or string"
             ],
             description: "The Bow is a ranged weapon that shoots arrows at enemies from a distance. It must be charged before firing, with longer charge times resulting in more damage and longer range. Bows are essential for fighting enemies from safety and can be enhanced with various enchantments."
+        },
+        "minecraft:netherite_sword": {
+            id: "minecraft:netherite_sword",
+            name: "Netherite Sword",
+            maxStack: 1,
+            durability: 2031,
+            enchantable: true,
+            usage: {
+                primaryUse: "Melee combat",
+                secondaryUse: "Breaking cobwebs and bamboo quickly"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 1.6
+            },
+            crafting: {
+                recipeType: "Smithing Table",
+                ingredients: ["Diamond Sword", "Netherite Ingot", "Netherite Upgrade Template"]
+            },
+            specialNotes: [
+                "Highest damage and durability of all swords",
+                "Immune to lava and fire - will not burn if dropped",
+                "Can be repaired with Netherite Ingots",
+                "Can receive Sharpness, Smite, Bane of Arthropods, Fire Aspect, Looting, and Sweeping Edge",
+                "Knockback resistance +1 when held"
+            ],
+            description: "The Netherite Sword is the strongest and most durable sword in Minecraft. It deals 9 damage per hit in Bedrock Edition, making it the ultimate melee weapon. Netherite items are immune to fire and lava, and will float in lava instead of burning. The sword is created by upgrading a diamond sword with a netherite ingot using a smithing table."
+        },
+        "minecraft:trident": {
+            id: "minecraft:trident",
+            name: "Trident",
+            maxStack: 1,
+            durability: 250,
+            enchantable: true,
+            usage: {
+                primaryUse: "Melee and ranged combat",
+                secondaryUse: "Riptide for movement in water/rain"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 1.1
+            },
+            crafting: {
+                recipeType: "N/A",
+                ingredients: ["Drops from Drowned (15% in Bedrock)"]
+            },
+            specialNotes: [
+                "Can be thrown for ranged attacks or used in melee",
+                "Returns to player after being thrown (without Loyalty enchantment, must be retrieved)",
+                "Deals 9 melee damage, 8 ranged damage",
+                "Can be enchanted with Loyalty, Riptide, Channeling, Impaling, Unbreaking, and Mending",
+                "Riptide propels player forward in water or rain",
+                "Channeling summons lightning during thunderstorms",
+                "Impaling increases damage to aquatic mobs"
+            ],
+            description: "The Trident is a unique weapon that can be used for both melee and ranged combat. It is dropped by drowned mobs (15% chance in Bedrock Edition if holding one). The trident can be thrown and retrieved, and has several unique enchantments including Riptide for mobility and Channeling for summoning lightning. It's particularly effective against aquatic mobs when enchanted with Impaling."
         }
     };
 

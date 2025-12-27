@@ -139,7 +139,7 @@ export async function getMobDetails(mobId) {
             },
             spawning: {
                 biomes: ["Most Overworld biomes", "The Nether", "The End"],
-                lightLevel: "0-7 (Overworld)", "Any (End)",
+                lightLevel: "0-7 (Overworld) / Any (End)",
                 groupSize: "1-4"
             },
             behaviorTraits: [
@@ -155,6 +155,69 @@ export async function getMobDetails(mobId) {
                 { item: "Block", chance: "If carrying one" }
             ],
             description: "Endermen are tall, mysterious neutral mobs that can teleport and pick up blocks. They are normally passive but become hostile if a player looks at their face or attacks them. Endermen are damaged by water and rain, causing them to teleport away rapidly. They drop ender pearls, which are essential for locating and accessing The End dimension."
+        },
+        "minecraft:warden": {
+            id: "minecraft:warden",
+            name: "Warden",
+            health: 500,
+            stats: {
+                attackDamage: 30,
+                movementSpeed: 0.3
+            },
+            classification: {
+                type: "Hostile",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Deep Dark"],
+                lightLevel: "Any",
+                groupSize: "1 (summoned by Sculk Shriekers)"
+            },
+            behaviorTraits: [
+                "Completely blind - relies on vibrations and smell",
+                "Detects vibrations from movement within 16 blocks",
+                "Can perform devastating melee attacks (up to 22.5 hearts on Hard)",
+                "Unleashes sonic boom ranged attack that pierces armor",
+                "Immune to knockback and fire damage",
+                "Burrows into ground and despawns after 60 seconds without detecting vibrations",
+                "Cannot be killed by lava or fire"
+            ],
+            drops: [
+                { item: "Sculk Catalyst", chance: "1" }
+            ],
+            description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points (250 hearts), it has more health than any boss except the Wither in Bedrock Edition. The Warden is completely blind and tracks players through vibrations and smell. Its melee attack deals massive damage, and its sonic boom attack ignores armor and enchantments. The best strategy is stealth - avoiding detection rather than fighting."
+        },
+        "minecraft:blaze": {
+            id: "minecraft:blaze",
+            name: "Blaze",
+            health: 20,
+            stats: {
+                attackDamage: 6,
+                movementSpeed: 0.23
+            },
+            classification: {
+                type: "Hostile",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Nether Fortress"],
+                lightLevel: "11 or less",
+                groupSize: "1-4 (from spawners) or 2-3 (natural)"
+            },
+            behaviorTraits: [
+                "Flies and hovers above ground",
+                "Shoots three fireballs in rapid succession",
+                "Ignites when attacking (surrounded by flames)",
+                "Takes damage from water and snowballs",
+                "Can spawn from monster spawners in Nether fortresses",
+                "Immune to fire and lava damage",
+                "Drops fire charges when killed in certain conditions"
+            ],
+            drops: [
+                { item: "Blaze Rod", chance: "0-1 (increased with Looting)" },
+                { item: "Glowstone Dust", chance: "Rare" }
+            ],
+            description: "Blazes are hostile flying mobs found exclusively in Nether fortresses. They attack by shooting three fireballs in rapid succession, setting targets on fire. Blazes are surrounded by flames when attacking and are immune to fire and lava. They drop blaze rods, which are essential for crafting brewing stands, blaze powder, and eyes of ender. Blazes take damage from water, snowballs, and splash water bottles, making these effective weapons against them."
         }
     };
 

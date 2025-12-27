@@ -45,6 +45,20 @@ export const searchIndex = [
         icon: "textures/blocks/copper_ore",
         themeColor: "§6" // orange/copper
     },
+    {
+        id: "minecraft:amethyst_block",
+        name: "Block of Amethyst",
+        category: "block",
+        icon: "textures/blocks/amethyst_block",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:obsidian",
+        name: "Obsidian",
+        category: "block",
+        icon: "textures/blocks/obsidian",
+        themeColor: "§8" // dark gray
+    },
     
     // Items
     {
@@ -75,6 +89,20 @@ export const searchIndex = [
         icon: "textures/items/bow",
         themeColor: "§e" // yellow
     },
+    {
+        id: "minecraft:netherite_sword",
+        name: "Netherite Sword",
+        category: "item",
+        icon: "textures/items/netherite_sword",
+        themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:trident",
+        name: "Trident",
+        category: "item",
+        icon: "textures/items/trident",
+        themeColor: "§b" // aqua/cyan
+    },
     
     // Mobs
     {
@@ -104,5 +132,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_enderman.png",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:warden",
+        name: "Warden",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
+        themeColor: "§8" // dark gray/black
+    },
+    {
+        id: "minecraft:blaze",
+        name: "Blaze",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_blaze.png",
+        themeColor: "§6" // gold/orange (fire)
     }
 ];

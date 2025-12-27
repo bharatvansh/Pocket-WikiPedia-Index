@@ -112,6 +112,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "-16 to 112"
             },
             description: "Copper Ore is a common ore found in the Overworld that drops raw copper when mined. It can be smelted into copper ingots, which are used to craft various copper blocks, lightning rods, and spyglasses. Copper blocks naturally oxidize over time, changing from orange to green."
+        },
+        "minecraft:amethyst_block": {
+            id: "minecraft:amethyst_block",
+            name: "Block of Amethyst",
+            hardness: 1.5,
+            blastResistance: 1.5,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Wood",
+                silkTouch: false
+            },
+            drops: ["Block of Amethyst"],
+            generation: {
+                dimension: "Overworld",
+                yRange: "0-64 (in Amethyst Geodes)"
+            },
+            description: "Block of Amethyst is a decorative block found in amethyst geodes or crafted from 4 amethyst shards. It has a distinctive purple crystalline appearance and can be used for building. When placed next to budding amethyst, it provides a decorative border. The block makes unique chiming sounds when walked on, broken, or placed."
+        },
+        "minecraft:obsidian": {
+            id: "minecraft:obsidian",
+            name: "Obsidian",
+            hardness: 50.0,
+            blastResistance: 1200.0,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: false
+            },
+            drops: ["Obsidian"],
+            generation: {
+                dimension: "Overworld, Nether, End",
+                yRange: "Any (where lava meets water)"
+            },
+            description: "Obsidian is a dark purple block with extremely high blast resistance and hardness. It forms when flowing water touches a lava source block. It takes 9.4 seconds to mine with a diamond pickaxe and 8.35 seconds with a netherite pickaxe. Obsidian is required to build nether portals and is highly resistant to explosions, making it useful for blast-proof structures."
         }
     };
 
