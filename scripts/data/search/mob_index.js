@@ -75,5 +75,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_bee.png",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:sniffer",
+        name: "Sniffer",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_sniffer.png",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:breeze",
+        name: "Breeze",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_breeze.png",
+        themeColor: "§3" // dark cyan
     }
 ];

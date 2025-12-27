@@ -131,5 +131,37 @@ export const hostileMobs = {
             { item: "Sculk Catalyst", chance: "1" }
         ],
         description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+    },
+    "minecraft:breeze": {
+        id: "minecraft:breeze",
+        name: "Breeze",
+        health: 30,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ancient City", "Deep Dark", "Trial Chambers"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Hops slowly around its target while attacking",
+            "Fires wind charge projectiles that create explosion-like particles",
+            "Wind charges knock back players and damage them indirectly",
+            "Creates temporary wind currents that push entities",
+            "Can climb ladders and scaffold blocks",
+            "Immune to projectile damage from bows and crossbows",
+            "Spawns from trial spawners in Trial Chambers"
+        ],
+        drops: [
+            { item: "Wind Charge", chance: "1-2" },
+            { item: "Experience", chance: "10" }
+        ],
+        description: "The Breeze is a hostile mob introduced in the Trails & Tales Update (1.21) that inhabits the Trial Chambers. Breeze are mysterious, wind-themed creatures made entirely of dark blue masonry blocks. They attack by firing wind charges at players, which create small explosions on impact and push entities backward. Breeze are unique in that they cannot be damaged by arrows or other projectiles, requiring players to engage them in melee combat or use other creative strategies. They drop Wind Charges when killed, which can be used to create wind bursts and power certain contraptions."
     }
 };

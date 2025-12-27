@@ -98,5 +98,38 @@ export const passiveMobs = {
             { item: "Experience", chance: "1 (when killed by player/tamed wolf)" }
         ],
         description: "Axolotls are passive aquatic mobs found exclusively in lush caves. They are the only mob that can breed underwater and have 5 color variants, with the rare blue variant having a 1 in 1200 spawn chance. Axolotls are unique helpers that fight hostile aquatic mobs like drowned and guardians. When a player kills a mob that an axolotl is fighting, the player receives Regeneration I for 5 seconds per axolotl, making them valuable allies for underwater exploration. Axolotls can play dead when damaged, recovering health and becoming temporarily immune to enemy attacks. They must be kept in water as they die after 5 minutes on land."
+    },
+    "minecraft:sniffer": {
+        id: "minecraft:sniffer",
+        name: "Sniffer",
+        health: 30,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ancient City", "Deep Dark"],
+            lightLevel: "Any",
+            groupSize: "1 (hatched from sniffers egg)"
+        },
+        behaviorTraits: [
+            "Hatches from a sniffer egg placed on moss block",
+            "Uses its snout to dig for torchflower seeds and pitcher pods",
+            "Follows players holding torchflower seeds or pitcher pods",
+            "Can be bred with torchflower seeds or pitcher pods",
+            "Friendly mob that never attacks",
+            "Can be tempted and bred with seeds",
+            "Baby sniffers follow adults and inherit digging behavior"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (when digging up seeds)" },
+            { item: "Torchflower Seeds", chance: "When digging" },
+            { item: "Pitcher Pod", chance: "When digging" }
+        ],
+        description: "The Sniffer is the first extinct mob brought back to life in Minecraft. It hatches from a sniffer egg that can be found in ancient cities within the Deep Dark biome. Sniffers are peaceful giants that use their large snouts to dig for seeds, specifically torchflower seeds and pitcher pods. They are the tallest passive mob in Minecraft and cannot be ridden or led with a leash, but they will follow players holding their favorite seeds. Sniffers were discovered by archaeologists and are part of the Trials of Fire update content, representing ancient creatures that once roamed the Overworld."
     }
 };
