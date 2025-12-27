@@ -199,5 +199,43 @@ export const passiveMobs = {
             { item: "Saddle", chance: "If equipped" }
         ],
         description: "Camels are tall passive mobs that spawn in desert villages. Unlike most mounts, they can carry two players at the same time, making them a convenient way to travel together without needing two separate animals. When ridden, camels can perform a short charged dash to quickly reposition or cross gaps, and their height often keeps riders safely above the reach of many ground-based melee attacks. Camels can be bred with cactus, and a saddle is required to ride them."
+    },
+    "minecraft:strider": {
+        id: "minecraft:strider",
+        name: "Strider",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.17
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether (Lava seas)"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Unique passive mob that spawns in and walks on lava in the Nether",
+            "Only mob that can walk on lava without taking damage",
+            "Can be saddled and ridden across lava lakes",
+            "Controlled with warped fungus on a stick while riding",
+            "Moves quickly on lava (speed 0.17) but shivers and slows down on land (speed 0.11)",
+            "Takes damage from water and rain similar to endermen",
+            "Changes color when on land - turns purple/blue and shivers visibly",
+            "Baby striders can spawn riding adult striders",
+            "Sometimes spawns with zombified piglins riding on top",
+            "Can be bred with warped fungus",
+            "Follows players holding warped fungus",
+            "Does not sink in lava and floats on the surface",
+            "Takes fall damage when landing on solid ground"
+        ],
+        drops: [
+            { item: "String", chance: "2-5" },
+            { item: "Saddle", chance: "If equipped" }
+        ],
+        description: "Striders are unique passive mobs native to the Nether that provide the only reliable way to traverse the dimension's vast lava oceans. They are the only mob in Minecraft that can walk on lava without taking damage, making them essential for safe Nether travel. Striders can be saddled and controlled with a warped fungus on a stick, similar to how pigs are controlled with carrots on sticks. When on lava, striders move at a comfortable pace and appear content with their distinctive red coloring. However, when forced onto solid ground or exposed to rain, they shiver visibly, turn purple-blue, and move significantly slower, clearly uncomfortable outside their natural lava habitat. Striders have interesting spawning mechanics - baby striders may spawn riding adult striders, and occasionally zombified piglins spawn riding on top of them wielding warped fungus on sticks. They can be bred using warped fungus and will follow players holding this item. Striders are invaluable for exploring the Nether, allowing players to cross large lava lakes safely to reach Nether fortresses, bastion remnants, and other important structures. Their string drops also provide a renewable Nether source of this useful crafting material."
     }
 };
