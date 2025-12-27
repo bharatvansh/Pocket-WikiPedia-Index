@@ -139,7 +139,7 @@ export async function getMobDetails(mobId) {
             },
             spawning: {
                 biomes: ["Most Overworld biomes", "The Nether", "The End"],
-                lightLevel: "0-7 (Overworld)", "Any (End)",
+                lightLevel: "0-7 (Overworld), Any (The End)",
                 groupSize: "1-4"
             },
             behaviorTraits: [
@@ -155,6 +155,69 @@ export async function getMobDetails(mobId) {
                 { item: "Block", chance: "If carrying one" }
             ],
             description: "Endermen are tall, mysterious neutral mobs that can teleport and pick up blocks. They are normally passive but become hostile if a player looks at their face or attacks them. Endermen are damaged by water and rain, causing them to teleport away rapidly. They drop ender pearls, which are essential for locating and accessing The End dimension."
+        },
+        "minecraft:bee": {
+            id: "minecraft:bee",
+            name: "Bee",
+            health: 10,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 0.6
+            },
+            classification: {
+                type: "Neutral",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Plains", "Sunflower Plains", "Flower Forest", "Meadow"],
+                lightLevel: "7+",
+                groupSize: "1-3"
+            },
+            behaviorTraits: [
+                "Flies and pollinates flowers",
+                "Returns pollen to beehives/bee nests",
+                "Becomes hostile if hive/nest is broken",
+                "Stings once then dies after 60 seconds",
+                "Can be tethered with a lead",
+                "Produces honey in hives after pollinating"
+            ],
+            drops: [
+                { item: "None when alive", chance: "N/A" },
+                { item: "Honeycomb", chance: "When shearing hive" },
+                { item: "Honey Bottle", chance: "When using glass bottle" }
+            ],
+            description: "Bees are small flying neutral mobs that live in bee nests or beehives and pollinate flowers. They fly around collecting pollen from flowers and returning it to their hive to produce honey. Bees will become hostile if their hive is broken or if they are attacked. They have a 60-second lifespan after stinging and will die after attacking. Bees are essential for honey production and can be bred with flowers."
+        },
+        "minecraft:wither": {
+            id: "minecraft:wither",
+            name: "Wither",
+            health: 300,
+            stats: {
+                attackDamage: 8,
+                movementSpeed: 0.8
+            },
+            classification: {
+                type: "Boss Hostile",
+                undead: true
+            },
+            spawning: {
+                biomes: ["Player created only"],
+                lightLevel: "Any (when built)",
+                groupSize: "1 (boss mob)"
+            },
+            behaviorTraits: [
+                "Boss mob with three heads that shoots explosive wither skulls",
+                "Causes Wither effect on hit (drains health over time)",
+                "Flies and destroys blocks in its path",
+                "Immune to fire, lava, and drowning",
+                "Gains health when below half health",
+                "Drops Nether Star upon death (used for beacons)"
+            ],
+            drops: [
+                { item: "Nether Star", chance: "100%" },
+                { item: "50 XP points", chance: "Guaranteed" }
+            ],
+            description: "The Wither is one of the most powerful boss mobs in Minecraft that must be manually summoned by the player by placing soul sand or soul soil in a T shape and placing three wither skeleton skulls on top. It has two phases: in the first it flies at the same height as the player, and in the second it drops down and becomes immune to ranged attacks. The Wither drops a Nether Star upon death, which is required to craft a beacon. Defeating the Wither is a significant achievement and provides access to one of the game's most useful blocks."
         }
     };
 

@@ -124,6 +124,66 @@ export async function getItemDetails(itemId) {
                 "Can be repaired with another bow or string"
             ],
             description: "The Bow is a ranged weapon that shoots arrows at enemies from a distance. It must be charged before firing, with longer charge times resulting in more damage and longer range. Bows are essential for fighting enemies from safety and can be enhanced with various enchantments."
+        },
+        "minecraft:enchanted_golden_apple": {
+            id: "minecraft:enchanted_golden_apple",
+            name: "Enchanted Golden Apple",
+            maxStack: 64,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Powerful food and status effects",
+                secondaryUse: "Emergency healing and buffing"
+            },
+            combat: {
+                attackDamage: 0,
+                attackSpeed: 0
+            },
+            crafting: {
+                recipeType: "Shapeless (Crafting only in Creative) - Found in chests",
+                ingredients: ["Gold Block x8", "Apple"]
+            },
+            specialNotes: [
+                "Restores 4 hunger points and high saturation",
+                "Grants Absorption IV (2 golden hearts)",
+                "Grants Regeneration II for 20 seconds",
+                "Grants Fire Resistance for 5 minutes",
+                "Grants Resistance for 5 minutes",
+                "Cannot be crafted in survival (only ancient recipe works in creative)",
+                "Found in dungeon chests and as rare loot",
+                "One of the most powerful food items in the game"
+            ],
+            description: "The Enchanted Golden Apple is an extremely rare and powerful food item that was previously craftable but now can only be found in chest loot. When eaten, it provides exceptional status effects including regeneration, absorption, fire resistance, and resistance. It's highly valued for boss battles and dangerous situations, providing both healing and substantial defensive buffs."
+        },
+        "minecraft:elytra": {
+            id: "minecraft:elytra",
+            name: "Elytra",
+            maxStack: 1,
+            durability: 432,
+            enchantable: true,
+            usage: {
+                primaryUse: "Gliding and airborne mobility",
+                secondaryUse: "Boosted flight with fireworks"
+            },
+            combat: {
+                attackDamage: 0,
+                attackSpeed: 0
+            },
+            crafting: {
+                recipeType: "End Cities only (find in item frames)",
+                ingredients: ["Found in End Cities"]
+            },
+            specialNotes: [
+                "Only found in End Cities as item frame loot",
+                "Can be repaired with phantom membranes",
+                "Can be enchanted with Unbreaking and Mending",
+                "Durability decreases slowly while gliding",
+                "Can be boosted with fireworks for powered flight",
+                "Lose altitude over time without boosting",
+                "Essential for fast travel and exploration",
+                "Breaks at 1 durability but becomes unusable"
+            ],
+            description: "Elytra are a unique set of wings that allow players to glide through the air, found exclusively as rare loot in End Cities. They revolutionize mobility by enabling gliding flight and, when combined with fireworks, powered soaring across vast distances. Elytra are essential for efficient exploration and are one of the most sought-after end-game items due to their game-changing mobility capabilities."
         }
     };
 

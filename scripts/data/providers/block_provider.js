@@ -112,6 +112,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "-16 to 112"
             },
             description: "Copper Ore is a common ore found in the Overworld that drops raw copper when mined. It can be smelted into copper ingots, which are used to craft various copper blocks, lightning rods, and spyglasses. Copper blocks naturally oxidize over time, changing from orange to green."
+        },
+        "minecraft:obsidian": {
+            id: "minecraft:obsidian",
+            name: "Obsidian",
+            hardness: 50,
+            blastResistance: 1200,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: false
+            },
+            drops: ["Obsidian"],
+            generation: {
+                dimension: "Portal/End generation",
+                yRange: "6-9 (Nether portals)"
+            },
+            description: "Obsidian is an extremely hard, blast-resistant block that can only be mined with a diamond or netherite pickaxe. It's formed when flowing water meets lava source blocks or when entering a nether/end portal. Obsidian is essential for creating nether portals and enchanting tables. Its exceptional blast resistance makes it useful for trapping the Wither or creating explosion-proof structures."
+        },
+        "minecraft:beacon": {
+            id: "minecraft:beacon",
+            name: "Beacon",
+            hardness: 3.0,
+            blastResistance: 3.0,
+            flammability: false,
+            gravityAffected: false,
+            transparent: true,
+            luminance: 15,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Any",
+                silkTouch: false
+            },
+            drops: ["Beacon"],
+            generation: {
+                dimension: "Crafted only",
+                yRange: "Player crafted"
+            },
+            description: "The Beacon is a craftable block that provides powerful status effects to nearby players. When placed on a pyramid made of specific mineral blocks, it projects a beam of light into the sky and grants effects like Speed, Haste, Resistance, Jump Boost, or Regeneration. It requires a Nether Star dropped by the Wither to craft and is one of the most valuable end-game items for base enhancement and mining efficiency."
         }
     };
 
