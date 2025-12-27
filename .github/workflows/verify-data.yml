@@ -40,11 +40,20 @@ jobs:
           npm install
 
       - name: Run verification
+        id: verify
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd .github/scripts
-          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md
+          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt
+          
+          # Read the status (has_issues or no_issues)
+          if [ -f ../../verification_status.txt ]; then
+            STATUS=$(cat ../../verification_status.txt)
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+          else
+            echo "status=no_issues" >> $GITHUB_OUTPUT
+          fi
           
       - name: Post verification summary
         run: |
@@ -53,8 +62,8 @@ jobs:
             cat verification_report.md >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Comment on PR
-        if: always()
+      - name: Request changes on PR (only if issues found)
+        if: steps.verify.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           script: |
@@ -63,13 +72,37 @@ jobs:
             
             if (fs.existsSync('verification_report.md')) {
               report += fs.readFileSync('verification_report.md', 'utf8');
-            } else {
-              report += '✅ No data changes detected or verification was skipped.';
             }
             
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
+            report += '\n\n---\n*Please review and fix the issues above before merging.*';
+            
+            // Use PR review API to request changes - this notifies the PR creator
+            await github.rest.pulls.createReview({
               owner: context.repo.owner,
               repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body: report,
+              event: 'REQUEST_CHANGES'
+            });
+
+      - name: Comment on PR (if no issues)
+        if: steps.verify.outputs.status == 'no_issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## ✅ Data Verification Passed\n\n';
+            
+            if (fs.existsSync('verification_report.md')) {
+              report += fs.readFileSync('verification_report.md', 'utf8');
+            } else {
+              report += 'All data entries have been verified successfully!';
+            }
+            
+            // Simple comment - no review/request changes
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
               body: report
             });

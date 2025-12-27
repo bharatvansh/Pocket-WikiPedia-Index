@@ -1,6 +1,6 @@
 /**
  * Pocket Wikipedia Data Verification Script
- * Simple: Read diff from file, send to Gemini, get verification report
+ * Uses Gemini structured output for reliable issue detection
  */
 
 import fs from 'fs';
@@ -11,11 +11,77 @@ import { GoogleGenAI } from '@google/genai';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /**
+ * JSON Schema for structured verification response
+ */
+const verificationSchema = {
+    type: "object",
+    properties: {
+        summary: {
+            type: "object",
+            properties: {
+                totalEntriesVerified: {
+                    type: "number",
+                    description: "Total number of data entries that were verified"
+                },
+                issuesFound: {
+                    type: "number",
+                    description: "Number of entries with issues"
+                }
+            },
+            required: ["totalEntriesVerified", "issuesFound"]
+        },
+        hasIssues: {
+            type: "boolean",
+            description: "True if any data accuracy issues were found, false if all data is correct"
+        },
+        issues: {
+            type: "array",
+            description: "List of issues found. Empty array if no issues.",
+            items: {
+                type: "object",
+                properties: {
+                    itemId: {
+                        type: "string",
+                        description: "The Minecraft item/block/mob ID (e.g., minecraft:dirt)"
+                    },
+                    itemName: {
+                        type: "string",
+                        description: "Human readable name of the item"
+                    },
+                    field: {
+                        type: "string",
+                        description: "Which field has the issue (e.g., description, hardness, stackSize)"
+                    },
+                    currentValue: {
+                        type: "string",
+                        description: "The incorrect value currently in the data"
+                    },
+                    correctValue: {
+                        type: "string",
+                        description: "The correct value based on verification"
+                    },
+                    explanation: {
+                        type: "string",
+                        description: "Brief explanation of why this is incorrect"
+                    }
+                },
+                required: ["itemId", "itemName", "field", "currentValue", "correctValue", "explanation"]
+            }
+        },
+        overallAssessment: {
+            type: "string",
+            description: "Brief overall assessment of the data quality"
+        }
+    },
+    required: ["summary", "hasIssues", "issues", "overallAssessment"]
+};
+
+/**
  * Parse command line arguments
  */
 function parseArgs() {
     const args = process.argv.slice(2);
-    const options = { test: false, diff: null, output: null };
+    const options = { test: false, diff: null, output: null, status: null };
 
     for (let i = 0; i < args.length; i++) {
         if (args[i] === '--test') {
@@ -24,6 +90,8 @@ function parseArgs() {
             options.diff = args[++i];
         } else if (args[i] === '--output' && args[i + 1]) {
             options.output = args[++i];
+        } else if (args[i] === '--status' && args[i + 1]) {
+            options.status = args[++i];
         }
     }
 
@@ -31,7 +99,36 @@ function parseArgs() {
 }
 
 /**
- * Verify all data with Gemini in one request
+ * Convert structured response to markdown report
+ */
+function formatReport(result) {
+    let report = '';
+
+    report += `### Summary\n`;
+    report += `- **Entries Verified:** ${result.summary.totalEntriesVerified}\n`;
+    report += `- **Issues Found:** ${result.summary.issuesFound}\n\n`;
+
+    if (result.hasIssues && result.issues.length > 0) {
+        report += `### ⚠️ Issues Detected\n\n`;
+
+        for (const issue of result.issues) {
+            report += `#### ${issue.itemName} (\`${issue.itemId}\`)\n`;
+            report += `- **Field:** \`${issue.field}\`\n`;
+            report += `- **Current Value:** ${issue.currentValue}\n`;
+            report += `- **Correct Value:** ${issue.correctValue}\n`;
+            report += `- **Explanation:** ${issue.explanation}\n\n`;
+        }
+    } else {
+        report += `### ✅ All Data Verified Successfully\n\n`;
+    }
+
+    report += `### Assessment\n${result.overallAssessment}\n`;
+
+    return report;
+}
+
+/**
+ * Verify all data with Gemini using structured output
  */
 async function verifyWithGemini(dataContent) {
     if (!process.env.GEMINI_API_KEY) {
@@ -42,37 +139,30 @@ async function verifyWithGemini(dataContent) {
 
     const prompt = `You are a Minecraft Bedrock Edition wiki data verifier.
 
-Review the following Minecraft data new entries and verify their accuracy using your knowledge.
+Review the following Minecraft data changes (git diff format) and verify their accuracy.
 
 ${dataContent}
 
-- Use Internet Web to verify each piece of info from high quality and updated sources.
-- Compare your finding with the existing changes data.
-
-For each entry that has an issue, list:
-- The item name and ID
-- What's wrong
-- The correct value
-
-Format your response as a simple markdown report:
-- Start with a summary (how many verified, how many have issues)
-- Then list any issues found with corrections
-- Be concise, only mention items that have actual problems
-
-If everything looks correct, just say "All data verified successfully."`;
+Instructions:
+- Use Google Search to verify each piece of information from official Minecraft sources.
+- Check if descriptions, stats, behaviors, and other data are accurate for Minecraft Bedrock Edition.
+- Only flag actual factual errors, not style preferences.
+- Set hasIssues to true ONLY if you find genuine data accuracy problems.
+- If all data is correct, set hasIssues to false and leave issues array empty.`;
 
     const response = await client.models.generateContent({
-        model: 'gemini-3-pro-preview',
+        model: 'gemini-2.5-flash',
         contents: prompt,
         config: {
-            thinkingConfig: {
-                thinkingLevel: 'HIGH'  // Maximum reasoning depth
-            },
-            tools: [{ googleSearch: {} }]  // Google Search grounding enabled
+            responseMimeType: 'application/json',
+            responseSchema: verificationSchema,
+            tools: [{ googleSearch: {} }]
         }
     });
 
-    return response.text;
+    // Parse the structured JSON response
+    const result = JSON.parse(response.text);
+    return result;
 }
 
 /**
@@ -128,6 +218,9 @@ async function main() {
         if (options.output) {
             fs.writeFileSync(options.output, '✅ No verifiable data found.\n');
         }
+        if (options.status) {
+            fs.writeFileSync(options.status, 'no_issues');
+        }
         return;
     }
 
@@ -135,20 +228,36 @@ async function main() {
     console.log('Sending to Gemini for verification...\n');
 
     try {
-        const report = await verifyWithGemini(diffContent);
+        // verifyWithGemini returns structured JSON object
+        const result = await verifyWithGemini(diffContent);
 
-        console.log('--- Verification Report ---\n');
+        console.log('--- Structured Result ---\n');
+        console.log(JSON.stringify(result, null, 2));
+
+        // Convert to markdown report for output
+        const report = formatReport(result);
+        console.log('\n--- Markdown Report ---\n');
         console.log(report);
 
         if (options.output) {
             fs.writeFileSync(options.output, report);
             console.log(`\nReport saved to: ${options.output}`);
         }
+
+        // Write status file for GitHub Actions - directly use the boolean from structured output
+        if (options.status) {
+            const status = result.hasIssues ? 'has_issues' : 'no_issues';
+            fs.writeFileSync(options.status, status);
+            console.log(`Status: ${status} (from structured output)`);
+        }
     } catch (error) {
         const errorMsg = `❌ Verification failed: ${error.message}`;
         console.error(errorMsg);
         if (options.output) {
             fs.writeFileSync(options.output, errorMsg);
+        }
+        if (options.status) {
+            fs.writeFileSync(options.status, 'has_issues');  // Treat errors as issues
         }
         process.exit(1);
     }
