@@ -170,5 +170,43 @@ export const neutralMobs = {
             { item: "Experience", chance: "1-3 (adult), 0 (baby)" }
         ],
         description: "Bees are neutral arthropod mobs that spawn naturally in bee nests within flower-rich biomes like plains and flower forests. They are the only arthropod mob that can spawn in any difficulty including Peaceful. Bees spend their days collecting nectar from flowers and returning it to their hive to produce honey. When angered (by attacking them, harvesting honey, or destroying their nest without a campfire), bees swarm and attack as a group, stinging once and then dying shortly after. Their sting applies poison to players for varying durations depending on difficulty. Bees are valuable for pollination, as they can accelerate crop growth, and for honey/honeycomb production when housed in beehives. Campfires placed directly under hives pacify bees during harvesting."
+    },
+    "minecraft:piglin": {
+        id: "minecraft:piglin",
+        name: "Piglin",
+        health: 16,
+        stats: {
+            attackDamage: 5,
+            movementSpeed: 0.35
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Crimson Forest", "Bastion Remnant"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Neutral mobs found in the Nether that are hostile unless the player wears golden armor",
+            "Can be bartered with using gold ingots to obtain various items including ender pearls, fire charges, and obsidian",
+            "Adult piglins wield golden swords, crossbows, or golden spears (Java Edition)",
+            "Baby piglins are passive, play with baby hoglins, and ride on them",
+            "Piglins can open and close wooden and copper doors but cannot climb ladders",
+            "Retreat from zombified piglins, zoglins, soul fire, soul torches, soul lanterns, and lit soul campfires",
+            "Cannot swim and will drown if submerged in water",
+            "Aggravated when players without gold armor get too close, attack piglins, open/break chests, or break gold-related blocks",
+            "Crossbow piglins do not reload when spawned, only when provoked",
+            "Baby piglins also retreat from wither skeletons and withers",
+            "Piglins snort enviously when watching players holding gold-related items",
+            "If killed in one hit while admiring a gold ingot, the ingot drops"
+        ],
+        drops: [
+            { item: "Piglin Head", chance: "If killed by charged creeper" },
+            { item: "Gold Ingot", chance: "If holding when killed in one hit" },
+            { item: "Equipped items/armor", chance: "If holding" }
+        ],
+        description: "Piglins are neutral mobs native to the Nether that serve as the primary currency-based traders in the dimension. Adult piglins are hostile toward players unless they are wearing at least one piece of golden armor. When not provoked by non-gold-armored players, piglins will examine gold ingots dropped near them or presented directly, then offer random items in return through a bartering system. This unique trading mechanic provides players with valuable Nether-exclusive items including ender pearls, fire charges, obsidian, soul sand, crying obsidian, and various potions. Piglins spawn in Nether Wastes, Crimson Forests, and Bastion Remnants, where they defend the treasure structures. They come in both adult and baby variants—babies are passive and playful, often riding baby hoglins. Piglins can become aggravated by various actions including attacking them, opening or breaking chests, mining gold ore and blocks, or simply approaching without golden armor. They share a complex social structure with zombified piglins, fleeing from their undead counterparts and from soul-related blocks. Piglins cannot swim or climb ladders, making water an effective defensive barrier against them."
     }
 };

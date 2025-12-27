@@ -131,5 +131,49 @@ export const hostileMobs = {
             { item: "Sculk Catalyst", chance: "1" }
         ],
         description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+    },
+    "minecraft:guardian": {
+        id: "minecraft:guardian",
+        name: "Guardian",
+        health: 30,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean Monument"],
+            lightLevel: "Any (requires water)",
+            groupSize: "Multiple"
+        },
+        behaviorTraits: [
+            "Aquatic hostile mob that spawns in and around ocean monuments",
+            "Attacks with a slow-charging laser beam that deals damage based on difficulty (4 on Easy, 6 on Normal, 9 on Hard)",
+            "Has defensive spikes that inflict retaliatory damage when the guardian is hit by melee attacks (2 on Easy/Normal, 3 on Hard)",
+            "Swims in abrupt charges, moving tail rapidly when active",
+            "Spikes retract while swimming and extend when idle or on land",
+            "Eye follows and stares at any nearby players, always looking directly at its target",
+            "Cannot attack players under Invisibility potion effects (Java Edition) unless wearing armor",
+            "Affected by the Impaling enchantment (Java Edition)",
+            "Does not suffocate and can survive indefinitely out of water",
+            "When out of water, hops erratically and makes loud squeaking sounds",
+            "Attacks players, squid, glow squid, and axolotls within laser range",
+            "Congregates around sea lantern blocks in ocean monuments",
+            "Stationary guardians are pushed much faster by flowing water than other mobs"
+        ],
+        drops: [
+            { item: "Prismarine Shard", chance: "0-2" },
+            { item: "Prismarine Crystals", chance: "40% (increased by Looting)" },
+            { item: "Raw Cod", chance: "40% (increased by Looting)" },
+            { item: "Raw Salmon", chance: "2.5% (player kill only)" },
+            { item: "Pufferfish", chance: "2.5% (player kill only)" },
+            { item: "Tropical Fish", chance: "2.5% (player kill only)" },
+            { item: "Cooked Cod", chance: "If killed while on fire" },
+            { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
+        ],
+        description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
     }
 };
