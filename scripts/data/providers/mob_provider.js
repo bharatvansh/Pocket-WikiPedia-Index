@@ -219,6 +219,74 @@ export async function getMobDetails(mobId) {
                 { item: "Sculk Catalyst", chance: "1" }
             ],
             description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+        },
+        "minecraft:spider": {
+            id: "minecraft:spider",
+            name: "Spider",
+            health: 16,
+            stats: {
+                attackDamage: 3,
+                movementSpeed: 0.3
+            },
+            classification: {
+                type: "Neutral",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Most Overworld biomes"],
+                lightLevel: "0 (dark areas only)",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Neutral during day, hostile at night",
+                "Can climb walls and jump at players",
+                "Moves faster than most hostile mobs",
+                "Makes distinctive skittering sounds",
+                "Attacks from multiple angles by climbing",
+                "Easier to kill with Bane of Arthropods enchantment",
+                "Affected by Spider Eyes and can be bred with them"
+            ],
+            drops: [
+                { item: "String", chance: "0-2" },
+                { item: "Spider Eye", chance: "1" }
+            ],
+            description: "Spiders are neutral arthropods that become hostile at night or in dark areas. They can climb walls and leap at players, making them dangerous in enclosed spaces. Spiders drop string and spider eyes when killed, which are useful for crafting bows, fishing rods, and wool. They are particularly vulnerable to the Bane of Arthropods enchantment on swords."
+        },
+        "minecraft:witch": {
+            id: "minecraft:witch",
+            name: "Witch",
+            health: 26,
+            stats: {
+                attackDamage: 0,
+                movementSpeed: 0.25
+            },
+            classification: {
+                type: "Hostile",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Swamp", "Village Witch Hut", "Illager Patrols"],
+                lightLevel: "0-7",
+                groupSize: "1"
+            },
+            behaviorTraits: [
+                "Throws harmful splash potions at players",
+                "Drinks potions to heal and buff itself",
+                "Uses Weakness, Poison, Slowness, and Harming potions",
+                "Drops rare potion ingredients and bottles",
+                "Has largest drop table of any mob",
+                "Attacks Iron Golems in Bedrock Edition",
+                "Can be found near witch huts in swamps"
+            ],
+            drops: [
+                { item: "Glass Bottle", chance: "0-3" },
+                { item: "Glowstone Dust", chance: "0-3" },
+                { item: "Redstone Dust", chance: "0-3" },
+                { item: "Sugar", chance: "0-3" },
+                { item: "Spider Eye", chance: "0-3" },
+                { item: "Gunpowder", chance: "0-3" }
+            ],
+            description: "Witches are hostile mobs that inhabit swamp biomes and witch huts. They attack by throwing harmful splash potions including Poison, Slowness, and Harming. When injured, witches drink potions to heal themselves. Witches have the largest loot table of any mob, dropping various potion ingredients and bottles. They are challenging opponents due to their ability to buff themselves and attack from a distance."
         }
     };
 

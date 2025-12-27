@@ -59,6 +59,20 @@ export const searchIndex = [
         icon: "textures/blocks/glowstone",
         themeColor: "§e" // yellow/gold
     },
+    {
+        id: "minecraft:obsidian",
+        name: "Obsidian",
+        category: "block",
+        icon: "textures/blocks/obsidian",
+        themeColor: "§1" // dark blue/black
+    },
+    {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        category: "block",
+        icon: "textures/blocks/basalt",
+        themeColor: "§8" // dark gray
+    },
     
     // Items
     {
@@ -103,6 +117,20 @@ export const searchIndex = [
         icon: "textures/items/trident",
         themeColor: "§b" // aqua
     },
+    {
+        id: "minecraft:crossbow",
+        name: "Crossbow",
+        category: "item",
+        icon: "textures/items/crossbow",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:shield",
+        name: "Shield",
+        category: "item",
+        icon: "textures/items/shield",
+        themeColor: "§a" // green
+    },
     
     // Mobs
     {
@@ -146,5 +174,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:spider",
+        name: "Spider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_spider.png",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:witch",
+        name: "Witch",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_witch.png",
+        themeColor: "§5" // dark purple
     }
 ];
