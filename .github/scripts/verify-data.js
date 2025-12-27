@@ -1,6 +1,6 @@
 /**
  * Pocket Wikipedia Data Verification Script
- * Simple: Send all changes to Gemini, get verification report
+ * Simple: Read diff from file, send to Gemini, get verification report
  */
 
 import fs from 'fs';
@@ -15,67 +15,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
  */
 function parseArgs() {
     const args = process.argv.slice(2);
-    const options = { test: false, files: null, output: null };
+    const options = { test: false, diff: null, output: null };
 
     for (let i = 0; i < args.length; i++) {
         if (args[i] === '--test') {
             options.test = true;
-        } else if (args[i] === '--files' && args[i + 1]) {
-            options.files = args[++i];
+        } else if (args[i] === '--diff' && args[i + 1]) {
+            options.diff = args[++i];
         } else if (args[i] === '--output' && args[i + 1]) {
             options.output = args[++i];
         }
     }
 
     return options;
-}
-
-/**
- * Get only the actual changes (diff) from git
- */
-function getChangedData() {
-    try {
-        const { execSync } = require('child_process');
-        const cwd = path.resolve(__dirname, '../..');
-
-        const baseSha = process.env.GITHUB_BASE_SHA;
-        const headSha = process.env.GITHUB_SHA || 'HEAD';
-
-        console.log(`Base SHA: ${baseSha || '(not set)'}`);
-        console.log(`Head SHA: ${headSha}`);
-
-        let diff = '';
-        let cmd = '';
-
-        if (baseSha) {
-            // PR mode: diff between base and head
-            cmd = `git diff ${baseSha}..${headSha} -- "scripts/data/"`;
-        } else {
-            // Local/fallback: diff against previous commit
-            cmd = 'git diff HEAD~1 HEAD -- "scripts/data/"';
-        }
-
-        console.log(`Running: ${cmd}\n`);
-
-        try {
-            diff = execSync(cmd, { encoding: 'utf8', cwd });
-        } catch (e) {
-            console.log('Primary diff failed, trying fallback...');
-            // Fallback: show uncommitted changes
-            diff = execSync('git diff HEAD -- "scripts/data/"', { encoding: 'utf8', cwd });
-        }
-
-        if (diff) {
-            console.log(`Found ${diff.split('\n').length} lines of diff\n`);
-        } else {
-            console.log('No diff found\n');
-        }
-
-        return diff;
-    } catch (error) {
-        console.error('Error getting git diff:', error.message);
-        return '';
-    }
 }
 
 /**
@@ -156,12 +108,23 @@ async function main() {
         return;
     }
 
-    // Get git diff of changed data
-    console.log('Getting changes from git diff...\n');
-    const dataContent = getChangedData();
+    // Read diff from file (provided by GitHub Actions workflow)
+    let diffContent = '';
 
-    if (!dataContent.trim()) {
-        console.log('No data content found in changed files.');
+    if (options.diff) {
+        const diffPath = path.resolve(options.diff);
+        console.log(`Reading diff from: ${diffPath}\n`);
+
+        if (fs.existsSync(diffPath)) {
+            diffContent = fs.readFileSync(diffPath, 'utf8');
+            console.log(`Found ${diffContent.split('\n').length} lines of diff\n`);
+        } else {
+            console.log('Diff file not found');
+        }
+    }
+
+    if (!diffContent.trim()) {
+        console.log('No data changes found.');
         if (options.output) {
             fs.writeFileSync(options.output, '✅ No verifiable data found.\n');
         }
@@ -172,7 +135,7 @@ async function main() {
     console.log('Sending to Gemini for verification...\n');
 
     try {
-        const report = await verifyWithGemini(dataContent);
+        const report = await verifyWithGemini(diffContent);
 
         console.log('--- Verification Report ---\n');
         console.log(report);

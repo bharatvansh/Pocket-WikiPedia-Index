@@ -17,13 +17,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Full history for accurate diff
-          ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Fetch base branch
+      - name: Get diff content
+        id: diff
         run: |
-          git fetch origin ${{ github.event.pull_request.base.ref }}
-          echo "Base SHA: ${{ github.event.pull_request.base.sha }}"
-          echo "Head SHA: ${{ github.event.pull_request.head.sha }}"
+          # Get the actual diff content (not just file names)
+          echo "Getting diff between origin/${{ github.base_ref }} and HEAD..."
+          git diff origin/${{ github.base_ref }}...HEAD -- 'scripts/data/' > diff_content.txt
+          
+          # Show what we found
+          echo "Diff lines: $(wc -l < diff_content.txt)"
+          cat diff_content.txt
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -38,11 +42,9 @@ jobs:
       - name: Run verification
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          GITHUB_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           cd .github/scripts
-          node verify-data.js --output ../../verification_report.md
+          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md
           
       - name: Post verification summary
         run: |
