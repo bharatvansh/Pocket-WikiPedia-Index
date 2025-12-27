@@ -199,5 +199,37 @@ export const passiveMobs = {
             { item: "Saddle", chance: "If equipped" }
         ],
         description: "Camels are tall passive mobs that spawn in desert villages. Unlike most mounts, they can carry two players at the same time, making them a convenient way to travel together without needing two separate animals. When ridden, camels can perform a short charged dash to quickly reposition or cross gaps, and their height often keeps riders safely above the reach of many ground-based melee attacks. Camels can be bred with cactus, and a saddle is required to ride them."
+    },
+    "minecraft:armadillo": {
+        id: "minecraft:armadillo",
+        name: "Armadillo",
+        health: 12,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.14
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Savanna", "Savanna Plateau", "Windswept Savanna", "Badlands", "Eroded Badlands", "Wooded Badlands"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Passive mob that rolls into a ball when threatened",
+            "Threats include sprinting players, players on mounts, and undead mobs",
+            "Takes reduced damage when rolled up",
+            "Spiders and cave spiders flee from armadillos",
+            "Can be bred with spider eyes",
+            "Periodically sheds Armadillo Scutes",
+            "Can be brushed to obtain Armadillo Scutes"
+        ],
+        drops: [
+            { item: "Armadillo Scute", chance: "Periodic shed / Brushing" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Armadillos are passive mobs found in Savanna and Badlands biomes. They are shy creatures that roll into a protective ball when threatened by sprinting players, mounts, or undead mobs. While rolled up, they take significantly reduced damage. Armadillos are the source of Armadillo Scutes, which are used to craft Wolf Armor. Scutes can be obtained by waiting for the armadillo to shed them naturally or by using a Brush on the armadillo. They have a unique interaction with spiders, causing them to flee. Armadillos can be bred using Spider Eyes."
     }
 };
