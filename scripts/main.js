@@ -3,11 +3,12 @@
 
 import { world } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { searchIndex } from "./data/search_index.js";
-import { getBlockDetails } from "./data/providers/block_provider.js";
-import { getItemDetails } from "./data/providers/item_provider.js";
-import { getMobDetails } from "./data/providers/mob_provider.js";
+import { searchIndex } from "./data/search/index.js";
+import { getBlockDetails } from "./data/providers/blocks/index.js";
+import { getItemDetails } from "./data/providers/items/index.js";
+import { getMobDetails } from "./data/providers/mobs/index.js";
 import { renderDetailView } from "./ui/ui_factory.js";
+
 
 // Formatting codes
 const FMT = {
@@ -26,7 +27,7 @@ const FMT = {
 // Main entry point - triggered by using a book
 world.afterEvents.itemUse.subscribe((event) => {
     const { itemStack, source } = event;
-    
+
     // Only trigger on book usage
     if (itemStack.typeId === "minecraft:book") {
         showMainMenu(source);
@@ -62,7 +63,7 @@ function showMainMenu(player) {
 
     form.show(player).then((response) => {
         if (response?.canceled) return;
-        
+
         const searchTerm = response.formValues[0]?.toString().toLowerCase().trim() || "";
         if (searchTerm !== "") {
             showSearchResults(player, searchTerm);
@@ -77,11 +78,11 @@ function showMainMenu(player) {
  */
 function showSearchResults(player, searchTerm) {
     // Filter search index based on search term
-    const results = searchIndex.filter(entry => 
+    const results = searchIndex.filter(entry =>
         entry.name.toLowerCase().includes(searchTerm) ||
         entry.id.toLowerCase().includes(searchTerm)
     );
-    
+
     if (results.length === 0) {
         const form = new ActionFormData()
             .title("§c✗ No Results")
@@ -93,11 +94,11 @@ function showSearchResults(player, searchTerm) {
                 `${FMT.gray}Try a different search term.${FMT.reset}`
             )
             .button("§c« Back to Menu");
-        
+
         form.show(player).then(() => showMainMenu(player));
         return;
     }
-    
+
     // Create action form with results
     const form = new ActionFormData()
         .title("§a⚲ Search Results")
@@ -107,17 +108,17 @@ function showSearchResults(player, searchTerm) {
             `${FMT.gray}Found ${FMT.green}${results.length}${FMT.gray} entries${FMT.reset}\n` +
             `${FMT.green}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}`
         );
-    
+
     // Add buttons for each result (max 10 to avoid UI issues)
     results.slice(0, 10).forEach(entry => {
-        const catLabel = entry.category === "block" ? "§6▣ Block" : 
-                         entry.category === "item" ? "§b◆ Item" : "§c♦ Mob";
+        const catLabel = entry.category === "block" ? "§6▣ Block" :
+            entry.category === "item" ? "§b◆ Item" : "§c♦ Mob";
         form.button(`${catLabel} §8- §f${entry.name}`, entry.icon);
     });
 
     // Add back button
     form.button("§c« Back to Menu");
-    
+
     form.show(player).then((response) => {
         if (response?.selection !== undefined) {
             const maxResults = Math.min(results.length, 10);
@@ -154,11 +155,11 @@ async function showEntryDetails(player, entry, searchTerm) {
             default:
                 throw new Error(`Unknown category: ${entry.category}`);
         }
-        
+
         // Render the appropriate UI with navigation callbacks
         renderDetailView(
-            player, 
-            entry, 
+            player,
+            entry,
             details,
             () => showSearchResults(player, searchTerm),
             () => showMainMenu(player)
@@ -174,7 +175,7 @@ async function showEntryDetails(player, entry, searchTerm) {
                 `${FMT.red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${FMT.reset}`
             )
             .button("§c« Back to Menu");
-        
+
         form.show(player).then(() => showMainMenu(player));
     }
 }
