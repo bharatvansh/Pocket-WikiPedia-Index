@@ -154,6 +154,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "Any"
             },
             description: "Glowstone is a luminous block that emits the maximum light level of 15, making it an excellent light source. It generates naturally in the Nether on the underside of terrain and in bastion remnants. When broken without Silk Touch, it drops 2-4 glowstone dust, which can be crafted back into glowstone blocks."
+        },
+        "minecraft:obsidian": {
+            id: "minecraft:obsidian",
+            name: "Obsidian",
+            hardness: 50,
+            blastResistance: 1200,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "Diamond",
+                silkTouch: true
+            },
+            drops: ["Obsidian"],
+            generation: {
+                dimension: "All Dimensions",
+                yRange: "Any"
+            },
+            description: "Obsidian is a dark, glass-like block created when water flows over a lava source. It has the highest blast resistance of any block (1,200), making it immune to normal explosions. Obsidian requires a diamond pickaxe or better to mine efficiently and is essential for crafting enchanting tables, beacons, ender chests, and Nether portals."
+        },
+        "minecraft:sand": {
+            id: "minecraft:sand",
+            name: "Sand",
+            hardness: 0.5,
+            blastResistance: 0.5,
+            flammability: false,
+            gravityAffected: true,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Shovel",
+                minTier: "None",
+                silkTouch: false
+            },
+            drops: ["Sand"],
+            generation: {
+                dimension: "Overworld",
+                yRange: "Any (surface)"
+            },
+            description: "Sand is a gravity-affected block found abundantly in deserts and beaches. When the supporting block below sand is removed, it falls until it lands on a solid surface. Sand can be smelted in a blast furnace and is used to create glass, sandstone, and concrete powder. It can also be traded with wandering traders."
         }
     };
 

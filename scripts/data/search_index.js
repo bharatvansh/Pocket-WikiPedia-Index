@@ -59,6 +59,20 @@ export const searchIndex = [
         icon: "textures/blocks/glowstone",
         themeColor: "§e" // yellow/gold
     },
+    {
+        id: "minecraft:obsidian",
+        name: "Obsidian",
+        category: "block",
+        icon: "textures/blocks/obsidian",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:sand",
+        name: "Sand",
+        category: "block",
+        icon: "textures/blocks/sand",
+        themeColor: "§e" // yellow
+    },
     
     // Items
     {
@@ -103,6 +117,20 @@ export const searchIndex = [
         icon: "textures/items/trident",
         themeColor: "§b" // aqua
     },
+    {
+        id: "minecraft:netherite_ingot",
+        name: "Netherite Ingot",
+        category: "item",
+        icon: "textures/items/netherite_ingot",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:crossbow",
+        name: "Crossbow",
+        category: "item",
+        icon: "textures/items/crossbow",
+        themeColor: "§8" // dark gray
+    },
     
     // Mobs
     {
@@ -146,5 +174,19 @@ export const searchIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_warden.png",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_phantom.png",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:axolotl",
+        name: "Axolotl",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_axolotl.png",
+        themeColor: "§d" // pink/purple
     }
 ];
