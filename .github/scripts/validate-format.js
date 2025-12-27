@@ -7,7 +7,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import vm from 'vm';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -123,9 +122,9 @@ function validateEntry(key, entry, dataType, issues) {
 }
 
 /**
- * Validate a JavaScript file
+ * Validate a JavaScript file using dynamic import (supports ES modules)
  */
-function validateFile(filePath, issues) {
+async function validateFile(filePath, issues) {
     const absolutePath = path.resolve(filePath);
 
     if (!fs.existsSync(absolutePath)) {
@@ -140,50 +139,46 @@ function validateFile(filePath, issues) {
     const content = fs.readFileSync(absolutePath, 'utf8');
     const dataType = detectDataType(filePath);
 
-    // Step 1: Try to parse the JavaScript syntax
-    try {
-        new vm.Script(content, { filename: filePath });
-    } catch (syntaxError) {
-        issues.push({
-            type: 'syntax_error',
-            file: filePath,
-            line: syntaxError.lineNumber || 'unknown',
-            message: `JavaScript syntax error: ${syntaxError.message}`
-        });
-        return false;
-    }
-
-    // Step 2: Extract exported objects using regex (simple approach)
-    // Look for patterns like: export const someName = { ... }
-    const exportMatches = content.match(/export\s+const\s+\w+\s*=\s*\{/g);
-    if (!exportMatches) {
-        // No exports to validate
+    // Skip index files - they just re-export
+    if (path.basename(filePath) === 'index.js') {
+        console.log(`  (index file, skipping deep validation)`);
         return true;
     }
 
-    // Step 3: Try to evaluate and extract data
-    // Create a mock module context
+    // Try to dynamically import and validate the module
     try {
-        // Extract the object content after export const name = 
-        const objectMatch = content.match(/export\s+const\s+\w+\s*=\s*(\{[\s\S]*\});?\s*$/);
-        if (objectMatch) {
-            // Use Function constructor to safely evaluate the object
-            const evalCode = `return (${objectMatch[1]});`;
-            const data = new Function(evalCode)();
+        // Convert to file:// URL for dynamic import
+        const fileUrl = 'file://' + absolutePath.replace(/\\/g, '/');
+        const module = await import(fileUrl);
 
-            // Validate each entry
-            for (const [key, entry] of Object.entries(data)) {
-                if (typeof entry === 'object' && entry !== null) {
-                    validateEntry(key, entry, dataType, issues);
+        // Find exported data objects
+        for (const [exportName, exportValue] of Object.entries(module)) {
+            if (typeof exportValue === 'object' && exportValue !== null && !Array.isArray(exportValue)) {
+                // This looks like a data registry object
+                for (const [key, entry] of Object.entries(exportValue)) {
+                    if (typeof entry === 'object' && entry !== null && entry.id) {
+                        validateEntry(key, entry, dataType, issues);
+                    }
                 }
             }
         }
-    } catch (evalError) {
-        // Can't evaluate, but syntax check passed - that's okay
-        console.log(`Note: Could not deep-validate ${filePath}: ${evalError.message}`);
-    }
 
-    return true;
+        return true;
+    } catch (importError) {
+        // Check if it's a syntax error vs import resolution error
+        if (importError instanceof SyntaxError) {
+            issues.push({
+                type: 'syntax_error',
+                file: filePath,
+                message: `JavaScript syntax error: ${importError.message}`
+            });
+            return false;
+        }
+
+        // Other import errors (like missing dependencies) - just log and continue
+        console.log(`  Note: Could not import ${path.basename(filePath)}: ${importError.message}`);
+        return true;
+    }
 }
 
 /**
@@ -260,7 +255,7 @@ async function main() {
     // Validate each file
     for (const file of files) {
         console.log(`Checking: ${file}`);
-        validateFile(file, issues);
+        await validateFile(file, issues);
         filesChecked++;
     }
 
