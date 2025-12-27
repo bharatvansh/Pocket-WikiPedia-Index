@@ -158,15 +158,15 @@ function renderBlockDetail(player, entry, details) {
     // Quick facts box
     const quickFacts = [];
     if (details.hardness != null) {
-        const hardnessBar = progressBar(Math.min(details.hardness, 50), 50, 8, FMT.gold);
+        const hardnessBar = progressBar(Math.min(details.hardness, 5), 5, 10, FMT.gold);
         quickFacts.push(`${FMT.gold}*${FMT.reset} Hardness: ${hardnessBar} ${FMT.white}${details.hardness}`);
     }
     if (details.blastResistance != null) {
-        const resistBar = progressBar(Math.min(details.blastResistance, 100), 100, 8, FMT.red);
+        const resistBar = progressBar(Math.min(details.blastResistance, 10), 10, 10, FMT.red);
         quickFacts.push(`${FMT.red}*${FMT.reset} Blast Res: ${resistBar} ${FMT.white}${details.blastResistance}`);
     }
     if (details.luminance != null && details.luminance > 0) {
-        const lightBar = progressBar(details.luminance, 15, 8, FMT.yellow);
+        const lightBar = progressBar(details.luminance, 15, 10, FMT.yellow);
         quickFacts.push(`${FMT.yellow}*${FMT.reset} Light:     ${lightBar} ${FMT.white}${details.luminance}`);
     }
     addQuickFacts(form, quickFacts, style.accent);
@@ -231,11 +231,11 @@ function renderItemDetail(player, entry, details, onBack, onMainMenu) {
     const quickFacts = [];
     quickFacts.push(`${FMT.white}■${FMT.reset} Stack: ${FMT.aqua}${details.maxStack}${FMT.reset}`);
     if (details.durability > 0) {
-        const durBar = progressBar(details.durability, 2031, 8, FMT.green); // 2031 = netherite durability
+        const durBar = progressBar(Math.min(details.durability, 500), 500, 10, FMT.green);
         quickFacts.push(`${FMT.green}♦${FMT.reset} Durability: ${durBar} ${FMT.white}${details.durability}`);
     }
     if (details.combat?.attackDamage != null) {
-        const dmgBar = progressBar(details.combat.attackDamage, 10, 8, FMT.red);
+        const dmgBar = progressBar(details.combat.attackDamage, 12, 10, FMT.red);
         quickFacts.push(`${FMT.red}⚔${FMT.reset} Damage:     ${dmgBar} ${FMT.white}${details.combat.attackDamage}`);
     }
     addQuickFacts(form, quickFacts, style.accent);
