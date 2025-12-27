@@ -6,6 +6,39 @@
  * @type {Object.<string, import('../mob_types').MobDetails>}
  */
 export const neutralMobs = {
+    "minecraft:fox": {
+        id: "minecraft:fox",
+        name: "Fox",
+        health: 10,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Taiga", "Snowy Taiga", "Old Growth Pine Taiga", "Old Growth Spruce Taiga"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Neutral mobs that become hostile when attacked",
+            "Hunt small animals like rabbits and chickens",
+            "Can be bred with sweet berries",
+            "Sleep during the day and are active at night",
+            "Can pick up items in their mouth and carry them",
+            "Come in two variants: red (taiga) and white (snowy taiga)",
+            "Can climb ladders and fences",
+            "Avoid wolves and polar bears",
+            "Baby foxes follow adult foxes and inherit their trust status"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Foxes are small, intelligent neutral mobs that spawn in taiga biomes. They are nocturnal creatures that sleep during the day and become active at night. Foxes hunt small animals like rabbits and chickens, making them useful for passive mob farming. They can be bred with sweet berries and come in two variants: red foxes in regular taiga biomes and white foxes in snowy taiga biomes. Foxes have unique behaviors like picking up and carrying items in their mouths, climbing ladders and fences, and avoiding predators like wolves and polar bears. They are generally passive but will defend themselves when attacked."
+    },
     "minecraft:enderman": {
         id: "minecraft:enderman",
         name: "Enderman",
