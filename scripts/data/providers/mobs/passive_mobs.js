@@ -130,8 +130,7 @@ export const passiveMobs = {
             "Ignores item enchantments, names, and items in shulker boxes"
         ],
         drops: [
-            { item: "Item held", chance: "If holding" },
-            { item: "Experience", chance: "1-3" }
+            { item: "Item held", chance: "If holding" }
         ],
         description: "Allays are flying passive mobs introduced in the Wild Update that collect and deliver items for players. When given an item, an allay will fly around searching for dropped items of the same type within a 32-block radius and deliver them to the player. Allays follow their assigned player from up to 64 blocks away, even through walls, making them excellent automated item collectors for farms. They dance happily when near active note blocks playing music discs. Allays spawn in cages at woodland mansions and pillager outposts. They cannot be harmed by the player who assigned them an item and regenerate health quickly when damaged. Their ability to automate item collection makes them invaluable for farming and sorting operations."
     },
