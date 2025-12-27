@@ -35,34 +35,40 @@ function parseArgs() {
  */
 function getChangedData() {
     try {
-        // Get the diff of changes in data files
         const { execSync } = require('child_process');
+        const cwd = path.resolve(__dirname, '../..');
 
-        // For PR: diff against base branch. For local: diff against HEAD~1
+        const baseSha = process.env.GITHUB_BASE_SHA;
+        const headSha = process.env.GITHUB_SHA || 'HEAD';
+
+        console.log(`Base SHA: ${baseSha || '(not set)'}`);
+        console.log(`Head SHA: ${headSha}`);
+
         let diff = '';
-        try {
-            // Try PR diff first (GitHub Actions sets these)
-            const baseSha = process.env.GITHUB_BASE_SHA || process.env.BASE_SHA;
-            const headSha = process.env.GITHUB_SHA || 'HEAD';
+        let cmd = '';
 
-            if (baseSha) {
-                diff = execSync(`git diff ${baseSha} ${headSha} -- "scripts/data/"`, {
-                    encoding: 'utf8',
-                    cwd: path.resolve(__dirname, '../..')
-                });
-            } else {
-                // Local: diff against previous commit
-                diff = execSync('git diff HEAD~1 HEAD -- "scripts/data/"', {
-                    encoding: 'utf8',
-                    cwd: path.resolve(__dirname, '../..')
-                });
-            }
+        if (baseSha) {
+            // PR mode: diff between base and head
+            cmd = `git diff ${baseSha}..${headSha} -- "scripts/data/"`;
+        } else {
+            // Local/fallback: diff against previous commit
+            cmd = 'git diff HEAD~1 HEAD -- "scripts/data/"';
+        }
+
+        console.log(`Running: ${cmd}\n`);
+
+        try {
+            diff = execSync(cmd, { encoding: 'utf8', cwd });
         } catch (e) {
-            // Fallback: show staged + unstaged changes
-            diff = execSync('git diff HEAD -- "scripts/data/"', {
-                encoding: 'utf8',
-                cwd: path.resolve(__dirname, '../..')
-            });
+            console.log('Primary diff failed, trying fallback...');
+            // Fallback: show uncommitted changes
+            diff = execSync('git diff HEAD -- "scripts/data/"', { encoding: 'utf8', cwd });
+        }
+
+        if (diff) {
+            console.log(`Found ${diff.split('\n').length} lines of diff\n`);
+        } else {
+            console.log('No diff found\n');
         }
 
         return diff;
