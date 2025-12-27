@@ -7,6 +7,20 @@
  */
 export const mobIndex = [
     {
+        id: "minecraft:dolphin",
+        name: "Dolphin",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_dolphin.png",
+        themeColor: "§b" // light blue
+    },
+    {
+        id: "minecraft:fox",
+        name: "Fox",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_fox.png",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:creeper",
         name: "Creeper",
         category: "mob",
