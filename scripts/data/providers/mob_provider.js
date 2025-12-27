@@ -155,6 +155,70 @@ export async function getMobDetails(mobId) {
                 { item: "Block", chance: "If carrying one" }
             ],
             description: "Endermen are tall, mysterious neutral mobs that can teleport and pick up blocks. They are normally passive but become hostile if a player looks at their face or attacks them. Endermen are damaged by water and rain, causing them to teleport away rapidly. They drop ender pearls, which are essential for locating and accessing The End dimension."
+        },
+        "minecraft:skeleton": {
+            id: "minecraft:skeleton",
+            name: "Skeleton",
+            health: 20,
+            stats: {
+                attackDamage: 4,
+                movementSpeed: 0.25
+            },
+            classification: {
+                type: "Hostile",
+                undead: true
+            },
+            spawning: {
+                biomes: ["Most Overworld biomes", "Nether Fortresses"],
+                lightLevel: "0-7",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Shoots arrows from up to 16 blocks away",
+                "Burns in sunlight unless wearing a helmet or in shade",
+                "Seeks shade during daytime",
+                "Can pick up items and wear armor",
+                "Strafe sideways while shooting at players",
+                "Flee from wolves"
+            ],
+            drops: [
+                { item: "Bone", chance: "0-2" },
+                { item: "Arrow", chance: "0-2" },
+                { item: "Bow", chance: "8.5% (increases with Looting)" },
+                { item: "Equipped items/armor", chance: "If picked up" }
+            ],
+            description: "Skeletons are common undead hostile mobs that attack players with bows from a distance. They spawn in dark areas and burn in direct sunlight unless protected. Skeletons are excellent sources of bones and arrows, making them valuable for farming bonemeal and ammunition. They can spawn with enchanted bows and armor, making some variants more dangerous."
+        },
+        "minecraft:warden": {
+            id: "minecraft:warden",
+            name: "Warden",
+            health: 500,
+            stats: {
+                attackDamage: 30,
+                movementSpeed: 0.3
+            },
+            classification: {
+                type: "Hostile",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Deep Dark"],
+                lightLevel: "Any",
+                groupSize: "1"
+            },
+            behaviorTraits: [
+                "Completely blind, relies on vibrations and smell",
+                "Detects movement and sounds within a large radius",
+                "Performs powerful melee attacks that disable shields",
+                "Unleashes sonic boom ranged attack that ignores armor and shields",
+                "Emerges from the ground when summoned by sculk shriekers",
+                "Cannot be outrun easily due to high movement speed",
+                "Despawns if no vibrations detected for 60 seconds"
+            ],
+            drops: [
+                { item: "Sculk Catalyst", chance: "1" }
+            ],
+            description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
         }
     };
 

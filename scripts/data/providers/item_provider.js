@@ -124,6 +124,59 @@ export async function getItemDetails(itemId) {
                 "Can be repaired with another bow or string"
             ],
             description: "The Bow is a ranged weapon that shoots arrows at enemies from a distance. It must be charged before firing, with longer charge times resulting in more damage and longer range. Bows are essential for fighting enemies from safety and can be enhanced with various enchantments."
+        },
+        "minecraft:enchanted_golden_apple": {
+            id: "minecraft:enchanted_golden_apple",
+            name: "Enchanted Golden Apple",
+            maxStack: 64,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Food with powerful status effects",
+                secondaryUse: "Emergency healing and protection"
+            },
+            crafting: {
+                recipeType: "Uncraftable",
+                ingredients: ["Found in loot chests"]
+            },
+            specialNotes: [
+                "Restores 4 hunger points",
+                "Provides Regeneration II for 20 seconds",
+                "Provides Absorption IV for 2 minutes",
+                "Provides Fire Resistance I for 5 minutes",
+                "Provides Resistance I for 5 minutes",
+                "Extremely rare, found in dungeons, desert temples, mineshafts, and bastions"
+            ],
+            description: "The Enchanted Golden Apple, also known as a Notch Apple, is an extremely rare and powerful food item. It provides multiple beneficial status effects including regeneration, absorption, fire resistance, and damage resistance. Unlike regular golden apples, it cannot be crafted and must be found in loot chests throughout the world."
+        },
+        "minecraft:trident": {
+            id: "minecraft:trident",
+            name: "Trident",
+            maxStack: 1,
+            durability: 250,
+            enchantable: true,
+            usage: {
+                primaryUse: "Melee and ranged combat weapon",
+                secondaryUse: "Can be thrown and retrieved"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 1.1
+            },
+            crafting: {
+                recipeType: "Uncraftable",
+                ingredients: ["Dropped by Drowned"]
+            },
+            specialNotes: [
+                "Can be thrown as a ranged weapon dealing 8 damage",
+                "Enchantable with Loyalty, Riptide, Channeling, Impaling, Unbreaking, and Mending",
+                "Loyalty enchantment makes it return after throwing",
+                "Riptide allows propelling yourself when thrown in water or rain",
+                "Channeling summons lightning during thunderstorms",
+                "Impaling increases damage against aquatic mobs",
+                "Only obtainable from drowned mobs with a 6.25% drop chance"
+            ],
+            description: "The Trident is a unique weapon that can be used for both melee and ranged combat. It can be thrown like a spear and retrieved with the Loyalty enchantment. Tridents are obtained exclusively from drowned mobs and can be enhanced with special water-themed enchantments. When enchanted with Channeling, it can summon lightning strikes during thunderstorms."
         }
     };
 
