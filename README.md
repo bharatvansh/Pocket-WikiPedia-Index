@@ -7,7 +7,7 @@ A scalable wiki system for Minecraft Bedrock Edition that provides information a
 This implementation follows a scalable architecture that separates the search index from detailed content:
 
 ### 1. Data Layer
-- **Search Index** (`scripts/data/search_index.js`): Lightweight registry with only essential metadata
+- **Search Index** (`scripts/data/search/index.js`): Lightweight registry with only essential metadata
 - **Content Providers** (`scripts/data/providers/`): On-demand detailed content retrieval
 
 ### 2. UI Layer
@@ -21,7 +21,7 @@ This implementation follows a scalable architecture that separates the search in
 
 ## Sample Entries
 
-The foundation includes 2 sample entries in each category:
+The foundation includes a growing set of sample entries in each category. Examples:
 
 ### Blocks
 - Dirt: Common building block
@@ -34,6 +34,8 @@ The foundation includes 2 sample entries in each category:
 ### Mobs
 - Creeper: Hostile explosive mob
 - Pig: Passive farm animal
+- Camel: Two-player mount found in desert villages
+- Breeze: Trial Chambers mob that attacks with wind charges
 
 ## Usage
 
@@ -52,6 +54,6 @@ The foundation includes 2 sample entries in each category:
 ## Future Expansion
 
 To add more entries:
-1. Add to `search_index.js` with basic metadata
-2. Implement provider functions for detailed content
+1. Add a lightweight entry to the appropriate search index file in `scripts/data/search/` (e.g. `mob_index.js`)
+2. Add the detailed data in the matching provider registry under `scripts/data/providers/`
 3. The UI will automatically adapt based on category
