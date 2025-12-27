@@ -284,6 +284,71 @@ export async function getMobDetails(mobId) {
                 { item: "None", chance: "N/A" }
             ],
             description: "Villagers are passive NPCs that inhabit villages across the Overworld. They are essential to gameplay due to their trading system, which allows players to exchange emeralds for valuable items including enchanted gear, food, and resources. Each villager has a profession that determines their trades and appearance. Villagers work at job site blocks during the day and sleep at night. They can be converted to zombie villagers by zombie attacks, which can then be cured back to normal with a splash potion of weakness and a golden apple."
+        },
+        "minecraft:axolotl": {
+            id: "minecraft:axolotl",
+            name: "Axolotl",
+            health: 14,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 0.15
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Lush Caves"],
+                lightLevel: "Any",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Aquatic mobs found only in water",
+                "Can be tamed with buckets of tropical fish",
+                "Attacks hostile aquatic mobs like guardians and drowner",
+                "Has 5 color variants (lucayan, pink, brown, cyan, gold)",
+                "Plays dead when damaged underwater, regenerating health",
+                "Can be bred with two buckets of tropical fish",
+                "Immune to drowning and can breathe underwater indefinitely",
+                "Helps players fight underwater by attacking hostile mobs"
+            ],
+            drops: [
+                { item: "Nothing", chance: "N/A" },
+                { item: "Experience", chance: "When killed by player or tamed wolf" }
+            ],
+            description: "Axolotls are adorable aquatic mobs introduced in the Caves & Cliffs update. They spawn exclusively in lush caves and can be tamed by giving them buckets of tropical fish. They are excellent underwater companions, attacking hostile aquatic mobs like guardians, elder guardians, and drowners. When an axolotl takes damage while in water, it may play dead to regenerate health. They come in five color variants and can be bred to create more axolotls."
+        },
+        "minecraft:allay": {
+            id: "minecraft:allay",
+            name: "Allay",
+            health: 10,
+            stats: {
+                attackDamage: 0,
+                movementSpeed: 0.25
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Dark Oak cages at Pillager Outposts", "Near note blocks"],
+                lightLevel: "Any",
+                groupSize: "1"
+            },
+            behaviorTraits: [
+                "Collects items matching the one it holds",
+                "Returns items to the nearest note block or player",
+                "Dances when a note block nearby plays music",
+                "Can be duplicated by feeding an amethyst shard near a note block",
+                "Extremely useful for item sorting and farming",
+                "Follows players holding the item they are searching for",
+                "Flies through small gaps to access items",
+                "Does not despawn naturally"
+            ],
+            drops: [
+                { item: "Amethyst Shard", chance: "When duplicated" }
+            ],
+            description: "Allays are small, blue, flying mobs that collect and deliver items. They spawn in dark oak cages around pillager outposts and can be found near note blocks. When an allay picks up an item, it searches for more of the same type and delivers them to a note block or back to the player. Allays are incredibly useful for automated item collection systems and can be duplicated by feeding an amethyst shard to one while a note block plays music. They dance to the rhythm of note blocks and are essential for redstone farms."
         }
     };
 

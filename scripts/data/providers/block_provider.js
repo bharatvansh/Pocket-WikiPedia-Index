@@ -196,6 +196,48 @@ export async function getBlockDetails(blockId) {
                 yRange: "Any"
             },
             description: "Prismarine is a decorative block found exclusively in ocean monuments and underwater ruins. It comes in three variants: prismarine, prismarine bricks, and dark prismarine. Prismarine is obtained by mining it with any pickaxe, and can be crafted from prismarine shards obtained from sea lanterns. Its distinctive teal color makes it popular for underwater builds."
+        },
+        "minecraft:concrete": {
+            id: "minecraft:concrete",
+            name: "Concrete",
+            hardness: 1.8,
+            blastResistance: 1.8,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "None",
+                silkTouch: false
+            },
+            drops: ["Concrete"],
+            generation: {
+                dimension: "N/A",
+                yRange: "Created when Concrete Powder touches water"
+            },
+            description: "Concrete is a colorful building block created when concrete powder comes into contact with water. It comes in 16 vibrant colors and is highly resistant to explosions, making it popular for outdoor builds and decorative structures. Unlike wool, concrete does not conduct redstone signals and is not flammable."
+        },
+        "minecraft:tuff": {
+            id: "minecraft:tuff",
+            name: "Tuff",
+            hardness: 1.5,
+            blastResistance: 6,
+            flammability: false,
+            gravityAffected: false,
+            transparent: false,
+            luminance: 0,
+            mining: {
+                tool: "Pickaxe",
+                minTier: "None",
+                silkTouch: false
+            },
+            drops: ["Tuff"],
+            generation: {
+                dimension: "Overworld",
+                yRange: "Below Y=16"
+            },
+            description: "Tuff is a decorative rocky block that generates underground in ore-like blobs below Y-level 16. It is commonly found near diamond deposits and ancient debris in the deeper parts of the world. Tuff can be crafted into various building blocks including polished tuff, tuff bricks, and tuff slabs. When mined without a pickaxe, it drops nothing."
         }
     };
 
