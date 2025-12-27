@@ -177,6 +177,57 @@ export async function getItemDetails(itemId) {
                 "Only obtainable from drowned mobs with a 6.25% drop chance"
             ],
             description: "The Trident is a unique weapon that can be used for both melee and ranged combat. It can be thrown like a spear and retrieved with the Loyalty enchantment. Tridents are obtained exclusively from drowned mobs and can be enhanced with special water-themed enchantments. When enchanted with Channeling, it can summon lightning strikes during thunderstorms."
+        },
+        "minecraft:netherite_ingot": {
+            id: "minecraft:netherite_ingot",
+            name: "Netherite Ingot",
+            maxStack: 64,
+            durability: 0,
+            enchantable: false,
+            usage: {
+                primaryUse: "Upgrading diamond equipment",
+                secondaryUse: "Crafting beacon bases and netherite blocks"
+            },
+            crafting: {
+                recipeType: "Shaped",
+                ingredients: ["Netherite Scrap x4", "Gold Ingot x4"]
+            },
+            specialNotes: [
+                "Immune to fire and lava damage",
+                "Higher durability than diamond equipment",
+                "Cannot be destroyed by the Wither",
+                "Used in beacon base construction",
+                "Found in bastion remnant loot chests"
+            ],
+            description: "Netherite Ingots are the highest-tier material in Minecraft, crafted from netherite scraps and gold ingots. They are immune to fire and lava, making netherite equipment the most durable and valuable. Netherite items have higher durability and protection than diamond and are essential for late-game players seeking the best equipment."
+        },
+        "minecraft:crossbow": {
+            id: "minecraft:crossbow",
+            name: "Crossbow",
+            maxStack: 1,
+            durability: 465,
+            enchantable: true,
+            usage: {
+                primaryUse: "Ranged combat with arrows and fireworks",
+                secondaryUse: "Firing multiple projectiles with Multishot"
+            },
+            combat: {
+                attackDamage: 9,
+                attackSpeed: 1.0
+            },
+            crafting: {
+                recipeType: "Shaped",
+                ingredients: ["Stick x3", "Iron Ingot x1", "String x2"]
+            },
+            specialNotes: [
+                "Can be loaded with arrows, tipped arrows, or firework rockets",
+                "Projectile damage ranges from 7 to 11 with regular arrows",
+                "Firework rockets deal 5 to 16 damage depending on stars",
+                "Can be obtained from pillagers and piglins (8.5% drop chance)",
+                "Enchantable with Multishot, Piercing, Quick Charge, and Unbreaking",
+                "Uses 3 durability when firing firework rockets"
+            ],
+            description: "The Crossbow is a powerful ranged weapon that fires arrows or firework rockets. Unlike bows, it must be loaded before firing and stays loaded until used. Crossbows can be enchanted with special enchantments like Multishot (fires 3 arrows) and Piercing (arrows pass through multiple enemies). They are primarily obtained from pillagers, piglins, or trading with fletchers."
         }
     };
 

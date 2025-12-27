@@ -219,6 +219,73 @@ export async function getMobDetails(mobId) {
                 { item: "Sculk Catalyst", chance: "1" }
             ],
             description: "The Warden is the most powerful hostile mob in Minecraft, found exclusively in the Deep Dark biome. With 500 health points, it has more health than any other naturally spawning mob. The Warden is completely blind but detects players through vibrations and smell. It deals devastating melee damage and can fire a sonic boom attack that pierces through armor and shields. The Warden is meant to be avoided rather than fought, encouraging stealth gameplay in ancient cities."
+        },
+        "minecraft:phantom": {
+            id: "minecraft:phantom",
+            name: "Phantom",
+            health: 20,
+            stats: {
+                attackDamage: 6,
+                movementSpeed: 0.7
+            },
+            classification: {
+                type: "Hostile",
+                undead: true
+            },
+            spawning: {
+                biomes: ["Most Overworld biomes"],
+                lightLevel: "Any (if player hasn't slept)",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Spawns when player hasn't slept for 3+ nights",
+                "Flies in circular patterns 15-25 blocks horizontally from player",
+                "Attacks by diving at players from the sky",
+                "Moves at up to 20 blocks per second",
+                "Can detect players from 64 blocks away",
+                "Attacks every 10-20 seconds (Bedrock) or 8-12 seconds (Java)",
+                "Burns in sunlight but doesn't despawn immediately",
+                "Fleeing from cats and ocelots"
+            ],
+            drops: [
+                { item: "Phantom Membrane", chance: "0-1" },
+                { item: "Phantom Membrane", chance: "0-1 with Looting I" },
+                { item: "Phantom Membrane", chance: "0-1 with Looting II" },
+                { item: "Phantom Membrane", chance: "1 with Looting III" }
+            ],
+            description: "Phantoms are flying undead hostile mobs that spawn in the night sky when a player has not slept in a bed or died for three or more consecutive nights. They attack by diving at players with incredible speed. Phantoms are immune to water but can be damaged by splash water bottles. They drop phantom membranes, which are used to repair elytras and craft potions of Slow Falling. Being undead, they are affected by Smite enchantment and Instant Damage potions."
+        },
+        "minecraft:axolotl": {
+            id: "minecraft:axolotl",
+            name: "Axolotl",
+            health: 14,
+            stats: {
+                attackDamage: 2,
+                movementSpeed: 1
+            },
+            classification: {
+                type: "Passive",
+                undead: false
+            },
+            spawning: {
+                biomes: ["Lush Caves"],
+                lightLevel: "Any (underground)",
+                groupSize: "1-4"
+            },
+            behaviorTraits: [
+                "Hunts most aquatic mobs including drowneds and guardians",
+                "Grants player Regeneration I when helping kill mobs",
+                "Can be picked up in a bucket and transported",
+                "Follows players holding buckets of tropical fish",
+                "Can be bred with buckets of tropical fish",
+                "Rare blue variant can only be obtained through breeding",
+                "Plays dead when damaged, gaining Regeneration I",
+                "Immune to drowning and can breathe underwater indefinitely"
+            ],
+            drops: [
+                { item: "Experience", chance: "1 (when killed by player or tamed wolf)" }
+            ],
+            description: "Axolotls are adorable passive aquatic mobs found exclusively in lush caves. They come in five colors: brown (wild), cyan, gold, pink, and rare blue. Axolotls hunt hostile aquatic mobs like drowneds, guardians, and elder guardians, assisting players in combat. When a player helps an axolotl kill a mob, the axolotl grants the player Regeneration. They can be picked up in buckets and bred with tropical fish. Axolotls make excellent underwater companions and are essential for lush cave exploration."
         }
     };
 
