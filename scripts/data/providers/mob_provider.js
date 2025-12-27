@@ -266,7 +266,7 @@ export async function getMobDetails(mobId) {
                 undead: false
             },
             spawning: {
-                biomes: ["Plains", "Desert", "Savanna", "Taiga", "Snowy Tundra"],
+                biomes: ["Plains", "Desert", "Savanna", "Taiga", "Snowy Plains", "Snowy Taiga", "Meadow", "Sunflower Plains"],
                 lightLevel: "Any",
                 groupSize: "Villages"
             },

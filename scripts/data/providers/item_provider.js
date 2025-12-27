@@ -182,7 +182,7 @@ export async function getItemDetails(itemId) {
             id: "minecraft:shield",
             name: "Shield",
             maxStack: 1,
-            durability: 336,
+            durability: 337,
             enchantable: true,
             usage: {
                 primaryUse: "Blocking incoming attacks",
