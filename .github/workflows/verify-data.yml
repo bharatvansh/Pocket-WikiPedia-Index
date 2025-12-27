@@ -1,9 +1,6 @@
 name: Verify Wiki Data
 
 on:
-  push:
-    paths:
-      - 'scripts/data/**'
   pull_request:
     paths:
       - 'scripts/data/**'
