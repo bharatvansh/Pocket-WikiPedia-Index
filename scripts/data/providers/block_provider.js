@@ -106,7 +106,7 @@ export async function getBlockDetails(blockId) {
                 minTier: "Stone",
                 silkTouch: true
             },
-            drops: ["Raw Copper (2-5)"],
+            drops: ["Raw Copper (2-3)"],
             generation: {
                 dimension: "Overworld",
                 yRange: "-16 to 112"

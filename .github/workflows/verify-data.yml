@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Need previous commit for diff
+          fetch-depth: 0  # Full history for accurate diff
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -28,24 +28,14 @@ jobs:
           cd .github/scripts
           npm install
 
-      - name: Get changed files
-        id: changed-files
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} > changed_files.txt
-          else
-            git diff --name-only HEAD~1 HEAD > changed_files.txt
-          fi
-          echo "Changed files:"
-          cat changed_files.txt
-
       - name: Run verification
-        id: verify
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          GITHUB_SHA: ${{ github.sha }}
         run: |
           cd .github/scripts
-          node verify-data.js --files ../../changed_files.txt --output ../../verification_report.md
+          node verify-data.js --output ../../verification_report.md
           
       - name: Post verification summary
         run: |

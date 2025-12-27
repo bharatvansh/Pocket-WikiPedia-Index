@@ -31,20 +31,45 @@ function parseArgs() {
 }
 
 /**
- * Read and combine all changed data files
+ * Get only the actual changes (diff) from git
  */
-function getChangedData(changedFiles) {
-    let allData = '';
+function getChangedData() {
+    try {
+        // Get the diff of changes in data files
+        const { execSync } = require('child_process');
 
-    for (const file of changedFiles) {
-        const fullPath = path.resolve(__dirname, '../..', file);
-        if (fs.existsSync(fullPath)) {
-            const content = fs.readFileSync(fullPath, 'utf8');
-            allData += `\n--- File: ${file} ---\n${content}\n`;
+        // For PR: diff against base branch. For local: diff against HEAD~1
+        let diff = '';
+        try {
+            // Try PR diff first (GitHub Actions sets these)
+            const baseSha = process.env.GITHUB_BASE_SHA || process.env.BASE_SHA;
+            const headSha = process.env.GITHUB_SHA || 'HEAD';
+
+            if (baseSha) {
+                diff = execSync(`git diff ${baseSha} ${headSha} -- "scripts/data/"`, {
+                    encoding: 'utf8',
+                    cwd: path.resolve(__dirname, '../..')
+                });
+            } else {
+                // Local: diff against previous commit
+                diff = execSync('git diff HEAD~1 HEAD -- "scripts/data/"', {
+                    encoding: 'utf8',
+                    cwd: path.resolve(__dirname, '../..')
+                });
+            }
+        } catch (e) {
+            // Fallback: show staged + unstaged changes
+            diff = execSync('git diff HEAD -- "scripts/data/"', {
+                encoding: 'utf8',
+                cwd: path.resolve(__dirname, '../..')
+            });
         }
-    }
 
-    return allData;
+        return diff;
+    } catch (error) {
+        console.error('Error getting git diff:', error.message);
+        return '';
+    }
 }
 
 /**
@@ -125,31 +150,9 @@ async function main() {
         return;
     }
 
-    // Get changed files
-    let changedFiles = [];
-
-    if (options.files) {
-        const filesContent = fs.readFileSync(options.files, 'utf8');
-        changedFiles = filesContent
-            .split('\n')
-            .map(f => f.trim())
-            .filter(f => f && f.includes('scripts/data/'));
-    }
-
-    if (changedFiles.length === 0) {
-        console.log('No data files changed. Skipping verification.');
-        if (options.output) {
-            fs.writeFileSync(options.output, '✅ No data changes detected.\n');
-        }
-        return;
-    }
-
-    console.log(`Found ${changedFiles.length} changed data file(s):\n`);
-    changedFiles.forEach(f => console.log(`  - ${f}`));
-    console.log('');
-
-    // Get all changed data
-    const dataContent = getChangedData(changedFiles);
+    // Get git diff of changed data
+    console.log('Getting changes from git diff...\n');
+    const dataContent = getChangedData();
 
     if (!dataContent.trim()) {
         console.log('No data content found in changed files.');
