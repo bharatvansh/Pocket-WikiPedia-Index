@@ -139,7 +139,7 @@ export async function getMobDetails(mobId) {
             },
             spawning: {
                 biomes: ["Most Overworld biomes", "The Nether", "The End"],
-                lightLevel: "0-7 (Overworld)", "Any (End)",
+                lightLevel: "0-7 (Overworld), Any (End)",
                 groupSize: "1-4"
             },
             behaviorTraits: [
