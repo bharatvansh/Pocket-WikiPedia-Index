@@ -343,5 +343,86 @@ export const hostileMobs = {
         drops: [
         ],
         description: "Creakings are eerie hostile mobs introduced as part of The Garden Awakens game drop (following Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 2-3 HP (1-1.5 hearts) of damage depending on difficulty level. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, accompanied by resin-related particle effects shooting outward, creating a haunting visual display. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
+    },
+    "minecraft:shulker": {
+        id: "minecraft:shulker",
+        name: "Shulker",
+        health: 30,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["End City"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Permanently attached to blocks, typically found on End City structures",
+            "Opens its shell periodically to reveal a small head with two eyes",
+            "Shoots guided shulker bullets that follow targets along X, Y, or Z axes",
+            "Shulker bullets deal 4 damage and inflict Levitation for 10 seconds",
+            "Teleports to nearby blocks when hit or when its attachment becomes invalid",
+            "Has 20 armor points when shell is closed, deflecting arrows",
+            "Armor is removed when shell opens for attack",
+            "Below half health, has 25% chance to teleport after taking damage",
+            "Other nearby shulkers target the attacker when one is provoked",
+            "Vulnerable to fire and lava damage, and drowns in water",
+            "In Peaceful difficulty, does not attack but still exists in the world",
+            "Can be dyed various colors in Bedrock Edition",
+            "Drops 0-1 shulker shells (increased by Looting enchantment)"
+        ],
+        drops: [
+            { item: "Shulker Shell", chance: "0-1 (Bedrock), 50% (Java)" },
+            { item: "Shulker Shell", chance: "+1 per Looting level (max 4)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Shulkers are enigmatic hostile mobs that dwell within the mysterious End Cities, permanently affixed to various surfaces with their purpur-like shells. Resembling a cross between a sea creature and a mechanical trap, the shulker remains motionless for most of the time, blending seamlessly with its surroundings. When disturbed or when a target wanders within approximately 16 blocks, the shulker reveals its true nature by opening its shell to expose a small yellow head with two dark eyes. From this exposed position, it launches powerful projectiles called shulker bullets—guided missiles that track their targets along cardinal axes, leaving trails of white particles in their wake. These projectiles deliver both physical damage and the disorienting Levitation status effect, which causes affected entities to float helplessly upward for 10 seconds. Shulkers possess remarkable defensive capabilities; when their shell is closed, they have 20 armor points that deflect incoming arrows and reduce damage taken. However, this protection comes at a cost—the armor is lost when the shell opens to attack, creating a tactical window for experienced players. When threatened, shulkers demonstrate their incredible survival instincts by teleporting to nearby valid attachment points, making them difficult to pin down. They can evaluate up to 17×17×17 areas in search of suitable surfaces and will attempt to teleport up to 5 times per tick if necessary. Their shell coloration can be altered using dyes in Bedrock Edition, allowing for creative customization. Shulkers are essential to End City exploration, as they guard the valuable End City structures and drop shulker shells—an essential crafting component for creating shulker boxes and perpetuating the cycle of End-based automation and storage systems."
+    },
+    "minecraft:hoglin": {
+        id: "minecraft:hoglin",
+        name: "Hoglin",
+        health: 40,
+        stats: {
+            attackDamage: "2.5-5 (Easy), 3-8 (Normal), 4.5-12 (Hard)",
+            movementSpeed: 0.3,
+            knockbackResistance: 0.6
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Crimson Forest", "Bastion Remnant"],
+            lightLevel: "Any",
+            groupSize: "3-4"
+        },
+        behaviorTraits: [
+            "Large, aggressive pig-like mobs found exclusively in the Nether",
+            "Attacks players within 16 blocks with powerful upward thrusts",
+            "Knocks targets upward with each hit, even bypassing shields",
+            "Highly resistant to knockback (60%)",
+            "Repelled by warped fungi, nether portals, and respawn anchors within 7 blocks",
+            "Can be bred using crimson fungi as food",
+            "Baby hoglins are smaller, deal less damage, and flee when hit",
+            "All nearby hoglins become aggressive when any hoglin is attacked",
+            "Sink in water and eventually drown",
+            "Vulnerable to fire and lava damage",
+            "Can be led using leads despite being hostile",
+            "If brought to the Overworld or End, transforms into a zoglin after 15 seconds",
+            "Piglins that attack hoglins cause nearby hoglins to retaliate",
+            "In Peaceful difficulty, hoglins spawn but remain passive to players"
+        ],
+        drops: [
+            { item: "Raw Porkchop", chance: "2-4 (+1 per Looting level, max 7)" },
+            { item: "Leather", chance: "0-1 (+1 per Looting level, max 4)" },
+            { item: "Cooked Porkchop", chance: "If killed while on fire" },
+            { item: "Experience", chance: "5 (JE) / 1-3 (BE) when killed by player/tamed wolf" }
+        ],
+        description: "Hoglins are formidable, pig-like hostile mobs that inhabit the dangerous crimson forests and bastion remnants of the Nether, representing one of the most challenging natural encounters in that dimension. Towering over the player with a massive, rust-colored bristled body, hoglins are immediately recognizable as dangerous adversaries. Their appearance blends the anatomy of a wild boar with demonic features—prominent downward-curving tusks, small angry eyes, and a hunched posture that suggests constant aggression. These mobs attack with surprising force, thrusting their tusks upward in a motion that can launch unprepared players several blocks into the air, dealing significant damage in the process. This upward knockback is particularly dangerous because it can throw players into lava, off ledges, or into the path of other Nether hazards. Hoglins possess remarkable physical resilience, being 60% resistant to knockback effects and capable of pushing through most obstacles to reach their targets. Despite their aggressive nature, hoglins have some fascinating behaviors and ecological relationships. They are naturally repelled by the blue-hued warped fungi, nether portals, and respawn anchors, fleeing from these objects when within 7 blocks—useful knowledge for setting up safe pathways through Crimson Forests. Hoglins are one of only two hostile mobs in Minecraft that can be bred (the other being the killer bunny), accepting crimson fungi as breeding food and producing piglin-like offspring that grow into adult hoglins after 20 minutes. They share a complex social structure with piglins; while piglins occasionally hunt hoglins for food, hoglins will retaliate en masse if a piglin attacks one of their own, creating dynamic territorial conflicts that players can exploit. Perhaps most remarkably, hoglins cannot survive in the Overworld or the End—after just 15 seconds in these dimensions, they undergo a dramatic transformation, shaking violently before morphing into a zoglin, a permanent undead variant with the same aggressive tendencies but none of the breeding capabilities. When killed, hoglins provide valuable resources: raw porkchops for sustenance and leather for crafting, making them worth the significant danger they represent to any Nether explorer."
     }
 };
