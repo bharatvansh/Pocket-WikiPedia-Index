@@ -91,28 +91,27 @@ export const hostileMobs = {
             "Can spawn naturally in water or when a zombie drowns for 30+ seconds",
             "Some drowned spawn with tridents, making them ranged attackers",
             "Burns in sunlight when not submerged in water",
-            "Mobs that can breathe underwater target drowned preferentially",
+            "Axolotls are hostile to drowned and will attack them",
             "Can spawn at any light level in water, unlike regular zombies",
             "Trident-wielding drowned use melee attacks at close range",
-            "Ranged trident attacks deal up to 16 damage depending on difficulty",
+            "Ranged trident attacks deal up to 12 damage (6 hearts) depending on difficulty",
             "Melee attacks have same damage as regular zombies",
             "Can spawn with fishing rods or nautilus shells",
             "Seek and attack baby turtles, destroying turtle eggs",
             "Can track players through water more effectively than land zombies",
-            "Can detect players from up to 40 blocks away in water",
             "Baby drowned variants are rare but extremely fast swimmers",
             "Baby drowned can spawn with tridents, making them particularly dangerous"
         ],
         drops: [
             { item: "Rotten Flesh", chance: "0-2" },
-            { item: "Gold Ingot", chance: "Rare (5%)" },
-            { item: "Trident", chance: "8.5% (only from trident-wielding drowned)" },
-            { item: "Fishing Rod", chance: "Rare (if holding)", condition: "3.75% chance if drowned spawned with fishing rod" },
+            { item: "Gold Ingot", chance: "Rare (11%)" },
+            { item: "Trident", chance: "8.5% Java / 25% Bedrock (from trident-wielding drowned), 3.7% Bedrock (from non-wielding)" },
+            { item: "Fishing Rod", chance: "Rare (0.85% Bedrock, 3.75% Java if holding)" },
             { item: "Nautilus Shell", chance: "Rare (3% naturally, 8% from spawners)" },
-            { item: "Copper Ingot", chance: "11% (in Java Edition)" },
+            { item: "Copper Ingot", chance: "11% (Bedrock Edition)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Drowned are aquatic hostile mobs that represent one of the most significant threats to underwater exploration and ocean monument raiding. These undead creatures are essentially water-adapted zombies that can spawn through two primary methods: natural generation in ocean and river biomes, or through the conversion process when a regular zombie remains submerged in water for more than 30 seconds. This conversion mechanic creates a cascading threat, as zombies that fall into water during combat can transform mid-fight, changing the tactical landscape. Drowned possess enhanced aquatic mobility, swimming at 0.3 blocks per second compared to the standard zombie's 0.23, and they can detect players from up to 40 blocks away in water—double the range of their land-based counterparts. The most distinctive and dangerous feature of drowned is the subset that spawns wielding tridents, rare ranged weapons that deal devastating damage. Trident-wielding drowned can throw their weapons from significant distances, dealing up to 16 damage on Hard difficulty while bypassing most conventional defenses. At close range, they switch to melee attacks, becoming functionally identical to their regular zombie kin. The trident drop rate is notoriously low at just 8.5%, but this makes them one of the only renewable sources of tridents in the game. Drowned also have practical utility through their other drops: they offer a renewable source of copper ingots in Java Edition (11% drop rate), nautilus shells essential for conduit crafting (3% naturally, 8% from converted spawners), and occasionally fishing rods or gold ingots. They demonstrate complex ecological behaviors, actively hunting baby turtles and destroying turtle eggs—behavior that makes them natural enemies of turtle farming operations. Their ability to spawn at any light level in water makes ocean monuments and underwater ruins perpetually dangerous locations, requiring constant vigilance. Advanced drowned farms exploit spawner conversion mechanics, creating highly efficient systems for farming tridents, copper, and nautilus shells while providing substantial experience. The most terrifying variant is the baby drowned with a trident—an extremely rare but exceptionally dangerous combination of enhanced speed, aquatic mobility, and ranged damage that can overwhelm unprepared players in seconds."
+        description: "Drowned are aquatic hostile mobs that represent one of the most significant threats to underwater exploration and ocean monument raiding. These undead creatures are essentially water-adapted zombies that can spawn through two primary methods: natural generation in ocean and river biomes, or through the conversion process when a regular zombie remains submerged in water for more than 30 seconds. This conversion mechanic creates a cascading threat, as zombies that fall into water during combat can transform mid-fight, changing the tactical landscape. Drowned possess enhanced aquatic mobility, swimming at 0.3 blocks per second compared to the standard zombie's 0.23, and they can detect turtle eggs from up to 10 blocks away. The most distinctive and dangerous feature of drowned is the subset that spawns wielding tridents, rare ranged weapons that deal devastating damage. Trident-wielding drowned can throw their weapons from significant distances, dealing up to 12 damage (6 hearts) on Hard difficulty while bypassing most conventional defenses. At close range, they switch to melee attacks, becoming functionally identical to their regular zombie kin. The trident drop rate varies by edition: 8.5% in Java Edition from trident-wielding drowned, but 25% in Bedrock Edition from the same source, with additional chances from non-wielding drowned. This makes them one of the only renewable sources of tridents in the game. Drowned also have practical utility through their other drops: they offer a renewable source of copper ingots and gold ingots (11% chance each in Bedrock Edition), nautilus shells essential for conduit crafting (3% naturally, 8% from converted spawners), and occasionally fishing rods. They demonstrate complex ecological behaviors, actively hunting baby turtles and destroying turtle eggs—behavior that makes them natural enemies of turtle farming operations. Their ability to spawn at any light level in water makes ocean monuments and underwater ruins perpetually dangerous locations, requiring constant vigilance. Advanced drowned farms exploit spawner conversion mechanics, creating highly efficient systems for farming tridents, copper, and nautilus shells while providing substantial experience. The most terrifying variant is the baby drowned with a trident—an extremely rare but exceptionally dangerous combination of enhanced speed, aquatic mobility, and ranged damage that can overwhelm unprepared players in seconds."
     },
     "minecraft:husk": {
         id: "minecraft:husk",
@@ -129,15 +128,14 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Desert", "Desert Hills", "Desert Lakes"],
             lightLevel: "0-7",
-            groupSize: "4-6 (higher than regular zombies)"
+            groupSize: "2-4 (similar to regular zombies)"
         },
         behaviorTraits: [
             "Desert-dwelling zombie variant that inflicts Hunger effect",
             "Does not burn in sunlight—thrives in desert daylight",
-            "Taller than regular zombies, standing at 1.95 blocks (zombies are 1.8)",
-            "All attacks inflict Hunger I for 30 seconds (7 seconds on Easy difficulty)",
-            "Hunger effect stacks with multiple hits, potentially reaching Hunger III",
-            "Higher natural spawn rate in deserts compared to regular zombies",
+            "Taller than regular zombies, standing at 2.01875 blocks in Bedrock Edition",
+            "All attacks inflict Hunger I, draining hunger bar with each hit",
+            "Hunger effect can stack with multiple hits, potentially reaching Hunger III",
             "Can spawn with armor and weapons like regular zombies",
             "Can pick up dropped items and equip armor",
             "Baby husk variants are faster and don't burn in sunlight",
@@ -145,7 +143,7 @@ export const hostileMobs = {
             "Convert to regular zombies when submerged in water for 30+ seconds",
             "Converted zombies then become drowned if they remain underwater",
             "Visibly drier, more desiccated appearance than regular zombies",
-            "Often spawn in larger groups than regular zombies, increasing threat level",
+            "Spawn in groups similar to regular zombies (2-4 in Bedrock Edition)",
             "Hunger effect makes food consumption less effective, threatening long expeditions"
         ],
         drops: [
@@ -154,10 +152,9 @@ export const hostileMobs = {
             { item: "Carrot", chance: "Rare (2.5%)" },
             { item: "Potato", chance: "Rare (2.5%)" },
             { item: "Equipped items/armor", chance: "100% if picked up from ground" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" },
-            { item: "Baby Husk Drops", chance: "Same as adult plus additional 0-2 experience" }
+            { item: "Experience", chance: "5 adult / 12 baby (when killed by player/tamed wolf)" }
         ],
-        description: "Husks are the desert-dwelling variant of zombies that represent a uniquely persistent threat in Minecraft's arid biomes. These undead mobs have evolved—or perhaps been cursed—with adaptations that make them perfectly suited to the harsh desert environment, most notably their complete immunity to sunlight damage. Unlike their regular zombie counterparts who burn in daylight, husks wander the scorching sands unimpeded, making them a constant danger regardless of the time of day. Visually distinguishable by their taller, more desiccated appearance and sandy, dried-out texture, husks stand 1.95 blocks tall compared to the standard zombie's 1.8 blocks, giving them a more imposing presence. Their most dangerous feature is the Hunger effect they inflict with every successful attack—each hit applies Hunger I for 30 seconds (reduced to 7 seconds on Easy difficulty), draining the player's hunger bar and making food consumption dramatically less effective. This effect can stack with multiple hits, potentially reaching Hunger III, which can quickly deplete even well-prepared explorers' food supplies during extended desert expeditions. Husks spawn in larger natural groups than regular zombies, typically appearing in packs of 4-6 instead of 2-4, making desert encounters more dangerous through sheer numbers. They share many behaviors with their zombie kin: they can spawn with armor and weapons, pick up items from the ground, break wooden doors on Hard difficulty, and have a chance to drop iron ingots, carrots, or potatoes. However, husks possess a unique vulnerability to water exposure—when submerged for more than 30 seconds, they begin to shake violently before transforming into regular zombies. If these converted zombies remain underwater, they continue the transformation process to become drowned, creating a three-stage evolution chain that players can exploit for mob farming. Baby husk variants are particularly dangerous, combining enhanced speed with the same sunlight immunity and hunger-inflicting capabilities as their adult counterparts. This makes desert exploration especially perilous in the early game, as a single baby husk encounter can result in severe food depletion. Their drops mirror those of regular zombies, providing rotten flesh for trading or emergency food (with risk of food poisoning), rare iron ingots, and occasional vegetables. However, the primary challenge in fighting husks comes not from their drops but from their persistent threat and hunger-depleting attacks that can leave players vulnerable during long mining sessions or exploration trips far from base resources."
+        description: "Husks are the desert-dwelling variant of zombies that represent a uniquely persistent threat in Minecraft's arid biomes. These undead mobs have evolved—or perhaps been cursed—with adaptations that make them perfectly suited to the harsh desert environment, most notably their complete immunity to sunlight damage. Unlike their regular zombie counterparts who burn in daylight, husks wander the scorching sands unimpeded, making them a constant danger regardless of the time of day. Visually distinguishable by their taller, more desiccated appearance and sandy, dried-out texture, husks stand 2.01875 blocks tall in Bedrock Edition, giving them a more imposing presence. Their most dangerous feature is the Hunger effect they inflict with every successful attack—each hit applies Hunger I, draining the player's hunger bar and making food consumption dramatically less effective. This effect can stack with multiple hits, potentially reaching Hunger III, which can quickly deplete even well-prepared explorers' food supplies during extended desert expeditions. Husks spawn in natural groups similar to regular zombies, typically appearing in packs of 2-4 in Bedrock Edition, making desert encounters dangerous through their persistent threat. They share many behaviors with their zombie kin: they can spawn with armor and weapons, pick up items from the ground, break wooden doors on Hard difficulty, and have a chance to drop iron ingots, carrots, or potatoes. However, husks possess a unique vulnerability to water exposure—when submerged for more than 30 seconds, they begin to shake violently before transforming into regular zombies. If these converted zombies remain underwater, they continue the transformation process to become drowned, creating a three-stage evolution chain that players can exploit for mob farming. Baby husk variants are particularly dangerous, combining enhanced speed with the same sunlight immunity and hunger-inflicting capabilities as their adult counterparts, while dropping 12 experience points compared to the adult's 5. This makes desert exploration especially perilous in the early game, as a single baby husk encounter can result in severe food depletion. Their drops mirror those of regular zombies, providing rotten flesh for trading or emergency food (with risk of food poisoning), rare iron ingots, and occasional vegetables. However, the primary challenge in fighting husks comes not from their drops but from their persistent threat and hunger-depleting attacks that can leave players vulnerable during long mining sessions or exploration trips far from base resources."
     },
     "minecraft:skeleton": {
         id: "minecraft:skeleton",
