@@ -39,8 +39,48 @@ jobs:
           cd .github/scripts
           npm install
 
+      - name: Check for duplicate entries
+        id: duplicates
+        run: |
+          cd .github/scripts
+          node check-duplicates.js --diff ../../diff_content.txt --output ../../duplicate_report.md --status ../../duplicate_status.txt
+          
+          # Read the status
+          if [ -f ../../duplicate_status.txt ]; then
+            STATUS=$(cat ../../duplicate_status.txt)
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+          else
+            echo "status=no_issues" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Post duplicate errors and stop (if duplicates found)
+        if: steps.duplicates.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## 🔄 Duplicate Entry Detected\n\n';
+            
+            if (fs.existsSync('duplicate_report.md')) {
+              report += fs.readFileSync('duplicate_report.md', 'utf8');
+            }
+            
+            report += '\n\n---\n*Please remove the duplicate entries before the data can be verified.*';
+            
+            await github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body: report,
+              event: 'REQUEST_CHANGES'
+            });
+            
+            // Fail the workflow
+            core.setFailed('Duplicate entries detected');
+
       - name: Validate format (syntax + structure)
         id: format
+        if: steps.duplicates.outputs.status == 'no_issues'
         run: |
           cd .github/scripts
           node validate-format.js --output ../../format_report.md --status ../../format_status.txt
@@ -80,7 +120,7 @@ jobs:
 
       - name: Run Gemini verification (only if format passes)
         id: verify
-        if: steps.format.outputs.status == 'no_issues'
+        if: steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
