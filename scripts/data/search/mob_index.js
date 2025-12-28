@@ -119,6 +119,20 @@ export const mobIndex = [
         themeColor: "§b" // cyan
     },
     {
+        id: "minecraft:drowned",
+        name: "Drowned",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_drowned.png",
+        themeColor: "§3" // dark cyan/ocean blue
+    },
+    {
+        id: "minecraft:husk",
+        name: "Husk",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_husk.png",
+        themeColor: "§6" // sandy/desert yellow
+    },
+    {
         id: "minecraft:camel",
         name: "Camel",
         category: "mob",
