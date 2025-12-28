@@ -216,10 +216,10 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
             lightLevel: "0 (Java) / 0-7 (Bedrock)",
-            groupSize: "Swamp: 4; Mangrove Swamp: 4 (Java) / 1-2 (Bedrock)"
+            groupSize: "4 (natural), varies (Trial Spawners)"
         },
         behaviorTraits: [
-            "Undead skeleton variant that spawns in swamps and mangrove swamps, replacing some skeleton spawns",
+            "Undead skeleton variant that spawns in swamps and mangrove swamps, mixed in with other skeleton spawns",
             "Can also spawn in trial chambers via trial spawners",
             "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
             "Its poison arrows apply Poison for 4 seconds",
@@ -236,7 +236,7 @@ export const hostileMobs = {
             { item: "Equipped items/armor", chance: "If holding" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps (partially replacing normal skeleton spawns) and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered—so daytime in the open is safer—but their poison-tipped shots make them especially dangerous at range in the tangled, low-visibility terrain of swamps."
+        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps alongside normal skeletons, and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered—so daytime in the open is safer—but their poison-tipped shots make them especially dangerous at range in the tangled, low-visibility terrain of swamps."
     },
     "minecraft:wither_skeleton": {
         id: "minecraft:wither_skeleton",

@@ -221,7 +221,7 @@ export const passiveMobs = {
             "Passive mob that naturally spawns in savanna and badlands biomes",
             "Rolls up when threatened, becoming more resistant to damage",
             "Spiders and cave spiders run away from armadillos",
-            "Can be bred using spider eyes (breeding cooldown: 5 minutes)",
+            "Can be bred using spider eyes (breeding has a cooldown)",
             "Can be brushed with a brush to knock off an armadillo scute",
             "Adults periodically shed an armadillo scute about every 5–10 minutes",
             "Armadillo scutes are used to craft wolf armor"
