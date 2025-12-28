@@ -272,5 +272,39 @@ export const hostileMobs = {
             { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
         ],
         description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
+    },
+    "minecraft:stray": {
+        id: "minecraft:stray",
+        name: "Stray",
+        health: 20,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Ice Spikes", "Frozen River", "Snowy Plains", "Frozen Ocean", "Deep Frozen Ocean"],
+            lightLevel: "0-7",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Shoots tipped arrows of slowness",
+            "Burns in sunlight unless wearing a helmet",
+            "Spawns in cold and frozen biomes",
+            "Skeletons convert to strays in powder snow",
+            "Immune to freezing damage"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Arrow", chance: "0-2" },
+            { item: "Arrow of Slowness", chance: "0-1" },
+            { item: "Bow", chance: "8.5%" },
+            { item: "Experience", chance: "5 (plus 1-3 if stray has armor)" },
+            { item: "Picked-up Equipment", chance: "100% (with current damage level)" }
+        ],
+        description: "Strays are a variant of skeletons that spawn in icy biomes. They are undead hostile mobs that shoot tipped arrows of slowness, making them dangerous in combat by reducing the player's movement speed. Like skeletons, they burn in sunlight. Skeletons that remain in powder snow for too long will transform into strays."
     }
 };

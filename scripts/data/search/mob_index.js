@@ -166,5 +166,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_bogged.png",
         themeColor: "§2" // swamp green
+    },
+    {
+        id: "minecraft:sheep",
+        name: "Sheep",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_sheep.png",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:cow",
+        name: "Cow",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cow.png",
+        themeColor: "§8" // dark brown
     }
 ];
