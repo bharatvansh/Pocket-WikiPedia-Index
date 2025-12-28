@@ -365,5 +365,72 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (if killed by player/tamed wolf)" }
         ],
         description: "Cows are fundamental passive mobs for leather and food resources, essential for early-game survival. They spawn commonly in grassy biomes and provide leather for armor and item crafting, as well as beef for food. Cows can be milked infinite times using buckets, providing milk that removes all status effects when consumed. They can be bred with wheat to establish sustainable farms. The brown mooshroom variant spawns exclusively on mushroom islands and provides mushroom stew when milked with a bowl. Cows are one of the most valuable early-game passive mobs for food, leather, and milk resources."
+    },
+    "minecraft:goat": {
+        id: "minecraft:goat",
+        name: "Goat",
+        health: 10,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Mountains", "Meadows", "Snowy Slopes", "Frozen Peaks", "Jagged Peaks"],
+            lightLevel: "7+",
+            groupSize: "2-3"
+        },
+        behaviorTraits: [
+            "Neutral mob that rams players and mobs when they are stationary for a few seconds or when provoked",
+            "Can jump up to 10 blocks high, making them excellent climbers",
+            "Rams into players and mobs when specific conditions are met",
+            "Can be bred with wheat",
+            "Drops goat horns when ramming into solid blocks",
+            "Has two variants: regular and screaming goat (rare)",
+            "Screaming goats make loud noises when ramming",
+            "Can climb steep terrain and jump over obstacles",
+            "Avoids cliffs and dangerous drops"
+        ],
+        drops: [
+            { item: "Goat Horn", chance: "When ramming into solid blocks" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Goats are agile neutral mobs that spawn in mountainous biomes. They are known for their incredible jumping ability, capable of leaping up to 10 blocks high, making them excellent climbers and navigators of steep terrain. Goats are generally passive but become aggressive when provoked, ramming into players and mobs with their horns. When they ram into solid blocks, they have a chance to drop goat horns, which can be used to craft various items. Goats come in two variants: regular goats and rare screaming goats that make loud noises when ramming. They can be bred with wheat and are valuable for their unique drops and entertaining behavior in mountainous environments."
+    },
+    "minecraft:glow_squid": {
+        id: "minecraft:glow_squid",
+        name: "Glow Squid",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean", "Deep Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean"],
+            lightLevel: "0 and Below Y-level 30",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Passive aquatic mob that glows in the dark",
+            "Swims in groups and emits light particles",
+            "Cannot be bred by players",
+            "Drops glow ink sacs when killed",
+            "Glows continuously (visual effect only)",
+            "Can be led with leads",
+            "Does not attack players or other mobs",
+            "Glow is purely visual and does not provide actual light illumination"
+        ],
+        drops: [
+            { item: "Glow Ink Sac", chance: "1-3" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Glow Squids are passive aquatic mobs that emit a soft glow with beautiful light particles. They spawn in various ocean biomes in complete darkness (light level 0) below Y-level 30 and are completely harmless. When killed, they drop glow ink sacs, which can be used to craft glow item frames and glow signs. The glow is purely visual and aesthetic, providing no actual light illumination to the environment. Glow squids cannot be bred by players but can be led with leads, making them easy to transport. They are primarily decorative mobs that add visual interest to underwater environments."
     }
 };
