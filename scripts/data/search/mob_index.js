@@ -180,5 +180,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_cow.png",
         themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:glow_squid",
+        name: "Glow Squid",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_glow_squid.png",
+        themeColor: "§b" // light blue
+    },
+    {
+        id: "minecraft:goat",
+        name: "Goat",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_goat.png",
+        themeColor: "§6" // brown
     }
 ];
