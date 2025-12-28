@@ -216,7 +216,7 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
             lightLevel: "0 (Java) / 0-7 (Bedrock)",
-            groupSize: "4 (Java), 1-2 (Bedrock)"
+            groupSize: "Swamp: 4; Mangrove Swamp: 4 (Java) / 1-2 (Bedrock)"
         },
         behaviorTraits: [
             "Undead skeleton variant that spawns in swamps and mangrove swamps, replacing some skeleton spawns",
@@ -225,7 +225,7 @@ export const hostileMobs = {
             "Its poison arrows apply Poison for 4 seconds",
             "In Bedrock Edition, it can spawn during the day under dense mangrove canopy (light levels 0 through 7)",
             "Burns in daylight like other skeletons unless protected",
-            "Can breathe underwater, making it at home in swampy terrain",
+            "Unable to swim and tends to sink in water",
             "Melee damage is low compared to its ranged pressure"
         ],
         drops: [
@@ -236,7 +236,7 @@ export const hostileMobs = {
             { item: "Equipped items/armor", chance: "If holding" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps (partially replacing normal skeleton spawns) and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered, but unlike most land skeletons they can breathe underwater, letting them keep up the pressure around rivers, ponds, and mangrove roots."
+        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps (partially replacing normal skeleton spawns) and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered—so daytime in the open is safer—but their poison-tipped shots make them especially dangerous at range in the tangled, low-visibility terrain of swamps."
     },
     "minecraft:wither_skeleton": {
         id: "minecraft:wither_skeleton",
