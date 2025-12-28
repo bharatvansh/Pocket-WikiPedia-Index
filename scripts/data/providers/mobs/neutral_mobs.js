@@ -248,5 +248,41 @@ export const neutralMobs = {
             { item: "Poppy", chance: "0-2" }
         ],
         description: "Iron Golems are powerful neutral utility mobs that serve as the primary defenders of villages. With 100 health points (50 hearts), they are among the most durable mobs in Minecraft and deal devastating melee damage ranging from 7.5 to 32.25 HP depending on difficulty level. Iron Golems naturally spawn in villages when certain population requirements are met, appearing near gathering points or during villager panic states. They can also be player-crafted by arranging four iron blocks in a T-shape and placing a carved pumpkin or jack o'lantern on top, creating a permanent ally that never attacks its creator. Iron Golems exhibit unique defensive behaviors, actively seeking out and attacking hostile mobs within a 16-block radius to protect villagers. Their attack animation involves violently swinging their arms upward, launching enemies into the air with significant knockback. They possess several immunities including complete resistance to fall damage, drowning, and knockback effects, making them nearly unstoppable guardians. Iron Golems display social behaviors such as occasionally offering poppies to villagers, particularly baby villagers who accept the gift. Their health status is visually indicated by progressive cracking on their body texture, ranging from pristine to heavily damaged. Players can repair damaged Iron Golems by using iron ingots, with each ingot restoring 25 HP. Naturally spawned golems patrol village boundaries and can turn hostile toward players who harm villagers or develop poor village reputation. However, player-built golems remain permanently passive. When killed, Iron Golems drop 3-5 iron ingots and 0-2 poppies, making them a valuable but morally questionable source of iron. Their inability to attack targets elevated three blocks above them provides a safe strategy for players who need to defeat them without taking damage."
+    },
+    "minecraft:wolf": {
+        id: "minecraft:wolf",
+        name: "Wolf",
+        health: 20,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Forest", "Taiga", "Snowy Taiga", "Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Grove", "Snowy Grove"],
+            lightLevel: "Any",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Neutral mobs that become hostile when attacked",
+            "Can be tamed by feeding them bones",
+            "Tamed wolves follow owners and attack hostile mobs or targets owner attacks",
+            "Tamed wolves have 3 health stages: healthy, injured (low health), and critically injured",
+            "Can be healed by feeding them any type of meat",
+            "Sit when commanded with a stick or by right-clicking",
+            "Growl at hostile mobs within 20 blocks to warn owner",
+            "Wild wolves are attracted to the scent of wounded rabbits and deer",
+            "Wolf collar color can be changed with dyes",
+            "Retreat and whimper when badly injured",
+            "Pup update: babies follow adults and inherit trust status"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Bone", chance: "0-2 (wild wolves)" }
+        ],
+        description: "Wolves are intelligent neutral mobs that inhabit forest and taiga biomes across the Minecraft world. In the wild, they travel in packs of 2-4 and hunt smaller animals like rabbits and deer, making them effective natural predators for passive mob farms. Wild wolves are cautious around players—they may growl defensively if cornered, but will flee rather than attack unless provoked. Once provoked, however, wolves become hostile and their aggressive behavior can spread to nearby pack members. The true value of wolves lies in their ability to be tamed. Feeding a wild wolf 3 bones will transform it into a tamed wolf that follows its owner faithfully. Tamed wolves serve as loyal companions that attack hostile mobs and any entity their owner attacks. They possess remarkable loyalty, positioning themselves between their owner and perceived threats and even sacrificing themselves to protect their master. Tamed wolves display their health through visual cues: their body texture shows visible damage as they take hits, and they whimper and retreat when critically wounded. Unlike wild wolves, tamed wolves cannot be fed bones—instead, they require raw meat (raw porkchop, beef, chicken, or rabbit) to heal and maintain their health. Players can strengthen their bond with tamed wolves through feeding and can customize their appearance by dyeing their collars in any of the 16 available colors. Tamed wolves are invaluable combat allies, capable of dealing significant damage to hostile mobs while requiring minimal equipment beyond their dietary needs. Their loyalty extends beyond combat—they make excellent companions for exploration and base defense alike, forming one of the most rewarding player-mob relationships in the entire game."
     }
 };

@@ -166,5 +166,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_bogged.png",
         themeColor: "§2" // swamp green
+    },
+    {
+        id: "minecraft:wolf",
+        name: "Wolf",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wolf.png",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:strider",
+        name: "Strider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_strider.png",
+        themeColor: "§c" // red/crimson
+    },
+    {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_phantom.png",
+        themeColor: "§5" // dark purple
     }
 ];

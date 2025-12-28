@@ -306,4 +306,41 @@ export const hostileMobs = {
         ],
         description: "Strays are a variant of skeletons that spawn in icy biomes. They are undead hostile mobs that shoot tipped arrows of slowness, making them dangerous in combat by reducing the player's movement speed. Like skeletons, they burn in sunlight. Skeletons that remain in powder snow for too long will transform into strays."
     }
+
+    "minecraft:phantom": {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Overworld (only above y=0)"],
+            lightLevel: "Any (only spawns in open sky)",
+            groupSize: "1-4 (increases with time since last sleep)"
+        },
+        behaviorTraits: [
+            "Only attacks players who haven't slept in 3+ in-game days",
+            "Dives at players from above, circling and swooping in attack patterns",
+            "Screeches loudly before initiating attack dives",
+            "Burns in direct sunlight unless in water or under shade",
+            "Cannot enter water without sinking and taking damage",
+            "Attracted to and circles over the highest nearby player",
+            "Spawn rate increases the longer a player goes without sleeping",
+            "Despawns in the morning if the player has slept",
+            "Is unaffected by the Bane of Arthropods enchantment despite appearance",
+            "Immune to arrow and trident damage if killed with one hit",
+            "Attacks through shields, dealing damage even if blocked"
+        ],
+        drops: [
+            { item: "Phantom Membrane", chance: "0-1 (up to 1 with Looting, up to 4 with Looting III)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Phantoms are haunting undead flying mobs that embody the consequences of neglecting rest in Minecraft survival. These draconic creatures materialize exclusively above players who have gone without sleep for three or more consecutive in-game days, serving as a persistent reminder that survival requires balance between exploration and self-care. Phantoms possess an eerie, skeletal dragon-like appearance with membranous wings and glowing eye sockets, creating an intimidating presence as they circle overhead waiting to strike. Their attack pattern is distinctive—they soar in wide loops above their target, occasionally diving downward in rapid attacks that can pierce through shields, making traditional defense strategies less effective. Upon spotting a target, Phantoms emit a distinctive screeching sound that alerts nearby players to their presence before commencing their assault. They are particularly dangerous in enclosed spaces or mountainous terrain where their aerial advantage prevents easy evasion. During daylight hours, Phantoms become vulnerable to burning in direct sunlight, though they can survive beneath shade blocks or by submerging themselves in water (though they take damage while submerged). The spawn rate of Phantoms is directly tied to a player's sleeping habits—going longer without rest results in more frequent and larger Phantom attacks. Fortunately, sleeping in a bed instantly causes all currently spawned Phantoms to despawn, providing immediate relief from the aerial menace. When killed, Phantoms drop Phantom Membrane, a valuable crafting material essential for repairing elytra and creating potions of Slow Falling, making them a worthwhile farmable resource for endgame players. Their drops are also useful for crossbow crafting, adding practical value to what might otherwise seem like purely punitive gameplay mechanics."
+    }
 };
