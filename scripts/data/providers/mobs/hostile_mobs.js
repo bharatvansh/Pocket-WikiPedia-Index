@@ -371,7 +371,7 @@ export const hostileMobs = {
             "Armor is removed when shell opens for attack",
             "Below half health, has 25% chance to teleport after taking damage",
             "Other nearby shulkers target the attacker when one is provoked",
-            "Cannot burn in fire or lava, but drowns in water",
+            "Vulnerable to fire and lava damage, and drowns in water",
             "In Peaceful difficulty, does not attack but still exists in the world",
             "Can be dyed various colors in Bedrock Edition",
             "Drops 0-1 shulker shells (increased by Looting enchantment)"
@@ -409,12 +409,11 @@ export const hostileMobs = {
             "Repelled by warped fungi, nether portals, and respawn anchors within 7 blocks",
             "Can be bred using crimson fungi as food",
             "Baby hoglins are smaller, deal less damage, and flee when hit",
-            "Adult hoglins flee from players who attack baby hoglins",
+            "All nearby hoglins become aggressive when any hoglin is attacked",
             "Sink in water and eventually drown",
             "Vulnerable to fire and lava damage",
             "Can be led using leads despite being hostile",
             "If brought to the Overworld or End, transforms into a zoglin after 15 seconds",
-            "All nearby hoglins become aggressive when one is attacked",
             "Piglins that attack hoglins cause nearby hoglins to retaliate",
             "In Peaceful difficulty, hoglins spawn but remain passive to players"
         ],
