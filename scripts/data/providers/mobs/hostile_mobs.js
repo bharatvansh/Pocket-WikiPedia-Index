@@ -123,7 +123,7 @@ export const hostileMobs = {
             "Detects movement and sounds within a large radius (up to 16 blocks)",
             "Performs powerful melee attacks that bypass shields and deal massive damage",
             "Unleashes sonic boom ranged attack that ignores armor and shields",
-            "Emerges from the ground when summoned by sculk shriekers after 3 activations",
+            "Emerges from the ground when summoned by sculk shriekers after 4 activations",
             "Cannot be outrun easily due to high movement speed and pathfinding",
             "Despawns if no vibrations detected for 60 seconds",
             "Immune to most status effects including poison, wither, and fire",
@@ -131,9 +131,9 @@ export const hostileMobs = {
         ],
         drops: [
             { item: "Sculk Catalyst", chance: "1" },
-            { item: "Experience", chance: "5000" }
+            { item: "Experience", chance: "5" }
         ],
-        description: "The Warden is the most powerful and terrifying hostile mob in Minecraft, found exclusively in the Deep Dark biome. With an astonishing 500 health points (250 hearts), it has more health than any other naturally spawning mob in the game. The Warden is completely blind but possesses an advanced sensory system that detects players through vibrations and smell, making stealth essential when navigating ancient cities. It deals devastating melee damage that bypasses shields entirely and can unleash a sonic boom ranged attack that ignores armor and shields, dealing significant damage regardless of protection. The Warden emerges from the ground when summoned by sculk shriekers after three activations, creating a terrifying encounter. Its high movement speed and intelligent pathfinding make it nearly impossible to outrun. The Warden is designed to be avoided rather than fought, encouraging careful, stealthy gameplay in the Deep Dark biome. When defeated, it drops a Sculk Catalyst, which is essential for advanced sculk-based redstone contraptions, and an impressive 5000 experience points."
+        description: "The Warden is the most powerful and terrifying hostile mob in Minecraft, found exclusively in the Deep Dark biome. With an astonishing 500 health points (250 hearts), it has more health than any other naturally spawning mob in the game. The Warden is completely blind but possesses an advanced sensory system that detects players through vibrations and smell, making stealth essential when navigating ancient cities. It deals devastating melee damage that bypasses shields entirely and can unleash a sonic boom ranged attack that ignores armor and shields, dealing significant damage regardless of protection. The Warden emerges from the ground when summoned by sculk shriekers after four activations, creating a terrifying encounter. Its high movement speed and intelligent pathfinding make it nearly impossible to outrun. The Warden is designed to be avoided rather than fought, encouraging careful, stealthy gameplay in the Deep Dark biome. When defeated, it drops a Sculk Catalyst, which is essential for advanced sculk-based redstone contraptions, and 5 experience orbs."
     },
     "minecraft:breeze": {
         id: "minecraft:breeze",

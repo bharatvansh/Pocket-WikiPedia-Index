@@ -381,12 +381,12 @@ export const passiveMobs = {
         spawning: {
             biomes: ["Mountains", "Meadows", "Snowy Slopes", "Frozen Peaks", "Jagged Peaks"],
             lightLevel: "7+",
-            groupSize: "2-4"
+            groupSize: "2-3"
         },
         behaviorTraits: [
-            "Neutral mob that becomes aggressive when provoked",
+            "Neutral mob that rams players and mobs when they are stationary for a few seconds or when provoked",
             "Can jump up to 10 blocks high, making them excellent climbers",
-            "Rams into players and mobs when angry",
+            "Rams into players and mobs when specific conditions are met",
             "Can be bred with wheat",
             "Drops goat horns when ramming into solid blocks",
             "Has two variants: regular and screaming goat (rare)",
@@ -414,23 +414,23 @@ export const passiveMobs = {
         },
         spawning: {
             biomes: ["Ocean", "Deep Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean"],
-            lightLevel: "Any",
+            lightLevel: "0 and Below Y-level 30",
             groupSize: "2-4"
         },
         behaviorTraits: [
             "Passive aquatic mob that glows in the dark",
             "Swims in groups and emits light particles",
-            "Can be bred with glow ink sacs",
+            "Cannot be bred by players",
             "Drops glow ink sacs when killed",
-            "Glows brighter when in complete darkness",
+            "Glows continuously (visual effect only)",
             "Can be led with leads",
             "Does not attack players or other mobs",
-            "Glows continuously, providing underwater illumination"
+            "Glow is purely visual and does not provide actual light illumination"
         ],
         drops: [
             { item: "Glow Ink Sac", chance: "1-3" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Glow Squids are passive aquatic mobs that emit a soft glow, illuminating underwater areas with beautiful light particles. They spawn in various ocean biomes and are completely harmless, making them excellent for decorative lighting in underwater builds. When killed, they drop glow ink sacs, which can be used to craft glow item frames and glow signs. Glow squids glow brighter in complete darkness, providing natural illumination without the need for torches or other light sources. They can be bred using glow ink sacs and led with leads, making them easy to transport and farm for their unique drops."
+        description: "Glow Squids are passive aquatic mobs that emit a soft glow with beautiful light particles. They spawn in various ocean biomes in complete darkness (light level 0) below Y-level 30 and are completely harmless. When killed, they drop glow ink sacs, which can be used to craft glow item frames and glow signs. The glow is purely visual and aesthetic, providing no actual light illumination to the environment. Glow squids cannot be bred by players but can be led with leads, making them easy to transport. They are primarily decorative mobs that add visual interest to underwater environments."
     }
 };
