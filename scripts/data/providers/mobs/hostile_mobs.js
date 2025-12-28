@@ -272,5 +272,121 @@ export const hostileMobs = {
             { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
         ],
         description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
+    },
+    "minecraft:phantom": {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (sky)", "Nether", "The End"],
+            lightLevel: "Any (night sky)",
+            groupSize: "1-5 (varies by insomnia level)"
+        },
+        behaviorTraits: [
+            "Spawns above players who haven't slept in 3+ in-game days",
+            "Spawning frequency increases the longer players go without sleeping",
+            "Spawning can be toggled with the game rule 'doInsomnia'",
+            "Flies in circular patterns 15-25 blocks horizontally and 24-35 blocks vertically from players",
+            "Leaves a trail of gray smoke while flying",
+            "Avoids cats and ocelots, staying at least 64 blocks away",
+            "Attacks by diving toward players, dealing impact damage on contact",
+            "Undead mob: harmed by Instant Health, immune to Poison and Regeneration effects",
+            "Ignored by Wither and Wither Skeletons' targeting",
+            "Despawns at sunrise unless chasing a target",
+            "Cannot enter nether portals or go through end gateway portals"
+        ],
+        drops: [
+            { item: "Phantom Membrane", chance: "0-1 (up to 4 with Looting III)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Phantoms are undead flying hostile mobs that materialize above players who have neglected to sleep for extended periods. They are the physical manifestation of insomnia in Minecraft's world, appearing as large, bat-like creatures with skeletal features and glowing eye sockets. Phantoms spawn exclusively in the Overworld, Nether, and The End, but only at night in the Overworld when there is an unobstructed view of the sky. Their spawn rate scales with how long a player has gone without sleeping—the more nights without rest, the more frequently phantoms appear. Players can reduce or eliminate phantom spawns by sleeping in beds, which resets the insomnia counter. Phantoms are excellent sources of phantom membranes, a crucial crafting ingredient needed to repair elytra and craft crossbow fireworks. As undead mobs, they are affected by smite-based enchantments and potions of Harming, while being healed by potions of Healing. Their weakness to sunlight causes them to flee to shadowy areas during the day unless engaged in combat, making early morning attacks an effective strategy. The phantom membrane drop rate can be increased using the Looting enchantment, allowing players to collect up to 4 membranes with Looting III."
+    },
+    "minecraft:bogged": {
+        id: "minecraft:bogged",
+        name: "Bogged",
+        health: 16,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.22
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
+            lightLevel: "0 (Java) / 0-7 (Bedrock)",
+            groupSize: "4 (natural), varies (Trial Spawners)"
+        },
+        behaviorTraits: [
+            "Undead skeleton variant that spawns in swamps and mangrove swamps, mixed in with other skeleton spawns",
+            "Can also spawn in trial chambers via trial spawners",
+            "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
+            "Its poison arrows apply Poison for 4 seconds",
+            "In Bedrock Edition, it can spawn during the day under dense mangrove canopy (light levels 0 through 7)",
+            "Burns in daylight like other skeletons unless protected",
+            "Unable to swim and tends to sink in water",
+            "Melee damage is low compared to its ranged pressure"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Arrow", chance: "0-2" },
+            { item: "Arrow of Poison", chance: "0-1 (player/tamed wolf kill)" },
+            { item: "Bow", chance: "8.5% (player/tamed wolf kill; higher with Looting)" },
+            { item: "Equipped items/armor", chance: "If holding" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps alongside normal skeletons, and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered—so daytime in the open is safer—but their poison-tipped shots make them especially dangerous at range in the tangled, low-visibility terrain of swamps."
+    },
+    "minecraft:shulker": {
+        id: "minecraft:shulker",
+        name: "Shulker",
+        health: 30,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["End City"],
+            lightLevel: "Any",
+            groupSize: "Varies (on end city structures)"
+        },
+        behaviorTraits: [
+            "Box-shaped hostile mob found exclusively in End Cities",
+            "Hides in its shell to blend in with purpur blocks and avoid detection",
+            "Attacks by shooting homing projectiles called shulker bullets at nearby players",
+            "Shulker bullets track targets and apply Levitation effect on hit",
+            "Opens its shell to reveal a small yellow head with two eyes when attacking",
+            "When shell is closed, has 20 armor points and deflects arrows",
+            "Loses armor protection when shell opens for attack",
+            "At less than half health, attempts to teleport to a new location",
+            "Teleportation may spawn a new shulker of the same color at original location",
+            "Nearby shulkers decrease the odds of new shulker spawning by 20% each",
+            "If 5+ shulkers are nearby, no new shulker spawns during teleportation",
+            "Attacks other hostile mobs when spawned via /summon command",
+            "Does not attack teammates intentionally or retaliate when hit",
+            "In Peaceful difficulty, exists in world but does not attack",
+            "Cannot be pushed by pistons or flowing water",
+            "Mobs cannot pathfind around or jump over shulkers",
+            "Falling on a shulker from height deals fall damage to player"
+        ],
+        drops: [
+            { item: "Shulker Shell", chance: "1 (when killed by player/tamed wolf)" },
+            { item: "Experience", chance: "15 (when killed by player/tamed wolf)" },
+            { item: "Pearlescent Froglight", chance: "Rare (from shulker bullets in Trial Chambers)" }
+        ],
+        description: "Shulkers are enigmatic, box-shaped hostile mobs that dwell within the mysterious End Cities perched on the outer islands of The End dimension. These peculiar creatures possess a remarkable ability to camouflage themselves among purpur blocks, their shell resembling the distinctive purple blocks that compose much of End City architecture. When undisturbed, a shulker remains hidden, its shell closed and its presence nearly invisible to unsuspecting players exploring these end-game structures. However, when a target comes within approximately 16 blocks, the shulker reveals its true nature by opening its shell to expose a small yellow head with two piercing eyes. From this vulnerable state, it launches guided projectiles known as shulker bullets that pursue their targets relentlessly and inflict the Levitation status effect on contact, causing affected players to float upward uncontrollably. This makes shulkers particularly dangerous in the vertical environments of End Cities, where levitation can send players into the void below. Shulkers possess a unique defensive mechanism—their closed shell provides 20 armor points that can deflect arrows and reduce incoming damage, though this protection is lost when the shell opens to attack. When reduced to less than half health, a wounded shulker attempts to flee by teleporting to a new location, with a chance to spawn an additional shulker at its original position. This regenerative behavior can quickly overwhelm players who don't deal with shulkers efficiently, as multiple shulkers nearby reduce the spawning success rate but can lead to overwhelming numbers if not managed carefully. Shulkers drop valuable shulker shells when killed, essential crafting materials used to create shulker boxes—one of the most practical storage solutions in Minecraft, as they can be opened and closed like normal containers while retaining their inventory when placed on item frames or carried in other inventories. The Levitation effect applied by shulker bullets lasts for varying durations based on difficulty, making shulkers particularly threatening on higher difficulty settings where players have less time to react before being carried into the void. Though shulkers do not naturally attack in Peaceful difficulty, they remain present in the world, waiting for players who dare to challenge the End."
     }
 };

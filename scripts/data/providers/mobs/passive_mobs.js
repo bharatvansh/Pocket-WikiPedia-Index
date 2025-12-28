@@ -230,7 +230,7 @@ export const passiveMobs = {
             { item: "Armadillo Scute", chance: "1 (every 5–10 minutes; also from brushing)" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
         ],
-        description: "Armadillos are passive overworld animals that protect themselves by curling into a ball when danger gets too close. Their presence has a practical perk: spiders and cave spiders will avoid armadillos, making them a natural deterrent in the wild. The armadillo’s most important resource is the armadillo scute, which can be brushed off or shed over time and is used to craft wolf armor—an upgrade that helps keep your canine companions safer in combat."
+        description: "Armadillos are passive overworld animals that protect themselves by curling into a ball when danger gets too close. Their presence has a practical perk: spiders and cave spiders will avoid armadillos, making them a natural deterrent in the wild. The armadillo's most important resource is the armadillo scute, which can be brushed off or shed over time and is used to craft wolf armor—an upgrade that helps keep your canine companions safer in combat."
     },
     "minecraft:sniffer": {
         id: "minecraft:sniffer",
@@ -262,6 +262,49 @@ export const passiveMobs = {
             { item: "Sniffer Egg", chance: "Laid when breeding two sniffers" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
         ],
-        description: "Sniffers are massive, gentle creatures that bring a bit of archaeology into survival gameplay. They don’t appear through normal spawning—players must recover sniffer eggs from suspicious sand in warm ocean ruins (or breed existing sniffers) and hatch them. Once grown, sniffers occasionally stop to sniff the ground and dig up rare plant items like torchflower seeds and pitcher pods, allowing players to cultivate unique decorative plants."
+        description: "Sniffers are massive, gentle creatures that bring a bit of archaeology into survival gameplay. They don't appear through normal spawning—players must recover sniffer eggs from suspicious sand in warm ocean ruins (or breed existing sniffers) and hatch them. Once grown, sniffers occasionally stop to sniff the ground and dig up rare plant items like torchflower seeds and pitcher pods, allowing players to cultivate unique decorative plants."
+    },
+    "minecraft:strider": {
+        id: "minecraft:strider",
+        name: "Strider",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether (lava oceans and rivers)"],
+            lightLevel: "Any",
+            groupSize: "1-2 (adult), 1 (baby riding adult)"
+        },
+        behaviorTraits: [
+            "Passive mob native to the Nether that walks on lava without taking damage",
+            "The only passive mob that naturally spawns in the Nether",
+            "Cannot sink in or be damaged by lava, walks on top of it effortlessly",
+            "Extremely sensitive to water, rain, and splash water bottles—takes rapid damage when wet",
+            "When outside of lava, changes to a dull purple color and expression becomes distressed",
+            "Controlled with a warped fungus on a stick, moving automatically while steering",
+            "Moves at 4.14 m/s on flat lava surfaces and 1.74 m/s on land",
+            "Follows players holding warped fungus or warped fungus on a stick",
+            "When damaged by hostile mobs, flees while making retreat noises for a few seconds",
+            "Can be bred with warped fungus, producing baby striders with 5-minute breeding cooldown",
+            "Baby striders take 20 minutes to grow into adults",
+            "Zombified piglins occasionally spawn riding striders, already equipped with a saddle",
+            "Zombified piglin riders hold warped fungus on a stick and guide the strider toward players",
+            "Can be equipped with a saddle (by right-clicking with shears or already spawned with one)",
+            "Speed effect increases strider's movement speed on both land and lava",
+            "Falls from heights take fall damage when landing in lava source blocks (bug behavior)"
+        ],
+        drops: [
+            { item: "Strider", chance: "Always (alive)" },
+            { item: "Saddle", chance: "If equipped (100% drop)" },
+            { item: "Experience", chance: "1-7 (when bred)" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Striders are extraordinary passive mobs native to the Nether, uniquely adapted to survive and thrive in one of the game's most hostile environments. These long-legged, crimson-colored creatures have evolved to walk atop the vast oceans and rivers of lava that characterize much of the Nether's landscape. They are the only naturally spawning passive mob in the entire Nether dimension, making them invaluable companions for any serious Nether exploration or transportation needs. Striders possess a remarkable resistance to heat and lava, walking effortlessly on the molten surface without sinking or taking damage. Their elongated legs and wide, flat feet distribute weight perfectly, allowing them to traverse the treacherous lava seas with ease. When traveling with a strider in the Nether, players typically guide them using a warped fungus on a stick, a specialized item crafted from a warped fungus attached to a fishing rod. This method of control allows striders to move forward automatically while the player steers their direction, making long-distance Nether travel significantly safer than alternative methods like soul sand elevators or netherite bridge building. One of the most fascinating aspects of strider biology is their extreme vulnerability to water—they take rapid damage when exposed to water, rain, or even splash water bottles, making it essential to keep them away from any water sources when traveling to the Overworld. They change to a dull purple color when outside of lava, signaling their discomfort. When breeding striders with warped fungus, players receive 1-7 experience orbs, and baby striders emerge that take 20 minutes to mature. Additionally, players may occasionally encounter striders already being ridden by zombified piglins in the wild, which come pre-equipped with saddles and a helpful guide who won't despawn naturally. Their speed can be further enhanced by applying Speed potions or beacon effects, making them even faster transportation options."
     }
 };
