@@ -264,4 +264,40 @@ export const passiveMobs = {
         ],
         description: "Sniffers are massive, gentle creatures that bring a bit of archaeology into survival gameplay. They don’t appear through normal spawning—players must recover sniffer eggs from suspicious sand in warm ocean ruins (or breed existing sniffers) and hatch them. Once grown, sniffers occasionally stop to sniff the ground and dig up rare plant items like torchflower seeds and pitcher pods, allowing players to cultivate unique decorative plants."
     }
+
+    "minecraft:strider": {
+        id: "minecraft:strider",
+        name: "Strider",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Crimson Forest", "Soul Sand Valley", "Basalt Deltas"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Passive mobs that can walk on lava using heat-adapted legs",
+            "Shiver when in normal temperature areas (Overworld, The End)",
+            "Can be tempted and bred with crimson fungi",
+            "Can be saddled for player riding and controlled with a warped fungus on a stick",
+            "Baby striders can be given warped fungus to speed up their growth",
+            "Immune to fire damage and lava",
+            "Move slower on solid ground compared to their confident movement on lava",
+            "Follow players holding crimson fungi within 16 blocks",
+            "Males and females can be bred; females produce baby striders, males seek fungi",
+            "Use their long tongues to eat fungi from the ground"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "String", chance: "1-3 (when killed by player/tamed wolf; baby striders only)" }
+        ],
+        description: "Striders are remarkable passive mobs uniquely adapted to survive in the Nether's most hostile environments. These towering creatures have evolved specialized heat-resistant legs that allow them to walk confidently across the surface of molten lava, making them the only non-flying mobs capable of traversing the dangerous lava oceans that dominate much of the Nether Wastes biome. Their unique physiology extends to their diet—they sustain themselves by grazing on crimson fungi that grow on soul sand and nylium surfaces, using their extraordinary 10-block-long tongue to consume vegetation without entering the dangerous lava rivers themselves. For players, striders represent an invaluable solution to one of Minecraft's most dangerous travel challenges: navigating the Nether without falling into endless lava lakes or building precarious bridge networks across the void. By approaching a strider with crimson fungi in hand, players can tempt and lead these docile creatures, eventually saddling them to ride across the lava seas at surprising speeds. Once equipped with a saddle, striders can be steered using a warped fungus on a stick, similar to how pigs are controlled with carrots on sticks. This makes them essential companions for efficient Nether infrastructure, enabling players to establish fast transportation routes between bastions, nether fortresses, and ancient cities across the treacherous lava-filled landscape. Striders shiver visibly when brought to normal temperature environments like the Overworld or End, indicating their discomfort with cooler climates. They can be bred by feeding two adult striders crimson fungi, producing baby striders that grow faster when fed additional warped fungi. These babies have the unique trait of dropping string instead of experience when killed, making them useful for early-game string farming without the need for spider spawners. Adult striders drop experience points when killed by players or tamed wolves, providing a renewable source of XP for enchantment purposes."
+    }
 };
