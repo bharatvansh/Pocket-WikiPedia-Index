@@ -215,14 +215,15 @@ export const hostileMobs = {
         },
         spawning: {
             biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
-            lightLevel: "0-7",
-            groupSize: "1-4"
+            lightLevel: "0 (Java) / 0-7 (Bedrock)",
+            groupSize: "4 (Java), 1-2 (Bedrock)"
         },
         behaviorTraits: [
-            "Undead skeleton variant that spawns in swamps and mangrove swamps, replacing about 30% of skeleton spawns",
+            "Undead skeleton variant that spawns in swamps and mangrove swamps, replacing some skeleton spawns",
             "Can also spawn in trial chambers via trial spawners",
             "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
             "Its poison arrows apply Poison for 4 seconds",
+            "In Bedrock Edition, it can spawn during the day under dense mangrove canopy (light levels 0 through 7)",
             "Burns in daylight like other skeletons unless protected",
             "Can breathe underwater, making it at home in swampy terrain",
             "Melee damage is low compared to its ranged pressure"
