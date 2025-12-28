@@ -309,7 +309,7 @@ export const passiveMobs = {
         },
         spawning: {
             biomes: ["Plains", "Forest", "Taiga", "Meadows", "Snowy Plains"],
-            lightLevel: "9+",
+            lightLevel: "7+",
             groupSize: "2-3 (world generation), 2-4 (wandering)"
         },
         behaviorTraits: [
@@ -355,8 +355,7 @@ export const passiveMobs = {
             "Baby cows take 20 minutes to grow (can be accelerated with wheat)",
             "Occasionally walk slowly while mooing",
             "Avoid cliffs and dangerous drops",
-            "Can be attached to leads for transport",
-            "Brown mooshroom variant only spawns on mushroom islands"
+            "Can be attached to leads for transport"
         ],
         drops: [
             { item: "Raw Beef", chance: "1-3" },
