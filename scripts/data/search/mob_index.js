@@ -131,5 +131,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_breeze.png",
         themeColor: "§b" // wind/cyan
+    },
+    {
+        id: "minecraft:wither_skeleton",
+        name: "Wither Skeleton",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wither_skeleton.png",
+        themeColor: "§8" // dark gray/black
+    },
+    {
+        id: "minecraft:iron_golem",
+        name: "Iron Golem",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_iron_golem.png",
+        themeColor: "§7" // gray/iron
     }
 ];

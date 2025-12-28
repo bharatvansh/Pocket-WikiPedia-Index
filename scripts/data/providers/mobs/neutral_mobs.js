@@ -208,5 +208,45 @@ export const neutralMobs = {
             { item: "Equipped items/armor", chance: "If holding" }
         ],
         description: "Piglins are neutral mobs native to the Nether that serve as the primary currency-based traders in the dimension. Adult piglins are hostile toward players unless they are wearing at least one piece of golden armor. When not provoked by non-gold-armored players, piglins will examine gold ingots dropped near them or presented directly, then offer random items in return through a bartering system. This unique trading mechanic provides players with valuable Nether-exclusive items including ender pearls, fire charges, obsidian, soul sand, crying obsidian, and various potions. Piglins spawn in Nether Wastes, Crimson Forests, and Bastion Remnants, where they defend the treasure structures. They come in both adult and baby variants—babies are passive and playful, often riding baby hoglins. Piglins can become aggravated by various actions including attacking them, opening or breaking chests, mining gold ore and blocks, or simply approaching without golden armor. They share a complex social structure with zombified piglins, fleeing from their undead counterparts and from soul-related blocks. Piglins cannot swim or climb ladders, making water an effective defensive barrier against them."
+    },
+    "minecraft:iron_golem": {
+        id: "minecraft:iron_golem",
+        name: "Iron Golem",
+        health: 100,
+        stats: {
+            attackDamage: 21,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Village", "Pillager Outpost"],
+            lightLevel: "Any",
+            groupSize: "Varies (based on village size)"
+        },
+        behaviorTraits: [
+            "Naturally spawns in villages based on villager population and gossip",
+            "Can be player-crafted with 4 iron blocks arranged in a T-shape and 1 carved pumpkin on top",
+            "Protects villagers from hostile mobs within 16 blocks",
+            "Attacks most hostile mobs including zombies, skeletons, and spiders",
+            "Does not attack creepers directly but can be damaged by their explosions",
+            "Immune to fall damage, drowning, and knockback",
+            "Cannot be pushed by pistons or flowing water",
+            "Player-built golems are permanently passive toward the player who created them",
+            "Naturally spawned golems are neutral but become hostile if player attacks villagers or has low village reputation",
+            "Cannot attack targets that are 3 or more blocks above them",
+            "Offers poppies to villagers and baby villagers accept them",
+            "Shows health through visible cracks: uncracked, low cracked, half cracked, and high cracked",
+            "Can be healed using iron ingots (each restores 25 HP)",
+            "Patrols villages and wanders near village boundaries",
+            "Targets hostile mobs up to 16 blocks away and can attack through 1-block walls"
+        ],
+        drops: [
+            { item: "Iron Ingot", chance: "3-5" },
+            { item: "Poppy", chance: "0-2" }
+        ],
+        description: "Iron Golems are powerful neutral utility mobs that serve as the primary defenders of villages. With 100 health points (50 hearts), they are among the most durable mobs in Minecraft and deal devastating melee damage ranging from 7.5 to 32.25 HP depending on difficulty level. Iron Golems naturally spawn in villages when certain population requirements are met, appearing near gathering points or during villager panic states. They can also be player-crafted by arranging four iron blocks in a T-shape and placing a carved pumpkin or jack o'lantern on top, creating a permanent ally that never attacks its creator. Iron Golems exhibit unique defensive behaviors, actively seeking out and attacking hostile mobs within a 16-block radius to protect villagers. Their attack animation involves violently swinging their arms upward, launching enemies into the air with significant knockback. They possess several immunities including complete resistance to fall damage, drowning, and knockback effects, making them nearly unstoppable guardians. Iron Golems display social behaviors such as occasionally offering poppies to villagers, particularly baby villagers who accept the gift. Their health status is visually indicated by progressive cracking on their body texture, ranging from pristine to heavily damaged. Players can repair damaged Iron Golems by using iron ingots, with each ingot restoring 25 HP. Naturally spawned golems patrol village boundaries and can turn hostile toward players who harm villagers or develop poor village reputation. However, player-built golems remain permanently passive. When killed, Iron Golems drop 3-5 iron ingots and 0-2 poppies, making them a valuable but morally questionable source of iron. Their inability to attack targets elevated three blocks above them provides a safe strategy for players who need to defeat them without taking damage."
     }
 };
