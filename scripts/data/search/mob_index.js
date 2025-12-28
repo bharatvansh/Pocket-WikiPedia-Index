@@ -194,5 +194,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_goat.png",
         themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:copper_golem",
+        name: "Copper Golem",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_copper_golem.png",
+        themeColor: "§6" // copper/bronze
+    },
+    {
+        id: "minecraft:creaking",
+        name: "Creaking",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_creaking.png",
+        themeColor: "§8" // dark gray/pale
     }
 ];
