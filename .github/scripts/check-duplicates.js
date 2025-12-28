@@ -96,7 +96,7 @@ async function getAllExistingIds(dataDir) {
         }
     }
 
-    await scanDir(dir);
+    await scanDir(dataDir);
     return existingIds;
 }
 
