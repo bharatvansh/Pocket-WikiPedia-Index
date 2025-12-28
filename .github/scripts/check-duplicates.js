@@ -60,10 +60,14 @@ function extractAddedIdsFromDiff(diffContent) {
 }
 
 /**
- * Get all existing IDs from data files
+ * Get all existing IDs from data files in the BASE branch (before PR changes)
+ * Uses git show to get the original file content, not the merged checkout
  */
 async function getAllExistingIds(dataDir) {
     const existingIds = new Map(); // id -> file path
+    const { execSync } = await import('child_process');
+    const repoRoot = path.resolve(__dirname, '../..');
+    const baseRef = process.env.BASE_REF || 'main';
 
     async function scanDir(dir) {
         if (!fs.existsSync(dir)) return;
@@ -74,23 +78,30 @@ async function getAllExistingIds(dataDir) {
             if (entry.isDirectory()) {
                 await scanDir(fullPath);
             } else if (entry.name.endsWith('.js') && entry.name !== 'index.js') {
-                // Try to extract IDs from the file
+                // Get relative path from repo root for git show
+                const relativePath = path.relative(repoRoot, fullPath).replace(/\\/g, '/');
+
                 try {
-                    const content = fs.readFileSync(fullPath, 'utf8');
+                    // Get file content from BASE branch (origin/<base_ref>), not current checkout
+                    const originalContent = execSync(
+                        `git show origin/${baseRef}:${relativePath}`,
+                        { encoding: 'utf8', cwd: repoRoot, stdio: ['pipe', 'pipe', 'pipe'] }
+                    );
 
                     // Match all id fields: id: "minecraft:something"
-                    const idMatches = content.matchAll(/id:\s*"(minecraft:[^"]+)"/g);
+                    const idMatches = originalContent.matchAll(/id:\s*"(minecraft:[^"]+)"/g);
                     for (const match of idMatches) {
                         existingIds.set(match[1], fullPath);
                     }
 
                     // Also match object keys: "minecraft:something": {
-                    const keyMatches = content.matchAll(/"(minecraft:[^"]+)":\s*\{/g);
+                    const keyMatches = originalContent.matchAll(/"(minecraft:[^"]+)":\s*\{/g);
                     for (const match of keyMatches) {
                         existingIds.set(match[1], fullPath);
                     }
                 } catch (e) {
-                    console.log(`  Warning: Could not read ${entry.name}: ${e.message}`);
+                    // File might not exist in base branch (new file) - that's OK, skip it
+                    console.log(`  Skipping ${entry.name} (not in base branch or error)`);
                 }
             }
         }

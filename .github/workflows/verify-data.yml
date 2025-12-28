@@ -41,6 +41,8 @@ jobs:
 
       - name: Check for duplicate entries
         id: duplicates
+        env:
+          BASE_REF: ${{ github.base_ref }}
         run: |
           cd .github/scripts
           node check-duplicates.js --diff ../../diff_content.txt --output ../../duplicate_report.md --status ../../duplicate_status.txt
