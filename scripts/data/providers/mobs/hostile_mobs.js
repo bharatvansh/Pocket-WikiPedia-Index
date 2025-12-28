@@ -329,30 +329,28 @@ export const hostileMobs = {
             groupSize: "2-4"
         },
         behaviorTraits: [
-            "Hostile toward players in the Overworld and The End",
-            "Neutral in the Nether unless provoked",
-            "Fleeing behavior when near warped fungus",
-            "Flees from zoglins and soul fire blocks",
+            "Hostile toward players on sight in the Nether",
+            "Flees from warped fungus, nether portals, and respawn anchors",
             "Can be bred using crimson fungus",
             "Converts to zoglin when entering the Overworld or The End",
-            "Baby hoglins do not attack players",
+            "Baby hoglins attack players but deal less damage and don't fling them",
             "High knockback resistance (60%)",
             "Can be leashed with leads"
         ],
         drops: [
-            { item: "Raw Porkchop", chance: "2-5" },
-            { item: "Leather", chance: "0-2" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+            { item: "Raw Porkchop", chance: "2-4" },
+            { item: "Leather", chance: "0-1" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Hoglins are aggressive, pig-like hostile mobs that inhabit the crimson forests and bastion remnants of the Nether. These large creatures serve as the primary source of porkchops in the Nether and are essential for sustainable food production in this challenging dimension. Adult hoglins are formidable opponents with 40 health points (20 hearts) and can deal significant melee damage ranging from 3 to 8 hearts depending on game difficulty. They have a 60% knockback resistance, making them difficult to push back in combat. Hoglins have a unique relationship with their environment—they flee from warped fungus due to its unpleasant smell and will run from zoglins (their zombified counterparts). In the Nether, hoglins are generally neutral unless provoked, but they become permanently hostile when brought to the Overworld or The End, eventually transforming into zoglins. Players can breed hoglins using crimson fungus, though baby hoglins cannot attack players. Hoglins are a critical part of the Nether ecosystem and provide valuable resources including raw porkchops for food and leather for crafting."
+        description: "Hoglins are aggressive, pig-like hostile mobs that inhabit the crimson forests and bastion remnants of the Nether. These large creatures serve as the primary source of porkchops in the Nether and are essential for sustainable food production in this challenging dimension. Adult hoglins are formidable opponents with 40 health points (20 hearts) and can deal significant melee damage ranging from 3 to 8 hearts depending on game difficulty. They have a 60% knockback resistance, making them difficult to push back in combat. Hoglins have a unique relationship with their environment—they flee from warped fungus due to its unpleasant smell, and they also avoid nether portals and respawn anchors. Hoglins attack players on sight in the Nether under normal circumstances. Players can breed hoglins using crimson fungus, and baby hoglins will attack players but deal less damage and cannot fling them like adults can. Hoglins are a critical part of the Nether ecosystem and provide valuable resources including raw porkchops for food and leather for crafting."
     },
     "minecraft:zoglin": {
         id: "minecraft:zoglin",
         name: "Zoglin",
-        health: 200,
+        health: 40,
         stats: {
-            attackDamage: "6-12 (varies by difficulty)",
-            movementSpeed: 0.3,
+            attackDamage: "3-8 (Normal), 2-5 (Easy), 4-12 (Hard)",
+            movementSpeed: 0.25,
             knockbackResistance: 0.6
         },
         classification: {
@@ -368,17 +366,18 @@ export const hostileMobs = {
             "Hostile toward players and most mobs",
             "Undead mob vulnerable to Smite enchantment",
             "Cannot spawn naturally—only created when hoglins enter the Overworld or End",
-            "Persistent mob that does not despawn",
-            "Immune to drowning and poison effects",
+            "Despawns normally unless name-tagged",
+            "Immune to poison and regeneration effects",
+            "Can drown in water",
             "Healed by harming potions, damaged by healing potions",
             "Can be leashed with leads",
-            "Baby zoglins are more aggressive and deal less damage",
+            "Baby zoglins deal less damage but are more aggressive",
             "Attacks relentlessly once provoked"
         ],
         drops: [
-            { item: "Rotten Flesh", chance: "12-24" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+            { item: "Rotten Flesh", chance: "1-3" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Zoglins are the zombified, hostile variants of hoglins that are created when hoglins are brought into the Overworld or The End. These terrifying undead mobs are the only Nether-classified creatures that cannot naturally spawn in the Nether itself, making them unique entities that must be created through player interaction. Adult zoglins are among the toughest non-boss mobs in Minecraft with an impressive 200 health points (100 hearts), allowing them to survive multiple combat encounters. Their undead nature makes them vulnerable to the Smite enchantment, which is particularly effective when battling these powerful creatures. Zoglins attack relentlessly and are hostile toward players and most other mobs alike. They possess 60% knockback resistance, similar to their living counterparts. Baby zoglins exist and are notably more dangerous than baby hoglins since they actively attack players despite their smaller size. Unlike hoglins, zoglins cannot be pacified or bred, and they do not despawn, making them permanent threats in any world where they are created. When killed, zoglins drop substantial amounts of rotten flesh (12-24 pieces), making them an excellent renewable source of this material for trading or potion brewing."
+        description: "Zoglins are the zombified, hostile variants of hoglins that are created when hoglins are brought into the Overworld or The End. These terrifying undead mobs are the only Nether-classified creatures that cannot naturally spawn in the Nether itself, making them unique entities that must be created through player interaction. Adult zoglins are formidable opponents with 40 health points (20 hearts) and can deal significant melee damage ranging from 3 to 8 hearts depending on game difficulty on Normal mode. Their undead nature makes them vulnerable to the Smite enchantment, which is particularly effective when battling these creatures. Zoglins attack relentlessly and are hostile toward players and most other mobs alike. They possess 60% knockback resistance, similar to their living counterparts. Baby zoglins exist and actively attack players despite their smaller size, though they deal less damage than adults. Zoglins are immune to poison and regeneration effects, but they can drown in water, making water an effective barrier against them. They are healed by harming potions and damaged by healing potions. When killed, zoglins drop 1-3 rotten flesh pieces, making them a renewable source of this material for trading or potion brewing."
     }
 };
