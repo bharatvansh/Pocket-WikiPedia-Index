@@ -295,8 +295,7 @@ export const hostileMobs = {
             "Burns in sunlight unless wearing a helmet",
             "Spawns in cold and frozen biomes",
             "Skeletons convert to strays in powder snow",
-            "Immune to freezing damage",
-            "Drops tipped arrows of slowness"
+            "Immune to freezing damage"
         ],
         drops: [
             { item: "Bone", chance: "0-2" },

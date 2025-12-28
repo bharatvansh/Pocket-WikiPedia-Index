@@ -278,7 +278,7 @@ export const passiveMobs = {
         },
         spawning: {
             biomes: ["Plains", "Forest", "Jungle", "Taiga", "Swamp"],
-            lightLevel: "9+",
+            lightLevel: "7+",
             groupSize: "2-4"
         },
         behaviorTraits: [
