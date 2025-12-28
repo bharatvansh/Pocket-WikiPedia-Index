@@ -320,7 +320,7 @@ export const passiveMobs = {
             "Can be bred with wheat to produce baby sheep",
             "Baby sheep inherit parent's colors with chance of mixing",
             "More likely to spawn in light colors (white, gray, black, brown)",
-            "Rare pink sheep have approximately 1 in 1000 spawn rate"
+            "Rare pink sheep have 0.164% or approximately 1 in 600 spawn rate"
         ],
         drops: [
             { item: "White Wool", chance: "1 (if not sheared)" },
@@ -328,7 +328,7 @@ export const passiveMobs = {
             { item: "Colored Wool", chance: "Matches sheep's dye color" },
             { item: "Experience", chance: "1-3 (if killed by player/tamed wolf)" }
         ],
-        description: "Sheep are essential passive mobs for early-game wool and food resources. They spawn in most grassy biomes in groups and provide wool through shearing (recommended) or killing. Sheep can be dyed 16 different colors, making them valuable for building and decoration. They regrow wool by eating grass blocks or tall grass, turning the grass into dirt blocks beneath them. Sheep are crucial for crafting beds, the first night survival essential item, and provide mutton for food. Rare variants include naturally spawning pink sheep with approximately 0.164% spawn rate."
+        description: "Sheep are essential passive mobs for early-game wool and food resources. They spawn in most grassy biomes in groups and provide wool through shearing (recommended) or killing. Sheep can be dyed 16 different colors, making them valuable for building and decoration. They regrow wool by eating grass blocks or tall grass, turning the grass into dirt blocks beneath them. Sheep are crucial for crafting beds, the first night survival essential item, and provide mutton for food. Rare variants include naturally spawning pink sheep with 0.164% spawn rate."
     },
     "minecraft:cow": {
         id: "minecraft:cow",
