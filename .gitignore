@@ -36,3 +36,4 @@ search_*.py
 
 # Python virtual environment
 venv/
+.venv/

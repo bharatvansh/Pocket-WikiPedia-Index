@@ -205,6 +205,38 @@ export const hostileMobs = {
         ],
         description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
     },
+    "minecraft:bogged": {
+        id: "minecraft:bogged",
+        name: "Bogged",
+        health: 16,
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
+            lightLevel: "0-7",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Undead skeleton variant that spawns in swamps and mangrove swamps, replacing about 30% of skeleton spawns",
+            "Can also spawn in trial chambers via trial spawners",
+            "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
+            "Its poison arrows apply Poison for 4 seconds",
+            "Burns in daylight like other skeletons unless protected",
+            "Can breathe underwater, making it at home in swampy terrain",
+            "Melee damage is low compared to its ranged pressure"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Arrow", chance: "0-2" },
+            { item: "Arrow of Poison", chance: "0-1 (player/tamed wolf kill)" },
+            { item: "Bow", chance: "8.5% (player/tamed wolf kill; higher with Looting)" },
+            { item: "Equipped items/armor", chance: "If holding" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps (partially replacing normal skeleton spawns) and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered, but unlike most land skeletons they can breathe underwater, letting them keep up the pressure around rivers, ponds, and mangrove roots."
+    },
     "minecraft:wither_skeleton": {
         id: "minecraft:wither_skeleton",
         name: "Wither Skeleton",

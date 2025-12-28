@@ -199,5 +199,69 @@ export const passiveMobs = {
             { item: "Saddle", chance: "If equipped" }
         ],
         description: "Camels are tall passive mobs that spawn in desert villages. Unlike most mounts, they can carry two players at the same time, making them a convenient way to travel together without needing two separate animals. When ridden, camels can perform a short charged dash to quickly reposition or cross gaps, and their height often keeps riders safely above the reach of many ground-based melee attacks. Camels can be bred with cactus, and a saddle is required to ride them."
+    },
+    "minecraft:armadillo": {
+        id: "minecraft:armadillo",
+        name: "Armadillo",
+        health: 12,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.14
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Savanna", "Savanna Plateau", "Windswept Savanna", "Badlands", "Eroded Badlands", "Wooded Badlands"],
+            lightLevel: "7+",
+            groupSize: "1-4 (varies by biome)"
+        },
+        behaviorTraits: [
+            "Passive mob that naturally spawns in savanna and badlands biomes",
+            "Rolls up when threatened, becoming more resistant to damage",
+            "Spiders and cave spiders run away from armadillos",
+            "Can be bred using spider eyes (breeding cooldown: 5 minutes)",
+            "Can be brushed with a brush to knock off an armadillo scute",
+            "Adults periodically shed an armadillo scute about every 5–10 minutes",
+            "Armadillo scutes are used to craft wolf armor"
+        ],
+        drops: [
+            { item: "Armadillo Scute", chance: "1 (every 5–10 minutes; also from brushing)" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
+        ],
+        description: "Armadillos are passive overworld animals that protect themselves by curling into a ball when danger gets too close. Their presence has a practical perk: spiders and cave spiders will avoid armadillos, making them a natural deterrent in the wild. The armadillo’s most important resource is the armadillo scute, which can be brushed off or shed over time and is used to craft wolf armor—an upgrade that helps keep your canine companions safer in combat."
+    },
+    "minecraft:sniffer": {
+        id: "minecraft:sniffer",
+        name: "Sniffer",
+        health: 14,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.1
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Warm Ocean Ruins (Sniffer Eggs in suspicious sand)", "Player-bred (egg laid as an item)"],
+            lightLevel: "Any",
+            groupSize: "N/A (hatches from Sniffer Egg)"
+        },
+        behaviorTraits: [
+            "Ancient passive mob that cannot spawn naturally; it must be hatched from a sniffer egg",
+            "Sniffer eggs are obtained by brushing suspicious sand in warm ocean ruins",
+            "Tempted and bred using torchflower seeds; breeding produces a sniffer egg item",
+            "Occasionally sniffs and digs in dirt-like blocks to find ancient plant items",
+            "Can dig up torchflower seeds and pitcher pods, letting players grow torchflowers and pitcher plants"
+        ],
+        drops: [
+            { item: "Torchflower Seeds", chance: "Occasionally dug up while sniffing" },
+            { item: "Pitcher Pod", chance: "Occasionally dug up while sniffing" },
+            { item: "Sniffer Egg", chance: "Laid when breeding two sniffers" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
+        ],
+        description: "Sniffers are massive, gentle creatures that bring a bit of archaeology into survival gameplay. They don’t appear through normal spawning—players must recover sniffer eggs from suspicious sand in warm ocean ruins (or breed existing sniffers) and hatch them. Once grown, sniffers occasionally stop to sniff the ground and dig up rare plant items like torchflower seeds and pitcher pods, allowing players to cultivate unique decorative plants."
     }
 };
