@@ -446,19 +446,18 @@ export const passiveMobs = {
             undead: false
         },
         spawning: {
-            biomes: ["Player-crafted (not naturally spawning)"],
+            biomes: ["Player-crafted (place carved pumpkin on copper block)"],
             lightLevel: "Any",
             groupSize: "N/A (must be crafted)"
         },
         behaviorTraits: [
-            "Buildable passive mob created by placing a carved pumpkin or jack o'lantern on/near/under a copper block",
+            "Buildable passive mob created by placing a carved pumpkin on top of a copper block",
             "Takes items from copper chests and attempts to store them in nearby wooden chests and trapped chests",
             "Visits up to 10 copper chests in sequence to take up to 16 items of the first item type found",
             "If copper chest is empty, idles for 7 seconds before moving to another",
             "Oxidizes over time like regular copper blocks, going through exposed, weathered, and oxidized stages",
             "Can be waxed with honeycomb to prevent oxidation",
-            "When fully oxidized, transforms into a copper golem statue and drops all held items",
-            "Iron golems occasionally plant poppies on copper golems"
+            "When fully oxidized, transforms into a copper golem statue and drops all held items"
         ],
         drops: [
             { item: "Copper Ingot", chance: "2-3" },
