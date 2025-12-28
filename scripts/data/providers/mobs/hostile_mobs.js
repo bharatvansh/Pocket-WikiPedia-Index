@@ -302,7 +302,9 @@ export const hostileMobs = {
             { item: "Bone", chance: "0-2" },
             { item: "Arrow", chance: "0-2" },
             { item: "Arrow of Slowness", chance: "0-1" },
-            { item: "Bow", chance: "8.5%" }
+            { item: "Bow", chance: "8.5%" },
+            { item: "Experience", chance: "5 (plus 1-3 if stray has armor)" },
+            { item: "Picked-up Equipment", chance: "100% (with current damage level)" }
         ],
         description: "Strays are a variant of skeletons that spawn in icy biomes. They are undead hostile mobs that shoot tipped arrows of slowness, making them dangerous in combat by reducing the player's movement speed. Like skeletons, they burn in sunlight. Skeletons that remain in powder snow for too long will transform into strays."
     }

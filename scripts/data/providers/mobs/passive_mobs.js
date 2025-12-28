@@ -310,7 +310,7 @@ export const passiveMobs = {
         spawning: {
             biomes: ["Plains", "Forest", "Taiga", "Meadows", "Snowy Plains"],
             lightLevel: "9+",
-            groupSize: "2-8"
+            groupSize: "2-3 (world generation), 2-4 (wandering)"
         },
         behaviorTraits: [
             "Follows players holding wheat or similar foods",
@@ -324,6 +324,7 @@ export const passiveMobs = {
         ],
         drops: [
             { item: "White Wool", chance: "1 (if not sheared)" },
+            { item: "Wool (by shearing)", chance: "1-3" },
             { item: "Raw Mutton", chance: "1-2" },
             { item: "Colored Wool", chance: "Matches sheep's dye color" },
             { item: "Experience", chance: "1-3 (if killed by player/tamed wolf)" }
@@ -345,7 +346,7 @@ export const passiveMobs = {
         spawning: {
             biomes: ["Plains", "Forest", "Meadows", "Savanna", "Jungle"],
             lightLevel: "9+",
-            groupSize: "2-6"
+            groupSize: "2-3 (world generation)"
         },
         behaviorTraits: [
             "Follows players holding wheat or similar foods",
