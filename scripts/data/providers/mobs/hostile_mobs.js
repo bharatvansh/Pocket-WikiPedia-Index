@@ -368,7 +368,6 @@ export const hostileMobs = {
             "Cannot spawn naturally—only created when hoglins enter the Overworld or End",
             "Despawns normally unless name-tagged",
             "Immune to poison and regeneration effects",
-            "Can drown in water",
             "Healed by harming potions, damaged by healing potions",
             "Can be leashed with leads",
             "Baby zoglins deal less damage but are more aggressive",
@@ -378,6 +377,6 @@ export const hostileMobs = {
             { item: "Rotten Flesh", chance: "1-3" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Zoglins are the zombified, hostile variants of hoglins that are created when hoglins are brought into the Overworld or The End. These terrifying undead mobs are the only Nether-classified creatures that cannot naturally spawn in the Nether itself, making them unique entities that must be created through player interaction. Adult zoglins are formidable opponents with 40 health points (20 hearts) and can deal significant melee damage ranging from 3 to 8 hearts depending on game difficulty on Normal mode. Their undead nature makes them vulnerable to the Smite enchantment, which is particularly effective when battling these creatures. Zoglins attack relentlessly and are hostile toward players and most other mobs alike. They possess 60% knockback resistance, similar to their living counterparts. Baby zoglins exist and actively attack players despite their smaller size, though they deal less damage than adults. Zoglins are immune to poison and regeneration effects, but they can drown in water, making water an effective barrier against them. They are healed by harming potions and damaged by healing potions. When killed, zoglins drop 1-3 rotten flesh pieces, making them a renewable source of this material for trading or potion brewing."
+        description: "Zoglins are the zombified, hostile variants of hoglins that are created when hoglins are brought into the Overworld or The End. These terrifying undead mobs are the only Nether-classified creatures that cannot naturally spawn in the Nether itself, making them unique entities that must be created through player interaction. Adult zoglins are formidable opponents with 40 health points (20 hearts) and can deal significant melee damage ranging from 3 to 8 hearts depending on game difficulty on Normal mode. Their undead nature makes them vulnerable to the Smite enchantment, which is particularly effective when battling these creatures. Zoglins attack relentlessly and are hostile toward players and most other mobs alike. They possess 60% knockback resistance, similar to their living counterparts. Baby zoglins exist and actively attack players despite their smaller size, though they deal less damage than adults. Zoglins are immune to poison and regeneration effects due to their undead nature. They are healed by harming potions and damaged by healing potions. When killed, zoglins drop 1-3 rotten flesh pieces, making them a renewable source of this material for trading or potion brewing."
     }
 };
