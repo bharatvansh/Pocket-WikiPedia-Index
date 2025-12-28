@@ -432,5 +432,38 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Glow Squids are passive aquatic mobs that emit a soft glow with beautiful light particles. They spawn in various ocean biomes in complete darkness (light level 0) below Y-level 30 and are completely harmless. When killed, they drop glow ink sacs, which can be used to craft glow item frames and glow signs. The glow is purely visual and aesthetic, providing no actual light illumination to the environment. Glow squids cannot be bred by players but can be led with leads, making them easy to transport. They are primarily decorative mobs that add visual interest to underwater environments."
+    },
+    "minecraft:copper_golem": {
+        id: "minecraft:copper_golem",
+        name: "Copper Golem",
+        health: 12,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Player-crafted (not naturally spawning)"],
+            lightLevel: "Any",
+            groupSize: "N/A (must be crafted)"
+        },
+        behaviorTraits: [
+            "Buildable passive mob created by placing a carved pumpkin or jack o'lantern on/near/under a copper block",
+            "Takes items from copper chests and attempts to store them in nearby wooden chests and trapped chests",
+            "Visits up to 10 copper chests in sequence to take up to 16 items of the first item type found",
+            "If copper chest is empty, idles for 7 seconds before moving to another",
+            "Oxidizes over time like regular copper blocks, going through exposed, weathered, and oxidized stages",
+            "Can be waxed with honeycomb to prevent oxidation",
+            "When fully oxidized, transforms into a copper golem statue and drops all held items",
+            "Iron golems occasionally plant poppies on copper golems"
+        ],
+        drops: [
+            { item: "Copper Ingot", chance: "2-3" },
+            { item: "Held Items", chance: "Always" }
+        ],
+        description: "Copper Golems are innovative buildable passive mobs introduced in The Copper Age (Minecraft 1.21.9). They serve as automated item sorters for copper-based storage systems. To create one, players place a carved pumpkin or jack o'lantern on, below, or next to a copper block, causing the block to transform into a copper golem. These helpful constructs visit copper chests throughout the area, collecting items and organizing them into nearby wooden and trapped chests, making them valuable for automated storage and sorting systems. Like all copper blocks, copper golems oxidize over time through four stages: unoxidized (exposed copper color), exposed, weathered, and oxidized (verdigris green). Waxing with honeycomb prevents this oxidation. Once fully oxidized, the golem transforms into an immovable statue, dropping any items it was holding. Their unique ability to organize items makes them essential for building efficient copper chest networks and automated storage systems."
     }
 };
