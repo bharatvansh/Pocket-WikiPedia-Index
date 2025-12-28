@@ -315,7 +315,7 @@ export const hostileMobs = {
         name: "Creaking",
         health: 1,
         stats: {
-            attackDamage: 3,
+            attackDamage: 7,
             movementSpeed: 0.3
         },
         classification: {
@@ -331,7 +331,7 @@ export const hostileMobs = {
             "Spawns from active Creaking Hearts at night in Pale Garden biomes",
             "Completely freezes and cannot move when any player is looking at it within 12 blocks",
             "Unfreezes and pursues players when not being observed",
-            "Attacks with melee headbutts dealing 3 HP damage",
+            "Attacks with melee headbutts dealing 6-8 HP (3-4 hearts) damage",
             "Naturally spawned creakings are completely immune to damage while connected to their heart",
             "Breaking the Creaking Heart instantly kills its linked creaking",
             "When hit while protected, orange particles trail between creaking and heart",
@@ -341,9 +341,8 @@ export const hostileMobs = {
             "Named creakings do not despawn during daytime (Java Edition 1.21.5+)"
         ],
         drops: [
-            { item: "Resin Clump", chance: "When hit while protected" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+            { item: "Resin Clump", chance: "When hit while protected" }
         ],
-        description: "Creakings are eerie hostile mobs introduced in the Pale Garden update (Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 3 HP of damage. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, and resin clumps begin growing on nearby pale oak logs, adding environmental storytelling to the encounter. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
+        description: "Creakings are eerie hostile mobs introduced in the Pale Garden update (Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 6-8 HP (3-4 hearts) of damage. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, and resin clumps begin growing on nearby pale oak logs, adding environmental storytelling to the encounter. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
     }
 };
