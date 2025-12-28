@@ -294,5 +294,76 @@ export const passiveMobs = {
             { item: "Cooked Chicken", chance: "If killed by fire" }
         ],
         description: "Chickens are common passive mobs found in grassy biomes. They are the main source of eggs, feathers, and chicken meat. Chickens have the unique ability to flap their wings to fall slowly, preventing fall damage. They lay eggs periodically, which can be thrown to spawn baby chickens. They can be bred using various types of seeds."
+    },
+    "minecraft:sheep": {
+        id: "minecraft:sheep",
+        name: "Sheep",
+        health: 8,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Forest", "Taiga", "Meadows", "Snowy Plains"],
+            lightLevel: "9+",
+            groupSize: "2-8"
+        },
+        behaviorTraits: [
+            "Follows players holding wheat or similar foods",
+            "Can be dyed 16 different colors using dyes",
+            "Regrows wool after eating grass blocks or tall grass",
+            "Makes grass blocks beneath them turn into dirt blocks",
+            "Can be bred with wheat to produce baby sheep",
+            "Baby sheep inherit parent's colors with chance of mixing",
+            "More likely to spawn in light colors (white, gray, black, brown)",
+            "Rare pink sheep have approximately 1 in 1000 spawn rate"
+        ],
+        drops: [
+            { item: "White Wool", chance: "1 (if not sheared)" },
+            { item: "Raw Mutton", chance: "1-2" },
+            { item: "Colored Wool", chance: "Matches sheep's dye color" },
+            { item: "Experience", chance: "1-3 (if killed by player/tamed wolf)" }
+        ],
+        description: "Sheep are essential passive mobs for early-game wool and food resources. They spawn in most grassy biomes in groups and provide wool through shearing (recommended) or killing. Sheep can be dyed 16 different colors, making them valuable for building and decoration. They regrow wool by eating grass blocks or tall grass, turning the grass into dirt blocks beneath them. Sheep are crucial for crafting beds, the first night survival essential item, and provide mutton for food. Rare variants include naturally spawning pink sheep with approximately 0.164% spawn rate."
+    },
+    "minecraft:cow": {
+        id: "minecraft:cow",
+        name: "Cow",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Forest", "Meadows", "Savanna", "Jungle"],
+            lightLevel: "9+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Follows players holding wheat or similar foods",
+            "Can be milked using a bucket for unlimited milk",
+            "Can be bred with wheat to produce baby cows",
+            "Baby cows take 20 minutes to grow (can be accelerated with wheat)",
+            "Occasionally walk slowly while mooing",
+            "Avoid cliffs and dangerous drops",
+            "Can be attached to leads for transport",
+            "Brown mooshroom variant only spawns on mushroom islands"
+        ],
+        drops: [
+            { item: "Raw Beef", chance: "1-3" },
+            { item: "Leather", chance: "0-2" },
+            { item: "Cooked Beef", chance: "If killed by fire" },
+            { item: "Milk Bucket", chance: "When milked with bucket" },
+            { item: "Experience", chance: "1-3 (if killed by player/tamed wolf)" }
+        ],
+        description: "Cows are fundamental passive mobs for leather and food resources, essential for early-game survival. They spawn commonly in grassy biomes and provide leather for armor and item crafting, as well as beef for food. Cows can be milked infinite times using buckets, providing milk that removes all status effects when consumed. They can be bred with wheat to establish sustainable farms. The brown mooshroom variant spawns exclusively on mushroom islands and provides mushroom stew when milked with a bowl. Cows are one of the most valuable early-game passive mobs for food, leather, and milk resources."
     }
 };
