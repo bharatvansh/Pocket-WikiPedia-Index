@@ -204,5 +204,73 @@ export const hostileMobs = {
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
         description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
+    },
+    "minecraft:bogged": {
+        id: "minecraft:bogged",
+        name: "Bogged",
+        health: 16,
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp", "Trial Chambers (via Trial Spawners)"],
+            lightLevel: "0 (Java) / 0-7 (Bedrock)",
+            groupSize: "4 (natural), varies (Trial Spawners)"
+        },
+        behaviorTraits: [
+            "Undead skeleton variant that spawns in swamps and mangrove swamps, mixed in with other skeleton spawns",
+            "Can also spawn in trial chambers via trial spawners",
+            "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
+            "Its poison arrows apply Poison for 4 seconds",
+            "In Bedrock Edition, it can spawn during the day under dense mangrove canopy (light levels 0 through 7)",
+            "Burns in daylight like other skeletons unless protected",
+            "Unable to swim and tends to sink in water",
+            "Melee damage is low compared to its ranged pressure"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Arrow", chance: "0-2" },
+            { item: "Arrow of Poison", chance: "0-1 (player/tamed wolf kill)" },
+            { item: "Bow", chance: "8.5% (player/tamed wolf kill; higher with Looting)" },
+            { item: "Equipped items/armor", chance: "If holding" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Bogged are swamp-dwelling skeletons with a distinctive mossy look and a nasty twist: their arrows can poison targets, turning even a short exchange into a health drain. They naturally appear in swamps and mangrove swamps alongside normal skeletons, and can also be encountered in Trial Chambers through trial spawners. Like other undead skeletons, bogged burn in sunlight unless covered—so daytime in the open is safer—but their poison-tipped shots make them especially dangerous at range in the tangled, low-visibility terrain of swamps."
+    },
+    "minecraft:wither_skeleton": {
+        id: "minecraft:wither_skeleton",
+        name: "Wither Skeleton",
+        health: 20,
+        stats: {
+            attackDamage: 8,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Nether Fortress"],
+            lightLevel: "0-7 (Nether)",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Wanders aimlessly when idle but sprints to attack players",
+            "Inflicts the Wither effect for 10 seconds on hit, dealing 1 HP every 2 seconds",
+            "Wither effect can cause death unlike Poison",
+            "Immune to fire, lava, and the Wither effect",
+            "Flees from wolves but retaliates when attacked",
+            "Attacks players, snow golems, iron golems, baby turtles, piglins, and piglin brutes",
+            "Taller than regular skeletons at 2.4 blocks high",
+            "Can spawn with enchanted stone swords on higher difficulties"
+        ],
+        drops: [
+            { item: "Coal", chance: "0-1 (50% base chance)" },
+            { item: "Bone", chance: "0-2 (average 1.00)" },
+            { item: "Wither Skeleton Skull", chance: "2.5% (up to 8.5% with Looting III)" },
+            { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
+        ],
+        description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
     }
 };
