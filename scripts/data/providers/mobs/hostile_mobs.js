@@ -210,7 +210,7 @@ export const hostileMobs = {
         name: "Wither Skeleton",
         health: 20,
         stats: {
-            attackDamage: 9,
+            attackDamage: 8,
             movementSpeed: 0.25
         },
         classification: {
@@ -219,7 +219,7 @@ export const hostileMobs = {
         },
         spawning: {
             biomes: ["Nether Fortress"],
-            lightLevel: "0-11 (Nether)",
+            lightLevel: "0-7 (Nether)",
             groupSize: "1-4"
         },
         behaviorTraits: [
@@ -227,7 +227,6 @@ export const hostileMobs = {
             "Inflicts the Wither effect for 10 seconds on hit, dealing 1 HP every 2 seconds",
             "Wither effect can cause death unlike Poison",
             "Immune to fire, lava, and the Wither effect",
-            "Seeks shade or water during daylight in the Overworld",
             "Flees from wolves but retaliates when attacked",
             "Attacks players, snow golems, iron golems, baby turtles, piglins, and piglin brutes",
             "Taller than regular skeletons at 2.4 blocks high",
@@ -239,6 +238,6 @@ export const hostileMobs = {
             { item: "Wither Skeleton Skull", chance: "2.5% (up to 8.5% with Looting III)" },
             { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
         ],
-        description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 9 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming. When brought to the Overworld, Wither Skeletons seek shade or water during daylight hours, though they do not burn in sunlight like regular skeletons."
+        description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
     }
 };
