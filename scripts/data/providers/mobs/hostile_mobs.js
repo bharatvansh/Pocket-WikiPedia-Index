@@ -272,5 +272,116 @@ export const hostileMobs = {
             { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
         ],
         description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
+    },
+    "minecraft:blaze": {
+        id: "minecraft:blaze",
+        name: "Blaze",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Fortress"],
+            lightLevel: "11 or less",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Hostile mob found exclusively in Nether Fortresses",
+            "Attacks by shooting small fireballs in volleys of three",
+            "Fireballs deal 5 damage (Easy), 6 damage (Normal), or 7.5 damage (Hard)",
+            "Melee attack with spinning rods deals 4 damage (Easy), 6 damage (Normal), or 9 damage (Hard)",
+            "Floats upward while preparing to attack, making melee combat challenging",
+            "Can be damaged by water and rain, taking 1 damage every half second",
+            "Immune to fire and lava damage",
+            "Has a smoke particle effect when idle and fire particle effect when attacking",
+            "Spawns from monster spawners in Nether Fortresses",
+            "Teleport distance in Bedrock Edition is 16 blocks"
+        ],
+        drops: [
+            { item: "Blaze Rod", chance: "0-1 (50% base, increases with Looting: 75% Looting I, 87.5% Looting II, 91.67% Looting III)" },
+            { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
+        ],
+        description: "Blazes are formidable hostile mobs that spawn exclusively in Nether Fortresses and from monster spawners within these structures. These floating, fiery creatures are the only source of Blaze Rods, a crucial material for crafting brewing stands, blaze powder for potions, and Eyes of Ender required to locate Strongholds. Blazes attack by shooting small fireballs in rapid volleys of three projectiles, each dealing 5-7.5 damage depending on difficulty. They also possess a dangerous melee attack using their spinning rods, dealing 4-9 damage. Blazes float upward during combat, making them difficult to hit with melee weapons and requiring players to engage them with bows or by using high ground. A critical weakness of Blazes is their vulnerability to water and rain—they take 1 damage every half second when in contact with water, making splash water bottles a highly effective counter. They are completely immune to fire and lava damage, allowing them to navigate the Nether's hazardous terrain unharmed. Blazes emit distinctive smoke particles when idle and burst with fire particles when attacking, making their presence and attack state easily recognizable. Their fireball attacks can be deflected using a shield in Bedrock Edition. Farming Blazes for their rods is a common practice due to their importance in brewing and End-game progression."
+    },
+    "minecraft:ravager": {
+        id: "minecraft:ravager",
+        name: "Ravager",
+        health: 100,
+        stats: {
+            attackDamage: 12,
+            movementSpeed: 0.4
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Raids (overworld villages)"],
+            lightLevel: "Any",
+            groupSize: "1 (per raid wave)"
+        },
+        behaviorTraits: [
+            "Massive hostile mob that spawns exclusively during raids on villages",
+            "One Ravager spawns with the final raid wave (wave 3 on Easy, wave 5 on Normal, wave 7 on Hard)",
+            "Deals devastating melee damage: 7 (Easy), 12 (Normal), or 18 (Hard)",
+            "Can be ridden by Pillagers, Vindicators, and Evokers during raids",
+            "Performs a powerful roar that damages nearby players within 3 blocks (6 damage Easy/Normal, 10 damage Hard) and knocks them back",
+            "Roar has a cooldown between uses and bypasses armor and shields",
+            "Charges at players when in range, dealing heavy damage on impact",
+            "Can destroy most blocks by biting, including leaves, crops, and some natural blocks",
+            "Cannot be tamed or bred",
+            "Has 50 hearts of health, making it one of the toughest non-boss mobs",
+            "Immune to knockback and most status effects",
+            "Moves relatively slowly but becomes faster when charging"
+        ],
+        drops: [
+            { item: "Saddle", chance: "1 (100% - always drops when killed by player/tamed wolf)" },
+            { item: "Experience", chance: "20 (when killed by player/tamed wolf)" }
+        ],
+        description: "Ravagers are the most powerful non-boss hostile mobs in Minecraft, appearing exclusively during raids on villages as the final wave's centerpiece. These massive, beast-like creatures serve as the raid's heavy enforcers, commanding respect with their imposing size of 1.95 blocks wide and 2.2 blocks tall. Ravagers have 100 health points (50 hearts), making them exceptionally durable, and they deal crushing melee damage ranging from 7 on Easy difficulty to 18 on Hard. Their most devastating ability is their roar attack, which damages all players within a 3-block radius, dealing 6 damage on Easy and Normal difficulties or 10 damage on Hard, while knocking them back. This roar bypasses armor and shields, making it particularly dangerous even to well-equipped players. During raids, Ravagers can be ridden by Pillagers, Vindicators, and Evokers, adding ranged and magical threats to their already formidable presence. They are immune to knockback, making them difficult to keep at bay, and their charge attack can close distances quickly. Ravagers can destroy many natural blocks by biting, including leaves and crops, adding to the destructive nature of raids. When killed by a player or tamed wolf, Ravagers always drop a Saddle, making them a reliable source for this useful item. Their combination of high health, devastating damage, and roar attack makes them one of the most feared mobs to encounter in raids."
+    },
+    "minecraft:phantom": {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.7
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (any biome)"],
+            lightLevel: "7 or less (nighttime/thunderstorms)",
+            groupSize: "1-4 (increases with longer insomnia)"
+        },
+        behaviorTraits: [
+            "Flying hostile mob that spawns when player hasn't slept or died for 3+ in-game days",
+            "Spawns only at night or during thunderstorms",
+            "Number of spawning phantoms increases for each day without sleeping (1-4 after 3 days, potentially more after extended insomnia)",
+            "Circles high above players, occasionally swooping down to attack",
+            "Dive-bomb attack deals 4 damage (Easy), 6 damage (Normal), or 9 damage (Hard)",
+            "Cannot hit players while they are sleeping in a bed",
+            "Burns in sunlight like other undead mobs unless in shade or water",
+            "Cannot fly through water and will sink and drown if submerged",
+            "Has a large detection range of 64 blocks horizontally",
+            "Attacks are timed, making prediction and dodging possible",
+            "Small size (0.5 blocks tall, 0.9 blocks wide) makes them difficult to hit",
+            "Can be damaged by melee, ranged, and splash potions",
+            "Takes extra damage from Smite enchantment as an undead mob",
+            "Does not spawn in the Nether or End"
+        ],
+        drops: [
+            { item: "Phantom Membrane", chance: "0-1 (50% base, increases with Looting: 75% Looting I, 87.5% Looting II, 91.67% Looting III)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Phantoms are flying undead hostile mobs that spawn in the Overworld specifically to punish players who haven't slept or died for at least three in-game days. These ghostly creatures were introduced as a mechanic to encourage players to maintain a regular sleep schedule. Phantoms appear in groups of 1-4 at night or during thunderstorms, with the maximum group size increasing the longer the player goes without sleeping. They circle high above their target at a distance, periodically swooping down in a dive-bomb attack that deals 4-9 damage depending on difficulty. Their small hitbox (0.5 blocks tall and 0.9 blocks wide) makes them frustrating to hit, especially with melee weapons. Phantoms burn in direct sunlight like other undead mobs, providing a natural counter during daytime fights. They are immune to fall damage due to their flying nature and have a horizontal detection range of 64 blocks, making them persistent pursuers. Phantom Membranes, which they have a 50% chance to drop (increased by Looting enchantment), are valuable items used to repair Elytra and craft Slow Falling potions. The number of Phantoms that spawn scales with the player's insomnia level—after 3 days of not sleeping, 1-4 may spawn, and this can increase with additional days. Players can prevent Phantom spawns by sleeping in a bed regularly or by dying, which resets the insomnia counter. Their predictable attack pattern and vulnerability to sunlight make them manageable, but their persistence and numbers can make them a significant threat during extended nighttime exploration."
     }
 };
