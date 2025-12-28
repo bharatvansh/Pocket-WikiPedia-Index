@@ -263,5 +263,36 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
         ],
         description: "Sniffers are massive, gentle creatures that bring a bit of archaeology into survival gameplay. They don’t appear through normal spawning—players must recover sniffer eggs from suspicious sand in warm ocean ruins (or breed existing sniffers) and hatch them. Once grown, sniffers occasionally stop to sniff the ground and dig up rare plant items like torchflower seeds and pitcher pods, allowing players to cultivate unique decorative plants."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Chicken",
+        health: 4,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Forest", "Jungle", "Taiga", "Swamp"],
+            lightLevel: "9+",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Lays eggs every 5-10 minutes",
+            "Slow falls by flapping wings (immune to fall damage)",
+            "Follows players holding seeds",
+            "Can be bred with seeds",
+            "Hunted by ocelots and foxes"
+        ],
+        drops: [
+            { item: "Raw Chicken", chance: "1" },
+            { item: "Feather", chance: "0-2" },
+            { item: "Cooked Chicken", chance: "If killed by fire" }
+        ],
+        description: "Chickens are common passive mobs found in grassy biomes. They are the main source of eggs, feathers, and chicken meat. Chickens have the unique ability to flap their wings to fall slowly, preventing fall damage. They lay eggs periodically, which can be thrown to spawn baby chickens. They can be bred using various types of seeds."
     }
 };
