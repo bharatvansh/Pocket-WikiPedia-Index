@@ -464,5 +464,38 @@ export const passiveMobs = {
             { item: "Held Items", chance: "Always" }
         ],
         description: "Copper Golems are innovative buildable passive mobs introduced as part of The Copper Age game drop in 2025. They serve as automated item sorters for copper-based storage systems. To create one, players place a carved pumpkin or jack o'lantern on, below, or next to a copper block, causing the block to transform into a copper golem. These helpful constructs visit copper chests throughout the area, collecting items and organizing them into nearby wooden and trapped chests, making them valuable for automated storage and sorting systems. Like all copper blocks, copper golems oxidize over time through four stages: unoxidized (exposed copper color), exposed, weathered, and oxidized (verdigris green). Waxing with honeycomb prevents this oxidation. Once fully oxidized, the golem transforms into an immovable statue, dropping any items it was holding. Their unique ability to organize items makes them essential for building efficient copper chest networks and automated storage systems."
+    },
+    "minecraft:strider": {
+        id: "minecraft:strider",
+        name: "Strider",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.16
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Soul Sand Valley", "Crimson Forest", "Warped Forest", "Basalt Deltas"],
+            lightLevel: "Any",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Naturally spawn on lava in the Nether",
+            "Immune to fire and lava damage",
+            "Can walk on lava surfaces",
+            "Can be ridden with a saddle and controlled with warped fungus on a stick",
+            "Breed with warped fungus",
+            "Attracted to and follows players holding warped fungus",
+            "Adults can be ridden; babies cannot",
+            "Shiver and move slower when out of lava for extended periods"
+        ],
+        drops: [
+            { item: "String", chance: "2-5" },
+            { item: "Saddle", chance: "If equipped" }
+        ],
+        description: "Striders are unique passive mobs native to the Nether dimension, distinguished by their ability to walk on lava as if it were solid ground. These lanky creatures spawn naturally on lava surfaces throughout all Nether biomes, making them the perfect transportation method for navigating the treacherous lava-filled landscape. Striders are completely immune to fire and lava damage, allowing them to traverse these hazards effortlessly. Players can saddle adult striders and control them using warped fungus on a stick, creating an essential mode of transportation for Nether exploration. When removed from lava for extended periods, striders begin to shiver and move more slowly, emphasizing their dependency on the molten environment. They can be bred using warped fungus, and like other passive mobs, baby striders follow their parents. Their unique lava-walking ability and practical transportation utility make striders invaluable for any player seeking to explore the Nether's vast and dangerous terrain."
     }
 };

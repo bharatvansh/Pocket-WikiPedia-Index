@@ -236,5 +236,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_drowned.png",
         themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:strider",
+        name: "Strider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_strider.png",
+        themeColor: "§6" // orange/brown for Nether creature
+    },
+    {
+        id: "minecraft:zoglin",
+        name: "Zoglin",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zoglin.png",
+        themeColor: "§4" // dark red/brown
     }
 ];
