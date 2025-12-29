@@ -73,7 +73,7 @@ export const hostileMobs = {
         name: "Zoglin",
         health: 40,
         stats: {
-            attackDamage: 6,
+            attackDamage: "3-8",
             movementSpeed: 0.25
         },
         classification: {
@@ -83,7 +83,7 @@ export const hostileMobs = {
         spawning: {
             biomes: ["All Overworld/End biomes (from converted Hoglins)"],
             lightLevel: "Any",
-            groupSize: "1-2 (converted from 1 Hoglin)"
+            groupSize: "1 (from 1 Hoglin)"
         },
         behaviorTraits: [
             "Created when a Hoglin leaves the Nether or stays in Overworld/End for ~15 seconds",

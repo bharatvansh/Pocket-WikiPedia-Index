@@ -471,7 +471,7 @@ export const passiveMobs = {
         health: 20,
         stats: {
             attackDamage: 0,
-            movementSpeed: 0.175
+            movementSpeed: 0.16
         },
         classification: {
             type: "Passive",
