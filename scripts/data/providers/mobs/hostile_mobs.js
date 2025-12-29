@@ -473,7 +473,7 @@ export const hostileMobs = {
         },
         spawning: {
             biomes: ["Ocean", "River"],
-            lightLevel: "0-7 (natural underwater spawn); Any (zombie conversion)",
+            lightLevel: "0 (natural underwater spawn); Any (zombie conversion)",
             groupSize: "1-4"
         },
         behaviorTraits: [
