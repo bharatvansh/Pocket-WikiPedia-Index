@@ -285,5 +285,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_piglin_brute.png",
         themeColor: "§6" // gold/bastion
+    },
+    {
+        id: "minecraft:vindicator",
+        name: "Vindicator",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_vindicator.png",
+        themeColor: "§7" // gray/illager
+    },
+    {
+        id: "minecraft:vex",
+        name: "Vex",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_vex.png",
+        themeColor: "§8" // dark gray/ghostly
     }
 ];

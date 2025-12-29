@@ -764,5 +764,71 @@ export const hostileMobs = {
             { item: "Experience", chance: "20" }
         ],
         description: "Piglin Brutes are the formidable, axe-wielding guardians of Bastion Remnants in the Nether. Unlike regular piglins, they are completely immune to distractions—they won't be swayed by gold armor, won't barter for gold ingots, and don't share the common piglin fear of soul fire. Their sole purpose is to defend the bastion's treasure at all costs. With 50 health points and a devastating attack that can deal 13 HP (6.5 hearts) of damage on Normal difficulty, they are among the most dangerous melee opponents in the game. Crucially, Piglin Brutes do not respawn; once a player has cleared them from a bastion, they are gone for good from that location. Their presence makes looting bastions a high-risk endeavor, requiring players to use careful strategy or overwhelming force. If a Piglin Brute is somehow transported out of the Nether, it will eventually transform into a zombified piglin, losing its unique guarding behavior but retaining its aggressive nature."
+    },
+    "minecraft:vindicator": {
+        id: "minecraft:vindicator",
+        name: "Vindicator",
+        health: 24,
+        stats: {
+            attackDamage: 9,
+            movementSpeed: 0.32
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Woodland Mansion", "All Overworld biomes (during raids)"],
+            lightLevel: "Any",
+            groupSize: "1-2 (mansions), 1-3 (raids, waves 5+)"
+        },
+        behaviorTraits: [
+            "Wields an iron axe that can disable shields with a single hit",
+            "Sprints toward targets at high speed when attacking",
+            "Spawns in Woodland Mansions and participates in raids (waves 5+)",
+            "Does not respawn after initial spawn in Woodland Mansions",
+            "Attacks players, villagers, iron golems, and wandering traders",
+            "Rare 'Johnny' variant attacks any mob except other illagers when named 'Johnny'",
+            "Faster movement speed than most illager variants",
+            "Drops emeralds and occasionally iron axes"
+        ],
+        drops: [
+            { item: "Emerald", chance: "0-2" },
+            { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
+            { item: "Experience", chance: "15 (when killed by player/tamed wolf)" }
+        ],
+        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they appear starting at wave 5, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
+    },
+    "minecraft:vex": {
+        id: "minecraft:vex",
+        name: "Vex",
+        health: 14,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["N/A (spawns only via Evoker summoning, spawn eggs, or commands)"],
+            lightLevel: "Any",
+            groupSize: "3 (per Evoker summoning)"
+        },
+        behaviorTraits: [
+            "Small flying hostile mob that phases through all blocks",
+            "Cannot be spawned naturally—only via Evoker summoning, spawn eggs, or /summon command",
+            "Spawns in groups of 3 when an Evoker performs its summoning attack",
+            "Attacks players, villagers, iron golems, snow golems, and wandering traders",
+            "Carries an iron sword and lunges at targets while flying",
+            "Has a limited lifespan of 20-30 seconds after being spawned",
+            "Immune to knockback and status effects in Java Edition",
+            "Passively damages entities it collides with while flying"
+        ],
+        drops: [
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Vexes are tiny, menacing flying hostile mobs that serve as the summoned weapons of Evokers. These ethereal creatures resemble miniature allays with dark, ghostly wings and carry iron swords they use to slash at their targets. Unlike most mobs, vexes have the unsettling ability to pass through solid blocks, meaning players cannot hide from them by sealing themselves in rooms. Vexes never spawn naturally in the world—they are exclusively created when an Evoker performs its summoning attack, which conjures three vexes surrounded by white particles. They can also be spawned using spawn eggs or commands for creative mode gameplay. Vexes are relentless in their pursuit, flying directly toward targets while ignoring all obstacles. Though they have modest health (14 HP), their ability to attack from any angle and their resistance to knockback make them dangerous in numbers. A vex's attack deals moderate damage, and with three spawning at once from a single evoker, they can quickly overwhelm unprepared players. Vexes have a limited lifespan and will despawn after about 20-30 seconds of existence, preventing indefinite spawn camping. When killed, a vex drops only 5 experience points, reflecting its nature as a conjured weapon rather than a natural creature."
     }
 };
