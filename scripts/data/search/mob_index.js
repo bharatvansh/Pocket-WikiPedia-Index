@@ -210,13 +210,6 @@ export const mobIndex = [
         themeColor: "§6" // brown
     },
     {
-        id: "minecraft:copper_golem",
-        name: "Copper Golem",
-        category: "mob",
-        icon: "textures/items/spawn_eggs/spawn_egg_copper_golem.png",
-        themeColor: "§6" // copper/bronze
-    },
-    {
         id: "minecraft:creaking",
         name: "Creaking",
         category: "mob",
@@ -278,5 +271,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_zoglin.png",
         themeColor: "§4" // dark red/brown
+    },
+    {
+        id: "minecraft:evoker",
+        name: "Evoker",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_evoker.png",
+        themeColor: "§7" // gray/illager
+    },
+    {
+        id: "minecraft:piglin_brute",
+        name: "Piglin Brute",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_piglin_brute.png",
+        themeColor: "§6" // gold/bastion
     }
 ];
