@@ -780,12 +780,12 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Woodland Mansion", "All Overworld biomes (during raids)"],
             lightLevel: "Any",
-            groupSize: "1-2 (mansions), 1-3 (raids, wave 2+ Normal/Hard, wave 3+ Easy)"
+            groupSize: "1-2 (mansions), 1-3 (raids, wave 2+)"
         },
         behaviorTraits: [
             "Wields an iron axe that can disable shields with a single hit",
             "Sprints toward targets at high speed when attacking",
-            "Spawns in Woodland Mansions and participates in raids (wave 2+ on Normal/Hard, wave 3+ on Easy)",
+            "Spawns in Woodland Mansions and participates in raids (wave 2+)",
             "Does not respawn after initial spawn in Woodland Mansions",
             "Attacks players, villagers, iron golems, and wandering traders",
             "Rare 'Johnny' variant attacks any mob except other illagers when named 'Johnny'",
@@ -797,7 +797,7 @@ export const hostileMobs = {
             { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they begin appearing in wave 2 on Normal and Hard difficulties, or wave 3 on Easy difficulty, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
+        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they begin appearing in wave 2 on all difficulties, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
     },
     "minecraft:vex": {
         id: "minecraft:vex",
