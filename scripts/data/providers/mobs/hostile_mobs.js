@@ -728,7 +728,6 @@ export const hostileMobs = {
             { item: "Totem of Undying", chance: "1 (100% guaranteed)" },
             { item: "Emerald", chance: "0-1 (increased by Looting)" },
             { item: "Illager Banner", chance: "If raid captain" },
-            { item: "Ominous Bottle", chance: "1 (dropped by captains outside of raids)" },
             { item: "Experience", chance: "10" }
         ],
         description: "Evokers are the most dangerous members of the illager family, possessing powerful magical abilities that set them apart from their weapon-wielding kin. Found exclusively in woodland mansions or during the intense final waves of a village raid, evokers focus on ranged spellcasting rather than melee combat. Their signature attack involves summoning snapping fangs from the ground, which deal significant damage that bypasses most armor enchantments. Even more dangerous is their ability to summon Vexes—small, flying, sword-wielding spirits that can pass through walls to reach their targets. Evokers are highly prized by adventurers because they are the only source of the Totem of Undying, a legendary item that can save a player from the brink of death. In 1.21+, the experience of fighting evokers in raids is part of the revamped Omen system, requiring players to consciously activate a Raid Omen to trigger the challenge. Their unique 'wololo' spell, a reference to Age of Empires, demonstrates their playful yet sinister nature as they convert the colors of nearby sheep."
