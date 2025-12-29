@@ -68,6 +68,37 @@ export const hostileMobs = {
         ],
         description: "Zombies are common undead hostile mobs that spawn in dark areas throughout the Overworld. They burn in direct sunlight unless protected by a helmet or shade. Zombies attack by pursuing players and villagers, dealing melee damage. They can spawn with armor and weapons, and have a chance to drop useful items."
     },
+    "minecraft:zoglin": {
+        id: "minecraft:zoglin",
+        name: "Zoglin",
+        health: 40,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["All Overworld/End biomes (from converted Hoglins)"],
+            lightLevel: "Any",
+            groupSize: "1-2 (converted from 1 Hoglin)"
+        },
+        behaviorTraits: [
+            "Created when a Hoglin leaves the Nether or stays in Overworld/End for ~15 seconds",
+            "Always hostile to players, villagers, and most mobs",
+            "Immune to fire and lava damage",
+            "Cannot be bred or pacified like Hoglins",
+            "Attacks by charging at targets with headbutt attacks",
+            "Retains broad attack range from Hoglin ancestry"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "1-3" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Zoglins are the zombified, hostile counterparts of Hoglins, created when these normally Nether-exclusive beasts find themselves in the wrong dimension. When a Hoglin is brought into the Overworld or End, it undergoes a dramatic transformation after approximately 15 seconds, turning into a Zoglin that is permanently hostile to players and villagers alike. Unlike their temperamental but manageable Hoglin cousins, Zoglins cannot be pacified with crimson fungus or bred, making them pure hostile mobs. They retain their impressive stature and attack power, lunging at targets with devastating headbutt attacks and maintaining the Hoglin's broad attack range. Zoglins are immune to fire and lava, making them dangerous opponents in any environment. Encountering Zoglins typically means a player has either deliberately transported Hoglins from the Nether for farming purposes or accidentally brought them through a portal, creating a persistent threat that must be dealt with carefully due to their considerable health pool and aggressive nature."
+    },
     "minecraft:skeleton": {
         id: "minecraft:skeleton",
         name: "Skeleton",
