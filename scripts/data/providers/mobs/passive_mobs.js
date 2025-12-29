@@ -471,7 +471,7 @@ export const passiveMobs = {
         health: 20,
         stats: {
             attackDamage: 0,
-            movementSpeed: 0.25
+            movementSpeed: 0.175
         },
         classification: {
             type: "Passive",
@@ -493,7 +493,7 @@ export const passiveMobs = {
             "Shiver and move slower when out of lava for extended periods"
         ],
         drops: [
-            { item: "String", chance: "0-5" },
+            { item: "String", chance: "2-5" },
             { item: "Saddle", chance: "If equipped" }
         ],
         description: "Striders are unique passive mobs native to the Nether dimension, distinguished by their ability to walk on lava as if it were solid ground. These lanky creatures spawn naturally on lava surfaces throughout all Nether biomes, making them the perfect transportation method for navigating the treacherous lava-filled landscape. Striders are completely immune to fire and lava damage, allowing them to traverse these hazards effortlessly. Players can saddle adult striders and control them using warped fungus on a stick, creating an essential mode of transportation for Nether exploration. When removed from lava for extended periods, striders begin to shiver and move more slowly, emphasizing their dependency on the molten environment. They can be bred using warped fungus, and like other passive mobs, baby striders follow their parents. Their unique lava-walking ability and practical transportation utility make striders invaluable for any player seeking to explore the Nether's vast and dangerous terrain."

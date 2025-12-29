@@ -95,7 +95,7 @@ export const hostileMobs = {
         ],
         drops: [
             { item: "Rotten Flesh", chance: "1-3" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Zoglins are the zombified, hostile counterparts of Hoglins, created when these normally Nether-exclusive beasts find themselves in the wrong dimension. When a Hoglin is brought into the Overworld or End, it undergoes a dramatic transformation after approximately 15 seconds, turning into a Zoglin that is permanently hostile to players and villagers alike. Unlike their temperamental but manageable Hoglin cousins, Zoglins cannot be pacified with crimson fungus or bred, making them pure hostile mobs. They retain their impressive stature and attack power, lunging at targets with devastating headbutt attacks and maintaining the Hoglin's broad attack range. Zoglins are immune to fire and lava, making them dangerous opponents in any environment. Encountering Zoglins typically means a player has either deliberately transported Hoglins from the Nether for farming purposes or accidentally brought them through a portal, creating a persistent threat that must be dealt with carefully due to their considerable health pool and aggressive nature."
     },
