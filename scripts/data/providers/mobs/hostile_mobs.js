@@ -695,5 +695,73 @@ export const hostileMobs = {
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
         description: "Drowned are waterlogged undead that haunt oceans and rivers, acting as the aquatic counterpart to zombies. They spawn naturally underwater in dark areas, and can also be created when regular zombies remain submerged long enough to convert. Drowned are much more threatening in water than on land: they swim well, pursue players through underwater caves and ruins, and often patrol by sinking and walking along the sea floor. Their most notable variant is the trident-wielding drowned, which can attack from range by throwing its trident—an encounter that can be especially dangerous for players without good armor, shields, or water mobility. Drowned are also an important farming target because tridents are exclusive to drowned and can be enchanted with powerful effects such as Loyalty, Riptide, and Channeling. Some drowned can also carry nautilus shells, a key component for crafting conduits, making them relevant to long-term underwater base building."
+    },
+    "minecraft:evoker": {
+        id: "minecraft:evoker",
+        name: "Evoker",
+        health: 24,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.5
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Woodland Mansion (specific rooms)", "Village (during raids)"],
+            lightLevel: "Any",
+            groupSize: "1 (Mansion), 1-5 (Raid waves)"
+        },
+        behaviorTraits: [
+            "Powerful spellcasting illager found in woodland mansions and late-wave raids",
+            "Attacks using 'fang' spells that erupt from the ground in a line or circle",
+            "Fangs deal 6 HP (3 hearts) damage and ignore armor enchantments",
+            "Summons 3 Vexes to pursue and attack players",
+            "Performs a 'wololo' spell to change nearby blue sheep into red sheep",
+            "Flee from players when their spells are on cooldown",
+            "Can ride Ravagers during wave 7 of a raid in Bedrock Edition",
+            "In 1.21+, their presence in raids is tied to the new Raid Omen mechanic"
+        ],
+        drops: [
+            { item: "Totem of Undying", chance: "1 (100% guaranteed)" },
+            { item: "Emerald", chance: "0-1 (increased by Looting)" },
+            { item: "Illager Banner", chance: "If raid captain" },
+            { item: "Experience", chance: "10" }
+        ],
+        description: "Evokers are the most dangerous members of the illager family, possessing powerful magical abilities that set them apart from their weapon-wielding kin. Found exclusively in woodland mansions or during the intense final waves of a village raid, evokers focus on ranged spellcasting rather than melee combat. Their signature attack involves summoning snapping fangs from the ground, which deal significant damage that bypasses most armor enchantments. Even more dangerous is their ability to summon Vexes—small, flying, sword-wielding spirits that can pass through walls to reach their targets. Evokers are highly prized by adventurers because they are the only source of the Totem of Undying, a legendary item that can save a player from the brink of death. In 1.21+, the experience of fighting evokers in raids is part of the revamped Omen system, requiring players to consciously activate a Raid Omen to trigger the challenge. Their unique 'wololo' spell, a reference to Age of Empires, demonstrates their playful yet sinister nature as they convert the colors of nearby sheep."
+    },
+    "minecraft:piglin_brute": {
+        id: "minecraft:piglin_brute",
+        name: "Piglin Brute",
+        health: 50,
+        stats: {
+            attackDamage: 13,
+            movementSpeed: 0.35
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Bastion Remnant"],
+            lightLevel: "Any",
+            groupSize: "Varies (based on bastion structure)"
+        },
+        behaviorTraits: [
+            "Elite guardian of Bastion Remnants that cannot be distracted or pacified",
+            "Does not retreat from soul fire or soul-related items unlike regular piglins",
+            "Aggressive toward players regardless of whether they are wearing gold armor",
+            "Attacks using a Golden Axe, dealing massive melee damage",
+            "Does not respawn once killed; each Bastion has a limited number of brutes",
+            "Cannot be bartered with and ignores dropped gold ingots",
+            "Alerts nearby piglins and piglin brutes when attacked",
+            "Turns into a zombified piglin if brought to the Overworld or End"
+        ],
+        drops: [
+            { item: "Golden Axe", chance: "8.5% (increased by Looting)" },
+            { item: "Experience", chance: "20" }
+        ],
+        description: "Piglin Brutes are the formidable, axe-wielding guardians of Bastion Remnants in the Nether. Unlike regular piglins, they are completely immune to distractions—they won't be swayed by gold armor, won't barter for gold ingots, and don't share the common piglin fear of soul fire. Their sole purpose is to defend the bastion's treasure at all costs. With 50 health points and a devastating attack that can deal 13 HP (6.5 hearts) of damage on Normal difficulty, they are among the most dangerous melee opponents in the game. Crucially, Piglin Brutes do not respawn; once a player has cleared them from a bastion, they are gone for good from that location. Their presence makes looting bastions a high-risk endeavor, requiring players to use careful strategy or overwhelming force. If a Piglin Brute is somehow transported out of the Nether, it will eventually transform into a zombified piglin, losing its unique guarding behavior but retaining its aggressive nature."
     }
 };
