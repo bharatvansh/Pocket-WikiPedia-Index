@@ -203,11 +203,25 @@ export const mobIndex = [
         themeColor: "§6" // copper/bronze
     },
     {
+        id: "minecraft:tuff_golem",
+        name: "Tuff Golem",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_tuff_golem.png",
+        themeColor: "§7" // gray/stone
+    },
+    {
         id: "minecraft:creaking",
         name: "Creaking",
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_creaking.png",
         themeColor: "§8" // dark gray/pale
+    },
+    {
+        id: "minecraft:wind_charge",
+        name: "Wind Charge",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wind_charge.png",
+        themeColor: "§b" // light blue/wind
     },
     {
         id: "minecraft:shulker",

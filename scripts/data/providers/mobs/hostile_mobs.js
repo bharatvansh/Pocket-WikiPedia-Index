@@ -375,6 +375,38 @@ export const hostileMobs = {
         ],
         description: "Creakings are eerie hostile mobs introduced as part of The Garden Awakens game drop (following Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 2-3 HP (1-1.5 hearts) of damage depending on difficulty level. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, accompanied by resin-related particle effects shooting outward, creating a haunting visual display. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
     },
+    "minecraft:wind_charge": {
+        id: "minecraft:wind_charge",
+        name: "Wind Charge",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.4
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Any biome (created by Breeze attacks)"],
+            lightLevel: "Any",
+            groupSize: "1 (per Breeze attack)"
+        },
+        behaviorTraits: [
+            "Created when a Breeze launches a wind charge attack",
+            "Moves rapidly in a straight line, dealing knockback to entities it hits",
+            "Can push players and mobs several blocks away",
+            "Dissipates after traveling a certain distance or hitting a block",
+            "Deals no direct damage but can cause fall damage or push entities into hazards",
+            "Can be deflected or blocked by shields",
+            "Has a distinctive swirling wind particle effect",
+            "Can interact with certain blocks like buttons and pressure plates",
+            "Wind charges from different Breeze variants have different colors"
+        ],
+        drops: [
+        ],
+        description: "Wind Charges are unique projectile entities created by Breeze mobs during their ranged attacks. These swirling gusts of wind move rapidly in straight lines, dealing significant knockback to any entities they encounter. While they don't deal direct damage, their powerful knockback can push players and mobs into dangerous situations such as lava, cliffs, or other environmental hazards. Wind charges have a distinctive visual appearance with swirling particle effects and can be blocked or deflected using shields. They dissipate after traveling a set distance or when they collide with solid blocks. The knockback effect makes wind charges particularly dangerous in enclosed spaces or near environmental hazards, requiring players to be cautious when facing Breeze mobs that can launch multiple wind charges in quick succession."
+    },
     "minecraft:shulker": {
         id: "minecraft:shulker",
         name: "Shulker",
