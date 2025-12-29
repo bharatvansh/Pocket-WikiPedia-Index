@@ -128,9 +128,10 @@ function formatReport(result) {
 }
 
 /**
- * Verify all data with Gemini using two-step approach:
+ * Verify all data with Gemini using three-step approach:
  * Step 1: Use Google Search grounding to verify data
- * Step 2: Parse the result into structured output
+ * Step 2: Re-verify any flagged issues with fresh grounding (reduces false positives)
+ * Step 3: Parse the result into structured output
  * (Gemini doesn't support tools + structured output together)
  */
 async function verifyWithGemini(dataContent) {
@@ -140,7 +141,7 @@ async function verifyWithGemini(dataContent) {
 
     const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-    // Step 1: Verify with Google Search grounding
+    // Step 1: Initial verification with Google Search grounding
     const verifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier.
 
 Review the following Minecraft data changes (git diff format) and verify their accuracy.
@@ -166,37 +167,92 @@ Example good response: "Verified 3 entries. All entries are accurate."
 Example with issues: "Verified 5 entries. Found 1 issue: minecraft:pig has incorrect health value..."`;
 
 
-    console.log('Step 1: Verifying with Google Search grounding...');
+    console.log('Step 1: Initial verification with Google Search grounding...');
     const verifyResponse = await client.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-pro-preview',
         contents: verifyPrompt,
         config: {
             tools: [{ googleSearch: {} }]
         }
     });
 
-    const verificationText = verifyResponse.text;
-    console.log('Verification result:', verificationText);
+    const initialVerificationText = verifyResponse.text;
+    console.log('Initial verification result:', initialVerificationText);
 
-    // Step 2: Parse into structured format
+    // Check if any issues were found in the initial verification
+    const hasInitialIssues = !initialVerificationText.toLowerCase().includes('all entries are accurate') &&
+        !initialVerificationText.toLowerCase().includes('all data is correct') &&
+        !initialVerificationText.toLowerCase().includes('no issues found') &&
+        (initialVerificationText.toLowerCase().includes('issue') ||
+            initialVerificationText.toLowerCase().includes('incorrect') ||
+            initialVerificationText.toLowerCase().includes('wrong') ||
+            initialVerificationText.toLowerCase().includes('error'));
+
+    let finalVerificationText = initialVerificationText;
+
+    // Step 2: Re-verify issues if any were found (reduces false positives)
+    if (hasInitialIssues) {
+        console.log('\nStep 2: Re-verifying flagged issues with fresh grounding...');
+
+        const reVerifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier performing a SECOND verification pass.
+
+The first verification pass flagged some potential issues. Your job is to RE-VERIFY these specific issues to confirm if they are actually incorrect.
+
+FIRST PASS RESULTS:
+${initialVerificationText}
+
+ORIGINAL DATA FOR CONTEXT:
+${dataContent}
+
+Instructions:
+- Use Google Search to RE-VERIFY each flagged issue from official Minecraft sources.
+- Be VERY CAREFUL and THOROUGH - only confirm an issue if you are CERTAIN it is actually wrong.
+- If you find that a flagged issue was actually correct data (false positive), explicitly state it is NOT an issue.
+- Check multiple sources if possible to confirm.
+
+Response format:
+1. For each issue from the first pass, state whether it is:
+   - CONFIRMED: The data is actually incorrect (explain why with sources)
+   - FALSE POSITIVE: The original data was actually correct (explain why)
+2. End with a summary: "Confirmed X issues out of Y flagged."
+3. If all flagged issues were false positives, end with: "All entries are accurate."`;
+
+        const reVerifyResponse = await client.models.generateContent({
+            model: 'gemini-3-pro-preview',
+            contents: reVerifyPrompt,
+            config: {
+                tools: [{ googleSearch: {} }]
+            }
+        });
+
+        finalVerificationText = reVerifyResponse.text;
+        console.log('Re-verification result:', finalVerificationText);
+    } else {
+        console.log('\nStep 2: Skipped (no issues found in initial verification)');
+    }
+
+    // Step 3: Parse into structured format
     const parsePrompt = `Parse the following verification report into structured JSON format.
 
 Report:
-${verificationText}
+${finalVerificationText}
 
 Return JSON matching this schema:
 {
   "summary": { "totalEntriesVerified": number, "issuesFound": number },
-  "hasIssues": boolean (true if any problems found, false if all correct),
+  "hasIssues": boolean (true if any CONFIRMED problems found, false if all correct or all were false positives),
   "issues": [{ "itemId": string, "itemName": string, "field": string, "currentValue": string, "correctValue": string, "explanation": string }],
   "overallAssessment": string
 }
 
-If the report says "All data verified successfully" or similar, set hasIssues to false and issues to empty array.`;
+IMPORTANT:
+- Only include CONFIRMED issues in the issues array.
+- Do NOT include items marked as "FALSE POSITIVE" - those are correct data.
+- If the report says "All entries are accurate" or all issues were false positives, set hasIssues to false and issues to empty array.`;
 
-    console.log('Step 2: Parsing into structured format...');
+    console.log('\nStep 3: Parsing into structured format...');
     const parseResponse = await client.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-3-pro-preview',
         contents: parsePrompt,
         config: {
             responseMimeType: 'application/json',
