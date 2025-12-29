@@ -74,3 +74,8 @@ Add 2 new unique mob entries with accurate, high-quality data for Minecraft Bedr
 ✅ High-quality, engaging descriptions
 ✅ Follows existing format and conventions
 ✅ Syntax validated with node --check
+
+## Code Review Corrections Applied
+✅ **Witch Redstone Dust**: Updated from 0-2 to 4-8 (Bedrock 1.21.20 parity update)
+✅ **Witch Creeper Behavior**: Removed incorrect "runs away from creepers" trait (not in Bedrock)
+✅ **Ghast Spawn Space**: Corrected from 5×5×5 to 5×5×4 blocks (accurate hitbox dimensions)
