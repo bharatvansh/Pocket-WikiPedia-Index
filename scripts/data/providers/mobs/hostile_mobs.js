@@ -424,5 +424,78 @@ export const hostileMobs = {
             { item: "Experience", chance: "5 (JE) / 1-3 (BE) when killed by player/tamed wolf" }
         ],
         description: "Hoglins are formidable, pig-like hostile mobs that inhabit the dangerous crimson forests and bastion remnants of the Nether, representing one of the most challenging natural encounters in that dimension. Towering over the player with a massive, rust-colored bristled body, hoglins are immediately recognizable as dangerous adversaries. Their appearance blends the anatomy of a wild boar with demonic features—prominent downward-curving tusks, small angry eyes, and a hunched posture that suggests constant aggression. These mobs attack with surprising force, thrusting their tusks upward in a motion that can launch unprepared players several blocks into the air, dealing significant damage in the process. This upward knockback is particularly dangerous because it can throw players into lava, off ledges, or into the path of other Nether hazards. Hoglins possess remarkable physical resilience, being 60% resistant to knockback effects and capable of pushing through most obstacles to reach their targets. Despite their aggressive nature, hoglins have some fascinating behaviors and ecological relationships. They are naturally repelled by the blue-hued warped fungi, nether portals, and respawn anchors, fleeing from these objects when within 7 blocks—useful knowledge for setting up safe pathways through Crimson Forests. Hoglins are one of only two hostile mobs in Minecraft that can be bred (the other being the killer bunny), accepting crimson fungi as breeding food and producing piglin-like offspring that grow into adult hoglins after 20 minutes. They share a complex social structure with piglins; while piglins occasionally hunt hoglins for food, hoglins will retaliate en masse if a piglin attacks one of their own, creating dynamic territorial conflicts that players can exploit. Perhaps most remarkably, hoglins cannot survive in the Overworld or the End—after just 15 seconds in these dimensions, they undergo a dramatic transformation, shaking violently before morphing into a zoglin, a permanent undead variant with the same aggressive tendencies but none of the breeding capabilities. When killed, hoglins provide valuable resources: raw porkchops for sustenance and leather for crafting, making them worth the significant danger they represent to any Nether explorer."
+    },
+    "minecraft:blaze": {
+        id: "minecraft:blaze",
+        name: "Blaze",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Fortress"],
+            lightLevel: "11 or lower (spawners); 11 or lower (natural)",
+            groupSize: "1-4 (natural), spawner"
+        },
+        behaviorTraits: [
+            "Flying hostile mob found in and around Nether Fortresses",
+            "Frequently spawns from blaze spawners inside Nether Fortresses",
+            "Hovers and moves freely through the air, often rising while attacking",
+            "Attacks primarily at range by firing bursts of small fireballs (typically three shots)",
+            "Fireballs can set targets on fire and ignite blocks they impact",
+            "Immune to fire, lava, and the Burning status effect",
+            "Takes damage from water and rain; snowballs deal 3 damage per hit",
+            "Can deal melee damage at close range and may ignite targets",
+            "A key source of blaze rods for potion brewing and End progression"
+        ],
+        drops: [
+            { item: "Blaze Rod", chance: "0-1 (up to 4 with Looting III)" },
+            { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
+        ],
+        description: "Blazes are flying hostile mobs that inhabit Nether Fortresses, where they act as dangerous ranged defenders and a major progression gate for potion brewing. A blaze attacks by hovering at range and firing bursts of small fireballs, which can both damage and ignite their target, making extended fights especially punishing without fire protection. While blazes are completely immune to fire and lava, they have a notable weakness to water-based damage—rain and direct water contact harm them, and snowballs are an effective low-cost counter that deal 3 damage per hit. Blazes are sought after because they drop blaze rods, which can be crafted into blaze powder. Blaze powder powers brewing stands and is also combined with ender pearls to craft eyes of ender, an essential item for locating strongholds and reaching The End."
+    },
+    "minecraft:drowned": {
+        id: "minecraft:drowned",
+        name: "Drowned",
+        health: 20,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Ocean", "River"],
+            lightLevel: "0 (natural underwater spawn); Any (zombie conversion)",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Hostile undead aquatic variant of zombies that spawns in oceans and rivers",
+            "Regular zombies that remain submerged in water long enough can convert into drowned",
+            "Swims effectively and can fight players underwater",
+            "Often sinks and walks along the sea floor, especially when patrolling",
+            "Some drowned spawn equipped with tridents, giving them dangerous ranged attacks",
+            "Trident-wielding drowned throw their tridents and can continue fighting at close range",
+            "May spawn holding nautilus shells or other equipment",
+            "Burns in direct sunlight when on land, but is safe from sunlight while underwater",
+            "Can pick up items and armor like other zombie-type mobs"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Copper Ingot", chance: "11% (Bedrock Edition)" },
+            { item: "Trident", chance: "If holding (chance varies; increased by Looting)" },
+            { item: "Nautilus Shell", chance: "If holding" },
+            { item: "Fishing Rod", chance: "If holding" },
+            { item: "Equipped items/armor", chance: "If picked up" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Drowned are waterlogged undead that haunt oceans and rivers, acting as the aquatic counterpart to zombies. They spawn naturally underwater in dark areas, and can also be created when regular zombies remain submerged long enough to convert. Drowned are much more threatening in water than on land: they swim well, pursue players through underwater caves and ruins, and often patrol by sinking and walking along the sea floor. Their most notable variant is the trident-wielding drowned, which can attack from range by throwing its trident—an encounter that can be especially dangerous for players without good armor, shields, or water mobility. Drowned are also an important farming target because tridents are exclusive to drowned and can be enchanted with powerful effects such as Loyalty, Riptide, and Channeling. Some drowned can also carry nautilus shells, a key component for crafting conduits, making them relevant to long-term underwater base building."
     }
 };
