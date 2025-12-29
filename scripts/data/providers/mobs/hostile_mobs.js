@@ -526,11 +526,9 @@ export const hostileMobs = {
         drops: [
             { item: "Wet Sponge", chance: "1 (guaranteed)" },
             { item: "Prismarine Shard", chance: "0-2" },
-            { item: "Prismarine Crystals", chance: "50% (increased by Looting)" },
+            { item: "Prismarine Crystals", chance: "33% (1 in 3, increased by Looting)" },
             { item: "Raw Cod", chance: "40% (increased by Looting)" },
-            { item: "Raw Salmon", chance: "2.5% (player kill only)" },
-            { item: "Pufferfish", chance: "2.5% (player kill only)" },
-            { item: "Tropical Fish", chance: "2.5% (player kill only)" },
+            { item: "Rare Fish", chance: "2.5% (weighted pool: Tropical Fish 2%, Pufferfish 0.8%, Raw Salmon 0.6%)" },
             { item: "Tide Armor Trim Smithing Template", chance: "20% (Bedrock Edition 1.20+)" },
             { item: "Cooked Cod", chance: "If killed while on fire" },
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
