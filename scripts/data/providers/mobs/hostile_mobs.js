@@ -780,12 +780,12 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Woodland Mansion", "All Overworld biomes (during raids)"],
             lightLevel: "Any",
-            groupSize: "1-2 (mansions), 1-3 (raids, wave 1+)"
+            groupSize: "1-2 (mansions), 1-3 (raids, wave 2+ Normal/Hard, wave 3+ Easy)"
         },
         behaviorTraits: [
             "Wields an iron axe that can disable shields with a single hit",
             "Sprints toward targets at high speed when attacking",
-            "Spawns in Woodland Mansions and participates in raids (can appear as early as wave 1)",
+            "Spawns in Woodland Mansions and participates in raids (wave 2+ on Normal/Hard, wave 3+ on Easy)",
             "Does not respawn after initial spawn in Woodland Mansions",
             "Attacks players, villagers, iron golems, and wandering traders",
             "Rare 'Johnny' variant attacks any mob except other illagers when named 'Johnny'",
@@ -797,7 +797,7 @@ export const hostileMobs = {
             { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they can appear as early as wave 1, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
+        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they begin appearing in wave 2 on Normal and Hard difficulties, or wave 3 on Easy difficulty, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
     },
     "minecraft:vex": {
         id: "minecraft:vex",
@@ -823,13 +823,13 @@ export const hostileMobs = {
             "Attacks players, villagers, iron golems, snow golems, and wandering traders",
             "Carries an iron sword and lunges at targets while flying",
             "Has a limited lifespan of 30 to 119 seconds before taking damage",
-            "Immune to knockback and status effects in Java Edition",
+            "Immune to fire and lava damage",
             "Passively damages entities it collides with while flying"
         ],
         drops: [
             { item: "Iron Sword", chance: "8.5% (Bedrock Edition only, increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vexes are tiny, menacing flying hostile mobs that serve as the summoned weapons of Evokers. These ethereal creatures resemble miniature allays with dark, ghostly wings and carry iron swords they use to slash at their targets. Unlike most mobs, vexes have the unsettling ability to pass through solid blocks, meaning players cannot hide from them by sealing themselves in rooms. Vexes never spawn naturally in the world—they are exclusively created when an Evoker performs its summoning attack, which conjures three vexes surrounded by white particles. They can also be spawned using spawn eggs or commands for creative mode gameplay. Vexes are relentless in their pursuit, flying directly toward targets while ignoring all obstacles. Though they have modest health (14 HP), their ability to attack from any angle and their resistance to knockback make them dangerous in numbers. A vex's attack deals moderate damage, and with three spawning at once from a single evoker, they can quickly overwhelm unprepared players. Vexes have a limited lifespan of 30 to 119 seconds (updated in 1.21.50 for Bedrock-Java parity) after which they begin taking damage and will eventually despawn. In Bedrock Edition, Vexes spawn with an iron sword and have a chance to drop it when killed—a unique behavior not present in Java Edition. When killed, a vex drops only 5 experience points, reflecting its nature as a conjured weapon rather than a natural creature."
+        description: "Vexes are tiny, menacing flying hostile mobs that serve as the summoned weapons of Evokers. These ethereal creatures resemble miniature allays with dark, ghostly wings and carry iron swords they use to slash at their targets. Unlike most mobs, vexes have the unsettling ability to pass through solid blocks, meaning players cannot hide from them by sealing themselves in rooms. Vexes never spawn naturally in the world—they are exclusively created when an Evoker performs its summoning attack, which conjures three vexes surrounded by white particles. They can also be spawned using spawn eggs or commands for creative mode gameplay. Vexes are relentless in their pursuit, flying directly toward targets while ignoring all obstacles. Though they have modest health (14 HP), their ability to attack from any angle and their fire and lava immunity make them dangerous in the Nether environment. A vex's attack deals moderate damage, and with three spawning at once from a single evoker, they can quickly overwhelm unprepared players. Vexes have a limited lifespan of 30 to 119 seconds (updated in 1.21.50 for Bedrock-Java parity) after which they begin taking damage and will eventually despawn. In Bedrock Edition, Vexes spawn with an iron sword and have a chance to drop it when killed—a unique behavior not present in Java Edition. When killed, a vex drops only 5 experience points, reflecting its nature as a conjured weapon rather than a natural creature."
     }
 };
