@@ -168,6 +168,20 @@ export const mobIndex = [
         themeColor: "§2" // swamp green
     },
     {
+        id: "minecraft:pillager",
+        name: "Pillager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_pillager.png",
+        themeColor: "§6" // brown/raid
+    },
+    {
+        id: "minecraft:ravager",
+        name: "Ravager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ravager.png",
+        themeColor: "§8" // dark gray/beast
+    },
+    {
         id: "minecraft:sheep",
         name: "Sheep",
         category: "mob",
