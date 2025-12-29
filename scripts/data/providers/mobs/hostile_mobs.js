@@ -439,7 +439,7 @@ export const hostileMobs = {
         },
         spawning: {
             biomes: ["Nether Fortress"],
-            lightLevel: "Any (from spawners); 0-11 (natural)",
+            lightLevel: "11 or lower (spawners); 11 or lower (natural)",
             groupSize: "1-4 (natural), spawner"
         },
         behaviorTraits: [
@@ -489,7 +489,7 @@ export const hostileMobs = {
         ],
         drops: [
             { item: "Rotten Flesh", chance: "0-2" },
-            { item: "Copper Ingot", chance: "Rare" },
+            { item: "Copper Ingot", chance: "11% (Bedrock Edition)" },
             { item: "Trident", chance: "If holding (chance varies; increased by Looting)" },
             { item: "Nautilus Shell", chance: "If holding" },
             { item: "Fishing Rod", chance: "If holding" },
