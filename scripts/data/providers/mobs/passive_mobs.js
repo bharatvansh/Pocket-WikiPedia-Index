@@ -465,41 +465,6 @@ export const passiveMobs = {
         ],
         description: "Copper Golems are innovative buildable passive mobs introduced as part of The Copper Age game drop in 2025. They serve as automated item sorters for copper-based storage systems. To create one, players place a carved pumpkin or jack o'lantern on, below, or next to a copper block, causing the block to transform into a copper golem. These helpful constructs visit copper chests throughout the area, collecting items and organizing them into nearby wooden and trapped chests, making them valuable for automated storage and sorting systems. Like all copper blocks, copper golems oxidize over time through four stages: unoxidized (exposed copper color), exposed, weathered, and oxidized (verdigris green). Waxing with honeycomb prevents this oxidation. Once fully oxidized, the golem transforms into an immovable statue, dropping any items it was holding. Their unique ability to organize items makes them essential for building efficient copper chest networks and automated storage systems."
     },
-    "minecraft:tuff_golem": {
-        id: "minecraft:tuff_golem",
-        name: "Tuff Golem",
-        health: 16,
-        stats: {
-            attackDamage: 0,
-            movementSpeed: 0.15
-        },
-        classification: {
-            type: "Passive",
-            undead: false
-        },
-        spawning: {
-            biomes: ["Player-crafted (place carved pumpkin on tuff block)"],
-            lightLevel: "Any",
-            groupSize: "N/A (must be crafted)"
-        },
-        behaviorTraits: [
-            "Buildable passive mob created by placing a carved pumpkin on top of a tuff block",
-            "Collects and stores items from the ground into nearby chests",
-            "Can pick up dropped items within a 16-block radius",
-            "Prioritizes storing items in chests, barrels, and shulker boxes",
-            "Has a distinctive stone-like appearance with a pumpkin head",
-            "Moves slowly and methodically while searching for items",
-            "Can be waxed with honeycomb to prevent weathering effects",
-            "Does not despawn naturally like other passive mobs",
-            "Can be leashed and transported using leads",
-            "Has a small chance to drop tuff blocks when broken"
-        ],
-        drops: [
-            { item: "Tuff", chance: "1-2" },
-            { item: "Held Items", chance: "Always" }
-        ],
-        description: "Tuff Golems are sturdy buildable passive mobs designed for automated item collection and storage. Created by placing a carved pumpkin on top of a tuff block, these golems serve as reliable helpers for organizing dropped items in mining operations, farms, and storage areas. Tuff golems slowly patrol their surroundings, picking up any loose items within a 16-block radius and storing them in nearby containers such as chests, barrels, and shulker boxes. Their stone-like construction makes them durable and resistant to environmental damage. Unlike copper golems, tuff golems do not oxidize but can be waxed to prevent any potential weathering effects. They are particularly useful in mining operations where dropped ores and resources need to be collected automatically. Tuff golems have a distinctive appearance with a pumpkin head atop a blocky stone body, making them easily recognizable. When destroyed, they drop tuff blocks and any items they were carrying, providing both resources and returning collected items to the player."
-    },
     "minecraft:strider": {
         id: "minecraft:strider",
         name: "Strider",

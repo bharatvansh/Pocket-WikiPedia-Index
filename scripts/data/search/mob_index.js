@@ -168,6 +168,20 @@ export const mobIndex = [
         themeColor: "§2" // swamp green
     },
     {
+        id: "minecraft:pillager",
+        name: "Pillager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_pillager.png",
+        themeColor: "§6" // brown/raid
+    },
+    {
+        id: "minecraft:ravager",
+        name: "Ravager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ravager.png",
+        themeColor: "§8" // dark gray/beast
+    },
+    {
         id: "minecraft:sheep",
         name: "Sheep",
         category: "mob",
@@ -203,25 +217,11 @@ export const mobIndex = [
         themeColor: "§6" // copper/bronze
     },
     {
-        id: "minecraft:tuff_golem",
-        name: "Tuff Golem",
-        category: "mob",
-        icon: "textures/items/spawn_eggs/spawn_egg_tuff_golem.png",
-        themeColor: "§7" // gray/stone
-    },
-    {
         id: "minecraft:creaking",
         name: "Creaking",
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_creaking.png",
         themeColor: "§8" // dark gray/pale
-    },
-    {
-        id: "minecraft:wind_charge",
-        name: "Wind Charge",
-        category: "mob",
-        icon: "textures/items/spawn_eggs/spawn_egg_wind_charge.png",
-        themeColor: "§b" // light blue/wind
     },
     {
         id: "minecraft:shulker",
