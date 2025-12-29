@@ -495,7 +495,7 @@ export const hostileMobs = {
         name: "Elder Guardian",
         health: 80,
         stats: {
-            attackDamage: 8,
+            attackDamage: "5 (Easy), 8 (Normal), 12 (Hard)",
             movementSpeed: 0.3
         },
         classification: {
@@ -505,22 +505,22 @@ export const hostileMobs = {
         spawning: {
             biomes: ["Ocean Monument"],
             lightLevel: "Any (requires water)",
-            groupSize: "3 per monument (1 Elder, 2 regular Guardians)"
+            groupSize: "3 per monument (Specific locations: top, left, right)"
         },
         behaviorTraits: [
             "Larger, stronger variant of the guardian that serves as the boss of ocean monuments",
             "Inflicts Mining Fatigue III on all players within 50 blocks, significantly slowing mining and attack speed",
             "Mining Fatigue effect lasts 5 minutes and makes it nearly impossible to break blocks like prismarine and sea lanterns",
-            "Attacks with a powerful laser beam that deals damage based on difficulty (8 on Easy, 8 on Normal, 12 on Hard)",
+            "Attacks with a powerful laser beam that deals damage based on difficulty (5 on Easy, 8 on Normal, 12 on Hard)",
             "Laser charges slower than regular guardian's laser but deals more damage",
             "Defensive spikes inflict retaliatory damage when attacked with melee (2 on Easy/Normal, 3 on Hard)",
             "Spikes can be retracted and extended depending on activity level",
             "Swims slower than regular guardians but has more health and stronger attacks",
             "Eye follows and stares at nearby players, similar to regular guardians",
-            "Cannot attack players under Invisibility potion effects (Java Edition) unless wearing armor",
+            "Cannot attack players under Invisibility potion effects unless wearing armor",
             "Does not suffocate and can survive indefinitely out of water",
             "When out of water, flops on land and is vulnerable to player attacks",
-            "Affected by the Impaling enchantment (Java Edition)",
+            "Affected by the Impaling enchantment (Effective on all wet mobs in Bedrock)",
             "Drops a wet sponge when killed, a renewable source of sponge blocks"
         ],
         drops: [
@@ -531,17 +531,18 @@ export const hostileMobs = {
             { item: "Raw Salmon", chance: "2.5% (player kill only)" },
             { item: "Pufferfish", chance: "2.5% (player kill only)" },
             { item: "Tropical Fish", chance: "2.5% (player kill only)" },
+            { item: "Tide Armor Trim Smithing Template", chance: "20% (Bedrock Edition 1.20+)" },
             { item: "Cooked Cod", chance: "If killed while on fire" },
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
-        description: "The Elder Guardian is the formidable boss guardian that rules over ocean monuments, serving as the ultimate defender of these underwater structures. With 80 health points (40 hearts), it is significantly larger and more powerful than regular guardians, possessing a distinctive appearance with larger spikes and a more menacing eye. The Elder Guardian's most dangerous ability is its Mining Fatigue III aura, which automatically affects all players within a 50-block radius for 5 minutes. This debilitating effect dramatically slows mining speed, makes combat sluggish by reducing attack speed, and renders players nearly incapable of breaking monument blocks such as prismarine, sea lanterns, and gold blocks—effectively forcing players to confront the boss head-on rather than tunneling around it. The Elder Guardian attacks with a slower-charging but more damaging laser beam that inflicts 8 damage on Easy and Normal difficulties, increasing to 12 on Hard. Like regular guardians, it possesses defensive spikes that automatically retaliate against melee attackers. The Elder Guardian is a valuable target because it always drops one wet sponge when killed, providing a renewable method of obtaining sponge blocks that can be dried into regular sponges for building and decoration. It also drops prismarine materials and various fish, making ocean monument raids rewarding beyond just the treasure chambers. Defeating the three Elder Guardians in a monument is a significant milestone, as it removes the Mining Fatigue effect and allows players to mine the valuable gold blocks, sea lanterns, and prismarine within the structure. The Elder Guardian's combination of high health, damaging attacks, and its devastating Mining Fatigue aura makes it one of the most challenging underwater encounters in Minecraft."
+        description: "The Elder Guardian is the formidable boss guardian that rules over ocean monuments, serving as the ultimate defender of these underwater structures. With 80 health points (40 hearts), it is significantly larger and more powerful than regular guardians, possessing a distinctive appearance with larger spikes and a more menacing eye. The Elder Guardian's most dangerous ability is its Mining Fatigue III aura, which automatically affects all players within a 50-block radius for 5 minutes. This debilitating effect dramatically slows mining speed, makes combat sluggish by reducing attack speed, and renders players nearly incapable of breaking monument blocks such as prismarine, sea lanterns, and gold blocks—effectively forcing players to confront the boss head-on rather than tunneling around it. The Elder Guardian attacks with a slower-charging but more damaging laser beam that inflicts 5 damage on Easy difficulty, 8 on Normal, and 12 on Hard. Like regular guardians, it possesses defensive spikes that automatically retaliate against melee attackers. The Elder Guardian is a valuable target because it always drops one wet sponge when killed, providing a renewable method of obtaining sponge blocks that can be dried into regular sponges for building and decoration. Since the 1.20 update, Elder Guardians also have a 20% chance to drop the Tide Armor Trim Smithing Template in Bedrock Edition, allowing players to customize their armor with ocean-themed designs. It also drops prismarine materials and various fish, making ocean monument raids rewarding beyond just the treasure chambers. Defeating the three Elder Guardians in a monument is a significant milestone, as it removes the Mining Fatigue effect and allows players to mine the valuable gold blocks, sea lanterns, and prismarine within the structure. The Elder Guardian's combination of high health, damaging attacks, and its devastating Mining Fatigue aura makes it one of the most challenging underwater encounters in Minecraft."
     },
     "minecraft:phantom": {
         id: "minecraft:phantom",
         name: "Phantom",
         health: 20,
         stats: {
-            attackDamage: "2 (Easy), 3 (Normal), 4.5 (Hard)",
+            attackDamage: "6 (Easy), 9 (Normal), 13 (Hard)",
             movementSpeed: 0.4
         },
         classification: {
@@ -557,10 +558,9 @@ export const hostileMobs = {
             "Flying hostile mob that spawns after a player hasn't slept for at least 3 in-game days",
             "Number of phantoms increases as more days pass without sleep (1-4 after 3 days, up to 6-10 after many days)",
             "Only spawns at night or during thunderstorms, despawns at dawn",
-            "Size varies based on days since player's last sleep: small (after 3-5 days), medium (6-10 days), large (11+ days)",
             "Flies in circles above the player, waiting for an opportunity to swoop down",
             "Swoops down to attack when the player is not looking up or when given the chance",
-            "Each swoop attack deals damage based on difficulty (2 on Easy, 3 on Normal, 4.5 on Hard)",
+            "Each swoop attack deals damage based on difficulty (6 on Easy, 9 on Normal, 13 on Hard)",
             "Can be attacked during its swoop when it gets close to the player",
             "Burns in sunlight like other undead mobs when day arrives",
             "Cannot pass through closed trapdoors or glass, can pass through open doors",
@@ -573,10 +573,9 @@ export const hostileMobs = {
         ],
         drops: [
             { item: "Phantom Membrane", chance: "0-2 (increased by Looting)" },
-            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" },
-            { item: "Saddle", chance: "If equipped (rare, when spawned with equipment)" }
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Phantoms are terrifying flying hostile mobs that materialize in the night sky when players have not slept for at least three consecutive in-game days. These ghostly creatures appear as large, translucent winged entities with glowing green eyes, haunting sleepless adventurers as punishment for their insomnia. Phantoms spawn in groups that increase in size the longer a player goes without sleeping—starting with 1-4 after three sleepless nights and potentially reaching 6-10 after many days without rest. Their appearance also scales with time, with phantoms growing larger (small after 3-5 days, medium after 6-10 days, and large after 11+ days) as the player's sleep deprivation continues. During combat, phantoms fly in lazy circles high above their target, periodically swooping down to deliver a devastating melee attack that deals 2 damage on Easy, 3 on Normal, and 4.5 on Hard difficulty. Players must time their attacks carefully during these swoops, as phantoms are otherwise difficult to hit when circling at altitude. Being undead mobs, phantoms burn in sunlight when morning arrives and take extra damage from the Smite enchantment. Their most valuable drop is the phantom membrane, a crucial crafting material used to repair elytra, the coveted wings that allow players to glide through the air. Each phantom drops 0-2 membranes, making them the primary renewable source for elytra repair. Phantoms also drop experience, and on rare occasions may spawn equipped with a saddle which they drop when killed. The best way to prevent phantom spawns is to sleep regularly in a bed, which resets the insomnia counter and causes all pursuing phantoms to despawn peacefully. Their eerie presence in the night sky serves as a constant reminder to players that rest is essential in the harsh world of Minecraft."
+        description: "Phantoms are terrifying flying hostile mobs that materialize in the night sky when players have not slept for at least three consecutive in-game days. These ghostly creatures appear as large, translucent winged entities with glowing green eyes, haunting sleepless adventurers as punishment for their insomnia. Phantoms spawn in groups that increase in size the longer a player goes without sleeping—starting with 1-4 after three sleepless nights and potentially reaching 6-10 after many days without rest. During combat, phantoms fly in lazy circles high above their target, periodically swooping down to deliver a devastating melee attack that deals 6 damage on Easy, 9 on Normal, and 13 on Hard difficulty. These significantly higher damage values make phantoms particularly dangerous in Bedrock Edition compared to other versions. Players must time their attacks carefully during these swoops, as phantoms are otherwise difficult to hit when circling at altitude. Being undead mobs, phantoms burn in sunlight when morning arrives and take extra damage from the Smite enchantment. Their most valuable drop is the phantom membrane, a crucial crafting material used to repair elytra, the coveted wings that allow players to glide through the air. Each phantom drops 0-2 membranes, making them the primary renewable source for elytra repair. Phantoms also drop experience when killed. The best way to prevent phantom spawns is to sleep regularly in a bed, which resets the insomnia counter and causes all pursuing phantoms to despawn peacefully. Their eerie presence in the night sky serves as a constant reminder to players that rest is essential in the harsh world of Minecraft."
     },
     "minecraft:drowned": {
         id: "minecraft:drowned",
