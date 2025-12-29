@@ -422,6 +422,76 @@ export const hostileMobs = {
         ],
         description: "Creakings are eerie hostile mobs introduced as part of The Garden Awakens game drop (following Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 2-3 HP (1-1.5 hearts) of damage depending on difficulty level. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, accompanied by resin-related particle effects shooting outward, creating a haunting visual display. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
     },
+    "minecraft:evoker": {
+        id: "minecraft:evoker",
+        name: "Evoker",
+        health: 24,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Woodland Mansion", "Raid"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Illager mob that summons vexes to attack players",
+            "Can summon fangs from the ground that deal 6 damage",
+            "Drops Totem of Undying when killed, guaranteeing at least one drop",
+            "Wears dark robes and carries a staff",
+            "Always hostile toward players and villagers",
+            "Can open doors and climb ladders",
+            "In raids, appears in later waves as a powerful enemy",
+            "Vexes summoned by evokers have limited lifespan (20-30 seconds)"
+        ],
+        drops: [
+            { item: "Totem of Undying", chance: "1 (guaranteed)" },
+            { item: "Emerald", chance: "0-1" },
+            { item: "Experience", chance: "10" }
+        ],
+        description: "Evokers are powerful illager mobs that serve as dangerous enemies in Woodland Mansions and during raid events. With their distinctive dark robes and staffs, evokers possess formidable magical abilities that make them challenging opponents. Their primary attack involves summoning vexes—small, fast, flying creatures that aggressively pursue targets and deal damage. Evokers can also summon fangs from the ground, creating dangerous area-of-effect attacks that deal significant damage. One of the most valuable aspects of evokers is their guaranteed drop of Totems of Undying, which are essential items that prevent death by restoring health when the player's health drops to zero. This makes evokers highly sought-after targets for experienced players seeking to collect these rare and valuable items. Evokers are always hostile and will attack players and villagers on sight, using their magical abilities to overwhelm their targets. Their ability to open doors and climb ladders makes them particularly dangerous in enclosed spaces."
+    },
+    "minecraft:piglin_brute": {
+        id: "minecraft:piglin_brute",
+        name: "Piglin Brute",
+        health: 50,
+        stats: {
+            attackDamage: 10,
+            movementSpeed: 0.3,
+            knockbackResistance: 0.5
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Bastion Remnant"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Elite variant of piglins found exclusively in Bastion Remnants",
+            "Always hostile and will attack players on sight",
+            "Wields a golden axe that deals massive melee damage",
+            "Immune to fire and lava damage",
+            "Does not barter or interact with gold like regular piglins",
+            "Cannot be distracted or pacified",
+            "Has high knockback resistance (50%)",
+            "Drops golden axe when killed",
+            "Does not respawn, making each encounter unique"
+        ],
+        drops: [
+            { item: "Golden Axe", chance: "8.5% (increased by Looting)" },
+            { item: "Gold Ingot", chance: "0-1" },
+            { item: "Experience", chance: "12" }
+        ],
+        description: "Piglin Brutes are the elite, non-respawning guardians of Bastion Remnants, serving as the most formidable piglin variant in Minecraft. Unlike their regular piglin counterparts, Piglin Brutes are always hostile and will immediately attack players on sight, making them constant threats in Bastion structures. These powerful mobs wield golden axes that deliver devastating melee damage, capable of quickly overwhelming unprepared players. Piglin Brutes are completely immune to fire and lava damage, allowing them to navigate the hazardous Nether terrain with impunity. They cannot be distracted, bartered with, or pacified using gold, unlike regular piglins. Each Piglin Brute encounter is unique as they do not respawn, adding to their exclusivity and challenge. When defeated, they have a chance to drop their signature golden axes, which are powerful weapons in their own right. With their high health pool, massive attack damage, and aggressive behavior, Piglin Brutes represent one of the most dangerous hostile mobs in the Nether, requiring careful preparation and strategy to defeat."
+    },
     "minecraft:ravager": {
         id: "minecraft:ravager",
         name: "Ravager",
