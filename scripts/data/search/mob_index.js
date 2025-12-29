@@ -299,5 +299,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_vex.png",
         themeColor: "§8" // dark gray/ghostly
+    },
+    {
+        id: "minecraft:witch",
+        name: "Witch",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_witch.png",
+        themeColor: "§5" // purple/dark purple
+    },
+    {
+        id: "minecraft:ghast",
+        name: "Ghast",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ghast.png",
+        themeColor: "§f" // white/ghostly
     }
 ];

@@ -831,5 +831,85 @@ export const hostileMobs = {
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
         description: "Vexes are tiny, menacing flying hostile mobs that serve as the summoned weapons of Evokers. These ethereal creatures resemble miniature allays with dark, ghostly wings and carry iron swords they use to slash at their targets. Unlike most mobs, vexes have the unsettling ability to pass through solid blocks, meaning players cannot hide from them by sealing themselves in rooms. Vexes never spawn naturally in the world—they are exclusively created when an Evoker performs its summoning attack, which conjures three vexes surrounded by white particles. They can also be spawned using spawn eggs or commands for creative mode gameplay. Vexes are relentless in their pursuit, flying directly toward targets while ignoring all obstacles. Though they have modest health (14 HP), their ability to attack from any angle and their fire and lava immunity make them dangerous in the Nether environment. A vex's attack deals moderate damage, and with three spawning at once from a single evoker, they can quickly overwhelm unprepared players. Vexes have a limited lifespan of 30 to 119 seconds (updated in 1.21.50 for Bedrock-Java parity) after which they begin taking damage and will eventually despawn. In Bedrock Edition, Vexes spawn with an iron sword and have a chance to drop it when killed—a unique behavior not present in Java Edition. When killed, a vex drops only 5 experience points, reflecting its nature as a conjured weapon rather than a natural creature."
+    },
+    "minecraft:witch": {
+        id: "minecraft:witch",
+        name: "Witch",
+        health: 26,
+        stats: {
+            attackDamage: "Splash potions (varies by type)",
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["All Overworld biomes except Mushroom Fields and Deep Dark", "Swamp Huts", "During Raids"],
+            lightLevel: "0 (Bedrock Edition)",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Throws harmful splash potions at players from up to 10 blocks away",
+            "Drinks beneficial potions to heal or gain buffs during combat",
+            "Throws Splash Potion of Poison, Harming, Slowness, or Weakness depending on situation",
+            "Drinks Potion of Fire Resistance when on fire, Water Breathing when underwater, or Instant Health when damaged",
+            "Immune to poison damage and takes reduced magic damage from potions",
+            "Spawns naturally in swamp huts with a black cat companion",
+            "Villagers struck by lightning transform into witches",
+            "Participates in raids as ranged support, appearing in waves 4+ on higher difficulties",
+            "Does not burn in sunlight unlike other undead-like mobs",
+            "Can drink potions while holding hostile potions to throw"
+        ],
+        drops: [
+            { item: "Redstone Dust", chance: "4-8 (increased by Looting)" },
+            { item: "Glowstone Dust", chance: "0-2 (increased by Looting)" },
+            { item: "Sugar", chance: "0-2 (increased by Looting)" },
+            { item: "Gunpowder", chance: "0-2 (increased by Looting)" },
+            { item: "Spider Eye", chance: "0-2 (increased by Looting)" },
+            { item: "Glass Bottle", chance: "0-2 (increased by Looting)" },
+            { item: "Stick", chance: "0-2 (increased by Looting)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Witches are cunning hostile mobs that rely on potion-based combat, making them unique among Minecraft's hostile creatures. Dressed in distinctive purple robes and pointed hats, witches attack by hurling harmful splash potions at players from up to 10 blocks away, including potions of Poison, Harming, Slowness, and Weakness. What makes witches particularly challenging is their ability to drink beneficial potions during combat—when damaged, they consume Instant Health potions to restore 4 health points (2 hearts); when on fire, they drink Fire Resistance; and when submerged, they use Water Breathing. This self-healing behavior can make prolonged fights frustrating without adequate firepower. Witches are naturally immune to poison damage and take reduced damage from other potion effects, further enhancing their survivability. They spawn naturally in swamp huts alongside black cats, creating atmospheric encounters in these biomes. Witches can also spawn when villagers are struck by lightning, providing a dramatic transformation mechanic. During raids, witches appear as ranged support units in later waves, adding potion-based chaos to the already challenging raid encounters. When defeated, witches drop a variety of useful brewing ingredients including redstone dust, glowstone dust, sugar, gunpowder, spider eyes, glass bottles, and sticks—making them excellent targets for players setting up potion brewing stations. Their drops are essential for advanced potion crafting, as many of their items extend potion duration or increase potion potency. Witches represent a mid-tier threat that rewards tactical combat and quick reflexes, as avoiding their thrown potions while closing distance for melee attacks requires skill and awareness."
+    },
+    "minecraft:ghast": {
+        id: "minecraft:ghast",
+        name: "Ghast",
+        health: 10,
+        stats: {
+            attackDamage: "Fireball impact: 6 (Normal), Explosion: 17 (at epicenter)",
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Soul Sand Valley", "Basalt Deltas"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Large, floating, ghost-like mob found throughout the Nether",
+            "Shoots explosive fireballs from up to 100 blocks away with remarkable accuracy",
+            "Fireballs can be deflected back at the ghast with any attack, including arrows and melee hits",
+            "Deflecting a fireball back to kill a ghast grants the advancement 'Return to Sender'",
+            "Fireballs explode on impact, dealing both direct damage and explosion damage",
+            "Explosion power of 1 can destroy weak blocks like netherrack but not cobblestone",
+            "Flies slowly and smoothly through the air, often at high altitudes",
+            "Emits distinctive, eerie crying sounds that can be heard from great distances",
+            "Has a 4×4×4 block hitbox, making it a large target despite appearing smaller",
+            "Will not attack unless it has line of sight to the player",
+            "Cannot spawn in enclosed spaces smaller than 5×5×4 blocks",
+            "Immune to fire and lava damage",
+            "Takes drowning damage in water unlike most Nether mobs"
+        ],
+        drops: [
+            { item: "Ghast Tear", chance: "0-1 (increased by Looting)" },
+            { item: "Gunpowder", chance: "0-2 (increased by Looting)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Ghasts are enormous, floating hostile mobs that dominate the skies of the Nether with their haunting presence and devastating fireball attacks. Resembling massive jellyfish-like creatures with white, cube-shaped bodies, perpetually crying red eyes, and dangling tentacles, ghasts emit sorrowful wailing sounds that echo through the Nether's vast caverns, serving as an audio warning of their presence long before they come into view. With a 4×4×4 block hitbox, ghasts are among the largest naturally spawning hostile mobs in the game, though their relatively low health of just 10 HP makes them vulnerable once engaged. Ghasts attack by launching explosive fireballs that travel in straight lines toward their targets, dealing 6 HP of direct impact damage on Normal difficulty and up to 17 HP from the resulting explosion if the player is at the epicenter. These explosions have a blast power of 1, sufficient to destroy softer blocks like netherrack, basalt, and nether wart blocks, but unable to break more durable materials like cobblestone, stone bricks, or nether brick—making these materials ideal for building protective structures in the Nether. One of the most iconic mechanics associated with ghasts is the ability to deflect their fireballs back at them using any form of attack, whether melee strikes, arrows, or even other projectiles. Successfully reflecting a fireball to kill the ghast that fired it unlocks the challenging 'Return to Sender' advancement, a badge of honor among Minecraft players. Ghasts spawn in open Nether biomes including Nether Wastes, Soul Sand Valleys, and Basalt Deltas, requiring a minimum of 5×5×4 blocks of space to spawn, which prevents them from appearing in narrow tunnels or confined structures. They fly slowly and smoothly through the air, often positioning themselves at high altitudes where they rain down fireballs on unsuspecting travelers below. Their behavior includes only attacking when they have a clear line of sight to their target, meaning players can break line of sight to temporarily cease attacks. Despite being Nether inhabitants, ghasts are not immune to drowning and will take damage if submerged in water, should they somehow be transported to the Overworld. When killed, ghasts drop valuable resources: ghast tears, which are essential ingredients for brewing potions of Regeneration and crafting End Crystals for respawning the Ender Dragon, and gunpowder for TNT and fireworks. Their ghastly cries, explosive attacks, and strategic importance in progression make them one of the most memorable and mechanically significant hostile mobs in Minecraft's Nether dimension."
     }
 };
