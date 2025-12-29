@@ -224,11 +224,25 @@ export const mobIndex = [
         themeColor: "§c" // red/rust
     },
     {
+        id: "minecraft:elder_guardian",
+        name: "Elder Guardian",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_elder_guardian.png",
+        themeColor: "§b" // cyan/teal
+    },
+    {
         id: "minecraft:blaze",
         name: "Blaze",
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_blaze.png",
         themeColor: "§6" // gold/fire
+    },
+    {
+        id: "minecraft:phantom",
+        name: "Phantom",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_phantom.png",
+        themeColor: "§8" // gray/ghostly
     },
     {
         id: "minecraft:drowned",
