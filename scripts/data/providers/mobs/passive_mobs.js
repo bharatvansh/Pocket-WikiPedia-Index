@@ -480,7 +480,7 @@ export const passiveMobs = {
         spawning: {
             biomes: ["Nether Wastes", "Soul Sand Valley", "Crimson Forest", "Warped Forest", "Basalt Deltas"],
             lightLevel: "Any",
-            groupSize: "1-2"
+            groupSize: "2-4"
         },
         behaviorTraits: [
             "Naturally spawn on lava in the Nether",
