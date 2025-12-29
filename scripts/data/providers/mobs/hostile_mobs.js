@@ -244,7 +244,7 @@ export const hostileMobs = {
         name: "Pillager",
         health: 24,
         stats: {
-            attackDamage: 5,
+            attackDamage: 4,
             movementSpeed: 0.35
         },
         classification: {
@@ -420,7 +420,7 @@ export const hostileMobs = {
         health: 100,
         stats: {
             attackDamage: 12,
-            movementSpeed: 0.3,
+            movementSpeed: 0.4,
             knockbackResistance: 0.5
         },
         classification: {
