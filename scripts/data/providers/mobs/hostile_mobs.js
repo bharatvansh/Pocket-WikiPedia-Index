@@ -259,18 +259,25 @@ export const hostileMobs = {
         behaviorTraits: [
             "Hostile mob that spawns in patrols, outposts, and during raids",
             "Attacks with crossbows from a distance",
-            "Can shoot arrows, fireworks, or other projectiles depending on variant",
+            "Can shoot arrows (Crossbow only, no fireworks in Bedrock)",
             "Captains have banners on their heads and lead patrols (no unique clothing)",
             "Remains aggressive until defeated, does not flee when low on health",
             "Can open doors and climb ladders",
             "During raids, attacks villagers and iron golems relentlessly",
             "Can be distracted by villagers running indoors",
-            "Drops crossbows, iron gear, enchanted books, and emeralds during raids"
+            "Drops crossbows, full iron armor, iron tools, enchanted books, and emeralds during raids"
         ],
         drops: [
             { item: "Crossbow", chance: "8.5% (up to 11.5% with Looting III)" },
             { item: "Arrow", chance: "0-2" },
-            { item: "Iron Axe/Sword", chance: "Raid only (varies by wave)" },
+            { item: "Iron Sword", chance: "Raid only (varies by wave)" },
+            { item: "Iron Axe", chance: "Raid only (varies by wave)" },
+            { item: "Iron Pickaxe", chance: "Raid only (varies by wave)" },
+            { item: "Iron Shovel", chance: "Raid only (varies by wave)" },
+            { item: "Iron Helmet", chance: "Raid only (varies by wave)" },
+            { item: "Iron Chestplate", chance: "Raid only (varies by wave)" },
+            { item: "Iron Leggings", chance: "Raid only (varies by wave)" },
+            { item: "Iron Boots", chance: "Raid only (varies by wave)" },
             { item: "Enchanted Book", chance: "Raid only (varies by wave)" },
             { item: "Emerald", chance: "Raid only (1-3)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" },
@@ -441,7 +448,7 @@ export const hostileMobs = {
             "Roars when attacking or when hit",
             "Can be ridden by pillagers during raids",
             "Drops saddle when killed",
-            "Standard damage from all weapon types (no axe vulnerability in Bedrock)",
+            "Stunned by blocking with Shield",
             "Has a large hitbox making it difficult to avoid"
         ],
         drops: [
