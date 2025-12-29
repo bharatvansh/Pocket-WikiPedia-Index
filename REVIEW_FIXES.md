@@ -49,11 +49,26 @@ All fixes have been applied and verified:
 - ✅ Changes align with Bedrock Edition 1.21.20+ specifications
 - ✅ No breaking changes to data structure or format
 
+### 4. ✅ Witch - Healing Amount Clarification
+**Issue:** Incorrect healing value stated as "4 hearts"  
+**Fix:** Updated to "4 health points (2 hearts)"  
+**Reason:** Witches use Potion of Healing I which restores 4 HP (2 hearts), not Healing II which would restore 8 HP (4 hearts)
+
+**Changes:**
+```javascript
+// Before:
+"restore 4 hearts"
+
+// After:
+"restore 4 health points (2 hearts)"
+```
+
 ## Summary
 
-Successfully corrected 3 data accuracy issues related to:
+Successfully corrected 4 data accuracy issues related to:
 1. Witch drop rates (Bedrock 1.21.20 update)
 2. Witch behavior traits (Bedrock-specific)
 3. Ghast spawn requirements (accurate mob hitbox dimensions)
+4. Witch healing amount (Potion of Healing I vs II clarification)
 
 All entries now reflect accurate Bedrock Edition 1.21+ data.
