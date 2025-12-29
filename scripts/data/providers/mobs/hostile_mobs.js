@@ -421,6 +421,76 @@ export const hostileMobs = {
         ],
         description: "Creakings are eerie hostile mobs introduced as part of The Garden Awakens game drop (following Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 2-3 HP (1-1.5 hearts) of damage depending on difficulty level. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, accompanied by resin-related particle effects shooting outward, creating a haunting visual display. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
     },
+    "minecraft:ghast": {
+        id: "minecraft:ghast",
+        name: "Ghast",
+        health: 10,
+        stats: {
+            attackDamage: "Varies (fireball explosion)",
+            movementSpeed: 0.1
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Basalt Deltas", "Soul Sand Valley", "Crimson Forest", "Warped Forest"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Large floating hostile mob found in the Nether",
+            "Shoots explosive fireballs that deal significant damage and destroy blocks",
+            "Fireballs can be deflected back with arrows, swords, or other projectiles",
+            "Makes distinctive crying sounds when attacked or provoked",
+            "Floats passively until it detects a player within 100 blocks",
+            "Can be damaged by any weapon, including melee attacks",
+            "Drops ghast tears, essential for brewing potions of regeneration",
+            "One of the few Nether mobs that can be heard from a great distance",
+            "Fireballs create explosions that can destroy Netherrack and other weak blocks"
+        ],
+        drops: [
+            { item: "Ghast Tear", chance: "0-1" },
+            { item: "Gunpowder", chance: "0-2" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Ghasts are large, floating hostile mobs that inhabit the Nether dimension. With their distinctive white, tear-shaped bodies and multiple tentacle-like appendages, ghasts are among the most recognizable and dangerous Nether mobs. They attack by launching explosive fireballs that deal significant damage and can destroy blocks, making them particularly threatening in enclosed spaces. Ghasts have a unique crying sound that alerts players to their presence from up to 100 blocks away. Their fireballs can be deflected back at them using arrows, swords, or other projectiles, providing a strategic way to defeat them. Ghasts drop ghast tears, which are essential ingredients for brewing potions of regeneration, making them valuable targets for potion-making. With only 10 health points (5 hearts), ghasts are relatively fragile but their ranged attacks and ability to destroy terrain make them formidable opponents. They spawn in all Nether biomes and are one of the few mobs that can be heard from great distances, serving as an early warning system for players exploring the dangerous Nether environment."
+    },
+    "minecraft:magma_cube": {
+        id: "minecraft:magma_cube",
+        name: "Magma Cube",
+        health: "Varies by size (small: 4, medium: 16, large: 32)",
+        stats: {
+            attackDamage: "Varies by size (small: 2, medium: 4, large: 6)",
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Basalt Deltas", "Soul Sand Valley", "Crimson Forest", "Warped Forest"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Lava-dwelling hostile mob that spawns in the Nether",
+            "Jumps high and deals damage on contact",
+            "Larger cubes split into smaller cubes when killed",
+            "Smallest cubes (size 1) do not split further",
+            "Immune to fire and lava damage",
+            "Can climb blocks and navigate difficult terrain",
+            "Makes distinctive squishing sounds when moving",
+            "Drops magma cream, essential for brewing potions of fire resistance",
+            "One of the few mobs that can spawn in lava pools",
+            "Can be found in all Nether biomes"
+        ],
+        drops: [
+            { item: "Magma Cream", chance: "0-1" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Magma Cubes are hostile mobs that inhabit the Nether dimension, resembling bouncing cubes of molten lava. These unique creatures come in three sizes: large (32 health), medium (16 health), and small (4 health). When a larger magma cube is killed, it splits into smaller cubes, creating a challenging combat scenario where players must defeat multiple smaller versions. Magma cubes are immune to fire and lava damage, allowing them to navigate the Nether's hazardous terrain safely. They attack by jumping at players and dealing contact damage, with larger cubes dealing more damage. Magma cubes are essential for potion-making as they drop magma cream, a key ingredient for brewing potions of fire resistance. They spawn in all Nether biomes and can often be found in lava pools, making them one of the few mobs that thrive in such extreme environments. Their distinctive squishing sounds and bouncing movement make them easily recognizable. With their ability to climb blocks and navigate difficult terrain, magma cubes can be challenging opponents, especially when encountered in groups or in confined spaces."
+    },
     "minecraft:ravager": {
         id: "minecraft:ravager",
         name: "Ravager",
