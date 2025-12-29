@@ -260,21 +260,23 @@ export const hostileMobs = {
             "Hostile mob that spawns in patrols, outposts, and during raids",
             "Attacks with crossbows from a distance",
             "Can shoot arrows, fireworks, or other projectiles depending on variant",
-            "Wears different colored clothing based on role (standard, captain, etc.)",
-            "Captains have banners on their heads and lead patrols",
-            "Flees when low on health or when the player gets too close",
+            "Captains have banners on their heads and lead patrols (no unique clothing)",
+            "Remains aggressive until defeated, does not flee when low on health",
             "Can open doors and climb ladders",
-            "Drops crossbows and various items when killed",
-            "During raids, attacks villagers and iron golems",
-            "Can be distracted by villagers running indoors"
+            "During raids, attacks villagers and iron golems relentlessly",
+            "Can be distracted by villagers running indoors",
+            "Drops crossbows, iron gear, enchanted books, and emeralds during raids"
         ],
         drops: [
             { item: "Crossbow", chance: "8.5% (up to 11.5% with Looting III)" },
             { item: "Arrow", chance: "0-2" },
+            { item: "Iron Axe/Sword", chance: "Raid only (varies by wave)" },
+            { item: "Enchanted Book", chance: "Raid only (varies by wave)" },
+            { item: "Emerald", chance: "Raid only (1-3)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" },
             { item: "Banner (if captain)", chance: "100%" }
         ],
-        description: "Pillagers are hostile mobs that serve as the primary raiders in village attacks, appearing in patrols, outposts, and during raid events. Armed with crossbows, they attack from a distance, making them dangerous opponents who can deal damage while staying out of melee range. Pillagers come in different variants, with standard pillagers wearing brown clothing and captains distinguished by banners on their heads and unique colored outfits. During raids, pillagers work together to overwhelm village defenses, targeting both villagers and iron golems. They exhibit intelligent behavior such as fleeing when injured, opening doors to pursue targets, and climbing ladders to gain advantageous positions. Pillagers drop valuable items including crossbows, arrows, and experience, with captains always dropping their distinctive banners. Their presence in the Overworld adds a dynamic threat system, as players must defend villages from coordinated pillager attacks or face the consequences of lost villagers and damaged structures."
+        description: "Pillagers are hostile mobs that serve as the primary raiders in village attacks, appearing in patrols, outposts, and during raid events. Armed with crossbows, they attack from a distance, making them dangerous opponents who can deal damage while staying out of melee range. Pillagers come in different roles, with standard pillagers wearing identical brown clothing and captains distinguished solely by banners on their heads. During raids, pillagers work together aggressively to overwhelm village defenses, targeting both villagers and iron golems without retreating. They exhibit intelligent behavior such as opening doors to pursue targets and climbing ladders to gain advantageous positions. Pillagers drop valuable items including crossbows, arrows, and experience, with raid-specific drops including iron gear, enchanted books, and emeralds. Captains always drop their distinctive banners. Their presence in the Overworld adds a dynamic threat system, as players must defend villages from coordinated pillager attacks or face the consequences of lost villagers and damaged structures."
     },
     "minecraft:bogged": {
         id: "minecraft:bogged",
@@ -418,7 +420,8 @@ export const hostileMobs = {
         health: 100,
         stats: {
             attackDamage: 12,
-            movementSpeed: 0.3
+            movementSpeed: 0.3,
+            knockbackResistance: 0.5
         },
         classification: {
             type: "Hostile",
@@ -433,18 +436,19 @@ export const hostileMobs = {
             "Large, powerful hostile mob that spawns during raids",
             "Attacks by ramming into players and mobs with its head",
             "Can destroy crops and some blocks when moving",
-            "Immune to knockback and arrow damage",
+            "Has 50% knockback resistance (not fully immune)",
+            "Takes normal damage from arrows (not immune)",
             "Roars when attacking or when hit",
             "Can be ridden by pillagers during raids",
             "Drops saddle when killed",
-            "Vulnerable to axes (deals more damage)",
+            "Standard damage from all weapon types (no axe vulnerability in Bedrock)",
             "Has a large hitbox making it difficult to avoid"
         ],
         drops: [
             { item: "Saddle", chance: "100%" },
             { item: "Experience", chance: "20 (when killed by player/tamed wolf)" }
         ],
-        description: "Ravagers are massive, destructive hostile mobs that appear during village raids, serving as powerful mounted units for pillagers. With an imposing size and 100 health points (50 hearts), ravagers are among the most durable naturally spawning hostile mobs in the Overworld. They attack by charging at targets and ramming them with their large heads, dealing significant damage and often knocking players back. Ravagers have the unique ability to destroy crops and some blocks as they move, leaving a trail of destruction in their path. They are completely immune to knockback effects and take reduced damage from arrows, making ranged combat less effective. However, ravagers are vulnerable to axe attacks, which deal increased damage. During raids, pillagers can be seen riding ravagers, using them as mobile platforms to attack from a higher position. When defeated, ravagers always drop a saddle, making them a reliable source of this useful item. Their distinctive roaring sounds and massive presence make ravagers one of the most intimidating threats during village raids, requiring coordinated efforts from players and iron golems to defeat."
+        description: "Ravagers are massive, destructive hostile mobs that appear during village raids, serving as powerful mounted units for pillagers. With an imposing size and 100 health points (50 hearts), ravagers are among the most durable naturally spawning hostile mobs in the Overworld. They attack by charging at targets and ramming them with their large heads, dealing significant damage and often knocking players back. Ravagers have the unique ability to destroy crops and some blocks as they move, leaving a trail of destruction in their path. They have 50% knockback resistance, making them difficult to push back, and take normal damage from all weapon types including arrows. During raids, pillagers can be seen riding ravagers, using them as mobile platforms to attack from a higher position. When defeated, ravagers always drop a saddle, making them a reliable source of this useful item. Their distinctive roaring sounds and massive presence make ravagers one of the most intimidating threats during village raids, requiring coordinated efforts from players and iron golems to defeat."
     },
     "minecraft:shulker": {
         id: "minecraft:shulker",
