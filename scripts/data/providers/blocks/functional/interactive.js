@@ -58,7 +58,7 @@ export const interactiveBlocks = {
         id: "minecraft:crafter",
         name: "Crafter",
         hardness: 3.5,
-        blastResistance: 6.0,
+        blastResistance: 3.5,
         flammability: false,
         gravityAffected: false,
         transparent: false,
@@ -83,7 +83,7 @@ export const interactiveBlocks = {
         luminance: 0,
         mining: {
             tool: "Pickaxe",
-            minTier: "Wood",
+            minTier: "None",
             silkTouch: true
         },
         drops: ["Heavy Core"],
@@ -91,6 +91,6 @@ export const interactiveBlocks = {
             dimension: "Overworld",
             yRange: "-40 to -20"
         },
-        description: "The heavy core is a rare decorative and crafting block introduced in Minecraft 1.21, obtainable exclusively from ominous vaults within Trial Chambers. It has an approximately 7.5% chance to drop from ominous vaults when opened with an ominous trial key. The heavy core's primary use is crafting the mace, a powerful new weapon created by combining it with a breeze rod. The block is waterloggable and transparent, making it suitable for unique decorative builds. While it can be mined with any tool, a pickaxe is the fastest option. As a rare reward block, it serves as a prestigious milestone for players exploring the dangerous depths of Trial Chambers."
+        description: "The heavy core is a rare decorative and crafting block introduced in Minecraft 1.21, obtainable exclusively from ominous vaults within Trial Chambers. It has an approximately 7.5% chance to drop from ominous vaults when opened with an ominous trial key. The heavy core's primary use is crafting the mace, a powerful new weapon created by combining it with a breeze rod. The block is waterloggable and transparent, making it suitable for unique decorative builds. In Bedrock Edition, the heavy core strictly requires a pickaxe to drop as an item, distinguishing it from Java Edition behavior. As a rare reward block, it serves as a prestigious milestone for players exploring the dangerous depths of Trial Chambers."
     }
 };
