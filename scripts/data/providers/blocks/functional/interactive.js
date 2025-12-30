@@ -41,7 +41,7 @@ export const interactiveBlocks = {
         flammability: false,
         gravityAffected: false,
         transparent: true,
-        luminance: 12,
+        luminance: 6,
         mining: {
             tool: "Pickaxe",
             minTier: "Diamond",
@@ -52,6 +52,6 @@ export const interactiveBlocks = {
             dimension: "Overworld",
             yRange: "-40 to -20"
         },
-        description: "A vault is a unique reward container block introduced in Minecraft 1.21, found within Trial Chambers. When unlocked using a trial key obtained from defeating all mobs spawned by a nearby trial spawner, the vault ejects 3-6 items including valuable loot like armor trims, banner patterns, enchanted books, and the heavy core. Vaults emit a bright light when active or ejecting items, and cannot be accelerated by any tool. As a permanent structure block, it cannot be obtained by players."
+        description: "A vault is a unique reward container block introduced in Minecraft 1.21, found within Trial Chambers. When unlocked using a trial key obtained from defeating all mobs spawned by a nearby trial spawner, the vault ejects 3-6 items including valuable loot like armor trims, banner patterns, enchanted books, and the heavy core. Vaults emit light when active or ejecting items, and cannot be accelerated by any tool. As a permanent structure block, it cannot be obtained by players."
     }
 };
