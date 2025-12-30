@@ -61,5 +61,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/prismarine",
         themeColor: "§b" // aqua/teal
+    },
+    {
+        id: "minecraft:trial_spawner",
+        name: "Trial Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:vault",
+        name: "Vault",
+        category: "block",
+        icon: "textures/blocks/vault",
+        themeColor: "§6" // gold
     }
 ];
