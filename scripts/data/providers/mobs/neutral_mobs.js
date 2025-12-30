@@ -248,5 +248,79 @@ export const neutralMobs = {
             { item: "Poppy", chance: "0-2" }
         ],
         description: "Iron Golems are powerful neutral utility mobs that serve as the primary defenders of villages. With 100 health points (50 hearts), they are among the most durable mobs in Minecraft and deal devastating melee damage ranging from 7.5 to 32.25 HP depending on difficulty level. Iron Golems naturally spawn in villages when certain population requirements are met, appearing near gathering points or during villager panic states. They can also be player-crafted by arranging four iron blocks in a T-shape and placing a carved pumpkin or jack o'lantern on top, creating a permanent ally that never attacks its creator. Iron Golems exhibit unique defensive behaviors, actively seeking out and attacking hostile mobs within a 16-block radius to protect villagers. Their attack animation involves violently swinging their arms upward, launching enemies into the air with significant knockback. They possess several immunities including complete resistance to fall damage, drowning, and knockback effects, making them nearly unstoppable guardians. Iron Golems display social behaviors such as occasionally offering poppies to villagers, particularly baby villagers who accept the gift. Their health status is visually indicated by progressive cracking on their body texture, ranging from pristine to heavily damaged. Players can repair damaged Iron Golems by using iron ingots, with each ingot restoring 25 HP. Naturally spawned golems patrol village boundaries and can turn hostile toward players who harm villagers or develop poor village reputation. However, player-built golems remain permanently passive. When killed, Iron Golems drop 3-5 iron ingots and 0-2 poppies, making them a valuable but morally questionable source of iron. Their inability to attack targets elevated three blocks above them provides a safe strategy for players who need to defeat them without taking damage."
+    },
+    "minecraft:panda": {
+        id: "minecraft:panda",
+        name: "Panda",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Bamboo Jungle"],
+            lightLevel: "9+",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Neutral mobs that generally act passively but retaliate once when attacked",
+            "Spawn with one of 7 random personalities: Normal, Lazy, Worried, Playful, Aggressive, Weak, or Brown (rare variant)",
+            "Lazy pandas move slower, lie on their backs, and do not pick up items",
+            "Worried pandas shake during thunderstorms and hide their faces",
+            "Playful pandas roll over and jump around frequently",
+            "Aggressive pandas are hostile when players or other pandas are attacked",
+            "Weak pandas have 10 HP (5 hearts) instead of 20 HP and sneeze often",
+            "Brown pandas are a rare texture variant with no unique behaviors",
+            "Baby pandas sneeze, which can startle nearby adult pandas and cause them to jump",
+            "Eat bamboo items and cake from the ground",
+            "Sit upright to eat bamboo, displaying a unique eating animation",
+            "Can be bred with bamboo if there are at least 8 bamboo blocks within 5 blocks"
+        ],
+        drops: [
+            { item: "Bamboo", chance: "0-2" },
+            { item: "Slimeball", chance: "1 (rarely dropped by baby Weak pandas when sneezing)" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Pandas are clumsy and adorable neutral mobs found in bamboo jungles, known for their complex personality system. Unlike most mobs, pandas spawn with one of seven distinct traits—Normal, Lazy, Worried, Playful, Aggressive, Weak, or the rare Brown variant—which dictate their behavior. For instance, Lazy pandas are lethargic and refuse to interact with items, while Playful pandas constantly roll and tumble. Though generally peaceful, pandas will retaliate if attacked, with Aggressive pandas defending the entire group. They have a unique diet, sitting upright to eat bamboo or cake items dropped by players. Their breeding mechanic is also unique, requiring the presence of 8 nearby bamboo blocks to feel comfortable enough to mate. Baby pandas are particularly endearing, occasionally sneezing in a way that startles nearby adults and, in the case of Weak pandas, potentially dropping a slimeball. With their varied personalities and social behaviors, pandas add significant life and variety to jungle biomes."
+    },
+    "minecraft:polar_bear": {
+        id: "minecraft:polar_bear",
+        name: "Polar Bear",
+        health: 30,
+        stats: {
+            attackDamage: "4 (Easy), 6 (Normal), 9 (Hard)",
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Snowy Plains", "Ice Spikes", "Frozen Ocean", "Deep Frozen Ocean"],
+            lightLevel: "7+ (on grass), Any (on ice)",
+            groupSize: "1-2 (often parent with cub)"
+        },
+        behaviorTraits: [
+            "Neutral mobs that become hostile under specific conditions",
+            "Adults are hostile when accompanied by cubs or when provoked",
+            "Cubs are passive but will flee if attacked",
+            "Attacking a cub causes all nearby adults to become hostile",
+            "Attack by rearing up on hind legs and mauling with front paws",
+            "Swim faster than players in water",
+            "Hunt foxes in the wild (adults attack foxes within 16 blocks)",
+            "Cannot be bred, but cubs grow into adults over time",
+            "Drop raw cod or salmon when killed",
+            "Immune to freezing damage from powder snow"
+        ],
+        drops: [
+            { item: "Raw Cod", chance: "0-2 (75% chance)" },
+            { item: "Raw Salmon", chance: "0-2 (25% chance)" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Polar Bears are majestic but dangerous neutral mobs that inhabit the frozen biomes of Minecraft. They are fiercely protective parents; while solitary adults are generally passive unless provoked, an adult accompanying a cub will attack players who get too close. This makes navigating icy biomes risky, as stumbling upon a family group can quickly turn deadly. Their attack is visually distinct, as they rear up on their hind legs to deliver powerful swipes that deal significant damage—up to 9 HP (4.5 hearts) on Hard difficulty. Polar bears are also excellent swimmers, capable of moving faster than players in water, which makes escaping them in frozen oceans difficult. They are natural predators of foxes and will actively hunt them. Unlike many other animals, polar bears cannot be bred by players, though naturally spawning cubs will eventually mature into adults. They provide a source of fish when killed but are primarily an ambient danger that reinforces the harsh nature of the snowy environments they call home."
     }
 };
