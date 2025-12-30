@@ -123,7 +123,7 @@ export const blockIndex = [
         name: "Heavy Core",
         category: "block",
         icon: "textures/blocks/heavy_core",
-        themeColor: "§4" // dark red
+        themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:pale_hanging_moss",

@@ -79,15 +79,15 @@ export const miscDecorativeBlocks = {
     "minecraft:heavy_core": {
         id: "minecraft:heavy_core",
         name: "Heavy Core",
-        hardness: 5.0,
-        blastResistance: 6.0,
+        hardness: 10.0,
+        blastResistance: 1200,
         flammability: false,
         gravityAffected: false,
-        transparent: false,
+        transparent: true,
         luminance: 0,
         mining: {
             tool: "Pickaxe",
-            minTier: "Iron",
+            minTier: "None",
             silkTouch: false
         },
         drops: ["Heavy Core"],
@@ -95,6 +95,6 @@ export const miscDecorativeBlocks = {
             dimension: "Overworld",
             yRange: "Ominous Vaults in Trial Chambers"
         },
-        description: "The Heavy Core is a unique crafting component introduced in Minecraft 1.21+ that can only be obtained by unlocking Ominous Vaults with Ominous Trial Keys in Trial Chambers. This mysterious, dense block serves as a key ingredient for crafting the Mace when combined with a Breeze Rod. The Heavy Core represents one of the most challenging rewards to obtain in the game, requiring players to defeat enhanced mobs spawned during ominous events. Its distinctive appearance and limited availability make it a prized possession for players seeking to craft the powerful Mace weapon."
+        description: "The Heavy Core is a unique crafting component introduced in Minecraft 1.21 that can only be obtained by unlocking Ominous Vaults with Ominous Trial Keys in Trial Chambers. This mysterious, dense block serves as a key ingredient for crafting the Mace when combined with a Breeze Rod. The Heavy Core represents one of the most challenging rewards to obtain in the game, requiring players to defeat enhanced mobs spawned during ominous events. Its distinctive appearance and limited availability make it a prized possession for players seeking to craft the powerful Mace weapon."
     }
 };
