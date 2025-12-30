@@ -248,5 +248,82 @@ export const neutralMobs = {
             { item: "Poppy", chance: "0-2" }
         ],
         description: "Iron Golems are powerful neutral utility mobs that serve as the primary defenders of villages. With 100 health points (50 hearts), they are among the most durable mobs in Minecraft and deal devastating melee damage ranging from 7.5 to 32.25 HP depending on difficulty level. Iron Golems naturally spawn in villages when certain population requirements are met, appearing near gathering points or during villager panic states. They can also be player-crafted by arranging four iron blocks in a T-shape and placing a carved pumpkin or jack o'lantern on top, creating a permanent ally that never attacks its creator. Iron Golems exhibit unique defensive behaviors, actively seeking out and attacking hostile mobs within a 16-block radius to protect villagers. Their attack animation involves violently swinging their arms upward, launching enemies into the air with significant knockback. They possess several immunities including complete resistance to fall damage, drowning, and knockback effects, making them nearly unstoppable guardians. Iron Golems display social behaviors such as occasionally offering poppies to villagers, particularly baby villagers who accept the gift. Their health status is visually indicated by progressive cracking on their body texture, ranging from pristine to heavily damaged. Players can repair damaged Iron Golems by using iron ingots, with each ingot restoring 25 HP. Naturally spawned golems patrol village boundaries and can turn hostile toward players who harm villagers or develop poor village reputation. However, player-built golems remain permanently passive. When killed, Iron Golems drop 3-5 iron ingots and 0-2 poppies, making them a valuable but morally questionable source of iron. Their inability to attack targets elevated three blocks above them provides a safe strategy for players who need to defeat them without taking damage."
+    },
+    "minecraft:cave_spider": {
+        id: "minecraft:cave_spider",
+        name: "Cave Spider",
+        health: 12,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Mineshafts", "Trial Chambers"],
+            lightLevel: "0-7 (Hostile), 12+ (Neutral)",
+            groupSize: "Varies (from spawners)"
+        },
+        behaviorTraits: [
+            "Smaller variant of spider with blue coloring",
+            "Spawns from monster spawners in abandoned mineshafts and trial spawners in Trial Chambers",
+            "Inflicts Poison effect on hit for 7 seconds on Normal difficulty",
+            "Can fit through 0.5 block gaps, allowing access through half-slab and fence openings",
+            "Neutral in daylight (light level 12+) and hostile in darkness",
+            "Climbs walls like regular spiders",
+            "Unaffected by cobwebs and moves through them at full speed",
+            "Immune to Poison effect",
+            "Swims in water but cannot climb while swimming",
+            "Glowing eyes visible even when invisible"
+        ],
+        drops: [
+            { item: "String", chance: "0-2 (average 1)" },
+            { item: "Spider Eye", chance: "0-1 (average 0.5)" },
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Cave Spiders are smaller, blue-colored variants of spiders that spawn exclusively from monster spawners in abandoned mineshafts and trial spawners in Trial Chambers. With only 12 health points (6 hearts), they are more fragile than regular spiders but compensate with their unique ability to inflict Poison for 7 seconds on Normal difficulty, dealing additional damage over time that ignores armor. Their most dangerous attribute is their smaller size, allowing them to fit through 0.5 block gaps such as half-slabs, stairs, and fence openings, making them difficult to contain or escape from. Like regular spiders, Cave Spiders are neutral during day or in bright light (level 12+) and hostile in darkness. They climb walls with ease and are unaffected by cobwebs, moving through them at full speed while other mobs become trapped. Cave Spiders are immune to Poison effect themselves and possess glowing eyes that remain visible even when under the effects of invisibility potions. They drop string and spider eyes, making them valuable for farming resources, though their spawning restrictions limit their availability to specific structures. The combination of their small hitbox, climbing ability, wall-passing capability, and poison effect makes Cave Spiders particularly dangerous in the confined spaces of mineshafts where they can attack from unexpected angles and poison players before they can react."
+    },
+    "minecraft:slime": {
+        id: "minecraft:slime",
+        name: "Slime",
+        health: "1 (Small), 4 (Medium), 16 (Large)",
+        stats: {
+            attackDamage: "0 (Small), 2 (Medium), 4 (Large)"
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp", "Slime Chunks", "Trial Chambers"],
+            lightLevel: "0-7 (swamps), Any (slime chunks), 12+ (Neutral)",
+            groupSize: "1-4 (large), spawns smaller on death"
+        },
+        behaviorTraits: [
+            "Bouncing gelatinous mob that comes in three sizes: small, medium, and large",
+            "Large and medium slimes are hostile in darkness, small slimes are passive",
+            "Neutral in daylight (light level 12+)",
+            "Large slimes split into 2-4 medium slimes when killed",
+            "Medium slimes split into 2-4 small slimes when killed",
+            "Small slimes do not deal damage and are harmless to players",
+            "Cannot climb walls or stairs, must bounce to move",
+            "Pushes entities and can knock players off ledges",
+            "Spawns in swamp biomes at Y=51-69 when light level is 7 or less",
+            "Also spawns in slime chunks below Y=40 regardless of light level",
+            "Swamp spawning affected by moon phase (most common on full moon, never on new moon)",
+            "Trial Chambers spawn medium and large slimes from trial spawners",
+            "Deals melee damage by touching players",
+            "Attack damage increases with size: 0 HP (small), 2-3 HP (medium), 4-6 HP (large depending on difficulty)",
+            "Can jump up to 3 blocks high",
+            "Cannot be ridden or leashed",
+            "Makes squishy sounds when moving and dying"
+        ],
+        drops: [
+            { item: "Slimeball", chance: "0-2 (Small), 2-4 (Medium), 4-6 (Large)" },
+            { item: "Experience", chance: "1-4 (when killed by player/tamed wolf)" }
+        ],
+        description: "Slimes are iconic bouncing mobs that come in three distinct sizes, each with different behaviors and combat capabilities. Large slimes have 16 health points and deal significant melee damage, medium slimes have 4 health points and deal moderate damage, while small slimes have only 1 health point and are completely passive, posing no threat to players. When a large or medium slime dies, it splits into 2-4 smaller slimes, creating a cascading battle experience where defeating one mob spawns multiple smaller opponents. Slimes spawn in two primary ways: in swamp and mangrove swamp biomes at Y-levels 51-69 when the light level is 7 or less, and in specific slime chunks below Y=40 regardless of lighting conditions. Swamp spawning is influenced by the moon phase, with slimes spawning most frequently during a full moon and never spawning during a new moon. Since version 1.21, slimes can also spawn in Trial Chambers from trial spawners, spawning as medium and large variants. Slimes are neutral during daylight (light level 12+) and hostile in darkness, though small slimes remain passive even when provoked. Their bouncing movement allows them to jump up to 3 blocks high, and their gelatinous bodies push entities around, potentially knocking players off ledges in dangerous situations. Unlike spiders, slimes cannot climb walls or stairs, limiting their mobility in vertical environments. All slime sizes drop slimeballs upon death, with drop quantities scaling based on slime size—small slimes drop 0-2, medium slimes drop 2-4, and large slimes drop 4-6. Slimeballs are essential crafting materials for sticky pistons, magma cream, leads, and slime blocks, making slime farming a popular activity. The unique splitting mechanic and variable sizes make slimes both dangerous enemies in darkness and valuable resource providers, especially when cultivated in controlled swamp farms or slime chunk grinders."
     }
 };
