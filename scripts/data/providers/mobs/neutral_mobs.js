@@ -262,7 +262,7 @@ export const neutralMobs = {
             undead: false
         },
         spawning: {
-            biomes: ["Forest", "Taiga", "Snowy Taiga", "Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Grove", "Savanna Plateau", "Sparse Jungle", "Wooded Badlands", "Badlands", "Eroded Badlands"],
+            biomes: ["Forest", "Taiga", "Snowy Taiga", "Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Grove", "Savanna Plateau", "Sparse Jungle", "Wooded Badlands"],
             lightLevel: "Any",
             groupSize: "1-8 (varies by biome/variant)"
         },
