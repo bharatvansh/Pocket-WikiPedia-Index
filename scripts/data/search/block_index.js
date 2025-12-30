@@ -138,5 +138,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_tuff",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_tuff",
+        name: "Polished Tuff",
+        category: "block",
+        icon: "textures/blocks/polished_tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_wall",
+        name: "Tuff Wall",
+        category: "block",
+        icon: "textures/blocks/tuff_wall",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chiseled_copper",
+        name: "Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/chiseled_copper",
+        themeColor: "§6" // copper/orange
     }
 ];

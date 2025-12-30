@@ -94,5 +94,26 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Copper Grate is a decorative, transparent copper block added in Minecraft 1.21 that is commonly used as railings, vents, and walkways. It oxidizes over time like other copper blocks (and can be waxed with honeycomb), allowing builders to create detailed gradients and patterns. Copper grates generate in Trial Chambers corridors in various oxidation stages and can be crafted or stonecut from blocks of copper. To obtain a copper grate reliably, mine it with a stone-tier pickaxe or better; breaking it without a pickaxe yields no drops."
+    },
+    "minecraft:chiseled_copper": {
+        id: "minecraft:chiseled_copper",
+        name: "Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Chiseled Copper is a decorative copper block introduced in Minecraft 1.21 featuring an intricate patterned texture created through a unique crafting process. Crafted by placing four cut copper stairs in a 2x2 formation in a stonecutter, chiseled copper produces a sophisticated geometric pattern that stands out among other copper variants. Like all copper blocks, it oxidizes through exposed, weathered, and oxidized stages over time, and can be waxed with honeycomb to preserve its current state. Chiseled copper generates naturally in Trial Chambers, where it appears in various oxidation states. This block is particularly valued by builders for its unique aesthetic that combines the warmth of copper with the elegance of carved stone, making it ideal for accent walls, decorative pillars, and detailed architectural features."
     }
 };
