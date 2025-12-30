@@ -911,5 +911,38 @@ export const hostileMobs = {
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
         description: "Ghasts are enormous, floating hostile mobs that dominate the skies of the Nether with their haunting presence and devastating fireball attacks. Resembling massive jellyfish-like creatures with white, cube-shaped bodies, perpetually crying red eyes, and dangling tentacles, ghasts emit sorrowful wailing sounds that echo through the Nether's vast caverns, serving as an audio warning of their presence long before they come into view. With a 4×4×4 block hitbox, ghasts are among the largest naturally spawning hostile mobs in the game, though their relatively low health of just 10 HP makes them vulnerable once engaged. Ghasts attack by launching explosive fireballs that travel in straight lines toward their targets, dealing 6 HP of direct impact damage on Normal difficulty and up to 17 HP from the resulting explosion if the player is at the epicenter. These explosions have a blast power of 1, sufficient to destroy softer blocks like netherrack, basalt, and nether wart blocks, but unable to break more durable materials like cobblestone, stone bricks, or nether brick—making these materials ideal for building protective structures in the Nether. One of the most iconic mechanics associated with ghasts is the ability to deflect their fireballs back at them using any form of attack, whether melee strikes, arrows, or even other projectiles. Successfully reflecting a fireball to kill the ghast that fired it unlocks the challenging 'Return to Sender' advancement, a badge of honor among Minecraft players. Ghasts spawn in open Nether biomes including Nether Wastes, Soul Sand Valleys, and Basalt Deltas, requiring a minimum of 5×5×4 blocks of space to spawn, which prevents them from appearing in narrow tunnels or confined structures. They fly slowly and smoothly through the air, often positioning themselves at high altitudes where they rain down fireballs on unsuspecting travelers below. Their behavior includes only attacking when they have a clear line of sight to their target, meaning players can break line of sight to temporarily cease attacks. Despite being Nether inhabitants, ghasts are not immune to drowning and will take damage if submerged in water, should they somehow be transported to the Overworld. When killed, ghasts drop valuable resources: ghast tears, which are essential ingredients for brewing potions of Regeneration and crafting End Crystals for respawning the Ender Dragon, and gunpowder for TNT and fireworks. Their ghastly cries, explosive attacks, and strategic importance in progression make them one of the most memorable and mechanically significant hostile mobs in Minecraft's Nether dimension."
+    },
+    "minecraft:slime": {
+        id: "minecraft:slime",
+        name: "Slime",
+        health: 16,
+        stats: {
+            attackDamage: "Big: 4 (Normal), Medium: 2 (Normal), Small: 0",
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Slime chunks (Overworld, below Y=40)", "Swamp", "Mangrove Swamp"],
+            lightLevel: "Any in slime chunks; 0-7 in swamps/mangrove swamps (Y=51-69)",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Hostile cube-like monster that attacks by colliding with targets while hopping",
+            "Naturally spawns in three sizes (small, medium, big) and splits into smaller slimes when a larger one is killed",
+            "Big slimes have 16 HP and deal 4 damage on Normal difficulty (6 on Hard); medium slimes deal 2 damage on Normal (3 on Hard); small slimes deal 0 damage",
+            "Immune to fall damage",
+            "In swamps and mangrove swamps, can spawn between Y=51 and Y=69 at light level 7 or lower; spawn rate depends on moon phase (most common on full moon, never on new moon)",
+            "In slime chunks, can spawn below Y=40 regardless of light level; in Bedrock Edition these slime chunks are fixed locations that do not depend on the world seed",
+            "During ominous trials, Trial Spawners can apply the Oozing effect, which spawns medium slimes when an affected entity dies"
+        ],
+        drops: [
+            { item: "Slimeball", chance: "0-2 (small slimes; +1 per Looting level, max 5)" },
+            { item: "Slimeball", chance: "1 (if killed by a frog)" },
+            { item: "Experience", chance: "1 (small), 2 (medium), or 4 (big) (when killed by player/tamed wolf)" }
+        ],
+        description: "Slimes are bouncy, gelatinous monsters that appear deep underground and in swampy lowlands. They come in multiple sizes and, when defeated, larger slimes break apart into smaller ones—meaning a single encounter can turn into several fights. In Bedrock Edition, they have two main spawn methods: fixed-location slime chunks underground (below Y=40, regardless of light) and swamps/mangrove swamps between Y=51 and Y=69 in low light, with spawns heavily influenced by the moon phase. Slimeballs dropped by the smallest slimes are essential for sticky pistons, leads, and slime blocks, making slimes a key mob for redstone builds and movement contraptions."
     }
 };
