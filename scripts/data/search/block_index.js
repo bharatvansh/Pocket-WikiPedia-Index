@@ -94,7 +94,7 @@ export const blockIndex = [
         id: "minecraft:copper_door",
         name: "Copper Door",
         category: "block",
-        icon: "textures/blocks/copper_door_top",
+        icon: "textures/items/copper_door",
         themeColor: "§6" // copper/orange
     },
     {
