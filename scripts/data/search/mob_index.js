@@ -313,5 +313,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_ghast.png",
         themeColor: "§f" // white/ghostly
+    },
+    {
+        id: "minecraft:slime",
+        name: "Slime",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_slime.png",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:wolf",
+        name: "Wolf",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wolf.png",
+        themeColor: "§7" // gray
     }
 ];

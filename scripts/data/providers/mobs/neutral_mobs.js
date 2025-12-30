@@ -248,5 +248,36 @@ export const neutralMobs = {
             { item: "Poppy", chance: "0-2" }
         ],
         description: "Iron Golems are powerful neutral utility mobs that serve as the primary defenders of villages. With 100 health points (50 hearts), they are among the most durable mobs in Minecraft and deal devastating melee damage ranging from 7.5 to 32.25 HP depending on difficulty level. Iron Golems naturally spawn in villages when certain population requirements are met, appearing near gathering points or during villager panic states. They can also be player-crafted by arranging four iron blocks in a T-shape and placing a carved pumpkin or jack o'lantern on top, creating a permanent ally that never attacks its creator. Iron Golems exhibit unique defensive behaviors, actively seeking out and attacking hostile mobs within a 16-block radius to protect villagers. Their attack animation involves violently swinging their arms upward, launching enemies into the air with significant knockback. They possess several immunities including complete resistance to fall damage, drowning, and knockback effects, making them nearly unstoppable guardians. Iron Golems display social behaviors such as occasionally offering poppies to villagers, particularly baby villagers who accept the gift. Their health status is visually indicated by progressive cracking on their body texture, ranging from pristine to heavily damaged. Players can repair damaged Iron Golems by using iron ingots, with each ingot restoring 25 HP. Naturally spawned golems patrol village boundaries and can turn hostile toward players who harm villagers or develop poor village reputation. However, player-built golems remain permanently passive. When killed, Iron Golems drop 3-5 iron ingots and 0-2 poppies, making them a valuable but morally questionable source of iron. Their inability to attack targets elevated three blocks above them provides a safe strategy for players who need to defeat them without taking damage."
+    },
+    "minecraft:wolf": {
+        id: "minecraft:wolf",
+        name: "Wolf",
+        health: 8,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Forest", "Taiga", "Snowy Taiga", "Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Grove", "Savanna Plateau", "Sparse Jungle", "Wooded Badlands"],
+            lightLevel: "Any",
+            groupSize: "1-8 (varies by biome/variant)"
+        },
+        behaviorTraits: [
+            "Neutral mob that becomes hostile when attacked; nearby wolves in the pack also become hostile",
+            "Can be tamed using bones; a tamed wolf becomes loyal to its owner, can be commanded to sit, and gains 40 HP (20 hearts)",
+            "Attacks by leaping and biting; deals 4 damage on Normal difficulty when angry",
+            "Can be bred using meat, producing pups",
+            "Collar color of a tamed wolf can be dyed",
+            "Can be equipped with Wolf Armor crafted from armadillo scutes to help protect it from damage",
+            "Has multiple variants that depend on the biome it spawns in, with different pack sizes in different biomes"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (adult; when killed by player/tamed wolf)" }
+        ],
+        description: "Wolves are neutral, pack-spawning animals best known for becoming one of the player's most useful companions. In the wild they are wary but will defend themselves aggressively if attacked—usually with their whole pack—while a tamed wolf will follow its owner, fight hostile mobs on command, and can be told to sit and stay. In Bedrock Edition 1.21+, tamed wolves have 40 HP (20 hearts) and can wear Wolf Armor crafted from armadillo scutes, making them much more resilient in combat. Wolves also come in several biome-based variants, encouraging exploration if you want to collect different looks."
     }
 };
