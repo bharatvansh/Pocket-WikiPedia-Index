@@ -1,16 +1,22 @@
-// Pocket Wikipedia Foundation - Utility Blocks Data
-// Contains data for functional/utility block types
+// Pocket Wikipedia Foundation - Workstation Blocks Data
+// ============================================
+// This file contains: Crafting table, furnace, blast furnace,
+// smoker, anvil (all damage states), enchanting table, brewing stand,
+// cauldron, grindstone, stonecutter, smithing table, cartography table,
+// fletching table, loom, lectern, respawn anchor, lodestone, beacon,
+// conduit, end portal frame
+// ============================================
 
 /**
- * Utility blocks data registry
- * @type {Object.<string, import('../block_types').BlockDetails>}
+ * Workstation blocks data registry
+ * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
-export const utilityBlocks = {
+export const workstationBlocks = {
     "minecraft:obsidian": {
         id: "minecraft:obsidian",
         name: "Obsidian",
         hardness: 50,
-        blastResistance: 6000,
+        blastResistance: 1200,
         flammability: false,
         gravityAffected: false,
         transparent: false,
@@ -18,7 +24,7 @@ export const utilityBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Diamond",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Obsidian"],
         generation: {

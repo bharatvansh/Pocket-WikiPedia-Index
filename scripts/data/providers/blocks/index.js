@@ -1,9 +1,11 @@
 // Pocket Wikipedia Foundation - Block Content Provider
-// Aggregates all block data from modular files
+// Aggregates all block data from modular subcategory folders
 
-import { naturalBlocks } from './natural_blocks.js';
-import { decorativeBlocks } from './decorative_blocks.js';
-import { utilityBlocks } from './utility_blocks.js';
+import { naturalBlocks } from './natural/index.js';
+import { buildingBlocks } from './building/index.js';
+import { functionalBlocks } from './functional/index.js';
+import { decorativeBlocks } from './decorative/index.js';
+import { dimensionBlocks } from './dimension/index.js';
 
 /**
  * @typedef {Object} BlockDetails
@@ -29,8 +31,10 @@ import { utilityBlocks } from './utility_blocks.js';
 // Combine all block data into a single registry
 const blockData = {
     ...naturalBlocks,
+    ...buildingBlocks,
+    ...functionalBlocks,
     ...decorativeBlocks,
-    ...utilityBlocks
+    ...dimensionBlocks
 };
 
 /**

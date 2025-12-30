@@ -1,10 +1,12 @@
 // Pocket Wikipedia Foundation - Item Content Provider
-// Aggregates all item data from modular files
+// Aggregates all item data from modular subcategory folders
 
-import { weapons } from './weapons.js';
-import { tools } from './tools.js';
-import { food } from './food.js';
-import { equipment } from './equipment.js';
+import { tools } from './tools/index.js';
+import { weapons } from './weapons/index.js';
+import { armor } from './armor/index.js';
+import { consumables } from './consumables/index.js';
+import { materials } from './materials/index.js';
+import { misc } from './misc/index.js';
 
 /**
  * @typedef {Object} ItemDetails
@@ -28,10 +30,12 @@ import { equipment } from './equipment.js';
 
 // Combine all item data into a single registry
 const itemData = {
-    ...weapons,
     ...tools,
-    ...food,
-    ...equipment
+    ...weapons,
+    ...armor,
+    ...consumables,
+    ...materials,
+    ...misc
 };
 
 /**

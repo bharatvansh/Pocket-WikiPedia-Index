@@ -1,35 +1,13 @@
-// Pocket Wikipedia Foundation - Weapons Data
-// Contains data for weapon items
+// Pocket Wikipedia Foundation - Ranged Weapons Data
+// ============================================
+// This file contains: Bow, crossbow, trident
+// ============================================
 
 /**
- * Weapons data registry
- * @type {Object.<string, import('../item_types').ItemDetails>}
+ * Ranged weapon items data registry
+ * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
-export const weapons = {
-    "minecraft:iron_sword": {
-        id: "minecraft:iron_sword",
-        name: "Iron Sword",
-        maxStack: 1,
-        durability: 250,
-        enchantable: true,
-        usage: {
-            primaryUse: "Melee combat",
-            secondaryUse: "Breaking cobwebs quickly"
-        },
-        combat: {
-            attackDamage: 6,
-            attackSpeed: 1.6
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Iron Ingot x2", "Stick"]
-        },
-        specialNotes: [
-            "Can be repaired with Iron Ingots",
-            "Can receive Sharpness, Smite, or Bane of Arthropods"
-        ],
-        description: "The Iron Sword is a versatile weapon that deals moderate damage. It's more durable than wooden or stone swords but less powerful than diamond or netherite swords. Iron swords can be enchanted with various combat-related enchantments."
-    },
+export const rangedWeapons = {
     "minecraft:bow": {
         id: "minecraft:bow",
         name: "Bow",

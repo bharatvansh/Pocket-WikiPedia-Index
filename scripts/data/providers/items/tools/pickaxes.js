@@ -1,11 +1,14 @@
-// Pocket Wikipedia Foundation - Tools Data
-// Contains data for tool items
+// Pocket Wikipedia Foundation - Pickaxes Data
+// ============================================
+// This file contains: Wooden pickaxe, stone pickaxe, iron pickaxe,
+// golden pickaxe, diamond pickaxe, netherite pickaxe
+// ============================================
 
 /**
- * Tools data registry
- * @type {Object.<string, import('../item_types').ItemDetails>}
+ * Pickaxe items data registry
+ * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
-export const tools = {
+export const pickaxes = {
     "minecraft:diamond_pickaxe": {
         id: "minecraft:diamond_pickaxe",
         name: "Diamond Pickaxe",
