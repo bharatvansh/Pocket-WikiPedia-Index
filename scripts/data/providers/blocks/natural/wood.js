@@ -14,8 +14,8 @@ export const woodBlocks = {
     "minecraft:pale_oak_log": {
         id: "minecraft:pale_oak_log",
         name: "Pale Oak Log",
-        hardness: 0.8,
-        blastResistance: 0.8,
+        hardness: 2.0,
+        blastResistance: 2.0,
         flammability: true,
         gravityAffected: false,
         transparent: false,
@@ -23,9 +23,9 @@ export const woodBlocks = {
         mining: {
             tool: "Axe",
             minTier: "None",
-            silkTouch: true
+            silkTouch: false
         },
-        drops: ["Pale Oak Log", "Stripped Pale Oak Log"],
+        drops: ["Pale Oak Log"],
         generation: {
             dimension: "Overworld",
             yRange: "Pale Garden biome"
@@ -44,13 +44,13 @@ export const woodBlocks = {
         mining: {
             tool: "Shears",
             minTier: "None",
-            silkTouch: true
+            silkTouch: false
         },
-        drops: ["Pale Oak Sapling", "Pale Hanging Moss"],
+        drops: ["Pale Oak Sapling"],
         generation: {
             dimension: "Overworld",
             yRange: "Pale Garden biome"
         },
-        description: "Pale Oak Leaves are the distinctive foliage of Pale Oak trees in the Pale Garden biome, added in Minecraft Bedrock Edition 1.21.50. These pale gray leaves create a ghostly canopy that filters light uniquely compared to other tree types. When broken with shears, they drop pale oak saplings for propagation, occasionally along with pale hanging moss that grows beneath the canopy. The muted color palette of pale oak leaves makes them ideal for creating ethereal forest landscapes, spectral garden builds, or adding subtle contrast to other biomes."
+        description: "Pale Oak Leaves are the distinctive foliage of Pale Oak trees in the Pale Garden biome, added in Minecraft Bedrock Edition 1.21.50. These pale gray leaves create a ghostly canopy that filters light uniquely compared to other tree types. When broken with shears, they drop pale oak saplings for propagation. The muted color palette of pale oak leaves makes them ideal for creating ethereal forest landscapes, spectral garden builds, or adding subtle contrast to other biomes."
     }
 };

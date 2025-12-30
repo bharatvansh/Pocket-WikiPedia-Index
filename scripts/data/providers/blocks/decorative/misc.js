@@ -100,18 +100,18 @@ export const miscDecorativeBlocks = {
     "minecraft:creaking_heart": {
         id: "minecraft:creaking_heart",
         name: "Creaking Heart",
-        hardness: 0.5,
-        blastResistance: 0.5,
+        hardness: 10,
+        blastResistance: 10,
         flammability: false,
         gravityAffected: false,
         transparent: true,
         luminance: 7,
         mining: {
-            tool: "Pickaxe",
+            tool: "Axe",
             minTier: "None",
-            silkTouch: false
+            silkTouch: true
         },
-        drops: [],
+        drops: ["Resin Clump (1-3)"],
         generation: {
             dimension: "Overworld",
             yRange: "Pale Garden biome"
