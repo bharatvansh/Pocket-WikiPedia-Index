@@ -60,7 +60,7 @@ export const brickBlocks = {
         blastResistance: 6.0,
         flammability: false,
         gravityAffected: false,
-        transparent: false,
+        transparent: true,
         luminance: 0,
         mining: {
             tool: "Pickaxe",
