@@ -313,5 +313,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_ghast.png",
         themeColor: "§f" // white/ghostly
+    },
+    {
+        id: "minecraft:panda",
+        name: "Panda",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_panda.png",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:polar_bear",
+        name: "Polar Bear",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_polar_bear.png",
+        themeColor: "§f" // white
     }
 ];
