@@ -96,5 +96,26 @@ export const miscDecorativeBlocks = {
             yRange: "Ominous Vaults in Trial Chambers"
         },
         description: "The Heavy Core is a unique crafting component introduced in Minecraft 1.21 that can only be obtained by unlocking Ominous Vaults with Ominous Trial Keys in Trial Chambers. This mysterious, dense block serves as a key ingredient for crafting the Mace when combined with a Breeze Rod. The Heavy Core represents one of the most challenging rewards to obtain in the game, requiring players to defeat enhanced mobs spawned during ominous events. Its distinctive appearance and limited availability make it a prized possession for players seeking to craft the powerful Mace weapon."
+    },
+    "minecraft:creaking_heart": {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        hardness: 10,
+        blastResistance: 10,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 7,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Resin Clump (1-3)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "The Creaking Heart is a unique passive mob spawner introduced in Minecraft Bedrock Edition 1.21.50, found exclusively in Pale Garden biomes. This ethereal, pulsing block is the source of the Creaking mob, a hostile block-like creature that activates when it detects a player within its line of sight. The Creaking Heart must be placed between two vertically aligned Pale Oak Logs to function properly and spawn Creakings. When in low-light conditions, the heart pulses with a glowing orange color and summons Creakings to defend its position. This block adds a new layer of atmospheric horror to Minecraft, encouraging players to approach Pale Garden structures with caution and awareness of sightlines."
     }
 };

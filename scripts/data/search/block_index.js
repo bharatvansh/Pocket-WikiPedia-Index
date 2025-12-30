@@ -159,5 +159,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_copper",
         themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:pale_oak_log",
+        name: "Pale Oak Log",
+        category: "block",
+        icon: "textures/blocks/pale_oak_log",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:pale_oak_leaves",
+        name: "Pale Oak Leaves",
+        category: "block",
+        icon: "textures/blocks/pale_oak_leaves",
+        themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        category: "block",
+        icon: "textures/blocks/creaking_heart",
+        themeColor: "§6" // orange/gold (resin color)
     }
 ];
