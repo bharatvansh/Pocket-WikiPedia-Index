@@ -43,7 +43,7 @@ export const copperBlocks = {
         luminance: 0,
         mining: {
             tool: "Pickaxe",
-            minTier: "None",
+            minTier: "Stone",
             silkTouch: false
         },
         drops: ["Copper Door"],
@@ -51,7 +51,7 @@ export const copperBlocks = {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "The Copper Door is a 1.21+ metal door that can be opened and closed by players like a wooden door, while still supporting redstone control for automation. It can be mined with any tool, but pickaxes break it faster, and it drops itself when destroyed. Like other copper blocks, it oxidizes through exposed, weathered, and oxidized stages over time; an axe can scrape oxidation away, and honeycomb waxes it to prevent further aging. Copper doors generate naturally in Trial Chambers, are affected by a thrown Wind Charge’s burst (toggling their state), and are waterloggable in Bedrock Edition for clean underwater entrances."
+        description: "The Copper Door is a 1.21+ copper-made door that can be opened and closed by players like a wooden door, while still supporting redstone control for automation. In Bedrock Edition, it should be mined with a stone-tier pickaxe or better to reliably obtain the door as an item, and using a pickaxe also breaks it faster. Like other copper blocks, it oxidizes through exposed, weathered, and oxidized stages over time; an axe can scrape oxidation away, and honeycomb waxes it to prevent further aging. Copper doors generate naturally in Trial Chambers, are affected by the wind burst from a thrown Wind Charge (toggling their state), and are waterloggable in Bedrock Edition for clean underwater entrances."
     },
     "minecraft:copper_trapdoor": {
         id: "minecraft:copper_trapdoor",
