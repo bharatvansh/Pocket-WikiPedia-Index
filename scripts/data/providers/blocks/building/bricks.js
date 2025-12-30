@@ -44,14 +44,14 @@ export const brickBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Polished Tuff"],
         generation: {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "Polished Tuff is a smooth, refined building block introduced in Minecraft 1.21 as part of the expanded tuff block family found in Trial Chambers. Crafted by polishing regular tuff blocks in a stonecutter, polished tuff features a sleek, dark gray surface with subtle striations that catch light beautifully. This block serves as both a building material and a crafting ingredient for tuff bricks when arranged in a 2x2 grid. Its sophisticated appearance makes it ideal for modern architectural designs, while its natural generation in Trial Chambers provides players with a readily available source for large-scale construction projects."
+        description: "Polished Tuff is a smooth, refined building block introduced in Minecraft 1.21 as part of the expanded tuff block family found in Trial Chambers. Crafted by arranging four tuff blocks in a 2x2 square on a crafting grid, or by using a stonecutter on tuff blocks, polished tuff features a sleek, dark gray surface with subtle striations that catch light beautifully. This block serves as both a building material and a crafting ingredient for tuff bricks when arranged in a 2x2 grid. Its sophisticated appearance makes it ideal for modern architectural designs, while its natural generation in Trial Chambers provides players with a readily available source for large-scale construction projects."
     },
     "minecraft:tuff_wall": {
         id: "minecraft:tuff_wall",
@@ -72,6 +72,6 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "Tuff Wall is a decorative wall block introduced in Minecraft 1.21, part of the comprehensive tuff block family added with the Trial Chambers update. Crafted from three tuff blocks in a 2x3 vertical arrangement, or created in a stonecutter from tuff blocks, tuff walls serve as both functional barriers and aesthetic architectural elements. Like all tuff variants, tuff walls feature the characteristic dark gray coloration with subtle textural variations. They connect seamlessly with other walls and can be placed without requiring a solid block beneath, making them perfect for creating railings, garden borders, and defensive perimeter structures. Tuff walls generate naturally within Trial Chambers corridors and chambers."
+        description: "Tuff Wall is a decorative wall block introduced in Minecraft 1.21, part of the comprehensive tuff block family added with the Trial Chambers update. Crafted from six tuff blocks arranged in a 2x3 horizontal grid, or created in a stonecutter from tuff blocks, tuff walls serve as both functional barriers and aesthetic architectural elements. Like all tuff variants, tuff walls feature the characteristic dark gray coloration with subtle textural variations. They connect seamlessly with other walls and can be placed without requiring a solid block beneath, making them perfect for creating railings, garden borders, and defensive perimeter structures. Tuff walls generate naturally within Trial Chambers corridors and chambers."
     }
 };
