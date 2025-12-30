@@ -179,6 +179,6 @@ export const blockIndex = [
         name: "Creaking Heart",
         category: "block",
         icon: "textures/blocks/creaking_heart",
-        themeColor: "§5" // dark purple
+        themeColor: "§6" // orange/gold (resin color)
     }
 ];
