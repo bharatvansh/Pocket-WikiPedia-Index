@@ -75,5 +75,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/vault",
         themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:crafter",
+        name: "Crafter",
+        category: "block",
+        icon: "textures/blocks/crafter",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:copper_bulb",
+        name: "Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/copper_bulb",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "block",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§8" // dark gray
     }
 ];

@@ -53,5 +53,44 @@ export const interactiveBlocks = {
             yRange: "-40 to -20"
         },
         description: "A vault is a unique reward container block introduced in Minecraft 1.21, found within Trial Chambers. When unlocked using a trial key obtained from defeating all mobs spawned by a nearby trial spawner, the vault ejects 3-6 items including valuable loot like armor trims, banner patterns, enchanted books, and the heavy core. Vaults emit light when active or ejecting items, and cannot be accelerated by any tool. As a permanent structure block, it cannot be obtained by players."
+    },
+    "minecraft:crafter": {
+        id: "minecraft:crafter",
+        name: "Crafter",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Crafter"],
+        generation: null,
+        description: "The crafter is a revolutionary redstone block introduced in Minecraft 1.21 that enables automatic crafting in vanilla Minecraft for the first time. It features a 3x3 crafting grid that can be filled using hoppers or other droppers. When powered by a redstone signal, the crafter attempts to craft the recipe based on the ingredients in its grid and outputs the result. Comparators can detect when crafting is complete. This block is essential for automated farms, iron golem farms, and any redstone build requiring self-sustaining crafting operations."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        hardness: 10,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Heavy Core"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-40 to -20"
+        },
+        description: "The heavy core is a rare decorative and crafting block introduced in Minecraft 1.21, obtainable exclusively from ominous vaults within Trial Chambers. It has an approximately 7.5% chance to drop from ominous vaults when opened with an ominous trial key. The heavy core's primary use is crafting the mace, a powerful new weapon created by combining it with a breeze rod. The block is waterloggable and transparent, making it suitable for unique decorative builds. While it can be mined with any tool, a pickaxe is the fastest option. As a rare reward block, it serves as a prestigious milestone for players exploring the dangerous depths of Trial Chambers."
     }
 };
