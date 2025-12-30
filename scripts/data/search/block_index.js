@@ -117,5 +117,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "block",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:pale_hanging_moss",
+        name: "Pale Hanging Moss",
+        category: "block",
+        icon: "textures/blocks/pale_hanging_moss",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chiseled_tuff",
+        name: "Chiseled Tuff",
+        category: "block",
+        icon: "textures/blocks/chiseled_tuff",
+        themeColor: "§7" // gray
     }
 ];

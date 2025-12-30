@@ -52,5 +52,26 @@ export const stoneBlocks = {
             yRange: "-64 to 8"
         },
         description: "Deepslate is a harder variant of stone found in the deepest layers of the Overworld. It generates below Y-level 0 and becomes more common below Y-level -8. Deepslate takes twice as long to mine as stone and has a distinctive dark gray appearance with subtle cracks."
+    },
+    "minecraft:chiseled_tuff": {
+        id: "minecraft:chiseled_tuff",
+        name: "Chiseled Tuff",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Tuff"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Chiseled Tuff is a decorative stone variant introduced in Minecraft 1.21, carved with intricate patterns resembling the trial chamber motifs. It can be crafted from two tuff slab blocks placed vertically in a crafting grid or created in a stonecutter from a single tuff block. Chiseled Tuff shares the same hardness and blast resistance as regular tuff while providing builders with a uniquely patterned block for detailed architectural work. It generates naturally as part of Trial Chamber structures and is part of the expanded tuff block family that includes stairs, slabs, walls, and bricks variants."
     }
 };
