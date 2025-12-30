@@ -91,6 +91,27 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:copper_door",
+        name: "Copper Door",
+        category: "block",
+        icon: "textures/blocks/copper_door_top",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:copper_trapdoor",
+        name: "Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/copper_trapdoor",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:copper_grate",
+        name: "Copper Grate",
+        category: "block",
+        icon: "textures/blocks/copper_grate",
+        themeColor: "§6" // copper/orange
+    },
+    {
         id: "minecraft:tuff_bricks",
         name: "Tuff Bricks",
         category: "block",
