@@ -87,10 +87,7 @@ export const interactiveBlocks = {
             silkTouch: true
         },
         drops: ["Heavy Core"],
-        generation: {
-            dimension: "Overworld",
-            yRange: "-40 to -20"
-        },
+        generation: null,
         description: "The heavy core is a rare decorative and crafting block introduced in Minecraft 1.21, obtainable exclusively from ominous vaults within Trial Chambers. It has an approximately 7.5% chance to drop from ominous vaults when opened with an ominous trial key. The heavy core's primary use is crafting the mace, a powerful new weapon created by combining it with a breeze rod. The block is waterloggable and transparent, making it suitable for unique decorative builds. In Bedrock Edition, the heavy core strictly requires a pickaxe to drop as an item and cannot be obtained by hand. As a rare reward block, it serves as a prestigious milestone for players exploring the dangerous depths of Trial Chambers."
     }
 };
