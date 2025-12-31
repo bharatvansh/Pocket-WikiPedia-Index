@@ -103,5 +103,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/breeze_rod",
         themeColor: "§b" // wind/cyan
+    },
+    {
+        id: "minecraft:bolt_armor_trim_smithing_template",
+        name: "Bolt Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/bolt_armor_trim_smithing_template",
+        themeColor: "§6" // copper
+    },
+    {
+        id: "minecraft:music_disc_creator",
+        name: "Music Disc (Creator)",
+        category: "item",
+        icon: "textures/items/music_disc_creator",
+        themeColor: "§a" // green
     }
 ];
