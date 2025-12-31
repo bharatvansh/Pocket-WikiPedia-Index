@@ -27,7 +27,7 @@ export const smithingTemplates = {
         },
         specialNotes: [
             "Found exclusively in Trial Chambers inside Vaults",
-            "Has a 6.2% chance to drop when opening a Vault with a Trial Key in Bedrock Edition",
+            "Has a 5.4% chance to drop when opening a Vault with a Trial Key in Bedrock Edition",
             "Consists of a copper-themed pattern that adds bolts to armor pieces",
             "Requires a trim material (e.g., Copper Ingot, Iron Ingot, Quartz) to apply the color"
         ],
