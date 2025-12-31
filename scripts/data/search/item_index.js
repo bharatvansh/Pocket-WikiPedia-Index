@@ -75,5 +75,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/ominous_trial_key",
         themeColor: "§5" // ominous purple
+    },
+    {
+        id: "minecraft:mace",
+        name: "Mace",
+        category: "item",
+        icon: "textures/items/mace",
+        themeColor: "§6" // copper/brown
+    },
+    {
+        id: "minecraft:ominous_bottle",
+        name: "Ominous Bottle",
+        category: "item",
+        icon: "textures/items/ominous_bottle",
+        themeColor: "§5" // ominous purple
     }
 ];

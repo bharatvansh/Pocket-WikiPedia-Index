@@ -32,5 +32,35 @@ export const swords = {
             "Can receive Sharpness, Smite, or Bane of Arthropods"
         ],
         description: "The Iron Sword is a versatile weapon that deals moderate damage. It's more durable than wooden or stone swords but less powerful than diamond or netherite swords. Iron swords can be enchanted with various combat-related enchantments."
+    },
+    "minecraft:mace": {
+        id: "minecraft:mace",
+        name: "Mace",
+        maxStack: 1,
+        durability: 500,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat with powerful smash attacks",
+            secondaryUse: "Dealing massive damage while falling from heights"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0.8
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Heavy Core", "Breeze Rod"]
+        },
+        specialNotes: [
+            "Smash attack triggers when falling more than 1.5 blocks before hitting",
+            "Smash attack damage increases with fall distance, dealing up to 18+ damage",
+            "Smash attack negates all fall damage for the attacker",
+            "Attack speed is slower than swords (0.8 vs 1.6)",
+            "Can be enchanted with Density, Breach, and Wind Charge",
+            "Density increases damage based on armor of target",
+            "Breach bypasses some of target's armor",
+            "Wind Charge launches the attacker into the air on hit"
+        ],
+        description: "The Mace is a powerful melee weapon introduced in Minecraft 1.21 as part of the Tricky Trials update. Crafted from a Heavy Core (obtained from Ominous Vaults) and a Breeze Rod (dropped by Breezes), this weapon features a unique smash attack mechanic. When a player falls more than 1.5 blocks and hits an enemy with the Mace, the smash attack triggers, dealing damage that scales with fall distance while completely negating fall damage. This makes the Mace exceptionally deadly for aerial combat and strategic positioning, especially when combined with its specialized enchantments like Density, Breach, and Wind Charge."
     }
 };
