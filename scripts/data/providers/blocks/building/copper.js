@@ -24,14 +24,14 @@ export const copperBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Stone",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Copper Bulb"],
         generation: {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "The Copper Bulb is a unique lighting block introduced in Minecraft 1.21 that dynamically adjusts its light output based on its oxidation state. A fresh copper bulb emits light level 15, decreasing to 12 for exposed, 8 for weathered, and 4 for oxidized variants. The bulb toggles between on and off states when it receives a redstone pulse. Copper bulbs can be crafted from three copper blocks of matching oxidation level, a blaze rod, and redstone dust, yielding four bulbs. They generate naturally within Trial Chambers and can be waxed with honeycomb to prevent further oxidation. The distinctive toggling behavior makes them ideal for redstone contraptions and decorative lighting systems."
+        description: "The Copper Bulb is a unique lighting block introduced in Minecraft 1.21 that dynamically adjusts its light output based on its oxidation state. A fresh copper bulb emits light level 15, decreasing to 12 for exposed, 8 for weathered, and 4 for oxidized variants. The bulb toggles between on and off states when it receives a redstone pulse. Copper bulbs can be crafted from three copper blocks of matching oxidation level, a blaze rod, and redstone dust, yielding four bulbs. They generate naturally within Trial Chambers and can be waxed with honeycomb to prevent further oxidation. The distinctive toggling behavior makes them ideal for redstone contraptions and decorative lighting systems. When mined with a stone pickaxe or higher, copper bulbs drop themselves without requiring Silk Touch."
     },
     "minecraft:copper_door": {
         id: "minecraft:copper_door",
@@ -192,13 +192,13 @@ export const copperBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Stone",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Oxidized Copper Bulb"],
         generation: {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "The Oxidized Copper Bulb is the final oxidation stage of the copper bulb family in Minecraft 1.21+, representing fully aged copper with an elegant green patina. This variant emits the lowest light level of the copper bulb family at level 4, creating a soft, ambient glow perfect for atmospheric lighting in ancient or weathered builds. Like other copper bulbs, it toggles between on and off states when receiving a redstone pulse, maintaining its unique redstone functionality throughout the oxidation process. Oxidized copper bulbs craft identically to fresh copper bulbs but either start as oxidized or oxidize naturally over time. Found in Trial Chambers, these blocks represent the most weathered copper bulbs in the game world. Players can wax oxidized copper bulbs with honeycomb to prevent further changes and preserve their distinctive teal-green appearance. While providing the dimmest illumination, they offer the most character for builders seeking authentic aged aesthetics in their redstone contraptions and decorative lighting systems."
+        description: "The Oxidized Copper Bulb is the final oxidation stage of the copper bulb family in Minecraft 1.21+, representing fully aged copper with an elegant green patina. This variant emits the lowest light level of the copper bulb family at level 4, creating a soft, ambient glow perfect for atmospheric lighting in ancient or weathered builds. Like other copper bulbs, it toggles between on and off states when receiving a redstone pulse, maintaining its unique redstone functionality throughout the oxidation process. Oxidized copper bulbs craft identically to fresh copper bulbs but either start as oxidized or oxidize naturally over time. Found in Trial Chambers, these blocks represent the most weathered copper bulbs in the game world. Players can wax oxidized copper bulbs with honeycomb to prevent further changes and preserve their distinctive teal-green appearance. While providing the dimmest illumination, they offer the most character for builders seeking authentic aged aesthetics in their redstone contraptions and decorative lighting systems. When mined with a stone pickaxe or higher, oxidized copper bulbs drop themselves without requiring Silk Touch."
     }
 };
