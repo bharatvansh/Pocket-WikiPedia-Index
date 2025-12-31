@@ -36,5 +36,26 @@ export const vegetationBlocks = {
             yRange: "Pale Garden biome"
         },
         description: "Pale Hanging Moss is a distinctive gray vegetation block that naturally grows underneath Pale Oak Leaves in the Pale Garden biome, introduced in Minecraft Bedrock Edition 1.21.50. This atmospheric moss creates curtains of gray tendrils that hang from the pale oak trees, contributing to the eerie ambiance of the biome. The moss emits unique ambient sounds and can be collected using shears. Like other moss variants, it adds visual depth to the mysterious Pale Garden, which is home to the elusive Creaking mob. Pale Hanging Moss cannot be crafted and must be obtained directly from Pale Garden biomes."
+    },
+    "minecraft:pale_moss_block": {
+        id: "minecraft:pale_moss_block",
+        name: "Pale Moss Block",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Moss Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "The Pale Moss Block is a pale, grayish variant of the moss block introduced in Minecraft 1.21.50, found exclusively in the eerie Pale Garden biome. It covers much of the ground in this biome and can be used with bone meal to spread it onto other blocks like stone and deepslate, converting them into pale moss. While it can be broken instantly by hand, using a hoe is the most efficient way to mine it. Pale moss blocks are essential for the natural generation of Pale Hanging Moss and Eyeblossoms, and they serve as a unique decorative block for creating muted, atmospheric landscapes or aged-looking structures."
     }
 };

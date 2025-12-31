@@ -118,6 +118,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The Creaking Heart is a unique passive mob spawner introduced in Minecraft Bedrock Edition 1.21.50, found exclusively in Pale Garden biomes. This ethereal, pulsing block is the source of the Creaking mob, a hostile block-like creature that activates when it detects a player within its line of sight. The Creaking Heart must be placed between two vertically aligned Pale Oak Logs to function properly and spawn Creakings. When in low-light conditions, the heart pulses with a glowing orange color and summons Creakings to defend its position. This block adds a new layer of atmospheric horror to Minecraft, encouraging players to approach Pale Garden structures with caution and awareness of sightlines."
     },
+    "minecraft:resin_block": {
+        id: "minecraft:resin_block",
+        name: "Block of Resin",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Block of Resin"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Block of Resin is a vibrant, solid orange block introduced in Minecraft Bedrock Edition 1.21.50, crafted by combining nine resin clumps in a 3x3 grid. Resin clumps are a unique resource obtained from the Creaking Heart when it is attacked or when a Creaking mob is struck while linked to its heart. This block can be used for decoration or further crafted into resin bricks for a more refined architectural look. Significantly, the Block of Resin is a critical component in the creation of a Creaking Heart, which is crafted using one Block of Resin and two Pale Oak Logs, allowing players to spawn and control the mysterious Creaking mob in their own builds."
+    },
     "minecraft:copper_bars": {
         id: "minecraft:copper_bars",
         name: "Copper Bars",
