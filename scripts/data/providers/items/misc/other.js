@@ -66,5 +66,47 @@ export const miscItems = {
             "Repairable with Phantom Membranes or Mending enchantment"
         ],
         description: "Elytra are rare wings found exclusively in End Ships within End Cities. They allow the player to glide through the air and, when combined with firework rockets, enable powerful flight capabilities. Elytra are one of the most sought-after items in the game, providing unparalleled mobility for exploration and travel."
+    },
+    "minecraft:trial_key": {
+        id: "minecraft:trial_key",
+        name: "Trial Key",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Unlocking a Vault in a Trial Chamber",
+            secondaryUse: "Claiming loot rewards from Trial Chamber challenges"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Trial Spawners and some other containers in Trial Chambers"]
+        },
+        specialNotes: [
+            "Consumed when used to unlock a Vault",
+            "Each Vault can be unlocked only once per player",
+            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
+        ],
+        description: "The Trial Key is a reward item tied to the Trial Chambers in Minecraft Bedrock Edition. It is used on a Vault to claim its loot, with the vault tracking which players have already opened it so each player can only unlock it once. Trial Keys are primarily earned from Trial Spawners after completing their combat waves, and can also appear in other Trial Chamber containers."
+    },
+    "minecraft:ominous_trial_key": {
+        id: "minecraft:ominous_trial_key",
+        name: "Ominous Trial Key",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Unlocking an Ominous Vault in a Trial Chamber",
+            secondaryUse: "Accessing higher-tier Trial Chamber loot during ominous trials"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained only from Ominous Trial Spawners"]
+        },
+        specialNotes: [
+            "Consumed when used to unlock an Ominous Vault",
+            "Ominous Trial Spawners are created when a player carrying the Trial Omen effect activates a Trial Spawner",
+            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
+        ],
+        description: "The Ominous Trial Key is an upgraded form of the Trial Key used to open Ominous Vaults in Trial Chambers. These vaults provide significantly better loot, but the key is only obtainable from Ominous Trial Spawners during an ominous trial. Like normal vaults, an Ominous Vault can only be unlocked once per player, and the key is consumed on use."
     }
 };
