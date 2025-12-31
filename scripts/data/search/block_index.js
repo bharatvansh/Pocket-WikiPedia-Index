@@ -194,5 +194,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/creaking_heart",
         themeColor: "§6" // orange/gold (resin color)
+    },
+    {
+        id: "minecraft:copper_lantern",
+        name: "Copper Lantern",
+        category: "block",
+        icon: "textures/blocks/copper_lantern",
+        themeColor: "§a" // green/copper
+    },
+    {
+        id: "minecraft:copper_bars",
+        name: "Copper Bars",
+        category: "block",
+        icon: "textures/blocks/copper_bars",
+        themeColor: "§6" // copper/orange
     }
 ];

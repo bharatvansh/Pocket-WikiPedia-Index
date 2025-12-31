@@ -117,5 +117,26 @@ export const miscDecorativeBlocks = {
             yRange: "Pale Garden biome"
         },
         description: "The Creaking Heart is a unique passive mob spawner introduced in Minecraft Bedrock Edition 1.21.50, found exclusively in Pale Garden biomes. This ethereal, pulsing block is the source of the Creaking mob, a hostile block-like creature that activates when it detects a player within its line of sight. The Creaking Heart must be placed between two vertically aligned Pale Oak Logs to function properly and spawn Creakings. When in low-light conditions, the heart pulses with a glowing orange color and summons Creakings to defend its position. This block adds a new layer of atmospheric horror to Minecraft, encouraging players to approach Pale Garden structures with caution and awareness of sightlines."
+    },
+    "minecraft:copper_bars": {
+        id: "minecraft:copper_bars",
+        name: "Copper Bars",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Copper Bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Copper Bars are a decorative fencing block introduced in Minecraft Bedrock Edition 1.21.110 as part of The Copper Age update. Functionally identical to iron bars, copper bars form transparent barriers that players and mobs can pass through, making them ideal for windows, cages, and architectural details. Copper bars possess a hardness of 5.0 and blast resistance of 6.0, requiring at least a wooden pickaxe to mine efficiently. Like other copper blocks, copper bars undergo oxidation over time, progressing through four distinct stages: unoxidized, exposed, weathered, and oxidized. The oxidation process gradually transforms the bars from bright orange-copper to teal-green, allowing for creative aging effects in builds. Players can wax copper bars with honeycomb to preserve their current oxidation state indefinitely. Lightning strikes and axes can scrape away oxidation, allowing players to revert bars to earlier stages. Copper bars can connect to solid blocks and other bars, creating complex window patterns, jail cell designs, or decorative screens while providing the aesthetic appeal of copper's natural aging process."
     }
 };
