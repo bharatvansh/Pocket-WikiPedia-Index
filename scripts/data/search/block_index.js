@@ -140,6 +140,20 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:pale_moss_block",
+        name: "Pale Moss Block",
+        category: "block",
+        icon: "textures/blocks/pale_moss_block",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:resin_block",
+        name: "Block of Resin",
+        category: "block",
+        icon: "textures/blocks/resin_block",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:chiseled_tuff",
         name: "Chiseled Tuff",
         category: "block",
