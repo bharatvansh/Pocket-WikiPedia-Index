@@ -228,7 +228,7 @@ export const blockIndex = [
         name: "Exposed Copper Grate",
         category: "block",
         icon: "textures/blocks/exposed_copper_grate",
-        themeColor: "§b" // teal
+        themeColor: "§6" // gold/brownish copper
     },
     {
         id: "minecraft:weathered_copper_grate",
