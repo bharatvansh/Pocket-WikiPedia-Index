@@ -117,5 +117,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_creator",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:flow_armor_trim_smithing_template",
+        name: "Flow Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/flow_armor_trim_smithing_template",
+        themeColor: "§b" // aqua/wind
     }
 ];
