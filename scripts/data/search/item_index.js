@@ -89,5 +89,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/ominous_bottle",
         themeColor: "§5" // ominous purple
+    },
+    {
+        id: "minecraft:wind_charge",
+        name: "Wind Charge",
+        category: "item",
+        icon: "textures/items/wind_charge",
+        themeColor: "§b" // wind/cyan
+    },
+    {
+        id: "minecraft:breeze_rod",
+        name: "Breeze Rod",
+        category: "item",
+        icon: "textures/items/breeze_rod",
+        themeColor: "§b" // wind/cyan
     }
 ];
