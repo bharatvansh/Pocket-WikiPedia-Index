@@ -61,5 +61,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/elytra",
         themeColor: "§e" // light gray/white
+    },
+    {
+        id: "minecraft:trial_key",
+        name: "Trial Key",
+        category: "item",
+        icon: "textures/items/trial_key",
+        themeColor: "§6" // copper/gold
+    },
+    {
+        id: "minecraft:ominous_trial_key",
+        name: "Ominous Trial Key",
+        category: "item",
+        icon: "textures/items/ominous_trial_key",
+        themeColor: "§5" // ominous purple
     }
 ];
