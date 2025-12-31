@@ -158,5 +158,47 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Weathered Copper Grate represents the second oxidation stage of the copper grate family introduced in Minecraft 1.21, featuring a rich blue-green color that indicates advanced oxidation. This intermediate stage between exposed and fully oxidized copper provides builders with a sophisticated aesthetic choice for aged structures, ancient ruins, or weathered industrial designs. Weathered copper grates share the same transparent properties and decorative functionality as their less-oxidized counterparts, making them perfect for railings, ventilation systems, and architectural details in builds requiring a time-worn appearance. These blocks can be found naturally in Trial Chambers corridors, crafted through the copper oxidation process, or created by allowing exposed copper grates to continue oxidizing. Like other copper blocks, weathered copper grates can be waxed with honeycomb to permanently preserve their current blue-green color, or scraped back to exposed or unoxidized states using an axe. This flexibility allows builders to create oxidation gradients and achieve precise aging effects in their constructions."
+    },
+    "minecraft:oxidized_copper_grate": {
+        id: "minecraft:oxidized_copper_grate",
+        name: "Oxidized Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Copper Grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Oxidized Copper Grate is the final oxidation stage of the copper grate family in Minecraft 1.21+, representing fully aged copper with a rich green patina. This teal-green block reaches the end of the natural oxidation process, providing builders with the most weathered and ancient appearance among copper variants. Oxidized copper grates maintain the same transparent properties and decorative functionality as their less-oxidized counterparts, making them perfect for creating aged industrial structures, ancient ruins, or mystical underground facilities. Found naturally in Trial Chambers corridors, these blocks represent the longest-exposed copper grates in the game world. Players can wax oxidized copper grates with honeycomb to permanently preserve their distinctive green color and prevent any further changes. The block can also be scraped with an axe to revert it to weathered copper grate, allowing builders creative control over the oxidation timeline for achieving precise aging effects in their constructions."
+    },
+    "minecraft:oxidized_copper_bulb": {
+        id: "minecraft:oxidized_copper_bulb",
+        name: "Oxidized Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 4,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Oxidized Copper Bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Oxidized Copper Bulb is the final oxidation stage of the copper bulb family in Minecraft 1.21+, representing fully aged copper with an elegant green patina. This variant emits the lowest light level of the copper bulb family at level 4, creating a soft, ambient glow perfect for atmospheric lighting in ancient or weathered builds. Like other copper bulbs, it toggles between on and off states when receiving a redstone pulse, maintaining its unique redstone functionality throughout the oxidation process. Oxidized copper bulbs craft identically to fresh copper bulbs but either start as oxidized or oxidize naturally over time. Found in Trial Chambers, these blocks represent the most weathered copper bulbs in the game world. Players can wax oxidized copper bulbs with honeycomb to prevent further changes and preserve their distinctive teal-green appearance. While providing the dimmest illumination, they offer the most character for builders seeking authentic aged aesthetics in their redstone contraptions and decorative lighting systems."
     }
 };

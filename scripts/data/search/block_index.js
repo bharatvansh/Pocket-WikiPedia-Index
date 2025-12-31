@@ -236,5 +236,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/weathered_copper_grate",
         themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:oxidized_copper_grate",
+        name: "Oxidized Copper Grate",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_grate",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
+        id: "minecraft:oxidized_copper_bulb",
+        name: "Oxidized Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_bulb",
+        themeColor: "§2" // dark green (fully oxidized)
     }
 ];
