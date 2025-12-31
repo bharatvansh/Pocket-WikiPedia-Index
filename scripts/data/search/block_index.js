@@ -119,6 +119,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:chiseled_tuff_bricks",
+        name: "Chiseled Tuff Bricks",
+        category: "block",
+        icon: "textures/blocks/chiseled_tuff_bricks",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:heavy_core",
         name: "Heavy Core",
         category: "block",
@@ -144,6 +151,13 @@ export const blockIndex = [
         name: "Polished Tuff",
         category: "block",
         icon: "textures/blocks/polished_tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_tuff_stairs",
+        name: "Polished Tuff Stairs",
+        category: "block",
+        icon: "textures/blocks/polished_tuff_stairs",
         themeColor: "§7" // gray
     },
     {
