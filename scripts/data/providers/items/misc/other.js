@@ -1,10 +1,10 @@
 // Pocket Wikipedia Foundation - Other Miscellaneous Items Data
 // ============================================
 // This file contains: Name tag, saddle, horse armor (all types),
-// wolf armor, lead, trial key, ominous trial key, written book,
-// book and quill, enchanted book, knowledge book, bundle,
-// goat horn (all variants), painting, item frame, glow item frame,
-// armor stand, end crystal, experience bottle, firework star
+// lead, trial key, ominous trial key, written book, book and quill,
+// enchanted book, knowledge book, bundle, goat horn (all variants),
+// painting, item frame, glow item frame, armor stand, end crystal,
+// experience bottle, firework star, wolf armor
 // ============================================
 
 /**
@@ -37,7 +37,7 @@ export const miscItems = {
             "Can be decorated with banner patterns",
             "Enchantable with Unbreaking and Mending"
         ],
-        description: "The Shield is a defensive tool that can block incoming melee attacks and projectiles. When raised by crouching or using the secondary action button, it reduces incoming damage to zero. Shields can be customized with banner patterns and enhanced with enchantments for increased durability."
+        description: "The Shield is a defensive tool that can block incoming melee attacks and projectiles. When raised by crouching or using secondary action button, it reduces incoming damage to zero. Shields can be customized with banner patterns and enhanced with enchantments for increased durability."
     },
     "minecraft:elytra": {
         id: "minecraft:elytra",
@@ -46,7 +46,7 @@ export const miscItems = {
         durability: 432,
         enchantable: true,
         usage: {
-            primaryUse: "Gliding through the air",
+            primaryUse: "Gliding through air",
             secondaryUse: "Fast travel with fireworks"
         },
         combat: {
@@ -86,7 +86,7 @@ export const miscItems = {
             "Each Vault can be unlocked only once per player",
             "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
         ],
-        description: "The Trial Key is a reward item tied to the Trial Chambers in Minecraft Bedrock Edition. It is used on a Vault to claim its loot, with the vault tracking which players have already opened it so each player can only unlock it once. Trial Keys are primarily earned from Trial Spawners after completing their combat waves, and can also appear in other Trial Chamber containers."
+        description: "The Trial Key is a reward item tied to Trial Chambers in Minecraft Bedrock Edition. It is used on a Vault to claim its loot, with the vault tracking which players have already opened it so each player can only unlock it once. Trial Keys are primarily earned from Trial Spawners after completing their combat waves, and can also appear in other Trial Chamber containers."
     },
     "minecraft:ominous_trial_key": {
         id: "minecraft:ominous_trial_key",
@@ -108,5 +108,29 @@ export const miscItems = {
             "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
         ],
         description: "The Ominous Trial Key is an upgraded form of the Trial Key used to open Ominous Vaults in Trial Chambers. These vaults provide significantly better loot, but the key is only obtainable from Ominous Trial Spawners during an ominous trial. Like normal vaults, an Ominous Vault can only be unlocked once per player, and the key is consumed on use."
+    },
+    "minecraft:wolf_armor": {
+        id: "minecraft:wolf_armor",
+        name: "Wolf Armor",
+        maxStack: 1,
+        durability: 64,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on tamed wolves to provide damage protection",
+            secondaryUse: "Can be repaired with additional armadillo scutes"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Armadillo Scute x6"]
+        },
+        specialNotes: [
+            "Provides 11 armor points when equipped (equivalent to a full set of iron armor)",
+            "Can only be equipped on tamed wolves",
+            "Reduces damage taken by wolves significantly",
+            "Has 64 durability and breaks when depleted",
+            "Can be repaired using armadillo scutes in crafting grid or by using directly on wolf (restores 8 durability)",
+            "Two damaged wolf armors can be combined in crafting grid to repair"
+        ],
+        description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing iron armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
     }
 };

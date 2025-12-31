@@ -35,5 +35,28 @@ export const mobDrops = {
             "Required to craft the Mace when combined with a Heavy Core"
         ],
         description: "The Breeze Rod is a unique item dropped exclusively by Breezes in Trial Chambers. Similar to Blaze Rods, they serve as a fundamental crafting component for specialized items introduced in the 1.21 Tricky Trials update. A single Breeze Rod can be broken down into four Wind Charges or combined with a Heavy Core to create the powerful Mace weapon. Beyond crafting, Breeze Rods are essential for maintaining a Mace's durability at an anvil and can be used to duplicate the rare Flow Armor Trim smithing template."
+    },
+    "minecraft:armadillo_scute": {
+        id: "minecraft:armadillo_scute",
+        name: "Armadillo Scute",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Wolf Armor to protect tamed wolves",
+            secondaryUse: "Repairing damaged Wolf Armor"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Armadillo Scute x6"]
+        },
+        specialNotes: [
+            "Dropped by armadillos every 5-10 minutes naturally",
+            "Can also be obtained by brushing armadillos with a Brush",
+            "Armadillos roll up when approached and must be unrolled to brush them",
+            "Required to craft Wolf Armor, which provides wolves with 11 armor points",
+            "Using an armadillo scute on a wolf wearing damaged armor repairs 8 durability points"
+        ],
+        description: "Armadillo Scutes are protective plating materials introduced in Minecraft 1.21, dropped periodically by armadillos or obtained by brushing them. These scutes are exclusively used to craft Wolf Armor, a new defensive equipment that can be equipped on tamed wolves to significantly increase their survivability. When wolves wear Wolf Armor, they gain substantial protection from damage, and the armor can be repaired by using additional armadillo scutes directly on the armored wolf. The armadillo's unique behavior of curling into a ball when threatened adds an engaging mechanic to obtaining these valuable scutes."
     }
 };
