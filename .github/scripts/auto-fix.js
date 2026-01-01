@@ -29,6 +29,24 @@ function parseArgs() {
 }
 
 /**
+ * Recursively find all .js files in a directory
+ */
+function findJsFilesRecursive(dir, files = []) {
+    if (!fs.existsSync(dir)) return files;
+
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+            findJsFilesRecursive(fullPath, files);
+        } else if (entry.name.endsWith('.js') && entry.name !== 'index.js') {
+            files.push(fullPath);
+        }
+    }
+    return files;
+}
+
+/**
  * Find the source file containing a specific item ID
  */
 function findSourceFile(itemId, dataDir) {
@@ -38,10 +56,10 @@ function findSourceFile(itemId, dataDir) {
         const categoryDir = path.join(dataDir, 'providers', category);
         if (!fs.existsSync(categoryDir)) continue;
 
-        const files = fs.readdirSync(categoryDir).filter(f => f.endsWith('.js') && f !== 'index.js');
+        // Recursively find all JS files in this category
+        const files = findJsFilesRecursive(categoryDir);
 
-        for (const file of files) {
-            const filePath = path.join(categoryDir, file);
+        for (const filePath of files) {
             const content = fs.readFileSync(filePath, 'utf8');
 
             // Check if this file contains the item ID
