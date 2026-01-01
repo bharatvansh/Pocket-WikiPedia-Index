@@ -10,6 +10,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const bannerPatterns = {
+    "minecraft:flow_banner_pattern": {
+        id: "minecraft:flow_banner_pattern",
+        name: "Flow Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Flow' pattern to a banner in a Loom",
+            secondaryUse: "Creating banners with a distinctive spiral motif for decoration or wayfinding"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained as loot from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Has a 4.4% chance to appear in Ominous Vaults in Bedrock Edition",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Cannot be crafted and is not renewable outside of repeatedly opening Ominous Vaults",
+            "Added in the 1.21 Tricky Trials update",
+            "Used in a Loom with a banner and any color dye"
+        ],
+        description: "The Flow Banner Pattern is a rare banner pattern introduced in Minecraft Bedrock Edition 1.21 as part of the Tricky Trials update. Found in Trial Chambers as loot from Ominous Vaults, it lets players apply a swirling spiral design to banners using a Loom. Because the pattern is not consumed when used, a single Flow Banner Pattern can be reused indefinitely, making it a valuable decorative unlock for bases, towns, and map markers."
+    },
     "minecraft:guster_banner_pattern": {
         id: "minecraft:guster_banner_pattern",
         name: "Guster Banner Pattern",

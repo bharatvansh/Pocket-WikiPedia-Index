@@ -119,6 +119,13 @@ export const itemIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:music_disc_creator_music_box",
+        name: "Music Disc (Creator (Music Box))",
+        category: "item",
+        icon: "textures/items/music_disc_creator_music_box",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:armadillo_scute",
         name: "Armadillo Scute",
         category: "item",
@@ -151,6 +158,13 @@ export const itemIndex = [
         name: "Music Disc (Precipice)",
         category: "item",
         icon: "textures/items/music_disc_precipice",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:flow_banner_pattern",
+        name: "Flow Banner Pattern",
+        category: "item",
+        icon: "textures/items/flow_banner_pattern",
         themeColor: "§b" // aqua
     },
     {
