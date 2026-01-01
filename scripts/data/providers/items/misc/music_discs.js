@@ -33,6 +33,29 @@ export const musicDiscs = {
         ],
         description: "'Creator' is a music disc composed by Lena Raine, specifically created for the 1.21 Tricky Trials update. This track features an upbeat, melodic, and somewhat industrial sound that perfectly complements the copper-rich architecture of the Trial Chambers where it is discovered. Unlike many other music discs that can be obtained from Creepers killed by Skeletons, 'Creator' is exclusively available as a high-tier reward from Ominous Vaults. When played in a Jukebox, it provides a redstone output of 12 to any adjacent Comparators."
     },
+    "minecraft:music_disc_creator_music_box": {
+        id: "minecraft:music_disc_creator_music_box",
+        name: "Music Disc (Creator (Music Box))",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Creator (Music Box)' track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained as a rare drop from decorated pots in Trial Chambers"]
+        },
+        specialNotes: [
+            "Composed by Lena Raine",
+            "A shorter music-box rendition of the 'Creator' track",
+            "Has a 1.4% chance to be found in Trial Chamber corridor pots",
+            "Added in the 1.21 Tricky Trials update",
+            "In Bedrock Edition, its rarity is officially classified as 'Uncommon'"
+        ],
+        description: "'Creator (Music Box)' is a variant music disc composed by Lena Raine that plays a short, delicate music-box version of the main 'Creator' track. In Bedrock Edition, it is obtained as a rare reward from decorated pots generated in Trial Chambers, making it distinct from vault-exclusive discs. When played in a Jukebox, it outputs a Comparator signal strength of 11, which can be used to differentiate it from other discs in redstone builds. For collectors, it offers a unique way to bring the Trial Chambers soundtrack into a base without relying on Vault loot."
+    },
     "minecraft:music_disc_precipice": {
         id: "minecraft:music_disc_precipice",
         name: "Music Disc (Precipice)",
