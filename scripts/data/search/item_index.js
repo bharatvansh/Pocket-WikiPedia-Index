@@ -348,5 +348,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/disc_fragment_5",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:phantom_membrane",
+        name: "Phantom Membrane",
+        category: "item",
+        icon: "textures/items/phantom_membrane",
+        themeColor: "§f" // white/light
+    },
+    {
+        id: "minecraft:turtle_scute",
+        name: "Turtle Scute",
+        category: "item",
+        icon: "textures/items/turtle_scute",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dragon_breath",
+        name: "Dragon's Breath",
+        category: "item",
+        icon: "textures/items/dragons_breath",
+        themeColor: "§d" // pink/purple
     }
 ];

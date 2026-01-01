@@ -13,6 +13,77 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const mobDrops = {
+    "minecraft:phantom_membrane": {
+        id: "minecraft:phantom_membrane",
+        name: "Phantom Membrane",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Repairing Elytra",
+            secondaryUse: "Brewing Potion of Slow Falling"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Phantoms", "Cat gifts"]
+        },
+        specialNotes: [
+            "Phantoms drop 0-1 membranes when killed by a player",
+            "Looting enchantment increases the maximum drop by 1 per level",
+            "Cats have a 3.22% chance to bring a phantom membrane as a morning gift",
+            "Repairing an Elytra with a membrane restores 108 durability points (25% of total)",
+            "Brewing ingredient for Potion of Slow Falling (Awkward Potion + Phantom Membrane)"
+        ],
+        description: "The Phantom Membrane is a skin-like material dropped by Phantoms, the flying hostile mobs that attack players who haven't slept for three in-game days. It serves two primary functions: it is the only item capable of repairing Elytra in an anvil, and it is the essential ingredient for brewing Potions of Slow Falling. Since Phantoms only spawn under specific conditions, obtaining membranes requires players to deliberately avoid sleep and engage in night combat. Cats may also occasionally gift them to their owners."
+    },
+    "minecraft:turtle_scute": {
+        id: "minecraft:turtle_scute",
+        name: "Turtle Scute",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Turtle Shells",
+            secondaryUse: "Repairing Turtle Shells"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by baby turtles when they grow up"]
+        },
+        specialNotes: [
+            "Dropped by baby turtles when they mature into adults (1 scute per turtle)",
+            "Not dropped if the baby turtle is killed",
+            "5 Turtle Scutes are required to craft a Turtle Shell helmet",
+            "Can be used to repair Turtle Shells in an anvil",
+            "Used to brew Potion of the Turtle Master (Awkward Potion + Turtle Shell)",
+            "Renamed from 'Scute' to 'Turtle Scute' in Bedrock Edition 1.20.60 to distinguish from Armadillo Scutes"
+        ],
+        description: "Turtle Scutes are small, hard plates shed by baby turtles as they grow into adults. Unlike most mob drops which are obtained by killing, scutes are a reward for nurturing life; players must protect turtle eggs until they hatch and then wait for the babies to mature to collect them. Five scutes can be crafted into a Turtle Shell, a unique helmet that provides the Water Breathing effect. Additionally, Turtle Scutes (via the Turtle Shell) are the key to brewing the Potion of the Turtle Master, which grants high resistance at the cost of movement speed."
+    },
+    "minecraft:dragon_breath": {
+        id: "minecraft:dragon_breath",
+        name: "Dragon's Breath",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Lingering Potions",
+            secondaryUse: "Crafting Tipped Arrows (via Lingering Potions)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Collected from Ender Dragon's breath attack using a Glass Bottle"]
+        },
+        specialNotes: [
+            "Obtained by right-clicking (or using) a Glass Bottle on the purple breath clouds derived from the Ender Dragon's attack",
+            "Essential for creating Lingering Potions (Splash Potion + Dragon's Breath)",
+            "Lingering Potions create an area of effect cloud when thrown",
+            "Lingering Potions are required to craft Tipped Arrows in a crafting grid (8 arrows + 1 lingering potion)",
+            "The purple particle clouds from the dragon deal damage, so collection can be dangerous",
+            "Does not have a consumption animation like drinking potions"
+        ],
+        description: "Dragon's Breath is a rare brewing ingredient collected during the fight with the Ender Dragon. By using an empty glass bottle on the purple clouds of acid breath the dragon spits or the lingering clouds from its fireballs, players can bottle the substance. This item is critical for advanced alchemy, as it is used to convert Splash Potions into Lingering Potions. These lingering potions leave a cloud of the effect on the ground and can be used to craft Tipped Arrows, allowing players to utilize potion effects in ranged combat."
+    },
     "minecraft:breeze_rod": {
         id: "minecraft:breeze_rod",
         name: "Breeze Rod",
