@@ -273,10 +273,17 @@ export const blockIndex = [
         themeColor: "§e" // pale yellow
     },
     {
-        id: "minecraft:pale_moss_carpet",
-        name: "Pale Moss Carpet",
+        id: "minecraft:tuff_slab",
+        name: "Tuff Slab",
         category: "block",
-        icon: "textures/blocks/pale_moss_carpet",
+        icon: "textures/blocks/tuff_slab",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:calibrated_sculk_sensor",
+        name: "Calibrated Sculk Sensor",
+        category: "block",
+        icon: "textures/blocks/calibrated_sculk_sensor",
+        themeColor: "§d" // light purple (sculk theme)
     }
 ];
