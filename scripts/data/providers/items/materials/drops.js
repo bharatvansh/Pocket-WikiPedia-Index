@@ -111,5 +111,28 @@ export const mobDrops = {
             "Essential for potion brewing and accessing the End dimension"
         ],
         description: "Blaze Rods are essential Nether materials dropped exclusively by Blazes, the fiery hostile mobs that spawn in Nether fortresses. Each Blaze has a chance to drop 0-1 Blaze Rods upon death, with Looting III enchantment increasing the maximum drop to 4 rods in Bedrock Edition. These blazing-hot rods serve multiple critical functions in Minecraft progression: they are smelted into Blaze Powder, the fundamental ingredient for brewing potions and crafting Eyes of Ender. A single Blaze Rod produces two Blaze Powder, and rods can also be used directly as furnace fuel, smelting 12 items per rod. The Brewing Stand, essential for all potion brewing, requires one Blaze Rod and three stone-tier blocks to craft. Beyond brewing, Blaze Rods are direct crafting ingredients for End Rods, decorative light sources for End Cities, and Copper Bulbs, toggleable light sources introduced in the Tricky Trials update. Blaze Powder combines with Ender Pearls to create Eyes of Ender, which are necessary for locating and activating End Portals to access the End dimension and defeat the Ender Dragon. Without Blaze Rods, players cannot brew potions or reach the End, making them one of the most important progression items in the game."
+    },
+    "minecraft:nautilus_shell": {
+        id: "minecraft:nautilus_shell",
+        name: "Nautilus Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Conduits for underwater power",
+            secondaryUse: "Decorative item and trading resource"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from fishing", "Dropped by Drowned", "Purchased from Wandering Traders"]
+        },
+        specialNotes: [
+            "Can be caught as 'treasure' while fishing (1.2% chance with a regular rod)",
+            "Drowned have an 8% chance to spawn holding a shell in their off-hand; they always drop it upon death",
+            "Wandering Traders sell them for 5 Emeralds each",
+            "Essential for crafting Conduits (8 Nautilus Shells + 1 Heart of the Sea)",
+            "Unlike some other shells, it cannot be placed as a block"
+        ],
+        description: "The Nautilus Shell is a beautiful, spiral-patterned item found throughout the oceans of Minecraft. It serves as a critical component in late-game underwater exploration, as eight of these shells must be combined with a Heart of the Sea to craft a Conduit. Conduits provide players with the 'Conduit Power' effect, granting water breathing, night vision, and increased mining speed when submerged. Players can obtain nautilus shells through several methods: they are a rare treasure that can be caught while fishing, can be purchased from Wandering Traders for emeralds, or can be looted from Drowned mobs who are occasionally seen clutching them in their hands. Because of their necessity for building permanent underwater bases, nautilus shells are highly valued by ocean-dwelling players."
     }
 };
