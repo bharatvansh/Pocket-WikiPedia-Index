@@ -169,5 +169,27 @@ export const craftingMaterials = {
             "Added in Caves & Cliffs update (1.17) alongside amethyst geodes"
         ],
         description: "Amethyst Shards are crystalline crafting materials obtained exclusively from Amethyst Geodes, rare underground structures that generate in caves and occasionally on the surface. These beautiful purple shards are harvested by mining Amethyst Clusters that grow on Budding Amethyst blocks within geodes, which serve as the heart of amethyst growth. When mined with a pickaxe, an Amethyst Cluster drops 4 shards, and Fortune enchantment can increase this yield up to 16 shards, making enchanted tools highly valuable for amethyst farming. The Budding Amethyst block itself cannot be moved or collected, only generating naturally, which means players must find geodes to access this resource. Beyond mining, Amethyst Shards can be found as loot in Ancient Cities (1-15 shards) and Trial Chambers (8-20 shards), providing alternative acquisition methods. These versatile shards serve as essential crafting ingredients for multiple items: Spyglass (for zoomed exploration), Tinted Glass (for decorative light-blocking windows), Calibrated Sculk Sensor (for advanced redstone), and Block of Amethyst (for decorative building). The renewable nature of Amethyst Clusters, which slowly regrow on Budding Amethyst, makes Amethyst Shards a sustainable resource once a geode is discovered. Their distinctive purple color and crystalline appearance also make them popular for decorative builds and pixel art, adding both functionality and aesthetic appeal to Minecraft Bedrock Edition."
+    },
+    "minecraft:disc_fragment_5": {
+        id: "minecraft:disc_fragment_5",
+        name: "Disc Fragment 5",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc 5",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests (29.8% chance)",
+            "Combine 9 fragments in a crafting table to create Music Disc 5",
+            "The only way to obtain Music Disc 5 in survival mode",
+            "Added in the Wild Update (1.19)"
+        ],
+        description: "Disc Fragment 5 is a rare crafting material found exclusively in the chests of Ancient Cities within the Deep Dark biome. It appears as a shard of a broken record. Its sole purpose is to be crafted into Music Disc 5. To do this, a player must collect nine fragments and arrange them in a 3x3 grid in a crafting table. This makes Music Disc 5 the only music disc in the game that must be crafted rather than found whole or obtained as a mob drop."
     }
 };

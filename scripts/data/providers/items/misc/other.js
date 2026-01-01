@@ -270,5 +270,30 @@ export const miscItems = {
             "The needle has a different appearance compared to regular compasses"
         ],
         description: "The Recovery Compass is a specialized navigation item introduced in the Wild Update (1.19) that helps players locate where they last died. Unlike a regular compass which points to world spawn, the Recovery Compass points to the precise coordinates of the player's most recent death within the current dimension. This makes it an invaluable tool for recovering valuable items, equipment, and experience that were dropped upon dying. The compass is crafted with eight Echo Shards surrounding a standard compass in a crafting grid, making it a rare and valuable item since Echo Shards are only found in Ancient Cities deep within the Deep Dark biome. In Bedrock Edition, the Recovery Compass has a significant limitation: it does not function in the End dimension at all, spinning randomly regardless of death location. The compass only operates within the same dimension where the death occurred, meaning players must return to the Nether, caves, or other dimension where they died to track their belongings. Since items naturally despawn after five minutes in Minecraft, the Recovery Compass is most effective when used quickly after death, though it can still help players revisit memorable death locations even if items have despawned. The distinctive needle design sets it apart from regular compasses, and its specialized function makes it a crucial item for high-risk exploration where losing valuable gear would be devastating."
+    },
+    "minecraft:goat_horn": {
+        id: "minecraft:goat_horn",
+        name: "Goat Horn",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing a loud horn sound",
+            secondaryUse: "Signaling other players over long distances"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Goats when they ram into solid blocks"]
+        },
+        specialNotes: [
+            "Dropped when a Goat rams into Coal Ore, Copper Ore, Emerald Ore, Iron Ore, Log, Packed Ice, or Stone",
+            "Has 8 variants, each playing a different sound: Ponder, Sing, Seek, Feel (Regular Goats); Admire, Call, Yearn, Dream (Screaming Goats)",
+            "Has a cooldown of 7 seconds between uses",
+            "Sound can be heard up to 256 blocks away",
+            "Not stackable",
+            "Can be used by Pillagers in Raids (specifically the 'Seek' horn sound)",
+            "Does not have durability"
+        ],
+        description: "The Goat Horn is an instrument item dropped by Goats when they ram into specific hard blocks like logs, stone, packed ice, or ores. There are eight different variants of the horn, each producing a unique sound when used. Four variants (Ponder, Sing, Seek, Feel) are dropped by regular goats, while the other four (Admire, Call, Yearn, Dream) are obtained exclusively from Screaming Goats. When played, the horn emits a loud sound audible up to 256 blocks away, followed by a 7-second cooldown. This makes it an excellent tool for long-distance signaling in multiplayer."
     }
 };

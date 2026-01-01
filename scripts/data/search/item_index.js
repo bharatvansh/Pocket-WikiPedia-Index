@@ -327,5 +327,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/slimeball",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:warped_fungus_on_a_stick",
+        name: "Warped Fungus on a Stick",
+        category: "item",
+        icon: "textures/items/warped_fungus_on_a_stick",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:goat_horn",
+        name: "Goat Horn",
+        category: "item",
+        icon: "textures/items/goat_horn",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:disc_fragment_5",
+        name: "Disc Fragment 5",
+        category: "item",
+        icon: "textures/items/disc_fragment_5",
+        themeColor: "§b" // aqua
     }
 ];
