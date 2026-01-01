@@ -131,5 +131,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/wolf_armor",
         themeColor: "§e" // yellow/brown
+    },
+    {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        category: "item",
+        icon: "textures/items/resin_clump",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:flow_armor_trim_smithing_template",
+        name: "Flow Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/flow_armor_trim_smithing_template",
+        themeColor: "§b" // aqua/cyan
     }
 ];

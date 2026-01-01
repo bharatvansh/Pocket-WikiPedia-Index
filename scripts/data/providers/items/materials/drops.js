@@ -58,5 +58,30 @@ export const mobDrops = {
             "Using an armadillo scute on a wolf wearing damaged armor repairs 8 durability points"
         ],
         description: "Armadillo Scutes are protective plating materials introduced in Minecraft 1.21, dropped periodically by armadillos or obtained by brushing them. These scutes are exclusively used to craft Wolf Armor, a new defensive equipment that can be equipped on tamed wolves to significantly increase their survivability. When wolves wear Wolf Armor, they gain substantial protection from damage, and the armor can be repaired by using additional armadillo scutes directly on the armored wolf. The armadillo's unique behavior of curling into a ball when threatened adds an engaging mechanic to obtaining these valuable scutes."
+    },
+    "minecraft:resin_clump": {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Block of Resin (9 clumps = 1 block)",
+            secondaryUse: "Smelting into Resin Bricks in a furnace or smoker"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by attacking a Creaking Heart or hitting a Creaking mob linked to its heart", "Drops 1-3 Resin Clumps per hit"]
+        },
+        specialNotes: [
+            "Creaking Hearts drop 1-3 Resin Clumps when attacked in Bedrock Edition",
+            "Hitting a Creaking mob while it's linked to its heart also yields Resin Clumps",
+            "Nine Resin Clumps can be crafted into one Block of Resin",
+            "Resin Clumps can be smelted in a furnace or smoker to create Resin Bricks",
+            "Block of Resin can be used to craft a Creaking Heart",
+            "Added in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden biome content",
+            "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
+        ],
+        description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin in a 3x3 crafting grid or smelting them in a furnace to create Resin Bricks. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
     }
 };
