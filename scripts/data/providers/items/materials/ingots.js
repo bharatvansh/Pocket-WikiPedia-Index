@@ -18,7 +18,7 @@ export const ingots = {
         enchantable: false,
         usage: {
             primaryUse: "Upgrading diamond gear to netherite tier at a smithing table",
-            secondaryUse: "Crafting lodestones and beacons, and repairing netherite equipment"
+            secondaryUse: "Payment for beacon effects/base; Lodestones use Iron Ingot"
         },
         crafting: {
             recipeType: "Shapeless",
@@ -29,7 +29,7 @@ export const ingots = {
             "Netherite items float in lava and are fire resistant",
             "Netherite Scrap is obtained by smelting Ancient Debris found in the Nether",
             "Ancient Debris must be mined with a Diamond or Netherite pickaxe",
-            "Can be used to craft a Lodestone (8 ingots + 1 chiseled stone bricks)",
+            "Obsolete; Lodestone uses Iron Ingot (old recipe was 1 Ingot + 8 Bricks)",
             "Can be used as beacon payment for status effects",
             "Netherite ingots can also be found in Bastion Remnant chests"
         ],

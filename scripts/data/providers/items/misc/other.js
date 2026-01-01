@@ -152,7 +152,7 @@ export const miscItems = {
             "Upon activation, restores the player to 1 heart (2 health points)",
             "Grants Regeneration II for 45 seconds (40 seconds in Java Edition)",
             "Grants Absorption II for 5 seconds, providing 4 extra hearts of temporary health",
-            "Grants Fire Resistance II for 40 seconds",
+            "Grants Fire Resistance I for 40 seconds",
             "Removes all active negative status effects when activated",
             "Consumed immediately upon use and disappears from inventory",
             "Only works when held in either the main hand or off-hand slot",
