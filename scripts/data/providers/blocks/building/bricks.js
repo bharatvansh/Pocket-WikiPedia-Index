@@ -11,6 +11,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const brickBlocks = {
+    "minecraft:mud_bricks": {
+        id: "minecraft:mud_bricks",
+        name: "Mud Bricks",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Mud Bricks are a decorative building block introduced in Minecraft 1.19 Wild Update, offering builders an earthy, brown alternative to traditional brick materials. Crafted by arranging four packed mud blocks in a 2x2 square, mud bricks feature a warm, reddish-brown color with a distinctive brick texture pattern that complements desert and village-style builds. Unlike other building blocks, mud bricks require a pickaxe to be mined efficiently and do not burn, making them suitable for fire-resistant structures. The packed mud required for crafting mud bricks is itself created by combining mud blocks and wheat, representing a unique crafting recipe that utilizes agricultural resources. Mud bricks can be further processed into slabs, stairs, and walls through crafting, providing builders with versatile options for creating rustic, warm-toned architectural designs."
+    },
     "minecraft:tuff_bricks": {
         id: "minecraft:tuff_bricks",
         name: "Tuff Bricks",

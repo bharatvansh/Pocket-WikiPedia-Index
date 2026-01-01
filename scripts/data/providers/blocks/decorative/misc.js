@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const miscDecorativeBlocks = {
+    "minecraft:pink_petals": {
+        id: "minecraft:pink_petals",
+        name: "Pink Petals",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pink Petals"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Cherry Grove biome"
+        },
+        description: "Pink Petals are a delicate decorative block introduced in Minecraft 1.20 Trails & Tales update, found naturally in the cherry grove biome. These translucent pink petals generate in clusters on grass blocks, creating a stunning floral carpet effect reminiscent of cherry blossom trees. Pink petals can be placed in four different stages of density on any opaque block, allowing players to create beautiful layered flower beds or gradually build up to a full petal coverage. They are renewable, as cherry trees can be grown from saplings and petals can be harvested or bone meal can be used to generate them naturally. Unlike other flowers, pink petals do not affect bee pollination and cannot be crafted into dyes directly. Their unique transparency and ability to stack up to four times in a single block position make them an excellent choice for detailed landscaping, garden paths, or adding a soft pink accent to builds."
+    },
     "minecraft:amethyst_block": {
         id: "minecraft:amethyst_block",
         name: "Amethyst Block",
