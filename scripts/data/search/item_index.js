@@ -215,5 +215,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/totem",
         themeColor: "§e" // yellow (Uncommon rarity since 1.21.30)
+    },
+    {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        category: "item",
+        icon: "textures/items/bundle",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        category: "item",
+        icon: "textures/items/spyglass",
+        themeColor: "§f" // white
     }
 ];
