@@ -174,7 +174,7 @@ export const miscItems = {
             secondaryUse: "Managing inventory space during exploration"
         },
         crafting: {
-            recipeType: "Shapeless",
+            recipeType: "Shaped",
             ingredients: ["String", "Leather"]
         },
         specialNotes: [
@@ -183,7 +183,7 @@ export const miscItems = {
             "Items can be added to a bundle by dragging them onto it in the inventory",
             "Right-click or use action to empty the bundle's contents",
             "Shows a bar indicating how full it is",
-            "Introduced to Bedrock Edition in version 1.21.30"
+            "Introduced as an Experimental feature in 1.21.30; Officially Released in 1.21.40 (Bundles of Bravery update)"
         ],
         description: "The Bundle is a versatile storage item designed to help players manage their inventory more efficiently. It allows for the grouping of various item types within a single slot, making it ideal for carrying multiple small quantities of different materials that would otherwise clutter the inventory. Each bundle has a capacity of 64 units, where items contribute space according to their maximum stack size. This makes the bundle particularly useful during early-game exploration or when collecting a wide variety of blocks and items in small amounts."
     }
