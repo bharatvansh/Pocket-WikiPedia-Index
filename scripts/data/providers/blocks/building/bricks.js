@@ -114,7 +114,7 @@ export const brickBlocks = {
             dimension: "None",
             yRange: "Crafted only"
         },
-        description: "Resin Bricks are a refined decorative building block introduced in Minecraft Bedrock Edition 1.21.40 as part of the Pale Garden/Winter Drop update. Crafted by combining four Blocks of Resin in a 2x2 grid or by processing them in a stonecutter, these bricks offer a vibrant orange aesthetic with a classic brick texture. They are particularly resistant compared to the raw resin blocks, requiring a pickaxe to mine efficiently. Resin bricks provide builders with a unique color palette for creating warm, striking structures and can be further crafted into slabs, stairs, and walls."
+        description: "Resin Bricks are a refined decorative building block introduced in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden/Winter Drop update. Crafted by combining four resin brick items in a 2x2 grid or by processing them in a stonecutter, these bricks offer a vibrant orange aesthetic with a classic brick texture. They are particularly resistant compared to the raw resin blocks, requiring a pickaxe to mine efficiently. Resin bricks provide builders with a unique color palette for creating warm, striking structures and can be further crafted into slabs, stairs, and walls."
     },
     "minecraft:chiseled_resin_bricks": {
         id: "minecraft:chiseled_resin_bricks",
@@ -135,6 +135,6 @@ export const brickBlocks = {
             dimension: "None",
             yRange: "Crafted only"
         },
-        description: "Chiseled Resin Bricks are a decorative variant of resin bricks added in Minecraft Bedrock Edition 1.21.40. These blocks feature a unique, intricate pattern carved into the vibrant orange resin material, making them ideal for adding detail to pillars, borders, and accent walls. They can be crafted by placing two resin brick slabs vertically in a crafting grid or by using a stonecutter on a resin brick block. Like other resin brick variants, they require a pickaxe to be collected. Chiseled resin bricks complement the pale garden blocks perfectly, allowing for complex architectural designs that highlight the rich, warm tones of the resin material."
+        description: "Chiseled Resin Bricks are a decorative variant of resin bricks added in Minecraft Bedrock Edition 1.21.50. These blocks feature a unique, intricate pattern carved into the vibrant orange resin material, making them ideal for adding detail to pillars, borders, and accent walls. They can be crafted by placing two resin brick slabs vertically in a crafting grid or by using a stonecutter on a resin brick block. Like other resin brick variants, they require a pickaxe to be collected. Chiseled resin bricks complement the pale garden blocks perfectly, allowing for complex architectural designs that highlight the rich, warm tones of the resin material."
     }
 };
