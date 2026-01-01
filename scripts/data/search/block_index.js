@@ -49,11 +49,25 @@ export const blockIndex = [
         themeColor: "§e" // yellow/gold
     },
     {
+        id: "minecraft:mud_bricks",
+        name: "Mud Bricks",
+        category: "block",
+        icon: "textures/blocks/mud_bricks",
+        themeColor: "§6" // brown/earthy
+    },
+    {
         id: "minecraft:obsidian",
         name: "Obsidian",
         category: "block",
         icon: "textures/blocks/obsidian",
         themeColor: "§8" // dark purple/black
+    },
+    {
+        id: "minecraft:pink_petals",
+        name: "Pink Petals",
+        category: "block",
+        icon: "textures/blocks/pink_petals",
+        themeColor: "§d" // light pink/purple
     },
     {
         id: "minecraft:prismarine",
@@ -308,6 +322,13 @@ export const blockIndex = [
         themeColor: "§e" // pale yellow
     },
     {
+        id: "minecraft:pink_petals",
+        name: "Pink Petals",
+        category: "block",
+        icon: "textures/blocks/pink_petals",
+        themeColor: "§d" // light pink/purple
+    },
+    {
         id: "minecraft:pale_moss_carpet",
         name: "Pale Moss Carpet",
         category: "block",
@@ -327,6 +348,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/polished_tuff_slab",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cherry_planks",
+        name: "Cherry Planks",
+        category: "block",
+        icon: "textures/blocks/cherry_planks",
+        themeColor: "§c" // light pink
     },
     {
         id: "minecraft:calibrated_sculk_sensor",
