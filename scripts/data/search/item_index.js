@@ -285,5 +285,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/nautilus_shell",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:prismarine_shard",
+        name: "Prismarine Shard",
+        category: "item",
+        icon: "textures/items/prismarine_shard",
+        themeColor: "§b" // aqua/cyan
+    },
+    {
+        id: "minecraft:rabbit_foot",
+        name: "Rabbit's Foot",
+        category: "item",
+        icon: "textures/items/rabbit_foot",
+        themeColor: "§c" // orange/pink
+    },
+    {
+        id: "minecraft:name_tag",
+        name: "Name Tag",
+        category: "item",
+        icon: "textures/items/name_tag",
+        themeColor: "§f" // white/light gray
     }
 ];

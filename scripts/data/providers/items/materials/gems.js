@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const gems = {
+    "minecraft:prismarine_shard": {
+        id: "minecraft:prismarine_shard",
+        name: "Prismarine Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Prismarine blocks, Dark Prismarine, and Sea Lanterns",
+            secondaryUse: "Underwater building and decoration projects"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Dropped by Guardians and Elder Guardians", "Used in multiple shaped recipes for prismarine variants and Sea Lanterns"]
+        },
+        specialNotes: [
+            "Guardians always drop 0-2 Prismarine Shards on death (more with Looting in Bedrock)",
+            "Elder Guardians also drop 0-2 shards on death",
+            "Crafting Prismarine: 4 shards in a 2x2 square",
+            "Crafting Dark Prismarine: 8 shards in a 3x3 with center black dye",
+            "Crafting Sea Lanterns: 4 shards surrounding 1 Prismarine Crystal",
+            "Renewable resource since Guardians spawn infinitely in Ocean Monuments",
+            "Has a teal/cyan color matching the underwater aesthetic",
+            "Essential for underwater building projects and monument decoration"
+        ],
+        description: "Prismarine Shards are teal crystalline fragments dropped by Guardians and Elder Guardians that spawn in Ocean Monuments. These shards serve as a fundamental building material for the prismarine family of blocks, which are prized for their distinctive underwater aesthetic and structural properties. Players can craft standard Prismarine blocks by arranging four shards in a 2x2 pattern, create Dark Prismarine by combining eight shards with a black dye, or produce the illuminating Sea Lantern by surrounding a Prismarine Crystal with four shards. Since Guardians and Elder Guardians spawn continuously within Ocean Monuments, Prismarine Shards are a renewable resource, allowing players to gather them in large quantities for extensive underwater construction projects. The shards' natural teal coloration makes them particularly valuable for building ocean-themed structures, underwater bases, and decorative features that complement the marine environment. Obtaining these shards requires confronting the dangerous Guardian mobs, adding an element of challenge to acquiring this versatile building material."
+    },
     "minecraft:echo_shard": {
         id: "minecraft:echo_shard",
         name: "Echo Shard",
