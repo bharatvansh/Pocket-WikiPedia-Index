@@ -181,8 +181,8 @@ export const miscItems = {
             "Can hold up to 64 items of varying types.",
             "The capacity depends on the stack size of the items placed inside.",
             "Can be dyed in 16 different colors using dyes in a crafting grid.",
-            "Introduced to Bedrock Edition in 1.21.30."
+            "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
         ],
-        description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. Bundles were added to Bedrock Edition in version 1.21.30 after being an experimental feature for several years. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
+        description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
     }
 };

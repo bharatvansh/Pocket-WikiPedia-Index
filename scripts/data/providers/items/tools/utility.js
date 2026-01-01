@@ -20,7 +20,7 @@ export const utilityTools = {
         enchantable: true,
         usage: {
             primaryUse: "Used in archaeology to brush suspicious sand and suspicious gravel blocks.",
-            secondaryUse: "Reveals buried loot such as pottery sherds, armor trims, and other treasures."
+            secondaryUse: "Used on armadillos to obtain armadillo scutes for crafting wolf armor."
         },
         crafting: {
             recipeType: "Shaped",
@@ -28,9 +28,10 @@ export const utilityTools = {
         },
         specialNotes: [
             "Loses 1 durability for each successful block brushed.",
+            "Loses 16 durability when used to brush an armadillo.",
             "Can be enchanted with Unbreaking and Mending.",
-            "Required to obtain items from Trial Chamber decorated pots without breaking them."
+            "Used to reveal buried loot such as pottery sherds, armor trims, and sniffer eggs."
         ],
-        description: "The brush is a tool used primarily for archaeology. By using it on suspicious sand or suspicious gravel, players can carefully reveal hidden items. It is essential for discovering ancient pottery sherds and other historical artifacts buried throughout the world. Brushes are crafted using a feather, a copper ingot, and a stick in a vertical line. Beyond archaeology, they can also be used on Decorated Pots to extract their contents safely."
+        description: "The brush is a tool used primarily for archaeology and interacting with armadillos. By using it on suspicious sand or suspicious gravel, players can carefully reveal hidden items like ancient pottery sherds or armor trims. When used on an armadillo, it causes the mob to drop an armadillo scute, which is necessary for crafting wolf armor. Brushes are crafted using a feather, a copper ingot, and a stick in a vertical line. While Decorated Pots in Trial Chambers contain loot, they must be broken to retrieve it rather than brushed."
     }
 };
