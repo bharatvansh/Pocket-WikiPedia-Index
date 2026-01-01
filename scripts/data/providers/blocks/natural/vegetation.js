@@ -57,5 +57,26 @@ export const vegetationBlocks = {
             yRange: "Pale Garden biome"
         },
         description: "The Pale Moss Block is a pale, grayish variant of the moss block introduced in Minecraft 1.21.50, found exclusively in the eerie Pale Garden biome. It covers much of the ground in this biome and can be used with bone meal to spread it onto other blocks like stone and deepslate, converting them into pale moss. While it can be broken instantly by hand, using a hoe is the most efficient way to mine it. Pale moss blocks are essential for the natural generation of Pale Hanging Moss and Eyeblossoms, and they serve as a unique decorative block for creating muted, atmospheric landscapes or aged-looking structures."
+    },
+    "minecraft:pale_moss_carpet": {
+        id: "minecraft:pale_moss_carpet",
+        name: "Pale Moss Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Moss Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "Pale Moss Carpet is a thin, decorative vegetation block that naturally covers the ground in the Pale Garden biome, added in Minecraft Bedrock Edition 1.21.50. Much like its green counterpart, it provides a soft, textured layer over other blocks and can be used to add detail to floors and landscapes without taking up a full block's space. It can be crafted from Pale Moss Blocks or obtained by using bone meal on a Pale Moss Block. Its pale gray coloration contributes to the ghostly and desaturated atmosphere of the Pale Garden, making it a perfect choice for builders looking to create eerie, foggy, or monochromatic environments."
     }
 };

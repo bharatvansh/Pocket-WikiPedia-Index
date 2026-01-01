@@ -10,5 +10,25 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const plankBlocks = {
-    // Add plank block entries here
+    "minecraft:pale_oak_planks": {
+        id: "minecraft:pale_oak_planks",
+        name: "Pale Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Logs"
+        },
+        description: "Pale Oak Planks are a versatile building material crafted from Pale Oak Logs, found in the eerie Pale Garden biome. They feature a distinctively muted, desaturated color palette that ranges from pale cream to light gray, setting them apart from the warmer tones of traditional wood types. Introduced in Minecraft Bedrock Edition 1.21.50, these planks are essential for crafting various pale oak themed items such as stairs, slabs, doors, and fences. Their ghostly appearance makes them ideal for constructing atmospheric builds, spectral mansions, or any structure requiring a somber or weathered wood aesthetic."
+    }
 };
