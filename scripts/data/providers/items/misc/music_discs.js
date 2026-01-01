@@ -49,7 +49,7 @@ export const musicDiscs = {
         },
         specialNotes: [
             "Composed by Aaron Cherof",
-            "Has a 2.2% chance to be found in standard Vaults in Bedrock Edition",
+            "Has a 3.6% chance to be found in standard Vaults in Bedrock Edition",
             "Added in the 1.21 Tricky Trials update",
             "The physical disc has a dark gray and cyan color scheme",
             "Provides a redstone signal strength of 13, the second highest among music discs"

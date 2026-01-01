@@ -157,7 +157,7 @@ export const itemIndex = [
         id: "minecraft:guster_banner_pattern",
         name: "Guster Banner Pattern",
         category: "item",
-        icon: "textures/items/banner_pattern",
+        icon: "textures/items/guster_banner_pattern",
         themeColor: "§f" // white
     }
 ];
