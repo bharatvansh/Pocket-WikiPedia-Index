@@ -139,5 +139,59 @@ export const mobDrops = {
             "Blaze Rods are renewable as Blazes can be spawned from spawners"
         ],
         description: "The Blaze Rod is a vital Nether-exclusive material obtained by defeating Blazes, the fiery creatures found in Nether Fortresses. These orange-golden rods serve multiple crucial functions in Minecraft's progression system. Their primary use is crafting Blaze Powder by placing a single rod in a crafting grid, which yields two powder. This powder is essential for brewing potions, fueling brewing stands, and crafting Eyes of Ender needed to access the End dimension. Blaze Rods themselves are directly used to craft Brewing Stands, End Rods for lighting in the End, and Copper Bulbs introduced in recent updates. Beyond crafting, Blaze Rods function as highly efficient furnace fuel, capable of smelting 12 items per rod—significantly more efficient than individual coal items. Blazes have a chance to drop 0-1 rods upon death, with the Looting enchantment potentially increasing the drop to 4. Their renewable nature through spawner farming makes them sustainable for long-term gameplay. The Blaze Rod's versatility across brewing, crafting, and fuel systems makes it one of the most valuable resources in the Nether and a cornerstone of advanced gameplay progression."
+    },
+    "minecraft:slime_ball": {
+        id: "minecraft:slime_ball",
+        name: "Slime Ball",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sticky Pistons, Slime Blocks, and Leads",
+            secondaryUse: "Crafting Magma Cream (with Blaze Powder)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Slimes upon death (0-2 per small slime, up to 4 with Looting III)", "Can also be obtained by sneezing Pandas"]
+        },
+        specialNotes: [
+            "Small slimes drop 0-2 Slime Balls, medium and large slimes don't drop any",
+            "Looting III increases maximum drop to 4 Slime Balls from small slimes",
+            "Slimes spawn in swamps at night and in specific cave chunks below Y=40",
+            "Pandas have a rare chance to sneeze and drop a Slime Ball",
+            "Required for crafting Sticky Pistons (Slime Ball + Piston)",
+            "Used to craft Slime Blocks (9 Slime Balls in crafting grid)",
+            "Essential for crafting Leads (4 Strings + 1 Slime Ball)",
+            "Can be crafted into Magma Cream with Blaze Powder (brewing or crafting)",
+            "Slime blocks can be used for honey block-like bounce mechanics and redstone contraptions"
+        ],
+        description: "Slime Balls are bouncy green items dropped by small Slimes, one of Minecraft's iconic gelatinous mobs. These versatile materials are essential for crafting several useful redstone components including Sticky Pistons, which allow blocks to be pushed and pulled, and Slime Blocks, which enable complex redstone contraptions and bounce mechanics when players and mobs land on them. Slime Balls are also required to craft Leads, indispensable tools for leashing and transporting passive mobs. Beyond redstone applications, Slime Balls combine with Blaze Powder to create Magma Cream, a crucial brewing ingredient for Fire Resistance potions. Slimes primarily spawn in swamp biomes during nighttime and in specific underground slime chunks below Y=40 regardless of light level. When defeated, only small Slimes drop 0-2 Slime Balls, though the Looting enchantment can increase this yield to a maximum of 4. Interestingly, Pandas have a small chance to sneeze and drop a Slime Ball as well. The unique bounce properties of Slime Blocks and the utility of Sticky Pistons make Slime Balls a foundational material for technical players and redstone engineers in Minecraft Bedrock Edition."
+    },
+    "minecraft:ghast_tear": {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        maxStack: 100,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing potions of Regeneration",
+            secondaryUse: "No other crafting uses"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts in the Nether (0-1 per kill, affected by Looting)"]
+        },
+        specialNotes: [
+            "Dropped by Ghasts when killed (0-1 per Ghast, affected by Looting enchantment)",
+            "Ghasts spawn in Nether wastes, basalt deltas, and soul sand valley biomes",
+            "Has a 50% chance to drop without any Looting enchantment",
+            "Essential brewing ingredient for Potions of Regeneration",
+            "Regeneration potions restore health over time (level I: 0.4 hearts/second for 45 seconds)",
+            "Required for Mundane Potions when used as a starting ingredient",
+            "Ghast tears are difficult to obtain due to Ghasts' ranged fireball attacks",
+            "Can be used to create extended regeneration potions with Redstone",
+            "Can be used to create Potion of Regeneration II with Glowstone Dust"
+        ],
+        description: "The Ghast Tear is a rare and valuable item dropped exclusively by Ghasts, the large floating ghostly mobs that inhabit the Nether dimension. These translucent white crystalline tears are a critical brewing ingredient, used primarily to craft Potions of Regeneration which restore health over time and are among the most useful potions in the game. Ghasts have a 50% chance to drop 0-1 Ghast Tears upon death, with the Looting enchantment increasing the drop rate and quantity. These terrifying creatures spawn in Nether wastes, basalt deltas, and soul sand valley biomes, making them relatively common but challenging to kill due to their ranged fireball attacks and ability to float out of reach. When brewing, Ghast Tears are combined with an Awkward Potion to create the base Regeneration potion, which can then be enhanced with Redstone for extended duration or Glowstone Dust for increased regeneration rate (Regeneration II). While Ghast Tears have limited applications outside of brewing, the regeneration potion's ability to restore health mid-combat makes them invaluable for boss fights and challenging Nether expeditions. The difficulty of obtaining Ghast Tears, combined with their specific utility, makes them one of the Nether's most sought-after resources."
     }
 };

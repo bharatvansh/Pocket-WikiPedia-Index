@@ -257,5 +257,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/blaze_rod",
         themeColor: "§6" // orange/gold
+    },
+    {
+        id: "minecraft:slime_ball",
+        name: "Slime Ball",
+        category: "item",
+        icon: "textures/items/slime_ball",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        category: "item",
+        icon: "textures/items/ghast_tear",
+        themeColor: "§c" // red
     }
 ];
