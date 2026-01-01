@@ -273,6 +273,13 @@ export const blockIndex = [
         themeColor: "§e" // pale yellow
     },
     {
+        id: "minecraft:pale_moss_carpet",
+        name: "Pale Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/pale_moss_carpet",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:tuff_slab",
         name: "Tuff Slab",
         category: "block",
