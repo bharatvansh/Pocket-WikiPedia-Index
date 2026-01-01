@@ -44,7 +44,7 @@ export const mobDrops = {
         enchantable: false,
         usage: {
             primaryUse: "Crafting Turtle Shells",
-            secondaryUse: "Brewing Potion of the Turtle Master"
+            secondaryUse: "Repairing Turtle Shells"
         },
         crafting: {
             recipeType: "Uncraftable",
