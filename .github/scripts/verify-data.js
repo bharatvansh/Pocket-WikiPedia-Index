@@ -143,25 +143,42 @@ function extractEntriesFromDiff(diffContent) {
             continue;
         }
 
-        // Only process added lines (new entries)
-        if (!line.startsWith('+')) continue;
+        // Determine line type and get content
+        let content;
+        let isAddedLine = false;
+        let isContextLine = false;
 
-        const content = line.substring(1); // Remove the '+' prefix
-
-        // Look for entry start: "minecraft:something": {
-        const entryMatch = content.match(/^\s*["'](minecraft:[^"']+)["']\s*:\s*\{/);
-        if (entryMatch && braceDepth === 0) {
-            currentEntry = entryMatch[1];
-            braceDepth = 1;
-            entryLines = [content];
-            console.log(`  🔍 Found entry start: ${currentEntry} in ${currentFile}`);
+        if (line.startsWith('+')) {
+            content = line.substring(1);
+            isAddedLine = true;
+        } else if (line.startsWith(' ')) {
+            content = line.substring(1);
+            isContextLine = true;
+        } else {
+            // Skip removed lines and other lines
             continue;
         }
 
-        if (currentEntry) {
-            entryLines.push(content);
+        // Look for entry start (only in added lines)
+        if (isAddedLine) {
+            const entryMatch = content.match(/^\s*["'](minecraft:[^"']+)["']\s*:\s*\{/);
+            if (entryMatch && braceDepth === 0) {
+                currentEntry = entryMatch[1];
+                braceDepth = 1;
+                entryLines = [content];
+                console.log(`  🔍 Found entry start: ${currentEntry} in ${currentFile}`);
+                continue;
+            }
+        }
 
-            // Count braces (be careful about braces inside strings)
+        // If we're inside an entry, process both added AND context lines for brace counting
+        if (currentEntry) {
+            // Only add content to entryLines if it's an added line
+            if (isAddedLine) {
+                entryLines.push(content);
+            }
+
+            // Count braces on BOTH added and context lines (be careful about braces inside strings)
             let inString = false;
             let stringChar = null;
             let prevChar = '';
