@@ -243,5 +243,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/recovery_compass",
         themeColor: "§3" // dark aqua/echo theme
+    },
+    {
+        id: "minecraft:ender_pearl",
+        name: "Ender Pearl",
+        category: "item",
+        icon: "textures/items/ender_pearl",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:blaze_rod",
+        name: "Blaze Rod",
+        category: "item",
+        icon: "textures/items/blaze_rod",
+        themeColor: "§6" // orange/gold
     }
 ];
