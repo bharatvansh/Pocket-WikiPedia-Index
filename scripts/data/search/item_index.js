@@ -229,5 +229,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/brush",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:glow_berries",
+        name: "Glow Berries",
+        category: "item",
+        icon: "textures/items/glow_berries",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:blaze_rod",
+        name: "Blaze Rod",
+        category: "item",
+        icon: "textures/items/blaze_rod",
+        themeColor: "§c" // red/orange
     }
 ];
