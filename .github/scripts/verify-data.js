@@ -81,7 +81,7 @@ const verificationSchema = {
  */
 function parseArgs() {
     const args = process.argv.slice(2);
-    const options = { test: false, diff: null, output: null, status: null };
+    const options = { test: false, diff: null, output: null, status: null, json: null };
 
     for (let i = 0; i < args.length; i++) {
         if (args[i] === '--test') {
@@ -92,6 +92,8 @@ function parseArgs() {
             options.output = args[++i];
         } else if (args[i] === '--status' && args[i + 1]) {
             options.status = args[++i];
+        } else if (args[i] === '--json' && args[i + 1]) {
+            options.json = args[++i];
         }
     }
 
@@ -342,6 +344,12 @@ async function main() {
         if (options.output) {
             fs.writeFileSync(options.output, report);
             console.log(`\nReport saved to: ${options.output}`);
+        }
+
+        // Write JSON result for auto-fix script
+        if (options.json) {
+            fs.writeFileSync(options.json, JSON.stringify(result, null, 2));
+            console.log(`JSON result saved to: ${options.json}`);
         }
 
         // Write status file for GitHub Actions - directly use the boolean from structured output
