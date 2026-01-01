@@ -162,5 +162,29 @@ export const miscItems = {
             "One of the most valuable items for survival progression"
         ],
         description: "The Totem of Undying is a legendary life-saving item that prevents a player's death when they would otherwise receive fatal damage. This powerful item must be held in either the main hand or off-hand to automatically activate upon receiving lethal damage, consuming itself in the process. When triggered, the Totem of Undying provides multiple protective effects including Absorption II for 5 seconds (adding 4 extra hearts of health), Regeneration II for 45 seconds in Bedrock Edition, and Fire Resistance I for 40 seconds, giving players a crucial second chance in combat. Totems are exclusively dropped by Evokers, which appear in Woodland Mansions and Raids, with a 100% drop chance on all difficulties. The totem cannot prevent death from void damage or the /kill command, making it essential for ground-based combat scenarios. As one of Minecraft's most coveted items, the Totem of Undying serves as both a practical survival tool and a trophy representing mastery over the game's most dangerous structures and enemies."
+    },
+    "minecraft:bundle": {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Grouping different items together in a single inventory slot",
+            secondaryUse: "Managing inventory space during exploration"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["String", "Leather"]
+        },
+        specialNotes: [
+            "Can hold up to 64 units of items",
+            "Different items take up space based on their stack size (e.g., 1 Ender Pearl takes 4 units because it stacks to 16)",
+            "Items can be added to a bundle by dragging them onto it in the inventory",
+            "Right-click or use action to empty the bundle's contents",
+            "Shows a bar indicating how full it is",
+            "Introduced to Bedrock Edition in version 1.21.30"
+        ],
+        description: "The Bundle is a versatile storage item designed to help players manage their inventory more efficiently. It allows for the grouping of various item types within a single slot, making it ideal for carrying multiple small quantities of different materials that would otherwise clutter the inventory. Each bundle has a capacity of 64 units, where items contribute space according to their maximum stack size. This makes the bundle particularly useful during early-game exploration or when collecting a wide variety of blocks and items in small amounts."
     }
 };
