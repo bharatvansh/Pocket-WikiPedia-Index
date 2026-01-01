@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0  # Full history for accurate diff
           ref: ${{ github.head_ref }}  # Checkout the PR branch for committing fixes
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}  # PAT required to trigger workflow on push
 
       - name: Check auto-fix attempt count
         id: fix_attempts
@@ -161,8 +161,10 @@ jobs:
         if: steps.verify.outputs.status == 'has_issues' && steps.fix_attempts.outputs.attempts < 2
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIX_ATTEMPTS: ${{ steps.fix_attempts.outputs.attempts }}
         run: |
-          echo "🔧 Attempting auto-fix (attempt $((steps.fix_attempts.outputs.attempts + 1)) of 2)..."
+          CURRENT_ATTEMPT=$((FIX_ATTEMPTS + 1))
+          echo "🔧 Attempting auto-fix (attempt $CURRENT_ATTEMPT of 2)..."
           cd .github/scripts
           
           if node auto-fix.js --issues ../../verification_result.json --output ../../fix_summary.md; then
