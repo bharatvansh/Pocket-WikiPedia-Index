@@ -78,7 +78,7 @@ export const rawFood = {
         },
         food: {
             hunger: 2,
-            saturation: 0.6
+            saturation: 0.4
         },
         crafting: {
             recipeType: "Found",
@@ -92,9 +92,9 @@ export const rawFood = {
             "Cave vines grow naturally in lush caves and occasionally in other caves",
             "Glow berries can be composted with a 30% chance",
             "Foxes may eat glow berries during breeding",
-            "Added in Caves & Cliffs Part II update (1.18)",
+            "Added in Caves & Cliffs Part I update (1.17)",
             "Useful for marking cave paths and creating decorative lighting"
         ],
-        description: "Glow Berries are a unique food and light source item found on cave vines in Minecraft's underground environments, particularly lush caves. These vibrant orange berries can be eaten to restore 2 hunger points and 0.6 saturation, making them a modest but accessible food source for spelunkers. What makes Glow Berries truly valuable is their light-emitting property - when placed on cave vines, they emit a light level of 14, making them excellent for illuminating dark caverns without the need for torches. Players can farm Glow Berries by planting them on the underside of blocks, where the vines will grow downward and produce berries at random intervals. Beyond their practical uses, Glow Berries serve as an aesthetically pleasing decorative element for cave builds and underground bases, providing both sustenance and illumination in a single renewable resource."
+        description: "Glow Berries are a unique food and light source item found on cave vines in Minecraft's underground environments, particularly lush caves. These vibrant orange berries can be eaten to restore 2 hunger points and 0.4 saturation, making them a modest but accessible food source for spelunkers. What makes Glow Berries truly valuable is their light-emitting property - when placed on cave vines, they emit a light level of 14, making them excellent for illuminating dark caverns without the need for torches. Players can farm Glow Berries by planting them on the underside of blocks, where the vines will grow downward and produce berries at random intervals. Beyond their practical uses, Glow Berries serve as an aesthetically pleasing decorative element for cave builds and underground bases, providing both sustenance and illumination in a single renewable resource."
     }
 };
