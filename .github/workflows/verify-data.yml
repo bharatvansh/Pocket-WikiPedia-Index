@@ -23,8 +23,8 @@ jobs:
       - name: Check auto-fix attempt count
         id: fix_attempts
         run: |
-          # Count commits with [Auto-fix] in message from github-actions
-          ATTEMPTS=$(git log --oneline --author="github-actions" --grep="\[Auto-fix\]" | wc -l)
+          # Count commits with [Auto-fix] in message (search by message, not author to be safe)
+          ATTEMPTS=$(git log --oneline --grep="\[Auto-fix\]" | wc -l)
           echo "Auto-fix attempts so far: $ATTEMPTS"
           echo "attempts=$ATTEMPTS" >> $GITHUB_OUTPUT
 
@@ -174,14 +174,24 @@ jobs:
           fi
 
       - name: Commit auto-fixes to PR
+        id: commit
         if: steps.autofix.outputs.fixed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
+          # Debug: Show what git sees
+          echo "=== Git Status ==="
+          git status
+          echo ""
+          echo "=== Git Diff (scripts/data/) ==="
+          git diff --stat scripts/data/ || true
+          echo ""
+          
           # Check if there are changes to commit
           if git diff --quiet scripts/data/; then
-            echo "No changes to commit"
+            echo "No changes detected by git diff"
+            echo "committed=false" >> $GITHUB_OUTPUT
             exit 0
           fi
           
@@ -201,10 +211,11 @@ jobs:
           
           git push
           
+          echo "committed=true" >> $GITHUB_OUTPUT
           echo "✅ Auto-fix committed and pushed. Workflow will re-run."
 
       - name: Post auto-fix comment
-        if: steps.autofix.outputs.fixed == 'true'
+        if: steps.commit.outputs.committed == 'true'
         uses: actions/github-script@v7
         with:
           script: |
@@ -224,9 +235,9 @@ jobs:
               body: message
             });
 
-      # Request changes: If issues found AND (max attempts reached OR auto-fix failed)
+      # Request changes: If issues found AND (max attempts reached OR auto-fix failed OR fix made no changes)
       - name: Request changes on PR (max attempts or fix failed)
-        if: steps.verify.outputs.status == 'has_issues' && (steps.fix_attempts.outputs.attempts >= 2 || steps.autofix.outputs.fixed == 'false')
+        if: steps.verify.outputs.status == 'has_issues' && (steps.fix_attempts.outputs.attempts >= 2 || steps.autofix.outputs.fixed == 'false' || steps.commit.outputs.committed == 'false')
         uses: actions/github-script@v7
         with:
           script: |
@@ -241,6 +252,8 @@ jobs:
             
             if (attempts >= 2) {
               report += '\n\n---\n⚠️ **Auto-fix has been attempted 2 times without success.**\n\n*Please review and fix the issues above manually before merging.*';
+            } else if ('${{ steps.commit.outputs.committed }}' === 'false') {
+              report += '\n\n---\n⚠️ **Auto-fix ran but could not locate or modify the files.**\n\n*The issue may be in a file structure the auto-fix cannot handle. Please fix manually.*';
             } else {
               report += '\n\n---\n⚠️ **Auto-fix could not resolve the issues.**\n\n*Please review and fix the issues above before merging.*';
             }

@@ -229,7 +229,15 @@ async function main() {
             // Apply the fix
             const fixedContent = applyFix(sourceFile.content, issue.itemId, entry, fixedEntry);
 
+            // Debug: Check if content actually changed
+            if (fixedContent === sourceFile.content) {
+                console.log(`  ⚠️ Warning: Content unchanged after fix attempt`);
+                failures.push({ issue, reason: 'Fix produced identical content' });
+                continue;
+            }
+
             // Write the fixed file
+            console.log(`  Writing to: ${sourceFile.filePath}`);
             fs.writeFileSync(sourceFile.filePath, fixedContent);
             console.log(`  ✅ Fixed successfully`);
 
