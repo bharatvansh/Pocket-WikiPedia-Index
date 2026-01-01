@@ -295,5 +295,51 @@ export const miscItems = {
             "Does not have durability"
         ],
         description: "The Goat Horn is an instrument item dropped by Goats when they ram into specific hard blocks like logs, stone, packed ice, or ores. There are eight different variants of the horn, each producing a unique sound when used. Four variants (Ponder, Sing, Seek, Feel) are dropped by regular goats, while the other four (Admire, Call, Yearn, Dream) are obtained exclusively from Screaming Goats. When played, the horn emits a loud sound audible up to 256 blocks away, followed by a 7-second cooldown. This makes it an excellent tool for long-distance signaling in multiplayer."
+    },
+    "minecraft:clock": {
+        id: "minecraft:clock",
+        name: "Clock",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Telling the time of day",
+            secondaryUse: "Determining day/night cycle in caves"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x4", "Redstone Dust"]
+        },
+        specialNotes: [
+            "Shows the position of the sun and moon to indicate time",
+            "Works in the inventory, item frame, or when held",
+            "Spins wildly in the Nether and End dimensions",
+            "Villagers may sell clocks",
+            "Daytime is indicated by the sun (yellow) and nighttime by the moon (blue/black)"
+        ],
+        description: "The Clock is a utility item used to track the in-game time of day. It features a rotating dial that displays the positions of the sun and moon, allowing players to know when it is safe to surface or sleep, even when underground. In the Overworld, the clock functions normally in any inventory slot or item frame. However, in the Nether and End dimensions, the lack of a day-night cycle causes the clock to spin rapidly and randomly, rendering it useless for timekeeping."
+    },
+    "minecraft:compass": {
+        id: "minecraft:compass",
+        name: "Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the world spawn point",
+            secondaryUse: "Crafting maps and lodestone compasses"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x4", "Redstone Dust"]
+        },
+        specialNotes: [
+            "Points to the world spawn point in the Overworld",
+            "Spins wildly in the Nether and End unless used on a Lodestone",
+            "Can be used on a Lodestone to create a Lodestone Compass pointing to that specific block",
+            "Required component for crafting Empty Maps",
+            "Librarian villagers may sell compasses"
+        ],
+        description: "The Compass is a navigation tool that points to the world spawn point. It is essential for finding one's way back to the initial spawn area, especially after long expeditions. In the Nether and End, the compass spins randomly due to the lack of magnetic poles, unless it is right-clicked on a Lodestone to create a Lodestone Compass, which will then permanently point to that specific Lodestone. Compasses are also a key ingredient in crafting maps, making them fundamental for cartography."
     }
 };
