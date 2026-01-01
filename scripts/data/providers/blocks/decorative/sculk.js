@@ -9,6 +9,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const sculkBlocks = {
+    "minecraft:sculk": {
+        id: "minecraft:sculk",
+        name: "Sculk",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Sculk"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deep Dark Biome"
+        },
+        description: "Sculk is a decorative block found in the Deep Dark biome. It has an animated texture with glowing spots, though it does not emit light. Sculk spreads when a nearby Sculk Catalyst is activated by a mob death. It drops experience when mined without Silk Touch, making it a good source of XP."
+    },
     "minecraft:calibrated_sculk_sensor": {
         id: "minecraft:calibrated_sculk_sensor",
         name: "Calibrated Sculk Sensor",
