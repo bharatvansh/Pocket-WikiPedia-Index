@@ -252,6 +252,41 @@ export const blockIndex = [
         themeColor: "§2" // dark green (fully oxidized)
     },
     {
+        id: "minecraft:exposed_copper_bulb",
+        name: "Exposed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_bulb",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
+        id: "minecraft:weathered_copper_bulb",
+        name: "Weathered Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_bulb",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:exposed_copper_trapdoor",
+        name: "Exposed Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_trapdoor",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
+        id: "minecraft:weathered_copper_trapdoor",
+        name: "Weathered Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_trapdoor",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:oxidized_copper_trapdoor",
+        name: "Oxidized Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_trapdoor",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
         id: "minecraft:resin_bricks",
         name: "Resin Bricks",
         category: "block",
