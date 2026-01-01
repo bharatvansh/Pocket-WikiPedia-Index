@@ -278,5 +278,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_moss_carpet",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_slab",
+        name: "Tuff Slab",
+        category: "block",
+        icon: "textures/blocks/tuff_slab",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_tuff_slab",
+        name: "Polished Tuff Slab",
+        category: "block",
+        icon: "textures/blocks/polished_tuff_slab",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:calibrated_sculk_sensor",
+        name: "Calibrated Sculk Sensor",
+        category: "block",
+        icon: "textures/blocks/calibrated_sculk_sensor",
+        themeColor: "§d" // light purple (sculk theme)
     }
 ];
