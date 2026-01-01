@@ -83,5 +83,61 @@ export const mobDrops = {
             "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
         ],
         description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin in a 3x3 crafting grid or smelting them in a furnace to create Resin Bricks. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
+    },
+    "minecraft:ender_pearl": {
+        id: "minecraft:ender_pearl",
+        name: "Ender Pearl",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing to teleport to the landing location",
+            secondaryUse: "Crafting Eyes of Ender to locate End portals"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Ender Pearl x1", "Blaze Powder x1"]
+        },
+        specialNotes: [
+            "Dropped by Endermen when killed (0-2 pearls, up to 4 with Looting III)",
+            "Can be found in End City chests and woodland mansions",
+            "Tradeable from Cleric villagers for 4-7 emeralds (expert level)",
+            "Teleportation causes 2.5 hearts (5 HP) of fall damage when landing",
+            "Has a 1-second cooldown between throws",
+            "Can cancel regular fall damage if thrown just before hitting the ground",
+            "Teleports player across dimensions (can work from Overworld to Nether)",
+            "Consumed upon use regardless of successful or failed teleport",
+            "Has a small chance to spawn an Endermite when thrown",
+            "Required item for accessing the End dimension via Eyes of Ender"
+        ],
+        description: "The Ender Pearl is a distinctive light purple item dropped by Endermen, one of the most iconic mobs in Minecraft. When thrown, an Ender Pearl teleports the player to its landing location while consuming the item, making it an invaluable tool for quick traversal, escaping danger, or reaching otherwise inaccessible areas. The teleportation comes at a cost of 2.5 hearts of fall damage, which can be mitigated by Feather Falling boots or armor enchantments. Beyond teleportation, Ender Pearls are essential for progression as they combine with Blaze Powder to craft Eyes of Ender, the critical items used to locate and activate End portals leading to the final dimension. Endermen typically drop 0-2 pearls upon death, with Looting enchantment increasing the drop to up to 4. These pearls can also be obtained from Cleric villagers through trading or found in chest loot in woodland mansions and End Cities. The Ender Pearl's unique teleportation mechanic, combined with its role in endgame progression, makes it one of the most strategically important items in Minecraft Bedrock Edition."
+    },
+    "minecraft:blaze_rod": {
+        id: "minecraft:blaze_rod",
+        name: "Blaze Rod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Blaze Powder and Brewing Stands",
+            secondaryUse: "Crafting End Rods, Copper Bulbs, and as furnace fuel"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Blazes in Nether Fortresses (0-1 per kill, up to 4 with Looting III)"]
+        },
+        specialNotes: [
+            "Dropped exclusively by Blazes in Nether Fortresses",
+            "Can be crafted into Blaze Powder (2 powder per rod)",
+            "Required to craft Brewing Stands (1 rod in crafting grid)",
+            "Used to craft End Rods (1 rod + 1 Blaze Powder)",
+            "Used to craft Copper Bulbs (1 rod + 3 Copper Blocks)",
+            "Acts as furnace fuel, smelting 12 items per rod",
+            "More efficient fuel than coal (8 items) but less than coal blocks (80 items)",
+            "Blaze Rods can be obtained by trading with Piglin Barons",
+            "Essential item for brewing and accessing the End dimension",
+            "Blaze Rods are renewable as Blazes can be spawned from spawners"
+        ],
+        description: "The Blaze Rod is a vital Nether-exclusive material obtained by defeating Blazes, the fiery creatures found in Nether Fortresses. These orange-golden rods serve multiple crucial functions in Minecraft's progression system. Their primary use is crafting Blaze Powder by placing a single rod in a crafting grid, which yields two powder. This powder is essential for brewing potions, fueling brewing stands, and crafting Eyes of Ender needed to access the End dimension. Blaze Rods themselves are directly used to craft Brewing Stands, End Rods for lighting in the End, and Copper Bulbs introduced in recent updates. Beyond crafting, Blaze Rods function as highly efficient furnace fuel, capable of smelting 12 items per rod—significantly more efficient than individual coal items. Blazes have a chance to drop 0-1 rods upon death, with the Looting enchantment potentially increasing the drop to 4. Their renewable nature through spawner farming makes them sustainable for long-term gameplay. The Blaze Rod's versatility across brewing, crafting, and fuel systems makes it one of the most valuable resources in the Nether and a cornerstone of advanced gameplay progression."
     }
 };
