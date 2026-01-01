@@ -162,5 +162,27 @@ export const miscItems = {
             "One of the most valuable items for survival progression"
         ],
         description: "The Totem of Undying is a legendary life-saving item that prevents a player's death when they would otherwise receive fatal damage. This powerful item must be held in either the main hand or off-hand to automatically activate upon receiving lethal damage, consuming itself in the process. When triggered, the Totem of Undying provides multiple protective effects including Absorption II for 5 seconds (adding 4 extra hearts of health), Regeneration II for 45 seconds in Bedrock Edition, and Fire Resistance I for 40 seconds, giving players a crucial second chance in combat. Totems are exclusively dropped by Evokers, which appear in Woodland Mansions and Raids, with a 100% drop chance on all difficulties. The totem cannot prevent death from void damage or the /kill command, making it essential for ground-based combat scenarios. As one of Minecraft's most coveted items, the Totem of Undying serves as both a practical survival tool and a trophy representing mastery over the game's most dangerous structures and enemies."
+    },
+    "minecraft:bundle": {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Staging and organizing multiple items within a single inventory slot.",
+            secondaryUse: "Items can be added or removed from the bundle while it is held in the inventory."
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather", "String"]
+        },
+        specialNotes: [
+            "Can hold up to 64 items of varying types.",
+            "The capacity depends on the stack size of the items placed inside.",
+            "Can be dyed in 16 different colors using dyes in a crafting grid.",
+            "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
+        ],
+        description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
     }
 };
