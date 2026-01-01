@@ -4,7 +4,7 @@
 // lead, trial key, ominous trial key, written book, book and quill,
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
-// experience bottle, firework star, wolf armor
+// experience bottle, firework star, wolf armor, totem of undying
 // ============================================
 
 /**
@@ -132,5 +132,35 @@ export const miscItems = {
             "Two damaged wolf armors can be combined in crafting grid to repair"
         ],
         description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing gold armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
+    },
+    "minecraft:totem_of_undying": {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        maxStack: 1,
+        durability: 1,
+        enchantable: false,
+        usage: {
+            primaryUse: "Prevents death when held in off-hand or main hand",
+            secondaryUse: "Survival in dangerous combat situations and boss fights"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Evokers in Woodland Mansions and Raids"]
+        },
+        specialNotes: [
+            "Must be held in either the main hand or off-hand to activate",
+            "Automatically activates when receiving fatal damage, preventing death",
+            "Grants Absorption II for 5 seconds (4 extra hearts)",
+            "Grants Regeneration II for 45 seconds in Bedrock Edition",
+            "Grants Fire Resistance I for 40 seconds",
+            "The totem is consumed upon activation (single use)",
+            "100% drop chance on all difficulties",
+            "Evokers spawn in Woodland Mansions and during Raids",
+            "Cannot repair or reuse a consumed totem",
+            "Visual effect shows a golden aura when activated",
+            "Does not prevent death from void damage or /kill command",
+            "One of the most valuable items for survival progression"
+        ],
+        description: "The Totem of Undying is a legendary life-saving item that prevents a player's death when they would otherwise receive fatal damage. This powerful item must be held in either the main hand or off-hand to automatically activate upon receiving lethal damage, consuming itself in the process. When triggered, the Totem of Undying provides multiple protective effects including Absorption II for 5 seconds (adding 4 extra hearts of health), Regeneration II for 45 seconds in Bedrock Edition, and Fire Resistance I for 40 seconds, giving players a crucial second chance in combat. Totems are exclusively dropped by Evokers, which appear in Woodland Mansions and Raids, with a 100% drop chance on all difficulties. The totem cannot prevent death from void damage or the /kill command, making it essential for ground-based combat scenarios. As one of Minecraft's most coveted items, the Totem of Undying serves as both a practical survival tool and a trophy representing mastery over the game's most dangerous structures and enemies."
     }
 };

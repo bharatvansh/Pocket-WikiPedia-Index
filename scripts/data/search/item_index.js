@@ -201,5 +201,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/nether_star",
         themeColor: "§b" // aqua/rare
+    },
+    {
+        id: "minecraft:chorus_fruit",
+        name: "Chorus Fruit",
+        category: "item",
+        icon: "textures/items/chorus_fruit",
+        themeColor: "§f" // white (Common rarity since 1.21.30)
+    },
+    {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        category: "item",
+        icon: "textures/items/totem",
+        themeColor: "§e" // yellow (Uncommon rarity since 1.21.30)
     }
 ];
