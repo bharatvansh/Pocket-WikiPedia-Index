@@ -14,6 +14,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const craftingMaterials = {
+    "minecraft:rabbit_foot": {
+        id: "minecraft:rabbit_foot",
+        name: "Rabbit's Foot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Leaping (Jump Boost)",
+            secondaryUse: "Trading with Cleric villagers and crafting ingredient"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Dropped by rabbits", "Brewed in a brewing stand with Awkward Potion"]
+        },
+        specialNotes: [
+            "Rabbits drop a Rabbit's Foot with a 10.5% chance on death (higher with Looting)",
+            "Tamed cats occasionally gift Rabbit's Foots to their owners",
+            "Essential brewing ingredient for Potion of Leaping (Jump Boost effect)",
+            "Brewing process: Awkward Potion + Rabbit's Foot = Mundane Potion, then fermented spider eye = Potion of Leaping",
+            "Cleric villagers buy Rabbit's Foots for emeralds (4 feet per emerald in Bedrock)",
+            "Renewable resource through rabbit farming and cat gifts",
+            "The Jump Boost effect increases jump height and reduces fall damage",
+            "Potion of Leaping is valuable for parkour, exploration, and combat mobility"
+        ],
+        description: "The Rabbit's Foot is a small but valuable brewing ingredient dropped exclusively by rabbits, the skittish passive mobs found throughout various Minecraft biomes. Each rabbit has a 10.5% chance to drop its foot upon death, with the Looting enchantment increasing these odds, making rabbit farms an efficient way to collect this renewable resource. Additionally, tamed cats have a chance to gift Rabbit's Foots to their owners, providing an alternative acquisition method. The primary purpose of the Rabbit's Foot is in potion brewing, where it serves as the key ingredient for creating Potion of Leaping. When added to an Awkward Potion in a brewing stand, the Rabbit's Foot transforms it into a Mundane Potion, which can then be combined with a Fermented Spider Eye to produce the final Potion of Leaping. This Jump Boost effect significantly increases the player's jump height and reduces fall damage, making it invaluable for parkour challenges, reaching elevated locations, and enhanced mobility in combat. Beyond brewing, Rabbit's Foots have trading value as Cleric villagers will purchase them for emeralds, providing another use for surplus feet. The combination of renewable acquisition through rabbits and cats, brewing utility for mobility potions, and trading potential makes the Rabbit's Foot a versatile and useful mid-game item."
+    },
     "minecraft:flow_pottery_sherd": {
         id: "minecraft:flow_pottery_sherd",
         name: "Flow Pottery Sherd",

@@ -12,6 +12,38 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const miscItems = {
+    "minecraft:name_tag": {
+        id: "minecraft:name_tag",
+        name: "Name Tag",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Naming mobs to prevent them from despawning",
+            secondaryUse: "Customizing mobs and adding personal touches to tamed pets"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in dungeon chests, mineshaft chests, woodland mansion chests, ancient city chests", "Obtained from fishing (0.8% chance)", "Purchased from Librarian villagers (20 emeralds at Master level)"]
+        },
+        specialNotes: [
+            "Must be renamed using an anvil before use (costs 1 experience level)",
+            "Up to 64 name tags can be renamed at once for a single experience level",
+            "Using a renamed name tag on a mob gives it that name permanently",
+            "Named mobs never despawn naturally, similar to tamed animals",
+            "Name tags with the same name are stackable after renaming",
+            "Wandering traders and hostile mobs will despawn in Peaceful difficulty even when named",
+            "If a named mob kills a player, the death message shows the custom name",
+            "Cannot be used to name the Ender Dragon or other boss mobs without commands",
+            "Fishing treasure: 0.8% chance to catch as junk/treasure",
+            "Chest locations: Dungeon chests (25.3%), Mineshaft chests (42.3%), Woodland Mansion (27.9%), Ancient City (16.1%)"
+        ],
+        description: "The Name Tag is a specialized utility item that allows players to permanently name mobs in Minecraft, preventing them from despawning and adding a personal touch to pets and farm animals. Before a Name Tag can be used, it must first be renamed at an anvil, which costs one experience level regardless of whether the player renames a single tag or an entire stack of 64 at once. Once renamed, the Name Tag can be used on any mob to permanently assign it that name, with the tag being consumed in the process. Named mobs become persistent in the world and will not despawn like normal mobs, making Name Tags invaluable for keeping valuable tamed animals, farm livestock, or even rare hostile spawns. The unique name also appears in death messages if that mob kills a player, adding personality to combat encounters. Players can acquire Name Tags through several methods: they have a small 0.8% chance to be caught while fishing, can be found in various loot chests including dungeons (25.3%), mineshafts (42.3%), woodland mansions (27.9%), and ancient cities (16.1%), or purchased from Librarian villagers at the Master level for 20 emeralds. This variety of acquisition methods makes Name Tags accessible to players at different stages of progression, from early-game fishing to late-game trading and exploration."
+    },
     "minecraft:shield": {
         id: "minecraft:shield",
         name: "Shield",
