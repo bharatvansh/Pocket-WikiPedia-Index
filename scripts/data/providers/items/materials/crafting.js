@@ -76,7 +76,7 @@ export const craftingMaterials = {
         specialNotes: [
             "Found exclusively in buried treasure chests",
             "Used to craft Conduits (requires 8 Nautilus Shells + 1 Heart of the Sea)",
-            "Emits glowing particles when held or dropped",
+            "No particles or glint (Standard item behavior)",
             "Cannot be crafted or obtained through any other means",
             "Rare item that requires treasure hunting to find",
             "Buried treasure maps can be found in shipwrecks and ocean ruins",
@@ -103,7 +103,7 @@ export const craftingMaterials = {
             "Always drops 1 from defeating the Wither",
             "Cannot be obtained through any other means",
             "Required exclusively for crafting Beacons",
-            "Emits purple glowing particles when held or dropped",
+            "Has enchantment glint (shimmer) but no particle emission",
             "One of the rarest and most difficult items to obtain",
             "Requires summoning and defeating the Wither boss (4 soul sand, 3 wither skeleton skulls)",
             "Beacons provide status effects to players within range",
@@ -111,6 +111,7 @@ export const craftingMaterials = {
             "Wither is one of the most challenging bosses in the game",
             "Can be used in item frames as a decorative trophy"
         ],
-        description: "The Nether Star is an exceptionally rare and valuable item obtained exclusively by defeating the Wither, one of Minecraft's most dangerous and challenging bosses. This glowing purple star serves as the central component for crafting Beacons, powerful pyramid-shaped blocks that provide beneficial status effects such as Speed, Haste, Resistance, Jump Boost, and Strength to players within their range. The Wither always drops exactly one Nether Star upon defeat, making it a hard-earned reward that requires preparation, skill, and resources to obtain. Summoning the Wither requires gathering 4 soul sand blocks and 3 wither skeleton skulls, a task that demands significant effort in Nether fortresses. The Nether Star's distinctive purple glow and particle effects make it visually striking, and it's often displayed as a trophy in item frames. As an essential component for Beacon construction, the Nether Star represents a major milestone in a player's progression, unlocking powerful buffs that enhance both survival and building capabilities. Its rarity and the difficulty of obtaining it make the Nether Star one of the most prestigious items in Minecraft Bedrock Edition."
+        description: "The Nether Star is an exceptionally rare and valuable item obtained exclusively by defeating the Wither, one of Minecraft's most dangerous and challenging bosses. This glowing purple star serves as the central component for crafting Beacons, powerful pyramid-shaped blocks that provide beneficial status effects such as Speed, Haste, Resistance, Jump Boost, and Strength to players within their range. The Wither always drops exactly one Nether Star upon defeat, making it a hard-earned reward that requires preparation, skill, and resources to obtain. Summoning the Wither requires gathering 4 soul sand blocks and 3 wither skeleton skulls, a task that demands significant effort in Nether fortresses. The Nether Star's distinctive purple glow and particle effects make it visually striking, and it's often displayed as a trophy in item frames. As an essential component for Beacon construction, the Nether Star represents a major milestone in a player's progression, unlocking powerful buffs that enhance both survival and building capabilities. Its rarity and the difficulty of obtaining it make the Nether Star one of the most prestigious items in Minecraft Bedrock Edition.",
+        themeColor: "§b (Aqua/Rare)"
     }
 };
