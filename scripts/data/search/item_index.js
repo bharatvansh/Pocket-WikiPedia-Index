@@ -229,5 +229,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/brush",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/pale_oak_boat",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:copper_bulb",
+        name: "Copper Bulb",
+        category: "item",
+        icon: "textures/items/copper_bulb",
+        themeColor: "§6"
     }
 ];
