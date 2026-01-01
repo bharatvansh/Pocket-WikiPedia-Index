@@ -117,5 +117,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_creator",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:armadillo_scute",
+        name: "Armadillo Scute",
+        category: "item",
+        icon: "textures/items/armadillo_scute",
+        themeColor: "§e" // yellow/brown
+    },
+    {
+        id: "minecraft:wolf_armor",
+        name: "Wolf Armor",
+        category: "item",
+        icon: "textures/items/wolf_armor",
+        themeColor: "§e" // yellow/brown
     }
 ];
