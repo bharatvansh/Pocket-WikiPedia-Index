@@ -25,7 +25,7 @@ export const bannerPatterns = {
             ingredients: ["Obtained as loot from Ominous Vaults in Trial Chambers"]
         },
         specialNotes: [
-            "Has a 15% chance to appear in Ominous Vaults in Bedrock Edition",
+            "Has a 4.4% chance to appear in Ominous Vaults in Bedrock Edition",
             "The banner pattern item is not consumed when used in a Loom",
             "Cannot be crafted and is not renewable outside of repeatedly opening Ominous Vaults",
             "Added in the 1.21 Tricky Trials update",

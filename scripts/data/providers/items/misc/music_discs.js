@@ -50,7 +50,7 @@ export const musicDiscs = {
         specialNotes: [
             "Composed by Lena Raine",
             "A shorter music-box rendition of the 'Creator' track",
-            "Has a 1.4% chance to be found in Trial Chamber corridor pots",
+            "Has a 0.8% chance to be found in Trial Chamber corridor pots in Bedrock Edition",
             "Added in the 1.21 Tricky Trials update",
             "In Bedrock Edition, its rarity is officially classified as 'Uncommon'"
         ],
