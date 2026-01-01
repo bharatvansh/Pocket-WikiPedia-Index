@@ -91,7 +91,7 @@ export const mobDrops = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Crafting Brewing Stand and Blaze Powder",
+            primaryUse: "Crafting Brewing Stand, Blaze Powder, End Rods, and Copper Bulbs",
             secondaryUse: "Fuel for furnaces (smelts 12 items per rod)"
         },
         crafting: {
@@ -104,10 +104,12 @@ export const mobDrops = {
             "Blaze Powder is essential for brewing potions",
             "Blaze Rods can be used as furnace fuel, smelting 12 items per rod",
             "Required to craft Brewing Stand (1 Blaze Rod + 3 Cobblestone/Blackstone/Cobbled Deepslate)",
+            "Required to craft End Rods (1 Blaze Rod + 1 Blaze Powder)",
+            "Required to craft Copper Bulbs (1 Blaze Rod + 3 Copper Blocks)",
             "Blaze Powder is used to craft Eyes of Ender for finding strongholds",
             "Blazes spawn exclusively in Nether fortresses",
             "Essential for potion brewing and accessing the End dimension"
         ],
-        description: "Blaze Rods are essential Nether materials dropped exclusively by Blazes, the fiery hostile mobs that spawn in Nether fortresses. Each Blaze has a chance to drop 0-1 Blaze Rods upon death, with Looting III enchantment increasing the maximum drop to 4 rods in Bedrock Edition. These blazing-hot rods serve multiple critical functions in Minecraft progression: they are smelted into Blaze Powder, the fundamental ingredient for brewing potions and crafting Eyes of Ender. A single Blaze Rod produces two Blaze Powder, and rods can also be used directly as furnace fuel, smelting 12 items per rod. The Brewing Stand, essential for all potion brewing, requires one Blaze Rod and three stone-tier blocks to craft. Beyond brewing, Blaze Powder combines with Ender Pearls to create Eyes of Ender, which are necessary for locating and activating End Portals to access the End dimension and defeat the Ender Dragon. Without Blaze Rods, players cannot brew potions or reach the End, making them one of the most important progression items in the game."
+        description: "Blaze Rods are essential Nether materials dropped exclusively by Blazes, the fiery hostile mobs that spawn in Nether fortresses. Each Blaze has a chance to drop 0-1 Blaze Rods upon death, with Looting III enchantment increasing the maximum drop to 4 rods in Bedrock Edition. These blazing-hot rods serve multiple critical functions in Minecraft progression: they are smelted into Blaze Powder, the fundamental ingredient for brewing potions and crafting Eyes of Ender. A single Blaze Rod produces two Blaze Powder, and rods can also be used directly as furnace fuel, smelting 12 items per rod. The Brewing Stand, essential for all potion brewing, requires one Blaze Rod and three stone-tier blocks to craft. Beyond brewing, Blaze Rods are direct crafting ingredients for End Rods, decorative light sources for End Cities, and Copper Bulbs, toggleable light sources introduced in the Tricky Trials update. Blaze Powder combines with Ender Pearls to create Eyes of Ender, which are necessary for locating and activating End Portals to access the End dimension and defeat the Ender Dragon. Without Blaze Rods, players cannot brew potions or reach the End, making them one of the most important progression items in the game."
     }
 };
