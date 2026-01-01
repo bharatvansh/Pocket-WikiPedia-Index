@@ -4,7 +4,9 @@
 // cut copper (all oxidation states), cut copper stairs/slabs,
 // waxed variants of all copper blocks, copper grate,
 // exposed copper grate, weathered copper grate, oxidized copper grate,
-// copper bulb, copper door, copper trapdoor, chiseled copper
+// copper bulb, copper door, copper trapdoor, chiseled copper,
+// exposed copper door, weathered copper door, oxidized copper door,
+// exposed copper trapdoor, weathered copper trapdoor, oxidized copper trapdoor
 // ============================================
 
 /**
@@ -200,5 +202,47 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Bulb is the final oxidation stage of the copper bulb family in Minecraft 1.21+, representing fully aged copper with an elegant green patina. This variant emits the lowest light level of the copper bulb family at level 4, creating a soft, ambient glow perfect for atmospheric lighting in ancient or weathered builds. Like other copper bulbs, it toggles between on and off states when receiving a redstone pulse, maintaining its unique redstone functionality throughout the oxidation process. Oxidized copper bulbs craft identically to fresh copper bulbs but either start as oxidized or oxidize naturally over time. Found in Trial Chambers, these blocks represent the most weathered copper bulbs in the game world. Players can wax oxidized copper bulbs with honeycomb to prevent further changes and preserve their distinctive teal-green appearance. While providing the dimmest illumination, they offer the most character for builders seeking authentic aged aesthetics in their redstone contraptions and decorative lighting systems. When mined with a stone pickaxe or higher, oxidized copper bulbs drop themselves without requiring Silk Touch."
+    },
+    "minecraft:exposed_copper_door": {
+        id: "minecraft:exposed_copper_door",
+        name: "Exposed Copper Door",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Copper Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Exposed Copper Door is the first oxidation stage of the copper door family introduced in Minecraft 1.21, featuring a tarnished brownish-copper appearance with characteristic oxidation spots. This door variant maintains all the functionality of the fresh copper door, including player interaction for opening and closing, redstone power compatibility for automated systems, and waterloggability for underwater builds. Like all copper blocks, exposed copper doors can be waxed with honeycomb to preserve their current appearance and prevent further oxidation, or scraped with an axe to restore them to the fresh copper door state. They generate naturally within Trial Chambers corridors and chambers where copper doors appear in various oxidation stages, providing builders with readily accessible aged door options. The exposed variant offers a warm, slightly weathered aesthetic that complements rustic and industrial architectural styles while maintaining the durability and redstone capabilities of the copper door family."
+    },
+    "minecraft:weathered_copper_door": {
+        id: "minecraft:weathered_copper_door",
+        name: "Weathered Copper Door",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Copper Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Weathered Copper Door represents the second oxidation stage of the copper door family in Minecraft 1.21, distinguished by its rich blue-green patina that develops as copper continues to age. This intermediate oxidation stage provides builders with a sophisticated, time-worn aesthetic that bridges the gap between the warm brown tones of exposed copper and the verdant green of fully oxidized copper. Weathered copper doors function identically to their less-oxidized counterparts, opening and closing via player interaction, responding to redstone signals for automation, and supporting waterlogging for underwater architectural elements. Found naturally in Trial Chambers where they represent moderately aged copper doors, these blocks can also be created by allowing exposed copper doors to continue oxidizing or by crafting from copper blocks of matching oxidation level. Players can wax weathered copper doors with honeycomb to lock in their distinctive blue-green appearance, preserving the character they bring to ancient ruins, mystical structures, and weathered industrial builds. When mined with a stone-tier pickaxe or better, weathered copper doors drop themselves without requiring Silk Touch."
     }
 };

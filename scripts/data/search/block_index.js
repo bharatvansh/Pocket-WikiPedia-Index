@@ -299,5 +299,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/calibrated_sculk_sensor",
         themeColor: "§d" // light purple (sculk theme)
+    },
+    {
+        id: "minecraft:exposed_copper_door",
+        name: "Exposed Copper Door",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_door",
+        themeColor: "§6" // copper/brownish
+    },
+    {
+        id: "minecraft:weathered_copper_door",
+        name: "Weathered Copper Door",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_door",
+        themeColor: "§3" // dark aqua/blue-green
     }
 ];
