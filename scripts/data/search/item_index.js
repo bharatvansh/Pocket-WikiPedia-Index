@@ -214,6 +214,6 @@ export const itemIndex = [
         name: "Totem of Undying",
         category: "item",
         icon: "textures/items/totem",
-        themeColor: "§d" // light purple/magical
+        themeColor: "§e" // yellow (Uncommon rarity since 1.21.30)
     }
 ];

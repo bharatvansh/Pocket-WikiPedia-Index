@@ -150,17 +150,17 @@ export const miscItems = {
         specialNotes: [
             "Must be held in either the main hand or off-hand to activate",
             "Automatically activates when receiving fatal damage, preventing death",
-            "Grants Absorption II for 5 seconds (2 extra hearts)",
+            "Grants Absorption II for 5 seconds (4 extra hearts)",
             "Grants Regeneration II for 45 seconds in Bedrock Edition",
             "Grants Fire Resistance I for 40 seconds",
             "The totem is consumed upon activation (single use)",
-            "100% chance on all difficulties where Evokers exist",
+            "100% drop chance on all difficulties",
             "Evokers spawn in Woodland Mansions and during Raids",
             "Cannot repair or reuse a consumed totem",
             "Visual effect shows a golden aura when activated",
             "Does not prevent death from void damage or /kill command",
             "One of the most valuable items for survival progression"
         ],
-        description: "The Totem of Undying is a legendary life-saving item that prevents a player's death when they would otherwise receive fatal damage. This powerful item must be held in either the main hand or off-hand to automatically activate upon receiving lethal damage, consuming itself in the process. When triggered, the Totem of Undying provides multiple protective effects including Absorption I for 5 seconds (adding 2 extra hearts of health), Regeneration II for 45 seconds in Bedrock Edition, and Fire Resistance I for 40 seconds, giving players a crucial second chance in combat. Totems are exclusively dropped by Evokers, which appear in Woodland Mansions and Raids, with a 100% drop chance on Normal and Hard difficulties but 0% on Easy. The totem cannot prevent death from void damage or the /kill command, making it essential for ground-based combat scenarios. As one of Minecraft's most coveted items, the Totem of Undying serves as both a practical survival tool and a trophy representing mastery over the game's most dangerous structures and enemies."
+        description: "The Totem of Undying is a legendary life-saving item that prevents a player's death when they would otherwise receive fatal damage. This powerful item must be held in either the main hand or off-hand to automatically activate upon receiving lethal damage, consuming itself in the process. When triggered, the Totem of Undying provides multiple protective effects including Absorption II for 5 seconds (adding 4 extra hearts of health), Regeneration II for 45 seconds in Bedrock Edition, and Fire Resistance I for 40 seconds, giving players a crucial second chance in combat. Totems are exclusively dropped by Evokers, which appear in Woodland Mansions and Raids, with a 100% drop chance on all difficulties. The totem cannot prevent death from void damage or the /kill command, making it essential for ground-based combat scenarios. As one of Minecraft's most coveted items, the Totem of Undying serves as both a practical survival tool and a trophy representing mastery over the game's most dangerous structures and enemies."
     }
 };
