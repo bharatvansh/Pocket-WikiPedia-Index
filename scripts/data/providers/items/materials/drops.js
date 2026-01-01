@@ -82,7 +82,7 @@ export const mobDrops = {
             "The purple particle clouds from the dragon deal damage, so collection can be dangerous",
             "Does not have a consumption animation like drinking potions"
         ],
-        description: "Dragon's Breath is a rare brewing ingredient collected during the fight with the Ender Dragon. By using an empty glass bottle on the purple clouds of acid breath the dragon spits or the lingering clouds from its fireballs, players can bottle the substance. This item is critical for advanced alchemy, as it is used to convert Splash Potions into Lingering Potions. These lingering potions leave a cloud of the effect on the ground and are also the primary method for crafting Tipped Arrows, allowing players to utilize potion effects in ranged combat."
+        description: "Dragon's Breath is a rare brewing ingredient collected during the fight with the Ender Dragon. By using an empty glass bottle on the purple clouds of acid breath the dragon spits or the lingering clouds from its fireballs, players can bottle the substance. This item is critical for advanced alchemy, as it is used to convert Splash Potions into Lingering Potions. These lingering potions leave a cloud of the effect on the ground and can be used to craft Tipped Arrows, allowing players to utilize potion effects in ranged combat."
     },
     "minecraft:breeze_rod": {
         id: "minecraft:breeze_rod",
