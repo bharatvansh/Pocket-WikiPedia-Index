@@ -67,7 +67,7 @@ export const mobDrops = {
         enchantable: false,
         usage: {
             primaryUse: "Crafting Block of Resin (9 clumps = 1 block)",
-            secondaryUse: "Crafting Resin Bricks (4 blocks = 4 bricks) and Resin Clusters"
+            secondaryUse: "Smelting into Resin Bricks in a furnace or smoker"
         },
         crafting: {
             recipeType: "Uncraftable",
@@ -77,10 +77,11 @@ export const mobDrops = {
             "Creaking Hearts drop 1-3 Resin Clumps when attacked in Bedrock Edition",
             "Hitting a Creaking mob while it's linked to its heart also yields Resin Clumps",
             "Nine Resin Clumps can be crafted into one Block of Resin",
-            "Block of Resin can be used to craft Resin Bricks and a Creaking Heart",
+            "Resin Clumps can be smelted in a furnace or smoker to create Resin Bricks",
+            "Block of Resin can be used to craft a Creaking Heart",
             "Added in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden biome content",
             "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
         ],
-        description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin, which can be crafted into decorative Resin Bricks or used to construct a Creaking Heart for custom builds. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
+        description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin in a 3x3 crafting grid or smelting them in a furnace to create Resin Bricks. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
     }
 };
