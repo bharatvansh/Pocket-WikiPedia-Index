@@ -32,31 +32,54 @@ function parseArgs() {
 /**
  * Extract IDs from diff content (looking for newly added entries)
  * Matches patterns like: "minecraft:creeper": { or id: "minecraft:creeper"
+ * 
+ * IMPORTANT: Only returns TRULY NEW entries - IDs that appear in + lines
+ * but NOT in - lines. IDs appearing in both are modifications to existing
+ * entries, not new additions.
  */
 function extractAddedIdsFromDiff(diffContent) {
     const addedIds = new Set();
+    const removedIds = new Set();
     const lines = diffContent.split('\n');
 
     for (const line of lines) {
-        // Only look at added lines (starting with +)
-        if (!line.startsWith('+')) continue;
         // Skip diff headers
-        if (line.startsWith('+++')) continue;
+        if (line.startsWith('+++') || line.startsWith('---')) continue;
+
+        const isAdded = line.startsWith('+');
+        const isRemoved = line.startsWith('-');
+
+        if (!isAdded && !isRemoved) continue;
 
         // Match object key pattern: "minecraft:something": {
         const keyMatch = line.match(/"(minecraft:[^"]+)":\s*\{/);
         if (keyMatch) {
-            addedIds.add(keyMatch[1]);
+            if (isAdded) addedIds.add(keyMatch[1]);
+            if (isRemoved) removedIds.add(keyMatch[1]);
         }
 
         // Match id field pattern: id: "minecraft:something"
         const idMatch = line.match(/id:\s*"(minecraft:[^"]+)"/);
         if (idMatch) {
-            addedIds.add(idMatch[1]);
+            if (isAdded) addedIds.add(idMatch[1]);
+            if (isRemoved) removedIds.add(idMatch[1]);
         }
     }
 
-    return addedIds;
+    // Only return IDs that are truly NEW (in + lines but NOT in - lines)
+    // IDs in both sets are modifications to existing entries, not new additions
+    const trulyNewIds = new Set();
+    for (const id of addedIds) {
+        if (!removedIds.has(id)) {
+            trulyNewIds.add(id);
+        }
+    }
+
+    console.log(`  Added IDs in diff: ${addedIds.size}`);
+    console.log(`  Removed IDs in diff: ${removedIds.size}`);
+    console.log(`  Truly new IDs (not modifications): ${trulyNewIds.size}`);
+
+    return trulyNewIds;
 }
 
 /**
