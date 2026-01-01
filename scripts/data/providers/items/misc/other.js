@@ -132,5 +132,32 @@ export const miscItems = {
             "Two damaged wolf armors can be combined in crafting grid to repair"
         ],
         description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing gold armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
+    },
+    "minecraft:totem_of_undying": {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Preventing death by restoring health and granting status effects",
+            secondaryUse: "Must be held in main hand or off-hand to activate upon taking fatal damage"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Evokers in Woodland Mansions and Raids"]
+        },
+        specialNotes: [
+            "Evokers always drop exactly one Totem of Undying upon death (100% drop rate)",
+            "Upon activation, restores the player to 1 heart (2 health points)",
+            "Grants Regeneration II for 45 seconds (40 seconds in Java Edition)",
+            "Grants Absorption II for 5 seconds, providing 4 extra hearts of temporary health",
+            "Grants Fire Resistance II for 40 seconds",
+            "Removes all active negative status effects when activated",
+            "Consumed immediately upon use and disappears from inventory",
+            "Only works when held in either the main hand or off-hand slot",
+            "Does not protect against the Void or the /kill command"
+        ],
+        description: "The Totem of Undying is a rare life-saving item that prevents death when held in the player's hand or off-hand slot. Dropped exclusively by Evokers found in Woodland Mansions and during Raids, this golden idol activates automatically when the player receives fatal damage. Upon activation, it consumes itself while restoring the player to 1 heart and providing powerful regeneration, absorption, and fire resistance effects, along with clearing all negative status effects. The dramatic golden particle effect and distinctive sound announce the totem's activation, giving players a crucial second chance in dangerous situations. While incredibly valuable for hardcore gameplay and challenging encounters, the totem's single-use nature and limited availability make it a precious resource that players often save for the most perilous adventures."
     }
 };

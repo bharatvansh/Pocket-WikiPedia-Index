@@ -173,5 +173,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/guster_banner_pattern",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:netherite_ingot",
+        name: "Netherite Ingot",
+        category: "item",
+        icon: "textures/items/netherite_ingot",
+        themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        category: "item",
+        icon: "textures/items/totem_of_undying",
+        themeColor: "§6" // gold
     }
 ];
