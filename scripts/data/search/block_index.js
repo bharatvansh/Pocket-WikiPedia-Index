@@ -376,5 +376,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/weathered_copper_door",
         themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:sculk_shrieker",
+        name: "Sculk Shrieker",
+        category: "block",
+        icon: "textures/blocks/sculk_shrieker",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:decorated_pot",
+        name: "Decorated Pot",
+        category: "block",
+        icon: "textures/blocks/decorated_pot",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:chiseled_bookshelf",
+        name: "Chiseled Bookshelf",
+        category: "block",
+        icon: "textures/blocks/chiseled_bookshelf",
+        themeColor: "§6" // gold/brown
     }
 ];
