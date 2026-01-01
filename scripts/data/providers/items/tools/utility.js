@@ -28,7 +28,7 @@ export const utilityTools = {
         },
         specialNotes: [
             "Loses 1 durability for each successful block brushed.",
-            "Loses 16 durability when used to brush an armadillo.",
+            "Loses approximately 13 durability (20% of total) when used to brush an armadillo in Bedrock Edition, allowing for 5 uses.",
             "Can be enchanted with Unbreaking and Mending.",
             "Used to reveal buried loot such as pottery sherds, armor trims, and sniffer eggs."
         ],
