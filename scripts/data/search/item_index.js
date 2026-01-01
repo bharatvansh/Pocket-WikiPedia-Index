@@ -159,5 +159,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/guster_banner_pattern",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:pottery_sherd_angler",
+        name: "Angler Pottery Sherd",
+        category: "item",
+        icon: "textures/items/pottery_sherd_angler",
+        themeColor: "§4" // dark red
     }
 ];
