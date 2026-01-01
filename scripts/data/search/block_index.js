@@ -250,5 +250,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/oxidized_copper_bulb",
         themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
+        id: "minecraft:resin_bricks",
+        name: "Resin Bricks",
+        category: "block",
+        icon: "textures/blocks/resin_bricks",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:chiseled_resin_bricks",
+        name: "Chiseled Resin Bricks",
+        category: "block",
+        icon: "textures/blocks/chiseled_resin_bricks",
+        themeColor: "§6" // orange
     }
 ];
