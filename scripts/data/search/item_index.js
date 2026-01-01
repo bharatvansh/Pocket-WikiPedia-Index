@@ -229,5 +229,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/brush",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        category: "item",
+        icon: "textures/items/spyglass",
+        themeColor: "§6" // copper/gold
+    },
+    {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        category: "item",
+        icon: "textures/items/recovery_compass",
+        themeColor: "§3" // dark aqua/echo theme
     }
 ];

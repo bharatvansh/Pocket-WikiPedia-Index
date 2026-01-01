@@ -7,6 +7,7 @@ import { musicDiscs } from './music_discs.js';
 import { spawnEggs } from './spawn_eggs.js';
 import { bannerPatterns } from './banners.js';
 import { miscItems } from './other.js';
+import { utilityItems } from './utility.js';
 
 export const misc = {
     ...dyes,
@@ -14,5 +15,6 @@ export const misc = {
     ...musicDiscs,
     ...spawnEggs,
     ...bannerPatterns,
-    ...miscItems
+    ...miscItems,
+    ...utilityItems
 };
