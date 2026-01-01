@@ -104,8 +104,8 @@ export const mobDrops = {
             "Blaze Powder is essential for brewing potions",
             "Blaze Rods can be used as furnace fuel, smelting 12 items per rod",
             "Required to craft Brewing Stand (1 Blaze Rod + 3 Cobblestone/Blackstone/Cobbled Deepslate)",
-            "Required to craft End Rods (1 Blaze Rod + 1 Blaze Powder)",
-            "Required to craft Copper Bulbs (1 Blaze Rod + 3 Copper Blocks)",
+            "Required to craft End Rods (1 Blaze Rod + 1 Popped Chorus Fruit)",
+            "Required to craft Copper Bulbs (1 Blaze Rod + 3 Copper Blocks + 1 Redstone Dust)",
             "Blaze Powder is used to craft Eyes of Ender for finding strongholds",
             "Blazes spawn exclusively in Nether fortresses",
             "Essential for potion brewing and accessing the End dimension"
