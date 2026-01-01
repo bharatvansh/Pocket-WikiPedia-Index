@@ -327,5 +327,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_wolf.png",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:stray",
+        name: "Stray",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_stray.png",
+        themeColor: "§b" // light blue/frozen
+    },
+    {
+        id: "minecraft:chicken",
+        name: "Chicken",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_chicken.png",
+        themeColor: "§f" // white
     }
 ];

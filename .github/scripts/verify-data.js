@@ -101,6 +101,111 @@ function parseArgs() {
 }
 
 /**
+ * Extract individual entries from git diff content
+ */
+function extractEntriesFromDiff(diffContent) {
+    const entries = [];
+    const lines = diffContent.split('\n');
+
+    let currentEntry = null;
+    let braceDepth = 0;
+    let entryLines = [];
+
+    for (const line of lines) {
+        // Skip diff metadata lines
+        if (line.startsWith('diff --git') || line.startsWith('index ') ||
+            line.startsWith('---') || line.startsWith('+++') ||
+            line.startsWith('@@')) {
+            continue;
+        }
+
+        // Only process added lines (new entries)
+        if (!line.startsWith('+')) continue;
+
+        const content = line.substring(1); // Remove the '+' prefix
+
+        // Look for entry start: "minecraft:something": {
+        const entryMatch = content.match(/^\s*["'](minecraft:[^"']+)["']\s*:\s*\{/);
+        if (entryMatch && braceDepth === 0) {
+            currentEntry = entryMatch[1];
+            braceDepth = 1;
+            entryLines = [content];
+            continue;
+        }
+
+        if (currentEntry) {
+            entryLines.push(content);
+
+            // Count braces
+            for (const char of content) {
+                if (char === '{') braceDepth++;
+                else if (char === '}') braceDepth--;
+            }
+
+            // Entry complete
+            if (braceDepth === 0) {
+                const entryContent = entryLines.join('\n');
+
+                // Try to extract name from the entry
+                const nameMatch = entryContent.match(/name\s*:\s*["']([^"']+)["']/);
+                const name = nameMatch ? nameMatch[1] : currentEntry;
+
+                entries.push({
+                    id: currentEntry,
+                    name: name,
+                    content: entryContent
+                });
+
+                currentEntry = null;
+                entryLines = [];
+            }
+        }
+    }
+
+    return entries;
+}
+
+/**
+ * Verify a single entry with Gemini using Google Search grounding
+ */
+async function verifySingleEntry(client, entry) {
+    const verifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier.
+
+Verify the following SINGLE Minecraft data entry for accuracy:
+
+Entry ID: ${entry.id}
+Entry Name: ${entry.name}
+Data:
+${entry.content}
+
+Instructions:
+- Use Google Search to verify this entry from official Minecraft sources.
+- Check if the description, stats, behaviors, and other data are accurate for Minecraft Bedrock Edition.
+- Only flag actual factual errors, not style preferences.
+
+Response format:
+- If the entry is correct, respond: "CORRECT: [brief confirmation]"
+- If there are issues, respond: "ISSUE: [field] - [current value] should be [correct value]. [explanation]"`;
+
+    const response = await client.models.generateContent({
+        model: 'gemini-3-pro-preview',
+        contents: verifyPrompt,
+        config: {
+            tools: [{ googleSearch: {} }]
+        }
+    });
+
+    const resultText = response.text;
+    const hasIssue = resultText.toUpperCase().startsWith('ISSUE');
+
+    return {
+        entry,
+        resultText,
+        hasIssue
+    };
+}
+
+/**
  * Convert structured response to markdown report
  */
 function formatReport(result) {
@@ -143,53 +248,70 @@ async function verifyWithGemini(dataContent) {
 
     const client = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-    // Step 1: Initial verification with Google Search grounding
-    const verifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier.
+    // Step 1: Extract and verify entries one at a time (sequentially)
+    console.log('Step 1: Extracting entries from diff...');
+    const entries = extractEntriesFromDiff(dataContent);
 
-Review the following Minecraft data changes (git diff format) and verify their accuracy.
+    if (entries.length === 0) {
+        console.log('No entries found in diff, falling back to raw content verification');
+        // Fallback: treat entire diff as single entry
+        entries.push({
+            id: 'unknown',
+            name: 'Data Entry',
+            content: dataContent
+        });
+    }
 
-${dataContent}
+    console.log(`Found ${entries.length} entries to verify`);
 
-Instructions:
-- Use Google Search to verify each piece of information from official Minecraft sources.
-- Check if descriptions, stats, behaviors, and other data are accurate for Minecraft Bedrock Edition.
-- Only flag actual factual errors, not style preferences.
-- ALWAYS count how many data entries you verified.
+    // Verify each entry sequentially
+    const verificationResults = [];
+    const initialIssues = [];
 
-Response format:
-1. First state: "Verified X entries" (where X is the count of items/mobs/blocks checked)
-2. If issues found, list each:
-   - Item ID and name
-   - Which field is wrong  
-   - Current value vs correct value
-   - Brief explanation
-3. If all data is correct, end with: "All entries are accurate."
+    for (let i = 0; i < entries.length; i++) {
+        const entry = entries[i];
+        console.log(`\nVerifying entry ${i + 1}/${entries.length}: ${entry.name} (${entry.id})...`);
 
-Example good response: "Verified 3 entries. All entries are accurate."
-Example with issues: "Verified 5 entries. Found 1 issue: minecraft:pig has incorrect health value..."`;
+        try {
+            const result = await verifySingleEntry(client, entry);
+            verificationResults.push(result);
 
-
-    console.log('Step 1: Initial verification with Google Search grounding...');
-    const verifyResponse = await client.models.generateContent({
-        model: 'gemini-3-pro-preview',
-        contents: verifyPrompt,
-        config: {
-            tools: [{ googleSearch: {} }]
+            if (result.hasIssue) {
+                console.log(`  ⚠️ Issue found`);
+                initialIssues.push({
+                    itemId: entry.id,
+                    itemName: entry.name,
+                    verificationText: result.resultText
+                });
+            } else {
+                console.log(`  ✅ Verified`);
+            }
+        } catch (error) {
+            console.log(`  ❌ Error: ${error.message}`);
+            // On error, flag for manual review
+            initialIssues.push({
+                itemId: entry.id,
+                itemName: entry.name,
+                verificationText: `Error during verification: ${error.message}`
+            });
         }
-    });
+    }
 
-    const initialVerificationText = verifyResponse.text;
-    console.log('Initial verification result:', initialVerificationText);
+    // Build initial verification summary
+    let initialVerificationText = `Verified ${entries.length} entries.\n\n`;
 
-    // Check if any issues were found in the initial verification
-    const hasInitialIssues = !initialVerificationText.toLowerCase().includes('all entries are accurate') &&
-        !initialVerificationText.toLowerCase().includes('all data is correct') &&
-        !initialVerificationText.toLowerCase().includes('no issues found') &&
-        (initialVerificationText.toLowerCase().includes('issue') ||
-            initialVerificationText.toLowerCase().includes('incorrect') ||
-            initialVerificationText.toLowerCase().includes('wrong') ||
-            initialVerificationText.toLowerCase().includes('error'));
+    if (initialIssues.length > 0) {
+        initialVerificationText += `Found ${initialIssues.length} potential issue(s):\n`;
+        for (const issue of initialIssues) {
+            initialVerificationText += `- ${issue.itemName} (${issue.itemId}): ${issue.verificationText}\n`;
+        }
+    } else {
+        initialVerificationText += 'All entries are accurate.';
+    }
 
+    console.log('\nInitial verification complete:', initialVerificationText);
+
+    const hasInitialIssues = initialIssues.length > 0;
     let finalVerificationText = initialVerificationText;
 
     // Step 2: Re-verify each issue INDEPENDENTLY (reduces false positives)

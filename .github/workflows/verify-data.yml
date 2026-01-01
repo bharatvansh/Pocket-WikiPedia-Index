@@ -39,8 +39,50 @@ jobs:
           cd .github/scripts
           npm install
 
+      - name: Validate PR scope (only data files allowed)
+        id: scope
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          cd .github/scripts
+          node check-scope.js --base $BASE_REF --output ../../scope_report.md --status ../../scope_status.txt
+          
+          # Read the status
+          if [ -f ../../scope_status.txt ]; then
+            STATUS=$(cat ../../scope_status.txt)
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+          else
+            echo "status=no_issues" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Post scope errors and stop (if unauthorized files changed)
+        if: steps.scope.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## 🔒 PR Scope Validation Failed\n\n';
+            
+            if (fs.existsSync('scope_report.md')) {
+              report += fs.readFileSync('scope_report.md', 'utf8');
+            }
+            
+            report += '\n\n---\n*Data contribution PRs must ONLY modify data files. Please remove unauthorized file changes or create a separate PR for code changes.*';
+            
+            await github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body: report,
+              event: 'REQUEST_CHANGES'
+            });
+            
+            // Fail the workflow
+            core.setFailed('Unauthorized file changes detected in PR');
+
       - name: Check for duplicate entries
         id: duplicates
+        if: steps.scope.outputs.status == 'no_issues'
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -82,7 +124,7 @@ jobs:
 
       - name: Validate format (syntax + structure)
         id: format
-        if: steps.duplicates.outputs.status == 'no_issues'
+        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues'
         run: |
           cd .github/scripts
           node validate-format.js --output ../../format_report.md --status ../../format_status.txt
@@ -120,9 +162,49 @@ jobs:
             // Fail the workflow
             core.setFailed('Format validation failed');
 
-      - name: Run Gemini verification (only if format passes)
+      - name: Cross-reference validation (check index registration)
+        id: crossrefs
+        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
+        run: |
+          cd .github/scripts
+          node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt
+          
+          # Read the status
+          if [ -f ../../crossref_status.txt ]; then
+            STATUS=$(cat ../../crossref_status.txt)
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+          else
+            echo "status=no_issues" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Post cross-reference errors and stop (if missing from index)
+        if: steps.crossrefs.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## 🔗 Cross-Reference Validation Failed\n\n';
+            
+            if (fs.existsSync('crossref_report.md')) {
+              report += fs.readFileSync('crossref_report.md', 'utf8');
+            }
+            
+            report += '\n\n---\n*Please ensure all data entries are registered in their corresponding search index files (mob_index.js, block_index.js, item_index.js).*';
+            
+            await github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              body: report,
+              event: 'REQUEST_CHANGES'
+            });
+            
+            // Fail the workflow
+            core.setFailed('Cross-reference validation failed: entries exist without index registration');
+
+      - name: Run Gemini verification (only if all checks pass)
         id: verify
-        if: steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
+        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -138,7 +220,7 @@ jobs:
           fi
           
       - name: Post verification summary
-        if: steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
+        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
         run: |
           if [ -f verification_report.md ]; then
             echo "## 📋 Data Verification Report" >> $GITHUB_STEP_SUMMARY
