@@ -187,5 +187,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/guster_pottery_sherd",
         themeColor: "§b" // aqua/wind
+    },
+    {
+        id: "minecraft:heart_of_the_sea",
+        name: "Heart of the Sea",
+        category: "item",
+        icon: "textures/items/heart_of_the_sea",
+        themeColor: "§e" // yellow/uncommon
+    },
+    {
+        id: "minecraft:nether_star",
+        name: "Nether Star",
+        category: "item",
+        icon: "textures/items/nether_star",
+        themeColor: "§b" // aqua/rare
     }
 ];
