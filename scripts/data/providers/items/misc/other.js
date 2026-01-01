@@ -184,5 +184,29 @@ export const miscItems = {
             "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
         ],
         description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
+    },
+    "minecraft:copper_bulb": {
+        id: "minecraft:copper_bulb",
+        name: "Copper Bulb",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing adjustable lighting in builds and redstone contraptions",
+            secondaryUse: "Creating dynamic lighting effects that change with copper oxidation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x4", "Blaze Rod"]
+        },
+        specialNotes: [
+            "Introduced in Minecraft 1.21+ as part of the copper expansion",
+            "Emits light level 15 when powered by redstone",
+            "Light color changes with copper oxidation stages (gold → teal → blue-green → green)",
+            "Can be waxed to prevent oxidation and maintain current light color",
+            "Works as both a light source and a redstone component",
+            "Can be used in decorative builds and functional lighting systems"
+        ],
+        description: "The Copper Bulb is a revolutionary lighting component introduced in Minecraft Bedrock Edition 1.21+ that combines the aesthetic appeal of copper with functional redstone capabilities. Crafted from copper ingots and a blaze rod, this unique item emits a bright light level of 15 when powered by redstone, making it ideal for both decorative and practical lighting applications. What sets the Copper Bulb apart is its dynamic color-changing property: as the copper oxidizes through its natural stages, the emitted light transitions from warm gold to teal, then to blue-green, and finally to green. Players can wax the bulb to preserve a specific oxidation stage and light color. This innovative block serves as a bridge between Minecraft's redstone engineering and decorative building, offering creators new possibilities for interactive lighting designs that evolve over time."
     }
 };
