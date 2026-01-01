@@ -32,7 +32,8 @@ export const craftingMaterials = {
             "When a decorated pot is broken, it drops the bricks and pottery sherds used to craft it",
             "Not renewable in normal survival gameplay"
         ],
-        description: "The Flow Pottery Sherd is a decorative crafting material that can be used to apply the Flow motif to decorated pots. In Minecraft Bedrock Edition, it is primarily obtained from Trial Chambers, where decorated pots featuring this sherd can generate naturally; breaking those pots drops the sherd alongside any other bricks or sherds used in the pot's recipe. By combining pottery sherds and bricks in the crafting grid, players can create decorated pots with custom pattern mixes, making the Flow Sherd a collectible reward for builders and completionists alike."
+        description: "The Flow Pottery Sherd is a decorative crafting material that can be used to apply the Flow motif to decorated pots. In Minecraft Bedrock Edition, it is primarily obtained from Trial Chambers, where decorated pots featuring this sherd can generate naturally; breaking those pots drops the sherd alongside any other bricks or sherds used in the pot's recipe. By combining pottery sherds and bricks in the crafting grid, players can create decorated pots with custom pattern mixes, making the Flow Sherd a collectible reward for builders and completionists alike.",
+        themeColor: "§f"
     },
     "minecraft:guster_pottery_sherd": {
         id: "minecraft:guster_pottery_sherd",
