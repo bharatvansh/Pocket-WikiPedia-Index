@@ -126,7 +126,7 @@ Instructions:
 6. Do NOT include any explanation, markdown, or code fences`;
 
     const response = await client.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-3-flash-preview',
         contents: fixPrompt
     });
 

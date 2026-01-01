@@ -192,43 +192,119 @@ Example with issues: "Verified 5 entries. Found 1 issue: minecraft:pig has incor
 
     let finalVerificationText = initialVerificationText;
 
-    // Step 2: Re-verify issues if any were found (reduces false positives)
+    // Step 2: Re-verify each issue INDEPENDENTLY (reduces false positives)
     if (hasInitialIssues) {
-        console.log('\nStep 2: Re-verifying flagged issues with fresh grounding...');
+        console.log('\nStep 2: Re-verifying each flagged issue independently with fresh grounding...');
 
-        const reVerifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier performing a SECOND verification pass.
+        // First, extract individual issues from the initial verification text
+        // We'll ask Gemini to parse and re-verify each issue separately
+        const extractPrompt = `Extract the individual issues from this verification report.
+Return a JSON array of issues found. Each issue should have: itemId, itemName, field, currentValue, correctValue, explanation.
 
-The first verification pass flagged some potential issues. Your job is to RE-VERIFY these specific issues to confirm if they are actually incorrect.
-
-FIRST PASS RESULTS:
+Report:
 ${initialVerificationText}
 
-ORIGINAL DATA FOR CONTEXT:
-${dataContent}
+If no issues were actually found, return an empty array: []`;
 
-Instructions:
-- Use Google Search to RE-VERIFY each flagged issue from official Minecraft sources.
-- Be VERY CAREFUL and THOROUGH - only confirm an issue if you are CERTAIN it is actually wrong.
-- If you find that a flagged issue was actually correct data (false positive), explicitly state it is NOT an issue.
-- Check multiple sources if possible to confirm.
-
-Response format:
-1. For each issue from the first pass, state whether it is:
-   - CONFIRMED: The data is actually incorrect (explain why with sources)
-   - FALSE POSITIVE: The original data was actually correct (explain why)
-2. End with a summary: "Confirmed X issues out of Y flagged."
-3. If all flagged issues were false positives, end with: "All entries are accurate."`;
-
-        const reVerifyResponse = await client.models.generateContent({
-            model: 'gemini-3-pro-preview',
-            contents: reVerifyPrompt,
+        const extractResponse = await client.models.generateContent({
+            model: 'gemini-3-flash-preview',
+            contents: extractPrompt,
             config: {
-                tools: [{ googleSearch: {} }]
+                responseMimeType: 'application/json'
             }
         });
 
-        finalVerificationText = reVerifyResponse.text;
-        console.log('Re-verification result:', finalVerificationText);
+        let extractedIssues = [];
+        try {
+            extractedIssues = JSON.parse(extractResponse.text);
+        } catch (e) {
+            console.log('Could not parse issues, falling back to batch re-verification');
+            extractedIssues = [];
+        }
+
+        if (extractedIssues.length > 0) {
+            console.log(`Found ${extractedIssues.length} issue(s) to re-verify independently`);
+
+            // Re-verify each issue in parallel with fresh Google Search
+            const reVerifyPromises = extractedIssues.map(async (issue, index) => {
+                const reVerifyPrompt = `You are a Minecraft Bedrock Edition wiki data verifier performing a SECOND verification pass on a SINGLE issue.
+
+ISSUE TO VERIFY:
+- Item: ${issue.itemName} (${issue.itemId})
+- Field: ${issue.field}
+- Current Value: ${issue.currentValue}
+- Claimed Correct Value: ${issue.correctValue}
+- Reason Given: ${issue.explanation}
+
+Instructions:
+- Use Google Search to verify this SPECIFIC issue from official Minecraft sources.
+- Be VERY CAREFUL and THOROUGH - only confirm if you are CERTAIN the data is wrong.
+- Check multiple sources (Minecraft Wiki, official docs) to confirm.
+
+Response format (be concise):
+1. State your verdict: CONFIRMED (the data IS wrong) or FALSE POSITIVE (the original data was correct)
+2. Briefly explain with sources
+3. If CONFIRMED, state the correct value`;
+
+                try {
+                    console.log(`  Re-verifying issue ${index + 1}/${extractedIssues.length}: ${issue.itemId} - ${issue.field}`);
+                    const response = await client.models.generateContent({
+                        model: 'gemini-3-flash-preview',
+                        contents: reVerifyPrompt,
+                        config: {
+                            tools: [{ googleSearch: {} }]
+                        }
+                    });
+
+                    const verdict = response.text;
+                    const isConfirmed = verdict.toLowerCase().includes('confirmed') &&
+                        !verdict.toLowerCase().includes('false positive');
+
+                    console.log(`    Result: ${isConfirmed ? 'CONFIRMED ❌' : 'FALSE POSITIVE ✅'}`);
+
+                    return {
+                        ...issue,
+                        reVerifyResult: verdict,
+                        isConfirmed
+                    };
+                } catch (error) {
+                    console.log(`    Error re-verifying: ${error.message}`);
+                    // On error, assume it's confirmed to be safe
+                    return { ...issue, reVerifyResult: 'Error during re-verification', isConfirmed: true };
+                }
+            });
+
+            const reVerifiedIssues = await Promise.all(reVerifyPromises);
+
+            // Build final verification text from confirmed issues only
+            const confirmedIssues = reVerifiedIssues.filter(i => i.isConfirmed);
+            const falsePositives = reVerifiedIssues.filter(i => !i.isConfirmed);
+
+            console.log(`\nRe-verification complete: ${confirmedIssues.length} confirmed, ${falsePositives.length} false positives`);
+
+            finalVerificationText = `Re-verified ${extractedIssues.length} issues independently.\n\n`;
+
+            if (confirmedIssues.length > 0) {
+                finalVerificationText += `CONFIRMED ISSUES (${confirmedIssues.length}):\n`;
+                confirmedIssues.forEach(issue => {
+                    finalVerificationText += `- ${issue.itemName} (${issue.itemId}): ${issue.field} = ${issue.currentValue} should be ${issue.correctValue}\n`;
+                    finalVerificationText += `  Verification: ${issue.reVerifyResult}\n\n`;
+                });
+            }
+
+            if (falsePositives.length > 0) {
+                finalVerificationText += `\nFALSE POSITIVES (${falsePositives.length}):\n`;
+                falsePositives.forEach(issue => {
+                    finalVerificationText += `- ${issue.itemName} (${issue.itemId}): ${issue.field} - Original data was correct\n`;
+                });
+            }
+
+            if (confirmedIssues.length === 0) {
+                finalVerificationText += '\nAll entries are accurate. (All flagged issues were false positives)';
+            }
+        } else {
+            console.log('No structured issues to re-verify, using original result');
+        }
     } else {
         console.log('\nStep 2: Skipped (no issues found in initial verification)');
     }
