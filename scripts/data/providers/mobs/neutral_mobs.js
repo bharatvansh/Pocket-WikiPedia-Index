@@ -279,5 +279,67 @@ export const neutralMobs = {
             { item: "Experience", chance: "1-3 (adult; when killed by player/tamed wolf)" }
         ],
         description: "Wolves are neutral, pack-spawning animals best known for becoming one of the player's most useful companions. In the wild they are wary but will defend themselves aggressively if attacked—usually with their whole pack—while a tamed wolf will follow its owner, fight hostile mobs on command, and can be told to sit and stay. In Bedrock Edition 1.21+, tamed wolves have 40 HP (20 hearts) and can wear Wolf Armor crafted from armadillo scutes, making them much more resilient in combat. Wolves also come in several biome-based variants, encouraging exploration if you want to collect different looks."
+    },
+    "minecraft:ocelot": {
+        id: "minecraft:ocelot",
+        name: "Ocelot",
+        health: 10,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Jungle", "Sparse Jungle"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Wild jungle cats that are naturally skittish and flee from players",
+            "Can be tamed using raw fish (cod or salmon) to become cats",
+            "Tamed cats creep around and sit on chests, beds, and furnaces",
+            "Creepers and phantoms are afraid of cats, making them useful for protection",
+            "Will sprint and leap at chickens to hunt them",
+            "Cannot be bred in Bedrock Edition unlike other tamed cats",
+            "Come in four different color variations with spotted patterns"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Ocelots are skittish jungle cats that spawn in jungle biomes and can be tamed into domestic cats using raw fish. Wild ocelots are naturally fearful of players and will sprint away when approached, making them challenging to catch. Once tamed with raw cod or salmon, ocelots transform into domestic cats that display classic feline behaviors such as creeping, sitting on furniture like chests and beds, and purring when petted. Tamed cats serve a practical purpose beyond companionship by scaring away creepers and phantoms, making them valuable for base protection. Ocelots spawn in small groups of 1-2 individuals and come in four different spotted color variations. Unlike other passive mobs, tamed cats cannot be bred in Bedrock Edition, making each tamed cat a precious companion. Their natural hunting instincts remain intact, as they will still sprint and leap to attack chickens, making them useful for automated chicken farming setups."
+    },
+    "minecraft:polar_bear": {
+        id: "minecraft:polar_bear",
+        name: "Polar Bear",
+        health: 30,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Snowy Plains", "Ice Spikes", "Frozen Ocean", "Deep Frozen Ocean", "Frozen River", "Snowy Slopes"],
+            lightLevel: "Any",
+            groupSize: "1-2 (adults), 1 (baby with adult)"
+        },
+        behaviorTraits: [
+            "Large arctic bears that spawn in snowy and icy biomes",
+            "Neutral by default but become hostile if attacked or if players approach baby polar bears",
+            "Adult polar bears attack with 4 damage on Normal difficulty",
+            "Can be bred using fish, producing adorable white cubs",
+            "Baby polar bears follow their parents and grow up over time",
+            "Will swim in water to pursue players or escape danger",
+            "Have natural resistance to cold and snow effects"
+        ],
+        drops: [
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Polar bears are imposing arctic mobs that spawn exclusively in snowy and icy biomes, serving as the apex predator of the frozen wilderness. These massive creatures possess 30 health points (15 hearts) and can deal significant damage when provoked, making them a formidable threat to unprepared players. Polar bears are naturally neutral, allowing players to safely observe them from a distance, but they become fiercely aggressive if attacked or if players venture too close to their cubs. In Bedrock Edition, polar bears can be bred using various types of fish, providing a way to raise these magnificent creatures and observe their protective family dynamics. Baby polar bears follow their parents faithfully and inherit their parent's behavior toward the player. Polar bears are excellent swimmers and will readily enter water to chase prey or escape danger, making them versatile hunters in both terrestrial and aquatic environments. Their imposing presence and valuable drop potential make them both a challenging encounter and a worthwhile hunting target for experienced players seeking to master the harsh arctic wilderness."
     }
 };

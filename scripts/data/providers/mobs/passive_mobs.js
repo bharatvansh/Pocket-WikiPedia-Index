@@ -465,5 +465,38 @@ export const passiveMobs = {
             { item: "Saddle", chance: "If equipped" }
         ],
         description: "Striders are unique passive mobs native to the Nether dimension, distinguished by their ability to walk on lava as if it were solid ground. These lanky creatures spawn naturally on lava surfaces throughout all Nether biomes, making them the perfect transportation method for navigating the treacherous lava-filled landscape. Striders are completely immune to fire and lava damage, allowing them to traverse these hazards effortlessly. Players can saddle adult striders and control them using warped fungus on a stick, creating an essential mode of transportation for Nether exploration. When removed from lava for extended periods, striders begin to shiver and move more slowly, emphasizing their dependency on the molten environment. They can be bred using warped fungus, and like other passive mobs, baby striders follow their parents. Their unique lava-walking ability and practical transportation utility make striders invaluable for any player seeking to explore the Nether's vast and dangerous terrain."
+    },
+    "minecraft:mooshroom": {
+        id: "minecraft:mooshroom",
+        name: "Mooshroom",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Mushroom Fields"],
+            lightLevel: "9+",
+            groupSize: "4-8"
+        },
+        behaviorTraits: [
+            "Rare variant of cow found exclusively in Mushroom Fields",
+            "Has red mushroom caps growing on its back",
+            "Can be sheared to obtain red mushrooms and become regular cow",
+            "Can be milked for mushroom stew when using a bowl",
+            "Cannot be sheared if it has a baby mooshroom nearby",
+            "Breeds like normal cows with wheat",
+            "Can be cured from suspicious stew effects"
+        ],
+        drops: [
+            { item: "Raw Beef", chance: "1-3" },
+            { item: "Leather", chance: "0-1" },
+            { item: "Red Mushroom", chance: "0-2" }
+        ],
+        description: "Mooshrooms are rare, mushroom-covered variants of cows that spawn exclusively in the rare Mushroom Fields biome. These distinctive mobs have red mushrooms growing on their backs and serve as both a source of regular beef and leather, as well as red mushrooms for brewing and cooking. Players can shear mooshrooms to obtain red mushrooms and convert them into regular cows, though this process is prevented if the mooshroom has a baby nearby. The most unique aspect of mooshrooms is their ability to produce mushroom stew when milked with a bowl, creating a renewable source of this hunger-restoring food item. They behave identically to regular cows in all other aspects, including breeding with wheat and following players holding wheat. Due to their exclusive spawn location in the rare Mushroom Fields biome, mooshrooms are a prized discovery for players seeking to establish sustainable mushroom farming operations."
     }
 };
