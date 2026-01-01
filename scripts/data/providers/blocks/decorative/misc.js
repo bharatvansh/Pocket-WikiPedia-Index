@@ -55,6 +55,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Amethyst Block is a decorative purple block found in amethyst geodes. It can be crafted from four amethyst shards and has a distinctive crystalline appearance. Amethyst blocks are purely decorative and make a unique musical sound when walked on or broken."
     },
+    "minecraft:budding_amethyst": {
+        id: "minecraft:budding_amethyst",
+        name: "Budding Amethyst",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes (Y -58 to 30)"
+        },
+        description: "Budding Amethyst is a special block found in the inner layer of amethyst geodes that periodically grows amethyst buds and amethyst clusters on its sides. Unlike most blocks, it drops nothing when broken and is unobtainable in Survival mode even with Silk Touch, so naturally generated geodes remain valuable long-term resources for farming amethyst shards. In Bedrock Edition, amethyst buds can also form into flowing water, replacing the water block as they grow. Because it is the only block that can generate amethyst clusters, players typically build geode-based farms around it instead of using it as a building material."
+    },
     "minecraft:prismarine": {
         id: "minecraft:prismarine",
         name: "Prismarine",
@@ -96,6 +117,27 @@ export const miscDecorativeBlocks = {
             yRange: "Any"
         },
         description: "Obsidian is one of the hardest blocks in Minecraft, formed when water flows over a lava source block. It requires a diamond or netherite pickaxe to mine, taking about 9.4 seconds with a diamond pickaxe. Obsidian is essential for building Nether portals and is practically immune to explosions, making it ideal for blast-resistant structures."
+    },
+    "minecraft:reinforced_deepslate": {
+        id: "minecraft:reinforced_deepslate",
+        name: "Reinforced Deepslate",
+        hardness: 55,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities (Deep Dark)"
+        },
+        description: "Reinforced Deepslate is an extremely durable, blast-resistant block that generates as a frame-like structure in the center of each ancient city. It has a hardness of 55 and a blast resistance of 1200, and it drops nothing when broken, making it unobtainable in Survival mode even with Silk Touch. In Bedrock Edition, reinforced deepslate has no tool associated with it, so it breaks at the same speed regardless of what you use, and it cannot be moved by pistons. Builders mainly use it in Creative for its dark, industrial look and for recreating ancient city or portal-frame themed builds."
     },
     "minecraft:heavy_core": {
         id: "minecraft:heavy_core",
