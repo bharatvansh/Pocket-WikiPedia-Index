@@ -145,5 +145,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/flow_armor_trim_smithing_template",
         themeColor: "§b" // aqua/cyan
+    },
+    {
+        id: "minecraft:music_disc_precipice",
+        name: "Music Disc (Precipice)",
+        category: "item",
+        icon: "textures/items/music_disc_precipice",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:guster_banner_pattern",
+        name: "Guster Banner Pattern",
+        category: "item",
+        icon: "textures/items/banner_pattern",
+        themeColor: "§f" // white
     }
 ];

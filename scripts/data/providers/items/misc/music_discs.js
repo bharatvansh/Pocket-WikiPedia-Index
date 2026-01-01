@@ -32,5 +32,28 @@ export const musicDiscs = {
             "In Bedrock Edition, its rarity is officially classified as 'Rare'"
         ],
         description: "'Creator' is a music disc composed by Lena Raine, specifically created for the 1.21 Tricky Trials update. This track features an upbeat, melodic, and somewhat industrial sound that perfectly complements the copper-rich architecture of the Trial Chambers where it is discovered. Unlike many other music discs that can be obtained from Creepers killed by Skeletons, 'Creator' is exclusively available as a high-tier reward from Ominous Vaults. When played in a Jukebox, it provides a redstone output of 12 to any adjacent Comparators."
+    },
+    "minecraft:music_disc_precipice": {
+        id: "minecraft:music_disc_precipice",
+        name: "Music Disc (Precipice)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Precipice' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 13 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained as a rare drop from Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Composed by Aaron Cherof",
+            "Has a 2.2% chance to be found in standard Vaults in Bedrock Edition",
+            "Added in the 1.21 Tricky Trials update",
+            "The physical disc has a dark gray and cyan color scheme",
+            "Provides a redstone signal strength of 13, the second highest among music discs"
+        ],
+        description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
     }
 };
