@@ -53,7 +53,7 @@ export const mobDrops = {
         specialNotes: [
             "Dropped by armadillos every 5-10 minutes naturally",
             "Can also be obtained by brushing armadillos with a Brush",
-            "Armadillos roll up when approached and must be unrolled to brush them",
+            "Armadillos can be brushed while rolled up to obtain scutes",
             "Required to craft Wolf Armor, which provides wolves with 11 armor points",
             "Using an armadillo scute on a wolf wearing damaged armor repairs 8 durability points"
         ],
