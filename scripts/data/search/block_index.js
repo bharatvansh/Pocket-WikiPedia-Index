@@ -49,6 +49,20 @@ export const blockIndex = [
         themeColor: "§e" // yellow/gold
     },
     {
+        id: "minecraft:mud",
+        name: "Mud",
+        category: "block",
+        icon: "textures/blocks/mud",
+        themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:packed_mud",
+        name: "Packed Mud",
+        category: "block",
+        icon: "textures/blocks/packed_mud",
+        themeColor: "§6" // brown
+    },
+    {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",
         category: "block",
@@ -355,6 +369,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_planks",
         themeColor: "§c" // light pink
+    },
+    {
+        id: "minecraft:sculk",
+        name: "Sculk",
+        category: "block",
+        icon: "textures/blocks/sculk",
+        themeColor: "§3" // dark aqua/teal
     },
     {
         id: "minecraft:calibrated_sculk_sensor",
