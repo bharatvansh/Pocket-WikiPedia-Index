@@ -132,5 +132,52 @@ export const miscItems = {
             "Two damaged wolf armors can be combined in crafting grid to repair"
         ],
         description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing gold armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon when combined with Breeze Rod",
+            secondaryUse: "No other uses currently available in Bedrock Edition"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained exclusively from Ominous Vaults in Trial Chambers (rare drop)"]
+        },
+        specialNotes: [
+            "Has a 7.5% chance to be found in Ominous Vaults (same rate as the 'Creator' Music Disc)",
+            "Cannot be obtained from standard Vaults - only Ominous Vaults",
+            "Required component for crafting the Mace - the Tricky Trials update's signature weapon",
+            "When combined with a Breeze Rod in crafting, creates the powerful Mace melee weapon",
+            "Appears as a dense, metallic core with an intricate engraved pattern"
+        ],
+        description: "The Heavy Core is an essential crafting component introduced in the 1.21 Tricky Trials update. This rare item can only be obtained as a loot drop from Ominous Vaults within Trial Chambers, sharing the same 7.5% drop rate as the 'Creator' Music Disc. Its sole purpose is to serve as the foundation for crafting the Mace, the signature weapon of the update. When combined with a Breeze Rod, the Heavy Core transforms into the formidable Mace, a weapon capable of dealing devastating damage through its unique smash attack mechanic. The Heavy Core's rarity and specialized function make it one of the most sought-after items for players seeking to master the combat challenges introduced in Trial Chambers."
+    },
+    "minecraft:pottery_sherd_angler": {
+        id: "minecraft:pottery_sherd_angler",
+        name: "Angler Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots with unique fishing patterns",
+            secondaryUse: "Archaeological collection and decoration"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Brick x7", "Angler Pottery Sherd x1 (one side only)", "Can use 1-4 different sherds"]
+        },
+        specialNotes: [
+            "Found exclusively through archaeology in desert wells and trail ruins",
+            "Can be brushed from suspicious sand/suspicious gravel in Bedrock Edition",
+            "Each decorated pot can feature up to 4 different pottery sherds (one per side)",
+            "Added in the 1.20 Trails & Tales update and fully available in 1.21+",
+            "Features a distinctive fisherman/fishing rod motif when applied to pots",
+            "Cannot be crafted or obtained through any other means - archaeology exclusive"
+        ],
+        description: "Angler Pottery Sherds are archaeological artifacts introduced in the 1.20 Trails & Tales update and fully integrated into Minecraft Bedrock Edition 1.21. These unique items can only be obtained by excavating suspicious sand or suspicious gravel at specific archaeological sites, primarily desert wells and trail ruins. The sherd features a distinctive fishing motif that depicts an angler with a fishing rod, perfect for creating themed decorations. When crafting a decorated pot, players can use up to four different pottery sherds (one for each side) to create unique patterns. The Angler Pottery Sherd represents the archaeological gameplay mechanic that encourages exploration and historical discovery within the Minecraft world."
     }
 };
