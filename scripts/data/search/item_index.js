@@ -173,5 +173,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/guster_banner_pattern",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:flow_pottery_sherd",
+        name: "Flow Pottery Sherd",
+        category: "item",
+        icon: "textures/items/flow_pottery_sherd",
+        themeColor: "§b" // aqua/wind
+    },
+    {
+        id: "minecraft:guster_pottery_sherd",
+        name: "Guster Pottery Sherd",
+        category: "item",
+        icon: "textures/items/guster_pottery_sherd",
+        themeColor: "§b" // aqua/wind
     }
 ];
