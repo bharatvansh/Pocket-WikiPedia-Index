@@ -207,7 +207,7 @@ export const itemIndex = [
         name: "Chorus Fruit",
         category: "item",
         icon: "textures/items/chorus_fruit",
-        themeColor: "§d" // pink/purple (End dimension color)
+        themeColor: "§f" // white (Common rarity since 1.21.30)
     },
     {
         id: "minecraft:totem_of_undying",
