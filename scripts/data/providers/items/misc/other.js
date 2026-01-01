@@ -124,13 +124,13 @@ export const miscItems = {
             ingredients: ["Armadillo Scute x6"]
         },
         specialNotes: [
-            "Provides 11 armor points when equipped (equivalent to a full set of iron armor)",
+            "Provides 11 armor points when equipped (equivalent to a full set of gold armor)",
             "Can only be equipped on tamed wolves",
             "Reduces damage taken by wolves significantly",
             "Has 64 durability and breaks when depleted",
             "Can be repaired using armadillo scutes in crafting grid or by using directly on wolf (restores 8 durability)",
             "Two damaged wolf armors can be combined in crafting grid to repair"
         ],
-        description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing iron armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
+        description: "Wolf Armor is a protective equipment item introduced in Minecraft 1.21 that can be exclusively equipped on tamed wolves. Crafted from armadillo scutes, this armor provides wolves with substantial protection equivalent to wearing gold armor, dramatically increasing their survivability in combat. The armor has 64 durability points and will break when depleted, but can be repaired using additional armadillo scutes or by combining two damaged pieces. Wolf Armor makes tamed wolves much more effective companions for exploration and combat, protecting loyal pets from hostile mobs and environmental damage."
     }
 };
