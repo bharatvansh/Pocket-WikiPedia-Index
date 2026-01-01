@@ -385,6 +385,27 @@ export const blockIndex = [
         themeColor: "§3" // dark aqua
     },
     {
+        id: "minecraft:sculk_catalyst",
+        name: "Sculk Catalyst",
+        category: "block",
+        icon: "textures/blocks/sculk_catalyst",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:budding_amethyst",
+        name: "Budding Amethyst",
+        category: "block",
+        icon: "textures/blocks/budding_amethyst",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:reinforced_deepslate",
+        name: "Reinforced Deepslate",
+        category: "block",
+        icon: "textures/blocks/reinforced_deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:decorated_pot",
         name: "Decorated Pot",
         category: "block",
