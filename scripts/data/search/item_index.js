@@ -229,5 +229,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/brush",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:nautilus_shell",
+        name: "Nautilus Shell",
+        category: "item",
+        icon: "textures/items/nautilus_shell",
+        themeColor: "§d" // purple/ocean
+    },
+    {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        category: "item",
+        icon: "textures/items/echo_shard",
+        themeColor: "§8" // dark blue/deep dark
     }
 ];

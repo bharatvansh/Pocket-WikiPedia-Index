@@ -83,5 +83,31 @@ export const mobDrops = {
             "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
         ],
         description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin in a 3x3 crafting grid or smelting them in a furnace to create Resin Bricks. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
+    },
+    "minecraft:nautilus_shell": {
+        id: "minecraft:nautilus_shell",
+        name: "Nautilus Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Conduits for underwater exploration",
+            secondaryUse: "Trading with expert-level librarian villagers"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Drowned mobs, fishing, and buried treasure chests"]
+        },
+        specialNotes: [
+            "Drowned have a 3% chance to drop a Nautilus Shell in Bedrock Edition",
+            "Drowned holding Nautilus Shells will always drop one when killed",
+            "Fishing in any water body has a small chance to yield a Nautilus Shell",
+            "Found in buried treasure chests at varying frequencies",
+            "Required to craft Conduits (8 Nautilus Shells + 1 Heart of the Sea)",
+            "Can be bought from expert-level librarian villagers for 5 emeralds",
+            "Nautilus Shells are essential for underwater base construction and exploration",
+            "Conduits provide Conduit Power effect (water breathing, night vision, haste) when activated"
+        ],
+        description: "The Nautilus Shell is a spiral-shaped shell item in Minecraft Bedrock Edition that serves as a crucial crafting component for creating Conduits, powerful underwater blocks that grant players the Conduit Power effect. Players can obtain Nautilus Shells through several methods: killing Drowned mobs (3% base drop chance, or guaranteed if the Drowned is holding one), fishing in any water body, discovering them in buried treasure chests, or trading with expert-level librarian villagers. The most significant use of Nautilus Shells is in combination with the Heart of the Sea to craft a Conduit, which provides essential underwater survival benefits including water breathing, night vision, and increased mining speed. Gathering Nautilus Shells encourages players to engage with ocean exploration, combat with Drowned, and fishing mechanics, making them a valuable resource for any player seeking to establish an underwater presence or explore ocean monuments and deep sea biomes."
     }
 };
