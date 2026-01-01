@@ -47,8 +47,8 @@ export const mobDrops = {
             secondaryUse: "Repairing damaged Wolf Armor"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Armadillo Scute x6"]
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by armadillos every 5-10 minutes", "Can also be obtained by brushing armadillos with a Brush"]
         },
         specialNotes: [
             "Dropped by armadillos every 5-10 minutes naturally",
