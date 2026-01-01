@@ -5,7 +5,8 @@
 // cocoa beans, charcoal, coal, flint, glowstone dust, redstone dust,
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // golden carrot (crafting), rabbit foot, dragon breath,
-// flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star
+// flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
+// amethyst shard
 // ============================================
 
 /**
@@ -114,5 +115,33 @@ export const craftingMaterials = {
         ],
         description: "The Nether Star is an exceptionally rare and valuable item obtained exclusively by defeating the Wither, one of Minecraft's most dangerous and challenging bosses. This glowing purple star serves as the central component for crafting Beacons, powerful pyramid-shaped blocks that provide beneficial status effects such as Speed, Haste, Resistance, Jump Boost, and Strength to players within their range. The Wither always drops exactly one Nether Star upon defeat, making it a hard-earned reward that requires preparation, skill, and resources to obtain. Summoning the Wither requires gathering 4 soul sand blocks and 3 wither skeleton skulls, a task that demands significant effort in Nether fortresses. The Nether Star's distinctive purple glow, but no particle effects, make it visually striking, and it's often displayed as a trophy in item frames. As an essential component for Beacon construction, the Nether Star represents a major milestone in a player's progression, unlocking powerful buffs that enhance both survival and building capabilities. Its rarity and the difficulty of obtaining it make the Nether Star one of the most prestigious items in Minecraft Bedrock Edition.",
         themeColor: "§b (Aqua/Rare)"
+    },
+    "minecraft:amethyst_shard": {
+        id: "minecraft:amethyst_shard",
+        name: "Amethyst Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Spyglass, Tinted Glass, and Calibrated Sculk Sensor",
+            secondaryUse: "Creating Block of Amethyst and crafting decorative amethyst blocks"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Budding Amethyst in Amethyst Geodes", "Found in Ancient City and Trial Chamber chests"]
+        },
+        specialNotes: [
+            "Harvested by mining Amethyst Clusters growing on Budding Amethyst blocks",
+            "Budding Amethyst cannot be moved or collected - it only generates naturally",
+            "Amethyst Clusters drop 4 Amethyst Shards when mined with a pickaxe",
+            "Using Fortune enchantment can increase the yield up to 16 shards per cluster",
+            "Mined with anything other than a pickaxe drops 2 shards",
+            "Can be found in chest loot: Ancient Cities (1-15 shards) and Trial Chambers (8-20 shards)",
+            "Nine Amethyst Shards craft into one Block of Amethyst",
+            "Required for crafting Spyglass (1 shard), Tinted Glass (2 shards), and Calibrated Sculk Sensor (4 shards)",
+            "Amethyst Clusters take time to grow on Budding Amethyst - not renewable quickly",
+            "Added in Caves & Cliffs update (1.17) alongside amethyst geodes"
+        ],
+        description: "Amethyst Shards are crystalline crafting materials obtained exclusively from Amethyst Geodes, rare underground structures that generate in caves and occasionally on the surface. These beautiful purple shards are harvested by mining Amethyst Clusters that grow on Budding Amethyst blocks within geodes, which serve as the heart of amethyst growth. When mined with a pickaxe, an Amethyst Cluster drops 4 shards, and Fortune enchantment can increase this yield up to 16 shards, making enchanted tools highly valuable for amethyst farming. The Budding Amethyst block itself cannot be moved or collected, only generating naturally, which means players must find geodes to access this resource. Beyond mining, Amethyst Shards can be found as loot in Ancient Cities (1-15 shards) and Trial Chambers (8-20 shards), providing alternative acquisition methods. These versatile shards serve as essential crafting ingredients for multiple items: Spyglass (for zoomed exploration), Tinted Glass (for decorative light-blocking windows), Calibrated Sculk Sensor (for advanced redstone), and Block of Amethyst (for decorative building). The renewable nature of Amethyst Clusters, which slowly regrow on Budding Amethyst, makes Amethyst Shards a sustainable resource once a geode is discovered. Their distinctive purple color and crystalline appearance also make them popular for decorative builds and pixel art, adding both functionality and aesthetic appeal to Minecraft Bedrock Edition."
     }
 };

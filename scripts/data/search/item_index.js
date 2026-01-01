@@ -243,5 +243,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/blaze_rod",
         themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        category: "item",
+        icon: "textures/items/spyglass",
+        themeColor: "§6" // copper/bronze
+    },
+    {
+        id: "minecraft:amethyst_shard",
+        name: "Amethyst Shard",
+        category: "item",
+        icon: "textures/items/amethyst_shard",
+        themeColor: "§d" // purple/pink
+    },
+    {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        category: "item",
+        icon: "textures/items/recovery_compass",
+        themeColor: "§5" // ominous purple
     }
 ];

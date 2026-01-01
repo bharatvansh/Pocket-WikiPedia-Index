@@ -184,5 +184,59 @@ export const miscItems = {
             "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
         ],
         description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
+    },
+    "minecraft:spyglass": {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Zooming in to view distant objects and terrain",
+            secondaryUse: "Exploration and scouting from elevated positions"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Amethyst Shard x1", "Copper Ingot x2"]
+        },
+        specialNotes: [
+            "Reduces the player's field of view (FOV) to 1/8 of normal when looking through it",
+            "Cannot be moved or sprinted while using the spyglass",
+            "Slowly fades in when activated and fades out when deactivated for smooth transitions",
+            "The player's movement speed is reduced to sneaking speed while in use",
+            "Requires Amethyst Shards, making it only obtainable after finding an amethyst geode",
+            "Useful for spotting distant structures, biomes, and resource locations",
+            "The overlay effect resembles looking through a telescope lens",
+            "Can be used while in boats and minecarts, but not while swimming or flying with elytra"
+        ],
+        description: "The Spyglass is an exploration tool introduced in the Caves & Cliffs update (1.17) that allows players to zoom in on distant objects and terrain. When used, the spyglass dramatically narrows the player's field of view to one-eighth of normal, effectively acting as a magnifying glass for Minecraft's world. This zoom capability makes the spyglass invaluable for scouting distant structures, locating biomes, finding villages, and identifying potential exploration targets from elevated positions. Players cannot move normally or sprint while looking through the spyglass, maintaining sneaking speed instead, which encourages careful observation and planning. The spyglass features smooth fade-in and fade-out animations when activated and deactivated, creating an immersive telescoping experience. Crafting a spyglass requires one Amethyst Shard and two Copper Ingots, making it a mid-game item that becomes available after players have explored enough to find an Amethyst Geode. The tool's practical applications range from simple navigation aid to strategic reconnaissance, making it a must-have item for explorers and builders who need to survey large areas or plan construction projects from a distance."
+    },
+    "minecraft:recovery_compass": {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Finding the location of the player's last death",
+            secondaryUse: "Retrieving items and experience lost on death"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Echo Shard x8", "Compass x1"]
+        },
+        specialNotes: [
+            "Points to the location where the player last died",
+            "Only works in the same dimension where the death occurred",
+            "Spins randomly if the player has not died yet in that dimension",
+            "Does not work in the End dimension at all in Bedrock Edition",
+            "Echo Shards are found exclusively in Ancient Cities, making recovery compasses rare",
+            "Cannot receive enchantments like other compasses",
+            "Points to the death location, not the dropped items (items may have despawned)",
+            "Items despawn after 5 minutes by default, so quick recovery is essential",
+            "Useful for recovering valuable gear lost in caves, the Nether, or other dangerous locations",
+            "The needle has a different appearance compared to regular compasses"
+        ],
+        description: "The Recovery Compass is a specialized navigation item introduced in the Wild Update (1.19) that helps players locate where they last died. Unlike a regular compass which points to world spawn, the Recovery Compass points to the precise coordinates of the player's most recent death within the current dimension. This makes it an invaluable tool for recovering valuable items, equipment, and experience that were dropped upon dying. The compass is crafted with eight Echo Shards surrounding a standard compass in a crafting grid, making it a rare and valuable item since Echo Shards are only found in Ancient Cities deep within the Deep Dark biome. In Bedrock Edition, the Recovery Compass has a significant limitation: it does not function in the End dimension at all, spinning randomly regardless of death location. The compass only operates within the same dimension where the death occurred, meaning players must return to the Nether, caves, or other dimension where they died to track their belongings. Since items naturally despawn after five minutes in Minecraft, the Recovery Compass is most effective when used quickly after death, though it can still help players revisit memorable death locations even if items have despawned. The distinctive needle design sets it apart from regular compasses, and its specialized function makes it a crucial item for high-risk exploration where losing valuable gear would be devastating."
     }
 };
