@@ -110,12 +110,36 @@ function extractEntriesFromDiff(diffContent) {
     let currentEntry = null;
     let braceDepth = 0;
     let entryLines = [];
+    let currentFile = 'unknown';
 
-    for (const line of lines) {
-        // Skip diff metadata lines
-        if (line.startsWith('diff --git') || line.startsWith('index ') ||
-            line.startsWith('---') || line.startsWith('+++') ||
-            line.startsWith('@@')) {
+    console.log(`  Parsing ${lines.length} lines of diff...`);
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        // Track which file we're in
+        if (line.startsWith('diff --git')) {
+            const fileMatch = line.match(/diff --git a\/(.+) b\/(.+)/);
+            if (fileMatch) {
+                currentFile = fileMatch[2];
+                console.log(`  📄 Processing file: ${currentFile}`);
+            }
+        }
+
+        // When we hit a new file in the diff, reset state to avoid carryover issues
+        if (line.startsWith('diff --git') || line.startsWith('---') || line.startsWith('+++')) {
+            // If we were in the middle of parsing an entry, discard it (incomplete)
+            if (currentEntry && braceDepth > 0) {
+                console.log(`  Warning: Incomplete entry ${currentEntry} discarded at file boundary`);
+            }
+            currentEntry = null;
+            braceDepth = 0;
+            entryLines = [];
+            continue;
+        }
+
+        // Skip other diff metadata lines
+        if (line.startsWith('index ') || line.startsWith('@@')) {
             continue;
         }
 
@@ -130,16 +154,29 @@ function extractEntriesFromDiff(diffContent) {
             currentEntry = entryMatch[1];
             braceDepth = 1;
             entryLines = [content];
+            console.log(`  🔍 Found entry start: ${currentEntry} in ${currentFile}`);
             continue;
         }
 
         if (currentEntry) {
             entryLines.push(content);
 
-            // Count braces
+            // Count braces (be careful about braces inside strings)
+            let inString = false;
+            let stringChar = null;
+            let prevChar = '';
             for (const char of content) {
-                if (char === '{') braceDepth++;
-                else if (char === '}') braceDepth--;
+                if (!inString && (char === '"' || char === "'")) {
+                    inString = true;
+                    stringChar = char;
+                } else if (inString && char === stringChar && prevChar !== '\\') {
+                    inString = false;
+                    stringChar = null;
+                } else if (!inString) {
+                    if (char === '{') braceDepth++;
+                    else if (char === '}') braceDepth--;
+                }
+                prevChar = char;
             }
 
             // Entry complete
@@ -156,14 +193,31 @@ function extractEntriesFromDiff(diffContent) {
                     content: entryContent
                 });
 
+                console.log(`  ✅ Entry complete: ${currentEntry} (${name}) - ${entryLines.length} lines`);
+
                 currentEntry = null;
                 entryLines = [];
             }
         }
     }
 
+    // Handle any incomplete entry at end of file
+    if (currentEntry && entryLines.length > 0) {
+        console.log(`  Warning: Entry ${currentEntry} may be incomplete (${braceDepth} unclosed braces)`);
+        // Still add it for verification, it might just be a formatting issue
+        const entryContent = entryLines.join('\n');
+        const nameMatch = entryContent.match(/name\s*:\s*["']([^"']+)["']/);
+        const name = nameMatch ? nameMatch[1] : currentEntry;
+        entries.push({
+            id: currentEntry,
+            name: name,
+            content: entryContent
+        });
+    }
+
     return entries;
 }
+
 
 /**
  * Verify a single entry with Gemini using Google Search grounding
