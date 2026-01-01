@@ -264,5 +264,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_resin_bricks",
         themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:pale_oak_planks",
+        name: "Pale Oak Planks",
+        category: "block",
+        icon: "textures/blocks/pale_oak_planks",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:pale_moss_carpet",
+        name: "Pale Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/pale_moss_carpet",
+        themeColor: "§7" // gray
     }
 ];
