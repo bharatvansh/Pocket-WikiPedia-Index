@@ -264,5 +264,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/recovery_compass",
         themeColor: "§5" // ominous purple
+    },
+    {
+        id: "minecraft:netherite_ingot",
+        name: "Netherite Ingot",
+        category: "item",
+        icon: "textures/items/netherite_ingot",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        category: "item",
+        icon: "textures/items/echo_shard",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:nautilus_shell",
+        name: "Nautilus Shell",
+        category: "item",
+        icon: "textures/items/nautilus_shell",
+        themeColor: "§f"
     }
 ];
