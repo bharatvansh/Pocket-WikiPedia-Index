@@ -341,5 +341,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_chicken.png",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:mooshroom",
+        name: "Mooshroom",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_mooshroom.png",
+        themeColor: "§c" // red for mushroom variant
+    },
+    {
+        id: "minecraft:ocelot",
+        name: "Ocelot",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ocelot.png",
+        themeColor: "§6" // golden/yellow for jungle cat
+    },
+    {
+        id: "minecraft:polar_bear",
+        name: "Polar Bear",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_polar_bear.png",
+        themeColor: "§f" // white for arctic bear
     }
 ];
