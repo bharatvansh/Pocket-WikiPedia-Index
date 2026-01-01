@@ -134,5 +134,31 @@ export const mobDrops = {
             "Unlike some other shells, it cannot be placed as a block"
         ],
         description: "The Nautilus Shell is a beautiful, spiral-patterned item found throughout the oceans of Minecraft. It serves as a critical component in late-game underwater exploration, as eight of these shells must be combined with a Heart of the Sea to craft a Conduit. Conduits provide players with the 'Conduit Power' effect, granting water breathing, night vision, and increased mining speed when submerged. Players can obtain nautilus shells through several methods: they are a rare treasure that can be caught while fishing, can be purchased from Wandering Traders for emeralds, or can be looted from Drowned mobs who are occasionally seen clutching them in their hands. Because of their necessity for building permanent underwater bases, nautilus shells are highly valued by ocean-dwelling players."
+    },
+    "minecraft:slime_ball": {
+        id: "minecraft:slime_ball",
+        name: "Slimeball",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sticky Pistons, Magma Cream, Slime Blocks, and Leads",
+            secondaryUse: "Breeding Frogs and speeding up Tadpole growth"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Slimes", "Sneezed by Baby Pandas", "Sold by Wandering Traders"]
+        },
+        specialNotes: [
+            "Primary drop from Slimes (small size)",
+            "Used to craft Sticky Pistons (Slimeball + Piston)",
+            "Used to craft Leads (Slimeball + 4 String)",
+            "Used to craft Magma Cream (Slimeball + Blaze Powder)",
+            "Used to craft Slime Blocks (9 Slimeballs)",
+            "Key ingredient for Redstone contraptions requiring sticky mechanics",
+            "Baby Pandas have a small chance (1/700) to drop one when they sneeze",
+            "Wandering Traders may sell them for 4 Emeralds"
+        ],
+        description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as the breeding food for frogs and a growth accelerant for tadpoles."
     }
 };

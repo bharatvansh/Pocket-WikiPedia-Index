@@ -65,5 +65,34 @@ export const specialFood = {
             "Drop chance: 18.6% from Standard Vaults, 13.4% from Ominous Vaults"
         ],
         description: "The Ominous Bottle is a consumable item introduced in Minecraft 1.21 that grants the Bad Omen effect when consumed. This item replaced the previous banner-based Bad Omen mechanic, offering more control over the omen system. Ominous Bottles come in five levels (I-V), with the level determining the difficulty of the triggered event rather than the event type. The event type is determined by location: villages trigger Raid Omen for village raids, while Trial Chambers trigger Trial Omen for enhanced trials. In Bedrock Edition, the effect lasts a fixed duration of 1 hour 40 minutes regardless of level. Raid Captains drop these bottles upon defeat, and they can also be found in vault chests with an 18.6% chance from Standard Vaults and 13.4% from Ominous Vaults. The bottle shatters upon consumption, providing no empty glass bottle. This item is essential for players seeking to trigger raids and ominous trials intentionally."
+    },
+    "minecraft:honey_bottle": {
+        id: "minecraft:honey_bottle",
+        name: "Honey Bottle",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that cures poison",
+            secondaryUse: "Crafting Honey Blocks and Sugar"
+        },
+        food: {
+            hunger: 6,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Glass Bottle + Honey from Beehive/Bee Nest"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 1.2 saturation",
+            "Removes the Poison status effect when consumed (but no other effects)",
+            "Can be drunk even when hunger is full",
+            "Crafting ingredient: 4 Honey Bottles make 1 Honey Block",
+            "Crafting ingredient: 1 Honey Bottle makes 3 Sugar",
+            "Harvested by using a Glass Bottle on a full Beehive or Bee Nest",
+            "Campfire smoke is needed to harvest safely without angering bees"
+        ],
+        description: "The Honey Bottle is a consumable item obtained from bees that serves as both a food source and a cure for poison. Unlike milk buckets which remove all status effects, honey bottles specifically target and remove only the poison effect, making them ideal for combat against cave spiders or bees. They restore a decent amount of hunger and can be consumed even when the hunger bar is full. Honey bottles are also versatile crafting ingredients, used to create decorative and sticky Honey Blocks or converted into sugar. Harvesting honey requires careful interaction with beehives using glass bottles, often necessitating the use of smoke to pacify the bees."
     }
 };

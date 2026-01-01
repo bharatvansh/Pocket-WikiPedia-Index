@@ -306,5 +306,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/name_tag",
         themeColor: "§f" // white/light gray
+    },
+    {
+        id: "minecraft:honey_bottle",
+        name: "Honey Bottle",
+        category: "item",
+        icon: "textures/items/honey_bottle",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:crossbow",
+        name: "Crossbow",
+        category: "item",
+        icon: "textures/items/crossbow_standby",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:slime_ball",
+        name: "Slimeball",
+        category: "item",
+        icon: "textures/items/slimeball",
+        themeColor: "§a" // green
     }
 ];

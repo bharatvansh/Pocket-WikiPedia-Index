@@ -35,6 +35,36 @@ export const rangedWeapons = {
         ],
         description: "The Bow is a ranged weapon that shoots arrows at enemies from a distance. It must be charged before firing, with longer charge times resulting in more damage and longer range. Bows are essential for fighting enemies from safety and can be enhanced with various enchantments."
     },
+    "minecraft:crossbow": {
+        id: "minecraft:crossbow",
+        name: "Crossbow",
+        maxStack: 1,
+        durability: 465,
+        enchantable: true,
+        usage: {
+            primaryUse: "Long-range combat with arrows or firework rockets",
+            secondaryUse: "Sniper duels and crowd control with Multishot"
+        },
+        combat: {
+            attackDamage: 9,
+            attackSpeed: 1.0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x3", "String x2", "Iron Ingot x1", "Tripwire Hook x1"]
+        },
+        specialNotes: [
+            "Base damage is 9 (higher than an uncharged bow)",
+            "Longer load time (1.25s) than a bow but holds the charge in inventory",
+            "Can shoot Firework Rockets (explosive with Firework Stars)",
+            "Enchantments: Quick Charge (faster reload), Multishot (3 arrows), Piercing (shoot through enemies)",
+            "Exclusive enchantments: Multishot, Piercing, Quick Charge",
+            "Cannot have Multishot and Piercing on the same crossbow",
+            "Durability is 465 (matches Java Edition since 1.16)",
+            "Dropped by Pillagers and Piglins"
+        ],
+        description: "The Crossbow is a powerful ranged weapon that offers distinct advantages over the traditional bow. It takes longer to load but can hold a charged shot even when placed in the inventory, allowing for instant firing when drawn. Crossbows have unique enchantments like Multishot for crowd control and Piercing for hitting multiple enemies in a line. They can also fire firework rockets for explosive area damage. While they lack the raw damage potential of a Power V bow, their utility and special enchantments make them a versatile choice for combat."
+    },
     "minecraft:trident": {
         id: "minecraft:trident",
         name: "Trident",
