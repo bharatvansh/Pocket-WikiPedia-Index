@@ -59,5 +59,29 @@ export const utilityTools = {
             "Essential for safe Nether travel across lava oceans"
         ],
         description: "The Warped Fungus on a Stick is a utility tool used to control Striders, the passive mobs found in the Nether's lava oceans. Similar to how a Carrot on a Stick works for pigs, holding this item allows a player to steer a saddled Strider. By right-clicking (or using the item), the player can boost the Strider's speed, which consumes 1 point of the item's 100 durability. It is crafted by combining a Fishing Rod and a Warped Fungus. This tool is essential for traversing the Nether safely, as Striders can walk on lava without taking damage. Unlike Java Edition, in Bedrock Edition, when the item breaks, it reverts to a Fishing Rod rather than disappearing completely."
+    },
+    "minecraft:shears": {
+        id: "minecraft:shears",
+        name: "Shears",
+        maxStack: 1,
+        durability: 238,
+        enchantable: true,
+        usage: {
+            primaryUse: "Harvesting wool, leaves, and cobwebs",
+            secondaryUse: "Breaking tripwire strings without activating them"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x2"]
+        },
+        specialNotes: [
+            "Used to obtain wool from sheep without killing them",
+            "Collects leaf blocks, vines, grass, and ferns",
+            "Instantly breaks cobwebs and drops string",
+            "Prevents tripwires from activating when broken",
+            "Used to carve pumpkins into carved pumpkins",
+            "Can be enchanted with Efficiency, Unbreaking, and Mending (and Silk Touch via anvil)"
+        ],
+        description: "Shears are a specialized tool used for harvesting specific blocks and items that cannot be obtained by hand or with other tools. Their primary use is shearing sheep to collect wool without harming the animal, yielding 1-3 blocks. They are also the only way to collect leaf blocks, tall grass, vines, ferns, and dead bushes. Additionally, shears can be used to turn pumpkins into carved pumpkins and are essential for disarming tripwires safely. While they have relatively low durability, they are cheap to craft using only two iron ingots."
     }
 };
