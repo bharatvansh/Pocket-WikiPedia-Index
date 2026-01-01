@@ -56,9 +56,9 @@ export const rawFood = {
         },
         specialNotes: [
             "Teleports the player to a random location within 8 blocks when eaten",
-            "Cannot be eaten if there are no valid teleportation targets nearby",
+            "Can be eaten at any time, even if teleportation fails or hunger is full",
             "Teleportation can work through walls and into caves when valid",
-            "Has a 1-second eating delay (similar to other foods)",
+            "Eating time: 1.6 seconds (standard); Teleport cooldown: 1 second",
             "Restores 4 hunger points (2 drumsticks) and 2.4 saturation",
             "Chorus Plants grow on End stone and require End stone to grow",
             "Can be farmed by planting Chorus Flowers on End stone",

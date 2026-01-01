@@ -150,11 +150,11 @@ export const miscItems = {
         specialNotes: [
             "Must be held in either the main hand or off-hand to activate",
             "Automatically activates when receiving fatal damage, preventing death",
-            "Grants Absorption I for 5 seconds (2 extra hearts)",
+            "Grants Absorption II for 5 seconds (2 extra hearts)",
             "Grants Regeneration II for 45 seconds in Bedrock Edition",
             "Grants Fire Resistance I for 40 seconds",
             "The totem is consumed upon activation (single use)",
-            "Dropped by Evokers: 100% chance on Normal/Hard difficulty, 0% on Easy",
+            "100% chance on all difficulties where Evokers exist",
             "Evokers spawn in Woodland Mansions and during Raids",
             "Cannot repair or reuse a consumed totem",
             "Visual effect shows a golden aura when activated",
