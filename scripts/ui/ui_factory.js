@@ -151,7 +151,7 @@ function booleanIndicator(value, trueText = "Yes", falseText = "No") {
 
 /* -------------------- Block -------------------- */
 
-function renderBlockDetail(player, entry, details) {
+function renderBlockDetail(player, entry, details, onBack, onMainMenu) {
     const form = createBaseForm(entry, "block");
     const style = CATEGORY_STYLE.block;
 
