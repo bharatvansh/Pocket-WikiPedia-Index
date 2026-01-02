@@ -72,5 +72,26 @@ export const lightingBlocks = {
             yRange: "Frog interaction (magma cube consumption)"
         },
         description: "Verdant Froglight is a vibrant green light-emitting block that provides the maximum light level of 15, making it an excellent light source for builds. It is obtained when a temperate (green) frog eats a tiny magma cube in the Nether. The block is exceptionally fragile with only 0.3 hardness and blast resistance, breaking instantly with any tool or by hand. Froglights come in three variants depending on the frog type: pearlescent (cold frog), ochre (warm frog), and verdant (temperate frog). Unlike many light sources, froglights are renewable through frog farming and magma cube spawning."
+    },
+    "minecraft:ochre_froglight": {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Ochre Froglight"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Frog interaction (magma cube consumption)"
+        },
+        description: "Ochre Froglight is a vibrant yellow-orange light-emitting block that provides the maximum light level of 15. It is obtained when a temperate (orange) frog eats a tiny magma cube in the Nether. Like other froglights, it is fragile with 0.3 hardness and blast resistance, breaking instantly with any tool or by hand. It drops itself without Silk Touch."
     }
 };
