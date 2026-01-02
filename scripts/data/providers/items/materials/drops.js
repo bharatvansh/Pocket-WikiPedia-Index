@@ -245,5 +245,29 @@ export const mobDrops = {
             "Looting enchantment increases the maximum drop amount from Magma Cubes"
         ],
         description: "Magma Cream is a hot, gelatinous substance primarily used in brewing and crafting. It is the essential ingredient for creating Potions of Fire Resistance, making it invaluable for exploring the Nether or swimming in lava. While it can be obtained by hunting Magma Cubes in the Nether, it can also be manually crafted by combining a slimeball with blaze powder. Additionally, four pieces of magma cream can be compacted into a single Magma Block, providing a source of light and a damaging surface for mob traps."
+    },
+    "minecraft:rabbit_hide": {
+        id: "minecraft:rabbit_hide",
+        name: "Rabbit Hide",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Leather for bookbinding and armor",
+            secondaryUse: "Alternative leather source when cows are unavailable"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Rabbit Hide x4"]
+        },
+        specialNotes: [
+            "Dropped by rabbits (0-2 per rabbit; increased by Looting)",
+            "4 Rabbit Hides can be crafted into 1 Leather",
+            "Rabbits also drop raw rabbit meat and occasionally Rabbit's Foot",
+            "Provides renewable leather in biomes where cows don't spawn naturally",
+            "Essential for crafting books and leather armor in rabbit-rich environments",
+            "Small rabbits are quick and difficult to farm but provide useful drops"
+        ],
+        description: "Rabbit Hide is a skin material dropped by rabbits when killed, typically dropping 0-2 hides per rabbit with increased yields from Looting enchantments. While rabbits are small and fast, their hides provide a renewable source of leather, particularly valuable in biomes where cows are scarce or absent. Four rabbit hides can be crafted into a single piece of leather in a 2x2 crafting grid, which can then be used to create books, item frames, and leather armor. This makes rabbit farming a viable alternative for players who struggle to find cattle in their world."
     }
 };

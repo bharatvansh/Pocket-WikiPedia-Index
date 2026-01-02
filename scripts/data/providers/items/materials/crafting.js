@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard
+// amethyst shard, gunpowder
 // ============================================
 
 /**
@@ -36,6 +36,30 @@ export const craftingMaterials = {
             "Renewable via rabbit farming and cat gifts"
         ],
         description: "A Rabbit's Foot is a brewing ingredient dropped by rabbits (10.5% chance, increased by Looting) or gifted by tamed cats. Its primary use is in a brewing stand with an Awkward Potion to create a Potion of Leaping, which grants the Jump Boost effect, increasing jump height and reducing fall damage. Additionally, Cleric villagers buy Rabbit's Feet in exchange for emeralds. This item is essential for players seeking enhanced mobility or those looking to trade surplus mob drops for currency."
+    },
+    "minecraft:fermented_spider_eye": {
+        id: "minecraft:fermented_spider_eye",
+        name: "Fermented Spider Eye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Corrupting potions and brewing Potion of Weakness",
+            secondaryUse: "Creating negative effect potions for combat and PvP"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Spider Eye", "Brown Mushroom", "Sugar"]
+        },
+        specialNotes: [
+            "Crafted shapelessly with 1 Spider Eye, 1 Brown Mushroom, and 1 Sugar",
+            "Corrupts positive potions: Speed → Slowness, Night Vision → Invisibility, Healing → Harming",
+            "Corrupts negative potions: Poison → Harming",
+            "Can be added directly to a Water Bottle to brew Potion of Weakness",
+            "Potion of Weakness is required to cure Zombie Villagers with a Golden Apple",
+            "Essential for both negative combat potions and villager curing mechanics"
+        ],
+        description: "A Fermented Spider Eye is a versatile brewing ingredient used to corrupt existing potions into their negative counterparts and brew the essential Potion of Weakness. It is crafted shapelessly by combining a spider eye, brown mushroom, and sugar. When added to potions, it reverses their effects: Speed becomes Slowness, Night Vision becomes Invisibility, Healing becomes Harming, and Poison becomes Harming. The Potion of Weakness it creates is vital for curing Zombie Villagers back into normal villagers using a Golden Apple, making it indispensable for village restoration and villager trading."
     },
     "minecraft:flow_pottery_sherd": {
         id: "minecraft:flow_pottery_sherd",
@@ -199,5 +223,30 @@ export const craftingMaterials = {
             "Cannot be found naturally in loot chests; must be crafted or traded"
         ],
         description: "A Glistering Melon Slice is an essential brewing ingredient used to create Potions of Healing. Despite being made from a melon slice, it is completely inedible and serves only for alchemy and trading. It is crafted by combining a single melon slice with eight gold nuggets. When brewed with an Awkward Potion, it creates a Potion of Healing, which instantly restores health. This makes glistering melons a vital resource for players preparing for difficult battles or exploring dangerous environments."
+    },
+    "minecraft:gunpowder": {
+        id: "minecraft:gunpowder",
+        name: "Gunpowder",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting TNT and Firework Rockets",
+            secondaryUse: "Creating Splash Potions"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers, Ghasts, and Witches", "Can also be obtained from chests in various structures"]
+        },
+        specialNotes: [
+            "Creepers drop 0-2 gunpowder (increased by Looting)",
+            "Ghasts drop 0-2 gunpowder upon death",
+            "Witches drop 0-6 items including gunpowder (increased by Looting)",
+            "Crafts TNT (4x Sand/Red Sand + 5x Gunpowder) and Firework Rockets (Paper + 1-3 Gunpowder)",
+            "Required for Splash Potions (Gunpowder + regular potion)",
+            "Found in Dungeon, Desert Temple, Shipwreck, and Woodland Mansion chests",
+            "Essential for explosive mining, combat, and aerial travel"
+        ],
+        description: "Gunpowder is a versatile explosive material dropped by Creepers, Ghasts, and Witches. It's used to craft TNT for demolition, Firework Rockets for Elytra flight or celebrations, and Splash Potions for ranged effects. TNT needs five gunpowder and four sand, while Firework Rockets require paper and one to three gunpowder. Essential for mining, combat, and aerial travel, gunpowder is indispensable in survival."
     }
 };
