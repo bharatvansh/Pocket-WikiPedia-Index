@@ -483,5 +483,38 @@ export const passiveMobs = {
             { item: "Red Mushroom", chance: "0-2" }
         ],
         description: "Mooshrooms are rare variants of cows found exclusively in Mushroom Fields biomes. These mushroom-covered mobs provide beef and leather, but offer a unique benefit: milking them with a bowl yields mushroom stew. Players can shear a mooshroom to obtain red mushrooms, which transforms the mob into a regular cow. They behave like cows and are bred with wheat. If struck by lightning, a red mooshroom becomes a brown variant, which can produce suspicious stew if fed a flower before milking. They are a prized discovery for players seeking infinite food sources."
+    },
+    "minecraft:wandering_trader": {
+        id: "minecraft:wandering_trader",
+        name: "Wandering Trader",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["All Overworld biomes"],
+            lightLevel: "Any",
+            groupSize: "1 (with 2 Trader Llamas)"
+        },
+        behaviorTraits: [
+            "Randomly spawns near players in the Overworld",
+            "Offers 6 random trades from a pool of exotic items",
+            "Drinks a Potion of Invisibility at night to hide from mobs",
+            "Drinks Milk to remove the invisibility effect at dawn",
+            "Always accompanied by two leashed Trader Llamas",
+            "Will drink a Potion of Healing if damaged",
+            "Does not naturally despawn if named with a name tag"
+        ],
+        drops: [
+            { item: "Lead", chance: "0-2" },
+            { item: "Milk Bucket", chance: "If killed while drinking" },
+            { item: "Potion of Invisibility", chance: "If killed while drinking (rare)" }
+        ],
+        description: "The Wandering Trader is a passive mob that periodically spawns near players, accompanied by two leashed Trader Llamas. Unlike regular villagers, they do not belong to a village and offer unique items from various biomes, such as coral blocks, dye, and rare saplings. At nightfall, they drink a Potion of Invisibility to protect themselves from hostile mobs, only revealing themselves again at daybreak. They are a valuable source of rare items for players who prefer to stay in one location."
     }
 };

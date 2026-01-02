@@ -880,5 +880,36 @@ export const hostileMobs = {
             { item: "Experience", chance: "1 (small), 2 (medium), or 4 (big) (when killed by player/tamed wolf)" }
         ],
         description: "Slimes are bouncy, hostile mobs found deep underground in specific slime chunks (below Y=40) or in swamps at night (Y=51-69), where spawning depends on the moon phase. They appear in three sizes; large and medium slimes split into smaller versions when killed. Only the smallest slimes drop slimeballs when defeated. These items are crucial for crafting sticky pistons, leads, and slime blocks, making slimes a vital resource for redstone engineers and complex contraptions. Their unique jumping movement and splitting mechanic make them a distinct threat in dark caves and wetlands."
+    },
+    "minecraft:silverfish": {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        health: 8,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Strongholds", "Igloo Basements", "Windswept Hills (Infested Blocks)"],
+            lightLevel: "0-7",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Hides inside stone, cobblestone, or stone brick blocks",
+            "Calls all nearby Silverfish to attack when damaged",
+            "Infests stone-based blocks to create Monster Eggs",
+            "Extremely small hitbox makes them difficult to hit",
+            "Takes extra damage from the Bane of Arthropods enchantment",
+            "Slowed and damaged when walking over Soul Sand",
+            "Does not spawn in Peaceful difficulty unless from a spawner"
+        ],
+        drops: [
+            { item: "Experience", chance: "5" }
+        ],
+        description: "Silverfish are small, bug-like hostile mobs often found hiding in infested blocks within strongholds and mountain biomes. They are the smallest mobs in the game, making them hard to target. When a silverfish is attacked and not killed instantly, it summons other silverfish from nearby infested blocks to swarm the player. While they deal low individual damage, their ability to call reinforcements can quickly overwhelm an unprepared explorer in the narrow corridors of a stronghold."
     }
 };

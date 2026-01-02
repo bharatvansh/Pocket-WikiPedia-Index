@@ -362,5 +362,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_polar_bear.png",
         themeColor: "§f" // white for arctic bear
+    },
+    {
+        id: "minecraft:wandering_trader",
+        name: "Wandering Trader",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wandering_trader.png",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_silverfish.png",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:llama",
+        name: "Llama",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_llama.png",
+        themeColor: "§6"
     }
 ];
