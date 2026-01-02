@@ -411,5 +411,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fireworks",
         themeColor: "§c" // red/colorful
+    },
+    {
+        id: "minecraft:flint_and_steel",
+        name: "Flint and Steel",
+        category: "item",
+        icon: "textures/items/flint_and_steel",
+        themeColor: "§f" // white/iron
+    },
+    {
+        id: "minecraft:saddle",
+        name: "Saddle",
+        category: "item",
+        icon: "textures/items/saddle",
+        themeColor: "§6" // leather/orange-brown
+    },
+    {
+        id: "minecraft:milk_bucket",
+        name: "Milk Bucket",
+        category: "item",
+        icon: "textures/items/bucket_milk",
+        themeColor: "§f" // white
     }
 ];
