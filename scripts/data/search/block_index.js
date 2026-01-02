@@ -544,5 +544,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/target_top",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:verdant_froglight",
+        name: "Verdant Froglight",
+        category: "block",
+        icon: "textures/blocks/verdant_froglight",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:raw_iron_block",
+        name: "Raw Iron Block",
+        category: "block",
+        icon: "textures/blocks/raw_iron_block",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:blackstone",
+        name: "Blackstone",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:pointed_dripstone",
+        name: "Pointed Dripstone",
+        category: "block",
+        icon: "textures/blocks/pointed_dripstone",
+        themeColor: "§7" // gray
     }
 ];
