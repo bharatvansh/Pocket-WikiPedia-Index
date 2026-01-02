@@ -345,5 +345,61 @@ export const miscItems = {
             "Ravagers always drop a saddle on death."
         ],
         description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
+    },
+    "minecraft:item_frame": {
+        id: "minecraft:item_frame",
+        name: "Item Frame",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying and protecting items",
+            secondaryUse: "Creating galleries and showcases"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x8", "Leather x1"]
+        },
+        specialNotes: [
+            "Holds one item or block, displaying it visibly",
+            "Can be placed on any solid block surface",
+            "Items inside are protected from environmental damage",
+            "Can be rotated using right-click (changes item rotation)",
+            "Glowing Item Frame variant provides light level 7",
+            "Can be decorated with banners for custom borders",
+            "Items inside can be taken out by breaking the frame",
+            "Useful for organizing and displaying collections",
+            "Rotating items shows different orientations (8 possible rotations)",
+            "Fire-proof and explosion-resistant unlike most items"
+        ],
+        description: "The Item Frame is a decorative and functional block used to display and protect items in Minecraft. When placed, it creates a framed container that holds one item or block, showing it clearly with a visible border. This makes it perfect for creating galleries, museums, showcases, or simply organizing valuable items in a visually appealing way. Item Frames can be placed on any solid block surface and provide protection for their contents, keeping items safe from environmental damage and preventing them from being accidentally used or dropped. Players can rotate the displayed item by right-clicking on the frame, with 8 different rotation positions available. The Glowing Item Frame variant (obtained through trading with Fletcher villagers) provides a light level of 7 while maintaining all the same functionality. Item Frames serve both practical and aesthetic purposes, helping players showcase their collections, create informative displays, or add detail to building projects."
+    },
+    "minecraft:armor_stand": {
+        id: "minecraft:armor_stand",
+        name: "Armor Stand",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying armor and equipment",
+            secondaryUse: "Creating mannequins and decorations"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x6", "Stone Slab x1"]
+        },
+        specialNotes: [
+            "Can hold any combination of armor pieces and tools",
+            "Supports helmets, chestplates, leggings, boots, and hand-held items",
+            "Can be posed in different positions using commands or data packs",
+            "Small wooden planks on the base represent feet",
+            "Immune to gravity and doesn't fall",
+            "Can be placed in water without floating",
+            "Can be customized with different wood types using commands",
+            "Useful for organizing and displaying armor sets",
+            "Takes damage from explosions and withers but regenerates",
+            "Has a hitbox similar to a player when interacted with"
+        ],
+        description: "The Armor Stand is a decorative entity that serves as a mannequin for displaying armor, weapons, and tools in Minecraft. Crafted using sticks and a stone slab, the armor stand can hold any combination of armor pieces including helmets, chestplates, leggings, and boots, as well as tools and weapons in either hand. This makes it invaluable for organizing armor sets, creating museum displays, or adding detailed decoration to buildings. Armor stands are immune to gravity and remain in place when placed, making them perfect for permanent displays in builds. They can be customized through commands to change their pose, size, and appearance, allowing for creative expressions in building projects. While primarily decorative, armor stands also serve a practical purpose in helping players organize their gear and plan their equipment loadouts. The stand's simple wooden appearance fits well with most building styles, and its ability to hold any combination of equipment makes it a versatile addition to any builder's toolkit."
     }
 };
