@@ -56,6 +56,8 @@ scripts/data/
 > 1. A **search index entry** in `scripts/data/search/`
 > 2. A **detailed provider entry** in `scripts/data/providers/`
 
+> Don't commit changes to any other file other than .js files in codebase.
+
 ---
 
 ## Adding New Entries
