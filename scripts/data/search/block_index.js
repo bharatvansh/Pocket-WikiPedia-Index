@@ -460,5 +460,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_bookshelf",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:lectern",
+        name: "Lectern",
+        category: "block",
+        icon: "textures/blocks/lectern",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:respawn_anchor",
+        name: "Respawn Anchor",
+        category: "block",
+        icon: "textures/blocks/respawn_anchor",
+        themeColor: "§5" // dark purple (crying obsidian)
+    },
+    {
+        id: "minecraft:beacon",
+        name: "Beacon",
+        category: "block",
+        icon: "textures/blocks/beacon",
+        themeColor: "§b" // aqua/cyan (beam color)
     }
 ];
