@@ -383,5 +383,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_llama.png",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:tadpole",
+        name: "Tadpole",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_tadpole.png",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_tropical_fish.png",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_pufferfish.png",
+        themeColor: "§e"
     }
 ];
