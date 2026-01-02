@@ -474,5 +474,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/armor_stand",
         themeColor: "§6" // Brown/wood
+    },
+    {
+        id: "minecraft:ender_pearl",
+        name: "Ender Pearl",
+        category: "item",
+        icon: "textures/items/ender_pearl",
+        themeColor: "§d" // Purple/dark magic
+    },
+    {
+        id: "minecraft:gunpowder",
+        name: "Gunpowder",
+        category: "item",
+        icon: "textures/items/gunpowder",
+        themeColor: "§8" // Gray
+    },
+    {
+        id: "minecraft:magma_cream",
+        name: "Magma Cream",
+        category: "item",
+        icon: "textures/items/magma_cream",
+        themeColor: "§c" // Orange/red
     }
 ];

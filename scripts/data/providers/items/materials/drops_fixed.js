@@ -34,7 +34,7 @@ export const mobDrops = {
             "Repairing an Elytra with a membrane restores 108 durability points (25% of total)",
             "Brewing ingredient for Potion of Slow Falling (Awkward Potion + Phantom Membrane)"
         ],
-        description: "The Phantom Membrane is a skin-like material dropped by Phantoms, the flying hostile mobs that attack players who haven't slept for three in-game days. It serves two primary functions: it is the only item capable of repairing Elytra in an anvil, and it is an essential ingredient for brewing Potions of Slow Falling. Since Phantoms only spawn under specific conditions, obtaining membranes requires players to deliberately avoid sleep and engage in night combat. Cats may also occasionally gift them to their owners."
+        description: "The Phantom Membrane is a skin-like material dropped by Phantoms, the flying hostile mobs that attack players who haven't slept for three in-game days. It serves two primary functions: it is the only item capable of repairing Elytra in an anvil, and it is the essential ingredient for brewing Potions of Slow Falling. Since Phantoms only spawn under specific conditions, obtaining membranes requires players to deliberately avoid sleep and engage in night combat. Cats may also occasionally gift them to their owners."
     },
     "minecraft:turtle_scute": {
         id: "minecraft:turtle_scute",
@@ -58,7 +58,7 @@ export const mobDrops = {
             "Used to brew Potion of the Turtle Master (Awkward Potion + Turtle Shell)",
             "Renamed from 'Scute' to 'Turtle Scute' in Bedrock Edition 1.20.60 to distinguish from Armadillo Scutes"
         ],
-        description: "Turtle Scutes are small, hard plates shed by baby turtles as they grow into adults. Unlike most mob drops which are obtained by killing, scutes are a reward for nurturing life; players must protect turtle eggs until they hatch and then wait for the babies to mature to collect them. Five scutes can be crafted into a Turtle Shell, a unique helmet that provides the Water Breathing effect. Additionally, Turtle Scutes (via the Turtle Shell) are key to brewing the Potion of the Turtle Master, which grants high resistance at the cost of movement speed."
+        description: "Turtle Scutes are small, hard plates shed by baby turtles as they grow into adults. Unlike most mob drops which are obtained by killing, scutes are a reward for nurturing life; players must protect turtle eggs until they hatch and then wait for the babies to mature to collect them. Five scutes can be crafted into a Turtle Shell, a unique helmet that provides the Water Breathing effect. Additionally, Turtle Scutes (via the Turtle Shell) are the key to brewing the Potion of the Turtle Master, which grants high resistance at the cost of movement speed."
     },
     "minecraft:dragon_breath": {
         id: "minecraft:dragon_breath",
@@ -72,7 +72,7 @@ export const mobDrops = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Collected from the Ender Dragon's breath attack using a Glass Bottle"]
+            ingredients: ["Collected from Ender Dragon's breath attack using a Glass Bottle"]
         },
         specialNotes: [
             "Obtained by right-clicking (or using) a Glass Bottle on the purple breath clouds derived from the Ender Dragon's attack",
@@ -82,7 +82,7 @@ export const mobDrops = {
             "The purple particle clouds from the dragon deal damage, so collection can be dangerous",
             "Does not have a consumption animation like drinking potions"
         ],
-        description: "Dragon's Breath is a rare brewing ingredient collected during the fight with the Ender Dragon. By using an empty glass bottle on the purple clouds of acid breath that the dragon spits or the lingering clouds from its fireballs, players can bottle the substance. This item is critical for advanced alchemy, as it is used to convert Splash Potions into Lingering Potions. These lingering potions leave a cloud of the effect on the ground and can be used to craft Tipped Arrows, allowing players to utilize potion effects in ranged combat."
+        description: "Dragon's Breath is a rare brewing ingredient collected during the fight with the Ender Dragon. By using an empty glass bottle on the purple clouds of acid breath the dragon spits or the lingering clouds from its fireballs, players can bottle the substance. This item is critical for advanced alchemy, as it is used to convert Splash Potions into Lingering Potions. These lingering potions leave a cloud of the effect on the ground and can be used to craft Tipped Arrows, allowing players to utilize potion effects in ranged combat."
     },
     "minecraft:breeze_rod": {
         id: "minecraft:breeze_rod",
@@ -91,7 +91,7 @@ export const mobDrops = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Crafting Wind Charges and Maces",
+            primaryUse: "Crafting Wind Charges and the Mace",
             secondaryUse: "Repairing Maces at an Anvil and duplicating Flow Armor Trim templates"
         },
         crafting: {
@@ -151,9 +151,9 @@ export const mobDrops = {
             "Resin Clumps can be smelted in a furnace or smoker to create Resin Bricks",
             "Block of Resin can be used to craft a Creaking Heart",
             "Added in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden biome content",
-            "The Resin Clump has a vibrant orange color matching to the Creaking aesthetic"
+            "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
         ],
-        description: "Resin Clumps are resources obtained from Creaking Hearts and Creaking mobs in Pale Garden biomes. Attacking a Creaking Heart or a linked Creaking drops 1-3 clumps. These are used to craft Blocks of Resin (in a 3x3 grid) or smelted into Resin Bricks. Introduced in the 1.21 update, this material allows players to incorporate the unique orange aesthetic of the Pale Garden into their builds. The harvesting process is tied to the interactive mechanics of the Creaking mob, rewarding players for engaging with this atmospheric threat."
+        description: "Resin Clumps are resources obtained from the Creaking Heart and Creaking mobs in Pale Garden biomes. Attacking a Creaking Heart or a linked Creaking drops 1-3 clumps. These are used to craft Blocks of Resin (3x3 grid) or smelted into Resin Bricks. Introduced in the 1.21 update, this material allows players to incorporate the unique orange aesthetic of the Pale Garden into their builds. The harvesting process is tied to the interactive mechanics of the Creaking mob, rewarding players for engaging with this atmospheric threat."
     },
     "minecraft:blaze_rod": {
         id: "minecraft:blaze_rod",
@@ -162,7 +162,7 @@ export const mobDrops = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Crafting Brewing Stands, Blaze Powder, End Rods, and Copper Bulbs",
+            primaryUse: "Crafting Brewing Stand, Blaze Powder, End Rods, and Copper Bulbs",
             secondaryUse: "Fuel for furnaces (smelts 12 items per rod)"
         },
         crafting: {
@@ -171,7 +171,7 @@ export const mobDrops = {
         },
         specialNotes: [
             "Dropped by Blazes (0-1; up to 4 with Looting); spawns in Nether Fortresses",
-            "Crafts Blaze Powder (2x), Brewing Stands, End Rods, and Copper Bulbs",
+            "Crafts Blaze Powder (2x), Brewing Stand, End Rods, and Copper Bulbs",
             "Furnace fuel: smelts 12 items per rod",
             "Blaze Powder is essential for Eyes of Ender and potions",
             "Critical item for accessing the End dimension"
@@ -221,7 +221,9 @@ export const mobDrops = {
             "Essential for redstone machines and sticky mechanics",
             "Used to breed Frogs and accelerate Tadpole growth"
         ],
-        description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as breeding food for frogs and a growth accelerant for tadpoles."
+        description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as the breeding food for frogs and a growth accelerant for tadpoles."
+    }
+};
     },
     "minecraft:ender_pearl": {
         id: "minecraft:ender_pearl",
@@ -294,6 +296,6 @@ export const mobDrops = {
             "Magma Blocks also emit light level 3 and can be used as a light source or trap",
             "Fire Resistance potions are essential for Nether exploration and fighting fire-based mobs"
         ],
-        description: "Magma Cream is a viscous, orange item obtained from Magma Cubes or crafted by combining a Slimeball with Blaze Powder. Its most important use is brewing Potions of Fire Resistance, which grant complete immunity to fire and lava damage for a limited time. This makes it indispensable for traversing the Nether and battling Blazes and other fiery threats. Additionally, Magma Cream can be crafted into Magma Blocks, which serve as both a decorative light source and a defensive trap that damages mobs and players walking across them. Players can either farm Magma Cubes in the Nether or craft the cream using renewable slimeballs and blaze rods."
+        description: "Magma Cream is a viscous, orange item obtained from Magma Cubes or crafted by combining a Slimeball with Blaze Powder. Its most important use is brewing Potions of Fire Resistance, which grant complete immunity to fire and lava damage for a limited time. This makes it indispensable for traversing the Nether and battling Blazes and other fiery threats. Additionally, Magma Cream can be crafted into Magma Blocks, which serve as both a decorative light source and a defensive trap that damages mobs and players walking across them. Players can either farm Magma Cubes in the Nether or craft cream using renewable slimeballs and blaze rods."
     }
-};
+}
