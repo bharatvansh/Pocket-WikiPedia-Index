@@ -105,6 +105,27 @@ export const itemIndex = [
         themeColor: "§b" // wind/cyan
     },
     {
+        id: "minecraft:netherite_upgrade_smithing_template",
+        name: "Netherite Upgrade Smithing Template",
+        category: "item",
+        icon: "textures/items/netherite_upgrade_smithing_template",
+        themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:silence_armor_trim_smithing_template",
+        name: "Silence Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/silence_armor_trim_smithing_template",
+        themeColor: "§b" // aqua/ancient city
+    },
+    {
+        id: "minecraft:ward_armor_trim_smithing_template",
+        name: "Ward Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/ward_armor_trim_smithing_template",
+        themeColor: "§b" // aqua/ancient city
+    },
+    {
         id: "minecraft:bolt_armor_trim_smithing_template",
         name: "Bolt Armor Trim Smithing Template",
         category: "item",

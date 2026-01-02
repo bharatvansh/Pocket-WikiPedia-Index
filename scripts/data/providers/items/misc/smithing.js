@@ -11,6 +11,74 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const smithingTemplates = {
+    "minecraft:netherite_upgrade_smithing_template": {
+        id: "minecraft:netherite_upgrade_smithing_template",
+        name: "Netherite Upgrade Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Upgrading Diamond gear to Netherite gear at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Netherrack"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Netherrack", "1x Netherite Upgrade Smithing Template"]
+        },
+        specialNotes: [
+            "Required to upgrade Diamond tools and armor to Netherite.",
+            "Found in Bastion Remnant chests (guaranteed in Treasure Room chests).",
+            "Consumed upon use in a Smithing Table.",
+            "Can be duplicated using 7 Diamonds and 1 Netherrack.",
+            "Makes Netherite gear harder to obtain than in versions prior to 1.20."
+        ],
+        description: "The Netherite Upgrade Smithing Template is an essential item for players looking to obtain the strongest gear in the game. It is required to upgrade Diamond armor, weapons, and tools into their Netherite counterparts at a Smithing Table. These templates are found exclusively in Bastion Remnants in the Nether, with a guaranteed spawn in Treasure Room chests. Because the template is consumed upon use, players are encouraged to duplicate it using seven diamonds and a block of Netherrack before using it, ensuring they always have a supply for future upgrades."
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+        id: "minecraft:silence_armor_trim_smithing_template",
+        name: "Silence Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Silence' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobbled Deepslate"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobbled Deepslate", "1x Silence Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "The rarest armor trim in the game (1.2% chance in Ancient City chests).",
+            "Found exclusively in Ancient City chests.",
+            "Features a detailed, covering pattern that silences the armor's base texture.",
+            "Can be duplicated using 7 Diamonds and 1 Cobbled Deepslate.",
+            "Highly sought after for its unique and extensive visual alteration."
+        ],
+        description: "The Silence Armor Trim Smithing Template is the rarest and most detailed armor trim available in Minecraft. Found exclusively in Ancient City chests with a very low drop rate of 1.2%, it allows players to apply the 'Silence' pattern to their armor. This trim covers more of the armor piece than any other, creating a dramatic and prestigious look. Due to its extreme rarity, it is highly recommended to duplicate the template using seven diamonds and a block of Cobbled Deepslate before using it. It serves as a major status symbol for explorers who have braved the Deep Dark."
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+        id: "minecraft:ward_armor_trim_smithing_template",
+        name: "Ward Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Ward' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobbled Deepslate"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobbled Deepslate", "1x Ward Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests (approx. 5% chance).",
+            "Features a pattern resembling the Warden's chest/soul design.",
+            "Can be duplicated using 7 Diamonds and 1 Cobbled Deepslate.",
+            "Consumed upon use in a Smithing Table."
+        ],
+        description: "The Ward Armor Trim Smithing Template is a decorative item found in Ancient Cities within the Deep Dark biome. It allows players to customize their armor with the 'Ward' pattern, which mimics the aesthetic of the Warden, specifically its chest and soul-like features. While not as rare as the Silence trim, it is still a significant find. Players can duplicate this template using seven diamonds and a block of Cobbled Deepslate, allowing them to apply the design to multiple armor sets without needing to find more templates."
+    },
     "minecraft:bolt_armor_trim_smithing_template": {
         id: "minecraft:bolt_armor_trim_smithing_template",
         name: "Bolt Armor Trim Smithing Template",
