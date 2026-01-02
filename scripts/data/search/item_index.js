@@ -572,5 +572,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_hide",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        category: "item",
+        icon: "textures/items/suspicious_stew",
+        themeColor: "§f" // white/bowl
+    },
+    {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        category: "item",
+        icon: "textures/items/honeycomb",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        category: "item",
+        icon: "textures/items/experience_bottle",
+        themeColor: "§a" // green/xp
     }
 ];
