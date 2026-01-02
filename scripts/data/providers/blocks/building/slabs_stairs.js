@@ -71,5 +71,68 @@ export const slabsStairsBlocks = {
             yRange: "Trial Chambers"
         },
         description: "Polished Tuff Slabs are refined half-block variants of polished tuff introduced in 1.21. They feature a smooth texture ideal for sophisticated architectural designs. Slabs are crafted from polished tuff blocks or produced efficiently via a stonecutter. They generate naturally in Trial Chambers as decorative flooring and ceiling accents. These blocks are valuable for creating seamless transitions, detailed trim, and intricate patterns that require both the polished aesthetic and the utility of half-blocks."
+    },
+    "minecraft:tuff_brick_slab": {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted / Stonecutting (Trial Chambers palette)"
+        },
+        description: "The Tuff Brick Slab is the slab variant of tuff bricks, introduced in Minecraft 1.21 for the Trial Chambers block palette. It can be crafted from three tuff bricks or made in a stonecutter from tuff, polished tuff, or tuff bricks. In Bedrock Edition it is waterloggable and drops only when mined with a pickaxe, making it a sturdy half-block for floors, ceilings, and trim."
+    },
+    "minecraft:tuff_brick_stairs": {
+        id: "minecraft:tuff_brick_stairs",
+        name: "Tuff Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted / Stonecutting (Trial Chambers palette)"
+        },
+        description: "Tuff Brick Stairs are the stair-shaped variant of tuff bricks introduced in Minecraft 1.21. They are crafted from tuff bricks in the standard stair recipe or obtained via a stonecutter from tuff, polished tuff, or tuff bricks. In Bedrock Edition they are waterloggable and require a pickaxe to drop, offering rugged, dark gray steps for staircases, roofs, and detailed edging."
+    },
+    "minecraft:tuff_brick_wall": {
+        id: "minecraft:tuff_brick_wall",
+        name: "Tuff Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted / Stonecutting (Trial Chambers palette)"
+        },
+        description: "The Tuff Brick Wall is the wall variant of tuff bricks added in Minecraft 1.21. It is crafted from six tuff bricks or made in a stonecutter from tuff, polished tuff, or tuff bricks, and it connects to form railings and borders. In Bedrock Edition it is waterloggable and drops only when mined with a pickaxe, giving builders a dark, brick-textured barrier for courtyards and dungeon builds."
     }
 };
