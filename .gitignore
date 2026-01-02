@@ -33,6 +33,9 @@ verify_implementation.js
 search_results.json
 detailed_search_results.json
 search_*.py
+research_*.py
+mob_research.txt
+*_SUMMARY.md
 
 # Python virtual environment
 venv/

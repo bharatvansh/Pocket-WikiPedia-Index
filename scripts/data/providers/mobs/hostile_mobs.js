@@ -743,7 +743,7 @@ export const hostileMobs = {
             { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vindicators are fast, axe-wielding illagers found in Woodland Mansions and village raids. Their iron axes can disable shields, making them lethal melee threats. In mansions, they are non-respawning guardians; in raids, they join from wave 2 onwards. Naming one "Johnny" makes it hyper-aggressive, attacking almost any mob except fellow illagers. They commonly drop emeralds and occasionally their iron axes. Known for their high speed and strength, vindicators are among the most dangerous illagers players will face in close combat."
+        description: "Vindicators are fast, axe-wielding illagers found in Woodland Mansions and village raids. Their iron axes can disable shields, making them lethal melee threats. In mansions, they are non-respawning guardians; in raids, they join from wave 2 onwards. Naming one 'Johnny' makes it hyper-aggressive, attacking almost any mob except fellow illagers. They commonly drop emeralds and occasionally their iron axes. Known for their high speed and strength, vindicators are among the most dangerous illagers players will face in close combat."
     },
     "minecraft:vex": {
         id: "minecraft:vex",
@@ -880,5 +880,67 @@ export const hostileMobs = {
             { item: "Experience", chance: "1 (small), 2 (medium), or 4 (big) (when killed by player/tamed wolf)" }
         ],
         description: "Slimes are bouncy, hostile mobs found deep underground in specific slime chunks (below Y=40) or in swamps at night (Y=51-69), where spawning depends on the moon phase. They appear in three sizes; large and medium slimes split into smaller versions when killed. Only the smallest slimes drop slimeballs when defeated. These items are crucial for crafting sticky pistons, leads, and slime blocks, making slimes a vital resource for redstone engineers and complex contraptions. Their unique jumping movement and splitting mechanic make them a distinct threat in dark caves and wetlands."
+    },
+    "minecraft:endermite": {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        health: 8,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["All dimensions (where Ender Pearls can be used)"],
+            lightLevel: "0-15 (any)",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Has a 5% chance to spawn when an Ender Pearl lands after being thrown",
+            "Attacks players on sight within a 16-block detection range",
+            "Despawns after 2 minutes unless named with a name tag",
+            "Targeted and attacked by endermen, making them useful for enderman farms",
+            "Has one of the smallest hitboxes in the game at 0.4 × 0.3 blocks",
+            "Classified as an arthropod, vulnerable to Bane of Arthropods enchantment",
+            "Cannot be bred or tamed despite being relatively small and harmless-looking"
+        ],
+        drops: [
+            { item: "Experience", chance: "3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Endermites are the smallest hostile mobs in Minecraft, spawning with a 5% chance when an Ender Pearl lands. These tiny purple arthropods have only 8 health but will relentlessly attack players within range. They despawn after 2 minutes unless named with a name tag, making them rare to encounter for long. Endermen are naturally hostile toward endermites, which makes them valuable for building enderman farms as bait. Despite their small size and low health, their persistence and the attention they draw from endermen make them noteworthy."
+    },
+    "minecraft:silverfish": {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        health: 8,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Stronghold", "Mountain (Windswept Hills)", "Igloo Basement"],
+            lightLevel: "0-11",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Hides within infested stone blocks in strongholds, mountains, and igloo basements",
+            "Emerges when infested blocks are broken without Silk Touch",
+            "Calls all nearby silverfish from infested blocks when attacked, creating swarms",
+            "Can enter and hide in stone, cobblestone, and stone brick blocks, creating infested variants",
+            "Has a small hitbox of 0.4 × 0.3 blocks, making them difficult to hit",
+            "Classified as an arthropod, vulnerable to Bane of Arthropods enchantment",
+            "Monster spawners generating silverfish can be found in stronghold end portal rooms"
+        ],
+        drops: [
+            { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
+        ],
+        description: "Silverfish are small, gray arthropod hostile mobs that hide within infested stone blocks found in strongholds, mountain biomes, and igloo basements. When a silverfish is attacked or an infested block is broken without Silk Touch, it alerts other nearby silverfish to swarm the player, creating a dangerous chain reaction. They can enter and hide in stone variants, transforming them into infested blocks that are visually identical to normal blocks. Their small size and swarming behavior make them a unique threat when exploring underground structures."
     }
 };

@@ -362,5 +362,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_polar_bear.png",
         themeColor: "§f" // white for arctic bear
+    },
+    {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_endermite.png",
+        themeColor: "§5" // dark purple for End creature
+    },
+    {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_silverfish.png",
+        themeColor: "§7" // gray for stone dweller
+    },
+    {
+        id: "minecraft:llama",
+        name: "Llama",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_llama.png",
+        themeColor: "§e" // yellow/beige for wool
     }
 ];

@@ -319,5 +319,38 @@ export const neutralMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Polar bears are powerful neutral mobs found in snowy and icy biomes. Boasting 30 health (15 hearts), they are formidable predators that become aggressive if attacked or if a player nears their cubs. They are capable swimmers and deal significant damage. In Bedrock Edition, they can be bred using raw fish. Baby polar bears follow their parents and mimic their behavior towards players. Encountering these massive creatures requires caution, especially when offspring are present, as the adults will relentlessly defend their family in the harsh arctic environment."
+    },
+    "minecraft:llama": {
+        id: "minecraft:llama",
+        name: "Llama",
+        health: 22.5,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Windswept Hills", "Windswept Gravelly Hills", "Windswept Forest", "Savanna", "Savanna Plateau", "Windswept Savanna"],
+            lightLevel: "7-15",
+            groupSize: "4-6 (mountains), 4 (savanna)"
+        },
+        behaviorTraits: [
+            "Neutral pack animals that defend themselves by spitting at attackers from a distance",
+            "Can be tamed by repeatedly mounting them until hearts appear (typically 5-10 attempts)",
+            "Tamed llamas can be equipped with chests providing 3, 6, 9, 12, or 15 inventory slots based on strength",
+            "When leashed, they form caravans where up to 10 llamas follow the leader in a line",
+            "Health varies from 15 to 30 HP randomly, and strength determines chest size and pack decoration",
+            "Can be decorated with carpets which display on their backs like saddle blankets",
+            "Spit attacks deal 1 damage and are used defensively against hostile mobs threatening their owner"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Equipped Chest", chance: "If present" },
+            { item: "Carpet", chance: "If equipped" }
+        ],
+        description: "Llamas are neutral pack animals found in windswept hills and savanna biomes that serve as excellent transport for items across long distances. They defend themselves by spitting at attackers, dealing 1 damage, and will also protect their owner from hostile mobs. When tamed, llamas can be equipped with chests that hold 3 to 15 slots depending on their hidden strength stat. Their most distinctive feature is caravan formation: when leashed, multiple llamas automatically follow in a line, making them ideal for transporting large quantities of items without needing multiple leads."
     }
 };
