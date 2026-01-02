@@ -28,6 +28,13 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        category: "block",
+        icon: "textures/blocks/tuff",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:copper_ore",
         name: "Copper Ore",
         category: "block",
@@ -200,6 +207,13 @@ export const blockIndex = [
         name: "Polished Tuff Stairs",
         category: "block",
         icon: "textures/blocks/polished_tuff_stairs",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_stairs",
+        name: "Tuff Stairs",
+        category: "block",
+        icon: "textures/blocks/tuff_stairs",
         themeColor: "§7" // gray
     },
     {
@@ -397,6 +411,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/weathered_copper_door",
         themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:oxidized_copper_door",
+        name: "Oxidized Copper Door",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_door",
+        themeColor: "§2" // dark green/teal patina
     },
     {
         id: "minecraft:sculk_shrieker",

@@ -53,6 +53,27 @@ export const stoneBlocks = {
         },
         description: "Deepslate is a harder variant of stone found in the deepest layers of the Overworld. It generates below Y-level 0 and becomes more common below Y-level -8. Deepslate takes twice as long to mine as stone and has a distinctive dark gray appearance with subtle cracks."
     },
+    "minecraft:tuff": {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0"
+        },
+        description: "Tuff is an ornamental stone that generates in the Overworld as large underground ore-blob deposits and as part of iron ore veins below Y=0. It drops itself when mined with any pickaxe, but drops nothing if broken without one. Tuff is also used as a base material for multiple building variants, and can be stonecut into polished, brick, chiseled, slab, stair, and wall forms."
+    },
     "minecraft:chiseled_tuff": {
         id: "minecraft:chiseled_tuff",
         name: "Chiseled Tuff",

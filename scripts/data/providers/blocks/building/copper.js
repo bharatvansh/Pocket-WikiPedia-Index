@@ -246,6 +246,27 @@ export const copperBlocks = {
         },
         description: "The Weathered Copper Door is the second oxidation stage of copper doors, featuring a distinct blue-green patina. Found in Trial Chambers or created through natural oxidation, it functions like other doors, responding to player interaction and redstone signals. It is waterloggable and can be waxed with honeycomb to prevent further aging into the fully oxidized state. It drops itself when mined with a stone pickaxe or better. Its unique appearance makes it ideal for representing time-worn industrial sites or ancient ruins."
     },
+    "minecraft:oxidized_copper_door": {
+        id: "minecraft:oxidized_copper_door",
+        name: "Oxidized Copper Door",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oxidized Copper Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Oxidized Copper Door is the final oxidation stage of the copper door, showing a teal patina. In Bedrock Edition it can be opened by hand or with redstone and is waterloggable, and a thrown Wind Charge can also toggle it. Waxing it with honeycomb prevents further oxidation, while an axe can scrape it back to earlier stages, letting builders lock in an aged look for industrial or Trial Chamber themed builds."
+    },
     "minecraft:exposed_copper_bulb": {
         id: "minecraft:exposed_copper_bulb",
         name: "Exposed Copper Bulb",
