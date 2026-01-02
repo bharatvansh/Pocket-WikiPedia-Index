@@ -451,6 +451,101 @@ export const passiveMobs = {
         ],
         description: "Striders are passive mobs native to the Nether that can walk on lava. They are immune to fire and lava damage, making them the primary way to traverse lava oceans. Players can ride adult striders using a saddle and control them with a warped fungus on a stick. When outside of lava, striders change color to purple, shiver, and move much slower. They can be bred using warped fungus, and babies sometimes spawn riding on an adult's head. Their ability to safely cross molten hazards makes them invaluable for Nether exploration."
     },
+    "minecraft:tadpole": {
+        id: "minecraft:tadpole",
+        name: "Tadpole",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Swamp", "Mangrove Swamp"],
+            lightLevel: "Any",
+            groupSize: "1-5 (from frogspawn)"
+        },
+        behaviorTraits: [
+            "Baby form of frogs that swim aimlessly in water",
+            "Flops around on land and seeks water to survive",
+            "Follows players holding slimeballs",
+            "Can be picked up and transported in water buckets",
+            "Hunted by axolotls in aquatic environments",
+            "Grows into different frog variants based on biome",
+            "Takes 20 minutes to mature into a frog"
+        ],
+        drops: [
+            { item: "None", chance: "Baby animals don't drop items" }
+        ],
+        description: "Tadpoles are the aquatic baby form of frogs that hatch from frogspawn. They swim aimlessly in water and flop around on land while seeking water to survive. Tadpoles follow players holding slimeballs and can be collected in water buckets for transport. They are hunted by axolotls and take 20 minutes to grow into adult frogs, with their final variant determined by the biome they mature in. Tadpoles are essential for frog breeding and provide a unique aquatic life cycle in Minecraft."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        health: 3,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Warm Ocean", "Lukewarm Ocean", "Deep Warm Ocean", "Deep Lukewarm Ocean"],
+            lightLevel: "Any",
+            groupSize: "1-7 (schools)"
+        },
+        behaviorTraits: [
+            "Colorful fish that swim in schools of up to 7",
+            "Can be collected and transported in water buckets",
+            "Cannot be bred by players",
+            "Swims against water currents",
+            "Dies when out of water after flopping around",
+            "Vulnerable to Impaling enchantment",
+            "Comes in 22 different color and pattern variants"
+        ],
+        drops: [
+            { item: "Tropical Fish", chance: "1" },
+            { item: "Bone Meal", chance: "5%" }
+        ],
+        description: "Tropical fish are colorful passive mobs found in warm ocean biomes. They swim in schools of up to 7 fish and come in 22 different color and pattern variants. Players can collect them in water buckets for transport or aquariums. Tropical fish cannot be bred and only spawn naturally in designated biomes. They provide a vibrant aquatic ecosystem and can be used for decoration or as a food source. When killed, they drop tropical fish items and occasionally bone meal."
+    },
+    "minecraft:pufferfish": {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        health: 3,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean", "Deep Ocean", "Cold Ocean", "Deep Cold Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean"],
+            lightLevel: "Any",
+            groupSize: "1-3"
+        },
+        behaviorTraits: [
+            "Swims alone unlike other fish that school",
+            "Inflates when threatened by players or mobs",
+            "Inflicts Poison effect when touched while inflated",
+            "Can be collected in water buckets for transport",
+            "Hunted by axolotls, nautiluses, and zombie nautiluses",
+            "Cannot be bred by players",
+            "Dies when out of water after flopping around"
+        ],
+        drops: [
+            { item: "Pufferfish", chance: "1" },
+            { item: "Bone Meal", chance: "5%" }
+        ],
+        description: "Pufferfish are unique passive mobs found in various ocean biomes. Unlike other fish, they swim alone and have a defensive mechanism where they inflate when threatened. When inflated, they inflict the Poison effect on players and mobs that touch them. Pufferfish can be collected in water buckets and are hunted by axolotls. They cannot be bred and only spawn naturally. When killed, they drop pufferfish items and occasionally bone meal. Their distinctive appearance and defensive behavior make them an interesting addition to aquatic ecosystems."
+    },
     "minecraft:mooshroom": {
         id: "minecraft:mooshroom",
         name: "Mooshroom",
