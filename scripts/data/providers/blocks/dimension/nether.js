@@ -95,5 +95,68 @@ export const netherBlocks = {
             yRange: "Crimson and Warped Forests"
         },
         description: "Shroomlight is a light-emitting block found naturally in Crimson and Warped Forests in the Nether, growing near the top of huge fungi. It provides a light level of 15, the highest in the game. Shroomlights can be mined fastest with a hoe but can be broken by hand. They are renewable by growing huge fungi using bone meal on nylium. Unlike glowstone, shroomlights are solid blocks and can transmit redstone signals."
+    },
+    "minecraft:gilded_blackstone": {
+        id: "minecraft:gilded_blackstone",
+        name: "Gilded Blackstone",
+        hardness: 1.5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Gilded Blackstone", "Gold Nugget"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Gilded Blackstone is a variant of blackstone found exclusively in Bastion Remnants. It has a chance to drop gold nuggets when mined, or the block itself if mined with Silk Touch. Piglins are attracted to it and will become hostile if a player breaks it."
+    },
+    "minecraft:basalt": {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Basalt"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Basalt Deltas, Soul Sand Valleys"
+        },
+        description: "Basalt is a dark, igneous rock found in the Nether. It generates as pillars in Soul Sand Valleys and covers the landscape in Basalt Deltas. It can be directionally placed like logs. Basalt can be generated renewably by flowing lava over soul soil adjacent to blue ice."
+    },
+    "minecraft:soul_soil": {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Soil"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valleys"
+        },
+        description: "Soul Soil is a block found abundantly in Soul Sand Valleys. Unlike Soul Sand, it does not slow down movement. Fire lit on Soul Soil burns as blue Soul Fire, which does twice the damage of normal fire. It is used to construct the Wither."
     }
 };
