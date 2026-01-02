@@ -498,5 +498,75 @@ export const passiveMobs = {
             { item: "Red Mushroom", chance: "0-2" }
         ],
         description: "Mooshrooms are rare, mushroom-covered variants of cows that spawn exclusively in the rare Mushroom Fields biome. These distinctive mobs have red mushrooms growing on their backs and serve as both a source of regular beef and leather, as well as red mushrooms for brewing and cooking. Players can shear mooshrooms to obtain red mushrooms and convert them into regular cows, though this process is prevented if the mooshroom has a baby nearby. The most unique aspect of mooshrooms is their ability to produce mushroom stew when milked with a bowl, creating a renewable source of this hunger-restoring food item. They behave identically to regular cows in all other aspects, including breeding with wheat and following players holding wheat. Due to their exclusive spawn location in the rare Mushroom Fields biome, mooshrooms are a prized discovery for players seeking to establish sustainable mushroom farming operations."
+    },
+    "minecraft:rabbit": {
+        id: "minecraft:rabbit",
+        name: "Rabbit",
+        health: 3,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.45
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Forest", "Taiga", "Snowy Taiga", "Snowy Plains", "Desert", "Flower Forest", "Meadow", "Grove", "Cherry Grove"],
+            lightLevel: "9+",
+            groupSize: "2-3"
+        },
+        behaviorTraits: [
+            "Small, fast-moving passive mobs that hop around various biomes",
+            "Jump frequently and can leap up to 3 blocks high when needed",
+            "Run away from players when approached, making them difficult to catch",
+            "Can be bred using carrots, golden carrots, or dandelions",
+            "Come in 6 natural color variants depending on biome: brown, white, black, black-and-white, gold, salt-and-pepper",
+            "Named 'Toast' with a name tag produces a unique black-and-white memorial variant",
+            "Hunted by foxes, wolves, and ocelots in the wild",
+            "Can jump over fences but avoid falling off cliffs",
+            "Eat fully-grown carrot crops, reducing them to just the stems"
+        ],
+        drops: [
+            { item: "Rabbit Hide", chance: "0-1" },
+            { item: "Raw Rabbit", chance: "0-1" },
+            { item: "Cooked Rabbit", chance: "If killed by fire" },
+            { item: "Rabbit's Foot", chance: "10% (increases with Looting)" }
+        ],
+        description: "Rabbits are small, agile passive mobs that spawn across a wide variety of biomes in Minecraft Bedrock Edition. With only 3 health points, they are among the most fragile mobs in the game, but their exceptional speed and hopping ability make them challenging to catch. Rabbits come in six natural color variants that correspond to their spawning biome, with brown and salt-and-pepper being the most common, while gold rabbits spawn exclusively in deserts. Players can breed rabbits using carrots, golden carrots, or dandelions to establish rabbit farms for their valuable drops. Rabbit hide can be crafted into leather, while raw rabbit is a food source that can be cooked or used to craft rabbit stew. The rarest drop is the rabbit's foot, which has a 10% drop chance and is essential for brewing Potions of Leaping. Rabbits exhibit natural prey behavior, fleeing from players, wolves, foxes, and ocelots, and they can occasionally eat fully-grown carrot crops if they wander into farmland. The special 'Toast' rabbit, created by naming any rabbit with a name tag, serves as a memorial to a player's pet rabbit and features a distinctive black-and-white pattern."
+    },
+    "minecraft:parrot": {
+        id: "minecraft:parrot",
+        name: "Parrot",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.4
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Jungle", "Sparse Jungle", "Bamboo Jungle"],
+            lightLevel: "Any",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Colorful flying passive mobs exclusive to jungle biomes",
+            "Can be tamed using any type of seeds (wheat seeds, melon seeds, pumpkin seeds, beetroot seeds)",
+            "Tamed parrots teleport to the player when too far away, similar to tamed wolves",
+            "Sit on the player's shoulders when walked into, allowing transportation",
+            "Dismount from shoulders when the player jumps, takes damage, or enters water",
+            "Mimic the sounds of nearby hostile and neutral mobs within 20 blocks",
+            "Come in five vibrant color variants: red, green, blue, cyan, and gray",
+            "Can be made to sit/stand using the interact button when tamed",
+            "Dance and bob their heads when near an active jukebox playing music",
+            "Cannot be bred in any way, making them non-renewable without finding more in jungles"
+        ],
+        drops: [
+            { item: "Feather", chance: "1-2" }
+        ],
+        description: "Parrots are vibrant, tropical passive mobs that bring life and color to Minecraft's jungle biomes. These small flying companions are highly sought after for their unique ability to perch on the player's shoulders, serving as both decorative pets and functional alarm systems. When tamed with seeds, parrots become loyal companions that teleport to follow their owner and can detect nearby threats by mimicking the sounds of hostile and neutral mobs within a 20-block radius, including creepers, zombies, skeletons, and even the Ender Dragon. This mimicry makes them invaluable for alerting players to danger, though it can be startling when first encountered. Parrots come in five stunning color variants—red, blue, green, cyan, and gray—each spawning with equal probability in jungle biomes. Their entertaining behavior includes dancing to music when near an active jukebox, bobbing their heads rhythmically to the beat. Unlike most passive mobs, parrots cannot be bred, making each tamed parrot a unique and precious companion. Historically, players learned the hard way that feeding parrots cookies is fatal to them, a detail added to reflect real-world parrot care. Their feather drops and aesthetic appeal make parrots a beloved addition to any Minecraft world, particularly for players seeking to add color and character to their bases."
     }
 };
