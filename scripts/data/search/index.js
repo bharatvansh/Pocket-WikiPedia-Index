@@ -25,3 +25,14 @@ export const searchIndex = [
     ...itemIndex,
     ...mobIndex
 ];
+
+/**
+ * Pre-computed category counts (computed once at import time)
+ * This avoids repeated .filter() calls every time the menu opens
+ */
+export const indexCounts = {
+    blocks: blockIndex.length,
+    items: itemIndex.length,
+    mobs: mobIndex.length,
+    total: blockIndex.length + itemIndex.length + mobIndex.length
+};

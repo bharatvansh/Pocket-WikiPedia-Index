@@ -29,7 +29,7 @@ export const containerBlocks = {
             dimension: "Overworld",
             yRange: "Found in archaeological sites"
         },
-        description: "The Decorated Pot is a versatile decorative and storage block crafted using four Pottery Sherds or Bricks. Introduced in the Trails & Tales update, these pots can be customized with various patterns depending on the sherds used in their creation, reflecting ancient Minecraft lore. Beyond their aesthetic appeal, Decorated Pots can store a single stack of items, which can be inserted by players or even through hoppers. In Bedrock Edition, they have unique breaking mechanics: breaking a pot with a sword will shatter it into its original components, while breaking it with any other tool, by hand, or with a projectile will cause it to drop as a whole block. This allows for interesting interactions in adventure maps and base designs."
+        description: "The Decorated Pot is a storage block crafted from four Pottery Sherds or Bricks. Its patterns depend on the sherds used, reflecting ancient lore. It can hold a single stack of items, which can be inserted by players or hoppers. Breaking it with a sword shatters it into its original components, while using any other tool, hand, or projectile drops the pot as a whole block. This allows for unique interactions in builds and adventure maps, serving as both a decorative piece and a functional container."
     },
     "minecraft:chiseled_bookshelf": {
         id: "minecraft:chiseled_bookshelf",
@@ -50,6 +50,6 @@ export const containerBlocks = {
             dimension: "Overworld",
             yRange: "Craftable"
         },
-        description: "The Chiseled Bookshelf is a functional storage block that allows players to store and display up to six books, including regular Books, Book and Quills, Written Books, and Enchanted Books. Unlike regular bookshelves, players can manually place and remove books from specific slots, making it a dynamic part of library builds. The block also has redstone integration, where a Redstone Comparator can detect the last slot interacted with and output a corresponding signal strength. This allows for the creation of secret doors and hidden mechanisms triggered by simply pulling a book from a shelf. It is crafted using six wooden slabs and three wooden planks, making it an accessible and highly useful addition to any player's base."
+        description: "The Chiseled Bookshelf is a functional block used to store and display up to six books, including regular, Written, and Enchanted Books. Players can manually place or remove items from specific slots. When paired with a Redstone Comparator, it outputs a signal based on the last slot interacted with, enabling secret doors and complex contraptions. It is crafted from six wooden slabs and three wooden planks. This block adds dynamic utility to libraries, serving as both a storage solution and a redstone trigger."
     }
 };

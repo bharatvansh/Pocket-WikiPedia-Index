@@ -52,16 +52,12 @@ export const swords = {
             ingredients: ["Heavy Core", "Breeze Rod"]
         },
         specialNotes: [
-            "Smash attack triggers when falling more than 1.5 blocks before hitting",
-            "Smash attack damage increases indefinitely with fall distance, scaling without limit",
-            "Smash attack negates all fall damage for the attacker",
-            "Base attack damage equivalent to Iron Sword (6 damage/3 hearts)",
-            "No attack cooldown (standard Bedrock Edition mechanics)",
-            "Can be enchanted with Density, Breach, and Wind Burst",
-            "Density increases damage based on blocks fallen before attack",
-            "Breach bypasses some of target's armor",
-            "Wind Burst launches the attacker into the air on hit"
+            "Smash attack triggers when falling >1.5 blocks; negates fall damage",
+            "Damage scales infinitely with fall distance (Density enchant boosts this)",
+            "Base damage: 6 (same as Iron Sword)",
+            "Exclusive Enchants: Density (damage), Breach (armor pierce), Wind Burst (launch)",
+            "Crafted with Heavy Core + Breeze Rod; no attack cooldown in Bedrock"
         ],
-        description: "The Mace is a powerful melee weapon introduced in Minecraft 1.21 as part of the Tricky Trials update. Crafted from a Heavy Core (obtained from Ominous Vaults) and a Breeze Rod (dropped by Breezes), this weapon features a unique smash attack mechanic. When a player falls more than 1.5 blocks and hits an enemy with the Mace, the smash attack triggers, dealing damage that scales indefinitely with fall distance while completely negating fall damage. In Bedrock Edition, the Mace deals 6 base attack damage, equivalent to an Iron Sword, and follows standard Bedrock combat mechanics without attack cooldowns. This makes the Mace exceptionally deadly for aerial combat and strategic positioning, especially when combined with its specialized enchantments like Density, Breach, and Wind Burst."
+        description: "The Mace is a powerful melee weapon added in 1.21. Crafted from a Heavy Core and a Breeze Rod, it features a unique smash attack mechanic: falling 1.5+ blocks before hitting an enemy deals massive damage scaling with fall distance while negating the user's fall damage. In Bedrock Edition, it deals 6 base damage. It supports exclusive enchantments: Density for extra fall damage, Breach to bypass armor, and Wind Burst to launch the player upward on impact. This makes the Mace a devastating tool for aerial strikes and tactical combat."
     }
 };

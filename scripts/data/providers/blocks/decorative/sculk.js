@@ -49,7 +49,7 @@ export const sculkBlocks = {
             dimension: "None",
             yRange: "None"
         },
-        description: "The Calibrated Sculk Sensor is an advanced redstone component introduced in Minecraft 1.20 that detects specific vibrations and sounds with much greater precision than the regular Sculk Sensor, while also emitting a subtle light level of 1. Unlike the regular sensor that responds to a wide range of vibrations, the calibrated variant can be programmed to detect only particular types of events, making it essential for sophisticated redstone contraptions and automated systems. It can detect vibrations from player footsteps, item drops, block placements, and other activities within a 16-block radius, with the specific detection range configurable through redstone signals. When activated, it emits a redstone signal and creates sculk shriek particles and sounds, along with providing minimal ambient lighting for dark builds. The calibrated sculk sensor can be crafted using 1 regular Sculk Sensor and 3 Amethyst Shards arranged in a specific pattern on a crafting table. This block is particularly valuable in compact redstone builds, security systems, and automated farms where precise trigger conditions are required."
+        description: "The Calibrated Sculk Sensor is an advanced redstone component introduced in version 1.20. Unlike the standard sensor, it can be programmed to detect specific vibration frequencies based on the strength of an incoming redstone signal. It has a detection range of 16 blocks and emits a light level of 1 when active. Crafted using one Sculk Sensor and three Amethyst Shards, it is essential for sophisticated automation, security systems, and compact redstone builds that require precise trigger conditions without interference from surrounding sounds."
     },
     "minecraft:sculk_catalyst": {
         id: "minecraft:sculk_catalyst",
@@ -70,7 +70,7 @@ export const sculkBlocks = {
             dimension: "Overworld",
             yRange: "Ancient Cities (Deep Dark)"
         },
-        description: "The Sculk Catalyst is a Deep Dark block most commonly found in ancient cities that converts nearby mob deaths into a sculk bloom, spreading sculk blocks and occasionally creating sculk sensors or sculk shriekers. It emits light level 6 and can be broken with any tool, but a hoe is the fastest; it only drops itself when mined with Silk Touch, otherwise it drops 5 experience. In Bedrock Edition, sculk catalysts are also renewable because a warden always drops one when it dies, enabling late-game sculk farming and controlled sculk spreading projects. Players use catalysts for automatic sculk growth, experience harvesting setups, and for building in the distinctive teal-and-black Deep Dark palette."
+        description: "The Sculk Catalyst is a block found in the Deep Dark that converts nearby mob deaths into sculk growth, spreading sculk blocks, sensors, or shriekers. It emits light level 6 and is mined fastest with a hoe. Silk Touch is required to obtain the block; otherwise, it drops experience. Catalysts are dropped by Wardens, making them renewable. They are essential for experience harvesting setups, automatic sculk farming, and building with the distinctive teal-and-black Deep Dark aesthetic."
     },
     "minecraft:sculk_shrieker": {
         id: "minecraft:sculk_shrieker",
@@ -91,6 +91,6 @@ export const sculkBlocks = {
             dimension: "Overworld",
             yRange: "Deep Dark Biome"
         },
-        description: "The Sculk Shrieker is a unique block found in the Deep Dark biome that can summon the Warden when activated multiple times. It responds to vibrations detected by nearby Sculk Sensors, emitting a soul-chilling sound and applying the Darkness effect to players within its range. In Bedrock Edition, Sculk Shriekers can also be activated by a redstone signal, allowing for creative use in player-made traps or alarm systems. While players can obtain and place Sculk Shriekers using Silk Touch, these player-placed versions are 'inert' and cannot summon the Warden, though they still emit sounds and vibrations when triggered. This block serves as a primary alarm system within Ancient Cities, making stealth and the use of wool essential for survival in these areas."
+        description: "Found in the Deep Dark, the Sculk Shrieker is a block that summons the Warden when activated multiple times. It responds to vibrations from nearby Sculk Sensors or redstone (Bedrock Edition), emitting a loud sound and applying the Darkness effect to players. While obtainable with Silk Touch, player-placed shriekers are inert and cannot summon the Warden. As a primary alarm system in Ancient Cities, they make stealth and wool essential for survival."
     }
 };

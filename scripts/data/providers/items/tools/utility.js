@@ -49,16 +49,13 @@ export const utilityTools = {
             ingredients: ["Fishing Rod", "Warped Fungus"]
         },
         specialNotes: [
-            "Used to control the direction of a Strider when riding it",
-            "Right-clicking gives the Strider a speed boost but consumes 1 durability",
-            "In Bedrock Edition, it has 100 durability",
-            "Can be enchanted with Unbreaking, Mending, and Curse of Vanishing",
-            "Crafted using a Fishing Rod and a Warped Fungus in any crafting grid",
-            "If the fishing rod used in crafting has enchantments, they are removed",
-            "When durability reaches 0, it turns back into a Fishing Rod",
-            "Essential for safe Nether travel across lava oceans"
+            "Steers saddled Striders; right-click boosts speed (1 durability cost)",
+            "Crafted with Fishing Rod + Warped Fungus",
+            "Has 100 durability; reverts to Fishing Rod when broken",
+            "Enchantable with Unbreaking, Mending, Curse of Vanishing",
+            "Essential for safe lava traversal in the Nether"
         ],
-        description: "The Warped Fungus on a Stick is a utility tool used to control Striders, the passive mobs found in the Nether's lava oceans. Similar to how a Carrot on a Stick works for pigs, holding this item allows a player to steer a saddled Strider. By right-clicking (or using the item), the player can boost the Strider's speed, which consumes 1 point of the item's 100 durability. It is crafted by combining a Fishing Rod and a Warped Fungus. This tool is essential for traversing the Nether safely, as Striders can walk on lava without taking damage. Unlike Java Edition, in Bedrock Edition, when the item breaks, it reverts to a Fishing Rod rather than disappearing completely."
+        description: "The Warped Fungus on a Stick is a utility tool used to steer saddled Striders across the Nether's lava oceans. Similar to a Carrot on a Stick, holding it directs the mob's movement. Using the item provides a temporary speed boost, consuming 1 of its 100 durability points. It is crafted by combining a Fishing Rod and a Warped Fungus. In Bedrock Edition, the tool reverts to a Fishing Rod when the durability is fully depleted. This item is essential for safe navigation over lava, as Striders are immune to fire and heat damage."
     },
     "minecraft:clock": {
         id: "minecraft:clock",

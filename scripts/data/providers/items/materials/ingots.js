@@ -31,6 +31,6 @@ export const ingots = {
             "Required to create the highest tier of tools and armor in the game",
             "Can be used as payment to power or activate a beacon"
         ],
-        description: "The Netherite Ingot is an extremely rare and powerful crafting material used to create the strongest equipment available in Minecraft. Unlike most items, netherite ingots and all gear made from them are completely fire-resistant and will float safely on the surface of lava if dropped. To obtain a single ingot, players must combine four netherite scraps, obtained by smelting ancient debris found deep within the Nether, with four gold ingots in a shapeless crafting recipe. Using a Smithing Table, players can use these ingots along with a Netherite Upgrade Smithing Template to transform diamond tools, weapons, and armor into their netherite counterparts, significantly increasing their durability, efficiency, and knockback resistance while retaining all existing enchantments."
+        description: "Netherite Ingots are rare materials used to create Minecraft's strongest gear. Both the ingots and items made from them are fire-resistant and float on lava. To craft one, combine four netherite scraps (smelted from ancient debris) with four gold ingots. At a Smithing Table, use an ingot and a Netherite Upgrade Template to transform diamond tools and armor into netherite versions. This increases durability, efficiency, and knockback resistance while preserving existing enchantments."
     }
 };

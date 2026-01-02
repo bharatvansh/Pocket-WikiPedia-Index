@@ -48,15 +48,12 @@ export const smithingTemplates = {
             ingredients: ["7x Diamond", "1x Breeze Rod", "1x Flow Armor Trim Smithing Template"]
         },
         specialNotes: [
-            "Found exclusively in Ominous Vaults in Trial Chambers",
-            "Has a 22.5% chance to drop when opening an Ominous Vault with an Ominous Trial Key in Bedrock Edition",
-            "Cannot be obtained from standard Vaults, only from Ominous Vaults",
-            "Features a wind-themed swirling pattern reminiscent of Breeze attacks",
-            "Unique among armor trims for using Breeze Rods instead of blocks for duplication",
-            "Can be applied to any armor piece including netherite",
-            "Requires a trim material (e.g., Copper Ingot, Iron Ingot, Quartz) to apply the color",
-            "The Breeze Rod duplication method ties directly to Trial Chambers gameplay"
+            "Exclusive to Trial Chambers; 22.5% drop from Ominous Vaults using Ominous Trial Key",
+            "Duplicated using 7 Diamonds + 1 Breeze Rod + Template",
+            "Cannot be found in standard Vaults",
+            "Applying it requires a smithing material (e.g. minerals, crystals)",
+            "Features a wind-themed swirling pattern matching the Breeze"
         ],
-        description: "The Flow Armor Trim Smithing Template is a distinctive decorative pattern introduced in Minecraft 1.21 as part of the Tricky Trials update, obtainable exclusively from Ominous Vaults within Trial Chambers. This template features an elegant, wind-inspired design characterized by graceful curves and swirling patterns that evoke the airy movements of Breezes and the explosive bursts of Wind Charges. Unlike the Bolt Trim which can be found in standard Vaults, the Flow Trim is a premium reward that only drops from Ominous Vaults with a 22.5% chance in Bedrock Edition, requiring players to activate Ominous Trial Spawners while under the Trial Omen effect. What makes the Flow Trim particularly unique is its duplication recipe - unlike most other armor trims that require specific blocks, the Flow Trim is duplicated using Breeze Rods instead. This creates a thematic connection between the trim and the Trial Chambers' hostile mobs, encouraging players to engage with the chamber's combat mechanics. When applied to armor with a suitable trim material, the Flow Trim adds an eye-catching aesthetic element that stands apart from the geometric Bolt trim, offering players more creative options for customizing their equipment appearance."
+        description: "The Flow Armor Trim is a rare decorative item found in Ominous Vaults within Trial Chambers (1.21). It features wind-inspired swirling patterns reminiscent of the Breeze mob. Unlike most trims, it is duplicated using a Breeze Rod and seven Diamonds. Players can obtain it with a 22.5% drop rate from Ominous Vaults, which require the Trial Omen effect to unlock. This template adds a unique, airy aesthetic to armor and serves as a prestigious reward for players who complete the chambers' most difficult combat challenges."
     }
 };

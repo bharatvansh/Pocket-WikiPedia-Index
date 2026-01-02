@@ -29,16 +29,13 @@ export const craftingMaterials = {
             ingredients: ["Dropped by rabbits", "Brewed in a brewing stand with Awkward Potion"]
         },
         specialNotes: [
-            "Rabbits drop a Rabbit's Foot with a 10.5% chance on death (higher with Looting)",
-            "Tamed cats occasionally gift Rabbit's Foots to their owners",
-            "Essential brewing ingredient for Potion of Leaping (Jump Boost effect)",
-            "Brewing process: Awkward Potion + Rabbit's Foot = Mundane Potion, then fermented spider eye = Potion of Leaping",
-            "Cleric villagers buy Rabbit's Foots for emeralds (4 feet per emerald in Bedrock)",
-            "Renewable resource through rabbit farming and cat gifts",
-            "The Jump Boost effect increases jump height and reduces fall damage",
-            "Potion of Leaping is valuable for parkour, exploration, and combat mobility"
+            "10.5% drop chance from rabbits (boosted by Looting); also cat gifts",
+            "Brewing: Awkward Potion + Rabbit's Foot = Potion of Leaping (Jump Boost)",
+            "Jump Boost increases jump height and reduces fall damage",
+            "Sold to Cleric villagers for emeralds (4 per emerald in Bedrock)",
+            "Renewable via rabbit farming and cat gifts"
         ],
-        description: "The Rabbit's Foot is a small but valuable brewing ingredient dropped exclusively by rabbits, the skittish passive mobs found throughout various Minecraft biomes. Each rabbit has a 10.5% chance to drop its foot upon death, with the Looting enchantment increasing these odds, making rabbit farms an efficient way to collect this renewable resource. Additionally, tamed cats have a chance to gift Rabbit's Foots to their owners, providing an alternative acquisition method. The primary purpose of the Rabbit's Foot is in potion brewing, where it serves as the key ingredient for creating Potion of Leaping. When added to an Awkward Potion in a brewing stand, the Rabbit's Foot transforms it into a Mundane Potion, which can then be combined with a Fermented Spider Eye to produce the final Potion of Leaping. This Jump Boost effect significantly increases the player's jump height and reduces fall damage, making it invaluable for parkour challenges, reaching elevated locations, and enhanced mobility in combat. Beyond brewing, Rabbit's Foots have trading value as Cleric villagers will purchase them for emeralds, providing another use for surplus feet. The combination of renewable acquisition through rabbits and cats, brewing utility for mobility potions, and trading potential makes the Rabbit's Foot a versatile and useful mid-game item."
+        description: "A Rabbit's Foot is a brewing ingredient dropped by rabbits (10.5% chance, increased by Looting) or gifted by tamed cats. Its primary use is in a brewing stand with an Awkward Potion to create a Potion of Leaping, which grants the Jump Boost effect, increasing jump height and reducing fall damage. Additionally, Cleric villagers buy Rabbit's Feet in exchange for emeralds. This item is essential for players seeking enhanced mobility or those looking to trade surplus mob drops for currency."
     },
     "minecraft:flow_pottery_sherd": {
         id: "minecraft:flow_pottery_sherd",
@@ -101,16 +98,13 @@ export const craftingMaterials = {
             ingredients: ["Found in buried treasure chests"]
         },
         specialNotes: [
-            "Found exclusively in buried treasure chests",
-            "Used to craft Conduits (requires 8 Nautilus Shells + 1 Heart of the Sea)",
-            "No particles or glint (Standard item behavior)",
-            "Cannot be crafted or obtained through any other means",
-            "Rare item that requires treasure hunting to find",
-            "Buried treasure maps can be found in shipwrecks and ocean ruins",
-            "Required for building underwater farms, bases, and monuments",
-            "Conduits provide Conduit Power effect (water breathing, night vision, haste underwater)"
+            "Found exclusively in buried treasure chests (via maps)",
+            "Crafts Conduits: 8 Nautilus Shells + 1 Heart of the Sea",
+            "Conduits grant Water Breathing, Night Vision, and Haste underwater",
+            "Rare, uncraftable item essential for underwater bases",
+            "Standard item behavior (no glint or particles)"
         ],
-        description: "The Heart of the Sea is a rare and valuable item found exclusively in buried treasure chests throughout Minecraft's ocean biomes. This glowing, blue-tinged item is the central component required to craft a Conduit, a powerful underwater block that provides players with the Conduit Power effect, granting water breathing, night vision, and increased mining speed when underwater. Players must locate buried treasure using treasure maps found in shipwrecks and ocean ruins, making the Heart of the Sea a reward for dedicated exploration. Once obtained and combined with 8 Nautilus Shells, it creates a Conduit that can revolutionize underwater gameplay by enabling extended deep-sea exploration, mining, and construction without the need for constant resurfacing. The Heart of the Sea's distinctive glowing appearance makes it both visually striking and highly coveted.",
+        description: "The Heart of the Sea is a rare item found exclusively in buried treasure chests, located using maps from shipwrecks or ocean ruins. Its primary use is crafting a Conduit when combined with eight Nautilus Shells. When placed within a prismarine structure, the resulting Conduit provides the Conduit Power effect, granting players water breathing, night vision, and increased mining speed in a surrounding radius. This item is essential for large-scale underwater exploration and construction, allowing players to work deep beneath the waves without needing to surface for air.",
         rarityColor: "§e"
     },
     "minecraft:nether_star": {
@@ -128,18 +122,14 @@ export const craftingMaterials = {
             ingredients: ["Dropped by the Wither boss"]
         },
         specialNotes: [
-            "Always drops 1 from defeating the Wither",
-            "Cannot be obtained through any other means",
-            "Required exclusively for crafting Beacons",
-            "Has enchantment glint (shimmer) but no particle emission",
-            "One of the rarest and most difficult items to obtain",
-            "Requires summoning and defeating the Wither boss (4 soul sand, 3 wither skeleton skulls)",
-            "Beacons provide status effects to players within range",
-            "The Nether Star's value makes it a symbol of advanced progression",
-            "Wither is one of the most challenging bosses in the game",
-            "Can be used in item frames as a decorative trophy"
+            "Guaranteed drop from the Wither boss; uncraftable otherwise",
+            "Exclusively used to craft Beacons for area-wide buffs",
+            "Features enchantment glint but no particles",
+            "Immune to explosion damage",
+            "Represents a major endgame milestone",
+            "Can be displayed in item frames as a trophy"
         ],
-        description: "The Nether Star is an exceptionally rare and valuable item obtained exclusively by defeating the Wither, one of Minecraft's most dangerous and challenging bosses. This glowing purple star serves as the central component for crafting Beacons, powerful pyramid-shaped blocks that provide beneficial status effects such as Speed, Haste, Resistance, Jump Boost, and Strength to players within their range. The Wither always drops exactly one Nether Star upon defeat, making it a hard-earned reward that requires preparation, skill, and resources to obtain. Summoning the Wither requires gathering 4 soul sand blocks and 3 wither skeleton skulls, a task that demands significant effort in Nether fortresses. The Nether Star's distinctive purple glow, but no particle effects, make it visually striking, and it's often displayed as a trophy in item frames. As an essential component for Beacon construction, the Nether Star represents a major milestone in a player's progression, unlocking powerful buffs that enhance both survival and building capabilities. Its rarity and the difficulty of obtaining it make the Nether Star one of the most prestigious items in Minecraft Bedrock Edition.",
+        description: "The Nether Star is a rare item dropped exclusively by the Wither upon its defeat. It is the primary component used to craft Beacons, which grant powerful status effects like Haste, Speed, and Strength to nearby players when activated on a mineral pyramid. To obtain a star, players must summon the Wither using four soul sand or soul soil blocks and three wither skeleton skulls. The star features a unique purple glow and, notably, cannot be destroyed by explosions. It serves as a major endgame milestone, providing permanent area-of-effect buffs essential for large-scale projects.",
         themeColor: "§b (Aqua/Rare)"
     },
     "minecraft:amethyst_shard": {
@@ -157,18 +147,13 @@ export const craftingMaterials = {
             ingredients: ["Harvested from Budding Amethyst in Amethyst Geodes", "Found in Ancient City and Trial Chamber chests"]
         },
         specialNotes: [
-            "Harvested by mining Amethyst Clusters growing on Budding Amethyst blocks",
-            "Budding Amethyst cannot be moved or collected - it only generates naturally",
-            "Amethyst Clusters drop 4 Amethyst Shards when mined with a pickaxe",
-            "Using Fortune enchantment can increase the yield up to 16 shards per cluster",
-            "Mined with anything other than a pickaxe drops 2 shards",
-            "Can be found in chest loot: Ancient Cities (1-15 shards) and Trial Chambers (8-20 shards)",
-            "Nine Amethyst Shards craft into one Block of Amethyst",
-            "Required for crafting Spyglass (1 shard), Tinted Glass (2 shards), and Calibrated Sculk Sensor (4 shards)",
-            "Amethyst Clusters take time to grow on Budding Amethyst - not renewable quickly",
-            "Added in Caves & Cliffs update (1.17) alongside amethyst geodes"
+            "Mined from Amethyst Clusters on Budding Amethyst (4 shards; up to 16 with Fortune)",
+            "Found in Ancient City (1-15) and Trial Chamber (8-20) chests",
+            "Crafts Block of Amethyst (9 shards), Spyglass, Tinted Glass, Calibrated Sculk Sensor",
+            "Budding Amethyst is immovable and the only natural source",
+            "Renewable but slow-growing resource"
         ],
-        description: "Amethyst Shards are crystalline crafting materials obtained exclusively from Amethyst Geodes, rare underground structures that generate in caves and occasionally on the surface. These beautiful purple shards are harvested by mining Amethyst Clusters that grow on Budding Amethyst blocks within geodes, which serve as the heart of amethyst growth. When mined with a pickaxe, an Amethyst Cluster drops 4 shards, and Fortune enchantment can increase this yield up to 16 shards, making enchanted tools highly valuable for amethyst farming. The Budding Amethyst block itself cannot be moved or collected, only generating naturally, which means players must find geodes to access this resource. Beyond mining, Amethyst Shards can be found as loot in Ancient Cities (1-15 shards) and Trial Chambers (8-20 shards), providing alternative acquisition methods. These versatile shards serve as essential crafting ingredients for multiple items: Spyglass (for zoomed exploration), Tinted Glass (for decorative light-blocking windows), Calibrated Sculk Sensor (for advanced redstone), and Block of Amethyst (for decorative building). The renewable nature of Amethyst Clusters, which slowly regrow on Budding Amethyst, makes Amethyst Shards a sustainable resource once a geode is discovered. Their distinctive purple color and crystalline appearance also make them popular for decorative builds and pixel art, adding both functionality and aesthetic appeal to Minecraft Bedrock Edition."
+        description: "Amethyst Shards are crystalline materials harvested from Amethyst Clusters found in underground Geodes. When mined with a pickaxe, a cluster drops 4 shards, increasing up to 16 with Fortune. They are renewable, as clusters regrow on immovable Budding Amethyst blocks. Shards can also be found in loot chests within Ancient Cities and Trial Chambers. Essential for crafting, they are used to create Spyglasses, Tinted Glass, Calibrated Sculk Sensors, and decorative Amethyst Blocks. Their vibrant purple color offers both functional utility and aesthetic appeal."
     },
     "minecraft:disc_fragment_5": {
         id: "minecraft:disc_fragment_5",

@@ -30,7 +30,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "Crafted only"
         },
-        description: "Mud Bricks are a decorative building block introduced in Minecraft 1.19 Wild Update, offering builders an earthy, brown alternative to traditional brick materials. Crafted by arranging four packed mud blocks in a 2x2 square, mud bricks feature a warm, reddish-brown color with a distinctive brick texture pattern that complements desert and village-style builds. Unlike other building blocks, mud bricks require a pickaxe to be mined efficiently and do not burn, making them suitable for fire-resistant structures. The packed mud required for crafting mud bricks is itself created by combining mud blocks and wheat, representing a unique crafting recipe that utilizes agricultural resources. Mud bricks can be further processed into slabs, stairs, and walls through crafting, providing builders with versatile options for creating rustic, warm-toned architectural designs."
+        description: "Mud Bricks are decorative building blocks introduced in Minecraft 1.19. They are crafted by placing four Packed Mud in a 2x2 square. Packed Mud itself is made from Mud and Wheat. Mud Bricks feature a warm, reddish-brown color with a classic brick texture, perfect for rustic or desert builds. They are fire-resistant and require a pickaxe to mine efficiently. Players can further craft them into stairs, slabs, and walls, providing architectural versatility for warm-toned designs."
     },
     "minecraft:tuff_bricks": {
         id: "minecraft:tuff_bricks",
@@ -51,7 +51,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "Tuff Bricks are a decorative building block introduced in Minecraft 1.21, expanding the tuff block family alongside polished tuff and chiseled tuff variants. Crafted by arranging four polished tuff blocks in a 2x2 crafting grid, tuff bricks feature a dark gray, stone-like appearance with a distinctive brick texture pattern. These bricks can be further crafted into slabs, stairs, walls, and chiseled tuff bricks for additional building versatility. Found naturally within Trial Chambers, tuff bricks offer builders a sophisticated alternative to traditional stone bricks with their muted color palette that complements modern and medieval architectural styles alike."
+        description: "Tuff Bricks are decorative blocks introduced in Minecraft 1.21. Crafted by placing four polished tuff in a 2x2 grid, they feature a dark gray, stone-like texture. These bricks can be used to create slabs, stairs, walls, and chiseled variants. While craftable, they also generate naturally within Trial Chambers. Tuff bricks offer a sophisticated alternative to stone bricks, with a muted color palette that suits both modern and medieval builds."
     },
     "minecraft:chiseled_tuff_bricks": {
         id: "minecraft:chiseled_tuff_bricks",
@@ -93,7 +93,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "Polished Tuff is a smooth, refined building block introduced in Minecraft 1.21 as part of the expanded tuff block family found in Trial Chambers. Crafted by arranging four tuff blocks in a 2x2 square on a crafting grid, or by using a stonecutter on tuff blocks, polished tuff features a sleek, dark gray surface with subtle striations that catch light beautifully. This block serves as both a building material and a crafting ingredient for tuff bricks when arranged in a 2x2 grid. Its sophisticated appearance makes it ideal for modern architectural designs, while its natural generation in Trial Chambers provides players with a readily available source for large-scale construction projects."
+        description: "Polished Tuff is a smooth, dark gray building block introduced in Minecraft 1.21. Found naturally in Trial Chambers, it is crafted from regular tuff via a stonecutter or by placing four tuff blocks in a 2x2 grid. It features subtle striations and a refined finish, making it excellent for modern architecture. Additionally, it serves as the base ingredient for crafting tuff bricks when arranged in a 2x2 grid. It offers a sophisticated alternative to the raw variant while remaining easy to mass-produce for large-scale construction projects."
     },
     "minecraft:tuff_wall": {
         id: "minecraft:tuff_wall",
@@ -114,7 +114,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "Trial Chambers"
         },
-        description: "Tuff Wall is a decorative wall block introduced in Minecraft 1.21, part of the comprehensive tuff block family added with the Trial Chambers update. Crafted from six tuff blocks arranged in a 2x3 horizontal grid, or created in a stonecutter from tuff blocks, tuff walls serve as both functional barriers and aesthetic architectural elements. Like all tuff variants, tuff walls feature the characteristic dark gray coloration with subtle textural variations. They connect seamlessly with other walls and can be placed without requiring a solid block beneath, making them perfect for creating railings, garden borders, and defensive perimeter structures. Tuff walls generate naturally within Trial Chambers corridors and chambers."
+        description: "Tuff Walls are decorative barrier blocks introduced in Minecraft 1.21. Part of the tuff family found in Trial Chambers, they feature a distinct dark gray texture. They are crafted using six tuff blocks in a 2x3 grid or via a stonecutter. Functionally, they connect to adjacent walls and blocks to form continuous railings or perimeters and do not require a solid block beneath for support. These walls generate naturally within Trial Chambers and are ideal for creating rugged defensive structures, garden borders, and architectural accents with a dark, stony aesthetic."
     },
     "minecraft:resin_bricks": {
         id: "minecraft:resin_bricks",
@@ -156,6 +156,6 @@ export const brickBlocks = {
             dimension: "None",
             yRange: "Crafted only"
         },
-        description: "Chiseled Resin Bricks are a decorative variant of resin bricks added in Minecraft Bedrock Edition 1.21.50. These blocks feature a unique, intricate pattern carved into the vibrant orange resin material, making them ideal for adding detail to pillars, borders, and accent walls. They can be crafted by placing two resin brick slabs vertically in a crafting grid or by using a stonecutter on a resin brick block. Like other resin brick variants, they require a pickaxe to be collected. Chiseled resin bricks complement the pale garden blocks perfectly, allowing for complex architectural designs that highlight the rich, warm tones of the resin material."
+        description: "Chiseled Resin Bricks are decorative blocks added in Minecraft 1.21.50. Featuring an intricate carved pattern, they are ideal for pillars, borders, and accents. They are crafted by vertically stacking two resin brick slabs in a grid or by using a stonecutter on a resin brick block. A pickaxe is required for collection. Their vibrant orange color and warm tones complement pale garden blocks, allowing for complex architectural designs."
     }
 };

@@ -54,6 +54,6 @@ export const bannerPatterns = {
             "Cannot be crafted; must be found within Trial Chamber Vaults",
             "Used in a Loom with a banner and any color dye"
         ],
-        description: "The Guster Banner Pattern is a specialized decorative item introduced in the 1.21 Tricky Trials update, obtainable exclusively from Vaults within Trial Chambers. This pattern allows players to customize banners with a 'Guster' design, which features a dynamic swirling vortex reminiscent of the Breeze mob's wind-based attacks. Because it cannot be crafted like many traditional banner patterns, it serves as a notable collectible for players exploring the subterranean structures. When used in a Loom along with a banner and dye, it creates a striking visual that is perfect for marking territory or decorating bases with a wind-themed aesthetic."
+        description: "The Guster Banner Pattern is a decorative item added in the 1.21 Tricky Trials update, found exclusively in Trial Chamber Vaults. It allows players to apply a 'Guster' design to banners, featuring a swirling vortex inspired by the Breeze mob. Since it cannot be crafted, it is a sought-after collectible for explorers. Using it in a Loom with a banner and dye creates a unique wind-themed visual, ideal for marking territory or themed base decoration."
     }
 };

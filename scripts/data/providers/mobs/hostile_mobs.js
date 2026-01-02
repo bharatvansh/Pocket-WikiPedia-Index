@@ -97,7 +97,7 @@ export const hostileMobs = {
             { item: "Rotten Flesh", chance: "1-3" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Zoglins are the zombified, hostile counterparts of Hoglins, created when these normally Nether-exclusive beasts find themselves in the wrong dimension. When a Hoglin is brought into the Overworld or End, it undergoes a dramatic transformation after approximately 15 seconds, turning into a Zoglin that is permanently hostile to players and villagers alike. Unlike their temperamental but manageable Hoglin cousins, Zoglins cannot be pacified with crimson fungus or bred, making them pure hostile mobs. They retain their impressive stature and attack power, lunging at targets with devastating headbutt attacks and maintaining the Hoglin's broad attack range. Zoglins are immune to fire and lava, making them dangerous opponents in any environment. Encountering Zoglins typically means a player has either deliberately transported Hoglins from the Nether for farming purposes or accidentally brought them through a portal, creating a persistent threat that must be dealt with carefully due to their considerable health pool and aggressive nature."
+        description: "Zoglins are zombified Hoglins created when a Hoglin remains in the Overworld or End for 15 seconds. Unlike their living counterparts, Zoglins are permanently hostile to nearly all mobs and cannot be pacified or bred. They retain the Hoglin's high health and powerful headbutt attack, which knocks targets into the air. Immune to fire and lava, Zoglins are relentless predators that do not flee from any threat. They are one of the few mobs that will attack almost anything on sight, making them extremely dangerous in any environment."
     },
     "minecraft:skeleton": {
         id: "minecraft:skeleton",
@@ -150,21 +150,19 @@ export const hostileMobs = {
             groupSize: "1"
         },
         behaviorTraits: [
-            "Completely blind, relies on vibrations and smell to detect players",
-            "Detects movement and sounds within a large radius (up to 16 blocks)",
-            "Performs powerful melee attacks that bypass shields and deal massive damage",
-            "Unleashes sonic boom ranged attack that ignores armor and shields",
-            "Emerges from the ground when summoned by sculk shriekers after 4 activations",
-            "Cannot be outrun easily due to high movement speed and pathfinding",
-            "Despawns if no vibrations detected for 60 seconds",
-            "Immune to most status effects including poison, wither, and fire",
-            "Can detect players through walls and obstacles using vibration sensing"
+            "Completely blind; relies on vibrations and smell to detect players even through walls.",
+            "Detects movement and sounds within a large radius (up to 16 blocks).",
+            "Performs powerful melee attacks that bypass shields and deal massive damage.",
+            "Unleashes a sonic boom ranged attack that ignores both armor and shields.",
+            "Emerges from the ground when summoned by sculk shriekers after 4 activations.",
+            "Possesses high movement speed and advanced pathfinding making it hard to outrun.",
+            "Despawns by burrowing underground if no vibrations are detected for 60 seconds."
         ],
         drops: [
             { item: "Sculk Catalyst", chance: "1" },
             { item: "Experience", chance: "5" }
         ],
-        description: "The Warden is the most powerful and terrifying hostile mob in Minecraft, found exclusively in the Deep Dark biome. With an astonishing 500 health points (250 hearts), it has more health than any other naturally spawning mob in the game. The Warden is completely blind but possesses an advanced sensory system that detects players through vibrations and smell, making stealth essential when navigating ancient cities. It deals devastating melee damage that bypasses shields entirely and can unleash a sonic boom ranged attack that ignores armor and shields, dealing significant damage regardless of protection. The Warden emerges from the ground when summoned by sculk shriekers after four activations, creating a terrifying encounter. Its high movement speed and intelligent pathfinding make it nearly impossible to outrun. The Warden is designed to be avoided rather than fought, encouraging careful, stealthy gameplay in the Deep Dark biome. When defeated, it drops a Sculk Catalyst, which is essential for advanced sculk-based redstone contraptions, and 5 experience orbs."
+        description: "The Warden is the most powerful hostile mob in Minecraft, found in the Deep Dark. With 500 health (250 hearts), it tracks players using vibrations and smell. It deals massive melee damage that disables shields and a sonic boom ranged attack that ignores armor. Summoned by sculk shriekers after four triggers, it is meant to be avoided through stealth rather than fought. If defeated, it drops a Sculk Catalyst and 5 experience. Its immense strength and intelligent pathfinding make it a terrifying guardian of Ancient Cities."
     },
     "minecraft:breeze": {
         id: "minecraft:breeze",
@@ -213,19 +211,13 @@ export const hostileMobs = {
             groupSize: "Multiple"
         },
         behaviorTraits: [
-            "Aquatic hostile mob that spawns in and around ocean monuments",
-            "Attacks with a slow-charging laser beam that deals damage based on difficulty (4 on Easy, 6 on Normal, 9 on Hard)",
-            "Has defensive spikes that inflict retaliatory damage when the guardian is hit by melee attacks (2 on Easy/Normal, 3 on Hard)",
-            "Swims in abrupt charges, moving tail rapidly when active",
-            "Spikes retract while swimming and extend when idle or on land",
-            "Eye follows and stares at any nearby players, always looking directly at its target",
-            "Cannot attack players under Invisibility potion effects (Java Edition) unless wearing armor",
-            "Affected by the Impaling enchantment (Java Edition)",
-            "Does not suffocate and can survive indefinitely out of water",
-            "When out of water, hops erratically and makes loud squeaking sounds",
-            "Attacks players, squid, glow squid, and axolotls within laser range",
-            "Congregates around sea lantern blocks in ocean monuments",
-            "Stationary guardians are pushed much faster by flowing water than other mobs"
+            "Aquatic hostile mob that spawns exclusively in and around ocean monuments.",
+            "Attacks with a slow-charging laser beam that deals up to 9 damage on Hard difficulty.",
+            "Features defensive spikes that deal retaliatory damage to attackers using melee weapons.",
+            "Hostile toward players, squid, glow squid, and axolotls within its line of sight.",
+            "Vulnerable to the Impaling enchantment and cannot track players with the Invisibility effect.",
+            "Survives indefinitely out of water, where it hops erratically instead of swimming.",
+            "Congregates around sea lantern blocks and is pushed faster by flowing water than other mobs."
         ],
         drops: [
             { item: "Prismarine Shard", chance: "0-2" },
@@ -237,7 +229,7 @@ export const hostileMobs = {
             { item: "Cooked Cod", chance: "If killed while on fire" },
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
-        description: "Guardians are aquatic hostile mobs that spawn exclusively in and around ocean monuments, serving as the primary defenders of these underwater structures. They are formidable opponents with two distinct attack modes: a slow-charging laser beam that deals significant damage (ranging from 4 to 9 points depending on difficulty) and defensive spikes that automatically retaliate against melee attackers. Guardians swim in abrupt, jerky charges when active, with their spikes retracted, and extend their spikes while idle or on land. Their distinctive eye tracks any nearby players constantly, making their targeting behavior apparent. Unlike most aquatic mobs, guardians do not suffocate out of water, though they become vulnerable and erratic on land, hopping helplessly while still able to use their laser attack. Guardians are valuable farming targets as they drop prismarine shards, prismarine crystals, and various types of fish. Their drops include rare fish variants like pufferfish and tropical fish when killed by players. The prismarine materials they drop are essential for crafting prismarine blocks, sea lanterns, and conduits. Guardians' laser attacks are unique in that they are affected by the Strength potion, despite being a ranged attack. When exploring ocean monuments, guardians present a significant challenge due to their numbers, damaging lasers, and defensive spikes, requiring careful preparation including appropriate armor, weapons, and possibly water breathing potions."
+        description: "Guardians are hostile aquatic mobs defending ocean monuments. They utilize a charging laser beam (4-9 damage) and retractable spikes that damage melee attackers. Their eye tracks players constantly. Though aquatic, they don't suffocate on land, where they hop while still firing lasers. They are the sole source of prismarine shards and crystals, vital for crafting sea lanterns and conduits. They also drop various fish. Their laser is uniquely affected by Strength potions. Engaging them requires preparation against their ranged beams and defensive thorns."
     },
     "minecraft:pillager": {
         id: "minecraft:pillager",
@@ -257,15 +249,13 @@ export const hostileMobs = {
             groupSize: "2-5 (patrols), 3-6 (outposts), varies (raids)"
         },
         behaviorTraits: [
-            "Hostile mob that spawns in patrols, outposts, and during raids",
-            "Attacks with crossbows from a distance",
-            "Can shoot arrows (Crossbow only, no fireworks in Bedrock)",
-            "Captains have banners on their heads and lead patrols (no unique clothing)",
-            "Remains aggressive until defeated, does not flee when low on health",
-            "Can open doors and climb ladders",
-            "During raids, attacks villagers and iron golems relentlessly",
-            "Can be distracted by villagers running indoors",
-            "Drops crossbows, full iron armor, iron tools, enchanted books, and emeralds during raids"
+            "Hostile mob that spawns in patrols, outposts, and during village raids.",
+            "Attacks from a distance using crossbows to fire arrows.",
+            "Captains carry banners on their heads and lead patrols or raid waves.",
+            "Remains aggressive until defeated and does not flee when low on health.",
+            "Can navigate complex structures by opening doors and climbing ladders.",
+            "Relentlessly attacks villagers and iron golems, especially during raids.",
+            "Drops valuable items like emeralds, enchanted books, and iron equipment during raids."
         ],
         drops: [
             { item: "Crossbow", chance: "8.5% (up to 11.5% with Looting III)" },
@@ -284,7 +274,7 @@ export const hostileMobs = {
             { item: "Banner (if captain)", chance: "100%" },
             { item: "Ominous Bottle", chance: "1 (dropped by captains outside of raids)" }
         ],
-        description: "Pillagers are hostile mobs that serve as the primary raiders in village attacks, appearing in patrols, outposts, and during raid events. Armed with crossbows, they attack from a distance, making them dangerous opponents who can deal damage while staying out of melee range. Pillagers come in different roles, with standard pillagers wearing identical brown clothing and captains distinguished solely by banners on their heads. In version 1.21+, captains drop Ominous Bottles when defeated outside of a raid, which players can consume to gain the Bad Omen effect. During raids, pillagers work together aggressively to overwhelm village defenses, targeting both villagers and iron golems without retreating. They exhibit intelligent behavior such as opening doors to pursue targets and climbing ladders to gain advantageous positions. Pillagers drop valuable items including crossbows, arrows, and experience, with raid-specific drops including iron gear, enchanted books, and emeralds. Their presence in the Overworld adds a dynamic threat system, as players must defend villages from coordinated pillager attacks or face the consequences of lost villagers and damaged structures."
+        description: "Pillagers are hostile ranged mobs armed with crossbows, found in patrols, outposts, and raids. They target villagers and iron golems, using intelligent tactics like opening doors or climbing ladders. Captains, identifiable by banners, drop Ominous Bottles (v1.21+) when killed outside raids, granting the Bad Omen effect. During raids, they drop emeralds, crossbows, and enchanted books. As primary raiders, they pose a dynamic threat to villages, requiring players to defend or risk losing inhabitants. Their distance attacks make them dangerous foes in open combat."
     },
     "minecraft:bogged": {
         id: "minecraft:bogged",
@@ -300,14 +290,13 @@ export const hostileMobs = {
             groupSize: "4 (natural), varies (Trial Spawners)"
         },
         behaviorTraits: [
-            "Undead skeleton variant that spawns in swamps and mangrove swamps, mixed in with other skeleton spawns",
-            "Can also spawn in trial chambers via trial spawners",
-            "Attacks mainly at range with a bow, and may fire poison-tipped arrows",
-            "Its poison arrows apply Poison for 4 seconds",
-            "In Bedrock Edition, it can spawn during the day under dense mangrove canopy (light levels 0 through 7)",
-            "Burns in daylight like other skeletons unless protected",
-            "Unable to swim and tends to sink in water",
-            "Melee damage is low compared to its ranged pressure"
+            "Spawns in swamps, mangrove swamps, and trial chambers via trial spawners.",
+            "Attacks at range with a bow and fires poison-tipped arrows.",
+            "Its poison arrows apply a status effect that lasts for 4 seconds.",
+            "In Bedrock Edition, it can spawn during the day under dense mangrove canopy.",
+            "Burns in direct sunlight like other undead skeletons unless protected.",
+            "Unable to swim and tends to sink when in water.",
+            "Melee damage is significantly lower than its ranged combat pressure."
         ],
         drops: [
             { item: "Bone", chance: "0-2" },
@@ -337,14 +326,13 @@ export const hostileMobs = {
             groupSize: "1-4"
         },
         behaviorTraits: [
-            "Wanders aimlessly when idle but sprints to attack players",
-            "Inflicts the Wither effect for 10 seconds on hit, dealing 1 HP every 2 seconds",
-            "Wither effect can cause death unlike Poison",
-            "Immune to fire, lava, and the Wither effect",
-            "Flees from wolves but retaliates when attacked",
-            "Attacks players, snow golems, iron golems, baby turtles, piglins, and piglin brutes",
-            "Taller than regular skeletons at 2.4 blocks high",
-            "Can spawn with enchanted stone swords on higher difficulties"
+            "Sprints to attack players instead of walking aimlessly when aggroed",
+            "Inflicts a fatal Wither effect for 10 seconds on hit, dealing 1 HP every 2 seconds",
+            "Immune to fire, lava, and the Wither status effect",
+            "Flees from wolves but will retaliate if attacked",
+            "Hostile toward players, golems, baby turtles, and piglins",
+            "Stands 2.4 blocks tall, allowing players to block its path with 2-high gaps",
+            "Can spawn with enchanted stone swords on higher difficulty levels"
         ],
         drops: [
             { item: "Coal", chance: "0-1 (50% base chance)" },
@@ -352,7 +340,7 @@ export const hostileMobs = {
             { item: "Wither Skeleton Skull", chance: "2.5% (up to 8.5% with Looting III)" },
             { item: "Stone Sword", chance: "8.5% (up to 11.5% with Looting III)" }
         ],
-        description: "Wither Skeletons are dangerous undead hostile mobs found exclusively in Nether Fortresses. They are taller and darker variants of regular skeletons, standing 2.4 blocks high and wielding stone swords instead of bows. Their most distinctive and dangerous feature is their ability to inflict the Wither status effect on any target they hit, which turns the health bar black and deals 1 HP of damage every 2 seconds for 10 seconds. Unlike the Poison effect, Wither can kill players and mobs, making Wither Skeletons particularly lethal even with their relatively modest base damage of 8 HP on Normal difficulty. They are immune to fire and lava, allowing them to navigate the Nether's hazardous terrain safely, and unlike regular skeletons, they do not burn in sunlight when brought to the Overworld. Wither Skeletons sprint toward their targets when aggravated and attack players, iron golems, snow golems, baby turtles, piglins, and piglin brutes. They flee from wolves but will fight back if cornered. These mobs are crucial for progression to late-game content, as they have a rare 2.5% chance to drop Wither Skeleton Skulls, which can be increased to 8.5% with Looting III enchantment. Three of these skulls are required to summon the Wither boss, one of Minecraft's most challenging fights. Their other drops include coal and bones, making them useful for resource farming."
+        description: "Wither Skeletons are 2.4-block tall, dark undead exclusive to Nether Fortresses. Wielding stone swords, they sprint at players and inflict the Wither effect, which drains health and can kill. Unlike normal skeletons, they are immune to fire and do not burn in sunlight. They are primarily hunted for Wither Skeleton Skulls (2.5% drop rate, 8.5% with Looting III); three are required to summon the Wither boss. Dropping coal and bones, these mobs are essential for mid-to-late game progression, resource farming, and obtaining Nether Stars for beacons."
     },
     "minecraft:stray": {
         id: "minecraft:stray",
@@ -406,21 +394,17 @@ export const hostileMobs = {
             groupSize: "1 (per Creaking Heart)"
         },
         behaviorTraits: [
-            "Spawns from active Creaking Hearts at night in Pale Garden biomes",
-            "Completely freezes and cannot move when any player is looking at it within 12 blocks",
-            "Unfreezes and pursues players when not being observed",
-            "Attacks with melee headbutts dealing 2-3 HP (1-1.5 hearts) damage depending on difficulty",
-            "Naturally spawned creakings are completely immune to damage while connected to their heart",
-            "Breaking the Creaking Heart instantly kills its linked creaking",
-            "When hit while protected, orange particle trails appear between creaking and heart",
-            "Hitting a protected creaking causes resin-related particle effects to shoot outward",
-            "Creakings spawned via spawn eggs or /summon are not connected to a heart and take normal damage",
-            "Become dormant during daytime, turning into an inanimate block-like state",
-            "Named creakings do not despawn during daytime (Java Edition 1.21.5+)"
+            "Spawns at night in Pale Garden biomes from active Creaking Hearts.",
+            "Freezes completely while a player is looking at it, but pursues players when unobserved.",
+            "Naturally spawned creakings are immune to direct damage while connected to their heart.",
+            "Breaking the linked Creaking Heart is the only way to kill the mob instantly.",
+            "Hitting a protected creaking reveals particle trails that point toward its heart's location.",
+            "Attacks players with melee headbutts dealing up to 1.5 hearts of damage.",
+            "Becomes a dormant, inanimate block state during the day unless named."
         ],
         drops: [
         ],
-        description: "Creakings are eerie hostile mobs introduced as part of The Garden Awakens game drop (following Minecraft 1.21) that emerge from Creaking Hearts at night in the mysterious Pale Garden biome. These unsettling creatures possess a unique and unsettling behavior: they completely freeze and become immobile whenever any player looks directly at them within a 12-block radius. When unobserved, they pursue players with aggressive headbutt attacks dealing 2-3 HP (1-1.5 hearts) of damage depending on difficulty level. The most distinctive feature of naturally spawned creakings is their complete invulnerability—they are protected by their source Creaking Heart and cannot take any form of damage as long as the heart remains intact. Breaking the heart instantly kills the creaking. When players attack a protected creaking, orange particle trails connect the creaking to its heart, accompanied by resin-related particle effects shooting outward, creating a haunting visual display. Creakings spawned via spawn eggs or commands exist independently without heart protection and can be damaged normally. During daylight hours, creakings become dormant, freezing in place and appearing as static blocks until nightfall. Their mysterious nature and unique observation-based behavior make them one of Minecraft's most psychologically unsettling hostile mobs, turning the simple act of looking into a survival mechanic."
+        description: "Creakings are eerie hostile mobs found in the Pale Garden at night, spawning from Creaking Hearts. They freeze when looked at but attack when unobserved. Naturally spawned Creakings are invulnerable; they only die when their source Creaking Heart is destroyed. Attacking them reveals orange particle trails pointing toward the heart. At dawn, they become dormant and static. Creakings spawned via eggs or commands lack heart protection and can be damaged normally."
     },
     "minecraft:ravager": {
         id: "minecraft:ravager",
@@ -441,22 +425,19 @@ export const hostileMobs = {
             groupSize: "1-2 (per raid wave)"
         },
         behaviorTraits: [
-            "Large, powerful hostile mob that spawns during raids",
-            "Attacks by ramming into players and mobs with its head",
-            "Can destroy crops and some blocks when moving",
-            "Has 50% knockback resistance (not fully immune)",
-            "Takes normal damage from arrows (not immune)",
-            "Roars when attacking or when hit",
-            "Can be ridden by pillagers during raids",
-            "Drops saddle when killed",
-            "Stunned by blocking with Shield",
-            "Has a large hitbox making it difficult to avoid"
+            "Large hostile mob that spawns specifically during village raids",
+            "Deals high damage by ramming players and other mobs with its head",
+            "Destroys crops and certain soft blocks like leaves when moving through them",
+            "Possesses 50% knockback resistance, making it difficult to keep at a distance",
+            "Can serve as a mount for pillagers, vindicators, or evokers during raids",
+            "Blocking its ramming attack with a shield stuns the creature and triggers a roar",
+            "Always drops a saddle when killed by a player"
         ],
         drops: [
             { item: "Saddle", chance: "100%" },
             { item: "Experience", chance: "20 (when killed by player/tamed wolf)" }
         ],
-        description: "Ravagers are massive, destructive hostile mobs that appear during village raids, serving as powerful mounted units for pillagers. With an imposing size and 100 health points (50 hearts), ravagers are among the most durable naturally spawning hostile mobs in the Overworld. They attack by charging at targets and ramming them with their large heads, dealing significant damage and often knocking players back. Ravagers have the unique ability to destroy crops and some blocks as they move, leaving a trail of destruction in their path. They have 50% knockback resistance, making them difficult to push back, and take normal damage from all weapon types including arrows. During raids, pillagers can be seen riding ravagers, using them as mobile platforms to attack from a higher position. When defeated, ravagers always drop a saddle, making them a reliable source of this useful item. Their distinctive roaring sounds and massive presence make ravagers one of the most intimidating threats during village raids, requiring coordinated efforts from players and iron golems to defeat."
+        description: "Ravagers are massive hostile mobs found in village raids, often serving as mounts for pillagers. With 100 health and 50% knockback resistance, they are formidable tanks. They attack by charging and ramming targets, dealing high damage and knockback. Uniquely, they can destroy crops and certain blocks as they move. When defeated, a ravager always drops a saddle. Their sheer size and destructive nature make them one of the greatest threats to villages, usually requiring iron golems or well-equipped players to stop."
     },
     "minecraft:shulker": {
         id: "minecraft:shulker",
@@ -476,26 +457,20 @@ export const hostileMobs = {
             groupSize: "1-4"
         },
         behaviorTraits: [
-            "Permanently attached to blocks, typically found on End City structures",
-            "Opens its shell periodically to reveal a small head with two eyes",
-            "Shoots guided shulker bullets that follow targets along X, Y, or Z axes",
-            "Shulker bullets deal 4 damage and inflict Levitation for 10 seconds",
-            "Teleports to nearby blocks when hit or when its attachment becomes invalid",
-            "Has 20 armor points when shell is closed, deflecting arrows",
-            "Armor is removed when shell opens for attack",
-            "Below half health, has 25% chance to teleport after taking damage",
-            "Other nearby shulkers target the attacker when one is provoked",
-            "Vulnerable to fire and lava damage, and drowns in water",
-            "In Peaceful difficulty, does not attack but still exists in the world",
-            "Can be dyed various colors in Bedrock Edition",
-            "Drops 0-1 shulker shells (increased by Looting enchantment)"
+            "Found permanently attached to blocks within End City structures",
+            "Shoots guided shulker bullets that track targets along X, Y, or Z axes",
+            "Bullets deal damage and inflict the Levitation status effect for 10 seconds",
+            "Has 20 armor points and deflects arrows when its shell is closed",
+            "Armor is removed and vulnerability increases when the shell opens to attack",
+            "Teleports to nearby blocks when damaged or when its attachment point is broken",
+            "Drops shulker shells upon death which are used to craft shulker boxes"
         ],
         drops: [
             { item: "Shulker Shell", chance: "0-1 (Bedrock), 50% (Java)" },
             { item: "Shulker Shell", chance: "+1 per Looting level (max 4)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Shulkers are enigmatic hostile mobs that dwell within the mysterious End Cities, permanently affixed to various surfaces with their purpur-like shells. Resembling a cross between a sea creature and a mechanical trap, the shulker remains motionless for most of the time, blending seamlessly with its surroundings. When disturbed or when a target wanders within approximately 16 blocks, the shulker reveals its true nature by opening its shell to expose a small yellow head with two dark eyes. From this exposed position, it launches powerful projectiles called shulker bullets—guided missiles that track their targets along cardinal axes, leaving trails of white particles in their wake. These projectiles deliver both physical damage and the disorienting Levitation status effect, which causes affected entities to float helplessly upward for 10 seconds. Shulkers possess remarkable defensive capabilities; when their shell is closed, they have 20 armor points that deflect incoming arrows and reduce damage taken. However, this protection comes at a cost—the armor is lost when the shell opens to attack, creating a tactical window for experienced players. When threatened, shulkers demonstrate their incredible survival instincts by teleporting to nearby valid attachment points, making them difficult to pin down. They can evaluate up to 17×17×17 areas in search of suitable surfaces and will attempt to teleport up to 5 times per tick if necessary. Their shell coloration can be altered using dyes in Bedrock Edition, allowing for creative customization. Shulkers are essential to End City exploration, as they guard the valuable End City structures and drop shulker shells—an essential crafting component for creating shulker boxes and perpetuating the cycle of End-based automation and storage systems."
+        description: "Shulkers are hostile mobs found in End Cities, disguised as purpur blocks. They open their shells to fire guided bullets that track targets and inflict Levitation for 10 seconds. While closed, they possess 20 armor points and deflect arrows, but become vulnerable when attacking. If damaged or obstructed, they teleport to nearby surfaces. Shulkers are essential for late-game play as they drop shulker shells, the core ingredient for crafting shulker boxes, allowing for portable, high-capacity storage."
     },
     "minecraft:hoglin": {
         id: "minecraft:hoglin",
@@ -516,20 +491,13 @@ export const hostileMobs = {
             groupSize: "3-4"
         },
         behaviorTraits: [
-            "Large, aggressive pig-like mobs found exclusively in the Nether",
-            "Attacks players within 16 blocks with powerful upward thrusts",
-            "Knocks targets upward with each hit, even bypassing shields",
-            "Highly resistant to knockback (60%)",
-            "Repelled by warped fungi, nether portals, and respawn anchors within 7 blocks",
-            "Can be bred using crimson fungi as food",
-            "Baby hoglins are smaller, deal less damage, and flee when hit",
-            "All nearby hoglins become aggressive when any hoglin is attacked",
-            "Sink in water and eventually drown",
-            "Vulnerable to fire and lava damage",
-            "Can be led using leads despite being hostile",
-            "If brought to the Overworld or End, transforms into a zoglin after 15 seconds",
-            "Piglins that attack hoglins cause nearby hoglins to retaliate",
-            "In Peaceful difficulty, hoglins spawn but remain passive to players"
+            "Large, aggressive Nether mobs that attack players within a 16-block range.",
+            "Attacks deal high damage and powerful upward knockback that bypasses shields.",
+            "Highly resistant to knockback (60%) compared to most other mobs.",
+            "Repelled and kept at bay by warped fungi, nether portals, and respawn anchors.",
+            "Attacks are social; hitting one hoglin alerts all nearby hoglins to become aggressive.",
+            "Breedable with crimson fungi, making them a renewable source of leather and porkchops.",
+            "Rapidly transforms into a mindless, universally hostile zoglin when outside the Nether."
         ],
         drops: [
             { item: "Raw Porkchop", chance: "2-4 (+1 per Looting level, max 7)" },
@@ -537,7 +505,7 @@ export const hostileMobs = {
             { item: "Cooked Porkchop", chance: "If killed while on fire" },
             { item: "Experience", chance: "5 (JE) / 1-3 (BE) when killed by player/tamed wolf" }
         ],
-        description: "Hoglins are formidable, pig-like hostile mobs that inhabit the dangerous crimson forests and bastion remnants of the Nether, representing one of the most challenging natural encounters in that dimension. Towering over the player with a massive, rust-colored bristled body, hoglins are immediately recognizable as dangerous adversaries. Their appearance blends the anatomy of a wild boar with demonic features—prominent downward-curving tusks, small angry eyes, and a hunched posture that suggests constant aggression. These mobs attack with surprising force, thrusting their tusks upward in a motion that can launch unprepared players several blocks into the air, dealing significant damage in the process. This upward knockback is particularly dangerous because it can throw players into lava, off ledges, or into the path of other Nether hazards. Hoglins possess remarkable physical resilience, being 60% resistant to knockback effects and capable of pushing through most obstacles to reach their targets. Despite their aggressive nature, hoglins have some fascinating behaviors and ecological relationships. They are naturally repelled by the blue-hued warped fungi, nether portals, and respawn anchors, fleeing from these objects when within 7 blocks—useful knowledge for setting up safe pathways through Crimson Forests. Hoglins are one of only two hostile mobs in Minecraft that can be bred (the other being the killer bunny), accepting crimson fungi as breeding food and producing piglin-like offspring that grow into adult hoglins after 20 minutes. They share a complex social structure with piglins; while piglins occasionally hunt hoglins for food, hoglins will retaliate en masse if a piglin attacks one of their own, creating dynamic territorial conflicts that players can exploit. Perhaps most remarkably, hoglins cannot survive in the Overworld or the End—after just 15 seconds in these dimensions, they undergo a dramatic transformation, shaking violently before morphing into a zoglin, a permanent undead variant with the same aggressive tendencies but none of the breeding capabilities. When killed, hoglins provide valuable resources: raw porkchops for sustenance and leather for crafting, making them worth the significant danger they represent to any Nether explorer."
+        description: "Hoglins are powerful, pig-like hostile mobs found in Nether crimson forests and bastions. They attack by launching players into the air with their tusks and possess 60% knockback resistance. Despite their aggression, they flee from warped fungi, nether portals, and respawn anchors. Uniquely, they can be bred using crimson fungi. If brought to the Overworld or End, they transform into undead Zoglins after 15 seconds. While piglins hunt them for food, hoglins will retaliate if attacked. They drop porkchops and leather upon death, making them a vital but dangerous resource."
     },
     "minecraft:blaze": {
         id: "minecraft:blaze",
@@ -557,21 +525,19 @@ export const hostileMobs = {
             groupSize: "1-4 (natural), spawner"
         },
         behaviorTraits: [
-            "Flying hostile mob found in and around Nether Fortresses",
-            "Frequently spawns from blaze spawners inside Nether Fortresses",
-            "Hovers and moves freely through the air, often rising while attacking",
-            "Attacks primarily at range by firing bursts of small fireballs (typically three shots)",
-            "Fireballs can set targets on fire and ignite blocks they impact",
-            "Immune to fire, lava, and the Burning status effect",
-            "Takes damage from water and rain; snowballs deal 3 damage per hit",
-            "Can deal melee damage at close range and may ignite targets",
-            "A key source of blaze rods for potion brewing and End progression"
+            "Spawns in and around Nether Fortresses, frequently from spawners.",
+            "Hovers and flies freely, often rising higher while attacking.",
+            "Fires bursts of three fireballs that ignite players and blocks.",
+            "Immune to fire, lava, and the Burning status effect.",
+            "Takes damage from water and rain; snowballs deal 3 damage per hit.",
+            "Deals melee damage at close range and may ignite targets.",
+            "Drops blaze rods, essential for potion brewing and End progression."
         ],
         drops: [
             { item: "Blaze Rod", chance: "0-1 (up to 4 with Looting III)" },
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
-        description: "Blazes are flying hostile mobs that inhabit Nether Fortresses, where they act as dangerous ranged defenders and a major progression gate for potion brewing. A blaze attacks by hovering at range and firing bursts of small fireballs, which can both damage and ignite their target, making extended fights especially punishing without fire protection. While blazes are completely immune to fire and lava, they have a notable weakness to water-based damage—rain and direct water contact harm them, and snowballs are an effective low-cost counter that deal 3 damage per hit. Blazes are sought after because they drop blaze rods, which can be crafted into blaze powder. Blaze powder powers brewing stands and is also combined with ender pearls to craft eyes of ender, an essential item for locating strongholds and reaching The End."
+        description: "Blazes are flying hostile mobs found in Nether Fortresses. They attack by firing bursts of small fireballs that ignite targets. Immune to fire and lava, they are uniquely vulnerable to water and snowballs, which deal 3 damage per hit. Upon death, they drop blaze rods, a vital resource for progression. Blaze rods are crafted into blaze powder, used to fuel brewing stands and combined with ender pearls to create eyes of ender. These items are necessary to locate strongholds and access the End dimension, making blazes a mandatory stop for game completion."
     },
     "minecraft:elder_guardian": {
         id: "minecraft:elder_guardian",
@@ -591,20 +557,13 @@ export const hostileMobs = {
             groupSize: "3 per monument (Specific locations: top, left, right)"
         },
         behaviorTraits: [
-            "Larger, stronger variant of the guardian that serves as the boss of ocean monuments",
-            "Inflicts Mining Fatigue III on all players within 50 blocks, significantly slowing mining and attack speed",
-            "Mining Fatigue effect lasts 5 minutes and makes it nearly impossible to break blocks like prismarine and sea lanterns",
-            "Attacks with a powerful laser beam that deals damage based on difficulty (5 on Easy, 8 on Normal, 12 on Hard)",
-            "Laser charges slower than regular guardian's laser but deals more damage",
-            "Defensive spikes inflict retaliatory damage when attacked with melee (2 on Easy/Normal, 3 on Hard)",
-            "Spikes can be retracted and extended depending on activity level",
-            "Swims slower than regular guardians but has more health and stronger attacks",
-            "Eye follows and stares at nearby players, similar to regular guardians",
-            "Cannot attack players under Invisibility potion effects unless wearing armor",
-            "Does not suffocate and can survive indefinitely out of water",
-            "When out of water, flops on land and is vulnerable to player attacks",
-            "Affected by the Impaling enchantment (Effective on all wet mobs in Bedrock)",
-            "Drops a wet sponge when killed, a renewable source of sponge blocks"
+            "Serves as the boss of ocean monuments and is a significantly larger, stronger variant of the regular guardian.",
+            "Inflicts Mining Fatigue III on all players within 50 blocks, making it nearly impossible to break blocks for 5 minutes.",
+            "Attacks with a powerful laser beam that deals high damage based on difficulty, reaching up to 12 on Hard.",
+            "Defensive spikes inflict retaliatory damage on players who use melee attacks while the spikes are extended.",
+            "Does not attack players under the effect of Invisibility potions, provided the player is not wearing armor.",
+            "Unlike regular guardians, it does not suffocate and can survive indefinitely out of water.",
+            "Guaranteed to drop a wet sponge upon death, providing a renewable source of sponge blocks."
         ],
         drops: [
             { item: "Wet Sponge", chance: "1 (guaranteed)" },
@@ -616,7 +575,7 @@ export const hostileMobs = {
             { item: "Cooked Cod", chance: "If killed while on fire" },
             { item: "Experience", chance: "10 (when killed by player/tamed wolf)" }
         ],
-        description: "The Elder Guardian is the formidable boss guardian that rules over ocean monuments, serving as the ultimate defender of these underwater structures. With 80 health points (40 hearts), it is significantly larger and more powerful than regular guardians, possessing a distinctive appearance with larger spikes and a more menacing eye. The Elder Guardian's most dangerous ability is its Mining Fatigue III aura, which automatically affects all players within a 50-block radius for 5 minutes. This debilitating effect dramatically slows mining speed, makes combat sluggish by reducing attack speed, and renders players nearly incapable of breaking monument blocks such as prismarine, sea lanterns, and gold blocks—effectively forcing players to confront the boss head-on rather than tunneling around it. The Elder Guardian attacks with a slower-charging but more damaging laser beam that inflicts 5 damage on Easy difficulty, 8 on Normal, and 12 on Hard. Like regular guardians, it possesses defensive spikes that automatically retaliate against melee attackers. The Elder Guardian is a valuable target because it always drops one wet sponge when killed, providing a renewable method of obtaining sponge blocks that can be dried into regular sponges for building and decoration. Since the 1.20 update, Elder Guardians also have a 20% chance to drop the Tide Armor Trim Smithing Template in Bedrock Edition, allowing players to customize their armor with ocean-themed designs. It also drops prismarine materials and various fish, making ocean monument raids rewarding beyond just the treasure chambers. Defeating the three Elder Guardians in a monument is a significant milestone, as it removes the Mining Fatigue effect and allows players to mine the valuable gold blocks, sea lanterns, and prismarine within the structure. The Elder Guardian's combination of high health, damaging attacks, and its devastating Mining Fatigue aura makes it one of the most challenging underwater encounters in Minecraft."
+        description: "The Elder Guardian is a powerful boss found in ocean monuments with 80 health. It radiates a Mining Fatigue III aura in a 50-block radius, significantly slowing mining and attack speed to force direct confrontation. It attacks using a high-damage laser beam and defensive spikes. Upon death, it always drops a wet sponge, prismarine materials, and occasionally the Tide Armor Trim template. Defeating the three guardians in a monument is essential to remove the mining debuff and safely harvest valuable blocks like gold and sea lanterns within the structure."
     },
     "minecraft:phantom": {
         id: "minecraft:phantom",
@@ -636,27 +595,19 @@ export const hostileMobs = {
             groupSize: "1-4 (increases based on days without sleep)"
         },
         behaviorTraits: [
-            "Flying hostile mob that spawns after a player hasn't slept for at least 3 in-game days",
-            "Number of phantoms increases as more days pass without sleep (1-4 after 3 days, up to 6-10 after many days)",
-            "Only spawns at night or during thunderstorms, despawns at dawn",
-            "Flies in circles above the player, waiting for an opportunity to swoop down",
-            "Swoops down to attack when the player is not looking up or when given the chance",
-            "Each swoop attack deals damage based on difficulty (6 on Easy, 9 on Normal, 13 on Hard)",
-            "Can be attacked during its swoop when it gets close to the player",
-            "Burns in sunlight like other undead mobs when day arrives",
-            "Cannot pass through closed trapdoors or glass, can pass through open doors",
-            "Undead creature, affected by Smite enchantment and harmed by regeneration potions",
-            "Can detect players from up to 64 blocks away",
-            "Makes distinctive ghostly screeching sounds that can be heard from a distance",
-            "When idle, circles slowly above the player at a high altitude",
-            "Cannot be ridden or tamed, only hostile",
-            "Will despawn peacefully if the player goes to sleep (ending the sleepless streak)"
+            "Spawns at night or during thunderstorms when a player has not slept for at least three in-game days.",
+            "Flies in circles at high altitudes before swooping down to attack the player when they are vulnerable.",
+            "Categorized as an undead mob, meaning it burns in sunlight and is vulnerable to the Smite enchantment.",
+            "Deals significant damage based on difficulty level, ranging from 6 points on Easy to 13 points on Hard.",
+            "The number of phantoms that spawn simultaneously increases the longer the player remains awake.",
+            "Has a large detection range of 64 blocks and can be tracked by its loud, ghostly screeching sounds.",
+            "Sleeping in a bed immediately resets the phantom spawn timer and causes existing phantoms to despawn."
         ],
         drops: [
             { item: "Phantom Membrane", chance: "0-1 (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Phantoms are terrifying flying hostile mobs that materialize in the night sky when players have not slept for at least three consecutive in-game days. These ghostly creatures appear as large, translucent winged entities with glowing green eyes, haunting sleepless adventurers as punishment for their insomnia. Phantoms spawn in groups that increase in size the longer a player goes without sleeping—starting with 1-4 after three sleepless nights and potentially reaching 6-10 after many days without rest. During combat, phantoms fly in lazy circles high above their target, periodically swooping down to deliver a devastating melee attack that deals 6 damage on Easy, 9 on Normal, and 13 on Hard difficulty. These significantly higher damage values make phantoms particularly dangerous in Bedrock Edition compared to other versions. Players must time their attacks carefully during these swoops, as phantoms are otherwise difficult to hit when circling at altitude. Being undead mobs, phantoms burn in sunlight when morning arrives and take extra damage from the Smite enchantment. Their most valuable drop is the phantom membrane, a crucial crafting material used to repair elytra, the coveted wings that allow players to glide through the air. Each phantom drops 0-1 membranes, making them the primary renewable source for elytra repair. Phantoms also drop experience when killed. The best way to prevent phantom spawns is to sleep regularly in a bed, which resets the insomnia counter and causes all pursuing phantoms to despawn peacefully. Their eerie presence in the night sky serves as a constant reminder to players that rest is essential in the harsh world of Minecraft."
+        description: "Phantoms are flying undead mobs that appear when a player hasn't slept for three or more in-game days. They circle high above and swoop down to attack, dealing up to 13 damage depending on difficulty. As undead, they burn in sunlight and are vulnerable to Smite. Their main drop, the phantom membrane, is essential for repairing elytra. To prevent spawns, players must sleep in a bed to reset their insomnia counter. These ghostly threats make regular rest a vital part of survival in the night sky."
     },
     "minecraft:drowned": {
         id: "minecraft:drowned",
@@ -676,15 +627,13 @@ export const hostileMobs = {
             groupSize: "1-4"
         },
         behaviorTraits: [
-            "Hostile undead aquatic variant of zombies that spawns in oceans and rivers",
-            "Regular zombies that remain submerged in water long enough can convert into drowned",
-            "Swims effectively and can fight players underwater",
-            "Often sinks and walks along the sea floor, especially when patrolling",
-            "Some drowned spawn equipped with tridents, giving them dangerous ranged attacks",
-            "Trident-wielding drowned throw their tridents and can continue fighting at close range",
-            "May spawn holding nautilus shells or other equipment",
-            "Burns in direct sunlight when on land, but is safe from sunlight while underwater",
-            "Can pick up items and armor like other zombie-type mobs"
+            "Hostile aquatic undead that spawn in oceans and rivers or through submerged zombie conversion.",
+            "Swims effectively and patrols the sea floor, making underwater combat difficult.",
+            "Trident-wielding variants perform high-damage ranged attacks and switch to melee at close range.",
+            "Can spawn holding valuable nautilus shells or tridents, which are primary sources for these items.",
+            "Burns in direct sunlight when on land but is completely immune to sunlight while underwater.",
+            "Capable of picking up items and equipping armor, which can increase their threat level.",
+            "Will exit the water to chase players onto land during the night or during rain."
         ],
         drops: [
             { item: "Rotten Flesh", chance: "0-2" },
@@ -695,7 +644,7 @@ export const hostileMobs = {
             { item: "Equipped items/armor", chance: "If picked up" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Drowned are waterlogged undead that haunt oceans and rivers, acting as the aquatic counterpart to zombies. They spawn naturally underwater in dark areas, and can also be created when regular zombies remain submerged long enough to convert. Drowned are much more threatening in water than on land: they swim well, pursue players through underwater caves and ruins, and often patrol by sinking and walking along the sea floor. Their most notable variant is the trident-wielding drowned, which can attack from range by throwing its trident—an encounter that can be especially dangerous for players without good armor, shields, or water mobility. Drowned are also an important farming target because they are the primary renewable source for tridents (which can also be found in Trial Chamber vaults) and can be enchanted with powerful effects such as Loyalty, Riptide, and Channeling. Some drowned can also carry nautilus shells, a key component for crafting conduits, making them relevant to long-term underwater base building."
+        description: "Drowned are aquatic undead found in oceans and rivers. They spawn in dark water or when regular zombies submerge for too long. While slow on land, they swim efficiently and patrol the seabed. Most notably, some carry tridents, performing dangerous ranged attacks. Drowned are the primary renewable source for tridents and nautilus shells, which are essential for crafting conduits. Because tridents can be enchanted with unique effects like Loyalty and Riptide, hunting Drowned is vital for players seeking high-tier gear and underwater base utility."
     },
     "minecraft:evoker": {
         id: "minecraft:evoker",
@@ -719,10 +668,9 @@ export const hostileMobs = {
             "Attacks using 'fang' spells that erupt from the ground in a line or circle",
             "Fangs deal 6 HP (3 hearts) damage and ignore armor enchantments",
             "Summons 3 Vexes to pursue and attack players",
-            "Performs a 'wololo' spell to change nearby blue sheep into red sheep",
             "Flee from players when their spells are on cooldown",
-            "Can ride Ravagers during wave 7 of a raid in Bedrock Edition",
-            "In 1.21+, their presence in raids is tied to the new Raid Omen mechanic"
+            "In 1.21+, their presence in raids is tied to the new Raid Omen mechanic",
+            "Can ride Ravagers during wave 7 of a raid in Bedrock Edition"
         ],
         drops: [
             { item: "Totem of Undying", chance: "1 (100% guaranteed)" },
@@ -730,7 +678,7 @@ export const hostileMobs = {
             { item: "Illager Banner", chance: "If raid captain" },
             { item: "Experience", chance: "10" }
         ],
-        description: "Evokers are the most dangerous members of the illager family, possessing powerful magical abilities that set them apart from their weapon-wielding kin. Found exclusively in woodland mansions or during the intense final waves of a village raid, evokers focus on ranged spellcasting rather than melee combat. Their signature attack involves summoning snapping fangs from the ground, which deal significant damage that bypasses most armor enchantments. Even more dangerous is their ability to summon Vexes—small, flying, sword-wielding spirits that can pass through walls to reach their targets. Evokers are highly prized by adventurers because they are the only source of the Totem of Undying, a legendary item that can save a player from the brink of death. In 1.21+, the experience of fighting evokers in raids is part of the revamped Omen system, requiring players to consciously activate a Raid Omen to trigger the challenge. Their unique 'wololo' spell, a reference to Age of Empires, demonstrates their playful yet sinister nature as they convert the colors of nearby sheep."
+        description: "Evokers are elite spellcasting illagers found in woodland mansions and late-stage raids. They are the only source of the Totem of Undying. Evokers attack by summoning armor-piercing fangs from the ground and conjuring Vexes—hostile, wall-phasing flying spirits. They avoid direct combat, preferring to cast spells from a distance. They are also known for their 'wololo' spell which changes sheep colors. Since 1.21, they appear in raids triggered via the Raid Omen system. Their magical power and lethal summons make them high-priority targets for any adventurer."
     },
     "minecraft:piglin_brute": {
         id: "minecraft:piglin_brute",
@@ -750,20 +698,19 @@ export const hostileMobs = {
             groupSize: "Varies (based on bastion structure)"
         },
         behaviorTraits: [
-            "Elite guardian of Bastion Remnants that cannot be distracted or pacified",
-            "Does not retreat from soul fire or soul-related items unlike regular piglins",
             "Aggressive toward players regardless of whether they are wearing gold armor",
             "Attacks using a Golden Axe, dealing massive melee damage",
-            "Does not respawn once killed; each Bastion has a limited number of brutes",
+            "Does not retreat from soul fire or soul-related items unlike regular piglins",
             "Cannot be bartered with and ignores dropped gold ingots",
             "Alerts nearby piglins and piglin brutes when attacked",
+            "Does not respawn once killed; each Bastion has a limited number of brutes",
             "Turns into a zombified piglin if brought to the Overworld or End"
         ],
         drops: [
             { item: "Golden Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "20" }
         ],
-        description: "Piglin Brutes are the formidable, axe-wielding guardians of Bastion Remnants in the Nether. Unlike regular piglins, they are completely immune to distractions—they won't be swayed by gold armor, won't barter for gold ingots, and don't share the common piglin fear of soul fire. Their sole purpose is to defend the bastion's treasure at all costs. With 50 health points and a devastating attack that can deal 13 HP (6.5 hearts) of damage on Normal difficulty, they are among the most dangerous melee opponents in the game. Crucially, Piglin Brutes do not respawn; once a player has cleared them from a bastion, they are gone for good from that location. Their presence makes looting bastions a high-risk endeavor, requiring players to use careful strategy or overwhelming force. If a Piglin Brute is somehow transported out of the Nether, it will eventually transform into a zombified piglin, losing its unique guarding behavior but retaining its aggressive nature."
+        description: "Piglin Brutes are elite axe-wielding guardians found in Bastion Remnants. Unlike standard piglins, they ignore gold armor, refuse bartering, and do not fear soul fire. They are highly aggressive with 50 HP and deal up to 13 damage on Normal difficulty. Crucially, they do not respawn, making their defeat a permanent change to a bastion's safety. If transported to the Overworld, they transform into zombified piglins. Their role is to protect treasure at all costs, requiring players to engage in direct combat rather than using distractions."
     },
     "minecraft:vindicator": {
         id: "minecraft:vindicator",
@@ -784,20 +731,19 @@ export const hostileMobs = {
         },
         behaviorTraits: [
             "Wields an iron axe that can disable shields with a single hit",
-            "Sprints toward targets at high speed when attacking",
-            "Spawns in Woodland Mansions and participates in raids (wave 2+)",
-            "Does not respawn after initial spawn in Woodland Mansions",
-            "Attacks players, villagers, iron golems, and wandering traders",
-            "Rare 'Johnny' variant attacks any mob except other illagers when named 'Johnny'",
-            "Faster movement speed than most illager variants",
-            "Drops emeralds and occasionally iron axes"
+            "Sprints toward targets at high speed, moving faster than most other illagers",
+            "Spawns in Woodland Mansions and participates in raids starting at wave 2",
+            "Does not respawn after its initial generation inside Woodland Mansions",
+            "Attacks players, villagers, iron golems, and wandering traders on sight",
+            "Rare 'Johnny' variant attacks almost any mob except other illagers when named",
+            "Drops emeralds and occasionally iron axes upon being defeated"
         ],
         drops: [
             { item: "Emerald", chance: "0-1" },
             { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vindicators are axe-wielding illagers that pose a significant threat in Woodland Mansions and village raids. These hostile mobs are easily recognized by their muscular build and the iron axes they carry—weapons capable of shattering shields with a single well-placed strike. Vindicators are among the fastest illagers, closing the distance to their targets with alarming speed. In Woodland Mansions, vindicators spawn during world generation and do not respawn, making each mansion a fixed encounter. During raids, they begin appearing in wave 2 on all difficulties, adding dangerous melee combatants to the pillager ranks. The most unique variant is the 'Johnny' vindicator, which can be created by naming a spawn egg or existing vindicator 'Johnny'—this variant becomes hyperaggressive, attacking not just players and villagers but any mob in its path except other illagers. Vindicators drop emeralds (the currency of the illagers) and occasionally their iron axes, making them valuable targets for players seeking both treasure and protection."
+        description: "Vindicators are fast, axe-wielding illagers found in Woodland Mansions and village raids. Their iron axes can disable shields, making them lethal melee threats. In mansions, they are non-respawning guardians; in raids, they join from wave 2 onwards. Naming one "Johnny" makes it hyper-aggressive, attacking almost any mob except fellow illagers. They commonly drop emeralds and occasionally their iron axes. Known for their high speed and strength, vindicators are among the most dangerous illagers players will face in close combat."
     },
     "minecraft:vex": {
         id: "minecraft:vex",
@@ -823,14 +769,13 @@ export const hostileMobs = {
             "Attacks players, villagers, iron golems, snow golems, and wandering traders",
             "Carries an iron sword and lunges at targets while flying",
             "Has a limited lifespan of 30 to 119 seconds before taking damage",
-            "Immune to fire and lava damage",
-            "Passively damages entities it collides with while flying"
+            "Immune to fire and lava damage"
         ],
         drops: [
             { item: "Iron Sword", chance: "8.5% (Bedrock Edition only, increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vexes are tiny, menacing flying hostile mobs that serve as the summoned weapons of Evokers. These ethereal creatures resemble miniature allays with dark, ghostly wings and carry iron swords they use to slash at their targets. Unlike most mobs, vexes have the unsettling ability to pass through solid blocks, meaning players cannot hide from them by sealing themselves in rooms. Vexes never spawn naturally in the world—they are exclusively created when an Evoker performs its summoning attack, which conjures three vexes surrounded by white particles. They can also be spawned using spawn eggs or commands for creative mode gameplay. Vexes are relentless in their pursuit, flying directly toward targets while ignoring all obstacles. Though they have modest health (14 HP), their ability to attack from any angle and their fire and lava immunity make them dangerous in the Nether environment. A vex's attack deals moderate damage, and with three spawning at once from a single evoker, they can quickly overwhelm unprepared players. Vexes have a limited lifespan of 30 to 119 seconds (updated in 1.21.50 for Bedrock-Java parity) after which they begin taking damage and will eventually despawn. In Bedrock Edition, Vexes spawn with an iron sword and have a chance to drop it when killed—a unique behavior not present in Java Edition. When killed, a vex drops only 5 experience points, reflecting its nature as a conjured weapon rather than a natural creature."
+        description: "Vexes are tiny, flying hostile mobs summoned by Evokers in groups of three. They resemble ghostly allays and carry iron swords. Their most dangerous trait is the ability to phase through solid blocks, preventing players from hiding. With 14 HP and immunity to fire and lava, they are relentless attackers. Vexes have a limited lifespan of 30 to 119 seconds, after which they take damage and despawn. They drop 5 XP when killed, and potentially their iron sword in Bedrock Edition. These ethereal weapons are a major threat during raids and in woodland mansions."
     },
     "minecraft:witch": {
         id: "minecraft:witch",
@@ -850,16 +795,13 @@ export const hostileMobs = {
             groupSize: "1"
         },
         behaviorTraits: [
-            "Throws harmful splash potions at players from up to 10 blocks away",
-            "Drinks beneficial potions to heal or gain buffs during combat",
-            "Throws Splash Potion of Poison, Harming, Slowness, or Weakness depending on situation",
-            "Drinks Potion of Fire Resistance when on fire, Water Breathing when underwater, or Instant Health when damaged",
-            "Immune to poison damage and takes reduced magic damage from potions",
-            "Spawns naturally in swamp huts with a black cat companion",
-            "Villagers struck by lightning transform into witches",
-            "Participates in raids as ranged support, appearing in waves 4+ on higher difficulties",
-            "Does not burn in sunlight unlike other undead-like mobs",
-            "Can drink potions while holding hostile potions to throw"
+            "Throws splash potions of Poison, Harming, Slowness, and Weakness from up to 10 blocks away",
+            "Drinks Instant Health and other beneficial potions to heal or gain combat buffs",
+            "Automatically drinks Fire Resistance when on fire and Water Breathing when underwater",
+            "Immune to poison damage and possesses high resistance to magic-based potion damage",
+            "Spawns naturally in swamp huts and appears in raids as ranged support starting at wave 4",
+            "Villagers transform into witches if struck by lightning",
+            "Does not burn in sunlight, remaining active during the day unlike most hostile mobs"
         ],
         drops: [
             { item: "Redstone Dust", chance: "4-8 (increased by Looting)" },
@@ -871,7 +813,7 @@ export const hostileMobs = {
             { item: "Stick", chance: "0-2 (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Witches are cunning hostile mobs that rely on potion-based combat, making them unique among Minecraft's hostile creatures. Dressed in distinctive purple robes and pointed hats, witches attack by hurling harmful splash potions at players from up to 10 blocks away, including potions of Poison, Harming, Slowness, and Weakness. What makes witches particularly challenging is their ability to drink beneficial potions during combat—when damaged, they consume Instant Health potions to restore 4 health points (2 hearts); when on fire, they drink Fire Resistance; and when submerged, they use Water Breathing. This self-healing behavior can make prolonged fights frustrating without adequate firepower. Witches are naturally immune to poison damage and take reduced damage from other potion effects, further enhancing their survivability. They spawn naturally in swamp huts alongside black cats, creating atmospheric encounters in these biomes. Witches can also spawn when villagers are struck by lightning, providing a dramatic transformation mechanic. During raids, witches appear as ranged support units in later waves, adding potion-based chaos to the already challenging raid encounters. When defeated, witches drop a variety of useful brewing ingredients including redstone dust, glowstone dust, sugar, gunpowder, spider eyes, glass bottles, and sticks—making them excellent targets for players setting up potion brewing stations. Their drops are essential for advanced potion crafting, as many of their items extend potion duration or increase potion potency. Witches represent a mid-tier threat that rewards tactical combat and quick reflexes, as avoiding their thrown potions while closing distance for melee attacks requires skill and awareness."
+        description: "Witches are hostile mobs that use potions for offense and defense. They throw splash potions of Poison, Harming, Slowness, and Weakness at players from range. Uniquely, they drink beneficial potions to survive: Instant Health when hurt, Fire Resistance if burning, and Water Breathing if submerged. They spawn in swamp huts, during raids, or when villagers are struck by lightning. Upon death, they drop various brewing ingredients like redstone, glowstone, and gunpowder. Their tactical self-healing and immunity to poison make them a cunning threat requiring quick, decisive combat."
     },
     "minecraft:ghast": {
         id: "minecraft:ghast",
@@ -891,26 +833,20 @@ export const hostileMobs = {
             groupSize: "1"
         },
         behaviorTraits: [
-            "Large, floating, ghost-like mob found throughout the Nether",
-            "Shoots explosive fireballs from up to 100 blocks away with remarkable accuracy",
-            "Fireballs can be deflected back at the ghast with any attack, including arrows and melee hits",
-            "Deflecting a fireball back to kill a ghast grants the advancement 'Return to Sender'",
-            "Fireballs explode on impact, dealing both direct damage and explosion damage",
-            "Explosion power of 1 can destroy weak blocks like netherrack but not cobblestone",
-            "Flies slowly and smoothly through the air, often at high altitudes",
-            "Emits distinctive, eerie crying sounds that can be heard from great distances",
-            "Has a 4×4×4 block hitbox, making it a large target despite appearing smaller",
-            "Will not attack unless it has line of sight to the player",
-            "Cannot spawn in enclosed spaces smaller than 5×5×4 blocks",
-            "Immune to fire and lava damage",
-            "Takes drowning damage in water unlike most Nether mobs"
+            "Shoots explosive fireballs from up to 100 blocks away that deal both direct and explosion damage.",
+            "Fireballs can be deflected back at the ghast with any attack to deal damage or earn the Return to Sender advancement.",
+            "Explosions destroy weak blocks like netherrack but are stopped by blast-resistant materials like cobblestone.",
+            "Will only initiate an attack if it has a direct line of sight to the player.",
+            "Large flying mob that emits loud, distinctive crying sounds audible from significant distances.",
+            "Requires a minimum open space of 5x5x4 blocks to spawn throughout the Nether.",
+            "Completely immune to fire and lava damage but vulnerable to standard attacks and drowning."
         ],
         drops: [
             { item: "Ghast Tear", chance: "0-1 (increased by Looting)" },
             { item: "Gunpowder", chance: "0-2 (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Ghasts are enormous, floating hostile mobs that dominate the skies of the Nether with their haunting presence and devastating fireball attacks. Resembling massive jellyfish-like creatures with white, cube-shaped bodies, perpetually crying red eyes, and dangling tentacles, ghasts emit sorrowful wailing sounds that echo through the Nether's vast caverns, serving as an audio warning of their presence long before they come into view. With a 4×4×4 block hitbox, ghasts are among the largest naturally spawning hostile mobs in the game, though their relatively low health of just 10 HP makes them vulnerable once engaged. Ghasts attack by launching explosive fireballs that travel in straight lines toward their targets, dealing 6 HP of direct impact damage on Normal difficulty and up to 17 HP from the resulting explosion if the player is at the epicenter. These explosions have a blast power of 1, sufficient to destroy softer blocks like netherrack, basalt, and nether wart blocks, but unable to break more durable materials like cobblestone, stone bricks, or nether brick—making these materials ideal for building protective structures in the Nether. One of the most iconic mechanics associated with ghasts is the ability to deflect their fireballs back at them using any form of attack, whether melee strikes, arrows, or even other projectiles. Successfully reflecting a fireball to kill the ghast that fired it unlocks the challenging 'Return to Sender' advancement, a badge of honor among Minecraft players. Ghasts spawn in open Nether biomes including Nether Wastes, Soul Sand Valleys, and Basalt Deltas, requiring a minimum of 5×5×4 blocks of space to spawn, which prevents them from appearing in narrow tunnels or confined structures. They fly slowly and smoothly through the air, often positioning themselves at high altitudes where they rain down fireballs on unsuspecting travelers below. Their behavior includes only attacking when they have a clear line of sight to their target, meaning players can break line of sight to temporarily cease attacks. Despite being Nether inhabitants, ghasts are not immune to drowning and will take damage if submerged in water, should they somehow be transported to the Overworld. When killed, ghasts drop valuable resources: ghast tears, which are essential ingredients for brewing potions of Regeneration and crafting End Crystals for respawning the Ender Dragon, and gunpowder for TNT and fireworks. Their ghastly cries, explosive attacks, and strategic importance in progression make them one of the most memorable and mechanically significant hostile mobs in Minecraft's Nether dimension."
+        description: "Ghasts are large, jellyfish-like hostile mobs that fly through the Nether's open biomes. With 10 HP, they are fragile but dangerous, launching explosive fireballs that destroy weak blocks like netherrack. Players can deflect these fireballs back at them for the 'Return to Sender' achievement. Ghasts spawn in 5x5x4 spaces within Nether Wastes, Soul Sand Valleys, and Basalt Deltas. Upon death, they drop gunpowder and ghast tears, which are vital for crafting End Crystals and brewing Regeneration potions. Their eerie wails alert players to their presence."
     },
     "minecraft:slime": {
         id: "minecraft:slime",
@@ -932,10 +868,10 @@ export const hostileMobs = {
         behaviorTraits: [
             "Hostile cube-like monster that attacks by colliding with targets while hopping",
             "Naturally spawns in three sizes (small, medium, big) and splits into smaller slimes when a larger one is killed",
-            "Big slimes have 16 HP and deal 4 damage on Normal difficulty (6 on Hard); medium slimes deal 2 damage on Normal (3 on Hard); small slimes deal 0 damage",
+            "Big slimes (16 HP) deal 4 damage; medium slimes deal 2 damage; small slimes deal 0 damage and cannot hurt",
             "Immune to fall damage",
-            "In swamps and mangrove swamps, can spawn between Y=51 and Y=69 at light level 7 or lower; spawn rate depends on moon phase (most common on full moon, never on new moon)",
-            "In slime chunks, can spawn below Y=40 regardless of light level; in Bedrock Edition these slime chunks are fixed locations that do not depend on the world seed",
+            "Spawns in swamps at Y=51-69 at light level 7 or below; spawn frequency tied to moon phase (peaks at full moon)",
+            "Spawns in slime chunks below Y=40 at any light level; Bedrock slime chunks are fixed and seed-independent",
             "During ominous trials, Trial Spawners can apply the Oozing effect, which spawns medium slimes when an affected entity dies"
         ],
         drops: [
@@ -943,6 +879,6 @@ export const hostileMobs = {
             { item: "Slimeball", chance: "1 (if killed by a frog)" },
             { item: "Experience", chance: "1 (small), 2 (medium), or 4 (big) (when killed by player/tamed wolf)" }
         ],
-        description: "Slimes are bouncy, gelatinous monsters that appear deep underground and in swampy lowlands. They come in multiple sizes and, when defeated, larger slimes break apart into smaller ones—meaning a single encounter can turn into several fights. In Bedrock Edition, they have two main spawn methods: fixed-location slime chunks underground (below Y=40, regardless of light) and swamps/mangrove swamps between Y=51 and Y=69 in low light, with spawns heavily influenced by the moon phase. Slimeballs dropped by the smallest slimes are essential for sticky pistons, leads, and slime blocks, making slimes a key mob for redstone builds and movement contraptions."
+        description: "Slimes are bouncy, hostile mobs found deep underground in specific slime chunks (below Y=40) or in swamps at night (Y=51-69), where spawning depends on the moon phase. They appear in three sizes; large and medium slimes split into smaller versions when killed. Only the smallest slimes drop slimeballs when defeated. These items are crucial for crafting sticky pistons, leads, and slime blocks, making slimes a vital resource for redstone engineers and complex contraptions. Their unique jumping movement and splitting mechanic make them a distinct threat in dark caves and wetlands."
     }
 };

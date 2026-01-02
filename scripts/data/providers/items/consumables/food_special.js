@@ -53,18 +53,14 @@ export const specialFood = {
             ingredients: ["Dropped by Raid Captains and found in Vault chests"]
         },
         specialNotes: [
-            "Available in 5 levels (I to V)",
-            "Bedrock Edition duration: Fixed at 1 hour 40 minutes (100 minutes) regardless of level",
-            "Consuming the bottle destroys it (no empty glass bottle remains)",
-            "Location determines event type, not bottle level",
-            "When used in a village: Triggers Raid Omen (initiates raid)",
-            "When used near Trial Chambers: Triggers Trial Omen (activates ominous trial)",
-            "Raid Omen starts a 30-second countdown before initiating a raid",
-            "Trial Omen immediately activates ominous trial spawners",
-            "Higher levels provide more challenging events with better rewards",
-            "Drop chance: 18.6% from Standard Vaults, 13.4% from Ominous Vaults"
+            "Available in levels I-V; Bedrock duration fixed at 100 minutes",
+            "Bottle is consumed on use; grants Bad Omen effect",
+            "Village use triggers Raid Omen (30s countdown to raid)",
+            "Trial Chamber use triggers Trial Omen (ominous spawners active)",
+            "Dropped by Raid Captains and found in Vaults (18.6% Standard, 13.4% Ominous)",
+            "Higher levels increase event difficulty and rewards"
         ],
-        description: "The Ominous Bottle is a consumable item introduced in Minecraft 1.21 that grants the Bad Omen effect when consumed. This item replaced the previous banner-based Bad Omen mechanic, offering more control over the omen system. Ominous Bottles come in five levels (I-V), with the level determining the difficulty of the triggered event rather than the event type. The event type is determined by location: villages trigger Raid Omen for village raids, while Trial Chambers trigger Trial Omen for enhanced trials. In Bedrock Edition, the effect lasts a fixed duration of 1 hour 40 minutes regardless of level. Raid Captains drop these bottles upon defeat, and they can also be found in vault chests with an 18.6% chance from Standard Vaults and 13.4% from Ominous Vaults. The bottle shatters upon consumption, providing no empty glass bottle. This item is essential for players seeking to trigger raids and ominous trials intentionally."
+        description: "The Ominous Bottle is a consumable item that grants the Bad Omen effect (Levels I-V), replacing the banner mechanic. The level determines event difficulty: Raid Omen in villages or Trial Omen in Trial Chambers. It is dropped by Raid Captains or found in Vaults (18.6% Standard, 13.4% Ominous). In Bedrock, the effect lasts 1 hour and 40 minutes. The bottle shatters upon use, providing no empty bottle. It is the primary way to intentionally trigger raids and ominous trials."
     },
     "minecraft:honey_bottle": {
         id: "minecraft:honey_bottle",
@@ -93,6 +89,6 @@ export const specialFood = {
             "Harvested by using a Glass Bottle on a full Beehive or Bee Nest",
             "Campfire smoke is needed to harvest safely without angering bees"
         ],
-        description: "The Honey Bottle is a consumable item obtained from bees that serves as both a food source and a cure for poison. Unlike milk buckets which remove all status effects, honey bottles specifically target and remove only the poison effect, making them ideal for combat against cave spiders or bees. They restore a decent amount of hunger and can be consumed even when the hunger bar is full. Honey bottles are also versatile crafting ingredients, used to create decorative and sticky Honey Blocks or converted into sugar. Harvesting honey requires careful interaction with beehives using glass bottles, often necessitating the use of smoke to pacify the bees."
+        description: "A Honey Bottle is a consumable item obtained by using glass bottles on filled beehives or bee nests. It serves as a unique food source that can be consumed even when the hunger bar is full, restoring 6 hunger and 1.2 saturation. Unlike milk, drinking honey specifically cures the poison status effect without removing other buffs or debuffs. It is a key ingredient for crafting Honey Blocks or can be crafted into sugar. To harvest safely without angering bees, players should place a campfire beneath the hive or nest to pacify the colony before collection."
     }
 };

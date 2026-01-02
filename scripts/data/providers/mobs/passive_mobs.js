@@ -53,14 +53,13 @@ export const passiveMobs = {
             groupSize: "Villages"
         },
         behaviorTraits: [
-            "Passive mobs that live in villages",
-            "Can trade with players using emeralds as currency",
-            "Professions determine trade options and appearance",
-            "Gain experience and unlock new trades as they work",
-            "Run indoors during raids or at night",
-            "Socialize with other villagers and share gossip",
-            "Can be cured from zombie villager state with weakness + golden apple",
-            "Iron Golems protect villagers from hostile mobs"
+            "Passive mobs that naturally spawn and live in villages.",
+            "Trade goods and services with players using emeralds as currency.",
+            "Workstations determine specific professions, appearances, and trade pools.",
+            "Gain experience through trading to unlock higher-tier items and rewards.",
+            "Retreat indoors to seek safety during nightfall or active raids.",
+            "Can be cured from a zombie state using weakness and a golden apple.",
+            "Naturally spawn Iron Golems to defend the village from hostile mobs."
         ],
         drops: [
             { item: "None", chance: "N/A" }
@@ -85,19 +84,18 @@ export const passiveMobs = {
             groupSize: "1-4"
         },
         behaviorTraits: [
-            "Aquatic mob that attacks hostile aquatic mobs",
-            "Can be bred with buckets of tropical fish",
-            "Can be led with leads and follow players holding tropical fish",
-            "Plays dead when damaged, gaining regeneration for 10 seconds",
-            "Dies after 5 minutes out of water",
-            "Comes in 5 color variants: Leucistic (pink), Wild (brown), Gold, Cyan, and rare Blue (1 in 1200)",
-            "Grants Regeneration I to players who help kill mobs it's fighting",
-            "Attacks drowned, guardians, glow squids, squids, fish, and other aquatic hostile mobs"
+            "Attacks aquatic mobs including drowned, guardians, squids, and fish.",
+            "Plays dead when damaged to recover health and stop enemy aggression.",
+            "Grants Regeneration I to players who assist in killing its targets.",
+            "Can be bred using buckets of tropical fish.",
+            "Can be led with leads or lured with buckets of tropical fish.",
+            "Dies after 5 minutes out of water.",
+            "Has five color variants, including a rare blue type (1 in 1200)."
         ],
         drops: [
             { item: "Experience", chance: "1 (when killed by player/tamed wolf)" }
         ],
-        description: "Axolotls are passive aquatic mobs found exclusively in lush caves. They are the only mob that can breed underwater and have 5 color variants, with the rare blue variant having a 1 in 1200 spawn chance. Axolotls are unique helpers that fight hostile aquatic mobs like drowned and guardians. When a player kills a mob that an axolotl is fighting, the player receives Regeneration I for 5 seconds per axolotl, making them valuable allies for underwater exploration. Axolotls can play dead when damaged, recovering health and becoming temporarily immune to enemy attacks. They must be kept in water as they die after 5 minutes on land."
+        description: "Axolotls are passive aquatic mobs found in lush caves. They come in five colors; the blue variant has a rare 1/1200 spawn rate. These allies attack hostile mobs like drowned and guardians. If a player kills a mob an axolotl is attacking, they receive Regeneration I. Axolotls can play dead to heal and become immune to damage. They must remain in water, dying after five minutes on land, and are the only mob that breeds underwater. Players can transport them using buckets."
     },
     "minecraft:allay": {
         id: "minecraft:allay",
@@ -117,22 +115,18 @@ export const passiveMobs = {
             groupSize: "1-3"
         },
         behaviorTraits: [
-            "Flying passive mob that collects items and delivers them to players",
-            "Give it an item and it will find and collect dropped items of the same type within 32 blocks",
-            "Delivers collected items to the player who gave it the item",
-            "Follows players within 64 blocks even without line of sight",
-            "Dances to note blocks when a disc is playing nearby",
-            "Cannot be harmed by the player who gave it an item",
-            "Regenerates 2 health per second when damaged",
-            "Holds one stack of items (usually 64) plus the item it was given",
             "Spawns in cages at Woodland Mansions and Pillager Outposts",
-            "Cannot open doors or pass through solid blocks",
+            "Collects and delivers dropped items of the same type as the item it is given",
+            "Searches for items within 32 blocks and follows players within 64 blocks",
+            "Cannot be harmed by the player who gave it an item and regenerates health",
+            "Dances to note blocks when a music disc is playing nearby",
+            "Holds one full stack of items plus the reference item",
             "Ignores item enchantments, names, and items in shulker boxes"
         ],
         drops: [
             { item: "Item held", chance: "If holding" }
         ],
-        description: "Allays are flying passive mobs introduced in the Wild Update that collect and deliver items for players. When given an item, an allay will fly around searching for dropped items of the same type within a 32-block radius and deliver them to the player. Allays follow their assigned player from up to 64 blocks away, even through walls, making them excellent automated item collectors for farms. They dance happily when near active note blocks playing music discs. Allays spawn in cages at woodland mansions and pillager outposts. They cannot be harmed by the player who assigned them an item and regenerate health quickly when damaged. Their ability to automate item collection makes them invaluable for farming and sorting operations."
+        description: "Allays are flying passive mobs that collect and deliver items. Give one an item, and it searches a 32-block radius for matching drops, following its owner from up to 64 blocks away. They can deliver items to players or nearby active note blocks, which also make them dance. Allays spawn in cages at woodland mansions and pillager outposts. They are immune to damage from the player who gave them an item and possess quick health regeneration. Their unique ability to automate item sorting and collection makes them highly valuable for complex farming operations."
     },
     "minecraft:frog": {
         id: "minecraft:frog",
@@ -153,21 +147,17 @@ export const passiveMobs = {
         },
         behaviorTraits: [
             "Passive mob that spawns naturally in swamp and mangrove swamp biomes",
-            "Can jump up to 8 blocks high, higher than most mobs",
-            "Takes 5 less damage from falling than other mobs",
-            "Uses long tongue to eat small slimes and small magma cubes",
-            "Eating small magma cubes produces froglights (Pearlescent, Verdant, or Ochre depending on frog variant)",
-            "Can be bred with slimeballs",
-            "Grows from tadpoles, which are spawned by frogs",
-            "Three variants determined by biome where tadpole grew up: Temperate (orange), Warm (white), and Cold (green)",
-            "Prefers jumping on lily pads and big dripleaves",
-            "Swims naturally in water bodies",
-            "Can jump into boats and minecarts"
+            "Can jump up to 8 blocks high, significantly higher than most mobs",
+            "Uses its tongue to consume small slimes and small magma cubes",
+            "Eating small magma cubes produces froglights (Pearlescent, Verdant, or Ochre)",
+            "Can be bred with slimeballs to produce frogspawn",
+            "Grows from tadpoles which can be transported in buckets for biome manipulation",
+            "Three variants (Temperate, Warm, and Cold) determined by the biome where the tadpole matured"
         ],
         drops: [
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Frogs are passive mobs introduced in the Wild Update that inhabit swamp and mangrove swamp biomes. They are excellent jumpers, capable of leaping up to 8 blocks high and taking significantly reduced fall damage. Frogs use their long tongues to eat small slimes and small magma cubes—when they eat a small magma cube, it produces a froglight, a decorative light block that comes in three colors: Pearlescent (from warm frogs), Verdant (from cold frogs), and Ochre (from temperate frogs). Frogs come in three variants determined by the biome temperature where their tadpole stage matured. They can be bred using slimeballs and spawn naturally in groups of 2-5. Their unique ability to convert magma cubes into froglights makes them valuable for farming light sources, while their jumping behavior adds life to swamp environments."
+        description: "Frogs are passive mobs found in swamp and mangrove swamp biomes. They can jump up to 8 blocks high and take reduced fall damage. There are three variants: temperate, warm, and cold, determined by the biome where a tadpole matures. Frogs can be bred using slimeballs. They use their tongues to eat small slimes and small magma cubes; consuming the latter produces a froglight block. Froglight colors vary by variant: Pearlescent (warm), Verdant (cold), and Ochre (temperate). Their unique diet makes them essential for farming these decorative light sources."
     },
     "minecraft:camel": {
         id: "minecraft:camel",
@@ -313,14 +303,13 @@ export const passiveMobs = {
             groupSize: "2-3 (world generation), 2-4 (wandering)"
         },
         behaviorTraits: [
-            "Follows players holding wheat or similar foods",
-            "Can be dyed 16 different colors using dyes",
+            "Follows players holding wheat and can be bred to produce offspring",
+            "Can be dyed in 16 different colors using various dyes",
             "Regrows wool after eating grass blocks or tall grass",
-            "Makes grass blocks beneath them turn into dirt blocks",
-            "Can be bred with wheat to produce baby sheep",
-            "Baby sheep inherit parent's colors with chance of mixing",
-            "More likely to spawn in light colors (white, gray, black, brown)",
-            "Rare pink sheep have 0.164% or approximately 1 in 600 spawn rate"
+            "Eating grass causes the block beneath them to turn into dirt",
+            "Baby sheep inherit parent colors with a mechanic for color mixing",
+            "Most commonly spawns in white, gray, light gray, black, or brown",
+            "Extremely rare pink sheep have a 0.164% chance to spawn naturally"
         ],
         drops: [
             { item: "White Wool", chance: "1 (if not sheared)" },
@@ -384,21 +373,19 @@ export const passiveMobs = {
             groupSize: "2-3"
         },
         behaviorTraits: [
-            "Neutral mob that rams players and mobs when they are stationary for a few seconds or when provoked",
-            "Can jump up to 10 blocks high, making them excellent climbers",
-            "Rams into players and mobs when specific conditions are met",
-            "Can be bred with wheat",
-            "Drops goat horns when ramming into solid blocks",
-            "Has two variants: regular and screaming goat (rare)",
-            "Screaming goats make loud noises when ramming",
-            "Can climb steep terrain and jump over obstacles",
-            "Avoids cliffs and dangerous drops"
+            "Neutral mob that rams stationary players and mobs when provoked or after a few seconds",
+            "Can jump up to 10 blocks high to easily navigate steep mountains and obstacles",
+            "Drops goat horns when ramming into solid blocks such as stone or logs",
+            "Can be bred with wheat to produce baby goats",
+            "Exists as a rare screaming variant which is much more aggressive and rams more frequently",
+            "Screaming goats make loud and distinctive noises when preparing to ram targets",
+            "Intelligently avoids walking off cliffs or taking dangerous fall damage"
         ],
         drops: [
             { item: "Goat Horn", chance: "When ramming into solid blocks" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Goats are agile neutral mobs that spawn in mountainous biomes. They are known for their incredible jumping ability, capable of leaping up to 10 blocks high, making them excellent climbers and navigators of steep terrain. Goats are generally passive but become aggressive when provoked, ramming into players and mobs with their horns. When they ram into solid blocks, they have a chance to drop goat horns, which can be used to craft various items. Goats come in two variants: regular goats and rare screaming goats that make loud noises when ramming. They can be bred with wheat and are valuable for their unique drops and entertaining behavior in mountainous environments."
+        description: "Goats are agile neutral mobs found in mountain biomes. They are skilled climbers capable of jumping up to 10 blocks high. While generally passive, they occasionally ram players or other mobs. If a goat hits a solid block while ramming, it may drop a goat horn, used for sound signaling. Goats have two variants: the common goat and the rare, noisy screaming goat. They can be bred using wheat. Their unique jumping and ramming behaviors make them a distinct part of high-altitude environments."
     },
     "minecraft:glow_squid": {
         id: "minecraft:glow_squid",
@@ -422,10 +409,9 @@ export const passiveMobs = {
             "Swims in groups and emits light particles",
             "Cannot be bred by players",
             "Drops glow ink sacs when killed",
-            "Glows continuously (visual effect only)",
+            "Glow is purely visual and does not provide actual light illumination",
             "Can be led with leads",
-            "Does not attack players or other mobs",
-            "Glow is purely visual and does not provide actual light illumination"
+            "Does not attack players or other mobs"
         ],
         drops: [
             { item: "Glow Ink Sac", chance: "1-3" },
@@ -454,17 +440,16 @@ export const passiveMobs = {
             "Naturally spawn on lava in the Nether",
             "Immune to fire and lava damage",
             "Can walk on lava surfaces",
-            "Can be ridden with a saddle and controlled with warped fungus on a stick",
-            "Breed with warped fungus",
-            "Attracted to and follows players holding warped fungus",
-            "Adults can be ridden; babies cannot",
+            "Ridable with a saddle and controlled with warped fungus on a stick",
+            "Breed with and follow players holding warped fungus",
+            "Adults can be ridden while babies cannot",
             "Shiver and move slower when out of lava for extended periods"
         ],
         drops: [
             { item: "String", chance: "2-5" },
             { item: "Saddle", chance: "If equipped" }
         ],
-        description: "Striders are unique passive mobs native to the Nether dimension, distinguished by their ability to walk on lava as if it were solid ground. These lanky creatures spawn naturally on lava surfaces throughout all Nether biomes, making them the perfect transportation method for navigating the treacherous lava-filled landscape. Striders are completely immune to fire and lava damage, allowing them to traverse these hazards effortlessly. Players can saddle adult striders and control them using warped fungus on a stick, creating an essential mode of transportation for Nether exploration. When removed from lava for extended periods, striders begin to shiver and move more slowly, emphasizing their dependency on the molten environment. They can be bred using warped fungus, and like other passive mobs, baby striders follow their parents. Their unique lava-walking ability and practical transportation utility make striders invaluable for any player seeking to explore the Nether's vast and dangerous terrain."
+        description: "Striders are passive mobs native to the Nether that can walk on lava. They are immune to fire and lava damage, making them the primary way to traverse lava oceans. Players can ride adult striders using a saddle and control them with a warped fungus on a stick. When outside of lava, striders change color to purple, shiver, and move much slower. They can be bred using warped fungus, and babies sometimes spawn riding on an adult's head. Their ability to safely cross molten hazards makes them invaluable for Nether exploration."
     },
     "minecraft:mooshroom": {
         id: "minecraft:mooshroom",
@@ -497,6 +482,6 @@ export const passiveMobs = {
             { item: "Leather", chance: "0-1" },
             { item: "Red Mushroom", chance: "0-2" }
         ],
-        description: "Mooshrooms are rare, mushroom-covered variants of cows that spawn exclusively in the rare Mushroom Fields biome. These distinctive mobs have red mushrooms growing on their backs and serve as both a source of regular beef and leather, as well as red mushrooms for brewing and cooking. Players can shear mooshrooms to obtain red mushrooms and convert them into regular cows, though this process is prevented if the mooshroom has a baby nearby. The most unique aspect of mooshrooms is their ability to produce mushroom stew when milked with a bowl, creating a renewable source of this hunger-restoring food item. They behave identically to regular cows in all other aspects, including breeding with wheat and following players holding wheat. Due to their exclusive spawn location in the rare Mushroom Fields biome, mooshrooms are a prized discovery for players seeking to establish sustainable mushroom farming operations."
+        description: "Mooshrooms are rare variants of cows found exclusively in Mushroom Fields biomes. These mushroom-covered mobs provide beef and leather, but offer a unique benefit: milking them with a bowl yields mushroom stew. Players can shear a mooshroom to obtain red mushrooms, which transforms the mob into a regular cow. They behave like cows and are bred with wheat. If struck by lightning, a red mooshroom becomes a brown variant, which can produce suspicious stew if fed a flower before milking. They are a prized discovery for players seeking infinite food sources."
     }
 };

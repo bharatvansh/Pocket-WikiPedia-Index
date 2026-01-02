@@ -250,6 +250,14 @@ Use these codes for `themeColor`:
 > Missing required fields will cause the validation to fail!
 > Always ensure you add all suitable fields.
 
+### Content Constraints
+
+> [!IMPORTANT]
+> The following field limits are strictly enforced by the validation system:
+> - **Description**: Must be under 600 characters.
+> - **Behavior Traits** (Mobs): Maximum 7 entries. Each trait must be under 120 characters.
+> - **Special Notes** (Items): Maximum 7 entries. Each note must be under 120 characters.
+
 ### ID Format
 
 All IDs must:

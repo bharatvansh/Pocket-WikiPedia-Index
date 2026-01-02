@@ -3,7 +3,7 @@
 
 import { world } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { searchIndex } from "./data/search/index.js";
+import { searchIndex, indexCounts } from "./data/search/index.js";
 import { getBlockDetails } from "./data/providers/blocks/index.js";
 import { getItemDetails } from "./data/providers/items/index.js";
 import { getMobDetails } from "./data/providers/mobs/index.js";
@@ -39,11 +39,11 @@ world.afterEvents.itemUse.subscribe((event) => {
  * @param {import("@minecraft/server").Player} player
  */
 function showMainMenu(player) {
-    // Count entries by category
-    const blockCount = searchIndex.filter(e => e.category === "block").length;
-    const itemCount = searchIndex.filter(e => e.category === "item").length;
-    const mobCount = searchIndex.filter(e => e.category === "mob").length;
-    const totalCount = searchIndex.length;
+    // Use pre-computed counts (no more filtering on every menu open!)
+    const blockCount = indexCounts.blocks;
+    const itemCount = indexCounts.items;
+    const mobCount = indexCounts.mobs;
+    const totalCount = indexCounts.total;
 
     const form = new ModalFormData()
         .title("§l Pocket Wikipedia")

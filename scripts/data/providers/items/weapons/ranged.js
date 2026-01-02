@@ -54,14 +54,11 @@ export const rangedWeapons = {
             ingredients: ["Stick x3", "String x2", "Iron Ingot x1", "Tripwire Hook x1"]
         },
         specialNotes: [
-            "Base damage is 9 (higher than an uncharged bow)",
-            "Longer load time (1.25s) than a bow but holds the charge in inventory",
-            "Can shoot Firework Rockets (explosive with Firework Stars)",
-            "Enchantments: Quick Charge (faster reload), Multishot (3 arrows), Piercing (shoot through enemies)",
-            "Exclusive enchantments: Multishot, Piercing, Quick Charge",
-            "Cannot have Multishot and Piercing on the same crossbow",
-            "Durability is 465 (matches Java Edition since 1.16)",
-            "Dropped by Pillagers and Piglins"
+            "Base damage 9; loads slower (1.25s) but holds charge in inventory",
+            "Shoots Arrows or Firework Rockets (explosive if crafted with Star)",
+            "Exclusive Enchants: Multishot (3 shots), Piercing (penetrates mobs), Quick Charge",
+            "Cannot combine Multishot and Piercing",
+            "Dropped by Pillagers and Piglins; has 465 durability"
         ],
         description: "The Crossbow is a powerful ranged weapon that offers distinct advantages over the traditional bow. It takes longer to load but can hold a charged shot even when placed in the inventory, allowing for instant firing when drawn. Crossbows have unique enchantments like Multishot for crowd control and Piercing for hitting multiple enemies in a line. They can also fire firework rockets for explosive area damage. While they lack the raw damage potential of a Power V bow, their utility and special enchantments make them a versatile choice for combat."
     },

@@ -32,7 +32,7 @@ export const miscDecorativeBlocks = {
             dimension: "Overworld",
             yRange: "Cherry Grove biome"
         },
-        description: "Pink Petals are a delicate decorative block introduced in Minecraft 1.20 Trails & Tales update, found naturally in the cherry grove biome. These translucent pink petals generate in clusters on grass blocks, creating a stunning floral carpet effect reminiscent of cherry blossom trees. Pink petals can be placed in four different stages of density on soil-like blocks including dirt, grass, moss, and mud, allowing players to create beautiful layered flower beds or gradually build up to a full petal coverage. They are renewable, as cherry trees can be grown from saplings and petals can be harvested or bone meal can be used to generate them naturally. Pink petals function identically to other flowers regarding bee behavior, attracting bees and allowing them to be pollinated. Pink petals can be crafted directly into Pink Dye in a 1:1 ratio. Their unique transparency and ability to stack up to four times in a single block position make them an excellent choice for detailed landscaping, garden paths, or adding a soft pink accent to builds."
+        description: "Pink Petals are decorative blocks found in Cherry Grove biomes. Introduced in version 1.20, they grow in clusters of up to four on a single block, creating a layered floral carpet. They can be placed on dirt, grass, moss, and mud. These petals are renewable; using bone meal increases their density or spreads them to nearby grass. They attract and pollinate bees and can be crafted directly into Pink Dye. Their unique stacking ability and soft aesthetic make them ideal for detailed landscaping, garden paths, and adding floral accents to builds."
     },
     "minecraft:amethyst_block": {
         id: "minecraft:amethyst_block",
@@ -74,7 +74,7 @@ export const miscDecorativeBlocks = {
             dimension: "Overworld",
             yRange: "Amethyst Geodes (Y -58 to 30)"
         },
-        description: "Budding Amethyst is a special block found in the inner layer of amethyst geodes that periodically grows amethyst buds and amethyst clusters on its sides. Unlike most blocks, it drops nothing when broken and is unobtainable in Survival mode even with Silk Touch, so naturally generated geodes remain valuable long-term resources for farming amethyst shards. In Bedrock Edition, amethyst buds can also form into flowing water, replacing the water block as they grow. Because it is the only block that can generate amethyst clusters, players typically build geode-based farms around it instead of using it as a building material."
+        description: "Budding Amethyst is a rare block found in amethyst geodes that periodically grows amethyst buds and clusters on its sides. It is unobtainable in Survival mode, dropping nothing even if broken with Silk Touch. This ensures geodes remain valuable, permanent sites for farming amethyst shards. In Bedrock Edition, buds can grow into flowing water. Since it is the only block capable of producing amethyst clusters, players generally build dedicated farms around these blocks rather than attempting to relocate or use them for building."
     },
     "minecraft:prismarine": {
         id: "minecraft:prismarine",
@@ -179,7 +179,7 @@ export const miscDecorativeBlocks = {
             dimension: "Overworld",
             yRange: "Pale Garden biome"
         },
-        description: "The Creaking Heart is a unique passive mob spawner introduced in Minecraft Bedrock Edition 1.21.50, found exclusively in Pale Garden biomes. This ethereal, pulsing block is the source of the Creaking mob, a hostile block-like creature that activates when it detects a player within its line of sight. The Creaking Heart must be placed between two vertically aligned Pale Oak Logs to function properly and spawn Creakings. When in low-light conditions, the heart pulses with a glowing orange color and summons Creakings to defend its position. This block adds a new layer of atmospheric horror to Minecraft, encouraging players to approach Pale Garden structures with caution and awareness of sightlines."
+        description: "The Creaking Heart is a block found in Pale Garden biomes that spawns the Creaking, a hostile entity that only moves when not being watched. For the heart to activate, it must be placed between two vertically aligned Pale Oak Logs. During the night or in low-light, it pulses orange and summons Creakings to defend its location. Crucially, the Creaking cannot be damaged directly; players must locate and destroy the pulsing Heart to defeat it. This adds a strategic, sight-based challenge to exploring the Pale Garden."
     },
     "minecraft:resin_block": {
         id: "minecraft:resin_block",
@@ -200,7 +200,7 @@ export const miscDecorativeBlocks = {
             dimension: "None",
             yRange: "Crafted only"
         },
-        description: "The Block of Resin is a vibrant, solid orange block introduced in Minecraft Bedrock Edition 1.21.50, crafted by combining nine resin clumps in a 3x3 grid. Resin clumps are a unique resource obtained from the Creaking Heart when it is attacked or when a Creaking mob is struck while linked to its heart. This block can be used for decoration or further crafted into resin bricks for a more refined architectural look. Significantly, the Block of Resin is a critical component in the creation of a Creaking Heart, which is crafted using one Block of Resin and two Pale Oak Logs, allowing players to spawn and control the mysterious Creaking mob in their own builds."
+        description: "The Block of Resin is a vibrant orange block crafted from nine resin clumps. Clumps are dropped by a Creaking Heart when it or its linked Creaking mob is attacked. Beyond decoration, the block can be refined into resin bricks or used as a key ingredient in crafting a Creaking Heart (combined with two Pale Oak Logs). This allows players to manually spawn and control the mysterious Creaking mob. Introduced in Minecraft 1.21.50, it is a central resource for players exploring the Pale Garden's unique mechanics."
     },
     "minecraft:copper_bars": {
         id: "minecraft:copper_bars",
@@ -221,6 +221,6 @@ export const miscDecorativeBlocks = {
             dimension: "None",
             yRange: "Crafted only"
         },
-        description: "Copper Bars are a decorative fencing block introduced in Minecraft Bedrock Edition 1.21.110 as part of The Copper Age update. Functionally identical to iron bars, copper bars form transparent barriers that players and mobs can pass through, making them ideal for windows, cages, and architectural details. Copper bars possess a hardness of 5.0 and blast resistance of 6.0, requiring at least a wooden pickaxe to mine efficiently. Like other copper blocks, copper bars undergo oxidation over time, progressing through four distinct stages: unoxidized, exposed, weathered, and oxidized. The oxidation process gradually transforms the bars from bright orange-copper to teal-green, allowing for creative aging effects in builds. Players can wax copper bars with honeycomb to preserve their current oxidation state indefinitely. Lightning strikes and axes can scrape away oxidation, allowing players to revert bars to earlier stages. Copper bars can connect to solid blocks and other bars, creating complex window patterns, jail cell designs, or decorative screens while providing the aesthetic appeal of copper's natural aging process."
+        description: "Copper bars are decorative fencing blocks with a hardness of 5.0 and blast resistance of 6.0, harvested with a wooden pickaxe. Like iron bars, they connect to adjacent blocks to form barriers. They feature four stages of oxidation (unoxidized, exposed, weathered, and oxidized), shifting from orange to teal. Players can use honeycomb to wax bars and lock their appearance or use axes and lightning to scrape away oxidation layers. They connect to solid blocks and other bars, providing a dynamic, aging aesthetic for windows, cages, and intricate structural designs."
     }
 };

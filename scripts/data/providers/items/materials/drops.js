@@ -128,7 +128,7 @@ export const mobDrops = {
             "Required to craft Wolf Armor, which provides wolves with 11 armor points",
             "Using an armadillo scute on a wolf wearing damaged armor repairs 8 durability points"
         ],
-        description: "Armadillo Scutes are protective plating materials introduced in Minecraft 1.21, dropped periodically by armadillos or obtained by brushing them. These scutes are exclusively used to craft Wolf Armor, a new defensive equipment that can be equipped on tamed wolves to significantly increase their survivability. When wolves wear Wolf Armor, they gain substantial protection from damage, and the armor can be repaired by using additional armadillo scutes directly on the armored wolf. The armadillo's unique behavior of curling into a ball when threatened adds an engaging mechanic to obtaining these valuable scutes."
+        description: "Armadillo Scutes are materials introduced in Minecraft 1.21, dropped by armadillos or obtained by brushing them. They are primarily used to craft Wolf Armor, a defensive item that significantly boosts the survivability of tamed wolves. While equipped, Wolf Armor absorbs damage and can be repaired by using additional scutes on the armored wolf. Armadillos themselves curl into a ball when they feel threatened, but they can still be brushed for scutes. This item is vital for protecting canine companions from the various hazards found in the game world."
     },
     "minecraft:resin_clump": {
         id: "minecraft:resin_clump",
@@ -153,7 +153,7 @@ export const mobDrops = {
             "Added in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden biome content",
             "The Resin Clump has a vibrant orange color matching the Creaking aesthetic"
         ],
-        description: "Resin Clumps are a unique resource material introduced in Minecraft Bedrock Edition 1.21.50, obtained exclusively from the Creaking Heart and Creaking mobs found in Pale Garden biomes. When a player attacks a Creaking Heart or strikes a Creaking mob while it remains linked to its heart, 1-3 Resin Clumps are dropped as a reward. These orange, resinous clumps serve as the primary crafting material for creating Blocks of Resin in a 3x3 crafting grid or smelting them in a furnace to create Resin Bricks. The process of obtaining Resin Clumps requires players to engage with the unique mechanics of the Creaking mob, creating an interactive harvesting experience tied to the atmospheric horror elements of the Pale Garden. This resource enables players to incorporate the distinctive orange resin aesthetic into their constructions while reproducing one of the 1.21 update's most memorable new features."
+        description: "Resin Clumps are resources obtained from the Creaking Heart and Creaking mobs in Pale Garden biomes. Attacking a Creaking Heart or a linked Creaking drops 1-3 clumps. These are used to craft Blocks of Resin (3x3 grid) or smelted into Resin Bricks. Introduced in the 1.21 update, this material allows players to incorporate the unique orange aesthetic of the Pale Garden into their builds. The harvesting process is tied to the interactive mechanics of the Creaking mob, rewarding players for engaging with this atmospheric threat."
     },
     "minecraft:blaze_rod": {
         id: "minecraft:blaze_rod",
@@ -170,18 +170,13 @@ export const mobDrops = {
             ingredients: ["Dropped by Blazes in Nether fortresses"]
         },
         specialNotes: [
-            "Blazes drop 0-1 Blaze Rods on death (up to 4 with Looting III in Bedrock Edition)",
-            "One Blaze Rod crafts into two Blaze Powder",
-            "Blaze Powder is essential for brewing potions",
-            "Blaze Rods can be used as furnace fuel, smelting 12 items per rod",
-            "Required to craft Brewing Stand (1 Blaze Rod + 3 Cobblestone/Blackstone/Cobbled Deepslate)",
-            "Required to craft End Rods (1 Blaze Rod + 1 Popped Chorus Fruit)",
-            "Required to craft Copper Bulbs (1 Blaze Rod + 3 Copper Blocks + 1 Redstone Dust)",
-            "Blaze Powder is used to craft Eyes of Ender for finding strongholds",
-            "Blazes spawn exclusively in Nether fortresses",
-            "Essential for potion brewing and accessing the End dimension"
+            "Dropped by Blazes (0-1; up to 4 with Looting); spawns in Nether Fortresses",
+            "Crafts Blaze Powder (2x), Brewing Stand, End Rods, and Copper Bulbs",
+            "Furnace fuel: smelts 12 items per rod",
+            "Blaze Powder is essential for Eyes of Ender and potions",
+            "Critical item for accessing the End dimension"
         ],
-        description: "Blaze Rods are essential Nether materials dropped exclusively by Blazes, the fiery hostile mobs that spawn in Nether fortresses. Each Blaze has a chance to drop 0-1 Blaze Rods upon death, with Looting III enchantment increasing the maximum drop to 4 rods in Bedrock Edition. These blazing-hot rods serve multiple critical functions in Minecraft progression: they are smelted into Blaze Powder, the fundamental ingredient for brewing potions and crafting Eyes of Ender. A single Blaze Rod produces two Blaze Powder, and rods can also be used directly as furnace fuel, smelting 12 items per rod. The Brewing Stand, essential for all potion brewing, requires one Blaze Rod and three stone-tier blocks to craft. Beyond brewing, Blaze Rods are direct crafting ingredients for End Rods, decorative light sources for End Cities, and Copper Bulbs, toggleable light sources introduced in the Tricky Trials update. Blaze Powder combines with Ender Pearls to create Eyes of Ender, which are necessary for locating and activating End Portals to access the End dimension and defeat the Ender Dragon. Without Blaze Rods, players cannot brew potions or reach the End, making them one of the most important progression items in the game."
+        description: "Blaze Rods are essential items dropped by Blazes in Nether fortresses. They are primarily used to craft Blaze Powder, which is required for brewing potions and making Eyes of Ender to reach the End. A single rod yields two powder or can be used as fuel to smelt 12 items. They are also a key component in crafting Brewing Stands, End Rods, and Copper Bulbs. Because they are necessary for both high-level alchemy and accessing the Ender Dragon boss fight, Blaze Rods are a critical milestone in survival gameplay. Looting enchantments increase the drop rate from Blazes."
     },
     "minecraft:nautilus_shell": {
         id: "minecraft:nautilus_shell",
@@ -204,7 +199,7 @@ export const mobDrops = {
             "Essential for crafting Conduits (8 Nautilus Shells + 1 Heart of the Sea)",
             "Unlike some other shells, it cannot be placed as a block"
         ],
-        description: "The Nautilus Shell is a beautiful, spiral-patterned item found throughout the oceans of Minecraft. It serves as a critical component in late-game underwater exploration, as eight of these shells must be combined with a Heart of the Sea to craft a Conduit. Conduits provide players with the 'Conduit Power' effect, granting water breathing, night vision, and increased mining speed when submerged. Players can obtain nautilus shells through several methods: they are a rare treasure that can be caught while fishing, can be purchased from Wandering Traders for emeralds, or can be looted from Drowned mobs who are occasionally seen clutching them in their hands. Because of their necessity for building permanent underwater bases, nautilus shells are highly valued by ocean-dwelling players."
+        description: "The Nautilus Shell is a spiral-patterned item essential for underwater exploration. Combining eight shells with a Heart of the Sea creates a Conduit, which provides the Conduit Power effect, granting players water breathing, night vision, and increased mining speed while submerged. These shells can be obtained through three primary methods: as a rare treasure caught while fishing, purchased from Wandering Traders for emeralds, or dropped by Drowned mobs that are occasionally spawned holding them. They are vital for players looking to establish permanent underwater bases."
     },
     "minecraft:slime_ball": {
         id: "minecraft:slime_ball",
@@ -221,14 +216,10 @@ export const mobDrops = {
             ingredients: ["Dropped by Slimes", "Sneezed by Baby Pandas", "Sold by Wandering Traders"]
         },
         specialNotes: [
-            "Primary drop from Slimes (small size)",
-            "Used to craft Sticky Pistons (Slimeball + Piston)",
-            "Used to craft Leads (Slimeball + 4 String)",
-            "Used to craft Magma Cream (Slimeball + Blaze Powder)",
-            "Used to craft Slime Blocks (9 Slimeballs)",
-            "Key ingredient for Redstone contraptions requiring sticky mechanics",
-            "Baby Pandas have a small chance (1/700) to drop one when they sneeze",
-            "Wandering Traders may sell them for 4 Emeralds"
+            "Dropped by Slimes, sneezed by Baby Pandas (rare), or sold by Wandering Traders",
+            "Crafts Sticky Pistons, Slime Blocks (9x), Leads, and Magma Cream",
+            "Essential for redstone machines and sticky mechanics",
+            "Used to breed Frogs and accelerate Tadpole growth"
         ],
         description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as the breeding food for frogs and a growth accelerant for tadpoles."
     }
