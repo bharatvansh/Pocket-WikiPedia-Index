@@ -54,5 +54,28 @@ export const gems = {
             "In Bedrock Edition, they were changed from Common to Uncommon rarity in 1.21.30"
         ],
         description: "Echo Shards are rare items found exclusively in Ancient City loot chests within the Deep Dark. These dark, shimmering shards are the primary component needed to craft a Recovery Compass. By surrounding a standard compass with eight shards, players create a tool that points to the location of their last death, aiding in item retrieval. Because they only spawn in dangerous, Warden-guarded structures, they are considered a valuable late-game resource."
+    },
+    "minecraft:prismarine_crystals": {
+        id: "minecraft:prismarine_crystals",
+        name: "Prismarine Crystals",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sea Lanterns for underwater lighting",
+            secondaryUse: "Ingredient for brewing mundane potions"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Guardians drop 0-3 crystals; Elder Guardians drop 0-4 crystals (increased by Looting)",
+            "Used to craft Sea Lanterns (4 crystals + 4 Prismarine Shards)",
+            "Can be brewed into mundane potions in a brewing stand",
+            "Renewable via Guardian farming in Ocean Monuments",
+            "Sea Lanterns provide light level 15 underwater"
+        ],
+        description: "Prismarine Crystals are luminous teal items dropped by Guardians and Elder Guardians in Ocean Monuments. These crystals serve as a critical component for crafting Sea Lanterns, which provide powerful light level 15 illumination for underwater exploration. A single Sea Lantern requires four crystals combined with four Prismarine Shards. While they have minor utility in potion brewing to create mundane potions, their primary value lies in their role as an essential renewable resource for permanent underwater lighting and construction projects."
     }
 };

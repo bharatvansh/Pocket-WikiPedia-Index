@@ -572,5 +572,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_hide",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:prismarine_crystals",
+        name: "Prismarine Crystals",
+        category: "item",
+        icon: "textures/items/prismarine_crystals",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        category: "item",
+        icon: "textures/items/ghast_tear",
+        themeColor: "§c" // white/tear-like
+    },
+    {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        category: "item",
+        icon: "textures/items/shulker_shell",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:spider_eye",
+        name: "Spider Eye",
+        category: "item",
+        icon: "textures/items/spider_eye",
+        themeColor: "§c" // red
     }
 ];

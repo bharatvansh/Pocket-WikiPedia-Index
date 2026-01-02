@@ -269,5 +269,79 @@ export const mobDrops = {
             "Small rabbits are quick and difficult to farm but provide useful drops"
         ],
         description: "Rabbit Hide is a skin material dropped by rabbits when killed, typically dropping 0-2 hides per rabbit with increased yields from Looting enchantments. While rabbits are small and fast, their hides provide a renewable source of leather, particularly valuable in biomes where cows are scarce or absent. Four rabbit hides can be crafted into a single piece of leather in a 2x2 crafting grid, which can then be used to create books, item frames, and leather armor. This makes rabbit farming a viable alternative for players who struggle to find cattle in their world."
+    },
+    "minecraft:ghast_tear": {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Regeneration",
+            secondaryUse: "Crafting End Crystals for respawning the Ender Dragon"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts upon death"]
+        },
+        specialNotes: [
+            "Ghasts have a 100% chance to drop 0-1 Ghast Tears (increased by Looting)",
+            "Primary brewing ingredient for Potions of Regeneration (Awkward Potion + Ghast Tear)",
+            "Used to craft End Crystals (7 Glass + 1 Ghast Tear + 1 Eye of Ender)",
+            "End Crystals can be used to respawn and heal the Ender Dragon",
+            "Also used to craft Dried Kelp Blocks in Bedrock Edition"
+        ],
+        description: "Ghast Tears are rare items dropped by Ghasts in the Nether. They are essential brewing ingredients used to create Potions of Regeneration, which restore health over time. A single tear is brewed with an Awkward Potion to produce this vital healing potion. Beyond alchemy, Ghast Tears are a key component in crafting End Crystals, used to respawn the Ender Dragon for multiple fights. Because Ghasts are difficult to hit with their ranged fireball attacks, collecting these tears represents a significant challenge for Nether explorers."
+    },
+    "minecraft:shulker_shell": {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Shulker Boxes for portable storage",
+            secondaryUse: "None - exclusive to Shulker Box crafting"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Shulkers upon death"]
+        },
+        specialNotes: [
+            "Shulkers have a 50% chance to drop 0-1 shells (increased to 100% with Looting III)",
+            "2 Shulker Shells are required to craft 1 Shulker Box",
+            "Shulker Boxes function as portable chests that retain items when broken",
+            "Essential for large inventory management during exploration and base building",
+            "Found only in End Cities and End Ships"
+        ],
+        description: "Shulker Shells are defensive armor plating dropped by Shulkers in the End dimension. These shells are the primary material for crafting Shulker Boxes, which function as portable storage containers that retain their inventory when broken. A single box requires two shells combined with a regular chest. Shulker Boxes can be dyed in any of 16 colors and are invaluable for transporting large quantities of items during mining expeditions or base relocation. Because Shulker spawning is limited to End Cities, obtaining enough shells represents the primary challenge of endgame storage solutions."
+    },
+    "minecraft:spider_eye": {
+        id: "minecraft:spider_eye",
+        name: "Spider Eye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Poison",
+            secondaryUse: "Crafting Fermented Spider Eye for potion corruption"
+        },
+        food: {
+            hunger: 2,
+            saturation: 3.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Spiders, Cave Spiders, and Witches"]
+        },
+        specialNotes: [
+            "Spiders and Cave Spiders have a 100% chance to drop 0-2 eyes (increased by Looting)",
+            "Witches drop 0-6 items including Spider Eyes (increased by Looting)",
+            "Eating a Spider Eye causes Poison effect for 4 seconds (2 hearts damage)",
+            "Brewed with Awkward Potion to create Potion of Poison",
+            "Used with Brown Mushroom and Sugar to craft Fermented Spider Eye",
+            "Can be fed to Armadillos to breed them without causing poison effect"
+        ],
+        description: "Spider Eyes are common items dropped by Spiders, Cave Spiders, and Witches. While they restore 2 hunger points, they inflict Poison for 4 seconds, making them generally inedible in combat. Their true value lies in alchemy: Spider Eyes are brewed with Awkward Potions to create Potions of Poison, dealing damage over time to enemies. They are also a key ingredient for crafting Fermented Spider Eyes, which corrupt potions into negative effects and create the essential Potion of Weakness for curing Zombie Villagers. Despite their toxicity, Spider Eyes can be safely fed to Armadillos for breeding."
     }
 };
