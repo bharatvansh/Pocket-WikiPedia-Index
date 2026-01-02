@@ -593,5 +593,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/ancient_debris_side",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:sculk_vein",
+        name: "Sculk Vein",
+        category: "block",
+        icon: "textures/blocks/sculk_vein",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:sculk_sensor",
+        name: "Sculk Sensor",
+        category: "block",
+        icon: "textures/blocks/sculk_sensor_top",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        category: "block",
+        icon: "textures/blocks/ochre_froglight_side",
+        themeColor: "§6" // gold/yellow-orange
     }
 ];
