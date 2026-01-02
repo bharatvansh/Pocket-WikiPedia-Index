@@ -593,5 +593,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/ancient_debris_side",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:gilded_blackstone",
+        name: "Gilded Blackstone",
+        category: "block",
+        icon: "textures/blocks/gilded_blackstone",
+        themeColor: "§6" // gold/black
+    },
+    {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        category: "block",
+        icon: "textures/blocks/basalt_side",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        category: "block",
+        icon: "textures/blocks/soul_soil",
+        themeColor: "§6" // brown
     }
 ];
