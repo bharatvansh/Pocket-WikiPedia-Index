@@ -369,5 +369,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/dragons_breath",
         themeColor: "§d" // pink/purple
+    },
+    {
+        id: "minecraft:clock",
+        name: "Clock",
+        category: "item",
+        icon: "textures/items/clock_item",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:compass",
+        name: "Compass",
+        category: "item",
+        icon: "textures/items/compass_item",
+        themeColor: "§f" // white/silver
+    },
+    {
+        id: "minecraft:lead",
+        name: "Lead",
+        category: "item",
+        icon: "textures/items/lead",
+        themeColor: "§6" // brown/leather
     }
 ];

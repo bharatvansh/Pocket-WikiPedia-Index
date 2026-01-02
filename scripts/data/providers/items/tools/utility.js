@@ -59,5 +59,75 @@ export const utilityTools = {
             "Essential for safe Nether travel across lava oceans"
         ],
         description: "The Warped Fungus on a Stick is a utility tool used to control Striders, the passive mobs found in the Nether's lava oceans. Similar to how a Carrot on a Stick works for pigs, holding this item allows a player to steer a saddled Strider. By right-clicking (or using the item), the player can boost the Strider's speed, which consumes 1 point of the item's 100 durability. It is crafted by combining a Fishing Rod and a Warped Fungus. This tool is essential for traversing the Nether safely, as Striders can walk on lava without taking damage. Unlike Java Edition, in Bedrock Edition, when the item breaks, it reverts to a Fishing Rod rather than disappearing completely."
+    },
+    "minecraft:clock": {
+        id: "minecraft:clock",
+        name: "Clock",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying the time of day (position of the sun and moon).",
+            secondaryUse: "Distracting Piglins."
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x4", "Redstone Dust"]
+        },
+        specialNotes: [
+            "Shows the current in-game time in the Overworld.",
+            "In the Nether and End dimensions, the dial rotates clockwise and does not tell time.",
+            "Can be placed in an Item Frame to create a wall clock.",
+            "Piglins are attracted to clocks and will inspect them if dropped.",
+            "Expert-level Librarian villagers sell clocks.",
+            "Allows players to know when it is safe to sleep (dusk)."
+        ],
+        description: "A Clock is a utility item used to tell the time of day in Minecraft. It displays the position of the sun and moon on its dial, allowing players to determine if it is day or night, which is especially useful when underground. The clock functions correctly only in the Overworld; in the Nether or End, the dial rotates clockwise. Clocks can be crafted using four Gold Ingots and one Redstone Dust. Additionally, Piglins in the Nether are attracted to clocks and will run to inspect them if they are dropped on the ground."
+    },
+    "minecraft:compass": {
+        id: "minecraft:compass",
+        name: "Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the World Spawn point.",
+            secondaryUse: "Can be used on a Lodestone to become a Lodestone Compass."
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x4", "Redstone Dust"]
+        },
+        specialNotes: [
+            "Points to the world spawn point, not the player's bed spawn.",
+            "In the Nether and End, the needle spins wildly unless linked to a Lodestone.",
+            "Can be used to craft a Map or Recovery Compass.",
+            "Expert-level Librarian villagers sell compasses.",
+            "Using a compass on a Lodestone links it to that specific block."
+        ],
+        description: "A Compass is a navigation tool that points to the world spawn point. It is essential for players exploring far from their starting location. By combining a compass with Paper, players can create an Empty Map. In the Nether or End dimensions, the compass needle spins randomly, rendering it useless for direction unless it is used on a Lodestone. When used on a Lodestone, it becomes a Lodestone Compass and points to that specific Lodestone block, allowing for navigation in all dimensions."
+    },
+    "minecraft:lead": {
+        id: "minecraft:lead",
+        name: "Lead",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Leashing and leading passive or neutral mobs.",
+            secondaryUse: "Tying mobs to fence posts."
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["String x4", "Slimeball"]
+        },
+        specialNotes: [
+            "Can be used to lead multiple mobs at once.",
+            "Can leash Boats in Bedrock Edition.",
+            "Breaks if the distance between the player and the mob becomes too great.",
+            "Can be obtained from Wandering Traders or crafted.",
+            "Dropped items from broken leads can be recovered."
+        ],
+        description: "A Lead (also known as a leash) is a tool used to guide passive and neutral mobs, such as horses, cows, and llamas. It can also be used to tie these mobs to a fence post to keep them in place. In Bedrock Edition, leads can even be attached to boats, allowing players to tow them. A lead is crafted using four Strings and a Slimeball. If the player moves too far or too fast from the leashed mob, the lead will break and drop as an item."
     }
 };
