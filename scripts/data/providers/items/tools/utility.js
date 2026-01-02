@@ -228,5 +228,74 @@ export const utilityTools = {
             "Can be obtained from Cows, Mooshrooms, and Goats."
         ],
         description: "A Milk Bucket is a consumable item obtained by using an empty bucket on a cow, mooshroom, or goat. When drunk, it instantly removes all status effects from the player, including both positive ones (like Strength) and negative ones (like Poison or Bad Omen). This makes it extremely useful for countering witches, cave spiders, or the Wither effect. It is also a key ingredient in crafting Cake. Unlike water or lava buckets, milk buckets cannot be placed as a liquid block."
+    },
+    "minecraft:lava_bucket": {
+        id: "minecraft:lava_bucket",
+        name: "Lava Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing a Lava source block",
+            secondaryUse: "Fuel in a Furnace (smelts 100 items)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Bucket on a Lava source"]
+        },
+        specialNotes: [
+            "Acts as a very efficient fuel source, lasting 1000 seconds (smelts 100 items).",
+            "Can be used to create Obsidian (with Water) or Cobblestone/Stone generators.",
+            "Can be dispensed by a Dispenser to place or pick up lava.",
+            "Can be found in Ruined Portal chests.",
+            "Returns an empty Bucket after placing the lava or being used as fuel."
+        ],
+        description: "A Lava Bucket is a tool used to transport and place lava source blocks. It is obtained by using an empty bucket on a lava source. It serves as an excellent fuel source for furnaces, blast furnaces, and smokers, capable of smelting 100 items per bucket—the longest-lasting fuel in the game. Care must be taken when handling lava, as it can cause fire and massive damage to players and structures. It is also essential for creating obsidian or cobblestone generators."
+    },
+    "minecraft:water_bucket": {
+        id: "minecraft:water_bucket",
+        name: "Water Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing a Water source block",
+            secondaryUse: "Extinguishing fires and players on fire"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Bucket on a Water source"]
+        },
+        specialNotes: [
+            "Essential for creating infinite water sources.",
+            "Used to perform 'MLG' water bucket clutches to negate fall damage.",
+            "Can turn lava into obsidian or cobblestone.",
+            "Required for farming to hydrate farmland.",
+            "Can be dispensed by a Dispenser."
+        ],
+        description: "A Water Bucket is one of the most versatile tools in Minecraft, allowing players to transport and place water source blocks. It is obtained by scooping up water with an empty bucket. Players use it for a variety of tasks, including creating infinite water sources, hydrating crops for farming, climbing steep surfaces, and extinguishing fires. It is also famous for the 'water bucket clutch' technique, where players place water beneath them just before landing to completely negate fall damage."
+    },
+    "minecraft:powder_snow_bucket": {
+        id: "minecraft:powder_snow_bucket",
+        name: "Powder Snow Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing a Powder Snow block",
+            secondaryUse: "Trapping mobs or players in freezing snow"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Bucket on Powder Snow"]
+        },
+        specialNotes: [
+            "Powder Snow causes entities inside it to freeze and take damage over time.",
+            "Leather boots prevent the player from sinking into Powder Snow.",
+            "Can be dispensed by a Dispenser.",
+            "Obtained by using a bucket on a Cauldron filled with powder snow (during snowfall).",
+            "Can be used to dampen fall damage."
+        ],
+        description: "A Powder Snow Bucket is a tool used to transport and place blocks of Powder Snow. Unlike regular snow, Powder Snow is a trap block that entities can sink into, causing them to freeze and take damage over time unless they are wearing leather armor. It is obtained by using an empty bucket on a Powder Snow block or a Cauldron filled with snow during a snowy weather event. It allows for the creation of traps and secret entrances, as players wearing leather boots can walk on top of it without sinking."
     }
 };

@@ -432,5 +432,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bucket_milk",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:lava_bucket",
+        name: "Lava Bucket",
+        category: "item",
+        icon: "textures/items/bucket_lava",
+        themeColor: "§c" // Red/Orange
+    },
+    {
+        id: "minecraft:water_bucket",
+        name: "Water Bucket",
+        category: "item",
+        icon: "textures/items/bucket_water",
+        themeColor: "§9" // Blue
+    },
+    {
+        id: "minecraft:powder_snow_bucket",
+        name: "Powder Snow Bucket",
+        category: "item",
+        icon: "textures/items/bucket_powder_snow",
+        themeColor: "§f" // White
     }
 ];
