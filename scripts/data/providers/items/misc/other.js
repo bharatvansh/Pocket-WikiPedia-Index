@@ -295,5 +295,32 @@ export const miscItems = {
             "Does not have durability"
         ],
         description: "The Goat Horn is an instrument item dropped by Goats when they ram into specific hard blocks like logs, stone, packed ice, or ores. There are eight different variants of the horn, each producing a unique sound when used. Four variants (Ponder, Sing, Seek, Feel) are dropped by regular goats, while the other four (Admire, Call, Yearn, Dream) are obtained exclusively from Screaming Goats. When played, the horn emits a loud sound audible up to 256 blocks away, followed by a 7-second cooldown. This makes it an excellent tool for long-distance signaling in multiplayer."
+    },
+    "minecraft:firework_rocket": {
+        id: "minecraft:firework_rocket",
+        name: "Firework Rocket",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Propelling the player while gliding with Elytra",
+            secondaryUse: "Creating decorative explosions in the sky"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Paper", "Gunpowder (1-3)", "Firework Star (optional)"]
+        },
+        specialNotes: [
+            "Flight duration (1-3) depends on the amount of Gunpowder used.",
+            "If crafted with a Firework Star, it explodes with color and shape effects.",
+            "Rockets used for Elytra boosting should not have explosion effects to avoid damaging the player.",
+            "Can be launched from a dispenser or crossbow.",
+            "Explosion effects include: Small Ball, Large Ball, Star-shaped, Creeper-shaped, and Burst."
+        ],
+        description: "The Firework Rocket is a versatile item used for both decorative displays and functional transport. When crafted with Gunpowder and Paper, it creates a simple rocket; adding Firework Stars imparts colorful explosion effects. Its most critical use in survival is powering Elytra flight, providing a speed boost that enables long-distance travel. The duration of the rocket's flight (tier 1-3) is determined by the amount of gunpowder used in crafting."
     }
 };

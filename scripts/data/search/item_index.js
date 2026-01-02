@@ -390,5 +390,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/lead",
         themeColor: "§6" // brown/leather
+    },
+    {
+        id: "minecraft:fishing_rod",
+        name: "Fishing Rod",
+        category: "item",
+        icon: "textures/items/fishing_rod",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:shears",
+        name: "Shears",
+        category: "item",
+        icon: "textures/items/shears",
+        themeColor: "§7" // gray/iron
+    },
+    {
+        id: "minecraft:firework_rocket",
+        name: "Firework Rocket",
+        category: "item",
+        icon: "textures/items/fireworks",
+        themeColor: "§c" // red/colorful
     }
 ];
