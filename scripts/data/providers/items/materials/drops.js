@@ -222,5 +222,28 @@ export const mobDrops = {
             "Used to breed Frogs and accelerate Tadpole growth"
         ],
         description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as the breeding food for frogs and a growth accelerant for tadpoles."
+    },
+    "minecraft:magma_cream": {
+        id: "minecraft:magma_cream",
+        name: "Magma Cream",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Fire Resistance",
+            secondaryUse: "Crafting Magma Blocks"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Slimeball", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Dropped by Magma Cubes upon death",
+            "Obtained by crafting a slimeball and blaze powder together",
+            "Used to brew Potions of Fire Resistance (Awkward Potion + Magma Cream)",
+            "Required to craft Magma Blocks (4x Magma Cream)",
+            "Looting enchantment increases the maximum drop amount from Magma Cubes"
+        ],
+        description: "Magma Cream is a hot, gelatinous substance primarily used in brewing and crafting. It is the essential ingredient for creating Potions of Fire Resistance, making it invaluable for exploring the Nether or swimming in lava. While it can be obtained by hunting Magma Cubes in the Nether, it can also be manually crafted by combining a slimeball with blaze powder. Additionally, four pieces of magma cream can be compacted into a single Magma Block, providing a source of light and a damaging surface for mob traps."
     }
 };

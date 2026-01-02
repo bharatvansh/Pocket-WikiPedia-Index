@@ -417,5 +417,32 @@ export const miscItems = {
             "Does not create an explosion unless hitting TNT"
         ],
         description: "A Fire Charge is a consumable item used to ignite fires or act as a projectile. When used by a player, it immediately starts a fire on a block, similar to flint and steel but with only one use per item. When placed in a dispenser, it is fired as a small fireball that travels in a straight line, setting fire to anything it hits. It is often used in traps, automated defense systems, or as an alternative ignition source when flint is unavailable."
+    },
+    "minecraft:end_crystal": {
+        id: "minecraft:end_crystal",
+        name: "End Crystal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Respawning the Ender Dragon",
+            secondaryUse: "Decorative or as an explosive trap"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Glass x7", "Eye of Ender x1", "Ghast Tear x1"]
+        },
+        specialNotes: [
+            "Can only be placed on obsidian or bedrock blocks",
+            "Heals the Ender Dragon if it is within range",
+            "Explodes violently when attacked, even with a single punch",
+            "Four crystals are required to respawn the Ender Dragon at the exit portal",
+            "Highly dangerous due to large explosion radius and damage"
+        ],
+        description: "An End Crystal is a powerful and volatile item primarily used to respawn the Ender Dragon. To initiate the respawn process, four crystals must be placed on the edges of the exit portal in the End. In addition to their intended purpose, they are often used by players as high-damage explosive traps because they detonate instantly when hit. They can only be placed on obsidian or bedrock blocks. When active in the End, they project a healing beam toward the dragon, making their destruction a priority during the boss fight."
     }
 };
