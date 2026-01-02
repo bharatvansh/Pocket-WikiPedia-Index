@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const interactiveBlocks = {
+    "minecraft:lodestone": {
+        id: "minecraft:lodestone",
+        name: "Lodestone",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Lodestone"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Chests"
+        },
+        description: "A lodestone is a block that can be used to alter compasses to point toward it. It can be used in all three dimensions. When a compass is used on a lodestone, it becomes a Lodestone Compass pointing to that specific block."
+    },
     "minecraft:trial_spawner": {
         id: "minecraft:trial_spawner",
         name: "Trial Spawner",

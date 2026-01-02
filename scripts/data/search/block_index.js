@@ -502,5 +502,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/honeycomb_block",
         themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:magma",
+        name: "Magma Block",
+        category: "block",
+        icon: "textures/blocks/magma",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:lodestone",
+        name: "Lodestone",
+        category: "block",
+        icon: "textures/blocks/lodestone_top",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:target",
+        name: "Target",
+        category: "block",
+        icon: "textures/blocks/target_top",
+        themeColor: "§f" // white
     }
 ];
