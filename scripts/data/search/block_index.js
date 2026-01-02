@@ -35,6 +35,27 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:calcite",
+        name: "Calcite",
+        category: "block",
+        icon: "textures/blocks/calcite",
+        themeColor: "§7" // white/light gray
+    },
+    {
+        id: "minecraft:mossy_cobblestone",
+        name: "Mossy Cobblestone",
+        category: "block",
+        icon: "textures/blocks/mossy_cobblestone",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:end_stone",
+        name: "End Stone",
+        category: "block",
+        icon: "textures/blocks/end_stone",
+        themeColor: "§6" // yellow/tan
+    },
+    {
         id: "minecraft:copper_ore",
         name: "Copper Ore",
         category: "block",

@@ -94,5 +94,47 @@ export const stoneBlocks = {
             yRange: "Trial Chambers"
         },
         description: "Chiseled Tuff is a decorative stone introduced in Minecraft 1.21, carved with patterns resembling trial chamber motifs. It can be crafted from two tuff slabs placed vertically or created in a stonecutter from a single tuff block. Chiseled Tuff shares the same hardness and blast resistance as regular tuff. It generates naturally within Trial Chamber structures and is part of the expanded tuff family, which includes stairs, slabs, walls, and bricks. This block provides builders with a unique pattern for detailed architectural work."
+    },
+    "minecraft:calcite": {
+        id: "minecraft:calcite",
+        name: "Calcite",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Calcite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes (Y -58 to 30) and Stony Peaks"
+        },
+        description: "Calcite is a decorative carbonate mineral block that generates naturally as part of amethyst geodes, appearing between the smooth basalt outer layer and the amethyst cluster inner layer. It also forms in strips within stony peaks biomes. With a hardness of 0.75 and blast resistance of 0.75, calcite is relatively soft and requires only a wooden pickaxe or better to mine. The block has a distinctive white, marble-like appearance that makes it popular for building clean, modern structures and decorative accents. Calcite can be used in note blocks to produce a unique \"base drum\" sound when placed beneath them."
+    },
+    "minecraft:mossy_cobblestone": {
+        id: "minecraft:mossy_cobblestone",
+        name: "Mossy Cobblestone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Monster Rooms, Jungle Pyramids, Pillager Outposts, Ocean Ruins, Villages, Old Growth Taiga, Trial Chambers"
+        },
+        description: "Mossy Cobblestone is a decorative variant of cobblestone with green moss patches on its surface, giving it an aged and weathered appearance. It occurs naturally in monster rooms, jungle pyramids, pillager outposts, cold ocean ruins, plains and taiga villages, old growth pine and spruce taiga biomes as forest rocks, and around trial spawners in trial chambers. Players can also craft it by combining one cobblestone block with one moss block, or by combining vine with cobblestone in Bedrock Edition. With a hardness of 2.0 and blast resistance of 6.0, it provides the same durability as regular cobblestone while offering a more natural, rustic aesthetic perfect for medieval builds, ancient ruins, and garden structures."
     }
 };
