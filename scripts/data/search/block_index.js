@@ -572,5 +572,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pointed_dripstone",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        category: "block",
+        icon: "textures/blocks/basalt_side",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        category: "block",
+        icon: "textures/blocks/smooth_sandstone",
+        themeColor: "§6" // tan/yellow
+    },
+    {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        category: "block",
+        icon: "textures/blocks/netherrack",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:soul_sand",
+        name: "Soul Sand",
+        category: "block",
+        icon: "textures/blocks/soul_sand",
+        themeColor: "§5" // dark purple/brown
     }
 ];
