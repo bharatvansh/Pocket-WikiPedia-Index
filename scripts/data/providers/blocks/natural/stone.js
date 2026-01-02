@@ -136,5 +136,26 @@ export const stoneBlocks = {
             yRange: "Monster Rooms, Jungle Pyramids, Pillager Outposts, Ocean Ruins, Villages, Old Growth Taiga, Trial Chambers"
         },
         description: "Mossy Cobblestone is a decorative variant of cobblestone with green moss patches on its surface, giving it an aged and weathered appearance. It occurs naturally in monster rooms, jungle pyramids, pillager outposts, cold ocean ruins, plains and taiga villages, old growth pine and spruce taiga biomes as forest rocks, and around trial spawners in trial chambers. Players can also craft it by combining one cobblestone block with one moss block, or by combining vine with cobblestone in Bedrock Edition. With a hardness of 2.0 and blast resistance of 6.0, it provides the same durability as regular cobblestone while offering a more natural, rustic aesthetic perfect for medieval builds, ancient ruins, and garden structures."
+    },
+    "minecraft:pointed_dripstone": {
+        id: "minecraft:pointed_dripstone",
+        name: "Pointed Dripstone",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pointed Dripstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
+        },
+        description: "Pointed Dripstone forms stalactites pointing downward from dripstone blocks and stalagmites pointing upward from surfaces. It generates naturally in dripstone caves and Trial Chambers, and can be purchased from wandering traders. Stalactites fall as damaging projectiles when broken, while stalagmites deal extra damage to entities landing on them. When water is above a stalactite, it drips water or lava particles into cauldrons below. Pointed dripstone grows slowly from stalagmites toward stalactites when water is above dripstone block. This decorative block creates cave-like atmospheres."
     }
 };

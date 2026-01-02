@@ -178,5 +178,26 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Honeycomb Block is a decorative building block with a distinctive hexagonal honey-colored pattern. Crafted from four honeycombs arranged in a 2x2 grid, it serves primarily as a decorative element and compact storage for honeycombs. The block features warm golden-orange tones that complement wooden builds and natural designs. Unlike honey blocks, honeycomb blocks do not slow entities and are not sticky. They can be instantly mined with any tool or by hand, making them easy to work with during construction projects."
+    },
+    "minecraft:raw_iron_block": {
+        id: "minecraft:raw_iron_block",
+        name: "Raw Iron Block",
+        hardness: 5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Iron Block (with Silk Touch) or Raw Iron x9 (without)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Iron ore veins (Y -16 to 80) and Trial Chambers"
+        },
+        description: "Raw Iron Block is a compact storage block introduced in Minecraft 1.17, crafted from nine raw iron items in a 3x3 grid. It generates naturally within iron ore veins below Y-level 80 and in Trial Chambers. The block requires a stone pickaxe or better to mine efficiently, dropping itself with Silk Touch or nine raw iron without. Raw iron blocks can be smelted in a furnace or blast furnace to produce iron ingots, making them useful for bulk smelting operations. With a hardness of 5 and blast resistance of 6, they are moderately durable building materials with a distinctive rusted iron texture."
     }
 };
