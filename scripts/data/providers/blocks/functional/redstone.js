@@ -13,5 +13,25 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const redstoneBlocks = {
-    // Add redstone block entries here
+    "minecraft:target": {
+        id: "minecraft:target",
+        name: "Target",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Target"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A target is a block that produces a temporary redstone signal when hit by a projectile. The strength of the signal depends on how close the projectile is to the center of the block."
+    }
 };
