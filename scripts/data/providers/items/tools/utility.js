@@ -129,5 +129,58 @@ export const utilityTools = {
             "Dropped items from broken leads can be recovered."
         ],
         description: "A Lead (also known as a leash) is a tool used to guide passive and neutral mobs, such as horses, cows, and llamas. It can also be used to tie these mobs to a fence post to keep them in place. In Bedrock Edition, leads can even be attached to boats, allowing players to tow them. A lead is crafted using four Strings and a Slimeball. If the player moves too far or too fast from the leashed mob, the lead will break and drop as an item."
+    },
+    "minecraft:fishing_rod": {
+        id: "minecraft:fishing_rod",
+        name: "Fishing Rod",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Catching fish, treasure, and junk items",
+            secondaryUse: "Hooking mobs, players, or items and pulling them"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x3", "String x2"]
+        },
+        specialNotes: [
+            "Can be enchanted with Lure (decreases wait time) and Luck of the Sea (increases treasure chance).",
+            "Used to craft Carrot on a Stick and Warped Fungus on a Stick.",
+            "Hooking an entity costs 5 durability (or more depending on action).",
+            "Can be used to activate pressure plates or tripwires from a distance."
+        ],
+        description: "The Fishing Rod is a versatile tool primarily used for fishing to obtain food, treasure (like enchanted books and nautilus shells), and junk items. It has a durability of 64, matching the Java Edition. Beyond fishing, it can hook onto mobs, players, and items, allowing the user to pull them closer. It is crafted using three sticks and two strings."
+    },
+    "minecraft:shears": {
+        id: "minecraft:shears",
+        name: "Shears",
+        maxStack: 1,
+        durability: 238,
+        enchantable: true,
+        usage: {
+            primaryUse: "Shearing sheep, mooshrooms, and snow golems",
+            secondaryUse: "Harvesting leaves, cobwebs, grass, ferns, dead bushes, and vines"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x2"]
+        },
+        specialNotes: [
+            "Required to obtain Wool from Sheep without killing them (drops 1-3 wool).",
+            "Can be used to break Tripwire without triggering it.",
+            "Used to carve Pumpkins into Carved Pumpkins.",
+            "Can be enchanted with Efficiency, Unbreaking, Mending, and Silk Touch.",
+            "Harvesting blocks like leaves consumes durability, but shearing sheep does not consume durability in Creative mode."
+        ],
+        description: "Shears are a tool used to harvest blocks and items that cannot be obtained by hand or other tools, such as leaves, grass, ferns, dead bushes, vines, and cobwebs. They are essential for obtaining wool from sheep without killing them, yielding 1-3 blocks of wool per shear. Shears are also used to turn pumpkins into carved pumpkins and to harvest honeycombs from bee nests and hives. Crafted from two iron ingots, they have a durability of 238."
     }
 };
