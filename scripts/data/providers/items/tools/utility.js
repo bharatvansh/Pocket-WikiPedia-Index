@@ -297,5 +297,28 @@ export const utilityTools = {
             "Can be used to dampen fall damage."
         ],
         description: "A Powder Snow Bucket is a tool used to transport and place blocks of Powder Snow. Unlike regular snow, Powder Snow is a trap block that entities can sink into, causing them to freeze and take damage over time unless they are wearing leather armor. It is obtained by using an empty bucket on a Powder Snow block or a Cauldron filled with snow during a snowy weather event. It allows for the creation of traps and secret entrances, as players wearing leather boots can walk on top of it without sinking."
+    },
+    "minecraft:axolotl_bucket": {
+        id: "minecraft:axolotl_bucket",
+        name: "Axolotl Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transport and store axolotls",
+            secondaryUse: "Display axolotls in aquariums and builds"
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Water Bucket", "Axolotl"]
+        },
+        specialNotes: [
+            "Can contain any of the 5 axolotl color variants: Lucy (pink), Wild (brown), Gold (yellow), Cyan (blue), and Blue (dark blue).",
+            "Can be obtained by using a water bucket on an axolotl.",
+            "Releases the axolotl when used on a block.",
+            "Non-renewable resource (only obtainable from existing axolotls).",
+            "Useful for transportation of axolotls between biomes or to player builds."
+        ],
+        description: "An Axolotl Bucket is a utility item used to transport and display axolotls. When used on an axolotl, it picks up the mob in its current color variant, storing it safely within the bucket. This allows players to move axolotls between locations, create aquariums, or transport them to breeding facilities. The bucket displays the axolotl's coloration, making it easy to identify different variants. Axolotls are beneficial companions that help players defeat underwater mobs and provide regeneration when the player is swimming nearby."
     }
 };

@@ -453,5 +453,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bucket_powder_snow",
         themeColor: "§f" // White
+    },
+    {
+        id: "minecraft:axolotl_bucket",
+        name: "Axolotl Bucket",
+        category: "item",
+        icon: "textures/items/bucket_axolotl",
+        themeColor: "§d" // Purple/pink (axolotl colors)
+    },
+    {
+        id: "minecraft:item_frame",
+        name: "Item Frame",
+        category: "item",
+        icon: "textures/items/item_frame",
+        themeColor: "§6" // Brown/wood
+    },
+    {
+        id: "minecraft:armor_stand",
+        name: "Armor Stand",
+        category: "item",
+        icon: "textures/items/armor_stand",
+        themeColor: "§6" // Brown/wood
     }
 ];
