@@ -572,5 +572,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pointed_dripstone",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:crying_obsidian",
+        name: "Crying Obsidian",
+        category: "block",
+        icon: "textures/blocks/crying_obsidian",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:shroomlight",
+        name: "Shroomlight",
+        category: "block",
+        icon: "textures/blocks/shroomlight",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:ancient_debris",
+        name: "Ancient Debris",
+        category: "block",
+        icon: "textures/blocks/ancient_debris_side",
+        themeColor: "§8" // dark gray
     }
 ];
