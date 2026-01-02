@@ -404,5 +404,33 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_pufferfish.png",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:cave_spider",
+        name: "Cave Spider",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cave_spider.png",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:magma_cube",
+        name: "Magma Cube",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_magma_cube.png",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:husk",
+        name: "Husk",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_husk.png",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie_villager.png",
+        themeColor: "§8"
     }
 ];
