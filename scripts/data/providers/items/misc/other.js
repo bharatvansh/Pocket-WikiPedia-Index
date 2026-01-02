@@ -322,5 +322,28 @@ export const miscItems = {
             "Explosion effects include: Small Ball, Large Ball, Star-shaped, Creeper-shaped, and Burst."
         ],
         description: "The Firework Rocket is a versatile item used for both decorative displays and functional transport. When crafted with Gunpowder and Paper, it creates a simple rocket; adding Firework Stars imparts colorful explosion effects. Its most critical use in survival is powering Elytra flight, providing a speed boost that enables long-distance travel. The duration of the rocket's flight (tier 1-3) is determined by the amount of gunpowder used in crafting."
+    },
+    "minecraft:saddle": {
+        id: "minecraft:saddle",
+        name: "Saddle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Riding horses, donkeys, mules, and camels",
+            secondaryUse: "Riding pigs and striders (requires steering item)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in chests (Dungeons, Nether Fortresses, etc.)", "Fishing treasure", "Trading with Leatherworker villagers", "Mob drop (Ravager, Strider with Zombified Piglin)"]
+        },
+        specialNotes: [
+            "Required to control Horses, Donkeys, Mules, and Camels.",
+            "Required to ride Pigs (needs Carrot on a Stick to steer).",
+            "Required to ride Striders (needs Warped Fungus on a Stick to steer).",
+            "Cannot be crafted in standard survival (uncraftable).",
+            "Ravagers always drop a saddle on death."
+        ],
+        description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
     }
 };

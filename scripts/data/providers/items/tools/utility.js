@@ -182,5 +182,51 @@ export const utilityTools = {
             "Harvesting blocks like leaves consumes durability, but shearing sheep does not consume durability in Creative mode."
         ],
         description: "Shears are a tool used to harvest blocks and items that cannot be obtained by hand or other tools, such as leaves, grass, ferns, dead bushes, vines, and cobwebs. They are essential for obtaining wool from sheep without killing them, yielding 1-3 blocks of wool per shear. Shears are also used to turn pumpkins into carved pumpkins and to harvest honeycombs from bee nests and hives. Crafted from two iron ingots, they have a durability of 238."
+    },
+    "minecraft:flint_and_steel": {
+        id: "minecraft:flint_and_steel",
+        name: "Flint and Steel",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Igniting blocks, TNT, and Nether Portals",
+            secondaryUse: "Lighting campfires, candles, and creepers"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot", "Flint"]
+        },
+        specialNotes: [
+            "Used to light Nether Portals to travel to the Nether.",
+            "Can ignite TNT, which counts as a player kill if it kills a mob.",
+            "Can be used to detonate Creepers instantly.",
+            "Durability is consumed when successfully igniting a block.",
+            "Enchantable with Unbreaking and Mending."
+        ],
+        description: "Flint and Steel is a tool used to create fire. Its most important use is activating Nether Portals by lighting the obsidian frame. It can also be used to ignite TNT, campfires, and candles. In combat, it can be used to set the ground on fire to damage mobs, or to force a Creeper to explode instantly. It is crafted using one Iron Ingot and one Flint."
+    },
+    "minecraft:milk_bucket": {
+        id: "minecraft:milk_bucket",
+        name: "Milk Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Consuming to remove all status effects",
+            secondaryUse: "Crafting ingredient for Cake"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Bucket on a Cow, Mooshroom, or Goat"]
+        },
+        specialNotes: [
+            "Removes all positive and negative status effects (e.g., Poison, Regeneration, Bad Omen).",
+            "Does not extinguish fire (fire is not a status effect).",
+            "Returns an empty Bucket after drinking or crafting.",
+            "Wandering Traders may drink milk to remove invisibility at night/dawn.",
+            "Can be obtained from Cows, Mooshrooms, and Goats."
+        ],
+        description: "A Milk Bucket is a consumable item obtained by using an empty bucket on a cow, mooshroom, or goat. When drunk, it instantly removes all status effects from the player, including both positive ones (like Strength) and negative ones (like Poison or Bad Omen). This makes it extremely useful for countering witches, cave spiders, or the Wither effect. It is also a key ingredient in crafting Cake. Unlike water or lava buckets, milk buckets cannot be placed as a liquid block."
     }
 };
