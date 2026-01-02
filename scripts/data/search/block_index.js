@@ -154,6 +154,27 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        category: "block",
+        icon: "textures/blocks/tuff_brick_slab",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_stairs",
+        name: "Tuff Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/tuff_brick_stairs",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_wall",
+        name: "Tuff Brick Wall",
+        category: "block",
+        icon: "textures/blocks/tuff_brick_wall",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:heavy_core",
         name: "Heavy Core",
         category: "block",
