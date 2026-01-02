@@ -53,9 +53,9 @@ export const craftingMaterials = {
         },
         specialNotes: [
             "Crafted shapelessly with 1 Spider Eye, 1 Brown Mushroom, and 1 Sugar",
-            "Corrupts positive potions: Speed → Slowness, Night Vision → Invisibility, Healing → Harming, Poison → Harming",
-            "Can be added to Awkward Potion to brew Potion of Weakness",
-            "Can be added to Water Bottle to brew Potion of Weakness directly",
+            "Corrupts positive potions: Speed → Slowness, Night Vision → Invisibility, Healing → Harming",
+            "Corrupts negative potions: Poison → Harming",
+            "Can be added directly to a Water Bottle to brew Potion of Weakness",
             "Potion of Weakness is required to cure Zombie Villagers with a Golden Apple",
             "Essential for both negative combat potions and villager curing mechanics"
         ],
@@ -232,7 +232,7 @@ export const craftingMaterials = {
         enchantable: false,
         usage: {
             primaryUse: "Crafting TNT and Firework Rockets",
-            secondaryUse: "Creating Splash Potions and Time Bombs"
+            secondaryUse: "Creating Splash Potions"
         },
         crafting: {
             recipeType: "Uncraftable",
@@ -241,7 +241,7 @@ export const craftingMaterials = {
         specialNotes: [
             "Creepers drop 0-2 gunpowder (increased by Looting)",
             "Ghasts drop 0-2 gunpowder upon death",
-            "Witches have a chance to drop gunpowder (1.5% per Looting level)",
+            "Witches drop 0-6 items including gunpowder (increased by Looting)",
             "Crafts TNT (4x Sand/Red Sand + 5x Gunpowder) and Firework Rockets (Paper + 1-3 Gunpowder)",
             "Required for Splash Potions (Gunpowder + regular potion)",
             "Found in Dungeon, Desert Temple, Shipwreck, and Woodland Mansion chests",
