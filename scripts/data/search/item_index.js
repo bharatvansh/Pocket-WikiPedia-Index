@@ -495,5 +495,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/armor_stand",
         themeColor: "§6" // Brown/wood
+    },
+    {
+        id: "minecraft:ender_pearl",
+        name: "Ender Pearl",
+        category: "item",
+        icon: "textures/items/ender_pearl",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        category: "item",
+        icon: "textures/items/fire_charge",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:netherite_scrap",
+        name: "Netherite Scrap",
+        category: "item",
+        icon: "textures/items/netherite_scrap",
+        themeColor: "§8"
     }
 ];

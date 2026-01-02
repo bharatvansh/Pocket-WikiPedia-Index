@@ -371,5 +371,51 @@ export const miscItems = {
             "Crafted with 6 Sticks + 1 Stone Slab"
         ],
         description: "The Armor Stand is a decorative entity used to display armor, weapons, and tools. Crafted with sticks and a stone slab, it holds full armor sets and items in either hand. Perfect for organizing gear or creating museum displays, these entities are a staple for builders. Though they typically remain where placed, commands can be used to customize their pose, size, and appearance. Whether used for practical equipment storage or as a creative tool for detailed builds, the armor stand's versatile nature makes it an essential addition to any base."
+    },
+    "minecraft:ender_pearl": {
+        id: "minecraft:ender_pearl",
+        name: "Ender Pearl",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Teleportation by throwing the pearl",
+            secondaryUse: "Crafting Eyes of Ender and traveling long distances"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Endermen", "Obtained through bartering with Piglins (4.73% chance)"]
+        },
+        specialNotes: [
+            "Deals 5 damage (2.5 hearts) upon teleportation",
+            "Has a 1-second cooldown between uses",
+            "Used to craft Eyes of Ender (with Blaze Powder)",
+            "Endermen drop 0-1 Ender Pearls; increased by Looting",
+            "In Bedrock, throwing pearl into a portal might teleport you to world spawn"
+        ],
+        description: "An Ender Pearl is a versatile utility item primarily dropped by Endermen or obtained through Piglin bartering. When thrown, it teleports the player to where it lands, though this process deals a small amount of damage. Beyond mobility, Ender Pearls are critical for late-game progression, as they are a necessary ingredient for crafting Eyes of Ender to locate and activate End Portals. They can also be used in stasis chambers to allow for instant travel back to a base."
+    },
+    "minecraft:fire_charge": {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Lighting fires and activating TNT",
+            secondaryUse: "Serving as a projectile for dispensers"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blaze Powder", "Gunpowder", "Coal or Charcoal"]
+        },
+        specialNotes: [
+            "Functions as a single-use alternative to flint and steel",
+            "When used from a dispenser, it fires a straight-moving fireball",
+            "Fired charges set entities and blocks on fire upon impact",
+            "Can be used to light obsidian portals and campfires",
+            "Does not create an explosion unless hitting TNT"
+        ],
+        description: "A Fire Charge is a consumable item used to ignite fires or act as a projectile. When used by a player, it immediately starts a fire on a block, similar to flint and steel but with only one use per item. When placed in a dispenser, it is fired as a small fireball that travels in a straight line, setting fire to anything it hits. It is often used in traps, automated defense systems, or as an alternative ignition source when flint is unavailable."
     }
 };
