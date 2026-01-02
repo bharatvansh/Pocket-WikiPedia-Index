@@ -481,5 +481,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/beacon",
         themeColor: "§b" // aqua/cyan (beam color)
+    },
+    {
+        id: "minecraft:end_rod",
+        name: "End Rod",
+        category: "block",
+        icon: "textures/blocks/end_rod",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:conduit",
+        name: "Conduit",
+        category: "block",
+        icon: "textures/blocks/conduit",
+        themeColor: "§b" // aqua/cyan
+    },
+    {
+        id: "minecraft:honeycomb_block",
+        name: "Honeycomb Block",
+        category: "block",
+        icon: "textures/blocks/honeycomb_block",
+        themeColor: "§6" // gold/orange
     }
 ];
