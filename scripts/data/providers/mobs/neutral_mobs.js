@@ -319,5 +319,38 @@ export const neutralMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Polar bears are powerful neutral mobs found in snowy and icy biomes. Boasting 30 health (15 hearts), they are formidable predators that become aggressive if attacked or if a player nears their cubs. They are capable swimmers and deal significant damage. In Bedrock Edition, they can be bred using raw fish. Baby polar bears follow their parents and mimic their behavior towards players. Encountering these massive creatures requires caution, especially when offspring are present, as the adults will relentlessly defend their family in the harsh arctic environment."
+    },
+    "minecraft:llama": {
+        id: "minecraft:llama",
+        name: "Llama",
+        health: 15,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.175
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Savanna", "Windswept Hills", "Windswept Forest", "Windswept Gravelly Hills"],
+            lightLevel: "7+",
+            groupSize: "4-6"
+        },
+        behaviorTraits: [
+            "Spits at attackers dealing 1 damage",
+            "Can be equipped with chests to provide 3-15 storage slots",
+            "Forms a caravan of up to 10 llamas when one is leashed",
+            "Attacks wolves and untamed dogs on sight",
+            "Tamed by repeatedly riding until hearts appear",
+            "Can be decorated with carpets of different colors and patterns",
+            "Cannot be controlled with a saddle even after taming"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Chest", chance: "If equipped" },
+            { item: "Carpet", chance: "If equipped" }
+        ],
+        description: "Llamas are versatile neutral mobs found in savanna and mountain biomes. They are unique for their ability to carry chests, with their storage capacity determined by their internal strength stat. Players can form massive caravans by leashing one llama, causing others nearby to follow in a line. While they are generally peaceful, they will spit at anyone who attacks them. In Bedrock Edition, they are also notable for their protective nature, as they will aggressively spit at wolves that get too close."
     }
 };
