@@ -362,5 +362,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_polar_bear.png",
         themeColor: "§f" // white for arctic bear
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Rabbit",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_rabbit.png",
+        themeColor: "§6" // brown/tan for common rabbit variant
+    },
+    {
+        id: "minecraft:parrot",
+        name: "Parrot",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_parrot.png",
+        themeColor: "§a" // green for jungle bird
+    },
+    {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_silverfish.png",
+        themeColor: "§7" // gray/silver color
     }
 ];

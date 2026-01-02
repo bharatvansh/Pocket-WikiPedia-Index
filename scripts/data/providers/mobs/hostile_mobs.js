@@ -944,5 +944,39 @@ export const hostileMobs = {
             { item: "Experience", chance: "1 (small), 2 (medium), or 4 (big) (when killed by player/tamed wolf)" }
         ],
         description: "Slimes are bouncy, gelatinous monsters that appear deep underground and in swampy lowlands. They come in multiple sizes and, when defeated, larger slimes break apart into smaller ones—meaning a single encounter can turn into several fights. In Bedrock Edition, they have two main spawn methods: fixed-location slime chunks underground (below Y=40, regardless of light) and swamps/mangrove swamps between Y=51 and Y=69 in low light, with spawns heavily influenced by the moon phase. Slimeballs dropped by the smallest slimes are essential for sticky pistons, leads, and slime blocks, making slimes a key mob for redstone builds and movement contraptions."
+    },
+    "minecraft:silverfish": {
+        id: "minecraft:silverfish",
+        name: "Silverfish",
+        health: 8,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Stronghold", "Igloo Basement", "Mountain Biomes (from infested blocks)", "Woodland Mansion"],
+            lightLevel: "0-11 (monster spawners), Any (from infested blocks)",
+            groupSize: "1 (spawner), 1+ (from infested blocks when broken or when silverfish takes damage)"
+        },
+        behaviorTraits: [
+            "Small, insect-like hostile mob that hides in infested stone blocks",
+            "Breaking an infested block without Silk Touch releases a silverfish and may alert nearby hidden silverfish",
+            "When damaged, calls nearby silverfish hidden in infested blocks within a 21×11×21 area to emerge and attack",
+            "Infested blocks are visually identical to normal stone, cobblestone, stone bricks, mossy stone bricks, cracked stone bricks, and chiseled stone bricks",
+            "Can enter and hide inside regular stone-type blocks, converting them to infested blocks",
+            "Spawns naturally from monster spawners in stronghold portal rooms and end portal rooms",
+            "Found in igloo basements as part of the structure's spawner",
+            "In mountain biomes, infested stone blocks generate naturally underground",
+            "Considered an arthropod, taking extra damage from Bane of Arthropods enchantment",
+            "Deals minimal damage but attacks in swarms, making them dangerous in numbers"
+        ],
+        drops: [
+            { item: "Experience", chance: "5 (when killed by player or tamed wolf)" }
+        ],
+        description: "Silverfish are small, dangerous arthropod mobs that lurk within infested stone blocks throughout strongholds, mountain biomes, and igloo basements in Minecraft Bedrock Edition. These insect-like creatures are infamous for their ability to hide perfectly within stone blocks, making them nearly impossible to detect until disturbed. When a player breaks an infested block without using Silk Touch, the silverfish inside immediately bursts out and attacks, often triggering a chain reaction as the damaged silverfish calls to others hidden nearby, causing them to emerge from surrounding infested blocks within a 21×11×21 radius. This swarm behavior transforms what appears to be a single weak enemy into a potentially overwhelming threat. Silverfish are most commonly encountered in strongholds, where they spawn from monster spawners in end portal rooms, and in mountain biomes where infested stone generates naturally underground alongside regular ores and stone. With only 8 health points and dealing just 1 damage on Normal difficulty, individual silverfish pose little threat, but their true danger lies in their numbers and surprise factor. Players exploring strongholds must remain vigilant, as the sudden emergence of multiple silverfish can quickly deplete health and resources. Silverfish are classified as arthropods, making them vulnerable to the Bane of Arthropods enchantment, which deals significant bonus damage and can help manage swarms. Unlike most hostile mobs, silverfish drop only experience when killed, yielding no items or materials, making them purely an obstacle rather than a farming target."
     }
 };
