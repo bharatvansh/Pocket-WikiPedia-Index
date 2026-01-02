@@ -3,7 +3,7 @@
 // This file contains: Bricks, stone bricks (all variants),
 // deepslate bricks, nether bricks (all variants), end stone bricks,
 // prismarine bricks, mud bricks, polished blackstone bricks,
-// quartz bricks, tuff bricks, resin bricks
+// quartz bricks, tuff bricks, resin bricks, smooth sandstone
 // ============================================
 
 /**
@@ -199,5 +199,26 @@ export const brickBlocks = {
             yRange: "Iron ore veins (Y -16 to 80) and Trial Chambers"
         },
         description: "Raw Iron Block is a compact storage block introduced in Minecraft 1.17, crafted from nine raw iron items in a 3x3 grid. It generates naturally within iron ore veins below Y-level 80 and in Trial Chambers. The block requires a stone pickaxe or better to mine efficiently, dropping itself with Silk Touch or nine raw iron without. Raw iron blocks can be smelted in a furnace or blast furnace to produce iron ingots, making them useful for bulk smelting operations. With a hardness of 5 and blast resistance of 6, they are moderately durable building materials with a distinctive rusted iron texture."
+    },
+    "minecraft:smooth_sandstone": {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        hardness: 2,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert temples and desert villages"
+        },
+        description: "Smooth Sandstone is a refined variant of sandstone with a smooth, clean texture, introduced in early Minecraft versions. It generates naturally in desert temples and desert villages, and can be crafted by placing four regular sandstone blocks in a 2x2 grid. Unlike regular sandstone, smooth sandstone cannot be crafted into sandstone stairs or slabs directly, but serves as an ingredient for cut sandstone variants. With a hardness of 2 and blast resistance of 6, it offers better durability than regular sandstone while maintaining the warm desert aesthetic. Its clean texture makes it popular for Egyptian-themed builds, desert architecture, and smooth wall surfaces."
     }
 };
