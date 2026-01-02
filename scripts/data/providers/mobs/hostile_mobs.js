@@ -911,5 +911,139 @@ export const hostileMobs = {
             { item: "Experience", chance: "5" }
         ],
         description: "Silverfish are small, bug-like hostile mobs often found hiding in infested blocks within strongholds and mountain biomes. They are the smallest mobs in the game, making them hard to target. When a silverfish is attacked and not killed instantly, it summons other silverfish from nearby infested blocks to swarm the player. While they deal low individual damage, their ability to call reinforcements can quickly overwhelm an unprepared explorer in the narrow corridors of a stronghold."
+    },
+    "minecraft:cave_spider": {
+        id: "minecraft:cave_spider",
+        name: "Cave Spider",
+        health: 12,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Abandoned Mineshafts", "Monster Rooms"],
+            lightLevel: "7 or below",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Smaller variant of spiders that fits through 1x1 block gaps",
+            "Inflicts Poison effect on attack for 7 seconds on Normal, 15 on Hard",
+            "Climbs walls and ceilings like regular spiders",
+            "Spawns exclusively from monster spawners in abandoned mineshafts",
+            "Cannot jump as high as regular spiders",
+            "Immune to Poison effect itself",
+            "Unaffected by cobweb slowing"
+        ],
+        drops: [
+            { item: "String", chance: "0-2" },
+            { item: "Spider Eye", chance: "0-1" }
+        ],
+        description: "Cave spiders are smaller, more dangerous variants of regular spiders found exclusively in abandoned mineshafts. With only 12 health, they are weaker than normal spiders but make up for it with their poisonous bite, which deals damage over time. Their small size allows them to pass through half-block gaps and 1x1 openings, making them extremely difficult to avoid in tight mine shaft corridors. They climb walls and are immune to cobweb slowing, making them formidable opponents in their natural habitat."
+    },
+    "minecraft:magma_cube": {
+        id: "minecraft:magma_cube",
+        name: "Magma Cube",
+        health: "Big: 16, Medium: 4, Small: 1",
+        stats: {
+            attackDamage: "Big: 6, Medium: 4, Small: 3",
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Basalt Deltas", "Bastion Remnant"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Nether slime variant that splits into smaller cubes when killed",
+            "Immune to fire and lava damage",
+            "Deals fire damage on contact (1 second every second)",
+            "Cannot swim in water and sinks to the bottom",
+            "Jumps higher when targeting players or mobs",
+            "Big cubes split into 2-4 medium cubes; medium split into 2-4 small cubes",
+            "Drops froglights when killed by a frog"
+        ],
+        drops: [
+            { item: "Magma Cream", chance: "0-1 (small), 1 (medium), 1-4 (big)" },
+            { item: "Experience", chance: "1 (small), 2 (medium), 4 (big)" }
+        ],
+        description: "Magma cubes are fire-resistant slimes found exclusively in the Nether. They appear in three sizes and behave similarly to Overworld slimes, splitting into smaller cubes when killed. Unlike normal slimes, magma cubes deal fire damage upon contact and are immune to all fire and lava damage. They are the primary source of magma cream, essential for brewing fire resistance potions and crafting magma blocks. When a frog eats a small magma cube, it produces a froglight, making them valuable for decorative lighting."
+    },
+    "minecraft:husk": {
+        id: "minecraft:husk",
+        name: "Husk",
+        health: 20,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Desert", "Badlands", "Eroded Badlands", "Wooded Badlands"],
+            lightLevel: "0-7",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Desert variant of zombie that does not burn in sunlight",
+            "Inflicts Hunger effect for 7 seconds when attacking on Normal difficulty",
+            "Can pick up items and equip armor like regular zombies",
+            "Can break wooden doors on Hard difficulty",
+            "Converts to regular zombie when underwater for too long",
+            "Baby husks are faster and don't burn like adult husks",
+            "Can call other zombies when attacked"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Sand", chance: "Common" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" }
+        ],
+        description: "Husks are desert-dwelling zombie variants distinguished by their withered appearance and resistance to sunlight. Unlike regular zombies, they do not burn during the day, making them dangerous around-the-clock threats in arid biomes. Their attacks apply the Hunger effect, causing players to starve faster, which can be deadly in survival mode. Husks share all zombie behaviors, including picking up items, breaking doors on Hard difficulty, and converting to regular zombies when submerged in water for too long."
+    },
+    "minecraft:zombie_villager": {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        health: 20,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Most Overworld biomes", "Villages (during raids)"],
+            lightLevel: "0-7",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Infected villager that can be cured back to normal using a golden apple and weakness",
+            "Burns in sunlight unless wearing a helmet",
+            "Retains villager profession and trades visible as zombie variants",
+            "Can convert regular villagers by killing them",
+            "Curing takes 2-5 minutes with splash potion of weakness and golden apple",
+            "Cured villager offers permanent discounts on trades",
+            "Baby zombie villagers are faster and don't burn in sunlight"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" },
+            { item: "Equipment/Armor", chance: "If holding" }
+        ],
+        description: "Zombie villagers are villagers who have been infected by zombies, becoming hostile undead creatures. They are identifiable by their zombie appearance and the villager profession they possessed before infection. Unlike regular zombies, they can be cured back to normal villagers by applying a splash potion of weakness, then feeding them a golden apple. The curing process takes 2-5 minutes, after which the villager provides permanent trading discounts. This mechanic makes them valuable for creating expert villagers with reduced prices."
     }
 };
