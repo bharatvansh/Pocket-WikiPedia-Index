@@ -743,7 +743,7 @@ export const hostileMobs = {
             { item: "Iron Axe", chance: "8.5% (increased by Looting)" },
             { item: "Experience", chance: "5 (when killed by player/tamed wolf)" }
         ],
-        description: "Vindicators are fast, axe-wielding illagers found in Woodland Mansions and village raids. Their iron axes can disable shields, making them lethal melee threats. In mansions, they are non-respawning guardians; in raids, they join from wave 2 onwards. Naming one "Johnny" makes it hyper-aggressive, attacking almost any mob except fellow illagers. They commonly drop emeralds and occasionally their iron axes. Known for their high speed and strength, vindicators are among the most dangerous illagers players will face in close combat."
+        description: "Vindicators are fast, axe-wielding illagers found in Woodland Mansions and village raids. Their iron axes can disable shields, making them lethal melee threats. In mansions, they are non-respawning guardians; in raids, they join from wave 2 onwards. Naming one 'Johnny' makes it hyper-aggressive, attacking almost any mob except fellow illagers. They commonly drop emeralds and occasionally their iron axes. Known for their high speed and strength, vindicators are among the most dangerous illagers players will face in close combat."
     },
     "minecraft:vex": {
         id: "minecraft:vex",
