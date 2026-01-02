@@ -439,5 +439,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_bookshelf",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:copper_chain",
+        name: "Copper Chain",
+        category: "block",
+        icon: "textures/blocks/copper_chain",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:soul_sand",
+        name: "Soul Sand",
+        category: "block",
+        icon: "textures/blocks/soul_sand",
+        themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:end_stone_bricks",
+        name: "End Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/end_stone_bricks",
+        themeColor: "§f" // white/beige
     }
 ];

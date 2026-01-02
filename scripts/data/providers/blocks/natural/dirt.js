@@ -73,5 +73,26 @@ export const dirtBlocks = {
             yRange: "None"
         },
         description: "Packed Mud is a building block crafted from mud and wheat. It is used as a decorative block or as an ingredient to craft mud bricks. Unlike regular mud, entities do not sink into packed mud, and it is mined faster with a pickaxe rather than a shovel."
+    },
+    "minecraft:soul_sand": {
+        id: "minecraft:soul_sand",
+        name: "Soul Sand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Sand"],
+        generation: {
+            dimension: "Nether",
+            yRange: "0-31 (Soul Sand Valley)"
+        },
+        description: "Soul Sand is a distinctive brown, bubbling sand block found primarily in the Nether, particularly in Soul Sand Valleys. Entities walking on soul sand are slowed to about 40% of their normal speed, making movement difficult, unless they are wearing boots enchanted with Soul Speed. The block is essential for farming Nether Warts, as it is the only block they can grow on. Soul sand also creates upward bubble columns when placed underwater, which can lift entities and boats to the surface. When broken by magma blocks below water, soul sand creates downward bubble columns. The block has a slightly lower height than most blocks, making it slightly difficult to walk up from. Soul sand is not affected by gravity, unlike regular sand, and it can burn indefinitely on its top side when exposed to fire, creating soul fire. Its distinctive texture and properties make it valuable for creating themed Nether builds, traps, and automated transportation systems."
     }
 };
