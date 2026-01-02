@@ -28,6 +28,27 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:andesite",
+        name: "Andesite",
+        category: "block",
+        icon: "textures/blocks/andesite",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:diorite",
+        name: "Diorite",
+        category: "block",
+        icon: "textures/blocks/diorite",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:granite",
+        name: "Granite",
+        category: "block",
+        icon: "textures/blocks/granite",
+        themeColor: "§6" // pinkish/gold
+    },
+    {
         id: "minecraft:copper_ore",
         name: "Copper Ore",
         category: "block",
