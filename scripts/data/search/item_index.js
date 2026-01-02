@@ -544,5 +544,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/melon_speckled",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:fermented_spider_eye",
+        name: "Fermented Spider Eye",
+        category: "item",
+        icon: "textures/items/spider_eye_fermented",
+        themeColor: "§7" // brown/green
+    },
+    {
+        id: "minecraft:glow_ink_sac",
+        name: "Glow Ink Sac",
+        category: "item",
+        icon: "textures/items/glow_ink_sac",
+        themeColor: "§e" // glowing gold
+    },
+    {
+        id: "minecraft:gunpowder",
+        name: "Gunpowder",
+        category: "item",
+        icon: "textures/items/gunpowder",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:rabbit_hide",
+        name: "Rabbit Hide",
+        category: "item",
+        icon: "textures/items/rabbit_hide",
+        themeColor: "§6" // brown/tan
     }
 ];
