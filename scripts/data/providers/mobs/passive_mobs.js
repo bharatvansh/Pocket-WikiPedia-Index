@@ -457,16 +457,16 @@ export const passiveMobs = {
         health: 6,
         stats: {
             attackDamage: 0,
-            movementSpeed: 0.2
+            movementSpeed: 0.1
         },
         classification: {
             type: "Passive",
             undead: false
         },
         spawning: {
-            biomes: ["Swamp", "Mangrove Swamp"],
+            biomes: [],
             lightLevel: "Any",
-            groupSize: "1-5 (from frogspawn)"
+            groupSize: "2-5 (from frogspawn)"
         },
         behaviorTraits: [
             "Baby form of frogs that swim aimlessly in water",
@@ -495,24 +495,24 @@ export const passiveMobs = {
             undead: false
         },
         spawning: {
-            biomes: ["Warm Ocean", "Lukewarm Ocean", "Deep Warm Ocean", "Deep Lukewarm Ocean"],
+            biomes: ["Warm Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Lush Caves", "Mangrove Swamp"],
             lightLevel: "Any",
-            groupSize: "1-7 (schools)"
+            groupSize: "Common: 3-5; Random: 1-3"
         },
         behaviorTraits: [
-            "Colorful fish that swim in schools of up to 7",
+            "Colorful fish that swim in schools",
             "Can be collected and transported in water buckets",
             "Cannot be bred by players",
             "Swims against water currents",
             "Dies when out of water after flopping around",
             "Vulnerable to Impaling enchantment",
-            "Comes in 22 different color and pattern variants"
+            "Comes in 3,072 different color and pattern variants"
         ],
         drops: [
             { item: "Tropical Fish", chance: "1" },
-            { item: "Bone Meal", chance: "5%" }
+            { item: "Bone", chance: "25%" }
         ],
-        description: "Tropical fish are colorful passive mobs found in warm ocean biomes. They swim in schools of up to 7 fish and come in 22 different color and pattern variants. Players can collect them in water buckets for transport or aquariums. Tropical fish cannot be bred and only spawn naturally in designated biomes. They provide a vibrant aquatic ecosystem and can be used for decoration or as a food source. When killed, they drop tropical fish items and occasionally bone meal."
+        description: "Tropical fish are colorful passive mobs found in warm ocean biomes. They swim in schools and come in 3,072 different color and pattern variants. Players can collect them in water buckets for transport or aquariums. Tropical fish cannot be bred and only spawn naturally in designated biomes. They provide a vibrant aquatic ecosystem and can be used for decoration or as a food source. When killed, they drop tropical fish items and have a 25% chance to drop bone."
     },
     "minecraft:pufferfish": {
         id: "minecraft:pufferfish",
