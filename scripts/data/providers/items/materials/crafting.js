@@ -176,5 +176,28 @@ export const craftingMaterials = {
             "Added in the Wild Update (1.19)"
         ],
         description: "Disc Fragment 5 is a rare crafting material found exclusively in the chests of Ancient Cities within the Deep Dark biome. It appears as a shard of a broken record. Its sole purpose is to be crafted into Music Disc 5. To do this, a player must collect nine fragments and arrange them in a 3x3 grid in a crafting table. This makes Music Disc 5 the only music disc in the game that must be crafted rather than found whole or obtained as a mob drop."
+    },
+    "minecraft:glistering_melon_slice": {
+        id: "minecraft:glistering_melon_slice",
+        name: "Glistering Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Healing",
+            secondaryUse: "Trading with Master-level Cleric villagers"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["8x Gold Nugget", "Melon Slice"]
+        },
+        specialNotes: [
+            "Crafted by surrounding a melon slice with 8 gold nuggets",
+            "Inedible, unlike regular melon slices",
+            "Key ingredient for Potions of Healing (Awkward Potion + Glistering Melon Slice)",
+            "Master-level Cleric villagers in Bedrock have a chance to buy 3 for an emerald",
+            "Cannot be found naturally in loot chests; must be crafted or traded"
+        ],
+        description: "A Glistering Melon Slice is an essential brewing ingredient used to create Potions of Healing. Despite being made from a melon slice, it is completely inedible and serves only for alchemy and trading. It is crafted by combining a single melon slice with eight gold nuggets. When brewed with an Awkward Potion, it creates a Potion of Healing, which instantly restores health. This makes glistering melons a vital resource for players preparing for difficult battles or exploring dangerous environments."
     }
 };

@@ -90,5 +90,32 @@ export const specialFood = {
             "Campfire smoke is needed to harvest safely without angering bees"
         ],
         description: "A Honey Bottle is a consumable item obtained by using glass bottles on filled beehives or bee nests. It serves as a unique food source that can be consumed even when the hunger bar is full, restoring 6 hunger and 1.2 saturation. Unlike milk, drinking honey specifically cures the poison status effect without removing other buffs or debuffs. It is a key ingredient for crafting Honey Blocks or can be crafted into sugar. To harvest safely without angering bees, players should place a campfire beneath the hive or nest to pacify the colony before collection."
+    },
+    "minecraft:golden_carrot": {
+        id: "minecraft:golden_carrot",
+        name: "Golden Carrot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Highly nutritious food",
+            secondaryUse: "Breeding horses, donkeys, mules, and rabbits"
+        },
+        food: {
+            hunger: 6,
+            saturation: 14.4
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["8x Gold Nugget", "Carrot"]
+        },
+        specialNotes: [
+            "Highest saturation value of any food in the game",
+            "Used to brew Potions of Night Vision",
+            "Can be used to breed or grow horses, donkeys, and rabbits",
+            "Restores 6 hunger (3 drumsticks) and 14.4 saturation",
+            "Considered one of the best food sources for end-game play"
+        ],
+        description: "The Golden Carrot is widely considered the best food source in Minecraft due to its exceptionally high saturation value, which keeps the player's hunger bar full for longer than any other food. It is crafted by surrounding a regular carrot with eight gold nuggets in a crafting table. Beyond its use as a superior food source, it is a critical ingredient in brewing Potions of Night Vision. Players also use golden carrots to breed horses, donkeys, mules, and rabbits, or to accelerate the growth of their offspring."
     }
 };

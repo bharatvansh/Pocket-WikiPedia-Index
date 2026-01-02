@@ -516,5 +516,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_scrap",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:golden_carrot",
+        name: "Golden Carrot",
+        category: "item",
+        icon: "textures/items/carrot_golden",
+        themeColor: "§e" // gold
+    },
+    {
+        id: "minecraft:magma_cream",
+        name: "Magma Cream",
+        category: "item",
+        icon: "textures/items/magma_cream",
+        themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:end_crystal",
+        name: "End Crystal",
+        category: "item",
+        icon: "textures/items/end_crystal",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:glistering_melon_slice",
+        name: "Glistering Melon Slice",
+        category: "item",
+        icon: "textures/items/melon_speckled",
+        themeColor: "§a" // green
     }
 ];
