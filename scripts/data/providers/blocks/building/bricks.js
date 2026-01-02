@@ -157,5 +157,26 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Chiseled Resin Bricks are a decorative variant of resin bricks added in Minecraft Bedrock Edition 1.21.50. These blocks feature a unique, intricate pattern carved into the vibrant orange resin material, making them ideal for adding detail to pillars, borders, and accent walls. They can be crafted by placing two resin brick slabs vertically in a crafting grid or by using a stonecutter on a resin brick block. Like other resin brick variants, they require a pickaxe to be collected. Chiseled resin bricks complement the pale garden blocks perfectly, allowing for complex architectural designs that highlight the rich, warm tones of the resin material."
+    },
+    "minecraft:end_stone_bricks": {
+        id: "minecraft:end_stone_bricks",
+        name: "End Stone Bricks",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["End Stone Bricks"],
+        generation: {
+            dimension: "End",
+            yRange: "End Cities"
+        },
+        description: "End Stone Bricks are decorative building blocks crafted from End Stone, featuring a distinctive tan coloration with a brick texture pattern. They generate naturally in End Cities and End Ships, serving as a primary building material for these exotic structures. With a hardness of 3 and impressive blast resistance of 9, end stone bricks offer durability that exceeds most Overworld stone blocks, making them excellent for defensive structures and blast-resistant builds. Like end stone, they are renewable since end stone can be crafted from chorus fruit, though this requires significant resource investment. End stone bricks can be further crafted into slabs, stairs, walls, and buttons, providing builders with comprehensive building options for End-themed constructions. Their unique color palette creates strong contrast against obsidian and purple ender blocks, making them ideal for creating detailed End portal frames, fortress walls, and alien architecture."
     }
 };

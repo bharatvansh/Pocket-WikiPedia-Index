@@ -350,5 +350,26 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of the copper trapdoor family in Minecraft 1.21+, representing fully aged copper with a rich green patina. This teal-green trapdoor reaches the end of the natural oxidation process, providing builders with the most weathered and ancient appearance among copper variants. Oxidized copper trapdoors maintain the same functionality as their less-oxidized counterparts, making them perfect for creating aged industrial structures, ancient ruins, or mystical underground facilities. Found naturally in Trial Chambers corridors, these blocks represent the longest-exposed copper trapdoors in the game world. Players can wax oxidized copper trapdoors with honeycomb to permanently preserve their distinctive green color and prevent any further changes. The block can also be scraped with an axe to revert it to weathered copper trapdoor, allowing builders creative control over the oxidation timeline for achieving precise aging effects in their constructions. When mined with a stone-tier pickaxe or better, oxidized copper trapdoors drop themselves without requiring Silk Touch."
+    },
+    "minecraft:copper_chain": {
+        id: "minecraft:copper_chain",
+        name: "Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Copper Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Copper Chain is a decorative chain block introduced in Minecraft 1.21 that serves as a copper variant of the classic iron chain. Like other copper blocks, it oxidizes over time, transitioning through exposed and weathered stages before reaching its fully oxidized state with a distinctive green patina. Copper chains can be waxed with honeycomb to preserve their current oxidation state, or scraped with an axe to revert them to earlier oxidation stages. They generate naturally within Trial Chambers structures and can be crafted from copper ingots, making them a versatile decorative element for creating chandeliers, hanging decorations, and industrial-style accents. Copper chains share the same transparent properties as iron chains, allowing light and players to pass through while providing a decorative link between blocks. When mined with a wooden pickaxe or better, copper chains drop themselves without requiring Silk Touch, making them accessible to players early in the game."
     }
 };
