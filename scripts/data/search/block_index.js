@@ -649,5 +649,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/smooth_basalt_side",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:suspicious_sand",
+        name: "Suspicious Sand",
+        category: "block",
+        icon: "textures/blocks/suspicious_sand",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:cherry_log",
+        name: "Cherry Log",
+        category: "block",
+        icon: "textures/blocks/cherry_log",
+        themeColor: "§d" // light purple/pink
+    },
+    {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        category: "block",
+        icon: "textures/blocks/sniffer_egg",
+        themeColor: "§2" // green/dark green
     }
 ];
