@@ -4,7 +4,7 @@
 // brick, nether brick, clay ball, honeycomb, wheat, sugar,
 // cocoa beans, charcoal, coal, flint, glowstone dust, redstone dust,
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
-// golden carrot (crafting), rabbit foot, dragon breath,
+// eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
 // amethyst shard, gunpowder
 // ============================================
@@ -271,5 +271,51 @@ export const craftingMaterials = {
             "Used to wax Signs to prevent text editing."
         ],
         description: "Honeycomb is a crafting material obtained by shearing a bee nest or beehive that is dripping with honey (level 5). It is used for several crafting recipes, including artificial Beehives and Candles. Additionally, honeycomb serves a unique preservation purpose: it can be used on copper blocks to wax them, freezing their oxidation state, or on signs to wax them, preventing any further text editing. It is a renewable resource as long as bees continue to pollinate."
+    },
+    "minecraft:ender_eye": {
+        id: "minecraft:ender_eye",
+        name: "Eye of Ender",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Strongholds and activating End Portals",
+            secondaryUse: "Crafting Ender Chests and End Crystals"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Ender Pearl", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Used to find Strongholds by throwing them; they float towards the nearest portal",
+            "Has a 20% chance to shatter after being thrown",
+            "12 eyes are required to activate a complete End Portal frame",
+            "Essential for crafting Ender Chests (8 Obsidian + 1 Eye of Ender)",
+            "Required for crafting End Crystals (7 Glass + 1 Ghast Tear + 1 Eye of Ender)"
+        ],
+        description: "The Eye of Ender is a vital item for progression, serving as the key to reaching the End dimension. It is crafted by combining an Ender Pearl with Blaze Powder. When used, it flies into the air towards the nearest Stronghold, helping players locate the elusive structure. Once inside, players must place these eyes into the End Portal frames to activate the gateway to the Ender Dragon. Beyond navigation, it is a critical component for late-game storage in the form of Ender Chests."
+    },
+    "minecraft:blaze_powder": {
+        id: "minecraft:blaze_powder",
+        name: "Blaze Powder",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for Brewing Stands",
+            secondaryUse: "Crafting Eye of Ender, Magma Cream, and Fire Charges"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blaze Rod"]
+        },
+        specialNotes: [
+            "Obtained by crafting a Blaze Rod, which yields 2 Blaze Powder",
+            "Mandatory fuel for Brewing Stands; one powder provides 20 units of fuel",
+            "Combined with a Slimeball to create Magma Cream",
+            "Used with Ender Pearls to create Eyes of Ender",
+            "Component in crafting Fire Charges (Blaze Powder + Gunpowder + Coal/Charcoal)"
+        ],
+        description: "Blaze Powder is a versatile material derived from Blaze Rods, serving as the fundamental energy source for all alchemical processes. It is required as fuel for Brewing Stands, without which no potions can be brewed. Additionally, it is a key ingredient in crafting several important items, most notably the Eye of Ender. Its role in both alchemy and world progression makes it one of the most important resources obtained from the Nether."
     }
 };
