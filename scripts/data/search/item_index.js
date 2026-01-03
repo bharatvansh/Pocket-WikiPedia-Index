@@ -593,5 +593,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_hide",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        category: "item",
+        icon: "textures/items/shulker_shell",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        category: "item",
+        icon: "textures/items/ghast_tear",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:ink_sac",
+        name: "Ink Sac",
+        category: "item",
+        icon: "textures/items/ink_sac",
+        themeColor: "§8" // dark gray/black
     }
 ];
