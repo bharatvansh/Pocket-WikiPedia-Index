@@ -562,5 +562,71 @@ export const miscItems = {
             "Signed books show author name and generation (Original, Copy of Original, Copy of Copy)"
         ],
         description: "The Book and Quill is a unique item that allows players to write and store custom text within the game. Crafted using a book, ink sac, and feather, it provides up to 100 pages with 256 characters per page in Bedrock Edition. Players can use it to document adventures, create in-game guides, leave messages, or design narrative elements for adventure maps. Once complete, the book can be signed to create a Written Book, permanently recording the author's name and title. Signed books can be duplicated up to 8 times, making them valuable for sharing information across multiplayer worlds."
+    },
+    "minecraft:wither_skeleton_skull": {
+        id: "minecraft:wither_skeleton_skull",
+        name: "Wither Skeleton Skull",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning the Wither boss",
+            secondaryUse: "Decorative block and wearable head armor"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Wither Skeletons in Nether Fortresses"]
+        },
+        specialNotes: [
+            "Rare drop from Wither Skeletons (2.5% chance; increased by Looting)",
+            "Three skulls are required to summon the Wither boss",
+            "Can be worn as a helmet (purely decorative)",
+            "Reduces the detection range of Wither Skeletons by 50% when worn"
+        ],
+        description: "The Wither Skeleton Skull is a rare and essential item for late-game progression, primarily used to summon the Wither boss. It is obtained as a rare drop from Wither Skeletons found within Nether Fortresses. Beyond its use in summoning, it can be placed as a decorative block or worn by the player as a helmet, which has the functional benefit of reducing the detection range of other Wither Skeletons. Its dark, skeletal appearance makes it a popular trophy for seasoned adventurers."
+    },
+    "minecraft:dragon_head": {
+        id: "minecraft:dragon_head",
+        name: "Dragon Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable head armor",
+            secondaryUse: "Redstone-interactive decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found on the front of End Ships in End Cities"]
+        },
+        specialNotes: [
+            "Found exclusively on the prow of End Ships",
+            "Mouth opens and closes repeatedly when the player wearing it moves",
+            "When placed as a block, the mouth moves if powered by a redstone signal",
+            "The largest of all mob head items in the game"
+        ],
+        description: "The Dragon Head is a unique decorative item found exclusively on End Ships within the End Cities. This large, detailed head can be worn as a helmet or placed as a block. One of its most distinctive features is its animated mouth; when worn by a moving player or powered by a redstone signal as a block, the mouth will continuously open and close. It serves as a major trophy of exploration and a status symbol for players who have conquered the End's most distant structures."
+    },
+    "minecraft:piglin_head": {
+        id: "minecraft:piglin_head",
+        name: "Piglin Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable head armor",
+            secondaryUse: "Reducing Piglin detection range"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Piglins killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Added in the 1.20 Trails & Tales update",
+            "Dropped when a Piglin or Piglin Brute is killed by a Charged Creeper explosion",
+            "Ear flutters when the player wearing it moves or when powered by redstone",
+            "Reduces the detection range of Piglins by 50% when worn"
+        ],
+        description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
     }
 };
