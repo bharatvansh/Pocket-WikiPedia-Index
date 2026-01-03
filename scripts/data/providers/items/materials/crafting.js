@@ -437,5 +437,79 @@ export const craftingMaterials = {
             "Heals horses by 1 heart and increases their temperament by 3%"
         ],
         description: "Sugar is a versatile food and brewing ingredient derived from sugar cane or honey bottles. While not edible on its own, it is a critical component in several high-value food recipes, including cakes, pumpkin pies, and cookies. In alchemy, sugar is the base ingredient for Potions of Swiftness, which grant players increased movement speed. It is also required to craft Fermented Spider Eyes, which are used to create negative potion effects. Additionally, sugar can be fed to horses to slightly heal them and improve their temperament during taming."
+    },
+    "minecraft:coal": {
+        id: "minecraft:coal",
+        name: "Coal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for smelting in furnaces and campfires",
+            secondaryUse: "Crafting torches, coal blocks, and fire-related items"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Coal Ore", "Deepslate Coal Ore", "Coal Block (yields 9)"]
+        },
+        specialNotes: [
+            "Burns for 80 seconds in a furnace, smelting up to 8 items per piece",
+            "Can be crafted into a Coal Block (9 coal) for efficient storage and longer burn time",
+            "Essential for crafting torches (1 coal + 1 stick = 4 torches)",
+            "Used to craft campfires, soul torches, and Fire Charges",
+            "Dropped by Wither Skeletons in the Nether (rare drop)",
+            "Found in various loot chests throughout the world",
+            "Renewable through villager trading and Wither Skeleton farming"
+        ],
+        description: "Coal is one of the most fundamental fuel sources in Minecraft, obtained by mining coal ore with any pickaxe or from Wither Skeleton drops. Each piece burns for 80 seconds in a furnace, smelting up to 8 items, making it an efficient early-game fuel. Beyond smelting, coal is essential for crafting torches, which provide light and prevent hostile mob spawning. It can be compacted into coal blocks for more efficient storage and extended burn times. Coal is also used in crafting campfires for cooking and ambiance, as well as fire charges for remote ignition."
+    },
+    "minecraft:brick": {
+        id: "minecraft:brick",
+        name: "Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting brick blocks for building",
+            secondaryUse: "Crafting flower pots and decorated pots"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Clay Ball", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting clay balls in a furnace",
+            "Four bricks craft into one brick block for building",
+            "Used to craft flower pots (3 bricks in a V-shape)",
+            "Essential component for decorated pots in archaeology-themed builds",
+            "Renewable resource through villager trading with Mason villagers",
+            "Mason villagers sell 16 bricks for 1 emerald"
+        ],
+        description: "Bricks are building materials created by smelting clay balls in a furnace. Once fired, four bricks can be combined to form a brick block, which is prized for its warm, rustic appearance in construction projects. Beyond building, bricks are used to craft flower pots, allowing players to display plants indoors or in gardens. They are also a key ingredient in creating decorated pots, which add archaeological and artistic flair to builds. Bricks became a renewable resource after version 1.14, as mason villagers now trade them for emeralds."
+    },
+    "minecraft:clay_ball": {
+        id: "minecraft:clay_ball",
+        name: "Clay Ball",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into bricks for construction",
+            secondaryUse: "Crafting clay blocks and trading with villagers"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Clay Block (yields 4 clay balls)"]
+        },
+        specialNotes: [
+            "Obtained by breaking clay blocks found underwater in rivers, swamps, and lush caves",
+            "Each clay block drops 4 clay balls when broken",
+            "Smelts into a brick, which is used for building and decorative purposes",
+            "Four clay balls can be crafted back into a clay block",
+            "Renewable through mud and dripstone mechanics: mud above pointed dripstone converts to clay",
+            "Mason villagers buy 10 clay balls for 1 emerald",
+            "Gifted by villagers to players with the Hero of the Village effect"
+        ],
+        description: "Clay Balls are raw ceramic materials harvested from clay blocks found in rivers, swamps, and lush caves. Each clay block yields four clay balls when mined. Their primary use is being smelted into bricks, which are then crafted into decorative brick blocks for construction. Clay balls can also be recombined into clay blocks for storage or building. Since version 1.19, they became fully renewable through the mud and pointed dripstone mechanic, where mud placed above dripstone slowly converts into clay, providing an infinite source for builders and craftsmen."
     }
 };
