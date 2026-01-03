@@ -55,5 +55,28 @@ export const ingots = {
             "Found in Bastion Remnant chests (approx. 15-25% chance)"
         ],
         description: "Netherite Scrap is an incredibly rare and durable material found in the depths of the Nether. It is produced by smelting Ancient Debris, a tough ore that only generates in small veins near the bottom of the dimension. Because it is a Netherite-tier material, it is entirely immune to fire and lava, floating on top of lava pools instead of burning. Its sole purpose is to be combined with gold ingots to create Netherite Ingots, which are essential for upgrading diamond gear to the highest level of protection and efficiency."
+    },
+    "minecraft:iron_ingot": {
+        id: "minecraft:iron_ingot",
+        name: "Iron Ingot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting tools, armor, and weapons",
+            secondaryUse: "Crafting Buckets, Hoppers, Pistons, and many other utility blocks"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Iron or Iron Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Dropped by Iron Golems (3-5) upon death",
+            "Can be crafted from 9 Iron Nuggets or 1/9th of an Iron Block",
+            "Found in almost all loot chests in the game",
+            "Renewable via Iron Golem farms",
+            "Used to repair iron equipment in an anvil"
+        ],
+        description: "Iron Ingots are versatile and essential materials for mid-game survival and automation. They are used to create a wide range of tools, armor, and essential utility blocks like Buckets and Hoppers. Iron is relatively easy to find in large quantities compared to rarer metals, making it the primary choice for large-scale construction and complex redstone machinery. Its renewability through Iron Golem farms makes it an infinite resource for advanced players."
     }
 };

@@ -444,5 +444,28 @@ export const miscItems = {
             "Highly dangerous due to large explosion radius and damage"
         ],
         description: "An End Crystal is a powerful and volatile item primarily used to respawn the Ender Dragon. To initiate the respawn process, four crystals must be placed on the edges of the exit portal in the End. In addition to their intended purpose, they are often used by players as high-damage explosive traps because they detonate instantly when hit. They can only be placed on obsidian or bedrock blocks. When active in the End, they project a healing beam toward the dragon, making their destruction a priority during the boss fight."
+    },
+    "minecraft:enchanted_book": {
+        id: "minecraft:enchanted_book",
+        name: "Enchanted Book",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying enchantments to items via an Anvil",
+            secondaryUse: "Combining with other enchanted books to upgrade enchantment levels"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Enchanting Table, Fishing, Loot Chests, or Librarian Villagers"]
+        },
+        specialNotes: [
+            "Allows applying specific enchantments to gear that may not be available via Enchanting Table",
+            "Can be combined in an anvil to create higher-level enchantments (e.g., Sharpness IV + IV = V)",
+            "Librarian villagers sell specific enchanted books for emeralds and a regular book",
+            "Found as treasure while fishing (0.8% chance in Bedrock)",
+            "Required to apply certain 'Treasure' enchantments like Mending or Frost Walker"
+        ],
+        description: "Enchanted Books are specialized items that store magical enchantments for later use. They are the primary way to apply specific buffs, such as Mending or Silk Touch, to tools, weapons, and armor using an Anvil. Players can obtain these books through various methods, including using an Enchanting Table on regular books, fishing, or trading with Librarian villagers. Because they allow for precise control over equipment upgrades and are necessary for applying powerful treasure enchantments, they are an essential resource for late-game gear optimization."
     }
 };
