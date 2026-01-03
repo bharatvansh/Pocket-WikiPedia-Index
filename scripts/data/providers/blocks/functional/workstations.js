@@ -133,5 +133,89 @@ export const workstationBlocks = {
             yRange: "Crafted only"
         },
         description: "A Beacon is a highly valuable functional block that projects a vertical light beam into the sky and provides beneficial status effects to nearby players. It must be placed atop a pyramid structure built from iron, gold, diamond, emerald, or netherite blocks, with pyramid sizes ranging from 1 to 4 levels determining the range and available effects. Crafted from five glass blocks, three obsidian, and one nether star obtained by defeating the Wither, beacons emit maximum light and can provide effects such as Speed, Haste, Resistance, Jump Boost, Strength, and Regeneration within their radius."
+    },
+    "minecraft:grindstone": {
+        id: "minecraft:grindstone",
+        name: "Grindstone",
+        hardness: 2.0,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Grindstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village weaponsmith houses"
+        },
+        description: "A Grindstone is a specialized workstation block introduced in Minecraft 1.14 that serves multiple purposes. It repairs damaged items by combining two similar items to create one with combined durability plus a 5% bonus. It also removes enchantments from weapons, tools, or armor, returning some experience to the player. When used or powered by redstone, it emits sparks and produces a distinctive grinding sound. The grindstone is crafted from two wooden planks, two sticks, and a stone slab. It serves as the job site block for Weaponsmith villagers and generates naturally in their houses in villages, making it both a practical utility and an important villager profession block."
+    },
+    "minecraft:loom": {
+        id: "minecraft:loom",
+        name: "Loom",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Loom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village shepherd houses"
+        },
+        description: "A Loom is a crafting workstation used to apply patterns to banners more efficiently than using a crafting table. It features a unique interface with slots for the banner, dye, and optional banner pattern items. The loom displays a preview of the resulting banner design, making it easier to visualize complex patterns. It is crafted from two wooden planks and two strings in a 2x2 grid. The loom serves as the job site block for Shepherd villagers and generates naturally in their houses. Unlike the crafting table method, the loom never consumes the banner pattern items (like flowers, vines, or creeper heads), making it more resource-efficient for mass banner production."
+    },
+    "minecraft:smithing_table": {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Smithing Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village toolsmith houses"
+        },
+        description: "A Smithing Table is an advanced workstation that enables gear upgrading and customization. Its primary function is upgrading diamond equipment to netherite tier using netherite ingots, the highest tier of gear in the game. Starting with Minecraft 1.20, it also allows applying and customizing armor trims using smithing templates and materials like copper, gold, iron, emerald, diamond, lapis lazuli, nether quartz, or netherite. The smithing table is crafted from four wooden planks and two iron ingots. It serves as the job site block for Toolsmith villagers and generates naturally in their houses, playing a crucial role in both progression and cosmetic customization."
+    },
+    "minecraft:cartography_table": {
+        id: "minecraft:cartography_table",
+        name: "Cartography Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cartography Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village cartographer houses"
+        },
+        description: "A Cartography Table is a specialized workstation for manipulating explorer maps and empty maps. It offers four functions: cloning maps to create copies, expanding the zoom level of existing maps up to four times, locking maps to prevent further modifications, and creating locator maps that track player position. The cartography table is crafted from two sheets of paper and four wooden planks. It serves as the job site block for Cartographer villagers and generates naturally in their houses. This block revolutionizes map management by providing intuitive controls for map duplication and customization, essential for large-scale exploration projects and base mapping."
     }
 };
