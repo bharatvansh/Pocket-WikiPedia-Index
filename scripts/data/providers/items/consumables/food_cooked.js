@@ -64,5 +64,83 @@ export const cookedFood = {
             "Can also be obtained from a Brown Mooshroom using a Bowl after feeding it a flower"
         ],
         description: "Suspicious Stew is a special bowl food that restores hunger while also granting a brief status effect determined by the small flower used to make it. It is crafted shapelessly from a bowl, red and brown mushrooms, and any small flower, and the bowl is returned after consumption. Unlike most foods, it can be eaten even at full hunger, making it useful for intentionally applying its effect."
+    },
+    "minecraft:mushroom_stew": {
+        id: "minecraft:mushroom_stew",
+        name: "Mushroom Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating to restore hunger",
+            secondaryUse: "None"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Mushroom", "Brown Mushroom", "Bowl"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Leaves behind an empty Bowl after eating",
+            "Not stackable",
+            "Can be obtained by 'milking' a Mooshroom with a Bowl"
+        ],
+        description: "Mushroom Stew is a liquid food item that restores 6 hunger points and 7.2 saturation. It is crafted shapelessly using a bowl, a red mushroom, and a brown mushroom. Alternatively, players can obtain it by using a bowl on a Mooshroom. Like other soups and stews, it is not stackable, but the bowl is returned to the player's inventory after consumption."
+    },
+    "minecraft:beetroot_soup": {
+        id: "minecraft:beetroot_soup",
+        name: "Beetroot Soup",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating to restore hunger",
+            secondaryUse: "None"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bowl", "Beetroot x6"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Leaves behind an empty Bowl after eating",
+            "Not stackable",
+            "Crafted with 6 Beetroots and a Bowl"
+        ],
+        description: "Beetroot Soup is a liquid food item crafted from six beetroots and a bowl. It restores 6 hunger points and 7.2 saturation, making it identical in nutritional value to Mushroom Stew. While it provides a decent amount of food, its unstackable nature makes it less convenient for exploration compared to stackable foods like bread or steak."
+    },
+    "minecraft:cookie": {
+        id: "minecraft:cookie",
+        name: "Cookie",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating to restore hunger",
+            secondaryUse: "Composting"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Wheat", "Cocoa Beans", "Wheat"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Crafted in batches of 8 using 2 Wheat and 1 Cocoa Beans",
+            "Feeding cookies to Parrots kills them instantly",
+            "Can be bought from Farmer villagers"
+        ],
+        description: "A Cookie is a food item made from cocoa beans and wheat. Each crafting operation yields 8 cookies, making them easy to mass-produce once cocoa beans are obtained. However, they provide very little nourishment, restoring only 2 hunger points and minimal saturation. Warning: Cookies are toxic to parrots and will kill them instantly if fed."
     }
 };

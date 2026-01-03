@@ -740,5 +740,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/lodestone_compass_item",
         themeColor: "§e" // gold
+    },
+    {
+        id: "minecraft:mushroom_stew",
+        name: "Mushroom Stew",
+        category: "item",
+        icon: "textures/items/mushroom_stew",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:beetroot_soup",
+        name: "Beetroot Soup",
+        category: "item",
+        icon: "textures/items/beetroot_soup",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:cookie",
+        name: "Cookie",
+        category: "item",
+        icon: "textures/items/cookie",
+        themeColor: "§6" // gold/brown
     }
 ];
