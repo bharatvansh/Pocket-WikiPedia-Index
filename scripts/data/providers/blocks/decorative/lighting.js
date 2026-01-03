@@ -31,6 +31,27 @@ export const lightingBlocks = {
         },
         description: "Glowstone is a luminous block that emits the maximum light level of 15, making it an excellent light source. It generates naturally in the Nether on the underside of terrain and in bastion remnants. When broken without Silk Touch, it drops 2-4 glowstone dust, which can be crafted back into glowstone blocks."
     },
+    "minecraft:sea_lantern": {
+        id: "minecraft:sea_lantern",
+        name: "Sea Lantern",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Prismarine Crystals (2-3)"],
+        generation: {
+            dimension: "Overworld (Ocean Monuments)",
+            yRange: "Any"
+        },
+        description: "A sea lantern is a fragile light source block that emits light level 15 and can be placed underwater, making it ideal for ocean builds. It generates primarily in ocean monuments and can also appear in some underwater ruins, and it can be crafted from prismarine shards and prismarine crystals. When broken without Silk Touch it drops 2-3 prismarine crystals, and in Bedrock Edition Fortune does not increase this drop."
+    },
     "minecraft:copper_lantern": {
         id: "minecraft:copper_lantern",
         name: "Copper Lantern",

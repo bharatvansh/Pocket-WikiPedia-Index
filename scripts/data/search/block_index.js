@@ -105,6 +105,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow/gold
     },
     {
+        id: "minecraft:sea_lantern",
+        name: "Sea Lantern",
+        category: "block",
+        icon: "textures/blocks/sea_lantern",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:mud",
         name: "Mud",
         category: "block",
@@ -550,6 +557,20 @@ export const blockIndex = [
         name: "Honeycomb Block",
         category: "block",
         icon: "textures/blocks/honeycomb_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:beehive",
+        name: "Beehive",
+        category: "block",
+        icon: "textures/blocks/beehive_front",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:bee_nest",
+        name: "Bee Nest",
+        category: "block",
+        icon: "textures/blocks/bee_nest_front",
         themeColor: "§6" // gold/orange
     },
     {
