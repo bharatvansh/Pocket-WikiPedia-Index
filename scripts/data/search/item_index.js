@@ -719,5 +719,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/book_writable",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:rabbit_stew",
+        name: "Rabbit Stew",
+        category: "item",
+        icon: "textures/items/rabbit_stew",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        category: "item",
+        icon: "textures/items/suspicious_stew",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:lodestone_compass",
+        name: "Lodestone Compass",
+        category: "item",
+        icon: "textures/items/lodestone_compass_item",
+        themeColor: "§e" // gold
     }
 ];

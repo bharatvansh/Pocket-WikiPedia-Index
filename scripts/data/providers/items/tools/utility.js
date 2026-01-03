@@ -104,6 +104,29 @@ export const utilityTools = {
         ],
         description: "A Compass is a navigation tool that points to the world spawn point. It is essential for players exploring far from their starting location. By combining a compass with Paper, players can create an Empty Map. In the Nether or End dimensions, the compass needle spins randomly, rendering it useless for direction unless it is used on a Lodestone. When used on a Lodestone, it becomes a Lodestone Compass and points to that specific Lodestone block, allowing for navigation in all dimensions."
     },
+    "minecraft:lodestone_compass": {
+        id: "minecraft:lodestone_compass",
+        name: "Lodestone Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to a linked Lodestone for navigation",
+            secondaryUse: "Marking important locations like bases and portals"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Use a Compass on a Lodestone"]
+        },
+        specialNotes: [
+            "Created by using a Compass on a Lodestone; can be re-linked by using it again",
+            "Points to its Lodestone only in the same dimension; otherwise it spins randomly",
+            "Spins randomly if the linked Lodestone is broken",
+            "Has an enchantment glint to distinguish it from a normal Compass",
+            "Stacks only with Lodestone Compasses linked to the same Lodestone"
+        ],
+        description: "A Lodestone Compass is a compass variant that points to a specific Lodestone rather than world spawn. It is made by using a Compass on a Lodestone, and it can be re-linked to a different Lodestone at any time. In Bedrock Edition it works in any dimension as long as the compass and its Lodestone are in the same one; otherwise it spins randomly, just like when the Lodestone is broken."
+    },
     "minecraft:lead": {
         id: "minecraft:lead",
         name: "Lead",
