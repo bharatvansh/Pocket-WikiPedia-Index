@@ -691,12 +691,12 @@ export const passiveMobs = {
             undead: false
         },
         spawning: {
-            biomes: ["Ocean", "Deep Ocean", "Cold Ocean", "Deep Cold Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean"],
+            biomes: ["Ocean", "Deep Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Cold Ocean", "Deep Cold Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean", "River", "Frozen River"],
             lightLevel: "Any",
-            groupSize: "1-4"
+            groupSize: "2-4"
         },
         behaviorTraits: [
-            "Passive aquatic mob found in ocean biomes",
+            "Passive aquatic mob found in ocean and river biomes",
             "Swims around and produces ink clouds when attacked",
             "Not attracted to light and does not deliberately interact with players",
             "Sometimes beaches itself and suffocates on river banks and ocean beaches",
@@ -708,6 +708,6 @@ export const passiveMobs = {
             { item: "Ink Sac", chance: "1-3" },
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
-        description: "Squid are passive aquatic mobs found in all ocean biomes, spawning in water at various depths. They swim peacefully and do not interact with players unless attacked, at which point they release a cloud of ink as a defense mechanism. Squid cannot be bred, and babies only spawn naturally. Occasionally, squid may beach themselves on river banks or ocean shores and suffocate. They drop ink sacs when killed, which are used for crafting black dye and making books."
+        description: "Squid are passive aquatic mobs found in all ocean biomes, as well as river and frozen river biomes. They spawn in groups of 2 to 4 in oceans and exactly 2 in rivers. Squid swim peacefully and do not interact with players unless attacked, at which point they release a cloud of ink as a defense mechanism. They cannot be bred, and babies only spawn naturally. Occasionally, squid may beach themselves on river banks or ocean shores and suffocate. They drop ink sacs when killed, which are used for crafting black dye and making books."
     }
 };
