@@ -52,6 +52,48 @@ export const containerBlocks = {
         },
         description: "The Chiseled Bookshelf is a functional block used to store and display up to six books, including regular, Written, and Enchanted Books. Players can manually place or remove items from specific slots. When paired with a Redstone Comparator, it outputs a signal based on the last slot interacted with, enabling secret doors and complex contraptions. It is crafted from six wooden slabs and three wooden planks. This block adds dynamic utility to libraries, serving as both a storage solution and a redstone trigger."
     },
+    "minecraft:beehive": {
+        id: "minecraft:beehive",
+        name: "Beehive",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Beehive"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "A beehive is a player-crafted home for bees that can hold up to three bees and store honey as they return from pollinating flowers. When its honey level reaches 5, players can use glass bottles to collect honey bottles or shears to harvest honeycomb; placing a campfire beneath prevents bees from becoming angry. Breaking a beehive always drops the block, but using Silk Touch preserves any bees and honey stored inside so it can be relocated safely."
+    },
+    "minecraft:bee_nest": {
+        id: "minecraft:bee_nest",
+        name: "Bee Nest",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Bee Nest (requires Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Naturally generated on trees"
+        },
+        description: "A bee nest is the naturally generated bee home found attached to trees in certain Overworld biomes, often spawning with up to three bees inside. Like a beehive, it fills with honey up to level 5 and can be harvested with bottles or shears, ideally with campfire smoke to avoid angering the bees. In Bedrock Edition, breaking a bee nest without Silk Touch drops nothing, while Silk Touch allows the nest to be collected with its bees still inside."
+    },
     "minecraft:ender_chest": {
         id: "minecraft:ender_chest",
         name: "Ender Chest",
