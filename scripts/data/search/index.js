@@ -13,18 +13,31 @@ import { mobIndex } from './mob_index.js';
  * @property {string} icon - Path to texture icon
  * @property {string} themeColor - Minecraft color code for this entry (e.g., "§a" for green)
  *                                 NOTE: Never use black (§0) - use darkGray (§8) instead for dark colors
+ * @property {string} _sn - Pre-computed lowercase name for fast searching
+ * @property {string} _si - Pre-computed lowercase ID for fast searching
  */
 
 /**
- * Combined search index containing all entries
+ * Helper to add pre-computed lowercase search keys to entries
+ * @param {object} entry - Original entry
+ * @returns {SearchEntry} Entry with search keys
+ */
+const addSearchKeys = (entry) => ({
+    ...entry,
+    _sn: entry.name.toLowerCase(),
+    _si: entry.id.toLowerCase()
+});
+
+/**
+ * Combined search index containing all entries with pre-computed lowercase keys
  * Maintains the same order as the original: Blocks, Items, Mobs
  * @type {SearchEntry[]}
  */
-export const searchIndex = [
-    ...blockIndex,
-    ...itemIndex,
-    ...mobIndex
-];
+export const searchIndex = Object.freeze([
+    ...blockIndex.map(addSearchKeys),
+    ...itemIndex.map(addSearchKeys),
+    ...mobIndex.map(addSearchKeys)
+]);
 
 /**
  * Pre-computed category counts (computed once at import time)

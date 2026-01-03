@@ -77,11 +77,17 @@ function showMainMenu(player) {
  * @param {string} searchTerm
  */
 function showSearchResults(player, searchTerm) {
-    // Filter search index based on search term
-    const results = searchIndex.filter(entry =>
-        entry.name.toLowerCase().includes(searchTerm) ||
-        entry.id.toLowerCase().includes(searchTerm)
-    );
+    // Fast search with early exit - uses pre-computed _sn/_si keys
+    const MAX_RESULTS = 10;
+    const results = [];
+    const term = searchTerm.toLowerCase();
+
+    for (const entry of searchIndex) {
+        if (entry._sn.includes(term) || entry._si.includes(term)) {
+            results.push(entry);
+            if (results.length >= MAX_RESULTS) break; // Early exit!
+        }
+    }
 
     if (results.length === 0) {
         const form = new ActionFormData()
