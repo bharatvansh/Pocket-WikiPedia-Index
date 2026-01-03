@@ -754,5 +754,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sponge",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:sandstone",
+        name: "Sandstone",
+        category: "block",
+        icon: "textures/blocks/sandstone",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:nether_bricks",
+        name: "Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/nether_bricks",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:quartz_block",
+        name: "Quartz Block",
+        category: "block",
+        icon: "textures/blocks/quartz_block",
+        themeColor: "§f" // white
     }
 ];

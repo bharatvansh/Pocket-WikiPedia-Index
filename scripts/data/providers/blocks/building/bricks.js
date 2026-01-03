@@ -11,6 +11,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const brickBlocks = {
+    "minecraft:sandstone": {
+        id: "minecraft:sandstone",
+        name: "Sandstone",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deserts, Beaches (Y -60 to 64)"
+        },
+        description: "Sandstone is a solid block related to sand that generates naturally in deserts and beaches below layers of sand. It comes in two color variants: regular sandstone (yellow-tan) and red sandstone (reddish-orange). Sandstone requires a wooden pickaxe or better to mine efficiently, dropping itself when broken. It has three decorative variants: chiseled sandstone with hieroglyphic patterns, cut sandstone with a smoother texture, and smooth sandstone made by smelting regular sandstone. Sandstone is commonly used for desert-themed builds and offers good blast resistance despite its relatively low hardness."
+    },
     "minecraft:mud_bricks": {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",
