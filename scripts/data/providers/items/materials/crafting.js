@@ -14,6 +14,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const craftingMaterials = {
+    "minecraft:stick": {
+        id: "minecraft:stick",
+        name: "Stick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting tools, weapons, and various items",
+            secondaryUse: "Fuel source for furnaces (burns for 5 seconds)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["2x Planks (any wood type)"]
+        },
+        specialNotes: [
+            "Crafted from 2 wooden planks in a vertical arrangement",
+            "Essential component for crafting tools, weapons, torches, and many other items",
+            "Can be used as fuel in furnaces, smelting 0.5 items per stick",
+            "Drops from dead bushes, bamboo, and can be obtained from fishing",
+            "Villagers may trade sticks for emeralds",
+            "Used in crafting fences, signs, ladders, and many other utility items"
+        ],
+        description: "Sticks are fundamental crafting components in Minecraft, created by placing two wooden planks vertically in a crafting grid. They serve as the basic building block for tools, weapons, and numerous utility items. Sticks are used in crafting everything from wooden pickaxes and swords to torches, ladders, fences, and signs. Beyond crafting, sticks can also function as a fuel source in furnaces, though their short burn time makes them less efficient than other fuels. Their versatility and importance in early-game progression make sticks one of the most commonly used items in the game."
+    },
     "minecraft:popped_chorus_fruit": {
         id: "minecraft:popped_chorus_fruit",
         name: "Popped Chorus Fruit",
@@ -247,6 +271,30 @@ export const craftingMaterials = {
         ],
         description: "A Glistering Melon Slice is an essential brewing ingredient used to create Potions of Healing. Despite being made from a melon slice, it is completely inedible and serves only for alchemy and trading. It is crafted by combining a single melon slice with eight gold nuggets. When brewed with an Awkward Potion, it creates a Potion of Healing, which instantly restores health. This makes glistering melons a vital resource for players preparing for difficult battles or exploring dangerous environments."
     },
+    "minecraft:glass_bottle": {
+        id: "minecraft:glass_bottle",
+        name: "Glass Bottle",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing potions and storing liquids",
+            secondaryUse: "Collecting honey from beehives"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Glass"]
+        },
+        specialNotes: [
+            "Crafted from 3 glass blocks arranged in a V shape",
+            "Used to collect water for brewing potions",
+            "Can be filled with honey from beehives using shears",
+            "Essential for creating all types of potions in brewing stands",
+            "Empty bottles can be obtained from fishing and villager trading",
+            "Used in crafting dragon's breath bottles"
+        ],
+        description: "Glass Bottles are essential containers used primarily for brewing potions in Minecraft. Crafted from three glass blocks arranged in a V shape, these bottles can be filled with water to create water bottles, which serve as the base for all potion recipes. They are also used to collect honey from beehives when used with shears. Glass bottles play a crucial role in alchemy, enabling players to create healing potions, strength potions, and various other magical concoctions that provide temporary buffs and effects for exploration and combat."
+    },
     "minecraft:gunpowder": {
         id: "minecraft:gunpowder",
         name: "Gunpowder",
@@ -462,6 +510,30 @@ export const craftingMaterials = {
             "Renewable through villager trading and Wither Skeleton farming"
         ],
         description: "Coal is one of the most fundamental fuel sources in Minecraft, obtained by mining coal ore with any pickaxe or from Wither Skeleton drops. Each piece burns for 80 seconds in a furnace, smelting up to 8 items, making it an efficient early-game fuel. Beyond smelting, coal is essential for crafting torches, which provide light and prevent hostile mob spawning. It can be compacted into coal blocks for more efficient storage and extended burn times. Coal is also used in crafting campfires for cooking and ambiance, as well as fire charges for remote ignition."
+    },
+    "minecraft:book": {
+        id: "minecraft:book",
+        name: "Book",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting bookshelves and enchanted books",
+            secondaryUse: "Creating written books and lecterns"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Paper", "1x Leather"]
+        },
+        specialNotes: [
+            "Crafted from 3 paper and 1 leather in a crafting grid",
+            "Used to create bookshelves which are essential for enchanting tables",
+            "Can be combined with an anvil to create enchanted books",
+            "Used in crafting lecterns for displaying books in villages",
+            "Librarian villagers trade books for emeralds",
+            "Books can be signed to create written books that preserve text"
+        ],
+        description: "Books are essential items in Minecraft used primarily for crafting bookshelves and enchanted books. Created by combining three pieces of paper with one leather, books enable players to maximize their enchanting table's potential by surrounding it with bookshelves. They also serve as the base ingredient for creating enchanted books through anvils, allowing for targeted enchantment application. Beyond their magical uses, books can be written in and signed to preserve text, making them useful for storytelling, documentation, and creating lecterns for village decoration."
     },
     "minecraft:brick": {
         id: "minecraft:brick",
