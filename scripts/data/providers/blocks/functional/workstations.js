@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const workstationBlocks = {
+    "minecraft:smoker": {
+        id: "minecraft:smoker",
+        name: "Smoker",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 13,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Smoker"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village butcher houses"
+        },
+        description: "A Smoker is a specialized furnace that smelts food items twice as fast as a regular furnace, making it highly efficient for cooking meat, fish, potatoes, kelp, and other food items. However, it cannot smelt ores or other non-food materials. When active, the smoker emits smoke particles and provides a light level of 13, creating an atmospheric effect. Crafted from four logs and one furnace, the smoker serves as the job site block for Butcher villagers and spawns naturally in their houses in villages."
+    },
     "minecraft:obsidian": {
         id: "minecraft:obsidian",
         name: "Obsidian",

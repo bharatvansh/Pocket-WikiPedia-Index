@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const containerBlocks = {
+    "minecraft:barrel": {
+        id: "minecraft:barrel",
+        name: "Barrel",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Barrel"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village fisher cottages, pillager outposts"
+        },
+        description: "A Barrel is a storage block that functions like a chest, offering 27 inventory slots for items. Unlike chests, barrels can be placed adjacent to each other without blocking access, and they do not emit light. Barrels can be placed on top of or below blocks, and their top and sides have different textures for decorative variety. Crafted from six wooden planks and two wooden slabs, barrels serve as job site blocks for Fisherman villagers and spawn naturally in their houses. In Bedrock Edition, barrels are particularly useful in compact builds due to their small footprint."
+    },
     "minecraft:decorated_pot": {
         id: "minecraft:decorated_pot",
         name: "Decorated Pot",

@@ -532,6 +532,13 @@ export const blockIndex = [
         themeColor: "§5" // dark purple (crying obsidian)
     },
     {
+        id: "minecraft:barrel",
+        name: "Barrel",
+        category: "block",
+        icon: "textures/blocks/barrel",
+        themeColor: "§6" // brown/wood
+    },
+    {
         id: "minecraft:beacon",
         name: "Beacon",
         category: "block",
@@ -579,6 +586,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/magma",
         themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:lightning_rod",
+        name: "Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/lightning_rod",
+        themeColor: "§7" // gray/metal
     },
     {
         id: "minecraft:lodestone",
@@ -684,6 +698,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_log",
         themeColor: "§d" // light purple/pink
+    },
+    {
+        id: "minecraft:smoker",
+        name: "Smoker",
+        category: "block",
+        icon: "textures/blocks/smoker",
+        themeColor: "§6" // brown/stone
     },
     {
         id: "minecraft:sniffer_egg",
