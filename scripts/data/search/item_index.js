@@ -700,6 +700,27 @@ export const itemIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:raw_iron",
+        name: "Raw Iron",
+        category: "item",
+        icon: "textures/items/raw_iron",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:raw_gold",
+        name: "Raw Gold",
+        category: "item",
+        icon: "textures/items/raw_gold",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:raw_copper",
+        name: "Raw Copper",
+        category: "item",
+        icon: "textures/items/raw_copper",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:emerald",
         name: "Emerald",
         category: "item",
