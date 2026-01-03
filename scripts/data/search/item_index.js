@@ -796,5 +796,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/cake",
         themeColor: "§f" // white/pink
+    },
+    {
+        id: "minecraft:diamond_sword",
+        name: "Diamond Sword",
+        category: "item",
+        icon: "textures/items/diamond_sword",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:netherite_pickaxe",
+        name: "Netherite Pickaxe",
+        category: "item",
+        icon: "textures/items/netherite_pickaxe",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:gold_ingot",
+        name: "Gold Ingot",
+        category: "item",
+        icon: "textures/items/gold_ingot",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:music_disc_5",
+        name: "Music Disc (5)",
+        category: "item",
+        icon: "textures/items/music_disc_5",
+        themeColor: "§b"
     }
 ];

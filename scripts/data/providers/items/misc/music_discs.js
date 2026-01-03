@@ -78,5 +78,27 @@ export const musicDiscs = {
             "Provides a redstone signal strength of 13, the second highest among music discs"
         ],
         description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
+    },
+    "minecraft:music_disc_5": {
+        id: "minecraft:music_disc_5",
+        name: "Music Disc (5)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing a mysterious sound recording in a Jukebox",
+            secondaryUse: "Decorative item for collectors"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Disc Fragment 5 x9"]
+        },
+        specialNotes: [
+            "Only music disc that must be crafted from fragments",
+            "Contains a compilation of ambient sounds and mysterious recordings",
+            "Fragments are found exclusively in Ancient City loot chests",
+            "Unlike other discs, it cannot be obtained from Creeper drops"
+        ],
+        description: "Music Disc 5 is a unique music item added in the Wild Update. Unlike other music discs that are typically found in chests or dropped by creepers, this disc must be crafted by combining nine Disc Fragments in a crafting table. The fragments themselves are rare loot found only in Ancient Cities. When played, it emits a chilling and mysterious sequence of sounds, including footsteps, breathing, and the distinct sound of a Warden, adding to the lore of the Deep Dark."
     }
 };

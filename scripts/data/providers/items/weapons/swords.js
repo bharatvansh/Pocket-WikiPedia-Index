@@ -33,6 +33,32 @@ export const swords = {
         ],
         description: "The Iron Sword is a versatile weapon that deals moderate damage. It's more durable than wooden or stone swords but less powerful than diamond or netherite swords. Iron swords can be enchanted with various combat-related enchantments."
     },
+    "minecraft:diamond_sword": {
+        id: "minecraft:diamond_sword",
+        name: "Diamond Sword",
+        maxStack: 1,
+        durability: 1561,
+        enchantable: true,
+        usage: {
+            primaryUse: "High-damage melee combat",
+            secondaryUse: "Quickly breaking cobwebs and bamboo"
+        },
+        combat: {
+            attackDamage: 7,
+            attackSpeed: 1.6
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 7 points of damage (3.5 hearts) per hit",
+            "Can be upgraded to a Netherite Sword using a Smithing Template",
+            "Durability of 1561 allows for extensive use before needing repair",
+            "Can be repaired with Diamonds or in an anvil"
+        ],
+        description: "The Diamond Sword is a high-tier melee weapon that provides significant damage and durability. It was the strongest sword available before the introduction of netherite. To craft one, a player needs two diamonds and a stick. It can be further enhanced with various combat enchantments like Sharpness, Fire Aspect, and Knockback, making it a formidable weapon for any encounter."
+    },
     "minecraft:mace": {
         id: "minecraft:mace",
         name: "Mace",
