@@ -199,6 +199,27 @@ export const netherBlocks = {
             dimension: "Overworld",
             yRange: "Amethyst Geodes and Ancient Cities"
         },
-        description: "Smooth basalt is an ornamental variant of basalt with a polished, refined texture. It naturally generates as the outer layer of amethyst geodes and can be found in Ancient Cities deep underground. Alternatively, it can be crafted by smelting regular basalt in a furnace. Unlike its rough counterpart, smooth basalt cannot naturally generate in the Nether. It shares the same hardness and blast resistance as basalt, making it a durable decorative block. Its smooth appearance makes it popular for modern builds and clean architectural designs, especially in underground structures."
-    }
+        description: "Smooth basalt is an ornamental variant of basalt with a polished, refined texture. It naturally generates as the outer layer of amethyst geodes and can be found in Ancient Cities deep underground. Alternatively, it can be crafted by smelting regular basalt in a furnace. Unlike its rough counterpart, smooth basalt cannot naturally generate in the Nether. It shares the same hardness and blast resistance as basalt, making it a durable decorative block. Its smooth appearance makes it popular for modern builds and clean architectural designs, especially in underground structures.",
+    },
+    "minecraft:soul_sand": {
+        id: "minecraft:soul_sand",
+        name: "Soul Sand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false,
+        },
+        drops: ["Soul Sand"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley (Y 0-128)",
+        },
+        description: "Soul Sand is a unique block found naturally in the Nether, primarily within the Soul Sand Valley biome. It significantly slows down the movement of most mobs and players walking upon it, and it also causes them to sink slightly into the block. When placed under water, it creates a bubble column that pushes entities and items upwards, which is essential for many water-based elevator designs. Soul Sand is also a requirement for summoning the Wither and can be used to grow nether wart.",
+    },
 };
