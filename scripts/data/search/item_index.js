@@ -593,5 +593,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_hide",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        category: "item",
+        icon: "textures/items/experience_bottle",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        category: "item",
+        icon: "textures/items/suspicious_stew",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:writable_book",
+        name: "Book and Quill",
+        category: "item",
+        icon: "textures/items/book_writable",
+        themeColor: "§6" // gold/brown
     }
 ];
