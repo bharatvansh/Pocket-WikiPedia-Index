@@ -476,6 +476,34 @@ export const blockIndex = [
         themeColor: "§2" // dark green/teal patina
     },
     {
+        id: "minecraft:ender_chest",
+        name: "Ender Chest",
+        category: "block",
+        icon: "textures/blocks/ender_chest",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        category: "block",
+        icon: "textures/blocks/smithing_table",
+        themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:grindstone",
+        name: "Grindstone",
+        category: "block",
+        icon: "textures/blocks/grindstone",
+        themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        category: "block",
+        icon: "textures/blocks/enchanting_table",
+        themeColor: "§d" // purple/magenta
+    },
+    {
         id: "minecraft:sculk_shrieker",
         name: "Sculk Shrieker",
         category: "block",
