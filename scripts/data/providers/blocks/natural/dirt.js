@@ -73,5 +73,26 @@ export const dirtBlocks = {
             yRange: "None"
         },
         description: "Packed Mud is a building block crafted from mud and wheat. It is used as a decorative block or as an ingredient to craft mud bricks. Unlike regular mud, entities do not sink into packed mud, and it is mined faster with a pickaxe rather than a shovel."
+    },
+    "minecraft:suspicious_sand": {
+        id: "minecraft:suspicious_sand",
+        name: "Suspicious Sand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Pyramids, Desert Wells, and Warm Ocean Ruins"
+        },
+        description: "Suspicious sand is a fragile, gravity-affected block found in various structures like desert pyramids and warm ocean ruins. Using a brush on naturally generated suspicious sand reveals hidden items, such as pottery sherds, emeralds, or sniffer eggs. Once the brushing process is complete, the block turns into regular sand, and if broken or moved by a piston, it drops nothing."
     }
 };
