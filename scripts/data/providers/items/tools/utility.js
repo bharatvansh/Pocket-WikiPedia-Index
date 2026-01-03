@@ -153,6 +153,29 @@ export const utilityTools = {
         ],
         description: "The Fishing Rod is a versatile tool primarily used for fishing to obtain food, treasure (like enchanted books and nautilus shells), and junk items. It has a durability of 64, matching the Java Edition. Beyond fishing, it can hook onto mobs, players, and items, allowing the user to pull them closer. It is crafted using three sticks and two strings."
     },
+    "minecraft:carrot_on_a_stick": {
+        id: "minecraft:carrot_on_a_stick",
+        name: "Carrot on a Stick",
+        maxStack: 1,
+        durability: 25,
+        enchantable: true,
+        usage: {
+            primaryUse: "Guiding and boosting saddled Pigs",
+            secondaryUse: "Attracting nearby Pigs"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Fishing Rod", "Carrot"]
+        },
+        specialNotes: [
+            "Used to control a saddled Pig.",
+            "Right-clicking boosts the pig's speed, consuming 7 durability.",
+            "Reverts to a Fishing Rod when durability reaches 0.",
+            "Can be enchanted with Unbreaking, Mending, and Curse of Vanishing.",
+            "Pigs follow the player holding it."
+        ],
+        description: "The Carrot on a Stick is a tool used to ride and control saddled pigs. When held, it allows the player to steer the pig in the direction they are looking. Using the item gives the pig a temporary speed boost, which consumes 7 durability points. It has a low durability of 25 and will break into a regular fishing rod when exhausted. It is crafted by combining a fishing rod with a carrot."
+    },
     "minecraft:shears": {
         id: "minecraft:shears",
         name: "Shears",
@@ -317,5 +340,27 @@ export const utilityTools = {
             "Useful for transportation of axolotls between biomes or to player builds."
         ],
         description: "An Axolotl Bucket is a utility item used to transport and display axolotls. When used on an axolotl, it picks up the mob in its current color variant, storing it safely within the bucket. This allows players to move axolotls between locations, create aquariums, or transport them to breeding facilities. The bucket displays the axolotl's coloration, making it easy to identify different variants. Axolotls are beneficial companions that help players defeat underwater mobs and provide regeneration when the player is swimming nearby."
+    },
+    "minecraft:tadpole_bucket": {
+        id: "minecraft:tadpole_bucket",
+        name: "Bucket of Tadpole",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting tadpoles",
+            secondaryUse: "Placing tadpoles in different biomes to grow specific frog variants"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Tadpole"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a tadpole.",
+            "Used to transport tadpoles to different biomes to get different frog variants (Temperate, Warm, Cold).",
+            "Places water and the tadpole when used.",
+            "Tadpoles grow into frogs based on the biome they mature in."
+        ],
+        description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
     }
 };

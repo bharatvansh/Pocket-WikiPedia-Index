@@ -336,6 +336,13 @@ export const itemIndex = [
         themeColor: "§6" // gold/orange
     },
     {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        category: "item",
+        icon: "textures/items/honeycomb",
+        themeColor: "§6" // gold
+    },
+    {
         id: "minecraft:crossbow",
         name: "Crossbow",
         category: "item",
@@ -420,6 +427,13 @@ export const itemIndex = [
         themeColor: "§6" // brown
     },
     {
+        id: "minecraft:carrot_on_a_stick",
+        name: "Carrot on a Stick",
+        category: "item",
+        icon: "textures/items/carrot_on_a_stick",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:shears",
         name: "Shears",
         category: "item",
@@ -481,6 +495,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bucket_axolotl",
         themeColor: "§d" // Purple/pink (axolotl colors)
+    },
+    {
+        id: "minecraft:tadpole_bucket",
+        name: "Bucket of Tadpole",
+        category: "item",
+        icon: "textures/items/bucket_tadpole",
+        themeColor: "§6" // Brown
     },
     {
         id: "minecraft:item_frame",
