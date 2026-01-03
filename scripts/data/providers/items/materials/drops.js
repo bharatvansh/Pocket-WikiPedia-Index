@@ -5,7 +5,7 @@
 // nether star, shulker shell, phantom membrane, rabbit hide,
 // rabbit foot, ink sac, glow ink sac, spider eye, rotten flesh,
 // breeze rod, armadillo scute, turtle scute, nautilus shell,
-// heart of the sea, dragon breath, totem of undying
+// heart of the sea, dragon breath, totem of undying, gold nugget
 // ============================================
 
 /**
@@ -269,5 +269,105 @@ export const mobDrops = {
             "Small rabbits are quick and difficult to farm but provide useful drops"
         ],
         description: "Rabbit Hide is a skin material dropped by rabbits when killed, typically dropping 0-2 hides per rabbit with increased yields from Looting enchantments. While rabbits are small and fast, their hides provide a renewable source of leather, particularly valuable in biomes where cows are scarce or absent. Four rabbit hides can be crafted into a single piece of leather in a 2x2 crafting grid, which can then be used to create books, item frames, and leather armor. This makes rabbit farming a viable alternative for players who struggle to find cattle in their world."
+    },
+    "minecraft:bone": {
+        id: "minecraft:bone",
+        name: "Bone",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Bone Meal for farming and white dye",
+            secondaryUse: "Taming and breeding wolves"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bone"]
+        },
+        specialNotes: [
+            "Dropped by skeletons, strays, and bogged (0-2 bones)",
+            "Looting enchantment increases the maximum drop by 1 per level",
+            "Can be crafted into 3 Bone Meal in a crafting grid",
+            "Bone Meal is a white dye and accelerates crop, sapling, and plant growth",
+            "Used to tame wolves with a 1/3 success rate per bone",
+            "Wolves can be bred using bones after being tamed",
+            "Can be found in desert temples, jungle temples, and woodland mansions"
+        ],
+        description: "Bones are skeletal items primarily obtained from defeating skeleton-type mobs such as skeletons, strays, and bogged. Their most common use is crafting Bone Meal, which serves as an effective fertilizer for crops, saplings, and flowers, as well as being a white dye for coloring blocks and items. Bones are also essential for interacting with wolves, as they are the only item that can tame wild wolves and breed tamed ones. With a 1/3 chance to tame a wild wolf per bone used, players typically need several bones to successfully befriend a canine companion."
+    },
+    "minecraft:string": {
+        id: "minecraft:string",
+        name: "String",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting bows, fishing rods, and leads",
+            secondaryUse: "Redstone component for tripwires"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["String"]
+        },
+        specialNotes: [
+            "Dropped by spiders, cave spiders, and cats (0-2 string)",
+            "Obtained by breaking cobwebs with a sword or shears",
+            "Breaking tripwire blocks also drops string",
+            "Cats have a 50% chance to bring string as a morning gift",
+            "Can be crafted into bows (3x), fishing rods (2x), and leads (2x)",
+            "Used to create tripwire hooks for redstone traps and mechanisms",
+            "Wool blocks can be crafted into 4 strings each"
+        ],
+        description: "String is a versatile crafting material commonly dropped by spiders and cave spiders, or collected by breaking cobwebs found in abandoned mineshafts and strongholds. It is a fundamental component in several essential recipes: three strings create a bow, two strings make a fishing rod, and two strings are needed for leads to leash animals. String also has a redstone application when used to craft tripwire hooks, allowing players to create detection circuits and traps. Domestic cats may occasionally gift string to their owners, and wool blocks can be broken down into string in a crafting table."
+    },
+    "minecraft:feather": {
+        id: "minecraft:feather",
+        name: "Feather",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting arrows for bows",
+            secondaryUse: "Crafting Book and Quill for writing"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Feather"]
+        },
+        specialNotes: [
+            "Dropped by chickens (0-2 feathers; 66% chance per chicken)",
+            "Dropped by parrots (1-2 feathers; 100% chance)",
+            "Looting enchantment increases the maximum drop from chickens",
+            "Primary ingredient for crafting arrows (1 feather + 1 stick + 1 flint)",
+            "Can be used with a book and ink sac to craft Book and Quill",
+            "Book and Quill allows players to write and edit custom text",
+            "Feathers are a renewable resource from chicken and parrot farms"
+        ],
+        description: "Feathers are lightweight items primarily obtained from chickens, which drop 0-2 feathers upon death with a 66% chance of dropping at least one. Parrots also drop feathers reliably when killed. The main purpose of feathers is arrow production, with each arrow requiring one feather, one stick, and one flint. This makes feathers essential for ranged combat and hunting. Additionally, feathers can be combined with a book and ink sac to create a Book and Quill, an item that allows players to write up to 50 pages of custom text, making them useful for storytelling, sign-making, or documenting in-game discoveries."
+    },
+    "minecraft:gold_nugget": {
+        id: "minecraft:gold_nugget",
+        name: "Gold Nugget",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting golden carrots, glistering melon slices, and gold ingots",
+            secondaryUse: "Fuel for furnaces and crafting golden apples"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Nugget"]
+        },
+        specialNotes: [
+            "Dropped by zombie piglins and gilded hoglins (2-6 nuggets)",
+            "Looting increases the maximum nugget drop from zombie piglins",
+            "Obtained by smelting golden tools, armor, and equipment",
+            "Obtained by mining Nether gold ore",
+            "9 nuggets craft into 1 Gold Ingot in a 3x3 grid",
+            "Used to craft Golden Carrots, Glistering Melon Slices, and Golden Apples",
+            "Can be used as furnace fuel, smelting 0.1 items per nugget"
+        ],
+        description: "Gold Nuggets are small fragments of gold primarily obtained by killing zombie piglins in the Nether or gilded hoglins in Bastion remnants. Zombie piglins drop 2-6 nuggets upon death, with Looting enchantments increasing the maximum yield. These nuggets serve as a compact form of gold that can be smelted from golden tools or mined from Nether gold ore. Their primary uses involve advanced food items: nine nuggets combine with a golden carrot for high saturation food, eight nuggets with a melon slice create glistering melon for potion brewing, and eight nuggets with an apple make a golden apple. They can also be crafted back into gold ingots or used as inefficient furnace fuel."
     }
 };
