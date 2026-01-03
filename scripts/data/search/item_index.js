@@ -719,5 +719,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/book_writable",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:vex_armor_trim_smithing_template",
+        name: "Vex Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/vex_armor_trim_smithing_template",
+        themeColor: "§5" // dark purple (illager/evoker theme)
+    },
+    {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/wayfinder_armor_trim_smithing_template",
+        themeColor: "§a" // green/adventurer theme
+    },
+    {
+        id: "minecraft:spire_armor_trim_smithing_template",
+        name: "Spire Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/spire_armor_trim_smithing_template",
+        themeColor: "§d" // light purple/End theme
     }
 ];

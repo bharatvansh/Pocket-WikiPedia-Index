@@ -123,5 +123,77 @@ export const smithingTemplates = {
             "Features a wind-themed swirling pattern matching the Breeze"
         ],
         description: "The Flow Armor Trim is a rare decorative item found in Ominous Vaults within Trial Chambers (1.21). It features wind-inspired swirling patterns reminiscent of the Breeze mob. Unlike most trims, it is duplicated using a Breeze Rod and seven Diamonds. Players can obtain it with a 22.5% drop rate from Ominous Vaults, which require the Trial Omen effect to unlock. This template adds a unique, airy aesthetic to armor and serves as a prestigious reward for players who complete the chambers' most difficult combat challenges."
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+        id: "minecraft:vex_armor_trim_smithing_template",
+        name: "Vex Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Vex' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Vex Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Woodland Mansion chests (50% chance in Bedrock Edition)",
+            "Features a pattern resembling an Evoker's robe and Vex wings",
+            "Added in the Trails & Tales update (1.20) behind experimental data",
+            "Changed from Common to Rare rarity in 1.21.2",
+            "Duplicated using 7 Diamonds and 1 Cobblestone",
+            "Consumed upon use in a Smithing Table"
+        ],
+        description: "The Vex Armor Trim Smithing Template allows players to apply the distinctive 'Vex' pattern to their armor, creating a design reminiscent of an Evoker's mystical robe and the ethereal wings of Vexes. Found exclusively in Woodland Mansions with a generous 50% drop rate in chests, this template is one of the more accessible trims. Its visual design evokes the threatening magic of illagers, making it a popular choice for players who want their armor to reflect their prowess in combating woodland threats. The template can be duplicated using seven diamonds and a cobblestone block."
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Wayfinder' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Raw Clay"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Raw Clay", "1x Wayfinder Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found exclusively in Trial Chambers inside standard Vaults",
+            "Has an 8.5% chance to drop when opening a Vault with a Trial Key in Bedrock Edition",
+            "Features an adventurous compass-like design symbolizing exploration",
+            "Duplicated using 7 Diamonds and 1 Raw Clay",
+            "Consumed upon use in a Smithing Table",
+            "One of the trims required for the 'Smithing with Style' advancement"
+        ],
+        description: "The Wayfinder Armor Trim Smithing Template introduces an adventurous, compass-inspired aesthetic to armor, perfectly suited for players who love exploration and Trials. Found within the Vaults of Trial Chambers, this template drops with an 8.5% chance when players use a Trial Key. The Wayfinder trim symbolizes navigation and adventure, featuring a design that resembles a compass rose or an explorer's badge. It is duplicated using seven diamonds and a raw clay block, allowing players to apply this prestigious design to their entire armor set after obtaining the initial template."
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+        id: "minecraft:spire_armor_trim_smithing_template",
+        name: "Spire Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Spire' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobbled Deepslate"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobbled Deepslate", "1x Spire Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found exclusively in End City chests (6.7% chance in Bedrock Edition)",
+            "Features a tall, jagged spire pattern echoing the End's obsidian pillars",
+            "Added in the Trails & Tales update (1.20) behind experimental data",
+            "Changed from Common to Rare rarity in 1.21.2",
+            "Duplicated using 7 Diamonds and 1 Cobbled Deepslate",
+            "Consumed upon use in a Smithing Table"
+        ],
+        description: "The Spire Armor Trim Smithing Template adds a dramatic, jagged spire pattern to armor, echoing the towering obsidian pillars of the End dimension. This exclusive trim is found in End City chests with a 6.7% drop rate. The Spire design creates a striking, crystalline appearance conveying the mysterious nature of the End. Like all templates, it can be duplicated using seven diamonds and a cobbled deepslate block, allowing players to trim multiple armor pieces."
     }
 };
