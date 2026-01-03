@@ -266,11 +266,25 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:glass_bottle",
+        name: "Glass Bottle",
+        category: "item",
+        icon: "textures/items/potion_bottle_empty",
+        themeColor: "§f" // white/clear
+    },
+    {
         id: "minecraft:glow_berries",
         name: "Glow Berries",
         category: "item",
         icon: "textures/items/glow_berries",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:book",
+        name: "Book",
+        category: "item",
+        icon: "textures/items/book_normal",
+        themeColor: "§6" // brown/leather
     },
     {
         id: "minecraft:blaze_rod",
@@ -369,6 +383,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/crossbow_standby",
         themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stick",
+        name: "Stick",
+        category: "item",
+        icon: "textures/items/stick",
+        themeColor: "§6" // brown/wood
     },
     {
         id: "minecraft:slime_ball",
