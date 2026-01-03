@@ -120,5 +120,68 @@ export const vegetationBlocks = {
             yRange: "Warm Oceans"
         },
         description: "Sea Pickles are small, stationary colonies of aquatic animals that emit light when submerged in water. Found naturally on coral blocks in warm oceans, they can be placed in clusters of up to four on a single block, with each additional pickle increasing the light level (6, 9, 12, 15). They only produce light when underwater; on land, they remain dim. Players can grow more sea pickles by using bone meal on one that is placed on a coral block underwater. They can also be smelted into lime dye."
+    },
+    "minecraft:glow_lichen": {
+        id: "minecraft:glow_lichen",
+        name: "Glow Lichen",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 7,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Glow Lichen"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Caves (on stone-type blocks)"
+        },
+        description: "Glow Lichen is a dim, bioluminescent block found naturally in caves, clinging to stone-type blocks. It emits a soft light level of 7 and can be harvested using shears, making it a subtle light source for builds. In addition to cave walls, it can be grown on most solid blocks using bone meal to spread it. Its unique non-solid nature allows it to be waterlogged and placed on any side of a block."
+    },
+    "minecraft:mushroom_stem": {
+        id: "minecraft:mushroom_stem",
+        name: "Mushroom Stem",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Mushroom Stem"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dark Forest, Mushroom Fields"
+        },
+        description: "Mushroom Stems are thick, fibrous blocks that form the stalk of huge mushrooms found in Dark Forest and Mushroom Fields biomes. They can be harvested with Silk Touch to keep their unique texture on all sides, or broken without it to potentially drop smaller mushrooms. These blocks are most efficiently broken with an axe and provide a bass sound when placed under a note block. They are a versatile building material for organic and rustic structures."
+    },
+    "minecraft:mangrove_propagule": {
+        id: "minecraft:mangrove_propagule",
+        name: "Mangrove Propagule",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Propagule"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamps (hanging from leaves)"
+        },
+        description: "Mangrove Propagules are the unique saplings of Mangrove trees, capable of growing both on land and underwater. They generate naturally hanging from Mangrove Leaves and can be harvested when they reach their final growth stage. Unlike other saplings, they have a distinct long shape and can be planted in mud, clay, and moss blocks. They are essential for cultivating Mangrove Swamps and obtaining mangrove wood in survival mode."
     }
 };

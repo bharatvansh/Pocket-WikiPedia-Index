@@ -845,5 +845,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_sand",
         themeColor: "§8" // dark gray/brown
+    },
+    {
+        id: "minecraft:glow_lichen",
+        name: "Glow Lichen",
+        category: "block",
+        icon: "textures/blocks/glow_lichen",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:mushroom_stem",
+        name: "Mushroom Stem",
+        category: "block",
+        icon: "textures/blocks/mushroom_stem",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:mangrove_propagule",
+        name: "Mangrove Propagule",
+        category: "block",
+        icon: "textures/blocks/mangrove_propagule",
+        themeColor: "§2"
     }
 ];
