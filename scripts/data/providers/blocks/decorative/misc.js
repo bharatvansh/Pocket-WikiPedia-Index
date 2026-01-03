@@ -76,6 +76,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Budding Amethyst is a rare block found in amethyst geodes that periodically grows amethyst buds and clusters on its sides. It is unobtainable in Survival mode, dropping nothing even if broken with Silk Touch. This ensures geodes remain valuable, permanent sites for farming amethyst shards. In Bedrock Edition, buds can grow into flowing water. Since it is the only block capable of producing amethyst clusters, players generally build dedicated farms around these blocks rather than attempting to relocate or use them for building."
     },
+    "minecraft:bone_block": {
+        id: "minecraft:bone_block",
+        name: "Bone Block",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Bone Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 9 bone meal"
+        },
+        description: "Bone Block is a decorative block crafted from nine bone meal arranged in a 3x3 pattern. It features a distinctive off-white, porous texture resembling compressed bone material. Each bone block yields 9 bone meal when broken, making it an efficient storage method for bone meal. The block serves as a compact way to store large quantities of bone meal and provides a unique building material with a pale, weathered appearance. Bone blocks are popular for creating ancient, archaeological, or macabre-themed builds due to their bone-like aesthetic."
+    },
     "minecraft:prismarine": {
         id: "minecraft:prismarine",
         name: "Prismarine",
@@ -222,6 +243,27 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Copper bars are decorative fencing blocks with a hardness of 5.0 and blast resistance of 6.0, harvested with a wooden pickaxe. Like iron bars, they connect to adjacent blocks to form barriers. They feature four stages of oxidation (unoxidized, exposed, weathered, and oxidized), shifting from orange to teal. Players can use honeycomb to wax bars and lock their appearance or use axes and lightning to scrape away oxidation layers. They connect to solid blocks and other bars, providing a dynamic, aging aesthetic for windows, cages, and intricate structural designs."
+    },
+    "minecraft:slime_block": {
+        id: "minecraft:slime_block",
+        name: "Slime Block",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Slime Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 9 slime balls"
+        },
+        description: "Slime Block is a unique functional block with special properties that causes entities to bounce when they land on it. When an entity contacts a slime block, it bounces in the opposite direction with significant velocity, making it useful for trampolines and redstone mechanisms. The block is crafted from nine slime balls obtained from slime mobs. Unlike other blocks, slime blocks are not completely solid - they allow entities to partially pass through them before bouncing. They have very low hardness and blast resistance, making them easy to break but also susceptible to explosions. Slime blocks can be used in innovative redstone contraptions for item transportation and entity launching systems."
     },
     "minecraft:sniffer_egg": {
         id: "minecraft:sniffer_egg",

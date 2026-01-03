@@ -74,6 +74,27 @@ export const dirtBlocks = {
         },
         description: "Packed Mud is a building block crafted from mud and wheat. It is used as a decorative block or as an ingredient to craft mud bricks. Unlike regular mud, entities do not sink into packed mud, and it is mined faster with a pickaxe rather than a shovel."
     },
+    "minecraft:clay_block": {
+        id: "minecraft:clay_block",
+        name: "Clay Block",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Clay"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Bodies of water, beaches, and clay deposits"
+        },
+        description: "Clay Block is a natural building material found abundantly underwater in rivers, lakes, and beaches. It drops clay balls when mined, which can be smelted into bricks or used to craft flower pots. Clay blocks can be found near water sources and generate in clusters up to 8 blocks. Each clay block yields 4 clay balls when broken. Clay blocks are essential for creating terracotta and various decorative building materials, making them valuable for construction projects that require warm, earthy tones."
+    },
     "minecraft:suspicious_sand": {
         id: "minecraft:suspicious_sand",
         name: "Suspicious Sand",
