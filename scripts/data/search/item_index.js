@@ -714,10 +714,24 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
-        id: "minecraft:writable_book",
-        name: "Book and Quill",
+        id: "minecraft:armadillo_spawn_egg",
+        name: "Armadillo Spawn Egg",
         category: "item",
-        icon: "textures/items/book_writable",
+        icon: "textures/items/spawn_eggs/spawn_egg_armadillo",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:bogged_spawn_egg",
+        name: "Bogged Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_bogged",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:sniffer_spawn_egg",
+        name: "Sniffer Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_sniffer",
+        themeColor: "§a"
     }
 ];
