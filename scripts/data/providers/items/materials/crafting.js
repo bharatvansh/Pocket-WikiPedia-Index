@@ -32,7 +32,7 @@ export const craftingMaterials = {
             "Crafted from 2 wooden planks in a vertical arrangement",
             "Essential component for crafting tools, weapons, torches, and many other items",
             "Can be used as fuel in furnaces, smelting 0.5 items per stick",
-            "Drops from dead bushes, bamboo, and can be obtained from fishing",
+            "Drops from dead bushes, leaves (decaying or broken without shears), can be crafted from bamboo, or obtained from fishing",
             "Villagers may trade sticks for emeralds",
             "Used in crafting fences, signs, ladders, and many other utility items"
         ],
@@ -288,10 +288,10 @@ export const craftingMaterials = {
         specialNotes: [
             "Crafted from 3 glass blocks arranged in a V shape",
             "Used to collect water for brewing potions",
-            "Can be filled with honey from beehives using shears",
+            "Can be filled with honey from beehives by using the bottle on the hive",
             "Essential for creating all types of potions in brewing stands",
             "Empty bottles can be obtained from fishing and villager trading",
-            "Used in crafting dragon's breath bottles"
+            "Used to collect Dragon's Breath"
         ],
         description: "Glass Bottles are essential containers used primarily for brewing potions in Minecraft. Crafted from three glass blocks arranged in a V shape, these bottles can be filled with water to create water bottles, which serve as the base for all potion recipes. They are also used to collect honey from beehives when used with shears. Glass bottles play a crucial role in alchemy, enabling players to create healing potions, strength potions, and various other magical concoctions that provide temporary buffs and effects for exploration and combat."
     },
@@ -519,21 +519,21 @@ export const craftingMaterials = {
         enchantable: false,
         usage: {
             primaryUse: "Crafting bookshelves and enchanted books",
-            secondaryUse: "Creating written books and lecterns"
+            secondaryUse: "Crafting Book and Quills"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["3x Paper", "1x Leather"]
         },
         specialNotes: [
             "Crafted from 3 paper and 1 leather in a crafting grid",
             "Used to create bookshelves which are essential for enchanting tables",
-            "Can be combined with an anvil to create enchanted books",
+            "Can be enchanted using an Enchanting Table to create Enchanted Books",
             "Used in crafting lecterns for displaying books in villages",
             "Librarian villagers trade books for emeralds",
-            "Books can be signed to create written books that preserve text"
+            "Must be crafted into a Book and Quill to be written in or signed"
         ],
-        description: "Books are essential items in Minecraft used primarily for crafting bookshelves and enchanted books. Created by combining three pieces of paper with one leather, books enable players to maximize their enchanting table's potential by surrounding it with bookshelves. They also serve as the base ingredient for creating enchanted books through anvils, allowing for targeted enchantment application. Beyond their magical uses, books can be written in and signed to preserve text, making them useful for storytelling, documentation, and creating lecterns for village decoration."
+        description: "Books are essential items in Minecraft used primarily for crafting bookshelves and enchanted books. Created by combining three paper with one leather, books enable players to maximize their enchanting table's potential by surrounding it with bookshelves. They also serve as the base ingredient for creating enchanted books through Enchanting Tables, allowing for targeted enchantment application. Beyond their magical uses, books must be crafted into a Book and Quill to be written in and signed, making them useful for storytelling, documentation, and creating lecterns for village decoration."
     },
     "minecraft:brick": {
         id: "minecraft:brick",
