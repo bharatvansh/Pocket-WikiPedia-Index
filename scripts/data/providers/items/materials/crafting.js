@@ -478,13 +478,12 @@ export const craftingMaterials = {
             ingredients: ["Clay Ball", "Fuel"]
         },
         specialNotes: [
-            "Obtained by smelting clay balls in a furnace or smoker",
+            "Obtained by smelting clay balls in a furnace",
             "Four bricks craft into one brick block for building",
             "Used to craft flower pots (3 bricks in a V-shape)",
             "Essential component for decorated pots in archaeology-themed builds",
             "Renewable resource through villager trading with Mason villagers",
-            "Mason villagers sell 10 bricks for 1 emerald",
-            "Can be found in village mason house chests"
+            "Mason villagers sell 10 bricks for 1 emerald"
         ],
         description: "Bricks are building materials created by smelting clay balls in a furnace. Once fired, four bricks can be combined to form a brick block, which is prized for its warm, rustic appearance in construction projects. Beyond building, bricks are used to craft flower pots, allowing players to display plants indoors or in gardens. They are also a key ingredient in creating decorated pots, which add archaeological and artistic flair to builds. Bricks became a renewable resource after version 1.14, as mason villagers now trade them for emeralds."
     },
