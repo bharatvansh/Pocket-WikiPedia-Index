@@ -593,5 +593,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_hide",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:bone",
+        name: "Bone",
+        category: "item",
+        icon: "textures/items/bone",
+        themeColor: "§f" // white/bone color
+    },
+    {
+        id: "minecraft:string",
+        name: "String",
+        category: "item",
+        icon: "textures/items/string",
+        themeColor: "§f" // white/light gray
+    },
+    {
+        id: "minecraft:feather",
+        name: "Feather",
+        category: "item",
+        icon: "textures/items/feather",
+        themeColor: "§f" // white/light gray
+    },
+    {
+        id: "minecraft:gold_nugget",
+        name: "Gold Nugget",
+        category: "item",
+        icon: "textures/items/gold_nugget",
+        themeColor: "§e" // gold/yellow
     }
 ];
