@@ -63,6 +63,34 @@ export const blockIndex = [
         themeColor: "§6" // orange/copper
     },
     {
+        id: "minecraft:iron_ore",
+        name: "Iron Ore",
+        category: "block",
+        icon: "textures/blocks/iron_ore",
+        themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:gold_ore",
+        name: "Gold Ore",
+        category: "block",
+        icon: "textures/blocks/gold_ore",
+        themeColor: "§6" // gold/yellow
+    },
+    {
+        id: "minecraft:redstone_ore",
+        name: "Redstone Ore",
+        category: "block",
+        icon: "textures/blocks/redstone_ore",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:lapis_lazuli_ore",
+        name: "Lapis Lazuli Ore",
+        category: "block",
+        icon: "textures/blocks/lapis_lazuli_ore",
+        themeColor: "§1" // dark blue
+    },
+    {
         id: "minecraft:amethyst_block",
         name: "Amethyst Block",
         category: "block",
