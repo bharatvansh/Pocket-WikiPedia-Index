@@ -444,5 +444,28 @@ export const miscItems = {
             "Highly dangerous due to large explosion radius and damage"
         ],
         description: "An End Crystal is a powerful and volatile item primarily used to respawn the Ender Dragon. To initiate the respawn process, four crystals must be placed on the edges of the exit portal in the End. In addition to their intended purpose, they are often used by players as high-damage explosive traps because they detonate instantly when hit. They can only be placed on obsidian or bedrock blocks. When active in the End, they project a healing beam toward the dragon, making their destruction a priority during the boss fight."
+    },
+    "minecraft:experience_bottle": {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Gaining experience points",
+            secondaryUse: "Mending equipment with Mending enchantment"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Traded from Cleric villagers", "Found in Pillager Outposts and Shipwrecks"]
+        },
+        specialNotes: [
+            "Thrown to release experience orbs (3-11 XP)",
+            "Drops 3 to 11 experience points per bottle",
+            "Traded by Master-level Cleric villagers (3 Emeralds)",
+            "Can be found in Pillager Outpost chests and Shipwreck treasure chests",
+            "Useful for repairing Mending gear quickly"
+        ],
+        description: "A Bottle o' Enchanting is a magical flask that releases experience orbs when thrown. Unlike potion bottles, it shatters on impact and does not leave an empty glass bottle. It is primarily obtained by trading with Master-level Cleric villagers or looting Pillager Outposts and Shipwrecks. When broken, it yields 3 to 11 experience points, making it a valuable resource for repairing tools and armor enchanted with Mending."
     }
 };

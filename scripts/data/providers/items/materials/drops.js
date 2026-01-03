@@ -269,5 +269,28 @@ export const mobDrops = {
             "Small rabbits are quick and difficult to farm but provide useful drops"
         ],
         description: "Rabbit Hide is a skin material dropped by rabbits when killed, typically dropping 0-2 hides per rabbit with increased yields from Looting enchantments. While rabbits are small and fast, their hides provide a renewable source of leather, particularly valuable in biomes where cows are scarce or absent. Four rabbit hides can be crafted into a single piece of leather in a 2x2 crafting grid, which can then be used to create books, item frames, and leather armor. This makes rabbit farming a viable alternative for players who struggle to find cattle in their world."
+    },
+    "minecraft:shulker_shell": {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Shulker Boxes",
+            secondaryUse: "Storage and transport"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Shulkers in End Cities"]
+        },
+        specialNotes: [
+            "Dropped by Shulkers (50% chance); increased by Looting",
+            "Shulkers drop 0-1 shells, or up to 4 with Looting III",
+            "Used to craft Shulker Boxes (2 Shells + 1 Chest)",
+            "Shulker Boxes retain inventory when broken",
+            "Essential for late-game inventory management"
+        ],
+        description: "A Shulker Shell is a hard, protective carapace dropped by Shulkers, the hostile mobs found in End Cities. It is the defining component of single-slot storage upgrades in Minecraft. When combined with a chest, two shells create a Shulker Box, a revolutionary container that keeps its contents when broken and picked up. This allows players to carry massive amounts of items in their inventory, making Shulker Shells one of the most practical resources for large-scale projects and exploration."
     }
 };
