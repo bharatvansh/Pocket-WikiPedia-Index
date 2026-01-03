@@ -824,5 +824,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_5",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:raw_iron",
+        name: "Raw Iron",
+        category: "item",
+        icon: "textures/items/raw_iron",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:raw_gold",
+        name: "Raw Gold",
+        category: "item",
+        icon: "textures/items/raw_gold",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:raw_copper",
+        name: "Raw Copper",
+        category: "item",
+        icon: "textures/items/raw_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7"
     }
 ];
