@@ -887,5 +887,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_5",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:wither_skeleton_skull",
+        name: "Wither Skeleton Skull",
+        category: "item",
+        icon: "textures/items/wither_skeleton_skull",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_head",
+        name: "Dragon Head",
+        category: "item",
+        icon: "textures/items/dragon_head",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:piglin_head",
+        name: "Piglin Head",
+        category: "item",
+        icon: "textures/items/piglin_head",
+        themeColor: "§d"
     }
 ];
