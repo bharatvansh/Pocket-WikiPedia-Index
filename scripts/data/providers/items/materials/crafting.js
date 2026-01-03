@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder
+// amethyst shard, gunpowder, heavy core
 // ============================================
 
 /**
@@ -414,5 +414,28 @@ export const craftingMaterials = {
             "Heals horses by 1 heart and increases their temperament by 3%"
         ],
         description: "Sugar is a versatile food and brewing ingredient derived from sugar cane or honey bottles. While not edible on its own, it is a critical component in several high-value food recipes, including cakes, pumpkin pies, and cookies. In alchemy, sugar is the base ingredient for Potions of Swiftness, which grant players increased movement speed. It is also required to craft Fermented Spider Eyes, which are used to create negative potion effects. Additionally, sugar can be fed to horses to slightly heal them and improve their temperament during taming."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Decorative block with unique piston properties"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare loot from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Found exclusively in Ominous Vaults (1.2% chance in Bedrock)",
+            "Combine with a Breeze Rod to craft a Mace",
+            "In Bedrock, can be pushed by pistons but not pulled by sticky pistons",
+            "Does not stick to slime or honey blocks in Bedrock Edition",
+            "Introduced in the 1.21 Tricky Trials update"
+        ],
+        description: "The Heavy Core is an exceptionally dense and rare item found only within Ominous Vaults in Trial Chambers. Its primary purpose is to be combined with a Breeze Rod to craft the Mace, a powerful weapon that deals increased damage based on fall distance. In Minecraft Bedrock Edition, the Heavy Core has unique mechanical properties; it can be pushed by pistons but refuses to be pulled by sticky pistons, nor does it stick to slime or honey blocks. This makes it both a legendary crafting component and an interesting block for complex redstone contraptions."
     }
 };

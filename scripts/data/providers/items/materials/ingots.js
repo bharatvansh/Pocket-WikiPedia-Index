@@ -125,5 +125,74 @@ export const ingots = {
             "Struck by lightning when used as a lightning rod to prevent flammable structure damage"
         ],
         description: "Copper Ingots are metallic materials introduced in 1.17, used primarily for building and redstone applications. Smelted from raw copper or copper ore, they craft a wide variety of functional and decorative blocks. Copper blocks are unique in that they naturally oxidize over time, transitioning from bright orange to teal-green, though this can be prevented by waxing with honeycomb. Essential redstone uses include crafting Lightning Rods, which attract lightning strikes to prevent fire damage, and Brushes for archaeology. The ingots also create Spyglasses with Amethyst Shards for distant viewing and numerous building materials like grates, doors, and trapdoors."
+    },
+    "minecraft:raw_iron": {
+        id: "minecraft:raw_iron",
+        name: "Raw Iron",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into Iron Ingots",
+            secondaryUse: "Crafting Blocks of Raw Iron for compact storage"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by mining Iron Ore or Deepslate Iron Ore with a Stone Pickaxe or higher"]
+        },
+        specialNotes: [
+            "Dropped in quantities of 1 when mining iron ore (more with Fortune)",
+            "Must be smelted in a furnace or blast furnace to produce usable iron ingots",
+            "Nine can be crafted into a Block of Raw Iron",
+            "Found in loot chests in Raw Iron form in some structures",
+            "Can be smelted in a furnace or blast furnace"
+        ],
+        description: "Raw Iron is a metallic material obtained by mining Iron Ore or Deepslate Iron Ore with a pickaxe of stone tier or higher. Introduced to streamline the inventory during mining, it replaces the direct drop of ore blocks. It must be processed in a furnace or blast furnace to create iron ingots, which are used for most iron-based crafting. Nine pieces of raw iron can be compacted into a Block of Raw Iron for efficient storage or decorative purposes."
+    },
+    "minecraft:raw_gold": {
+        id: "minecraft:raw_gold",
+        name: "Raw Gold",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into Gold Ingots",
+            secondaryUse: "Crafting Blocks of Raw Gold and trading with Piglins"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by mining Gold Ore or Deepslate Gold Ore with an Iron Pickaxe or higher"]
+        },
+        specialNotes: [
+            "Dropped when mining gold ore; affected by the Fortune enchantment",
+            "Yields gold ingots when smelted in a furnace or blast furnace",
+            "Can be found in Bastion Remnant and Ruined Portal chests",
+            "Nine can be crafted into a Block of Raw Gold",
+            "Piglins are attracted to raw gold if dropped, though they don't barter for it"
+        ],
+        description: "Raw Gold is a precious metal resource harvested from Gold Ore or Deepslate Gold Ore found in the Overworld. Mining it requires an iron pickaxe or better, and it can be smelted into gold ingots for use in crafting powered rails, golden food, and armor. Like other raw metals, it can be combined into a raw block form for compact storage. In the Nether, its golden luster attracts the attention of Piglins, making it a valuable but dangerous item to carry around them."
+    },
+    "minecraft:raw_copper": {
+        id: "minecraft:raw_copper",
+        name: "Raw Copper",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into Copper Ingots",
+            secondaryUse: "Crafting Blocks of Raw Copper"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by mining Copper Ore or Deepslate Copper Ore with a Stone Pickaxe or higher"]
+        },
+        specialNotes: [
+            "Dropped in quantities of 2–5 when mining copper ore",
+            "Affected significantly by the Fortune enchantment",
+            "Can be smelted into copper ingots in a furnace or blast furnace",
+            "Found in large ore veins, often mixed with granite or tuff",
+            "Nine can be crafted into a Block of Raw Copper"
+        ],
+        description: "Raw Copper is a versatile metal obtained by mining Copper Ore, yielding multiple units per block broken. It is the primary source of copper ingots, which are used for a variety of building and utility purposes including lightning rods and spyglasses. Due to the high yield per ore block, it quickly fills inventories but can be compressed into Blocks of Raw Copper. Its abundance makes copper an excellent choice for large-scale decorative projects once smelted and crafted into various block forms."
     }
 };
