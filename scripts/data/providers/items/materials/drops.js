@@ -369,5 +369,51 @@ export const mobDrops = {
             "Can be used as furnace fuel, smelting 0.1 items per nugget"
         ],
         description: "Gold Nuggets are small fragments of gold primarily obtained by killing zombie piglins in the Nether or gilded hoglins in Bastion remnants. Zombie piglins drop 2-6 nuggets upon death, with Looting enchantments increasing the maximum yield. These nuggets serve as a compact form of gold that can be smelted from golden tools or mined from Nether gold ore. Their primary uses involve advanced food items: nine nuggets combine with a golden carrot for high saturation food, eight nuggets with a melon slice create glistering melon for potion brewing, and eight nuggets with an apple make a golden apple. They can also be crafted back into gold ingots or used as inefficient furnace fuel."
+    },
+    "minecraft:ghast_tear": {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Regeneration",
+            secondaryUse: "Crafting End Crystals"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts"]
+        },
+        specialNotes: [
+            "Dropped by Ghasts (0-1) upon death; yield increases with Looting",
+            "Used to brew Potion of Regeneration (Awkward Potion + Ghast Tear)",
+            "Essential for crafting End Crystals used to respawn the Ender Dragon",
+            "Often difficult to collect due to Ghasts flying over lava lakes",
+            "Regeneration potions restore health over time, making them vital for combat"
+        ],
+        description: "Ghast Tears are rare and valuable items obtained from defeating Ghasts in the Nether. Their primary use is in alchemy, where they serve as the key ingredient for brewing Potions of Regeneration. They are also required to craft End Crystals, which are used to respawn the Ender Dragon in the End dimension. Due to the Ghast's tendency to hover over lava, players must be strategic when hunting them to ensure the dropped tears fall on a reachable surface."
+    },
+    "minecraft:shulker_shell": {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Shulker Boxes",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Shulkers"]
+        },
+        specialNotes: [
+            "50% chance to drop from a Shulker; increased by Looting enchantment",
+            "Two shells and one chest are required to craft a Shulker Box",
+            "Obtained only in End Cities where Shulkers spawn",
+            "Invaluable for inventory management as Shulker Boxes retain items when broken",
+            "Does not have a placing or usage function on its own"
+        ],
+        description: "Shulker Shells are specialized items dropped by Shulkers, found exclusively in End Cities. Their sole but incredibly important purpose is the crafting of Shulker Boxes. These boxes revolutionize inventory management by allowing players to carry large quantities of items in a single slot, even when the box is broken and transported. Because Shulkers do not respawn, shells are a limited and highly sought-after resource in any survival world."
     }
 };

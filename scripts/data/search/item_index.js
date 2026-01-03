@@ -621,5 +621,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_nugget",
         themeColor: "§e" // gold/yellow
+    },
+    {
+        id: "minecraft:ender_eye",
+        name: "Eye of Ender",
+        category: "item",
+        icon: "textures/items/ender_eye",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:blaze_powder",
+        name: "Blaze Powder",
+        category: "item",
+        icon: "textures/items/blaze_powder",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        category: "item",
+        icon: "textures/items/ghast_tear",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        category: "item",
+        icon: "textures/items/shulker_shell",
+        themeColor: "§d"
     }
 ];
