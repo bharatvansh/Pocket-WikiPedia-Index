@@ -89,13 +89,13 @@ export const gems = {
             secondaryUse: "Crafting Emerald Blocks for decoration and storage"
         },
         crafting: {
-            recipeType: "Smelting",
-            ingredients: ["Emerald Ore or Deepslate Emerald Ore", "Fuel"]
+            recipeType: "Mining ore, uncrafting from Block of Emerald, or Smelting",
+            ingredients: ["Mined from Emerald Ore or Deepslate Emerald Ore", "Uncrafted from Block of Emerald (9 = 1 block)", "Smelted from Emerald Ore with fuel"]
         },
         specialNotes: [
             "Found in mountainous biomes (Windswept Hills, Windswept Gravelly Hills, etc.) at Y levels -16 to 320 in Bedrock",
             "Primary currency for villager trading; villagers will trade items for emeralds and vice versa",
-            "Can be found in shipwreck and buried treasure chests",
+            "Can be found in shipwreck chests (but not buried treasure chests in Bedrock Edition)",
             "9 emeralds craft into 1 Block of Emerald for compact storage",
             "Used as payment to select Beacon effects when Beacon is activated with mineral blocks",
             "Obtainable from mining emerald ore, chest loot, or raid rewards",
