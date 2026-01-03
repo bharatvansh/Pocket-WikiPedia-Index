@@ -25,6 +25,8 @@ import { dimensionBlocks } from './dimension/index.js';
  * @property {Object} [generation] - World generation info
  * @property {string} [generation.dimension] - Dimension where found
  * @property {string} [generation.yRange] - Y-level range
+ * @property {string} [generation.structures] - Structures where the block generates
+ * @property {string} [generation.naturalGeneration] - Description of natural generation
  * @property {string} description - Detailed description
  */
 

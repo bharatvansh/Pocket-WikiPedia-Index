@@ -290,7 +290,7 @@ export const miscDecorativeBlocks = {
         id: "minecraft:barrier",
         name: "Barrier",
         hardness: -1,
-        blastResistance: 3600000.75,
+        blastResistance: 3600000.8,
         flammability: false,
         gravityAffected: false,
         transparent: true,

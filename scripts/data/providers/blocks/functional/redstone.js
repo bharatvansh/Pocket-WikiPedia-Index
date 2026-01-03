@@ -72,7 +72,8 @@ export const redstoneBlocks = {
         drops: ["TNT"],
         generation: {
             dimension: "Overworld",
-            yRange: "Desert Temples, Woodland Mansions, Shipwrecks"
+            yRange: "Various",
+            structures: "Desert Pyramid, Woodland Mansion"
         },
         description: "TNT is an explosive block that can be primed by redstone, fire, or explosions. Once ignited, it becomes a falling entity that explodes after 4 seconds (80 ticks), dealing significant damage to nearby blocks and entities. It is commonly used for mining, clearing large areas, or as a weapon in traps. TNT can be crafted using sand and gunpowder, and it is also found naturally in several structures. In Bedrock Edition, TNT has a 100% drop rate for blocks destroyed by its explosion, making it efficient for large-scale excavation."
     }
