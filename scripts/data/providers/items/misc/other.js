@@ -444,5 +444,51 @@ export const miscItems = {
             "Highly dangerous due to large explosion radius and damage"
         ],
         description: "An End Crystal is a powerful and volatile item primarily used to respawn the Ender Dragon. To initiate the respawn process, four crystals must be placed on the edges of the exit portal in the End. In addition to their intended purpose, they are often used by players as high-damage explosive traps because they detonate instantly when hit. They can only be placed on obsidian or bedrock blocks. When active in the End, they project a healing beam toward the dragon, making their destruction a priority during the boss fight."
+    },
+    "minecraft:writable_book": {
+        id: "minecraft:writable_book",
+        name: "Book and Quill",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Writing text and creating written books",
+            secondaryUse: "Recording information or stories in-game"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Book", "Ink Sac", "Feather"]
+        },
+        specialNotes: [
+            "Contains up to 50 pages in Bedrock Edition",
+            "Each page holds up to 256 characters (12,800 total)",
+            "Can be signed to create a Written Book (finalizes text)",
+            "Text can be formatted with section sign codes (§)",
+            "Used to create trading guides or lore books"
+        ],
+        description: "The Book and Quill is a tool that allows players to write and edit text within a book. It is crafted using a book, an ink sac, and a feather. In Bedrock Edition, it supports up to 50 pages of text. Players can write freely and edit content until they choose to 'sign' the book, which locks the text and turns it into a Written Book with a title and author name. This item is essential for leaving messages, documenting coordinates, or creating in-game lore."
+    },
+    "minecraft:experience_bottle": {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing to spawn experience orbs",
+            secondaryUse: "Repairing Mending gear or emergency XP"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Purchased from Cleric villagers (Master level)", "Found in Pillager Outpost, Shipwreck, and Buried Treasure chests", "Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Drops 3-11 experience points when broken",
+            "Thrown like a splash potion",
+            "Useful for repairing items with Mending enchantment",
+            "Sold by Master-level Cleric villagers for 3 emeralds",
+            "Does not drop the glass bottle upon use"
+        ],
+        description: "The Bottle o' Enchanting is a throwable item that releases experience orbs upon impact. Unlike potions, it does not bestow effects but instead provides 3 to 11 experience points per bottle. It is primarily obtained by trading with Master-level Cleric villagers or looting chests in structures like Pillager Outposts and Ancient Cities. Players often use these bottles to quickly repair gear enchanted with Mending or to gain a small amount of XP for enchanting."
     }
 };

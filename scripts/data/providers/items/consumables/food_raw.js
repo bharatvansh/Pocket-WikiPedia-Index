@@ -91,5 +91,33 @@ export const rawFood = {
             "Added in Caves & Cliffs Part I (1.17) for decoration and utility"
         ],
         description: "Glow Berries are a food and light source found on cave vines in lush caves. Eating them restores 2 hunger and 0.4 saturation. When attached to vines, they emit a light level of 14, providing a natural alternative to torches. Players can farm them by planting them on the underside of solid blocks; the resulting cave vines grow downward and produce berries over time or when bone-mealed. Beyond sustenance, they are highly valued as decorative lighting for underground bases and garden builds."
+    },
+    "minecraft:sweet_berries": {
+        id: "minecraft:sweet_berries",
+        name: "Sweet Berries",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and planting sweet berry bushes",
+            secondaryUse: "Breeding foxes and composting"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from sweet berry bushes in Taiga biomes"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick)",
+            "Planted on dirt/grass to grow bushes; bushes deal damage",
+            "Harvested by right-clicking mature bushes (drops 2-3)",
+            "Used to breed foxes and accelerate baby fox growth",
+            "Bushes slow down movement and deal damage to mobs/players",
+            "Can be bought from Master-level Butcher villagers"
+        ],
+        description: "Sweet Berries are a common food item found in Taiga biomes. They are harvested from sweet berry bushes, which can also be planted by the player on dirt or grass. Eating a berry restores 2 hunger and 0.4 saturation. Beyond being a snack, they are used to breed foxes and can be composted. The bushes themselves serve as a natural defense, as they slow down and inflict damage on entities moving through them."
     }
 };
