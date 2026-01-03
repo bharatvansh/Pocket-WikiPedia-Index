@@ -94,5 +94,26 @@ export const dirtBlocks = {
             yRange: "Desert Pyramids, Desert Wells, and Warm Ocean Ruins"
         },
         description: "Suspicious sand is a fragile, gravity-affected block found in various structures like desert pyramids and warm ocean ruins. Using a brush on naturally generated suspicious sand reveals hidden items, such as pottery sherds, emeralds, or sniffer eggs. Once the brushing process is complete, the block turns into regular sand, and if broken or moved by a piston, it drops nothing."
+    },
+    "minecraft:suspicious_gravel": {
+        id: "minecraft:suspicious_gravel",
+        name: "Suspicious Gravel",
+        hardness: 0.25,
+        blastResistance: 0.25,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trail Ruins and Cold Ocean Ruins"
+        },
+        description: "Suspicious gravel is a fragile, gravity-affected block found in Trail Ruins and Cold Ocean Ruins. Using a brush on naturally generated suspicious gravel reveals hidden items, including pottery sherds, emeralds, wheat, and various tools. The brushing process takes 4.8 seconds, after which the block converts to regular gravel. Suspicious gravel drops nothing if broken or moved, and naturally generated blocks must be brushed to obtain loot."
     }
 };

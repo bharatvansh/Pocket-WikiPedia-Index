@@ -136,5 +136,47 @@ export const oreBlocks = {
             yRange: "8-22 (most common at 15)"
         },
         description: "Ancient Debris is a rare ore found in the Nether, serving as the primary source for Netherite. It is immune to normal explosions, lava, and fire (item form floats in lava). It must be mined with a diamond or netherite pickaxe; otherwise, it drops nothing. Ancient debris generates in small veins, most commonly at Y-level 15. Smelting it in a furnace or blast furnace produces Netherite Scrap, which is combined with gold ingots to create Netherite Ingots."
+    },
+    "minecraft:emerald_ore": {
+        id: "minecraft:emerald_ore",
+        name: "Emerald Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Emerald (1 with Fortune I, 1-2 with Fortune II, 1-4 with Fortune III)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-16 to 320 (peaks at Y 232)"
+        },
+        description: "Emerald Ore is a rare mineral block that generates only in mountain and windswept hills biomes. It drops emeralds when mined, or itself if mined with Silk Touch. It generates from Y -16 to 320, with the highest concentration at Y 232, making it one of the rarest ores due to its biome restriction. Emeralds are the primary currency for trading with villagers and used to craft blocks of emerald for decoration. Unlike most ores, emerald ore can generate exposed to air."
+    },
+    "minecraft:deepslate_diamond_ore": {
+        id: "minecraft:deepslate_diamond_ore",
+        name: "Deepslate Diamond Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Diamond (1 with Fortune I, 1-2 with Fortune II, 1-3 with Fortune III)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 15 (deepslate layers)"
+        },
+        description: "Deepslate Diamond Ore is a variant of diamond ore that generates in deepslate and tuff layers, found more commonly than regular diamond ore due to its lower altitude generation. It requires an iron pickaxe or better to mine. Like regular diamond ore, it drops diamonds when mined without Silk Touch, with increased yields from Fortune enchantment. Deepslate diamond ore also generates as part of fossils that generate below Y=0, replacing some bone blocks."
     }
 };
