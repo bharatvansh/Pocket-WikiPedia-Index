@@ -137,6 +137,27 @@ export const oreBlocks = {
         },
         description: "Ancient Debris is a rare ore found in the Nether, serving as the primary source for Netherite. It is immune to normal explosions, lava, and fire (item form floats in lava). It must be mined with a diamond or netherite pickaxe; otherwise, it drops nothing. Ancient debris generates in small veins, most commonly at Y-level 15. Smelting it in a furnace or blast furnace produces Netherite Scrap, which is combined with gold ingots to create Netherite Ingots."
     },
+    "minecraft:deepslate_iron_ore": {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Iron (1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Iron Ore is a rare iron ore variant found in the deepslate layers of the Overworld, from Y -64 to 0. It has a higher hardness than regular iron ore (4.5 vs 3.0) and generates exclusively in deepslate clusters. When mined with a stone pickaxe or better, it drops raw iron that smelts into iron ingots. The deepslate variant is more challenging to mine and serves as the primary source of iron for late-game players who have exhausted surface resources."
+    },
     "minecraft:emerald_ore": {
         id: "minecraft:emerald_ore",
         name: "Emerald Ore",

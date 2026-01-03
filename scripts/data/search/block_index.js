@@ -798,6 +798,27 @@ export const blockIndex = [
         themeColor: "§6" // wood/brown
     },
     {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_iron_ore",
+        themeColor: "§7" // gray/dark gray
+    },
+    {
+        id: "minecraft:moss_block",
+        name: "Moss Block",
+        category: "block",
+        icon: "textures/blocks/moss_block",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:flowering_azalea_leaves",
+        name: "Flowering Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/flowering_azalea_leaves",
+        themeColor: "§d" // light purple/pink
+    },
+    {
         id: "minecraft:cartography_table",
         name: "Cartography Table",
         category: "block",
