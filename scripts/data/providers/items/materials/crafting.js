@@ -248,5 +248,28 @@ export const craftingMaterials = {
             "Essential for explosive mining, combat, and aerial travel"
         ],
         description: "Gunpowder is a versatile explosive material dropped by Creepers, Ghasts, and Witches. It's used to craft TNT for demolition, Firework Rockets for Elytra flight or celebrations, and Splash Potions for ranged effects. TNT needs five gunpowder and four sand, while Firework Rockets require paper and one to three gunpowder. Essential for mining, combat, and aerial travel, gunpowder is indispensable in survival."
+    },
+    "minecraft:honeycomb": {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Beehives, Candles, and Waxed Copper",
+            secondaryUse: "Waxing Copper blocks and Signs to prevent oxidation/editing"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from Bee Nests or Beehives using Shears"]
+        },
+        specialNotes: [
+            "Obtained by using Shears on a Bee Nest or Beehive with honey level 5.",
+            "Used to craft Beehives (3 Honeycombs + 6 Planks).",
+            "Used to craft Candles (Honeycomb + String).",
+            "Used to wax Copper blocks to stop them from oxidizing.",
+            "Used to wax Signs to prevent text editing."
+        ],
+        description: "Honeycomb is a crafting material obtained by shearing a bee nest or beehive that is dripping with honey (level 5). It is used for several crafting recipes, including artificial Beehives and Candles. Additionally, honeycomb serves a unique preservation purpose: it can be used on copper blocks to wax them, freezing their oxidation state, or on signs to wax them, preventing any further text editing. It is a renewable resource as long as bees continue to pollinate."
     }
 };
