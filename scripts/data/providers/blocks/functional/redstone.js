@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const redstoneBlocks = {
+    "minecraft:lightning_rod": {
+        id: "minecraft:lightning_rod",
+        name: "Lightning Rod",
+        hardness: 3,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Lightning Rod"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Lightning Rod is a functional block that attracts lightning strikes within a 128-block radius, protecting flammable structures from fire damage. When struck by lightning, it emits a redstone signal for 8 game ticks and creates a particle effect visible to all players. Crafted from three copper ingots, the lightning rod oxidizes over time but can be waxed with honeycomb to preserve its appearance. It provides excellent protection for wooden builds and can be used to harness lightning for redstone contraptions."
+    },
     "minecraft:target": {
         id: "minecraft:target",
         name: "Target",
