@@ -200,6 +200,48 @@ export const brickBlocks = {
         },
         description: "Honeycomb Block is a decorative building block with a distinctive hexagonal honey-colored pattern. Crafted from four honeycombs arranged in a 2x2 grid, it serves primarily as a decorative element and compact storage for honeycombs. The block features warm golden-orange tones that complement wooden builds and natural designs. Unlike honey blocks, honeycomb blocks do not slow entities and are not sticky. They can be instantly mined with any tool or by hand, making them easy to work with during construction projects."
     },
+    "minecraft:diamond_block": {
+        id: "minecraft:diamond_block",
+        name: "Diamond Block",
+        hardness: 5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Diamond Block (with Silk Touch) or Diamonds x9 (without)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Diamond Block is a premium compact storage block crafted from nine diamonds arranged in a 3x3 grid. It serves as the most prestigious way to store diamonds and is highly sought after by players for its distinctive cyan-blue appearance and high value. Unlike many other storage blocks, diamond blocks do not generate naturally in the world and must be crafted by players. When mined with a pickaxe, diamond blocks drop themselves when enchanted with Silk Touch, or nine diamonds without. Diamond blocks require an iron pickaxe or better to mine efficiently and cannot be broken with any other tool. They are often used in large-scale builds for their striking appearance and as a symbol of wealth and achievement."
+    },
+    "minecraft:lapis_block": {
+        id: "minecraft:lapis_block",
+        name: "Lapis Lazuli Block",
+        hardness: 3,
+        blastResistance: 3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Lapis Lazuli Block (with Silk Touch) or Lapis Lazuli x9 (without)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Lapis Lazuli Block is a compact storage block crafted from nine lapis lazuli items arranged in a 3x3 grid. This vibrant blue block provides an efficient way to store large quantities of lapis lazuli, which is primarily used for enchanting items and creating blue dyes. The block has a distinctive deep blue color with golden flecks that sparkle in light, making it popular for decorative builds and blue-themed architecture. When mined with a stone pickaxe or better, it drops itself with Silk Touch or nine lapis lazuli without. Lapis blocks are primarily decorative and functional storage, requiring careful planning due to their utility in enchanting. They are perfect for showcasing large lapis lazuli collections and creating striking blue accents in builds."
+    },
     "minecraft:raw_iron_block": {
         id: "minecraft:raw_iron_block",
         name: "Raw Iron Block",
