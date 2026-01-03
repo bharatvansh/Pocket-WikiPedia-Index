@@ -42,11 +42,25 @@ export const blockIndex = [
         themeColor: "§7" // white/light gray
     },
     {
+        id: "minecraft:moss_block",
+        name: "Moss Block",
+        category: "block",
+        icon: "textures/blocks/moss_block",
+        themeColor: "§2" // green
+    },
+    {
         id: "minecraft:mossy_cobblestone",
         name: "Mossy Cobblestone",
         category: "block",
         icon: "textures/blocks/mossy_cobblestone",
         themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:diamond_block",
+        name: "Diamond Block",
+        category: "block",
+        icon: "textures/blocks/diamond_block",
+        themeColor: "§b" // cyan/blue
     },
     {
         id: "minecraft:end_stone",
@@ -88,6 +102,13 @@ export const blockIndex = [
         name: "Lapis Lazuli Ore",
         category: "block",
         icon: "textures/blocks/lapis_lazuli_ore",
+        themeColor: "§1" // dark blue
+    },
+    {
+        id: "minecraft:lapis_block",
+        name: "Lapis Lazuli Block",
+        category: "block",
+        icon: "textures/blocks/lapis_block",
         themeColor: "§1" // dark blue
     },
     {
