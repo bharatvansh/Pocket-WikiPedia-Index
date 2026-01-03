@@ -420,6 +420,13 @@ export const itemIndex = [
         themeColor: "§d" // pink/purple
     },
     {
+        id: "minecraft:clay_ball",
+        name: "Clay Ball",
+        category: "item",
+        icon: "textures/items/clay_ball",
+        themeColor: "§7" // gray/brown
+    },
+    {
         id: "minecraft:clock",
         name: "Clock",
         category: "item",
@@ -616,6 +623,13 @@ export const itemIndex = [
         themeColor: "§6" // brown/tan
     },
     {
+        id: "minecraft:brick",
+        name: "Brick",
+        category: "item",
+        icon: "textures/items/brick",
+        themeColor: "§c" // red/brown
+    },
+    {
         id: "minecraft:bone",
         name: "Bone",
         category: "item",
@@ -691,6 +705,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/potato_poisonous",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:coal",
+        name: "Coal",
+        category: "item",
+        icon: "textures/items/coal",
+        themeColor: "§0" // black
     },
     {
         id: "minecraft:copper_ingot",
