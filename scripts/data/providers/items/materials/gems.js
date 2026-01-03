@@ -54,5 +54,28 @@ export const gems = {
             "In Bedrock Edition, they were changed from Common to Uncommon rarity in 1.21.30"
         ],
         description: "Echo Shards are rare items found exclusively in Ancient City loot chests within the Deep Dark. These dark, shimmering shards are the primary component needed to craft a Recovery Compass. By surrounding a standard compass with eight shards, players create a tool that points to the location of their last death, aiding in item retrieval. Because they only spawn in dangerous, Warden-guarded structures, they are considered a valuable late-game resource."
+    },
+    "minecraft:diamond": {
+        id: "minecraft:diamond",
+        name: "Diamond",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting high-tier armor, tools, and weapons",
+            secondaryUse: "Crafting Enchantment Tables, Jukeboxes, and Blocks of Diamond"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Diamond Ore or Deepslate Diamond Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Found in veins at Y levels 16 to -64; most abundant at Y=-58",
+            "Can be mined with an Iron, Diamond, or Netherite pickaxe",
+            "Used to upgrade to Netherite gear via Smithing Templates",
+            "Villagers (Toolsmith, Weaponsmith, Armorer) buy diamonds for emeralds",
+            "Can be found in chests in Fortresses, End Cities, and Bastions"
+        ],
+        description: "Diamonds are one of the most iconic and valuable materials in Minecraft, serving as a critical milestone in player progression. Primarily obtained by mining Diamond Ore deep underground, they are used to craft durable and efficient tools, weapons, and armor. Beyond equipment, diamonds are essential for creating Enchantment Tables and Jukeboxes. They also act as a prerequisite for reaching the highest tier of gear, as diamond items must be combined with Netherite Ingots to create netherite equipment."
     }
 };

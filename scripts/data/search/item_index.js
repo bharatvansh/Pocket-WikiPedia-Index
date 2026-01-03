@@ -649,5 +649,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/shulker_shell",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:diamond",
+        name: "Diamond",
+        category: "item",
+        icon: "textures/items/diamond",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:iron_ingot",
+        name: "Iron Ingot",
+        category: "item",
+        icon: "textures/items/iron_ingot",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        category: "item",
+        icon: "textures/items/potato_poisonous",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:enchanted_book",
+        name: "Enchanted Book",
+        category: "item",
+        icon: "textures/items/book_enchanted",
+        themeColor: "§e"
     }
 ];

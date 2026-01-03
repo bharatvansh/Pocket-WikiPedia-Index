@@ -117,5 +117,32 @@ export const specialFood = {
             "Considered one of the best food sources for end-game play"
         ],
         description: "The Golden Carrot is widely considered the best food source in Minecraft due to its exceptionally high saturation value, which keeps the player's hunger bar full for longer than any other food. It is crafted by surrounding a regular carrot with eight gold nuggets in a crafting table. Beyond its use as a superior food source, it is a critical ingredient in brewing Potions of Night Vision. Players also use golden carrots to breed horses, donkeys, mules, and rabbits, or to accelerate the growth of their offspring."
+    },
+    "minecraft:poisonous_potato": {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Harmful food source",
+            secondaryUse: "Composting (85% chance)"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare drop (2%) when harvesting potato crops"]
+        },
+        specialNotes: [
+            "60% chance to apply Poison effect for 5 seconds when eaten",
+            "Cannot be baked or planted like regular potatoes",
+            "Used in composters with an 85% success rate to produce bone meal",
+            "Restores 2 hunger and 1.2 saturation, but the poison deals damage over time",
+            "Essentially a 'junk' item with very limited utility in survival"
+        ],
+        description: "The Poisonous Potato is a variant of the potato that has a small chance of dropping when harvesting fully grown potato crops. Unlike regular potatoes, it cannot be planted to grow more or cooked in a furnace to make baked potatoes. While it can be eaten to restore a small amount of hunger, it has a high probability of inflicting the Poison status effect, which drains the player's health. Most players use them in composters, where they have a high chance of contributing towards bone meal production."
     }
 };
