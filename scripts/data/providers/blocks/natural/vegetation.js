@@ -99,5 +99,47 @@ export const vegetationBlocks = {
             yRange: "Warm Oceans"
         },
         description: "Sea Pickles are small, stationary colonies of aquatic animals that emit light when submerged in water. Found naturally on coral blocks in warm oceans, they can be placed in clusters of up to four on a single block, with each additional pickle increasing the light level (6, 9, 12, 15). They only produce light when underwater; on land, they remain dim. Players can grow more sea pickles by using bone meal on one that is placed on a coral block underwater. They can also be smelted into lime dye."
+    },
+    "minecraft:moss_block": {
+        id: "minecraft:moss_block",
+        name: "Moss Block",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Moss Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves biome, Deep Dark, can spread to adjacent blocks"
+        },
+        description: "Moss Block is a soft, spongy block that naturally generates in lush caves and the Deep Dark, serving as both decoration and a spreading mechanism for moss growth. When bone meal is applied, moss blocks can spread to adjacent stone-based blocks within a radius, converting them to moss-covered variants. Moss blocks can be harvested with any tool, though a hoe is the most efficient, and they can be composted in composter bins for bone meal. Their vibrant green color makes them excellent for landscaping and creating natural underground environments."
+    },
+    "minecraft:flowering_azalea_leaves": {
+        id: "minecraft:flowering_azalea_leaves",
+        name: "Flowering Azalea Leaves",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves biome"
+        },
+        description: "Flowering Azalea Leaves are the decorative variant of azalea leaves found in lush caves, distinguished by their small white flower clusters. When sheared, they drop azalea plants without breaking the block, making them a renewable source of this decorative plant. The flowers provide beautiful natural decoration with their green foliage and white blossoms, and they serve as important decorative elements for creating underground gardens. These leaves cannot be harvested with normal tools - shears are required to maintain the block and collect the azalea plants below."
     }
 };
