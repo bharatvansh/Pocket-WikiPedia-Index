@@ -128,26 +128,26 @@ export const cookedFood = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "High-saturation dessert food",
-            secondaryUse: "Efficient hunger restoration"
+            primaryUse: "High hunger restoration food",
+            secondaryUse: "Efficient exploration food source"
         },
         food: {
             hunger: 8,
             saturation: 4.8
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Pumpkin", "Sugar", "Egg"]
         },
         specialNotes: [
             "Restores 8 hunger (4 drumsticks) and 4.8 saturation",
             "One of the most efficient food sources in terms of hunger per ingredient",
-            "Crafted from pumpkin, sugar, and egg in a specific pattern",
+            "Crafted from pumpkin, sugar, and egg in any arrangement (shapeless)",
             "Provides excellent hunger restoration for exploration",
             "Stackable up to 64, unlike bowl-based foods",
             "No special effects, purely nutritional value"
         ],
-        description: "Pumpkin Pie is a highly efficient food item that provides substantial hunger restoration with good saturation. Crafted from a pumpkin, sugar, and an egg, it offers one of the best hunger-to-ingredient ratios in the game. Unlike bowl-based foods, pumpkin pie stacks up to 64, making it convenient for long journeys. Its balanced nutrition makes it an excellent choice for exploration and survival situations where inventory space is limited."
+        description: "Pumpkin Pie is a highly efficient food item that provides substantial hunger restoration. Crafted from a pumpkin, sugar, and an egg in any arrangement, it offers one of the best hunger-to-ingredient ratios in the game. Unlike bowl-based foods, pumpkin pie stacks up to 64, making it convenient for long journeys. Its high hunger restoration makes it an excellent choice for exploration and survival situations where inventory space is limited."
     },
     "minecraft:cake": {
         id: "minecraft:cake",
