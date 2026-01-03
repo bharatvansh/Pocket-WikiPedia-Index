@@ -117,5 +117,32 @@ export const specialFood = {
             "Considered one of the best food sources for end-game play"
         ],
         description: "The Golden Carrot is widely considered the best food source in Minecraft due to its exceptionally high saturation value, which keeps the player's hunger bar full for longer than any other food. It is crafted by surrounding a regular carrot with eight gold nuggets in a crafting table. Beyond its use as a superior food source, it is a critical ingredient in brewing Potions of Night Vision. Players also use golden carrots to breed horses, donkeys, mules, and rabbits, or to accelerate the growth of their offspring."
+    },
+    "minecraft:suspicious_stew": {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source with hidden status effects",
+            secondaryUse: "Applying specific buffs or debuffs depending on flower"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Mushroom", "Brown Mushroom", "Bowl", "Any Flower"]
+        },
+        specialNotes: [
+            "Restores 6 hunger and 7.2 saturation",
+            "Grants a status effect for a short duration based on the flower used",
+            "Can also be obtained by milking a Brown Mooshroom with a flower",
+            "Found in Shipwreck supply chests",
+            "Effects include Regeneration (Oxeye Daisy) and Saturation (Dandelion/Blue Orchid)"
+        ],
+        description: "Suspicious Stew is a unique food item that grants a hidden status effect when consumed. The effect depends on the flower used during crafting or fed to a Brown Mooshroom before milking. While it restores a decent amount of hunger and saturation, its primary value lies in the specific buffs (like Regeneration or Saturation) or debuffs (like Poison or Blindness) it provides. The effects and their durations vary, rewarding players who know the flower combinations."
     }
 };
