@@ -51,5 +51,26 @@ export const containerBlocks = {
             yRange: "Craftable"
         },
         description: "The Chiseled Bookshelf is a functional block used to store and display up to six books, including regular, Written, and Enchanted Books. Players can manually place or remove items from specific slots. When paired with a Redstone Comparator, it outputs a signal based on the last slot interacted with, enabling secret doors and complex contraptions. It is crafted from six wooden slabs and three wooden planks. This block adds dynamic utility to libraries, serving as both a storage solution and a redstone trigger."
+    },
+    "minecraft:ender_chest": {
+        id: "minecraft:ender_chest",
+        name: "Ender Chest",
+        hardness: 22.5,
+        blastResistance: 600,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: true
+        },
+        drops: ["Obsidian (8) if broken without Silk Touch"],
+        generation: {
+            dimension: "End",
+            yRange: "End Cities treasure rooms"
+        },
+        description: "An ender chest is a storage block with a unique shared inventory across all dimensions for each player. Items placed inside one ender chest are accessible from any other ender chest in any world or dimension. It requires a diamond or netherite pickaxe to mine and drops 8 obsidian unless harvested with Silk Touch. Unlike regular chests, ender chests cannot be moved by pistons and emit light. The crafting recipe requires 8 obsidian and 1 eye of ender, making it a valuable resource for inventory management across multiple bases."
     }
 };

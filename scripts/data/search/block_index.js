@@ -593,5 +593,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/ancient_debris_side",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:ender_chest",
+        name: "Ender Chest",
+        category: "block",
+        icon: "textures/blocks/ender_chest_front",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:gilded_blackstone",
+        name: "Gilded Blackstone",
+        category: "block",
+        icon: "textures/blocks/gilded_blackstone",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        category: "block",
+        icon: "textures/blocks/basalt_side",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:smooth_basalt",
+        name: "Smooth Basalt",
+        category: "block",
+        icon: "textures/blocks/smooth_basalt_side",
+        themeColor: "§7" // gray
     }
 ];

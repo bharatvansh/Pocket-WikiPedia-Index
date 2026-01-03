@@ -4,7 +4,7 @@
 // nether wart block, warped wart block, crimson nylium, warped nylium,
 // crimson stem, warped stem, shroomlight, basalt, smooth basalt,
 // polished basalt, blackstone variants, gilded blackstone,
-// soul sand, soul soil, magma block, glowstone
+// soul sand, soul soil, magma block, glowstone, crying obsidian
 // ============================================
 
 /**
@@ -95,5 +95,68 @@ export const netherBlocks = {
             yRange: "Crimson and Warped Forests"
         },
         description: "Shroomlight is a light-emitting block found naturally in Crimson and Warped Forests in the Nether, growing near the top of huge fungi. It provides a light level of 15, the highest in the game. Shroomlights can be mined fastest with a hoe but can be broken by hand. They are renewable by growing huge fungi using bone meal on nylium. Unlike glowstone, shroomlights are solid blocks and can transmit redstone signals."
+    },
+    "minecraft:gilded_blackstone": {
+        id: "minecraft:gilded_blackstone",
+        name: "Gilded Blackstone",
+        hardness: 1.5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Gilded Blackstone or Gold Nuggets (10% chance for 2-5 nuggets)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants and bastion chests"
+        },
+        description: "Gilded blackstone is a rare gold-flecked variant of blackstone found exclusively in Bastion Remnants within the Nether. When mined with any pickaxe, it has a 10% chance to drop 2-5 gold nuggets instead of the block itself. However, mining with a pickaxe enchanted with Silk Touch always drops the block. It has the same hardness and blast resistance as regular blackstone, making it a decorative alternative with gold flecks that offer the possibility of yielding gold nuggets when mined. It substitutes for blackstone in crafting recipes and is an excellent source of renewable gold in the Nether."
+    },
+    "minecraft:basalt": {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Basalt"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley and Basalt Deltas biomes"
+        },
+        description: "Basalt is a dark gray volcanic rock that forms naturally in the Nether's Soul Sand Valley and Basalt Deltas biomes. It generates in tall pillar formations and can also form when lava flows over soul soil adjacent to blue ice. Basalt is a solid block that can be mined with any pickaxe, dropping itself. It serves primarily as a building material with a unique dark aesthetic and can be smelted into smooth basalt. Unlike many other Nether blocks, basalt does not generate in bastion remnants but can be found throughout the Nether's unique volcanic landscapes."
+    },
+    "minecraft:smooth_basalt": {
+        id: "minecraft:smooth_basalt",
+        name: "Smooth Basalt",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Basalt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes and Ancient Cities"
+        },
+        description: "Smooth basalt is an ornamental variant of basalt with a polished, refined texture. It naturally generates as the outer layer of amethyst geodes and can be found in Ancient Cities deep underground. Alternatively, it can be crafted by smelting regular basalt in a furnace. Unlike its rough counterpart, smooth basalt cannot naturally generate in the Nether. It shares the same hardness and blast resistance as basalt, making it a durable decorative block. Its smooth appearance makes it popular for modern builds and clean architectural designs, especially in underground structures."
     }
 };
