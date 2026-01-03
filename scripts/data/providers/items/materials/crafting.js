@@ -342,5 +342,77 @@ export const craftingMaterials = {
             "Can be obtained from suspicious gravel and suspicious sand in trail ruins"
         ],
         description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves a dual purpose as blue dye for coloring wool, banners, and concrete. Beyond its essential role in magical enhancement, lapis can be crafted into blocks for storage and decoration, making it both a functional and aesthetic resource."
+    },
+    "minecraft:paper": {
+        id: "minecraft:paper",
+        name: "Paper",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting books and maps",
+            secondaryUse: "Crafting firework rockets and banner patterns"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Sugar Cane x3"]
+        },
+        specialNotes: [
+            "Crafted by placing three sugar canes in a horizontal row",
+            "Used with leather to craft books for enchanting and librarians",
+            "Combined with a compass to create empty maps or used in cartography tables",
+            "Essential for creating firework rockets for Elytra flight or celebrations",
+            "Used to craft various banner patterns for decoration",
+            "Novice-level Librarian villagers buy 24 paper for one emerald in Bedrock"
+        ],
+        description: "Paper is a fundamental crafting ingredient made from sugar cane. Its most important application is the creation of books, which are vital for enchanting and storage. It is also the primary component for maps, allowing players to document and navigate their worlds. Advanced uses include crafting firework rockets for celebrations or Elytra flight, and creating intricate banner patterns. Because it is a key trade item for Librarian villagers, paper is often farmed at scale using large sugar cane plantations."
+    },
+    "minecraft:wheat": {
+        id: "minecraft:wheat",
+        name: "Wheat",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting food like bread and cake",
+            secondaryUse: "Breeding cows, sheep, and mooshrooms"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from fully grown wheat crops"]
+        },
+        specialNotes: [
+            "Grown from wheat seeds on hydrated farmland blocks",
+            "Used to craft bread (3x wheat), cookies, and cake in a crafting table",
+            "Essential for breeding and leading cows, sheep, mooshrooms, and goats",
+            "Can be crafted into Hay Bales for compact storage or as horse food",
+            "Used to heal, breed, and accelerate the growth of llamas",
+            "Novice-level Farmer villagers buy 20 wheat for an emerald in Bedrock"
+        ],
+        description: "Wheat is a staple agricultural crop in Minecraft, grown from seeds on tilled farmland. Once fully matured, it can be harvested to yield both wheat and more seeds. Its primary use is in the production of food; three pieces of wheat craft a loaf of bread, and it is a key ingredient for cakes and cookies. Beyond nutrition, wheat is the essential tool for animal husbandry, used to lead, breed, and accelerate the growth of cows, sheep, and goats. It can also be compacted into hay bales for compact storage or as a decorative and functional block."
+    },
+    "minecraft:sugar": {
+        id: "minecraft:sugar",
+        name: "Sugar",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting food and brewing potions",
+            secondaryUse: "Feeding horses and donkeys"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Sugar Cane", "Honey Bottle"]
+        },
+        specialNotes: [
+            "Crafted from one sugar cane (yields 1) or one honey bottle (yields 3)",
+            "Key ingredient for Cake, Pumpkin Pie, and Cookies",
+            "Primary ingredient for brewing Potions of Swiftness (Speed)",
+            "Essential for crafting Fermented Spider Eyes for negative potion effects",
+            "Can be fed to horses or donkeys to speed up growth and increase taming chance",
+            "Heals horses by 1 heart and increases their temperament by 3%"
+        ],
+        description: "Sugar is a versatile food and brewing ingredient derived from sugar cane or honey bottles. While not edible on its own, it is a critical component in several high-value food recipes, including cakes, pumpkin pies, and cookies. In alchemy, sugar is the base ingredient for Potions of Swiftness, which grant players increased movement speed. It is also required to craft Fermented Spider Eyes, which are used to create negative potion effects. Additionally, sugar can be fed to horses to slightly heal them and improve their temperament during taming."
     }
 };

@@ -393,6 +393,30 @@ export const mobDrops = {
         ],
         description: "Ghast Tears are rare and valuable items obtained from defeating Ghasts in the Nether. Their primary use is in alchemy, where they serve as the key ingredient for brewing Potions of Regeneration. They are also required to craft End Crystals, which are used to respawn the Ender Dragon in the End dimension. Due to the Ghast's tendency to hover over lava, players must be strategic when hunting them to ensure the dropped tears fall on a reachable surface."
     },
+    "minecraft:leather": {
+        id: "minecraft:leather",
+        name: "Leather",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting armor and books",
+            secondaryUse: "Crafting item frames, leads, and bundles"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows, Mooshrooms, Horses, Donkeys, Mules, Llamas, and Hoglins"]
+        },
+        specialNotes: [
+            "Obtained as a drop from several animal mobs (0-2 per mob; increased by Looting)",
+            "Can be crafted from 4 rabbit hides in a 2x2 grid",
+            "Essential for early-game protection via leather armor and for enchanting via books",
+            "Used to create item frames for displaying items and leads for leading mobs",
+            "Required component for crafting bundles (added in 1.21.20)",
+            "Villager trading: Novice-level Leatherworkers buy 6 leather for an emerald in Bedrock"
+        ],
+        description: "Leather is a versatile crafting material primarily obtained by hunting various animal mobs such as cows, horses, and hoglins. It serves as the base material for crafting leather armor, which can be dyed into millions of different colors. Beyond armor, leather is indispensable for creating books, which are required for enchantment tables and bookshelves. It is also used in the recipes for item frames, leads, and bundles, making it a fundamental resource throughout the game's progression."
+    },
     "minecraft:shulker_shell": {
         id: "minecraft:shulker_shell",
         name: "Shulker Shell",
