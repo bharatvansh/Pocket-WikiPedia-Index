@@ -740,5 +740,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/lodestone_compass_item",
         themeColor: "§e" // gold
+    },
+    {
+        id: "minecraft:leather",
+        name: "Leather",
+        category: "item",
+        icon: "textures/items/leather",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:paper",
+        name: "Paper",
+        category: "item",
+        icon: "textures/items/paper",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:wheat",
+        name: "Wheat",
+        category: "item",
+        icon: "textures/items/wheat",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:sugar",
+        name: "Sugar",
+        category: "item",
+        icon: "textures/items/sugar",
+        themeColor: "§f" // white
     }
 ];
