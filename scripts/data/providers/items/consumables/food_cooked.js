@@ -11,5 +11,58 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const cookedFood = {
-    // Add cooked food entries here
+    "minecraft:rabbit_stew": {
+        id: "minecraft:rabbit_stew",
+        name: "Rabbit Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-value cooked meal",
+            secondaryUse: "Healing food for injured wolves"
+        },
+        food: {
+            hunger: 10,
+            saturation: 12
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Cooked Rabbit", "Carrot", "Baked Potato", "Any Mushroom", "Bowl"]
+        },
+        specialNotes: [
+            "Restores 10 hunger (5 drumsticks) and 12 saturation",
+            "Leaves behind an empty Bowl after eating",
+            "Does not stack, making it less convenient for long trips",
+            "Can be fed to wolves to heal them, but cannot breed or speed growth in Bedrock",
+            "Crafted shapelessly from cooked rabbit, vegetables, a mushroom, and a bowl"
+        ],
+        description: "Rabbit Stew is a hearty cooked food item that restores a large amount of hunger and saturation, making it one of the best meals for recovering after a fight. It is crafted shapelessly using cooked rabbit, a carrot, a baked potato, any mushroom, and a bowl, and the bowl is returned after eating. In Bedrock Edition it can also be fed to an injured wolf to heal it, but it cannot be used for breeding or speeding up growth."
+    },
+    "minecraft:suspicious_stew": {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food that grants a short status effect",
+            secondaryUse: "Obtaining rare effects like Saturation without commands"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Mushroom", "Brown Mushroom", "Bowl", "Any Small Flower"]
+        },
+        specialNotes: [
+            "Grants a short status effect based on the flower used in crafting",
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Can be eaten even when the hunger bar is full",
+            "Leaves behind an empty Bowl after eating",
+            "Can also be obtained from a Brown Mooshroom using a Bowl after feeding it a flower"
+        ],
+        description: "Suspicious Stew is a special bowl food that restores hunger while also granting a brief status effect determined by the small flower used to make it. It is crafted shapelessly from a bowl, red and brown mushrooms, and any small flower, and the bowl is returned after consumption. Unlike most foods, it can be eaten even at full hunger, making it useful for intentionally applying its effect."
+    }
 };
