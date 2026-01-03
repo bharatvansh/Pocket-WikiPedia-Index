@@ -10,6 +10,34 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const specialFood = {
+    "minecraft:golden_apple": {
+        id: "minecraft:golden_apple",
+        name: "Golden Apple",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Healing food with status effects",
+            secondaryUse: "Curing Zombie Villagers"
+        },
+        food: {
+            hunger: 4,
+            saturation: 9.6
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Apple", "8x Gold Ingot"]
+        },
+        specialNotes: [
+            "Grants Absorption I for 2 minutes (2 extra hearts)",
+            "Grants Regeneration II for 5 seconds",
+            "Restores 4 hunger points (2 drumsticks) and 9.6 saturation",
+            "Essential for curing Zombie Villagers (used with Splash Potion of Weakness)",
+            "Can be found in dungeon, mineshaft, desert temple, ruined portal, and bastion remnant chests",
+            "Crafted by surrounding an apple with 8 gold ingots"
+        ],
+        description: "The Golden Apple is a special food item that provides both sustenance and beneficial status effects. When consumed, it grants Regeneration II for 5 seconds and Absorption I for 2 minutes, providing immediate healing and temporary extra health. Beyond its use as a powerful food source, Golden Apples play a crucial role in curing Zombie Villagers when combined with a Splash Potion of Weakness. They can be crafted using eight gold ingots and an apple, or found in various loot chests. Its balanced combination of accessibility and power makes it valuable for combat and village management."
+    },
     "minecraft:enchanted_golden_apple": {
         id: "minecraft:enchanted_golden_apple",
         name: "Enchanted Golden Apple",

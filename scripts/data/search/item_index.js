@@ -698,5 +698,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/book_enchanted",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:bucket",
+        name: "Bucket",
+        category: "item",
+        icon: "textures/items/bucket_empty",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:golden_apple",
+        name: "Golden Apple",
+        category: "item",
+        icon: "textures/items/apple_golden",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:writable_book",
+        name: "Book and Quill",
+        category: "item",
+        icon: "textures/items/book_writable",
+        themeColor: "§6"
     }
 ];

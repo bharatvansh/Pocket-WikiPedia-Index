@@ -4,7 +4,8 @@
 // lead, trial key, ominous trial key, written book, book and quill,
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
-// experience bottle, firework star, wolf armor, totem of undying
+// experience bottle, firework star, wolf armor, totem of undying,
+// bucket
 // ============================================
 
 /**
@@ -467,5 +468,53 @@ export const miscItems = {
             "Required to apply certain 'Treasure' enchantments like Mending or Frost Walker"
         ],
         description: "Enchanted Books are specialized items that store magical enchantments for later use. They are the primary way to apply specific buffs, such as Mending or Silk Touch, to tools, weapons, and armor using an Anvil. Players can obtain these books through various methods, including using an Enchanting Table on regular books, fishing, or trading with Librarian villagers. Because they allow for precise control over equipment upgrades and are necessary for applying powerful treasure enchantments, they are an essential resource for late-game gear optimization."
+    },
+    "minecraft:bucket": {
+        id: "minecraft:bucket",
+        name: "Bucket",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Carrying and placing liquids (water, lava, milk, powder snow)",
+            secondaryUse: "Catching fish and axolotls"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Iron Ingot"]
+        },
+        specialNotes: [
+            "Can hold water, lava, milk, powder snow, or live fish/axolotls",
+            "Empty buckets stack up to 16, but filled buckets only stack to 1",
+            "Used to milk cows, mooshrooms, and goats",
+            "Lava buckets can be used as fuel in furnaces (smelts 100 items)",
+            "Water buckets can save players from fall damage or create infinite water sources",
+            "Crafted with 3 iron ingots in a V-shape in the crafting grid"
+        ],
+        description: "The Bucket is a versatile utility item crafted from three iron ingots. It serves multiple essential functions including transporting liquids like water and lava, milking cows and goats, collecting powder snow, and capturing aquatic mobs such as fish and axolotls. Empty buckets stack up to 16, but once filled, they can only stack individually. Buckets are fundamental for farming, building, redstone contraptions, and survival tactics such as water elevators or using water to prevent fall damage. Lava-filled buckets serve as efficient fuel, smelting 100 items per bucket."
+    },
+    "minecraft:writable_book": {
+        id: "minecraft:writable_book",
+        name: "Book and Quill",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Writing and storing custom text",
+            secondaryUse: "Creating in-game guides, stories, or signs"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Book", "Ink Sac", "Feather"]
+        },
+        specialNotes: [
+            "Can contain up to 100 pages of text (256 characters per page in Bedrock)",
+            "Once signed, becomes a 'Written Book' with author and title",
+            "Written Books can be copied by crafting with a Book and Quill",
+            "Cannot be edited after signing; the original can make up to 8 copies",
+            "Useful for leaving messages, creating maps, or building adventure maps",
+            "Signed books show author name and generation (Original, Copy of Original, Copy of Copy)"
+        ],
+        description: "The Book and Quill is a unique item that allows players to write and store custom text within the game. Crafted using a book, ink sac, and feather, it provides up to 100 pages with 256 characters per page in Bedrock Edition. Players can use it to document adventures, create in-game guides, leave messages, or design narrative elements for adventure maps. Once complete, the book can be signed to create a Written Book, permanently recording the author's name and title. Signed books can be duplicated up to 8 times, making them valuable for sharing information across multiplayer worlds."
     }
 };
