@@ -317,5 +317,30 @@ export const craftingMaterials = {
             "Component in crafting Fire Charges (Blaze Powder + Gunpowder + Coal/Charcoal)"
         ],
         description: "Blaze Powder is a versatile material derived from Blaze Rods, serving as the fundamental energy source for all alchemical processes. It is required as fuel for Brewing Stands, without which no potions can be brewed. Additionally, it is a key ingredient in crafting several important items, most notably the Eye of Ender. Its role in both alchemy and world progression makes it one of the most important resources obtained from the Nether."
+    },
+    "minecraft:lapis_lazuli": {
+        id: "minecraft:lapis_lazuli",
+        name: "Lapis Lazuli",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Powering Enchantment Tables and applying enchantments",
+            secondaryUse: "Crafting blue dye and decorative blocks"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Lapis Lazuli Ore or Deepslate Lapis Lazuli Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Mined from Lapis Lazuli Ore at Y levels 64 to -64; most common at Y=0",
+            "Required as payment for every enchantment at the Enchantment Table (1-3 lapis per level)",
+            "Used as blue dye in crafting and decorating",
+            "9 lapis can be crafted into 1 Block of Lapis Lazuli",
+            "Found in mineshaft, village, and shipwreck chests",
+            "Used to craft cyan dye when combined with green dye",
+            "Can be obtained from suspicious gravel and suspicious sand in trail ruins"
+        ],
+        description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves a dual purpose as blue dye for coloring wool, banners, and concrete. Beyond its essential role in magical enhancement, lapis can be crafted into blocks for storage and decoration, making it both a functional and aesthetic resource."
     }
 };

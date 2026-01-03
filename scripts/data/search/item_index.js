@@ -672,6 +672,27 @@ export const itemIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:copper_ingot",
+        name: "Copper Ingot",
+        category: "item",
+        icon: "textures/items/copper_ingot",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:emerald",
+        name: "Emerald",
+        category: "item",
+        icon: "textures/items/emerald",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:lapis_lazuli",
+        name: "Lapis Lazuli",
+        category: "item",
+        icon: "textures/items/dye_powder_blue",
+        themeColor: "§9" // blue
+    },
+    {
         id: "minecraft:enchanted_book",
         name: "Enchanted Book",
         category: "item",

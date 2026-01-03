@@ -77,5 +77,30 @@ export const gems = {
             "Can be found in chests in Fortresses, End Cities, and Bastions"
         ],
         description: "Diamonds are one of the most iconic and valuable materials in Minecraft, serving as a critical milestone in player progression. Primarily obtained by mining Diamond Ore deep underground, they are used to craft durable and efficient tools, weapons, and armor. Beyond equipment, diamonds are essential for creating Enchantment Tables and Jukeboxes. They also act as a prerequisite for reaching the highest tier of gear, as diamond items must be combined with Netherite Ingots to create netherite equipment."
+    },
+    "minecraft:emerald": {
+        id: "minecraft:emerald",
+        name: "Emerald",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Trading with villagers and crafting Beacons",
+            secondaryUse: "Crafting Emerald Blocks for decoration and storage"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Emerald Ore or Deepslate Emerald Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Found in mountainous biomes (Windswept Hills, Windswept Gravelly Hills, etc.) at Y levels 4-320 in Bedrock",
+            "Primary currency for villager trading; villagers will trade items for emeralds and vice versa",
+            "Can be found in shipwreck and buried treasure chests",
+            "9 emeralds craft into 1 Block of Emerald for compact storage",
+            "Used as payment to activate Beacons (any mineral block works)",
+            "Obtainable from mining emerald ore, chest loot, or raid rewards",
+            "Renewable through raid rewards and villager farming"
+        ],
+        description: "Emeralds are rare green gemstones that serve as Minecraft's primary currency for villager trading. Found primarily in mountainous biomes at various elevations, they can be mined from emerald ore or obtained from chest loot. Their most valuable function is facilitating the villager trading system, where players can exchange emeralds for valuable goods like enchanted books, diamond gear, and food. Beyond trading, emeralds are used to craft Emerald Blocks for decoration and can activate Beacons when placed in a pyramid structure."
     }
 };

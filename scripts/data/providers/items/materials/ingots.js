@@ -78,5 +78,30 @@ export const ingots = {
             "Used to repair iron equipment in an anvil"
         ],
         description: "Iron Ingots are versatile and essential materials for mid-game survival and automation. They are used to create a wide range of tools, armor, and essential utility blocks like Buckets and Hoppers. Iron is relatively easy to find in large quantities compared to rarer metals, making it the primary choice for large-scale construction and complex redstone machinery. Its renewability through Iron Golem farms makes it an infinite resource for advanced players."
+    },
+    "minecraft:copper_ingot": {
+        id: "minecraft:copper_ingot",
+        name: "Copper Ingot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting copper blocks, lightning rods, spyglasses, and brushes",
+            secondaryUse: "Crafting copper grates, doors, trapdoors, and other copper variants"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Copper or Copper Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Smelted from Raw Copper or Copper Ore in a furnace or blast furnace",
+            "Crafts Lightning Rods, Spyglasses (with Amethyst Shard), Brushes (with Stick and Copper Ingot)",
+            "Used to craft Blocks of Copper (9 ingots), Cut Copper, and all copper decorative blocks",
+            "Copper blocks naturally oxidize through four stages: unoxidized, exposed, weathered, and oxidized",
+            "Can be waxed with honeycomb to prevent oxidation",
+            "Renewable resource found in ore veins at Y levels 47-0 in Bedrock Edition",
+            "Struck by lightning when used as a lightning rod to prevent flammable structure damage"
+        ],
+        description: "Copper Ingots are metallic materials introduced in 1.17, used primarily for building and redstone applications. Smelted from raw copper or copper ore, they craft a wide variety of functional and decorative blocks. Copper blocks are unique in that they naturally oxidize over time, transitioning from bright orange to teal-green, though this can be prevented by waxing with honeycomb. Essential redstone uses include crafting Lightning Rods, which attract lightning strikes to prevent fire damage, and Brushes for archaeology. The ingots also create Spyglasses with Amethyst Shards for distant viewing and numerous building materials like grates, doors, and trapdoors."
     }
 };
