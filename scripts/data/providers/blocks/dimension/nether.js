@@ -12,6 +12,48 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const netherBlocks = {
+    "minecraft:nether_bricks": {
+        id: "minecraft:nether_bricks",
+        name: "Nether Bricks",
+        hardness: 2,
+        blastResistance: 2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Nether Fortresses (Y 60-120)"
+        },
+        description: "Nether Bricks are the primary building blocks of Nether fortresses, massive structures that generate in the Nether dimension. These dark reddish-brown bricks are crafted from four nether brick items, which are smelted from netherrack. Nether bricks are fire-resistant and immune to ghast fireballs, making them excellent for defensive structures. They can be crafted into stairs, slabs, walls, fences, and other decorative variants. Nether bricks are not affected by wither or ender dragon attacks, providing durable construction in hostile dimensions."
+    },
+    "minecraft:quartz_block": {
+        id: "minecraft:quartz_block",
+        name: "Quartz Block",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Quartz Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, crafted from Nether Quartz"
+        },
+        description: "Quartz Block is a white crystalline building block crafted from four nether quartz items. It generates naturally in bastion remnants and can be obtained from nether quartz ore in the Nether. Quartz blocks come in several variants: standard quartz, chiseled quartz with intricate patterns, pillar quartz with a vertical texture, and smooth quartz made by smelting. They are popular for clean, modern builds and offer a bright white aesthetic. Quartz blocks are blast-resistant and require a pickaxe to mine, making them versatile decorative materials for elegant structures."
+    },
     "minecraft:magma": {
         id: "minecraft:magma",
         name: "Magma Block",
