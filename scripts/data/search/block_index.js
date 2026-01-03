@@ -42,6 +42,13 @@ export const blockIndex = [
         themeColor: "§7" // white/light gray
     },
     {
+        id: "minecraft:clay_block",
+        name: "Clay Block",
+        category: "block",
+        icon: "textures/blocks/clay",
+        themeColor: "§7" // gray/brown
+    },
+    {
         id: "minecraft:moss_block",
         name: "Moss Block",
         category: "block",
@@ -700,11 +707,25 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:bone_block",
+        name: "Bone Block",
+        category: "block",
+        icon: "textures/blocks/bone_block",
+        themeColor: "§7" // white/gray
+    },
+    {
         id: "minecraft:smooth_basalt",
         name: "Smooth Basalt",
         category: "block",
         icon: "textures/blocks/smooth_basalt_side",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:slime_block",
+        name: "Slime Block",
+        category: "block",
+        icon: "textures/blocks/slime",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:suspicious_sand",
