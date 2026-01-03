@@ -112,5 +112,68 @@ export const workstationBlocks = {
             yRange: "Crafted only"
         },
         description: "A Beacon is a highly valuable functional block that projects a vertical light beam into the sky and provides beneficial status effects to nearby players. It must be placed atop a pyramid structure built from iron, gold, diamond, emerald, or netherite blocks, with pyramid sizes ranging from 1 to 4 levels determining the range and available effects. Crafted from five glass blocks, three obsidian, and one nether star obtained by defeating the Wither, beacons emit maximum light and can provide effects such as Speed, Haste, Resistance, Jump Boost, Strength, and Regeneration within their radius."
-    }
-};
+    },
+    "minecraft:smithing_table": {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Smithing Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village weaponsmith houses and Trail Ruins"
+        },
+        description: "A Smithing Table is a functional workstation block used to upgrade diamond armor, tools, and weapons to netherite, the strongest material in Minecraft. By placing a diamond item and a netherite ingot in the smithing interface, players receive an upgraded netherite version that retains all enchantments. Smithing tables also serve as job site blocks for toolsmith villagers in villages, generating in weaponsmith houses and trail ruins. Crafted from four wooden planks of any type and two iron ingots, smithing tables are essential for late-game progression and can also be used as furnace fuel."
+    },
+    "minecraft:grindstone": {
+        id: "minecraft:grindstone",
+        name: "Grindstone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Grindstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village weaponsmith houses"
+        },
+        description: "A Grindstone is a functional block used to repair damaged items and remove unwanted enchantments from gear. When two items of the same type are placed in the grindstone, it combines their durability and removes all enchantments, returning experience points equal to the removed enchantments' cost. Grindstones also serve as job site blocks for weaponsmith villagers in villages. Crafted from two sticks, one stone slab, and two wooden planks of any type, grindstones are valuable for maintaining equipment or removing curses and unwanted enchantments to start fresh."
+    },
+    "minecraft:enchanting_table": {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 7,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Enchanting Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village libraries"
+        },
+        description: "An Enchanting Table is a functional workstation block used to enchant tools, armor and books using lapis lazuli as a currency. The block emits light level 7 and requires bookshelves placed nearby to increase the maximum enchantment level available. When placed, bookshelves within a 2-block radius can boost enchanting power up to 30 levels. Enchanting tables naturally generate in village libraries and can be crafted from four obsidian blocks, two diamonds, and one book. This block is essential for progressing through mid-game content and enhancing equipment with powerful magical abilities."
+        }
+        };
