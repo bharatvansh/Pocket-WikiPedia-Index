@@ -79,6 +79,28 @@ export const ingots = {
         ],
         description: "Iron Ingots are versatile and essential materials for mid-game survival and automation. They are used to create a wide range of tools, armor, and essential utility blocks like Buckets and Hoppers. Iron is relatively easy to find in large quantities compared to rarer metals, making it the primary choice for large-scale construction and complex redstone machinery. Its renewability through Iron Golem farms makes it an infinite resource for advanced players."
     },
+    "minecraft:gold_ingot": {
+        id: "minecraft:gold_ingot",
+        name: "Gold Ingot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting golden equipment and food",
+            secondaryUse: "Bartering with Piglins in the Nether"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Gold or Gold Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Required for crafting Golden Apples and Golden Carrots",
+            "Primary currency for bartering with Piglins",
+            "Can be crafted from 9 Gold Nuggets or 1/9th of a Gold Block",
+            "Gold tools have the highest mining speed but very low durability"
+        ],
+        description: "Gold Ingots are versatile materials used for crafting high-tier food items, decorative blocks, and specialized tools. While golden armor and weapons have low durability, they possess high enchantability. In the Nether, gold ingots are essential for bartering with Piglins, who will exchange various items for the metal. They can be obtained by smelting raw gold or gold ore, found in loot chests, or dropped by Zombified Piglins."
+    },
     "minecraft:copper_ingot": {
         id: "minecraft:copper_ingot",
         name: "Copper Ingot",
