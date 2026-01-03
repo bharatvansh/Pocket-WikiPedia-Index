@@ -803,5 +803,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cartography_table",
         themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:blast_furnace",
+        name: "Blast Furnace",
+        category: "block",
+        icon: "textures/blocks/blast_furnace",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:composter",
+        name: "Composter",
+        category: "block",
+        icon: "textures/blocks/composter",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:soul_sand",
+        name: "Soul Sand",
+        category: "block",
+        icon: "textures/blocks/soul_sand",
+        themeColor: "§8" // dark gray/brown
     }
 ];

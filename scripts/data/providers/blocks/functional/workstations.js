@@ -216,6 +216,48 @@ export const workstationBlocks = {
             dimension: "Overworld",
             yRange: "Village cartographer houses"
         },
-        description: "A Cartography Table is a specialized workstation for manipulating explorer maps and empty maps. It offers four functions: cloning maps to create copies, expanding the zoom level of existing maps up to four times, locking maps to prevent further modifications, and creating locator maps that track player position. The cartography table is crafted from two sheets of paper and four wooden planks. It serves as the job site block for Cartographer villagers and generates naturally in their houses. This block revolutionizes map management by providing intuitive controls for map duplication and customization, essential for large-scale exploration projects and base mapping."
-    }
+        description: "A Cartography Table is a specialized workstation for manipulating explorer maps and empty maps. It offers four functions: cloning maps to create copies, expanding the zoom level of existing maps up to four times, locking maps to prevent further modifications, and creating locator maps that track player position. The cartography table is crafted from two sheets of paper and four wooden planks. It serves as the job site block for Cartographer villagers and generates naturally in their houses. This block revolutionizes map management by providing intuitive controls for map duplication and customization, essential for large-scale exploration projects and base mapping.",
+    },
+    "minecraft:blast_furnace": {
+        id: "minecraft:blast_furnace",
+        name: "Blast Furnace",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 13,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false,
+        },
+        drops: ["Blast Furnace"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village armorer houses",
+        },
+        description: "A Blast Furnace is a specialized workstation block used for smelting ores, raw metals, and iron or gold chainmail and tools twice as fast as a regular furnace. While it operates with double the speed, it also consumes fuel at double the rate. It cannot be used to cook food, which requires a Smoker or regular furnace instead. Crafted from five iron ingots, one furnace, and three smooth stones, it also serves as the job site block for Armorer villagers in villages.",
+    },
+    "minecraft:composter": {
+        id: "minecraft:composter",
+        name: "Composter",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false,
+        },
+        drops: ["Composter"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village farms",
+        },
+        description: "A Composter is a functional block that converts various plant materials and food items into bone meal. When a player uses organic items on the composter, there is a chance it will fill up by one level; once it reaches level seven, the next use produces bone meal. It is crafted from seven wooden slabs and generates naturally in villages as the job site block for Farmers. Composters can also be interacted with by hoppers, allowing for automated bone meal production systems.",
+    },
 };
