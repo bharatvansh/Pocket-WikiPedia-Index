@@ -85,7 +85,7 @@ export const gems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Trading with villagers and crafting Beacons",
+            primaryUse: "Trading with villagers and selecting effects in Beacons",
             secondaryUse: "Crafting Emerald Blocks for decoration and storage"
         },
         crafting: {
@@ -93,14 +93,14 @@ export const gems = {
             ingredients: ["Emerald Ore or Deepslate Emerald Ore", "Fuel"]
         },
         specialNotes: [
-            "Found in mountainous biomes (Windswept Hills, Windswept Gravelly Hills, etc.) at Y levels 4-320 in Bedrock",
+            "Found in mountainous biomes (Windswept Hills, Windswept Gravelly Hills, etc.) at Y levels -16 to 320 in Bedrock",
             "Primary currency for villager trading; villagers will trade items for emeralds and vice versa",
             "Can be found in shipwreck and buried treasure chests",
             "9 emeralds craft into 1 Block of Emerald for compact storage",
-            "Used as payment to activate Beacons (any mineral block works)",
+            "Used as payment to select Beacon effects when Beacon is activated with mineral blocks",
             "Obtainable from mining emerald ore, chest loot, or raid rewards",
             "Renewable through raid rewards and villager farming"
         ],
-        description: "Emeralds are rare green gemstones that serve as Minecraft's primary currency for villager trading. Found primarily in mountainous biomes at various elevations, they can be mined from emerald ore or obtained from chest loot. Their most valuable function is facilitating the villager trading system, where players can exchange emeralds for valuable goods like enchanted books, diamond gear, and food. Beyond trading, emeralds are used to craft Emerald Blocks for decoration and can activate Beacons when placed in a pyramid structure."
+        description: "Emeralds are rare green gemstones that serve as Minecraft's primary currency for villager trading. Found primarily in mountainous biomes at various elevations, they can be mined from emerald ore or obtained from chest loot. Their most valuable function is facilitating the villager trading system, where players can exchange emeralds for valuable goods like enchanted books, diamond gear, and food. Beyond trading, emeralds are used to craft Emerald Blocks for decoration and can be crafted into Emerald Blocks to build the pyramid structure for Beacons."
     }
 };
