@@ -13,15 +13,15 @@ export const swords = {
         id: "minecraft:iron_sword",
         name: "Iron Sword",
         maxStack: 1,
-        durability: 250,
+        durability: 251,
         enchantable: true,
         usage: {
             primaryUse: "Melee combat",
             secondaryUse: "Breaking cobwebs quickly"
         },
         combat: {
-            attackDamage: 6,
-            attackSpeed: 1.6
+            attackDamage: 7,
+            attackSpeed: 0
         },
         crafting: {
             recipeType: "Shaped",
@@ -37,24 +37,24 @@ export const swords = {
         id: "minecraft:diamond_sword",
         name: "Diamond Sword",
         maxStack: 1,
-        durability: 1561,
+        durability: 1562,
         enchantable: true,
         usage: {
             primaryUse: "High-damage melee combat",
             secondaryUse: "Quickly breaking cobwebs and bamboo"
         },
         combat: {
-            attackDamage: 7,
-            attackSpeed: 1.6
+            attackDamage: 8,
+            attackSpeed: 0
         },
         crafting: {
             recipeType: "Shaped",
             ingredients: ["Diamond x2", "Stick"]
         },
         specialNotes: [
-            "Deals 7 points of damage (3.5 hearts) per hit",
+            "Deals 8 points of damage (4 hearts) per hit",
             "Can be upgraded to a Netherite Sword using a Smithing Template",
-            "Durability of 1561 allows for extensive use before needing repair",
+            "Durability of 1562 allows for extensive use before needing repair",
             "Can be repaired with Diamonds or in an anvil"
         ],
         description: "The Diamond Sword is a high-tier melee weapon that provides significant damage and durability. It was the strongest sword available before the introduction of netherite. To craft one, a player needs two diamonds and a stick. It can be further enhanced with various combat enchantments like Sharpness, Fire Aspect, and Knockback, making it a formidable weapon for any encounter."

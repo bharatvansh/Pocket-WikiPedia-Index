@@ -13,15 +13,15 @@ export const pickaxes = {
         id: "minecraft:diamond_pickaxe",
         name: "Diamond Pickaxe",
         maxStack: 1,
-        durability: 1561,
+        durability: 1562,
         enchantable: true,
         usage: {
             primaryUse: "Mining blocks efficiently",
             secondaryUse: "Required to mine obsidian and ancient debris"
         },
         combat: {
-            attackDamage: 5,
-            attackSpeed: 1.2
+            attackDamage: 6,
+            attackSpeed: 0
         },
         crafting: {
             recipeType: "Shaped",
@@ -39,22 +39,22 @@ export const pickaxes = {
         id: "minecraft:netherite_pickaxe",
         name: "Netherite Pickaxe",
         maxStack: 1,
-        durability: 2031,
+        durability: 2032,
         enchantable: true,
         usage: {
             primaryUse: "Mining blocks with maximum efficiency",
             secondaryUse: "Highly durable tool for long mining sessions"
         },
         combat: {
-            attackDamage: 6,
-            attackSpeed: 1.2
+            attackDamage: 7,
+            attackSpeed: 0
         },
         crafting: {
             recipeType: "Smithing",
             ingredients: ["Diamond Pickaxe", "Netherite Ingot", "Netherite Upgrade Smithing Template"]
         },
         specialNotes: [
-            "Highest tier pickaxe in the game with 2031 durability",
+            "Highest tier pickaxe in the game with 2032 durability",
             "Immune to fire and lava - will float on top if dropped",
             "Increased mining speed over diamond (9x multiplier)",
             "Requires a Smithing Table and a Netherite Upgrade Template to craft"
