@@ -733,5 +733,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/suspicious_gravel",
         themeColor: "§8" // dark gray/brown
+    },
+    {
+        id: "minecraft:honey_block",
+        name: "Honey Block",
+        category: "block",
+        icon: "textures/blocks/honey_block_side",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:sea_pickle",
+        name: "Sea Pickle",
+        category: "block",
+        icon: "textures/blocks/sea_pickle",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:sponge",
+        name: "Sponge",
+        category: "block",
+        icon: "textures/blocks/sponge",
+        themeColor: "§e" // yellow
     }
 ];
