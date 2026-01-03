@@ -269,5 +269,74 @@ export const mobDrops = {
             "Small rabbits are quick and difficult to farm but provide useful drops"
         ],
         description: "Rabbit Hide is a skin material dropped by rabbits when killed, typically dropping 0-2 hides per rabbit with increased yields from Looting enchantments. While rabbits are small and fast, their hides provide a renewable source of leather, particularly valuable in biomes where cows are scarce or absent. Four rabbit hides can be crafted into a single piece of leather in a 2x2 crafting grid, which can then be used to create books, item frames, and leather armor. This makes rabbit farming a viable alternative for players who struggle to find cattle in their world."
+    },
+    "minecraft:shulker_shell": {
+        id: "minecraft:shulker_shell",
+        name: "Shulker Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Shulker Boxes",
+            secondaryUse: "Decorative item (Item Frame)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Shulker Shell x2", "Chest"]
+        },
+        specialNotes: [
+            "Dropped by Shulkers (0-1 shells; increased by Looting)",
+            "Two shells combined with a Chest craft a Shulker Box",
+            "Shulker Boxes retain their inventory when broken",
+            "Shulkers are found in End Cities in the End dimension",
+            "Renewable via Shulker duplication mechanics"
+        ],
+        description: "The Shulker Shell is a hard, protective carapace dropped by Shulkers, the hostile mobs inhabiting End Cities. Its primary and most vital use is in crafting Shulker Boxes, which are unique storage containers that keep their contents when broken and picked up. To craft one, a player needs two shells and a chest. This unique property revolutionizes inventory management, allowing players to carry vast amounts of items. While acquiring them requires venturing into the dangerous End Cities, the utility of Shulker Boxes makes them one of the most sought-after items in the late game."
+    },
+    "minecraft:ghast_tear": {
+        id: "minecraft:ghast_tear",
+        name: "Ghast Tear",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potions of Regeneration",
+            secondaryUse: "Crafting End Crystals"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts in the Nether"]
+        },
+        specialNotes: [
+            "Dropped by Ghasts (0-1; increased by Looting)",
+            "Essential for brewing Potion of Regeneration (Awkward Potion + Ghast Tear)",
+            "Required to craft End Crystals (Glass + Eye of Ender + Ghast Tear)",
+            "End Crystals are used to respawn the Ender Dragon",
+            "Ghast Tears are often lost if the Ghast dies over lava"
+        ],
+        description: "A Ghast Tear is a rare alchemical ingredient dropped by Ghasts, the crying, floating ghosts of the Nether. It is a potent regenerative agent, used to brew Potions of Regeneration which restore health over time. Additionally, Ghast Tears are a requisite component for crafting End Crystals, which are necessary to respawn the Ender Dragon for repeated battles. Collecting them can be challenging, as Ghasts fly and often hover over lava lakes, meaning drops may fall into the lava and be destroyed if the player is not careful."
+    },
+    "minecraft:ink_sac": {
+        id: "minecraft:ink_sac",
+        name: "Ink Sac",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Black Dye",
+            secondaryUse: "Crafting Book and Quill"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Squids"]
+        },
+        specialNotes: [
+            "Dropped by Squids (1-3; increased by Looting)",
+            "Can be crafted into Black Dye",
+            "Used directly to craft Book and Quill (Book + Ink Sac + Feather)",
+            "Used to craft Dark Prismarine (Prismarine Shard + Ink Sac)",
+            "Wandering Traders may sell Ink Sacs"
+        ],
+        description: "The Ink Sac is a dark pouch obtained by hunting Squids in rivers and oceans. It serves as the primary source of black pigment in Minecraft. While it can be converted into Black Dye for coloring wool, glass, and terracotta, the Ink Sac itself is a specific ingredient for crafting a Book and Quill, allowing players to write custom books. It is also used in the construction of Dark Prismarine blocks, adding a sleek, dark aesthetic to aquatic builds. Unlike Glow Ink Sacs, these do not make text glow."
     }
 };
