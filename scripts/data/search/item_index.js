@@ -840,6 +840,27 @@ export const itemIndex = [
         themeColor: "§f" // white/pink
     },
     {
+        id: "minecraft:mushroom_stew",
+        name: "Mushroom Stew",
+        category: "item",
+        icon: "textures/items/mushroom_stew",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:beetroot_soup",
+        name: "Beetroot Soup",
+        category: "item",
+        icon: "textures/items/beetroot_soup",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        category: "item",
+        icon: "textures/items/experience_bottle",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:diamond_sword",
         name: "Diamond Sword",
         category: "item",

@@ -442,6 +442,29 @@ export const miscItems = {
         ],
         description: "A Fire Charge is a consumable item used to ignite fires or act as a projectile. When used by a player, it immediately starts a fire on a block, similar to flint and steel but with only one use per item. When placed in a dispenser, it is fired as a small fireball that travels in a straight line, setting fire to anything it hits. It is often used in traps, automated defense systems, or as an alternative ignition source when flint is unavailable."
     },
+    "minecraft:experience_bottle": {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing to release experience orbs",
+            secondaryUse: "Quickly gaining XP for enchanting and anvil use"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Traded by Cleric villagers", "Found as generated loot in some structures"]
+        },
+        specialNotes: [
+            "Shatters on impact and releases experience orbs",
+            "Grants 3-11 XP (average 7) per bottle",
+            "Stackable up to 64, unlike most bowl or bottle consumables",
+            "Renewable through trading with Cleric villagers",
+            "Useful for topping up levels at an enchanting table or anvil"
+        ],
+        description: "Bottle o' Enchanting is a throwable item that breaks on impact and releases experience orbs worth 3-11 XP (7 on average). It is commonly used to quickly gain levels for enchanting or to supply experience for anvil repairs when you are just short on XP. In Bedrock Edition it is renewable through Cleric villager trades, and it can also appear as generated loot in some structure chests."
+    },
     "minecraft:end_crystal": {
         id: "minecraft:end_crystal",
         name: "End Crystal",

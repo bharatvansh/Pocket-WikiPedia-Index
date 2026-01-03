@@ -65,6 +65,60 @@ export const cookedFood = {
         ],
         description: "Suspicious Stew is a special bowl food that restores hunger while also granting a brief status effect determined by the small flower used to make it. It is crafted shapelessly from a bowl, red and brown mushrooms, and any small flower, and the bowl is returned after consumption. Unlike most foods, it can be eaten even at full hunger, making it useful for intentionally applying its effect."
     },
+    "minecraft:mushroom_stew": {
+        id: "minecraft:mushroom_stew",
+        name: "Mushroom Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Hearty early-game bowl meal",
+            secondaryUse: "Instant food by using a Bowl on a Mooshroom"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Mushroom", "Brown Mushroom", "Bowl"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Does not stack and returns an empty Bowl after eating",
+            "Crafted shapelessly from one red mushroom, one brown mushroom, and a bowl",
+            "Can be obtained by using a Bowl on a Mooshroom (no cooldown)",
+            "Great food source in Mushroom Fields due to abundant mushrooms"
+        ],
+        description: "Mushroom Stew is a simple bowl-based food crafted from one red mushroom, one brown mushroom, and a bowl. It restores 6 hunger points and 7.2 saturation, making it a strong early-game meal when mushrooms are plentiful. Players can also obtain it instantly by using a bowl on a mooshroom. After eating, the empty bowl is returned for reuse."
+    },
+    "minecraft:beetroot_soup": {
+        id: "minecraft:beetroot_soup",
+        name: "Beetroot Soup",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Bowl meal made from farmed beetroots",
+            secondaryUse: "Reliable food once beetroot farming is established"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Beetroot x6", "Bowl"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Crafted shapelessly from 6 beetroots and a bowl",
+            "Does not stack and returns an empty Bowl after eating",
+            "Works well as a renewable base food when you have a beetroot farm",
+            "Takes more inventory space than stackable foods like bread"
+        ],
+        description: "Beetroot Soup is a bowl-based food item crafted shapelessly from six beetroots and a bowl. It restores 6 hunger points and 7.2 saturation, matching mushroom stew in nutrition while rewarding players who set up beetroot farms. Because it does not stack, it is most convenient for base use or short trips. The bowl is returned after eating."
+    },
     "minecraft:bread": {
         id: "minecraft:bread",
         name: "Bread",
