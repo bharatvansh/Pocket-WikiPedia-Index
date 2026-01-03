@@ -9,6 +9,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const gems = {
+    "minecraft:prismarine_crystals": {
+        id: "minecraft:prismarine_crystals",
+        name: "Prismarine Crystals",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sea Lanterns",
+            secondaryUse: "Decorative building"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Dropped by Guardians and Elder Guardians upon death (0-1; increased by Looting)",
+            "Renewable via Guardian farming in Ocean Monuments",
+            "Used with Prismarine Shards to craft Sea Lanterns",
+            "Provides high light level when crafted into Sea Lanterns",
+            "Unlike shards, crystals have a glowing, multifaceted appearance"
+        ],
+        description: "Prismarine Crystals are luminous materials obtained by defeating Guardians or Elder Guardians in Ocean Monuments. Unlike prismarine shards, which are more common, crystals are specifically required for crafting Sea Lanterns, one of the most effective and aesthetically pleasing underwater light sources. Their crystalline appearance and association with the deep ocean make them a valuable resource for underwater construction and lighting projects."
+    },
     "minecraft:prismarine_shard": {
         id: "minecraft:prismarine_shard",
         name: "Prismarine Shard",

@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket
+// bucket, dragon egg
 // ============================================
 
 /**
@@ -13,6 +13,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const miscItems = {
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Trophy item",
+            secondaryUse: "Decorative and status symbol"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by defeating the Ender Dragon"]
+        },
+        specialNotes: [
+            "Only one Dragon Egg naturally generates per world",
+            "Teleports when hit or interacted with in Survival mode",
+            "Falls like sand or gravel if no block is beneath it",
+            "Can be collected using a piston or by placing a torch beneath it",
+            "Widely considered the rarest item in Minecraft"
+        ],
+        description: "The Dragon Egg is a unique trophy item that appears at the top of the exit portal after defeating the Ender Dragon for the first time. It is widely considered the rarest item in the game since only one naturally generates per world. While it has no functional crafting use, it serves as a prestigious decorative piece. In survival mode, attempting to mine it normally will cause it to teleport to a nearby location; players must use clever methods like pistons or placing a torch under the block it falls on to successfully collect it."
+    },
     "minecraft:name_tag": {
         id: "minecraft:name_tag",
         name: "Name Tag",

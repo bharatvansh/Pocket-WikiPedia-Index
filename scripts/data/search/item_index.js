@@ -224,11 +224,25 @@ export const itemIndex = [
         themeColor: "§b" // aqua/rare
     },
     {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "item",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:chorus_fruit",
         name: "Chorus Fruit",
         category: "item",
         icon: "textures/items/chorus_fruit",
         themeColor: "§f" // white (Common rarity since 1.21.30)
+    },
+    {
+        id: "minecraft:popped_chorus_fruit",
+        name: "Popped Chorus Fruit",
+        category: "item",
+        icon: "textures/items/chorus_fruit_popped",
+        themeColor: "§5" // dark purple
     },
     {
         id: "minecraft:totem_of_undying",
@@ -313,6 +327,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/prismarine_shard",
         themeColor: "§b" // aqua/cyan
+    },
+    {
+        id: "minecraft:prismarine_crystals",
+        name: "Prismarine Crystals",
+        category: "item",
+        icon: "textures/items/prismarine_crystals",
+        themeColor: "§b" // aqua
     },
     {
         id: "minecraft:rabbit_foot",

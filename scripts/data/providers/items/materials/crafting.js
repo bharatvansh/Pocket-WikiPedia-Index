@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder
+// amethyst shard, gunpowder, popped chorus fruit
 // ============================================
 
 /**
@@ -14,6 +14,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const craftingMaterials = {
+    "minecraft:popped_chorus_fruit": {
+        id: "minecraft:popped_chorus_fruit",
+        name: "Popped Chorus Fruit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Purpur Blocks",
+            secondaryUse: "Crafting End Rods"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Chorus Fruit", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting Chorus Fruit in a furnace or smoker",
+            "Cannot be eaten, unlike raw Chorus Fruit",
+            "Used to craft Purpur blocks in a 2x2 grid",
+            "Combined with a Blaze Rod to create End Rods",
+            "Essential for creating End-themed architecture"
+        ],
+        description: "Popped Chorus Fruit is a crafting material produced by smelting Chorus Fruit in a furnace, smoker, or campfire. While the popping process removes its edible properties and teleportation abilities, it transforms the fruit into a hard, durable material essential for creating End-themed architecture. Four pieces of popped chorus fruit can be crafted into Purpur Blocks, and it is also a key component in manufacturing End Rods. This makes it a vital resource for players looking to incorporate the sleek, purple aesthetic of End Cities into their own builds."
+    },
     "minecraft:rabbit_foot": {
         id: "minecraft:rabbit_foot",
         name: "Rabbit's Foot",
