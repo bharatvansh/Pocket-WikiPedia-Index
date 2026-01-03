@@ -775,5 +775,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/quartz_block",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:grindstone",
+        name: "Grindstone",
+        category: "block",
+        icon: "textures/blocks/grindstone",
+        themeColor: "§8" // dark gray/stone
+    },
+    {
+        id: "minecraft:loom",
+        name: "Loom",
+        category: "block",
+        icon: "textures/blocks/loom",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        category: "block",
+        icon: "textures/blocks/smithing_table",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:cartography_table",
+        name: "Cartography Table",
+        category: "block",
+        icon: "textures/blocks/cartography_table",
+        themeColor: "§6" // wood/brown
     }
 ];
