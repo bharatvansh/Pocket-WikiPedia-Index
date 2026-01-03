@@ -17,7 +17,7 @@ export const gems = {
         enchantable: false,
         usage: {
             primaryUse: "Crafting Sea Lanterns",
-            secondaryUse: "Decorative building"
+            secondaryUse: "None"
         },
         crafting: {
             recipeType: "Uncraftable",
