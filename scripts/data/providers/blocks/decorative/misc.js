@@ -285,5 +285,26 @@ export const miscDecorativeBlocks = {
             yRange: "Warm Ocean Ruins (Loot)"
         },
         description: "The sniffer egg is a large, decorative block that eventually hatches into a snifflet. It can be found in suspicious sand within warm ocean ruins or obtained by breeding two adult sniffers. When placed on a moss block, the egg hatches in approximately 10 minutes, which is twice as fast as on any other block type."
+    },
+    "minecraft:barrier": {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        hardness: -1,
+        blastResistance: 3600000.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Not naturally generated"
+        },
+        description: "A Barrier is an invisible, indestructible block used primarily by map makers to restrict player movement without obstructing the view. While it is completely transparent and has no collision for light, it acts as a solid block for all entities. Barrier blocks can only be obtained via commands and are only visible to players holding a barrier item in creative mode, appearing as a red 'stop' icon. They are perfect for creating invisible boundaries, protecting areas, or managing player flow in custom maps and servers."
     }
 };

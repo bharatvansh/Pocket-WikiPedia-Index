@@ -157,5 +157,26 @@ export const stoneBlocks = {
             yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
         },
         description: "Pointed Dripstone forms stalactites pointing downward from dripstone blocks and stalagmites pointing upward from surfaces. It generates naturally in dripstone caves and Trial Chambers, and can be purchased from wandering traders. Stalactites fall as damaging projectiles when broken, while stalagmites deal extra damage to entities landing on them. When water is above a stalactite, it drips water or lava particles into cauldrons below. Pointed dripstone grows slowly from stalagmites toward stalactites when water is above dripstone block. This decorative block creates cave-like atmospheres."
+    },
+    "minecraft:bedrock": {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether",
+            yRange: "Overworld (-64 to -60), Nether (0-4, 123-127)"
+        },
+        description: "Bedrock is an indestructible block that forms the bottom-most layers of the Overworld and both the ceiling and floor of the Nether. In Survival mode, it cannot be broken by any tool or explosion, serving as a boundary for the playable world. While it is mostly flat in the Overworld since version 1.18, it remains jagged in the Nether. Bedrock is essential for containing the Wither or creating safe areas in technical Minecraft, although it cannot be obtained as an item without using cheats or creative mode."
     }
 };

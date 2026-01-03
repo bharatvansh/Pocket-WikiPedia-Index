@@ -54,5 +54,26 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A target is a block that produces a temporary redstone signal when hit by a projectile. The strength of the signal depends on how close the projectile is to the center of the block."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Temples, Woodland Mansions, Shipwrecks"
+        },
+        description: "TNT is an explosive block that can be primed by redstone, fire, or explosions. Once ignited, it becomes a falling entity that explodes after 4 seconds (80 ticks), dealing significant damage to nearby blocks and entities. It is commonly used for mining, clearing large areas, or as a weapon in traps. TNT can be crafted using sand and gunpowder, and it is also found naturally in several structures. In Bedrock Edition, TNT has a 100% drop rate for blocks destroyed by its explosion, making it efficient for large-scale excavation."
     }
 };
