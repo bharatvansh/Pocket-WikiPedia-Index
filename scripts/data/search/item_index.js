@@ -768,5 +768,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/sugar",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:bread",
+        name: "Bread",
+        category: "item",
+        icon: "textures/items/bread",
+        themeColor: "§e" // yellow/brown
+    },
+    {
+        id: "minecraft:cookie",
+        name: "Cookie",
+        category: "item",
+        icon: "textures/items/cookie",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:pumpkin_pie",
+        name: "Pumpkin Pie",
+        category: "item",
+        icon: "textures/items/pumpkin_pie",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "item",
+        icon: "textures/items/cake",
+        themeColor: "§f" // white/pink
     }
 ];
