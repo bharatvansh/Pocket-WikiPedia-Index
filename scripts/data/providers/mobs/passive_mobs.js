@@ -611,5 +611,103 @@ export const passiveMobs = {
             { item: "Potion of Invisibility", chance: "If killed while drinking (rare)" }
         ],
         description: "The Wandering Trader is a passive mob that periodically spawns near players, accompanied by two leashed Trader Llamas. Unlike regular villagers, they do not belong to a village and offer unique items from various biomes, such as coral blocks, dye, and rare saplings. At nightfall, they drink a Potion of Invisibility to protect themselves from hostile mobs, only revealing themselves again at daybreak. They are a valuable source of rare items for players who prefer to stay in one location."
+    },
+    "minecraft:rabbit": {
+        id: "minecraft:rabbit",
+        name: "Rabbit",
+        health: 3,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Desert", "Flower Forest", "Taiga", "Plains", "Meadow", "Snowy Plains", "Frozen Ocean", "Frozen River", "Snowy Beach", "Snowy Slopes", "Cherry Grove", "Grove"],
+            lightLevel: "7+",
+            groupSize: "1-3 (varies by biome)"
+        },
+        behaviorTraits: [
+            "Hops around randomly with fast, erratic movement patterns",
+            "Follows players holding carrots, golden carrots, or dandelions",
+            "Can be bred with carrots, golden carrots, or dandelions",
+            "Avoids wolves and foxes which hunt them",
+            "Has multiple color variants based on biome (gold, white, brown, black, salt, white splotched)",
+            "Jumps up to 2 blocks high while moving",
+            "Moves significantly faster than most ground mobs"
+        ],
+        drops: [
+            { item: "Raw Rabbit", chance: "1" },
+            { item: "Rabbit Hide", chance: "0-1 (50%)" },
+            { item: "Rabbit's Foot", chance: "0-1 (10%, by player/tamed wolf)" },
+            { item: "Cooked Rabbit", chance: "If killed by fire" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Rabbits are small, fast-moving passive mobs found in various biomes across the Overworld. They have six color variants determined by their spawning biome: gold in deserts, white in snowy areas, and mixtures of brown, black, salt, and white splotched elsewhere. Their quick hopping behavior makes them difficult to catch, but they can be bred using carrots, golden carrots, or dandelions. Rabbits drop valuable items including rabbit hide for leather crafting and rabbit's feet for brewing, making them useful for players seeking renewable resources."
+    },
+    "minecraft:bat": {
+        id: "minecraft:bat",
+        name: "Bat",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Caves", "Dark Overworld areas"],
+            lightLevel: "0-7 (underground)",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Flying ambient mob that spawns in dark areas underground",
+            "Hangs upside down from solid blocks when idle",
+            "Flies around aimlessly and squeaks randomly",
+            "Flies away when player approaches, even if invisible",
+            "Cannot be bred, tamed, or led with leads",
+            "Does not drop any items or experience",
+            "Despawns when over 32 blocks away from player"
+        ],
+        drops: [
+            { item: "None", chance: "Ambient mob, no drops" }
+        ],
+        description: "Bats are small flying ambient mobs that spawn exclusively in dark underground areas and caves. They hang upside down from solid blocks when idle and fly around aimlessly when active, occasionally squeaking. Despite their peaceful nature, bats immediately flee when players approach, even invisible ones. They cannot be bred, tamed, or transported with leads or boats. Unlike most mobs, bats do not drop any items or experience when killed, making them purely decorative creatures that add atmosphere to cave environments."
+    },
+    "minecraft:squid": {
+        id: "minecraft:squid",
+        name: "Squid",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean", "Deep Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Cold Ocean", "Deep Cold Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "Warm Ocean", "River", "Frozen River"],
+            lightLevel: "Any",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Passive aquatic mob found in ocean and river biomes",
+            "Swims around and produces ink clouds when attacked",
+            "Not attracted to light and does not deliberately interact with players",
+            "Sometimes beaches itself and suffocates on river banks and ocean beaches",
+            "Cannot be bred by players",
+            "Baby squid only found through natural spawning",
+            "Growth cannot be sped up and takes 20 minutes to mature"
+        ],
+        drops: [
+            { item: "Ink Sac", chance: "1-3" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Squid are passive aquatic mobs found in all ocean biomes, as well as river and frozen river biomes. They spawn in groups of 2 to 4 in oceans and exactly 2 in rivers. Squid swim peacefully and do not interact with players unless attacked, at which point they release a cloud of ink as a defense mechanism. They cannot be bred, and babies only spawn naturally. Occasionally, squid may beach themselves on river banks or ocean shores and suffocate. They drop ink sacs when killed, which are used for crafting black dye and making books."
     }
 };
