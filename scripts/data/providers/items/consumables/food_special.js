@@ -117,5 +117,32 @@ export const specialFood = {
             "Considered one of the best food sources for end-game play"
         ],
         description: "The Golden Carrot is widely considered the best food source in Minecraft due to its exceptionally high saturation value, which keeps the player's hunger bar full for longer than any other food. It is crafted by surrounding a regular carrot with eight gold nuggets in a crafting table. Beyond its use as a superior food source, it is a critical ingredient in brewing Potions of Night Vision. Players also use golden carrots to breed horses, donkeys, mules, and rabbits, or to accelerate the growth of their offspring."
+    },
+    "minecraft:suspicious_stew": {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        usage: {
+            primaryUse: "Eating to restore hunger and gain effects",
+            secondaryUse: "Milking Brown Mooshrooms fed with flowers"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Mushroom", "Brown Mushroom", "Bowl", "Any Flower"]
+        },
+        specialNotes: [
+            "Effect depends on the flower used (e.g., Dandelion gives Saturation)",
+            "Effect duration varies (Saturation 0.3s, Night Vision 4s in Bedrock)",
+            "Can be obtained by milking a Brown Mooshroom after feeding it a flower",
+            "Found in Shipwreck supply chests and Ancient City chests",
+            "Cannot be stacked"
+        ],
+        description: "Suspicious Stew is a unique food item that restores hunger and saturation while granting a short status effect. The specific effect is determined by the flower used in the crafting recipe or fed to a Brown Mooshroom before milking. Effects range from beneficial buffs like Saturation and Regeneration to harmful debuffs like Poison. Because it cannot be stacked, it is best used strategically rather than for bulk storage. It can be crafted or found in Shipwrecks and Ancient Cities."
     }
 };
