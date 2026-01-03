@@ -691,5 +691,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sniffer_egg",
         themeColor: "§2" // green/dark green
+    },
+    {
+        id: "minecraft:emerald_ore",
+        name: "Emerald Ore",
+        category: "block",
+        icon: "textures/blocks/emerald_ore",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:deepslate_diamond_ore",
+        name: "Deepslate Diamond Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_diamond_ore",
+        themeColor: "§7" // gray/cyan
+    },
+    {
+        id: "minecraft:suspicious_gravel",
+        name: "Suspicious Gravel",
+        category: "block",
+        icon: "textures/blocks/suspicious_gravel",
+        themeColor: "§8" // dark gray/brown
     }
 ];
