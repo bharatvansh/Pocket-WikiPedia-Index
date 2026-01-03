@@ -404,5 +404,33 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_pufferfish.png",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Rabbit",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_rabbit.png",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:bat",
+        name: "Bat",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_bat.png",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:squid",
+        name: "Squid",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_squid.png",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:husk",
+        name: "Husk",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_husk.png",
+        themeColor: "§6"
     }
 ];

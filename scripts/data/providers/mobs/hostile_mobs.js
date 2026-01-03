@@ -68,6 +68,42 @@ export const hostileMobs = {
         ],
         description: "Zombies are common undead hostile mobs that spawn in dark areas throughout the Overworld. They burn in direct sunlight unless protected by a helmet or shade. Zombies attack by pursuing players and villagers, dealing melee damage. They can spawn with armor and weapons, and have a chance to drop useful items."
     },
+    "minecraft:husk": {
+        id: "minecraft:husk",
+        name: "Husk",
+        health: 20,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Desert"],
+            lightLevel: "0",
+            groupSize: "2-4"
+        },
+        behaviorTraits: [
+            "Desert variant of zombie that replaces 70% of zombies in desert biomes",
+            "Does not burn in sunlight unlike regular zombies",
+            "Inflicts Hunger effect for 7 seconds when attacking players",
+            "Can pick up items and wear armor like regular zombies",
+            "Can call nearby zombies for reinforcements when damaged",
+            "Breaks wooden doors on Hard difficulty",
+            "Baby husks are faster and do not burn in sunlight"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" },
+            { item: "Equipped items/armor", chance: "If picked up" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Husks are zombie variants that spawn exclusively in desert biomes. They function similarly to regular zombies but with key differences: they do not burn in sunlight and their attacks inflict the Hunger effect, depleting player food bars. Husks can break down wooden doors on Hard difficulty and call for reinforcements. In Bedrock Edition, they replace 70% of zombies in desert environments. Their immunity to sunlight makes them particularly dangerous during daytime when other undead mobs are neutralized by the sun."
+    },
     "minecraft:zoglin": {
         id: "minecraft:zoglin",
         name: "Zoglin",
