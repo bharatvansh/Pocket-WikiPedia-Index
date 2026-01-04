@@ -260,4 +260,25 @@ export const workstationBlocks = {
         },
         description: "A Composter is a functional block that converts various plant materials and food items into bone meal. When a player uses organic items on the composter, there is a chance it will fill up by one level; once it reaches level seven, the next use produces bone meal. It is crafted from seven wooden slabs and generates naturally in villages as the job site block for Farmers. Composters can also be interacted with by hoppers, allowing for automated bone meal production systems.",
     },
+    "minecraft:fletching_table": {
+        id: "minecraft:fletching_table",
+        name: "Fletching Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Fletching Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village fletcher houses"
+        },
+        description: "The Fletching Table is a workstation block that serves as the job site for Fletcher villagers. While it currently lacks a functional UI for player use, it is an essential part of a village's economy, allowing unemployed villagers to become Fletchers who trade arrows, bows, and flint. It is crafted using two pieces of flint and four wooden planks. In Bedrock Edition, like other workstation blocks, it can be used for decorative purposes due to its unique wood-and-tool texture. It is highly resistant to fire despite being made of wood."
+    },
 };
