@@ -183,5 +183,68 @@ export const vegetationBlocks = {
             yRange: "Mangrove Swamps (hanging from leaves)"
         },
         description: "Mangrove Propagules are the unique saplings of Mangrove trees, capable of growing both on land and underwater. They generate naturally hanging from Mangrove Leaves and can be harvested when they reach their final growth stage. Unlike other saplings, they have a distinct long shape and can be planted in mud, clay, and moss blocks. They are essential for cultivating Mangrove Swamps and obtaining mangrove wood in survival mode."
+    },
+    "minecraft:azalea": {
+        id: "minecraft:azalea",
+        name: "Azalea",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (on ceiling), Azalea biomes"
+        },
+        description: "Azalea is a flowering plant that grows in the Lush Caves biome, clinging to cave ceilings and forming part of the unique underground ecosystem. When placed in the Overworld, it can grow into Flowering Azalea Leaves when bone meal is applied. This small, delicate plant has vibrant green leaves and produces beautiful pink or purple flowers when matured. Azalea plants can be harvested using shears to preserve their structure, or broken by hand. They serve as an important component of cave decoration and can be used to create beautiful botanical displays in underground gardens."
+    },
+    "minecraft:flowering_azalea_leaves": {
+        id: "minecraft:flowering_azalea_leaves",
+        name: "Flowering Azalea Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Flowering Azalea Leaves"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves biome"
+        },
+        description: "Flowering Azalea Leaves are the mature form of Azalea plants, found naturally in the Lush Caves biome where they form thick, vibrant foliage with beautiful pink or purple flowers. These leaves can be harvested with shears using Silk Touch to preserve their decorative appearance. When bone meal is applied to regular Azalea plants, they can grow into this flowering variant. Flowering Azalea Leaves have a unique appearance combining the lush green leaves of traditional foliage with the decorative blossoms of azalea flowers. They are perfect for creating botanical gardens, floral displays, or adding vibrant color to underground constructions."
+    },
+    "minecraft:mangrove_roots": {
+        id: "minecraft:mangrove_roots",
+        name: "Mangrove Roots",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Roots"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamps"
+        },
+        description: "Mangrove Roots are the distinctive exposed roots that form the foundation of mangrove trees in Mangrove Swamp biomes. Unlike similar decorative blocks, these roots have a unique redstone-conducting property, allowing them to transmit redstone signals through their fibrous structure. This makes them valuable for creating hidden redstone circuits or underwater redstone mechanisms. Mangrove Roots can be harvested with any tool, with axes being the most efficient. They have a distinctive brown, fibrous appearance and can be used both for their redstone functionality and as decorative elements in swamp-themed builds or underground base construction."
     }
 };

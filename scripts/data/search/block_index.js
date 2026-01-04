@@ -133,6 +133,20 @@ export const blockIndex = [
         themeColor: "§d" // light purple
     },
     {
+        id: "minecraft:azalea",
+        name: "Azalea",
+        category: "block",
+        icon: "textures/blocks/azalea",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:flowering_azalea_leaves",
+        name: "Flowering Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/flowering_azalea_leaves",
+        themeColor: "§a" // green/pink
+    },
+    {
         id: "minecraft:glowstone",
         name: "Glowstone",
         category: "block",
@@ -908,6 +922,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mangrove_propagule",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:mangrove_roots",
+        name: "Mangrove Roots",
+        category: "block",
+        icon: "textures/blocks/mangrove_roots",
+        themeColor: "§6" // brown/earthy
     },
     {
         id: "minecraft:bell",
