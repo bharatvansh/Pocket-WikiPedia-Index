@@ -1097,5 +1097,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/tide_armor_trim_smithing_template",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:torchflower_seeds",
+        name: "Torchflower Seeds",
+        category: "item",
+        icon: "textures/items/torchflower_seeds",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:pitcher_pod",
+        name: "Pitcher Pod",
+        category: "item",
+        icon: "textures/items/pitcher_pod",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:music_disc_relic",
+        name: "Music Disc (Relic)",
+        category: "item",
+        icon: "textures/items/music_disc_relic",
+        themeColor: "§b" // aqua
     }
 ];

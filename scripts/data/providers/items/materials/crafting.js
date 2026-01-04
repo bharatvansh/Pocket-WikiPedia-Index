@@ -682,5 +682,55 @@ export const craftingMaterials = {
             "Compostable with 100% success rate in composter blocks"
         ],
         description: "Bone Meal is a versatile fertilizer and dye crafted from bones or bone blocks in Minecraft Bedrock Edition. As a fertilizer, it instantly grows most crops, accelerates sapling growth to trees, and generates flowers and tall grass on dirt and grass blocks. In underwater environments, it can create sea grass and coral when applied to appropriate blocks. Beyond agriculture, bone meal serves as the primary white dye, allowing players to color wool, terracotta, glass, and armor trims. It is also essential in numerous crafting recipes including white concrete powder, banner patterns, and firework stars. Bone meal provides 100% composting success, making it valuable for reducing waste and generating more bone meal."
+    },
+    "minecraft:torchflower_seeds": {
+        id: "minecraft:torchflower_seeds",
+        name: "Torchflower Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Torchflowers",
+            secondaryUse: "Breeding Sniffers and chickens, and taming parrots"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sniffers after they finish digging"]
+        },
+        specialNotes: [
+            "Has a 50% chance to drop as 1 item when a Sniffer finishes digging",
+            "Planted on farmland to create a torchflower crop that grows into a Torchflower",
+            "Used to breed Sniffers and chickens",
+            "Reduces remaining growth time of snifflets and chicks by 10% when fed",
+            "In Bedrock Edition, feeding a Sniffer heals it by 2 health points",
+            "Can be used to tame parrots",
+            "Composting in a composter has a 30% chance to raise the level by 1"
+        ],
+        description: "Torchflower Seeds are ancient seeds that Sniffers can dig up, allowing players to grow Torchflowers in survival. Plant them on farmland to start a torchflower crop, or feed them to Sniffers and chickens to breed them; in Bedrock Edition they can also tame parrots. Each seed has a 30% composting chance and feeding them reduces the remaining growth time of snifflets and chicks by 10%."
+    },
+    "minecraft:pitcher_pod": {
+        id: "minecraft:pitcher_pod",
+        name: "Pitcher Pod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Pitcher Plants",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sniffers after they finish digging"]
+        },
+        specialNotes: [
+            "Has a chance to drop as 1 item when a Sniffer finishes digging",
+            "Planted on farmland to grow into a two-block-tall Pitcher Plant",
+            "Pitcher Plants can be crafted into cyan dye",
+            "Used to breed chickens and reduce remaining chick growth time by 10%",
+            "Can be used to tame parrots",
+            "Composting in a composter has a 30% chance to raise the level by 1",
+            "Introduced in the 1.20 Trails & Tales update"
+        ],
+        description: "A Pitcher Pod is an ancient plant item that Sniffers can dig up and drop, letting players grow Pitcher Plants. Plant it on farmland to produce a tall Pitcher Plant, which can be turned into cyan dye for building palettes and decoration. In Bedrock Edition, pitcher pods can also be fed to chickens to breed them and can tame parrots, making them both decorative and practical."
     }
 };
