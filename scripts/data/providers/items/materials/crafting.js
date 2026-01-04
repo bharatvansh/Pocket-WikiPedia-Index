@@ -829,5 +829,29 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:wheat_seeds": {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting Wheat and breeding chickens",
+            secondaryUse: "Taming parrots and composting"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Breaking Grass or harvesting Wheat"]
+        },
+        specialNotes: [
+            "Obtained by breaking grass or harvesting mature wheat crops",
+            "Planted on farmland to grow wheat crops",
+            "Used to breed chickens and reduce chick growth time by 10%",
+            "Used to tame parrots (success chance varies)",
+            "Compostable with a 30% chance of raising the level",
+            "Essential for starting agricultural farms"
+        ],
+        description: "Wheat Seeds are the fundamental starting point for agriculture in Minecraft. They are easily obtained by breaking tall grass and can be planted on tilled farmland to grow wheat. Beyond farming, seeds are crucial for animal husbandry: they are the primary item used to breed chickens and can also be used to tame parrots found in jungle biomes. Their availability and utility make them one of the first and most important resources a player gathers in a new world."
     }
 };

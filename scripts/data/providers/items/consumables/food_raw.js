@@ -177,5 +177,61 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:beetroot": {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food and pig breeding",
+            secondaryUse: "Crafting Beetroot Soup and Red Dye"
+        },
+        food: {
+            hunger: 1,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from beetroot crops in villages"]
+        },
+        specialNotes: [
+            "Restores 1 hunger and 1.2 saturation",
+            "Used to breed pigs and lead them",
+            "Crafts Beetroot Soup (6 beetroots + 1 bowl)",
+            "Crafts Red Dye (1 beetroot)",
+            "Compostable with a 65% chance of raising the level",
+            "Villager farmers may buy beetroots for emeralds"
+        ],
+        description: "Beetroot is a vegetable crop found in village farms or grown from seeds. While it offers minimal hunger restoration on its own (restoring 1 hunger point), it serves as a key ingredient for crafting Beetroot Soup, which is a much more substantial food source. Beetroots are also used to breed pigs and can be crafted into Red Dye. Additionally, they are a tradeable commodity with Farmer villagers and a highly effective composting material, making them a useful crop for both economy and utility."
+    },
+    "minecraft:melon_slice": {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting Melon Seeds and Glistering Melon Slices"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Obtained by breaking Melon blocks"]
+        },
+        specialNotes: [
+            "Restores 2 hunger and 1.2 saturation",
+            "Breaking a melon block drops 3-7 slices (affected by Fortune)",
+            "Crafts Melon Seeds (1 slice -> 1 seed)",
+            "Crafts Glistering Melon Slice (1 slice + 8 gold nuggets)",
+            "Compostable with a 50% chance of raising the level",
+            "Used to craft Melon blocks (9 slices)"
+        ],
+        description: "A Melon Slice is a food item obtained by breaking a full Melon block found in jungles or grown from seeds. Each slice restores 2 hunger points and provides a modest saturation boost. While they can be eaten directly, their utility extends to crafting: they are the source of Melon Seeds for farming and can be combined with gold nuggets to create Glistering Melon Slices for brewing potions. Their abundance when harvesting melon blocks makes them a reliable, albeit basic, food source and a valuable composting material."
     }
 };

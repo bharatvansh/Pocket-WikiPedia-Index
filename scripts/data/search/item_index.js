@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        category: "item",
+        icon: "textures/items/beetroot",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        category: "item",
+        icon: "textures/items/seeds_wheat",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        category: "item",
+        icon: "textures/items/melon",
+        themeColor: "§a" // green
     }
 ];
