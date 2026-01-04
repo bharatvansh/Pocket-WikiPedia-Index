@@ -34,6 +34,50 @@ export const smithingTemplates = {
         ],
         description: "The Netherite Upgrade Smithing Template is an essential item for players looking to obtain the strongest gear in the game. It is required to upgrade Diamond armor, weapons, and tools into their Netherite counterparts at a Smithing Table. These templates are found exclusively in Bastion Remnants in the Nether, with a guaranteed spawn in Treasure Room chests. Because the template is consumed upon use, players are encouraged to duplicate it using seven diamonds and a block of Netherrack before using it, ensuring they always have a supply for future upgrades."
     },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests (25% chance).",
+            "Features a simple, sturdy pattern resembling a guard's uniform.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item found in Pillager Outposts. It allows players to apply the 'Sentry' pattern to their armor, which adds a sturdy, guard-like aesthetic. It has a relatively high drop chance of 25% in outpost chests compared to other trims. To ensure a steady supply, players can duplicate this template at a crafting table using seven diamonds and a block of cobblestone."
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Dune' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Sandstone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Sandstone", "1x Dune Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Desert Pyramid chests (14.3% chance).",
+            "Features a pattern inspired by desert monuments and ancient glyphs.",
+            "Can be duplicated using 7 Diamonds and 1 Sandstone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Dune Armor Trim Smithing Template is a decorative item discovered in Desert Pyramids. It grants the 'Dune' armor pattern, which features intricate designs reminiscent of ancient desert carvings. While it has a 14.3% chance to appear in pyramid chests, it can be easily duplicated once found using seven diamonds and a block of sandstone, allowing players to outfit their entire team with this desert-themed aesthetic."
+    },
     "minecraft:silence_armor_trim_smithing_template": {
         id: "minecraft:silence_armor_trim_smithing_template",
         name: "Silence Armor Trim Smithing Template",

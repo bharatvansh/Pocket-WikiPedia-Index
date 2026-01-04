@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        category: "item",
+        icon: "textures/items/record_13",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/dune_armor_trim_smithing_template",
+        themeColor: "§6" // gold
     }
 ];

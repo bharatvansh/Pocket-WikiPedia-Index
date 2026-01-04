@@ -10,6 +10,34 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const musicDiscs = {
+    "minecraft:music_disc_13": {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '13' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 1 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Obtained from Dungeon chests",
+                "Obtained from Ancient City chests",
+                "Obtained from Woodland Mansion chests",
+                "Dropped by Creepers killed by Skeletons"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "One of the original two music discs added to Minecraft",
+            "Features an unsettling, cave-themed ambient piece",
+            "Outputs a redstone signal strength of 1 when played in a Jukebox",
+            "Commonly found in Dungeons (19.4%) and Woodland Mansions (21.5%)"
+        ],
+        description: "Music Disc (13) is one of the original music discs added to Minecraft, composed by C418. It features an unsettling, ambient track consisting of cave sounds, metallic clinks, and wind, rather than a traditional melody. In Bedrock Edition, it can be found in Dungeons, Ancient Cities, and Woodland Mansions, or obtained as a drop when a Creeper is killed by a Skeleton. When placed in a Jukebox, it outputs a redstone comparator signal strength of 1, the lowest of all music discs."
+    },
     "minecraft:music_disc_creator": {
         id: "minecraft:music_disc_creator",
         name: "Music Disc (Creator)",
