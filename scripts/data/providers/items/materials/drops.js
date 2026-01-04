@@ -417,6 +417,31 @@ export const mobDrops = {
         ],
         description: "Leather is a versatile crafting material primarily obtained by hunting various animal mobs such as cows, horses, and hoglins. It serves as the base material for crafting leather armor, which can be dyed into millions of different colors. Beyond armor, leather is indispensable for creating books, which are required for enchantment tables and bookshelves. It is also used in the recipes for item frames, leads, and bundles, making it a fundamental resource throughout the game's progression."
     },
+    "minecraft:ink_sac": {
+        id: "minecraft:ink_sac",
+        name: "Ink Sac",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting black dye and dark prismarine",
+            secondaryUse: "Crafting Book and Quill and removing glow from signs"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Squids"]
+        },
+        specialNotes: [
+            "Dropped by Squids (1-3 upon death; increased by Looting)",
+            "Found in Stronghold storeroom chests (since 1.21.30)",
+            "Used to craft Black Dye and Dark Prismarine blocks",
+            "Required ingredient for crafting a Book and Quill",
+            "Can be used on a glowing sign to remove the glow effect",
+            "Wandering Traders occasionally sell ink sacs for 1 emerald",
+            "Primary source of black pigmentation for wool, leather, and glass"
+        ],
+        description: "An Ink Sac is a versatile dye and crafting item obtained primarily from Squids. In Bedrock Edition, it is used to produce Black Dye and is a key component in crafting Dark Prismarine and Books and Quills. Beyond its crafting utility, it can be applied to signs that have been treated with Glow Ink Sacs to remove the luminescent effect. Squids drop 1-3 sacs upon death, and they can also be found in Stronghold loot chests. Its role as the primary black pigment makes it essential for large-scale decoration and map-making projects."
+    },
     "minecraft:shulker_shell": {
         id: "minecraft:shulker_shell",
         name: "Shulker Shell",
