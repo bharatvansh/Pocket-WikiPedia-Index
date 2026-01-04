@@ -829,5 +829,77 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:archer_pottery_sherd": {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Archer motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Sand in Desert Pyramids",
+            "Has a 12.5% chance to be found when brushing suspicious sand in a Desert Pyramid",
+            "Used to craft a Decorated Pot with a bow and arrow design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Introduced as part of the Archaeology system in 1.20"
+        ],
+        description: "The Archer Pottery Sherd is a historical crafting item unearthed through archaeology. In Minecraft Bedrock Edition, players can find it by brushing suspicious sand blocks located inside Desert Pyramids. It features a depiction of a bow and arrow, symbolizing ancient archery. When crafted into a Decorated Pot, it displays this motif on the selected face, allowing players to create pots that tell stories of combat and hunting."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Sand in Desert Pyramids",
+            "Has a 12.5% chance to be found when brushing suspicious sand in a Desert Pyramid",
+            "Used to craft a Decorated Pot with a diamond design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Introduced as part of the Archaeology system in 1.20"
+        ],
+        description: "The Prize Pottery Sherd is an archaeological treasure that can be discovered in Minecraft Bedrock Edition. It is obtained by carefully brushing suspicious sand found within Desert Pyramids. The sherd depicts a shining diamond, representing wealth or a valuable reward. Players can use this sherd to craft Decorated Pots, adding a symbol of prosperity and success to their decorative builds."
+    },
+    "minecraft:skull_pottery_sherd": {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Skull motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Sand in Desert Pyramids",
+            "Has a 12.5% chance to be found when brushing suspicious sand in a Desert Pyramid",
+            "Used to craft a Decorated Pot with a skeleton skull design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Introduced as part of the Archaeology system in 1.20"
+        ],
+        description: "The Skull Pottery Sherd is a relic of the past obtained through the archaeology system. In Bedrock Edition, it is found by brushing suspicious sand blocks in Desert Pyramids. The sherd features a distinct skeleton skull design, hinting at danger or mortality. When incorporated into a Decorated Pot, it adds an ominous or warning aesthetic, perfect for builds that want to convey a sense of peril or ancient mystery."
     }
 };
