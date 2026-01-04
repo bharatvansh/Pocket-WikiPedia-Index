@@ -123,5 +123,28 @@ export const smithingTemplates = {
             "Features a wind-themed swirling pattern matching the Breeze"
         ],
         description: "The Flow Armor Trim is a rare decorative item found in Ominous Vaults within Trial Chambers (1.21). It features wind-inspired swirling patterns reminiscent of the Breeze mob. Unlike most trims, it is duplicated using a Breeze Rod and seven Diamonds. Players can obtain it with a 22.5% drop rate from Ominous Vaults, which require the Trial Omen effect to unlock. This template adds a unique, airy aesthetic to armor and serves as a prestigious reward for players who complete the chambers' most difficult combat challenges."
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+        id: "minecraft:tide_armor_trim_smithing_template",
+        name: "Tide Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Tide' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Prismarine blocks"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Prismarine", "1x Tide Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Dropped by Elder Guardians with a 20% chance upon death.",
+            "Found in Ocean Monuments; Elder Guardians do not respawn.",
+            "Features a wave-like pattern suitable for aquatic-themed armor.",
+            "Can be duplicated using 7 Diamonds and 1 Prismarine block.",
+            "Requires a material (e.g., Gold Ingot, Emerald) to determine the trim color."
+        ],
+        description: "The Tide Armor Trim Smithing Template is a decorative item that allows players to apply a unique aquatic-themed pattern to their armor. Unlike most smithing templates found in chests, the Tide template is a rare drop from Elder Guardians located in Ocean Monuments, with a 20% chance of dropping when the mob is defeated. Since Elder Guardians do not respawn, obtaining the template from its natural source is limited. However, once found, it can be duplicated using seven diamonds and a block of Prismarine, allowing players to apply the 'Tide' pattern to their entire armor set."
     }
 };

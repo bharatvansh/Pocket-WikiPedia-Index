@@ -125,5 +125,23 @@ export const musicDiscs = {
             "Duration is 2 minutes and 28 seconds"
         ],
         description: "'Pigstep' is a fan-favorite music disc composed by Lena Raine, added during the Nether Update. Unlike most other music discs, it cannot be obtained via Creeper drops and must be found within the dangerous halls of Bastion Remnants. The track stands out for its modern, rhythmic hip-hop style, which contrasts with the more ambient or classical tones of earlier discs. It provides a strong redstone signal of 13 when placed in a Jukebox, making it both a collector's prize and a useful tool for complex redstone machines."
+    },
+    "minecraft:music_disc_otherside": {
+        id: "minecraft:music_disc_otherside",
+        name: "Music Disc (Otherside)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing music in a Jukebox",
+            secondaryUse: "Decorative item for item frames"
+        },
+        specialNotes: [
+            "Composed by Lena Raine.",
+            "Found in Strongholds (2.4%), Ancient Cities (8.4%), and Dungeons (2.8%).",
+            "The track has an upbeat, cheerful melody that evolves into a nostalgic tune.",
+            "Emits a redstone signal of 14 when played in a Jukebox."
+        ],
+        description: "Music Disc 'Otherside' is a rare track composed by Lena Raine, introduced in the 1.18 Caves & Cliffs Part II update. It features an uplifting and catchy melody that transitions through various musical styles. Unlike most music discs which are dropped by creepers killed by skeletons, 'Otherside' is found exclusively in chests within Strongholds, Ancient Cities, and Dungeons. When played in a Jukebox, it provides both entertainment and a strong redstone signal of 14, making it useful for certain redstone contraptions."
     }
 };

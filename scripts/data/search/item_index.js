@@ -1076,5 +1076,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/sweet_berries",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:diamond_horse_armor",
+        name: "Diamond Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_diamond",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_otherside",
+        name: "Music Disc (Otherside)",
+        category: "item",
+        icon: "textures/items/music_disc_otherside",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:tide_armor_trim_smithing_template",
+        name: "Tide Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/tide_armor_trim_smithing_template",
+        themeColor: "§b"
     }
 ];

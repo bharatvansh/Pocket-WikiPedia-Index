@@ -374,6 +374,25 @@ export const miscItems = {
         ],
         description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
     },
+    "minecraft:diamond_horse_armor": {
+        id: "minecraft:diamond_horse_armor",
+        name: "Diamond Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed horse to provide high-level protection",
+            secondaryUse: "Decorative armor for horses"
+        },
+        specialNotes: [
+            "Provides 11 armor points (5.5 chestplates) to horses.",
+            "Can only be found in structure chests; cannot be crafted.",
+            "Cannot be enchanted or repaired.",
+            "Found in Dungeons, Desert Temples, End Cities, and more.",
+            "Equipped by opening the horse's inventory while riding or nearby."
+        ],
+        description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
+    },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
         name: "Item Frame",
