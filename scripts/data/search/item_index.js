@@ -210,7 +210,7 @@ export const itemIndex = [
         themeColor: "§f" // white
     },
     {
-        id: "minecraft:snout_banner_pattern",
+        id: "minecraft:piglin_banner_pattern",
         name: "Snout Banner Pattern",
         category: "item",
         icon: "textures/items/snout_banner_pattern",

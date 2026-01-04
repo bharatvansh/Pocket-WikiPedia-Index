@@ -90,20 +90,20 @@ export const bannerPatterns = {
             secondaryUse: "Creating ominous decorative banners with a skull design for intimidation or warning"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in dungeon, stronghold, and nether fortress chests"]
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Wither Skeleton Skull"]
         },
         specialNotes: [
-            "Found in dungeon chests (15.7% chance), stronghold library chests (38.8% chance), and nether fortress chests (17.6% chance)",
+            "Crafted using a shapeless recipe of 1 Paper and 1 Wither Skeleton Skull",
+            "Wither Skeleton Skulls can be obtained by defeating Wither Skeletons (2.5% drop chance, increased by Looting)",
             "The banner pattern item is not consumed when used in a Loom",
-            "Cannot be crafted and is not renewable once obtained",
-            "Uses any color dye to create a skull design on banners",
+            "Completely renewable since Paper and Wither Skeleton Skulls can be obtained indefinitely",
             "Perfect for creating warning signs, mob-themed builds, or intimidating base decorations"
         ],
-        description: "The Skull Banner Pattern is a decorative item used to apply a menacing skull design to banners. Found in various loot chests throughout the world including dungeons, strongholds, and nether fortresses, it is a highly sought-after collectible for players wanting to create ominous or warning decorations. The pattern is not consumed when applied in a Loom, making it a permanent unlock that can be reused for unlimited banner creation with a skull motif."
+        description: "The Skull Banner Pattern is a renewable decorative item used to apply a menacing skull design to banners. In Bedrock Edition, it is crafted using a shapeless recipe combining one Paper and one Wither Skeleton Skull. Since wither skeleton skulls can be obtained by farming Wither Skeletons and both materials are renewable, this banner pattern represents an accessible option for players wanting to create ominous or warning decorations without needing to explore dangerous loot chests."
     },
-    "minecraft:snout_banner_pattern": {
-        id: "minecraft:snout_banner_pattern",
+    "minecraft:piglin_banner_pattern": {
+        id: "minecraft:piglin_banner_pattern",
         name: "Snout Banner Pattern",
         maxStack: 1,
         durability: 0,
