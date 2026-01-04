@@ -281,4 +281,67 @@ export const workstationBlocks = {
         },
         description: "The Fletching Table is a workstation block that serves as the job site for Fletcher villagers. While it currently lacks a functional UI for player use, it is an essential part of a village's economy, allowing unemployed villagers to become Fletchers who trade arrows, bows, and flint. It is crafted using two pieces of flint and four wooden planks. In Bedrock Edition, like other workstation blocks, it can be used for decorative purposes due to its unique wood-and-tool texture. It is highly resistant to fire despite being made of wood."
     },
+    "minecraft:crafting_table": {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crafting Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages"
+        },
+        description: "The Crafting Table is one of the most fundamental blocks in Minecraft, essential for advanced crafting. It provides a 3x3 crafting grid, allowing players to create the majority of tools, weapons, armor, and blocks in the game. Crafted from four wooden planks, it is often the first functional block a player makes. Crafting tables can also be found naturally in village houses, witch huts, and igloos. While it is made of wood, it is not flammable in Bedrock Edition."
+    },
+    "minecraft:furnace": {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 13,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Furnace"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Ancient Cities"
+        },
+        description: "A Furnace is a utility block used for smelting ores, cooking food, and processing various materials. It is crafted from eight cobblestone, blackstone, or cobbled deepslate blocks. Furnaces require fuel to operate and can smelt almost any smeltable item. When active, it emits a light level of 13. It can be found naturally in village weaponsmith houses, igloos, and ancient cities."
+    },
+    "minecraft:enchanting_table": {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        hardness: 5.0,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 7,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Enchanting Table"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "An Enchanting Table is a block that allows players to spend their experience points and lapis lazuli to enchant tools, weapons, armor, and books. It is crafted from two diamonds, four obsidian, and one book. The available enchantment levels can be increased by placing bookshelves around the table, with a maximum level of 30 requiring 15 bookshelves. It has the same high blast resistance as obsidian and emits a light level of 7. The book on top of the table opens and faces the nearest player."
+    },
 };

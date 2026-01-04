@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        category: "block",
+        icon: "textures/blocks/crafting_table_front",
+        themeColor: "§6" // Wood color
+    },
+    {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        category: "block",
+        icon: "textures/blocks/furnace_front_off",
+        themeColor: "§7" // Stone color
+    },
+    {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        category: "block",
+        icon: "textures/blocks/enchanting_table_side",
+        themeColor: "§5" // Purple
     }
 ];
