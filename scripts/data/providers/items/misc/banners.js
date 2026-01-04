@@ -13,7 +13,7 @@ export const bannerPatterns = {
     "minecraft:creeper_banner_pattern": {
         id: "minecraft:creeper_banner_pattern",
         name: "Creeper Banner Pattern",
-        maxStack: 1,
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
@@ -36,7 +36,7 @@ export const bannerPatterns = {
     "minecraft:flow_banner_pattern": {
         id: "minecraft:flow_banner_pattern",
         name: "Flow Banner Pattern",
-        maxStack: 1,
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
@@ -82,7 +82,7 @@ export const bannerPatterns = {
     "minecraft:skull_banner_pattern": {
         id: "minecraft:skull_banner_pattern",
         name: "Skull Banner Pattern",
-        maxStack: 1,
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
@@ -105,7 +105,7 @@ export const bannerPatterns = {
     "minecraft:piglin_banner_pattern": {
         id: "minecraft:piglin_banner_pattern",
         name: "Snout Banner Pattern",
-        maxStack: 1,
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
