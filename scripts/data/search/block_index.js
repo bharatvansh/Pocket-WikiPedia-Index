@@ -77,6 +77,13 @@ export const blockIndex = [
         themeColor: "§6" // yellow/tan
     },
     {
+        id: "minecraft:end_stone_bricks",
+        name: "End Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/end_bricks",
+        themeColor: "§6" // yellow/tan
+    },
+    {
         id: "minecraft:copper_ore",
         name: "Copper Ore",
         category: "block",
@@ -180,6 +187,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/prismarine",
         themeColor: "§b" // aqua/teal
+    },
+    {
+        id: "minecraft:purpur_block",
+        name: "Purpur Block",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§8" // light purple/pink
     },
     {
         id: "minecraft:trial_spawner",
@@ -810,6 +824,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_bricks",
         themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:nether_gold_ore",
+        name: "Nether Gold Ore",
+        category: "block",
+        icon: "textures/blocks/nether_gold_ore",
+        themeColor: "§6" // gold
     },
     {
         id: "minecraft:quartz_block",
