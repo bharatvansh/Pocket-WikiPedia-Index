@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        category: "item",
+        icon: "textures/items/music_disc_13",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        category: "item",
+        icon: "textures/items/music_disc_blocks",
+        themeColor: "§b"
     }
 ];

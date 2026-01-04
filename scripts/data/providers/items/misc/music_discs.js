@@ -10,6 +10,81 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const musicDiscs = {
+    "minecraft:music_disc_13": {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '13' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 1 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Dungeon, Ancient City, and Woodland Mansion chests",
+                "Dropped by Creepers killed by Skeletons"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Unsettling ambient sounds with metallic clinks",
+            "Goes silent for 13 seconds at the 1:30 mark",
+            "Found in Dungeon and Woodland Mansion chests",
+            "Redstone signal strength: 1"
+        ],
+        description: "'13' is a music disc composed by C418, known for its unsettling and eerie ambient track. Unlike the melodic tunes of most other discs, this track features a series of metallic clicks, cave-like winds, and reverb-heavy sounds that create a mysterious atmosphere. In Minecraft Bedrock Edition, it is one of the few discs that can be found naturally in loot chests within Dungeons, Woodland Mansions, and Ancient Cities. When placed in a Jukebox, it outputs a Comparator signal strength of 1."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Dungeon, Ancient City, and Woodland Mansion chests",
+                "Dropped by Creepers killed by Skeletons"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Light, synth-based melody",
+            "Found in Dungeon and Woodland Mansion chests",
+            "Redstone signal strength: 2",
+            "Great for time-lapses"
+        ],
+        description: "'Cat' is a lighthearted and melodic music disc composed by C418. It is one of the most recognizable tracks in Minecraft, featuring a catchy synthesizer melody that loops throughout the song. Along with '13', it is one of the two original music discs that can be discovered in Dungeon and Woodland Mansion chests. Players can also obtain it by luring a Skeleton to shoot and kill a Creeper. In redstone contraptions, playing this disc in a Jukebox produces a signal strength of 2."
+    },
+    "minecraft:music_disc_blocks": {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Blocks' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 3 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained exclusively when a Creeper is killed by a Skeleton"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Upbeat, percussive track with a waltz rhythm",
+            "Obtained exclusively from Creepers killed by Skeletons",
+            "Redstone signal strength: 3",
+            "Not found in any loot chests"
+        ],
+        description: "'Blocks' is an upbeat music disc composed by C418, characterized by its shuffling, percussive rhythm and catchy melody. Unlike '13' or 'Cat', this disc cannot be found in loot chests and is obtained exclusively when a Creeper is killed by a Skeleton's arrow. This mechanic encourages players to orchestrate mob interactions to complete their collection. When used in a Jukebox, 'Blocks' outputs a Comparator signal strength of 3."
+    },
     "minecraft:music_disc_creator": {
         id: "minecraft:music_disc_creator",
         name: "Music Disc (Creator)",
