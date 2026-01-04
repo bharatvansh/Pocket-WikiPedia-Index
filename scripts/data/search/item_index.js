@@ -49,6 +49,13 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "item",
+        icon: "textures/items/tripwire_hook",
+        themeColor: "§7" // gray/iron
+    },
+    {
         id: "minecraft:shield",
         name: "Shield",
         category: "item",
@@ -362,6 +369,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/nautilus_shell",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:nether_wart",
+        name: "Nether Wart",
+        category: "item",
+        icon: "textures/items/nether_wart",
+        themeColor: "§3" // red/brown
     },
     {
         id: "minecraft:prismarine_shard",
@@ -719,6 +733,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_nugget",
         themeColor: "§e" // gold/yellow
+    },
+    {
+        id: "minecraft:iron_nugget",
+        name: "Iron Nugget",
+        category: "item",
+        icon: "textures/items/iron_nugget",
+        themeColor: "§f" // gray/silver
     },
     {
         id: "minecraft:ender_eye",
