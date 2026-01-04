@@ -117,5 +117,68 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Note Block is a musical redstone component that produces notes when activated by redstone or right-clicked. The instrument sound depends on the block beneath it, with 16 instruments available including harp, bass, snare, clicks, guitar, flute, bell, chime, xylophone, iron xylophone, cow bell, didgeridoo, bit, banjo, and pling. Each note block can be tuned through 25 pitches by right-clicking. Placing a mob head on top changes the sound to a unique bass tone, making note blocks essential for creating music and sound effects in Bedrock Edition."
+    },
+    "minecraft:redstone_lamp": {
+        id: "minecraft:redstone_lamp",
+        name: "Redstone Lamp",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Lamp"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Redstone Lamp is a block that produces light when activated by a redstone signal. When powered, it has a luminance of 15, matching Glowstone. It is crafted using Glowstone and Redstone Dust. Unlike Glowstone, it can be switched on and off, making it ideal for controlled lighting systems. In Bedrock Edition, it generates naturally in Ancient Cities."
+    },
+    "minecraft:daylight_detector": {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Daylight Detector is a redstone component that outputs a signal strength proportional to the strength of sunlight. It can be inverted into a Night Sensor by interacting with it, causing it to emit a signal based on darkness instead. It is useful for creating automatic lighting systems and time-based mechanisms. It is crafted from Glass, Nether Quartz, and Wooden Slabs."
+    },
+    "minecraft:hopper": {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        hardness: 3,
+        blastResistance: 4.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hopper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Hopper is a functional block used to catch item entities and transfer items into and out of containers. It has five inventory slots and can pull items from containers above it or collect floating items, pushing them into the container it faces. Hoppers can be locked with a redstone signal to stop item transfer. In Bedrock Edition, they have specific transfer cooldowns and interaction mechanics."
     }
 };
