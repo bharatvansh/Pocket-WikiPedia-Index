@@ -26,10 +26,10 @@ export const bannerPatterns = {
         },
         specialNotes: [
             "Crafted using a shapeless recipe of 1 Paper and 1 Creeper Head",
-            "Creeper Heads can be obtained by placing a Creeper under lightning to create a Charged Creeper, then detonating it",
+            "Creeper Heads are obtained when a Charged Creeper's explosion kills another Creeper",
+            "In Bedrock Edition, every Creeper killed by the same Charged Creeper blast will drop a head",
             "The banner pattern item is not consumed when used in a Loom",
-            "Completely renewable since Paper and Creeper Heads can be obtained indefinitely",
-            "Essential for creeper-themed builds and base decoration"
+            "Completely renewable since Paper and Creeper Heads can be obtained indefinitely"
         ],
         description: "The Creeper Banner Pattern is a renewable decorative item used to apply a distinctive creeper face design to banners. In Bedrock Edition, it is crafted using a shapeless recipe combining one Paper and one Creeper Head. Since creeper heads can be obtained by creating Charged Creepers and both materials are renewable, this banner pattern represents an accessible option for players wanting to create menacing or mob-themed decorations without needing to explore dangerous loot chests."
     },
