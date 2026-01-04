@@ -111,13 +111,13 @@ export const rawFood = {
             ingredients: ["Dropped by Spiders and Cave Spiders", "Witch drops"]
         },
         specialNotes: [
-            "Restores 2 hunger but inflicts Poison for 5 seconds",
-            "Dropped by spiders (0-2) and cave spiders (0-1) when killed",
-            "33% drop chance from witches when killed by a player",
+            "Restores 2 hunger but inflicts Poison for 4 seconds in Bedrock Edition",
+            "Spiders drop 0-1 Spider Eyes (33% chance), cave spiders drop 0-1 when killed",
+            "Witches drop 0-6 Spider Eyes from their loot pool when killed",
             "Used to craft Fermented Spider Eye with brown mushroom and sugar",
             "Brewing ingredient for Potion of Poison (Awkward Potion + Spider Eye)",
-            "Can be composted with a 30% chance of raising compost level"
+            "Cannot be composted (only plant-based items are compostable)"
         ],
-        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflict the Poison effect for 5 seconds, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
+        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflict the Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
     }
 };
