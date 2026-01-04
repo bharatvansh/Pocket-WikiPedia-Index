@@ -657,5 +657,30 @@ export const craftingMaterials = {
             "Essential for all redstone contraptions and automation systems"
         ],
         description: "Redstone Dust is the fundamental material for all redstone contraptions and electrical systems in Minecraft. Mined from redstone ore found deep underground, it serves as both a placeable wire for transmitting power and a crafting ingredient for numerous redstone components. When placed on blocks, it forms circuits that can transmit signals up to 15 blocks, powering mechanisms like pistons, doors, and dispensers. Redstone is also essential for crafting clocks, compasses, and advanced redstone devices, making it crucial for automation and complex builds."
+    },
+    "minecraft:bone_meal": {
+        id: "minecraft:bone_meal",
+        name: "Bone Meal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fertilizing crops and accelerating plant growth",
+            secondaryUse: "Dyeing items white and crafting recipes"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Bone = 3 Bone Meal", "1 Bone Block = 9 Bone Meal"]
+        },
+        specialNotes: [
+            "Crafted from bones or bone blocks in any crafting grid",
+            "Fertilizes most crops, saplings, and flowers instantly",
+            "Creates tall grass, flowers, and sea grass on appropriate blocks",
+            "Dyes wool, terracotta, and other items white",
+            "Required for crafting white concrete powder",
+            "Used in banner patterns and firework star recipes",
+            "Compostable with 100% success rate in composter blocks"
+        ],
+        description: "Bone Meal is a versatile fertilizer and dye crafted from bones or bone blocks in Minecraft Bedrock Edition. As a fertilizer, it instantly grows most crops, accelerates sapling growth to trees, and generates flowers and tall grass on dirt and grass blocks. In underwater environments, it can create sea grass and coral when applied to appropriate blocks. Beyond agriculture, bone meal serves as the primary white dye, allowing players to color wool, terracotta, glass, and armor trims. It is also essential in numerous crafting recipes including white concrete powder, banner patterns, and firework stars. Bone meal provides 100% composting success, making it valuable for reducing waste and generating more bone meal."
     }
 };
