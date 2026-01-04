@@ -200,5 +200,68 @@ export const interactiveBlocks = {
             yRange: "Crafted from 8 planks and 1 diamond"
         },
         description: "A Jukebox is an interactive block that plays music discs when one is inserted by right-clicking or through hoppers and droppers. While playing, it emits note particles and a redstone signal that can power adjacent redstone components. The hardness was increased from 0.8 to 2.0 and blast resistance from 0.8 to 6.0 in update 1.20.30. Tamed parrots within a 3-block radius and allays within a 10-block radius dance when music is playing. Jukeboxes are essential for ambiance and can be used in redstone contraptions, making them both decorative and functional in Bedrock Edition."
+    },
+    "minecraft:lantern": {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lantern"],
+        generation: {
+            dimension: "Overworld (Nether Bastions)",
+            yRange: "Structures"
+        },
+        description: "A Lantern is a light source block that emits a light level of 15, brighter than torches. It can be placed on blocks or hung from the bottom of blocks. Lanterns generate naturally in snowy tundra villages and bastion remnants. They are crafted using 8 iron nuggets surrounding a torch."
+    },
+    "minecraft:soul_lantern": {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Lantern"],
+        generation: {
+            dimension: "Overworld (Ancient Cities)",
+            yRange: "Structures"
+        },
+        description: "A Soul Lantern is a variant of the lantern that emits a dimmer, turquoise light level of 10. It is crafted using 8 iron nuggets surrounding a soul torch. Unlike regular lanterns, soul lanterns repel Piglins, making them useful for safe travel in the Nether. They can be found naturally in Ancient Cities."
+    },
+    "minecraft:campfire": {
+        id: "minecraft:campfire",
+        name: "Campfire",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Charcoal (4)"],
+        generation: {
+            dimension: "Overworld (Villages, Ancient Cities)",
+            yRange: "Structures"
+        },
+        description: "A Campfire is a versatile block used for lighting, cooking food, and smoke signals. It emits a light level of 15 when lit. Up to 4 raw food items can be placed on it to cook simultaneously without fuel. Smoke from a campfire floats up 10 blocks, or 24 blocks if a hay bale is placed underneath. In Bedrock Edition, breaking it drops 4 charcoal, unless mined with Silk Touch to obtain the campfire itself."
     }
 };

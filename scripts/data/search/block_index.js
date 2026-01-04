@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        category: "block",
+        icon: "textures/blocks/lantern",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        category: "block",
+        icon: "textures/blocks/soul_lantern",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:campfire",
+        name: "Campfire",
+        category: "block",
+        icon: "textures/blocks/campfire_log",
+        themeColor: "§6" // gold/orange
     }
 ];
