@@ -947,5 +947,36 @@ export const hostileMobs = {
             { item: "Experience", chance: "5" }
         ],
         description: "Silverfish are small, bug-like hostile mobs often found hiding in infested blocks within strongholds and mountain biomes. They are the smallest mobs in the game, making them hard to target. When a silverfish is attacked and not killed instantly, it summons other silverfish from nearby infested blocks to swarm the player. While they deal low individual damage, their ability to call reinforcements can quickly overwhelm an unprepared explorer in the narrow corridors of a stronghold."
+    },
+    "minecraft:endermite": {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        health: 8,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.30
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Any biome when ender pearl is thrown"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Spawns temporarily when player throws an ender pearl",
+            "Attacks players within 16 blocks by biting",
+            "Becomes hostile toward any mob that attacks it",
+            "Endermen are naturally hostile toward endermites and will attack them on sight",
+            "Despawns after 2 minutes if not killed, unless named with a name tag",
+            "Smallest hostile mob in the game with a very small hitbox",
+            "Can trigger the Monster Hunter advancement when killed"
+        ],
+        drops: [
+            { item: "Experience", chance: "3" }
+        ],
+        description: "Endermites are the smallest hostile mobs in Minecraft, spawning temporarily when players throw ender pearls. These tiny purple creatures attack by biting players within a 16-block range and become hostile toward any mob that damages them. Despite their small size, endermites play a crucial role in the ecosystem as they are the natural enemies of endermen, who will aggressively attack and kill any endermite they encounter. They despawn after 2 minutes unless named with a name tag, making them a rare but noteworthy sight in the End dimension."
     }
 };

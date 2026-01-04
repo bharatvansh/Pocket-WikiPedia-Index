@@ -709,5 +709,71 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Squid are passive aquatic mobs found in all ocean biomes, as well as river and frozen river biomes. They spawn in groups of 2 to 4 in oceans and exactly 2 in rivers. Squid swim peacefully and do not interact with players unless attacked, at which point they release a cloud of ink as a defense mechanism. They cannot be bred, and babies only spawn naturally. Occasionally, squid may beach themselves on river banks or ocean shores and suffocate. They drop ink sacs when killed, which are used for crafting black dye and making books."
+    },
+    "minecraft:horse": {
+        id: "minecraft:horse",
+        name: "Horse",
+        health: 22,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.225
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna", "Windswept Savanna", "Savanna Plateau", "Sunflower Plains"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Rideable passive mob that can be tamed and equipped with saddles and armor",
+            "Spawns in herds with the same color but different markings",
+            "Can be bred using golden apples or golden carrots",
+            "20% of spawned horses are foals that take 20 minutes to mature",
+            "Has customizable stats including health (15-30), speed, and jump height",
+            "Cannot be bred with donkeys to produce mules (use horse + donkey instead)",
+            "Can be equipped with saddles for riding and various armor types for protection",
+            "Safe fall distance of 7 blocks (much higher than most mobs)"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Raw Beef (steak if cooked)", chance: "1-3 (when killed)" }
+        ],
+        description: "Horses are versatile rideable passive mobs that spawn naturally in plains, savanna, and related biomes. They are essential for fast transportation in Minecraft, with variable stats including health (15-30), movement speed, and jumping ability. Wild horses can be tamed using a saddle and provide the fastest land-based transportation in the game. They spawn in herds of 2-6 with matching colors but varying markings. Breeding horses with golden apples or carrots allows players to create offspring with potentially better stats. Horses can be equipped with armor and saddles, making them both practical and stylish mounts for long-distance travel and exploration."
+    },
+    "minecraft:mule": {
+        id: "minecraft:mule",
+        name: "Mule",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.225
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Cannot spawn naturally"],
+            lightLevel: "N/A",
+            groupSize: "N/A"
+        },
+        behaviorTraits: [
+            "Hybrid passive mob bred from horse and donkey parents",
+            "Cannot breed with other mules or produce offspring",
+            "Has unique inventory with 15 slots for transporting items",
+            "Tamed with saddles for riding, like horses and donkeys",
+            "Retains the speed of its horse parent and the patience of its donkey parent",
+            "20% of mule spawn eggs produce foals instead of adults",
+            "Safe fall distance of 7 blocks and takes half normal fall damage",
+            "Slowly regenerates health over time"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Raw Mutton (cooked mutton if killed by fire)", chance: "1-4 (when killed)" }
+        ],
+        description: "Mules are sterile hybrid passive mobs created by breeding a horse with a donkey, inheriting the best traits from both parents. They combine the speed and strength of horses with the patience and carrying capacity of donkeys. Unlike horses, mules cannot breed with other mules, making them unique hybrid creatures that must be created through specific breeding combinations. They have an expanded inventory system with 15 slots, making them excellent pack animals for long journeys and storage. Mules are slower than horses but more patient, making them ideal for transportation of goods and materials across vast distances. Their unique hybrid nature and practical inventory system make them invaluable for players who need both speed and storage capacity."
     }
 };
