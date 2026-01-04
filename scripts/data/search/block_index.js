@@ -1013,5 +1013,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tinted_glass",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:bookshelf",
+        name: "Bookshelf",
+        category: "block",
+        icon: "textures/blocks/bookshelf",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:note_block",
+        name: "Note Block",
+        category: "block",
+        icon: "textures/blocks/noteblock",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:jukebox",
+        name: "Jukebox",
+        category: "block",
+        icon: "textures/blocks/jukebox_top",
+        themeColor: "§6" // brown/wood
     }
 ];
