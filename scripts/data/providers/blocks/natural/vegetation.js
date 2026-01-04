@@ -267,5 +267,47 @@ export const vegetationBlocks = {
             yRange: "Lush Caves"
         },
         description: "Big Dripleaf is a plant found in Lush Caves. It can be used as a temporary platform; if an entity stands on it for too long, the leaf tilts and the entity falls through. It can be grown larger using bone meal and its tilting behavior can be prevented with a redstone signal."
+    },
+    "minecraft:pitcher_plant": {
+        id: "minecraft:pitcher_plant",
+        name: "Pitcher Plant",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pitcher Plant"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Pitcher Pods (Sniffer drop)"
+        },
+        description: "The Pitcher Plant is a large, ancient flower that grows from Pitcher Pods, which are sniffed up by Sniffers. When fully grown, it stands two blocks tall visually but occupies a single block space. It can be harvested by hand or with any tool. In addition to its decorative value, it can be crafted into two Cyan Dye. It represents a piece of the ancient flora reintroduced to the Overworld."
+    },
+    "minecraft:torchflower": {
+        id: "minecraft:torchflower",
+        name: "Torchflower",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Torchflower"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Torchflower Seeds (Sniffer drop)"
+        },
+        description: "The Torchflower is an ancient flower grown from Torchflower Seeds, which are discovered by Sniffers. Despite its glowing appearance and name, it does not emit actual light. It can be placed on farmland to grow or on grass/dirt as a decorative plant. The flower can be crafted into Orange Dye or used in Suspicious Stew to grant Night Vision. It adds a vibrant touch of ancient history to gardens."
     }
 };

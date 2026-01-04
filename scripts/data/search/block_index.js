@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo_mosaic",
+        name: "Bamboo Mosaic",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:pitcher_plant",
+        name: "Pitcher Plant",
+        category: "block",
+        icon: "textures/blocks/pitcher_plant",
+        themeColor: "§b" // aqua/cyan
+    },
+    {
+        id: "minecraft:torchflower",
+        name: "Torchflower",
+        category: "block",
+        icon: "textures/blocks/torchflower",
+        themeColor: "§6" // orange
     }
 ];
