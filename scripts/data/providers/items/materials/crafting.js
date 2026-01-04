@@ -535,6 +535,30 @@ export const craftingMaterials = {
         ],
         description: "Nether Brick is a crafting material produced by smelting Netherrack in a furnace. It serves as the fundamental building block for all Nether-themed brick structures, allowing players to craft Nether Brick blocks, fences, stairs, and slabs. These bricks are essential for constructing blast-resistant structures or recreating the dark, imposing aesthetic of Nether Fortresses. Because Netherrack is incredibly abundant in the Nether, Nether Bricks are a highly accessible and renewable building resource for ambitious architects."
     },
+    "minecraft:resin_brick": {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Resin Bricks (blocks), Stairs, Slabs, and Walls",
+            secondaryUse: "Decorative building material"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Resin Clump", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting Resin Clumps in a furnace, smoker, or campfire",
+            "Added in Minecraft Bedrock Edition 1.21.50 (Pale Garden content)",
+            "Used to craft the Resin Bricks block in a 2x2 grid",
+            "Has a distinct orange and red aesthetic matching the Pale Garden",
+            "Resin Bricks can be further crafted into stairs, slabs, and walls",
+            "Smelting one Resin Clump yields one Resin Brick"
+        ],
+        description: "Resin Bricks are refined crafting materials introduced in Minecraft Bedrock Edition 1.21.50 as part of the Pale Garden update. They are obtained by smelting Resin Clumps, which are harvested from Creaking Hearts. These bricks serve as the foundation for a new set of vibrant orange building blocks, including Resin Bricks, stairs, slabs, and walls. Their unique color palette provides a striking contrast to traditional building materials, allowing for highly expressive and atmospheric constructions within the game's latest biome content."
+    },
     "minecraft:coal": {
         id: "minecraft:coal",
         name: "Coal",
