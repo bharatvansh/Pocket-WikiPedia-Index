@@ -32,6 +32,27 @@ export const brickBlocks = {
         },
         description: "Sandstone is a solid block related to sand that generates naturally in deserts and beaches below layers of sand. It comes in two color variants: regular sandstone (yellow-tan) and red sandstone (reddish-orange). Sandstone requires a wooden pickaxe or better to mine efficiently, dropping itself when broken. It has three decorative variants: chiseled sandstone with hieroglyphic patterns, cut sandstone with a smoother texture, and smooth sandstone made by smelting regular sandstone. Sandstone is commonly used for desert-themed builds and offers good blast resistance despite its relatively low hardness."
     },
+    "minecraft:quartz_bricks": {
+        id: "minecraft:quartz_bricks",
+        name: "Quartz Bricks",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Quartz Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Quartz Bricks are a decorative building block crafted from four blocks of quartz in a 2x2 grid. They feature a polished, white brick texture that offers a cleaner and more structured look compared to standard quartz blocks. With a hardness and blast resistance of 0.8, they share the same physical properties as other quartz variants, being relatively fragile against explosions. They are widely used in modern and classical builds for pillars, flooring, and walls where a refined white aesthetic is desired."
+    },
     "minecraft:mud_bricks": {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",

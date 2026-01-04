@@ -33,6 +33,48 @@ export const netherBlocks = {
         },
         description: "Nether Bricks are the primary building blocks of Nether fortresses, massive structures that generate in the Nether dimension. These dark reddish-brown bricks are crafted from four nether brick items, which are smelted from netherrack. Nether bricks are fire-resistant and immune to ghast fireballs, making them excellent for defensive structures. They can be crafted into stairs, slabs, walls, fences, and other decorative variants. Nether bricks are not affected by wither or ender dragon attacks, providing durable construction in hostile dimensions."
     },
+    "minecraft:red_nether_brick": {
+        id: "minecraft:red_nether_brick",
+        name: "Red Nether Brick",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Brick"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "Red Nether Brick is a decorative variant of Nether bricks with a distinct crimson hue. It is crafted by combining two Nether bricks and two Nether warts in a 2x2 grid. Sharing the same hardness and blast resistance as standard Nether bricks, it provides a fire-resistant building material suitable for Nether structures. Unlike standard Nether bricks, Red Nether bricks do not generate naturally in Nether Fortresses and must be crafted by players. They serve purely decorative purposes, offering a brighter, redder alternative to the dark maroon of standard Nether bricks."
+    },
+    "minecraft:warped_wart_block": {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Wart Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forests (Y 0-128)"
+        },
+        description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes, forming the foliage of huge warped fungi. It has a vibrant cyan color and a texture similar to nether wart blocks but in blue-green tones. These blocks can be mined quickly with a hoe or by hand. They are renewable by growing huge warped fungi using bone meal on warped nylium. Unlike nether wart, warped wart blocks cannot be used for brewing or crafting, serving primarily as a unique building material for adding alien, fungal aesthetics to builds."
+    },
     "minecraft:quartz_block": {
         id: "minecraft:quartz_block",
         name: "Quartz Block",

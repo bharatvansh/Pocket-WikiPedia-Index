@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:quartz_bricks",
+        name: "Quartz Bricks",
+        category: "block",
+        icon: "textures/blocks/quartz_bricks",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:red_nether_brick",
+        name: "Red Nether Brick",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        category: "block",
+        icon: "textures/blocks/warped_wart_block",
+        themeColor: "§b" // aqua
     }
 ];
