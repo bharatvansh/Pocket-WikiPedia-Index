@@ -137,5 +137,47 @@ export const interactiveBlocks = {
             yRange: "Ocean Monuments"
         },
         description: "A Sponge is a functional block capable of absorbing water. When placed next to water, it instantly absorbs all water source blocks and flowing water within a 7-block taxicab distance, up to a maximum of 65 blocks, and becomes a Wet Sponge. This makes it an essential tool for clearing out underwater structures or draining ponds. Once wet, it can no longer absorb water until it is dried by smelting it in a furnace or placing it in the Nether, where it instantly evaporates its stored water."
+    },
+    "minecraft:ominous_vault": {
+        id: "minecraft:ominous_vault",
+        name: "Ominous Vault",
+        hardness: 50,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 6,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-40 to -20"
+        },
+        description: "An ominous vault is an enhanced version of the vault block introduced in Minecraft 1.21, found within Trial Chambers. It requires an ominous trial key obtained during ominous events to unlock. When opened, it provides superior loot compared to regular vaults, including enchanted equipment with higher enchantment levels, better armor trims, and the coveted heavy core. Ominous vaults have a distinctive ominous appearance and emit particles when active."
+    },
+    "minecraft:soul_lantern": {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 10,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Soul Lantern"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "A soul lantern is a Nether variant of the lantern crafted from soul torches and iron nuggets. It emits a ghostly blue flame with light level 10 and features a unique property: it repels piglins within a 7-block radius, making them 7% less likely to attack players. Unlike regular lanterns, soul lanterns have a distinctive blue appearance and can be found naturally in bastion remnants. This makes them invaluable for building safe zones in Nether fortifications and creating atmospheric lighting with functional benefits."
     }
 };
