@@ -954,14 +954,14 @@ export const hostileMobs = {
         health: 16,
         stats: {
             attackDamage: 6,
-            movementSpeed: 0.2
+            movementSpeed: "0.6-0.75"
         },
         classification: {
             type: "Hostile",
             undead: false
         },
         spawning: {
-            biomes: ["Basalt Deltas", "Nether Wastes", "Bastion Remnants"],
+            biomes: ["Basalt Deltas", "Nether Wastes", "Bastion Remnants", "Nether Fortress"],
             lightLevel: "Any",
             groupSize: "1-4"
         },
@@ -970,7 +970,7 @@ export const hostileMobs = {
             "Splits into 2-4 smaller versions when a large or medium cube is killed",
             "Completely immune to fire, lava, and fall damage",
             "Big and medium magma cubes can damage players by touch or jumping",
-            "Small magma cubes deal damage in Bedrock Edition (unlike Java Slimes)",
+            "Small magma cubes deal damage (unlike small Slimes)",
             "Able to jump over obstacles and swim in lava with ease",
             "Attack speed and jump height are higher than regular Slimes"
         ],
@@ -978,7 +978,7 @@ export const hostileMobs = {
             { item: "Magma Cream", chance: "0-1 (from Big/Medium cubes)" },
             { item: "Experience", chance: "1-4 (varies by size)" }
         ],
-        description: "Magma Cubes are hostile mobs found in the Nether, acting as the fire-resistant counterparts to Overworld slimes. They move in a series of leaps, stretching vertically to reveal their glowing interior. When defeated, larger cubes split into several smaller ones. Unlike Java Edition slimes, even the smallest magma cubes in Bedrock Edition can deal damage to players. They are the primary source of magma cream, a vital ingredient for brewing potions of Fire Resistance."
+        description: "Magma Cubes are hostile mobs found in the Nether, acting as the fire-resistant counterparts to Overworld slimes. They move in a series of leaps, stretching vertically to reveal their glowing interior. When defeated, larger cubes split into several smaller ones. Unlike small slimes, even the smallest magma cubes deal damage to players. They are the primary source of magma cream, a vital ingredient for brewing potions of Fire Resistance."
     },
     "minecraft:cave_spider": {
         id: "minecraft:cave_spider",
