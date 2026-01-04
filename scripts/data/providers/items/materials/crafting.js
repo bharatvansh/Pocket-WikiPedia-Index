@@ -486,6 +486,30 @@ export const craftingMaterials = {
         ],
         description: "Sugar is a versatile food and brewing ingredient derived from sugar cane or honey bottles. While not edible on its own, it is a critical component in several high-value food recipes, including cakes, pumpkin pies, and cookies. In alchemy, sugar is the base ingredient for Potions of Swiftness, which grant players increased movement speed. It is also required to craft Fermented Spider Eyes, which are used to create negative potion effects. Additionally, sugar can be fed to horses to slightly heal them and improve their temperament during taming."
     },
+    "minecraft:nether_brick": {
+        id: "minecraft:nether_brick",
+        name: "Nether Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Nether Brick blocks and fences",
+            secondaryUse: "Creating decorative Nether-themed architecture"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Netherrack", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting Netherrack in a furnace",
+            "Used to craft Nether Brick blocks in a 2x2 grid",
+            "Combined with Nether Bricks to craft Nether Brick Fences",
+            "Essential for replicating the architecture of Nether Fortresses",
+            "Renewable via infinite Netherrack in the Nether dimension",
+            "Different from the Nether Brick block; this is the individual brick item"
+        ],
+        description: "Nether Brick is a crafting material produced by smelting Netherrack in a furnace. It serves as the fundamental building block for all Nether-themed brick structures, allowing players to craft Nether Brick blocks, fences, stairs, and slabs. These bricks are essential for constructing blast-resistant structures or recreating the dark, imposing aesthetic of Nether Fortresses. Because Netherrack is incredibly abundant in the Nether, Nether Bricks are a highly accessible and renewable building resource for ambitious architects."
+    },
     "minecraft:coal": {
         id: "minecraft:coal",
         name: "Coal",

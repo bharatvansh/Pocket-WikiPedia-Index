@@ -950,5 +950,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/piglin_head",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:netherite_axe",
+        name: "Netherite Axe",
+        category: "item",
+        icon: "textures/items/netherite_axe",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:nether_brick",
+        name: "Nether Brick",
+        category: "item",
+        icon: "textures/items/nether_brick",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:ink_sac",
+        name: "Ink Sac",
+        category: "item",
+        icon: "textures/items/ink_sac",
+        themeColor: "§0"
     }
 ];
