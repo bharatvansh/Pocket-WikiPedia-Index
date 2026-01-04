@@ -117,5 +117,68 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Note Block is a musical redstone component that produces notes when activated by redstone or right-clicked. The instrument sound depends on the block beneath it, with 16 instruments available including harp, bass, snare, clicks, guitar, flute, bell, chime, xylophone, iron xylophone, cow bell, didgeridoo, bit, banjo, and pling. Each note block can be tuned through 25 pitches by right-clicking. Placing a mob head on top changes the sound to a unique bass tone, making note blocks essential for creating music and sound effects in Bedrock Edition."
+    },
+    "minecraft:dispenser": {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dispenser"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Dispenser is a redstone block that dispenses items when activated. Unlike a Dropper, it attempts to use the item; for example, it will shoot arrows, throw potions, place water or lava from buckets, shear sheep, or equip armor onto players and armor stands. If the item cannot be used, it is ejected as a dropped item. It is a key component for traps, automated farming, and item distribution systems."
+    },
+    "minecraft:dropper": {
+        id: "minecraft:dropper",
+        name: "Dropper",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dropper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Dropper is a redstone block that ejects items or pushes them into adjacent containers when activated. Unlike a Dispenser, it always drops the item as an entity or moves it into a container (like a chest or hopper) without activating it. This makes it ideal for item transport systems, elevators, and sorting mechanisms where items need to be moved without being used."
+    },
+    "minecraft:hopper": {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        hardness: 3,
+        blastResistance: 4.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hopper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Hopper is a functional block that collects items from the world or from containers above it and transfers them to connected containers. It has a specific transfer rate and can be locked with a redstone signal to stop item movement. Hoppers are essential for automated storage systems, item sorting, and collecting drops from farms. In Bedrock Edition, they can also pull items from minecarts with chests or hoppers sitting on rails above them."
     }
 };

@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        category: "block",
+        icon: "textures/blocks/dispenser_front_horizontal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:dropper",
+        name: "Dropper",
+        category: "block",
+        icon: "textures/blocks/dropper_front_horizontal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        category: "block",
+        icon: "textures/blocks/hopper_top",
+        themeColor: "§7" // gray
     }
 ];
