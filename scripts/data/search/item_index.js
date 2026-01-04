@@ -971,5 +971,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/ink_sac",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:spider_eye",
+        name: "Spider Eye",
+        category: "item",
+        icon: "textures/items/spider_eye",
+        themeColor: "§c" // red/brown
+    },
+    {
+        id: "minecraft:flint",
+        name: "Flint",
+        category: "item",
+        icon: "textures/items/flint",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:redstone",
+        name: "Redstone Dust",
+        category: "item",
+        icon: "textures/items/redstone_dust",
+        themeColor: "§c" // red
     }
 ];

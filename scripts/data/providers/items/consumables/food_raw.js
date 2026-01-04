@@ -91,5 +91,33 @@ export const rawFood = {
             "Added in Caves & Cliffs Part I (1.17) for decoration and utility"
         ],
         description: "Glow Berries are a food and light source found on cave vines in lush caves. Eating them restores 2 hunger and 0.4 saturation. When attached to vines, they emit a light level of 14, providing a natural alternative to torches. Players can farm them by planting them on the underside of solid blocks; the resulting cave vines grow downward and produce berries over time or when bone-mealed. Beyond sustenance, they are highly valued as decorative lighting for underground bases and garden builds."
+    },
+    "minecraft:spider_eye": {
+        id: "minecraft:spider_eye",
+        name: "Spider Eye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing ingredient for Potions of Poison",
+            secondaryUse: "Emergency food source (applies poison effect)"
+        },
+        food: {
+            hunger: 2,
+            saturation: 3.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Spiders and Cave Spiders", "Witch drops"]
+        },
+        specialNotes: [
+            "Restores 2 hunger but inflicts Poison for 4 seconds in Bedrock Edition",
+            "Spiders drop 0-1 Spider Eyes (33% chance), cave spiders drop 0-1 when killed",
+            "Witches drop 0-6 Spider Eyes from their loot pool when killed",
+            "Used to craft Fermented Spider Eye with brown mushroom and sugar",
+            "Brewing ingredient for Potion of Poison (Awkward Potion + Spider Eye)",
+            "Cannot be composted (only plant-based items are compostable)"
+        ],
+        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflict the Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
     }
 };

@@ -607,5 +607,55 @@ export const craftingMaterials = {
             "Gifted by villagers to players with the Hero of the Village effect"
         ],
         description: "Clay Balls are raw ceramic materials harvested from clay blocks found in rivers, swamps, and lush caves. Each clay block yields four clay balls when mined. Their primary use is being smelted into bricks, which are then crafted into decorative brick blocks for construction. Clay balls can also be recombined into clay blocks for storage or building. Since version 1.19, they became fully renewable through the mud and pointed dripstone mechanic, where mud placed above dripstone slowly converts into clay, providing an infinite source for builders and craftsmen."
+    },
+    "minecraft:flint": {
+        id: "minecraft:flint",
+        name: "Flint",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Flint and Steel for fire-making",
+            secondaryUse: "Crafting arrows and fletching tables"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped from gravel blocks when mined"]
+        },
+        specialNotes: [
+            "10% chance to drop when breaking gravel without Fortune enchantment",
+            "100% drop rate with Fortune III enchantment on tools",
+            "Used to craft Flint and Steel (flint + iron ingot)",
+            "Essential ingredient for arrows (flint + stick + feather)",
+            "Used to craft Fletching Tables (flint x2 + planks x4)",
+            "Renewable resource via gravel farming or piglin bartering",
+            "Commonly found in village fletcher chests and ruined portals"
+        ],
+        description: "Flint is a mineral resource obtained by mining gravel blocks with a 10% drop chance, increased to 100% with Fortune III. It is essential for creating Flint and Steel, the primary tool for igniting fires and activating Nether portals. Flint is also a critical component in crafting arrows, making it indispensable for ranged combat. Additionally, it is used to craft Fletching Tables. Players can farm flint reliably by mining gravel or through piglin bartering, ensuring a renewable supply for survival needs."
+    },
+    "minecraft:redstone": {
+        id: "minecraft:redstone",
+        name: "Redstone Dust",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating redstone circuits and mechanisms",
+            secondaryUse: "Crafting redstone components, clocks, and compasses"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Mined from redstone ore", "Witch drops", "Trading"]
+        },
+        specialNotes: [
+            "Obtained by mining redstone ore (drops 4-5 dust, up to 8 with Fortune III)",
+            "Found at Y-levels -64 to 15, most abundant below Y=0",
+            "Used to create redstone circuits by placing on blocks",
+            "Crafts clocks, compasses, redstone torches, repeaters, and comparators",
+            "Witches drop 0-2 redstone dust when killed",
+            "Renewable via witch farming and trading with villagers",
+            "Essential for all redstone contraptions and automation systems"
+        ],
+        description: "Redstone Dust is the fundamental material for all redstone contraptions and electrical systems in Minecraft. Mined from redstone ore found deep underground, it serves as both a placeable wire for transmitting power and a crafting ingredient for numerous redstone components. When placed on blocks, it forms circuits that can transmit signals up to 15 blocks, powering mechanisms like pistons, doors, and dispensers. Redstone is also essential for crafting clocks, compasses, and advanced redstone devices, making it crucial for automation and complex builds."
     }
 };
