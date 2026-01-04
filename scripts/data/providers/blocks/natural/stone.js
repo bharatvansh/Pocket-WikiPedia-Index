@@ -174,9 +174,10 @@ export const stoneBlocks = {
         },
         drops: [],
         generation: {
-            dimension: "Overworld, Nether",
-            yRange: "Overworld (-64 to -60), Nether (0-4, 123-127)"
+            dimension: "Overworld, The Nether, The End",
+            yRange: "Various",
+            naturalGeneration: "Overworld: Y=-64; The Nether: Y=0-4, 123-127; The End: Portals, Gateways, and Pillars"
         },
-        description: "Bedrock is an indestructible block that forms the bottom-most layers of the Overworld and both the ceiling and floor of the Nether. In Survival mode, it cannot be broken by any tool or explosion, serving as a boundary for the playable world. While it is mostly flat in the Overworld since version 1.18, it remains jagged in the Nether. Bedrock is essential for containing the Wither or creating safe areas in technical Minecraft, although it cannot be obtained as an item without using cheats or creative mode."
+        description: "Bedrock is an indestructible block that forms the boundary of the world in all three dimensions. In the Overworld, it generates as a single flat layer at Y=-64 since the 1.18 update. In the Nether, it forms both the floor (Y=0-4) and ceiling (Y=123-127), while in the End, it generates naturally as part of exit portals, end gateways, and obsidian pillars. It is immune to all survival-mode mining and explosions, ensuring players stay within the intended play area unless using creative mode."
     }
 };
