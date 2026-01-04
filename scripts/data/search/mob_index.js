@@ -432,5 +432,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_husk.png",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_endermite.png",
+        themeColor: "§5" // purple/dark purple for End creature
+    },
+    {
+        id: "minecraft:horse",
+        name: "Horse",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_horse.png",
+        themeColor: "§6" // brown for equine
+    },
+    {
+        id: "minecraft:mule",
+        name: "Mule",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_mule.png",
+        themeColor: "§6" // brown for equine
     }
 ];
