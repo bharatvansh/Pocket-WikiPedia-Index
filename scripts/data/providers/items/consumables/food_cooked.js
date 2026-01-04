@@ -287,5 +287,33 @@ export const cookedFood = {
             "Stackable up to 64, making it ideal for exploration and combat"
         ],
         description: "Steak is a high-quality food item obtained by cooking raw beef or by killing cows and mooshrooms with fire. It is one of the most effective food sources in Minecraft Bedrock Edition, providing 8 hunger points and an impressive 12.8 saturation points. This high saturation keeps the player's hunger bar full for longer than most other foods, making it a favorite for long-distance travel and intense combat. Additionally, steak plays a vital role in animal husbandry, as it can be used to breed and heal tamed wolves."
+    },
+    "minecraft:cooked_chicken": {
+        id: "minecraft:cooked_chicken",
+        name: "Cooked Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Reliable food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Chicken", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 7.2 saturation",
+            "Obtained by smelting raw chicken or killing chickens with fire",
+            "Eliminates the hunger poison risk associated with raw chicken",
+            "Chickens drop 1 cooked chicken if killed while on fire (Looting applies)",
+            "Can be used to breed and heal tamed wolves",
+            "Given by Apprentice-level Butcher villagers to Hero of the Village"
+        ],
+        description: "Cooked Chicken is a safe and nutritious food item obtained by cooking raw chicken or killing chickens with fire. It provides 6 hunger points and 7.2 saturation, making it a reliable mid-tier food source that completely eliminates the food poisoning risk of its raw counterpart. In Minecraft Bedrock Edition, it is easily mass-produced using automatic chicken farms and serves as excellent fodder for breeding and healing wolves."
     }
 };

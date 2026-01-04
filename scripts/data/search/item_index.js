@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        category: "item",
+        icon: "textures/items/beef_raw",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§f" // white/pink
+    },
+    {
+        id: "minecraft:cooked_chicken",
+        name: "Cooked Chicken",
+        category: "item",
+        icon: "textures/items/chicken_cooked",
+        themeColor: "§6" // brown/orange
     }
 ];

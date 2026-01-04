@@ -177,5 +177,61 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source to be cooked",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Drops from Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Cows and Mooshrooms (1-3 drops, increased by Looting)",
+            "Best used after cooking into Steak for significantly better stats",
+            "Can be used to breed and heal tamed wolves",
+            "Sold to novice-level Butcher villagers (10 beef for 1 emerald)",
+            "Can be fed to adult wolves to speed up breeding recovery"
+        ],
+        description: "Raw Beef is a meat food item dropped by cows and mooshrooms when killed. While it can be eaten raw to restore 3 hunger and 1.8 saturation, it is most valuable when cooked in a furnace or smoker to create Steak, which offers much higher nutritional value. In Bedrock Edition, raw beef serves as a reliable trade item with novice Butcher villagers and is essential for breeding and healing tamed wolves."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source to be cooked",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Drops from Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "Has a 30% chance to inflict Hunger poison for 30 seconds",
+            "Dropped by Chickens (1 drop, increased by Looting)",
+            "Should be cooked into Cooked Chicken to avoid poison risk",
+            "Can be used to breed and heal tamed wolves without poisoning them",
+            "Sold to novice-level Butcher villagers (14 chicken for 1 emerald)"
+        ],
+        description: "Raw Chicken is a food item dropped by chickens. Eating it restores 2 hunger and 1.2 saturation but carries a significant 30% risk of inflicting the Hunger status effect for 30 seconds, mimicking food poisoning. To avoid this penalty, players should cook it in a furnace or smoker. Despite its risks to players, raw chicken is perfectly safe for breeding and healing wolves, and it serves as a common trade item with Butcher villagers."
     }
 };
