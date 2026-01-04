@@ -829,5 +829,28 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:blade_pottery_sherd": {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Blade motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by using a Brush on Suspicious Gravel in Cold Ocean Ruins",
+            "Has a 6.7% chance to be uncovered from Suspicious Gravel",
+            "Features a design depicting a sword or blade",
+            "Used to craft a Decorated Pot with a blade pattern on the side",
+            "One of 20 unique pottery sherds introduced in the Trails & Tales update"
+        ],
+        description: "The Blade Pottery Sherd is an ancient artifact that can be excavated using a Brush on Suspicious Gravel found in Cold Ocean Ruins. It features a distinct symbol representing a sword, which can be stamped onto a Decorated Pot by using the sherd in the crafting recipe. Like other sherds, it allows players to customize their pottery with unique historical designs, adding depth and storytelling to their builds."
     }
 };

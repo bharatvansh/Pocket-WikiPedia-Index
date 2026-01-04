@@ -101,6 +101,29 @@ export const smithingTemplates = {
         ],
         description: "The Bolt Armor Trim Smithing Template is a unique decorative item introduced in the 1.21 Tricky Trials update. Found within the Vaults of Trial Chambers, it allows players to customize their armor with a distinctive 'Bolt' pattern. To use it, players must combine the template with a piece of armor and a trim material at a Smithing Table. While the template is consumed upon use, it can be duplicated by crafting it with seven diamonds and a Block of Copper, ensuring players can complete their full armor sets."
     },
+    "minecraft:dune_armor_trim_smithing_template": {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Dune' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Sandstone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Sandstone", "1x Dune Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Desert Pyramid chests (approx. 14.3% chance, 2 per chest)",
+            "Features a pattern resembling ancient desert hieroglyphs or structures",
+            "Can be duplicated using 7 Diamonds and 1 Sandstone",
+            "Consumed upon use in a Smithing Table unless duplicated",
+            "Requires a trim material to determine the color"
+        ],
+        description: "The Dune Armor Trim Smithing Template is a decorative item found in Desert Pyramids. It allows players to apply the 'Dune' pattern to their armor, which adds a design inspired by the ancient structures of the desert. Found in chests within the pyramids, it is a relatively common trim compared to others. Players can duplicate this template using seven diamonds and a block of sandstone, ensuring they can apply the desert-themed design to multiple armor sets."
+    },
     "minecraft:flow_armor_trim_smithing_template": {
         id: "minecraft:flow_armor_trim_smithing_template",
         name: "Flow Armor Trim Smithing Template",
