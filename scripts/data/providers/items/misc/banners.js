@@ -124,5 +124,28 @@ export const bannerPatterns = {
             "Essential for creating piglin or Nether-themed decorations and builds"
         ],
         description: "The Snout Banner Pattern is a specialized decorative item used to apply a distinctive piglin snout design to banners. Found exclusively in bastion remnants throughout the Nether, it is a rare and valuable collectible for players wanting to create Nether-themed or piglin-inspired decorations. Since it cannot be crafted and is only obtainable from bastion remnant exploration, it represents a significant achievement in surviving the dangerous Nether environment."
+    },
+    "minecraft:field_masoned_banner_pattern": {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Field Masoned' pattern to a banner in a Loom",
+            secondaryUse: "Creating banners with a brickwork design"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["1 Paper", "1 Brick Block"]
+        },
+        specialNotes: [
+            "Added in version 1.21",
+            "Crafted using 1 Paper and 1 Brick Block",
+            "Adds a brick-like masonry pattern to banners",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Allows for detailed architectural designs on banners"
+        ],
+        description: "The Field Masoned Banner Pattern is a decorative item introduced in Minecraft 1.21. It allows players to apply a brickwork or masonry pattern to banners using a Loom. Crafted by combining a piece of paper with a block of bricks, this pattern provides a unique texture useful for castle builds, walls, and detailed heraldry. Like other banner patterns, it is not consumed upon use, allowing for infinite replication of the design."
     }
 };

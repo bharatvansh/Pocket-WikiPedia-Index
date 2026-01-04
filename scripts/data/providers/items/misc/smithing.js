@@ -212,5 +212,28 @@ export const smithingTemplates = {
             "One of the harder trims to find due to the rarity of Woodland Mansions."
         ],
         description: "The Vex Armor Trim Smithing Template is a decorative item found within the chests of Woodland Mansions. This template allows players to apply a pattern to their armor that is reminiscent of the robes worn by Vexes and Evokers. Because Woodland Mansions are among the rarest structures in Minecraft, this trim is a significant trophy for any explorer. It can be duplicated at a crafting table using seven diamonds and cobblestone, making it easier to maintain once the initial template is found."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests (25% chance in Bedrock Edition)",
+            "Features a simple, sturdy pattern resembling pillager armor",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone",
+            "Consumed upon use in a Smithing Table unless duplicated",
+            "One of the more common armor trims to find"
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item obtained from chests in Pillager Outposts. It allows players to customize their armor with the 'Sentry' pattern, which features a rugged, sturdy design similar to the gear worn by Pillagers. In Minecraft Bedrock Edition, it has a 25% chance of appearing in outpost chests. Like other templates, it can be duplicated using seven diamonds and a block of cobblestone, ensuring players can apply the trim to multiple armor pieces without needing to raid multiple outposts."
     }
 };

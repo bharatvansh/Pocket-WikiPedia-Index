@@ -829,5 +829,29 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:blade_pottery_sherd": {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Blade motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Gravel in Cold Ocean Ruins",
+            "Has a 6.7% chance of dropping from Suspicious Gravel in Bedrock Edition",
+            "Used to craft a Decorated Pot with a sword design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Introduced as part of the Archaeology system in 1.20"
+        ],
+        description: "The Blade Pottery Sherd is an archaeological item found by brushing suspicious gravel in Cold Ocean Ruins. It features an image of a sword (blade), which can be displayed on a Decorated Pot. In Bedrock Edition, players have a 6.7% chance of uncovering this sherd when brushing suspicious gravel in the submerged ruins. By combining it with bricks or other sherds in a crafting table, players can create a pot that showcases this combat-themed ancient artifact."
     }
 };
