@@ -829,5 +829,28 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:echo_shard": {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Recovery Compasses",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City loot chests (29.8% chance)",
+            "Used to craft the Recovery Compass (8 Echo Shards + 1 Compass)",
+            "Glows slightly but does not emit light",
+            "Added in the Wild Update (1.19)",
+            "Cannot be found in any other structure"
+        ],
+        description: "Echo Shards are mysterious crystalline items found only within the chests of Ancient Cities in the Deep Dark biome. Their sole purpose is to craft the Recovery Compass, a powerful tool that points to the player's last death location. Eight shards surround a regular compass in a crafting table to create this unique device. The shards themselves have a dark, shimmering appearance that reflects their origins in the deep, sculk-infested ruins of the ancient past."
     }
 };
