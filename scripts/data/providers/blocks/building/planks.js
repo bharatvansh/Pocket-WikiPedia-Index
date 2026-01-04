@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const plankBlocks = {
+    "minecraft:bamboo_mosaic": {
+        id: "minecraft:bamboo_mosaic",
+        name: "Bamboo Mosaic",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Slabs"
+        },
+        description: "Bamboo Mosaic is a decorative variation of bamboo planks, introduced in Minecraft 1.20 as part of the Trails & Tales update. It features a unique woven texture that distinguishes it from standard bamboo planks. Unlike other wood types, it is crafted using 2 bamboo slabs arranged vertically in a crafting grid. It serves as a building block and can also be used as fuel in a furnace."
+    },
     "minecraft:cherry_planks": {
         id: "minecraft:cherry_planks",
         name: "Cherry Planks",

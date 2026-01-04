@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo_mosaic",
+        name: "Bamboo Mosaic",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        category: "block",
+        icon: "textures/blocks/spore_blossom",
+        themeColor: "§d" // pink/purple
+    },
+    {
+        id: "minecraft:muddy_mangrove_roots",
+        name: "Muddy Mangrove Roots",
+        category: "block",
+        icon: "textures/blocks/muddy_mangrove_roots_side",
+        themeColor: "§6" // brown/earthy
     }
 ];

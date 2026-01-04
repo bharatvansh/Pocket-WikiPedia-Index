@@ -229,8 +229,8 @@ export const vegetationBlocks = {
     "minecraft:mangrove_roots": {
         id: "minecraft:mangrove_roots",
         name: "Mangrove Roots",
-        hardness: 0.5,
-        blastResistance: 0.5,
+        hardness: 0.7,
+        blastResistance: 0.7,
         flammability: true,
         gravityAffected: false,
         transparent: true,
@@ -246,6 +246,48 @@ export const vegetationBlocks = {
             yRange: "Mangrove Swamps"
         },
         description: "Mangrove Roots are the distinctive exposed roots that form the foundation of mangrove trees in Mangrove Swamp biomes. Unlike similar decorative blocks, these roots have a unique redstone-conducting property, allowing them to transmit redstone signals through their fibrous structure. This makes them valuable for creating hidden redstone circuits or underwater redstone mechanisms. Mangrove Roots can be harvested with any tool, with axes being the most efficient. They have a distinctive brown, fibrous appearance and can be used both for their redstone functionality and as decorative elements in swamp-themed builds or underground base construction."
+    },
+    "minecraft:muddy_mangrove_roots": {
+        id: "minecraft:muddy_mangrove_roots",
+        name: "Muddy Mangrove Roots",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Muddy Mangrove Roots"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamps"
+        },
+        description: "Muddy Mangrove Roots are a decorative block formed when mangrove roots generate within mud in Mangrove Swamp biomes. Unlike regular mangrove roots, they are solid and do not allow waterlogging or redstone signal transmission. They have a rough, earthy texture combining the appearance of roots and mud. These blocks are best mined with a shovel and are useful for landscaping or adding detail to swamp builds."
+    },
+    "minecraft:spore_blossom": {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spore Blossom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (ceilings)"
+        },
+        description: "The Spore Blossom is a large, decorative flower that generates on the ceilings of Lush Caves. It emits green particles that drift downward and float in the air, creating a magical atmosphere. While it does not emit light, the particles add a visual effect to the surrounding area. It can be placed on the underside of any block. Spore Blossoms can be broken instantly by hand or any tool."
     },
     "minecraft:big_dripleaf": {
         id: "minecraft:big_dripleaf",
