@@ -177,5 +177,61 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:pufferfish": {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potion of Water Breathing",
+            secondaryUse: "Emergency food source (highly dangerous)"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Fishing", "Guardian and Elder Guardian drops", "Kill pufferfish in oceans"]
+        },
+        specialNotes: [
+            "Inflicts Hunger III (0:15), Nausea II (0:15), and Poison IV (1:00) in Bedrock Edition",
+            "Used as a primary ingredient for Potions of Water Breathing",
+            "Can be caught while fishing in any biome",
+            "Dropped by Guardians and Elder Guardians upon death",
+            "Required to breed ocelots in Bedrock Edition",
+            "Restores only 1 hunger point (0.5 drumsticks)"
+        ],
+        description: "Pufferfish are hazardous aquatic items primarily obtained through fishing or by defeating Guardians. While they can technically be eaten, doing so is extremely dangerous as they inflict severe status effects: Hunger, Nausea, and a long-lasting Poison IV. Their true value lies in alchemy, where they serve as the essential ingredient for brewing Potions of Water Breathing. In Bedrock Edition, they can also be used to breed ocelots. Due to their debilitating effects, they are rarely consumed and are instead saved for high-level potion production."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing Axolotls (using Bucket of Tropical Fish)"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Fishing", "Kill tropical fish in warm/lukewarm oceans"]
+        },
+        specialNotes: [
+            "Has 2,700 naturally occurring variants in Bedrock Edition",
+            "Restores 1 hunger point and 0.2 saturation",
+            "Cannot be cooked in a furnace, unlike cod or salmon",
+            "Buckets of Tropical Fish are used to breed Axolotls",
+            "Can be caught while fishing in any biome",
+            "Commonly found in warm ocean biomes and lush caves"
+        ],
+        description: "Tropical Fish are vibrant, multi-colored items found in warm ocean biomes and lush caves. Unlike other fish, they cannot be cooked, providing only minimal hunger restoration when eaten raw. They are famous for their incredible diversity, with thousands of possible color and pattern combinations. While the item itself is a simple food source, it is vital for Axolotl husbandry; players must catch them in buckets to breed and heal their aquatic companions. They are a common catch while fishing and a hallmark of Minecraft's tropical environments."
     }
 };

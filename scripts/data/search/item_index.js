@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        category: "item",
+        icon: "textures/items/fish_pufferfish_raw",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_tropical_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        category: "item",
+        icon: "textures/items/resin_brick",
+        themeColor: "§6"
     }
 ];
