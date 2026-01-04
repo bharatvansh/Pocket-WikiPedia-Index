@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "block",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7" // gray/metal
+    },
+    {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        category: "block",
+        icon: "textures/blocks/sniffer_egg",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:bamboo_planks",
+        name: "Bamboo Planks",
+        category: "block",
+        icon: "textures/blocks/bamboo_planks",
+        themeColor: "§e" // yellow/wood
     }
 ];

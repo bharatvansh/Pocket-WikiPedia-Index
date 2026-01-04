@@ -200,5 +200,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from 8 planks and 1 diamond"
         },
         description: "A Jukebox is an interactive block that plays music discs when one is inserted by right-clicking or through hoppers and droppers. While playing, it emits note particles and a redstone signal that can power adjacent redstone components. The hardness was increased from 0.8 to 2.0 and blast resistance from 0.8 to 6.0 in update 1.20.30. Tamed parrots within a 3-block radius and allays within a 10-block radius dance when music is playing. Jukeboxes are essential for ambiance and can be used in redstone contraptions, making them both decorative and functional in Bedrock Edition."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        hardness: 22.5,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Heavy Core"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ominous Vaults in Trial Chambers"
+        },
+        description: "The Heavy Core is a dense, mysterious block added in Minecraft 1.21, obtained exclusively as a rare reward from Ominous Vaults. It features a unique appearance with a dark, heavy metal texture. Its primary use is in crafting the Mace, where it is combined with a Breeze Rod. It has the same blast resistance as an enchanting table and can be pushed by pistons but not pulled by sticky pistons. Mining it is fastest with a pickaxe, but it always drops itself regardless of the tool used."
+    },
+    "minecraft:sniffer_egg": {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sniffer Egg"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Sniffer breeding"
+        },
+        description: "The Sniffer Egg is a block that hatches into a Snifflet, the baby version of the Sniffer. It is obtained when two Sniffers breed. When placed on a moss block, it hatches in approximately 10 minutes; otherwise, it takes about 20 minutes. The egg cracks twice over time before hatching. It is fragile and can be broken by jumping on it if not careful (similar to turtle eggs, though Sniffer eggs are sturdier against trampling in some contexts, best treated with care). It can be mined with any tool, but axes are generally faster."
     }
 };

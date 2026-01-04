@@ -51,5 +51,26 @@ export const plankBlocks = {
             yRange: "Crafted from Pale Oak Logs"
         },
         description: "Pale Oak Planks are crafted from Pale Oak Logs found in the eerie Pale Garden biome. Featuring a muted, desaturated palette of pale cream to light gray, they stand out from warmer wood types. Introduced in update 1.21.50, these planks are essential for crafting pale oak stairs, slabs, doors, and fences. Their ghostly aesthetic is perfect for atmospheric builds, spectral mansions, or any project needing a somber, weathered wood look."
+    },
+    "minecraft:bamboo_planks": {
+        id: "minecraft:bamboo_planks",
+        name: "Bamboo Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Block of Bamboo"
+        },
+        description: "Bamboo Planks are a wood-like building block crafted from Blocks of Bamboo, introduced in the 1.20 Trails & Tales update. They have a unique yellowish texture resembling woven bamboo strips. Unlike other planks which are crafted from logs, these are made from bamboo blocks. They can be used to craft stairs, slabs, fences, doors, trapdoors, signs, buttons, pressure plates, and the unique Bamboo Mosaic block. They serve as a renewable building material that can be farmed efficiently."
     }
 };
