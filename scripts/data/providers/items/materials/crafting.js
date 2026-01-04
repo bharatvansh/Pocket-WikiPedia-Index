@@ -829,5 +829,28 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:miner_pottery_sherd": {
+        id: "minecraft:miner_pottery_sherd",
+        name: "Miner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Miner motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Desert Pyramids",
+            "Depicts a pickaxe symbol",
+            "Used as a side ingredient for Decorated Pots",
+            "One of 20 unique pottery sherds",
+            "Introduced in the 1.20 Trails & Tales update"
+        ],
+        description: "The Miner Pottery Sherd is an ancient ceramic fragment recovered through archaeology. It can be found by brushing Suspicious Sand located inside Desert Pyramids. The sherd features a depiction of a pickaxe, symbolizing the act of mining. When used to craft a Decorated Pot, it imprints this mining motif onto one of the pot's faces, allowing players to create decorative vessels that celebrate the game's core mechanic."
     }
 };
