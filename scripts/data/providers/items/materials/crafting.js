@@ -584,6 +584,29 @@ export const craftingMaterials = {
         ],
         description: "Books are essential items in Minecraft used primarily for crafting bookshelves and enchanted books. Created by combining three paper with one leather, books enable players to maximize their enchanting table's potential by surrounding it with bookshelves. They also serve as the base ingredient for creating enchanted books through Enchanting Tables, allowing for targeted enchantment application. Beyond their magical uses, books must be crafted into a Book and Quill to be written in and signed, making them useful for storytelling, documentation, and creating lecterns for village decoration."
     },
+    "minecraft:resin_brick": {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Resin Bricks (blocks) and Resin Wall",
+            secondaryUse: "Decoration and building material"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Resin Clump", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting Resin Clump in a furnace",
+            "Used to craft Resin Bricks (block) by placing 4 in a 2x2 square",
+            "Introduced in the Pale Garden update (1.21.40)",
+            "Provides a distinct orange-red color for builds",
+            "Essential for creating the full Resin block set"
+        ],
+        description: "Resin Bricks are crafting materials obtained by smelting Resin Clumps in a furnace. These vibrant orange bricks are used to create the Resin Brick block set, including stairs, slabs, and walls. Resin itself is a resource found in the Pale Garden biome, primarily dropped from Creaking Hearts. As a building material, Resin Bricks offer a unique color palette for players looking to add warm, earthen tones to their structures, making them a valuable addition to any builder's inventory in the latest versions of Bedrock Edition."
+    },
     "minecraft:brick": {
         id: "minecraft:brick",
         name: "Brick",
