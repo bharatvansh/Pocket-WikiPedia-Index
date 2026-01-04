@@ -21,17 +21,17 @@ export const bannerPatterns = {
             secondaryUse: "Creating menacing decorative banners with a creeper face design"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in dungeon, stronghold, and nether fortress chests"]
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Creeper Head"]
         },
         specialNotes: [
-            "Found in dungeon chests (11.7% chance), stronghold corridor chests (28.8% chance), and nether fortress chests (15.7% chance)",
+            "Crafted using a shapeless recipe of 1 Paper and 1 Creeper Head",
+            "Creeper Heads can be obtained by placing a Creeper under lightning to create a Charged Creeper, then detonating it",
             "The banner pattern item is not consumed when used in a Loom",
-            "Cannot be crafted and is not renewable once obtained",
-            "Uses any color dye to create a creeper face design on banners",
+            "Completely renewable since Paper and Creeper Heads can be obtained indefinitely",
             "Essential for creeper-themed builds and base decoration"
         ],
-        description: "The Creeper Banner Pattern is a decorative item used to apply a distinctive creeper face design to banners. Found in various loot chests throughout the world including dungeons, strongholds, and nether fortresses, it is a valuable collectible for players wanting to create menacing or mob-themed decorations. The pattern is not consumed when applied in a Loom, making it a permanent unlock that can be reused for unlimited banner creation."
+        description: "The Creeper Banner Pattern is a renewable decorative item used to apply a distinctive creeper face design to banners. In Bedrock Edition, it is crafted using a shapeless recipe combining one Paper and one Creeper Head. Since creeper heads can be obtained by creating Charged Creepers and both materials are renewable, this banner pattern represents an accessible option for players wanting to create menacing or mob-themed decorations without needing to explore dangerous loot chests."
     },
     "minecraft:flow_banner_pattern": {
         id: "minecraft:flow_banner_pattern",
