@@ -327,6 +327,30 @@ export const miscItems = {
         ],
         description: "The Firework Rocket is a versatile item used for both decorative displays and functional transport. When crafted with Gunpowder and Paper, it creates a simple rocket; adding Firework Stars imparts colorful explosion effects. Its most critical use in survival is powering Elytra flight, providing a speed boost that enables long-distance travel. The duration of the rocket's flight (tier 1-3) is determined by the amount of gunpowder used in crafting."
     },
+    "minecraft:firework_star": {
+        id: "minecraft:firework_star",
+        name: "Firework Star",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Determines the color, effect, and shape of Firework Rockets",
+            secondaryUse: "Crafting item for decorative pyrotechnics"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Gunpowder", "Any Dye", "Special Ingredient (Optional)"]
+        },
+        specialNotes: [
+            "Crafted with 1 Gunpowder, at least 1 Dye, and optional effect modifiers",
+            "Modifiers: Diamond (Trail), Glowstone Dust (Twinkle), Fire Charge (Large Ball)",
+            "More modifiers: Gold Nugget (Star-shaped), Feather (Burst), Mob Head (Creeper-shaped)",
+            "Multiple dyes can be used to create multi-colored explosions",
+            "Essential component for crafting meaningful Firework Rockets",
+            "The star itself cannot be launched; it must be combined with Paper and Gunpowder"
+        ],
+        description: "The Firework Star is a crucial component used to customize the explosion of Firework Rockets. By combining gunpowder with various dyes and optional ingredients in a crafting grid, players can create stars that determine the color, shape, and additional effects of the resulting firework. Adding a Diamond creates a trail, while Glowstone Dust adds a twinkle effect. Different items like gold nuggets or mob heads can change the explosion's shape. Once crafted, the star is combined with paper and more gunpowder to create a rocket that will display the chosen effects when launched."
+    },
     "minecraft:saddle": {
         id: "minecraft:saddle",
         name: "Saddle",

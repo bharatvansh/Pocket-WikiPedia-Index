@@ -992,5 +992,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/redstone_dust",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:dried_kelp",
+        name: "Dried Kelp",
+        category: "item",
+        icon: "textures/items/dried_kelp",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:firework_star",
+        name: "Firework Star",
+        category: "item",
+        icon: "textures/items/firework_star",
+        themeColor: "§f" // white/varies
+    },
+    {
+        id: "minecraft:quartz",
+        name: "Nether Quartz",
+        category: "item",
+        icon: "textures/items/quartz",
+        themeColor: "§f" // white
     }
 ];

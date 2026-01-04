@@ -125,5 +125,29 @@ export const gems = {
             "Renewable through raid rewards and villager farming"
         ],
         description: "Emeralds are rare green gemstones that serve as Minecraft's primary currency for villager trading. Found primarily in mountainous biomes at various elevations, they can be mined from emerald ore or obtained from chest loot. Their most valuable function is facilitating the villager trading system, where players can exchange emeralds for valuable goods like enchanted books, diamond gear, and food. Beyond trading, emeralds are used to craft Emerald Blocks for decoration and can be crafted into Emerald Blocks to build the pyramid structure for Beacons."
+    },
+    "minecraft:quartz": {
+        id: "minecraft:quartz",
+        name: "Nether Quartz",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting redstone components and quartz blocks",
+            secondaryUse: "Trading with villagers and crafting decorative blocks"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Nether Quartz Ore", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by mining Nether Quartz Ore in the Nether or via Piglin bartering",
+            "Yields 1 unit of quartz when mined with any pickaxe (more with Fortune)",
+            "Essential for crafting Daylight Detectors and Redstone Comparators",
+            "Piglins may barter 5-12 Nether Quartz when given a gold ingot",
+            "Used to craft Blocks of Quartz (4 items) and decorative quartz variants",
+            "Provides significant experience when mined from ore"
+        ],
+        description: "Nether Quartz is a white crystalline material found exclusively in the Nether. It is primarily obtained by mining Nether Quartz Ore, which is abundant throughout the dimension, or through bartering with Piglins. Quartz is an essential material for advanced redstone circuitry, being a key ingredient in Daylight Detectors and Redstone Comparators. Additionally, it can be crafted into smooth white building blocks and various decorative variants like pillars and chiseled blocks. Due to the high experience yield from mining its ore, it is also a popular resource for players looking to level up quickly."
     }
 };
