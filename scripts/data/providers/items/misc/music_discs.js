@@ -100,5 +100,30 @@ export const musicDiscs = {
             "Unlike other discs, it cannot be obtained from Creeper drops"
         ],
         description: "Music Disc 5 is a unique music item added in the Wild Update. Unlike other music discs that are typically found in chests or dropped by creepers, this disc must be crafted by combining nine Disc Fragments in a crafting table. The fragments themselves are rare loot found only in Ancient Cities. When played, it emits a chilling and mysterious sequence of sounds, including footsteps, breathing, and the distinct sound of a Warden, adding to the lore of the Deep Dark."
+    },
+    "minecraft:music_disc_pigstep": {
+        id: "minecraft:music_disc_pigstep",
+        name: "Music Disc (Pigstep)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Pigstep' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 13 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained as a rare drop from Bastion Remnant chests"]
+        },
+        specialNotes: [
+            "Composed by Lena Raine",
+            "Exclusively found in Bastion Remnant chests (approx. 5.7% chance)",
+            "Has a redstone signal strength of 13 when played in a Jukebox",
+            "Features a unique hip-hop inspired track unlike traditional discs",
+            "Cannot be obtained from Creepers killed by Skeletons",
+            "Rarity is classified as 'Epic' in Bedrock Edition",
+            "Duration is 2 minutes and 28 seconds"
+        ],
+        description: "'Pigstep' is a fan-favorite music disc composed by Lena Raine, added during the Nether Update. Unlike most other music discs, it cannot be obtained via Creeper drops and must be found within the dangerous halls of Bastion Remnants. The track stands out for its modern, rhythmic hip-hop style, which contrasts with the more ambient or classical tones of earlier discs. It provides a strong redstone signal of 13 when placed in a Jukebox, making it both a collector's prize and a useful tool for complex redstone machines."
     }
 };

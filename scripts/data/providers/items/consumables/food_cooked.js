@@ -259,5 +259,33 @@ export const cookedFood = {
             "Useful for topping off the hunger bar quickly"
         ],
         description: "Dried Kelp is a unique food item obtained by smelting raw kelp in a furnace or smoker. While it only restores a small amount of hunger and saturation, it is notable for being consumed twice as fast as most other foods in Minecraft. This makes it an excellent choice for players who need a quick hunger boost without pausing for long. Beyond its use as food, dried kelp can be crafted into blocks that serve as highly efficient fuel, capable of smelting 20 items per block. It is a highly renewable resource, especially when harvested from large-scale kelp farms."
+    },
+    "minecraft:cooked_beef": {
+        id: "minecraft:cooked_beef",
+        name: "Steak",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-tier food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 8,
+            saturation: 12.8
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Beef", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 8 hunger (4 drumsticks) and 12.8 saturation",
+            "Obtained by smelting raw beef in a furnace, smoker, or campfire",
+            "Cows and mooshrooms drop 1-3 steak when killed while on fire",
+            "One of the best food items for saturation in Bedrock Edition",
+            "Can be used to breed, heal, and speed up growth of wolves",
+            "Stackable up to 64, making it ideal for exploration and combat"
+        ],
+        description: "Steak is a high-quality food item obtained by cooking raw beef or by killing cows and mooshrooms with fire. It is one of the most effective food sources in Minecraft Bedrock Edition, providing 8 hunger points and an impressive 12.8 saturation points. This high saturation keeps the player's hunger bar full for longer than most other foods, making it a favorite for long-distance travel and intense combat. Additionally, steak plays a vital role in animal husbandry, as it can be used to breed and heal tamed wolves."
     }
 };

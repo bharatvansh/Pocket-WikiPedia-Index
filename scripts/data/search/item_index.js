@@ -1055,5 +1055,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/quartz",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:cooked_beef",
+        name: "Steak",
+        category: "item",
+        icon: "textures/items/beef_cooked",
+        themeColor: "§c" // red/brown
+    },
+    {
+        id: "minecraft:music_disc_pigstep",
+        name: "Music Disc (Pigstep)",
+        category: "item",
+        icon: "textures/items/music_disc_pigstep",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:sweet_berries",
+        name: "Sweet Berries",
+        category: "item",
+        icon: "textures/items/sweet_berries",
+        themeColor: "§c" // red
     }
 ];
