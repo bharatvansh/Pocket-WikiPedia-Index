@@ -222,4 +222,25 @@ export const netherBlocks = {
         },
         description: "Soul Sand is a unique block found naturally in the Nether, primarily within the Soul Sand Valley biome. It significantly slows down the movement of most mobs and players walking upon it, and it also causes them to sink slightly into the block. When placed under water, it creates a bubble column that pushes entities and items upwards, which is essential for many water-based elevator designs. Soul Sand is also a requirement for summoning the Wither and can be used to grow nether wart.",
     },
-};
+    "minecraft:nether_gold_ore": {
+    id: "minecraft:nether_gold_ore",
+    name: "Nether Gold Ore",
+    hardness: 3.0,
+    blastResistance: 3.0,
+    flammability: false,
+    gravityAffected: false,
+    transparent: false,
+    luminance: 0,
+    mining: {
+        tool: "Pickaxe",
+        minTier: "Wood",
+        silkTouch: true
+    },
+    drops: ["Gold Nuggets (2-6, increased with Fortune)"],
+    generation: {
+        dimension: "Nether",
+        yRange: "10 to 117"
+    },
+    description: "Nether Gold Ore is a mineral block found exclusively in Nether that drops gold nuggets instead of raw gold when mined. It generates in ore blobs throughout all Nether biomes from Y-levels 10 to 117, attempting to replace netherrack 10 times per chunk. When mined with any pickaxe, it drops 2-6 gold nuggets. Fortune enchantment can multiply drops: Fortune I has 33.3% chance for 2x drops, Fortune II has 25% chance for 2x or 3x, and Fortune III has 20% chance each for 2x, 3x, or 4x drops. Breaking nether gold ore angers nearby piglins, similar to other gold-related blocks. Silk Touch can be used to obtain the ore itself, which can then be smelted into gold ingots for efficiency."
+    }
+    };
