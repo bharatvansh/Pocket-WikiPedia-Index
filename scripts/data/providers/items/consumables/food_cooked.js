@@ -231,5 +231,33 @@ export const cookedFood = {
             "Multiple players can eat from the same cake"
         ],
         description: "Cake is a unique multi-serving food item that functions as both a food source and a decorative block. When placed, it can be eaten up to 7 times, with each bite restoring a small amount of hunger. Crafted from milk, sugar, eggs, and wheat, cake provides a total of 14 hunger points when fully consumed. Unlike most foods, cake is placed as a block and can be shared among multiple players. Its distinctive appearance and multi-use nature make it popular for celebrations and decorative builds."
+    },
+    "minecraft:dried_kelp": {
+        id: "minecraft:dried_kelp",
+        name: "Dried Kelp",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Quick-to-eat food source",
+            secondaryUse: "Crafting Dried Kelp Blocks for fuel"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Kelp", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.6 saturation",
+            "Can be eaten about twice as fast as other food items (0.8s vs 1.6s)",
+            "Obtained by smelting regular kelp in a furnace or smoker",
+            "Nine items can be crafted into a Dried Kelp Block",
+            "A Dried Kelp Block can be used as a high-efficiency fuel source",
+            "Useful for topping off the hunger bar quickly"
+        ],
+        description: "Dried Kelp is a unique food item obtained by smelting raw kelp in a furnace or smoker. While it only restores a small amount of hunger and saturation, it is notable for being consumed twice as fast as most other foods in Minecraft. This makes it an excellent choice for players who need a quick hunger boost without pausing for long. Beyond its use as food, dried kelp can be crafted into blocks that serve as highly efficient fuel, capable of smelting 20 items per block. It is a highly renewable resource, especially when harvested from large-scale kelp farms."
     }
 };
