@@ -53,6 +53,27 @@ export const brickBlocks = {
         },
         description: "Mud Bricks are decorative building blocks introduced in Minecraft 1.19. They are crafted by placing four Packed Mud in a 2x2 square. Packed Mud itself is made from Mud and Wheat. Mud Bricks feature a warm, reddish-brown color with a classic brick texture, perfect for rustic or desert builds. They are fire-resistant and require a pickaxe to mine efficiently. Players can further craft them into stairs, slabs, and walls, providing architectural versatility for warm-toned designs."
     },
+    "minecraft:deepslate_bricks": {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Deepslate Bricks are decorative building blocks created by crafting four deepslate in a 2x2 arrangement. They feature a dark gray, weathered brick appearance that complements the deepslate aesthetic. Deepslate Bricks maintain the same durability as regular deepslate (3.0 hardness, 6.0 blast resistance), making them excellent for defensive construction and underground builds. They can be further crafted into stairs, slabs, and walls, and when smelted become cracked deepslate bricks. These bricks are popular for creating imposing fortresses, dungeons, and other dark architectural themes."
+    },
     "minecraft:tuff_bricks": {
         id: "minecraft:tuff_bricks",
         name: "Tuff Bricks",

@@ -49,10 +49,31 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:cracked_deepslate",
+        name: "Cracked Deepslate",
+        category: "block",
+        icon: "textures/blocks/cracked_deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:tuff",
         name: "Tuff",
         category: "block",
         icon: "textures/blocks/tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cracked_tuff",
+        name: "Cracked Tuff",
+        category: "block",
+        icon: "textures/blocks/cracked_tuff",
         themeColor: "§7" // gray
     },
     {
@@ -63,11 +84,32 @@ export const blockIndex = [
         themeColor: "§7" // white/light gray
     },
     {
+        id: "minecraft:cobblestone",
+        name: "Cobblestone",
+        category: "block",
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
         icon: "textures/blocks/clay",
         themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:stone_bricks",
+        name: "Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        category: "block",
+        icon: "textures/blocks/smooth_stone",
+        themeColor: "§7" // gray
     },
     {
         id: "minecraft:moss_block",
