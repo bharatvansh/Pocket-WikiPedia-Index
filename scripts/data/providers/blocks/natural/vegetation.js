@@ -267,5 +267,68 @@ export const vegetationBlocks = {
             yRange: "Lush Caves"
         },
         description: "Big Dripleaf is a plant found in Lush Caves. It can be used as a temporary platform; if an entity stands on it for too long, the leaf tilts and the entity falls through. It can be grown larger using bone meal and its tilting behavior can be prevented with a redstone signal."
+    },
+    "minecraft:moss_carpet": {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Moss Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Moss Carpet is a thin decorative vegetation block that naturally generates in Lush Caves, covering moss blocks and the ground to create a lush, overgrown appearance. Similar to wool carpets, it occupies the bottom 1/16th of a block space. It can be crafted from moss blocks (two moss blocks yield three carpets) or harvested instantly by hand or with any tool. In Bedrock Edition, it has a blast resistance of 0.1 and hardness of 0.1. It is flammable and can be used to prevent mob spawning on top of blocks while maintaining a natural aesthetic."
+    },
+    "minecraft:spore_blossom": {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spore Blossom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (ceilings)"
+        },
+        description: "The Spore Blossom is a large, vibrant pink flower that grows exclusively on the ceilings of Lush Caves. It emits green spore particles that drift downward, creating a magical atmosphere in a wide area around it. These particles can pass through blocks. It breaks instantly when mined with any tool or by hand, dropping itself as an item. It can be placed on the underside of any solid block, leaves, or even top slabs. While it provides no light level itself, its particle effect is highly prized for decorative builds."
+    },
+    "minecraft:hanging_roots": {
+        id: "minecraft:hanging_roots",
+        name: "Hanging Roots",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hanging Roots"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (under Rooted Dirt)"
+        },
+        description: "Hanging Roots are decorative vegetation blocks that generate hanging from the underside of Rooted Dirt blocks in Lush Caves. They appear as small, brown root tendrils. To collect them as an item, they must be mined with Shears; breaking them with any other tool or by hand results in no drops (unless using Silk Touch in Bedrock Edition). They can be placed on the underside of any solid block or even on the side of blocks in some configurations. They are often used to add detail to cave ceilings or rustic builds."
     }
 };

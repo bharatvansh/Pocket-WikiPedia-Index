@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        category: "block",
+        icon: "textures/blocks/spore_blossom",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:hanging_roots",
+        name: "Hanging Roots",
+        category: "block",
+        icon: "textures/blocks/hanging_roots",
+        themeColor: "§6" // brown
     }
 ];
