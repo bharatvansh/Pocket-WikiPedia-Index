@@ -158,5 +158,26 @@ export const interactiveBlocks = {
             yRange: "Village meeting points"
         },
         description: "A Bell is an interactive functional block found primarily in village meeting points. It can be rung by players using the interact button or by being hit with projectiles, producing a loud ringing sound and a swaying animation. In Bedrock Edition, ringing a bell during a raid highlights nearby raiders with the Glowing effect, making them visible through walls. It also serves as a gathering point for villagers, who congregate around it during certain times of the day or when it is rung. Bells can be attached to the side, top, or bottom of solid blocks."
+    },
+    "minecraft:scaffolding": {
+        id: "minecraft:scaffolding",
+        name: "Scaffolding",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Scaffolding"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from 6 bamboo and 1 string"
+        },
+        description: "Scaffolding is a functional block used to assist players when building structures. It allows players to quickly climb up or down by jumping or crouching while inside the block. Scaffolding can be stacked up to 6 blocks horizontally from a supported base before it falls due to gravity. One of its most useful features is the ability to break the bottom-most block, causing the entire stack to collapse and drop as items. This makes it a superior alternative to temporary dirt or gravel pillars during large-scale construction projects."
     }
 };

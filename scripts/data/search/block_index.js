@@ -971,5 +971,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/lever",
         themeColor: "§7" // gray/stone
+    },
+    {
+        id: "minecraft:amethyst_cluster",
+        name: "Amethyst Cluster",
+        category: "block",
+        icon: "textures/blocks/amethyst_cluster",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:scaffolding",
+        name: "Scaffolding",
+        category: "block",
+        icon: "textures/blocks/scaffolding",
+        themeColor: "§6" // gold/yellow
+    },
+    {
+        id: "minecraft:tinted_glass",
+        name: "Tinted Glass",
+        category: "block",
+        icon: "textures/blocks/tinted_glass",
+        themeColor: "§8" // dark gray
     }
 ];
