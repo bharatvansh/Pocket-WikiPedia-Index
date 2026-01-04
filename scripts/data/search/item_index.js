@@ -182,6 +182,13 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:creeper_banner_pattern",
+        name: "Creeper Banner Pattern",
+        category: "item",
+        icon: "textures/items/creeper_banner_pattern",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:flow_banner_pattern",
         name: "Flow Banner Pattern",
         category: "item",
@@ -194,6 +201,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/guster_banner_pattern",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:skull_banner_pattern",
+        name: "Skull Banner Pattern",
+        category: "item",
+        icon: "textures/items/skull_banner_pattern",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:piglin_banner_pattern",
+        name: "Snout Banner Pattern",
+        category: "item",
+        icon: "textures/items/snout_banner_pattern",
+        themeColor: "§6" // brown/gold
     },
     {
         id: "minecraft:flow_pottery_sherd",
