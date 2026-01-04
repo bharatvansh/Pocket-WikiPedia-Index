@@ -385,5 +385,28 @@ export const utilityTools = {
             "Tadpoles grow into frogs based on the biome they mature in."
         ],
         description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
+    },
+    "minecraft:recovery_compass": {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the player's last death location",
+            secondaryUse: "Navigation back to lost items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Echo Shard x8", "Compass"]
+        },
+        specialNotes: [
+            "Points to the location of the player's last death",
+            "Spins randomly if the player hasn't died or is in a different dimension",
+            "Crafted using 8 Echo Shards surrounding a Compass",
+            "Does not work if the player is alive and hasn't died yet",
+            "Essential for recovering items after accidental death"
+        ],
+        description: "The Recovery Compass is a specialized navigation tool designed to help players retrieve their items after dying. Unlike a regular compass, it points to the location of the player's last death. This feature is invaluable for finding lost gear before it despawns. However, it only works if the player is in the same dimension where they died; otherwise, the needle spins randomly. It is crafted using eight Echo Shards and a regular compass, making it a late-game item associated with the Ancient Cities."
     }
 };

@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        category: "item",
+        icon: "textures/items/echo_shard",
+        themeColor: "§3" // dark aqua/deep dark
+    },
+    {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        category: "item",
+        icon: "textures/items/recovery_compass",
+        themeColor: "§b" // aqua/rare
+    },
+    {
+        id: "minecraft:trial_key",
+        name: "Trial Key",
+        category: "item",
+        icon: "textures/items/trial_key",
+        themeColor: "§6" // orange/copper
     }
 ];

@@ -630,6 +630,29 @@ export const miscItems = {
         ],
         description: "The Book and Quill is a unique item that allows players to write and store custom text within the game. Crafted using a book, ink sac, and feather, it provides up to 100 pages with 256 characters per page in Bedrock Edition. Players can use it to document adventures, create in-game guides, leave messages, or design narrative elements for adventure maps. Once complete, the book can be signed to create a Written Book, permanently recording the author's name and title. Signed books can be duplicated up to 8 times, making them valuable for sharing information across multiplayer worlds."
     },
+    "minecraft:trial_key": {
+        id: "minecraft:trial_key",
+        name: "Trial Key",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Unlocking Vaults in Trial Chambers",
+            secondaryUse: "Can be converted into an Ominous Trial Key (via Ominous Bottle event)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Trial Spawners (50% chance)"]
+        },
+        specialNotes: [
+            "Obtained by defeating all waves of a Trial Spawner (50% drop chance)",
+            "Used to unlock standard Vaults for loot rewards",
+            "Consumed upon use",
+            "Cannot unlock Ominous Vaults",
+            "Added in the Tricky Trials update (1.21)"
+        ],
+        description: "The Trial Key is a special item introduced in the 1.21 Tricky Trials update, found exclusively within Trial Chambers. It is obtained as a reward for defeating all waves of enemies from a Trial Spawner, with a 50% drop chance. Its primary purpose is to unlock Vaults found throughout the structure, which dispense valuable loot such as enchanted books, diamonds, and pottery sherds. Once used on a Vault, the key is consumed, and the Vault opens to provide rewards to the player."
+    },
     "minecraft:wither_skeleton_skull": {
         id: "minecraft:wither_skeleton_skull",
         name: "Wither Skeleton Skull",
