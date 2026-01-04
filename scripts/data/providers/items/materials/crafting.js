@@ -829,5 +829,29 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:kelp": {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting underwater to grow Kelp plants",
+            secondaryUse: "Smelting into Dried Kelp"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from Kelp plants underwater"]
+        },
+        specialNotes: [
+            "Can be placed underwater on most solid blocks",
+            "Grows upwards into a tall plant",
+            "Smelting Kelp in a furnace produces Dried Kelp",
+            "Dried Kelp is edible and can be crafted into Dried Kelp Blocks (fuel)",
+            "Can be composted (30% chance)",
+            "Bought from Wandering Traders for 3 emeralds"
+        ],
+        description: "Kelp is an underwater plant item that can be placed on the ocean floor to grow tall stalks of kelp. It is commonly harvested to be smelted into Dried Kelp, which serves as a quick-to-eat food source or can be compacted into blocks for fuel. Kelp is abundant in ocean biomes and can also be purchased from Wandering Traders. It plays a key role in creating bubble columns, as placing kelp in flowing water converts it to source blocks."
     }
 };

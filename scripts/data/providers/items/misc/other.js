@@ -695,5 +695,33 @@ export const miscItems = {
             "Reduces the detection range of Piglins by 50% when worn"
         ],
         description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
+    },
+    "minecraft:snowball": {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing as a projectile",
+            secondaryUse: "Crafting Snow Blocks"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by shoveling snow or snow layers"]
+        },
+        specialNotes: [
+            "Deals no damage to players or most mobs, but causes knockback",
+            "Deals 3 damage (1.5 hearts) to Blazes",
+            "Destroys End Crystals when thrown at them",
+            "Can be fired from dispensers",
+            "Four snowballs can be crafted into a Snow Block",
+            "Used to distract the Warden"
+        ],
+        description: "A Snowball is a throwable item obtained by using a shovel on snow layers or snow blocks. While harmless to most mobs, snowballs are useful for knocking entities back or distracting the Warden. They deal specific damage to Blazes (3 points), making them a viable weapon in the Nether. Snowballs are also a crafting ingredient for reconstituting Snow Blocks and can be used to safely detonate End Crystals from a distance."
     }
 };

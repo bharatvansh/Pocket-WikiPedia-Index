@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        category: "item",
+        icon: "textures/items/snowball",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        category: "item",
+        icon: "textures/items/kelp",
+        themeColor: "§2" // green
     }
 ];
