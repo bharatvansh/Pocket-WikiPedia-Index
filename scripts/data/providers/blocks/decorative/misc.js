@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const miscDecorativeBlocks = {
+    "minecraft:web": {
+        id: "minecraft:web",
+        name: "Cobweb",
+        hardness: 4.0,
+        blastResistance: 4.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["String", "Cobweb (requires Shears or Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts, Strongholds, Igloos, Abandoned Villages, Woodland Mansions"
+        },
+        description: "Cobweb is a natural block that significantly slows down the movement of entities passing through it. It generates in mineshafts, strongholds, igloo basements, abandoned villages, and woodland mansions. When broken with a sword, it drops string, but if mined with shears or a tool enchanted with Silk Touch, it drops the cobweb block itself. In Bedrock Edition, it has a hardness of 4.0 and blast resistance of 4.0. Cobwebs are unique because they can be turned into string but cannot be crafted back into cobwebs. They are often used in traps or to safely break falls."
+    },
     "minecraft:pink_petals": {
         id: "minecraft:pink_petals",
         name: "Pink Petals",

@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const netherBlocks = {
+    "minecraft:crimson_nylium": {
+        id: "minecraft:crimson_nylium",
+        name: "Crimson Nylium",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Netherrack", "Crimson Nylium (requires Silk Touch)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest biome"
+        },
+        description: "Crimson Nylium is a variant of netherrack covered in crimson fungal growth, found exclusively in the Crimson Forest biome. It represents the \"grass\" of the Nether's crimson forests. When bone meal is used on crimson nylium, it generates crimson fungus, weeping vines, and crimson roots. It can be mined with any pickaxe, but it drops netherrack unless mined with a tool enchanted with Silk Touch. Nylium can also be spread to adjacent netherrack blocks by using bone meal on netherrack while it is next to a nylium block."
+    },
     "minecraft:nether_bricks": {
         id: "minecraft:nether_bricks",
         name: "Nether Bricks",

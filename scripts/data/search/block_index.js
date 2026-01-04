@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:web",
+        name: "Cobweb",
+        category: "block",
+        icon: "textures/blocks/web",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:blue_ice",
+        name: "Blue Ice",
+        category: "block",
+        icon: "textures/blocks/blue_ice",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:crimson_nylium",
+        name: "Crimson Nylium",
+        category: "block",
+        icon: "textures/blocks/crimson_nylium_side",
+        themeColor: "§4" // dark red
     }
 ];

@@ -6,11 +6,13 @@ import { dirtBlocks } from './dirt.js';
 import { oreBlocks } from './ores.js';
 import { woodBlocks } from './wood.js';
 import { vegetationBlocks } from './vegetation.js';
+import { iceBlocks } from './ice.js';
 
 export const naturalBlocks = {
     ...stoneBlocks,
     ...dirtBlocks,
     ...oreBlocks,
     ...woodBlocks,
-    ...vegetationBlocks
+    ...vegetationBlocks,
+    ...iceBlocks
 };
