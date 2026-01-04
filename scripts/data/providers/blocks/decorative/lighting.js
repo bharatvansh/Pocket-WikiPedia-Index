@@ -135,5 +135,68 @@ export const lightingBlocks = {
             yRange: "Frog interaction (cold frog eating magma cube)"
         },
         description: "Pearlescent Froglight is an elegant, soft white and pale purple light-emitting block that emits light level 15, providing cool-toned illumination for serene atmospheres. This rare variant is obtained when a cold (white/tan) frog consumes a tiny magma cube in the Nether. With only 0.3 hardness, it requires careful placement. Pearlescent froglight joins verdant and ochre variants to complete the froglight family."
+    },
+    "minecraft:lantern": {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Structures (Villages, Bastion Remnants)"
+        },
+        description: "A Lantern is a luminous block that emits a light level of 15, exceeding the light level of torches. It is crafted from eight iron nuggets surrounding a torch. Lanterns generate naturally in Snowy Tundra villages and Bastion Remnants. They can be placed on the top or bottom of solid blocks and can hang from chains. A lantern can be broken with any tool, but a pickaxe is the fastest method."
+    },
+    "minecraft:soul_lantern": {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Structures (Ancient Cities)"
+        },
+        description: "The Soul Lantern is a turquoise variant of the regular lantern that emits a light level of 10. It is crafted similarly to a lantern but uses a soul torch instead of a regular torch. Soul lanterns generate naturally in Ancient Cities. Unlike regular lanterns, they have the unique property of repelling Piglins, making them useful for safe passage in the Nether."
+    },
+    "minecraft:end_rod": {
+        id: "minecraft:end_rod",
+        name: "End Rod",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["End Rod"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "An End Rod is a decorative light source that emits white particles and a light level of 14, similar to a torch. They generate naturally in End Cities, often found on the towers or as part of the structure's lighting. End rods can be placed on any surface, including ceilings and walls, and can be used to create vertical or horizontal bars. They are fragile, breaking instantly with any tool or by hand."
     }
 };
