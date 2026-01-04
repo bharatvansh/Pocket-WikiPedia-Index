@@ -7,6 +7,7 @@ import { concreteBlocks } from './concrete.js';
 import { glassBlocks } from './glass.js';
 import { copperBlocks } from './copper.js';
 import { slabsStairsBlocks } from './slabs_stairs.js';
+import { miscBuildingBlocks } from './misc.js';
 
 export const buildingBlocks = {
     ...plankBlocks,
@@ -14,5 +15,6 @@ export const buildingBlocks = {
     ...concreteBlocks,
     ...glassBlocks,
     ...copperBlocks,
-    ...slabsStairsBlocks
+    ...slabsStairsBlocks,
+    ...miscBuildingBlocks
 };
