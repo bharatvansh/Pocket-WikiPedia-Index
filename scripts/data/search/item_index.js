@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        category: "item",
+        icon: "textures/items/resin_brick",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        category: "item",
+        icon: "textures/items/minecart",
+        themeColor: "§7"
     }
 ];

@@ -374,6 +374,29 @@ export const miscItems = {
         ],
         description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
     },
+    "minecraft:minecart": {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transportation on rails",
+            secondaryUse: "Moving mobs and players"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x5"]
+        },
+        specialNotes: [
+            "Essential for rail-based transportation systems",
+            "Can carry players, mobs, and certain blocks when upgraded",
+            "Travels faster and further on Powered Rails",
+            "Base component for Chest, Hopper, and TNT minecarts",
+            "Can be picked up by attacking it once"
+        ],
+        description: "The Minecart is a classic transportation vehicle used to travel along rail systems in Minecraft. Crafted from five iron ingots, it can carry players and most mobs, making it an essential tool for both travel and automated mob transport. Minecarts can be placed on any rail type and propelled by movement, gravity, or Powered Rails. They also serve as the base component for several functional variants, including Minecarts with Chests, Hoppers, or TNT, allowing for complex logistical networks and automated farms."
+    },
     "minecraft:diamond_horse_armor": {
         id: "minecraft:diamond_horse_armor",
         name: "Diamond Horse Armor",

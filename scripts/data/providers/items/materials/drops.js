@@ -107,6 +107,29 @@ export const mobDrops = {
         ],
         description: "The Breeze Rod is a unique item dropped exclusively by Breezes in Trial Chambers. Similar to Blaze Rods, they serve as a fundamental crafting component for specialized items introduced in the 1.21 Tricky Trials update. A single Breeze Rod can be broken down into four Wind Charges or combined with a Heavy Core to create the powerful Mace weapon. Beyond crafting, Breeze Rods are essential for maintaining a Mace's durability at an anvil and can be used to duplicate the rare Flow Armor Trim smithing template."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace",
+            secondaryUse: "Decoration (can be placed)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ominous Vaults (7.5% chance)"]
+        },
+        specialNotes: [
+            "Used with a Breeze Rod to craft a Mace",
+            "Can be placed as a decorative block",
+            "Emits a sound when placed",
+            "Requires a pickaxe to mine efficiently",
+            "Considered one of the rarest rewards from Trial Chambers"
+        ],
+        description: "The Heavy Core is a rare and dense item introduced in the 1.21 Tricky Trials update. It is exclusively found as a loot drop from Ominous Vaults in Trial Chambers with a 7.5% drop rate. Its primary purpose is serving as the head of a Mace when combined with a Breeze Rod. Beyond its use in weaponry, the Heavy Core can be placed as a decorative block that resembles a heavy, metallic cube. Due to its weight and rarity, it is considered a high-tier prize for adventurers exploring the dangerous Trial Chambers."
+    },
     "minecraft:armadillo_scute": {
         id: "minecraft:armadillo_scute",
         name: "Armadillo Scute",
