@@ -196,6 +196,27 @@ export const itemIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:flower_banner_pattern",
+        name: "Flower Banner Pattern",
+        category: "item",
+        icon: "textures/items/flower_banner_pattern",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:globe_banner_pattern",
+        name: "Globe Banner Pattern",
+        category: "item",
+        icon: "textures/items/globe_banner_pattern",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:mojang_banner_pattern",
+        name: "Thing Banner Pattern",
+        category: "item",
+        icon: "textures/items/mojang_banner_pattern",
+        themeColor: "§d" // light purple (Enchanted Golden Apple rarity)
+    },
+    {
         id: "minecraft:flow_banner_pattern",
         name: "Flow Banner Pattern",
         category: "item",

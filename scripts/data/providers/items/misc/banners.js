@@ -124,5 +124,76 @@ export const bannerPatterns = {
             "Essential for creating piglin or Nether-themed decorations and builds"
         ],
         description: "The Snout Banner Pattern is a specialized decorative item used to apply a distinctive piglin snout design to banners. Found exclusively in bastion remnants throughout the Nether, it is a rare and valuable collectible for players wanting to create Nether-themed or piglin-inspired decorations. Since it cannot be crafted and is only obtainable from bastion remnant exploration, it represents a significant achievement in surviving the dangerous Nether environment."
+    },
+    "minecraft:flower_banner_pattern": {
+        id: "minecraft:flower_banner_pattern",
+        name: "Flower Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Flower' pattern to a banner in a Loom",
+            secondaryUse: "Creating decorative banners with a daisy or sun-like design"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Oxeye Daisy"]
+        },
+        specialNotes: [
+            "Crafted using a shapeless recipe of 1 Paper and 1 Oxeye Daisy",
+            "Oxeye Daisies are common flowers found in Plains and Flower Forest biomes",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Completely renewable since Paper and Oxeye Daisies can be farmed indefinitely",
+            "The pattern resembles a flower or sun, making it versatile for nature or celestial themes"
+        ],
+        description: "The Flower Banner Pattern is a renewable decorative item used to apply a floral design to banners, resembling an Oxeye Daisy or a sun. In Minecraft Bedrock Edition, it is easily crafted by combining one Paper and one Oxeye Daisy in a crafting grid. Since both ingredients are readily available and renewable, this pattern serves as an accessible and popular choice for adding intricate details to banners, often used in clan flags, garden decorations, or celestial imagery."
+    },
+    "minecraft:mojang_banner_pattern": {
+        id: "minecraft:mojang_banner_pattern",
+        name: "Thing Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Thing' pattern (Mojang logo) to a banner in a Loom",
+            secondaryUse: "Creating banners with the official Mojang logo for branding or decoration"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Enchanted Golden Apple"]
+        },
+        specialNotes: [
+            "Crafted using a shapeless recipe of 1 Paper and 1 Enchanted Golden Apple",
+            "Enchanted Golden Apples are uncraftable and extremely rare, found only in loot chests",
+            "Due to the ingredient cost, this is one of the most expensive items to craft in survival",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Features the official Mojang logo, often called 'The Thing'",
+            "Adds a prestigious symbol to any banner design"
+        ],
+        description: "The Thing Banner Pattern is a highly prestigious decorative item that allows players to stamp the official Mojang logo onto banners. In Bedrock Edition, it is crafted using a shapeless recipe that combines Paper with an Enchanted Golden Apple. Because Enchanted Golden Apples are uncraftable and exceptionally rare loot items, this banner pattern is a significant status symbol. Fortunately, the pattern is not consumed upon use in a Loom, meaning a single successful craft provides infinite use of the logo for all future banner projects."
+    },
+    "minecraft:globe_banner_pattern": {
+        id: "minecraft:globe_banner_pattern",
+        name: "Globe Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Globe' pattern to a banner in a Loom",
+            secondaryUse: "Creating banners with a cubic earth design for maps or planetary themes"
+        },
+        crafting: {
+            recipeType: "Trading",
+            ingredients: ["Traded from Master-level Cartographer villagers"]
+        },
+        specialNotes: [
+            "Obtainable in Bedrock Edition by trading with a Master-level Cartographer villager",
+            "Typically costs 8 Emeralds, though prices can vary with discounts",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Cannot be crafted by players; exclusive to trading",
+            "Features a cubic representation of the Minecraft world",
+            "Ideal for map rooms, libraries, and planetary builds"
+        ],
+        description: "The Globe Banner Pattern is a unique decorative item that applies a cubic earth design to banners, representing the Minecraft world. In Bedrock Edition, it cannot be crafted and is exclusively obtained by trading with a Master-level Cartographer villager, typically costing around 8 emeralds. This makes it a reward for developing a village's economy. Once acquired, the pattern can be used indefinitely in a Loom to add a sophisticated, worldly touch to banners, perfect for decorating map rooms, libraries, or diplomatic halls."
     }
 };
