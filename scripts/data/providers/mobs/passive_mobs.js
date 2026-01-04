@@ -709,5 +709,37 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
         ],
         description: "Squid are passive aquatic mobs found in all ocean biomes, as well as river and frozen river biomes. They spawn in groups of 2 to 4 in oceans and exactly 2 in rivers. Squid swim peacefully and do not interact with players unless attacked, at which point they release a cloud of ink as a defense mechanism. They cannot be bred, and babies only spawn naturally. Occasionally, squid may beach themselves on river banks or ocean shores and suffocate. They drop ink sacs when killed, which are used for crafting black dye and making books."
+    },
+    "minecraft:parrot": {
+        id: "minecraft:parrot",
+        name: "Parrot",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Jungle", "Bamboo Jungle", "Sparse Jungle"],
+            lightLevel: "9+",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Mimics the sounds of nearby hostile and certain neutral mobs",
+            "Can be tamed using wheat, melon, pumpkin, or beetroot seeds",
+            "Tamed parrots can perch on a player's shoulder (up to two at once)",
+            "Dances when near a playing jukebox",
+            "Imitates the sound of a mob it is mimicking at a higher pitch",
+            "Instantly dies if fed a cookie due to chocolate toxicity",
+            "Will fly to stay near its owner if tamed"
+        ],
+        drops: [
+            { item: "Feather", chance: "1-2" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Parrots are rare passive flying mobs found in Jungle biomes. They come in five vibrant colors: red, blue, green, cyan, and gray. Parrots are unique for their ability to mimic the sounds of nearby hostile mobs, providing an early warning system for players. They can be tamed with various seeds and will follow the player or sit on their shoulders. However, players must be careful never to feed them cookies, as chocolate is fatal to parrots in Minecraft."
     }
 };

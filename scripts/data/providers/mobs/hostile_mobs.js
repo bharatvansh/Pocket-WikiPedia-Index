@@ -947,5 +947,70 @@ export const hostileMobs = {
             { item: "Experience", chance: "5" }
         ],
         description: "Silverfish are small, bug-like hostile mobs often found hiding in infested blocks within strongholds and mountain biomes. They are the smallest mobs in the game, making them hard to target. When a silverfish is attacked and not killed instantly, it summons other silverfish from nearby infested blocks to swarm the player. While they deal low individual damage, their ability to call reinforcements can quickly overwhelm an unprepared explorer in the narrow corridors of a stronghold."
+    },
+    "minecraft:magma_cube": {
+        id: "minecraft:magma_cube",
+        name: "Magma Cube",
+        health: 16,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: "0.6-0.75"
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Basalt Deltas", "Nether Wastes", "Bastion Remnants", "Nether Fortress"],
+            lightLevel: "Any",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Moves by jumping, expanding its body to reveal a molten core",
+            "Splits into 2-4 smaller versions when a large or medium cube is killed",
+            "Completely immune to fire, lava, and fall damage",
+            "Big and medium magma cubes can damage players by touch or jumping",
+            "Small magma cubes deal damage (unlike small Slimes)",
+            "Able to jump over obstacles and swim in lava with ease",
+            "Attack speed and jump height are higher than regular Slimes"
+        ],
+        drops: [
+            { item: "Magma Cream", chance: "0-1 (from Big/Medium cubes)" },
+            { item: "Experience", chance: "1-4 (varies by size)" }
+        ],
+        description: "Magma Cubes are hostile mobs found in the Nether, acting as the fire-resistant counterparts to Overworld slimes. They move in a series of leaps, stretching vertically to reveal their glowing interior. When defeated, larger cubes split into several smaller ones. Unlike small slimes, even the smallest magma cubes deal damage to players. They are the primary source of magma cream, a vital ingredient for brewing potions of Fire Resistance."
+    },
+    "minecraft:cave_spider": {
+        id: "minecraft:cave_spider",
+        name: "Cave Spider",
+        health: 12,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Mineshafts (from spawners)"],
+            lightLevel: "0-7",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Smaller than regular spiders, allowing them to fit through 0.5-block gaps",
+            "Attacks inflict Poison for 7 seconds on Normal difficulty",
+            "Can climb walls and vertical surfaces with ease",
+            "Immune to the Poison status effect",
+            "Becomes neutral in high light levels (9+) unless already aggressive",
+            "Loses aggression if the player moves out of sight or stays far away",
+            "Can leap at players from a distance of up to 5 blocks"
+        ],
+        drops: [
+            { item: "String", chance: "0-2" },
+            { item: "Spider Eye", chance: "0-1" },
+            { item: "Experience", chance: "5" }
+        ],
+        description: "Cave Spiders are dangerous hostile mobs found exclusively in Mineshafts, where they spawn from monster spawners often surrounded by cobwebs. They are smaller than their surface-dwelling cousins, enabling them to navigate through tiny gaps and crawl over walls. Their most fearsome trait is their venomous bite, which poisons players and drains health over time. Due to their small size and the cramped, web-filled environments they inhabit, they can be difficult to hit and even harder to escape."
     }
 };
