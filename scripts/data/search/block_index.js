@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:redstone_lamp",
+        name: "Redstone Lamp",
+        category: "block",
+        icon: "textures/blocks/redstone_lamp_off",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector_top",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        category: "block",
+        icon: "textures/blocks/hopper_top",
+        themeColor: "§7" // gray
     }
 ];
