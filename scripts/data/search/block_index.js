@@ -84,11 +84,32 @@ export const blockIndex = [
         themeColor: "§7" // white/light gray
     },
     {
+        id: "minecraft:cobblestone",
+        name: "Cobblestone",
+        category: "block",
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
         icon: "textures/blocks/clay",
         themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:stone_bricks",
+        name: "Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        category: "block",
+        icon: "textures/blocks/smooth_stone",
+        themeColor: "§7" // gray
     },
     {
         id: "minecraft:moss_block",

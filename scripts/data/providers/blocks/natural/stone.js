@@ -32,6 +32,48 @@ export const stoneBlocks = {
         },
         description: "Stone is a durable building material that requires a pickaxe to mine. It's commonly found underground and can be smelted from cobblestone. Stone is resistant to explosions and is often used for construction."
     },
+    "minecraft:cobblestone": {
+        id: "minecraft:cobblestone",
+        name: "Cobblestone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Cobblestone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 320 (Monster Rooms, Villages, Strongholds, Ocean Ruins)"
+        },
+        description: "Cobblestone is a common building block obtained from mining stone or when water and flowing lava meet. It generates naturally in monster rooms, jungle pyramids, pillager outposts, ocean ruins, strongholds, various villages, trail ruins, and trial chambers. With a hardness of 2.0 and blast resistance of 6.0, cobblestone is highly durable and serves as a fundamental building material. It's essential for crafting stone tools and can be smelted back into stone. The rough, gray texture makes it perfect for castle walls, foundations, and industrial-style builds."
+    },
+    "minecraft:stone_bricks": {
+        id: "minecraft:stone_bricks",
+        name: "Stone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Stone Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Ocean Ruins, Igloos, Trial Chambers"
+        },
+        description: "Stone Bricks are decorative building blocks crafted from four stone blocks arranged in a 2x2 pattern. They generate naturally in strongholds (forming walls, ceilings, and floors), ocean ruins, igloo basements, trail ruins, and trial chambers. Stone Bricks have the same durability as regular stone (1.5 hardness, 6.0 blast resistance) but feature a more refined, architectural appearance. They can be further crafted into mossy stone bricks, cracked stone bricks, and chiseled stone bricks. Perfect for castle construction, monument building, and creating sophisticated stone structures with a polished aesthetic."
+    },
     "minecraft:deepslate": {
         id: "minecraft:deepslate",
         name: "Deepslate",
@@ -220,5 +262,26 @@ export const stoneBlocks = {
             yRange: "Crafted only (smelted from tuff)"
         },
         description: "Cracked Tuff is a decorative building material created by smelting tuff in a furnace. It shares the same hardness as regular tuff (1.5) and maintains the high blast resistance of 6.0, making it suitable for defensive construction. When mined, it drops itself rather than the original tuff block. The cracked variant provides builders with a more textured and weathered appearance compared to smooth tuff. It is primarily used for decorative purposes and building projects that benefit from the distinctive tuff aesthetic with added visual texture."
+    },
+    "minecraft:smooth_stone": {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Smooth Stone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains/Savanna/Snowy Plains Villages (Butcher Houses)"
+        },
+        description: "Smooth Stone is a refined variant of stone created by smelting regular stone in a furnace. It features a polished, sleek appearance with smooth surfaces that give it a more modern and sophisticated look compared to rough stone. With a hardness of 2.0 and blast resistance of 6.0, it maintains excellent durability while offering superior aesthetics. Smooth Stone generates naturally in plains, savanna, and snowy plains villages, specifically in butcher houses as slabs and blocks. It serves as a crafting ingredient for smooth stone slabs and is popular for detailed architectural work, interior design, and creating clean, contemporary building styles that require a refined stone appearance."
     }
 };
