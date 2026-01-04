@@ -63,7 +63,7 @@ export const endBlocks = {
         luminance: 0,
         mining: {
             tool: "Pickaxe",
-            minTier: "None",
+            minTier: "Wood",
             silkTouch: false
         },
         drops: ["End Stone Bricks"],
@@ -90,8 +90,8 @@ export const endBlocks = {
         drops: ["Purpur Block"],
         generation: {
             dimension: "The End",
-            yRange: "End Cities and End Ships"
+            yRange: null
         },
-        description: "Purpur Block is a decorative purple stone-like block found exclusively in End Cities and End Ships. It can be crafted by placing four popped chorus fruit in a 2x2 grid, making it renewable. Purpur blocks come in several variants including stairs, slabs, pillars, and chiseled purpur. With a hardness of 1.5 and blast resistance of 6.0, purpur blocks provide moderate durability while offering a unique purple aesthetic that fits the End dimension's color palette. They are essential building materials for players exploring the End and are commonly used in End-themed architecture."
+        description: "Purpur Block is a decorative purple stone-like block found exclusively in End Cities and End Ships. It can be crafted by placing four popped chorus fruit in a 2x2 grid, making it renewable. Purpur blocks come in several variants including stairs, slabs, pillars, and chiseled forms. With a hardness of 1.5 and blast resistance of 6.0, purpur blocks provide moderate durability while offering a unique purple aesthetic that fits the End dimension's color palette. They are essential building materials for players exploring the End and are commonly used in End-themed architecture."
     }
 };
