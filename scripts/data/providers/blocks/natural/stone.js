@@ -178,5 +178,47 @@ export const stoneBlocks = {
             yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
         },
         description: "The Dripstone Block is a natural stone block found in dripstone caves and Trial Chambers that allows pointed dripstone to grow beneath it. When water is placed above it, stalactites and stalagmites form over time. Dripstone blocks can be mined with any pickaxe tier, dropping themselves when broken. They are primarily used for decoration and creating natural cave aesthetics. When water drips from stalactites, they can fill cauldrons below with water or lava depending on the source block."
+    },
+    "minecraft:cracked_deepslate": {
+        id: "minecraft:cracked_deepslate",
+        name: "Cracked Deepslate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Cracked Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only (smelted from deepslate)"
+        },
+        description: "Cracked Deepslate is a decorative variant of deepslate created by smelting deepslate in a furnace. It maintains the same durability and blast resistance as regular deepslate (3.0 hardness, 6.0 blast resistance) but features a cracked, weathered appearance. Unlike deepslate which drops cobbled deepslate when mined, cracked deepslate drops itself and requires a wooden pickaxe or better to mine. It is primarily used for building and decoration, offering builders a more aged and rustic aesthetic for underground builds and dark-themed structures."
+    },
+    "minecraft:cracked_tuff": {
+        id: "minecraft:cracked_tuff",
+        name: "Cracked Tuff",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Tuff"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only (smelted from tuff)"
+        },
+        description: "Cracked Tuff is a decorative building material created by smelting tuff in a furnace. It shares the same hardness as regular tuff (1.5) and maintains the high blast resistance of 6.0, making it suitable for defensive construction. When mined, it drops itself rather than the original tuff block. The cracked variant provides builders with a more textured and weathered appearance compared to smooth tuff. It is primarily used for decorative purposes and building projects that benefit from the distinctive tuff aesthetic with added visual texture."
     }
 };

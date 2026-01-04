@@ -49,10 +49,31 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:cracked_deepslate",
+        name: "Cracked Deepslate",
+        category: "block",
+        icon: "textures/blocks/cracked_deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:tuff",
         name: "Tuff",
         category: "block",
         icon: "textures/blocks/tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cracked_tuff",
+        name: "Cracked Tuff",
+        category: "block",
+        icon: "textures/blocks/cracked_tuff",
         themeColor: "§7" // gray
     },
     {
