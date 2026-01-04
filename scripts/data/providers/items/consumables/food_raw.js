@@ -148,5 +148,34 @@ export const rawFood = {
             "Also used as projectile weapon (deals 0 damage but has knockback)"
         ],
         description: "Eggs are a renewable resource laid by chickens in Minecraft Bedrock Edition every 5-10 minutes. While they cannot be eaten directly, they serve as essential crafting ingredients for cake and pumpkin pie, providing a reliable food source when combined with wheat, milk, sugar, and pumpkins. Additionally, throwing eggs at surfaces has a 12.5% chance to hatch a baby chicken, offering a passive way to expand poultry farms. This dual utility makes eggs valuable for both culinary purposes and animal husbandry. Baby chickens grow into egg-laying adults in roughly 20 minutes, creating a sustainable cycle."
+    },
+    "minecraft:sweet_berries": {
+        id: "minecraft:sweet_berries",
+        name: "Sweet Berries",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and fox breeding",
+            secondaryUse: "Defensive hedging using bushes"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from sweet berry bushes in taiga biomes"]
+        },
+        specialNotes: [
+            "Restores 2 hunger and 0.4 saturation",
+            "Found in various taiga biomes; can be replanted on grass or dirt",
+            "Sweet berry bushes deal 1 damage every 0.5s to moving players/mobs",
+            "Used to breed foxes and speed up the growth of baby foxes",
+            "Villager butchers may buy sweet berries for emeralds",
+            "Harvested by right-clicking a mature bush without breaking it",
+            "Can be used as a composting ingredient (30% chance)"
+        ],
+        description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
     }
 };
