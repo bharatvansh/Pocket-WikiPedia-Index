@@ -1160,5 +1160,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/vex_armor_trim_smithing_template",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "item",
+        icon: "textures/items/sugar_cane",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "item",
+        icon: "textures/items/bamboo",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:angler_pottery_sherd",
+        name: "Angler Pottery Sherd",
+        category: "item",
+        icon: "textures/items/angler_pottery_sherd",
+        themeColor: "§6"
     }
 ];

@@ -757,5 +757,77 @@ export const craftingMaterials = {
             "Introduced in the 1.20 Trails & Tales update"
         ],
         description: "A Pitcher Pod is an ancient plant item that Sniffers can dig up and drop, letting players grow Pitcher Plants. Plant it on farmland to produce a tall Pitcher Plant, which can be turned into cyan dye for building palettes and decoration. In Bedrock Edition, pitcher pods can also be fed to chickens to breed them and can tame parrots, making them both decorative and practical."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Paper and Sugar",
+            secondaryUse: "Planting on blocks adjacent to water to grow more sugar cane"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found naturally near water in most Overworld biomes"]
+        },
+        specialNotes: [
+            "In Minecraft Bedrock Edition, sugar cane can be grown using Bone Meal",
+            "Must be planted on a block adjacent to a water source or waterlogged block",
+            "Can be planted on sand, dirt, grass, podzol, moss, and mud variants",
+            "Naturally grows up to 3 blocks high over time",
+            "Essential for producing Paper, which is used for Maps and Books",
+            "Used to craft Sugar for food and brewing recipes"
+        ],
+        description: "Sugar cane is a vital plant and crafting material found naturally along the banks of water in the Overworld. In Minecraft Bedrock Edition, it is unique in that it can be instantly grown to its maximum height of three blocks using bone meal, provided it is planted adjacent to water on blocks like sand, dirt, or moss. It is primarily harvested to craft paper and sugar, both of which are essential for progressing through the game's alchemical and enchanting systems."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sticks, Scaffolding, and Bamboo wood variants",
+            secondaryUse: "Breeding Pandas and using as fuel in furnaces"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found naturally in Jungle biomes", "Obtained from fishing in Jungles"]
+        },
+        specialNotes: [
+            "In Bedrock Edition, bamboo can be instantly grown with Bone Meal",
+            "Fastest growing plant in Minecraft; can reach up to 12-16 blocks",
+            "Smelts 0.25 items per bamboo piece when used as fuel",
+            "Required to breed Pandas and can be used to speed up baby Panda growth",
+            "Key component for crafting Scaffolding and Bamboo Planks (1.20+)",
+            "Can be placed in Flower Pots for decoration"
+        ],
+        description: "Bamboo is a versatile and fast-growing plant primarily found in jungle biomes and their variants. In Bedrock Edition, it can be grown quickly with bone meal and harvested for a variety of uses, including crafting sticks, scaffolding, and even decorative bamboo-based wood blocks introduced in the Trails & Tales update. It also serves a biological purpose as the preferred food for pandas, which can be bred using bamboo, and can be used as a low-efficiency fuel source in furnaces."
+    },
+    "minecraft:angler_pottery_sherd": {
+        id: "minecraft:angler_pottery_sherd",
+        name: "Angler Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Angler motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Warm Ocean Ruins"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Sand in Warm Ocean Ruins",
+            "Used to craft a Decorated Pot with a fishing hook design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Adds a historical and decorative touch to player builds",
+            "Introduced as part of the Archaeology system in 1.20"
+        ],
+        description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
     }
 };
