@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/coast_armor_trim_smithing_template",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/dune_armor_trim_smithing_template",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/eye_armor_trim_smithing_template",
+        themeColor: "§2" // dark green
     }
 ];

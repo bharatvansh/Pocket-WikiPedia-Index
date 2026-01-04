@@ -212,5 +212,71 @@ export const smithingTemplates = {
             "One of the harder trims to find due to the rarity of Woodland Mansions."
         ],
         description: "The Vex Armor Trim Smithing Template is a decorative item found within the chests of Woodland Mansions. This template allows players to apply a pattern to their armor that is reminiscent of the robes worn by Vexes and Evokers. Because Woodland Mansions are among the rarest structures in Minecraft, this trim is a significant trophy for any explorer. It can be duplicated at a crafting table using seven diamonds and cobblestone, making it easier to maintain once the initial template is found."
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Coast' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Coast Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Shipwreck chests (16.7% in Map Chest, 11.1% in Supply/Treasure Chest).",
+            "Features a pattern with curving lines resembling waves or coastal contours.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Coast Armor Trim Smithing Template is a decorative item found in Shipwrecks, buried deep underwater or beached on shores. It allows players to apply the 'Coast' pattern to their armor, which features elegant curves reminiscent of the ocean's waves. As with other trims, it is consumed when used but can be duplicated using seven diamonds and a block of cobblestone. This trim is perfect for players who want to display their affinity for the sea and exploration."
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Dune' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Sandstone", "1x Dune Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Desert Pyramid chests with a 14.3% chance.",
+            "Features a pattern inspired by the ancient symbols of desert temples.",
+            "Can be duplicated using 7 Diamonds and 1 Sandstone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Dune Armor Trim Smithing Template is a rare decorative item located in Desert Pyramids. It grants players the ability to inscribe the 'Dune' pattern onto their armor, adding designs that echo the ancient architecture of the desert. Because Desert Pyramids can be dangerous due to their TNT traps, retrieving this template is a feat of caution and bravery. Once obtained, it can be duplicated using seven diamonds and a block of sandstone, ensuring the pattern can be used repeatedly."
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Eye' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x End Stone", "1x Eye Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Stronghold Library chests (100% guaranteed).",
+            "Features a pattern resembling the Eye of Ender.",
+            "Can be duplicated using 7 Diamonds and 1 End Stone.",
+            "Requires finding a Stronghold, a key step in reaching the End."
+        ],
+        description: "The Eye Armor Trim Smithing Template is a unique decorative item found exclusively in the libraries of Strongholds. Unlike most other templates which depend on luck, this template is guaranteed to appear in every library chest, rewarding players who thoroughly explore the stronghold structure. It applies the 'Eye' pattern to armor, featuring a prominent eye-like design. Players can duplicate this template using seven diamonds and a block of End Stone, linking its crafting requirement to the dimension the stronghold leads to."
     }
 };
