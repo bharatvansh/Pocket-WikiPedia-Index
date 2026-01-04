@@ -73,5 +73,47 @@ export const woodBlocks = {
             yRange: "Cherry Grove Biome"
         },
         description: "Cherry logs are obtained from cherry trees found in the vibrant cherry grove biome. They feature a unique dark purple bark and a beautiful pinkish interior, making them highly desirable for decorative building. Like other logs, they can be crafted into cherry planks, stripped to create stripped cherry logs, or used as fuel in a furnace."
+    },
+    "minecraft:mangrove_log": {
+        id: "minecraft:mangrove_log",
+        name: "Mangrove Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamp biome"
+        },
+        description: "Mangrove Logs are obtained from Mangrove trees found in Mangrove Swamps. They have a dark brown bark and a deep red interior. Like other logs, they can be crafted into planks or stripped with an axe. Their unique color makes them excellent for building."
+    },
+    "minecraft:bamboo_block": {
+        id: "minecraft:bamboo_block",
+        name: "Block of Bamboo",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Block of Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 9 Bamboo"
+        },
+        description: "A block of bamboo is a wood-like block crafted from nine bamboo items. It functions similarly to other logs, meaning it can be stripped with an axe to create stripped bamboo blocks or crafted into bamboo planks. It features a unique segmented appearance."
     }
 };

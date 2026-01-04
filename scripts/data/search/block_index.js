@@ -1034,5 +1034,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/jukebox_top",
         themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:mangrove_log",
+        name: "Mangrove Log",
+        category: "block",
+        icon: "textures/blocks/mangrove_log",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:bamboo_block",
+        name: "Block of Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo_block",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:big_dripleaf",
+        name: "Big Dripleaf",
+        category: "block",
+        icon: "textures/blocks/big_dripleaf",
+        themeColor: "§a" // green
     }
 ];
