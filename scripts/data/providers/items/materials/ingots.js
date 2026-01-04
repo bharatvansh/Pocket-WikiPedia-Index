@@ -101,6 +101,30 @@ export const ingots = {
         ],
         description: "Gold Ingots are versatile materials used for crafting high-tier food items, decorative blocks, and specialized tools. While golden armor and weapons have low durability, they possess high enchantability. In the Nether, gold ingots are essential for bartering with Piglins, who will exchange various items for the metal. They can be obtained by smelting raw gold or gold ore, found in loot chests, or dropped by Zombified Piglins."
     },
+    "minecraft:iron_nugget": {
+        id: "minecraft:iron_nugget",
+        name: "Iron Nugget",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Iron Ingots, Chains, and Lanterns",
+            secondaryUse: "Recycling iron equipment into useful material"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Iron tools, weapons, or armor", "Fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting iron tools, weapons, or armor",
+            "Can be found in shipwreck chests and taiga village houses",
+            "Nine nuggets combine to craft one Iron Ingot",
+            "Used in crafting Lanterns and Iron Chains",
+            "Piglins may give iron nuggets through bartering (2.43% chance)",
+            "Essential for crafting Lanterns when iron is scarce"
+        ],
+        description: "Iron Nuggets are small fragments of iron metal that serve as a compact way to store iron and craft specific items. They are primarily obtained by smelting iron tools, weapons, or armor in a furnace, effectively recycling unwanted equipment. Nine iron nuggets can be crafted into one iron ingot, making them worth one-ninth of an ingot. These nuggets are essential components for crafting Lanterns and Iron Chains, which cannot be made with whole ingots alone."
+    },
     "minecraft:copper_ingot": {
         id: "minecraft:copper_ingot",
         name: "Copper Ingot",

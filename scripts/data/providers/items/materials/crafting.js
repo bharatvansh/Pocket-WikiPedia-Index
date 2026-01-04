@@ -61,6 +61,31 @@ export const craftingMaterials = {
         ],
         description: "Popped Chorus Fruit is a crafting material produced by smelting Chorus Fruit in a furnace, smoker, or campfire. While the popping process removes its edible properties and teleportation abilities, it transforms the fruit into a hard, durable material essential for creating End-themed architecture. Four pieces of popped chorus fruit can be crafted into Purpur Blocks, and it is also a key component in manufacturing End Rods. This makes it a vital resource for players looking to incorporate the sleek, purple aesthetic of End Cities into their own builds."
     },
+    "minecraft:nether_wart": {
+        id: "minecraft:nether_wart",
+        name: "Nether Wart",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Awkward Potions (base for all potions)",
+            secondaryUse: "Decorative farming in Nether Fortresses"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from Nether Wart in Soul Sand farms"]
+        },
+        specialNotes: [
+            "Primary brewing ingredient for Awkward Potions",
+            "Found in Nether Fortress staircases growing on Soul Sand",
+            "Must be planted on Soul Sand to grow through 3 stages",
+            "Broken at any growth stage, but fully matured yields 2-4 warts",
+            "Can be crafted into Red Nether Brick blocks",
+            "Essential for potion brewing (except Weakness)",
+            "Renewable through Nether Fortress farming"
+        ],
+        description: "Nether Wart is a fundamental brewing material found exclusively in Nether Fortresses, growing on patches of Soul Sand. It is the primary ingredient for brewing Awkward Potions, which serve as the base for nearly all other potions. Players must travel to a Nether Fortress to find the wart, harvest it, and plant their own farm in the Nether. The wart grows through three stages over roughly 34 minutes, yielding 2-4 pieces when fully matured. Beyond brewing, Nether Wart can be crafted into Red Nether Brick blocks for decorative building, making it a valuable resource for both alchemists and builders exploring the Nether."
+    },
     "minecraft:rabbit_foot": {
         id: "minecraft:rabbit_foot",
         name: "Rabbit's Foot",
