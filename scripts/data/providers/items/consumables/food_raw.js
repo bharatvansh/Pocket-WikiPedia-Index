@@ -148,5 +148,34 @@ export const rawFood = {
             "Also used as projectile weapon (deals 0 damage but has knockback)"
         ],
         description: "Eggs are a renewable resource laid by chickens in Minecraft Bedrock Edition every 5-10 minutes. While they cannot be eaten directly, they serve as essential crafting ingredients for cake and pumpkin pie, providing a reliable food source when combined with wheat, milk, sugar, and pumpkins. Additionally, throwing eggs at surfaces has a 12.5% chance to hatch a baby chicken, offering a passive way to expand poultry farms. This dual utility makes eggs valuable for both culinary purposes and animal husbandry. Baby chickens grow into egg-laying adults in roughly 20 minutes, creating a sustainable cycle."
+    },
+    "minecraft:poisonous_potato": {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emergency food source (dangerous)",
+            secondaryUse: "Composting for bonemeal"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["2% drop when harvesting potatoes", "Cannot be cooked or crafted into anything useful"]
+        },
+        specialNotes: [
+            "60% chance to inflict Poison II for 4 seconds (2.5 hearts damage)",
+            "Restores only 2 hunger (1 drumstick) and 1.2 saturation",
+            "Only obtainable as rare drop from potato crops (2% chance per potato)",
+            "Cannot be cooked, planted, or used in any crafting recipes",
+            "Can be composted in composters with 85% success rate",
+            "Serves as early-game emergency food with high risk/reward",
+            "Stacks with regular potatoes but has distinct greenish appearance"
+        ],
+        description: "Poisonous Potatoes are rare, toxic variants of regular potatoes that occasionally drop when harvesting potato crops. They restore minimal hunger while having a 60% chance to inflict Poison II for 4 seconds, dealing significant damage. While dangerous to eat, they can serve as desperate emergency food or be composted for bone meal. Unlike normal potatoes, they cannot be planted, cooked, or used in crafting. Their distinctive green appearance warns players of the risk, though sometimes consuming one is necessary when survival demands extreme measures."
     }
 };

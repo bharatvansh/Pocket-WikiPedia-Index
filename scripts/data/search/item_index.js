@@ -1034,5 +1034,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/quartz",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        category: "item",
+        icon: "textures/items/poisonous_potato",
+        themeColor: "§2" // dark green/poisonous
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "item",
+        icon: "textures/items/sugar_cane",
+        themeColor: "§a" // green/plant
+    },
+    {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        category: "item",
+        icon: "textures/items/bowl",
+        themeColor: "§6" // brown/wood
     }
 ];

@@ -414,6 +414,30 @@ export const craftingMaterials = {
         ],
         description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves a dual purpose as blue dye for coloring wool, banners, and concrete. Beyond its essential role in magical enhancement, lapis can be crafted into blocks for storage and decoration, making it both a functional and aesthetic resource."
     },
+    "minecraft:bowl" : {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting stews and soups",
+            secondaryUse: "Returned empty container after eating stews"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Wooden Planks (any type)"]
+        },
+        specialNotes: [
+            "Crafted from 3 wooden planks in a V arrangement",
+            "Used to craft Mushroom Stew, Beetroot Soup, Rabbit Stew, and Suspicious Stew",
+            "Returned after eating any stew (bowl is not consumed)",
+            "Can be caught as junk when fishing",
+            "Adult turtles drop 1 bowl when killed by lightning",
+            "Essential for early-game food sources in survival mode"
+        ],
+        description: "Bowls are wooden containers used for crafting stews and soups in Minecraft. Crafted from three wooden planks arranged in a V shape, they are essential for creating Mushroom Stew, Beetroot Soup, Rabbit Stew, and Suspicious Stew. After eating any stew, the bowl is returned empty, making it a reusable container. Bowls can also be obtained by fishing or as a rare drop from turtles killed by lightning. They provide an early-game food solution and remain useful throughout gameplay for their various stew recipes."
+    },
     "minecraft:paper": {
         id: "minecraft:paper",
         name: "Paper",
@@ -485,6 +509,31 @@ export const craftingMaterials = {
             "Heals horses by 1 heart and increases their temperament by 3%"
         ],
         description: "Sugar is a versatile food and brewing ingredient derived from sugar cane or honey bottles. While not edible on its own, it is a critical component in several high-value food recipes, including cakes, pumpkin pies, and cookies. In alchemy, sugar is the base ingredient for Potions of Swiftness, which grant players increased movement speed. It is also required to craft Fermented Spider Eyes, which are used to create negative potion effects. Additionally, sugar can be fed to horses to slightly heal them and improve their temperament during taming."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting sugar and paper",
+            secondaryUse: "Renewable source for food and mapmaking"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Found growing naturally near water"]
+        },
+        specialNotes: [
+            "Grows naturally on dirt, grass, sand, podzol, or mycelium near water",
+            "Grows 1 block every ~18 minutes (16 random ticks) up to 3 blocks tall",
+            "Can be displayed as placement-block on valid blocks next to water",
+            "Crafts into Sugar (1:1) or Paper (3 sugar cane = 3 paper)",
+            "Bone meal causes instant growth up to 3 blocks tall",
+            "Requires light level 9+ to grow (daylight or artificial light)",
+            "Can be found growing in desert villages and some structure chests"
+        ],
+        description: "Sugar Cane is a versatile plant that grows naturally near water sources in warm biomes. It is an essential renewable resource for making sugar and paper. One sugar cane crafts into one sugar, while three sugar cane arranged horizontally create three paper. Sugar is vital for baking cakes and brewing speed potions, while paper is indispensable for crafting books, maps, and firework rockets. Sugar cane can be farmed automatically and grows up to three blocks tall when given adequate light and proximity to water. Its renewable nature makes it a staple for long-term survival worlds."
     },
     "minecraft:nether_brick": {
         id: "minecraft:nether_brick",
