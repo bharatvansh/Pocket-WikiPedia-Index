@@ -146,5 +146,71 @@ export const smithingTemplates = {
             "Requires a material (e.g., Gold Ingot, Emerald) to determine the trim color."
         ],
         description: "The Tide Armor Trim Smithing Template is a decorative item that allows players to apply a unique aquatic-themed pattern to their armor. Unlike most smithing templates found in chests, the Tide template is a rare drop from Elder Guardians located in Ocean Monuments, with a 20% chance of dropping when the mob is defeated. Since Elder Guardians do not respawn, obtaining the template from its natural source is limited. However, once found, it can be duplicated using seven diamonds and a block of Prismarine, allowing players to apply the 'Tide' pattern to their entire armor set."
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+        id: "minecraft:rib_armor_trim_smithing_template",
+        name: "Rib Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Rib' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Netherrack", "1x Rib Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Nether Fortress chests with a 6.7% chance.",
+            "Features a skeletal, rib-like pattern on the armor.",
+            "Can be duplicated using 7 Diamonds and 1 Netherrack.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Rib Armor Trim Smithing Template is a decorative item found in Nether Fortresses. It allows players to apply a skeletal rib-cage pattern to their armor using various materials. This trim is popular for its dark and intimidating look, fitting for the dangerous dimension where it is found. Like all armor trims, it can be duplicated with diamonds and its base material—netherrack in this case—to allow for multiple uses."
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+        id: "minecraft:spire_armor_trim_smithing_template",
+        name: "Spire Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Spire' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Purpur Block", "1x Spire Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in End City chests with a 6.7% chance.",
+            "Features a complex, geometric pattern with clean lines and towers.",
+            "Can be duplicated using 7 Diamonds and 1 Purpur Block.",
+            "Requires an End-tier material to find but can be applied to any armor."
+        ],
+        description: "The Spire Armor Trim Smithing Template is a rare decorative item obtained from End Cities. It applies the 'Spire' pattern to armor, which is characterized by its intricate geometric shapes and vertical lines that evoke the architecture of the End. As a late-game collectible, it represents a player's journey to the outer islands of the End. It can be duplicated using seven diamonds and a block of purpur, ensuring that players can outfit their entire gear set with this prestigious design."
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+        id: "minecraft:vex_armor_trim_smithing_template",
+        name: "Vex Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Vex' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Vex Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Woodland Mansion chests with a 6.7% chance.",
+            "Features a pattern inspired by the robes of the Vex and Evoker.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "One of the harder trims to find due to the rarity of Woodland Mansions."
+        ],
+        description: "The Vex Armor Trim Smithing Template is a decorative item found within the chests of Woodland Mansions. This template allows players to apply a pattern to their armor that is reminiscent of the robes worn by Vexes and Evokers. Because Woodland Mansions are among the rarest structures in Minecraft, this trim is a significant trophy for any explorer. It can be duplicated at a crafting table using seven diamonds and cobblestone, making it easier to maintain once the initial template is found."
     }
 };

@@ -1139,5 +1139,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_relic",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:rib_armor_trim_smithing_template",
+        name: "Rib Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/rib_armor_trim_smithing_template",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:spire_armor_trim_smithing_template",
+        name: "Spire Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/spire_armor_trim_smithing_template",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:vex_armor_trim_smithing_template",
+        name: "Vex Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/vex_armor_trim_smithing_template",
+        themeColor: "§7" // gray
     }
 ];
