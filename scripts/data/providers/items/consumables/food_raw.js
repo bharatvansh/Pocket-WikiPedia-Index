@@ -118,6 +118,35 @@ export const rawFood = {
             "Brewing ingredient for Potion of Poison (Awkward Potion + Spider Eye)",
             "Cannot be composted (only plant-based items are compostable)"
         ],
-        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflict the Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
+        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflicts the Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
+    },
+    "minecraft:egg": {
+        id: "minecraft:egg",
+        name: "Egg",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting ingredient for cakes and pumpkin pies",
+            secondaryUse: "Spawning chickens (12.5% chance when thrown)"
+        },
+        food: {
+            hunger: 0,
+            saturation: 0
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Laid by chickens every 5-10 minutes", "Found in village fletcher chests"]
+        },
+        specialNotes: [
+            "Cannot be eaten directly in Bedrock Edition",
+            "Chickens lay eggs every 5-10 minutes in loaded chunks",
+            "Throwing eggs has 12.5% chance to spawn a baby chicken",
+            "Used to craft Cake (3 eggs required)",
+            "Used to craft Pumpkin Pie (1 egg required)",
+            "Baby chickens spawned from eggs grow into adults in 20 minutes",
+            "Also used as projectile weapon (deals 0 damage but has knockback)"
+        ],
+        description: "Eggs are a renewable resource laid by chickens in Minecraft Bedrock Edition every 5-10 minutes. While they cannot be eaten directly, they serve as essential crafting ingredients for cake and pumpkin pie, providing a reliable food source when combined with wheat, milk, sugar, and pumpkins. Additionally, throwing eggs at surfaces has a 12.5% chance to hatch a baby chicken, offering a passive way to expand poultry farms. This dual utility makes eggs valuable for both culinary purposes and animal husbandry. Baby chickens grow into egg-laying adults in roughly 20 minutes, creating a sustainable cycle."
     }
 };

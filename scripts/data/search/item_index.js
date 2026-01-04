@@ -322,6 +322,13 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:egg",
+        name: "Egg",
+        category: "item",
+        icon: "textures/items/egg",
+        themeColor: "§f" // white/egg color
+    },
+    {
         id: "minecraft:echo_shard",
         name: "Echo Shard",
         category: "item",
@@ -355,6 +362,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/rabbit_foot",
         themeColor: "§c" // orange/pink
+    },
+    {
+        id: "minecraft:rotten_flesh",
+        name: "Rotten Flesh",
+        category: "item",
+        icon: "textures/items/rotten_flesh",
+        themeColor: "§c" // red/brown
     },
     {
         id: "minecraft:name_tag",
@@ -655,6 +669,13 @@ export const itemIndex = [
         name: "Bone",
         category: "item",
         icon: "textures/items/bone",
+        themeColor: "§f" // white/bone color
+    },
+    {
+        id: "minecraft:bone_meal",
+        name: "Bone Meal",
+        category: "item",
+        icon: "textures/items/bone_meal",
         themeColor: "§f" // white/bone color
     },
     {

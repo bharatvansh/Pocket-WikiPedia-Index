@@ -172,5 +172,34 @@ export const specialFood = {
             "Essentially a 'junk' item with very limited utility in survival"
         ],
         description: "The Poisonous Potato is a variant of the potato that has a small chance of dropping when harvesting fully grown potato crops. Unlike regular potatoes, it cannot be planted to grow more or cooked in a furnace to make baked potatoes. While it can be eaten to restore a small amount of hunger, it has a high probability of inflicting the Poison status effect, which drains the player's health. Most players use them in composters, where they have a high chance of contributing towards bone meal production."
+    },
+    "minecraft:rotten_flesh": {
+        id: "minecraft:rotten_flesh",
+        name: "Rotten Flesh",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emergency food source",
+            secondaryUse: "Trading with Cleric villagers"
+        },
+        food: {
+            hunger: 4,
+            saturation: 0.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by zombies and variants", "Found in chest loot"]
+        },
+        specialNotes: [
+            "Restores 4 hunger points (2 drumsticks) and 0.8 saturation",
+            "80% chance to inflict Hunger for 30 seconds in Bedrock Edition",
+            "Zombies drop 0-2 rotten flesh (increased by Looting)",
+            "Drowned, Husks, and Zombie Villagers also drop rotten flesh",
+            "Cleric villagers buy 32 rotten flesh for 1 emerald",
+            "Can be fed to wolves without causing hunger effect",
+            "Not compostable due to being meat-based"
+        ],
+        description: "Rotten Flesh is a common mob drop from zombies and their variants including Drowned, Husks, and Zombie Villagers. While it restores 4 hunger points, consuming it carries an 80% chance of inflicting the Hunger effect for 30 seconds in Bedrock Edition, making it a risky emergency food. However, wolves can safely consume it without any negative effects. Rotten Flesh serves as a renewable resource through zombie farming, and Cleric villagers offer emeralds in exchange for it, providing a consistent trading option. This item exemplifies Minecraft's risk-reward gameplay, offering sustenance at the cost of potential debuffs."
     }
 };
