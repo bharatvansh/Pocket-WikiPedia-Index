@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        category: "item",
+        icon: "textures/items/seeds_wheat",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        category: "item",
+        icon: "textures/items/iron_horse_armor",
+        themeColor: "§f" // white/iron
+    },
+    {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        category: "item",
+        icon: "textures/items/prize_pottery_sherd",
+        themeColor: "§6" // gold/archaeology
     }
 ];

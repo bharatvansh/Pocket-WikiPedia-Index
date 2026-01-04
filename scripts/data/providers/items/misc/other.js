@@ -393,6 +393,25 @@ export const miscItems = {
         ],
         description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
     },
+    "minecraft:iron_horse_armor": {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed horse to provide protection",
+            secondaryUse: "Smelting into an Iron Nugget"
+        },
+        specialNotes: [
+            "Provides 5 armor points (2.5 chestplates) to horses.",
+            "Cannot be crafted; obtained from loot chests in structures.",
+            "Has infinite durability, unlike player armor.",
+            "Can be smelted in a furnace to recover one Iron Nugget.",
+            "Found in Dungeons, Nether Fortresses, Villages, and End Cities."
+        ],
+        description: "Iron Horse Armor is a tier of protective gear for tamed horses, offering 5 points of defense. It cannot be crafted and is exclusively obtained as loot from structures like Dungeons, Strongholds, and End Cities. Unlike player armor, it has infinite durability. In Bedrock Edition, it possesses the unique property of being smeltable into a single Iron Nugget."
+    },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
         name: "Item Frame",

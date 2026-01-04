@@ -829,5 +829,52 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:wheat_seeds": {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Wheat crops",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Breaking tall grass", "Harvesting mature wheat crops"]
+        },
+        specialNotes: [
+            "Essential agricultural item for starting a wheat farm",
+            "Obtained by breaking tall grass or harvesting fully grown wheat (0-3 seeds in Bedrock)",
+            "Used to breed chickens and accelerate the growth of baby chickens by 10%",
+            "Can be used to tame parrots in Bedrock Edition",
+            "Composting in a composter has a 30% chance to raise the compost level by 1",
+            "Requires hydrated farmland and light level 9+ to grow effectively"
+        ],
+        description: "Wheat Seeds are a fundamental agricultural item used to grow Wheat crops. They can be obtained by breaking tall grass or harvesting mature wheat. In addition to farming, they are essential for breeding chickens, accelerating the growth of chicks, and taming parrots in Bedrock Edition. When planted on hydrated farmland, they go through 8 growth stages before harvest."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Decorative archaeological item symbolizing wealth"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "Discovered by using a Brush on Suspicious Sand inside Desert Pyramids",
+            "Features a diamond-like symbol representing a 'prize' or treasure",
+            "One of the 20 distinct pottery sherds introduced in the Trails & Tales update",
+            "Used as a crafting ingredient for Decorated Pots to display the prize pattern",
+            "Cannot be crafted; must be excavated via archaeology"
+        ],
+        description: "The Prize Pottery Sherd is a decorative ceramic fragment unearthed via archaeology. Players can discover it by brushing Suspicious Sand found within Desert Pyramids. The sherd displays a distinct diamond icon, symbolizing treasure or reward. It can be crafted into a Decorated Pot to showcase this 'prize' motif on one of the pot's faces."
     }
 };
