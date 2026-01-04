@@ -887,5 +887,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mangrove_propagule",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:bell",
+        name: "Bell",
+        category: "block",
+        icon: "textures/blocks/bell",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:fletching_table",
+        name: "Fletching Table",
+        category: "block",
+        icon: "textures/blocks/fletching_table",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:observer",
+        name: "Observer",
+        category: "block",
+        icon: "textures/blocks/observer",
+        themeColor: "§7"
     }
 ];
