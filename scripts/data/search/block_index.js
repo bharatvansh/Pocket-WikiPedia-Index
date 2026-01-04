@@ -966,6 +966,27 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:glass",
+        name: "Glass",
+        category: "block",
+        icon: "textures/blocks/glass",
+        themeColor: "§f" // white/transparent
+    },
+    {
+        id: "minecraft:tinted_glass",
+        name: "Tinted Glass",
+        category: "block",
+        icon: "textures/blocks/tinted_glass",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        category: "block",
+        icon: "textures/blocks/crafting_table_top",
+        themeColor: "§6" // wood/brown
+    },
+    {
         id: "minecraft:lever",
         name: "Lever",
         category: "block",

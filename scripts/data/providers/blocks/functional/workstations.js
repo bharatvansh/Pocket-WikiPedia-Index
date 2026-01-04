@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const workstationBlocks = {
+    "minecraft:crafting_table": {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crafting Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted; also generates in swamp huts, igloos, trail ruins, pillager outpost tents, trial chambers, and some village houses (Bedrock)"
+        },
+        description: "The Crafting Table expands crafting from a 2×2 grid to a full 3×3 interface, enabling most recipes in Minecraft. It is crafted from four planks and also generates in multiple Overworld structures, including swamp huts, igloos, and trail ruins; in Bedrock Edition it can appear in some small village houses. Crafting tables can also be used as fuel, smelting 1.5 items per table."
+    },
     "minecraft:smoker": {
         id: "minecraft:smoker",
         name: "Smoker",
