@@ -887,5 +887,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mangrove_propagule",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        category: "block",
+        icon: "textures/items/barrier",
+        themeColor: "§c"
     }
 ];
