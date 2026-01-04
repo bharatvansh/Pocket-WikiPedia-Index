@@ -13,6 +13,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const miscItems = {
+    "minecraft:painting": {
+        id: "minecraft:painting",
+        name: "Painting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative entity placed on walls",
+            secondaryUse: "Concealing secret entrances"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x8", "Any Wool x1"]
+        },
+        specialNotes: [
+            "Places a random painting variant based on available space",
+            "Can be walked through if the supporting blocks behind it are removed",
+            "Can share space with non-colliding blocks (torches, signs)",
+            "Drops as an item if the supporting block is broken",
+            "There are 31 different painting variants in Bedrock Edition",
+            "Shepherd villagers sell paintings for emeralds"
+        ],
+        description: "A Painting is a decorative entity that can be placed on the vertical sides of solid blocks. Unlike most decorations, paintings are entities, allowing them to share space with other blocks like torches or be walked through if the blocks behind them are removed—a feature commonly used to create secret entrances. When placed, the game selects a random canvas size and art style that fits the available space. Crafted from sticks and wool, paintings act as a simple yet versatile way to add artistic flair or hidden passages to a build."
+    },
     "minecraft:dragon_egg": {
         id: "minecraft:dragon_egg",
         name: "Dragon Egg",

@@ -7,6 +7,27 @@
  */
 export const itemIndex = [
     {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        category: "item",
+        icon: "textures/items/snowball",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        category: "item",
+        icon: "textures/items/arrow",
+        themeColor: "§f" // white/feather
+    },
+    {
+        id: "minecraft:painting",
+        name: "Painting",
+        category: "item",
+        icon: "textures/items/painting",
+        themeColor: "§f" // white/canvas
+    },
+    {
         id: "minecraft:iron_sword",
         name: "Iron Sword",
         category: "item",
