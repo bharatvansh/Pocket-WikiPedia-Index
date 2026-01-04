@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:gravel",
+        name: "Gravel",
+        category: "block",
+        icon: "textures/blocks/gravel",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:ice",
+        name: "Ice",
+        category: "block",
+        icon: "textures/blocks/ice",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        category: "block",
+        icon: "textures/blocks/pumpkin_side",
+        themeColor: "§6" // orange
     }
 ];

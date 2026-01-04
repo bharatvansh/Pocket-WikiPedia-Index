@@ -136,5 +136,26 @@ export const dirtBlocks = {
             yRange: "Trail Ruins and Cold Ocean Ruins"
         },
         description: "Suspicious gravel is a fragile, gravity-affected block found in Trail Ruins and Cold Ocean Ruins. Using a brush on naturally generated suspicious gravel reveals hidden items, including pottery sherds, emeralds, wheat, and various tools. The brushing process takes 4.8 seconds, after which the block converts to regular gravel. Suspicious gravel drops nothing if broken or moved, and naturally generated blocks must be brushed to obtain loot."
+    },
+    "minecraft:gravel": {
+        id: "minecraft:gravel",
+        name: "Gravel",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Gravel", "Flint"],
+        generation: {
+            dimension: "Overworld, Nether",
+            yRange: "Any level, typically near water or underground"
+        },
+        description: "Gravel is a gravity-affected block found in the Overworld and the Nether. It generates near water bodies, in underground veins, and in the Nether. When broken, it has a 10% chance to drop flint instead of itself, unless mined with Silk Touch or if the gravel falls on a non-solid block. It is useful for crafting concrete powder and finding flint for arrows and flint and steel."
     }
 };

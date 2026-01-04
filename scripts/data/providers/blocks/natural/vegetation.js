@@ -267,5 +267,26 @@ export const vegetationBlocks = {
             yRange: "Lush Caves"
         },
         description: "Big Dripleaf is a plant found in Lush Caves. It can be used as a temporary platform; if an entity stands on it for too long, the leaf tilts and the entity falls through. It can be grown larger using bone meal and its tilting behavior can be prevented with a redstone signal."
+    },
+    "minecraft:pumpkin": {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pumpkin"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (grassy biomes)"
+        },
+        description: "A Pumpkin is a fruit block that appears in patches in grassy biomes. It can be carved with shears to create a Carved Pumpkin, which can be worn as a helmet or used to build Golems. Pumpkins can also be crafted into Pumpkin Pie or Pumpkin Seeds for farming. Although it appears solid, it is technically transparent and blocks light."
     }
 };
