@@ -55,6 +55,27 @@ export const redstoneBlocks = {
         },
         description: "A target is a block that produces a temporary redstone signal when hit by a projectile. The strength of the signal depends on how close the projectile is to the center of the block."
     },
+    "minecraft:lever": {
+        id: "minecraft:lever",
+        name: "Lever",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lever"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted; Jungle Temples, Woodland Mansions, Ancient Cities"
+        },
+        description: "A Lever is a simple redstone switch that toggles between on and off, providing a constant signal for circuits, doors, and machines. It can be attached to floors, walls, ceilings, and some upside-down slabs or stairs, making it easy to integrate into builds. In Bedrock Edition, levers are waterloggable, break quickly, and can generate in jungle temples, woodland mansions, and ancient cities."
+    },
     "minecraft:observer": {
         id: "minecraft:observer",
         name: "Observer",

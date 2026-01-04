@@ -30,6 +30,48 @@ export const sculkBlocks = {
         },
         description: "Sculk is a decorative block found in the Deep Dark biome. It has an animated texture with glowing spots, though it does not emit light. Sculk spreads when a nearby Sculk Catalyst is activated by a mob death. It drops experience when mined without Silk Touch, making it a good source of XP."
     },
+    "minecraft:sculk_vein": {
+        id: "minecraft:sculk_vein",
+        name: "Sculk Vein",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Sculk Vein (requires Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deep Dark biome"
+        },
+        description: "Sculk Vein is a thin, multiface sculk growth that can spread across any side of a block, similar to glow lichen. It generates naturally in the Deep Dark and can also appear when a nearby Sculk Catalyst converts mob deaths. It is waterloggable, resists being washed away by fluids, and only drops itself with Silk Touch."
+    },
+    "minecraft:sculk_sensor": {
+        id: "minecraft:sculk_sensor",
+        name: "Sculk Sensor",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Sculk Sensor (requires Silk Touch)", "5 XP (without Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deep Dark biome and Ancient Cities"
+        },
+        description: "The Sculk Sensor detects vibrations in an 8-block radius and emits a redstone signal whose strength depends on the distance to the event. Player-made vibrations can also trigger nearby Sculk Shriekers, and wool blocks can block the signal path for stealth. It is mined fastest with a hoe and only drops itself with Silk Touch."
+    },
     "minecraft:calibrated_sculk_sensor": {
         id: "minecraft:calibrated_sculk_sensor",
         name: "Calibrated Sculk Sensor",

@@ -511,6 +511,20 @@ export const blockIndex = [
         themeColor: "§d" // light purple (sculk theme)
     },
     {
+        id: "minecraft:sculk_sensor",
+        name: "Sculk Sensor",
+        category: "block",
+        icon: "textures/blocks/sculk_sensor",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:sculk_vein",
+        name: "Sculk Vein",
+        category: "block",
+        icon: "textures/blocks/sculk_vein",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
         id: "minecraft:exposed_copper_door",
         name: "Exposed Copper Door",
         category: "block",
@@ -950,5 +964,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/observer",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:lever",
+        name: "Lever",
+        category: "block",
+        icon: "textures/blocks/lever",
+        themeColor: "§7" // gray/stone
     }
 ];
