@@ -11,6 +11,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const smithingTemplates = {
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying 'Sentry' trim to armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests (25% chance)",
+            "Features a simple pattern with bands across the chest and helmet",
+            "Duplicated with Cobblestone",
+            "Consumed upon use in a Smithing Table unless duplicated",
+            "Can be applied to any armor type (Iron, Gold, Diamond, Netherite)"
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item found in Pillager Outpost chests. It applies the 'Sentry' pattern to armor, characterized by sturdy bands across the chestplate and helmet, resembling the armor of a Pillager. Like other templates, it is consumed on use but can be duplicated in a crafting table using seven diamonds and a block of cobblestone. This trim offers a rugged, reinforced look ideal for players wanting a pillager-inspired aesthetic."
+    },
     "minecraft:netherite_upgrade_smithing_template": {
         id: "minecraft:netherite_upgrade_smithing_template",
         name: "Netherite Upgrade Smithing Template",

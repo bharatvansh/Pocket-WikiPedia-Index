@@ -10,6 +10,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const musicDiscs = {
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Dungeon, Ancient City, and Woodland Mansion chests", "Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "A light, looping melody with synth percussion",
+            "Duration: 3 minutes and 5 seconds",
+            "One of the first two discs added to Minecraft (along with 13)",
+            "Found in Dungeon (19.4%), Ancient City (16.1%), and Woodland Mansion (21.5%) chests"
+        ],
+        description: "'Cat' is a light, melodic music disc composed by C418. It features a cheerful, looping synthesizer melody accompanied by a soft percussion beat. Along with '13', it was one of the first music discs added to the game. It can be found in dungeon, ancient city, and woodland mansion chests, or obtained when a creeper is killed by a skeleton or stray. When played in a jukebox, it emits a redstone signal strength of 2."
+    },
     "minecraft:music_disc_creator": {
         id: "minecraft:music_disc_creator",
         name: "Music Disc (Creator)",

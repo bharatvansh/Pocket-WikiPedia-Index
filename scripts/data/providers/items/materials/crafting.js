@@ -14,6 +14,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const craftingMaterials = {
+    "minecraft:archer_pottery_sherd": {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Archer motif",
+            secondaryUse: "Decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "One of 20 unique pottery sherds available in Minecraft",
+            "Found exclusively by using a Brush on Suspicious Sand in Desert Pyramids (12.5% chance)",
+            "Used to craft a Decorated Pot with a bow and arrow design on the side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used",
+            "Adds a historical and decorative touch to player builds"
+        ],
+        description: "The Archer Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within desert pyramids. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a bow and arrow to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and combat prowess."
+    },
     "minecraft:stick": {
         id: "minecraft:stick",
         name: "Stick",
