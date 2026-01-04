@@ -138,10 +138,10 @@ export const musicDiscs = {
         },
         specialNotes: [
             "Composed by Lena Raine.",
-            "Found in Stronghold Altar chests (2.4%) and Ancient City chests (8.4%).",
+            "Found in Strongholds (2.4%), Ancient Cities (8.4%), and Dungeons (2.8%).",
             "The track has an upbeat, cheerful melody that evolves into a nostalgic tune.",
             "Emits a redstone signal of 14 when played in a Jukebox."
         ],
-        description: "Music Disc 'Otherside' is a rare track composed by Lena Raine, introduced in the 1.18 Caves & Cliffs Part II update. It features an uplifting and catchy melody that transitions through various musical styles, ending on a more reflective note. Unlike most music discs which are dropped by creepers killed by skeletons, 'Otherside' can only be found in chests within Strongholds and Ancient Cities. When played in a Jukebox, it provides both entertainment and a strong redstone signal of 14, making it useful for certain redstone contraptions."
+        description: "Music Disc 'Otherside' is a rare track composed by Lena Raine, introduced in the 1.18 Caves & Cliffs Part II update. It features an uplifting and catchy melody that transitions through various musical styles. Unlike most music discs which are dropped by creepers killed by skeletons, 'Otherside' is found exclusively in chests within Strongholds, Ancient Cities, and Dungeons. When played in a Jukebox, it provides both entertainment and a strong redstone signal of 14, making it useful for certain redstone contraptions."
     }
 };
