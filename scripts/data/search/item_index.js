@@ -287,6 +287,13 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/coast_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:brush",
         name: "Brush",
         category: "item",
@@ -945,6 +952,13 @@ export const itemIndex = [
         themeColor: "§f" // white/pink
     },
     {
+        id: "minecraft:miner_pottery_sherd",
+        name: "Miner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/miner_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:mushroom_stew",
         name: "Mushroom Stew",
         category: "item",
@@ -985,6 +999,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_ingot",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        category: "item",
+        icon: "textures/items/music_disc_11",
+        themeColor: "§b"
     },
     {
         id: "minecraft:music_disc_5",
