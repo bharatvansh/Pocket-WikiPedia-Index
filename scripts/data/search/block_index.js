@@ -21,6 +21,27 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:dripstone_block",
+        name: "Dripstone Block",
+        category: "block",
+        icon: "textures/blocks/dripstone_block",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        category: "block",
+        icon: "textures/blocks/ochre_froglight",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:pearlescent_froglight",
+        name: "Pearlescent Froglight",
+        category: "block",
+        icon: "textures/blocks/pearlescent_froglight",
+        themeColor: "§d" // light purple
+    },
+    {
         id: "minecraft:deepslate",
         name: "Deepslate",
         category: "block",
