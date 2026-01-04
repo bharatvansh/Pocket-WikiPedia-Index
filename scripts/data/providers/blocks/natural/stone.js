@@ -157,5 +157,26 @@ export const stoneBlocks = {
             yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
         },
         description: "Pointed Dripstone forms stalactites pointing downward from dripstone blocks and stalagmites pointing upward from surfaces. It generates naturally in dripstone caves and Trial Chambers, and can be purchased from wandering traders. Stalactites fall as damaging projectiles when broken, while stalagmites deal extra damage to entities landing on them. When water is above a stalactite, it drips water or lava particles into cauldrons below. Pointed dripstone grows slowly from stalagmites toward stalactites when water is above dripstone block. This decorative block creates cave-like atmospheres."
+    },
+    "minecraft:dripstone_block": {
+        id: "minecraft:dripstone_block",
+        name: "Dripstone Block",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dripstone Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
+        },
+        description: "The Dripstone Block is a natural stone block found in dripstone caves and Trial Chambers that allows pointed dripstone to grow beneath it. When water is placed above it, stalactites and stalagmites form over time. Dripstone blocks can be mined with any pickaxe tier, dropping themselves when broken. They are primarily used for decoration and creating natural cave aesthetics. When water drips from stalactites, they can fill cauldrons below with water or lava depending on the source block."
     }
 };

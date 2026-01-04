@@ -93,5 +93,47 @@ export const lightingBlocks = {
             yRange: "Frog interaction (magma cube consumption)"
         },
         description: "Verdant Froglight is a vibrant green light-emitting block that provides the maximum light level of 15, making it an excellent light source for builds. It is obtained when a temperate (green) frog eats a tiny magma cube in the Nether. The block is exceptionally fragile with only 0.3 hardness and blast resistance, breaking instantly with any tool or by hand. Froglights come in three variants depending on the frog type: pearlescent (cold frog), ochre (warm frog), and verdant (temperate frog). Unlike many light sources, froglights are renewable through frog farming and magma cube spawning."
+    },
+    "minecraft:ochre_froglight": {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Ochre Froglight"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Frog interaction (warm frog eating magma cube)"
+        },
+        description: "Ochre Froglight is a warm-toned, amber-orange light-emitting block that produces light level 15, ideal for creating cozy golden glow in builds. This variant is obtained when a warm (orange) frog consumes a tiny magma cube in the Nether. With only 0.3 hardness, it breaks instantly with any tool. The ochre froglight complements verdant and pearlescent variants for varied lighting effects. Like all froglights, it is renewable through breeding frogs and spawning magma cubes."
+    },
+    "minecraft:pearlescent_froglight": {
+        id: "minecraft:pearlescent_froglight",
+        name: "Pearlescent Froglight",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Pearlescent Froglight"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Frog interaction (cold frog eating magma cube)"
+        },
+        description: "Pearlescent Froglight is an elegant, soft white and pale purple light-emitting block that emits light level 15, providing cool-toned illumination for serene atmospheres. This rare variant is obtained when a cold (white/tan) frog consumes a tiny magma cube in the Nether. With only 0.3 hardness, it requires careful placement. Pearlescent froglight joins verdant and ochre variants to complete the froglight family."
     }
 };
