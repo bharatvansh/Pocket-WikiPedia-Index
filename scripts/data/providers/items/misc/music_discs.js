@@ -79,6 +79,30 @@ export const musicDiscs = {
         ],
         description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
     },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Dungeon, Ancient City, or Woodland Mansion chests", "Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Found in Dungeon (21.5%), Woodland Mansion (21.8%), and Ancient City (16.1%) chests",
+            "Can be obtained when a Skeleton or Stray kills a Creeper",
+            "Emits a redstone signal strength of 2 when played in a Jukebox",
+            "One of the original music discs added to the game",
+            "Features a light, cheerful, and synth-heavy melody"
+        ],
+        description: "'Cat' is a music disc composed by C418, known for its light, playful, and whimsical synth melody. It is one of the two original music discs in Minecraft (along with '13'). Players can find it in the chests of Dungeons, Woodland Mansions, and Ancient Cities, or obtain it by tricking a Skeleton or Stray into shooting the final blow on a Creeper. When placed in a Jukebox, it outputs a redstone signal strength of 2 to any attached Comparator, which corresponds to its ID order among the discs."
+    },
     "minecraft:music_disc_5": {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",

@@ -140,6 +140,13 @@ export const itemIndex = [
         themeColor: "§6" // copper
     },
     {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/dune_armor_trim_smithing_template",
+        themeColor: "§e" // yellow/sand
+    },
+    {
         id: "minecraft:music_disc_creator",
         name: "Music Disc (Creator)",
         category: "item",
@@ -187,6 +194,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_precipice",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:creeper_banner_pattern",
@@ -1180,6 +1194,13 @@ export const itemIndex = [
         name: "Angler Pottery Sherd",
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        category: "item",
+        icon: "textures/items/blade_pottery_sherd",
         themeColor: "§6"
     }
 ];
