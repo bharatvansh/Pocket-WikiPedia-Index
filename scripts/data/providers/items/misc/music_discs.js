@@ -143,5 +143,30 @@ export const musicDiscs = {
             "Emits a redstone signal of 14 when played in a Jukebox."
         ],
         description: "Music Disc 'Otherside' is a rare track composed by Lena Raine, introduced in the 1.18 Caves & Cliffs Part II update. It features an uplifting and catchy melody that transitions through various musical styles. Unlike most music discs which are dropped by creepers killed by skeletons, 'Otherside' is found exclusively in chests within Strongholds, Ancient Cities, and Dungeons. When played in a Jukebox, it provides both entertainment and a strong redstone signal of 14, making it useful for certain redstone contraptions."
+    },
+    "minecraft:music_disc_relic": {
+        id: "minecraft:music_disc_relic",
+        name: "Music Disc (Relic)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Relic' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 14 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing suspicious gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Composed by Aaron Cherof",
+            "Found as archaeology loot by brushing suspicious gravel in Trail Ruins",
+            "Non-renewable in survival",
+            "Emits a comparator signal strength of 14 when played in a Jukebox",
+            "Rarity is classified as 'Uncommon' in Bedrock Edition",
+            "Track length is 3 minutes and 38 seconds",
+            "Cannot be obtained from Creepers killed by Skeletons"
+        ],
+        description: "Music Disc 'Relic' is a disc that plays Aaron Cherof's track of the same name when inserted into a Jukebox. In Minecraft Bedrock Edition it is found through archaeology, obtained by brushing suspicious gravel in Trail Ruins rather than from mob drops. When played, it outputs a comparator signal strength of 14, making it useful for redstone builds that sort or detect specific discs."
     }
 };
