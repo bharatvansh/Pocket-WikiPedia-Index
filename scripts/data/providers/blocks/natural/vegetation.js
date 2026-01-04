@@ -246,5 +246,26 @@ export const vegetationBlocks = {
             yRange: "Mangrove Swamps"
         },
         description: "Mangrove Roots are the distinctive exposed roots that form the foundation of mangrove trees in Mangrove Swamp biomes. Unlike similar decorative blocks, these roots have a unique redstone-conducting property, allowing them to transmit redstone signals through their fibrous structure. This makes them valuable for creating hidden redstone circuits or underwater redstone mechanisms. Mangrove Roots can be harvested with any tool, with axes being the most efficient. They have a distinctive brown, fibrous appearance and can be used both for their redstone functionality and as decorative elements in swamp-themed builds or underground base construction."
+    },
+    "minecraft:big_dripleaf": {
+        id: "minecraft:big_dripleaf",
+        name: "Big Dripleaf",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Big Dripleaf"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Big Dripleaf is a plant found in Lush Caves. It can be used as a temporary platform; if an entity stands on it for too long, the leaf tilts and the entity falls through. It can be grown larger using bone meal and its tilting behavior can be prevented with a redstone signal."
     }
 };
