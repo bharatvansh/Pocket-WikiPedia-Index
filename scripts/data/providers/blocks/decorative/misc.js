@@ -285,5 +285,26 @@ export const miscDecorativeBlocks = {
             yRange: "Warm Ocean Ruins (Loot)"
         },
         description: "The sniffer egg is a large, decorative block that eventually hatches into a snifflet. It can be found in suspicious sand within warm ocean ruins or obtained by breeding two adult sniffers. When placed on a moss block, the egg hatches in approximately 10 minutes, which is twice as fast as on any other block type."
+    },
+    "minecraft:amethyst_cluster": {
+        id: "minecraft:amethyst_cluster",
+        name: "Amethyst Cluster",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 5,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Amethyst Shard (4)", "Amethyst Cluster (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "An Amethyst Cluster is the fourth and final stage of growth for an amethyst bud. Found exclusively in amethyst geodes on budding amethyst blocks, it emits a soft light level of 5. When mined with a pickaxe of any tier, it drops four amethyst shards, which can be increased with the Fortune enchantment. If mined with any other tool or by hand, it drops nothing unless harvested with a Silk Touch tool. Amethyst clusters are highly decorative and make a pleasant chime sound when walked on or broken."
     }
 };
