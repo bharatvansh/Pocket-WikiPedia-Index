@@ -327,5 +327,26 @@ export const miscDecorativeBlocks = {
             yRange: "Laid by frogs in water"
         },
         description: "Frogspawn is a non-solid block that is laid by frogs after they are bred with slimeballs in Minecraft Bedrock Edition. It must be placed on the surface of water that has at least one air block above it. Over time, it hatches into tadpoles, with the duration depending on random ticks. Frogspawn is extremely fragile; it is destroyed instantly if broken by any means, even with Silk Touch, and does not drop as an item. It is also destroyed if the water underneath it is removed or if a player or most entities fall on it, making it one of the most delicate blocks in the game."
+    },
+    "minecraft:turtle_egg": {
+        id: "minecraft:turtle_egg",
+        name: "Turtle Egg",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Turtle Egg"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Sandy beaches"
+        },
+        description: "Turtle Eggs are blocks laid by sea turtles on sandy beaches after breeding. They must be placed on sand or red sand to hatch into baby turtles over several nights. These eggs are extremely fragile; they can be broken if players or mobs jump on them. Mobs like zombies and skeletons are attracted to turtle eggs and will actively try to trample them. Using a tool with Silk Touch is required to obtain the egg as an item; otherwise, it will break and drop nothing. They can be placed in clusters of up to four on a single block."
     }
 };

@@ -1160,5 +1160,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_campfire",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:turtle_egg",
+        name: "Turtle Egg",
+        category: "block",
+        icon: "textures/items/turtle_egg",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dried_kelp_block",
+        name: "Dried Kelp Block",
+        category: "block",
+        icon: "textures/blocks/dried_kelp_block",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:small_dripleaf",
+        name: "Small Dripleaf",
+        category: "block",
+        icon: "textures/blocks/small_dripleaf",
+        themeColor: "§a" // green
     }
 ];
