@@ -1042,5 +1042,67 @@ export const hostileMobs = {
             { item: "Experience", chance: "3" }
         ],
         description: "Endermites are the smallest hostile mobs in Minecraft, resembling small, purple silverfish. They have a 5% chance of spawning whenever a player throws an ender pearl. Endermen are naturally hostile to endermites and will attack them on sight within a 64-block range. Endermites are short-lived, despawning after two minutes unless given a name tag. While individually weak, their small hitbox and quick movement can make them a nuisance. They provide a unique interaction between player teleportation and the mysterious creatures of the End."
+    },
+    "minecraft:wither": {
+        id: "minecraft:wither",
+        name: "Wither",
+        health: 450,
+        stats: {
+            attackDamage: 8,
+            movementSpeed: 0.6
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Summoned"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Summoned by placing 4 Soul Sand/Soil in a T-shape with 3 Wither Skeleton Skulls on top.",
+            "Explodes upon spawning, causing massive damage to nearby blocks and mobs.",
+            "Fires Wither Skulls that apply the Wither II effect, draining health over time.",
+            "Regenerates health over time and gains armor when its health drops below 50%.",
+            "In Bedrock, it spawns Wither Skeletons and performs a dash attack at half health.",
+            "Hostile to all living mobs except undead ones and Ghasts.",
+            "Explodes violently when defeated before dropping its loot."
+        ],
+        drops: [
+            { item: "Nether Star", chance: "1" }
+        ],
+        description: "The Wither is a powerful, three-headed undead boss mob summoned by players. Upon spawning, it creates a massive explosion and begins firing explosive skulls at nearby targets. In Bedrock Edition, the Wither is significantly more formidable, possessing double the health of its Java counterpart and gaining new attacks like a powerful dash and summoning Wither Skeletons when its health is reduced to half. It is the only source of the Nether Star, a critical component for crafting beacons."
+    },
+    "minecraft:ender_dragon": {
+        id: "minecraft:ender_dragon",
+        name: "Ender Dragon",
+        health: 200,
+        stats: {
+            attackDamage: 10,
+            movementSpeed: 0.5
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["The End"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Flies around the End, perching on the exit portal periodically.",
+            "Heals itself using End Crystals located on top of obsidian pillars.",
+            "Launches Dragon Fireballs and uses Dragon's Breath to create harmful purple clouds.",
+            "Highly resistant to most status effects and cannot be caught in minecarts or boats.",
+            "Melee attacks deal high damage and knock players high into the air.",
+            "Destroys most blocks it comes into contact with, except those naturally found in the End."
+        ],
+        drops: [
+            { item: "Dragon Egg", chance: "1 (First Dragon)" },
+            { item: "Experience", chance: "12,000 (First Dragon)" }
+        ],
+        description: "The Ender Dragon is a massive flying boss mob and the primary antagonist of Minecraft, residing in the End dimension. It utilizes a variety of attacks, including diving at players, breathing harmful clouds of purple gas, and firing explosive fireballs. Players must typically destroy the End Crystals atop obsidian pillars to prevent the dragon from regenerating health. Defeating the dragon opens the exit portal, grants a massive amount of experience, and allows access to the outer islands."
     }
 };

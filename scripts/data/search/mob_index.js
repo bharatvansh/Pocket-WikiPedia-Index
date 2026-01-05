@@ -488,5 +488,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_endermite.png",
         themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:wither",
+        name: "Wither",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wither.png",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:ender_dragon",
+        name: "Ender Dragon",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ender_dragon.png",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:cat",
+        name: "Cat",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cat.png",
+        themeColor: "§7" // gray
     }
 ];
