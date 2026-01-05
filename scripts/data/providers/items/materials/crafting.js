@@ -893,5 +893,53 @@ export const craftingMaterials = {
             "Introduced as part of the Pale Garden update (1.21.40 Bedrock)."
         ],
         description: "Resin Bricks are durable crafting materials obtained by hardening Resin Clumps through the smelting process. Found in the eerie Pale Garden biome, these bricks serve as the primary component for constructing Resin Bricks blocks and Resin Walls. Their distinctive orange-brown hue makes them an excellent choice for players looking to add unique color and texture to their builds. As a part of the Pale Garden's ecosystem, Resin Bricks represent the transformation of organic resin into a solid, reliable building material."
+    },
+    "minecraft:eye_of_ender": {
+        id: "minecraft:eye_of_ender",
+        name: "Eye of Ender",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating strongholds and activating End Portals",
+            secondaryUse: "Crafting Ender Chests and End Crystals"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Ender Pearl", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Thrown to locate the nearest stronghold in the Overworld",
+            "Has a 20% chance of shattering when thrown",
+            "12 eyes are required to fill an End Portal frame",
+            "Crafting ingredient for Ender Chests (8 Obsidian + 1 Eye of Ender)",
+            "Crafting ingredient for End Crystals (7 Glass + 1 Ghast Tear + 1 Eye of Ender)",
+            "Cannot be used in the Nether or the End"
+        ],
+        description: "The Eye of Ender is a vital late-game item used to reach the End dimension. It is crafted by combining an Ender Pearl with Blaze Powder. When used in the Overworld, it flies toward the nearest stronghold, helping players locate the End Portal. Beyond navigation, Eyes of Ender are required to activate the portal itself and are key components in crafting Ender Chests and End Crystals. Their importance in game progression and utility in storage make them one of the most significant items for players preparing to face the Ender Dragon."
+    },
+    "minecraft:glowstone_dust": {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing to increase potion potency",
+            secondaryUse: "Crafting Glowstone blocks and Firework Stars"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Glowstone blocks", "Dropped by Witches"]
+        },
+        specialNotes: [
+            "Increases the level of a potion effect (e.g., Speed I to Speed II)",
+            "4 dusts can be crafted into one Glowstone block",
+            "Used to craft Firework Stars with a 'Twinkle' effect",
+            "Used to brew Thick Potions as a base for other concoctions",
+            "Dropped by Witches (0-6 units) upon death",
+            "Found in various loot chests, including Bastion Remnants"
+        ],
+        description: "Glowstone Dust is a versatile material primarily obtained by mining Glowstone blocks in the Nether. In brewing, it is indispensable for strengthening potions, increasing the potency of effects at the cost of duration. It also serves as a critical component for crafting Glowstone blocks, which are used for lighting and charging Respawn Anchors. Beyond its functional uses, Glowstone Dust can be used in firework crafting to add a twinkle effect. Its steady supply from Witches and the Nether makes it a reliable resource for alchemists and builders alike."
     }
 };

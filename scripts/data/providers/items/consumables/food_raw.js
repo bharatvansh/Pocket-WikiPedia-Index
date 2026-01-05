@@ -177,5 +177,61 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:pufferfish": {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Water Breathing potions",
+            secondaryUse: "Emergency food (dangerous) and taming ocelots"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Restores 1 hunger but inflicts Poison IV (1:00), Hunger III (0:15), and Nausea I (0:15)",
+            "Essential ingredient for brewing Potion of Water Breathing",
+            "Can be fed to ocelots to gain their trust in Bedrock Edition",
+            "Obtained by fishing in any biome or as a drop from Guardians",
+            "In Bedrock, can also be used to trade with Master-level Fisherman villagers",
+            "Cannot be cooked or dried like other fish"
+        ],
+        description: "Pufferfish are unique aquatic items primarily used in brewing and high-level trading. While technically edible, consuming one is highly dangerous, as it inflicts severe Poison, Hunger, and Nausea effects. Their most valuable application is as the key ingredient for Potions of Water Breathing, making them essential for ocean exploration. In Bedrock Edition, they can also be used to gain the trust of ocelots or traded with Master-level Fisherman villagers for emeralds. They are typically obtained through fishing or by defeating Guardians."
+    },
+    "minecraft:cod": {
+        id: "minecraft:cod",
+        name: "Raw Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming and breeding cats, gaining ocelot trust"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Cod mobs", "Dropped by Guardians"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Can be cooked in a furnace, smoker, or campfire to create Cooked Cod",
+            "Used to tame stray cats and breed tamed cats",
+            "Used to gain the trust of ocelots in Bedrock Edition",
+            "Commonly obtained by fishing or killing cod in ocean biomes",
+            "Can be traded with Fisherman villagers for emeralds"
+        ],
+        description: "Raw Cod is a common food item obtained by fishing or by killing cod mobs found in ocean biomes. While it can be eaten raw for a small hunger boost, it is much more effective when cooked into Cooked Cod, which provides significantly more nutrition. Beyond its role as food, Raw Cod is essential for cat lovers, as it is used to tame stray cats and breed them. In Bedrock Edition, it is also one of the items used to earn the trust of ocelots, making it a versatile resource for both survival and animal husbandry."
     }
 };

@@ -1300,5 +1300,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_13",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:eye_of_ender",
+        name: "Eye of Ender",
+        category: "item",
+        icon: "textures/items/eye_of_ender",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        category: "item",
+        icon: "textures/items/pufferfish",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        category: "item",
+        icon: "textures/items/glowstone_dust",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:cod",
+        name: "Raw Cod",
+        category: "item",
+        icon: "textures/items/fish_cod_raw",
+        themeColor: "§f" // white
     }
 ];
