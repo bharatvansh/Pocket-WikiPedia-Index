@@ -1321,5 +1321,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/minecart",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:oak_boat",
+        name: "Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:cooked_chicken",
+        name: "Cooked Chicken",
+        category: "item",
+        icon: "textures/items/chicken_cooked",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:baked_potato",
+        name: "Baked Potato",
+        category: "item",
+        icon: "textures/items/potato_baked",
+        themeColor: "§e"
     }
 ];

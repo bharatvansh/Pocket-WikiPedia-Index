@@ -287,5 +287,61 @@ export const cookedFood = {
             "Stackable up to 64, making it ideal for exploration and combat"
         ],
         description: "Steak is a high-quality food item obtained by cooking raw beef or by killing cows and mooshrooms with fire. It is one of the most effective food sources in Minecraft Bedrock Edition, providing 8 hunger points and an impressive 12.8 saturation points. This high saturation keeps the player's hunger bar full for longer than most other foods, making it a favorite for long-distance travel and intense combat. Additionally, steak plays a vital role in animal husbandry, as it can be used to breed and heal tamed wolves."
+    },
+    "minecraft:cooked_chicken": {
+        id: "minecraft:cooked_chicken",
+        name: "Cooked Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Moderate-tier food source",
+            secondaryUse: "Breeding and healing tamed wolves"
+        },
+        food: {
+            hunger: 6,
+            saturation: 7.2
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Chicken", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger points (3 drumsticks) and 7.2 saturation",
+            "Eliminates the 30% chance of Hunger effect from raw chicken",
+            "Obtained by smelting raw chicken or killing chickens with fire",
+            "Can be used to breed, heal, and grow baby wolves",
+            "Sold by Butcher villagers in exchange for emeralds",
+            "Dropped by chickens when killed by a weapon with Fire Aspect"
+        ],
+        description: "Cooked Chicken is a reliable food source obtained by cooking raw chicken in a furnace, smoker, or campfire. It is significantly safer than raw chicken, which has a 30% chance of inflicting the Hunger status effect in Bedrock Edition. Providing 6 hunger points and 7.2 saturation, it serves as a solid mid-tier meal. Beyond player consumption, cooked chicken is highly useful for managing a pack of wolves, as it can be used for breeding and healing them. It's easily renewable through automated chicken farms, making it a staple for many survival players."
+    },
+    "minecraft:baked_potato": {
+        id: "minecraft:baked_potato",
+        name: "Baked Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Efficient farmable food source",
+            secondaryUse: "Crafting Rabbit Stew"
+        },
+        food: {
+            hunger: 5,
+            saturation: 6.0
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Potato", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 5 hunger points (2.5 drumsticks) and 6.0 saturation",
+            "Obtained by smelting regular potatoes in a furnace, smoker, or campfire",
+            "One of the best early-to-mid game foods due to high crop yields",
+            "Required ingredient for crafting the high-tier Rabbit Stew",
+            "Can be purchased from Farmer villagers for emeralds",
+            "Unlike raw potatoes, they cannot be planted to grow more crops"
+        ],
+        description: "The Baked Potato is a highly efficient food item in Minecraft Bedrock Edition, produced by cooking raw potatoes. While a single baked potato restores 5 hunger points and 6.0 saturation, the real strength lies in the high yield of potato crops, which can produce multiple potatoes per harvest. This makes it a very sustainable food source for survival players. Additionally, baked potatoes are a necessary component in the recipe for Rabbit Stew, the game's most restorative meal. They are a popular choice for automated farms and are also commonly traded by Farmer villagers."
     }
 };
