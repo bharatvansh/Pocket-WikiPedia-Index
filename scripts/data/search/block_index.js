@@ -1181,5 +1181,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/small_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:raw_copper_block",
+        name: "Block of Raw Copper",
+        category: "block",
+        icon: "textures/blocks/raw_copper_block",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:raw_gold_block",
+        name: "Block of Raw Gold",
+        category: "block",
+        icon: "textures/blocks/raw_gold_block",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:rooted_dirt",
+        name: "Rooted Dirt",
+        category: "block",
+        icon: "textures/blocks/rooted_dirt",
+        themeColor: "§6" // brown
     }
 ];

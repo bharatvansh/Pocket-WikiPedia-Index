@@ -262,5 +262,47 @@ export const brickBlocks = {
             yRange: "Iron ore veins (Y -16 to 80) and Trial Chambers"
         },
         description: "Raw Iron Block is a compact storage block introduced in Minecraft 1.17, crafted from nine raw iron items in a 3x3 grid. It generates naturally within iron ore veins below Y-level 80 and in Trial Chambers. The block requires a stone pickaxe or better to mine efficiently, dropping itself with Silk Touch or nine raw iron without. Raw iron blocks can be smelted in a furnace or blast furnace to produce iron ingots, making them useful for bulk smelting operations. With a hardness of 5 and blast resistance of 6, they are moderately durable building materials with a distinctive rusted iron texture."
+    },
+    "minecraft:raw_copper_block": {
+        id: "minecraft:raw_copper_block",
+        name: "Block of Raw Copper",
+        hardness: 5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Copper Block (with Silk Touch) or Raw Copper x9 (without)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Copper ore veins (Y -16 to 112)"
+        },
+        description: "A Block of Raw Copper is a compact storage block for raw copper, introduced in Minecraft 1.17. It can be found naturally in large copper ore veins or crafted from nine raw copper items. It can be used for decoration or broken back down into raw copper for smelting into copper ingots. This block features a distinctive packed raw copper texture and requires a stone pickaxe or better to mine efficiently."
+    },
+    "minecraft:raw_gold_block": {
+        id: "minecraft:raw_gold_block",
+        name: "Block of Raw Gold",
+        hardness: 5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Block of Raw Gold (with Silk Touch) or Raw Gold x9 (without)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Gold ore veins (below Y 0)"
+        },
+        description: "A Block of Raw Gold is a compact storage block for raw gold, introduced in Minecraft 1.17. It generates naturally in large gold ore veins below Y=0 in the Overworld, or it can be crafted from nine raw gold items. It requires an iron pickaxe or better to mine. Like other raw blocks, it can be smelted in bulk or used as a unique decorative element with its rich, golden-brown texture."
     }
 };
