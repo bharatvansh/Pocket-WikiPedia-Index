@@ -306,5 +306,26 @@ export const miscDecorativeBlocks = {
             yRange: "Amethyst Geodes"
         },
         description: "An Amethyst Cluster is the fourth and final stage of growth for an amethyst bud. Found exclusively in amethyst geodes on budding amethyst blocks, it emits a soft light level of 5. When mined with a pickaxe of any tier, it drops four amethyst shards, which can be increased with the Fortune enchantment. If mined with any other tool or by hand, it drops nothing unless harvested with a Silk Touch tool. Amethyst clusters are highly decorative and make a pleasant chime sound when walked on or broken."
+    },
+    "minecraft:frogspawn": {
+        id: "minecraft:frogspawn",
+        name: "Frogspawn",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Laid by frogs in water"
+        },
+        description: "Frogspawn is a non-solid block that is laid by frogs after they are bred with slimeballs in Minecraft Bedrock Edition. It must be placed on the surface of water that has at least one air block above it. Over time, it hatches into tadpoles, with the duration depending on random ticks. Frogspawn is extremely fragile; it is destroyed instantly if broken by any means, even with Silk Touch, and does not drop as an item. It is also destroyed if the water underneath it is removed or if a player or most entities fall on it, making it one of the most delicate blocks in the game."
     }
 };

@@ -221,5 +221,26 @@ export const interactiveBlocks = {
             yRange: "Taiga and Snowy Taiga villages"
         },
         description: "The Campfire is a versatile functional block used for cooking food, providing light, and acting as a smoke signal. It can cook up to four food items simultaneously, taking 30 seconds per item, without requiring fuel. When placed over a hay bale, the smoke signal reaches much higher (24 blocks). It also serves as a light source with a level of 15. Campfires can be extinguished with water or a shovel and relighted using flint and steel or fire charges. They also help safely harvest honey from beehives and bee nests by calming the bees."
+    },
+    "minecraft:soul_campfire": {
+        id: "minecraft:soul_campfire",
+        name: "Soul Campfire",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Soul Soil (2) (itself with Silk Touch)"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from 3 sticks, 1 soul soil/sand, and 3 logs"
+        },
+        description: "The Soul Campfire is a functional block that emits a dim, blue light and does not melt snow or ice, unlike its regular counterpart. Introduced in the Nether Update, it is crafted using soul sand or soul soil, which gives it its characteristic blue flame. It deals more damage than a regular campfire and can be used for cooking up to four food items simultaneously, though at the same speed. In Bedrock Edition, it has a light level of 10. When broken without Silk Touch, it drops two pieces of soul soil. It also repels Piglins, making it a useful defensive tool in the Nether."
     }
 };

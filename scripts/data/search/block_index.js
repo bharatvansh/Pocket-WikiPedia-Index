@@ -1139,5 +1139,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hopper_top",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:frogspawn",
+        name: "Frogspawn",
+        category: "block",
+        icon: "textures/blocks/frogspawn",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:muddy_mangrove_roots",
+        name: "Muddy Mangrove Roots",
+        category: "block",
+        icon: "textures/blocks/muddy_mangrove_roots",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:soul_campfire",
+        name: "Soul Campfire",
+        category: "block",
+        icon: "textures/blocks/soul_campfire",
+        themeColor: "§b" // aqua
     }
 ];
