@@ -809,5 +809,36 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3" }
         ],
         description: "Cod are the most common fish mobs found across all ocean biomes in Minecraft. They spawn in groups of 4-7 and swim in schools near the water surface. In Bedrock Edition, cod have a unique 25% chance to drop 1-2 bones when killed, in addition to their guaranteed raw cod drop. If killed by fire, they drop cooked cod instead. Cod can be collected in water buckets for transport to aquariums or fish farms. They cannot be bred and must spawn naturally. As one of the most abundant aquatic mobs, cod serve as a reliable early-game food source for players near ocean biomes."
+    },
+    "minecraft:snow_golem": {
+        id: "minecraft:snow_golem",
+        name: "Snow Golem",
+        health: 4,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Player-created"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Created by placing a carved pumpkin or jack o'lantern on top of two snow blocks",
+            "Throws snowballs at hostile mobs within 10 blocks",
+            "Snowballs deal no damage to most mobs but deal 3 damage to blazes",
+            "Leaves a trail of snow on the ground as it moves (in non-warm biomes)",
+            "Takes damage in warm biomes (desert, jungle, savanna) and the Nether",
+            "Its pumpkin head can be removed using shears to reveal its true face",
+            "Water and rain cause the snow golem to take damage and eventually die"
+        ],
+        drops: [
+            { item: "Snowball", chance: "0-15" }
+        ],
+        description: "Snow Golems are player-created utility mobs that serve as defensive guardians. They are built by stacking two snow blocks and topping them with a carved pumpkin. Snow golems attack hostile mobs by throwing snowballs, which deal no damage to most creatures but are lethal to blazes. They leave a trail of snow behind them, providing a renewable source of snow. However, they are fragile and will melt in warm biomes or when exposed to rain and water. Using shears on a snow golem removes its pumpkin mask, revealing a unique, derpy face underneath."
     }
 };

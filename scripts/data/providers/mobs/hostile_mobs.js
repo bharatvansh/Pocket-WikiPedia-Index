@@ -1012,5 +1012,35 @@ export const hostileMobs = {
             { item: "Experience", chance: "5" }
         ],
         description: "Cave Spiders are dangerous hostile mobs found exclusively in Mineshafts, where they spawn from monster spawners often surrounded by cobwebs. They are smaller than their surface-dwelling cousins, enabling them to navigate through tiny gaps and crawl over walls. Their most fearsome trait is their venomous bite, which poisons players and drains health over time. Due to their small size and the cramped, web-filled environments they inhabit, they can be difficult to hit and even harder to escape."
+    },
+    "minecraft:endermite": {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        health: 8,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Any (from Ender Pearl)"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Has a 5% chance to spawn when a player throws an ender pearl",
+            "Attacked by any Endermen within a 64-block radius",
+            "Despawns within 2 minutes unless named with a name tag",
+            "Small size allows it to fit through gaps smaller than a full block",
+            "Moves quickly and attacks players with a melee bite",
+            "Emits purple particles similar to Endermen and Shulkers"
+        ],
+        drops: [
+            { item: "Experience", chance: "3" }
+        ],
+        description: "Endermites are the smallest hostile mobs in Minecraft, resembling small, purple silverfish. They have a 5% chance of spawning whenever a player throws an ender pearl. Endermen are naturally hostile to endermites and will attack them on sight within a 64-block range. Endermites are short-lived, despawning after two minutes unless given a name tag. While individually weak, their small hitbox and quick movement can make them a nuisance. They provide a unique interaction between player teleportation and the mysterious creatures of the End."
     }
 };
