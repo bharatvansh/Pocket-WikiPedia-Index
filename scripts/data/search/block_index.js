@@ -1061,7 +1061,7 @@ export const blockIndex = [
         name: "Shulker Box",
         category: "block",
         icon: "textures/blocks/shulker_top_undyed",
-        themeColor: "§7" // gray
+        themeColor: "§5" // purple
     },
     {
         id: "minecraft:campfire",

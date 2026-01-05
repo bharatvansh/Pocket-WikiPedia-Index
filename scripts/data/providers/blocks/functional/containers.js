@@ -140,7 +140,7 @@ export const containerBlocks = {
         id: "minecraft:shulker_box",
         name: "Shulker Box",
         hardness: 2.0,
-        blastResistance: 2.0,
+        blastResistance: 0.5,
         flammability: false,
         gravityAffected: false,
         transparent: true,
@@ -152,8 +152,8 @@ export const containerBlocks = {
         },
         drops: ["Shulker Box"],
         generation: {
-            dimension: "End",
-            yRange: "End Cities"
+            dimension: "None",
+            yRange: "Crafted only"
         },
         description: "A Shulker Box is a unique storage block that preserves its contents when broken, allowing items to be transported easily. It provides 27 slots of inventory space, similar to a chest. Unlike chests, shulker boxes can be picked up and placed elsewhere without losing the items inside, making them essential for high-capacity transport and organization. They can be dyed in 16 different colors and are crafted using two shulker shells and a chest. In Bedrock Edition, they can be broken by hand and will still drop as an item."
     }
