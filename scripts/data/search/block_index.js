@@ -1202,5 +1202,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/rooted_dirt",
         themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:brown_mushroom_block",
+        name: "Brown Mushroom Block",
+        category: "block",
+        icon: "textures/blocks/brown_mushroom_block",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:red_mushroom_block",
+        name: "Red Mushroom Block",
+        category: "block",
+        icon: "textures/blocks/red_mushroom_block",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:crimson_nylium",
+        name: "Crimson Nylium",
+        category: "block",
+        icon: "textures/blocks/crimson_nylium",
+        themeColor: "§4"
     }
 ];
