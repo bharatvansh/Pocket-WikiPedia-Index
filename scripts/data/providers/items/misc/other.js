@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg
+// bucket, dragon egg, oak boat
 // ============================================
 
 /**
@@ -782,5 +782,29 @@ export const miscItems = {
             "Minecarts can pick up mobs that walk into them while on a rail"
         ],
         description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
+    },
+    "minecraft:oak_boat": {
+        id: "minecraft:oak_boat",
+        name: "Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Oak Planks x5"]
+        },
+        specialNotes: [
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
     }
 };
