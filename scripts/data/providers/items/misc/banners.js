@@ -147,5 +147,51 @@ export const bannerPatterns = {
             "In Bedrock Edition, it is known as the 'Flower Charge' pattern in the Loom interface."
         ],
         description: "The Flower Banner Pattern is a renewable decorative item used to apply a beautiful floral emblem to banners. It is easily crafted by combining a single piece of paper with an oxeye daisy. When placed in a loom with a banner and dye, it produces the 'Flower Charge' design, making it a favorite for players who want to add a touch of nature or elegance to their bases and heraldry. Since the pattern is not consumed upon use, it serves as a permanent addition to a player's design toolkit."
+    },
+    "minecraft:globe_banner_pattern": {
+        id: "minecraft:globe_banner_pattern",
+        name: "Globe Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Globe' pattern to a banner in a Loom",
+            secondaryUse: "Creating geography-themed decorative banners"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Sold by Master Cartographer villagers"]
+        },
+        specialNotes: [
+            "Obtained by trading with Master-level Cartographer villagers for 8 emeralds.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Features a stylized globe design representing the world.",
+            "In Bedrock Edition, it became obtainable in survival mode starting with version 1.18.10.",
+            "Used in a Loom with a banner and any color dye to apply the design."
+        ],
+        description: "The Globe Banner Pattern is a specialized decorative item in Minecraft Bedrock Edition that allows players to apply a stylized globe design to their banners. Unlike many other patterns, it cannot be crafted and must be purchased from a Master-level Cartographer villager for 8 emeralds. Once obtained, it can be used indefinitely as it is not consumed during the patterning process, making it a valuable asset for players who enjoy creating detailed heraldry or geographical-themed decorations."
+    },
+    "minecraft:thing_banner_pattern": {
+        id: "minecraft:thing_banner_pattern",
+        name: "Thing Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Thing' (Mojang Studios logo) pattern in a Loom",
+            secondaryUse: "Creating prestigious banners featuring official game branding"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Enchanted Golden Apple"]
+        },
+        specialNotes: [
+            "Crafted using a shapeless recipe of one Paper and one Enchanted Golden Apple.",
+            "Displays the iconic Mojang Studios logo on banners.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "One of the rarest patterns due to the cost of an Enchanted Golden Apple.",
+            "Commonly referred to as the 'Mojang' logo pattern."
+        ],
+        description: "The Thing Banner Pattern is one of the most prestigious decorative items in Minecraft, allowing players to emblazon the Mojang Studios logo onto their banners. In Bedrock Edition, it is crafted by combining a piece of paper with an Enchanted Golden Apple, making it exceptionally rare and expensive to produce. Despite its high cost, the pattern itself is not consumed when used in a Loom, allowing a single pattern to be used to create an infinite number of banners."
     }
 };
