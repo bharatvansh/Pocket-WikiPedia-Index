@@ -453,5 +453,19 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_cave_spider.png",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:salmon",
+        name: "Salmon",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_salmon.png",
+        themeColor: "§c" // red/pink salmon color
+    },
+    {
+        id: "minecraft:cod",
+        name: "Cod",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cod.png",
+        themeColor: "§6" // brown/tan cod color
     }
 ];

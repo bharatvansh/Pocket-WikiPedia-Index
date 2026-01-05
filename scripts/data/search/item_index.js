@@ -1370,5 +1370,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_pufferfish_raw",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:salmon",
+        name: "Raw Salmon",
+        category: "item",
+        icon: "textures/items/fish_salmon_raw",
+        themeColor: "§c" // red/pink salmon
+    },
+    {
+        id: "minecraft:cod",
+        name: "Raw Cod",
+        category: "item",
+        icon: "textures/items/fish_raw",
+        themeColor: "§6" // brown/tan
     }
 ];

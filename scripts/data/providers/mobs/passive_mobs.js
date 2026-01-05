@@ -741,5 +741,73 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3" }
         ],
         description: "Parrots are rare passive flying mobs found in Jungle biomes. They come in five vibrant colors: red, blue, green, cyan, and gray. Parrots are unique for their ability to mimic the sounds of nearby hostile mobs, providing an early warning system for players. They can be tamed with various seeds and will follow the player or sit on their shoulders. However, players must be careful never to feed them cookies, as chocolate is fatal to parrots in Minecraft."
+    },
+    "minecraft:salmon": {
+        id: "minecraft:salmon",
+        name: "Salmon",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.12
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Cold Ocean", "Deep Cold Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Ocean", "Deep Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "River", "Frozen River"],
+            lightLevel: "Any",
+            groupSize: "3-5"
+        },
+        behaviorTraits: [
+            "Spawns in three size variants: small, normal, and large",
+            "Swims in schools with other salmon in rivers and cold ocean biomes",
+            "Can be collected and transported using water buckets",
+            "Dies when out of water after flopping around briefly",
+            "Large variants in Bedrock Edition have a 25% chance to drop bones",
+            "Cannot be bred by players",
+            "Vulnerable to Impaling enchantment damage"
+        ],
+        drops: [
+            { item: "Raw Salmon", chance: "1" },
+            { item: "Cooked Salmon", chance: "1 (if killed by fire)" },
+            { item: "Bone", chance: "25% (large salmon only, 1-2)" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Salmon are passive fish mobs that spawn in cold oceans, frozen oceans, lukewarm oceans, regular oceans, and rivers. They appear in three size variants: small, normal, and large. In Bedrock Edition, large salmon have a unique 25% chance to drop 1-2 bones when killed. Salmon can be collected in water buckets for transport and will drop raw salmon when killed, or cooked salmon if killed while on fire. They cannot be bred and must respawn naturally. Salmon are commonly found in schools and are a reliable food source for players exploring aquatic biomes."
+    },
+    "minecraft:cod": {
+        id: "minecraft:cod",
+        name: "Cod",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.12
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean", "Deep Ocean", "Cold Ocean", "Deep Cold Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean"],
+            lightLevel: "Any",
+            groupSize: "4-7"
+        },
+        behaviorTraits: [
+            "Swims in schools with other cod in ocean biomes",
+            "Can be collected and transported using water buckets",
+            "Dies when out of water after flopping around briefly",
+            "In Bedrock Edition, has a 25% chance to drop bones",
+            "Cannot be bred by players",
+            "Requires a non-solid block above spawn location",
+            "Vulnerable to Impaling enchantment damage"
+        ],
+        drops: [
+            { item: "Raw Cod", chance: "1" },
+            { item: "Cooked Cod", chance: "1 (if killed by fire)" },
+            { item: "Bone", chance: "25% (1-2)" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Cod are the most common fish mobs found across all ocean biomes in Minecraft. They spawn in groups of 4-7 and swim in schools near the water surface. In Bedrock Edition, cod have a unique 25% chance to drop 1-2 bones when killed, in addition to their guaranteed raw cod drop. If killed by fire, they drop cooked cod instead. Cod can be collected in water buckets for transport to aquariums or fish farms. They cannot be bred and must spawn naturally. As one of the most abundant aquatic mobs, cod serve as a reliable early-game food source for players near ocean biomes."
     }
 };
