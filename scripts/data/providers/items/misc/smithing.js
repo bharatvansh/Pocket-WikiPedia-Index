@@ -212,5 +212,28 @@ export const smithingTemplates = {
             "One of the harder trims to find due to the rarity of Woodland Mansions."
         ],
         description: "The Vex Armor Trim Smithing Template is a decorative item found within the chests of Woodland Mansions. This template allows players to apply a pattern to their armor that is reminiscent of the robes worn by Vexes and Evokers. Because Woodland Mansions are among the rarest structures in Minecraft, this trim is a significant trophy for any explorer. It can be duplicated at a crafting table using seven diamonds and cobblestone, making it easier to maintain once the initial template is found."
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+        id: "minecraft:wild_armor_trim_smithing_template",
+        name: "Wild Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Wild' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Mossy Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Mossy Cobblestone", "1x Wild Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found exclusively in Jungle Pyramid chests (33.3% chance).",
+            "Applies a nature-themed, leafy pattern to armor pieces.",
+            "Requires a smithing material (like Iron Ingot or Amethyst Shard) to define the trim's color.",
+            "Consumed upon use in a Smithing Table unless duplicated beforehand.",
+            "Can be duplicated using 7 Diamonds and a block of Mossy Cobblestone."
+        ],
+        description: "The Wild Armor Trim Smithing Template is a rare decorative item discovered within the hidden chests of Jungle Pyramids. It allows players to customize their armor with the 'Wild' pattern, featuring organic, leafy designs that evoke the lush environment of the jungle. Like other armor trims, it is a late-game cosmetic that represents a player's exploration of rare world structures. To ensure a continuous supply, it can be duplicated with seven diamonds and mossy cobblestone, allowing for a complete set of matching gear."
     }
 };

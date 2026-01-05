@@ -829,5 +829,27 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:resin_brick": {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Resin Bricks blocks and Resin Walls",
+            secondaryUse: "Decorative crafting component"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Resin Clump", "Any fuel"]
+        },
+        specialNotes: [
+            "Obtained by smelting a Resin Clump in a furnace or blast furnace.",
+            "Used to craft Resin Bricks (block) in a 2x2 crafting pattern.",
+            "Can be combined with other materials to create various Resin-based decorative blocks.",
+            "Introduced as part of the Pale Garden update (1.21.40 Bedrock)."
+        ],
+        description: "Resin Bricks are durable crafting materials obtained by hardening Resin Clumps through the smelting process. Found in the eerie Pale Garden biome, these bricks serve as the primary component for constructing Resin Bricks blocks and Resin Walls. Their distinctive orange-brown hue makes them an excellent choice for players looking to add unique color and texture to their builds. As a part of the Pale Garden's ecosystem, Resin Bricks represent the transformation of organic resin into a solid, reliable building material."
     }
 };

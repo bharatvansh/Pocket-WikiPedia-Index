@@ -1181,5 +1181,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:resin_brick",
+        name: "Resin Brick",
+        category: "item",
+        icon: "textures/items/resin_brick",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:wild_armor_trim_smithing_template",
+        name: "Wild Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/wild_armor_trim_smithing_template",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:flower_banner_pattern",
+        name: "Flower Banner Pattern",
+        category: "item",
+        icon: "textures/items/flower_banner_pattern",
+        themeColor: "§a" // green
     }
 ];
