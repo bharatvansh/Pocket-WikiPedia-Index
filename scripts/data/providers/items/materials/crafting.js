@@ -191,14 +191,14 @@ export const craftingMaterials = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Brushing Suspicious Sand in Trail Ruins"]
+            ingredients: ["Brushing Suspicious Sand in Warm Ocean Ruins"]
         },
         specialNotes: [
-            "Obtained by using a brush on Suspicious Sand in Trail Ruins",
+            "Obtained by using a brush on Suspicious Sand in Warm Ocean Ruins",
             "Features a pattern resembling a Sniffer's snout",
             "Four sherds (or bricks) can be combined to craft a Decorated Pot"
         ],
-        description: "The Snort Pottery Sherd is a decorative item introduced in the Trails & Tales update, primarily obtained through the archaeology system. Players must locate and brush Suspicious Sand within Trail Ruins to find it. The sherd features a stylized image of a snout, representing the Sniffer mob. When used to craft a Decorated Pot, this pattern will appear on the side of the pot, allowing players to create unique, story-telling decorations for their builds."
+        description: "The Snort Pottery Sherd is a decorative item introduced in the Trails & Tales update, primarily obtained through the archaeology system. Players must locate and brush Suspicious Sand within Warm Ocean Ruins to find it. The sherd features a stylized image of a snout, representing the Sniffer mob. When used to craft a Decorated Pot, this pattern will appear on the side of the pot, allowing players to create unique, story-telling decorations for their builds."
     },
     "minecraft:sheaf_pottery_sherd": {
         id: "minecraft:sheaf_pottery_sherd",
