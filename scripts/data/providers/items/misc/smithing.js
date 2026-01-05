@@ -235,5 +235,47 @@ export const smithingTemplates = {
             "Can be duplicated using 7 Diamonds and a block of Mossy Cobblestone."
         ],
         description: "The Wild Armor Trim Smithing Template is a rare decorative item discovered within the hidden chests of Jungle Pyramids. It allows players to customize their armor with the 'Wild' pattern, featuring organic, leafy designs that evoke the lush environment of the jungle. Like other armor trims, it is a late-game cosmetic that represents a player's exploration of rare world structures. To ensure a continuous supply, it can be duplicated with seven diamonds and mossy cobblestone, allowing for a complete set of matching gear."
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Host trim to armor",
+            secondaryUse: "Can be duplicated using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Host Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Requires a Smithing Table to apply to armor pieces",
+            "Can be duplicated with 7 Diamonds and 1 Terracotta"
+        ],
+        description: "The Host Armor Trim Smithing Template is a rare item used to customize the appearance of armor pieces. Found exclusively in Trail Ruins by brushing Suspicious Gravel, it allows players to apply the 'Host' pattern to any armor using a Smithing Table. Like all trim templates, it is consumed upon use unless duplicated. The Host trim provides a unique aesthetic that allows players to show off their exploration of ancient structures."
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Wayfinder trim to armor",
+            secondaryUse: "Can be duplicated using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Wayfinder Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Uncovered by brushing Suspicious Gravel in Trail Ruins",
+            "Applied in a Smithing Table with any armor piece and a mineral",
+            "Can be duplicated with 7 Diamonds and 1 Terracotta"
+        ],
+        description: "The Wayfinder Armor Trim Smithing Template is a collectible item found through archaeology in Trail Ruins. It is used to apply the Wayfinder pattern to armor, adding a distinctive look to a player's gear. To use it, a player must place the template, an armor piece, and a material (such as gold or lapis lazuli) into a Smithing Table. It serves as both a trophy of archaeology and a means of high-level armor personalization."
     }
 };

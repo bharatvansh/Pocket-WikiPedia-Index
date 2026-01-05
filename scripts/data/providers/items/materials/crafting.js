@@ -179,6 +179,48 @@ export const craftingMaterials = {
         ],
         description: "The Guster Pottery Sherd is a pottery decoration ingredient that depicts a Breeze and can be incorporated into a Decorated Pot to apply its pattern to one side. In Minecraft Bedrock Edition, players can obtain it in Trial Chambers by breaking naturally generated Decorated Pots that were crafted with the Guster sherd. By combining it with bricks or other pottery sherds in the Decorated Pot recipe, builders can create unique, story-like pottery designs that match the wind-themed Trial Chamber aesthetic."
     },
+    "minecraft:snort_pottery_sherd": {
+        id: "minecraft:snort_pottery_sherd",
+        name: "Snort Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots",
+            secondaryUse: "Decorative item found via archaeology"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Brushing Suspicious Sand in Trail Ruins"]
+        },
+        specialNotes: [
+            "Obtained by using a brush on Suspicious Sand in Trail Ruins",
+            "Features a pattern resembling a Sniffer's snout",
+            "Four sherds (or bricks) can be combined to craft a Decorated Pot"
+        ],
+        description: "The Snort Pottery Sherd is a decorative item introduced in the Trails & Tales update, primarily obtained through the archaeology system. Players must locate and brush Suspicious Sand within Trail Ruins to find it. The sherd features a stylized image of a snout, representing the Sniffer mob. When used to craft a Decorated Pot, this pattern will appear on the side of the pot, allowing players to create unique, story-telling decorations for their builds."
+    },
+    "minecraft:sheaf_pottery_sherd": {
+        id: "minecraft:sheaf_pottery_sherd",
+        name: "Sheaf Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots",
+            secondaryUse: "Decorative item found via archaeology"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Brushing Suspicious Sand in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Trail Ruins",
+            "Features a pattern of a sheaf of wheat",
+            "Can be combined with other sherds to create custom pot patterns"
+        ],
+        description: "The Sheaf Pottery Sherd is one of several pottery fragments found via archaeology in Trail Ruins. It is uncovered by carefully brushing Suspicious Sand blocks. The fragment depicts a sheaf of wheat, symbolizing agriculture and harvest. By combining it with three other sherds or bricks in a crafting table, players can create a Decorated Pot that showcases this agricultural motif on one or more of its sides, perfect for decorating farms or granaries."
+    },
     "minecraft:heart_of_the_sea": {
         id: "minecraft:heart_of_the_sea",
         name: "Heart of the Sea",
