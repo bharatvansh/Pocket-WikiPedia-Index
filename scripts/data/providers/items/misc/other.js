@@ -758,5 +758,29 @@ export const miscItems = {
             "Reduces the detection range of Piglins by 50% when worn"
         ],
         description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
+    },
+    "minecraft:minecart": {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting players and mobs on rails",
+            secondaryUse: "Base for crafting specialized minecarts (Chest, Hopper, TNT)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["5x Iron Ingot"]
+        },
+        specialNotes: [
+            "Placed on rails by using it on them; broken by attacking it",
+            "Can carry players and most mobs (including hostile ones)",
+            "Speeds depend on the type of rail used (Powered vs Normal)",
+            "Can be combined with Chests, Hoppers, or TNT in a crafting grid",
+            "In Bedrock Edition, minecarts can be placed on a rail by a dispenser",
+            "Minecarts can pick up mobs that walk into them while on a rail"
+        ],
+        description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
     }
 };
