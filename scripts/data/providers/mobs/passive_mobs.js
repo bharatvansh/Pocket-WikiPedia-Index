@@ -840,5 +840,35 @@ export const passiveMobs = {
             { item: "Snowball", chance: "0-15" }
         ],
         description: "Snow Golems are player-created utility mobs that serve as defensive guardians. They are built by stacking two snow blocks and topping them with a carved pumpkin. Snow golems attack hostile mobs by throwing snowballs, which deal no damage to most creatures but are lethal to blazes. They leave a trail of snow behind them, providing a renewable source of snow. However, they are fragile and will melt in warm biomes or when exposed to rain and water. Using shears on a snow golem removes its pumpkin mask, revealing a unique, derpy face underneath."
+    },
+    "minecraft:cat": {
+        id: "minecraft:cat",
+        name: "Cat",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Villages", "Swamp Huts"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Scares away Creepers and Phantoms, keeping them at a distance of 16 blocks.",
+            "Can be tamed using raw cod or raw salmon.",
+            "Tamed cats follow the player and can be made to sit.",
+            "When a player sleeps, tamed cats may bring gifts like rabbit hide or feathers.",
+            "Immune to fall damage and can see players even under the Invisibility effect.",
+            "Often sits on chests, beds, and active furnaces, temporarily preventing their use."
+        ],
+        drops: [
+            { item: "String", chance: "0-2" }
+        ],
+        description: "Cats are agile passive mobs found in villages and swamp huts. They are uniquely valuable for their ability to repel Creepers and Phantoms, making them excellent companions for base defense. Once tamed with raw fish, they follow their owners and provide occasional gifts after the player wakes from a bed. Cats are also immune to fall damage, reflecting their real-world grace and landing abilities."
     }
 };
