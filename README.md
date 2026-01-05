@@ -2,6 +2,8 @@
 
 A scalable wiki system for Minecraft Bedrock Edition that provides information about blocks, items, and mobs.
 
+- **MCPEDL**: [Pocket Wikipedia Knowledge](https://mcpedl.com/pocket-wikipedia-knowledge/)
+
 ## Architecture Overview
 
 This implementation follows a scalable architecture that separates the search index from detailed content:
@@ -48,8 +50,10 @@ The foundation includes a growing set of sample entries in each category. Exampl
 ## Technical Details
 
 - **APIs Used**: `@minecraft/server` v1.17.0, `@minecraft/server-ui` v1.3.0
-- **Pattern**: Provider-based content loading
-- **Scalability**: Designed to handle 10,000+ entries efficiently
+
+## ⚠️ Development Status
+
+> **Note:** This addon is still in active development. Many entries still need to be added, and there may be inaccurate information or mistakes. If you'd like to help improve the content, you can contribute directly via GitHub or contact me through Discord!
 
 ## Future Expansion
 
@@ -57,3 +61,13 @@ To add more entries:
 1. Add a lightweight entry to the appropriate search index file in `scripts/data/search/` (e.g. `mob_index.js`)
 2. Add the detailed data in the matching provider registry under `scripts/data/providers/`
 3. The UI will automatically adapt based on category
+
+## Credits
+
+- **ModMC** on [CurseForge](https://www.curseforge.com/members/modmc) & [MCPEDL](https://mcpedl.com/user/modmc/)
+- **bharatvansh** on [GitHub](https://github.com/bharatvansh)
+
+## Support & Community
+
+- 💬 **Discord**: [Join our server](https://discord.gg/Wvst4znsgk)
+- ☕ **Ko-fi**: [Support the project](https://ko-fi.com/modmcpe)
