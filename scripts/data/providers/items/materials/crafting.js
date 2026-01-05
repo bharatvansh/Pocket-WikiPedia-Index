@@ -940,5 +940,28 @@ export const craftingMaterials = {
             "Can be used as fuel in a furnace (smelts 0.5 items)"
         ],
         description: "A Bowl is a simple yet essential container used primarily for holding various stews and soups in Minecraft. Crafted from three wooden planks, it serves as the vessel for Mushroom Stew, Rabbit Stew, and Beetroot Soup. Unlike many other food items, stews leave the empty bowl behind after consumption, allowing it to be reused indefinitely. Bowls also play a unique role in agriculture, as they can be used to milk Mooshrooms for stew or to collect Suspicious Stew from Brown Mooshrooms after feeding them specific flowers."
+    },
+    "minecraft:archer_pottery_sherd": {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Archer motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand"]
+        },
+        specialNotes: [
+            "Found by using a Brush on Suspicious Sand in Desert Temples and Desert Wells.",
+            "Features a stylized image of an archer holding a bow.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Part of the archaeology system introduced in the Trails & Tales update."
+        ],
+        description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
     }
 };

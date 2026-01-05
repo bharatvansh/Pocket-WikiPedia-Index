@@ -1384,5 +1384,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_raw",
         themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:globe_banner_pattern",
+        name: "Globe Banner Pattern",
+        category: "item",
+        icon: "textures/items/globe_banner_pattern",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:thing_banner_pattern",
+        name: "Thing Banner Pattern",
+        category: "item",
+        icon: "textures/items/thing_banner_pattern",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        category: "item",
+        icon: "textures/items/archer_pottery_sherd",
+        themeColor: "§6"
     }
 ];
