@@ -13,7 +13,7 @@ export const hoes = {
         id: "minecraft:netherite_hoe",
         name: "Netherite Hoe",
         maxStack: 1,
-        durability: 2031,
+        durability: 2032,
         enchantable: true,
         usage: {
             primaryUse: "Tilling dirt, grass, and coarse dirt blocks into farmland",
@@ -28,7 +28,7 @@ export const hoes = {
             ingredients: ["Diamond Hoe", "Netherite Ingot", "Netherite Upgrade Smithing Template"]
         },
         specialNotes: [
-            "Highest tier hoe with 2031 durability in Bedrock Edition",
+            "Highest tier hoe with 2032 durability in Bedrock Edition",
             "Immune to fire and lava - floats on the surface if dropped",
             "Used to till dirt, grass, and coarse dirt into farmland",
             "Can harvest leaves, hay blocks, and sponges very quickly",

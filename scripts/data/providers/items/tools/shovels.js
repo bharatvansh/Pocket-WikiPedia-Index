@@ -13,7 +13,7 @@ export const shovels = {
         id: "minecraft:netherite_shovel",
         name: "Netherite Shovel",
         maxStack: 1,
-        durability: 2031,
+        durability: 2032,
         enchantable: true,
         usage: {
             primaryUse: "Digging dirt, sand, gravel, and snow efficiently",
@@ -28,7 +28,7 @@ export const shovels = {
             ingredients: ["Diamond Shovel", "Netherite Ingot", "Netherite Upgrade Smithing Template"]
         },
         specialNotes: [
-            "Most durable shovel with 2031 durability in Bedrock Edition",
+            "Most durable shovel with 2032 durability in Bedrock Edition",
             "Immune to fire and lava - will not burn if dropped in lava",
             "Can create grass paths by right-clicking grass blocks",
             "Able to extinguish campfires without taking damage",
