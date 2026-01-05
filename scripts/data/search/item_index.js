@@ -1202,5 +1202,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/flower_banner_pattern",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/coast_armor_trim_smithing_template",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/dune_armor_trim_smithing_template",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§7" // gray
     }
 ];

@@ -235,5 +235,74 @@ export const smithingTemplates = {
             "Can be duplicated using 7 Diamonds and a block of Mossy Cobblestone."
         ],
         description: "The Wild Armor Trim Smithing Template is a rare decorative item discovered within the hidden chests of Jungle Pyramids. It allows players to customize their armor with the 'Wild' pattern, featuring organic, leafy designs that evoke the lush environment of the jungle. Like other armor trims, it is a late-game cosmetic that represents a player's exploration of rare world structures. To ensure a continuous supply, it can be duplicated with seven diamonds and mossy cobblestone, allowing for a complete set of matching gear."
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Coast' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Coast Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Shipwreck chests with a 16.7% chance.",
+            "Features a simple, clean wave-like pattern on the armor.",
+            "One of the easiest trims to find early-game due to the frequency of shipwrecks.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated beforehand."
+        ],
+        description: "The Coast Armor Trim Smithing Template is a decorative item discovered within the supply chests of Shipwrecks. It allows players to customize their armor with the 'Coast' pattern, which provides a sleek and understated horizontal design. As one of the more common armor trims, it is often a player's first experience with the armor trimming system. Like all templates, it can be duplicated with seven diamonds and its base material, which for the Coast trim is common cobblestone, allowing players to easily outfit a full set of armor."
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Dune' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Sandstone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Sandstone", "1x Dune Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Desert Pyramid chests with a 14.3% chance.",
+            "Features a pattern inspired by desert structures and sand dunes.",
+            "Can be duplicated using 7 Diamonds and 1 Sandstone block.",
+            "Requires a smithing material (e.g., Gold Ingot, Emerald) to determine the trim color.",
+            "Consumed upon use in a Smithing Table."
+        ],
+        description: "The Dune Armor Trim Smithing Template is a decorative item found hidden within the treasure chests of Desert Pyramids. It allows players to apply the 'Dune' pattern to their armor, featuring geometric lines that evoke the ancient architecture of desert temples. Obtaining this trim requires players to navigate the traps of a Desert Pyramid successfully. Once acquired, it can be duplicated using seven diamonds and sandstone, ensuring that the player can apply this desert-themed aesthetic to their entire collection of gear."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests with a 25% chance.",
+            "Features a bold, simplistic pattern that highlights the armor's edges.",
+            "Consistently available to players who take on Illager threats.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item located in the chests at the top of Pillager Outposts. It grants armor the 'Sentry' pattern, a thick and bold design that outlines the various pieces of a gear set, giving it a rugged and well-guarded appearance. Because Pillager Outposts are common and the drop rate is relatively high at 25%, the Sentry trim is a popular choice for mid-game customization. It can be duplicated using seven diamonds and cobblestone, making it accessible for players to maintain."
     }
 };
