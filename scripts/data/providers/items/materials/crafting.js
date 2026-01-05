@@ -925,7 +925,7 @@ export const craftingMaterials = {
         enchantable: false,
         usage: {
             primaryUse: "Container for stews and soups",
-            secondaryUse: "Obtaining suspicious stew from Mooshrooms"
+            secondaryUse: "Obtaining suspicious stew from Brown Mooshrooms"
         },
         crafting: {
             recipeType: "Shaped",
@@ -935,10 +935,10 @@ export const craftingMaterials = {
             "Crafted from three planks in a V-shape (yields 4 bowls)",
             "Used to craft Mushroom Stew, Rabbit Stew, and Beetroot Soup",
             "Left behind in the inventory after consuming any stew or soup",
-            "Can be used on a Mooshroom (after feeding it a flower) to get Suspicious Stew",
+            "Can be used on a Brown Mooshroom (after feeding it a flower) to get Suspicious Stew",
             "Occasionally obtained through fishing as junk",
             "Can be used as fuel in a furnace (smelts 0.5 items)"
         ],
-        description: "A Bowl is a simple yet essential container used primarily for holding various stews and soups in Minecraft. Crafted from three wooden planks, it serves as the vessel for Mushroom Stew, Rabbit Stew, and Beetroot Soup. Unlike many other food items, stews leave the empty bowl behind after consumption, allowing it to be reused indefinitely. Bowls also play a unique role in agriculture, as they can be used to milk Mooshrooms for stew or to collect Suspicious Stew from them after feeding them specific flowers."
+        description: "A Bowl is a simple yet essential container used primarily for holding various stews and soups in Minecraft. Crafted from three wooden planks, it serves as the vessel for Mushroom Stew, Rabbit Stew, and Beetroot Soup. Unlike many other food items, stews leave the empty bowl behind after consumption, allowing it to be reused indefinitely. Bowls also play a unique role in agriculture, as they can be used to milk Mooshrooms for stew or to collect Suspicious Stew from Brown Mooshrooms after feeding them specific flowers."
     }
 };
