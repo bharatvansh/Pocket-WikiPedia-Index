@@ -1363,5 +1363,12 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/snout_armor_trim_smithing_template",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        category: "item",
+        icon: "textures/items/fish_pufferfish_raw",
+        themeColor: "§e" // yellow/gold
     }
 ];

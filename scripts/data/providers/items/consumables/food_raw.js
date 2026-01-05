@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Raw beef, raw porkchop, raw chicken,
 // raw mutton, raw rabbit, raw cod, raw salmon, tropical fish,
-// pufferfish, apple, melon slice, sweet berries, glow berries,
+// apple, melon slice, sweet berries, glow berries,
 // carrot, potato, beetroot, dried kelp, chorus fruit
 // ============================================
 

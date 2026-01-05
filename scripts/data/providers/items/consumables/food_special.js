@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Golden apple, enchanted golden apple,
 // golden carrot, honey bottle, rotten flesh, spider eye,
-// poisonous potato, ominous bottle
+// poisonous potato, ominous bottle, pufferfish
 // ============================================
 
 /**
@@ -201,5 +201,34 @@ export const specialFood = {
             "Not compostable due to being meat-based"
         ],
         description: "Rotten Flesh is a common mob drop from zombies and their variants including Drowned, Husks, and Zombie Villagers. While it restores 4 hunger points, consuming it carries an 80% chance of inflicting the Hunger effect for 30 seconds in Bedrock Edition, making it a risky emergency food. However, wolves can safely consume it without any negative effects. Rotten Flesh serves as a renewable resource through zombie farming, and Cleric villagers offer emeralds in exchange for it, providing a consistent trading option. This item exemplifies Minecraft's risk-reward gameplay, offering sustenance at the cost of potential debuffs."
+    },
+    "minecraft:pufferfish": {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing ingredient for Water Breathing potions",
+            secondaryUse: "Extremely dangerous food source"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Pufferfish mobs", "Rare drop from Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Inflicts Hunger III for 15 seconds, Poison IV for 60 seconds, and Nausea II for 15 seconds when eaten",
+            "Restores only 1 hunger point (half a drumstick) and 0.2 saturation",
+            "Essential brewing ingredient for Potions of Water Breathing (Awkward Potion + Pufferfish)",
+            "Can be caught while fishing with approximately 13% chance in the fish category",
+            "Pufferfish mobs drop exactly 1 pufferfish item when killed",
+            "Guardians and Elder Guardians have a small chance (~2.5%) to drop fish, including pufferfish",
+            "Can be used to feed cats and ocelots for taming and breeding"
+        ],
+        description: "The Pufferfish is a unique and highly dangerous food item in Minecraft Bedrock Edition. While technically edible, consuming it inflicts severe status effects including Poison IV for a full minute, Hunger III, and Nausea II, making it one of the worst food choices available. Its true value lies in brewing, where it serves as the essential ingredient for crafting Potions of Water Breathing when combined with an Awkward Potion. Pufferfish can be obtained by fishing, killing Pufferfish mobs in warm ocean biomes, or as rare drops from Guardians. Despite its dangers as food, it remains a sought-after item for underwater exploration and ocean monument raids."
     }
 };
