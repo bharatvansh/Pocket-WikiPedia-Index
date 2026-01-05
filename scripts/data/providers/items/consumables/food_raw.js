@@ -177,5 +177,89 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:raw_cod": {
+        id: "minecraft:raw_cod",
+        name: "Raw Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming and breeding cats"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Dropped by Cod mobs", "Caught via fishing"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Can be cooked to create Cooked Cod",
+            "Used to tame stray cats and breed tamed cats",
+            "Healing source for tamed cats",
+            "Dolphins follow players holding raw cod",
+            "Can be sold to Fisherman villagers"
+        ],
+        description: "Raw Cod is a basic food item obtained by fishing or by killing cod in ocean biomes. While it can be eaten raw for minor hunger restoration, it is better used as a crafting ingredient for Cooked Cod or as a tool for animal husbandry. In Bedrock Edition, it is a primary item for taming and breeding cats. Additionally, holding raw cod will attract nearby dolphins, who may lead you to treasure if fed."
+    },
+    "minecraft:raw_salmon": {
+        id: "minecraft:raw_salmon",
+        name: "Raw Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming and breeding cats"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Dropped by Salmon mobs", "Caught via fishing"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Can be cooked into Cooked Salmon for better nutrition",
+            "Works for taming and breeding cats",
+            "Speeds up the growth of kittens",
+            "Salmon mobs in Bedrock can spawn in three different sizes",
+            "Dolphins can be fed raw salmon to find underwater structures"
+        ],
+        description: "Raw Salmon is a common food obtained from salmon mobs or through fishing. It provides the same hunger and saturation as raw cod when eaten raw. Its real value lies in being cooked or used for taming cats and kittens. In Bedrock Edition, salmon are found in rivers and cold oceans, appearing in various sizes. Like cod, raw salmon can be fed to dolphins to uncover buried treasure or shipwrecks."
+    },
+    "minecraft:pufferfish": {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing ingredient for Potions of Water Breathing",
+            secondaryUse: "Trading with fisherman villagers"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Dropped by Pufferfish mobs", "Caught via fishing"]
+        },
+        specialNotes: [
+            "Restores 1 hunger but inflicts severe status effects",
+            "Applies Poison IV (1m), Hunger III (15s), and Nausea (15s)",
+            "Essential for brewing Water Breathing potions",
+            "Master-level Fisherman villagers buy them for emeralds",
+            "Cannot be used for taming or breeding cats",
+            "Pufferfish mobs inflate when players are nearby, dealing damage"
+        ],
+        description: "Pufferfish are unique items primarily used in brewing rather than for food. While they can be eaten, they are highly toxic in Bedrock Edition, inflicting multiple negative status effects including a long-lasting Poison IV. Their most important role is as the key ingredient for Potions of Water Breathing. They are obtained by fishing or by killing pufferfish mobs, which are known for their ability to inflate and sting nearby threats."
     }
 };
