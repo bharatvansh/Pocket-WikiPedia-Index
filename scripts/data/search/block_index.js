@@ -1223,5 +1223,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crimson_nylium",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_leaves",
+        name: "Cherry Leaves",
+        category: "block",
+        icon: "textures/blocks/cherry_leaves",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_planks",
+        name: "Bamboo Planks",
+        category: "block",
+        icon: "textures/blocks/bamboo_planks",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector_top",
+        themeColor: "§6"
     }
 ];
