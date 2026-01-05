@@ -1139,5 +1139,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hopper_top",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector_top",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        category: "block",
+        icon: "textures/blocks/dispenser_front_horizontal",
+        themeColor: "§7"
     }
 ];

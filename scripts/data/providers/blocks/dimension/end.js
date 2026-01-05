@@ -93,5 +93,26 @@ export const endBlocks = {
             yRange: null
         },
         description: "Purpur Block is a decorative purple stone-like block found exclusively in End Cities and End Ships. It can be crafted by placing four popped chorus fruit in a 2x2 grid, making it renewable. Purpur blocks come in several variants including stairs, slabs, and pillars. With a hardness of 1.5 and blast resistance of 6.0, purpur blocks provide moderate durability while offering a unique purple aesthetic that fits the End dimension's color palette. They are essential building materials for players exploring the End and are commonly used in End-themed architecture."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of the exit portal"
+        },
+        description: "The Dragon Egg is a rare trophy block and the rarest item in Minecraft, as it only generates once per world upon the first defeat of the Ender Dragon. It is a gravity-affected block that teleports to a nearby location when a player attempts to mine it or interacts with it. To collect it, players must cause it to fall as an item by pushing it with a piston or placing a torch or slab beneath it before it falls. While it has no functional use beyond being a trophy, it serves as a ultimate symbol of victory over the End dimension."
     }
 };

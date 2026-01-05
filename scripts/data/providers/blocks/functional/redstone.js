@@ -159,5 +159,47 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, it retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
+    },
+    "minecraft:daylight_detector": {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Daylight Detector is a redstone sensor that provides a signal based on the intensity of sunlight. The signal strength varies from 0 to 15 depending on the time of day and weather conditions. It can be toggled by right-clicking to become an Inverted Daylight Detector, which outputs a signal based on the absence of sunlight, making it perfect for automatic night-time lighting systems. Crafted from three glass blocks, three nether quartz, and three wooden slabs, it is a key component for time-based automation in Bedrock Edition."
+    },
+    "minecraft:dispenser": {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dispenser"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples"
+        },
+        description: "A Dispenser is a functional redstone block that can store items and use them when powered. Unlike a dropper, which simply ejects items, a dispenser can perform actions such as shooting arrows, placing water or lava, igniting TNT, or equipping armor onto players and mobs. It features a 3x3 grid for storage and is crafted from seven cobblestone, one bow, and one redstone dust. In Bedrock Edition, dispensers are essential for automated defense systems, farm automation, and complex redstone machines that interact with the world."
     }
 };
