@@ -1076,5 +1076,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/spore_blossom",
         themeColor: "§d" // light purple/pink
+    },
+    {
+        id: "minecraft:brewing_stand",
+        name: "Brewing Stand",
+        category: "block",
+        icon: "textures/blocks/brewing_stand",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        category: "block",
+        icon: "textures/blocks/enchanting_table_top",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:anvil",
+        name: "Anvil",
+        category: "block",
+        icon: "textures/blocks/anvil_top",
+        themeColor: "§7" // gray
     }
 ];

@@ -281,4 +281,67 @@ export const workstationBlocks = {
         },
         description: "The Fletching Table is a workstation block that serves as the job site for Fletcher villagers. While it currently lacks a functional UI for player use, it is an essential part of a village's economy, allowing unemployed villagers to become Fletchers who trade arrows, bows, and flint. It is crafted using two pieces of flint and four wooden planks. In Bedrock Edition, like other workstation blocks, it can be used for decorative purposes due to its unique wood-and-tool texture. It is highly resistant to fire despite being made of wood."
     },
+    "minecraft:brewing_stand": {
+        id: "minecraft:brewing_stand",
+        name: "Brewing Stand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brewing Stand"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Igloos, End Ships"
+        },
+        description: "A Brewing Stand is a vital workstation used for potion-making in Minecraft. It requires Blaze Powder as fuel to transform water bottles into various beneficial or harmful potions using ingredients like Nether Wart, Ghast Tears, and Magmatic Cream. Naturally spawning in village churches, igloo basements, and end ships, it also serves as the job site block for Cleric villagers. In Bedrock Edition, it emits a light level of 1 and can brew up to three potions simultaneously, making it an essential tool for late-game survival and combat preparation."
+    },
+    "minecraft:enchanting_table": {
+        id: "minecraft:enchanting_table",
+        name: "Enchanting Table",
+        hardness: 5,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 7,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Enchanting Table"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Enchanting Table is a powerful block used to bestow magical properties upon tools, armor, and weapons. By consuming experience levels and Lapis Lazuli, players can access enchantments that improve efficiency, durability, and combat prowess. Its effectiveness is boosted by placing up to 15 bookshelves nearby, unlocking higher-level enchantments up to level 30. The table features a mystical floating book that opens and turns its pages toward nearby players, and it notably emits a light level of 7 in Bedrock Edition while remaining highly resistant to explosions."
+    },
+    "minecraft:anvil": {
+        id: "minecraft:anvil",
+        name: "Anvil",
+        hardness: 5,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Anvil"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "An Anvil is a versatile workstation used for repairing items, renaming gear, and combining enchantments from enchanted books. Unlike most blocks, Anvils are affected by gravity and will fall if unsupported, dealing significant damage to any entity they land on. Each use has a 12% chance to degrade the anvil through three stages: undamaged, chipped, and damaged, eventually resulting in its destruction. In Bedrock Edition, they are essential for maintaining high-tier equipment and can be used to apply powerful enchantment combinations that exceed standard table limits."
+    }
 };
