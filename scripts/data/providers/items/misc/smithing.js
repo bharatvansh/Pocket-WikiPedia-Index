@@ -257,7 +257,7 @@ export const smithingTemplates = {
             "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
             "Consumed upon use in a Smithing Table unless duplicated beforehand."
         ],
-        description: "The Coast Armor Trim Smithing Template is a decorative item discovered within the supply chests of Shipwrecks. It allows players to customize their armor with the 'Coast' pattern, which provides a sleek and understated horizontal design. As one of the more common armor trims, it is often a player's first experience with the armor trimming system. Like all templates, it can be duplicated with seven diamonds and its base material, which for the Coast trim is common cobblestone, allowing players to easily outfit a full set of armor."
+        description: "The Coast Armor Trim Smithing Template is a decorative item discovered within the chests of Shipwrecks. It allows players to customize their armor with the 'Coast' pattern, which provides a sleek and understated horizontal design. As one of the more common armor trims, it is often a player's first experience with the armor trimming system. Like all templates, it can be duplicated with seven diamonds and its base material, which for the Coast trim is common cobblestone, allowing players to easily outfit a full set of armor."
     },
     "minecraft:dune_armor_trim_smithing_template": {
         id: "minecraft:dune_armor_trim_smithing_template",

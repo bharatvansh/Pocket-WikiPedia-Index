@@ -267,5 +267,26 @@ export const vegetationBlocks = {
             yRange: "Lush Caves"
         },
         description: "Big Dripleaf is a plant found in Lush Caves. It can be used as a temporary platform; if an entity stands on it for too long, the leaf tilts and the entity falls through. It can be grown larger using bone meal and its tilting behavior can be prevented with a redstone signal."
+    },
+    "minecraft:spore_blossom": {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spore Blossom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (ceiling)"
+        },
+        description: "The Spore Blossom is a beautiful decorative block found naturally in Lush Caves, where it attaches to the ceiling. It emits a constant stream of green particles that drift downwards, covering a large area (up to 22.5 blocks horizontally and vertically) with a mystical atmosphere. While it doesn't provide light or functional utility beyond aesthetics, it is highly sought after for its unique particle effect. It can be placed on the underside of any solid block. Breaking it is instantaneous and it always drops as an item, regardless of the tool used."
     }
 };

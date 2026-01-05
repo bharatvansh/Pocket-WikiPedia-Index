@@ -135,5 +135,26 @@ export const containerBlocks = {
             yRange: "End Cities treasure rooms"
         },
         description: "An ender chest is a storage block with a unique shared inventory across all dimensions for each player. Items placed inside one ender chest are accessible from any other ender chest in any world or dimension. It requires a diamond or netherite pickaxe to mine and drops 8 obsidian unless harvested with Silk Touch. Unlike regular chests, ender chests cannot be moved by pistons and emit light. The crafting recipe requires 8 obsidian and 1 eye of ender, making it a valuable resource for inventory management across multiple bases."
+    },
+    "minecraft:shulker_box": {
+        id: "minecraft:shulker_box",
+        name: "Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Shulker Box"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Shulker Box is a unique storage block that preserves its contents when broken, allowing items to be transported easily. It provides 27 slots of inventory space, similar to a chest. Unlike chests, shulker boxes can be picked up and placed elsewhere without losing the items inside, making them essential for high-capacity transport and organization. They can be dyed in 16 different colors and are crafted using two shulker shells and a chest. In Bedrock Edition, they can be broken by hand and will still drop as an item."
     }
 };
