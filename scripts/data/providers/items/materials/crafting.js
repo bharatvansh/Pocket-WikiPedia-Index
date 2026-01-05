@@ -963,5 +963,74 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update."
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
+    },
+    "minecraft:scrape_pottery_sherd": {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Scrape motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots in Trial Chambers"]
+        },
+        specialNotes: [
+            "Found by breaking Decorated Pots that generate in Trial Chambers.",
+            "Features a stylized image of an axe or scraping tool.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Introduced as part of the Tricky Trials update (1.21)."
+        ],
+        description: "The Scrape Pottery Sherd is a unique pottery fragment found within the Trial Chambers of Minecraft 1.21. Unlike most sherds found via brushing, this one is obtained by breaking naturally generated Decorated Pots in the corridors of the structure. It features a scraping or axe-like design that matches the copper and tuff aesthetic of the chambers. When used in a crafting table with three other sherds or bricks, it creates a Decorated Pot that displays the Scrape motif on one side."
+    },
+    "minecraft:miner_pottery_sherd": {
+        id: "minecraft:miner_pottery_sherd",
+        name: "Miner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Miner motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel"]
+        },
+        specialNotes: [
+            "Found by using a Brush on Suspicious Gravel in Trail Ruins.",
+            "Features a stylized image of a pickaxe.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Part of the archaeology system introduced in the Trails & Tales update."
+        ],
+        description: "The Miner Pottery Sherd is an archaeological treasure that pays homage to the mining roots of Minecraft. It is discovered by carefully brushing Suspicious Gravel blocks located within Trail Ruins. The sherd depicts a simple yet iconic pickaxe design. When combined with other pottery sherds or bricks in a crafting table, it allows players to construct a Decorated Pot that features the miner symbol, making it a perfect decorative piece for underground bases or mining outposts."
+    },
+    "minecraft:skull_pottery_sherd": {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Skull motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel"]
+        },
+        specialNotes: [
+            "Found by using a Brush on Suspicious Gravel in Trail Ruins.",
+            "Features a stylized image of a skeleton skull.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Part of the archaeology system introduced in the Trails & Tales update."
+        ],
+        description: "The Skull Pottery Sherd is a rare ceramic fragment obtained through the archaeology system in Trail Ruins. By using a Brush on Suspicious Gravel, players can uncover this item, which bears the image of a skeleton's skull. It serves as a decorative component for crafting Decorated Pots, allowing players to add a spooky or danger-themed design to their pottery. Like all sherds, it can be combined with bricks or other fragments to create a unique, four-sided vessel."
     }
 };
