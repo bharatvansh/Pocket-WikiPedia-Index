@@ -168,5 +168,26 @@ export const musicDiscs = {
             "Cannot be obtained from Creepers killed by Skeletons"
         ],
         description: "Music Disc 'Relic' is a disc that plays Aaron Cherof's track of the same name when inserted into a Jukebox. In Minecraft Bedrock Edition it is found through archaeology, obtained by brushing suspicious gravel in Trail Ruins rather than from mob drops. When played, it outputs a comparator signal strength of 14, making it useful for redstone builds that sort or detect specific discs."
+    },
+    "minecraft:music_disc_13": {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Played in a Jukebox",
+            secondaryUse: "Emits a redstone signal via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "One of the original music discs in Minecraft",
+            "Features ambient, eerie sounds including cave noises and metallic clangs",
+            "Also found in Dungeon and Woodland Mansion chests"
+        ],
+        description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
     }
 };

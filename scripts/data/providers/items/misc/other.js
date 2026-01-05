@@ -393,6 +393,69 @@ export const miscItems = {
         ],
         description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
     },
+    "minecraft:iron_horse_armor": {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting a tamed horse",
+            secondaryUse: "Increasing a horse's armor rating by 5 points"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests"]
+        },
+        specialNotes: [
+            "Found in Dungeons, Strongholds, Villages, Nether Fortresses, and Jungle Temples",
+            "Can be equipped on tamed horses only",
+            "Does not have durability and never breaks"
+        ],
+        description: "Iron Horse Armor is a specialized piece of equipment designed to protect tamed horses from damage. Unlike player armor, it cannot be crafted and must be discovered within loot chests in various world structures. When equipped, it provides 5 points of armor to the horse, significantly increasing its survival chances against mobs and other hazards. It is a durable item that does not wear out over time, making it a permanent upgrade for a player's mount."
+    },
+    "minecraft:golden_horse_armor": {
+        id: "minecraft:golden_horse_armor",
+        name: "Golden Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting a tamed horse",
+            secondaryUse: "Increasing a horse's armor rating by 7 points"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests"]
+        },
+        specialNotes: [
+            "Found in Dungeons, Villages (Weaponsmith chests), Nether Fortresses, Bastion Remnants, Ruined Portals, Desert Pyramids, Jungle Temples, Strongholds (Altar chests), and End Cities",
+            "Provides more protection than iron horse armor but less than diamond",
+            "Can be equipped on tamed horses only"
+        ],
+        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld, the Nether, and The End, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
+    },
+    "minecraft:leather_horse_armor": {
+        id: "minecraft:leather_horse_armor",
+        name: "Leather Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting and decorating a tamed horse",
+            secondaryUse: "Can be dyed in a cauldron to change its color"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["7x Leather"]
+        },
+        specialNotes: [
+            "The only type of horse armor that can be crafted in Bedrock Edition",
+            "Can be dyed into 12,326,391 different colors using cauldrons",
+            "Provides 3 armor points to the horse"
+        ],
+        description: "Leather Horse Armor is the entry-level protection for horses and is unique as the only craftable horse armor in Minecraft Bedrock Edition. It is made from seven pieces of leather and provides a modest 3 armor points. Its most notable feature is its customization; players can use dyed water in a cauldron to color the armor, allowing for millions of possible color combinations to personalize their steeds."
+    },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
         name: "Item Frame",

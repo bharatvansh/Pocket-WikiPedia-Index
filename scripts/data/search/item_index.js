@@ -1244,5 +1244,61 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_sword",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_iron",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:golden_horse_armor",
+        name: "Golden Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_gold",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:leather_horse_armor",
+        name: "Leather Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_leather",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:snort_pottery_sherd",
+        name: "Snort Pottery Sherd",
+        category: "item",
+        icon: "textures/items/snort_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:sheaf_pottery_sherd",
+        name: "Sheaf Pottery Sherd",
+        category: "item",
+        icon: "textures/items/sheaf_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/host_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/wayfinder_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        category: "item",
+        icon: "textures/items/music_disc_13",
+        themeColor: "§e"
     }
 ];
