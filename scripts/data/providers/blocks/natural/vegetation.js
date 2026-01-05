@@ -288,5 +288,47 @@ export const vegetationBlocks = {
             yRange: "Lush Caves (ceiling)"
         },
         description: "The Spore Blossom is a beautiful decorative block found naturally in Lush Caves, where it attaches to the ceiling. It emits a constant stream of green particles that drift downwards, covering a large area (up to 22.5 blocks horizontally and vertically) with a mystical atmosphere. While it doesn't provide light or functional utility beyond aesthetics, it is highly sought after for its unique particle effect. It can be placed on the underside of any solid block. Breaking it is instantaneous and it always drops as an item, regardless of the tool used."
+    },
+    "minecraft:pitcher_plant": {
+        id: "minecraft:pitcher_plant",
+        name: "Pitcher Plant",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pitcher Plant"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Pitcher Pods discovered by Sniffers"
+        },
+        description: "The Pitcher Plant is a large, two-block tall decorative flower introduced in Minecraft 1.20. It grows from Pitcher Pods, which are rare seeds discovered by Sniffers when digging in specific blocks like dirt or moss. The plant has five distinct growth stages before reaching maturity. Once fully grown, it can be harvested for its unique appearance, making it a prized addition to gardens. It cannot be crafted and must be grown from pods obtained through a Sniffer."
+    },
+    "minecraft:torchflower": {
+        id: "minecraft:torchflower",
+        name: "Torchflower",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Torchflower"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Torchflower Seeds discovered by Sniffers"
+        },
+        description: "Torchflowers are decorative plants introduced in the 1.20 Trails & Tales update. They grow from Torchflower Seeds, which are ancient seeds that Sniffers find by sniffing and digging in the ground. Although its name and vibrant orange-to-red appearance suggest it might emit light, the Torchflower does not actually provide any luminance. It has three growth stages and is primarily used for decoration, crafting orange dye, or breeding bees. Its unique look adds a touch of prehistoric flora to any Minecraft garden."
     }
 };
