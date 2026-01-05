@@ -242,5 +242,26 @@ export const netherBlocks = {
         yRange: "10 to 117"
     },
     description: "Nether Gold Ore is a mineral block found exclusively in Nether that drops gold nuggets instead of raw gold when mined. It generates in ore blobs throughout all Nether biomes from Y-levels 10 to 117, attempting to replace netherrack 10 times per chunk. When mined with any pickaxe, it drops 2-6 gold nuggets. Fortune enchantment can multiply drops: Fortune I has 33.3% chance for 2x drops, Fortune II has 25% chance for 2x or 3x, and Fortune III has 20% chance each for 2x, 3x, or 4x drops. Breaking nether gold ore angers nearby piglins, similar to other gold-related blocks. Silk Touch can be used to obtain the ore itself, which can then be smelted into gold ingots for efficiency."
+    },
+    "minecraft:crimson_nylium": {
+        id: "minecraft:crimson_nylium",
+        name: "Crimson Nylium",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Netherrack"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest biome"
+        },
+        description: "Crimson Nylium is a grass-like block found exclusively in the Crimson Forest biome of the Nether. It is a variant of netherrack covered in reddish fungal growth. While it looks like grass, it must be mined with a pickaxe. If mined without Silk Touch, it drops netherrack. Players can use bone meal on netherrack adjacent to crimson nylium to spread it, or use bone meal on the nylium itself to grow crimson fungi and roots. It is essential for growing huge crimson fungi, which provide crimson stems and other nether vegetation."
     }
     };
