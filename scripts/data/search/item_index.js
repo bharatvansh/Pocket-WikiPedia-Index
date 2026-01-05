@@ -1202,5 +1202,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/flower_banner_pattern",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:netherite_hoe",
+        name: "Netherite Hoe",
+        category: "item",
+        icon: "textures/items/netherite_hoe",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_shovel",
+        name: "Netherite Shovel",
+        category: "item",
+        icon: "textures/items/netherite_shovel",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        category: "item",
+        icon: "textures/items/snowball",
+        themeColor: "§f"
     }
 ];
