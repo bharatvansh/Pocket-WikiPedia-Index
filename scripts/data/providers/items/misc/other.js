@@ -429,11 +429,11 @@ export const miscItems = {
             ingredients: ["Found in loot chests"]
         },
         specialNotes: [
-            "Found in Dungeons, Villages, Nether Fortresses, Bastion Remnants, and Ruined Portals",
+            "Found in Dungeons, Villages (Weaponsmith chests), Nether Fortresses, Bastion Remnants, Ruined Portals, Desert Pyramids, Jungle Temples, Strongholds (Altar chests), and End Cities",
             "Provides more protection than iron horse armor but less than diamond",
             "Can be equipped on tamed horses only"
         ],
-        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld and the Nether, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
+        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld, the Nether, and The End, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
     },
     "minecraft:leather_horse_armor": {
         id: "minecraft:leather_horse_armor",

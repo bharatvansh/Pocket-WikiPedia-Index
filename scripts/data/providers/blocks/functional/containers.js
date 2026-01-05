@@ -156,5 +156,26 @@ export const containerBlocks = {
             yRange: "Crafted only"
         },
         description: "A Shulker Box is a unique storage block that preserves its contents when broken, allowing items to be transported easily. It provides 27 slots of inventory space, similar to a chest. Unlike chests, shulker boxes can be picked up and placed elsewhere without losing the items inside, making them essential for high-capacity transport and organization. They can be dyed in 16 different colors and are crafted using two shulker shells and a chest. In Bedrock Edition, they can be broken by hand and will still drop as an item."
+    },
+    "minecraft:hopper": {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        hardness: 3.0,
+        blastResistance: 4.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hopper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Hopper is a functional block used to collect item entities and move items between containers. It has five inventory slots and can be placed under a container to pull items from it, or against a container to push items into it. Hoppers can be disabled by a redstone signal, which prevents them from moving items. They are essential for automation in farms and storage systems. Crafted from five iron ingots and one chest, they are a fundamental component in advanced redstone engineering in Bedrock Edition."
     }
 };
