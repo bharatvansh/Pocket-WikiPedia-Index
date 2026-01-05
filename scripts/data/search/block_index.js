@@ -1055,5 +1055,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/big_dripleaf",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:shulker_box",
+        name: "Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_undyed",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:campfire",
+        name: "Campfire",
+        category: "block",
+        icon: "textures/blocks/campfire",
+        themeColor: "§6" // orange/gold
+    },
+    {
+        id: "minecraft:spore_blossom",
+        name: "Spore Blossom",
+        category: "block",
+        icon: "textures/blocks/spore_blossom",
+        themeColor: "§d" // light purple/pink
     }
 ];
