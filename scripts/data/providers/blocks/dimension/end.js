@@ -93,5 +93,68 @@ export const endBlocks = {
             yRange: null
         },
         description: "Purpur Block is a decorative purple stone-like block found exclusively in End Cities and End Ships. It can be crafted by placing four popped chorus fruit in a 2x2 grid, making it renewable. Purpur blocks come in several variants including stairs, slabs, and pillars. With a hardness of 1.5 and blast resistance of 6.0, purpur blocks provide moderate durability while offering a unique purple aesthetic that fits the End dimension's color palette. They are essential building materials for players exploring the End and are commonly used in End-themed architecture."
+    },
+    "minecraft:end_portal_frame": {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        hardness: -1,
+        blastResistance: 3600000.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "The End Portal Frame is an unbreakable block found naturally in strongholds. Twelve frames are arranged in a 3x3 square (minus corners) to form the portal to the End dimension. When an Eye of Ender is placed in each frame, the portal activates. In Bedrock Edition, the frame has a hardness of -1 and a blast resistance of 3,600,000.8, making it impervious to all forms of destruction in survival mode. Interestingly, it emits a light level of 1 even without an Eye of Ender."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3,
+        blastResistance: 9,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Any",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Exit Portal"
+        },
+        description: "The Dragon Egg is the rarest block in Minecraft, appearing on top of the exit portal after the Ender Dragon is first defeated. It serves as a trophy of victory. If a player attempts to mine it, the egg will teleport to a nearby location. To collect it, players can use a piston to push it or place a torch two blocks below it and break the block in between, causing the egg to fall onto the torch as an item. It is affected by gravity and emits a faint light level of 1."
+    },
+    "minecraft:chorus_flower": {
+        id: "minecraft:chorus_flower",
+        name: "Chorus Flower",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chorus Flower"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Highlands"
+        },
+        description: "Chorus Flowers are the source of Chorus Plants found throughout the outer islands of the End. They can be harvested by breaking them directly; however, if the plant beneath them is broken first, the flower will be destroyed without dropping as an item. They can be planted on End Stone to grow new chorus plants. As the plant grows, the flower will age and eventually stop producing new branches. Chorus flowers are essential for farming Chorus Fruit, which can be popped in a furnace for crafting Purpur blocks and End Rods."
     }
 };

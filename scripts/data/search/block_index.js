@@ -1223,5 +1223,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crimson_nylium",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_top",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:chorus_flower",
+        name: "Chorus Flower",
+        category: "block",
+        icon: "textures/blocks/chorus_flower",
+        themeColor: "§d"
     }
 ];
