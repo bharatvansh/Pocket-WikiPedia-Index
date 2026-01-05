@@ -1223,5 +1223,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/snowball",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:netherite_helmet",
+        name: "Netherite Helmet",
+        category: "item",
+        icon: "textures/items/netherite_helmet",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_chestplate",
+        name: "Netherite Chestplate",
+        category: "item",
+        icon: "textures/items/netherite_chestplate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_sword",
+        name: "Netherite Sword",
+        category: "item",
+        icon: "textures/items/netherite_sword",
+        themeColor: "§8"
     }
 ];
