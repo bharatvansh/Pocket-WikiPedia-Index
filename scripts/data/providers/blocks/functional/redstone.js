@@ -117,5 +117,47 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Note Block is a musical redstone component that produces notes when activated by redstone or right-clicked. The instrument sound depends on the block beneath it, with 16 instruments available including harp, bass, snare, clicks, guitar, flute, bell, chime, xylophone, iron xylophone, cow bell, didgeridoo, bit, banjo, and pling. Each note block can be tuned through 25 pitches by right-clicking. Placing a mob head on top changes the sound to a unique bass tone, making note blocks essential for creating music and sound effects in Bedrock Edition."
+    },
+    "minecraft:piston": {
+        id: "minecraft:piston",
+        name: "Piston",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Piston"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Ancient Cities"
+        },
+        description: "A Piston is a redstone-activated block capable of pushing most other blocks, players, and mobs. When powered, the piston head extends, moving a line of up to 12 blocks in the direction it faces. When unpowered, the head retracts. Pistons are crucial for creating secret doors, automated farms, and complex machines. In Bedrock Edition, pistons can push certain blocks that Java pistons cannot, such as chests and hoppers. They generate naturally in jungle temples and ancient cities, providing a source for early-game redstone components."
+    },
+    "minecraft:sticky_piston": {
+        id: "minecraft:sticky_piston",
+        name: "Sticky Piston",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sticky Piston"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, it retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
     }
 };

@@ -1118,5 +1118,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_mosaic",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:piston",
+        name: "Piston",
+        category: "block",
+        icon: "textures/blocks/piston_side",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:sticky_piston",
+        name: "Sticky Piston",
+        category: "block",
+        icon: "textures/blocks/piston_side_sticky",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:hopper",
+        name: "Hopper",
+        category: "block",
+        icon: "textures/blocks/hopper_top",
+        themeColor: "§8"
     }
 ];
