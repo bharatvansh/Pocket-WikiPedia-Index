@@ -1202,5 +1202,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/flower_banner_pattern",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/host_armor_trim_smithing_template",
+        themeColor: "§6" // terracotta
+    },
+    {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/wayfinder_armor_trim_smithing_template",
+        themeColor: "§6" // terracotta
     }
 ];

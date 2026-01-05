@@ -235,5 +235,71 @@ export const smithingTemplates = {
             "Can be duplicated using 7 Diamonds and a block of Mossy Cobblestone."
         ],
         description: "The Wild Armor Trim Smithing Template is a rare decorative item discovered within the hidden chests of Jungle Pyramids. It allows players to customize their armor with the 'Wild' pattern, featuring organic, leafy designs that evoke the lush environment of the jungle. Like other armor trims, it is a late-game cosmetic that represents a player's exploration of rare world structures. To ensure a continuous supply, it can be duplicated with seven diamonds and mossy cobblestone, allowing for a complete set of matching gear."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests (25% chance in Bedrock Edition).",
+            "Features a simple, clean pattern that adds circular elements to the armor.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item found within the chests of Pillager Outposts. This template allows players to apply a 'Sentry' pattern to their armor, adding a rugged, protective look. With a relatively high spawn rate compared to other templates, it is often one of the first trims players discover. To apply it, one needs the template, a piece of armor, and a material like iron or gold. It can be duplicated using diamonds and cobblestone."
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Host' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Host Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Obtained by brushing Suspicious Gravel in Trail Ruins.",
+            "Has a 1.8% chance to be found in Bedrock Edition archaeology.",
+            "Features a unique ancient pattern discovered from buried history.",
+            "Can be duplicated using 7 Diamonds and 1 block of Terracotta."
+        ],
+        description: "The Host Armor Trim Smithing Template is an archaeological treasure found within Trail Ruins. Players must use a Brush on suspicious gravel blocks to uncover this rare item. It applies the 'Host' pattern to armor, representing the lost designs of an ancient civilization. Due to its rarity and the effort required to excavate Trail Ruins, it is a highly valued collectible. Like all trims, it can be duplicated with diamonds and terracotta to ensure a full set of armor can be decorated."
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Wayfinder' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Wayfinder Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Obtained by brushing Suspicious Gravel in Trail Ruins.",
+            "Has a 1.8% chance to be found in Bedrock Edition archaeology.",
+            "Consists of a decorative pattern that highlights the edges of armor pieces.",
+            "Can be duplicated using 7 Diamonds and 1 block of Terracotta."
+        ],
+        description: "The Wayfinder Armor Trim Smithing Template is one of the four unique trims found through archaeology in Trail Ruins. By carefully brushing suspicious gravel, players can recover this ancient design to customize their gear. The 'Wayfinder' pattern provides a distinct, edge-focused aesthetic to any armor piece. As Trail Ruins are often buried and difficult to locate, finding this template is a mark of a dedicated explorer. It can be duplicated using diamonds and terracotta."
     }
 };
