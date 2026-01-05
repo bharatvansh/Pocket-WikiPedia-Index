@@ -135,5 +135,26 @@ export const lightingBlocks = {
             yRange: "Frog interaction (cold frog eating magma cube)"
         },
         description: "Pearlescent Froglight is an elegant, soft white and pale purple light-emitting block that emits light level 15, providing cool-toned illumination for serene atmospheres. This rare variant is obtained when a cold (white/tan) frog consumes a tiny magma cube in the Nether. With only 0.3 hardness, it requires careful placement. Pearlescent froglight joins verdant and ochre variants to complete the froglight family."
+    },
+    "minecraft:lantern": {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages and Bastion Remnants"
+        },
+        description: "Lanterns are versatile light source blocks that provide a high light level of 15. They can be placed on top of most solid blocks or hung from the bottom of blocks and chains. Crafted from eight iron nuggets and one torch, they are more durable and atmospheric than torches. Lanterns generate naturally in snowy tundra villages and bastions. They are unaffected by water or lava, making them ideal for underwater or high-risk lighting. Their compact and detailed design makes them a favorite for both interior and exterior decoration."
     }
 };

@@ -306,5 +306,26 @@ export const miscDecorativeBlocks = {
             yRange: "Amethyst Geodes"
         },
         description: "An Amethyst Cluster is the fourth and final stage of growth for an amethyst bud. Found exclusively in amethyst geodes on budding amethyst blocks, it emits a soft light level of 5. When mined with a pickaxe of any tier, it drops four amethyst shards, which can be increased with the Fortune enchantment. If mined with any other tool or by hand, it drops nothing unless harvested with a Silk Touch tool. Amethyst clusters are highly decorative and make a pleasant chime sound when walked on or broken."
+    },
+    "minecraft:iron_bars": {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted or found in Strongholds and Villages"
+        },
+        description: "Iron Bars are thin, decorative blocks that function similarly to glass panes or fences. They are 16 pixels tall but only 2 pixels thick when not connected to other blocks. They automatically connect to adjacent solid blocks and other bars. Mined with a pickaxe, they are commonly used for windows, cages, and prison-themed builds. They generate naturally in strongholds, villages, and woodland mansions. Despite their thin appearance, they are blast-resistant and provide a secure barrier while still allowing visibility."
     }
 };

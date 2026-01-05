@@ -1139,5 +1139,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hopper_top",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:turtle_egg",
+        name: "Turtle Egg",
+        category: "block",
+        icon: "textures/items/turtle_egg",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:small_dripleaf",
+        name: "Small Dripleaf",
+        category: "block",
+        icon: "textures/blocks/small_dripleaf_side",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/items/cake",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        category: "block",
+        icon: "textures/blocks/iron_bars",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        category: "block",
+        icon: "textures/blocks/lantern",
+        themeColor: "§6"
     }
 ];

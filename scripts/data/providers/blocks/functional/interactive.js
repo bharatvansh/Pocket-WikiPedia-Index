@@ -221,5 +221,26 @@ export const interactiveBlocks = {
             yRange: "Taiga and Snowy Taiga villages"
         },
         description: "The Campfire is a versatile functional block used for cooking food, providing light, and acting as a smoke signal. It can cook up to four food items simultaneously, taking 30 seconds per item, without requiring fuel. When placed over a hay bale, the smoke signal reaches much higher (24 blocks). It also serves as a light source with a level of 15. Campfires can be extinguished with water or a shovel and relighted using flint and steel or fire charges. They also help safely harvest honey from beehives and bee nests by calming the bees."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted"
+        },
+        description: "Cake is a unique food block that must be placed on a solid surface to be consumed. Unlike most food items, it cannot be eaten from the inventory. A single cake consists of seven slices, each restoring 2 hunger and 0.4 saturation. It is crafted using three buckets of milk, two sugars, one egg, and three wheat. In Bedrock Edition, cake can be used in a composter with a 65% chance to raise the level. It is also used to breed pandas or as a decorative centerpiece for celebrations."
     }
 };

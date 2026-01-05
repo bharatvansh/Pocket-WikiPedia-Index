@@ -330,5 +330,47 @@ export const vegetationBlocks = {
             yRange: "Grown from Torchflower Seeds discovered by Sniffers"
         },
         description: "Torchflowers are decorative plants introduced in the 1.20 Trails & Tales update. They grow from Torchflower Seeds, which are ancient seeds that Sniffers find by sniffing and digging in the ground. Although its name and vibrant orange-to-red appearance suggest it might emit light, the Torchflower does not actually provide any luminance. It has three growth stages and is primarily used for decoration, crafting orange dye, or breeding bees. Its unique look adds a touch of prehistoric flora to any Minecraft garden."
+    },
+    "minecraft:turtle_egg": {
+        id: "minecraft:turtle_egg",
+        name: "Turtle Egg",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Turtle Egg"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Beaches"
+        },
+        description: "Turtle Eggs are fragile blocks that eventually hatch into baby sea turtles. Found on beach biomes, they are laid by sea turtles after being bred with seagrass. Up to four eggs can occupy a single block. They are extremely vulnerable; players and many hostile mobs can trample and break them by standing or jumping on them. Eggs only hatch at night on sand or red sand blocks. To collect them, a tool with Silk Touch is required; otherwise, the egg will break and drop nothing."
+    },
+    "minecraft:small_dripleaf": {
+        id: "minecraft:small_dripleaf",
+        name: "Small Dripleaf",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Small Dripleaf"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Small Dripleaf is a decorative plant found in Lush Caves. It can be placed on clay or moss blocks, either underwater or on land if provided with a high enough light level or shade. When bone meal is applied, it grows into a Big Dripleaf. In Bedrock Edition, it can only be harvested as an item using shears. It can also be purchased from wandering traders. Its elegant appearance and ability to grow in water make it a popular choice for aquatic landscaping and garden decoration."
     }
 };
