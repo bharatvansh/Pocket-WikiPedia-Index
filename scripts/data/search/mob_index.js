@@ -467,5 +467,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_cod.png",
         themeColor: "§6" // brown/tan cod color
+    },
+    {
+        id: "minecraft:zombified_piglin",
+        name: "Zombified Piglin",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombified_piglin.png",
+        themeColor: "§d" // pink/undead
+    },
+    {
+        id: "minecraft:snow_golem",
+        name: "Snow Golem",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_snow_golem.png",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_endermite.png",
+        themeColor: "§5" // purple
     }
 ];

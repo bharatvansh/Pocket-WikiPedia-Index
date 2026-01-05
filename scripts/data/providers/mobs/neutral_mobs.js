@@ -352,5 +352,39 @@ export const neutralMobs = {
             { item: "Carpet", chance: "If equipped" }
         ],
         description: "Llamas are versatile neutral mobs found in savanna and mountain biomes. They are unique for their ability to carry chests, with their storage capacity determined by their internal strength stat. Players can form massive caravans by leashing one llama, causing others nearby to follow in a line. While they are generally peaceful, they will spit at anyone who attacks them. In Bedrock Edition, they are also notable for their protective nature, as they will aggressively spit at wolves that get too close."
+    },
+    "minecraft:zombified_piglin": {
+        id: "minecraft:zombified_piglin",
+        name: "Zombified Piglin",
+        health: 20,
+        stats: {
+            attackDamage: 5,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Neutral",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Nether Wastes", "Crimson Forest", "Nether Portals"],
+            lightLevel: "Any",
+            groupSize: "4"
+        },
+        behaviorTraits: [
+            "Neutral until attacked; once provoked, all nearby zombified piglins become hostile",
+            "Immune to fire and lava damage",
+            "Equipped with a golden sword that can be enchanted on higher difficulties",
+            "Does not retreat from soul fire or soul-related items",
+            "Created when a pig is struck by lightning or a piglin stays in the Overworld",
+            "Can pick up and equip armor and weapons found on the ground",
+            "Baby variants are faster and can ride chickens (Chicken Jockeys)"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-1" },
+            { item: "Gold Nugget", chance: "0-1" },
+            { item: "Gold Ingot", chance: "2.5% (rare)" },
+            { item: "Golden Sword", chance: "8.5% (rare)" }
+        ],
+        description: "Zombified Piglins are common neutral mobs found in the Nether. They remain peaceful unless provoked; however, attacking one will cause all nearby zombified piglins to swarm the player. They are immune to fire and lava and always carry golden swords. Zombified piglins can also spawn in the Overworld near nether portals or when a pig is struck by lightning. Their ability to call reinforcements makes them dangerous if accidentally hit. They are an excellent source of gold nuggets and rotten flesh for players venturing through the Nether's wastes."
     }
 };
