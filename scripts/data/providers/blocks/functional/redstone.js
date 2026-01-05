@@ -159,5 +159,26 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, it retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
+    },
+    "minecraft:daylight_detector": {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Daylight Detector is a redstone component that generates a signal based on the intensity of sunlight. Its signal strength varies from 0 to 15 depending on the time of day and weather. Players can interact with it to toggle it into an Inverted Daylight Detector, which emits a signal based on moonlight or the absence of sunlight. Crafted from glass, nether quartz, and wooden slabs, it is essential for automating lighting systems or time-based mechanisms. In Bedrock Edition, it provides a compact way to detect the day-night cycle for various automated contraptions."
     }
 };

@@ -115,5 +115,26 @@ export const woodBlocks = {
             yRange: "Crafted from 9 Bamboo"
         },
         description: "A block of bamboo is a wood-like block crafted from nine bamboo items. It functions similarly to other logs, meaning it can be stripped with an axe to create stripped bamboo blocks or crafted into bamboo planks. It features a unique segmented appearance."
+    },
+    "minecraft:cherry_leaves": {
+        id: "minecraft:cherry_leaves",
+        name: "Cherry Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Cherry Sapling", "Stick", "Cherry Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Cherry Grove biome"
+        },
+        description: "Cherry Leaves are the beautiful pink foliage of cherry trees found in the cherry grove biome. They drop pink petals that create a unique atmosphere around the tree. These leaves have a low hardness and blast resistance, and they are highly flammable. When broken without shears or silk touch, they have a small chance of dropping cherry saplings and sticks. In Bedrock Edition, they were added as part of the 1.20 Trails & Tales update, bringing a vibrant and aesthetic touch to any landscape or garden build."
     }
 };
