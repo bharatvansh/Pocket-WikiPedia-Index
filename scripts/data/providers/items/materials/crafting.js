@@ -602,6 +602,30 @@ export const craftingMaterials = {
         ],
         description: "Coal is one of the most fundamental fuel sources in Minecraft, obtained by mining coal ore with any pickaxe or from Wither Skeleton drops. Each piece burns for 80 seconds in a furnace, smelting up to 8 items, making it an efficient early-game fuel. Beyond smelting, coal is essential for crafting torches, which provide light and prevent hostile mob spawning. It can be compacted into coal blocks for more efficient storage and extended burn times. Coal is also used in crafting campfires for cooking and ambiance, as well as fire charges for remote ignition."
     },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for furnaces, smokers, and campfires",
+            secondaryUse: "Crafting torches, campfires, and fire charges"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Any wood log or wood block"]
+        },
+        specialNotes: [
+            "Produced by smelting logs or wood in a furnace or smoker",
+            "Functionally identical to coal as fuel, smelting 8 items per piece",
+            "Used to craft torches (1 Charcoal + 1 Stick = 4 Torches)",
+            "Used to craft campfires (3 Sticks + 1 Charcoal + 3 Logs)",
+            "Essential alternative to coal for players who prefer surface-level gathering",
+            "Cannot be crafted into a block of coal, and does not have its own block form"
+        ],
+        description: "Charcoal is a renewable alternative to coal, produced by smelting wood logs or wood blocks in a furnace. It serves as a highly efficient fuel source, capable of smelting eight items per piece, matching the performance of regular coal. Beyond fueling, charcoal is a primary ingredient in crafting torches and campfires, making it vital for lighting and cooking. Because it can be produced from trees, it is an excellent resource for players who haven't yet ventured deep into caves or for those living in biomes with abundant timber."
+    },
     "minecraft:book": {
         id: "minecraft:book",
         name: "Book",

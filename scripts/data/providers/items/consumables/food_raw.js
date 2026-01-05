@@ -235,5 +235,33 @@ export const rawFood = {
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and taming Axolotls in Bedrock Edition"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing", "Found in structure chests"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Used to breed Axolotls in Bedrock Edition",
+            "Can be caught as a 'fish' category item while fishing (approx. 2% chance)",
+            "Tropical Fish mobs drop 1 tropical fish when killed",
+            "There are 2,700 naturally occurring variants of the mob (in Bedrock Edition)",
+            "Categorized as a 'common' item despite its visual variety"
+        ],
+        description: "Tropical Fish are colorful food items primarily obtained by fishing or killing tropical fish mobs found in warm ocean biomes. In Minecraft Bedrock Edition, they have the unique utility of being used to breed Axolotls. While edible, they provide minimal hunger restoration and saturation, making them more valuable for mob breeding than as a primary food source. With thousands of possible visual variants for the live mobs, the item itself remains a single, versatile resource for players exploring coral reefs."
     }
 };

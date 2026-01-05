@@ -1426,5 +1426,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_tropical",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:empty_map",
+        name: "Empty Map",
+        category: "item",
+        icon: "textures/items/map_empty",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§8"
     }
 ];

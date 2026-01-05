@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
+// bucket, dragon egg, oak boat, oak boat with chest, empty map
 // ============================================
 
 /**
@@ -872,5 +872,28 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:empty_map": {
+        id: "minecraft:empty_map",
+        name: "Empty Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating a new map of the current area",
+            secondaryUse: "Crafting a locator map when combined with a compass"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Paper x9"]
+        },
+        specialNotes: [
+            "Used to generate a map that tracks player movement and terrain",
+            "In Bedrock Edition, a normal empty map does not show player icons",
+            "Can be expanded in a cartography table using more paper",
+            "Essential for navigation and marking territory",
+            "Can be placed in an item frame to create large wall maps"
+        ],
+        description: "An Empty Map is a crucial tool for navigation and exploration in Minecraft Bedrock Edition. When used, it transforms into a filled map that records the surrounding terrain as the player travels. Crafted from nine pieces of paper, it provides a basic view of the world. For players desiring more detail, it can be combined with a compass to create a Locator Map, which shows the position and direction of players. Maps can be further customized and expanded using a Cartography Table, making them indispensable for large-scale planning and world documentation."
     }
 };
