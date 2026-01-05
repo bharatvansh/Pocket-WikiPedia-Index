@@ -1405,5 +1405,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/archer_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:painting",
+        name: "Painting",
+        category: "item",
+        icon: "textures/items/painting",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:glow_item_frame",
+        name: "Glow Item Frame",
+        category: "item",
+        icon: "textures/items/glow_item_frame",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:oak_chest_boat",
+        name: "Oak Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_oak_chest",
+        themeColor: "§6"
     }
 ];

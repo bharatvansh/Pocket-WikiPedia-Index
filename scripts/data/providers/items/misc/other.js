@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat
+// bucket, dragon egg, oak boat, oak boat with chest
 // ============================================
 
 /**
@@ -806,5 +806,71 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
+    },
+    "minecraft:painting": {
+        id: "minecraft:painting",
+        name: "Painting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing decorative art on walls",
+            secondaryUse: "Creating secret doors and hidden passages"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x8", "Wool (any color) x1"]
+        },
+        specialNotes: [
+            "Can be placed in different sizes (1x1 to 4x4) depending on available space",
+            "There are 30 different paintings available in Bedrock Edition",
+            "Can be placed over doors or openings to create hidden passages",
+            "Breaking a painting drops the item for relocation"
+        ],
+        description: "Paintings are decorative entities that can be placed on vertical surfaces. They come in various sizes, from small 1x1 canvases to large 4x4 masterpieces, randomly chosen based on the space available when placed. In Bedrock Edition, there are 30 unique painting designs. Beyond decoration, paintings are commonly used to create secret doors, as players and mobs can walk through them if there is an opening behind the canvas."
+    },
+    "minecraft:glow_item_frame": {
+        id: "minecraft:glow_item_frame",
+        name: "Glow Item Frame",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying items with a glowing background",
+            secondaryUse: "Lighting up displayed items in the dark"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Item Frame", "Glow Ink Sac"]
+        },
+        specialNotes: [
+            "Makes the displayed item clearly visible even in total darkness",
+            "Does not increase the light level of the surrounding area (decorative only)",
+            "Obtained by combining a regular item frame with a glow ink sac from a glow squid",
+            "Can be placed on any side of most blocks, including top and bottom"
+        ],
+        description: "The Glow Item Frame is a specialized version of the standard item frame that allows displayed items to remain fully visible in the dark. It is crafted by combining a regular item frame with a glow ink sac. While it makes the item glow with a bright background, it does not actually emit light into the environment. This makes it perfect for maps, signage, or trophy rooms where visibility is needed regardless of lighting conditions."
+    },
+    "minecraft:oak_chest_boat": {
+        id: "minecraft:oak_chest_boat",
+        name: "Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation with mobile storage",
+            secondaryUse: "Transporting a single player or mob plus items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Provides 27 slots of storage, equivalent to a single chest",
+            "Can only hold one passenger (player or mob) instead of the two allowed in standard boats",
+            "When broken, it drops both the boat with chest item and the contents of the chest",
+            "Useful for long-distance ocean exploration or moving base materials across water"
+        ],
+        description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
     }
 };
