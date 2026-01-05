@@ -124,5 +124,28 @@ export const bannerPatterns = {
             "Essential for creating piglin or Nether-themed decorations and builds"
         ],
         description: "The Snout Banner Pattern is a specialized decorative item used to apply a distinctive piglin snout design to banners. Found exclusively in bastion remnants throughout the Nether, it is a rare and valuable collectible for players wanting to create Nether-themed or piglin-inspired decorations. Since it cannot be crafted and is only obtainable from bastion remnant exploration, it represents a significant achievement in surviving the dangerous Nether environment."
+    },
+    "minecraft:flower_banner_pattern": {
+        id: "minecraft:flower_banner_pattern",
+        name: "Flower Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Flower Charge' pattern to a banner in a Loom",
+            secondaryUse: "Creating decorative banners with a floral design"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1x Paper", "1x Oxeye Daisy"]
+        },
+        specialNotes: [
+            "Crafted by combining one Paper and one Oxeye Daisy in any crafting grid.",
+            "Used in a Loom to add a flower-shaped emblem to a banner.",
+            "The pattern item is not consumed when used in the Loom, allowing for infinite reuse.",
+            "Completely renewable since both Paper and Oxeye Daisies are easily obtainable.",
+            "In Bedrock Edition, it is known as the 'Flower Charge' pattern in the Loom interface."
+        ],
+        description: "The Flower Banner Pattern is a renewable decorative item used to apply a beautiful floral emblem to banners. It is easily crafted by combining a single piece of paper with an oxeye daisy. When placed in a loom with a banner and dye, it produces the 'Flower Charge' design, making it a favorite for players who want to add a touch of nature or elegance to their bases and heraldry. Since the pattern is not consumed upon use, it serves as a permanent addition to a player's design toolkit."
     }
 };
