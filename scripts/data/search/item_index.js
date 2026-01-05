@@ -1300,5 +1300,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_13",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        category: "item",
+        icon: "textures/items/glowstone_dust",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        category: "item",
+        icon: "textures/items/bowl",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        category: "item",
+        icon: "textures/items/minecart",
+        themeColor: "§f"
     }
 ];

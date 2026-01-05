@@ -893,5 +893,52 @@ export const craftingMaterials = {
             "Introduced as part of the Pale Garden update (1.21.40 Bedrock)."
         ],
         description: "Resin Bricks are durable crafting materials obtained by hardening Resin Clumps through the smelting process. Found in the eerie Pale Garden biome, these bricks serve as the primary component for constructing Resin Bricks blocks and Resin Walls. Their distinctive orange-brown hue makes them an excellent choice for players looking to add unique color and texture to their builds. As a part of the Pale Garden's ecosystem, Resin Bricks represent the transformation of organic resin into a solid, reliable building material."
+    },
+    "minecraft:glowstone_dust": {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing ingredient to increase potion potency",
+            secondaryUse: "Crafting Glowstone blocks and Firework Stars"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by mining Glowstone blocks", "Dropped by Witches", "Piglin Bartering"]
+        },
+        specialNotes: [
+            "Mining Glowstone yields 2-4 dust (up to 4 with Fortune)",
+            "Increases potion level (e.g., Strength I to Strength II)",
+            "Essential for crafting Glowstone blocks (4x Glowstone Dust)",
+            "Used to craft Firework Stars with various colors",
+            "Can be obtained from Cleric villagers in exchange for emeralds"
+        ],
+        description: "Glowstone Dust is a luminous material primarily obtained by mining Glowstone blocks in the Nether. It is a cornerstone of advanced brewing, used to increase the potency of potions at the cost of reduced duration. Beyond alchemy, it can be recombined into Glowstone blocks for permanent lighting or used to craft Firework Stars for colorful displays. Its availability in the Nether makes it a vital resource for players looking to enhance their combat effectiveness or decorate their builds with bright, magical light."
+    },
+    "minecraft:bowl": {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Container for stews and soups",
+            secondaryUse: "Obtaining suspicious stew from Mooshrooms"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Planks (any wood type)"]
+        },
+        specialNotes: [
+            "Crafted from three planks in a V-shape (yields 4 bowls)",
+            "Used to craft Mushroom Stew, Rabbit Stew, and Beetroot Soup",
+            "Left behind in the inventory after consuming any stew or soup",
+            "Can be used on a Mooshroom (after feeding it a flower) to get Suspicious Stew",
+            "Occasionally obtained through fishing as junk",
+            "Can be used as fuel in a furnace (smelts 0.5 items)"
+        ],
+        description: "A Bowl is a simple yet essential container used primarily for holding various stews and soups in Minecraft. Crafted from three wooden planks, it serves as the vessel for Mushroom Stew, Rabbit Stew, and Beetroot Soup. Unlike many other food items, stews leave the empty bowl behind after consumption, allowing it to be reused indefinitely. Bowls also play a unique role in agriculture, as they can be used to milk Mooshrooms for stew or to collect Suspicious Stew from them after feeding them specific flowers."
     }
 };
