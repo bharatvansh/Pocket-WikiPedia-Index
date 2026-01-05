@@ -136,5 +136,26 @@ export const dirtBlocks = {
             yRange: "Trail Ruins and Cold Ocean Ruins"
         },
         description: "Suspicious gravel is a fragile, gravity-affected block found in Trail Ruins and Cold Ocean Ruins. Using a brush on naturally generated suspicious gravel reveals hidden items, including pottery sherds, emeralds, wheat, and various tools. The brushing process takes 4.8 seconds, after which the block converts to regular gravel. Suspicious gravel drops nothing if broken or moved, and naturally generated blocks must be brushed to obtain loot."
+    },
+    "minecraft:muddy_mangrove_roots": {
+        id: "minecraft:muddy_mangrove_roots",
+        name: "Muddy Mangrove Roots",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Muddy Mangrove Roots"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamp biome"
+        },
+        description: "Muddy Mangrove Roots are a natural block found in Mangrove Swamp biomes, formed when mangrove roots grow into mud blocks. They can also be crafted by combining a mud block with mangrove roots. Unlike regular mangrove roots, this variant is not flammable and is most efficiently mined using a shovel rather than an axe. It serves as a decorative block that blends the earthy texture of mud with the fibrous look of wood, making it ideal for terraforming and building in swampy environments. It is a full solid block and can be used to support other structures."
     }
 };
