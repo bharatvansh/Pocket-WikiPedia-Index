@@ -180,7 +180,7 @@ export const vegetationBlocks = {
         drops: ["Brown Mushroom (0-2)"],
         generation: {
             dimension: "Overworld",
-            yRange: "Dark Forest, Mushroom Fields"
+            yRange: "Any"
         },
         description: "The Brown Mushroom Block is a solid block that makes up the cap of huge brown mushrooms. It has a distinct brown, spotted texture on its outer faces. When mined with a tool not enchanted with Silk Touch, it has a chance to drop up to two brown mushrooms. Using Silk Touch allows the player to obtain the block itself. These blocks are most efficiently broken with an axe. They are commonly found in Dark Forest and Mushroom Fields biomes, where they form the massive canopies of giant fungal structures."
     },
@@ -201,7 +201,7 @@ export const vegetationBlocks = {
         drops: ["Red Mushroom (0-2)"],
         generation: {
             dimension: "Overworld",
-            yRange: "Dark Forest, Mushroom Fields"
+            yRange: "Any"
         },
         description: "The Red Mushroom Block forms the large, vibrant red caps of huge red mushrooms found in Dark Forests and Mushroom Fields. Its surface is characterized by a bright red color with white spots. Similar to its brown counterpart, it drops 0-2 red mushrooms when broken without Silk Touch, but can be collected as a whole block using the Silk Touch enchantment. It is categorized as a natural vegetation block and is best harvested with an axe. These blocks are essential for creating the iconic giant mushroom landscapes in Minecraft."
     },

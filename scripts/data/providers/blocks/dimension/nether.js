@@ -260,7 +260,7 @@ export const netherBlocks = {
         drops: ["Netherrack"],
         generation: {
             dimension: "Nether",
-            yRange: "Crimson Forest biome"
+            yRange: "Any"
         },
         description: "Crimson Nylium is a grass-like block found exclusively in the Crimson Forest biome of the Nether. It is a variant of netherrack covered in reddish fungal growth. While it looks like grass, it must be mined with a pickaxe. If mined without Silk Touch, it drops netherrack. Players can use bone meal on netherrack adjacent to crimson nylium to spread it, or use bone meal on the nylium itself to grow crimson fungi and roots. It is essential for growing huge crimson fungi, which provide crimson stems and other nether vegetation."
     }
