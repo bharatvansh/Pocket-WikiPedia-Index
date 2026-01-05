@@ -1426,5 +1426,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:shaper_armor_trim_smithing_template",
+        name: "Shaper Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/shaper_armor_trim_smithing_template",
+        themeColor: "§6" // terracotta/brown
+    },
+    {
+        id: "minecraft:raiser_armor_trim_smithing_template",
+        name: "Raiser Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/raiser_armor_trim_smithing_template",
+        themeColor: "§6" // terracotta/brown
     }
 ];
