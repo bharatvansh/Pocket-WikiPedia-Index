@@ -120,6 +120,27 @@ export const copperBlocks = {
         },
         description: "Chiseled Copper is a decorative copper block introduced in Minecraft 1.21 featuring an intricate patterned texture created through a unique crafting process. Crafted by placing two cut copper slabs vertically in a 1x2 arrangement on a crafting grid, or by using a stonecutter on cut copper, chiseled copper produces a sophisticated geometric pattern that stands out among other copper variants. Like all copper blocks, it oxidizes through exposed, weathered, and oxidized stages over time, and can be waxed with honeycomb to preserve its current state. Chiseled copper generates naturally in Trial Chambers, where it appears in various oxidation states. This block is particularly valued by builders for its unique aesthetic that combines the warmth of copper with the elegance of carved stone, making it ideal for accent walls, decorative pillars, and detailed architectural features."
     },
+    "minecraft:exposed_chiseled_copper": {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Exposed Chiseled Copper is the first oxidation stage of chiseled copper blocks, featuring the same intricate geometric pattern as its fresh counterpart but with a distinctive tarnished brownish-copper appearance and characteristic oxidation spots. This early weathered variant retains all the decorative qualities that make chiseled copper valuable for architectural projects, while adding a layer of visual aging that brings depth and character to builds. Crafted by placing two exposed cut copper slabs vertically in a crafting grid or by stonecutting exposed cut copper blocks, exposed chiseled copper can also be obtained by allowing regular chiseled copper to oxidize naturally over time. It generates naturally in Trial Chambers, where various oxidation states of copper blocks coexist to create dynamic color palettes throughout the structure. Builders can wax exposed chiseled copper with honeycomb to preserve its current weathered appearance and prevent further oxidation, or scrape it with an axe to restore it to fresh chiseled copper. This block is particularly prized for creating accent walls, decorative columns, and detailed architectural features that require a slightly aged aesthetic while maintaining the sophisticated geometric patterns that define the chiseled copper family."
+    },
     "minecraft:exposed_copper_grate": {
         id: "minecraft:exposed_copper_grate",
         name: "Exposed Copper Grate",
@@ -287,6 +308,27 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Weathered Copper Bulb represents the second oxidation stage of the copper bulb family in Minecraft 1.21, distinguished by its rich blue-green patina that develops as copper continues to age. This intermediate oxidation stage emits a medium light level of 8, creating a soft, ambient glow perfect for atmospheric lighting in moderately weathered builds. Weathered copper bulbs function identically to their less-oxidized counterparts, toggling between on and off states when receiving a redstone pulse, making them ideal for redstone contraptions and decorative lighting systems. Found naturally in Trial Chambers where they represent moderately aged copper bulbs, these blocks can also be created by allowing exposed copper bulbs to continue oxidizing or by crafting from weathered copper blocks. Players can wax weathered copper bulbs with honeycomb to lock in their distinctive blue-green appearance and light output, preserving the character they bring to ancient ruins, mystical structures, and weathered industrial builds. When mined with a stone-tier pickaxe or better, weathered copper bulbs drop themselves without requiring Silk Touch."
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 8,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Copper Bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Waxed Weathered Copper Bulb is the permanently preserved form of the weathered copper bulb, achieved by applying honeycomb to seal its distinctive blue-green patina and prevent any further oxidation. This waxed variant emits a consistent light level of 8 when powered, maintaining the soft ambient glow characteristic of weathered copper bulbs without the risk of progressing to the fully oxidized state. Like all copper bulbs, it toggles between on and off states when receiving a redstone pulse, making it ideal for builders who want predictable lighting levels in their redstone contraptions and decorative systems. The waxing process ensures that the block maintains its weathered appearance indefinitely, making it perfect for creating consistent color palettes in ancient ruins, mystical structures, and atmospheric underground facilities where precise aesthetic control is essential. Players can remove the wax coating using an axe, allowing the block to resume natural oxidation if desired, or scrape the underlying weathered copper bulb back to an earlier oxidation stage. When mined with a stone-tier pickaxe or better, waxed weathered copper bulbs drop themselves without requiring Silk Touch, maintaining their waxed state and preserving the builder's intentional design choices."
     },
     "minecraft:exposed_copper_trapdoor": {
         id: "minecraft:exposed_copper_trapdoor",

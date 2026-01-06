@@ -397,5 +397,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_bookshelf",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        category: "block",
+        icon: "textures/blocks/tuff_brick_slab",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/waxed_weathered_copper_bulb",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // orange/copper
     }
 ];

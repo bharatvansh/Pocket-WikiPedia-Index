@@ -71,5 +71,26 @@ export const slabsStairsBlocks = {
             yRange: "Trial Chambers"
         },
         description: "Polished Tuff Slab is the refined, half-block variant of polished tuff introduced in Minecraft 1.21, offering builders a smooth-textured alternative to regular tuff slabs for more sophisticated architectural designs. This slab form maintains the elegant, refined appearance of polished tuff while providing the space-efficient benefits of half-block construction. Polished tuff slabs can be efficiently crafted from polished tuff blocks using the standard slab recipe or created more precisely through stonecutting, which allows for precise control over quantities needed for large projects. They appear naturally in Trial Chambers as part of the structured interior design, often serving as decorative flooring accents and ceiling details that complement the smoother architectural elements found throughout the complex. These slabs are particularly valuable for creating seamless transitions between different building materials, detailed trim work, and sophisticated flooring patterns that require both the aesthetic appeal of polished surfaces and the practical benefits of half-block construction."
+    },
+    "minecraft:tuff_brick_slab": {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Brick Slab is the half-block variant of tuff bricks introduced in Minecraft 1.21, providing builders with a darker and more textured alternative to standard tuff slabs for detailed architectural work. This slab combines the distinctive bricked pattern of tuff bricks with the space-efficient nature of half-block construction, making it ideal for creating sophisticated flooring patterns, ceiling details, and decorative accents throughout builds. Tuff brick slabs can be crafted from tuff brick blocks using the standard slab recipe or obtained more efficiently through stonecutting, which allows precise control over the quantities needed for large-scale projects. They generate naturally within Trial Chambers as part of the structured interior design, often appearing alongside other tuff variants to create visual depth and architectural interest in hallways and rooms. When combined with other tuff family blocks, tuff brick slabs enable builders to create complex layered designs that showcase the full range of textures available in the tuff block palette, making them essential for sophisticated builds that require both aesthetic variety and practical construction flexibility."
     }
 };
