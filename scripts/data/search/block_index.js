@@ -418,5 +418,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_bookshelf",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:polished_deepslate",
+        name: "Polished Deepslate",
+        category: "block",
+        icon: "textures/blocks/polished_deepslate",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chiseled_quartz_block",
+        name: "Chiseled Quartz Block",
+        category: "block",
+        icon: "textures/blocks/chiseled_quartz_block",
+        themeColor: "§f" // white/light
+    },
+    {
+        id: "minecraft:cracked_stone_bricks",
+        name: "Cracked Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_stone_bricks",
+        themeColor: "§8" // dark gray
     }
 ];

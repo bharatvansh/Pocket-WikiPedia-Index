@@ -157,5 +157,26 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Chiseled Resin Bricks are a decorative variant of resin bricks added in Minecraft Bedrock Edition 1.21.50. These blocks feature a unique, intricate pattern carved into the vibrant orange resin material, making them ideal for adding detail to pillars, borders, and accent walls. They can be crafted by placing two resin brick slabs vertically in a crafting grid or by using a stonecutter on a resin brick block. Like other resin brick variants, they require a pickaxe to be collected. Chiseled resin bricks complement the pale garden blocks perfectly, allowing for complex architectural designs that highlight the rich, warm tones of the resin material."
+    },
+    "minecraft:chiseled_quartz_block": {
+        id: "minecraft:chiseled_quartz_block",
+        name: "Chiseled Quartz Block",
+        hardness: 0.8,
+        blastResistance: 4.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Quartz Block"],
+        generation: {
+            dimension: "Nether (mined), Overworld (crafted)",
+            yRange: "Crafted from Quartz Blocks"
+        },
+        description: "Chiseled Quartz Block is a decorative variant of quartz that features a distinctive sun-like pattern on all six faces, making it one of the most visually appealing blocks in Minecraft. It can be crafted by placing two quartz slabs vertically in a crafting grid, similar to how other chiseled blocks are made. Quartz blocks are crafted from four quartz items obtained by mining nether quartz ore in the Nether. The chiseled variant provides builders with a unique aesthetic perfect for creating temples and ornamental structures."
     }
 };
