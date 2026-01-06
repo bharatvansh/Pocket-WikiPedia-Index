@@ -343,5 +343,31 @@ export const smithingTemplates = {
             "Consumed upon use in a Smithing Table unless duplicated."
         ],
         description: "The Snout Armor Trim Smithing Template is a piglin-themed decorative item found exclusively within Bastion Remnants in the Nether. It allows players to apply the 'Snout' pattern to their armor, featuring a bold design that pays homage to the piglin inhabitants of the bastions. Obtained from various chests within these dangerous structures, it is a prize for those brave enough to challenge the piglins in their home. At a Smithing Table, it can be combined with any armor piece and a mineral. To preserve the template, it can be duplicated using seven diamonds and a block of blackstone."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Used in a Smithing Table to apply the Sentry armor trim pattern to armor.",
+            secondaryUse: "Can be duplicated using 7 Diamonds, 1 Cobblestone, and the template."
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: [
+                "7x Diamond",
+                "1x Cobblestone",
+                "1x Sentry Armor Trim Smithing Template"
+            ]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests with a 25% chance",
+            "Applies a 'Sentry' pattern resembling Pillager aesthetics",
+            "Duplicated using Cobblestone and Diamonds",
+            "Consumed upon use in a Smithing Table"
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item that allows players to customize their armor with the 'Sentry' pattern. It is found exclusively in Pillager Outposts, typically in the chest at the top of the tower, with a 25% chance of appearing. The trim design features simple, sturdy lines that reflect the militaristic style of the Pillagers. Players can duplicate this template in a crafting table using seven diamonds and a block of cobblestone, ensuring they can apply the trim to multiple armor sets."
     }
 };

@@ -963,5 +963,28 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update."
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
+    },
+    "minecraft:scraper_pottery_sherd": {
+        id: "minecraft:scraper_pottery_sherd",
+        name: "Scraper Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafted into a Decorated Pot to display the Scraper pattern"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Decorated Pots in Trial Chambers"
+            ]
+        },
+        specialNotes: [
+            "Obtained by breaking Decorated Pots found in Trial Chambers",
+            "Features a 'Scraper' pattern depicting a stylized axe",
+            "Can be used to craft Decorated Pots with custom patterns",
+            "Added in the 1.21 Tricky Trials update"
+        ],
+        description: "A pottery sherd that displays the 'Scraper' pattern, which depicts a stylized axe. It is obtained by breaking Decorated Pots found in Trial Chambers. Like other pottery sherds, it can be used to craft a Decorated Pot, allowing players to customize the pot's appearance with this unique design."
     }
 };
