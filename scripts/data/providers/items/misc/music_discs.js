@@ -1,173 +1,38 @@
 // Pocket Wikipedia Foundation - Music Discs Data
 // ============================================
-// This file contains: All music discs (13, cat, blocks, chirp,
-// far, mall, mellohi, stal, strad, ward, 11, wait, otherside,
-// 5, pigstep, relic, creator, creator_music_box, precipice)
+// This file contains: Music Disc (Cat), Music Disc (13),
+// Music Disc (Wait), Music Disc (Otherside), Music Disc (5),
+// Music Disc (Pigstep), Music Disc (Relic), Music Disc (Creator),
+// Music Disc (Creator (Music Box)), Music Disc (Precipice)
 // ============================================
 
 /**
- * Music disc items data registry
+ * Music Disc items data registry
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
-export const musicDiscs = {
-    "minecraft:music_disc_creator": {
-        id: "minecraft:music_disc_creator",
-        name: "Music Disc (Creator)",
+export const musicDiscItems = {
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Playing the 'Creator' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 12 via a Comparator"
+            primaryUse: "Playing the track 'cat' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Obtained as a rare drop from Ominous Vaults in Trial Chambers"]
+            ingredients: ["Found in Dungeon, Ancient City, and Woodland Mansion chests", "Dropped by Creepers killed by Skeletons or Strays"]
         },
         specialNotes: [
-            "Composed by Lena Raine",
-            "Has a 7.5% chance to be found in Ominous Vaults",
-            "Added in the 1.21 Tricky Trials update",
-            "The physical disc has a teal/oxidized copper color scheme",
-            "In Bedrock Edition, its rarity is officially classified as 'Rare'"
+            "Plays the track 'cat' by C418",
+            "A calm, cheerful, and playful melody",
+            "Found in Dungeons, Ancient Cities, and Woodland Mansions",
+            "Dropped by a Creeper if killed by a Skeleton, Stray, or Bogged",
+            "Redstone comparators output a signal strength of 1 when this disc is in a Jukebox"
         ],
-        description: "'Creator' is a music disc composed by Lena Raine, specifically created for the 1.21 Tricky Trials update. This track features an upbeat, melodic, and somewhat industrial sound that perfectly complements the copper-rich architecture of the Trial Chambers where it is discovered. Unlike many other music discs that can be obtained from Creepers killed by Skeletons, 'Creator' is exclusively available as a high-tier reward from Ominous Vaults. When played in a Jukebox, it provides a redstone output of 12 to any adjacent Comparators."
-    },
-    "minecraft:music_disc_creator_music_box": {
-        id: "minecraft:music_disc_creator_music_box",
-        name: "Music Disc (Creator (Music Box))",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Creator (Music Box)' track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained as a rare drop from decorated pots in Trial Chambers"]
-        },
-        specialNotes: [
-            "Composed by Lena Raine",
-            "A shorter music-box rendition of the 'Creator' track",
-            "Has a 0.8% chance to be found in Trial Chamber corridor pots in Bedrock Edition",
-            "Added in the 1.21 Tricky Trials update",
-            "In Bedrock Edition, its rarity is officially classified as 'Uncommon'"
-        ],
-        description: "'Creator (Music Box)' is a variant music disc composed by Lena Raine that plays a short, delicate music-box version of the main 'Creator' track. In Bedrock Edition, it is obtained as a rare reward from decorated pots generated in Trial Chambers, making it distinct from vault-exclusive discs. When played in a Jukebox, it outputs a Comparator signal strength of 11, which can be used to differentiate it from other discs in redstone builds. For collectors, it offers a unique way to bring the Trial Chambers soundtrack into a base without relying on Vault loot."
-    },
-    "minecraft:music_disc_precipice": {
-        id: "minecraft:music_disc_precipice",
-        name: "Music Disc (Precipice)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Precipice' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 13 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained as a rare drop from Vaults in Trial Chambers"]
-        },
-        specialNotes: [
-            "Composed by Aaron Cherof",
-            "Has a 3.6% chance to be found in standard Vaults in Bedrock Edition",
-            "Added in the 1.21 Tricky Trials update",
-            "The physical disc has a dark gray and cyan color scheme",
-            "Provides a redstone signal strength of 13, the second highest among music discs"
-        ],
-        description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
-    },
-    "minecraft:music_disc_5": {
-        id: "minecraft:music_disc_5",
-        name: "Music Disc (5)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing a mysterious sound recording in a Jukebox",
-            secondaryUse: "Decorative item for collectors"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Disc Fragment 5 x9"]
-        },
-        specialNotes: [
-            "Only music disc that must be crafted from fragments",
-            "Contains a compilation of ambient sounds and mysterious recordings",
-            "Fragments are found exclusively in Ancient City loot chests",
-            "Unlike other discs, it cannot be obtained from Creeper drops"
-        ],
-        description: "Music Disc 5 is a unique music item added in the Wild Update. Unlike other music discs that are typically found in chests or dropped by creepers, this disc must be crafted by combining nine Disc Fragments in a crafting table. The fragments themselves are rare loot found only in Ancient Cities. When played, it emits a chilling and mysterious sequence of sounds, including footsteps, breathing, and the distinct sound of a Warden, adding to the lore of the Deep Dark."
-    },
-    "minecraft:music_disc_pigstep": {
-        id: "minecraft:music_disc_pigstep",
-        name: "Music Disc (Pigstep)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Pigstep' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 13 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained as a rare drop from Bastion Remnant chests"]
-        },
-        specialNotes: [
-            "Composed by Lena Raine",
-            "Exclusively found in Bastion Remnant chests (approx. 5.7% chance)",
-            "Has a redstone signal strength of 13 when played in a Jukebox",
-            "Features a unique hip-hop inspired track unlike traditional discs",
-            "Cannot be obtained from Creepers killed by Skeletons",
-            "Rarity is classified as 'Epic' in Bedrock Edition",
-            "Duration is 2 minutes and 28 seconds"
-        ],
-        description: "'Pigstep' is a fan-favorite music disc composed by Lena Raine, added during the Nether Update. Unlike most other music discs, it cannot be obtained via Creeper drops and must be found within the dangerous halls of Bastion Remnants. The track stands out for its modern, rhythmic hip-hop style, which contrasts with the more ambient or classical tones of earlier discs. It provides a strong redstone signal of 13 when placed in a Jukebox, making it both a collector's prize and a useful tool for complex redstone machines."
-    },
-    "minecraft:music_disc_otherside": {
-        id: "minecraft:music_disc_otherside",
-        name: "Music Disc (Otherside)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing music in a Jukebox",
-            secondaryUse: "Decorative item for item frames"
-        },
-        specialNotes: [
-            "Composed by Lena Raine.",
-            "Found in Strongholds (2.4%), Ancient Cities (8.4%), and Dungeons (2.8%).",
-            "The track has an upbeat, cheerful melody that evolves into a nostalgic tune.",
-            "Emits a redstone signal of 14 when played in a Jukebox."
-        ],
-        description: "Music Disc 'Otherside' is a rare track composed by Lena Raine, introduced in the 1.18 Caves & Cliffs Part II update. It features an uplifting and catchy melody that transitions through various musical styles. Unlike most music discs which are dropped by creepers killed by skeletons, 'Otherside' is found exclusively in chests within Strongholds, Ancient Cities, and Dungeons. When played in a Jukebox, it provides both entertainment and a strong redstone signal of 14, making it useful for certain redstone contraptions."
-    },
-    "minecraft:music_disc_relic": {
-        id: "minecraft:music_disc_relic",
-        name: "Music Disc (Relic)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Relic' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 14 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained by brushing suspicious gravel in Trail Ruins"]
-        },
-        specialNotes: [
-            "Composed by Aaron Cherof",
-            "Found as archaeology loot by brushing suspicious gravel in Trail Ruins",
-            "Non-renewable in survival",
-            "Emits a comparator signal strength of 14 when played in a Jukebox",
-            "Rarity is classified as 'Uncommon' in Bedrock Edition",
-            "Track length is 3 minutes and 38 seconds",
-            "Cannot be obtained from Creepers killed by Skeletons"
-        ],
-        description: "Music Disc 'Relic' is a disc that plays Aaron Cherof's track of the same name when inserted into a Jukebox. In Minecraft Bedrock Edition it is found through archaeology, obtained by brushing suspicious gravel in Trail Ruins rather than from mob drops. When played, it outputs a comparator signal strength of 14, making it useful for redstone builds that sort or detect specific discs."
+        description: "Music Disc (Cat) is a rare item that plays the track 'cat' by C418 when placed in a Jukebox. The melody is lighthearted and whimsical, offering a stark contrast to the often dangerous environments where the disc is found. Players can obtain it from chests in Dungeons, Ancient Cities, and Woodland Mansions, or by tricking a Skeleton into killing a Creeper. Like other music discs, it can be used to make parrots dance and emits a specific redstone signal strength when played."
     },
     "minecraft:music_disc_13": {
         id: "minecraft:music_disc_13",
@@ -176,18 +41,175 @@ export const musicDiscs = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Played in a Jukebox",
-            secondaryUse: "Emits a redstone signal via a Comparator"
+            primaryUse: "Playing the track '13' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+            ingredients: ["Found in Dungeon, Ancient City, and Woodland Mansion chests", "Dropped by Creepers killed by Skeletons"]
         },
         specialNotes: [
-            "One of the original music discs in Minecraft",
-            "Features ambient, eerie sounds including cave noises and metallic clangs",
-            "Also found in Dungeon and Woodland Mansion chests"
+            "Plays the track '13' by C418",
+            "An unsettling, ambient track featuring cave sounds and metallic clangs",
+            "Found in Dungeons, Ancient Cities, and Woodland Mansions",
+            "Dropped by a Creeper if killed by a Skeleton or Stray",
+            "Redstone comparators output a signal strength of 1 when this disc is in a Jukebox"
         ],
-        description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+        description: "Music Disc (13) is an eerie, ambient record that plays the track '13' by C418. Unlike most other discs which feature melodic tunes, '13' consists of unsettling cave noises, metallic clangs, and wind sounds, creating a tense atmosphere. It can be found in the chests of Dungeons, Ancient Cities, and Woodland Mansions, or obtained as a drop when a Skeleton kills a Creeper. When placed in a Jukebox, it provides a unique, if haunting, auditory experience."
+    },
+    "minecraft:music_disc_otherside": {
+        id: "minecraft:music_disc_otherside",
+        name: "Music Disc (Otherside)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'otherside' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City and Stronghold chests"]
+        },
+        specialNotes: [
+            "Plays the track 'otherside' by Lena Raine",
+            "An upbeat, retro-style track with a hopeful melody",
+            "Found in Ancient City chests and Stronghold altar chests",
+            "Redstone comparators output a signal strength of 14 when this disc is in a Jukebox"
+        ],
+        description: "Music Disc (Otherside) features a vibrant and uplifting track composed by Lena Raine. Added in the Caves & Cliffs update, it stands out with its retro-inspired sound and energetic tempo. This rare disc can be discovered in the chests of Ancient Cities and Strongholds. When played in a Jukebox, it fills the area with its distinct melody and outputs a strong redstone signal of 14, making it valuable for both entertainment and technical builds."
+    },
+    "minecraft:music_disc_5": {
+        id: "minecraft:music_disc_5",
+        name: "Music Disc (5)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track '5' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["9x Disc Fragment 5"]
+        },
+        specialNotes: [
+            "The only craftable music disc in the game",
+            "Plays the track '5' by Samuel Åberg",
+            "A mysterious track featuring sounds of the Deep Dark and a Warden",
+            "Crafted from 9 Disc Fragment 5 items found in Ancient Cities",
+            "Redstone comparators output a signal strength of 15 when this disc is in a Jukebox"
+        ],
+        description: "Music Disc (5) is a unique record that must be assembled by the player rather than found whole. Crafted from nine Disc Fragment 5 pieces discovered in Ancient Cities, it plays a haunting composition by Samuel Åberg. The track is a soundscape of the Deep Dark, featuring footsteps, Warden roars, and other mysterious noises that tell a fragmented story. It is the only music disc with a crafting recipe and outputs the maximum signal strength of 15 in a comparator."
+    },
+    "minecraft:music_disc_pigstep": {
+        id: "minecraft:music_disc_pigstep",
+        name: "Music Disc (Pigstep)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'Pigstep' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Bastion Remnant chests"]
+        },
+        specialNotes: [
+            "Plays the track 'Pigstep' by Lena Raine",
+            "A funky, intense track with a distinct Nether theme",
+            "Found exclusively in Bastion Remnant chests in the Nether",
+            "Redstone comparators output a signal strength of 13 when this disc is in a Jukebox"
+        ],
+        description: "Music Disc (Pigstep) is a highly sought-after record found only in the dangerous Bastion Remnants of the Nether. Composed by Lena Raine, it features a funky, high-energy beat that captures the chaotic spirit of the piglins. Because of its rarity and catchy tune, it is a prized possession for many players. When placed in a Jukebox, it plays its distinctive track and outputs a redstone signal strength of 13."
+    },
+    "minecraft:music_disc_relic": {
+        id: "minecraft:music_disc_relic",
+        name: "Music Disc (Relic)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'Relic' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Plays the track 'Relic' by Aaron Cherof",
+            "An 8-bit style chiptune track",
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Redstone comparators output a signal strength of 14 when this disc is in a Jukebox"
+        ],
+        description: "Music Disc (Relic) is an archaeological treasure introduced in the Trails & Tales update. Players can uncover this disc by carefully brushing Suspicious Gravel blocks found within Trail Ruins. Composed by Aaron Cherof, the track 'Relic' features a nostalgic, 8-bit chiptune style that evokes the feeling of uncovering ancient history. It serves as a reward for patient archaeologists and adds a retro flair to any Minecraft jukebox collection."
+    },
+    "minecraft:music_disc_creator": {
+        id: "minecraft:music_disc_creator",
+        name: "Music Disc (Creator)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'Creator' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Plays the track 'Creator' by Lena Raine",
+            "Obtained from Ominous Vaults using an Ominous Trial Key",
+            "Redstone comparators output a signal strength of 12 when this disc is in a Jukebox",
+            "Introduced in Minecraft 1.21 (Tricky Trials)"
+        ],
+        description: "Music Disc (Creator) is a special reward for players who conquer the challenges of the Ominous Trials. Found within Ominous Vaults in Trial Chambers, this disc plays a track by Lena Raine that features a whimsical, music-box-like melody. It serves as a testament to the player's skill in navigating the dangerous combat trials and successfully unlocking the vault's treasures."
+    },
+    "minecraft:music_disc_creator_music_box": {
+        id: "minecraft:music_disc_creator_music_box",
+        name: "Music Disc (Creator (Music Box))",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the music box version of 'Creator' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Decorated Pots in Trial Chambers"]
+        },
+        specialNotes: [
+            "Plays a music box arrangement of 'Creator' by Lena Raine",
+            "Found by breaking Decorated Pots in Trial Chambers",
+            "Redstone comparators output a signal strength of 11 when this disc is in a Jukebox",
+            "Introduced in Minecraft 1.21 (Tricky Trials)"
+        ],
+        description: "Music Disc (Creator (Music Box)) offers a unique variation of the 'Creator' track, arranged specifically to sound like a mechanical music box. This rare disc can be discovered by breaking Decorated Pots found throughout Trial Chambers. Its delicate, tinkling melody provides a soothing contrast to the intense combat of the trials, making it a charming addition to any player's music collection."
+    },
+    "minecraft:music_disc_precipice": {
+        id: "minecraft:music_disc_precipice",
+        name: "Music Disc (Precipice)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'Precipice' in a Jukebox",
+            secondaryUse: "Feeding to Parrots to make them dance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Standard Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Plays the track 'Precipice' by Aaron Cherof",
+            "Found in Standard Vaults using a Trial Key",
+            "Redstone comparators output a signal strength of 13 when this disc is in a Jukebox",
+            "Introduced in Minecraft 1.21 (Tricky Trials)"
+        ],
+        description: "Music Disc (Precipice) is a reward found within the Standard Vaults of Trial Chambers. Composed by Aaron Cherof, the track 'Precipice' builds tension with its driving rhythm and mysterious undertones, fitting the adventurous atmosphere of the trials. Players can obtain this disc by using a Trial Key to unlock vaults, adding a musical trophy to their achievements in the subterranean chambers."
     }
 };

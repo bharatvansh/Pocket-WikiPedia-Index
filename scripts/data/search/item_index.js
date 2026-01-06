@@ -1426,5 +1426,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a" // Green
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        category: "item",
+        icon: "textures/items/scrape_pottery_sherd",
+        themeColor: "§6" // Brown/Terra-cotta
     }
 ];

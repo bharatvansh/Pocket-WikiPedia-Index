@@ -963,5 +963,28 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update."
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
+    },
+    "minecraft:scrape_pottery_sherd": {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Scrape motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trial Chambers"]
+        },
+        specialNotes: [
+            "Found by using a Brush on Suspicious Gravel in Trial Chambers.",
+            "Features a stylized image of an axe, representing combat or scraping.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Introduced in the 1.21 Tricky Trials update."
+        ],
+        description: "The Scrape Pottery Sherd is an archaeological item found within the Trial Chambers of Minecraft 1.21. By carefully brushing Suspicious Gravel, players can uncover this ancient ceramic fragment, which bears the image of an axe. This motif likely alludes to the combat challenges found within the chambers or the act of scraping itself. When used to craft a Decorated Pot, the sherd applies this unique axe pattern to one of the pot's faces, allowing players to create battle-themed decorations."
     }
 };
