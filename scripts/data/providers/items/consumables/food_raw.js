@@ -235,5 +235,62 @@ export const rawFood = {
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming cats and gaining ocelot trust"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked; mostly used for taming cats or trading",
+            "Tropical Fish mobs drop 1 tropical fish when killed",
+            "Can be caught while fishing (approx. 2% chance in fish category)",
+            "Fisherman villagers may buy tropical fish for emeralds",
+            "Used to tame cats and gain trust from ocelots",
+            "Restores less hunger than cod or salmon"
+        ],
+        description: "Tropical Fish is a food item obtained by killing tropical fish mobs or catching them while fishing. Unlike cod or salmon, tropical fish cannot be cooked and provides very little nutritional value, restoring only 1 hunger point and poor saturation. While it can be eaten in an emergency, it is far more valuable for taming cats, gaining the trust of ocelots, or trading with expert-level Fisherman villagers for emeralds. It is found in warm and lukewarm oceans where tropical fish schools spawn."
+    },
+    "minecraft:melon_slice": {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting Melon Seeds and Glistering Melon Slices"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Drops from Melon blocks"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Melon blocks drop 3-7 slices when broken (influenced by Fortune)",
+            "Can be crafted into Melon Seeds (1 slice = 1 seed)",
+            "Used to craft Glistering Melon Slice (1 slice + 8 Gold Nuggets)",
+            "Compostable with a 50% chance of raising compost level",
+            "Farmer villagers may buy melon slices for emeralds"
+        ],
+        description: "A Melon Slice is a food item obtained by breaking a Melon block, which drops 3-7 slices. It provides a quick but low-saturation snack, restoring 2 hunger points. Melon slices are a key ingredient for farming, as they can be crafted into Melon Seeds, or combined with Gold Nuggets to create Glistering Melon Slices, which are used for brewing Potions of Healing. Due to the high yield of melon blocks, slices are an easily renewable food source and a great trading item with Farmer villagers."
     }
 };
