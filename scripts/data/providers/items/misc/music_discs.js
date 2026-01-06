@@ -189,5 +189,32 @@ export const musicDiscs = {
             "Also found in Dungeon and Woodland Mansion chests"
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the track 'cat' by C418 in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Dungeon chests",
+                "Found in Ancient City chests",
+                "Found in Woodland Mansion chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "A calm, synth-heavy track with a playful melody",
+            "One of the first music discs added to the game",
+            "Outputs a comparator signal strength of 2 when played in a Jukebox"
+        ],
+        description: "Music Disc (Cat) is a music item that plays the track 'cat' by C418. It features a light, cheerful, and somewhat whimsical melody that loops seamlessly. Like most other music discs, it can be obtained as a rare drop when a Skeleton or Stray kills a Creeper. It is also found in chests within Dungeons, Ancient Cities, and Woodland Mansions. In Minecraft Bedrock Edition, it is classified as a rare item and provides a redstone signal strength of 2 when used in a Jukebox, differentiating it from other discs."
     }
 };
