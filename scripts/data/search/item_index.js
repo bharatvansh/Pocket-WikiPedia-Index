@@ -1330,6 +1330,13 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/pale_oak_boat",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:cooked_chicken",
         name: "Cooked Chicken",
         category: "item",
@@ -1398,6 +1405,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/thing_banner_pattern",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        category: "item",
+        icon: "textures/items/field_masoned_banner_pattern",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
+        category: "item",
+        icon: "textures/items/bordure_indented_banner_pattern",
+        themeColor: "§f"
     },
     {
         id: "minecraft:archer_pottery_sherd",
