@@ -189,5 +189,29 @@ export const musicDiscs = {
             "Also found in Dungeon and Woodland Mansion chests"
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 1 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "One of the original music discs (along with '13')",
+            "Features a light, cheerful melody played on a synth",
+            "Found in Dungeon and Woodland Mansion chests",
+            "Emits a redstone signal strength of 1 when played in a Jukebox",
+            "Duration is 3 minutes and 5 seconds"
+        ],
+        description: "'Cat' is one of the original music discs in Minecraft, composed by C418. It features a whimsical and cheerful synthesizer melody that loops throughout the track. Like many other discs, it can be obtained by having a Skeleton or Stray kill a Creeper, or found in loot chests within Dungeons and Woodland Mansions. When played in a Jukebox, it provides a redstone signal strength of 1, making it distinct in redstone sorting systems that differentiate discs by signal strength."
     }
 };

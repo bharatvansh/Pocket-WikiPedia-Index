@@ -1426,5 +1426,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        category: "item",
+        icon: "textures/items/carrot",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:potato",
+        name: "Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§e" // yellow/brown
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a" // green
     }
 ];
