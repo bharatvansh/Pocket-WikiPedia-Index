@@ -872,5 +872,28 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["5x Pale Oak Planks"]
+        },
+        specialNotes: [
+            "Crafted with 5 Pale Oak Planks (no shovel required in Bedrock since 1.20.10)",
+            "Made from Pale Oak wood found in the Pale Garden biome",
+            "Can carry two passengers (players or mobs)",
+            "Moves faster on ice and packed ice",
+            "Protect passengers from fall damage"
+        ],
+        description: "The Pale Oak Boat is a boat variant crafted from Pale Oak wood, which is found in the eerie Pale Garden biome. Like other boats in Bedrock Edition, it is crafted using five planks of its respective wood type. It serves as a reliable vehicle for traversing water, capable of carrying two passengers at once, including mobs. Its white-gray wood texture matches the unique aesthetic of the Pale Garden, making it a stylish choice for exploration."
     }
 };
