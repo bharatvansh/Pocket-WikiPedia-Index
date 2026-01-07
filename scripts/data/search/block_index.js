@@ -1118,5 +1118,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_mosaic",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        category: "block",
+        icon: "textures/blocks/barrier",
+        themeColor: "§8" // invisible/dark gray
+    },
+    {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        category: "block",
+        icon: "textures/blocks/unknown",
+        themeColor: "§e" // light yellow
+    },
+    {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        category: "block",
+        icon: "textures/blocks/structure_block",
+        themeColor: "§f" // white
     }
 ];

@@ -4,7 +4,8 @@
 // fence gates (all types), beds (all 16 colors), signs (all types),
 // hanging signs (all types), banners (all 16 colors), bells,
 // campfire, soul campfire, lantern, soul lantern, torch, soul torch,
-// candles (all 17 colors including undyed), cake, flower pot
+// candles (all 17 colors including undyed), cake, flower pot,
+// barrier, light_block, structure_block
 // ============================================
 
 /**
@@ -221,5 +222,68 @@ export const interactiveBlocks = {
             yRange: "Taiga and Snowy Taiga villages"
         },
         description: "The Campfire is a versatile functional block used for cooking food, providing light, and acting as a smoke signal. It can cook up to four food items simultaneously, taking 30 seconds per item, without requiring fuel. When placed over a hay bale, the smoke signal reaches much higher (24 blocks). It also serves as a light source with a level of 15. Campfires can be extinguished with water or a shovel and relighted using flint and steel or fire charges. They also help safely harvest honey from beehives and bee nests by calming the bees."
+    },
+    "minecraft:barrier": {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative only"
+        },
+        description: "A Barrier is an invisible, indestructible block available only in Creative mode in Minecraft Bedrock Edition. It serves as a solid obstacle for players and mobs while remaining completely invisible to everyone except when holding another barrier, which reveals a red particle pattern. With blast resistance of 3,600,000, barriers are immune to all explosions and cannot be broken by any means. Players must use commands or creative inventory to obtain barriers, as they never appear naturally."
+    },
+    "minecraft:light_block": {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative only"
+        },
+        description: "The Light Block is an invisible technical block available exclusively in Creative mode in Minecraft Bedrock Edition. It exists in 16 variants emitting light levels 0-15, allowing creators to place invisible light sources anywhere. Unlike other light-emitting blocks, light blocks cannot be seen unless highlighted in creative inventory, making them ideal for ambient lighting, illuminating underwater builds, or lighting specific areas without affecting aesthetics. Light blocks provide a clean solution for custom map lighting and creative projects where visible torches would break immersion."
+    },
+    "minecraft:structure_block": {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative only"
+        },
+        description: "A Structure Block is a technical block in Creative mode used to save, load, and manipulate structures in Minecraft Bedrock Edition. It has four distinct modes: Save mode captures a selected area, Load mode places saved structures, Corner mode marks boundaries for size detection, and Data mode controls structure components. Only accessible in Creative mode with cheats enabled, structure blocks can be obtained via commands or creative inventory. They're essential tools for map makers, builders duplicating complex builds, and server admins creating custom structures."
     }
 };
