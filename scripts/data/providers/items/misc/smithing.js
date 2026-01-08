@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Netherite upgrade smithing template,
 // all armor trim smithing templates (coast, dune, eye, host,
-// raiser, rib, sentry, shaper, silence, snout, spire, tide,
+// raiser, rib, sentry, silence, snout, spire, tide,
 // vex, ward, wayfinder, wild, bolt, flow)
 // ============================================
 
@@ -343,5 +343,74 @@ export const smithingTemplates = {
             "Consumed upon use in a Smithing Table unless duplicated."
         ],
         description: "The Snout Armor Trim Smithing Template is a piglin-themed decorative item found exclusively within Bastion Remnants in the Nether. It allows players to apply the 'Snout' pattern to their armor, featuring a bold design that pays homage to the piglin inhabitants of the bastions. Obtained from various chests within these dangerous structures, it is a prize for those brave enough to challenge the piglins in their home. At a Smithing Table, it can be combined with any armor piece and a mineral. To preserve the template, it can be duplicated using seven diamonds and a block of blackstone."
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Eye' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Eye Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Stronghold chests with a 6.7% chance.",
+            "Features an enderman-eye-inspired pattern on the armor.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated.",
+            "The Eye trim resembles the glowing purple eyes of Endermen."
+        ],
+        description: "The Eye Armor Trim Smithing Template is a decorative item discovered within Stronghold dungeons. This unique trim pattern is inspired by the unsettling, glowing eyes of Endermen that inhabit the End dimension. When applied to armor, it creates an ethereal and mystical appearance that many players associate with the strange and dangerous world beyond the portal. Like all smithing templates, it can be duplicated using seven diamonds and a block of cobblestone, allowing players to apply the distinctive eye motif to their entire armor set for a coordinated, Enderman-inspired look."
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+        id: "minecraft:raiser_armor_trim_smithing_template",
+        name: "Raiser Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Raiser' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Iron Ingot"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Iron Ingot", "1x Raiser Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Stronghold chests with a 6.7% chance.",
+            "Features a raised, ribbed pattern that adds texture to armor pieces.",
+            "Can be duplicated using 7 Diamonds and 1 Iron Ingot.",
+            "Consumed upon use in a Smithing Table unless duplicated.",
+            "The Raiser trim creates a distinctive geometric ridge pattern."
+        ],
+        description: "The Raiser Armor Trim Smithing Template is a decorative item found within Stronghold chambers. This trim features a distinctive raised, ribbed pattern that creates an impressive three-dimensional effect on armor surfaces. The geometric design gives armor pieces a more textured appearance suggesting enhanced protection. Because it is found in one of Minecraft's most classic structures, it represents a milestone in a player's progression. To ensure you can apply it to multiple pieces, it can be duplicated using seven diamonds and a single iron ingot."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Iron Ingot"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Iron Ingot", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Dungeon chests with a 6.7% chance.",
+            "Features a spiky, protective pattern inspired by Iron Golems.",
+            "Can be duplicated using 7 Diamonds and 1 Iron Ingot.",
+            "Consumed upon use in a Smithing Table unless duplicated.",
+            "The Sentry trim evokes the defensive nature of village protectors."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item found within the moss-covered chests of Dungeons. This trim features a bold, spiky pattern that pays homage to the Iron Golems that protect villages from hostile mobs. The defensive design creates an imposing look suggesting heightened vigilance. As one of the earliest trim templates players can obtain, it serves as an accessible way to customize armor. Once found, it can be duplicated using seven diamonds and a single iron ingot, allowing players to create matching Sentry-trimmed armor for their entire inventory."
     }
 };
