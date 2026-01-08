@@ -1,6 +1,6 @@
 // Pocket Wikipedia Foundation - Stone Blocks Data
 // ============================================
-// This file contains: Stone variants, deepslate variants, cobblestone,
+// This file contains: Stone variants, deepslate variants, cobblestone, bedrock,
 // smooth stone, stone bricks, mossy variants, cracked variants,
 // andesite, diorite, granite (and polished versions), tuff, calcite,
 // dripstone, basalt, blackstone variants
@@ -178,5 +178,26 @@ export const stoneBlocks = {
             yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
         },
         description: "The Dripstone Block is a natural stone block found in dripstone caves and Trial Chambers that allows pointed dripstone to grow beneath it. When water is placed above it, stalactites and stalagmites form over time. Dripstone blocks can be mined with any pickaxe tier, dropping themselves when broken. They are primarily used for decoration and creating natural cave aesthetics. When water drips from stalactites, they can fill cauldrons below with water or lava depending on the source block."
+    },
+    "minecraft:bedrock": {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether, The End",
+            yRange: "Bottom and top layers"
+        },
+        description: "Bedrock is an indestructible block that forms the boundary of the world. In the Overworld, it generates at the very bottom (Y -64 to -60), while in the Nether it forms both the floor and the ceiling. It also appears in the End as part of the exit portal and end gateway structures. Bedrock cannot be broken in Survival mode by any tool or explosion, serving as a permanent barrier. Only players in Creative mode can destroy it. It has a hardness of -1 and the maximum possible blast resistance."
     }
 };

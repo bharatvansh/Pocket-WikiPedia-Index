@@ -1286,5 +1286,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cauldron",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_side",
+        themeColor: "§2"
     }
 ];
