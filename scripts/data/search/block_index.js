@@ -693,6 +693,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:jigsaw",
+        name: "Jigsaw Block",
+        category: "block",
+        icon: "textures/blocks/jigsaw_front",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:target",
         name: "Target",
         category: "block",
@@ -1132,6 +1139,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/piston_side_sticky",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        category: "block",
+        icon: "textures/blocks/dispenser_front",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dropper",
+        name: "Dropper",
+        category: "block",
+        icon: "textures/blocks/dropper_front",
+        themeColor: "§7"
     },
     {
         id: "minecraft:hopper",
