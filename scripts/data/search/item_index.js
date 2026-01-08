@@ -1295,6 +1295,27 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/eye_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:raiser_armor_trim_smithing_template",
+        name: "Raiser Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/raiser_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/sentry_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:music_disc_13",
         name: "Music Disc (13)",
         category: "item",
