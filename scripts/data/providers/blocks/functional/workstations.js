@@ -343,5 +343,68 @@ export const workstationBlocks = {
             yRange: "Crafted only"
         },
         description: "An Anvil is a versatile workstation used for repairing items, renaming gear, and combining enchantments from enchanted books. Unlike most blocks, Anvils are affected by gravity and will fall if unsupported, dealing significant damage to any entity they land on. Each use has a 12% chance to degrade the anvil through three stages: undamaged, chipped, and damaged, eventually resulting in its destruction. In Bedrock Edition, they are essential for maintaining high-tier equipment and can be used to apply powerful enchantment combinations that exceed standard table limits."
+    },
+    "minecraft:crafting_table": {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        hardness: 2.5,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crafting Table"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A crafting table is a utility block that provides access to all crafting recipes in Minecraft, including many not available from the inventory's 2x2 crafting grid. It features a 3x3 crafting grid, allowing players to create more complex recipes and automate more efficient resource processing. Crafted from four wooden planks in any arrangement, the crafting table is essential for progressing beyond basic tools and equipment. It serves as a fundamental building block for Minecraft's entire crafting system and is required for creating redstone circuits, potions, and advanced machinery."
+    },
+    "minecraft:furnace": {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 13,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Furnace"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, mineshafts, igloos, woodland mansions"
+        },
+        description: "A furnace is a fundamental utility block used for smelting ores, cooking food, and processing materials. It accepts various fuels including coal, wood, and lava buckets, and can smelt items at a rate of one item every 10 seconds. When active, furnaces emit light level 13 and show animated flame particles. In Bedrock Edition, furnaces drop themselves when mined by hand or any tool, unlike Java Edition. They generate naturally in villages, mineshafts, igloos, and woodland mansons, making them valuable early-game resources for smelting iron ore, gold ore, and cooking food."
+    },
+    "minecraft:cauldron": {
+        id: "minecraft:cauldron",
+        name: "Cauldron",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cauldron"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village tannery houses, witch huts, igloos"
+        },
+        description: "A cauldron is a utility block that can store water, lava, or powder snow in up to three levels. In Bedrock Edition, cauldrons can also hold potions, dyed water, and colored substances. They serve as the job site block for leatherworker villagers and have multiple brewing applications. Cauldrons can fill themselves in certain biomes and can be used to store water for dyeing leather armor, filling glass bottles for brewing, creating tipped arrows, and removing dyes from colored items. They generate naturally in village tannery houses, witch huts, and some igloos, with witch cauldrons sometimes containing potions."
     }
 };
