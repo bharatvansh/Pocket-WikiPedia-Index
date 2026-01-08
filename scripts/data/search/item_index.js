@@ -1426,5 +1426,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        category: "item",
+        icon: "textures/items/field_masoned_banner_pattern",
+        themeColor: "§c" // red/brick
+    },
+    {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
+        category: "item",
+        icon: "textures/items/bordure_indented_banner_pattern",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        category: "item",
+        icon: "textures/items/scrape_pottery_sherd",
+        themeColor: "§6" // brown/terracotta
     }
 ];
