@@ -5,7 +5,7 @@
 // cocoa beans, charcoal, coal, flint, glowstone dust, redstone dust,
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
-// flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
+// flow pottery sherd, guster pottery sherd, heavy core, heart_of_the_sea, nether_star,
 // amethyst shard, gunpowder, popped chorus fruit
 // ============================================
 
@@ -178,6 +178,30 @@ export const craftingMaterials = {
             "Introduced in Minecraft 1.21 (Tricky Trials)"
         ],
         description: "The Guster Pottery Sherd is a pottery decoration ingredient that depicts a Breeze and can be incorporated into a Decorated Pot to apply its pattern to one side. In Minecraft Bedrock Edition, players can obtain it in Trial Chambers by breaking naturally generated Decorated Pots that were crafted with the Guster sherd. By combining it with bricks or other pottery sherds in the Decorated Pot recipe, builders can create unique, story-like pottery designs that match the wind-themed Trial Chamber aesthetic."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting a Mace",
+            secondaryUse: "Decorative placement as a dense Trial Chamber block"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers (requires an Ominous Trial Key)"]
+        },
+        specialNotes: [
+            "Dropped only from Ominous Vaults in Trial Chambers",
+            "Requires an Ominous Trial Key to open an Ominous Vault",
+            "Each Ominous Vault has a 7.5% chance to drop 1 Heavy Core",
+            "Main ingredient for crafting a Mace (Heavy Core + Breeze Rod)",
+            "Can be placed as a block and always drops itself when mined",
+            "Introduced in 1.21 (Tricky Trials)"
+        ],
+        description: "The Heavy Core is a dense, mysterious block that serves as the key ingredient for crafting a Mace. In Minecraft Bedrock Edition, it can only be obtained by unlocking an Ominous Vault inside a Trial Chamber with an Ominous Trial Key, where it has a 7.5% chance to appear as loot. Combine one Heavy Core with a Breeze Rod to craft a Mace. Beyond crafting, it can be placed as a decorative block and mined back without being consumed."
     },
     "minecraft:snort_pottery_sherd": {
         id: "minecraft:snort_pottery_sherd",

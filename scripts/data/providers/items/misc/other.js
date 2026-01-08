@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
+// bucket, dragon egg, oak boat, oak boat with chest, bamboo raft
 // ============================================
 
 /**
@@ -806,6 +806,30 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
+    },
+    "minecraft:bamboo_raft": {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Fast travel on ice and safe mob transport"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x5"]
+        },
+        specialNotes: [
+            "Crafted in a U-shape using 5 Bamboo Planks in a crafting table",
+            "Carries up to two passengers, including mobs and players",
+            "Moves extremely fast on ice and packed ice",
+            "Can be combined with a Chest to make a Bamboo Raft with Chest",
+            "In Bedrock, steering is limited to a 180-degree arc while rowing",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Bamboo Raft is a bamboo-made alternative to wooden boats, introduced in the Trails & Tales update. Crafted from five bamboo planks, it lets players travel quickly over water and can carry two passengers, making it useful for transporting friends, pets, or mobs. Like other boats in Bedrock Edition, it is famous for high speed on ice and for preventing fall damage while riding. For mobile storage, combine a bamboo raft with a chest to create a Bamboo Raft with Chest."
     },
     "minecraft:painting": {
         id: "minecraft:painting",

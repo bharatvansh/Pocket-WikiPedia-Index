@@ -112,6 +112,13 @@ export const itemIndex = [
         themeColor: "§b" // wind/cyan
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§8" // dark gray/metal
+    },
+    {
         id: "minecraft:netherite_upgrade_smithing_template",
         name: "Netherite Upgrade Smithing Template",
         category: "item",
@@ -1232,6 +1239,13 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:netherite_chestplate",
         name: "Netherite Chestplate",
         category: "item",
@@ -1328,6 +1342,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        category: "item",
+        icon: "textures/items/bamboo_raft",
+        themeColor: "§6" // bamboo/wood
     },
     {
         id: "minecraft:cooked_chicken",
