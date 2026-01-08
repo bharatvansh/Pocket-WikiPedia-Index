@@ -242,5 +242,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from 3 sticks, 1 soul soil/sand, and 3 logs"
         },
         description: "The Soul Campfire is a functional block that emits a dim, blue light and does not melt snow or ice, unlike its regular counterpart. Introduced in the Nether Update, it is crafted using soul sand or soul soil, which gives it its characteristic blue flame. It deals more damage than a regular campfire and can be used for cooking up to four food items simultaneously, though at the same speed. In Bedrock Edition, it has a light level of 10. When broken without Silk Touch, it drops two pieces of soul soil. It also repels Piglins, making it a useful defensive tool in the Nether."
+    },
+    "minecraft:jigsaw": {
+        id: "minecraft:jigsaw",
+        name: "Jigsaw Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts, Ancient Cities, Bastion Remnants"
+        },
+        description: "The Jigsaw Block is a technical block used for generating structures like villages, pillager outposts, ancient cities, and bastion remnants. It cannot be obtained in Survival mode and is only accessible through commands in Creative mode. Jigsaw blocks define how structure pieces connect by matching target pools and attachment types. In Bedrock Edition, structures can be generated using the /place jigsaw command with keepJigsaws set to true to preserve jigsaw blocks. This unbreakable block primarily serves as a tool for map makers and structure designers."
     }
 };
