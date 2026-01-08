@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const endBlocks = {
+    "minecraft:end_stone": {
+        id: "minecraft:end_stone",
+        name: "End Stone",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["End Stone"],
+        generation: {
+            dimension: "The End",
+            yRange: "Surface layer"
+        },
+        description: "End Stone is the most abundant block in the End dimension, forming the entire surface of the void islands. It has a distinctive yellowish-beige color with a slightly porous texture. End Stone is highly blast-resistant, making it useful for defensive structures and mob-proof farms. It cannot be crafted but is plentiful in the End dimension. End Stone can be crafted into End Stone Bricks, which offer a smoother building alternative. In Bedrock Edition, Endermen can pick up and place End Stone, adding a dynamic element to building in this dimension. Its unique color palette makes it ideal for desert-themed or alien architectural designs."
+    },
     "minecraft:end_rod": {
         id: "minecraft:end_rod",
         name: "End Rod",

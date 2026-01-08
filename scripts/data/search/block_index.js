@@ -502,5 +502,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/honeycomb_block",
         themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:basalt",
+        name: "Basalt",
+        category: "block",
+        icon: "textures/blocks/basalt",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:blue_ice",
+        name: "Blue Ice",
+        category: "block",
+        icon: "textures/blocks/blue_ice",
+        themeColor: "§b" // ice blue/cyan
+    },
+    {
+        id: "minecraft:end_stone",
+        name: "End Stone",
+        category: "block",
+        icon: "textures/blocks/end_stone",
+        themeColor: "§e" // yellow/beige
     }
 ];

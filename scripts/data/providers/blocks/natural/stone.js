@@ -94,5 +94,26 @@ export const stoneBlocks = {
             yRange: "Trial Chambers"
         },
         description: "Chiseled Tuff is a decorative stone introduced in Minecraft 1.21, carved with patterns resembling trial chamber motifs. It can be crafted from two tuff slabs placed vertically or created in a stonecutter from a single tuff block. Chiseled Tuff shares the same hardness and blast resistance as regular tuff. It generates naturally within Trial Chamber structures and is part of the expanded tuff family, which includes stairs, slabs, walls, and bricks. This block provides builders with a unique pattern for detailed architectural work."
+    },
+    "minecraft:blue_ice": {
+        id: "minecraft:blue_ice",
+        name: "Blue Ice",
+        hardness: 2.8,
+        blastResistance: 2.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Blue Ice (requires Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Frozen Ocean, Deep Frozen Ocean; Icebergs"
+        },
+        description: "Blue Ice is a rare, slippery block found exclusively in frozen ocean biomes and icebergs in Minecraft Bedrock Edition. It is much faster for boats and players to travel across than regular ice or packed ice, making it invaluable for transportation infrastructure. Unlike other ice types, blue ice cannot be crafted; it must be mined with Silk Touch, otherwise it breaks into nothing. It has a distinct deep blue color and translucent appearance that makes it visually striking for builds. Players often create blue ice highways for fast travel, and its slipperiness also makes it useful for mob traps and item transport systems."
     }
 };
