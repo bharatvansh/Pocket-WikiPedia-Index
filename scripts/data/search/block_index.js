@@ -1286,5 +1286,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cauldron",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:open_eyeblossom",
+        name: "Open Eyeblossom",
+        category: "block",
+        icon: "textures/blocks/open_eyeblossom",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:closed_eyeblossom",
+        name: "Closed Eyeblossom",
+        category: "block",
+        icon: "textures/blocks/closed_eyeblossom",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:resin_brick_stairs",
+        name: "Resin Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/resin_brick_stairs",
+        themeColor: "§6"
     }
 ];
