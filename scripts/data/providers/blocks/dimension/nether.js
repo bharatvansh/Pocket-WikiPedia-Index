@@ -263,5 +263,26 @@ export const netherBlocks = {
             yRange: "Any"
         },
         description: "Crimson Nylium is a grass-like block found exclusively in the Crimson Forest biome of the Nether. It is a variant of netherrack covered in reddish fungal growth. While it looks like grass, it must be mined with a pickaxe. If mined without Silk Touch, it drops netherrack. Players can use bone meal on netherrack adjacent to crimson nylium to spread it, or use bone meal on the nylium itself to grow crimson fungi and roots. It is essential for growing huge crimson fungi, which provide crimson stems and other nether vegetation."
+    },
+    "minecraft:warped_nylium": {
+        id: "minecraft:warped_nylium",
+        name: "Warped Nylium",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Netherrack (default) or Warped Nylium (Silk Touch)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest (Surface)"
+        },
+        description: "Warped Nylium is a variant of netherrack covered in warped fungus, found naturally generating as the surface layer of Warped Forest biomes. It has a teal-blue grass-like texture on top and a netherrack texture on the bottom. Like crimson nylium, it can be spread to adjacent netherrack blocks using bone meal. When mined without Silk Touch, it drops netherrack; with Silk Touch, it drops itself. It serves as a spawnable surface for warped fungi, roots, and vines when bone meal is applied."
     }
     };

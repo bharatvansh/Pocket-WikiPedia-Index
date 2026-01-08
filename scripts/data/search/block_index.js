@@ -1307,5 +1307,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/resin_brick_stairs",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:netherite_block",
+        name: "Block of Netherite",
+        category: "block",
+        icon: "textures/blocks/netherite_block",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:warped_nylium",
+        name: "Warped Nylium",
+        category: "block",
+        icon: "textures/blocks/warped_nylium_side",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:lantern",
+        name: "Lantern",
+        category: "block",
+        icon: "textures/blocks/lantern",
+        themeColor: "§6" // gold/orange
     }
 ];
