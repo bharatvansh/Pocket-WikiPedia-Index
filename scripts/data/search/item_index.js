@@ -469,6 +469,27 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:mangrove_propagule",
+        name: "Mangrove Propagule",
+        category: "item",
+        icon: "textures/items/mangrove_propagule",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "item",
+        icon: "textures/items/moss_carpet",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        category: "item",
+        icon: "textures/items/ochre_froglight",
+        themeColor: "§e" // yellow/gold
+    },
+    {
         id: "minecraft:phantom_membrane",
         name: "Phantom Membrane",
         category: "item",

@@ -6,7 +6,8 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder, popped chorus fruit
+// amethyst shard, gunpowder, popped chorus fruit, mangrove propagule,
+// moss carpet, ochre froglight
 // ============================================
 
 /**
@@ -963,5 +964,77 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update."
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
+    },
+    "minecraft:mangrove_propagule": {
+        id: "minecraft:mangrove_propagule",
+        name: "Mangrove Propagule",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting mangrove trees in water",
+            secondaryUse: "Decorative item and propagation material"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Grows naturally on Mangrove Trees in Mangrove Swamps"]
+        },
+        specialNotes: [
+            "Naturally grows from mature Mangrove Trees in Mangrove Swamp biomes",
+            "Can be planted by right-clicking on water in Mangrove Swamps or other water sources",
+            "Grows into a Mangrove Tree when planted in suitable conditions",
+            "Renewable resource through mangrove tree growth and propagation",
+            "Can be used to create mangrove forests in player builds",
+            "Introduced in the Wild Update (1.19)"
+        ],
+        description: "The Mangrove Propagule is a plantable item that grows naturally on mature Mangrove Trees in the Mangrove Swamp biome. When right-clicked on water, it can be planted and will grow into a Mangrove Tree, making it an essential item for expanding mangrove forests or creating new ones. The propagule represents a unique way to spread mangrove vegetation beyond natural spawning areas. This renewable resource is crucial for players looking to create sustainable mangrove ecosystems or expand their swamp-based builds with the distinctive mangrove aesthetic."
+    },
+    "minecraft:moss_carpet": {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative flooring for indoor and outdoor builds",
+            secondaryUse: "Creating green pathways and garden decorations"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Moss Block x2"]
+        },
+        specialNotes: [
+            "Crafted from 2 Moss Blocks in a horizontal line",
+            "Functions as a solid block but only 1/8 block tall (carpet-like)",
+            "Can be placed on any solid surface including ceilings and walls",
+            "Does not block light and is transparent to entities",
+            "Used extensively in garden builds, pathways, and indoor decorations",
+            "Introduced in the Caves & Cliffs update (1.17)"
+        ],
+        description: "Moss Carpet is a decorative flooring block that provides a lush, green surface for builds and landscaping. Unlike regular Moss Blocks, carpets are only 1/8 block thick, allowing them to be placed on walls and ceilings for unique decorative effects. They are crafted from two Moss Blocks and serve as an excellent alternative to grass pathways, offering the same aesthetic appeal without the need for constant maintenance. Whether used in garden paths, indoor flooring, or creative wall decorations, Moss Carpet adds a natural, organic feel to any construction project."
+    },
+    "minecraft:ochre_froglight": {
+        id: "minecraft:ochre_froglight",
+        name: "Ochre Froglight",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-luminance light source for builds",
+            secondaryUse: "Decorative block for End-themed and underground builds"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by frogs when they eat a magma cube"]
+        },
+        specialNotes: [
+            "One of three froglight variants (ochre, verdant, pearlescent)",
+            "Provides light level 15 - the highest light level in the game",
+            "Non-flammable and immune to fire and lava damage",
+            "Has a unique prism-like appearance with yellow-orange coloration",
+            "Obtained when frogs consume magma cubes in the Nether",
+            "Introduced in the Wild Update (1.19) alongside the Deep Dark"
+        ],
+        description: "Ochre Froglight is an elegant light source block obtained when Frogs in the Nether consume Magma Cubes. It provides the highest light level possible in Minecraft (15), making it an excellent choice for well-lit builds and underground projects. Unlike torches or lanterns, froglights are completely immune to fire and lava damage, ensuring they remain functional even in the most hazardous environments. With its distinctive yellow-orange prism-like appearance, Ochre Froglight serves both as a practical lighting solution and a stunning decorative element for modern, futuristic, or End-themed constructions."
     }
 };
