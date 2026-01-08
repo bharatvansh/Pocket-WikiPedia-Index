@@ -93,5 +93,47 @@ export const endBlocks = {
             yRange: null
         },
         description: "Purpur Block is a decorative purple stone-like block found exclusively in End Cities and End Ships. It can be crafted by placing four popped chorus fruit in a 2x2 grid, making it renewable. Purpur blocks come in several variants including stairs, slabs, and pillars. With a hardness of 1.5 and blast resistance of 6.0, purpur blocks provide moderate durability while offering a unique purple aesthetic that fits the End dimension's color palette. They are essential building materials for players exploring the End and are commonly used in End-themed architecture."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Exit portal top"
+        },
+        description: "The Dragon Egg is a rare trophy block that generates on top of the exit portal after the first Ender Dragon is defeated. It is one of the rarest items in the game. When clicked in Survival mode, it teleports to a nearby location. To obtain it, players must use a piston to push it or place a torch beneath the block it falls on. While primarily decorative, it serves as a ultimate symbol of victory over the dragon. In Bedrock Edition, it has a hardness of 3.0 and blast resistance of 9.0."
+    },
+    "minecraft:end_portal_frame": {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "End Portal Frames are indestructible blocks found in stronghold portal rooms. Twelve of these frames are arranged in a 3x3 square (minus corners) to form the End Portal. Each frame has a 10% chance to generate with an Eye of Ender already inserted. When all 12 are filled, the portal to the End dimension activates. In Survival mode, they cannot be obtained or moved, even with Silk Touch. They have the highest possible blast resistance, making them immune to all explosions."
     }
 };
