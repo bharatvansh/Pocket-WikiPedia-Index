@@ -5,8 +5,8 @@
 // cocoa beans, charcoal, coal, flint, glowstone dust, redstone dust,
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
-// flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder, popped chorus fruit
+// flow pottery sherd, guster pottery sherd, scrape pottery sherd,
+// heart_of_the_sea, nether_star, amethyst shard, gunpowder, popped chorus fruit
 // ============================================
 
 /**
@@ -178,6 +178,29 @@ export const craftingMaterials = {
             "Introduced in Minecraft 1.21 (Tricky Trials)"
         ],
         description: "The Guster Pottery Sherd is a pottery decoration ingredient that depicts a Breeze and can be incorporated into a Decorated Pot to apply its pattern to one side. In Minecraft Bedrock Edition, players can obtain it in Trial Chambers by breaking naturally generated Decorated Pots that were crafted with the Guster sherd. By combining it with bricks or other pottery sherds in the Decorated Pot recipe, builders can create unique, story-like pottery designs that match the wind-themed Trial Chamber aesthetic."
+    },
+    "minecraft:scrape_pottery_sherd": {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Scrape motif",
+            secondaryUse: "Collecting Trial Chamber-themed pottery designs featuring an axe"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots that generate in Trial Chambers"]
+        },
+        specialNotes: [
+            "Breaking a Decorated Pot drops the exact bricks and pottery sherds used to craft it.",
+            "Used as one of the four side ingredients when crafting a Decorated Pot.",
+            "Features a stylized axe design.",
+            "Decorated Pots featuring the Scrape design naturally generate in Trial Chambers.",
+            "Introduced in Minecraft 1.21 (Tricky Trials)."
+        ],
+        description: "The Scrape Pottery Sherd is a decorative pottery item introduced in the Tricky Trials update (1.21). It features a stylized image of an axe, possibly referencing the new Mace weapon or general combat. In Bedrock Edition, this sherd is obtained by finding and breaking Decorated Pots that naturally generate within Trial Chambers. It can be used in a crafting table to add the Scrape pattern to a Decorated Pot, allowing for custom, combat-themed decorations."
     },
     "minecraft:snort_pottery_sherd": {
         id: "minecraft:snort_pottery_sherd",
