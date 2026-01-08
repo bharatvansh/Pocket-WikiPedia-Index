@@ -495,5 +495,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/magma_cream",
         themeColor: "§c" // Orange/red
+    },
+    {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        category: "item",
+        icon: "textures/items/honeycomb",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        category: "item",
+        icon: "textures/items/fire_charge",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        category: "item",
+        icon: "textures/items/experience_bottle",
+        themeColor: "§a"
     }
 ];

@@ -222,8 +222,6 @@ export const mobDrops = {
             "Used to breed Frogs and accelerate Tadpole growth"
         ],
         description: "The Slimeball is a gelatinous material primarily obtained from defeating small slimes. It is a fundamental component for advanced Redstone engineering, as it is required to craft Sticky Pistons and Slime Blocks, both of which are essential for moving blocks in complex machines. Beyond engineering, slimeballs are used to create Leads for leashing mobs and Magma Cream for potion brewing. They also serve a biological purpose, acting as the breeding food for frogs and a growth accelerant for tadpoles."
-    }
-};
     },
     "minecraft:ender_pearl": {
         id: "minecraft:ender_pearl",

@@ -14,6 +14,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const craftingMaterials = {
+    "minecraft:honeycomb": {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting beehives, candles, and waxed copper blocks",
+            secondaryUse: "Waxing copper and locking text on signs"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using Shears on a Bee Nest or Beehive (Level 5)"]
+        },
+        specialNotes: [
+            "Using shears on a full hive/nest drops 3 honeycomb items",
+            "Applying honeycomb to copper blocks prevents them from oxidizing further",
+            "Used to craft candles, beehives, waxed copper, and hanging signs",
+            "Applying honeycomb to a sign prevents further edits to its text",
+            "Renewable through bee farming (campfire required for safety)"
+        ],
+        description: "Honeycomb is a versatile crafting material obtained from bee nests and beehives by using shears when the hive reaches honey level 5. To collect it safely without angering bees, a campfire should be placed beneath the nest. Honeycomb is essential for crafting candles and beehives. Its most unique function is 'waxing' copper blocks to lock their oxidation stage, and 'locking' text on signs to prevent future edits. In Bedrock Edition, it can also be used to craft hanging signs and copper bulbs."
+    },
     "minecraft:rabbit_foot": {
         id: "minecraft:rabbit_foot",
         name: "Rabbit's Foot",

@@ -371,5 +371,51 @@ export const miscItems = {
             "Crafted with 6 Sticks + 1 Stone Slab"
         ],
         description: "The Armor Stand is a decorative entity used to display armor, weapons, and tools. Crafted with sticks and a stone slab, it holds full armor sets and items in either hand. Perfect for organizing gear or creating museum displays, these entities are a staple for builders. Though they typically remain where placed, commands can be used to customize their pose, size, and appearance. Whether used for practical equipment storage or as a creative tool for detailed builds, the armor stand's versatile nature makes it an essential addition to any base."
+    },
+    "minecraft:fire_charge": {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Igniting blocks, TNT, and portals (consumed on use)",
+            secondaryUse: "Dispenser ammunition for fireballs and firework ingredient"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blaze Powder", "Gunpowder", "Coal or Charcoal"]
+        },
+        specialNotes: [
+            "Acts as a single-use alternative to Flint and Steel",
+            "When fired from a Dispenser, it acts like a fireball flying in a straight line",
+            "Used to craft large ball firework stars",
+            "Can be obtained through Piglin bartering",
+            "Light Level 0 as an item, but creates fire when used"
+        ],
+        description: "A Fire Charge is a consumable item that functions as a single-use alternative to Flint and Steel. It can ignite TNT, light nether portals, and set blocks on fire. When placed inside a dispenser, it can be launched as a fireball that travels in a straight line, setting fire to whatever it hits. Fire charges are crafted using blaze powder, gunpowder, and coal or charcoal. They are also a common trade item from Piglins and are required for crafting large ball-shaped firework stars, making them useful for both utility and defense."
+    },
+    "minecraft:experience_bottle": {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Releasing experience orbs when thrown",
+            secondaryUse: "Quickly repairing items with the Mending enchantment"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Purchased from Master-level Cleric villagers (3 Emeralds)", "Found in Shipwrecks, Pillager Outposts, and Buried Treasure (Bedrock only)"]
+        },
+        specialNotes: [
+            "Drops 1-3 experience orbs yielding 3-11 XP when broken",
+            "Only renewable source is trading with Master-level Clerics",
+            "In Bedrock, it can be found in Buried Treasure chests (12% chance)",
+            "Extremely useful for repairing Mending gear on the go",
+            "Can be found in Shipwreck treasure chests (14% chance)"
+        ],
+        description: "A Bottle o' Enchanting (internally known as experience_bottle) is a special item that releases experience orbs when thrown. Each bottle yields between 3 to 11 experience points. In Bedrock Edition, they can be found in loot chests within Shipwrecks, Pillager Outposts, and Buried Treasure. They are also sold by Master-level Cleric villagers for 3 emeralds. These bottles are particularly valued by high-level players for quickly repairing tools and armor equipped with the Mending enchantment without needing to find a mob farm."
     }
 };
