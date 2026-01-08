@@ -393,5 +393,47 @@ export const vegetationBlocks = {
             yRange: "Lush Caves"
         },
         description: "Small Dripleaves are elegant aquatic and terrestrial plants that naturally generate in Lush Caves. They can be placed on clay or moss blocks, and if underwater, they can also be placed on dirt and several other block types. When bone meal is used on a small dripleaf, it grows into a Big Dripleaf that can be several blocks tall. They are fragile and break instantly when mined, but require shears to be collected as an item. Unlike big dripleaves, they cannot be stood upon as platforms, serving instead as a decorative element and the initial growth stage for their larger counterparts."
+    },
+    "minecraft:open_eyeblossom": {
+        id: "minecraft:open_eyeblossom",
+        name: "Open Eyeblossom",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Open Eyeblossom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome (night)"
+        },
+        description: "The Open Eyeblossom is a unique flower native to the Pale Garden biome, introduced in Minecraft 1.21.50. It blooms at night, revealing a glowing orange eye in its center, though this glow is purely visual and emits no light level. When planted in the Pale Garden, it transitions between open and closed states based on the time of day. Open Eyeblossoms can be crafted into Orange Dye or used to make Suspicious Stew that grants Blindness. Bees interacting with this flower will be poisoned. It emits ambient sounds when placed on Pale Moss Blocks."
+    },
+    "minecraft:closed_eyeblossom": {
+        id: "minecraft:closed_eyeblossom",
+        name: "Closed Eyeblossom",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Closed Eyeblossom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome (day)"
+        },
+        description: "The Closed Eyeblossom is the daytime state of the Eyeblossom flower, found in the Pale Garden biome. During the day, its petals are shut tight. It naturally transitions to an Open Eyeblossom at night. Players can harvest it to craft Gray Dye or use it in a Suspicious Stew recipe to obtain Nausea. Like its open counterpart, it is a key feature of the Pale Garden's eerie flora and can be bonemealed on Pale Moss Blocks to propagate."
     }
 };
