@@ -304,5 +304,26 @@ export const brickBlocks = {
             yRange: "Gold ore veins (below Y 0)"
         },
         description: "A Block of Raw Gold is a compact storage block for raw gold, introduced in Minecraft 1.17. It generates naturally in large gold ore veins below Y=0 in the Overworld, or it can be crafted from nine raw gold items. It requires an iron pickaxe or better to mine. Like other raw blocks, it can be smelted in bulk or used as a unique decorative element with its rich, golden-brown texture."
+    },
+    "minecraft:netherite_block": {
+        id: "minecraft:netherite_block",
+        name: "Block of Netherite",
+        hardness: 50,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: false
+        },
+        drops: ["Block of Netherite"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Block of Netherite is the most durable and expensive storage block in the game, crafted from nine netherite ingots. It shares the extreme blast resistance of obsidian and ancient debris, making it immune to most explosions, including the Wither's attacks. It serves as a compact way to store netherite or as a prestigious decorative block with a dark, metallic texture. To mine it and retrieve the block, a diamond or netherite pickaxe is required; otherwise, it drops nothing. It is also used to power beacons to their highest tier."
     }
 };
