@@ -1265,5 +1265,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/daylight_detector_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        category: "block",
+        icon: "textures/blocks/crafting_table",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        category: "block",
+        icon: "textures/blocks/furnace",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cauldron",
+        name: "Cauldron",
+        category: "block",
+        icon: "textures/blocks/cauldron",
+        themeColor: "§7"
     }
 ];
