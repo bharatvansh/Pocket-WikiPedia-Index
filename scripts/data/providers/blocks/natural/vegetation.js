@@ -163,6 +163,48 @@ export const vegetationBlocks = {
         },
         description: "Mushroom Stems are thick, fibrous blocks that form the stalk of huge mushrooms found in Dark Forest and Mushroom Fields biomes. They can be harvested with Silk Touch to keep their unique texture on all sides, or broken without it to potentially drop smaller mushrooms. These blocks are most efficiently broken with an axe and provide a bass sound when placed under a note block. They are a versatile building material for organic and rustic structures."
     },
+    "minecraft:brown_mushroom_block": {
+        id: "minecraft:brown_mushroom_block",
+        name: "Brown Mushroom Block",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Brown Mushroom (0-2)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Any"
+        },
+        description: "The Brown Mushroom Block is a solid block that makes up the cap of huge brown mushrooms. It has a distinct brown, spotted texture on its outer faces. When mined with a tool not enchanted with Silk Touch, it has a chance to drop up to two brown mushrooms. Using Silk Touch allows the player to obtain the block itself. These blocks are most efficiently broken with an axe. They are commonly found in Dark Forest and Mushroom Fields biomes, where they form the massive canopies of giant fungal structures."
+    },
+    "minecraft:red_mushroom_block": {
+        id: "minecraft:red_mushroom_block",
+        name: "Red Mushroom Block",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Red Mushroom (0-2)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Any"
+        },
+        description: "The Red Mushroom Block forms the large, vibrant red caps of huge red mushrooms found in Dark Forests and Mushroom Fields. Its surface is characterized by a bright red color with white spots. Similar to its brown counterpart, it drops 0-2 red mushrooms when broken without Silk Touch, but can be collected as a whole block using the Silk Touch enchantment. It is categorized as a natural vegetation block and is best harvested with an axe. These blocks are essential for creating the iconic giant mushroom landscapes in Minecraft."
+    },
     "minecraft:mangrove_propagule": {
         id: "minecraft:mangrove_propagule",
         name: "Mangrove Propagule",
@@ -330,5 +372,26 @@ export const vegetationBlocks = {
             yRange: "Grown from Torchflower Seeds discovered by Sniffers"
         },
         description: "Torchflowers are decorative plants introduced in the 1.20 Trails & Tales update. They grow from Torchflower Seeds, which are ancient seeds that Sniffers find by sniffing and digging in the ground. Although its name and vibrant orange-to-red appearance suggest it might emit light, the Torchflower does not actually provide any luminance. It has three growth stages and is primarily used for decoration, crafting orange dye, or breeding bees. Its unique look adds a touch of prehistoric flora to any Minecraft garden."
+    },
+    "minecraft:small_dripleaf": {
+        id: "minecraft:small_dripleaf",
+        name: "Small Dripleaf",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Small Dripleaf (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Small Dripleaves are elegant aquatic and terrestrial plants that naturally generate in Lush Caves. They can be placed on clay or moss blocks, and if underwater, they can also be placed on dirt and several other block types. When bone meal is used on a small dripleaf, it grows into a Big Dripleaf that can be several blocks tall. They are fragile and break instantly when mined, but require shears to be collected as an item. Unlike big dripleaves, they cannot be stood upon as platforms, serving instead as a decorative element and the initial growth stage for their larger counterparts."
     }
 };

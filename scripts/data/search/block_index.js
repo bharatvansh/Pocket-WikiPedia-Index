@@ -630,6 +630,13 @@ export const blockIndex = [
         themeColor: "§6" // brown/wood
     },
     {
+        id: "minecraft:chest",
+        name: "Chest",
+        category: "block",
+        icon: "textures/blocks/chest_front",
+        themeColor: "§6" // brown/wood
+    },
+    {
         id: "minecraft:beacon",
         name: "Beacon",
         category: "block",
@@ -691,6 +698,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/lodestone_top",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:jigsaw",
+        name: "Jigsaw Block",
+        category: "block",
+        icon: "textures/blocks/jigsaw_front",
+        themeColor: "§5" // dark purple
     },
     {
         id: "minecraft:target",
@@ -1099,6 +1113,20 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        category: "block",
+        icon: "textures/blocks/crafting_table_top",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        category: "block",
+        icon: "textures/blocks/furnace_front_off",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:pitcher_plant",
         name: "Pitcher Plant",
         category: "block",
@@ -1134,10 +1162,129 @@ export const blockIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        category: "block",
+        icon: "textures/blocks/dispenser_front",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dropper",
+        name: "Dropper",
+        category: "block",
+        icon: "textures/blocks/dropper_front",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:hopper",
         name: "Hopper",
         category: "block",
         icon: "textures/blocks/hopper_top",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:frogspawn",
+        name: "Frogspawn",
+        category: "block",
+        icon: "textures/blocks/frogspawn",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:muddy_mangrove_roots",
+        name: "Muddy Mangrove Roots",
+        category: "block",
+        icon: "textures/blocks/muddy_mangrove_roots",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:soul_campfire",
+        name: "Soul Campfire",
+        category: "block",
+        icon: "textures/blocks/soul_campfire",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:turtle_egg",
+        name: "Turtle Egg",
+        category: "block",
+        icon: "textures/items/turtle_egg",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dried_kelp_block",
+        name: "Dried Kelp Block",
+        category: "block",
+        icon: "textures/blocks/dried_kelp_block",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:small_dripleaf",
+        name: "Small Dripleaf",
+        category: "block",
+        icon: "textures/blocks/small_dripleaf",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:raw_copper_block",
+        name: "Block of Raw Copper",
+        category: "block",
+        icon: "textures/blocks/raw_copper_block",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:raw_gold_block",
+        name: "Block of Raw Gold",
+        category: "block",
+        icon: "textures/blocks/raw_gold_block",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:rooted_dirt",
+        name: "Rooted Dirt",
+        category: "block",
+        icon: "textures/blocks/rooted_dirt",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:brown_mushroom_block",
+        name: "Brown Mushroom Block",
+        category: "block",
+        icon: "textures/blocks/brown_mushroom_block",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:red_mushroom_block",
+        name: "Red Mushroom Block",
+        category: "block",
+        icon: "textures/blocks/red_mushroom_block",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:crimson_nylium",
+        name: "Crimson Nylium",
+        category: "block",
+        icon: "textures/blocks/crimson_nylium",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_leaves",
+        name: "Cherry Leaves",
+        category: "block",
+        icon: "textures/blocks/cherry_leaves",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_planks",
+        name: "Bamboo Planks",
+        category: "block",
+        icon: "textures/blocks/bamboo_planks",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector_top",
+        themeColor: "§6"
     }
 ];

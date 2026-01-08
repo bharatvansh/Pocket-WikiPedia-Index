@@ -159,5 +159,68 @@ export const redstoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, it retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
+    },
+    "minecraft:dispenser": {
+        id: "minecraft:dispenser",
+        name: "Dispenser",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dispenser"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples"
+        },
+        description: "The Dispenser is a redstone-activated block that can automatically dispense or use items stored in its inventory when powered. It shoots projectiles like arrows, throws splash potions, places armor on nearby players, activates TNT, and dispenses various other items in the direction it faces. Unlike droppers, dispensers actively use items rather than simply dropping them. Crafted from seven cobblestone, one bow, and one redstone dust, it has nine inventory slots. In Bedrock Edition, dispensers can be used for mob farms, automatic defense systems, and various automation projects."
+    },
+    "minecraft:dropper": {
+        id: "minecraft:dropper",
+        name: "Dropper",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dropper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Dropper is a redstone component that drops items from its nine-slot inventory when activated. Unlike dispensers, droppers simply eject items as entities rather than using them, making them ideal for item transportation systems. When facing another container, droppers transfer items directly into it, enabling efficient item sorting and storage. Crafted from seven cobblestone and one redstone dust, droppers are essential for creating hopper chains, randomizers, and automated storage systems in Bedrock Edition. They activate once per redstone pulse."
+    },
+    "minecraft:daylight_detector": {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Daylight Detector is a redstone component that generates a signal based on the intensity of sunlight. Its signal strength varies from 0 to 15 depending on the time of day and weather. Players can interact with it to toggle it into an Inverted Daylight Detector, which emits a signal based on moonlight or the absence of sunlight. Crafted from glass, nether quartz, and wooden slabs, it is essential for automating lighting systems or time-based mechanisms. In Bedrock Edition, it provides a compact way to detect the day-night cycle for various automated contraptions."
     }
 };

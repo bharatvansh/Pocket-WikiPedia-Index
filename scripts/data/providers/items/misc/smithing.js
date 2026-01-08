@@ -235,5 +235,113 @@ export const smithingTemplates = {
             "Can be duplicated using 7 Diamonds and a block of Mossy Cobblestone."
         ],
         description: "The Wild Armor Trim Smithing Template is a rare decorative item discovered within the hidden chests of Jungle Pyramids. It allows players to customize their armor with the 'Wild' pattern, featuring organic, leafy designs that evoke the lush environment of the jungle. Like other armor trims, it is a late-game cosmetic that represents a player's exploration of rare world structures. To ensure a continuous supply, it can be duplicated with seven diamonds and mossy cobblestone, allowing for a complete set of matching gear."
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Host trim to armor",
+            secondaryUse: "Can be duplicated using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Host Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Requires a Smithing Table to apply to armor pieces",
+            "Can be duplicated with 7 Diamonds and 1 Terracotta"
+        ],
+        description: "The Host Armor Trim Smithing Template is a rare item used to customize the appearance of armor pieces. Found exclusively in Trail Ruins by brushing Suspicious Gravel, it allows players to apply the 'Host' pattern to any armor using a Smithing Table. Like all trim templates, it is consumed upon use unless duplicated. The Host trim provides a unique aesthetic that allows players to show off their exploration of ancient structures."
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Wayfinder trim to armor",
+            secondaryUse: "Can be duplicated using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Wayfinder Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Uncovered by brushing Suspicious Gravel in Trail Ruins",
+            "Applied in a Smithing Table with any armor piece and a mineral",
+            "Can be duplicated with 7 Diamonds and 1 Terracotta"
+        ],
+        description: "The Wayfinder Armor Trim Smithing Template is a collectible item found through archaeology in Trail Ruins. It is used to apply the Wayfinder pattern to armor, adding a distinctive look to a player's gear. To use it, a player must place the template, an armor piece, and a material (such as gold or lapis lazuli) into a Smithing Table. It serves as both a trophy of archaeology and a means of high-level armor personalization."
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Coast' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Coast Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Shipwreck chests with a 16.7% chance.",
+            "Features a maritime-themed, wave-like pattern on the armor.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Coast Armor Trim Smithing Template is a decorative item that allows players to apply a maritime-themed pattern to their armor. Discovered within the loot chests of Shipwrecks, it represents the nautical history of the Minecraft world. To use it, players must combine the template with a piece of armor and a smithing material at a Smithing Table. The resulting 'Coast' trim features fluid, wave-like lines. Like all trim templates, it can be duplicated using seven diamonds and a block of cobblestone, allowing for a consistent look across a full suit of armor."
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Dune' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Sandstone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Sandstone", "1x Dune Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Desert Pyramid chests with a 14.3% chance.",
+            "Features a desert-themed pattern with clean, geometric lines.",
+            "Can be duplicated using 7 Diamonds and 1 Sandstone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Dune Armor Trim Smithing Template is a rare find within the ancient chambers of Desert Pyramids. This decorative template allows players to adorn their armor with the 'Dune' pattern, which features clean, geometric lines reminiscent of desert architecture and shifting sands. It is applied at a Smithing Table using a piece of armor and a material of the player's choice to define the color. Because it is found in the dangerous traps of desert temples, it serves as a mark of a successful explorer. It can be duplicated using seven diamonds and a block of sandstone."
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+        id: "minecraft:snout_armor_trim_smithing_template",
+        name: "Snout Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Snout' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Blackstone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Blackstone", "1x Snout Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Bastion Remnant chests with an 8.3% chance.",
+            "Features a piglin-themed pattern that pays homage to the bastion inhabitants.",
+            "Can be duplicated using 7 Diamonds and 1 Blackstone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Snout Armor Trim Smithing Template is a piglin-themed decorative item found exclusively within Bastion Remnants in the Nether. It allows players to apply the 'Snout' pattern to their armor, featuring a bold design that pays homage to the piglin inhabitants of the bastions. Obtained from various chests within these dangerous structures, it is a prize for those brave enough to challenge the piglins in their home. At a Smithing Table, it can be combined with any armor piece and a mineral. To preserve the template, it can be duplicated using seven diamonds and a block of blackstone."
     }
 };

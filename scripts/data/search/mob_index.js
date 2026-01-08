@@ -453,5 +453,61 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_cave_spider.png",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:salmon",
+        name: "Salmon",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_salmon.png",
+        themeColor: "§c" // red/pink salmon color
+    },
+    {
+        id: "minecraft:cod",
+        name: "Cod",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cod.png",
+        themeColor: "§6" // brown/tan cod color
+    },
+    {
+        id: "minecraft:zombified_piglin",
+        name: "Zombified Piglin",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombified_piglin.png",
+        themeColor: "§d" // pink/undead
+    },
+    {
+        id: "minecraft:snow_golem",
+        name: "Snow Golem",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_snow_golem.png",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:endermite",
+        name: "Endermite",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_endermite.png",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:wither",
+        name: "Wither",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_wither.png",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:ender_dragon",
+        name: "Ender Dragon",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_ender_dragon.png",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:cat",
+        name: "Cat",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_cat.png",
+        themeColor: "§7" // gray
     }
 ];

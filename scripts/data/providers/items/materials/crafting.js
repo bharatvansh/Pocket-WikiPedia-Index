@@ -179,6 +179,48 @@ export const craftingMaterials = {
         ],
         description: "The Guster Pottery Sherd is a pottery decoration ingredient that depicts a Breeze and can be incorporated into a Decorated Pot to apply its pattern to one side. In Minecraft Bedrock Edition, players can obtain it in Trial Chambers by breaking naturally generated Decorated Pots that were crafted with the Guster sherd. By combining it with bricks or other pottery sherds in the Decorated Pot recipe, builders can create unique, story-like pottery designs that match the wind-themed Trial Chamber aesthetic."
     },
+    "minecraft:snort_pottery_sherd": {
+        id: "minecraft:snort_pottery_sherd",
+        name: "Snort Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots",
+            secondaryUse: "Decorative item found via archaeology"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Brushing Suspicious Sand in Warm Ocean Ruins"]
+        },
+        specialNotes: [
+            "Obtained by using a brush on Suspicious Sand in Warm Ocean Ruins",
+            "Features a pattern resembling a Sniffer's snout",
+            "Four sherds (or bricks) can be combined to craft a Decorated Pot"
+        ],
+        description: "The Snort Pottery Sherd is a decorative item introduced in the Trails & Tales update, primarily obtained through the archaeology system. Players must locate and brush Suspicious Sand within Warm Ocean Ruins to find it. The sherd features a stylized image of a snout, representing the Sniffer mob. When used to craft a Decorated Pot, this pattern will appear on the side of the pot, allowing players to create unique, story-telling decorations for their builds."
+    },
+    "minecraft:sheaf_pottery_sherd": {
+        id: "minecraft:sheaf_pottery_sherd",
+        name: "Sheaf Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots",
+            secondaryUse: "Decorative item found via archaeology"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Brushing Suspicious Sand in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Trail Ruins",
+            "Features a pattern of a sheaf of wheat",
+            "Can be combined with other sherds to create custom pot patterns"
+        ],
+        description: "The Sheaf Pottery Sherd is one of several pottery fragments found via archaeology in Trail Ruins. It is uncovered by carefully brushing Suspicious Sand blocks. The fragment depicts a sheaf of wheat, symbolizing agriculture and harvest. By combining it with three other sherds or bricks in a crafting table, players can create a Decorated Pot that showcases this agricultural motif on one or more of its sides, perfect for decorating farms or granaries."
+    },
     "minecraft:heart_of_the_sea": {
         id: "minecraft:heart_of_the_sea",
         name: "Heart of the Sea",
@@ -851,5 +893,75 @@ export const craftingMaterials = {
             "Introduced as part of the Pale Garden update (1.21.40 Bedrock)."
         ],
         description: "Resin Bricks are durable crafting materials obtained by hardening Resin Clumps through the smelting process. Found in the eerie Pale Garden biome, these bricks serve as the primary component for constructing Resin Bricks blocks and Resin Walls. Their distinctive orange-brown hue makes them an excellent choice for players looking to add unique color and texture to their builds. As a part of the Pale Garden's ecosystem, Resin Bricks represent the transformation of organic resin into a solid, reliable building material."
+    },
+    "minecraft:glowstone_dust": {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing ingredient to increase potion potency",
+            secondaryUse: "Crafting Glowstone blocks and Firework Stars"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by mining Glowstone blocks", "Dropped by Witches", "Piglin Bartering"]
+        },
+        specialNotes: [
+            "Mining Glowstone yields 2-4 dust (up to 4 with Fortune)",
+            "Increases potion level (e.g., Strength I to Strength II)",
+            "Essential for crafting Glowstone blocks (4x Glowstone Dust)",
+            "Used to craft Firework Stars with various colors",
+            "Can be obtained from Cleric villagers in exchange for emeralds"
+        ],
+        description: "Glowstone Dust is a luminous material primarily obtained by mining Glowstone blocks in the Nether. It is a cornerstone of advanced brewing, used to increase the potency of potions at the cost of reduced duration. Beyond alchemy, it can be recombined into Glowstone blocks for permanent lighting or used to craft Firework Stars for colorful displays. Its availability in the Nether makes it a vital resource for players looking to enhance their combat effectiveness or decorate their builds with bright, magical light."
+    },
+    "minecraft:bowl": {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Container for stews and soups",
+            secondaryUse: "Obtaining suspicious stew from Brown Mooshrooms"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Planks (any wood type)"]
+        },
+        specialNotes: [
+            "Crafted from three planks in a V-shape (yields 4 bowls)",
+            "Used to craft Mushroom Stew, Rabbit Stew, and Beetroot Soup",
+            "Left behind in the inventory after consuming any stew or soup",
+            "Can be used on a Brown Mooshroom (after feeding it a flower) to get Suspicious Stew",
+            "Occasionally obtained through fishing as junk",
+            "Can be used as fuel in a furnace (smelts 0.5 items)"
+        ],
+        description: "A Bowl is a simple yet essential container used primarily for holding various stews and soups in Minecraft. Crafted from three wooden planks, it serves as the vessel for Mushroom Stew, Rabbit Stew, and Beetroot Soup. Unlike many other food items, stews leave the empty bowl behind after consumption, allowing it to be reused indefinitely. Bowls also play a unique role in agriculture, as they can be used to milk Mooshrooms for stew or to collect Suspicious Stew from Brown Mooshrooms after feeding them specific flowers."
+    },
+    "minecraft:archer_pottery_sherd": {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Archer motif",
+            secondaryUse: "Decorative archaeological item for displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand"]
+        },
+        specialNotes: [
+            "Found by using a Brush on Suspicious Sand in Desert Temples and Desert Wells.",
+            "Features a stylized image of an archer holding a bow.",
+            "Used as a component in crafting Decorated Pots (requires four sherds/bricks).",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Part of the archaeology system introduced in the Trails & Tales update."
+        ],
+        description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
     }
 };

@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Raw beef, raw porkchop, raw chicken,
 // raw mutton, raw rabbit, raw cod, raw salmon, tropical fish,
-// pufferfish, apple, melon slice, sweet berries, glow berries,
+// apple, melon slice, sweet berries, glow berries,
 // carrot, potato, beetroot, dried kelp, chorus fruit
 // ============================================
 
@@ -177,5 +177,63 @@ export const rawFood = {
             "Can be used as a composting ingredient (30% chance)"
         ],
         description: "Sweet Berries are a versatile food item found growing on bushes within Taiga biomes in Minecraft Bedrock Edition. While they only provide a small amount of hunger restoration, they are easily farmed and can be harvested from mature bushes without destroying the plant. Beyond consumption, they are essential for breeding foxes and can be planted to create defensive hedges that slow and damage most mobs. Their ability to grow quickly and provide both food and protection makes them a valuable resource for players living in colder climates."
+    },
+    "minecraft:salmon": {
+        id: "minecraft:salmon",
+        name: "Raw Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Feeding and breeding cats and ocelots"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Salmon mobs", "Obtained via fishing", "Rare drop from Guardians and Elder Guardians", "Dropped by Polar Bears (25% chance)"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 0.2 saturation when eaten raw",
+            "Can be cooked in a furnace, smoker, or campfire to make Cooked Salmon",
+            "Cooked Salmon restores 6 hunger and 9.6 saturation, making cooking highly recommended",
+            "Used to tame cats (10-33% success rate) and breed them after taming",
+            "Used to gain trust from ocelots (cannot be fully tamed in Bedrock)",
+            "Salmon mobs drop 1 raw salmon guaranteed when killed",
+            "Can be caught while fishing with approximately 25% chance in the fish category"
+        ],
+        description: "Raw Salmon is a common food item obtained from fishing, killing salmon mobs, or as rare drops from guardians and polar bears. While it can be eaten raw to restore 2 hunger points, its low saturation makes it far less efficient than cooking it first. Cooked Salmon provides significantly better nutrition with 6 hunger and 9.6 saturation. Raw Salmon is essential for taming cats and gaining the trust of ocelots, making it valuable beyond just food. Salmon are found in rivers and various ocean biomes, making this item accessible throughout exploration."
+    },
+    "minecraft:cod": {
+        id: "minecraft:cod",
+        name: "Raw Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Feeding and breeding cats and ocelots"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cod mobs", "Obtained via fishing", "Rare drop from Guardians and Elder Guardians", "Obtained by killing Dolphins (in Bedrock)"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 0.4 saturation when eaten raw",
+            "Can be cooked in a furnace, smoker, or campfire to make Cooked Cod",
+            "Cooked Cod restores 5 hunger and 6 saturation, making cooking recommended",
+            "Used to tame cats (10-33% success rate) and breed them after taming",
+            "Used to gain trust from ocelots (cannot be fully tamed in Bedrock)",
+            "Cod mobs drop 1 raw cod guaranteed when killed",
+            "Most common fish catch while fishing at approximately 60% of fish catches"
+        ],
+        description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
     }
 };

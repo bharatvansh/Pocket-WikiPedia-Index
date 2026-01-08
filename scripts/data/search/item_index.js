@@ -1223,5 +1223,208 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/snowball",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:netherite_helmet",
+        name: "Netherite Helmet",
+        category: "item",
+        icon: "textures/items/netherite_helmet",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_chestplate",
+        name: "Netherite Chestplate",
+        category: "item",
+        icon: "textures/items/netherite_chestplate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_sword",
+        name: "Netherite Sword",
+        category: "item",
+        icon: "textures/items/netherite_sword",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_iron",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:golden_horse_armor",
+        name: "Golden Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_gold",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:leather_horse_armor",
+        name: "Leather Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_leather",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:snort_pottery_sherd",
+        name: "Snort Pottery Sherd",
+        category: "item",
+        icon: "textures/items/snort_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:sheaf_pottery_sherd",
+        name: "Sheaf Pottery Sherd",
+        category: "item",
+        icon: "textures/items/sheaf_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:host_armor_trim_smithing_template",
+        name: "Host Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/host_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:wayfinder_armor_trim_smithing_template",
+        name: "Wayfinder Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/wayfinder_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_13",
+        name: "Music Disc (13)",
+        category: "item",
+        icon: "textures/items/music_disc_13",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:glowstone_dust",
+        name: "Glowstone Dust",
+        category: "item",
+        icon: "textures/items/glowstone_dust",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bowl",
+        name: "Bowl",
+        category: "item",
+        icon: "textures/items/bowl",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        category: "item",
+        icon: "textures/items/minecart",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:oak_boat",
+        name: "Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:cooked_chicken",
+        name: "Cooked Chicken",
+        category: "item",
+        icon: "textures/items/chicken_cooked",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:baked_potato",
+        name: "Baked Potato",
+        category: "item",
+        icon: "textures/items/potato_baked",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:coast_armor_trim_smithing_template",
+        name: "Coast Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/coast_armor_trim_smithing_template",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:dune_armor_trim_smithing_template",
+        name: "Dune Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/dune_armor_trim_smithing_template",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:snout_armor_trim_smithing_template",
+        name: "Snout Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/snout_armor_trim_smithing_template",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pufferfish",
+        name: "Pufferfish",
+        category: "item",
+        icon: "textures/items/fish_pufferfish_raw",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:salmon",
+        name: "Raw Salmon",
+        category: "item",
+        icon: "textures/items/fish_salmon_raw",
+        themeColor: "§c" // red/pink salmon
+    },
+    {
+        id: "minecraft:cod",
+        name: "Raw Cod",
+        category: "item",
+        icon: "textures/items/fish_raw",
+        themeColor: "§6" // brown/tan
+    },
+    {
+        id: "minecraft:globe_banner_pattern",
+        name: "Globe Banner Pattern",
+        category: "item",
+        icon: "textures/items/globe_banner_pattern",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:thing_banner_pattern",
+        name: "Thing Banner Pattern",
+        category: "item",
+        icon: "textures/items/thing_banner_pattern",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:archer_pottery_sherd",
+        name: "Archer Pottery Sherd",
+        category: "item",
+        icon: "textures/items/archer_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:painting",
+        name: "Painting",
+        category: "item",
+        icon: "textures/items/painting",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:glow_item_frame",
+        name: "Glow Item Frame",
+        category: "item",
+        icon: "textures/items/glow_item_frame",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:oak_chest_boat",
+        name: "Oak Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_oak_chest",
+        themeColor: "§6"
     }
 ];

@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const containerBlocks = {
+    "minecraft:chest": {
+        id: "minecraft:chest",
+        name: "Chest",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chest (items inside drop when broken)"],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "Loot containers in many structures; can also generate as a Bonus Chest"
+        },
+        description: "A Chest is the most common storage block, providing 27 slots and combining into a 54-slot large chest when placed next to another chest. It can be accessed by hoppers and other containers for automation, and breaking it drops the chest while spilling its contents as item entities. Chests generate widely across the game as loot containers in structures such as dungeons, villages, strongholds, shipwrecks, nether fortresses, bastion remnants, and trial chambers."
+    },
     "minecraft:barrel": {
         id: "minecraft:barrel",
         name: "Barrel",

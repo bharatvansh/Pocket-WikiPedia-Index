@@ -741,5 +741,134 @@ export const passiveMobs = {
             { item: "Experience", chance: "1-3" }
         ],
         description: "Parrots are rare passive flying mobs found in Jungle biomes. They come in five vibrant colors: red, blue, green, cyan, and gray. Parrots are unique for their ability to mimic the sounds of nearby hostile mobs, providing an early warning system for players. They can be tamed with various seeds and will follow the player or sit on their shoulders. However, players must be careful never to feed them cookies, as chocolate is fatal to parrots in Minecraft."
+    },
+    "minecraft:salmon": {
+        id: "minecraft:salmon",
+        name: "Salmon",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.12
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Cold Ocean", "Deep Cold Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Ocean", "Deep Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean", "River", "Frozen River"],
+            lightLevel: "Any",
+            groupSize: "3-5"
+        },
+        behaviorTraits: [
+            "Spawns in three size variants: small, normal, and large",
+            "Swims in schools with other salmon in rivers and cold ocean biomes",
+            "Can be collected and transported using water buckets",
+            "Dies when out of water after flopping around briefly",
+            "Large variants in Bedrock Edition have a 25% chance to drop bones",
+            "Cannot be bred by players",
+            "Vulnerable to Impaling enchantment damage"
+        ],
+        drops: [
+            { item: "Raw Salmon", chance: "1" },
+            { item: "Cooked Salmon", chance: "1 (if killed by fire)" },
+            { item: "Bone", chance: "25% (large salmon only, 1-2)" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Salmon are passive fish mobs that spawn in cold oceans, frozen oceans, lukewarm oceans, regular oceans, and rivers. They appear in three size variants: small, normal, and large. In Bedrock Edition, large salmon have a unique 25% chance to drop 1-2 bones when killed. Salmon can be collected in water buckets for transport and will drop raw salmon when killed, or cooked salmon if killed while on fire. They cannot be bred and must respawn naturally. Salmon are commonly found in schools and are a reliable food source for players exploring aquatic biomes."
+    },
+    "minecraft:cod": {
+        id: "minecraft:cod",
+        name: "Cod",
+        health: 6,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.12
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean", "Deep Ocean", "Cold Ocean", "Deep Cold Ocean", "Frozen Ocean", "Deep Frozen Ocean", "Lukewarm Ocean", "Deep Lukewarm Ocean"],
+            lightLevel: "Any",
+            groupSize: "4-7"
+        },
+        behaviorTraits: [
+            "Swims in schools with other cod in ocean biomes",
+            "Can be collected and transported using water buckets",
+            "Dies when out of water after flopping around briefly",
+            "In Bedrock Edition, has a 25% chance to drop bones",
+            "Cannot be bred by players",
+            "Requires a non-solid block above spawn location",
+            "Vulnerable to Impaling enchantment damage"
+        ],
+        drops: [
+            { item: "Raw Cod", chance: "1" },
+            { item: "Cooked Cod", chance: "1 (if killed by fire)" },
+            { item: "Bone", chance: "25% (1-2)" },
+            { item: "Experience", chance: "1-3" }
+        ],
+        description: "Cod are the most common fish mobs found across all ocean biomes in Minecraft. They spawn in groups of 4-7 and swim in schools near the water surface. In Bedrock Edition, cod have a unique 25% chance to drop 1-2 bones when killed, in addition to their guaranteed raw cod drop. If killed by fire, they drop cooked cod instead. Cod can be collected in water buckets for transport to aquariums or fish farms. They cannot be bred and must spawn naturally. As one of the most abundant aquatic mobs, cod serve as a reliable early-game food source for players near ocean biomes."
+    },
+    "minecraft:snow_golem": {
+        id: "minecraft:snow_golem",
+        name: "Snow Golem",
+        health: 4,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Player-created"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Created by placing a carved pumpkin or jack o'lantern on top of two snow blocks",
+            "Throws snowballs at hostile mobs within 10 blocks",
+            "Snowballs deal no damage to most mobs but deal 3 damage to blazes",
+            "Leaves a trail of snow on the ground as it moves (in non-warm biomes)",
+            "Takes damage in warm biomes (desert, jungle, savanna) and the Nether",
+            "Its pumpkin head can be removed using shears to reveal its true face",
+            "Water and rain cause the snow golem to take damage and eventually die"
+        ],
+        drops: [
+            { item: "Snowball", chance: "0-15" }
+        ],
+        description: "Snow Golems are player-created utility mobs that serve as defensive guardians. They are built by stacking two snow blocks and topping them with a carved pumpkin. Snow golems attack hostile mobs by throwing snowballs, which deal no damage to most creatures but are lethal to blazes. They leave a trail of snow behind them, providing a renewable source of snow. However, they are fragile and will melt in warm biomes or when exposed to rain and water. Using shears on a snow golem removes its pumpkin mask, revealing a unique, derpy face underneath."
+    },
+    "minecraft:cat": {
+        id: "minecraft:cat",
+        name: "Cat",
+        health: 10,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.3
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Villages", "Swamp Huts"],
+            lightLevel: "Any",
+            groupSize: "1"
+        },
+        behaviorTraits: [
+            "Scares away Creepers and Phantoms, keeping them at a distance of 16 blocks.",
+            "Can be tamed using raw cod or raw salmon.",
+            "Tamed cats follow the player and can be made to sit.",
+            "When a player sleeps, tamed cats may bring gifts like rabbit hide or feathers.",
+            "Immune to fall damage and can see players even under the Invisibility effect.",
+            "Often sits on chests, beds, and active furnaces, temporarily preventing their use."
+        ],
+        drops: [
+            { item: "String", chance: "0-2" }
+        ],
+        description: "Cats are agile passive mobs found in villages and swamp huts. They are uniquely valuable for their ability to repel Creepers and Phantoms, making them excellent companions for base defense. Once tamed with raw fish, they follow their owners and provide occasional gifts after the player wakes from a bed. Cats are also immune to fall damage, reflecting their real-world grace and landing abilities."
     }
 };

@@ -1,7 +1,7 @@
 // Pocket Wikipedia Foundation - Main Entry Point
 // This script handles the main event flow for the Pocket Wikipedia addon
 
-import { world } from "@minecraft/server";
+import { world, system } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
 import { searchIndex, indexCounts } from "./data/search/index.js";
 import { getBlockDetails } from "./data/providers/blocks/index.js";
@@ -24,12 +24,87 @@ const FMT = {
     white: "§f"
 };
 
+// ============================================
+// Addon Detection & Inter-Addon Communication
+// ============================================
+
+// Scoreboard objective for addon detection (shared by both addons)
+const PWI_DETECTION_OBJECTIVE = "pwi_addons";
+const INDEX_PARTICIPANT = "pwi_index_active";
+const KNOWLEDGE_PARTICIPANT = "pwi_knowledge_active";
+
+// Register this addon's presence via scoreboard score
+// Strategy: Clear ALL scores first (removes stale entries), then set our own after delay
+try {
+    // Create shared objective if it doesn't exist
+    try {
+        world.scoreboard.addObjective(PWI_DETECTION_OBJECTIVE, "PWI Addon Detection");
+    } catch (e) {
+        // Objective already exists, that's fine
+    }
+
+    const objective = world.scoreboard.getObjective(PWI_DETECTION_OBJECTIVE);
+    if (objective) {
+        // First, clear ALL scores to remove any stale entries from removed addons
+        try { objective.removeParticipant(INDEX_PARTICIPANT); } catch (e) { }
+        try { objective.removeParticipant(KNOWLEDGE_PARTICIPANT); } catch (e) { }
+
+        // After a short delay, set our score
+        // This ensures if both addons are present, both will have set their scores
+        system.runTimeout(() => {
+            try {
+                const obj = world.scoreboard.getObjective(PWI_DETECTION_OBJECTIVE);
+                if (obj) {
+                    obj.setScore(INDEX_PARTICIPANT, 1);
+                }
+            } catch (e) {
+                console.warn("Failed to set Index addon score:", e);
+            }
+        }, 10); // 10 ticks = 0.5 seconds delay
+    }
+} catch (e) {
+    console.warn("Failed to register Index addon presence:", e);
+}
+
+/**
+ * Check if Knowledge addon is currently running by looking for its score
+ */
+function isKnowledgeAddonActive() {
+    try {
+        const objective = world.scoreboard.getObjective(PWI_DETECTION_OBJECTIVE);
+        if (!objective) return false;
+
+        // Check if Knowledge addon has set its score
+        const participants = objective.getParticipants();
+        return participants.some(p => p.displayName === KNOWLEDGE_PARTICIPANT);
+    } catch (e) {
+        return false;
+    }
+}
+
+// Listen for hub menu commands via scriptEvent
+system.afterEvents.scriptEventReceive.subscribe((event) => {
+    if (event.id === "pwi:open_index" && event.sourceEntity) {
+        const player = event.sourceEntity;
+        if (player.typeId === "minecraft:player") {
+            showMainMenu(player);
+        }
+    }
+});
+
 // Main entry point - triggered by using a book
 world.afterEvents.itemUse.subscribe((event) => {
     const { itemStack, source } = event;
 
     // Only trigger on book usage
     if (itemStack.typeId === "minecraft:book") {
+        // Check if Knowledge addon is also installed
+        if (isKnowledgeAddonActive()) {
+            // Knowledge addon will handle the hub menu, do nothing here
+            return;
+        }
+
+        // We're alone - show Index menu directly
         showMainMenu(source);
     }
 });

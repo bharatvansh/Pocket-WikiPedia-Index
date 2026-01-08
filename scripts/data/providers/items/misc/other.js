@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg
+// bucket, dragon egg, oak boat, oak boat with chest
 // ============================================
 
 /**
@@ -393,6 +393,69 @@ export const miscItems = {
         ],
         description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
     },
+    "minecraft:iron_horse_armor": {
+        id: "minecraft:iron_horse_armor",
+        name: "Iron Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting a tamed horse",
+            secondaryUse: "Increasing a horse's armor rating by 5 points"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests"]
+        },
+        specialNotes: [
+            "Found in Dungeons, Strongholds, Villages, Nether Fortresses, and Jungle Temples",
+            "Can be equipped on tamed horses only",
+            "Does not have durability and never breaks"
+        ],
+        description: "Iron Horse Armor is a specialized piece of equipment designed to protect tamed horses from damage. Unlike player armor, it cannot be crafted and must be discovered within loot chests in various world structures. When equipped, it provides 5 points of armor to the horse, significantly increasing its survival chances against mobs and other hazards. It is a durable item that does not wear out over time, making it a permanent upgrade for a player's mount."
+    },
+    "minecraft:golden_horse_armor": {
+        id: "minecraft:golden_horse_armor",
+        name: "Golden Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting a tamed horse",
+            secondaryUse: "Increasing a horse's armor rating by 7 points"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests"]
+        },
+        specialNotes: [
+            "Found in Dungeons, Villages (Weaponsmith chests), Nether Fortresses, Bastion Remnants, Ruined Portals, Desert Pyramids, Jungle Temples, Strongholds (Altar chests), and End Cities",
+            "Provides more protection than iron horse armor but less than diamond",
+            "Can be equipped on tamed horses only"
+        ],
+        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld, the Nether, and The End, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
+    },
+    "minecraft:leather_horse_armor": {
+        id: "minecraft:leather_horse_armor",
+        name: "Leather Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting and decorating a tamed horse",
+            secondaryUse: "Can be dyed in a cauldron to change its color"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["7x Leather"]
+        },
+        specialNotes: [
+            "The only type of horse armor that can be crafted in Bedrock Edition",
+            "Can be dyed into 12,326,391 different colors using cauldrons",
+            "Provides 3 armor points to the horse"
+        ],
+        description: "Leather Horse Armor is the entry-level protection for horses and is unique as the only craftable horse armor in Minecraft Bedrock Edition. It is made from seven pieces of leather and provides a modest 3 armor points. Its most notable feature is its customization; players can use dyed water in a cauldron to color the armor, allowing for millions of possible color combinations to personalize their steeds."
+    },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
         name: "Item Frame",
@@ -695,5 +758,119 @@ export const miscItems = {
             "Reduces the detection range of Piglins by 50% when worn"
         ],
         description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
+    },
+    "minecraft:minecart": {
+        id: "minecraft:minecart",
+        name: "Minecart",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting players and mobs on rails",
+            secondaryUse: "Base for crafting specialized minecarts (Chest, Hopper, TNT)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["5x Iron Ingot"]
+        },
+        specialNotes: [
+            "Placed on rails by using it on them; broken by attacking it",
+            "Can carry players and most mobs (including hostile ones)",
+            "Speeds depend on the type of rail used (Powered vs Normal)",
+            "Can be combined with Chests, Hoppers, or TNT in a crafting grid",
+            "In Bedrock Edition, minecarts can be placed on a rail by a dispenser",
+            "Minecarts can pick up mobs that walk into them while on a rail"
+        ],
+        description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
+    },
+    "minecraft:oak_boat": {
+        id: "minecraft:oak_boat",
+        name: "Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Oak Planks x5"]
+        },
+        specialNotes: [
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
+    },
+    "minecraft:painting": {
+        id: "minecraft:painting",
+        name: "Painting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing decorative art on walls",
+            secondaryUse: "Creating secret doors and hidden passages"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x8", "Wool (any color) x1"]
+        },
+        specialNotes: [
+            "Can be placed in different sizes (1x1 to 4x4) depending on available space",
+            "There are 30 different paintings available in Bedrock Edition",
+            "Can be placed over doors or openings to create hidden passages",
+            "Breaking a painting drops the item for relocation"
+        ],
+        description: "Paintings are decorative entities that can be placed on vertical surfaces. They come in various sizes, from small 1x1 canvases to large 4x4 masterpieces, randomly chosen based on the space available when placed. In Bedrock Edition, there are 30 unique painting designs. Beyond decoration, paintings are commonly used to create secret doors, as players and mobs can walk through them if there is an opening behind the canvas."
+    },
+    "minecraft:glow_item_frame": {
+        id: "minecraft:glow_item_frame",
+        name: "Glow Item Frame",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying items with a glowing background",
+            secondaryUse: "Lighting up displayed items in the dark"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Item Frame", "Glow Ink Sac"]
+        },
+        specialNotes: [
+            "Makes the displayed item clearly visible even in total darkness",
+            "Does not increase the light level of the surrounding area (decorative only)",
+            "Obtained by combining a regular item frame with a glow ink sac from a glow squid",
+            "Can be placed on any side of most blocks, including top and bottom"
+        ],
+        description: "The Glow Item Frame is a specialized version of the standard item frame that allows displayed items to remain fully visible in the dark. It is crafted by combining a regular item frame with a glow ink sac. While it makes the item glow with a bright background, it does not actually emit light into the environment. This makes it perfect for maps, signage, or trophy rooms where visibility is needed regardless of lighting conditions."
+    },
+    "minecraft:oak_chest_boat": {
+        id: "minecraft:oak_chest_boat",
+        name: "Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation with mobile storage",
+            secondaryUse: "Transporting a single player or mob plus items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Provides 27 slots of storage, equivalent to a single chest",
+            "Can only hold one passenger (player or mob) instead of the two allowed in standard boats",
+            "When broken, it drops both the boat with chest item and the contents of the chest",
+            "Useful for long-distance ocean exploration or moving base materials across water"
+        ],
+        description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
     }
 };

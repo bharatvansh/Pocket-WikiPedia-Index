@@ -12,6 +12,48 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const workstationBlocks = {
+    "minecraft:crafting_table": {
+        id: "minecraft:crafting_table",
+        name: "Crafting Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crafting Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages (some houses), Igloos, Witch Huts, Pillager Outposts, Trial Chambers"
+        },
+        description: "A Crafting Table is a core utility block that expands crafting from a 2×2 grid to a full 3×3 grid, enabling most recipes in Minecraft. It is crafted from 4 wooden planks of any type and can be used by players without consuming durability or fuel. In Bedrock Edition, crafting tables also generate naturally in several Overworld structures, making them easy to obtain early and crucial for progression."
+    },
+    "minecraft:furnace": {
+        id: "minecraft:furnace",
+        name: "Furnace",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 13,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Furnace"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages and Igloos"
+        },
+        description: "The Furnace is a fundamental smelting block used to cook food and process materials such as ores into ingots using fuel like coal, charcoal, or wood. It has three slots (input, fuel, and output) and stores experience that can be collected when smelted items are removed. Furnaces are crafted from 8 cobblestone and also generate naturally in structures like villages and igloos, supporting early-game toolmaking and resource processing in Bedrock Edition."
+    },
     "minecraft:smoker": {
         id: "minecraft:smoker",
         name: "Smoker",
