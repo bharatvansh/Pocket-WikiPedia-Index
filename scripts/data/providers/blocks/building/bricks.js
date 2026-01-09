@@ -325,5 +325,47 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Netherite is the most durable and expensive storage block in the game, crafted from nine netherite ingots. It shares the extreme blast resistance of obsidian and ancient debris, making it immune to most explosions, including the Wither's attacks. It serves as a compact way to store netherite or as a prestigious decorative block with a dark, metallic texture. To mine it and retrieve the block, a diamond or netherite pickaxe is required; otherwise, it drops nothing. It is also used to power beacons to their highest tier."
+    },
+    "minecraft:deepslate_bricks": {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deepslate layers (Y -64 to 0)"
+        },
+        description: "Deepslate Bricks are building blocks created by crafting deepslate in a 2x2 pattern, providing an alternative to cobbled deepslate for building projects. They have a smoother, more uniform appearance compared to cobbled deepslate while maintaining the same durability and blast resistance. These bricks are commonly used for modern, industrial, or dungeon-themed builds due to their dark, gray color scheme. With a hardness of 3.0 and blast resistance of 6.0, they offer excellent protection and are ideal for constructing reinforced walls, floors, and decorative elements in underground bases or structures."
+    },
+    "minecraft:chiseled_deepslate": {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Chiseled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deepslate layers (Y -64 to 0)"
+        },
+        description: "Chiseled Deepslate is a decorative variant of deepslate created by placing deepslate slabs in a vertical orientation, featuring unique runic patterns carved into its surface. It serves as an elegant building material for creating accent walls, detailed architectural features, and sophisticated interior designs in underground structures. The block maintains the same durability and blast resistance as regular deepslate bricks, with a hardness of 3.0 and blast resistance of 6.0. Unlike cobbled deepslate, it requires precise placement and crafting techniques to create, making it a more advanced building material preferred by experienced builders for its aesthetic appeal and versatility in creating intricate designs."
     }
 };

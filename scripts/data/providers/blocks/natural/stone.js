@@ -178,5 +178,26 @@ export const stoneBlocks = {
             yRange: "Dripstone caves (Y -59 to 64) and Trial Chambers"
         },
         description: "The Dripstone Block is a natural stone block found in dripstone caves and Trial Chambers that allows pointed dripstone to grow beneath it. When water is placed above it, stalactites and stalagmites form over time. Dripstone blocks can be mined with any pickaxe tier, dropping themselves when broken. They are primarily used for decoration and creating natural cave aesthetics. When water drips from stalactites, they can fill cauldrons below with water or lava depending on the source block."
+    },
+    "minecraft:cobbled_deepslate": {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        hardness: 2.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Cobbled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deepslate layers (Y -64 to 0)"
+        },
+        description: "Cobbled Deepslate is a natural building material that serves as the cobblestone equivalent of deepslate, created by mining deepslate with any pickaxe. It generates naturally in the deepslate layers of the Overworld and is the primary building material for underground structures and cave bases. With a hardness of 2.5 and blast resistance of 6.0, it offers excellent durability while maintaining the dark, weathered appearance characteristic of deepslate. Cobbled Deepslate can be crafted into deepslate bricks or polished into smoother variants, making it a versatile foundation material for both practical and decorative builds. It is commonly used to create dungeon-like structures, mining outposts, and reinforces the industrial aesthetic of deep underground construction."
     }
 };
