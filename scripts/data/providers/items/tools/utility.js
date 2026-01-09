@@ -104,6 +104,54 @@ export const utilityTools = {
         ],
         description: "A Compass is a navigation tool that points to the world spawn point. It is essential for players exploring far from their starting location. By combining a compass with Paper, players can create an Empty Map. In the Nether or End dimensions, the compass needle spins randomly, rendering it useless for direction unless it is used on a Lodestone. When used on a Lodestone, it becomes a Lodestone Compass and points to that specific Lodestone block, allowing for navigation in all dimensions."
     },
+    "minecraft:empty_map": {
+        id: "minecraft:empty_map",
+        name: "Empty Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating a new map to chart explored terrain",
+            secondaryUse: "Crafting a locator map to show player position (Bedrock Edition)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Paper x8 + Compass (Bedrock: Empty Locator Map)", "Paper x9 (Bedrock: non-locator Empty Map)"]
+        },
+        specialNotes: [
+            "Becomes a Map when first used, recording the terrain of that region",
+            "Map borders are locked to the world grid where it was first opened",
+            "Bedrock: locator maps show your position; non-locator maps do not",
+            "Finished maps can be cloned, zoomed out, or locked at a Cartography Table",
+            "Stacks to 64, but maps with different data do not stack together",
+            "Worlds can optionally start players with a locator map (Starting Map option)"
+        ],
+        description: "An Empty Map is crafted from paper and becomes a Map when used, letting you record explored terrain in a fixed map region. In Minecraft Bedrock Edition, crafting with a compass creates an Empty Locator Map that shows a position marker (when locator maps are enabled), while the paper-only recipe makes a non-locator map without a position marker. After using it, a Cartography Table can copy, zoom out, or lock the finished map."
+    },
+    "minecraft:filled_map": {
+        id: "minecraft:filled_map",
+        name: "Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Viewing explored terrain on a top-down map",
+            secondaryUse: "Navigation and position markers with locator maps"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Use an Empty Map to create it"]
+        },
+        specialNotes: [
+            "Updates while held, recording terrain around the holder",
+            "Records within 64 blocks in the Overworld/End and 32 blocks in the Nether",
+            "North is always at the top, and the map area is fixed to a world grid",
+            "Can be zoomed out up to 4 times with Paper at a Cartography Table",
+            "Can be cloned with an Empty Map and locked with a Glass Pane",
+            "Bedrock: player position marker appears only on locator maps"
+        ],
+        description: "A Map (filled map) displays a top-down view of explored terrain and updates as you travel while holding it. Its borders are fixed to the world grid based on where it was first opened, and it records nearby terrain (with reduced range in the Nether). In Bedrock Edition, position markers appear only on locator maps, and Cartography Tables let you duplicate, zoom out, or lock a map so it stops updating."
+    },
     "minecraft:lodestone_compass": {
         id: "minecraft:lodestone_compass",
         name: "Lodestone Compass",
