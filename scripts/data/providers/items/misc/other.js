@@ -693,6 +693,30 @@ export const miscItems = {
         ],
         description: "The Book and Quill is a unique item that allows players to write and store custom text within the game. Crafted using a book, ink sac, and feather, it provides up to 100 pages with 256 characters per page in Bedrock Edition. Players can use it to document adventures, create in-game guides, leave messages, or design narrative elements for adventure maps. Once complete, the book can be signed to create a Written Book, permanently recording the author's name and title. Signed books can be duplicated up to 8 times, making them valuable for sharing information across multiplayer worlds."
     },
+    "minecraft:written_book": {
+        id: "minecraft:written_book",
+        name: "Written Book",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Reading and sharing signed text",
+            secondaryUse: "Displaying books on lecterns and storing them in chiseled bookshelves"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Sign a Book and Quill"]
+        },
+        specialNotes: [
+            "Created by signing a Book and Quill; the text cannot be edited afterward",
+            "Stacks to 16, but only identical books (including generation) stack together",
+            "Generations: Original, Copy of Original, Copy of Copy, Tattered",
+            "Only Originals and Copies of Original can be duplicated in a crafting table",
+            "Can be placed on a Lectern; the displayed page outputs a redstone signal",
+            "Can be stored in a Chiseled Bookshelf by using it while holding the book"
+        ],
+        description: "A Written Book is a signed Book and Quill that locks its text and records a title and author on the cover. In Bedrock Edition, signed books can be displayed on a lectern for reading and redstone output based on the current page. Originals (and Copies of Original) can be duplicated in a crafting table to share guides, rules, or stories with other players."
+    },
     "minecraft:wither_skeleton_skull": {
         id: "minecraft:wither_skeleton_skull",
         name: "Wither Skeleton Skull",

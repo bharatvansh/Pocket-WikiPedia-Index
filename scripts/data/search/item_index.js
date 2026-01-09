@@ -889,6 +889,13 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:written_book",
+        name: "Written Book",
+        category: "item",
+        icon: "textures/items/book_written",
+        themeColor: "§6" // brown
+    },
+    {
         id: "minecraft:rabbit_stew",
         name: "Rabbit Stew",
         category: "item",
@@ -922,6 +929,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/paper",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:empty_map",
+        name: "Empty Map",
+        category: "item",
+        icon: "textures/items/map_empty",
+        themeColor: "§f" // paper/white
+    },
+    {
+        id: "minecraft:filled_map",
+        name: "Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§f" // paper/white
     },
     {
         id: "minecraft:wheat",
