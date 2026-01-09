@@ -322,6 +322,69 @@ export const itemIndex = [
         themeColor: "§f" // white/clear
     },
     {
+        id: "minecraft:potion",
+        name: "Potion of Healing",
+        category: "item",
+        icon: "textures/items/potion_bottle_heal",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:long_potion",
+        name: "Potion of Healing (Long)",
+        category: "item",
+        icon: "textures/items/potion_bottle_heal",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:strong_potion",
+        name: "Potion of Healing II",
+        category: "item",
+        icon: "textures/items/potion_bottle_heal",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:strength_potion",
+        name: "Potion of Strength",
+        category: "item",
+        icon: "textures/items/potion_bottle_strength",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:long_strength_potion",
+        name: "Potion of Strength (Long)",
+        category: "item",
+        icon: "textures/items/potion_bottle_strength",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:strong_strength_potion",
+        name: "Potion of Strength II",
+        category: "item",
+        icon: "textures/items/potion_bottle_strength",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:swiftness_potion",
+        name: "Potion of Swiftness",
+        category: "item",
+        icon: "textures/items/potion_bottle_swiftness",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:long_swiftness_potion",
+        name: "Potion of Swiftness (Long)",
+        category: "item",
+        icon: "textures/items/potion_bottle_swiftness",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:strong_swiftness_potion",
+        name: "Potion of Swiftness II",
+        category: "item",
+        icon: "textures/items/potion_bottle_swiftness",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:glow_berries",
         name: "Glow Berries",
         category: "item",
