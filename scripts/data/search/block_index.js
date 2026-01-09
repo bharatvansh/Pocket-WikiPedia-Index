@@ -1328,5 +1328,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/lantern",
         themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:pitcher_crop",
+        name: "Pitcher Crop",
+        category: "block",
+        icon: "textures/blocks/pitcher_crop_stage_3",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:short_grass",
+        name: "Short Grass",
+        category: "block",
+        icon: "textures/blocks/tallgrass",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:ominous_vault",
+        name: "Ominous Vault",
+        category: "block",
+        icon: "textures/blocks/vault_front_ejecting",
+        themeColor: "§5" // dark purple
     }
 ];
