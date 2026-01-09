@@ -222,5 +222,26 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Daylight Detector is a redstone component that generates a signal based on the intensity of sunlight. Its signal strength varies from 0 to 15 depending on the time of day and weather. Players can interact with it to toggle it into an Inverted Daylight Detector, which emits a signal based on moonlight or the absence of sunlight. Crafted from glass, nether quartz, and wooden slabs, it is essential for automating lighting systems or time-based mechanisms. In Bedrock Edition, it provides a compact way to detect the day-night cycle for various automated contraptions."
+    },
+    "minecraft:redstone_block": {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        hardness: 5,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Block of Redstone"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Block of Redstone is a compact storage block crafted from nine redstone dust. It provides a stable redstone power source, emitting a constant signal of 15 to all adjacent redstone components without any decay. Unlike redstone ore, this block is mobile and can be pushed by pistons, making it invaluable for compact redstone contraptions and flying machines. Its neutral gray-red texture and technical function make it essential for both storage efficiency and advanced redstone engineering in Bedrock Edition."
     }
 };
