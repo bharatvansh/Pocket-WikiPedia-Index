@@ -34,6 +34,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Pink Petals are decorative blocks found in Cherry Grove biomes. Introduced in version 1.20, they grow in clusters of up to four on a single block, creating a layered floral carpet. They can be placed on dirt, grass, moss, and mud. These petals are renewable; using bone meal increases their density or spreads them to nearby grass. They attract and pollinate bees and can be crafted directly into Pink Dye. Their unique stacking ability and soft aesthetic make them ideal for detailed landscaping, garden paths, and adding floral accents to builds."
     },
+    "minecraft:flower_pot": {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flower Pot", "Plant (when broken)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village, witch hut, woodland mansion"
+        },
+        description: "The Flower Pot is a decorative container block crafted from three bricks that can hold various small plants including saplings, mushrooms, flowers, bamboo, cacti, and dead bushes. Each pot can only contain one plant at a time, removed by right-clicking or pushing with a piston. They generate naturally in villages, witch huts, and woodland mansions. In Bedrock Edition, flower pots serve as excellent decorative accents for both interior and exterior builds, adding natural detail to any structure."
+    },
     "minecraft:amethyst_block": {
         id: "minecraft:amethyst_block",
         name: "Amethyst Block",

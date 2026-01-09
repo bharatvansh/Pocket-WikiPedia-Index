@@ -71,6 +71,48 @@ export const workstationBlocks = {
         drops: ["Crafter"],
         description: "The Crafter is a functional block introduced in Minecraft 1.21 that automates item crafting through redstone signals. When powered by a redstone pulse, it takes items from its input slots and ejects the crafted result. The back face displays redstone crystals that light up when powered, while the crafting grid glows red upon successful crafting. Crafted from iron ingots, redstone dust, a crafting table, and a dropper, this block revolutionizes automation by enabling complex redstone circuits to handle repetitive crafting tasks without manual intervention."
     },
+    "minecraft:smithing_table": {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Smithing Table"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village toolsmith houses"
+        },
+        description: "The Smithing Table is a functional workstation used primarily for upgrading diamond gear to netherite and applying armor trims that was redesigned in Minecraft 1.20. It provides a unique upgrade interface that preserves enchantments while adding netherite toughness, and allows applying smithing templates to create customized armor appearances. It generates naturally in villages as the job site block for Toolsmith villagers. Crafted from four wooden planks and two iron ingots, this versatile block plays a crucial role in end-game gear progression and customization."
+    },
+    "minecraft:loom": {
+        id: "minecraft:loom",
+        name: "Loom",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Loom"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village shepherd houses"
+        },
+        description: "The Loom is a functional workstation that simplifies the process of applying banner patterns. Instead of using complex crafting recipes, players can combine banners with dyes and pattern items in an intuitive interface. It streamlines banner creation by showing previews of patterns before crafting and supports all pattern types. The loom serves as the job site block for Shepherd villagers and naturally generates in their houses. Crafted from two wooden planks and two strings, this essential tool revolutionizes banner design by making pattern application more accessible and efficient."
+    },
     "minecraft:lectern": {
         id: "minecraft:lectern",
         name: "Lectern",
