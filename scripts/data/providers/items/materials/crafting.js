@@ -963,5 +963,77 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update."
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
+    },
+    "minecraft:scrape_pottery_sherd": {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Scrape motif",
+            secondaryUse: "Trial Chamber collectible depicting an axe pattern"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots in Trial Chambers"]
+        },
+        specialNotes: [
+            "Exclusively found in Trial Chambers by breaking naturally generated Decorated Pots",
+            "Features a stylized axe design on the sherd",
+            "Used in crafting Decorated Pots to display the pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Introduced in Minecraft 1.21 Tricky Trials update",
+            "Non-renewable resource tied to Trial Chamber generation"
+        ],
+        description: "The Scrape Pottery Sherd is an archaeology-themed item introduced in the Tricky Trials update. It depicts a stylized axe and can only be obtained in Bedrock Edition by breaking naturally generated Decorated Pots found within Trial Chambers. When used in the Decorated Pot crafting recipe with three other sherds or bricks, it applies the scrape design to one side of the pot. This makes it a prized collectible for builders creating Trial Chamber-themed builds or comprehensive pottery collections."
+    },
+    "minecraft:blade_pottery_sherd": {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Blade motif",
+            secondaryUse: "Decorative archaeological item representing ancient weaponry"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features a stylized sword blade design",
+            "Used to craft Decorated Pots with the blade pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system from the Trails & Tales update",
+            "Can be combined with other sherds to create unique pottery designs"
+        ],
+        description: "The Blade Pottery Sherd is a decorative item obtained through underwater archaeology in Cold Ocean Ruins. Players must carefully brush Suspicious Gravel blocks to uncover this sherd, which displays a stylized sword blade pattern. In Bedrock Edition, it serves as a crafting component for Decorated Pots, allowing builders to create custom pottery with a warrior or combat theme. When four sherds or bricks are combined in a crafting recipe, the blade design appears on the corresponding side of the finished pot."
+    },
+    "minecraft:heartbreak_pottery_sherd": {
+        id: "minecraft:heartbreak_pottery_sherd",
+        name: "Heartbreak Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Heartbreak motif",
+            secondaryUse: "Collecting rare archaeological artifacts from Trail Ruins"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a broken heart design symbolizing loss or sorrow",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot alongside three other sherds or bricks, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
     }
 };
