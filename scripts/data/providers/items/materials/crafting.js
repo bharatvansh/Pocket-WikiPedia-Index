@@ -1035,5 +1035,29 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot alongside three other sherds or bricks, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
-    }
+    },
+    "minecraft:mud_brick": {
+        id: "minecraft:mud_brick",
+        name: "Mud Brick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Mud Bricks and Mud Brick Slabs/Stairs",
+            secondaryUse: "Building structures with earthy, natural aesthetic"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["4x Packed Mud"]
+        },
+        specialNotes: [
+            "Crafted from 4 Packed Mud arranged in a 2x2 square",
+            "Used to craft Mud Bricks (the block form) in 4x4 arrangement",
+            "Crafts Mud Brick Slabs, Stairs, and Walls in stonecutter",
+            "Essential for Ancient Dwelling structures in Trail Ruins",
+            "Natural brown/earthy color perfect for organic builds",
+            "Can be used as a crafting material for decorated pots"
+        ],
+        description: "Mud Bricks are crafting materials made by smelting Packed Mud in a furnace or by crafting four packed mud blocks together. They serve as the foundation for creating Mud Brick blocks, which are essential components in building Ancient Dwellings found in Trail Ruins. Beyond archaeological structures, Mud Bricks provide builders with a natural, earthy brown aesthetic perfect for organic builds and ancient-themed architecture. They can also be crafted into various building components like slabs, stairs, and walls in a stonecutter for more detailed construction projects."
+    },
 };

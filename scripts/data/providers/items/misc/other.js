@@ -252,6 +252,54 @@ export const miscItems = {
         ],
         description: "Introduced in 1.17, the Spyglass allows players to zoom in on distant objects by narrowing their FOV to one-eighth of normal. It is crafted using one Amethyst Shard and two Copper Ingots. While in use, movement is restricted to sneaking speed, making it ideal for scouting biomes, structures, or threats from elevated positions. The tool features a unique circular vignette and smooth telescoping animations. Whether you are navigating the landscape or planning a large-scale build, the Spyglass is an essential reconnaissance tool for any explorer."
     },
+    "minecraft:camera": {
+        id: "minecraft:camera",
+        name: "Camera",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Taking pictures of the world and saving them as screenshots",
+            secondaryUse: "Creative documentation and photography projects"
+        },
+        crafting: {
+            recipeType: "Special",
+            ingredients: ["Cannot be obtained in survival mode"]
+        },
+        specialNotes: [
+            "Exclusive to Bedrock Edition - not available in Java Edition",
+            "Can only be obtained through commands or glitches in Bedrock",
+            "Takes screenshots when used (long-press on touch devices)",
+            "Used primarily for photography builds and documentation",
+            "Can spawn picture entities when activated",
+            "Not available in standard survival gameplay"
+        ],
+        description: "The Camera is a Bedrock Edition-exclusive item that allows players to take pictures of their world. Unlike Java Edition, Bedrock players cannot access the F2 screenshot function, so the Camera serves as an alternative way to capture moments and build screenshots. However, it cannot be obtained in standard survival mode and requires commands or glitches to acquire. When used, it captures the current view and saves it as an image file. This item is primarily used for creative projects, documentation, and community builds where players want to showcase their architectural achievements."
+    },
+    "minecraft:calibrated_sculk_sensor": {
+        id: "minecraft:calibrated_sculk_sensor",
+        name: "Calibrated Sculk Sensor",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Detecting specific vibrations for advanced redstone circuits",
+            secondaryUse: "Creating frequency-based wireless redstone systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["1x Sculk Sensor", "3x Amethyst Shards"]
+        },
+        specialNotes: [
+            "Crafted with 1 Sculk Sensor + 3 Amethyst Shards in crafting table",
+            "Can be tuned to detect 15 different vibration frequencies (1-15)",
+            "Receives redstone signal strength based on detected frequency level",
+            "Detects player movement, block interactions, entity actions, and environmental events",
+            "Has greater detection range than regular Sculk Sensors",
+            "Essential for complex redstone contraptions and automation"
+        ],
+        description: "The Calibrated Sculk Sensor is an advanced redstone component introduced in the 1.20 update. Unlike regular Sculk Sensors, it can be tuned to detect specific frequencies of vibrations, allowing for precise control over which events trigger it. When combined with amethyst shards in crafting, it creates a sophisticated detection system that outputs redstone signals based on the frequency of detected vibrations. This makes it ideal for creating advanced redstone circuits, wireless systems, and complex automation projects where specific event detection is crucial."
+    },
     "minecraft:recovery_compass": {
         id: "minecraft:recovery_compass",
         name: "Recovery Compass",

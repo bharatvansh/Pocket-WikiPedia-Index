@@ -455,6 +455,20 @@ export const itemIndex = [
         themeColor: "§6" // wood/brown
     },
     {
+        id: "minecraft:camera",
+        name: "Camera",
+        category: "item",
+        icon: "textures/items/camera",
+        themeColor: "§7" // gray/technical
+    },
+    {
+        id: "minecraft:calibrated_sculk_sensor",
+        name: "Calibrated Sculk Sensor",
+        category: "item",
+        icon: "textures/items/calibrated_sculk_sensor",
+        themeColor: "§b" // cyan/sculk
+    },
+    {
         id: "minecraft:stick",
         name: "Stick",
         category: "item",
@@ -1069,6 +1083,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/nether_brick",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:mud_brick",
+        name: "Mud Brick",
+        category: "item",
+        icon: "textures/items/mud_brick",
+        themeColor: "§6" // brown/earthy
     },
     {
         id: "minecraft:ink_sac",
