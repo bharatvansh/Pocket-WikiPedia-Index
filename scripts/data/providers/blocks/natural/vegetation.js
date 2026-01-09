@@ -435,5 +435,47 @@ export const vegetationBlocks = {
             yRange: "Pale Garden biome (day)"
         },
         description: "The Closed Eyeblossom is the daytime state of the Eyeblossom flower, found in the Pale Garden biome. During the day, its petals are shut tight. It naturally transitions to an Open Eyeblossom at night. Players can harvest it to craft Gray Dye or use it in a Suspicious Stew recipe to obtain Nausea. Like its open counterpart, it is a key feature of the Pale Garden's eerie flora and can be bonemealed on Pale Moss Blocks to propagate."
+    },
+    "minecraft:pitcher_crop": {
+        id: "minecraft:pitcher_crop",
+        name: "Pitcher Crop",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pitcher Pod"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Pitcher Pods"
+        },
+        description: "The Pitcher Crop is a plantable crop block introduced in Minecraft 1.20, grown from Pitcher Pods dug up by Sniffers. It advances through four growth stages before producing a mature Pitcher Plant. It requires light level 9 or higher to grow and can be accelerated with bone meal. Unlike other crops, it drops a Pitcher Pod when broken at any growth stage, making it renewable. Players can harvest the fully grown Pitcher Plant to obtain Cyan Dye for building palettes and decoration."
+    },
+    "minecraft:short_grass": {
+        id: "minecraft:short_grass",
+        name: "Short Grass",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wheat Seeds (12.5% chance)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Forests, Savanna, and more"
+        },
+        description: "Short Grass is a common vegetation block introduced in Minecraft 1.20.3 to replace the tall grass texture in most biomes, while the renamed Tall Grass (minecraft:tall_grass) remains much taller and rarer. Found in abundance across nearly every grassy Overworld biome, it can be instantly broken by hand or water and has a chance to drop wheat seeds. It often generates with flowers mixed in, creating natural-looking meadows. Short grass is a purely decorative block that adds visual diversity to landscapes without obstructing player movement."
     }
 };

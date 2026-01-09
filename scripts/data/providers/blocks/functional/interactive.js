@@ -75,6 +75,27 @@ export const interactiveBlocks = {
         },
         description: "A vault is a unique reward container block introduced in Minecraft 1.21, found within Trial Chambers. When unlocked using a trial key obtained from defeating all mobs spawned by a nearby trial spawner, the vault ejects 3-6 items including valuable loot like armor trims, banner patterns, enchanted books, and the heavy core. Vaults emit light when active or ejecting items, and cannot be accelerated by any tool. As a permanent structure block, it cannot be obtained by players."
     },
+    "minecraft:ominous_vault": {
+        id: "minecraft:ominous_vault",
+        name: "Ominous Vault",
+        hardness: 50,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 12,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ominous Trial Chambers"
+        },
+        description: "The Ominous Vault is a dangerous variant of the vault found in Trial Chambers during ominous events in Minecraft 1.21+. It shares the same indestructible properties and mining requirements as regular vaults, but glows brighter (light level 12) and ejects superior loot when unlocked with an ominous trial key. These rare structures appear with ominous trial spawners that spawn armored mobs, and can even spawn bogged skeletons to attack nearby players, creating a significant challenge."
+    },
     "minecraft:conduit": {
         id: "minecraft:conduit",
         name: "Conduit",
