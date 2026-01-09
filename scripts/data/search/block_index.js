@@ -1344,6 +1344,27 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        category: "block",
+        icon: "textures/blocks/flower_pot",
+        themeColor: "§a" // green/plant
+    },
+    {
+        id: "minecraft:smithing_table",
+        name: "Smithing Table",
+        category: "block",
+        icon: "textures/blocks/smithing_table_front",
+        themeColor: "§7" // gray/metal
+    },
+    {
+        id: "minecraft:loom",
+        name: "Loom",
+        category: "block",
+        icon: "textures/blocks/loom_front",
+        themeColor: "§6" // brown/wood
+    },
+    {
         id: "minecraft:ominous_vault",
         name: "Ominous Vault",
         category: "block",
