@@ -238,6 +238,27 @@ export const itemIndex = [
         themeColor: "§b" // aqua/wind
     },
     {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        category: "item",
+        icon: "textures/items/scrape_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        category: "item",
+        icon: "textures/items/blade_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:heartbreak_pottery_sherd",
+        name: "Heartbreak Pottery Sherd",
+        category: "item",
+        icon: "textures/items/heartbreak_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
         id: "minecraft:heart_of_the_sea",
         name: "Heart of the Sea",
         category: "item",
