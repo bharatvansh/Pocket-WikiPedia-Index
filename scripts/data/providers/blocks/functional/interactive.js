@@ -284,5 +284,26 @@ export const interactiveBlocks = {
             yRange: "Villages, Pillager Outposts, Ancient Cities, Bastion Remnants"
         },
         description: "The Jigsaw Block is a technical block used for generating structures like villages, pillager outposts, ancient cities, and bastion remnants. It cannot be obtained in Survival mode and is only accessible through commands in Creative mode. Jigsaw blocks define how structure pieces connect by matching target pools and attachment types. In Bedrock Edition, structures can be generated using the /place jigsaw command with keepJigsaws set to true to preserve jigsaw blocks. This unbreakable block primarily serves as a tool for map makers and structure designers."
+    },
+    "minecraft:slime_block": {
+        id: "minecraft:slime_block",
+        name: "Slime Block",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Slime Block"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Slime Block is a bouncy functional block crafted from nine slimeballs that dramatically reduces fall damage and propels entities upward when landed upon. Its bouncy properties allow players to jump higher and negate all fall damage. In redstone engineering, slime blocks stick to most adjacent blocks allowing them to be pushed or pulled by pistons simultaneously, opening up possibilities for flying machines and complex contraptions. This sticky behavior excludes slime blocks not sticking to honey blocks or immovable blocks, creating fascinating mechanics for advanced builds. Its translucent green texture makes it distinct in both appearance and function."
     }
 };

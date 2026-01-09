@@ -357,6 +357,27 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:daylight_detector",
+        name: "Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        category: "block",
+        icon: "textures/blocks/redstone_block",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:slime_block",
+        name: "Slime Block",
+        category: "block",
+        icon: "textures/blocks/slime_block",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:chiseled_copper",
         name: "Chiseled Copper",
         category: "block",
