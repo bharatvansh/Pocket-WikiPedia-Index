@@ -1349,5 +1349,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/vault_front_ejecting",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        category: "block",
+        icon: "textures/blocks/chiseled_deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        category: "block",
+        icon: "textures/blocks/cobbled_deepslate",
+        themeColor: "§8" // dark gray
     }
 ];
