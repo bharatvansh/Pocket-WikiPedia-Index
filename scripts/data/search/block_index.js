@@ -63,6 +63,27 @@ export const blockIndex = [
         themeColor: "§7" // white/light gray
     },
     {
+        id: "minecraft:andesite",
+        name: "Andesite",
+        category: "block",
+        icon: "textures/blocks/andesite",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:diorite",
+        name: "Diorite",
+        category: "block",
+        icon: "textures/blocks/diorite",
+        themeColor: "§7" // gray/white
+    },
+    {
+        id: "minecraft:granite",
+        name: "Granite",
+        category: "block",
+        icon: "textures/blocks/granite",
+        themeColor: "§6" // pinkish-brown
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
@@ -914,6 +935,13 @@ export const blockIndex = [
         name: "Quartz Block",
         category: "block",
         icon: "textures/blocks/quartz_block",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:quartz_bricks",
+        name: "Quartz Bricks",
+        category: "block",
+        icon: "textures/blocks/quartz_bricks",
         themeColor: "§f" // white
     },
     {
