@@ -63,6 +63,35 @@ export const miscItems = {
         ],
         description: "A Name Tag is a utility item used to name mobs and prevent them from despawning. To use one, rename it at an anvil for one experience level, then apply it to a mob. This consumes the tag. Named mobs persist in the world and display their name above their head; their name also appears in death messages if they kill a player. Players can find Name Tags in loot chests (dungeons, mineshafts, ancient cities), catch them through fishing (0.8% chance), or buy them from Master-level Librarian villagers for 20 emeralds."
     },
+    "minecraft:enchanted_book": {
+        id: "minecraft:enchanted_book",
+        name: "Enchanted Book",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying enchantments to items via Anvil",
+            secondaryUse: "Storing enchantments for later use or trading with villagers"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Enchanting Table or Uncraftable (Treasure)",
+            ingredients: ["Book and Lapis Lazuli (Enchanting Table)", "Found in chests (uncraftable treasure enchantments)"]
+        },
+        specialNotes: [
+            "Can be obtained by enchanting a Book with Lapis Lazuli in an Enchanting Table",
+            "Treasure enchantments (Mending, Frost Walker, etc.) cannot be obtained from tables; found only in chests",
+            "Used in anvil to apply enchantments to compatible items, consuming both the book and XP levels",
+            "Combines with items to add or upgrade enchantments; multiple books can be applied sequentially",
+            "Can also combine two enchanted books to merge their enchantments at higher cost",
+            "Librarian villagers sell specific enchanted books for emeralds",
+            "Some enchantments are exclusive to certain item types (e.g., Depth Strider only on boots)"
+        ],
+        description: "An Enchanted Book is a powerful item that contains stored enchantments ready to be applied to tools, weapons, and armor. Created by placing a book into an Enchanting Table with Lapis Lazuli, these books can hold any enchantment available through the table. At an Anvil, players can combine an enchanted book with an unenchanted item to transfer its enchantments, costing experience levels based on the enchantment's power. Treasure enchantments like Mending and Frost Walker cannot be obtained from enchanting tables and must be found in chests. Books can also be combined with each other to merge enchantments, making them essential for customizing gear."
+    },
     "minecraft:shield": {
         id: "minecraft:shield",
         name: "Shield",
@@ -896,5 +925,33 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:experience_bottle": {
+        id: "minecraft:experience_bottle",
+        name: "Bottle o' Enchanting",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing to gain 3-11 experience points",
+            secondaryUse: "Quick experience boost for enchanting, anvil use, or Mending repairs"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in chests", "Traded from Master-level Cleric villagers"]
+        },
+        specialNotes: [
+            "Thrown by right-clicking or using to release 3-11 experience orbs (average 7.0)",
+            "Found in Ancient City chests (23.2%), Pillager Outpost chests (60.9%), Shipwreck treasure chests (14.1%), and Buried Treasure (11.8%)",
+            "Master-level Cleric villagers sell bottles for 3 emeralds each in Bedrock Edition",
+            "Has an enchantment glint effect like other enchanted items",
+            "Cannot be crafted; must be obtained through loot or trading",
+            "In Bedrock Edition, Ancient City and Buried Treasure chests provide renewable source"
+        ],
+        description: "A Bottle o' Enchanting is a throwable item that releases experience orbs when it breaks. Upon impact, it shatters and drops experience worth 3-11 XP points, with an average of 7.0. This makes it an efficient method for accumulating experience without traditional mob grinding, especially useful for players preparing to enchant gear at high levels or repairing Mending equipment. Bottles can be found as loot in Pillager Outposts, Shipwrecks, Ancient Cities, and Buried Treasure, or purchased from Master-level Cleric villagers for emeralds. Like other enchanted items, they display a purple glint effect."
     }
 };

@@ -9,6 +9,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const gems = {
+    "minecraft:lapis_lazuli": {
+        id: "minecraft:lapis_lazuli",
+        name: "Lapis Lazuli",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Enchanting items at an Enchanting Table",
+            secondaryUse: "Crafting Block of Lapis Lazuli and blue dye"
+        },
+        crafting: {
+            recipeType: "Mining or Uncrafting",
+            ingredients: ["Mined from Lapis Lazuli Ore", "Uncrafted from Block of Lapis Lazuli"]
+        },
+        specialNotes: [
+            "Found in Lapis Lazuli Ore at Y levels -64 to 64 in Bedrock",
+            "1-3 pieces required for enchanting (slot 1 costs 1, slot 2 costs 2, slot 3 costs 3)",
+            "Can craft Block of Lapis Lazuli (9 pieces) or use directly as blue dye",
+            "Witches drop 0-2 lapis upon death (increased by Looting)",
+            "Apprentice-level cleric villagers sell 1 lapis for 1 emerald",
+            "Used in banner patterns for the 'Thing' design in Bedrock Edition"
+        ],
+        description: "Lapis Lazuli is a blue mineral essential for the enchanting process in Minecraft. When using an Enchanting Table, players must sacrifice 1-3 pieces of lapis to enchant their gear, with higher-tier enchantments requiring more material. Beyond enchanting, lapis serves as a blue dye for coloring items like wool and banners. It can be mined from Lapis Lazuli Ore found throughout underground layers or obtained from witches and cleric villagers. In Bedrock Edition, lapis lazuli can function directly as a substitute for crafted blue dye."
+    },
     "minecraft:prismarine_crystals": {
         id: "minecraft:prismarine_crystals",
         name: "Prismarine Crystals",
