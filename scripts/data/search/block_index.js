@@ -70,6 +70,20 @@ export const blockIndex = [
         themeColor: "§7" // gray/brown
     },
     {
+        id: "minecraft:snow_layer",
+        name: "Snow",
+        category: "block",
+        icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:snow",
+        name: "Snow Block",
+        category: "block",
+        icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:moss_block",
         name: "Moss Block",
         category: "block",
@@ -662,6 +676,13 @@ export const blockIndex = [
         name: "End Rod",
         category: "block",
         icon: "textures/blocks/end_rod",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:chorus_flower",
+        name: "Chorus Flower",
+        category: "block",
+        icon: "textures/blocks/chorus_flower",
         themeColor: "§d" // light purple
     },
     {

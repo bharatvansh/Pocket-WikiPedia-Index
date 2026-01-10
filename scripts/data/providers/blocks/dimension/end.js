@@ -52,6 +52,27 @@ export const endBlocks = {
         },
         description: "End Rods are decorative light-emitting blocks that generate naturally in End Cities. They emit a light level of 14 and can be placed in any orientation, making them versatile for directional lighting designs. Crafted from one Blaze Rod and one Popped Chorus Fruit, they can be instantly mined with any tool or by hand. End Rods are particularly useful for modern builds and serve as a stylish alternative to torches, with their distinctive white glow and sleek rod design that fits well in futuristic or End-themed construction projects."
     },
+    "minecraft:chorus_flower": {
+        id: "minecraft:chorus_flower",
+        name: "Chorus Flower",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chorus Flower"],
+        generation: {
+            dimension: "The End",
+            yRange: "End outer islands (on chorus plants)"
+        },
+        description: "Chorus Flower is the growing tip of a chorus plant found in the End, and it can be planted on end stone to start a new chorus plant. It progresses through growth stages and becomes a dead chorus flower once fully mature. It can be broken with any tool (axes are fastest) and always drops itself, making it renewable for chorus fruit farms and End-themed decoration."
+    },
     "minecraft:end_stone_bricks": {
         id: "minecraft:end_stone_bricks",
         name: "End Stone Bricks",
