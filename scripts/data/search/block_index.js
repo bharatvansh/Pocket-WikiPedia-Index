@@ -1391,5 +1391,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/purpur_pillar",
         themeColor: "§8" // light purple/pink
+    },
+    {
+        id: "minecraft:stripped_bamboo",
+        name: "Block of Stripped Bamboo",
+        category: "block",
+        icon: "textures/blocks/stripped_bamboo_block",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:pale_oak_bricks",
+        name: "Pale Oak Bricks",
+        category: "block",
+        icon: "textures/blocks/pale_oak_bricks",
+        themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:pale_oak_stairs",
+        name: "Pale Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/pale_oak_stairs",
+        themeColor: "§7" // gray/pale
     }
 ];
