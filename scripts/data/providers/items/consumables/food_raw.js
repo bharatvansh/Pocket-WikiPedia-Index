@@ -36,6 +36,93 @@ export const rawFood = {
         ],
         description: "Apples are a common food item that can be obtained by breaking oak or dark oak leaves, or found in various structure chests. They provide moderate hunger restoration and are essential ingredients for crafting golden apples."
     },
+    "minecraft:potato": {
+        id: "minecraft:potato",
+        name: "Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Smelting into Baked Potatoes and breeding pigs"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from potato crops", "Found in village farms", "Dropped by zombies"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.6 saturation",
+            "Found in village farm plots and can be farmed by planting on farmland",
+            "Zombies, husks, and zombie villagers have a 2.5% (1/40) chance to drop a potato",
+            "Smelting in a furnace or smoker creates a Baked Potato (restores 5 hunger)",
+            "Can be used to breed pigs in Bedrock Edition",
+            "Rarely yields a Poisonous Potato when harvested (60% chance for poisonous variant)",
+            "Farmer villagers buy potatoes for emeralds in Bedrock"
+        ],
+        description: "Potatoes are staple food crops grown from potato plants planted on farmland. While raw potatoes provide minimal nutrition (1 hunger, 0.6 saturation), they are easily farmed and can be smelted into Baked Potatoes for much better sustenance. They spawn naturally in village farms and can be obtained as rare drops from zombies. Potatoes serve as breeding food for pigs, making them valuable for livestock management. Harvesting potatoes carries a small risk of obtaining a Poisonous Potato, which applies a harmful effect when consumed."
+    },
+    "minecraft:poisonous_potato": {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emergency food (with risk)",
+            secondaryUse: "Composting material"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare harvest from potato crops"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation but inflicts Poison for 5 seconds",
+            "60% chance to be obtained when harvesting a mature potato crop in Bedrock Edition",
+            "Cannot be smelted or cooked into a non-poisonous version",
+            "Has a 100% chance to add a layer when composted in a composter",
+            "Poison effect prevents natural regeneration, making it risky to use in combat",
+            "Can be distinguished from regular potatoes by its green coloration",
+            "Useful for composting to obtain bone meal without wasting regular potatoes"
+        ],
+        description: "The Poisonous Potato is a rare variant obtained when harvesting mature potato crops, with a 60% chance in Bedrock Edition. While it provides more hunger than a regular potato (2 points versus 1), it inflicts the Poison effect for 5 seconds, preventing natural health regeneration. This makes it a risky food choice during combat. The item cannot be cooked to remove the poison, but it can be composted with 100% efficiency. Its distinctive green appearance helps players identify it before consumption."
+    },
+    "minecraft:carrot": {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding rabbits and pigs, and crafting Golden Carrots"
+        },
+        food: {
+            hunger: 3,
+            saturation: 3.6
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from carrot crops", "Found in village farms", "Dropped by zombies"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 3.6 saturation",
+            "Found growing in village farm plots and can be farmed on farmland",
+            "Zombies, husks, and zombie villagers have a 2.5% (1/40) chance to drop a carrot",
+            "Used to breed and speed up growth of rabbits and pigs in Bedrock",
+            "8 carrots can be crafted with 1 gold nugget to create a Golden Carrot",
+            "Golden Carrots are used for Potion of Night Vision and have highest saturation of any stackable food",
+            "Farmer villagers buy carrots for emeralds in Bedrock"
+        ],
+        description: "Carrots are versatile crops grown on farmland that provide solid nutrition at 3 hunger points and 3.6 saturation. They spawn naturally in village farms and can be obtained as rare zombie drops, similar to potatoes. Carrots serve multiple purposes: they are primary breeding food for rabbits and pigs, can be used to craft Golden Carrots for brewing Night Vision potions, and combined with a fishing rod and stick to create Carrot on a Stick for pig control. Their balanced hunger restoration and multiple utility uses make them a valuable crop for any farm."
+    },
     "minecraft:chorus_fruit": {
         id: "minecraft:chorus_fruit",
         name: "Chorus Fruit",
