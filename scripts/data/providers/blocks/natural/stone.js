@@ -262,5 +262,26 @@ export const stoneBlocks = {
             yRange: "Frozen Ocean biomes, Iceberg bottoms, Snowy Tundra village houses (9.9%), Ancient Cities"
         },
         description: "Blue Ice is a rare solid block found in frozen ocean biomes, forming as arching structures on iceberg bottoms. It rarely generates as entire icebergs made of blue ice, and appears in snowy tundra village houses and ancient cities. Blue Ice is the slipperiest ice variant, causing entities to slide at extremely high speeds. Crafted from nine packed ice blocks in a 3x3 grid, making it renewable. Mining requires a Silk Touch tool to obtain the block itself; otherwise it drops nothing. In Bedrock Edition, boats on blue ice travel at maximum speed."
+    },
+    "minecraft:infested_stone": {
+        id: "minecraft:infested_stone",
+        name: "Infested Stone",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Stone (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Mountain biomes, Igloos"
+        },
+        description: "Infested Stone is a deceptive block that looks identical to regular stone but hides a Silverfish inside. When broken in Survival mode, it doesn't drop anything and instead releases a hostile Silverfish that attacks the player. These blocks are commonly found in strongholds, mountain biomes, and underneath igloos. In Bedrock Edition, they can be identified because they break faster than normal stone. Using a tool with Silk Touch allows the player to retrieve a normal stone block without spawning the creature."
     }
 };

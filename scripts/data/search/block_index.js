@@ -1440,5 +1440,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_stairs",
         themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:infested_stone",
+        name: "Infested Stone",
+        category: "block",
+        icon: "textures/blocks/stone",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:pale_oak_sapling",
+        name: "Pale Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/pale_oak_sapling",
+        themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:hanging_roots",
+        name: "Hanging Roots",
+        category: "block",
+        icon: "textures/blocks/hanging_roots",
+        themeColor: "§6" // brown/earthy
     }
 ];

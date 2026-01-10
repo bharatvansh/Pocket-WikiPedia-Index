@@ -477,5 +477,47 @@ export const vegetationBlocks = {
             yRange: "Plains, Forests, Savanna, and more"
         },
         description: "Short Grass is a common vegetation block introduced in Minecraft 1.20.3 to replace the tall grass texture in most biomes, while the renamed Tall Grass (minecraft:tall_grass) remains much taller and rarer. Found in abundance across nearly every grassy Overworld biome, it can be instantly broken by hand or water and has a chance to drop wheat seeds. It often generates with flowers mixed in, creating natural-looking meadows. Short grass is a purely decorative block that adds visual diversity to landscapes without obstructing player movement."
+    },
+    "minecraft:pale_oak_sapling": {
+        id: "minecraft:pale_oak_sapling",
+        name: "Pale Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "The Pale Oak Sapling is a rare plant introduced in the 1.21.50 update, native to the eerie Pale Garden biome. Like Dark Oak, it must be planted in a 2x2 grid of four saplings to grow into a large Pale Oak tree. They have a distinct desaturated appearance, fitting the monochromatic theme of their home biome. They can be obtained by decaying or breaking Pale Oak Leaves or occasionally purchased from Wandering Traders. When grown, they form the ghostly trees that may house a Creaking Heart."
+    },
+    "minecraft:hanging_roots": {
+        id: "minecraft:hanging_roots",
+        name: "Hanging Roots",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hanging Roots"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves, under Rooted Dirt"
+        },
+        description: "Hanging Roots are decorative vegetation blocks that sprout from the underside of Rooted Dirt blocks, typically found in Lush Caves. They add a detailed, organic feel to cave ceilings and forest floors. While they break instantly by hand, they can only be collected as an item using Shears or a tool with Silk Touch. In Bedrock Edition, they can also be grown by using Bone Meal on a Rooted Dirt block. They are purely decorative and do not obstruct player movement, making them ideal for adding atmosphere to nature-themed builds."
     }
 };
