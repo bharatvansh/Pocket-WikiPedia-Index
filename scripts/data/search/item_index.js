@@ -1468,5 +1468,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_oak_chest",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:burn_pottery_sherd",
+        name: "Burn Pottery Sherd",
+        category: "item",
+        icon: "textures/items/burn_pottery_sherd",
+        themeColor: "§c" // red/flame theme
+    },
+    {
+        id: "minecraft:danger_pottery_sherd",
+        name: "Danger Pottery Sherd",
+        category: "item",
+        icon: "textures/items/danger_pottery_sherd",
+        themeColor: "§4" // dark red/warning theme
+    },
+    {
+        id: "minecraft:friend_pottery_sherd",
+        name: "Friend Pottery Sherd",
+        category: "item",
+        icon: "textures/items/friend_pottery_sherd",
+        themeColor: "§a" // green/friendly theme
     }
 ];
