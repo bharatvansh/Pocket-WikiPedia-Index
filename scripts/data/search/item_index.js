@@ -1489,5 +1489,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/friend_pottery_sherd",
         themeColor: "§a" // green/friendly theme
+    },
+    {
+        id: "minecraft:mangrove_roots",
+        name: "Mangrove Roots",
+        category: "item",
+        icon: "textures/items/mangrove_roots",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:lightning_rod",
+        name: "Lightning Rod",
+        category: "item",
+        icon: "textures/items/lightning_rod",
+        themeColor: "§6" // copper
+    },
+    {
+        id: "minecraft:sculk_sensor",
+        name: "Sculk Sensor",
+        category: "item",
+        icon: "textures/items/sculk_sensor",
+        themeColor: "§b" // aqua/cyan
     }
 ];

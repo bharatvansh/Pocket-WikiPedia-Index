@@ -1107,5 +1107,77 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Friend Pottery Sherd is a heartwarming archaeological find from Trail Ruins, depicting the distinctive unibrow and nose features of villagers or iron golems. This pottery fragment represents friendship, community, and the bonds between different beings in Minecraft's world. The sherd's design evokes warmth and companionship, making it particularly popular for village-themed builds, community centers, or friendship memorials. When crafted into a Decorated Pot, it serves as a symbol of unity and good relations."
+    },
+    "minecraft:mangrove_roots": {
+        id: "minecraft:mangrove_roots",
+        name: "Mangrove Roots",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Muddy Mangrove Roots and building decoration",
+            secondaryUse: "Fuel source for furnaces (lasts 15 seconds)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Harvested from Mangrove Trees", "Can be crafted from Mangrove Propagules"]
+        },
+        specialNotes: [
+            "Naturally generates as part of mangrove trees in Mangrove Swamps",
+            "Can be harvested by hand or with any tool",
+            "Used to craft Muddy Mangrove Roots when combined with Mud",
+            "Can be used as furnace fuel (smelts 1.5 items per block)",
+            "Waterloggable block despite being a full solid block",
+            "Renewable resource in mangrove swamp biomes"
+        ],
+        description: "Mangrove Roots are essential building blocks that form the distinctive architecture of mangrove trees in the new Mangrove Swamp biome. These brown, fibrous roots can be harvested and used for construction, creating rustic, swamp-themed builds with their unique textured appearance. Beyond decoration, they serve a practical purpose as fuel in furnaces, providing a decent burn time for smelting operations. When combined with mud blocks, they create Muddy Mangrove Roots, expanding their utility for builders seeking authentic swamp aesthetics."
+    },
+    "minecraft:lightning_rod": {
+        id: "minecraft:lightning_rod",
+        name: "Lightning Rod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Redirecting lightning strikes and creating redstone signals",
+            secondaryUse: "Protection for buildings during thunderstorms"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["3x Copper Ingot (vertical arrangement)"]
+        },
+        specialNotes: [
+            "Crafted by placing 3 copper ingots vertically in a crafting grid",
+            "Redirects lightning strikes within a 64-block radius in Bedrock Edition",
+            "Converts lightning strikes into redstone signals (15-block activation range)",
+            "Can be activated by Channeling enchanted tridents during thunderstorms",
+            "Prevents fire damage to structures within its effective radius",
+            "Essential component for redstone lightning detection systems"
+        ],
+        description: "The Lightning Rod is a sophisticated redstone component crafted from three copper ingots arranged vertically. Its primary function is to protect structures by redirecting lightning strikes within a 64-block radius, preventing fires and destruction. When struck by lightning, it generates a powerful redstone signal, making it invaluable for creating weather-responsive mechanisms. This makes lightning rods essential for automated systems that respond to storms, such as activating defenses, opening gates, or triggering lighting systems during thunderous weather."
+    },
+    "minecraft:sculk_sensor": {
+        id: "minecraft:sculk_sensor",
+        name: "Sculk Sensor",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Detecting vibrations and movement to create redstone circuits",
+            secondaryUse: "Motion detection for security and automation systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["1x Amethyst Shard", "3x Sculk Catalyst"]
+        },
+        specialNotes: [
+            "Crafted with 1 amethyst shard in the center and 3 sculk catalyst in a T-shape",
+            "Detects vibrations from player movement, entity footsteps, and block breaking",
+            "Has a 9-block detection range for player footsteps and movement",
+            "Activates for 1 redstone tick (0.1 seconds) when triggered",
+            "Found naturally in Deep Dark biomes and Ancient Cities",
+            "Cannot detect flying entities or players using Silk Touch tools"
+        ],
+        description: "The Sculk Sensor is an advanced redstone component introduced in the Wild Update, designed to detect vibrations and movement within its vicinity. Crafted using amethyst and sculk materials found in the Deep Dark, this sensor can detect player footsteps, entity movement, and various block interactions. It serves as the foundation for complex motion-detection systems, enabling builders to create security systems, automatic doors, and responsive environments that react to player presence and activities throughout their world."
     }
 };
