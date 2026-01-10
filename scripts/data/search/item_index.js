@@ -721,6 +721,27 @@ export const itemIndex = [
         themeColor: "§c" // red/brown
     },
     {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        category: "item",
+        icon: "textures/items/carrot",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        category: "item",
+        icon: "textures/items/melon_slice",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:potato",
+        name: "Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§6" // brown
+    },
+    {
         id: "minecraft:bone",
         name: "Bone",
         category: "item",

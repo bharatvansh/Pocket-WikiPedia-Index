@@ -44,7 +44,7 @@ export const rawFood = {
         enchantable: false,
         usage: {
             primaryUse: "Food with teleportation ability",
-            secondaryUse: "Exploration and escaping danger in the End dimension"
+            secondaryUse: "Exploration and escaping danger in End dimension"
         },
         food: {
             hunger: 4,
@@ -52,13 +52,13 @@ export const rawFood = {
         },
         crafting: {
             recipeType: "Found",
-            ingredients: ["Harvested from Chorus Plants in the End dimension"]
+            ingredients: ["Harvested from Chorus Plants in End dimension"]
         },
         specialNotes: [
             "Teleports player 8 blocks randomly through walls; usable even when full",
             "Eating time: 1.6s (standard); Teleport cooldown: 1s",
             "Restores 4 hunger (2 drumsticks) and 2.4 saturation",
-            "Harvested from Chorus Plants on End stone in the End dimension",
+            "Harvested from Chorus Plants on End stone in End dimension",
             "Farmable by planting Chorus Flowers on End stone",
             "Essential for escaping danger or navigating difficult terrain"
         ],
@@ -118,7 +118,7 @@ export const rawFood = {
             "Brewing ingredient for Potion of Poison (Awkward Potion + Spider Eye)",
             "Cannot be composted (only plant-based items are compostable)"
         ],
-        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflicts the Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
+        description: "Spider Eyes are dropped by spiders and cave spiders when killed, and occasionally by witches. While they can be eaten to restore 2 hunger points and 3.2 saturation, they inflict Poison effect for 4 seconds in Bedrock Edition, making them a risky emergency food source. Their primary use is as a brewing ingredient for creating Potions of Poison when combined with an Awkward Potion. Spider Eyes are also essential for crafting Fermented Spider Eyes, which are used to corrupt or modify various potions in brewing."
     },
     "minecraft:egg": {
         id: "minecraft:egg",
@@ -205,7 +205,7 @@ export const rawFood = {
             "Salmon mobs drop 1 raw salmon guaranteed when killed",
             "Can be caught while fishing with approximately 25% chance in the fish category"
         ],
-        description: "Raw Salmon is a common food item obtained from fishing, killing salmon mobs, or as rare drops from guardians and polar bears. While it can be eaten raw to restore 2 hunger points, its low saturation makes it far less efficient than cooking it first. Cooked Salmon provides significantly better nutrition with 6 hunger and 9.6 saturation. Raw Salmon is essential for taming cats and gaining the trust of ocelots, making it valuable beyond just food. Salmon are found in rivers and various ocean biomes, making this item accessible throughout exploration."
+        description: "Raw Salmon is a common food item obtained from fishing, killing salmon mobs, or as rare drops from guardians and polar bears. While it can be eaten raw to restore 2 hunger points and 0.2 saturation, its low saturation makes it far less efficient than cooking it first. Cooked Salmon provides significantly better nutrition with 6 hunger and 9.6 saturation. Raw Salmon is essential for taming cats and gaining the trust of ocelots, making it valuable beyond just food. Salmon are found in rivers and various ocean biomes, making this item accessible throughout exploration."
     },
     "minecraft:cod": {
         id: "minecraft:cod",
@@ -234,6 +234,90 @@ export const rawFood = {
             "Cod mobs drop 1 raw cod guaranteed when killed",
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
-        description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+        description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable beyond just food. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:carrot": {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and breeding",
+            secondaryUse: "Crafting golden carrots and carrot on a stick"
+        },
+        food: {
+            hunger: 3,
+            saturation: 3.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from fully grown carrot crops"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 3.6 saturation",
+            "Used to breed pigs and rabbits",
+            "Can be used to attract pigs and rabbits (same effect as holding their breeding item)",
+            "8 carrots craft into a Golden Carrot using a crafting table (surrounded by gold nuggets)",
+            "Used to craft Carrot on a Stick (fishing rod + carrot) for steering pigs",
+            "Novice-level Farmer villagers buy 22 carrots for 1 emerald in Bedrock"
+        ],
+        description: "Carrots are versatile food and breeding items obtained by harvesting fully grown carrot crops in Minecraft Bedrock Edition. They provide 3 hunger points and 3.6 saturation when eaten, making them a reliable early-game food source. Beyond consumption, carrots are essential for animal husbandry, used to breed pigs and rabbits, and can attract these animals when held. Their crafting utility includes creating Golden Carrots for high-saturation food and Carrot on a Stick for steering saddled pigs. Farmers also trade carrots to villagers, making them valuable for establishing agricultural economies."
+    },
+    "minecraft:potato": {
+        id: "minecraft:potato",
+        name: "Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when baked)",
+            secondaryUse: "Crafting and composting material"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from fully grown potato crops"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.6 saturation when eaten raw",
+            "Can be smelted in a furnace, smoker, or campfire to create Baked Potato",
+            "Baked Potato restores 5 hunger and 6 saturation, making cooking highly recommended",
+            "Rare poisonous potato drop (2% chance) when harvesting potato crops",
+            "Potatoes can be planted to grow more, farmed on hydrated farmland",
+            "Novice-level Farmer villagers buy 26 potatoes for 1 emerald in Bedrock"
+        ],
+        description: "Potatoes are agricultural crops harvested from fully grown potato plants in Minecraft Bedrock Edition. While raw potatoes provide minimal nutrition with 1 hunger and 0.6 saturation, they become a substantial food source when smelted into Baked Potatoes, which restore 5 hunger and 6 saturation. Raw potatoes have a 2% chance to be poisonous when harvested. They are renewable through farming on hydrated farmland and can be traded to villager farmers, making them accessible and valuable for early-game survival and long-term agricultural development."
+    },
+    "minecraft:melon_slice": {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting melon seeds and glistering melon slices"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Obtained by breaking Melon blocks with any tool or by hand"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Each melon block drops 3-7 melon slices when broken",
+            "Used to craft glistering melon slices (surround with 8 gold nuggets)",
+            "Putting one slice in a crafting table extracts 1 melon seed",
+            "Melon blocks are broken to obtain slices; using silk touch drops the block instead",
+            "Novice-level Farmer villagers buy 4 melon slices for 1 emerald in Bedrock"
+        ],
+        description: "Melon Slices are food items obtained by breaking melon blocks in Minecraft Bedrock Edition, typically yielding 3 to 7 slices per block. While each slice only provides 2 hunger points and 1.2 saturation, they serve as an easily renewable and stackable food source for maintaining sustenance. Beyond eating, Melon Slices are used to craft Glistering Melon Slices for potion brewing or can be converted into melon seeds in a crafting table. Their accessibility and farming potential make them a staple for establishing sustainable food systems."
     }
 };
