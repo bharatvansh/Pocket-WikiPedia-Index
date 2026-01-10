@@ -1141,6 +1141,27 @@ export const itemIndex = [
         themeColor: "§c" // red
     },
     {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        category: "item",
+        icon: "textures/items/cocoa_beans",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        category: "item",
+        icon: "textures/items/mutton_raw",
+        themeColor: "§c" // red/pink
+    },
+    {
         id: "minecraft:diamond_horse_armor",
         name: "Diamond Horse Armor",
         category: "item",
