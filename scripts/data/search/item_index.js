@@ -21,6 +21,27 @@ export const itemIndex = [
         themeColor: "§c" // red
     },
     {
+        id: "minecraft:potato",
+        name: "Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§e" // brown/yellow
+    },
+    {
+        id: "minecraft:poisonous_potato",
+        name: "Poisonous Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§2" // green/poison
+    },
+    {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        category: "item",
+        icon: "textures/items/carrot",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:diamond_pickaxe",
         name: "Diamond Pickaxe",
         category: "item",
