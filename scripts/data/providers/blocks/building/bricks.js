@@ -95,6 +95,27 @@ export const brickBlocks = {
         },
         description: "Tuff Bricks are decorative blocks introduced in Minecraft 1.21. Crafted by placing four polished tuff in a 2x2 grid, they feature a dark gray, stone-like texture. These bricks can be used to create slabs, stairs, walls, and chiseled variants. While craftable, they also generate naturally within Trial Chambers. Tuff bricks offer a sophisticated alternative to stone bricks, with a muted color palette that suits both modern and medieval builds."
     },
+    "minecraft:stone_bricks": {
+        id: "minecraft:stone_bricks",
+        name: "Stone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Stone Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 4 Stone blocks, Strongholds, Pillager Outposts, Dungeons"
+        },
+        description: "Stone Bricks are versatile decorative building blocks crafted by arranging four stone blocks in a 2x2 crafting grid. They feature a classic masonry pattern that gives structures a polished, professional appearance. Stone bricks generate naturally in strongholds, pillager outposts, and dungeons, making them one of the most common decorative blocks in the Overworld. With excellent durability (hardness 1.5, blast resistance 6.0), they provide both aesthetic appeal and structural integrity. Players can create various variants including mossy stone bricks by combining with moss, cracked stone bricks through smelting, and chiseled stone bricks using stone slabs. These blocks are essential for creating elegant walls, floors, and architectural details that require both strength and sophistication."
+    },
     "minecraft:chiseled_tuff_bricks": {
         id: "minecraft:chiseled_tuff_bricks",
         name: "Chiseled Tuff Bricks",
