@@ -1370,5 +1370,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/vault_front_ejecting",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:blue_ice",
+        name: "Blue Ice",
+        category: "block",
+        icon: "textures/blocks/blue_ice",
+        themeColor: "§b" // light blue/ice
+    },
+    {
+        id: "minecraft:chorus_flower",
+        name: "Chorus Flower",
+        category: "block",
+        icon: "textures/blocks/chorus_flower",
+        themeColor: "§d" // purple/pink
+    },
+    {
+        id: "minecraft:purpur_pillar",
+        name: "Purpur Pillar",
+        category: "block",
+        icon: "textures/blocks/purpur_pillar",
+        themeColor: "§8" // light purple/pink
     }
 ];
