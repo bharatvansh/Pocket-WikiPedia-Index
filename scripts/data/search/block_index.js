@@ -462,6 +462,27 @@ export const blockIndex = [
         themeColor: "§2" // dark green (fully oxidized)
     },
     {
+        id: "minecraft:redstone_wire",
+        name: "Redstone Dust",
+        category: "block",
+        icon: "textures/blocks/redstone_dust",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:redstone_torch",
+        name: "Redstone Torch",
+        category: "block",
+        icon: "textures/blocks/redstone_torch",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:redstone_lamp",
+        name: "Redstone Lamp",
+        category: "block",
+        icon: "textures/blocks/redstone_lamp",
+        themeColor: "§e" // yellow/gold
+    },
+    {
         id: "minecraft:resin_bricks",
         name: "Resin Bricks",
         category: "block",

@@ -222,5 +222,68 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Daylight Detector is a redstone component that generates a signal based on the intensity of sunlight. Its signal strength varies from 0 to 15 depending on the time of day and weather. Players can interact with it to toggle it into an Inverted Daylight Detector, which emits a signal based on moonlight or the absence of sunlight. Crafted from glass, nether quartz, and wooden slabs, it is essential for automating lighting systems or time-based mechanisms. In Bedrock Edition, it provides a compact way to detect the day-night cycle for various automated contraptions."
+    },
+    "minecraft:redstone_wire": {
+        id: "minecraft:redstone_wire",
+        name: "Redstone Dust",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Dust"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Redstone Dust is the fundamental component of redstone circuits, serving as both a power source and signal wire. When placed, it can transmit redstone signals up to 15 blocks in any direction, with signal strength decreasing by 1 for each block of distance. Dust can be placed on top of most solid blocks and creates connections to adjacent redstone components. In Bedrock Edition, redstone dust can also be placed on glass, glowstone, and sea lanterns, making it versatile for complex circuit designs. It forms the backbone of almost all redstone contraptions and automation systems."
+    },
+    "minecraft:redstone_torch": {
+        id: "minecraft:redstone_torch",
+        name: "Redstone Torch",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 7,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Redstone Torch is a constant power source that emits a redstone signal of strength 15 without requiring external power. It can be placed on blocks or attached to walls, making it versatile for circuit design. Unlike redstone dust, torches provide consistent power regardless of distance and can be inverted by powering the block they're attached to. When the supporting block receives power, the torch turns off, creating a simple NOT gate. In Bedrock Edition, redstone torches are crucial for building logic gates, memory circuits, and as reliable power sources for complex redstone machinery."
+    },
+    "minecraft:redstone_lamp": {
+        id: "minecraft:redstone_lamp",
+        name: "Redstone Lamp",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Lamp"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
     }
 };
