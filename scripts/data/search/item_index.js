@@ -1489,5 +1489,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/friend_pottery_sherd",
         themeColor: "§a" // green/friendly theme
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_shell_piece",
+        themeColor: "§a" // green/aquatic theme
+    },
+    {
+        id: "minecraft:chainmail_chestplate",
+        name: "Chainmail Chestplate",
+        category: "item",
+        icon: "textures/items/chainmail_chestplate",
+        themeColor: "§7" // gray/metal
+    },
+    {
+        id: "minecraft:iron_boots",
+        name: "Iron Boots",
+        category: "item",
+        icon: "textures/items/iron_boots",
+        themeColor: "§f" // white/silver
     }
 ];
