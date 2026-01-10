@@ -32,6 +32,27 @@ export const stoneBlocks = {
         },
         description: "Stone is a durable building material that requires a pickaxe to mine. It's commonly found underground and can be smelted from cobblestone. Stone is resistant to explosions and is often used for construction."
     },
+    "minecraft:cobblestone": {
+        id: "minecraft:cobblestone",
+        name: "Cobblestone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Cobblestone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Caves, underground (Y -64 to 320), dungeons, abandoned mineshafts"
+        },
+        description: "Cobblestone is one of the most fundamental building blocks in Minecraft, obtained by mining stone with any pickaxe. It generates abundantly in caves, dungeons, and underground structures throughout the Overworld. With excellent durability (hardness 2.0, blast resistance 6.0), cobblestone is the primary building material for early-game construction, offering superior protection against hostile mobs and explosions. It's essential for crafting stone tools, furnaces, and can be smelted back into stone. The rough, gray appearance makes it perfect for fortress-style builds, walls, and practical structures where aesthetics are secondary to function."
+    },
     "minecraft:deepslate": {
         id: "minecraft:deepslate",
         name: "Deepslate",

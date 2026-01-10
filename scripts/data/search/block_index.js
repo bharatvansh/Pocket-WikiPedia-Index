@@ -91,6 +91,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/brown
     },
     {
+        id: "minecraft:cobblestone",
+        name: "Cobblestone",
+        category: "block",
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:moss_block",
         name: "Moss Block",
         category: "block",
@@ -124,6 +131,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_bricks",
         themeColor: "§6" // yellow/tan
+    },
+    {
+        id: "minecraft:stone_bricks",
+        name: "Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:copper_ore",
@@ -194,6 +208,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glowstone",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:glass",
+        name: "Glass",
+        category: "block",
+        icon: "textures/blocks/glass",
+        themeColor: "§f" // white
     },
     {
         id: "minecraft:sea_lantern",
