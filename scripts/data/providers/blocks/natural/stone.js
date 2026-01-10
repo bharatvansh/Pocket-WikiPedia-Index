@@ -116,6 +116,69 @@ export const stoneBlocks = {
         },
         description: "Calcite is a decorative carbonate mineral block that generates naturally as part of amethyst geodes, appearing between the smooth basalt outer layer and the amethyst cluster inner layer. It also forms in strips within stony peaks biomes. With a hardness of 0.75 and blast resistance of 0.75, calcite is relatively soft and requires only a wooden pickaxe or better to mine. The block has a distinctive white, marble-like appearance that makes it popular for building clean, modern structures and decorative accents. Calcite can be used in note blocks to produce a unique \"base drum\" sound when placed beneath them."
     },
+    "minecraft:andesite": {
+        id: "minecraft:andesite",
+        name: "Andesite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Andesite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underground in large ore-like blobs (Y 0 to 79), Stony Peaks"
+        },
+        description: "Andesite is a common igneous rock that generates underground in large ore-like blobs between Y 0 and 79, and in stony peaks biomes. In Bedrock Edition, andesite can replace other stone variants and generates in coral reefs. Requires a wooden pickaxe to mine. Craftable by combining diorite and cobblestone. Can be polished and crafted into slabs, stairs, and walls for versatile building."
+    },
+    "minecraft:diorite": {
+        id: "minecraft:diorite",
+        name: "Diorite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Diorite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underground in large ore-like blobs (Y 0 to 79), Stony Peaks"
+        },
+        description: "Diorite is a grayish-white igneous rock generating underground in large ore-like blobs between Y 0 and 79, plus stony peaks biomes. In Bedrock Edition, replaces other stone variants and appears in coral reefs. Requires a wooden pickaxe to mine. Crafted from two cobblestone and one nether quartz. Can be polished and made into slabs, stairs, and walls."
+    },
+    "minecraft:granite": {
+        id: "minecraft:granite",
+        name: "Granite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Granite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underground in large ore-like blobs (Y 0 to 79), Stony Peaks"
+        },
+        description: "Granite is a pinkish-brown igneous rock generating underground in large ore-like blobs between Y 0 and 79, and in stony peaks biomes. In Bedrock Edition, replaces other stone variants. Requires a wooden pickaxe to mine. Crafted from diorite and nether quartz. Can be polished and crafted into slabs, stairs, and walls. Popular for warm-toned builds."
+    },
     "minecraft:mossy_cobblestone": {
         id: "minecraft:mossy_cobblestone",
         name: "Mossy Cobblestone",

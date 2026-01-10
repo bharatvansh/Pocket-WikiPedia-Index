@@ -53,6 +53,27 @@ export const brickBlocks = {
         },
         description: "Mud Bricks are decorative building blocks introduced in Minecraft 1.19. They are crafted by placing four Packed Mud in a 2x2 square. Packed Mud itself is made from Mud and Wheat. Mud Bricks feature a warm, reddish-brown color with a classic brick texture, perfect for rustic or desert builds. They are fire-resistant and require a pickaxe to mine efficiently. Players can further craft them into stairs, slabs, and walls, providing architectural versatility for warm-toned designs."
     },
+    "minecraft:quartz_bricks": {
+        id: "minecraft:quartz_bricks",
+        name: "Quartz Bricks",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Quartz Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, crafted from 4 Quartz Blocks"
+        },
+        description: "Quartz Bricks are decorative building blocks introduced in Minecraft 1.17 as part of the Caves and Cliffs update. They are crafted by placing four quartz blocks in a 2x2 grid, providing a distinctive white brick pattern texture. Quartz bricks generate naturally in bastion remnants and can also be obtained through crafting. They require only a wooden pickaxe to mine and are renewable since quartz blocks themselves are crafted from nether quartz. Unlike regular quartz blocks, quartz bricks have a more intricate brick-like texture that adds detail to builds. They offer a clean white aesthetic for Nether-themed or modern builds while maintaining low hardness and blast resistance."
+    },
     "minecraft:tuff_bricks": {
         id: "minecraft:tuff_bricks",
         name: "Tuff Bricks",
