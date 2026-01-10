@@ -1035,5 +1035,77 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot alongside three other sherds or bricks, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
+    },
+    "minecraft:burn_pottery_sherd": {
+        id: "minecraft:burn_pottery_sherd",
+        name: "Burn Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a flame design",
+            secondaryUse: "Creating fire-themed archaeological decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a stylized flame design representing fire or danger",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the flame pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Burn Pottery Sherd is a distinctive archaeological artifact found in Trail Ruins by carefully brushing Suspicious Gravel. This pottery fragment displays a stylized flame design that likely represents fire, danger, or purification in ancient civilizations. Players value this sherd for its unique aesthetic and thematic significance. When used to craft a Decorated Pot, the Burn pattern appears on one side, making it ideal for fire-themed builds, medieval kitchens, or alchemical laboratories."
+    },
+    "minecraft:danger_pottery_sherd": {
+        id: "minecraft:danger_pottery_sherd",
+        name: "Danger Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a warning symbol",
+            secondaryUse: "Creating cautionary-themed archaeological displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a warning symbol or hazard design for ancient alerts",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the danger pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Danger Pottery Sherd is an intriguing archaeological piece discovered in Trail Ruins through careful excavation of Suspicious Gravel. This pottery fragment bears a distinctive warning symbol that ancient civilizations likely used to denote danger, traps, or hazardous areas. The sherd's design serves as both a practical warning and artistic expression. When incorporated into a Decorated Pot, it creates a unique piece perfect for dungeon-themed builds, warning signs, or historical archaeological displays."
+    },
+    "minecraft:friend_pottery_sherd": {
+        id: "minecraft:friend_pottery_sherd",
+        name: "Friend Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a friendly motif",
+            secondaryUse: "Creating community or friendship-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features the unibrow and nose design resembling a villager or iron golem",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the friend pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Friend Pottery Sherd is a heartwarming archaeological find from Trail Ruins, depicting the distinctive unibrow and nose features of villagers or iron golems. This pottery fragment represents friendship, community, and the bonds between different beings in Minecraft's world. The sherd's design evokes warmth and companionship, making it particularly popular for village-themed builds, community centers, or friendship memorials. When crafted into a Decorated Pot, it serves as a symbol of unity and good relations."
     }
 };
