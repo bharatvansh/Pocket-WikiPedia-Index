@@ -602,6 +602,56 @@ export const craftingMaterials = {
         ],
         description: "Coal is one of the most fundamental fuel sources in Minecraft, obtained by mining coal ore with any pickaxe or from Wither Skeleton drops. Each piece burns for 80 seconds in a furnace, smelting up to 8 items, making it an efficient early-game fuel. Beyond smelting, coal is essential for crafting torches, which provide light and prevent hostile mob spawning. It can be compacted into coal blocks for more efficient storage and extended burn times. Coal is also used in crafting campfires for cooking and ambiance, as well as fire charges for remote ignition."
     },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting fuel and alternative to coal",
+            secondaryUse: "Crafting torches and campfires"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Any Log or Wood", "Any fuel"]
+        },
+        specialNotes: [
+            "Created by smelting any log or wood in a furnace",
+            "Burns for 80 seconds in a furnace, smelting up to 8 items",
+            "Can be crafted into charcoal blocks for compact storage",
+            "Essential for early-game torch crafting when coal is scarce",
+            "Used to craft campfires and soul torches in Bedrock Edition",
+            "Cannot be traded by villagers (unlike coal)",
+            "Drops from campfires when broken with a Silk Touch tool"
+        ],
+        description: "Charcoal is a renewable fuel source created by smelting any log or wood in a furnace, making it invaluable for players who haven't found coal yet. It functions identically to coal as a fuel, burning for 80 seconds per piece in furnaces and smelting up to 8 items. Charcoal is essential for crafting torches in early game and can also be used to create campfires. Unlike coal, charcoal cannot be obtained through villager trading, but its renewable nature through wood farming ensures players never run out of fuel."
+    },
+    "minecraft:cocoa_beans": {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting cookies and brown dye",
+            secondaryUse: "Farming in Jungle biomes and banner patterns"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from cocoa pods on jungle logs"]
+        },
+        specialNotes: [
+            "Found on jungle tree logs as cocoa pods in Jungle biomes",
+            "Each mature pod yields 1-3 cocoa beans",
+            "Bone meal advances cocoa pods through all growth stages",
+            "Used to craft cookies (wheat + cocoa beans)",
+            "Can be used directly as brown dye in crafting recipes",
+            "Acceptable substitute for brown dye in banner patterns (Bedrock)",
+            "Found in 40% of dungeon bonus chests in Bedrock Edition"
+        ],
+        description: "Cocoa Beans are versatile items primarily obtained from cocoa pods that grow naturally on jungle tree logs in Minecraft Bedrock Edition. Players can break mature pods to harvest 1-3 beans each, and bone meal can accelerate their growth through all stages. Their primary uses are crafting cookies with wheat and serving as a source of brown dye for coloring items like wool, leather, and terracotta. In Bedrock Edition, cocoa beans can also be used directly in banner patterns and function as a substitute for brown dye in various recipes."
+    },
     "minecraft:book": {
         id: "minecraft:book",
         name: "Book",

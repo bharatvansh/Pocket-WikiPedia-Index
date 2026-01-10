@@ -235,5 +235,33 @@ export const rawFood = {
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:mutton": {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sheep", "Smelts into Cooked Mutton"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation when eaten raw",
+            "Adult sheep drop 1-2 raw mutton when killed",
+            "Maximum drops increase by 1 per looting level (up to 5 with Looting III)",
+            "Baby sheep drop 1 raw mutton, no increase from Looting",
+            "Can be cooked in a furnace, smoker, or campfire to make Cooked Mutton",
+            "Cooked Mutton restores 6 hunger and 9.6 saturation, making cooking highly recommended"
+        ],
+        description: "Raw Mutton is a meat item obtained by killing sheep in Minecraft Bedrock Edition. When eaten raw, it restores 2 hunger points and 1.2 saturation, making it a weak food source. However, when cooked in a furnace, smoker, or campfire, it becomes Cooked Mutton, which provides significantly better nutrition with 6 hunger and 9.6 saturation. Adult sheep drop 1-2 pieces of raw mutton upon death, with the amount increased by one per level of Looting enchantment. Raw mutton can also be used to breed and heal wolves."
     }
 };
