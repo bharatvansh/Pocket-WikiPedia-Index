@@ -1587,5 +1587,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/iron_bars",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:hay_block",
+        name: "Hay Bale",
+        category: "block",
+        icon: "textures/blocks/hay_block_side",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:nether_wart_block",
+        name: "Nether Wart Block",
+        category: "block",
+        icon: "textures/blocks/nether_wart_block",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        category: "block",
+        icon: "textures/blocks/warped_wart_block",
+        themeColor: "§3" // dark aqua/teal
     }
 ];
