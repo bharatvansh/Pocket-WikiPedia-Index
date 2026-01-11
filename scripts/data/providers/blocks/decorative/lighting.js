@@ -156,5 +156,26 @@ export const lightingBlocks = {
             yRange: "Villages, Bastion Remnants"
         },
         description: "A Lantern is a metallic light source that emits a bright light level of 15, exceeding that of torches. It can be placed on top of blocks or hung from the underside of solid blocks. Lanterns generate naturally in snowy tundra villages and bastion remnants. Crafted from eight iron nuggets surrounding a torch, they are more durable than torches and possess a valid collision box. They are widely used in builds for their aesthetic appeal and ability to hang from ceilings or chains."
+    },
+    "minecraft:soul_lantern": {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Soul Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "The Soul Lantern is a variant of the regular lantern that emits a dim, turquoise light with a luminance level of 10. Crafted using a soul torch and eight iron nuggets, it possesses a distinct blue flame characteristic of soul fire. Unlike regular lanterns (level 15), soul lanterns do not melt ice or snow. They repel piglins, making them functional for safe travel in the Nether. Soul lanterns can be placed on blocks or hung from ceilings and chains, adding a spooky or mystical aesthetic to builds."
     }
 };
