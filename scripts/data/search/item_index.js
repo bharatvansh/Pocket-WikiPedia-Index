@@ -1552,5 +1552,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bordure_indented_banner_pattern",
         themeColor: "§7" // gray/vines
+    },
+    {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        category: "item",
+        icon: "textures/items/cocoa_beans",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        category: "item",
+        icon: "textures/items/carrot",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:potato",
+        name: "Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§e" // yellow/skin
     }
 ];

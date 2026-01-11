@@ -235,5 +235,59 @@ export const rawFood = {
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:carrot": {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and farming",
+            secondaryUse: "Breeding pigs and rabbits"
+        },
+        food: {
+            hunger: 3,
+            saturation: 3.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Village gardens", "Rare drop from Zombies"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 3.6 saturation",
+            "Used to breed pigs and rabbits",
+            "Crafting ingredient for Golden Carrots, Rabbit Stew, and Carrot on a Stick",
+            "Can be traded to Farmer villagers for emeralds",
+            "Planted on farmland to grow more carrots"
+        ],
+        description: "Carrots are a common food crop found in village gardens or obtained as a rare drop from zombies. Eating a carrot restores 3 hunger points and 3.6 saturation. They are a staple crop for players, serving as a reliable food source and a key item for animal husbandry, specifically for breeding pigs and rabbits. Carrots are also the base ingredient for Golden Carrots, one of the best food items in the game, and are essential for controlling pigs when crafted into a Carrot on a Stick."
+    },
+    "minecraft:potato": {
+        id: "minecraft:potato",
+        name: "Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Farming and baking into Baked Potatoes",
+            secondaryUse: "Breeding pigs and trading"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Village gardens", "Rare drop from Zombies"]
+        },
+        specialNotes: [
+            "Restores 1 hunger (0.5 drumsticks) and 0.6 saturation when raw",
+            "Should be cooked into Baked Potatoes for better nutrition",
+            "Planted on farmland to grow more potatoes",
+            "Has a small chance to drop a Poisonous Potato when harvested",
+            "Used to breed pigs and trade with Farmer villagers"
+        ],
+        description: "Potatoes are a versatile crop found in villages or dropped rarely by zombies. While they can be eaten raw to restore 1 hunger point, they are most effective when cooked in a furnace to create Baked Potatoes, which provide significantly more nourishment. Potatoes are highly efficient to farm due to their multiple yields per harvest. However, harvesting them carries a small risk of obtaining a useless Poisonous Potato. They are a fundamental crop for survival and trading with villagers."
     }
 };
