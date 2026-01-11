@@ -344,5 +344,32 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food item that restores 1 hunger point",
+            secondaryUse: "Taming cats (1/3 chance) and healing them"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Caught using a Fishing Rod", "Chance to be dropped by Guardians (rare)"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drum) and 0.2 saturation",
+            "Cannot be cooked, unlike Cod or Salmon",
+            "Used to tame Ocelots and Cats",
+            "Can be fed to cats to heal them",
+            "Appears as a Clownfish texture in the inventory"
+        ],
+        description: "Tropical Fish is a food item that can be obtained by fishing in warm or lukewarm oceans. In Bedrock Edition, it restores 1 hunger point (0.5 drum) and 0.2 saturation. Unlike other fish like Cod or Salmon, it cannot be cooked. It serves as a food source for taming Ocelots and Cats, and can also be used to heal tame cats. When caught or in the inventory, it always uses the Clownfish texture, regardless of the actual fish variant caught."
     }
 };
