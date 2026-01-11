@@ -285,5 +285,47 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:unpowered_repeater": {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Repeater"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Ancient Cities"
+        },
+        description: "The Redstone Repeater is a functional block used to repeat redstone signals, delay signals, and lock signals. It has three main functions: extending a redstone signal's strength back to 15, delaying the signal by 1 to 4 redstone ticks (adjustable by interacting with the block), and locking the signal state when powered from the side by another repeater or comparator. In Bedrock Edition, repeaters generate naturally in jungle temples and ancient cities. They are essential for long-distance redstone transmission and timing circuits."
+    },
+    "minecraft:unpowered_comparator": {
+        id: "minecraft:unpowered_comparator",
+        name: "Redstone Comparator",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Comparator"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "The Redstone Comparator is a versatile redstone component that can maintain, compare, or subtract signal strengths and measure the state of certain blocks. It has two modes: comparison mode (front torch down) and subtraction mode (front torch up). It can read the fullness of containers like chests, furnaces, and hoppers, as well as the state of other blocks like cauldrons, composters, and lecterns. Comparators generate in ancient cities and are fundamental for sorting systems and advanced logic circuits."
     }
 };
