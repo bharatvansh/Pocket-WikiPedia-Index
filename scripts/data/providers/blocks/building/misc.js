@@ -49,5 +49,26 @@ export const miscBuildingBlocks = {
             yRange: "Crafted from 9 dried kelp"
         },
         description: "A Dried Kelp Block is a decorative and functional block crafted from nine pieces of dried kelp. It serves as an incredibly efficient fuel source in furnaces, smelting up to 20 items per block—which is 2.5 times more than coal. Beyond its use as fuel, it can be used as a building material with a unique dark green, wrapped texture. It can also be placed in a composter, with a 50% chance to increase the compost level. Unlike some other bundled blocks, dried kelp blocks do not have a specific orientation when placed and appear identical from all sides."
+    },
+    "minecraft:hay_block": {
+        id: "minecraft:hay_block",
+        name: "Hay Bale",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hay Bale"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts"
+        },
+        description: "A Hay Bale is a decorative and functional block crafted from nine wheat or found naturally in villages and pillager outposts. It is unique for its ability to reduce fall damage by 80% when landed on, making it a lifesaver in parkour or high-altitude builds. Hay bales can be used to feed horses, llamas, and donkeys to heal them or speed up the growth of foals, and are required to breed llamas. When placed under a campfire, they increase the smoke height significantly, which is useful for signaling. They are flammable and orientable like logs."
     }
 };

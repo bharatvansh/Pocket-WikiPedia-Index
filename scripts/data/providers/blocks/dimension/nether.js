@@ -284,5 +284,47 @@ export const netherBlocks = {
             yRange: "Warped Forest (Surface)"
         },
         description: "Warped Nylium is a variant of netherrack covered in warped fungus, found naturally generating as the surface layer of Warped Forest biomes. It has a teal-blue grass-like texture on top and a netherrack texture on the bottom. Like crimson nylium, it can be spread to adjacent netherrack blocks using bone meal. When mined without Silk Touch, it drops netherrack; with Silk Touch, it drops itself. It serves as a spawnable surface for warped fungi, roots, and vines when bone meal is applied."
+    },
+    "minecraft:nether_wart_block": {
+        id: "minecraft:nether_wart_block",
+        name: "Nether Wart Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Nether Wart Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest biome"
+        },
+        description: "Nether Wart Block is a decorative block found naturally in Crimson Forest biomes in the Nether, typically forming the leaves of huge crimson fungi. It can be crafted from nine nether wart items but, unlike other storage blocks, it cannot be crafted back into nether wart. This red, textured block shares similar properties with wood but cannot be used as fuel or to create planks. It is best mined with a hoe. While primarily decorative, it serves as a key atmospheric element of the Crimson Forest, matching the red hue of the biome."
+    },
+    "minecraft:warped_wart_block": {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Wart Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest biome"
+        },
+        description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
     }
     };
