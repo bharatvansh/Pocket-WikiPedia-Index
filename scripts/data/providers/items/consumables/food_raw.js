@@ -289,5 +289,32 @@ export const rawFood = {
             "Used to breed pigs and trade with Farmer villagers"
         ],
         description: "Potatoes are a versatile crop found in villages or dropped rarely by zombies. While they can be eaten raw to restore 1 hunger point, they are most effective when cooked in a furnace to create Baked Potatoes, which provide significantly more nourishment. Potatoes are highly efficient to farm due to their multiple yields per harvest. However, harvesting them carries a small risk of obtaining a useless Poisonous Potato. They are a fundamental crop for survival and trading with villagers."
+    },
+    "minecraft:melon_slice": {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting seeds and Glistering Melon"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Melon blocks"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "Melon blocks drop 3-7 slices when broken (more with Fortune)",
+            "Crafted into Melon Seeds for farming or Glistering Melon for potions",
+            "Can be composted with a 50% chance of raising the compost level",
+            "Farmer villagers may sell melon slices or buy full melon blocks"
+        ],
+        description: "A Melon Slice is a food item obtained by breaking a full Melon block. Each block drops multiple slices, making it a high-volume food source, though its individual nutritional value is low with only 2 hunger and 1.2 saturation restored. Its true value lies in its utility: slices can be crafted into seeds for farming or combined with gold nuggets to create Glistering Melons, a key ingredient for healing potions. It also serves as a decent composting material."
     }
 };
