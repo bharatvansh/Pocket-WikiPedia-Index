@@ -11,6 +11,60 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const cookedFood = {
+    "minecraft:cooked_rabbit": {
+        id: "minecraft:cooked_rabbit",
+        name: "Cooked Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Ingredient for Rabbit Stew and healing wolves"
+        },
+        food: {
+            hunger: 5,
+            saturation: 6.0
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Rabbit", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 5 hunger (2.5 drumsticks) and 6.0 saturation",
+            "Obtained by smelting raw rabbit or killing rabbits with fire",
+            "Key ingredient for crafting Rabbit Stew",
+            "Can be fed to wolves to heal them in Bedrock Edition",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Rabbit is a food item obtained by cooking raw rabbit in a furnace, smoker, or campfire. It restores 5 hunger points and 6.0 saturation, making it comparable to bread or baked potatoes. Its primary utility lies in being a core ingredient for Rabbit Stew, which provides massive hunger restoration. Additionally, in Bedrock Edition, cooked rabbit can be used to heal tamed wolves, adding to its value for pet owners."
+    },
+    "minecraft:cooked_salmon": {
+        id: "minecraft:cooked_salmon",
+        name: "Cooked Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Healing wolves"
+        },
+        food: {
+            hunger: 6,
+            saturation: 9.6
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Salmon", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 9.6 saturation",
+            "Obtained by smelting raw salmon or killing salmon/polar bears with fire",
+            "Significantly better stats than cooked cod (matches cooked mutton)",
+            "Can be fed to wolves to heal them in Bedrock Edition",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Salmon is a nutritious food item obtained by cooking raw salmon. It restores 6 hunger points and provides 9.6 saturation, making it a superior food source compared to cooked cod and statistically identical to cooked mutton. It is easily sourced from rivers and oceans where salmon are abundant. In Bedrock Edition, it also serves as a healing item for tamed wolves, making it a versatile resource for survival and exploration."
+    },
     "minecraft:rabbit_stew": {
         id: "minecraft:rabbit_stew",
         name: "Rabbit Stew",
