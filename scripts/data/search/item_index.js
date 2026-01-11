@@ -1510,5 +1510,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/friend_pottery_sherd",
         themeColor: "§a" // green/friendly theme
+    },
+    {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        category: "item",
+        icon: "textures/items/snowball",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        category: "item",
+        icon: "textures/items/fire_charge",
+        themeColor: "§c" // red/fire
+    },
+    {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        category: "item",
+        icon: "textures/items/cocoa_beans",
+        themeColor: "§6" // brown
     }
 ];

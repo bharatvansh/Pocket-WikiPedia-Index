@@ -675,6 +675,32 @@ export const craftingMaterials = {
         ],
         description: "Clay Balls are raw ceramic materials harvested from clay blocks found in rivers, swamps, and lush caves. Each clay block yields four clay balls when mined. Their primary use is being smelted into bricks, which are then crafted into decorative brick blocks for construction. Clay balls can also be recombined into clay blocks for storage or building. Since version 1.19, they became fully renewable through the mud and pointed dripstone mechanic, where mud placed above dripstone slowly converts into clay, providing an infinite source for builders and craftsmen."
     },
+    "minecraft:cocoa_beans": {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Farming cocoa and crafting brown dye and cookies",
+            secondaryUse: "Crafting fireworks and banners (Bedrock Edition)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from breaking cocoa pods in jungle biomes"]
+        },
+        specialNotes: [
+            "Found growing on jungle tree trunks; break with any tool to harvest",
+            "Cocoa pods grow through three stages: small, medium, and large (full size)",
+            "Full pods drop 2-3 cocoa beans",
+            "Can be crafted directly into Brown Dye (1 cocoa bean = 1 dye)",
+            "Primary ingredient for crafting Cookies (8 beans + wheat + sugar)",
+            "In Bedrock Edition, used as brown dye substitute in banner patterns and fireworks",
+            "Can be found in 40% of bonus chests in Bedrock Edition",
+            "Farms can be created by planting cocoa beans on jungle logs"
+        ],
+        description: "Cocoa Beans are agricultural items harvested from mature cocoa pods on jungle trees. The pods grow through three stages, dropping 2-3 beans when fully matured. Their primary function is as a brown dye source and cookie ingredient. In Bedrock Edition, cocoa beans also serve as a direct brown dye substitute in banner patterns and firework star recipes. Because they grow exclusively on jungle wood, creating cocoa farms requires exploration of jungle biomes."
+    },
     "minecraft:flint": {
         id: "minecraft:flint",
         name: "Flint",
