@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: All banner pattern items (creeper charge,
 // skull charge, flower charge, thing, globe, snout, piglin,
-// flow, guster)
+// flow, guster, field masoned, bordure indented)
 // ============================================
 
 /**
@@ -193,5 +193,51 @@ export const bannerPatterns = {
             "Commonly referred to as the 'Mojang' logo pattern."
         ],
         description: "The Thing Banner Pattern is one of the most prestigious decorative items in Minecraft, allowing players to emblazon the Mojang Studios logo onto their banners. In Bedrock Edition, it is crafted by combining a piece of paper with an Enchanted Golden Apple, making it exceptionally rare and expensive to produce. Despite its high cost, the pattern itself is not consumed when used in a Loom, allowing a single pattern to be used to create an infinite number of banners."
+    },
+    "minecraft:field_masoned_banner_pattern": {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Field Masoned' (brick) pattern in a Loom",
+            secondaryUse: "Creating brick-textured decorative banners"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Brick Block"]
+        },
+        specialNotes: [
+            "Crafted using a shapeless recipe of one Paper and one Brick Block.",
+            "Applies a brickwork texture to the banner.",
+            "In Bedrock Edition, this requires a specific pattern item, unlike in older Java versions.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Useful for creating textured walls or detailed architectural flags."
+        ],
+        description: "The Field Masoned Banner Pattern is a decorative item that allows players to apply a brickwork texture, known as 'Field Masoned', to their banners. In Bedrock Edition, this pattern must be crafted using a piece of Paper and a Brick Block. Once obtained, it can be used in a Loom to add a detailed brick background or overlay to any banner. Because the pattern item is not consumed upon use, it serves as a permanent tool for builders looking to add texture and depth to their banner designs."
+    },
+    "minecraft:bordure_indented_banner_pattern": {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Bordure Indented' (fancy border) pattern in a Loom",
+            secondaryUse: "Creating banners with a jagged, decorative border"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Vines"]
+        },
+        specialNotes: [
+            "Crafted using a shapeless recipe of one Paper and one Vine.",
+            "Applies a jagged, saw-tooth border to the banner.",
+            "In Bedrock Edition, this requires a specific pattern item, unlike in older Java versions.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Perfect for framing other banner designs with a distinct edge."
+        ],
+        description: "The Bordure Indented Banner Pattern is a decorative item used to apply a fancy, jagged border to banners. Known as 'Bordure Indented', this design frames the banner's content with a distinct saw-tooth edge. In Bedrock Edition, players craft this pattern by combining a piece of Paper with Vines. Like other banner patterns, it is not consumed when used in a Loom, allowing players to reuse it indefinitely to create consistent, framed heraldry for their bases and builds."
     }
 };

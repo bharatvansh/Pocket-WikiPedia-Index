@@ -1034,7 +1034,7 @@ export const craftingMaterials = {
             "Stacks up to 64 in Bedrock Edition",
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
-        description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot alongside three other sherds or bricks, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
+        description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
     },
     "minecraft:burn_pottery_sherd": {
         id: "minecraft:burn_pottery_sherd",
@@ -1182,5 +1182,29 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Explorer Pottery Sherd is a maritime archaeological treasure found by brushing Suspicious Gravel in Cold Ocean Ruins. This pottery fragment depicts a stylized map, representing the spirit of exploration, navigation, and discovery that ancient oceanic civilizations valued. The cartographic design makes it particularly meaningful for adventurers and builders. When incorporated into a Decorated Pot, the Explorer pattern creates a perfect decoration for map rooms, navigation towers, adventure halls, or any build celebrating the journey of discovery across Minecraft's vast worlds."
+    },
+    "minecraft:miner_pottery_sherd": {
+        id: "minecraft:miner_pottery_sherd",
+        name: "Miner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Miner motif",
+            secondaryUse: "Creating excavation or mining-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Trail Ruins",
+            "Features a design depicting a pickaxe, symbolizing mining",
+            "Has an 8.3% chance to appear when brushing suspicious gravel in trail ruins",
+            "Used in crafting Decorated Pots to display the miner pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition"
+        ],
+        description: "The Miner Pottery Sherd is an archaeological artifact found in Trail Ruins by brushing Suspicious Gravel. This pottery fragment features a clear pickaxe design, representing the mining activities that have defined Minecraft's gameplay and lore. It is a tribute to the miners of the past. When used to craft a Decorated Pot, the Miner pattern creates a thematic decoration perfect for mine entrances, smithies, treasure rooms, or any build that celebrates the art of excavation."
     }
 };
