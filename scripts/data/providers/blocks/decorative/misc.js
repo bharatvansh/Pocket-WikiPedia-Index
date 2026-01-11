@@ -348,5 +348,26 @@ export const miscDecorativeBlocks = {
             yRange: "Sandy beaches"
         },
         description: "Turtle Eggs are blocks laid by sea turtles on sandy beaches after breeding. They must be placed on sand or red sand to hatch into baby turtles over several nights. These eggs are extremely fragile; they can be broken if players or mobs jump on them. Mobs like zombies and skeletons are attracted to turtle eggs and will actively try to trample them. Using a tool with Silk Touch is required to obtain the egg as an item; otherwise, it will break and drop nothing. They can be placed in clusters of up to four on a single block."
+    },
+    "minecraft:chain": {
+        id: "minecraft:chain",
+        name: "Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Bastion Remnants / Mineshafts"
+        },
+        description: "Chain is a metallic decorative block that can be placed horizontally or vertically. Chains are naturally generated in Bastion Remnants, Ruined Portals, and Mineshafts. They can also be crafted using one Iron Ingot and two Iron Nuggets. Chains connect to each other and to lanterns, making them perfect for suspending light sources from ceilings. Chains have a small collision box aligned with their center. They are primarily used for decoration, especially for hanging lanterns or bells."
     }
 };

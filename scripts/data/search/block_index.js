@@ -1503,5 +1503,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deny",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:ice",
+        name: "Ice",
+        category: "block",
+        icon: "textures/blocks/ice",
+        themeColor: "§b" // aqua/ice
+    },
+    {
+        id: "minecraft:packed_ice",
+        name: "Packed Ice",
+        category: "block",
+        icon: "textures/blocks/packed_ice",
+        themeColor: "§b" // aqua/ice
+    },
+    {
+        id: "minecraft:chain",
+        name: "Chain",
+        category: "block",
+        icon: "textures/blocks/chain",
+        themeColor: "§7" // gray
     }
 ];
