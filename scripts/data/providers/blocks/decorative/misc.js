@@ -369,5 +369,26 @@ export const miscDecorativeBlocks = {
             yRange: "Bastion Remnants / Mineshafts"
         },
         description: "Chain is a metallic decorative block that can be placed horizontally or vertically. Chains are naturally generated in Bastion Remnants, Ruined Portals, and Mineshafts. They can also be crafted using one Iron Ingot and two Iron Nuggets. Chains connect to each other and to lanterns, making them perfect for suspending light sources from ceilings. Chains have a small collision box aligned with their center. They are primarily used for decoration, especially for hanging lanterns or bells."
+    },
+    "minecraft:iron_bars": {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Bars"],
+        generation: {
+            dimension: "Overworld, End",
+            yRange: "Strongholds, Villages, End Cities"
+        },
+        description: "Iron Bars are decorative blocks used to create fences, cages, or windows. They are crafted from six iron ingots and can be found naturally in strongholds, villages, igloos, woodland mansions, and end cities. Like glass panes, they connect to adjacent solid blocks and other iron bars, forming a thin barrier. They allow light to pass through completely. While they look fragile, they have the same blast resistance as cobblestone. In the End dimension, they are found in cages around End Crystals atop obsidian pillars."
     }
 };
