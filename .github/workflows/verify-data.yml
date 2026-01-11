@@ -279,6 +279,23 @@ jobs:
             
             // Auto-merge the PR using squash merge
             try {
+              // Check if PR is a draft and mark it as ready for review
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number
+              });
+
+              if (pr.draft) {
+                console.log('PR is a draft, marking as ready for review...');
+                await github.rest.pulls.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  draft: false
+                });
+              }
+
               await github.rest.pulls.merge({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
