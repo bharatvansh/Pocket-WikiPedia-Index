@@ -285,5 +285,26 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:bundle": {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bundle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Bundle is a utility block that allows players to store and organize multiple items in a single inventory slot. Introduced in Minecraft 1.20, it can hold up to 64 non-stackable items or stackable items up to a total of 64 items by count. Each bundle can be accessed by right-clicking and displays items in a scrollable interface. The bundle can be combined with other bundles or un-bundled to retrieve contents. Perfect for inventory management, bundle helps organize materials like cobblestone, wood, or tools, making it an essential utility block for large building projects and resource management."
     }
 };

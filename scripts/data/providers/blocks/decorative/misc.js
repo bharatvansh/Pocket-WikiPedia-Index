@@ -348,5 +348,26 @@ export const miscDecorativeBlocks = {
             yRange: "Sandy beaches"
         },
         description: "Turtle Eggs are blocks laid by sea turtles on sandy beaches after breeding. They must be placed on sand or red sand to hatch into baby turtles over several nights. These eggs are extremely fragile; they can be broken if players or mobs jump on them. Mobs like zombies and skeletons are attracted to turtle eggs and will actively try to trample them. Using a tool with Silk Touch is required to obtain the egg as an item; otherwise, it will break and drop nothing. They can be placed in clusters of up to four on a single block."
+    },
+    "minecraft:moss_carpet": {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Moss Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Moss Carpet is a decorative carpet block that provides a soft, natural floor covering. Introduced in Minecraft 1.20, it serves as a thinner version of moss blocks and can be crafted using moss blocks. This block is perfect for creating pathways, covering stone surfaces, or adding subtle green accents to builds. Unlike full moss blocks, carpet form allows light to pass through from above, making it ideal for interior decoration or covering redstone components while maintaining functionality. It's completely flammable and provides minimal blast resistance."
     }
 };
