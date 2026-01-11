@@ -178,5 +178,26 @@ export const oreBlocks = {
             yRange: "-64 to 15 (deepslate layers)"
         },
         description: "Deepslate Diamond Ore is a variant of diamond ore that generates in deepslate and tuff layers, found more commonly than regular diamond ore due to its lower altitude generation. It requires an iron pickaxe or better to mine. Like regular diamond ore, it drops diamonds when mined without Silk Touch, with increased yields from Fortune enchantment. Deepslate diamond ore also generates as part of fossils that generate below Y=0, replacing some bone blocks."
+    },
+    "minecraft:coal_ore": {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Coal (1; 1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320 (peaks at 95)"
+        },
+        description: "Coal Ore is a mineral block found in the Overworld that drops coal when mined. It is one of the most common ores, generating in two batches: widely across the surface and mountains from Y 136 to 320, and underground from Y 0 to 192 (peaking at Y 95). Coal is an essential early-game resource used primarily as fuel for furnaces and to craft torches. Unlike other ores like iron or gold, coal ore drops the resource directly without smelting. It can be mined with any pickaxe."
     }
 };
