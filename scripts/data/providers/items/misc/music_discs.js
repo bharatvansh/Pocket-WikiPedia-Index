@@ -257,5 +257,27 @@ export const musicDiscs = {
             "Outputs a redstone signal strength of 6 in a Jukebox"
         ],
         description: "Music Disc 'Mall' is a serene track composed by C418 that begins slowly and gradually picks up tempo. It serves as a calming background piece for any base. This disc is obtainable by having a Skeleton defeat a Creeper. In redstone mechanisms, it provides a signal strength of 6 when used with a Jukebox and Comparator."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays", "Found in Dungeon and Woodland Mansion chests"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "One of the two original music discs (along with 13)",
+            "Features a whimsical, synth-heavy melody",
+            "Outputs a redstone signal strength of 2 in a Jukebox"
+        ],
+        description: "Music Disc 'Cat' is a lighthearted track composed by C418. It is one of the original music discs in Minecraft. The melody is cheerful and somewhat repetitive. It can be obtained from Dungeon or Woodland Mansion chests, or when a Skeleton kills a Creeper. In redstone circuits, it outputs a signal strength of 2 when played in a Jukebox."
     }
 };
