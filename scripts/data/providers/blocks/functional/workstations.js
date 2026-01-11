@@ -406,5 +406,26 @@ export const workstationBlocks = {
             yRange: "Village tannery houses, witch huts, igloos"
         },
         description: "A cauldron is a utility block that can store water, lava, or powder snow in up to three levels. In Bedrock Edition, cauldrons can also hold potions, dyed water, and colored substances. They serve as the job site block for leatherworker villagers and have multiple brewing applications. Cauldrons can fill themselves in certain biomes and can be used to store water for dyeing leather armor, filling glass bottles for brewing, creating tipped arrows, and removing dyes from colored items. They generate naturally in village tannery houses, witch huts, and some igloos, with witch cauldrons sometimes containing potions."
+    },
+    "minecraft:stonecutter": {
+        id: "minecraft:stonecutter",
+        name: "Stonecutter",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stonecutter"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village mason houses"
+        },
+        description: "A Stonecutter is a functional block used to craft stone-related blocks into their various slab, stair, and brick variants. It serves as a more efficient alternative to the crafting table for stone recipes, allowing for a 1:1 conversion ratio and skipping intermediate steps (like crafting a block before a stair). It also functions as the job site block for Mason villagers. Crafted from one iron ingot and three stone blocks, it features an animated saw blade on top. While the blade appears dangerous, it does not damage players or mobs in Bedrock Edition."
     }
 };

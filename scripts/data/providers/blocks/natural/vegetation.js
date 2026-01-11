@@ -519,5 +519,26 @@ export const vegetationBlocks = {
             yRange: "Lush Caves, under Rooted Dirt"
         },
         description: "Hanging Roots are decorative vegetation blocks that sprout from the underside of Rooted Dirt blocks, typically found in Lush Caves. They add a detailed, organic feel to cave ceilings and forest floors. While they break instantly by hand, they can only be collected as an item using Shears or a tool with Silk Touch. In Bedrock Edition, they can also be grown by using Bone Meal on a Rooted Dirt block. They are purely decorative and do not obstruct player movement, making them ideal for adding atmosphere to nature-themed builds."
+    },
+    "minecraft:cocoa": {
+        id: "minecraft:cocoa",
+        name: "Cocoa",
+        hardness: 0.2,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cocoa Beans (2-3)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes (on Jungle logs)"
+        },
+        description: "Cocoa is a renewable plant block that grows naturally on the sides of jungle logs in Jungle biomes. It has three growth stages, starting as a small green pod and maturing into a larger orange-brown pod. When fully grown, it drops 2-3 cocoa beans, which are used to craft brown dye and cookies. It breaks instantly when mined with an axe. Players can manually plant cocoa beans on jungle logs (stripped or regular, including wood variants) to farm them. Bone meal can be used to instantly advance their growth stage."
     }
 };

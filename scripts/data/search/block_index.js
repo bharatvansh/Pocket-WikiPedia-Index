@@ -1566,5 +1566,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_stem_side",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:stonecutter",
+        name: "Stonecutter",
+        category: "block",
+        icon: "textures/blocks/stonecutter_side",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cocoa",
+        name: "Cocoa",
+        category: "block",
+        icon: "textures/blocks/cocoa_stage_2",
+        themeColor: "§6" // orange/brown
+    },
+    {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        category: "block",
+        icon: "textures/blocks/iron_bars",
+        themeColor: "§7" // gray
     }
 ];
