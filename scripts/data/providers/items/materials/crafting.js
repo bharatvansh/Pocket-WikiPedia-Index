@@ -1277,5 +1277,77 @@ export const craftingMaterials = {
             "Dropped by wheat crops when harvested"
         ],
         description: "Wheat Seeds are the starting point for one of the most fundamental crops in Minecraft. They are easily obtained by breaking grass or harvesting mature wheat. When planted on tilled farmland, they grow into wheat, which is essential for food and animal breeding. Beyond farming, wheat seeds serve as the primary food for chickens, allowing players to breed them, and are used to tame parrots. Their abundance makes them a reliable resource for starting a farm and establishing a food supply early in the game."
+    },
+    "minecraft:beetroot_seeds": {
+        id: "minecraft:beetroot_seeds",
+        name: "Beetroot Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Beetroots",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvesting Beetroot", "Found in Village chests"]
+        },
+        specialNotes: [
+            "Obtained by harvesting mature Beetroot crops (2-5 seeds per crop)",
+            "Found in chests within Snowy and Plains villages",
+            "Planted on farmland to grow Beetroot",
+            "Used to breed chickens and accelerate the growth of baby chickens",
+            "Can be used to tame parrots in Bedrock Edition",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Beetroot Seeds are agricultural items used to grow beetroot crops. They are primarily obtained by harvesting fully grown beetroots or can be found in village chests. When planted on tilled farmland, they grow into harvestable beetroots. Like other seeds, they play a key role in animal husbandry, serving as food to breed chickens and reduce the growth time of chicks. In Bedrock Edition, they can also be used to tame parrots. They are a renewable resource essential for maintaining a steady supply of beetroot soup and red dye."
+    },
+    "minecraft:pumpkin_seeds": {
+        id: "minecraft:pumpkin_seeds",
+        name: "Pumpkin Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Pumpkins",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pumpkin"]
+        },
+        specialNotes: [
+            "Crafted by placing a Pumpkin in a crafting grid (yields 4 seeds)",
+            "Can be found in chests within Dungeons, Mineshafts, and Woodland Mansions",
+            "Planted on farmland to grow a Pumpkin Stem",
+            "Pumpkin Stems produce Pumpkins on adjacent dirt, grass, or farmland blocks",
+            "Used to breed chickens and tame parrots",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Pumpkin Seeds are essential for farming pumpkins, which are valuable for food, golems, and trading. They can be crafted from pumpkins or found in loot chests within dungeons and mineshafts. When planted on farmland, a seed grows into a stem that eventually produces a pumpkin on an adjacent block. This stem can continue to produce pumpkins indefinitely if the fruit is harvested without breaking the stem. Like other seeds, pumpkin seeds can be used to breed chickens, tame parrots, and compost organic waste."
+    },
+    "minecraft:melon_seeds": {
+        id: "minecraft:melon_seeds",
+        name: "Melon Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Melons",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Melon Slice"]
+        },
+        specialNotes: [
+            "Crafted by placing a Melon Slice in a crafting grid (yields 1 seed)",
+            "Found in chests within Dungeons, Mineshafts, and Woodland Mansions",
+            "Planted on farmland to grow a Melon Stem",
+            "Melon Stems produce Melon blocks on adjacent dirt, grass, or farmland blocks",
+            "Used to breed chickens and tame parrots",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Melon Seeds are the starting point for growing melons, a source of food and potion ingredients. They are obtained by crafting melon slices or finding them in rare loot chests. Once planted on farmland, the seed grows into a stem that generates melon blocks on adjacent spaces. This process allows for infinite melon production from a single stem. Beyond farming, melon seeds serve as feed for chickens and can be used to tame parrots, making them a versatile item for survival players."
     }
 };
