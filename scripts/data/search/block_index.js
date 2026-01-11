@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/copper_bulb",
+        themeColor: "§6" // gold
+    },
+    {
         id: "minecraft:copper_bulb",
         name: "Copper Bulb",
         category: "block",
@@ -327,6 +334,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:waxed_chiseled_copper",
+        name: "Waxed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/chiseled_copper",
+        themeColor: "§6" // gold
     },
     {
         id: "minecraft:chiseled_tuff_bricks",
@@ -439,6 +453,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/copper_bars",
         themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:waxed_copper_grate",
+        name: "Waxed Copper Grate",
+        category: "block",
+        icon: "textures/blocks/copper_grate",
+        themeColor: "§6" // gold
     },
     {
         id: "minecraft:exposed_copper_grate",
