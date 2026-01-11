@@ -1657,5 +1657,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/seeds_wheat",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:white_dye",
+        name: "White Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:red_dye",
+        name: "Red Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_red",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:blue_dye",
+        name: "Blue Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_blue",
+        themeColor: "§9" // blue
     }
 ];
