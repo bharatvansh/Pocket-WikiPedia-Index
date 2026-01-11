@@ -343,5 +343,27 @@ export const smithingTemplates = {
             "Consumed upon use in a Smithing Table unless duplicated."
         ],
         description: "The Snout Armor Trim Smithing Template is a piglin-themed decorative item found exclusively within Bastion Remnants in the Nether. It allows players to apply the 'Snout' pattern to their armor, featuring a bold design that pays homage to the piglin inhabitants of the bastions. Obtained from various chests within these dangerous structures, it is a prize for those brave enough to challenge the piglins in their home. At a Smithing Table, it can be combined with any armor piece and a mineral. To preserve the template, it can be duplicated using seven diamonds and a block of blackstone."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim at a Smithing Table",
+            secondaryUse: "Duplicating the template"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests with a 25% chance.",
+            "Features a simple, sturdy pattern inspired by Pillager outposts.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item obtained from Pillager Outposts. It allows players to apply the 'Sentry' pattern to their armor, featuring a robust design that reflects the fortified nature of pillager structures. While relatively common compared to other trims, it provides a distinct look for players who enjoy raiding outposts. Like other templates, it can be duplicated using seven diamonds and cobblestone, ensuring that players can outfit their entire squad with this pillager-inspired aesthetic."
     }
 };
