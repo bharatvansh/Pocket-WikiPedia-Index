@@ -1678,5 +1678,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/dye_powder_blue",
         themeColor: "§9" // blue
+    },
+    {
+        id: "minecraft:beetroot_seeds",
+        name: "Beetroot Seeds",
+        category: "item",
+        icon: "textures/items/seeds_beetroot",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:pumpkin_seeds",
+        name: "Pumpkin Seeds",
+        category: "item",
+        icon: "textures/items/seeds_pumpkin",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:melon_seeds",
+        name: "Melon Seeds",
+        category: "item",
+        icon: "textures/items/seeds_melon",
+        themeColor: "§a" // green
     }
 ];
