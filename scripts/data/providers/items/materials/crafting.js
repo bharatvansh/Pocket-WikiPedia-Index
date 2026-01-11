@@ -479,7 +479,7 @@ export const craftingMaterials = {
             "Used to craft cyan dye when combined with green dye",
             "Can be obtained from suspicious gravel and suspicious sand in trail ruins"
         ],
-        description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves a dual purpose as blue dye for coloring wool, banners, and concrete. Beyond its essential role in magical enhancement, lapis can be crafted into blocks for storage and decoration, making it both a functional and aesthetic resource."
+        description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves as both a placeable wire for transmitting power and a crafting ingredient for numerous redstone components. When placed on blocks, it forms circuits that can transmit signals up to 15 blocks, powering mechanisms like pistons, doors, and dispensers. Redstone is also essential for crafting clocks, compasses, and advanced redstone devices, making it crucial for automation and complex builds."
     },
     "minecraft:paper": {
         id: "minecraft:paper",
@@ -1206,5 +1206,28 @@ export const craftingMaterials = {
             "Stacks up to 64 in Bedrock Edition"
         ],
         description: "The Miner Pottery Sherd is an archaeological artifact found in Trail Ruins by brushing Suspicious Gravel. This pottery fragment features a clear pickaxe design, representing the mining activities that have defined Minecraft's gameplay and lore. It is a tribute to the miners of the past. When used to craft a Decorated Pot, the Miner pattern creates a thematic decoration perfect for mine entrances, smithies, treasure rooms, or any build that celebrates the art of excavation."
+    },
+    "minecraft:cocoa_beans": {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Brown Dye and Cookies",
+            secondaryUse: "Composting"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Cocoa Pods on Jungle Logs"]
+        },
+        specialNotes: [
+            "Found growing on jungle trees in Jungle biomes",
+            "Can be farmed by planting on Jungle Logs",
+            "Used to craft Brown Dye (1:1 ratio) and Cookies",
+            "Compostable with a 65% chance to raise the compost level",
+            "Harvested when orange-brown for maximum yield (3 beans)"
+        ],
+        description: "Cocoa Beans are a farming resource found naturally growing on the trunks of jungle trees. They are harvested from cocoa pods, which go through three growth stages. When fully grown (orange-brown), breaking a pod yields 3 beans, allowing for easy multiplication. Their primary use is crafting Brown Dye and Cookies. They are essential for mass-producing brown building materials like wool, terracotta, and concrete, as well as providing a sweet treat when combined with wheat."
     }
 };
