@@ -316,5 +316,33 @@ export const rawFood = {
             "Farmer villagers may sell melon slices or buy full melon blocks"
         ],
         description: "A Melon Slice is a food item obtained by breaking a full Melon block. Each block drops multiple slices, making it a high-volume food source, though its individual nutritional value is low with only 2 hunger and 1.2 saturation restored. Its true value lies in its utility: slices can be crafted into seeds for farming or combined with gold nuggets to create Glistering Melons, a key ingredient for healing potions. It also serves as a decent composting material."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming cats and breeding axolotls"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Tropical Fish"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point and 0.2 saturation",
+            "Cannot be cooked",
+            "Used to tame cats and gain trust from ocelots",
+            "Axolotls can be bred using Buckets of Tropical Fish (not the item itself)",
+            "Found in warm ocean biomes",
+            "Clownfish was the legacy name before Update Aquatic"
+        ],
+        description: "Tropical Fish is a food item obtained by fishing in warm oceans or killing tropical fish. Unlike cod or salmon, it cannot be cooked and provides minimal nourishment, restoring only 1 hunger point. Its primary value lies in its use for taming cats and interacting with ocelots. While colorful and varied in appearance as mobs, the item form is generic. It is distinct from the Bucket of Tropical Fish, which preserves the fish alive for transport or axolotl breeding."
     }
 };

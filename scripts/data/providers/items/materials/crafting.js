@@ -1229,5 +1229,52 @@ export const craftingMaterials = {
             "Harvested when orange-brown for maximum yield (3 beans)"
         ],
         description: "Cocoa Beans are a farming resource found naturally growing on the trunks of jungle trees. They are harvested from cocoa pods, which go through three growth stages. When fully grown (orange-brown), breaking a pod yields 3 beans, allowing for easy multiplication. Their primary use is crafting Brown Dye and Cookies. They are essential for mass-producing brown building materials like wool, terracotta, and concrete, as well as providing a sweet treat when combined with wheat."
+    },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for smelting in furnaces and campfires",
+            secondaryUse: "Crafting torches, campfires, and fire charges"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Log or Wood (any type)", "Stripped Log or Wood (any type)"]
+        },
+        specialNotes: [
+            "Obtained by smelting logs or wood in a furnace",
+            "Burns for 80 seconds, smelting up to 8 items (same as coal)",
+            "Cannot be crafted into a block (unlike coal)",
+            "Used to craft Torches, Soul Torches, Campfires, and Fire Charges",
+            "Renewable resource via tree farming"
+        ],
+        description: "Charcoal is a fuel item created by smelting logs or wood in a furnace. It serves as a renewable alternative to coal, sharing the same burn time of 80 seconds, which allows it to smelt up to 8 items. While it cannot be compacted into a storage block like coal, it functions identically in most crafting recipes, such as making torches, campfires, and fire charges. This makes it an essential resource for players who may not have immediate access to coal mines but have an abundance of timber."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Features a diamond-like shape, symbolizing a prize or treasure",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the prize pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Prize Pottery Sherd is an archaeological artifact recovered from Trail Ruins by brushing Suspicious Gravel. It features a diamond icon, representing a prize, treasure, or valuable loot. This sherd is highly sought after by builders for its connotation of wealth and success. When used as a component in a Decorated Pot, it applies the prize motif to the pot's side, making it an excellent decoration for treasure rooms, vaults, or trophy displays."
     }
 };

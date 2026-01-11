@@ -1615,5 +1615,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/melon",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§0" // Black
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_clownfish_raw",
+        themeColor: "§6" // Orange/Gold
+    },
+    {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        category: "item",
+        icon: "textures/items/prize_pottery_sherd",
+        themeColor: "§b" // Aqua (diamond color)
     }
 ];
