@@ -1107,5 +1107,80 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Friend Pottery Sherd is a heartwarming archaeological find from Trail Ruins, depicting the distinctive unibrow and nose features of villagers or iron golems. This pottery fragment represents friendship, community, and the bonds between different beings in Minecraft's world. The sherd's design evokes warmth and companionship, making it particularly popular for village-themed builds, community centers, or friendship memorials. When crafted into a Decorated Pot, it serves as a symbol of unity and good relations."
+    },
+    "minecraft:arms_up_pottery_sherd": {
+        id: "minecraft:arms_up_pottery_sherd",
+        name: "Arms Up Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Arms Up motif",
+            secondaryUse: "Creating celebratory or victorious-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Wells"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Desert Wells",
+            "Features a distinctive design showing arms raised in celebration or surrender",
+            "Has a 25% chance to appear when brushing suspicious sand in desert wells",
+            "Used in crafting Decorated Pots to display the arms up pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Arms Up Pottery Sherd is a distinctive archaeological artifact found by carefully brushing Suspicious Sand in Desert Wells. This pottery fragment depicts arms raised upward, a universal gesture that could represent celebration, victory, surrender, or worship in ancient desert civilizations. Players value this sherd for its expressive and dramatic design. When incorporated into a Decorated Pot, the Arms Up pattern appears on one side, making it perfect for trophy rooms, victory monuments, or builds celebrating achievements and triumphs."
+    },
+    "minecraft:brewer_pottery_sherd": {
+        id: "minecraft:brewer_pottery_sherd",
+        name: "Brewer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Brewer motif",
+            secondaryUse: "Creating alchemy or potion-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Wells"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Desert Wells",
+            "Features a design depicting a brewing stand or potion-related imagery",
+            "Has a 25% chance to appear when brushing suspicious sand in desert wells",
+            "Used in crafting Decorated Pots to display the brewer pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Brewer Pottery Sherd is a fascinating archaeological discovery obtained by brushing Suspicious Sand in Desert Wells. This pottery fragment showcases ancient brewing or alchemy symbolism, reflecting the importance of potion-making and liquid storage in desert settlements. The design likely represents brewing stands or vessels used for creating potions and elixirs. When used to craft a Decorated Pot, the Brewer pattern makes it an ideal decoration for alchemy rooms, potion brewing areas, laboratories, or any build focused on magical or medicinal themes."
+    },
+    "minecraft:explorer_pottery_sherd": {
+        id: "minecraft:explorer_pottery_sherd",
+        name: "Explorer Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with an Explorer motif depicting a map",
+            secondaryUse: "Creating adventure or cartography-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features a map design symbolizing exploration and navigation",
+            "Has a 6.7% chance to appear when brushing suspicious gravel in cold ocean ruins",
+            "Used in crafting Decorated Pots to display the explorer pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Explorer Pottery Sherd is a maritime archaeological treasure found by brushing Suspicious Gravel in Cold Ocean Ruins. This pottery fragment depicts a stylized map, representing the spirit of exploration, navigation, and discovery that ancient oceanic civilizations valued. The cartographic design makes it particularly meaningful for adventurers and builders. When incorporated into a Decorated Pot, the Explorer pattern creates a perfect decoration for map rooms, navigation towers, adventure halls, or any build celebrating the journey of discovery across Minecraft's vast worlds."
     }
 };
