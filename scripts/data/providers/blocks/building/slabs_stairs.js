@@ -113,5 +113,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Stairs are a stair block variant made from Resin Bricks, introduced in Minecraft 1.21.50. They feature a distinctive warm, orange-toned brick texture. Like other stairs, they allow entities to change elevation without jumping and can be used for roofs, detailed walls, and corner connections. They are crafted using 6 Resin Bricks in a stair pattern or by using a Stonecutter. These stairs are part of the resin block family, which also includes blocks, slabs, walls, and chiseled variants."
+    },
+    "minecraft:mud_brick_stairs": {
+        id: "minecraft:mud_brick_stairs",
+        name: "Mud Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Mud Bricks"
+        },
+        description: "Mud Brick Stairs are the stair variant of mud bricks, offering a warm, earthy aesthetic for desert and savanna builds. Crafted from six mud bricks in a stair pattern, they allow entities to change elevation without jumping. They feature the same orange-brown brick texture as mud brick blocks and walls, making them perfect for creating cohesive pathways, terraces, and roof slopes in sandy biomes. When crafted via stonecutter, they are made more efficiently, yielding more stairs per block. They work well with packed mud and mud bricks for comprehensive building palettes."
+    },
+    "minecraft:mud_brick_wall": {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Wall"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Mud Bricks"
+        },
+        description: "Mud Brick Walls are low-height decorative barriers crafted from mud bricks, featuring a warm orange-brown brick pattern. At 1.5 blocks tall, they prevent most mobs and players from crossing while maintaining visibility. They connect seamlessly with other walls and fences, making them excellent for desert village perimeters, farm boundaries, and decorative garden edges. Crafted from six mud bricks in two horizontal rows, they share the same aesthetic as mud brick blocks and stairs, allowing for cohesive building designs. Their rustic appearance fits perfectly in arid and savanna-themed builds."
     }
 };

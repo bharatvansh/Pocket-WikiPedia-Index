@@ -1498,6 +1498,27 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        category: "block",
+        icon: "textures/blocks/mud_brick_wall",
+        themeColor: "§6" // brown/orange
+    },
+    {
+        id: "minecraft:mud_brick_stairs",
+        name: "Mud Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/mud_brick_stairs",
+        themeColor: "§6" // brown/orange
+    },
+    {
+        id: "minecraft:target",
+        name: "Target",
+        category: "block",
+        icon: "textures/blocks/target_side",
+        themeColor: "§c" // red
+    },
+    {
         id: "minecraft:deny",
         name: "Deny",
         category: "block",
