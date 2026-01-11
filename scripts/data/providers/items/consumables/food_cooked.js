@@ -343,5 +343,86 @@ export const cookedFood = {
             "Unlike raw potatoes, they cannot be planted to grow more crops"
         ],
         description: "The Baked Potato is a highly efficient food item in Minecraft Bedrock Edition, produced by cooking raw potatoes. While a single baked potato restores 5 hunger points and 6.0 saturation, the real strength lies in the high yield of potato crops, which can produce multiple potatoes per harvest. This makes it a very sustainable food source for survival players. Additionally, baked potatoes are a necessary component in the recipe for Rabbit Stew, the game's most restorative meal. They are a popular choice for automated farms and are also commonly traded by Farmer villagers."
+    },
+    "minecraft:cooked_porkchop": {
+        id: "minecraft:cooked_porkchop",
+        name: "Cooked Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-value food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 8,
+            saturation: 12.8
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Porkchop", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 8 hunger (4 drumsticks) and 12.8 saturation",
+            "Obtained by smelting raw porkchop or killing pigs with fire",
+            "Statistically identical to Steak",
+            "Can be used to breed, heal, and grow wolves",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Porkchop is a high-energy food item obtained by cooking raw porkchop in a furnace, smoker, or campfire. It can also be obtained directly by killing pigs or hoglins with fire. Statistically identical to steak, it restores 8 hunger points and provides excellent saturation (12.8), making it one of the best food sources for sustaining health and hunger during long adventures or combat encounters. It serves as a reliable staple for players who farm pigs."
+    },
+    "minecraft:cooked_mutton": {
+        id: "minecraft:cooked_mutton",
+        name: "Cooked Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 6,
+            saturation: 9.6
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Mutton", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 9.6 saturation",
+            "Obtained by smelting raw mutton or killing sheep with fire",
+            "Can be used to breed, heal, and grow wolves",
+            "Stackable up to 64",
+            "A byproduct of sheep wool farms"
+        ],
+        description: "Cooked Mutton is a nutritious food item obtained by cooking raw mutton or killing sheep with fire. Restoring 6 hunger points and providing solid saturation (9.6), it serves as a reliable food source for players who raise sheep for wool. While slightly less nutritious than steak or porkchops, it is a valuable byproduct of wool farms and offers a good balance of availability and sustenance."
+    },
+    "minecraft:cooked_cod": {
+        id: "minecraft:cooked_cod",
+        name: "Cooked Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Healing wolves"
+        },
+        food: {
+            hunger: 5,
+            saturation: 6.0
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Cod", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 5 hunger (2.5 drumsticks) and 6.0 saturation",
+            "Obtained by smelting raw cod or killing cod with fire",
+            "Can be fed to wolves to heal them",
+            "Cats can be fed cooked cod to heal them (but prefer raw to tame)",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Cod is a food item obtained by cooking raw cod in a furnace, smoker, or campfire. It restores 5 hunger points and 6 saturation, making it equal to bread or baked potatoes in nutritional value. Easily obtained from the abundant cod found in oceans, it is a convenient food source for players living near water or exploring marine biomes. It can also be fed to wolves to heal them."
     }
 };

@@ -1573,5 +1573,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/potato",
         themeColor: "§e" // yellow/skin
+    },
+    {
+        id: "minecraft:cooked_porkchop",
+        name: "Cooked Porkchop",
+        category: "item",
+        icon: "textures/items/porkchop_cooked",
+        themeColor: "§e" // beige/cooked meat
+    },
+    {
+        id: "minecraft:cooked_mutton",
+        name: "Cooked Mutton",
+        category: "item",
+        icon: "textures/items/mutton_cooked",
+        themeColor: "§6" // brown/cooked meat
+    },
+    {
+        id: "minecraft:cooked_cod",
+        name: "Cooked Cod",
+        category: "item",
+        icon: "textures/items/fish_cooked",
+        themeColor: "§f" // white/cooked fish
     }
 ];
