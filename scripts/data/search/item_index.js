@@ -1531,5 +1531,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/shaper_armor_trim_smithing_template",
         themeColor: "§6" // orange/terracotta
+    },
+    {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        category: "item",
+        icon: "textures/items/field_masoned_banner_pattern",
+        themeColor: "§c" // red/brick
+    },
+    {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
+        category: "item",
+        icon: "textures/items/bordure_indented_banner_pattern",
+        themeColor: "§2" // green/vines
+    },
+    {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§0" // black
     }
 ];

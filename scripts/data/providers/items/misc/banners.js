@@ -193,5 +193,53 @@ export const bannerPatterns = {
             "Commonly referred to as the 'Mojang' logo pattern."
         ],
         description: "The Thing Banner Pattern is one of the most prestigious decorative items in Minecraft, allowing players to emblazon the Mojang Studios logo onto their banners. In Bedrock Edition, it is crafted by combining a piece of paper with an Enchanted Golden Apple, making it exceptionally rare and expensive to produce. Despite its high cost, the pattern itself is not consumed when used in a Loom, allowing a single pattern to be used to create an infinite number of banners."
+    },
+    "minecraft:field_masoned_banner_pattern": {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Field Masoned' pattern to a banner in a Loom",
+            secondaryUse: "Creating brick-work decorative designs on banners"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Brick Block"]
+        },
+        specialNotes: [
+            "Added in the 1.21 Tricky Trials update.",
+            "Crafted using a shapeless recipe of 1 Paper and 1 Brick Block.",
+            "Applies a brick-like masonry pattern to the banner.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Renewable since Paper and Brick Blocks are easily obtained.",
+            "Allows for intricate architectural details in banner designs."
+        ],
+        description: "The Field Masoned Banner Pattern is a specialized decorative item used to apply a brick-like masonry design to banners. Added in the 1.21 Tricky Trials update, it allows players to add intricate architectural details to their heraldry. In Bedrock Edition, it is crafted using a shapeless recipe combining one Paper and one Brick Block. Since Bricks are easily obtained by smelting Clay Balls, this pattern is a renewable and accessible option for builders."
+    },
+    "minecraft:bordure_indented_banner_pattern": {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Bordure Indented' pattern to a banner in a Loom",
+            secondaryUse: "Creating fancy indented borders on banners"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["1 Paper", "1 Vines"]
+        },
+        specialNotes: [
+            "Added in the 1.21 Tricky Trials update.",
+            "Crafted using a shapeless recipe of 1 Paper and 1 Vines.",
+            "Applies a sawtooth or indented border pattern to the banner.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Renewable since Paper and Vines are easily farmable.",
+            "Great for framing banner designs with a unique edge."
+        ],
+        description: "The Bordure Indented Banner Pattern is a decorative item that applies a fancy indented border design to banners. Introduced in the 1.21 update, it enables players to frame their banner designs with a unique sawtooth edge. In Bedrock Edition, it is crafted using a shapeless recipe of one Paper and one Vines. Since Vines are easily farmable in jungle biomes or swamps, this pattern is highly accessible for all players looking to enhance their banner borders."
     }
 };
