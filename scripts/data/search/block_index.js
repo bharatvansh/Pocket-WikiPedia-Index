@@ -1482,5 +1482,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hanging_roots",
         themeColor: "§6" // brown/earthy
+    },
+    {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        category: "block",
+        icon: "textures/blocks/barrier",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:allow",
+        name: "Allow",
+        category: "block",
+        icon: "textures/blocks/allow",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:deny",
+        name: "Deny",
+        category: "block",
+        icon: "textures/blocks/deny",
+        themeColor: "§c" // red
     }
 ];
