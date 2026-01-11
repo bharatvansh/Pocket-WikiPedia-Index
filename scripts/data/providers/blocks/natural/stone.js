@@ -304,5 +304,26 @@ export const stoneBlocks = {
             yRange: "Strongholds, Mountain biomes, Igloos"
         },
         description: "Infested Stone is a deceptive block that looks identical to regular stone but hides a Silverfish inside. When broken in Survival mode, it doesn't drop anything and instead releases a hostile Silverfish that attacks the player. These blocks are commonly found in strongholds, mountain biomes, and underneath igloos. In Bedrock Edition, they can be identified because they break faster than normal stone. Using a tool with Silk Touch allows the player to retrieve a normal stone block without spawning the creature."
+    },
+    "minecraft:polished_deepslate": {
+        id: "minecraft:polished_deepslate",
+        name: "Polished Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Polished Deepslate is a decorative building block crafted from four cobbled deepslate blocks or created via a stonecutter. It has a smooth, dark gray texture that serves as a refined version of deepslate, making it excellent for flooring, walls, and structural accents. It generates naturally in Ancient Cities. Like other deepslate variants, it has a high hardness (3.5) and blast resistance (6.0), providing durability comparable to stone products. It can be further crafted into deepslate bricks, deepslate tiles, or polished deepslate walls, stairs, and slabs."
     }
 };

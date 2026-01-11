@@ -1545,5 +1545,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mycelium_top",
         themeColor: "§5" // purple (mycelium)
+    },
+    {
+        id: "minecraft:polished_deepslate",
+        name: "Polished Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_polished",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        category: "block",
+        icon: "textures/blocks/soul_lantern",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:warped_stem",
+        name: "Warped Stem",
+        category: "block",
+        icon: "textures/blocks/warped_stem_side",
+        themeColor: "§3" // dark aqua/teal
     }
 ];
