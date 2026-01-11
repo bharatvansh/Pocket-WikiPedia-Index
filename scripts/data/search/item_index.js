@@ -7,6 +7,27 @@
  */
 export const itemIndex = [
     {
+        id: "minecraft:wooden_sword",
+        name: "Wooden Sword",
+        category: "item",
+        icon: "textures/items/wooden_sword",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:golden_sword",
+        name: "Golden Sword",
+        category: "item",
+        icon: "textures/items/golden_sword",
+        themeColor: "§e" // gold/yellow
+    },
+    {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        category: "item",
+        icon: "textures/items/stone_sword",
+        themeColor: "§7" // gray/stone
+    },
+    {
         id: "minecraft:iron_sword",
         name: "Iron Sword",
         category: "item",
