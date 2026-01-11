@@ -178,5 +178,26 @@ export const dirtBlocks = {
             yRange: "Below Azalea trees"
         },
         description: "Rooted Dirt is a decorative block that generates naturally under azalea trees, indicating the presence of a lush cave below. Unlike regular dirt, grass cannot grow on it. Using a hoe on rooted dirt will turn it into regular dirt and drop a hanging roots item. Using bone meal on rooted dirt causes hanging roots to grow beneath it if there is air below."
+    },
+    "minecraft:powder_snow": {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Powder Snow"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Snowy tundra, snowy taiga, jagged peaks (y 80+)"
+        },
+        description: "Powder Snow is a unique block that allows players and mobs to sink into it, similar to quicksand but much slower. Found naturally in snowy biomes, it causes players wearing leather boots to sink slowly while protecting them from freezing damage. Entities that sink into powder snow take suffocation damage if they cannot escape, making it both a useful tool and potential hazard. It can be collected with Silk Touch and can be crafted into Snow Blocks using four powder snow. It forms a natural barrier against wind and can support snow layers above it."
     }
 };

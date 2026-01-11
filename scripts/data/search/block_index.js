@@ -1498,6 +1498,27 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        category: "block",
+        icon: "textures/blocks/bundle",
+        themeColor: "§6" // gold/brown
+    },
+    {
         id: "minecraft:deny",
         name: "Deny",
         category: "block",
