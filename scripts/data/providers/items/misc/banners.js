@@ -193,5 +193,28 @@ export const bannerPatterns = {
             "Commonly referred to as the 'Mojang' logo pattern."
         ],
         description: "The Thing Banner Pattern is one of the most prestigious decorative items in Minecraft, allowing players to emblazon the Mojang Studios logo onto their banners. In Bedrock Edition, it is crafted by combining a piece of paper with an Enchanted Golden Apple, making it exceptionally rare and expensive to produce. Despite its high cost, the pattern itself is not consumed when used in a Loom, allowing a single pattern to be used to create an infinite number of banners."
+    },
+    "minecraft:field_masoned_banner_pattern": {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Field Masoned' pattern to a banner in a Loom",
+            secondaryUse: "Creating decorative banners with a brickwork design"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["1 Paper", "1 Brick Block"]
+        },
+        specialNotes: [
+            "Crafted using 1 Paper and 1 Brick Block.",
+            "Exclusive to Bedrock Edition (though the pattern exists in Java via commands/looms without item).",
+            "Applies a brickwork texture to the banner.",
+            "The banner pattern item is not consumed when used in a Loom.",
+            "Allows for easy creation of brick-themed banners for builds."
+        ],
+        description: "The Field Masoned Banner Pattern is a special decorative item that is unique to the Bedrock Edition of Minecraft as a craftable item. Created by combining paper and a brick block, it allows players to apply a 'Field Masoned' or brickwork pattern to their banners using a Loom. This pattern is excellent for adding texture to banner designs, simulating walls, or creating intricate heraldry. Because the pattern item is not consumed during use, a single crafted item allows for infinite applications of this distinct design."
     }
 };

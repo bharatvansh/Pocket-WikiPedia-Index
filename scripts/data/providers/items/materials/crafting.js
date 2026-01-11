@@ -1182,5 +1182,28 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Explorer Pottery Sherd is a maritime archaeological treasure found by brushing Suspicious Gravel in Cold Ocean Ruins. This pottery fragment depicts a stylized map, representing the spirit of exploration, navigation, and discovery that ancient oceanic civilizations valued. The cartographic design makes it particularly meaningful for adventurers and builders. When incorporated into a Decorated Pot, the Explorer pattern creates a perfect decoration for map rooms, navigation towers, adventure halls, or any build celebrating the journey of discovery across Minecraft's vast worlds."
+    },
+    "minecraft:plenty_pottery_sherd": {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Plenty motif",
+            secondaryUse: "Decorative archaeological item symbolizing wealth"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins.",
+            "Features an image of a chest full of items, symbolizing abundance.",
+            "Used in crafting Decorated Pots to display the plenty pattern on one side.",
+            "Stacks up to 64 in Bedrock Edition.",
+            "Part of the archaeology system introduced in the Trails & Tales update."
+        ],
+        description: "The Plenty Pottery Sherd is an archaeological treasure found in Trail Ruins by brushing Suspicious Gravel. This pottery fragment displays an image of an overflowing chest, representing wealth, abundance, and prosperity in ancient cultures. Players prize this sherd for its positive symbolism and use it to decorate storage rooms or treasury builds. When crafted into a Decorated Pot with other sherds or bricks, the Plenty pattern is displayed on the side, adding a touch of fortune to any environment."
     }
 };
