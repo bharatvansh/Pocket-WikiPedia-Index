@@ -287,13 +287,34 @@ jobs:
               });
 
               if (pr.draft) {
-                console.log('PR is a draft, marking as ready for review...');
-                await github.rest.pulls.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  pull_number: context.issue.number,
-                  draft: false
-                });
+                console.log('PR is a draft, attempting to mark as ready for review...');
+                
+                // Try using GraphQL API which is more reliable for state changes
+                try {
+                  await github.graphql(`
+                    mutation($pullRequestId: ID!) {
+                      markPullRequestReadyForReview(input: {pullRequestId: $pullRequestId}) {
+                        pullRequest {
+                          isDraft
+                        }
+                      }
+                    }
+                  `, {
+                    pullRequestId: pr.node_id
+                  });
+                  console.log('Successfully marked as ready for review via GraphQL');
+                } catch (gqlError) {
+                  console.log('GraphQL update failed, falling back to REST:', gqlError.message);
+                  await github.rest.pulls.update({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: context.issue.number,
+                    draft: false
+                  });
+                }
+                
+                // Wait for state to propagate
+                await new Promise(resolve => setTimeout(resolve, 5000));
               }
 
               await github.rest.pulls.merge({
