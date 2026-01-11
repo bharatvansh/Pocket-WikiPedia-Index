@@ -178,5 +178,68 @@ export const dirtBlocks = {
             yRange: "Below Azalea trees"
         },
         description: "Rooted Dirt is a decorative block that generates naturally under azalea trees, indicating the presence of a lush cave below. Unlike regular dirt, grass cannot grow on it. Using a hoe on rooted dirt will turn it into regular dirt and drop a hanging roots item. Using bone meal on rooted dirt causes hanging roots to grow beneath it if there is air below."
+    },
+    "minecraft:sand": {
+        id: "minecraft:sand",
+        name: "Sand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sand"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Beaches, Deserts, Riverbeds)"
+        },
+        description: "Sand is a gravity-affected block found naturally in deserts, beaches, and riverbeds. It is essential for crafting glass, sandstone, and concrete powder. When unsupported, sand falls until it hits a solid block or entity."
+    },
+    "minecraft:gravel": {
+        id: "minecraft:gravel",
+        name: "Gravel",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gravel", "Flint"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Any (Surface, Underground, Nether)"
+        },
+        description: "Gravel is a gravity-affected block found in the Overworld and the Nether. When mined, it has a 10% chance to drop Flint instead of itself, which is used to craft arrows and flint and steel. Gravel is also used to craft coarse dirt and concrete powder."
+    },
+    "minecraft:mycelium": {
+        id: "minecraft:mycelium",
+        name: "Mycelium",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mushroom Fields Biome"
+        },
+        description: "Mycelium is a variant of the grass block found exclusively in Mushroom Fields biomes. It spreads to adjacent dirt blocks and allows mushrooms to grow in any light level. It emits tiny spores as particles. Mining it without Silk Touch yields Dirt."
     }
 };

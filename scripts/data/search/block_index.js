@@ -1524,5 +1524,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chain",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:sand",
+        name: "Sand",
+        category: "block",
+        icon: "textures/blocks/sand",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:gravel",
+        name: "Gravel",
+        category: "block",
+        icon: "textures/blocks/gravel",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:mycelium",
+        name: "Mycelium",
+        category: "block",
+        icon: "textures/blocks/mycelium_top",
+        themeColor: "§5" // purple (mycelium)
     }
 ];
