@@ -1587,5 +1587,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/iron_bars",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // Dark Purple
+    },
+    {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        category: "block",
+        icon: "textures/items/flower_pot",
+        themeColor: "§6" // Gold/Brown
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // Red
     }
 ];
