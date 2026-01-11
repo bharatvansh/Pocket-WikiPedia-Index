@@ -316,5 +316,33 @@ export const rawFood = {
             "Farmer villagers may sell melon slices or buy full melon blocks"
         ],
         description: "A Melon Slice is a food item obtained by breaking a full Melon block. Each block drops multiple slices, making it a high-volume food source, though its individual nutritional value is low with only 2 hunger and 1.2 saturation restored. Its true value lies in its utility: slices can be crafted into seeds for farming or combined with gold nuggets to create Glistering Melons, a key ingredient for healing potions. It also serves as a decent composting material."
+    },
+    "minecraft:beetroot": {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and crafting Beetroot Soup",
+            secondaryUse: "Breeding pigs and crafting Red Dye"
+        },
+        food: {
+            hunger: 1,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Beetroot crops", "Village gardens"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point and 1.2 saturation",
+            "Used to craft Beetroot Soup (6 Beetroots + 1 Bowl)",
+            "Can be crafted into Red Dye",
+            "Used to breed pigs and lead them",
+            "Farmer villagers may trade Beetroots for Emeralds",
+            "Compostable with a 65% chance to raise the compost level"
+        ],
+        description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
     }
 };

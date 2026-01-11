@@ -1229,5 +1229,53 @@ export const craftingMaterials = {
             "Harvested when orange-brown for maximum yield (3 beans)"
         ],
         description: "Cocoa Beans are a farming resource found naturally growing on the trunks of jungle trees. They are harvested from cocoa pods, which go through three growth stages. When fully grown (orange-brown), breaking a pod yields 3 beans, allowing for easy multiplication. Their primary use is crafting Brown Dye and Cookies. They are essential for mass-producing brown building materials like wool, terracotta, and concrete, as well as providing a sweet treat when combined with wheat."
+    },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for smelting in furnaces and campfires",
+            secondaryUse: "Crafting torches, campfires, and fire charges"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Log or Wood (any type)"]
+        },
+        specialNotes: [
+            "Obtained by smelting logs or wood in a furnace",
+            "Burns for 80 seconds, smelting up to 8 items (same as coal)",
+            "Essential for crafting Torches (1 Charcoal + 1 Stick = 4 Torches)",
+            "Used to craft Campfires, Soul Torches, and Fire Charges",
+            "Cannot be crafted into a Coal Block",
+            "Renewable fuel source derived from trees"
+        ],
+        description: "Charcoal is a renewable fuel source created by smelting logs or wood in a furnace. It shares the same fuel efficiency as coal, burning for 80 seconds and smelting up to 8 items per piece. Charcoal is an essential alternative to coal, especially for players who have not yet found coal ore or who have a surplus of wood. It can be used to craft torches, campfires, and fire charges, but unlike coal, it cannot be compacted into blocks or traded with villagers in the same way."
+    },
+    "minecraft:wheat_seeds": {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Wheat",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Breaking grass or tall grass", "Harvesting Wheat"]
+        },
+        specialNotes: [
+            "Obtained by breaking grass, tall grass, or ferns",
+            "Planted on farmland to grow Wheat crops",
+            "Used to breed chickens and reduce growth time of baby chickens",
+            "Used to tame parrots in Bedrock Edition",
+            "Compostable with a 30% chance to raise the compost level",
+            "Dropped by wheat crops when harvested"
+        ],
+        description: "Wheat Seeds are the starting point for one of the most fundamental crops in Minecraft. They are easily obtained by breaking grass or harvesting mature wheat. When planted on tilled farmland, they grow into wheat, which is essential for food and animal breeding. Beyond farming, wheat seeds serve as the primary food for chickens, allowing players to breed them, and are used to tame parrots. Their abundance makes them a reliable resource for starting a farm and establishing a food supply early in the game."
     }
 };

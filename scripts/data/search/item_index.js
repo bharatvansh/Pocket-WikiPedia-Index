@@ -1636,5 +1636,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/music_disc_mall",
         themeColor: "§5" // Purple
+    },
+    {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        category: "item",
+        icon: "textures/items/beetroot",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        category: "item",
+        icon: "textures/items/seeds_wheat",
+        themeColor: "§a" // green
     }
 ];
