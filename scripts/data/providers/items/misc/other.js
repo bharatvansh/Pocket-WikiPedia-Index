@@ -896,5 +896,54 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:snowball": {
+        id: "minecraft:snowball",
+        name: "Snowball",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Throwing at mobs and creating Snow Golems",
+            secondaryUse: "Decoration and temporary blaze knockback"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Snow Golems or harvested from Snow layers with a shovel"]
+        },
+        specialNotes: [
+            "Obtained by destroying snow layers (with shovel) or as drops from Snow Golems",
+            "Can be thrown by right-clicking to deal knockback to mobs and blazes",
+            "Deals damage to Blazes and Snow Golems, but only knockback to other mobs",
+            "Essential crafting ingredient for Snow Golems (2 blocks of snow + 1 carved pumpkin)",
+            "Has no effect on Endermen (they teleport away)",
+            "In Bedrock Edition, snowballs are obtained by mining snow blocks or snow layers with a shovel"
+        ],
+        description: "Snowballs are throwable items obtained by destroying snow layers with a shovel or as drops from Snow Golems. While they deal minimal damage to most mobs and only knockback effects, they are uniquely effective against Blazes, dealing actual damage to these fiery Nether creatures. Snowballs are also a critical component for crafting Snow Golems, which require two snow blocks and a carved pumpkin. In Bedrock Edition, players can farm snowballs by using a shovel on snow blocks in cold biomes."
+    },
+    "minecraft:fire_charge": {
+        id: "minecraft:fire_charge",
+        name: "Fire Charge",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Setting fires and crafting dispensers with fire capabilities",
+            secondaryUse: "Crafting Firework Stars and lighting Nether portals"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts and found in loot chests"]
+        },
+        specialNotes: [
+            "Dropped by Ghasts (1 per Ghast; increased by Looting enchantment)",
+            "Found in Bastion Remnant chests as a valuable loot item",
+            "When used, creates fire at the target location (similar to flint and steel)",
+            "Can be loaded into Dispensers to automatically fire flames",
+            "Used in crafting Firework Stars (with gunpowder) for colorful firework effects",
+            "Can ignite Nether Portals when right-clicked on a portal frame",
+            "In Bedrock, right-clicking a lit campfire with a fire charge will set it on fire"
+        ],
+        description: "Fire Charges are explosive projectiles that can be used to create fire or ignite flammable blocks. They are primarily obtained by defeating Ghasts in the Nether, which drop them upon death, or by searching loot chests in Bastion Remnants. When right-clicked, a fire charge will ignite the target block or entity. They are also an essential component for crafting Firework Stars, which determine the color and shape of firework explosions. When loaded into Dispensers, fire charges can automate fire placement, making them useful for traps and mechanisms."
     }
 };
