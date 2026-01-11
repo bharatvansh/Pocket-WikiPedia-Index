@@ -135,5 +135,26 @@ export const endBlocks = {
             yRange: "Chorus plants (End islands)"
         },
         description: "Chorus Flower is a unique purple plant block growing on chorus plants in the End dimension, appearing as flowered tips of chorus trees. Plantable on end stone in any dimension regardless of light level. Chorus flowers progress through ages 0-5, becoming fully purple at age 5. At age 5, the flower stops growing and drops one chorus fruit when harvested, resetting the cycle when replanted. Flowers at ages 0-4 drop themselves when broken. A chorus flower grows upward until age 5 or encountering air, then may branch sideways."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of Exit Portal"
+        },
+        description: "The Dragon Egg is a unique decorative block that appears on top of the exit portal in the End after the first Ender Dragon is defeated. It is the rarest block in the game as only one generates naturally per world. The egg is subject to gravity and will teleport to a nearby location when clicked or attacked. To collect it, players typically use a piston or let it fall onto a torch. In Bedrock Edition, it emits a faint light level of 1 and has high blast resistance. It serves primarily as a trophy of achievement."
     }
 };
