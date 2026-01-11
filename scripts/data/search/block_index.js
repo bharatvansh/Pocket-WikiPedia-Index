@@ -1524,5 +1524,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chain",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple/black
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_top",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        category: "block",
+        icon: "textures/blocks/command_block_front",
+        themeColor: "§6" // orange (impulse)
     }
 ];
