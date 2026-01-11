@@ -1608,5 +1608,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_wart_block",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        category: "block",
+        icon: "textures/blocks/coal_ore",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        category: "block",
+        icon: "textures/blocks/coal_block",
+        themeColor: "§8" // dark gray/black
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];

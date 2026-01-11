@@ -367,5 +367,26 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Netherite is the most durable and expensive storage block in the game, crafted from nine netherite ingots. It shares the extreme blast resistance of obsidian and ancient debris, making it immune to most explosions, including the Wither's attacks. It serves as a compact way to store netherite or as a prestigious decorative block with a dark, metallic texture. To mine it and retrieve the block, a diamond or netherite pickaxe is required; otherwise, it drops nothing. It is also used to power beacons to their highest tier."
+    },
+    "minecraft:coal_block": {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Block of Coal"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Block of Coal is a compact storage block crafted from nine pieces of coal arranged in a 3x3 grid. It is highly efficient as a fuel source, capable of smelting 80 items (roughly 1.3 stacks), which is more than the sum of its individual coal pieces (72 items). It is also flammable and can be used as a building block with a distinct dark texture. Unlike coal ore, it does not generate naturally and must be crafted by players. It requires a wooden pickaxe or better to mine."
     }
 };
