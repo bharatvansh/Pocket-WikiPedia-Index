@@ -371,5 +371,68 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of copper, featuring a distinct teal-green patina. Found naturally in Trial Chambers, it serves as a weathered decorative and functional block. Players can wax it with honeycomb to lock its appearance or scrape it with an axe to revert it to a weathered state. It must be mined with a stone pickaxe or better to drop as an item. Unlike iron trapdoors, copper trapdoors can be toggled by hand or redstone, providing versatility for aged industrial or ancient-themed builds."
+    },
+    "minecraft:waxed_chiseled_copper": {
+        id: "minecraft:waxed_chiseled_copper",
+        name: "Waxed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Chiseled Copper is a decorative block chemically treated with honeycomb to prevent oxidation, preserving its pristine brownish-copper appearance permanently. It features the same intricate geometric pattern as standard chiseled copper and is used for architectural details where a consistent, unweathered look is desired. Like other copper blocks, it requires a stone pickaxe or better to mine. It cannot be scraped with an axe to change its state, as the wax layer protects it from aging."
+    },
+    "minecraft:waxed_copper_bulb": {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Copper Bulb is a light-emitting redstone component treated with honeycomb to permanently maintain its oxidation state and light level. This variant preserves the 'fresh' copper appearance and emits a light level of 15 when powered. Like the standard bulb, it toggles between on and off states with each redstone pulse. It is essential for builds requiring consistent lighting brightness without the risk of dimming due to natural weathering. It drops itself when mined with a stone pickaxe or higher."
+    },
+    "minecraft:waxed_copper_grate": {
+        id: "minecraft:waxed_copper_grate",
+        name: "Waxed Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Copper Grate is a decorative copper block treated with honeycomb to prevent oxidation. It retains its original bright copper color and transparent lattice design, making it ideal for permanent vents, walkways, and industrial detailing. The wax coating ensures it will never weather into exposed or oxidized states, maintaining a consistent aesthetic. It allows light to pass through and must be mined with a stone pickaxe or better to be collected. It cannot be scraped to revert oxidation stages."
     }
 };
