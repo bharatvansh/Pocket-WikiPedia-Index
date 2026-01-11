@@ -1182,5 +1182,28 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Explorer Pottery Sherd is a maritime archaeological treasure found by brushing Suspicious Gravel in Cold Ocean Ruins. This pottery fragment depicts a stylized map, representing the spirit of exploration, navigation, and discovery that ancient oceanic civilizations valued. The cartographic design makes it particularly meaningful for adventurers and builders. When incorporated into a Decorated Pot, the Explorer pattern creates a perfect decoration for map rooms, navigation towers, adventure halls, or any build celebrating the journey of discovery across Minecraft's vast worlds."
+    },
+    "minecraft:plenty_pottery_sherd": {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Plenty motif",
+            secondaryUse: "Decorative archaeological item symbolizing wealth"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features an image of a chest overflowing with gems",
+            "Has a 6.7% chance to appear when brushing suspicious gravel in cold ocean ruins",
+            "Used in crafting Decorated Pots to display the plenty pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting"
+        ],
+        description: "The Plenty Pottery Sherd is an archaeological fragment found by brushing Suspicious Gravel in Cold Ocean Ruins. It features an image of a chest overflowing with gems, symbolizing wealth and abundance. When crafted into a Decorated Pot, it displays this prosperity-themed design, making it an excellent decorative piece for treasuries, shops, and storage rooms. As with all sherds, it is a non-renewable resource that connects players to the sunken history of the Minecraft world."
     }
 };
