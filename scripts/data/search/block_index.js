@@ -1608,5 +1608,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_wart_block",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater_off",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:unpowered_comparator",
+        name: "Redstone Comparator",
+        category: "block",
+        icon: "textures/blocks/comparator_off",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];
