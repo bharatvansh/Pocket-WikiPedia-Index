@@ -284,5 +284,68 @@ export const interactiveBlocks = {
             yRange: "Villages, Pillager Outposts, Ancient Cities, Bastion Remnants"
         },
         description: "The Jigsaw Block is a technical block used for generating structures like villages, pillager outposts, ancient cities, and bastion remnants. It cannot be obtained in Survival mode and is only accessible through commands in Creative mode. Jigsaw blocks define how structure pieces connect by matching target pools and attachment types. In Bedrock Edition, structures can be generated using the /place jigsaw command with keepJigsaws set to true to preserve jigsaw blocks. This unbreakable block primarily serves as a tool for map makers and structure designers."
+    },
+    "minecraft:barrier": {
+        id: "minecraft:barrier",
+        name: "Barrier",
+        hardness: -1,
+        blastResistance: 3600000.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Barrier is an invisible, indestructible block used to create solid boundaries in Minecraft Bedrock Edition. Obtainable only through commands, it cannot be mined or destroyed in Survival mode. While transparent to light, barriers provide collision detection, preventing passage. When held or with particle effects enabled, a red particle texture appears for visibility. Essential for map makers to restrict player movement and define boundaries in custom worlds and servers."
+    },
+    "minecraft:allow": {
+        id: "minecraft:allow",
+        name: "Allow",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only or Creative with Education Edition enabled"
+        },
+        description: "The Allow block is exclusive to Bedrock Edition with Education Edition enabled. It permits players to place and break blocks above it, even in protected areas created by Deny blocks or spawn protection. Obtainable through commands or Creative inventory with Education features active, it's essential for educators building interactive learning environments. Only World Builder permission holders can manipulate Allow blocks. Displays a distinctive green checkmark texture for easy identification."
+    },
+    "minecraft:deny": {
+        id: "minecraft:deny",
+        name: "Deny",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only or Creative with Education Edition enabled"
+        },
+        description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
     }
 };
