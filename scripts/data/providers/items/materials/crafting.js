@@ -602,6 +602,30 @@ export const craftingMaterials = {
         ],
         description: "Coal is one of the most fundamental fuel sources in Minecraft, obtained by mining coal ore with any pickaxe or from Wither Skeleton drops. Each piece burns for 80 seconds in a furnace, smelting up to 8 items, making it an efficient early-game fuel. Beyond smelting, coal is essential for crafting torches, which provide light and prevent hostile mob spawning. It can be compacted into coal blocks for more efficient storage and extended burn times. Coal is also used in crafting campfires for cooking and ambiance, as well as fire charges for remote ignition."
     },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for smelting in furnaces and campfires",
+            secondaryUse: "Crafting torches, campfires, and fire charges"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Any Log or Wood"]
+        },
+        specialNotes: [
+            "Obtained by smelting logs or wood in a furnace.",
+            "Burns for 80 seconds, smelting up to 8 items (same as Coal).",
+            "Renewable alternative to Coal, essential when Coal Ore is scarce.",
+            "Used to craft Torches, Soul Torches, Campfires, and Fire Charges.",
+            "Cannot be crafted into blocks (unlike Coal).",
+            "Not tradable with villagers (unlike Coal)."
+        ],
+        description: "Charcoal is a fuel item obtained by smelting logs or wood in a furnace. It serves as a renewable alternative to Coal, sharing the same burn time of 80 seconds (smelting 8 items). Charcoal is essential for survival, especially in the early game or on maps where Coal Ore is scarce. It can be used to craft Torches, Campfires, and Fire Charges, but unlike Coal, it cannot be crafted into blocks or traded with villagers."
+    },
     "minecraft:book": {
         id: "minecraft:book",
         name: "Book",
