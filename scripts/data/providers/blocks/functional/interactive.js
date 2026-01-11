@@ -4,7 +4,7 @@
 // fence gates (all types), beds (all 16 colors), signs (all types),
 // hanging signs (all types), banners (all 16 colors), bells,
 // campfire, soul campfire, lantern, soul lantern, torch, soul torch,
-// candles (all 17 colors including undyed), cake, flower pot
+// candles (all 17 colors including undyed), cake, flower pot, TNT
 // ============================================
 
 /**
@@ -347,5 +347,47 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:flower_pot": {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flower Pot"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Witch Huts, Basements of Igloos, Woodland Mansions"
+        },
+        description: "The Flower Pot is a decorative block that allows players to display saplings, mushrooms, flowers, cacti, bamboo, and other small plants. It is crafted from three bricks. When a plant is placed in the pot, it is purely decorative and does not grow. In Bedrock Edition, flower pots can be pushed by pistons, but if they are moved, the plant inside will pop out. They generate naturally in witch huts, igloo basements, and woodland mansions."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Pyramids, Woodland Mansions"
+        },
+        description: "TNT is an explosive block that can be primed by redstone signals, fire, or by dispensing it. Once primed, it becomes an entity, flashes white, and explodes after 4 seconds (80 ticks), dealing damage to blocks and entities within its blast radius. In Bedrock Edition, TNT can also be ignited by a sword with the Fire Aspect enchantment. When detonated underwater, it damages entities but does not break blocks. It generates naturally in desert pyramids and woodland mansions."
     }
 };
