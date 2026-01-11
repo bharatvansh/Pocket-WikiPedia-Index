@@ -1524,5 +1524,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chain",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:stonecutter",
+        name: "Stonecutter",
+        category: "block",
+        icon: "textures/blocks/stonecutter_side",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_side",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];
