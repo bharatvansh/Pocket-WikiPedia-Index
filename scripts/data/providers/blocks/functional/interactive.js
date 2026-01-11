@@ -347,5 +347,26 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:command_block": {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Command Block is a technical block used to execute commands. It can only be obtained using the /give command and cannot be broken in Survival mode. It has three modes: Impulse (orange), Chain (green), and Repeating (purple). The Impulse mode executes a command once when powered. Command blocks are essential for map making, custom mini-games, and server administration. They can be oriented in any direction and have a blast resistance of 18,000,000."
     }
 };

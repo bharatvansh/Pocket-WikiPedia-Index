@@ -135,5 +135,47 @@ export const endBlocks = {
             yRange: "Chorus plants (End islands)"
         },
         description: "Chorus Flower is a unique purple plant block growing on chorus plants in the End dimension, appearing as flowered tips of chorus trees. Plantable on end stone in any dimension regardless of light level. Chorus flowers progress through ages 0-5, becoming fully purple at age 5. At age 5, the flower stops growing and drops one chorus fruit when harvested, resetting the cycle when replanted. Flowers at ages 0-4 drop themselves when broken. A chorus flower grows upward until age 5 or encountering air, then may branch sideways."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of Exit Portal"
+        },
+        description: "The Dragon Egg is a unique decorative block that appears on top of the exit portal after defeating the Ender Dragon. It is affected by gravity and will teleport to a nearby location when clicked or attacked. To collect it, players must push it with a piston or make it fall onto a torch or slab. It emits a faint light level of 1. In Bedrock Edition, it is a trophy item and only one generates per world naturally."
+    },
+    "minecraft:end_portal_frame": {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "The End Portal Frame is a technical block found in strongholds that forms the portal to the End dimension. Twelve frames arranged in a ring are required to activate the portal. Some frames generate with an Eye of Ender already inserted. Players must fill the remaining empty frames with Eyes of Ender to open the portal. It is indestructible in Survival mode and emits a light level of 1. In Bedrock Edition, it has a blast resistance of 18,000,000, making it immune to explosions."
     }
 };
