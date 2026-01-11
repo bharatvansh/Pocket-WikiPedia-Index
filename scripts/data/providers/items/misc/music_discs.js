@@ -189,5 +189,73 @@ export const musicDiscs = {
             "Also found in Dungeon and Woodland Mansion chests"
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+    },
+    "minecraft:music_disc_wait": {
+        id: "minecraft:music_disc_wait",
+        name: "Music Disc (Wait)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Wait' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 12 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Originally named 'where are we now' in the game files",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 12 in a Jukebox"
+        ],
+        description: "Music Disc 'Wait' is a track composed by C418 featuring an upbeat and cheerful remix of the main Minecraft theme. In Bedrock Edition, it is unique as it can be found in Buried Treasure chests as well as being obtained from Creepers killed by Skeletons. When placed in a Jukebox, it outputs a signal strength of 12 to a Comparator."
+    },
+    "minecraft:music_disc_strad": {
+        id: "minecraft:music_disc_strad",
+        name: "Music Disc (Strad)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Strad' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 9 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a tropical, steel drum melody",
+            "Outputs a redstone signal strength of 9 in a Jukebox",
+            "One of the 12 original music discs"
+        ],
+        description: "Music Disc 'Strad' is a tropical-themed track composed by C418, characterized by its distinct steel drum melody and relaxed vibe. Like most other music discs, it is obtained when a Creeper is killed by a Skeleton's arrow. It outputs a redstone signal strength of 9 when played in a Jukebox, fitting for its sunny disposition."
+    },
+    "minecraft:music_disc_mall": {
+        id: "minecraft:music_disc_mall",
+        name: "Music Disc (Mall)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mall' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 6 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a calm, slow-building melody",
+            "Outputs a redstone signal strength of 6 in a Jukebox"
+        ],
+        description: "Music Disc 'Mall' is a serene track composed by C418 that begins slowly and gradually picks up tempo. It serves as a calming background piece for any base. This disc is obtainable by having a Skeleton defeat a Creeper. In redstone mechanisms, it provides a signal strength of 6 when used with a Jukebox and Comparator."
     }
 };

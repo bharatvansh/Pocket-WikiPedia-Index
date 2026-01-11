@@ -1615,5 +1615,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/melon",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_wait",
+        name: "Music Disc (Wait)",
+        category: "item",
+        icon: "textures/items/music_disc_wait",
+        themeColor: "§b" // Aqua
+    },
+    {
+        id: "minecraft:music_disc_strad",
+        name: "Music Disc (Strad)",
+        category: "item",
+        icon: "textures/items/music_disc_strad",
+        themeColor: "§f" // White
+    },
+    {
+        id: "minecraft:music_disc_mall",
+        name: "Music Disc (Mall)",
+        category: "item",
+        icon: "textures/items/music_disc_mall",
+        themeColor: "§5" // Purple
     }
 ];
