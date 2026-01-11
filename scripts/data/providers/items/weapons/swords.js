@@ -9,6 +9,85 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const swords = {
+    "minecraft:wooden_sword": {
+        id: "minecraft:wooden_sword",
+        name: "Wooden Sword",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs quickly"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Wooden Planks x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 5 damage (2.5 hearts) per hit",
+            "Lowest durability of all swords at 60 uses",
+            "Can be used as fuel in furnaces, smokers, and blast furnaces",
+            "Can receive Sharpness, Smite, Bane of Arthropods, Fire Aspect, and Knockback"
+        ],
+        description: "The Wooden Sword is the most basic melee weapon in Minecraft, crafted from two wooden planks and a stick. It deals 5 damage (2.5 hearts) per hit and has a low durability of only 60 uses, making it better than no weapon but inferior to stone and metal swords. Wooden swords can be enchanted with standard combat enchantments and used as emergency fuel for smelting and cooking. While it is the weakest sword, it is still a significant upgrade to fighting with bare fists during the early game."
+    },
+    "minecraft:stone_sword": {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs quickly"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 6 damage (3 hearts) per hit",
+            "Can be crafted with cobblestone, blackstone, or cobbled deepslate",
+            "Can receive Sharpness, Smite, Bane of Arthropods, Fire Aspect, and Knockback",
+            "Can be used as fuel for smelting (0.5 items per sword)"
+        ],
+        description: "The Stone Sword is the second-tier melee weapon in Minecraft, offering moderate damage and durability improvements over the wooden sword. It is crafted using two cobblestone blocks and a stick, making it easily accessible to players. The stone sword deals 6 damage (3 hearts) per hit and has 132 uses before breaking. While still less durable and powerful than metal swords, it serves as an important intermediate weapon before players can access iron resources for better equipment."
+    },
+    "minecraft:golden_sword": {
+        id: "minecraft:golden_sword",
+        name: "Golden Sword",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs quickly"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 5 damage (2.5 hearts) per hit - same as Wooden Sword",
+            "Has higher enchantability than other swords",
+            "Can receive all standard sword enchantments",
+            "Low durability at 33 uses",
+            "Can be repaired with Gold Ingots"
+        ],
+        description: "The Golden Sword is a melee weapon crafted from two gold ingots and a stick. While it deals the same base damage as a wooden sword (5 damage/2.5 hearts), it has significantly lower durability at only 33 uses. However, its primary advantage is extremely high enchantability, allowing for powerful enchantments like Sharpness V and other effects that wouldn't be achievable on other materials. This makes golden swords ideal for enchanting-focused players or PvP situations where burst damage matters more than longevity."
+    },
     "minecraft:iron_sword": {
         id: "minecraft:iron_sword",
         name: "Iron Sword",
