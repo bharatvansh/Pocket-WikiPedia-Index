@@ -344,5 +344,33 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (raw only)",
+            secondaryUse: "Taming cats and feeding wolves"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked in Bedrock Edition",
+            "Used to tame cats (10-33% success rate) and breed them",
+            "Used to gain trust from ocelots",
+            "Can be fed to wolves to heal them",
+            "Obtained by killing tropical fish or fishing in warm ocean biomes"
+        ],
+        description: "Tropical Fish is a food item obtained by killing tropical fish mobs or fishing in warm ocean biomes. Unlike salmon or cod, it cannot be cooked in Bedrock Edition and must be eaten raw, restoring only 1 hunger point and 0.2 saturation. It serves as a food source for taming cats, gaining the trust of ocelots, and healing wolves. While not a substantial food source for players, its colorful appearance matches the diverse fish found in coral reefs."
     }
 };

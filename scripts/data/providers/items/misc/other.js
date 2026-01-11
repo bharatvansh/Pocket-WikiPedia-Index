@@ -896,5 +896,28 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:bamboo_raft": {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x5"]
+        },
+        specialNotes: [
+            "Functionally identical to a boat but with a unique bamboo appearance",
+            "Crafted using 5 Bamboo Planks in a U-shape",
+            "Can carry two passengers (players or mobs)",
+            "Does not require a shovel to craft",
+            "Can be combined with a chest to create a Bamboo Raft with Chest"
+        ],
+        description: "The Bamboo Raft is a water transport vehicle introduced in the 1.20 Trails & Tales update. It functions identically to a standard boat, capable of carrying two passengers and moving swiftly over water and ice. However, it features a distinct flat design made of bamboo. It is crafted using five bamboo planks and does not require a wooden shovel. Like other boats, it can be used to transport mobs or be upgraded into a raft with a chest for mobile storage."
     }
 };
