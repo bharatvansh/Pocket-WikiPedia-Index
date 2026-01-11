@@ -344,5 +344,32 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming cats and ocelots"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by fishing", "Dropped by Tropical Fish mobs", "Drop from Guardians (2%)"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked (unlike cod or salmon)",
+            "Used to tame Ocelots and Cats in Bedrock Edition",
+            "Obtained by fishing in warm or lukewarm oceans",
+            "Can be used to breed Cats"
+        ],
+        description: "Tropical Fish is a food item obtained by fishing in warm or lukewarm oceans, or as a drop from tropical fish mobs. In Minecraft Bedrock Edition, it restores 1 hunger point and 0.2 saturation when eaten. Unlike cod or salmon, tropical fish cannot be cooked. It serves as a food source for taming ocelots and cats, and can also be used to breed them. It is also a rare drop from Guardians."
     }
 };

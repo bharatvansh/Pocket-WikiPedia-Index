@@ -1699,5 +1699,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/seeds_melon",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_clownfish_raw",
+        themeColor: "§6" // orange/white
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange/white
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a" // green
     }
 ];
