@@ -343,5 +343,71 @@ export const smithingTemplates = {
             "Consumed upon use in a Smithing Table unless duplicated."
         ],
         description: "The Snout Armor Trim Smithing Template is a piglin-themed decorative item found exclusively within Bastion Remnants in the Nether. It allows players to apply the 'Snout' pattern to their armor, featuring a bold design that pays homage to the piglin inhabitants of the bastions. Obtained from various chests within these dangerous structures, it is a prize for those brave enough to challenge the piglins in their home. At a Smithing Table, it can be combined with any armor piece and a mineral. To preserve the template, it can be duplicated using seven diamonds and a block of blackstone."
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Sentry' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Cobblestone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Cobblestone", "1x Sentry Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Pillager Outpost chests with a 25% chance.",
+            "Features a simple but sturdy pattern inspired by Pillager structures.",
+            "Can be duplicated using 7 Diamonds and 1 Cobblestone.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Sentry Armor Trim Smithing Template is a decorative item that allows players to apply the 'Sentry' pattern to their armor. It is found in Pillager Outposts, reflecting the rugged and fortified nature of the illagers. With a 25% chance to appear in outpost chests, it is one of the more common trims to find. However, like all templates, it is consumed on use, so wise players will duplicate it at a crafting table using seven diamonds and a block of cobblestone before applying it to their gear."
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+        id: "minecraft:raiser_armor_trim_smithing_template",
+        name: "Raiser Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Raiser' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Raiser Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Obtained by brushing Suspicious Gravel in Trail Ruins.",
+            "Part of the archaeology system introduced in the Trails & Tales update.",
+            "Can be duplicated using 7 Diamonds and 1 Terracotta.",
+            "Features a pattern that evokes the idea of ancient civilizations rising from the earth."
+        ],
+        description: "The Raiser Armor Trim Smithing Template is an ancient artifact recovered through archaeology in Trail Ruins. By carefully brushing Suspicious Gravel, players can uncover this template, which allows them to apply the 'Raiser' pattern to their armor. This trim features a design that suggests elevation and structure, fitting for a relic of a lost civilization. To ensure the pattern isn't lost again after use, players can duplicate the template using seven diamonds and a block of terracotta."
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+        id: "minecraft:shaper_armor_trim_smithing_template",
+        name: "Shaper Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Shaper' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and Terracotta"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x Terracotta", "1x Shaper Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins.",
+            "A testament to the crafting skills of ancient builders.",
+            "Can be duplicated using 7 Diamonds and 1 Terracotta.",
+            "Consumed upon use in a Smithing Table unless duplicated."
+        ],
+        description: "The Shaper Armor Trim Smithing Template is a historical item found within the buried structures of Trail Ruins. It can be obtained by using a brush on Suspicious Gravel. The 'Shaper' trim adds a refined and structured look to armor, symbolizing the act of shaping the world. As part of the archaeology set, it connects modern players to the past. It can be duplicated for repeated use by combining it with seven diamonds and a block of terracotta at a crafting table."
     }
 };
