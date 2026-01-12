@@ -257,5 +257,69 @@ export const musicDiscs = {
             "Outputs a redstone signal strength of 6 in a Jukebox"
         ],
         description: "Music Disc 'Mall' is a serene track composed by C418 that begins slowly and gradually picks up tempo. It serves as a calming background piece for any base. This disc is obtainable by having a Skeleton defeat a Creeper. In redstone mechanisms, it provides a signal strength of 6 when used with a Jukebox and Comparator."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a light, looping melody",
+            "Outputs a redstone signal strength of 2 in a Jukebox",
+            "One of the first two music discs added to Minecraft"
+        ],
+        description: "Music Disc 'Cat' is a whimsical, looping track composed by C418. Along with '13', it was one of the first music discs introduced to the game. It is obtained when a Skeleton or Stray kills a Creeper, or found in Dungeon and Woodland Mansion chests. When played in a Jukebox, it outputs a Comparator signal strength of 2."
+    },
+    "minecraft:music_disc_blocks": {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Blocks' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 3 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features an upbeat, rhythmic tune",
+            "Outputs a redstone signal strength of 3 in a Jukebox"
+        ],
+        description: "Music Disc 'Blocks' is an upbeat track composed by C418. It features a catchy, rhythmic melody that is distinct from the more ambient tracks. Like most discs, it is obtained as a drop from a Creeper killed by a Skeleton. In redstone contraptions, it provides a signal strength of 3 when played in a Jukebox."
+    },
+    "minecraft:music_disc_chirp": {
+        id: "minecraft:music_disc_chirp",
+        name: "Music Disc (Chirp)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Chirp' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 4 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a retro, bossa nova style tune",
+            "Outputs a redstone signal strength of 4 in a Jukebox"
+        ],
+        description: "Music Disc 'Chirp' is a retro-styled track composed by C418, often described as having a bossa nova feel. It is one of the collectible music discs obtainable from Creeper drops caused by Skeletons. When used in a Jukebox with a Comparator, it outputs a signal strength of 4."
     }
 };
