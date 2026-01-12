@@ -1140,5 +1140,71 @@ export const hostileMobs = {
             { item: "Experience", chance: "12,000 (First Dragon)" }
         ],
         description: "The Ender Dragon is a massive flying boss mob and the primary antagonist of Minecraft, residing in the End dimension. It utilizes a variety of attacks, including diving at players, breathing harmful clouds of purple gas, and firing explosive fireballs. Players must typically destroy the End Crystals atop obsidian pillars to prevent the dragon from regenerating health. Defeating the dragon opens the exit portal, grants a massive amount of experience, and allows access to the outer islands."
+    },
+    "minecraft:skeleton_horse": {
+        id: "minecraft:skeleton_horse",
+        name: "Skeleton Horse",
+        health: 15,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (during thunderstorms)"],
+            lightLevel: "Any",
+            groupSize: "3-6 (skeleton trap) or 1 (natural)"
+        },
+        behaviorTraits: [
+            "Spawns as part of a skeleton trap during thunderstorms in Bedrock Edition",
+            "Lightning must strike near player to trigger the skeleton trap",
+            "Skeleton rider becomes hostile while the horse remains passive until rider is killed",
+            "Once rider is defeated, the horse becomes tameable and requires only a saddle to ride",
+            "Does not burn in sunlight like other undead skeletons",
+            "Can be led and bred like regular horses after being tamed",
+            "Jump height and speed are randomly determined when spawned"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Skeleton Horses are rare undead horses that spawn during thunderstorms as skeleton traps in Bedrock Edition. When lightning strikes near a player, a skeleton trap activates, spawning 3-6 skeleton horses with skeleton riders. These riders are hostile, but their horses are passive. After defeating the skeletons, the horses can be tamed and ridden simply by equipping a saddle. They possess random stats like regular horses and can be bred with golden apples or golden carrots. Unlike other undead, they don't burn in sunlight."
+    },
+    "minecraft:zombie_horse": {
+        id: "minecraft:zombie_horse",
+        name: "Zombie Horse",
+        health: 25,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (command/creative egg only in current Bedrock)"],
+            lightLevel: "Any",
+            groupSize: "1 (can be ridden by zombie in future updates)"
+        },
+        behaviorTraits: [
+            "Undead horse variant that does not spawn naturally in current Bedrock Edition versions",
+            "Can only be spawned using spawn eggs or commands in Bedrock Edition",
+            "Behaves passively when spawned but can become hostile when ridden by a zombie",
+            "Immune to drowning damage like other undead mobs",
+            "Can be tamed and ridden like regular horses when not hostile",
+            "Burns in sunlight unless wearing armor in some versions",
+            "Cannot be bred like other horses and has fixed 25 health"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Saddle", chance: "If equipped" },
+            { item: "Horse Armor", chance: "If equipped" }
+        ],
+        description: "Zombie Horses are undead horse variants that currently do not spawn naturally in Bedrock Edition, requiring spawn eggs or commands to obtain. They display zombie-like decayed appearance and have 25 health (12.5 hearts), higher than most horses. Zombie Horses cannot drown and share taming mechanics with regular horses. When not ridden by zombies, they behave passively and can be saddled. In future updates, they may spawn naturally with zombie riders. Their distinctive greenish decayed texture sets them apart from living horses."
     }
 };
