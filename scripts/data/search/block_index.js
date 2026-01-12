@@ -1629,5 +1629,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pumpkin_face_on",
         themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:polished_tuff_wall",
+        name: "Polished Tuff Wall",
+        category: "block",
+        icon: "textures/blocks/polished_tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        category: "block",
+        icon: "textures/blocks/tuff_bricks",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_stairs",
+        name: "Tuff Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/tuff_bricks",
+        themeColor: "§7" // gray
     }
 ];
