@@ -177,5 +177,26 @@ export const lightingBlocks = {
             yRange: "Ancient Cities"
         },
         description: "The Soul Lantern is a variant of the regular lantern that emits a dim, turquoise light with a luminance level of 10. Crafted using a soul torch and eight iron nuggets, it possesses a distinct blue flame characteristic of soul fire. Unlike regular lanterns (level 15), soul lanterns do not melt ice or snow. They repel piglins, making them functional for safe travel in the Nether. Soul lanterns can be placed on blocks or hung from ceilings and chains, adding a spooky or mystical aesthetic to builds."
+    },
+    "minecraft:soul_torch": {
+        id: "minecraft:soul_torch",
+        name: "Soul Torch",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Torch"],
+        generation: {
+            dimension: "Nether, Overworld",
+            yRange: "Crafted only, Ancient Cities (Bedrock)"
+        },
+        description: "The Soul Torch is a variant of the standard torch that emits a calming blue light with a luminance level of 10. Crafted using soul soil or soul sand and a coal or charcoal, it produces the distinctive blue flames associated with soul fire. Soul torches burn longer than regular torches and do not melt ice or snow, making them practical for cold biomes. They repel piglins in the Nether and can be placed on walls or the ground. In Bedrock Edition, soul torches generate naturally in ancient cities, providing ambient blue lighting throughout the Deep Dark."
     }
 };
