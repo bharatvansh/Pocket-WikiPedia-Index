@@ -1729,6 +1729,27 @@ export const blockIndex = [
         themeColor: "§6" // brown/terracotta
     },
     {
+        id: "minecraft:petrified_oak_slab",
+        name: "Petrified Oak Slab",
+        category: "block",
+        icon: "textures/blocks/petrified_oak_slab",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cracked_nether_brick_slab",
+        name: "Cracked Nether Brick Slab",
+        category: "block",
+        icon: "textures/blocks/cracked_nether_brick",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:chiseled_sandstone_stairs",
+        name: "Chiseled Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/chiseled_sandstone",
+        themeColor: "§e" // yellow/sand
+    },
+    {
         id: "minecraft:soul_torch",
         name: "Soul Torch",
         category: "block",
