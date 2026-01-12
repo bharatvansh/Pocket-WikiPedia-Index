@@ -285,5 +285,26 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:unpowered_repeater": {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Repeater"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Redstone Repeater is a functional block used to repeat redstone signals, delay signals, and lock signals. It refreshes a redstone signal back to strength 15, allowing it to travel further than 15 blocks. Players can adjust the delay from 1 to 4 redstone ticks (0.1 to 0.4 seconds) by right-clicking. It also acts as a diode, allowing current to flow in only one direction. If a repeater is powered from the side by another repeater or comparator, it becomes locked, maintaining its current state. In Bedrock Edition, it is essential for timing circuits and extending signal range."
     }
 };

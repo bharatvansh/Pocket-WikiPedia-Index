@@ -1650,5 +1650,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        category: "block",
+        icon: "textures/blocks/netherrack",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        category: "block",
+        icon: "textures/blocks/soul_soil",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater_off",
+        themeColor: "§7" // gray
     }
 ];

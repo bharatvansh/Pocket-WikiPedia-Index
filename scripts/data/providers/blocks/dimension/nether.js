@@ -326,5 +326,47 @@ export const netherBlocks = {
             yRange: "Warped Forest biome"
         },
         description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
+    },
+    "minecraft:netherrack": {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Netherrack"],
+        generation: {
+            dimension: "Nether",
+            yRange: "All"
+        },
+        description: "Netherrack is the most common block in the Nether, forming the vast majority of the dimension's terrain. It is a soft, blood-red stone that can be mined quickly with any pickaxe. One of its most unique properties is that it burns indefinitely when ignited, making it perfect for fireplaces and beacons. Netherrack can be smelted into nether brick items to craft nether bricks. It is also used to craft nether wart blocks and red nether bricks. In Bedrock Edition, it generates everywhere in the Nether and is the base material for nylium."
+    },
+    "minecraft:soul_soil": {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Soil"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley"
+        },
+        description: "Soul Soil is a block found naturally in the Soul Sand Valley biome of the Nether. Unlike Soul Sand, it does not slow down movement and does not cause sinking. Its most notable feature is that fire lit on Soul Soil burns as blue Soul Fire, which deals double damage compared to normal fire. Soul Soil is used to craft Soul Torches, Soul Campfires, and Soul Lanterns. It also generates basalt pillars when lava flows above it next to blue ice."
     }
     };
