@@ -1420,6 +1420,31 @@ export const craftingMaterials = {
             "Stacks up to 64 in Bedrock Edition",
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
-        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Trail Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Trail Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pots, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+    },
+    "minecraft:lily_pad": {
+        id: "minecraft:lily_pad",
+        name: "Lily Pad",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water surface decoration and mob prevention",
+            secondaryUse: "Creating paths and platforms over water"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found naturally in Swamps and some Water Biomes"]
+        },
+        specialNotes: [
+            "Only generates naturally on water in Swamp biomes",
+            "Can be placed on water source blocks as a solid surface",
+            "Prevents most mobs from spawning on top of them",
+            "Broken instantly with any tool or by hand",
+            "Can be used to create bridges or decorative ponds",
+            "Walkable by players and mobs, breaking their fall if they land on it",
+            "Can be obtained using shears or by breaking with any tool"
+        ],
+        description: "The Lily Pad is a small, decorative plant that naturally generates on water surfaces in Swamp biomes. It serves as both a decorative element and a functional platform, allowing players to walk on water surfaces without swimming. Lily pads are particularly useful for creating decorative pools, water gardens, or temporary bridges across small bodies of water. They also prevent most hostile mobs from spawning on water surfaces covered by them, making them valuable for base security."
     }
 };

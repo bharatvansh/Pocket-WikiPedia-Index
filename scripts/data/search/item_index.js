@@ -1741,5 +1741,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/plenty_pottery_sherd",
         themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green/turtle
+    },
+    {
+        id: "minecraft:lily_pad",
+        name: "Lily Pad",
+        category: "item",
+        icon: "textures/blocks/lily_pad",
+        themeColor: "§a" // green/plant
+    },
+    {
+        id: "minecraft:lead",
+        name: "Lead",
+        category: "item",
+        icon: "textures/items/lead",
+        themeColor: "§6" // brown/leather
+    },
+    {
+        id: "minecraft:writable_book",
+        name: "Book and Quill",
+        category: "item",
+        icon: "textures/items/book_writable",
+        themeColor: "§6" // brown/book
     }
 ];

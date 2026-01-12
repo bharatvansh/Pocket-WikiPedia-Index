@@ -645,6 +645,31 @@ export const miscItems = {
         ],
         description: "The Bucket is a versatile utility item crafted from three iron ingots. It serves multiple essential functions including transporting liquids like water and lava, milking cows and goats, collecting powder snow, and capturing aquatic mobs such as fish and axolotls. Empty buckets stack up to 16, but once filled, they can only stack individually. Buckets are fundamental for farming, building, redstone contraptions, and survival tactics such as water elevators or using water to prevent fall damage. Lava-filled buckets serve as efficient fuel, smelting 100 items per bucket."
         },
+    "minecraft:lead": {
+        id: "minecraft:lead",
+        name: "Lead",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Tethering and leading mobs",
+            secondaryUse: "Creating animal pens and transport systems"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["String x4", "Slimeball x1"]
+        },
+        specialNotes: [
+            "Can leash most passive and neutral mobs including horses, llamas, and bees",
+            "Leashed mobs will follow the player holding the lead",
+            "Can be tied to fences to restrain mobs in specific locations",
+            "Leads break if the mob moves more than 10 blocks away from the player",
+            "Can be found in chests in Woodland Mansions and Ancient Cities",
+            "Useful for animal husbandry, pet management, and mob transport",
+            "Multiple leads can be used simultaneously for moving groups of animals"
+        ],
+        description: "The Lead is a versatile tool for controlling and transporting mobs in Minecraft. Crafted with four string and one slimeball, it allows players to leash most passive and neutral mobs, causing them to follow the player. Leads can also be tied to fences to create temporary pens or holding areas. If the leashed mob moves more than 10 blocks away from the player, or if the player moves too far away, the lead breaks and drops as an item. This tool is essential for animal breeding programs, moving villagers, and organizing livestock operations. While primarily obtained through crafting, leads can occasionally be found in Woodland Mansion and Ancient City chests."
+    },
         "minecraft:tripwire_hook": {
         id: "minecraft:tripwire_hook",
         name: "Tripwire Hook",
