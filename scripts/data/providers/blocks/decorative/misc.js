@@ -453,5 +453,47 @@ export const miscDecorativeBlocks = {
             yRange: "Amethyst Geodes"
         },
         description: "Large Amethyst Bud is the third growth stage of an amethyst cluster, preceding the fully grown cluster. It generates on Budding Amethyst blocks within geodes and emits a light level of 4. Like other buds, it is fragile and drops nothing if mined without Silk Touch. With Silk Touch, it can be collected and placed on any block face. Visually prominent, it signifies a nearly mature crystal and is often used in builds to create varied, organic-looking crystal caves."
+    },
+    "minecraft:hanging_sign": {
+        id: "minecraft:hanging_sign",
+        name: "Hanging Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hanging Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Hanging Sign is an elegant decorative block introduced in Minecraft 1.20 that displays text in a hanging format. Crafted from two chains and stripped wood, hanging signs provide a sophisticated alternative to standard signs. They can only be placed on the bottom face of solid blocks, with chains attaching to the ceiling. Like regular signs, they can hold up to 90 characters on four lines. Perfect for tavern names, shop signs, and detailed player-created signage systems."
+    },
+    "minecraft:flower_pot": {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flower Pot", "Brick (if empty)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Woodland Mansions, Igloos"
+        },
+        description: "The Flower Pot is a decorative block that holds and displays flowers, mushrooms, saplings, cacti, and other plantable items. Crafted from three bricks arranged in a U-shape, it generates naturally in woodland mansion rooms and igloos. When a plant is placed inside, the pot shows the plant's texture; when empty, it displays the brick texture. Flower pots can be placed on any solid block or as headgear on armor stands. In Bedrock Edition, they can also be filled with dead bushes, ferns, and tall grass. They are essential for indoor gardening, herb gardens, and detailed botanical builds."
     }
 };

@@ -1713,5 +1713,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_portal_frame_top",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:hanging_sign",
+        name: "Hanging Sign",
+        category: "block",
+        icon: "textures/blocks/hanging_sign",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        category: "block",
+        icon: "textures/blocks/flower_pot",
+        themeColor: "§6" // brown/terracotta
+    },
+    {
+        id: "minecraft:soul_torch",
+        name: "Soul Torch",
+        category: "block",
+        icon: "textures/blocks/soul_torch",
+        themeColor: "§3" // cyan/blue
     }
 ];
