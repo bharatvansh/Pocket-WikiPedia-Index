@@ -1650,5 +1650,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        category: "block",
+        icon: "textures/blocks/structure_block",
+        themeColor: "§5" // dark purple
     }
 ];
