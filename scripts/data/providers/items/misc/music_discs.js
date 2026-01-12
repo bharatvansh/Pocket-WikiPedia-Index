@@ -390,5 +390,48 @@ export const musicDiscs = {
             "The name 'Stal' translates to 'steel' in Polish"
         ],
         description: "Music Disc 'Stal' is a jazz-inspired track composed by C418. It is characterized by a relaxed tempo, featuring a prominent recorder melody accompanied by piano, saxophone, and bass. This disc is a classic collectible obtained from Creepers killed by Skeletons. Its soothing, somewhat humorous jazz style makes it a favorite for many players. In redstone mechanisms, it provides a signal strength of 8 when detected by a Comparator attached to a Jukebox."
+    },
+    "minecraft:music_disc_far": {
+        id: "minecraft:music_disc_far",
+        name: "Music Disc (Far)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Far' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 5 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a calm, relaxing nature-inspired melody",
+            "Outputs a redstone signal strength of 5 in a Jukebox"
+        ],
+        description: "Music Disc 'Far' is a serene, ambient track composed by C418. It evokes a sense of vast distance and nature, featuring echoing synths and a gentle melody. Like most other music discs, it is obtained when a Creeper is killed by a Skeleton's arrow. It is a perfect background track for peaceful moments in the game. In redstone mechanisms, playing this disc in a Jukebox outputs a signal strength of 5 to a connected Comparator."
+    },
+    "minecraft:music_disc_ward": {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Ward' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 10 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Starts with a funeral march before switching to an upbeat electronic tune",
+            "Outputs a redstone signal strength of 10 in a Jukebox",
+            "One of the darker, more mysterious tracks in the game"
+        ],
+        description: "Music Disc 'Ward' is a unique track composed by C418. It begins with a snippet of Chopin's Funeral March, creating a somber tone, before abruptly transitioning into an electronic, upbeat, yet slightly ominous melody. This drastic shift makes it one of the most distinctive discs in the collection. Obtained from Creeper drops, it outputs a signal strength of 10 when played in a Jukebox, making it useful for specific redstone calibration."
     }
 };
