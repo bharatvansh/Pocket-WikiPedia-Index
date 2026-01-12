@@ -1,0 +1,4 @@
+modified_files.txt
+scripts/data/providers/blocks/dimension/end.js
+scripts/data/providers/blocks/functional/redstone.js
+scripts/data/search/block_index.js
