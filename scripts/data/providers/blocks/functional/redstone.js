@@ -285,5 +285,26 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT (if not ignited)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Temples, Woodland Mansions, Buried Treasure"
+        },
+        description: "TNT is an explosive block that can be primed by fire, redstone signals, or explosion damage. Once primed, it becomes an entity, flashes white, and explodes after 4 seconds (80 ticks), dealing damage to nearby entities and destroying blocks. In Bedrock Edition, it has a blast power of 4. It can be crafted from 5 gunpowder and 4 sand blocks. Underwater explosions do not break blocks unless the TNT is ignited within sand or gravel. It generates naturally in desert pyramids and woodland mansions."
     }
 };

@@ -325,5 +325,26 @@ export const stoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "Polished Deepslate is a decorative building block crafted from four cobbled deepslate blocks or created via a stonecutter. It has a smooth, dark gray texture that serves as a refined version of deepslate, making it excellent for flooring, walls, and structural accents. It generates naturally in Ancient Cities. Like other deepslate variants, it has a high hardness (3.5) and blast resistance (6.0), providing durability comparable to stone products. It can be further crafted into deepslate bricks, deepslate tiles, or polished deepslate walls, stairs, and slabs."
+    },
+    "minecraft:bedrock": {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "Bottom/Top of world layers"
+        },
+        description: "Bedrock is an indestructible block that forms the bottom layer of the Overworld and Nether, and the top and bottom of the Nether. It also makes up the central portal structure and pillars in the End. It cannot be mined or broken in Survival mode, serving as a barrier to the void or the build limit. In Bedrock Edition, it has infinite hardness and effectively infinite blast resistance, preventing destruction even by the strongest explosions. It emits no light and serves as the ultimate boundary for the game world."
     }
 };
