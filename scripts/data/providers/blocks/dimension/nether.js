@@ -4,6 +4,7 @@
 // nether wart block, warped wart block, crimson nylium, warped nylium,
 // crimson stem, warped stem, shroomlight, basalt, smooth basalt,
 // polished basalt, blackstone variants, gilded blackstone,
+// polished blackstone variants (polished, cracked bricks, chiseled),
 // soul sand, soul soil, magma block, glowstone, crying obsidian
 // ============================================
 
@@ -326,5 +327,69 @@ export const netherBlocks = {
             yRange: "Warped Forest biome"
         },
         description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
+    },
+    "minecraft:polished_blackstone": {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants and crafted from 4 blackstone"
+        },
+        description: "Polished Blackstone is a refined variant of blackstone with a smooth, elegant texture. It can be crafted from four blackstone blocks arranged in a 2x2 grid or found naturally in Bastion Remnants. Like regular blackstone, it has hardness 1.5 and blast resistance 6, making it a durable building material. Polished blackstone can be crafted into bricks and chiseled variants, offering builders multiple decorative options for Nether-themed structures. It maintains the dark gray aesthetic while providing a cleaner, more finished appearance."
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+        id: "minecraft:cracked_polished_blackstone_bricks",
+        name: "Cracked Polished Blackstone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Polished Blackstone Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants only"
+        },
+        description: "Cracked Polished Blackstone Bricks are a weathered variant of polished blackstone bricks that appear damaged and aged. They generate exclusively in Bastion Remnants as floor tiles and structural elements, giving these ancient piglin fortresses a worn, battle-scarred appearance. Unlike their pristine counterpart, these cracked bricks cannot be crafted by players and must be obtained by mining them from bastions. They maintain the same hardness and blast resistance as regular blackstone variants while providing a unique ruined aesthetic for historical or post-apocalyptic themed builds."
+    },
+    "minecraft:chiseled_polished_blackstone": {
+        id: "minecraft:chiseled_polished_blackstone",
+        name: "Chiseled Polished Blackstone",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Polished Blackstone"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants only"
+        },
+        description: "Chiseled Polished Blackstone is a decorative block featuring an intricate carved pattern with a recessed square design. It generates naturally in Bastion Remnants as architectural elements and cannot be crafted, making it a unique treasure for players exploring these structures. The block has the same durability properties as other blackstone variants with hardness 1.5 and blast resistance 6. Its detailed carving makes it perfect for ornamental pillars, altars, or intricate detailing in Nether-themed builds, adding visual interest to walls and floors."
+    }
     }
     };
