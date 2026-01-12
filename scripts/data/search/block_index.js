@@ -1734,5 +1734,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_torch",
         themeColor: "§3" // cyan/blue
+    },
+    {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:cracked_polished_blackstone_bricks",
+        name: "Cracked Polished Blackstone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_polished_blackstone_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:chiseled_polished_blackstone",
+        name: "Chiseled Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/chiseled_polished_blackstone",
+        themeColor: "§8" // dark gray
     }
 ];
