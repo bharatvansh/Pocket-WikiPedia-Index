@@ -1608,5 +1608,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_wart_block",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:melon_block",
+        name: "Melon Block",
+        category: "block",
+        icon: "textures/blocks/melon_side",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        category: "block",
+        icon: "textures/blocks/pumpkin_side",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:carved_pumpkin",
+        name: "Carved Pumpkin",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§6" // orange
     }
 ];

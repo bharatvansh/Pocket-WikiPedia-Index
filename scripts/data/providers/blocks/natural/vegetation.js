@@ -540,5 +540,68 @@ export const vegetationBlocks = {
             yRange: "Jungle biomes (on Jungle logs)"
         },
         description: "Cocoa is a renewable plant block that grows naturally on the sides of jungle logs in Jungle biomes. It has three growth stages, starting as a small green pod and maturing into a larger orange-brown pod. When fully grown, it drops 2-3 cocoa beans, which are used to craft brown dye and cookies. It breaks instantly when mined with an axe. Players can manually plant cocoa beans on jungle logs (stripped or regular, including wood variants) to farm them. Bone meal can be used to instantly advance their growth stage."
+    },
+    "minecraft:melon_block": {
+        id: "minecraft:melon_block",
+        name: "Melon Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Melon Slice (3-7)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes, Savanna villages, Woodland Mansions"
+        },
+        description: "Melon is a fruit block that generates naturally in jungle biomes, savanna villages, and woodland mansions. It can be farmed from melon seeds planted on farmland. When broken, it drops 3-7 melon slices, which can be eaten or crafted into glistering melon slices or melon seeds. Using a tool with Silk Touch drops the melon block itself. It has a hardness and blast resistance of 1.0 and is most efficiently mined with an axe."
+    },
+    "minecraft:pumpkin": {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pumpkin"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grassy biomes, Woodland Mansions, Pillager Outposts"
+        },
+        description: "Pumpkin is a fruit block that generates naturally in patches in most grassy biomes. It has a smooth, orange texture without a face. Players can use shears on a pumpkin to carve it, turning it into a carved pumpkin and dropping four pumpkin seeds. It can be farmed from pumpkin seeds planted on farmland. Pumpkins are essential for creating snow golems and iron golems (using the carved variant) and can be crafted into pumpkin pie."
+    },
+    "minecraft:carved_pumpkin": {
+        id: "minecraft:carved_pumpkin",
+        name: "Carved Pumpkin",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Carved Pumpkin"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Woodland Mansions, Pillager Outposts, Rail rooms"
+        },
+        description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
     }
 };
