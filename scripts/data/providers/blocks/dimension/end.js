@@ -135,5 +135,47 @@ export const endBlocks = {
             yRange: "Chorus plants (End islands)"
         },
         description: "Chorus Flower is a unique purple plant block growing on chorus plants in the End dimension, appearing as flowered tips of chorus trees. Plantable on end stone in any dimension regardless of light level. Chorus flowers progress through ages 0-5, becoming fully purple at age 5. At age 5, the flower stops growing and drops one chorus fruit when harvested, resetting the cycle when replanted. Flowers at ages 0-4 drop themselves when broken. A chorus flower grows upward until age 5 or encountering air, then may branch sideways."
+    },
+    "minecraft:end_portal_frame": {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "The End Portal Frame is a functional block found in Strongholds, forming the ring of the End Portal. It is indestructible in Survival mode. Players must place an Eye of Ender into each of the 12 frames to activate the portal, which fills the center with end portal blocks. Some frames generate with eyes already inserted. It emits a low light level of 1. While it cannot be obtained or moved in Survival, it is a critical block for progression to reach The End dimension and fight the Ender Dragon."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3,
+        blastResistance: 9,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Exit Portal (after defeating Ender Dragon)"
+        },
+        description: "The Dragon Egg is a rare decorative block that appears on top of the bedrock exit portal in The End after the first Ender Dragon is defeated. It is the rarest item in the game as it generates only once per world. When a player attempts to mine or interact with it, the egg teleports to a nearby location, making it tricky to collect. It is affected by gravity and will fall if the block beneath it is removed. To collect it, players typically let it fall onto a torch or push it with a piston. It emits a light level of 1 and emits purple particles."
     }
 };
