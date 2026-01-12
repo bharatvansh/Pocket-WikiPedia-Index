@@ -239,5 +239,28 @@ export const bannerPatterns = {
             "Perfect for framing other banner designs with a distinct edge."
         ],
         description: "The Bordure Indented Banner Pattern is a decorative item used to apply a fancy, jagged border to banners. Known as 'Bordure Indented', this design frames the banner's content with a distinct saw-tooth edge. In Bedrock Edition, players craft this pattern by combining a piece of Paper with Vines. Like other banner patterns, it is not consumed when used in a Loom, allowing players to reuse it indefinitely to create consistent, framed heraldry for their bases and builds."
+    },
+    "minecraft:mojang_banner_pattern": {
+        id: "minecraft:mojang_banner_pattern",
+        name: "Banner Pattern (Thing)",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Thing' (Mojang logo) pattern to a banner in a Loom",
+            secondaryUse: "Creating banners with the Mojang Studios logo"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["1 Paper", "1 Enchanted Golden Apple"]
+        },
+        specialNotes: [
+            "Crafted by combining 1 Paper and 1 Enchanted Golden Apple",
+            "Displays the Mojang Studios logo when used in a Loom",
+            "The pattern item is not consumed when used in the Loom",
+            "One of the most expensive patterns to craft due to the Enchanted Golden Apple requirement",
+            "Also known as the 'Thing' pattern"
+        ],
+        description: "The Banner Pattern (Thing) is a special item used to apply the Mojang Studios logo to a banner. It is crafted using a piece of Paper and an Enchanted Golden Apple, making it a prestigious and costly item to obtain. Once crafted, it can be used in a Loom with any banner and dye to stamp the iconic logo onto the fabric. Since the pattern item is not consumed upon use, a single crafted pattern allows for infinite logo banners, making it a worthy investment for factions or players wanting to show off their wealth."
     }
 };
