@@ -1743,6 +1743,13 @@ export const itemIndex = [
         themeColor: "§6" // brown/pottery
     },
     {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/mourner_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
         id: "minecraft:music_disc_11",
         name: "Music Disc (11)",
         category: "item",
@@ -1762,5 +1769,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_stal",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        category: "item",
+        icon: "textures/items/record_ward",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange
     }
 ];

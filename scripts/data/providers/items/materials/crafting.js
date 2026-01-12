@@ -1421,5 +1421,29 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Trail Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+    },
+    "minecraft:mourner_pottery_sherd": {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Mourner motif",
+            secondaryUse: "Creating storytelling or memorial decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a mourning figure",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the mourner pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Mourner Pottery Sherd is an archaeological artifact found in Trail Ruins by brushing Suspicious Gravel. It features a design of a figure appearing to mourn or grieve. In Minecraft Bedrock Edition, it is used as a crafting ingredient for Decorated Pots, applying the mourner motif to one side. This sherd adds a somber and storytelling element to pottery collections, often interpreted as representing loss or memory in ancient times."
     }
 };
