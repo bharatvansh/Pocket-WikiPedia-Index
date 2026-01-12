@@ -344,5 +344,89 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Can be cooked in a furnace, smoker, or campfire to make Steak",
+            "Steak restores 8 hunger and 12.8 saturation, making cooking highly recommended",
+            "Used to breed and heal tamed wolves",
+            "Dropped by cows and mooshrooms (1-3 drops)",
+            "Butcher villagers may buy raw beef for emeralds"
+        ],
+        description: "Raw Beef is a food item obtained from cows and mooshrooms. While it can be eaten raw to restore 3 hunger points and 1.8 saturation, it is most valuable when cooked into Steak, which is one of the best foods in the game. Raw beef serves as a primary source of protein for survivors and is also essential for maintaining a pack of wolves, as it can be used to breed and heal them. It is a common drop from cattle farming."
+    },
+    "minecraft:porkchop": {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Pigs and Hoglins"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Can be cooked in a furnace, smoker, or campfire to make Cooked Porkchop",
+            "Cooked Porkchop provides 8 hunger and 12.8 saturation",
+            "Used to breed and heal tamed wolves",
+            "Dropped by pigs (1-3) and hoglins (2-4)",
+            "Butcher villagers may buy raw porkchop for emeralds"
+        ],
+        description: "Raw Porkchop is a food item dropped by pigs and hoglins. Like raw beef, it restores 3 hunger points and 1.8 saturation when eaten. However, its true potential is unlocked when cooked into a Cooked Porkchop, providing significant nourishment. It is a staple food source for players who keep pig farms or explore the Nether's crimson forests where hoglins spawn. It can also be fed to wolves for breeding and healing purposes."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (cooking recommended)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Has a 30% chance to inflict Hunger I for 30 seconds when eaten",
+            "Can be cooked to make Cooked Chicken, removing the hunger risk",
+            "Used to breed and heal tamed wolves (wolves are immune to the hunger effect)",
+            "Dropped by chickens (1 drop)",
+            "Butcher villagers may buy raw chicken for emeralds"
+        ],
+        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten to restore 2 hunger points, it carries a significant risk: a 30% chance to inflict the Hunger effect, which drains saturation and hunger over time. Cooking it into Cooked Chicken removes this risk and improves its nutritional value. Despite the risk to players, raw chicken is perfectly safe for wolves and can be used to breed or heal them. It is easily obtained from chicken farms."
     }
 };
