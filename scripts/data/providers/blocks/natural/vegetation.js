@@ -16,6 +16,48 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const vegetationBlocks = {
+    "minecraft:kelp": {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Kelp"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean biomes"
+        },
+        description: "Kelp is an underwater plant block that grows in ocean biomes. It can be harvested to obtain the kelp item, which can be eaten dried or used as fuel. It grows upward and can create tall stalks. Kelp can be smelted into dried kelp."
+    },
+    "minecraft:seagrass": {
+        id: "minecraft:seagrass",
+        name: "Seagrass",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Seagrass (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean biomes (except frozen)"
+        },
+        description: "Seagrass is a non-solid plant block found in all ocean biomes except frozen oceans. It grows on the ocean floor and provides a habitat for turtles. It drops nothing when broken unless harvested with shears."
+    },
     "minecraft:moss_block": {
         id: "minecraft:moss_block",
         name: "Moss Block",

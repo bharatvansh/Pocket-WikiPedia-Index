@@ -98,6 +98,27 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        category: "block",
+        icon: "textures/items/kelp",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:seagrass",
+        name: "Seagrass",
+        category: "block",
+        icon: "textures/items/seagrass",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:tube_coral_block",
+        name: "Tube Coral Block",
+        category: "block",
+        icon: "textures/blocks/coral_blue",
+        themeColor: "§9"
+    },
+    {
         id: "minecraft:moss_block",
         name: "Moss Block",
         category: "block",
