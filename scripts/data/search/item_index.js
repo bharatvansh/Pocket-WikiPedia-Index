@@ -1720,5 +1720,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_chirp",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:mojang_banner_pattern",
+        name: "Banner Pattern (Thing)",
+        category: "item",
+        icon: "textures/items/thing_banner_pattern",
+        themeColor: "§d" // purple/enchanted
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        category: "item",
+        icon: "textures/items/bucket_puffer",
+        themeColor: "§e" // yellow
     }
 ];

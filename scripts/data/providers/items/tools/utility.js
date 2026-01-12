@@ -433,5 +433,49 @@ export const utilityTools = {
             "Tadpoles grow into frogs based on the biome they mature in."
         ],
         description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
+    },
+    "minecraft:tropical_fish_bucket": {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting Tropical Fish",
+            secondaryUse: "Placing water source with a Tropical Fish inside"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Tropical Fish"]
+        },
+        specialNotes: [
+            "Obtained by using a Water Bucket on a Tropical Fish in the ocean",
+            "Stores the specific variant (color, pattern, size) of the fish",
+            "Places a water source block containing the fish when used",
+            "Essential for moving tropical fish to aquariums or ponds"
+        ],
+        description: "A Bucket of Tropical Fish is a utility item used to transport tropical fish from warm ocean biomes to other locations. It captures the specific variant of the fish, preserving its unique colors and patterns. When emptied, it places a water source block with the fish swimming inside. This item is popular among builders for creating colorful aquariums and among collectors aiming to find all thousands of potential tropical fish combinations."
+    },
+    "minecraft:pufferfish_bucket": {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting Pufferfish",
+            secondaryUse: "Placing water source with a Pufferfish inside"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+        },
+        specialNotes: [
+            "Obtained by using a Water Bucket on a Pufferfish",
+            "Places a water source block containing the pufferfish when used",
+            "Pufferfish will inflate and poison nearby players even when placed from a bucket",
+            "Used to transport pufferfish for mob traps or defense systems"
+        ],
+        description: "A Bucket of Pufferfish allows players to safely transport the dangerous Pufferfish mob. Obtained by using a Water Bucket on a wild Pufferfish, it stores the mob until the bucket is emptied, placing a water source with the fish inside. Since Pufferfish inflate and inflict poison on nearby players and mobs, this bucket is often used to move them into defensive moats or specialized mob farms where their poison mechanism is utilized."
     }
 };
