@@ -964,6 +964,52 @@ export const craftingMaterials = {
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
     },
+    "minecraft:skull_pottery_sherd": {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Skull motif",
+            secondaryUse: "Desert Pyramid archaeology collectible"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "Uncovered with a Brush from naturally generated Suspicious Sand in Desert Pyramids.",
+            "Depicts a skeleton skull and applies that pattern to one side of a Decorated Pot.",
+            "Craft a Decorated Pot with 4 pottery sherds/bricks arranged in a 2x2 square.",
+            "In Bedrock, Desert Pyramid suspicious sand can drop this sherd (about 1/8 chance).",
+            "Breaking a Decorated Pot drops the same sherds and bricks used to craft it."
+        ],
+        description: "The Skull Pottery Sherd is an archaeology item that depicts a skeleton skull. In Minecraft Bedrock Edition, it is found by brushing Suspicious Sand that generates inside Desert Pyramids. When used in the Decorated Pot recipe, it places the skull motif on one side of the finished pot, letting builders create tomb, dungeon, or ruin-themed decorations by mixing it with other pottery sherd designs."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Treasure-themed artifact from Desert Pyramids"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Pyramids"]
+        },
+        specialNotes: [
+            "Uncovered with a Brush from naturally generated Suspicious Sand in Desert Pyramids.",
+            "Depicts a gemstone and applies that pattern to one side of a Decorated Pot.",
+            "Craft a Decorated Pot with 4 pottery sherds/bricks arranged in a 2x2 square.",
+            "In Bedrock, Desert Pyramid suspicious sand can drop this sherd (about 1/8 chance).",
+            "Breaking a Decorated Pot drops the same sherds and bricks used to craft it."
+        ],
+        description: "The Prize Pottery Sherd is an archaeology collectible that depicts a gemstone, suggesting lost treasure from Minecraft's ancient civilizations. In Bedrock Edition, it is uncovered by brushing Suspicious Sand found in Desert Pyramids. When included in the Decorated Pot crafting recipe, it applies the prize design to one side of the pot, making it perfect for treasure-room builds, museum displays, or storytelling decorations."
+    },
     "minecraft:scrape_pottery_sherd": {
         id: "minecraft:scrape_pottery_sherd",
         name: "Scrape Pottery Sherd",
@@ -1035,6 +1081,29 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Heartbreak Pottery Sherd is a rare archaeological discovery found in Trail Ruins by brushing Suspicious Gravel. It depicts a broken heart, evoking themes of ancient stories and loss. In Bedrock Edition, this sherd is particularly sought-after due to its lower generation rate compared to common pottery sherds. When crafted into a Decorated Pot, it displays the heartbreak motif on one side, making it perfect for storytelling builds or emotional themed decorations."
+    },
+    "minecraft:heart_pottery_sherd": {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Heart motif",
+            secondaryUse: "Trail Ruins archaeology collectible"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures.",
+            "Depicts a complete heart and applies that pattern to one side of a Decorated Pot.",
+            "Craft a Decorated Pot with 4 pottery sherds/bricks arranged in a 2x2 square.",
+            "In Bedrock, Trail Ruins suspicious gravel can drop this sherd (about 8.3% chance).",
+            "Breaking a Decorated Pot drops the same sherds and bricks used to craft it."
+        ],
+        description: "The Heart Pottery Sherd is an archaeology item that depicts a complete heart, contrasting with its counterpart the Heartbreak sherd. In Minecraft Bedrock Edition, it is found by brushing Suspicious Gravel in Trail Ruins structures. When included in the Decorated Pot crafting recipe, it applies the heart motif to one side of the pot, making it ideal for romance-themed builds, player shrines, or positive storytelling decorations."
     },
     "minecraft:burn_pottery_sherd": {
         id: "minecraft:burn_pottery_sherd",
