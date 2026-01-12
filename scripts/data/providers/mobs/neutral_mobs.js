@@ -386,5 +386,38 @@ export const neutralMobs = {
             { item: "Golden Sword", chance: "8.5% (rare)" }
         ],
         description: "Zombified Piglins are common neutral mobs found in the Nether. They remain peaceful unless provoked; however, attacking one will cause all nearby zombified piglins to swarm the player. They are immune to fire and lava and always carry golden swords. Zombified piglins can also spawn in the Overworld near nether portals or when a pig is struck by lightning. Their ability to call reinforcements makes them dangerous if accidentally hit. They are an excellent source of gold nuggets and rotten flesh for players venturing through the Nether's wastes."
+        },
+        "minecraft:trader_llama": {
+        id: "minecraft:trader_llama",
+        name: "Trader Llama",
+        health: 15,
+        stats: {
+            attackDamage: 1,
+            movementSpeed: 0.175
+        },
+        classification: {
+            type: "Neutral",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Spawns with Wandering Trader in all Overworld biomes"],
+            lightLevel: "Any",
+            groupSize: "2 (always spawns in pairs with Wandering Trader)"
+        },
+        behaviorTraits: [
+            "Special variant of llama that always spawns leashed to a Wandering Trader",
+            "Despawns after 40-60 minutes unless named with a name tag",
+            "Cannot be tamed or bred unlike regular llamas",
+            "Will spit at attackers dealing 1 damage",
+            "Despawns if all Wandering Trader trades are locked in Bedrock Edition",
+            "Cannot be controlled with a saddle even when leashed",
+            "Always wears a decorative carpet and headpiece marking it as a trader llama"
+        ],
+        drops: [
+            { item: "Lead", chance: "Always drops its lead when killed" },
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Trader Llamas are special llama variants that spawn exclusively in pairs leashed to Wandering Traders. They appear in all Overworld biomes accompanying a trader who sells rare biome-specific items. Unlike regular llamas, they cannot be tamed, bred, or ridden. They despawn after 40-60 minutes unless named, making them temporary companions. Trader Llamas defend themselves by spitting at attackers and always drop their lead when killed. Their distinctive decorative carpet and headpiece set them apart from wild llamas."
     }
 };
