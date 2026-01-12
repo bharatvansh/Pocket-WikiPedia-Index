@@ -285,5 +285,68 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts, Strongholds, Woodland Mansions"
+        },
+        description: "Rails are non-solid blocks used to create tracks for minecarts to travel on. They can be placed on top of solid blocks and automatically connect to adjacent rails, including those one block up or down, forming slopes. Rails can curve to change direction but cannot form junctions without redstone switching mechanisms. In Bedrock Edition, they generate naturally in abandoned mineshafts and strongholds. They are essential for transporting players, mobs, and items over long distances using minecarts."
+    },
+    "minecraft:golden_rail": {
+        id: "minecraft:golden_rail",
+        name: "Golden Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Golden Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts (Mesa), Bastion Remnants"
+        },
+        description: "The Golden Rail, also known as a Powered Rail, is a rail type that accelerates or stops minecarts depending on its state. When powered by redstone, it boosts the speed of passing minecarts, allowing for automated transport systems. When unpowered, it acts as a brake, bringing carts to a halt. They generate naturally in mineshafts within Badlands biomes and in Bastion Remnants. Crafted from gold ingots, redstone, and sticks, they are crucial for building high-speed railway networks."
+    },
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Detector Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts"
+        },
+        description: "A Detector Rail is a functional block that acts as a pressure plate for minecarts. When a minecart passes over it, it emits a redstone signal, which can be used to trigger other mechanisms, such as switching tracks, activating pistons, or powering adjacent rails. It serves as a key component in automated railway systems for detecting cart movement. In Bedrock Edition, it generates in abandoned mineshafts and can be crafted using iron ingots, a stone pressure plate, and redstone dust."
     }
 };

@@ -1734,5 +1734,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_torch",
         themeColor: "§3" // cyan/blue
+    },
+    {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "block",
+        icon: "textures/blocks/rail_normal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:golden_rail",
+        name: "Golden Rail",
+        category: "block",
+        icon: "textures/blocks/rail_golden_powered",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        category: "block",
+        icon: "textures/blocks/rail_detector_powered",
+        themeColor: "§7" // gray
     }
 ];
