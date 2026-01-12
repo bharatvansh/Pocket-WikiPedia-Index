@@ -1671,5 +1671,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/large_amethyst_bud",
         themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:pale_oak_wood",
+        name: "Pale Oak Wood",
+        category: "block",
+        icon: "textures/blocks/pale_oak_log",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:pale_oak_slab",
+        name: "Pale Oak Slab",
+        category: "block",
+        icon: "textures/blocks/pale_oak_planks",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:resin_brick_slab",
+        name: "Resin Brick Slab",
+        category: "block",
+        icon: "textures/blocks/resin_bricks",
+        themeColor: "§6" // orange
     }
 ];
