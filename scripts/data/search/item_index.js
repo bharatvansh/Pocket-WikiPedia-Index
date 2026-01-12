@@ -1720,5 +1720,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_chirp",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        category: "item",
+        icon: "textures/items/record_11",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
+        category: "item",
+        icon: "textures/items/record_stal",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        category: "item",
+        icon: "textures/items/record_mellohi",
+        themeColor: "§d" // light purple
     }
 ];
