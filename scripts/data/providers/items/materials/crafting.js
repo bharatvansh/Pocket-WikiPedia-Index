@@ -1350,4 +1350,77 @@ export const craftingMaterials = {
         ],
         description: "Melon Seeds are the starting point for growing melons, a source of food and potion ingredients. They are obtained by crafting melon slices or finding them in rare loot chests. Once planted on farmland, the seed grows into a stem that generates melon blocks on adjacent spaces. This process allows for infinite melon production from a single stem. Beyond farming, melon seeds serve as feed for chickens and can be used to tame parrots, making them a versatile item for survival players."
     }
+,
+    "minecraft:mourner_pottery_sherd": {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Mourner motif",
+            secondaryUse: "Collecting rare archaeological artifacts from Trail Ruins"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a figure that appears to be mourning",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the mourner pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Mourner Pottery Sherd is a poignant archaeological artifact discovered within Trail Ruins by carefully brushing Suspicious Gravel. The sherd depicts a figure in a posture of mourning, suggesting themes of loss or remembrance from an ancient civilization. Its evocative design makes it a favorite for players building crypts, memorials, or story-driven ruins. When crafted into a Decorated Pot, the Mourner pattern appears on one side, adding a touch of solemn history to any build."
+    },
+    "minecraft:plenty_pottery_sherd": {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Plenty motif",
+            secondaryUse: "Creating wealth or storage-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a chest overflowing with items, symbolizing plenty",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the plenty pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Plenty Pottery Sherd is a symbol of prosperity found within Trail Ruins through the archaeology system. Recovered from Suspicious Gravel, this sherd displays an image of a chest overflowing with valuables, representing wealth and abundance. It is an excellent decorative element for treasuries, storage rooms, or trading halls. When combined with other sherds or bricks to create a Decorated Pot, the Plenty motif is displayed on the side, signifying good fortune and bountiful resources."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Creating reward or value-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a diamond, representing a valuable prize",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the prize pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Prize Pottery Sherd is a highly valued archaeological find from Trail Ruins, obtained by brushing Suspicious Gravel. The sherd features a clear depiction of a diamond, the universal Minecraft symbol for value and achievement. This design makes it a perfect addition to trophy rooms, contest winner podiums, or high-end vaults. When used in a Decorated Pot, the Prize pattern adorns one side, clearly communicating the importance and worth of the item or area it decorates."
+    }
 };

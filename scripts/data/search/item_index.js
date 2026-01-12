@@ -1721,4 +1721,26 @@ export const itemIndex = [
         icon: "textures/items/record_chirp",
         themeColor: "§c" // red
     }
+,
+    {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/mourner_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        category: "item",
+        icon: "textures/items/plenty_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        category: "item",
+        icon: "textures/items/prize_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    }
 ];
