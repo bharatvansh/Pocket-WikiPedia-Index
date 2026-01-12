@@ -347,5 +347,68 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:flower_pot": {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flower Pot"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Witch huts, woodland mansions, villages"
+        },
+        description: "The Flower Pot is a decorative block that allows players to display flowers, fungi, saplings, cacti, and bamboo. It is crafted from three bricks arranged in a V-shape. When a plant is placed in the pot, it is rendered slightly smaller than its natural size. In Bedrock Edition, potted plants can be removed by interacting with the pot, unlike Java Edition where the pot must be broken. It generates naturally in witch huts, woodland mansions, and various village houses."
+    },
+    "minecraft:structure_block": {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Structure Block is a technical block used by map makers to save, load, and export structures. It features three modes: Save, Load, and Corner, plus a 3D Export mode in Bedrock Edition for creating .glb files. Obtainable only via commands or the Creative inventory, it is unbreakable in Survival mode. It allows players to copy and paste builds across the world, making it essential for creating custom maps and managing large building projects."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted, Farmer Villager trade"
+        },
+        description: "Cake is a unique food block that must be placed on a solid surface to be eaten. It provides 14 hunger points total, divided into 7 slices, each restoring 2 hunger. Crafted from three milk buckets, two sugar, one egg, and three wheat, it is the only food that can be placed as a block. Once placed, it cannot be picked up again, even with Silk Touch. It breaks instantly if the block underneath is removed. In Bedrock Edition, cake has a hardness and blast resistance of 0.5."
     }
 };
