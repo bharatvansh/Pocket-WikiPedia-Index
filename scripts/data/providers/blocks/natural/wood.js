@@ -178,5 +178,26 @@ export const woodBlocks = {
             yRange: "Warped Forest"
         },
         description: "Warped Stem is a turquoise-colored, log-like block found in the Warped Forest biome of the Nether. Unlike Overworld logs, warped stems are fire-resistant and do not burn. They serve as the 'wood' of the huge fungi in the biome. They can be stripped using an axe to create Stripped Warped Stem, or crafted into Warped Planks. The animated texture of the stem pulses slightly, adding a unique alien feel to builds."
+    },
+    "minecraft:pale_oak_wood": {
+        id: "minecraft:pale_oak_wood",
+        name: "Pale Oak Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Wood"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Logs"
+        },
+        description: "Pale Oak Wood is a block with the bark texture of Pale Oak logs on all six sides, introduced in Minecraft 1.21.50. It is crafted by arranging four Pale Oak Logs in a 2x2 grid. Unlike logs, which have a top and bottom 'rings' texture, wood blocks appear as bark on every face, making them ideal for creating seamless organic structures like custom trees or roots. Like other wood blocks, it can be stripped using an axe to create Stripped Pale Oak Wood."
     }
 };
