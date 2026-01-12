@@ -1608,5 +1608,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_wart_block",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        category: "block",
+        icon: "textures/blocks/netherrack",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/endframe_top",
+        themeColor: "§2" // dark green (eye/frame color)
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];

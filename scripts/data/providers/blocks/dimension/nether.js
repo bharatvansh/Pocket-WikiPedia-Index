@@ -326,5 +326,26 @@ export const netherBlocks = {
             yRange: "Warped Forest biome"
         },
         description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
+    },
+    "minecraft:netherrack": {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Netherrack"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Everywhere"
+        },
+        description: "Netherrack is a fragile, dark red stone block found abundantly throughout the Nether. It serves as the primary terrain material of the dimension. Its most notable property is that it burns indefinitely when ignited with flint and steel or a fire charge, making it useful for lighting and traps. It is very soft and can be mined quickly with any pickaxe, even wooden ones. When mined, it drops itself. Netherrack can be smelted into nether bricks, which are blast-resistant and used for crafting nether brick variants."
     }
     };
