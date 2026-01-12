@@ -9,6 +9,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const helmets = {
+    "minecraft:turtle_helmet": {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        maxStack: 1,
+        durability: 275,
+        enchantable: true,
+        usage: {
+            primaryUse: "Helmet that grants Water Breathing",
+            secondaryUse: "Brewing ingredient for Potion of the Turtle Master"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Turtle Scute x5"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (same as Golden/Iron/Chainmail Helmet)",
+            "Grants 10 seconds of Water Breathing when entering water",
+            "Effect refreshes every time the player exits and re-enters water",
+            "Used to brew Potion of the Turtle Master (Awkward Potion + Turtle Shell)",
+            "Durability of 276 is higher than iron (165) but lower than diamond (363)",
+            "Can be repaired with Turtle Scutes"
+        ],
+        description: "The Turtle Shell is a unique helmet crafted from five Turtle Scutes. It offers the same protection level as an iron helmet but comes with a special ability: it grants the player 10 seconds of Water Breathing whenever they are in the air or on land, which effectively adds 10 seconds of extra breath when diving underwater. This effect resets instantly upon resurfacing. Additionally, the shell is a potent brewing ingredient used to create the Potion of the Turtle Master, which grants high resistance and slowness."
+    },
     "minecraft:netherite_helmet": {
         id: "minecraft:netherite_helmet",
         name: "Netherite Helmet",

@@ -1783,5 +1783,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_stal",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:music_disc_far",
+        name: "Music Disc (Far)",
+        category: "item",
+        icon: "textures/items/record_far",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        category: "item",
+        icon: "textures/items/record_ward",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green
     }
 ];
