@@ -390,5 +390,28 @@ export const musicDiscs = {
             "The name 'Stal' translates to 'steel' in Polish"
         ],
         description: "Music Disc 'Stal' is a jazz-inspired track composed by C418. It is characterized by a relaxed tempo, featuring a prominent recorder melody accompanied by piano, saxophone, and bass. This disc is a classic collectible obtained from Creepers killed by Skeletons. Its soothing, somewhat humorous jazz style makes it a favorite for many players. In redstone mechanisms, it provides a signal strength of 8 when detected by a Comparator attached to a Jukebox."
+    },
+    "minecraft:music_disc_ward": {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Ward' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 10 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a dark, synth-heavy intro followed by a lighter melody",
+            "Outputs a redstone signal strength of 10 in a Jukebox",
+            "Dropped by Creepers when killed by a Skeleton's arrow",
+            "Cannot be found in loot chests in Bedrock Edition"
+        ],
+        description: "Music Disc 'Ward' is a track composed by C418, known for its dark, synthesized opening that transitions into a more melodic, adventurous tune. It is one of the classic music discs in Minecraft. Like many others, it is obtained when a Skeleton or Stray kills a Creeper. When played in a Jukebox, it provides a unique atmospheric experience and outputs a redstone signal strength of 10 to a Comparator, distinguishing it from other discs in technical builds."
     }
 };
