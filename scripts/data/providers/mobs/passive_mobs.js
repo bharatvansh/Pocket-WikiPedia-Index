@@ -870,5 +870,61 @@ export const passiveMobs = {
             { item: "String", chance: "0-2" }
         ],
         description: "Cats are agile passive mobs found in villages and swamp huts. They are uniquely valuable for their ability to repel Creepers and Phantoms, making them excellent companions for base defense. Once tamed with raw fish, they follow their owners and provide occasional gifts after the player wakes from a bed. Cats are also immune to fall damage, reflecting their real-world grace and landing abilities."
+    },
+    "minecraft:donkey": {
+        id: "minecraft:donkey",
+        name: "Donkey",
+        health: 15,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna"],
+            lightLevel: "9+",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Can be tamed by mounting",
+            "Carries inventory chest when tamed",
+            "Can be crossbred with horse to create mule",
+            "Feeds faster when fed enchanted golden apple"
+        ],
+        drops: [
+            { item: "XP", chance: "1-3" }
+        ],
+        description: "Donkeys are sturdy passive mobs that excel at item transportation. They can be tamed and equipped with chests for inventory storage, making them valuable for long-distance resource hauling. Unlike horses, donkeys cannot wear armor but offer reliable transportation with their natural carrying capacity."
+    },
+    "minecraft:turtle": {
+        id: "minecraft:turtle",
+        name: "Turtle",
+        health: 30,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Beaches"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Lays up to 4 eggs in sand",
+            "Breeds infinitely with seagrass",
+            "Baby turtles take time to mature",
+            "Returns to home beach when far away"
+        ],
+        drops: [
+            { item: "Seagrass", chance: "1" }
+        ],
+        description: "Turtles are peaceful aquatic passive mobs that spawn exclusively on beaches. They play a crucial role in the ocean ecosystem by laying eggs and can be infinitely bred using seagrass. These ancient creatures slowly wander the shores, occasionally diving into water but always returning to their favorite beach spots."
     }
 };

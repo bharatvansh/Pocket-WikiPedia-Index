@@ -1104,5 +1104,36 @@ export const hostileMobs = {
             { item: "Experience", chance: "12,000 (First Dragon)" }
         ],
         description: "The Ender Dragon is a massive flying boss mob and the primary antagonist of Minecraft, residing in the End dimension. It utilizes a variety of attacks, including diving at players, breathing harmful clouds of purple gas, and firing explosive fireballs. Players must typically destroy the End Crystals atop obsidian pillars to prevent the dragon from regenerating health. Defeating the dragon opens the exit portal, grants a massive amount of experience, and allows access to the outer islands."
+    },
+    "minecraft:zombie_villager": {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        health: 20,
+        stats: {
+            attackDamage: 3,
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Most Overworld biomes"],
+            lightLevel: "0-7",
+            groupSize: "1-4"
+        },
+        behaviorTraits: [
+            "Can be cured with weakness potion + golden apple",
+            "Retains villager profession after curing",
+            "Attacks players and villagers",
+            "Becomes neutral after successful curing"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" }
+        ],
+        description: "Zombie Villagers are hostile undead mobs that spawn in most Overworld biomes. They can be cured using a splash potion of weakness followed by a golden apple, transforming them back into normal villagers. Successfully cured zombie villagers offer discounted trades as a gratitude reward, making them valuable for establishing trade relationships in villages."
     }
 };
