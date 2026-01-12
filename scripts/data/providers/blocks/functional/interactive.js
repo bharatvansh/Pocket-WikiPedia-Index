@@ -347,5 +347,26 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:candle": {
+        id: "minecraft:candle",
+        name: "Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Candle is a light source block that can be placed in clusters of up to four. It comes in 16 dyed colors and one uncolored variant. Candles must be lit using flint and steel or a fire charge to emit light, with the light level increasing by 3 for each additional candle in the cluster (max 12). They can be placed on cakes to create a candle cake. Candles generate naturally in ancient cities and can be crafted using honeycomb and string."
     }
 };

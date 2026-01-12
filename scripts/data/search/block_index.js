@@ -1629,5 +1629,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pumpkin_face_on",
         themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater_off",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:unpowered_comparator",
+        name: "Redstone Comparator",
+        category: "block",
+        icon: "textures/blocks/comparator_off",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:candle",
+        name: "Candle",
+        category: "block",
+        icon: "textures/blocks/candle",
+        themeColor: "§6" // gold/honeycomb
     }
 ];
