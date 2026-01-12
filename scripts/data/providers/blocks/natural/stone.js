@@ -325,5 +325,26 @@ export const stoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "Polished Deepslate is a decorative building block crafted from four cobbled deepslate blocks or created via a stonecutter. It has a smooth, dark gray texture that serves as a refined version of deepslate, making it excellent for flooring, walls, and structural accents. It generates naturally in Ancient Cities. Like other deepslate variants, it has a high hardness (3.5) and blast resistance (6.0), providing durability comparable to stone products. It can be further crafted into deepslate bricks, deepslate tiles, or polished deepslate walls, stairs, and slabs."
+    },
+    "minecraft:chiseled_deepslate": {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Chiseled Deepslate is a decorative variant featuring intricate patterns carved into deepslate. It can be crafted from two deepslate slabs vertically or created in a stonecutter from a single deepslate block. Generates naturally in Ancient Cities with high durability (hardness 3.5, blast resistance 6.0). This elegant block provides builders with sophisticated patterns for detailed architectural work, perfect for accent walls, decorative borders, and refined building details in dark, mysterious builds."
     }
 };
