@@ -222,6 +222,27 @@ export const netherBlocks = {
         },
         description: "Soul Sand is a unique block found naturally in the Nether, primarily within the Soul Sand Valley biome. It significantly slows down the movement of most mobs and players walking upon it, and it also causes them to sink slightly into the block. When placed under water, it creates a bubble column that pushes entities and items upwards, which is essential for many water-based elevator designs. Soul Sand is also a requirement for summoning the Wither and can be used to grow nether wart.",
     },
+    "minecraft:soul_soil": {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Soil"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley (Surface)"
+        },
+        description: "Soul Soil is a block found naturally in the Soul Sand Valley biome of the Nether. Unlike Soul Sand, it does not slow down entities that walk on it. Fire lit on Soul Soil burns with a distinctive blue flame known as Soul Fire, which does twice the damage of normal fire. It is also used to craft Soul Torches and Soul Campfires. It can be mined quickly with a shovel."
+    },
     "minecraft:nether_gold_ore": {
     id: "minecraft:nether_gold_ore",
     name: "Nether Gold Ore",
