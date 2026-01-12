@@ -390,5 +390,26 @@ export const miscDecorativeBlocks = {
             yRange: "Strongholds, Villages, End Cities"
         },
         description: "Iron Bars are decorative blocks used to create fences, cages, or windows. They are crafted from six iron ingots and can be found naturally in strongholds, villages, igloos, woodland mansions, and end cities. Like glass panes, they connect to adjacent solid blocks and other iron bars, forming a thin barrier. They allow light to pass through completely. While they look fragile, they have the same blast resistance as cobblestone. In the End dimension, they are found in cages around End Crystals atop obsidian pillars."
+    },
+    "minecraft:breeze_block": {
+        id: "minecraft:breeze_block",
+        name: "Breeze Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Breeze Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Breeze Block is a special decorative block introduced in Minecraft 1.21, found exclusively in Trial Chambers. When mobs or players contact this block, they are propelled upward and slightly backward, creating unpredictable knockback effects. This block cannot be pushed by pistons and does not conduct redstone signals. It's primarily used as a decorative element in Trial Chambers, contributing to their mystical atmosphere. Players cannot mine or break this block, making it purely decorative and functional within Trial Chambers."
     }
 };

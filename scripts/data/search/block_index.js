@@ -1608,5 +1608,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/warped_wart_block",
         themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:copper_block",
+        name: "Block of Copper",
+        category: "block",
+        icon: "textures/blocks/copper_block",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        category: "block",
+        icon: "textures/blocks/chiseled_deepslate",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:breeze_block",
+        name: "Breeze Block",
+        category: "block",
+        icon: "textures/blocks/breeze_block",
+        themeColor: "§b" // aqua/cyan
     }
 ];

@@ -371,5 +371,26 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of copper, featuring a distinct teal-green patina. Found naturally in Trial Chambers, it serves as a weathered decorative and functional block. Players can wax it with honeycomb to lock its appearance or scrape it with an axe to revert it to a weathered state. It must be mined with a stone pickaxe or better to drop as an item. Unlike iron trapdoors, copper trapdoors can be toggled by hand or redstone, providing versatility for aged industrial or ancient-themed builds."
+    },
+    "minecraft:copper_block": {
+        id: "minecraft:copper_block",
+        name: "Block of Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Block of Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted"
+        },
+        description: "A Block of Copper is a decorative and storage block crafted from 9 copper ingots. It serves as a compact way to store copper and oxidizes naturally over time when exposed to air, transitioning through four stages: fresh (orange), exposed (yellow-brown), weathered (blue-green), and oxidized (teal). This oxidation can be accelerated with lightning or halted by applying honeycomb to wax the block. Players can scrape oxidized blocks with an axe to revert to a previous state. Perfect for building large structures, the block's changing appearance creates beautiful weathered metal aesthetics."
     }
 };
