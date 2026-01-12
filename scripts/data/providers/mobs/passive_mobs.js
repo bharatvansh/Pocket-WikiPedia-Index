@@ -482,6 +482,102 @@ export const passiveMobs = {
         ],
         description: "Tadpoles are the aquatic baby form of frogs that hatch from frogspawn. They swim aimlessly in water and flop around on land while seeking water to survive. Tadpoles follow players holding slimeballs and can be collected in water buckets for transport. They are hunted by axolotls and take 20 minutes to grow into adult frogs, with their final variant determined by the biome they mature in. Tadpoles are essential for frog breeding and provide a unique aquatic life cycle in Minecraft."
     },
+    "minecraft:turtle": {
+        id: "minecraft:turtle",
+        name: "Turtle",
+        health: 30,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Beach"],
+            lightLevel: "7+",
+            groupSize: "1-5"
+        },
+        behaviorTraits: [
+            "Move slowly on land but swim fast in water",
+            "Lay eggs on beaches that hatch into baby turtles",
+            "Babies drop scutes when growing into adults",
+            "Follow players holding seagrass",
+            "Can be bred using seagrass",
+            "Attempt to return to nearest water when on land",
+            "Cannot be led with leads but can be led by holding seagrass"
+        ],
+        drops: [
+            { item: "Seagrass", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
+        ],
+        description: "Turtles are passive aquatic mobs found exclusively on beaches. They move slowly on land but become swift swimmers in water. Their most valuable feature is the scute dropped when a baby turtle matures, which is used to craft turtle shell helmets that grant 10 seconds of water breathing. Turtles lay eggs in sand that must be protected; they follow players holding seagrass and can be bred with it. Baby turtles are particularly vulnerable to mobs and take about 20 minutes to grow into adults, making proper enclosures essential for farming scutes."
+    },
+    "minecraft:panda": {
+        id: "minecraft:panda",
+        name: "Panda",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Jungle", "Bamboo Jungle"],
+            lightLevel: "7+",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Have 7 personality variants including lazy, playful, and aggressive",
+            "Aggressive pandas attack when provoked or if other pandas are hurt",
+            "Sneeze occasionally; baby pandas may drop slimeballs when sneezing",
+            "Follow players holding bamboo and can be bred with it",
+            "Roll over and play when happy, especially playful and lazy variants",
+            "Lazy pandas sit more often while playful ones roll and jump",
+            "Weak variant has half health and shakes nervously"
+        ],
+        drops: [
+            { item: "Bamboo", chance: "1" },
+            { item: "Slimeball", chance: "Rare (baby sneeze, 1/700 chance)" }
+        ],
+        description: "Pandas are passive mobs found in jungle biomes with unique personalities. They come in seven variants: normal, lazy, worried, playful, aggressive, weak, and the rare brown panda. While mostly passive, the aggressive variant will attack if provoked or if another panda is hurt. Pandas can be bred with bamboo and follow players holding it. Baby pandas occasionally sneeze, which has a 1/700 chance to drop a slimeball. Playful pandas roll and jump frequently, while lazy variants prefer sitting. The weak variant has only half the health of normal pandas."
+    },
+    "minecraft:donkey": {
+        id: "minecraft:donkey",
+        name: "Donkey",
+        health: 23,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.175
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna", "Meadow"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Can be equipped with a chest to provide 15 inventory slots",
+            "Can be ridden with a saddle and controlled with carrots",
+            "Must be tamed by repeatedly riding until hearts appear",
+            "Follow players holding golden carrots, golden apples, or hay bales",
+            "Can be bred using golden carrots or golden apples",
+            "Cannot jump as high as horses but are stronger for carrying loads",
+            "Has health between 15-30 HP when spawned naturally"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Donkeys are passive mobs found in plains, savannas, and meadows. Their most valuable feature is the ability to be equipped with a chest, providing 15 inventory slots for transport. Unlike horses, donkeys cannot jump as high but make excellent pack animals. They can be tamed by repeatedly mounting them, then ridden with a saddle and controlled using a carrot on a stick. Donkeys can be bred using golden carrots or golden apples and follow players holding these items or hay bales. Their natural health varies from 15-30 HP when spawned."
+    },
     "minecraft:tropical_fish": {
         id: "minecraft:tropical_fish",
         name: "Tropical Fish",
