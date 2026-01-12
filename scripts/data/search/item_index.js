@@ -1804,5 +1804,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/turtle_helmet",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:iron_boots",
+        name: "Iron Boots",
+        category: "item",
+        icon: "textures/items/iron_boots",
+        themeColor: "§f" // white/iron
+    },
+    {
+        id: "minecraft:diamond_chestplate",
+        name: "Diamond Chestplate",
+        category: "item",
+        icon: "textures/items/diamond_chestplate",
+        themeColor: "§b" // aqua/diamond
+    },
+    {
+        id: "minecraft:golden_leggings",
+        name: "Golden Leggings",
+        category: "item",
+        icon: "textures/items/gold_leggings",
+        themeColor: "§6" // gold
     }
 ];
