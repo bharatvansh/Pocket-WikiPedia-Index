@@ -1720,5 +1720,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_chirp",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        category: "item",
+        icon: "textures/items/record_mellohi",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_clownfish_raw",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange
     }
 ];

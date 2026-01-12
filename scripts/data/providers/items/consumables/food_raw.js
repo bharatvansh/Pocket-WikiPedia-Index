@@ -344,5 +344,32 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Feeding wolves (heals 1 heart)"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Tropical Fish mobs", "Dropped by Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumstick) and 0.2 saturation",
+            "Cannot be cooked",
+            "Used to heal wolves by 1 heart in Bedrock Edition",
+            "Used to gain trust from Ocelots",
+            "Fisherman villagers may buy tropical fish for emeralds"
+        ],
+        description: "Tropical Fish is a food item obtained by fishing in warm oceans or killing tropical fish mobs. Unlike cod or salmon, it cannot be cooked, making it a poor food source for players as it restores only 1 hunger point and very low saturation. However, it has specific uses in Bedrock Edition, such as healing wolves by 1 heart or gaining the trust of Ocelots. It can also be traded with Fisherman villagers for emeralds."
     }
 };
