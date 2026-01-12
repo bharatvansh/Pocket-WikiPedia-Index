@@ -321,5 +321,74 @@ export const musicDiscs = {
             "Outputs a redstone signal strength of 4 in a Jukebox"
         ],
         description: "Music Disc 'Chirp' is a retro-styled track composed by C418, often described as having a bossa nova feel. It is one of the collectible music discs obtainable from Creeper drops caused by Skeletons. When used in a Jukebox with a Comparator, it outputs a signal strength of 4."
+    },
+    "minecraft:music_disc_11": {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '11' recording in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "The only music disc that appears physically broken",
+            "Features a disturbing recording of running, coughing, and static",
+            "Outputs a redstone signal strength of 11 in a Jukebox"
+        ],
+        description: "Music Disc 11 is a unique and mysterious record, easily identifiable by its broken, fragmented appearance. Unlike other discs that play music, this disc plays a disturbing audio recording of a person running across different blocks, struggling, and coughing, accompanied by static and eerie noises. It ends abruptly with a sharp cut. In Bedrock Edition, it can be obtained when a Creeper is killed by a Skeleton. When placed in a Jukebox, it outputs a signal strength of 11 to a Comparator."
+    },
+    "minecraft:music_disc_mellohi": {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mellohi' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 7 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a slow, melancholic waltz melody",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 7 in a Jukebox"
+        ],
+        description: "Music Disc 'Mellohi' is a track composed by C418, featuring a slow, somber waltz that conveys a mood of melancholy and introspection. In Bedrock Edition, this disc can be discovered in Buried Treasure chests buried under beaches, in addition to being a drop from Creepers killed by Skeletons. Its distinct purple and white label matches its eerie yet beautiful tone. When played in a Jukebox, it emits a comparator signal strength of 7."
+    },
+    "minecraft:music_disc_stal": {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Stal' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 8 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a smooth jazz melody with recorder and saxophone",
+            "Outputs a redstone signal strength of 8 in a Jukebox",
+            "The name 'Stal' translates to 'steel' in Polish"
+        ],
+        description: "Music Disc 'Stal' is a jazz-inspired track composed by C418. It is characterized by a relaxed tempo, featuring a prominent recorder melody accompanied by piano, saxophone, and bass. This disc is a classic collectible obtained from Creepers killed by Skeletons. Its soothing, somewhat humorous jazz style makes it a favorite for many players. In redstone mechanisms, it provides a signal strength of 8 when detected by a Comparator attached to a Jukebox."
     }
 };
