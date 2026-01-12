@@ -1650,5 +1650,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:torch",
+        name: "Torch",
+        category: "block",
+        icon: "textures/blocks/torch_on",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:candle",
+        name: "Candle",
+        category: "block",
+        icon: "textures/blocks/candle",
+        themeColor: "§e" // yellow/white
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // white
     }
 ];

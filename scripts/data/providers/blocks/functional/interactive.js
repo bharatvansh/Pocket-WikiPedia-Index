@@ -347,5 +347,47 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:torch": {
+        id: "minecraft:torch",
+        name: "Torch",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Torch"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Strongholds, Mineshafts, Igloos"
+        },
+        description: "A Torch is a non-solid block that emits light level 14. It is the most common light source in the game, crafted from a stick and coal or charcoal. Torches can be placed on the top or sides of most solid blocks. They break instantly if the block they are attached to is removed. In Bedrock Edition, torches can be placed on fences and glass panes. They prevent hostile mobs from spawning in their vicinity by raising the light level. While they are not affected by gravity, sand or gravel falling on them will break into items."
+    },
+    "minecraft:candle": {
+        id: "minecraft:candle",
+        name: "Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Candle is a light source introduced in 1.17 that can be placed in clusters of up to four on a single block. A single lit candle emits light level 3, increasing by 3 for each additional candle up to level 12. Candles are unlit when placed and must be lit with flint and steel or a fire charge. They can be waterlogged, but cannot be lit while underwater. Candles come in 16 colors plus a plain yellowish-white variant. They are crafted from honeycomb and string. One unique feature is the ability to place a candle on an uneaten cake."
     }
 };
