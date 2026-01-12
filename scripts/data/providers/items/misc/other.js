@@ -831,6 +831,81 @@ export const miscItems = {
         ],
         description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
     },
+    "minecraft:spruce_boat": {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with spruce wood appearance",
+            secondaryUse: "Matching spruce wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to oak boat but with spruce wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Useful for matching spruce wood builds and forest-themed bases",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Spruce Boat is a variant of the standard boat crafted from spruce planks, offering the same functionality as the oak boat but with a darker, more rustic appearance. It provides the same two-passenger capacity and water transportation capabilities while maintaining aesthetic consistency with spruce wood builds and forest-themed structures. This boat is particularly popular among players building in colder, forest biomes or those who prefer the darker aesthetic of spruce wood. All the benefits of standard boats apply, including enhanced speed on ice and fall damage protection."
+    },
+    "minecraft:raft": {
+        id: "minecraft:raft",
+        name: "Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Alternative water transportation using boat oars for manual propulsion",
+            secondaryUse: "Building floating structures and mobile bases"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Logs x6", "Sticks x2"]
+        },
+        specialNotes: [
+            "Requires boat oar for manual rowing and propulsion",
+            "Can be used to carry players and mobs across water",
+            "Crafted from logs rather than planks, creating a more rustic appearance",
+            "Can be used as a base for building floating structures",
+            "Boat oar must be crafted separately and used to control movement",
+            "Larger footprint than standard boats, offering more building potential",
+            "In Bedrock, can pick up mobs when used as a water vehicle"
+        ],
+        description: "The Raft is a unique water transportation item offering a primitive and customizable approach to water travel. Unlike traditional boats, rafts require a separate boat oar for propulsion, giving players precise control over their watercraft. Rafts are crafted from logs and sticks, creating a larger, more rustic appearance ideal for building floating structures and mobile bases. The larger footprint provides creative building opportunities while maintaining full functionality for transporting players and mobs across water."
+    },
+    "minecraft:boat_oar": {
+        id: "minecraft:boat_oar",
+        name: "Boat Oar",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Propelling rafts across water surfaces",
+            secondaryUse: "Crafting material for raft construction and modifications"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick", "Wood Slab"]
+        },
+        specialNotes: [
+            "Essential tool for operating rafts - rafts cannot move without an oar",
+            "Can be used on rafts to propel them forward through water",
+            "Right-click while holding oar on raft to move in the direction you're facing",
+            "Essential for raft-based exploration and transportation",
+            "Can be combined with other items in crafting recipes",
+            "Each oar can be used indefinitely without durability loss",
+            "Required component for the raft crafting recipe in some versions"
+        ],
+        description: "The Boat Oar is a specialized tool item used exclusively for propelling rafts across water. Unlike boats that move automatically, rafts require manual propulsion using a boat oar, giving players precise control over their watercraft. The oar is crafted from a stick and wood slab, and when used on a raft, allows for directional movement across water surfaces. This manual control system makes rafts useful for precise navigation in tight spaces or for hands-on water transportation."
+    },
     "minecraft:painting": {
         id: "minecraft:painting",
         name: "Painting",
