@@ -321,5 +321,73 @@ export const musicDiscs = {
             "Outputs a redstone signal strength of 4 in a Jukebox"
         ],
         description: "Music Disc 'Chirp' is a retro-styled track composed by C418, often described as having a bossa nova feel. It is one of the collectible music discs obtainable from Creeper drops caused by Skeletons. When used in a Jukebox with a Comparator, it outputs a signal strength of 4."
+    },
+    "minecraft:music_disc_mellohi": {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mellohi' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 7 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a slow, melancholic waltz tune",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 7 in a Jukebox"
+        ],
+        description: "Music Disc 'Mellohi' is a melancholic, waltz-like track composed by C418. It features a distinctive sound that sets it apart from other discs. In Bedrock Edition, it is obtainable from Buried Treasure chests as well as the standard method of having a Skeleton or Stray kill a Creeper. When placed in a Jukebox with a Comparator, it emits a signal strength of 7."
+    },
+    "minecraft:music_disc_stal": {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Stal' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 8 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a jazz-like piece with piano, saxophone, and recorder",
+            "Outputs a redstone signal strength of 8 in a Jukebox"
+        ],
+        description: "Music Disc 'Stal' is a jazz-inspired track composed by C418, featuring a mix of piano, saxophone, and recorder. It is a favorite among players for its unique style. Like many other discs, it is acquired when a Creeper is killed by a Skeleton or Stray. In redstone circuits, it provides a signal strength of 8 when played in a Jukebox."
+    },
+    "minecraft:music_disc_11": {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '11' recording in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "The only visibly broken music disc",
+            "Features an unsettling recording of breaking blocks and breathing",
+            "Outputs a redstone signal strength of 11 in a Jukebox"
+        ],
+        description: "Music Disc '11' is unique for its shattered appearance and unsettling audio. Composed by C418, it plays a recording of someone running, breathing heavily, and breaking blocks, rather than music. It is obtained from Creepers killed by Skeletons or Strays. When used in a Jukebox, it outputs a signal strength of 11, matching its name and adding to its mysterious nature."
     }
 };
