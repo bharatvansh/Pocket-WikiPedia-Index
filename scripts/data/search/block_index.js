@@ -1713,5 +1713,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_portal_frame_top",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "block",
+        icon: "textures/blocks/trip_wire_source",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "block",
+        icon: "textures/blocks/rail_normal",
+        themeColor: "§7" // gray
     }
 ];
