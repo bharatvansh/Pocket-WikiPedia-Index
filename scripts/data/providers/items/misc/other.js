@@ -5,7 +5,8 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
+// bucket, dragon egg, oak boat, oak boat with chest, birch boat,
+// spruce boat, jungle boat
 // ============================================
 
 /**
@@ -830,6 +831,78 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
+    },
+    "minecraft:birch_boat": {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x5"]
+        },
+        specialNotes: [
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Birch Boat is a water transportation vessel crafted from birch planks. It shares the same mechanics as other boats, allowing for the transport of up to two entities across water at high speeds. It is particularly effective on ice tracks for rapid travel. In Bedrock Edition, the crafting recipe consists simply of five birch planks arranged in a U-shape, no longer requiring a shovel. Its pale wood texture makes it a distinct choice for players who prefer the aesthetics of birch wood."
+    },
+    "minecraft:spruce_boat": {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x5"]
+        },
+        specialNotes: [
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Spruce Boat is a variant of the boat item made from spruce planks. It functions identically to the Oak Boat, providing a way to travel across water or ice with a passenger. The darker, rich brown color of spruce wood gives this boat a rustic appearance. Like other boats in Bedrock Edition, it has a max stack size of 1 and is crafted using five spruce planks. It is essential for navigating the rivers and oceans of the Taiga and Snowy biomes where spruce trees are abundant."
+    },
+    "minecraft:jungle_boat": {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Transporting mobs across land and water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x5"]
+        },
+        specialNotes: [
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Jungle Boat is crafted from jungle planks and features the reddish-brown hue characteristic of jungle wood. It serves as a reliable vehicle for water travel and transporting mobs. In Bedrock Edition, it allows for two passengers and can be rowed to move quickly across water or glide effortlessly over ice. The recipe requires five jungle planks and, as of update 1.20.10, does not require a shovel. It is a common craft for explorers navigating the dense rivers of jungle biomes."
     },
     "minecraft:painting": {
         id: "minecraft:painting",

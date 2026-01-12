@@ -1762,5 +1762,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_stal",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        category: "item",
+        icon: "textures/items/boat_birch",
+        themeColor: "§f" // white/pale
+    },
+    {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        category: "item",
+        icon: "textures/items/boat_spruce",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        category: "item",
+        icon: "textures/items/boat_jungle",
+        themeColor: "§6" // reddish-brown/orange
     }
 ];
