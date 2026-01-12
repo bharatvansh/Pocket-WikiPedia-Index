@@ -1734,5 +1734,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_torch",
         themeColor: "§3" // cyan/blue
+    },
+    {
+        id: "minecraft:torch",
+        name: "Torch",
+        category: "block",
+        icon: "textures/blocks/torch_on",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/blocks/cake_top",
+        themeColor: "§f" // white
     }
 ];

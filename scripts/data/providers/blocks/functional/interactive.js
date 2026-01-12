@@ -347,5 +347,26 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Buried Treasure (Item form)"
+        },
+        description: "Cake is a block that can be eaten to restore hunger. It consists of 7 slices, each restoring 2 hunger points. Unlike other food, cake must be placed on a solid block to be eaten. It cannot be picked back up; breaking it yields nothing. In Bedrock Edition, cake has a height of 0.5 blocks, acting as a slab for movement. It is crafted using 3 milk buckets, 2 sugar, 1 egg, and 3 wheat."
     }
 };

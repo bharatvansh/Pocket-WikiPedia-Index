@@ -1,6 +1,6 @@
 // Pocket Wikipedia Foundation - Redstone Blocks Data
 // ============================================
-// This file contains: Redstone dust, redstone torch, redstone block,
+// This file contains: TNT, Redstone dust, redstone torch, redstone block,
 // redstone lamp, repeater, comparator, piston, sticky piston,
 // observer, dropper, dispenser, hopper, target, lever, buttons
 // (all types), pressure plates (all types), tripwire hook,
@@ -285,5 +285,26 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Pyramids, Woodland Mansions"
+        },
+        description: "TNT is an explosive block primed by fire, redstone, or interaction. Once primed, it becomes an entity and explodes after 4 seconds (80 ticks) with a blast power of 4. It destroys nearby blocks and damages entities. In Bedrock Edition, TNT can be ignited by a Dispenser or a flame bow. Underwater explosions do not break blocks unless the TNT is inside a gravity block like sand."
     }
 };
