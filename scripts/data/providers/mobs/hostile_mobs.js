@@ -68,6 +68,42 @@ export const hostileMobs = {
         ],
         description: "Zombies are common undead hostile mobs that spawn in dark areas throughout the Overworld. They burn in direct sunlight unless protected by a helmet or shade. Zombies attack by pursuing players and villagers, dealing melee damage. They can spawn with armor and weapons, and have a chance to drop useful items."
     },
+    "minecraft:zombie_villager": {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        health: 20,
+        stats: {
+            attackDamage: "2.5-4.5",
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Most Overworld biomes", "Abandoned Villages", "Igloos"],
+            lightLevel: "0",
+            groupSize: "2-4 (5% chance replacing zombies)"
+        },
+        behaviorTraits: [
+            "Infected villagers that retain profession clothing when zombified",
+            "Can be cured by splashing with Weakness potion then feeding golden apple",
+            "Curing takes 2-5 minutes in Bedrock Edition to convert back to villager",
+            "Burns in sunlight like other undead unless wearing a helmet",
+            "Can spawn naturally when a zombie kills a villager",
+            "Can break wooden doors on Hard difficulty",
+            "Baby zombie villagers spawn and are faster than adults"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" },
+            { item: "Equipped items/armor", chance: "If picked up" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Zombie Villagers are infected villagers that have become hostile undead mobs. They behave like regular zombies, attacking players and villagers, but retain their villager profession clothing. What makes them special is they can be cured back to normal villagers. In Bedrock Edition, curing requires splashing them with a Potion of Weakness and feeding them a golden apple. The conversion takes 2-5 minutes. Zombie villagers drop the same items as zombies but curing them is the only way to restore villagers in abandoned villages or obtain villagers with specific trades in remote areas."
+    },
     "minecraft:husk": {
         id: "minecraft:husk",
         name: "Husk",

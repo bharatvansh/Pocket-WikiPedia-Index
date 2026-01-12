@@ -530,5 +530,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_donkey.png",
         themeColor: "§6" // gray/brown
+    },
+    {
+        id: "minecraft:horse",
+        name: "Horse",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_horse.png",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:mule",
+        name: "Mule",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_mule.png",
+        themeColor: "§8" // dark gray/brown
+    },
+    {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie_villager.png",
+        themeColor: "§8" // green/zombie
     }
 ];

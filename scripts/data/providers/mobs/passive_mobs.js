@@ -355,6 +355,74 @@ export const passiveMobs = {
         ],
         description: "Cows are fundamental passive mobs for leather and food resources, essential for early-game survival. They spawn commonly in grassy biomes and provide leather for armor and item crafting, as well as beef for food. Cows can be milked infinite times using buckets, providing milk that removes all status effects when consumed. They can be bred with wheat to establish sustainable farms. The brown mooshroom variant spawns exclusively on mushroom islands and provides mushroom stew when milked with a bowl. Cows are one of the most valuable early-game passive mobs for food, leather, and milk resources."
     },
+    "minecraft:horse": {
+        id: "minecraft:horse",
+        name: "Horse",
+        health: 22,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.225
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna", "Savanna Plateau", "Sunflower Plains", "Windswept Savanna", "Villages"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Tamed by repeatedly mounting until hearts appear (temper stat influences attempts)",
+            "Can be ridden when saddled and controlled with horse armor for protection",
+            "Jump height and speed vary between individuals based on genetic stats",
+            "Can be bred using golden apples or golden carrots to produce foals",
+            "Foals inherit stats from parents making selective breeding valuable",
+            "Multiple coat colors and patterns available for variety",
+            "Can be attached to leads and follow players holding golden foods"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Saddle", chance: "If equipped" },
+            { item: "Horse Armor", chance: "If equipped" }
+        ],
+        description: "Horses are versatile passive mobs found in plains and savanna biomes, offering fast transportation across terrain. Each horse has unique stats for health (15-30), speed, and jump height, encouraging selective breeding for optimal mounts. Taming requires repeated mounting until hearts appear, then equipping a saddle enables riding. Horse armor provides additional protection in combat. Their superior mobility makes them ideal for exploration, transporting players quickly between locations, and navigating difficult terrain that would be time-consuming on foot."
+    },
+    "minecraft:mule": {
+        id: "minecraft:mule",
+        name: "Mule",
+        health: 23,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: "N/A (bred from horse and donkey)",
+            lightLevel: "Any",
+            groupSize: "1 (from breeding)"
+        },
+        behaviorTraits: [
+            "Offspring of breeding a horse with a donkey",
+            "Can be equipped with a chest providing 15 storage slots for any item",
+            "Tamed by repeated mounting like horses and donkeys",
+            "Cannot be bred (sterile) but can ride when saddled",
+            "Inherits average stats from parents with health typically 22-23",
+            "Drops equipped chest and contents upon death",
+            "Cannot wear horse armor unlike horses"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Chest", chance: "If equipped" },
+            { item: "Saddle", chance: "If equipped" }
+        ],
+        description: "Mules are sterile hybrids created by breeding horses with donkeys in Bedrock Edition. They combine donkey chest capabilities with improved mobility compared to pure donkeys. When given a chest, mules gain 15 inventory slots for any items, making them excellent pack animals for long expeditions. While they cannot be bred themselves, mules can be ridden when saddled and have health ranging from 15-30 points. They inherit average stats from their parents and serve as specialized storage mounts for players needing both transportation and carrying capacity."
+    },
     "minecraft:goat": {
         id: "minecraft:goat",
         name: "Goat",
