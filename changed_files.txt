@@ -1,0 +1,3 @@
+changed_files.txt
+scripts/data/providers/items/misc/music_discs.js
+scripts/data/search/item_index.js

@@ -321,5 +321,75 @@ export const musicDiscs = {
             "Outputs a redstone signal strength of 4 in a Jukebox"
         ],
         description: "Music Disc 'Chirp' is a retro-styled track composed by C418, often described as having a bossa nova feel. It is one of the collectible music discs obtainable from Creeper drops caused by Skeletons. When used in a Jukebox with a Comparator, it outputs a signal strength of 4."
+    },
+    "minecraft:music_disc_11": {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '11' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "The only visibly damaged music disc",
+            "Features a haunting recording rather than a musical track",
+            "Outputs a redstone signal strength of 11 in a Jukebox",
+            "Spectrogram analysis reveals a face and '12418' (C418)"
+        ],
+        description: "Music Disc '11' is the most mysterious and unsettling disc in the game, composed by C418. Visually unique as a broken record, it plays a recording of someone running, breathing heavily, and fumbling with equipment, accompanied by eerie background noises. Unlike other discs, it does not play music but rather tells a fragmented story. It is obtained from Creeper drops and outputs a signal strength of 11 when used with a Comparator."
+    },
+    "minecraft:music_disc_stal": {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Stal' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 8 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a moderate jazz-like piece",
+            "Outputs a redstone signal strength of 8 in a Jukebox",
+            "Instrumentation includes piano, saxophone, and recorder"
+        ],
+        description: "Music Disc 'Stal' is a jazz-inspired track composed by C418. It features a distinct mix of piano, saxophone, double bass, and recorder, creating a relaxed yet quirky atmosphere. The name 'Stal' means 'steel' in Polish and 'stole' in Swedish. Like most music discs, it is obtained when a Skeleton or Stray kills a Creeper. When played in a Jukebox, it provides a redstone signal strength of 8 to a connected Comparator."
+    },
+    "minecraft:music_disc_mellohi": {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mellohi' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 7 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a slow, melancholic waltz",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 7 in a Jukebox"
+        ],
+        description: "Music Disc 'Mellohi' is a slow, melancholic waltz composed by C418, featuring the distinctive sound of a Mellotron. In Bedrock Edition, this disc can be found in Buried Treasure chests, in addition to being obtainable from Creeper drops. Its somber yet beautiful melody makes it a unique addition to any collection. When placed in a Jukebox, it outputs a signal strength of 7 to a Comparator."
     }
 };
