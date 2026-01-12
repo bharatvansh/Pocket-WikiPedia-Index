@@ -433,5 +433,74 @@ export const utilityTools = {
             "Tadpoles grow into frogs based on the biome they mature in."
         ],
         description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
+    },
+    "minecraft:cod_bucket": {
+        id: "minecraft:cod_bucket",
+        name: "Bucket of Cod",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting cod fish",
+            secondaryUse: "Placing a water source with a cod entity"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Cod"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a cod.",
+            "Places a water source block containing the cod when used.",
+            "Can be dispensed by a Dispenser to release the water and fish.",
+            "Allows players to relocate cod to man-made ponds or aquariums.",
+            "Cod are common passive mobs found in oceans."
+        ],
+        description: "A Bucket of Cod is a utility item that contains a cod fish. It is obtained by interacting with a swimming cod while holding a water bucket, which captures the fish and the water. When emptied, it places a water source block along with the cod entity, allowing players to safely transport the fish to new locations such as aquariums or garden ponds without them suffocating."
+    },
+    "minecraft:salmon_bucket": {
+        id: "minecraft:salmon_bucket",
+        name: "Bucket of Salmon",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting salmon fish",
+            secondaryUse: "Placing a water source with a salmon entity"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Salmon"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a salmon.",
+            "Places a water source block containing the salmon when used.",
+            "Can be dispensed by a Dispenser.",
+            "Salmon are found in rivers and frozen oceans.",
+            "Used to transport salmon or to feed cats/ocelots (after killing/cooking)."
+        ],
+        description: "A Bucket of Salmon is a utility item containing a live salmon. By using a water bucket on a salmon in a river or ocean, players can capture it for transport. This item is essential for moving salmon to player-built water features or for collecting specific sizes of salmon (in Bedrock Edition, salmon come in three sizes). When used, it releases the water and the fish back into the world."
+    },
+    "minecraft:tropical_fish_bucket": {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting tropical fish",
+            secondaryUse: "Placing a water source with a tropical fish entity"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Tropical Fish"]
+        },
+        specialNotes: [
+            "Stores the specific variant (color, pattern, shape) of the tropical fish.",
+            "Obtained by using a water bucket on a tropical fish.",
+            "Essential for collecting specific rare tropical fish variants.",
+            "Places a water source block containing the fish when used.",
+            "Tropical fish are found in warm ocean biomes and lush caves."
+        ],
+        description: "A Bucket of Tropical Fish allows players to capture and transport the vibrant and diverse tropical fish found in warm oceans and lush caves. Since there are thousands of possible combinations of colors, patterns, and shapes for tropical fish, this item is vital for collectors who wish to build specific aquariums. The bucket retains the exact data of the fish caught, ensuring the same fish is released when the bucket is emptied."
     }
 };
