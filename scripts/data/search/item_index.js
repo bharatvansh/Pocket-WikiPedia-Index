@@ -1393,6 +1393,27 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        category: "item",
+        icon: "textures/items/boat_spruce",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:raft",
+        name: "Raft",
+        category: "item",
+        icon: "textures/items/raft",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:boat_oar",
+        name: "Boat Oar",
+        category: "item",
+        icon: "textures/items/boat_oar",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:cooked_chicken",
         name: "Cooked Chicken",
         category: "item",
