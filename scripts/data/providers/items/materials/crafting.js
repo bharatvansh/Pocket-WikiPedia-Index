@@ -1349,5 +1349,77 @@ export const craftingMaterials = {
             "Compostable with a 30% chance to raise the compost level"
         ],
         description: "Melon Seeds are the starting point for growing melons, a source of food and potion ingredients. They are obtained by crafting melon slices or finding them in rare loot chests. Once planted on farmland, the seed grows into a stem that generates melon blocks on adjacent spaces. This process allows for infinite melon production from a single stem. Beyond farming, melon seeds serve as feed for chickens and can be used to tame parrots, making them a versatile item for survival players."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Collecting rare archaeological treasures"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a diamond, symbolizing wealth and value",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the prize pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Prize Pottery Sherd is an archaeological artifact recovered from Trail Ruins by brushing Suspicious Gravel. It features a design of a diamond, symbolizing wealth or a valuable prize. In Minecraft Bedrock Edition, this sherd is a rare find that adds a touch of luxury to builds. When used as an ingredient in a Decorated Pot, the prize motif appears on the corresponding side, making it an excellent choice for treasure rooms or displaying achievements."
+    },
+    "minecraft:howl_pottery_sherd": {
+        id: "minecraft:howl_pottery_sherd",
+        name: "Howl Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Howl motif",
+            secondaryUse: "Creating wolf or nature-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a silhouette of a wolf howling at the moon",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the howl pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Howl Pottery Sherd is a unique pottery fragment found by excavating Suspicious Gravel in Trail Ruins. It displays a silhouette of a wolf howling at the moon, capturing the wild spirit of the Overworld. This sherd is a favorite among players who keep wolves as companions. When crafted into a Decorated Pot, the howling wolf design is prominently displayed, perfect for decorating kennels, forest bases, or nature-themed builds."
+    },
+    "minecraft:plenty_pottery_sherd": {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Plenty motif",
+            secondaryUse: "Creating wealth or storage-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features an image of a chest overflowing with items",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the plenty pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Trail Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
     }
 };
