@@ -347,5 +347,26 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:structure_block": {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts, Ancient Cities, Bastion Remnants"
+        },
+        description: "The Structure Block is a technical block used by map makers to save and load structures. It allows players to export 3D models (in Bedrock Edition), save structures to memory or disk, and load them back. It has three modes in Bedrock: Save, Load, Corner, and 3D Export. While mostly obtained via commands for map making, they generate naturally in certain structures like Ancient Cities and Bastions as data markers, though players cannot obtain them in Survival mode. It emits no light and is indestructible in Survival."
     }
 };

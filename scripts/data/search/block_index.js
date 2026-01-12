@@ -1650,5 +1650,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        category: "block",
+        icon: "textures/blocks/structure_block",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/endframe_top",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];
