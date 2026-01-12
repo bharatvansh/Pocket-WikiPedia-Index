@@ -1650,5 +1650,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:small_amethyst_bud",
+        name: "Small Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/small_amethyst_bud",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:medium_amethyst_bud",
+        name: "Medium Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/medium_amethyst_bud",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:large_amethyst_bud",
+        name: "Large Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/large_amethyst_bud",
+        themeColor: "§d" // light purple
     }
 ];

@@ -390,5 +390,68 @@ export const miscDecorativeBlocks = {
             yRange: "Strongholds, Villages, End Cities"
         },
         description: "Iron Bars are decorative blocks used to create fences, cages, or windows. They are crafted from six iron ingots and can be found naturally in strongholds, villages, igloos, woodland mansions, and end cities. Like glass panes, they connect to adjacent solid blocks and other iron bars, forming a thin barrier. They allow light to pass through completely. While they look fragile, they have the same blast resistance as cobblestone. In the End dimension, they are found in cages around End Crystals atop obsidian pillars."
+    },
+    "minecraft:small_amethyst_bud": {
+        id: "minecraft:small_amethyst_bud",
+        name: "Small Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Small Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Small Amethyst Bud is the first growth stage of an amethyst cluster, appearing exclusively on the sides of Budding Amethyst blocks in geodes. It emits a faint light level of 1. Like all amethyst buds, it cannot be mined with a standard pickaxe; breaking it without Silk Touch yields nothing. To collect the bud itself, a Silk Touch tool is required. It is primarily decorative, representing the initial phase of crystal growth before it matures into larger forms."
+    },
+    "minecraft:medium_amethyst_bud": {
+        id: "minecraft:medium_amethyst_bud",
+        name: "Medium Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 2,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Medium Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Medium Amethyst Bud is the second growth stage of the amethyst crystal lifecycle, found on Budding Amethyst blocks. It emits a light level of 2, slightly brighter than the small variant. This block is unobtainable via standard mining, as it drops nothing when broken without the Silk Touch enchantment. When harvested correctly, it serves as a distinct decorative element for detailed crystal builds, marking the progression from a small sprout to a larger formation."
+    },
+    "minecraft:large_amethyst_bud": {
+        id: "minecraft:large_amethyst_bud",
+        name: "Large Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 4,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Large Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Large Amethyst Bud is the third growth stage of an amethyst cluster, preceding the fully grown cluster. It generates on Budding Amethyst blocks within geodes and emits a light level of 4. Like other buds, it is fragile and drops nothing if mined without Silk Touch. With Silk Touch, it can be collected and placed on any block face. Visually prominent, it signifies a nearly mature crystal and is often used in builds to create varied, organic-looking crystal caves."
     }
 };
