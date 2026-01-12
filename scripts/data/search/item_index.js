@@ -1720,5 +1720,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/record_chirp",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        category: "item",
+        icon: "textures/items/heart_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:howl_pottery_sherd",
+        name: "Howl Pottery Sherd",
+        category: "item",
+        icon: "textures/items/howl_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/mourner_pottery_sherd",
+        themeColor: "§6" // brown/pottery
     }
 ];

@@ -1349,5 +1349,74 @@ export const craftingMaterials = {
             "Compostable with a 30% chance to raise the compost level"
         ],
         description: "Melon Seeds are the starting point for growing melons, a source of food and potion ingredients. They are obtained by crafting melon slices or finding them in rare loot chests. Once planted on farmland, the seed grows into a stem that generates melon blocks on adjacent spaces. This process allows for infinite melon production from a single stem. Beyond farming, melon seeds serve as feed for chickens and can be used to tame parrots, making them a versatile item for survival players."
+    },
+    "minecraft:heart_pottery_sherd": {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Heart motif",
+            secondaryUse: "Decorative archaeological item symbolizing love or health"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Cold Ocean Ruins",
+            "Features a simple heart design",
+            "Used to craft Decorated Pots to display the heart pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Heart Pottery Sherd is a charming archaeological find from Cold Ocean Ruins, discovered by brushing Suspicious Sand. It features a simple heart symbol, representing love or health. When used in crafting a Decorated Pot, it imprints this heart design onto the pot's side. This makes it a favorite for players looking to add a touch of warmth and affection to their builds, or to create health-themed decorations in adventure maps."
+    },
+    "minecraft:howl_pottery_sherd": {
+        id: "minecraft:howl_pottery_sherd",
+        name: "Howl Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Howl motif",
+            secondaryUse: "Decorative archaeological item depicting a wolf"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Features a stylized wolf design",
+            "Used to craft Decorated Pots to display the wolf pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Howl Pottery Sherd is an archaeological item found in Trail Ruins by brushing Suspicious Gravel. It depicts a stylized wolf, likely referencing the loyal companion mob in Minecraft. This sherd is perfect for players who want to honor their tamed wolves or create nature-themed builds. When combined with other sherds or bricks in a crafting table, the Howl pattern appears on one face of the resulting Decorated Pot."
+    },
+    "minecraft:mourner_pottery_sherd": {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Mourner motif",
+            secondaryUse: "Decorative archaeological item depicting a Warden"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins",
+            "Features a design resembling the Warden",
+            "Used to craft Decorated Pots to display the Warden pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Mourner Pottery Sherd is a unique archaeological discovery from Trail Ruins, obtained by brushing Suspicious Gravel. It features a design that resembles the terrifying Warden found in the Deep Dark, suggesting an ancient connection or warning. This sherd allows players to add a spooky or mysterious element to their pottery collections. When used to craft a Decorated Pot, the Mourner pattern is displayed on one side, making it ideal for Deep Dark-themed builds or museums."
     }
 };
