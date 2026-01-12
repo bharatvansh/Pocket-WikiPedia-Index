@@ -285,5 +285,68 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Redstone Lamp is a light-emitting block that activates when it receives a redstone signal. When powered, it produces a bright light level of 15, illuminating its surroundings effectively. Crafted from glowstone and redstone dust, the lamp provides an energy-efficient alternative to torches and can be controlled automatically through redstone circuits. In Bedrock Edition, redstone lamps are perfect for creating dynamic lighting systems, automatic street lights, and decorative lighting effects."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Temples, Buried Treasure"
+        },
+        description: "TNT is an explosive block that can be primed with flint and steel, fire, projectiles, or a redstone signal. When activated, it enters a primed state and explodes after 4 seconds (80 ticks), damaging nearby blocks and entities. In Bedrock Edition, underwater TNT does not damage blocks. It is crafted from 5 Gunpowder and 4 Sand or Red Sand. TNT is widely used for mining, traps, and player-made cannons."
+    },
+    "minecraft:tripwire_hook": {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Tripwire Hook"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Ancient Cities"
+        },
+        description: "A Tripwire Hook is a redstone component used with string to create tripwires. When an entity touches the string, the hooks emit a redstone signal. They can be placed on the sides of solid blocks. When connected, they can detect players, mobs, and other entities passing through the string. Tripwire hooks are essential for traps and detection systems in Bedrock Edition."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts"
+        },
+        description: "A Rail is a non-solid block used to create tracks for minecarts. Minecarts can travel along rails to transport players, mobs, or items. Rails can be placed on solid blocks and automatically curve to connect to adjacent rails. They are crafted from 6 Iron Ingots and 1 Stick. In Bedrock Edition, rails are essential for minecart systems and transportation networks, and they naturally generate in Abandoned Mineshafts."
     }
 };
