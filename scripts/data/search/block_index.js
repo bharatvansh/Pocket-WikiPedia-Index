@@ -1692,5 +1692,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/resin_bricks",
         themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:brick_block",
+        name: "Bricks",
+        category: "block",
+        icon: "textures/blocks/brick",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:red_nether_brick",
+        name: "Red Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_top",
+        themeColor: "§a" // green
     }
 ];

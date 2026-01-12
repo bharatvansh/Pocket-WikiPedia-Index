@@ -367,5 +367,47 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Netherite is the most durable and expensive storage block in the game, crafted from nine netherite ingots. It shares the extreme blast resistance of obsidian and ancient debris, making it immune to most explosions, including the Wither's attacks. It serves as a compact way to store netherite or as a prestigious decorative block with a dark, metallic texture. To mine it and retrieve the block, a diamond or netherite pickaxe is required; otherwise, it drops nothing. It is also used to power beacons to their highest tier."
+    },
+    "minecraft:brick_block": {
+        id: "minecraft:brick_block",
+        name: "Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underwater ruins, Plains village armorer houses, Trail ruins"
+        },
+        description: "Bricks are a decorative building block. They have the same blast resistance as other stone-based blocks, so they can be used as a durable building block. Bricks naturally generate in underwater ruins, plains village armorer houses, and trail ruins."
+    },
+    "minecraft:red_nether_brick": {
+        id: "minecraft:red_nether_brick",
+        name: "Red Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only (Nether Bricks + Nether Wart)"
+        },
+        description: "Red Nether Bricks are a decorative variant of Nether Bricks. They are crafted using Nether Bricks and Nether Wart. They have the same blast resistance and hardness as regular Nether Bricks."
     }
 };
