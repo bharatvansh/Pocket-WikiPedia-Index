@@ -430,5 +430,26 @@ export const stoneBlocks = {
             yRange: "Crafted only"
         },
         description: "Polished Andesite is a decorative mineral block. It is the polished version of Andesite. It can be found in Trail Ruins, Ancient Cities, and Woodland Mansions, or crafted by arranging 4 Andesite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:bedrock": {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "Bottom of Overworld/Nether, Top of Nether"
+        },
+        description: "Bedrock is an indestructible block found in all three dimensions. It cannot be obtained as an item in Survival. Bedrock generates at the bottom of the Overworld and Nether to prevent players from falling into the void."
     }
 };

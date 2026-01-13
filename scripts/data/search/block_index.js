@@ -1839,5 +1839,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/light_block",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        category: "block",
+        icon: "textures/blocks/cactus_side",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
     }
 ];

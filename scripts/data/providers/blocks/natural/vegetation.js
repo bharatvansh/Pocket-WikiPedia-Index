@@ -603,5 +603,26 @@ export const vegetationBlocks = {
             yRange: "Woodland Mansions, Pillager Outposts, Rail rooms"
         },
         description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
+    },
+    "minecraft:cactus": {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cactus"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert, Badlands"
+        },
+        description: "A cactus is a plant block that generates naturally in dry areas and causes damage. It can only be placed on sand, red sand, suspicious sand, or another cactus block. When any entity touches a cactus, 1 damage is taken every 0.5 seconds."
     }
 };
