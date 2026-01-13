@@ -2007,5 +2007,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        category: "block",
+        icon: "textures/blocks/smooth_sandstone",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:stripped_bamboo",
+        name: "Block of Stripped Bamboo",
+        category: "block",
+        icon: "textures/blocks/stripped_bamboo_block",
+        themeColor: "§6" // brown/gold
     }
 ];
