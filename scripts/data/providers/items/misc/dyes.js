@@ -59,6 +59,54 @@ export const dyes = {
         ],
         description: "White Dye is a primary coloring material produced by crafting Bone Meal or a Lily of the Valley. It serves as the standard agent for dyeing wool, sheep, terracotta, glass, and concrete white. In Bedrock Edition, it plays a crucial role in color mixing, allowing players to create pastel shades like pink, light blue, and lime by combining it with other dyes. While Bone Meal can also be used as a dye, White Dye is a distinct item that lacks the fertilizing properties of its predecessor, focusing solely on cosmetic applications."
     },
+    "minecraft:orange_dye": {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks orange",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Orange Tulip", "Red Dye + Yellow Dye"]
+        },
+        specialNotes: [
+            "Crafted from Orange Tulip or by mixing Red and Yellow Dye",
+            "Used to dye wool, terracotta, glass, concrete, and beds orange",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting orange firework stars",
+            "Used to craft orange balloons in Education Edition features",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Orange Dye is a secondary color dye obtained by crafting an Orange Tulip or by mixing Red Dye and Yellow Dye. It is used to apply a vibrant orange color to various building blocks like wool, terracotta, glass, and concrete. In Bedrock Edition, it is a versatile dye for customizing leather armor, shulker boxes, and creating orange firework stars. It also serves as a trade item with Shepherd villagers and can be used to dye the collars of tamed wolves."
+    },
+    "minecraft:magenta_dye": {
+        id: "minecraft:magenta_dye",
+        name: "Magenta Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks magenta",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Allium", "Lilac", "Purple Dye + Pink Dye"]
+        },
+        specialNotes: [
+            "Crafted from Allium, Lilac, or by mixing Purple and Pink dyes",
+            "Complex recipes: Blue+2Red+White, Blue+Red+Pink",
+            "Used to dye wool, terracotta, glass, concrete, and beds magenta",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting magenta firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Magenta Dye is a secondary color dye that can be obtained from Alliums or Lilacs, or by mixing other dyes such as Purple and Pink. Bedrock Edition supports multiple mixing recipes for this dye, including combinations of Blue, Red, and White dyes. It provides a bright magenta color for wool, terracotta, glass, and concrete. Besides building, it is used to customize leather armor, dye shulker boxes, and create magenta firework stars."
+    },
     "minecraft:red_dye": {
         id: "minecraft:red_dye",
         name: "Red Dye",

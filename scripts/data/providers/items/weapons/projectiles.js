@@ -38,6 +38,34 @@ export const projectiles = {
         ],
         description: "The Wind Charge is a versatile projectile item dropped by Breezes in Trial Chambers or crafted from Breeze Rods. When thrown, it travels in a straight line and explodes upon impact, creating a wind burst that knocks back entities and can interact with redstone components. Players often use Wind Charges for 'wind jumping,' allowing them to reach high places while safely negating any fall damage from the boost. In Bedrock Edition, the Wind Charge has a short half-second cooldown, making it a dynamic tool for both combat and traversal."
     },
+    "minecraft:arrow": {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition for Bows, Crossbows, and Dispensers",
+            secondaryUse: "Can be modified into Tipped Arrows"
+        },
+        combat: {
+            attackDamage: 2, // Base damage, varies by bow charge
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Flint", "Stick", "Feather"]
+        },
+        specialNotes: [
+            "Crafted using Flint, Stick, and Feather (yields 4)",
+            "Dropped by Skeletons, Strays, and Pillagers",
+            "Damage depends on the speed/charge of the bow",
+            "Can be tipped with potions for status effects",
+            "Used by Dispensers to fire projectiles",
+            "Can be retrieved if it hits a block (unless from Infinity bow)"
+        ],
+        description: "The Arrow is the fundamental ammunition for ranged combat in Minecraft, used with Bows, Crossbows, and Dispensers. It is crafted from flint, a stick, and a feather, producing four arrows per batch. In Bedrock Edition, arrows deal damage proportional to their velocity, and they can be tipped with potions to inflict status effects. Skeletons and Pillagers frequently drop them, making them a renewable resource even without crafting."
+    },
     "minecraft:snowball": {
         id: "minecraft:snowball",
         name: "Snowball",
