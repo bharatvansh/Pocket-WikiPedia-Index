@@ -537,5 +537,26 @@ export const miscDecorativeBlocks = {
             yRange: "Ocean Monuments"
         },
         description: "Dark Prismarine is the darkest variant of the prismarine family, featuring a deep teal-gray grid pattern. It generates in ocean monuments, typically encasing the central gold blocks. Crafted from eight prismarine shards surrounding an ink sac (or black dye in Bedrock Edition), it offers a sleek, tiled appearance. With a hardness of 1.5 and blast resistance of 6.0, it is a durable building block perfect for contrast in aquatic-themed structures."
+    },
+    "minecraft:white_wool": {
+        id: "minecraft:white_wool",
+        name: "White Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pillager Outposts, Ancient Cities, Villages"
+        },
+        description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
     }
 };
