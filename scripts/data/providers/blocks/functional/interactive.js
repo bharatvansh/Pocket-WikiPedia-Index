@@ -12,6 +12,48 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const interactiveBlocks = {
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "End",
+            yRange: "Top of Exit Portal"
+        },
+        description: "The Dragon Egg is a rare decorative block that generates on top of the exit portal in the End after defeating the Ender Dragon. It serves as a trophy item, as there is usually only one per world (two in Bedrock Edition). The egg teleports to a nearby location when clicked or attacked, making it difficult to mine directly. To collect it, players must make it fall onto a non-solid block like a torch or push it with a piston. It is affected by gravity and emits a very faint light level of 1."
+    },
+    "minecraft:wet_sponge": {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wet Sponge"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "A Wet Sponge is a block obtained when a sponge absorbs water or is found naturally in Ocean Monuments. Unlike a dry sponge, it cannot absorb water. It can be dried by smelting it in a furnace, which converts it back into a sponge and fills an empty bucket in the fuel slot with water if available. In the Nether, placing a wet sponge instantly dries it, turning it into a regular sponge with a puff of steam. This mechanic makes sponges reusable for clearing large bodies of water."
+    },
     "minecraft:lodestone": {
         id: "minecraft:lodestone",
         name: "Lodestone",

@@ -945,6 +945,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow
     },
     {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        category: "block",
+        icon: "textures/blocks/wet_sponge",
+        themeColor: "§e" // yellow
+    },
+    {
         id: "minecraft:sandstone",
         name: "Sandstone",
         category: "block",
@@ -1806,6 +1813,13 @@ export const blockIndex = [
         themeColor: "§8" // dark brown
     },
     {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        category: "block",
+        icon: "textures/blocks/rail_detector",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:comparator",
         name: "Redstone Comparator",
         category: "block",
@@ -1867,6 +1881,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tnt_side",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // purple/black
     },
     {
         id: "minecraft:white_concrete",
