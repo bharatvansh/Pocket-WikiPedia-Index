@@ -218,5 +218,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:petrified_oak_slab": {
+        id: "minecraft:petrified_oak_slab",
+        name: "Petrified Oak Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Petrified Oak Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Legacy from old world upgrades"
+        },
+        description: "Petrified Oak Slab is a legacy stone-like slab that appears identical to oak slabs but behaves like stone. Originally generated when old Minecraft worlds were upgraded before all current slab variants existed. It requires a pickaxe to mine and has stone-like properties (hardness 2.0, blast resistance 6.0). These slabs cannot be crafted and only exist naturally in upgraded worlds from early versions. They produce stone sounds when walked on and are fireproof, making them functionally identical to stone slabs despite their wooden appearance."
+    },
+    "minecraft:cracked_nether_brick_slab": {
+        id: "minecraft:cracked_nether_brick_slab",
+        name: "Cracked Nether Brick Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Nether Brick Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cracked Nether Bricks"
+        },
+        description: "Cracked Nether Brick Slab is a half-block variant of cracked nether bricks, featuring the weathered, ancient texture with distinctive cracks. This decorative slab variant was added to provide more architectural variety in Nether-themed builds. It is crafted from three cracked nether bricks in a horizontal row or efficiently produced via stonecutter. Like standard nether brick slabs, it requires a wooden pickaxe to mine and offers excellent blast resistance. The cracked texture is perfect for creating structures that appear aged, ruined, or weathered by time."
+    },
+    "minecraft:chiseled_sandstone_stairs": {
+        id: "minecraft:chiseled_sandstone_stairs",
+        name: "Chiseled Sandstone Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Chiseled Sandstone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Chiseled Sandstone"
+        },
+        description: "Chiseled Sandstone Stairs are decorative stair blocks featuring the distinctive hieroglyphic-like patterns of chiseled sandstone. These stairs allow players to create elegant staircases with ancient Egyptian or Mesopotamian architectural themes. They are crafted from six chiseled sandstone blocks in the standard stair pattern or efficiently made via stonecutter. With the same warm yellow-tan coloring and unique carved symbols, these stairs are perfect for desert temples, ancient ruins, or elegant sandstone buildings requiring smooth elevation changes."
     }
 };
