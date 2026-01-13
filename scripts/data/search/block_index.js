@@ -1839,5 +1839,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/light_block",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:white_concrete",
+        name: "White Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_wool",
+        name: "White Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_white",
+        themeColor: "§f" // white
     }
 ];
