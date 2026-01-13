@@ -433,5 +433,28 @@ export const utilityTools = {
             "Tadpoles grow into frogs based on the biome they mature in."
         ],
         description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
+    },
+    "minecraft:tropical_fish_bucket": {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting tropical fish",
+            secondaryUse: "Placing a water source with a fish"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Tropical Fish"]
+        },
+        specialNotes: [
+            "Stores a specific tropical fish variant",
+            "Releases the fish and a water source block when used",
+            "Used to breed Axolotls (Bedrock Edition)",
+            "Tropical fish spawn in warm oceans, lush caves, and mangrove swamps",
+            "There are 22 common varieties and 2,700+ naturally occurring variants"
+        ],
+        description: "A Bucket of Tropical Fish is a utility item obtained by using a water bucket on a tropical fish. It allows players to transport these colorful fish between locations, such as to an aquarium. Placing the fish from the bucket also places a water source block. Tropical fish are commonly found in warm oceans, lush caves, and mangrove swamps. They come in thousands of varieties with different shapes, patterns, and colors."
     }
 };
