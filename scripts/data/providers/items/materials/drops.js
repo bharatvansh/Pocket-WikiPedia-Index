@@ -464,5 +464,54 @@ export const mobDrops = {
             "Does not have a placing or usage function on its own"
         ],
         description: "Shulker Shells are specialized items dropped by Shulkers, found exclusively in End Cities. Their sole but incredibly important purpose is the crafting of Shulker Boxes. These boxes revolutionize inventory management by allowing players to carry large quantities of items in a single slot, even when the box is broken and transported. Because Shulkers do not respawn, shells are a limited and highly sought-after resource in any survival world."
+    },
+    "minecraft:creeper_head": {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative item and trophy",
+            secondaryUse: "Crafting Monster Spawners and head collection"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Charged Creepers", "Found in dungeon and woodland mansion chests"]
+        },
+        specialNotes: [
+            "Obtained when a Creeper is killed by a Charged Creeper explosion",
+            "Drop chance is 100% when killed by Charged Creeper in Bedrock Edition",
+            "Also found in Dungeons (2.5% chance) and Woodland Mansions (13.3% chance)",
+            "Creeper Heads emit light level 3 when placed as blocks",
+            "Can be placed on walls or floors like a block",
+            "Essential for Trophy rooms and creepers-themed builds"
+        ],
+        description: "Creeper Heads are rare decorative items that serve as trophies from one of Minecraft's most iconic mobs. They are guaranteed drops when a regular Creeper is killed by a Charged Creeper's explosion, making them challenging to obtain due to the difficulty of setting up such encounters. They can also be found as rare loot in Dungeons and Woodland Mansions. When placed in the world, they emit a dim light level of 3 and make distinctive hissing sounds when players are nearby. These heads are highly prized by collectors and builders for their unique aesthetic and the challenge required to obtain them."
+    },
+    "minecraft:skeleton_skull": {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative item and crafting ingredient",
+            secondaryUse: "Crafting Wither Skeletons and skull collection"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Skeletons, Wither Skeletons, and wither skeletons in nether fortresses", "Found in various structure chests"]
+        },
+        specialNotes: [
+            "Dropped by regular Skeletons (1% chance) and Wither Skeletons (100% chance)",
+            "Wither Skeletons always drop their skulls when killed in Nether Fortresses",
+            "Can be used to craft Wither boss with 3 Skulls and 4 Soul Sand",
+            "Skulls can be placed on walls or floors as decorative blocks",
+            "Emit light level 3 when placed in the world",
+            "Found in Dungeons (1.25% chance) and Woodland Mansions (15.7% chance)",
+            "Different texture from Wither Skeleton Skull despite same ID"
+        ],
+        description: "Skeleton Skulls are macabre yet essential items dropped by the undead inhabitants of Minecraft. Regular Skeletons have a very rare chance to drop their skulls, while Wither Skeletons in Nether Fortresses always drop theirs upon death. These skulls serve multiple purposes: they are valuable decorative items for Halloween builds and spooky builds, essential for crafting the Wither boss, and prized trophies for collectors. When placed in the world, they emit a dim light level of 3 and can be oriented on walls or floors. Their constant drop from Wither Skeletons makes them relatively accessible for those brave enough to venture into the Nether's most dangerous structures."
     }
 };
