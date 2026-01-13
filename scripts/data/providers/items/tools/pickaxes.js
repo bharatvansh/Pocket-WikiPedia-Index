@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const pickaxes = {
+    "minecraft:stone_pickaxe": {
+        id: "minecraft:stone_pickaxe",
+        name: "Stone Pickaxe",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mining stone and iron ore",
+            secondaryUse: "Basic mining tool for early game"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Can mine Iron Ore, Lapis Lazuli Ore, and Copper Ore",
+            "Cannot mine Diamond, Gold, Redstone, or Emerald ores",
+            "Durability of 132 is significantly higher than wooden pickaxe (60)",
+            "Efficient and cheap to craft using abundant cobblestone"
+        ],
+        description: "The Stone Pickaxe is a reliable early-game tool in Minecraft, crafted from three cobblestone and two sticks. With 132 durability, it lasts more than twice as long as a wooden pickaxe and mines blocks faster. It is essential for progressing through the game's tiers, as it is the minimum requirement to mine iron ore, copper ore, and lapis lazuli. However, it cannot mine higher-tier ores like gold, diamond, or redstone, requiring an upgrade to an iron pickaxe for those resources."
+    },
     "minecraft:diamond_pickaxe": {
         id: "minecraft:diamond_pickaxe",
         name: "Diamond Pickaxe",
