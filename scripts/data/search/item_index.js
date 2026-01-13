@@ -1972,5 +1972,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_axe",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        category: "item",
+        icon: "textures/items/diamond_axe",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:diamond_shovel",
+        name: "Diamond Shovel",
+        category: "item",
+        icon: "textures/items/diamond_shovel",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        category: "item",
+        icon: "textures/items/diamond_hoe",
+        themeColor: "§b"
     }
 ];

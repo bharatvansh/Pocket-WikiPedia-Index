@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const hoes = {
+    "minecraft:diamond_hoe": {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting leaves, sculk, and sponges"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Has 1562 durability",
+            "Used to till dirt, grass, and coarse dirt into farmland",
+            "Can harvest leaves, sculk blocks, and sponges efficiently",
+            "Can be upgraded to Netherite Hoe"
+        ],
+        description: "The Diamond Hoe is a high-durability tool primarily used for farming. It can till ground into farmland and is the effective tool for harvesting leaves, sculk, and sponges. With 1562 durability, it lasts a very long time. It can be upgraded to a Netherite Hoe for maximum durability and fire resistance."
+    },
     "minecraft:netherite_hoe": {
         id: "minecraft:netherite_hoe",
         name: "Netherite Hoe",
