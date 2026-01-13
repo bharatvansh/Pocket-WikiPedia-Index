@@ -1496,5 +1496,30 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:cherry_sapling": {
+        id: "minecraft:cherry_sapling",
+        name: "Cherry Sapling",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Cherry Trees",
+            secondaryUse: "Crafting Cherry Wood items"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Dropped from mature Cherry Trees", "Found naturally in Cherry Grove biomes"]
+        },
+        specialNotes: [
+            "Used to grow Cherry Trees when planted on grass blocks",
+            "Cherry Trees grow to medium height (4-8 blocks) with pink cherry blossoms",
+            "Trees have unique pink blossoms that fall like leaves and can be collected",
+            "Requires adequate space above for growth (minimum 4-8 block clearance)",
+            "Grows in overworld with sufficient light and space",
+            "Can be bone-mealed to accelerate growth",
+            "Introduced in Minecraft 1.19.3 Trails & Tales update"
+        ],
+        description: "Cherry Saplings are delicate plant items that grow into the beautiful Cherry Trees of the Cherry Grove biome. These pink-blossomed trees create stunning landscapes with their distinctive pink petals that drift down like snow. When planted on grass blocks with adequate space, they gradually grow into medium-sized trees with thick trunks and canopy-like tops filled with pink blossoms. Cherry Saplings are highly valued by builders and decorators for their unique aesthetic and the romantic atmosphere they create. They can be collected from mature trees and replanted to expand cherry groves or integrated into garden designs throughout a world."
     }
 };

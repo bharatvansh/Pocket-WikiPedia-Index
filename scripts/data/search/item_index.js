@@ -1972,5 +1972,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_axe",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:cherry_sapling",
+        name: "Cherry Sapling",
+        category: "item",
+        icon: "textures/items/cherry_sapling",
+        themeColor: "§a" // green/nature
+    },
+    {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        category: "item",
+        icon: "textures/items/creeper_head",
+        themeColor: "§a" // green/creeper
+    },
+    {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        category: "item",
+        icon: "textures/items/skeleton_skull",
+        themeColor: "§f" // white/bone
     }
 ];
