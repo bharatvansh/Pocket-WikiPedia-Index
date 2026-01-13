@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const netherBlocks = {
+    "minecraft:netherrack": {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Netherrack"],
+        generation: {
+            dimension: "Nether",
+            yRange: "All Y-levels"
+        },
+        description: "Netherrack is the most common block in the Nether, forming the majority of the terrain. It has a hardness of 0.4 and blast resistance of 0.4, making it relatively soft but still requires a pickaxe to mine. Fire can burn indefinitely on top of netherrack, allowing players to create eternal flames. In Bedrock Edition, netherrack can generate as part of nether portals when they spawn, making it renewable. This reddish-brown block serves as the primary building material for Nether structures and can be smelted into nether bricks."
+    },
     "minecraft:nether_bricks": {
         id: "minecraft:nether_bricks",
         name: "Nether Bricks",
