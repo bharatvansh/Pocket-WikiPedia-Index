@@ -1932,6 +1932,27 @@ export const itemIndex = [
         themeColor: "§6" // brown/pottery
     },
     {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        category: "item",
+        icon: "textures/items/sniffer_egg",
+        themeColor: "§a" // green/nature
+    },
+    {
+        id: "minecraft:torchflower",
+        name: "Torchflower",
+        category: "item",
+        icon: "textures/items/torchflower",
+        themeColor: "§e" // yellow/bright
+    },
+    {
+        id: "minecraft:pitcher_plant",
+        name: "Pitcher Plant",
+        category: "item",
+        icon: "textures/items/pitcher_plant",
+        themeColor: "§2" // dark green
+    },
+    {
         id: "minecraft:wooden_sword",
         name: "Wooden Sword",
         category: "item",
