@@ -1972,5 +1972,33 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_axe",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:end_rod",
+        name: "End Rod",
+        category: "item",
+        icon: "textures/items/end_rod",
+        themeColor: "§f" // white/light
+    },
+    {
+        id: "minecraft:slimeball",
+        name: "Slimeball",
+        category: "item",
+        icon: "textures/items/slimeball",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        category: "item",
+        icon: "textures/items/tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:calcite",
+        name: "Calcite",
+        category: "item",
+        icon: "textures/items/calcite",
+        themeColor: "§f" // white
     }
 ];
