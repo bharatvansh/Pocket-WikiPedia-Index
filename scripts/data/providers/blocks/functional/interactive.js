@@ -347,5 +347,68 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:command_block": {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Command Block is a technical block that can execute commands when powered by redstone. It is obtained only through commands and cannot be mined or broken in Survival mode. In Bedrock Edition, it features three modes: Impulse (orange, runs once), Chain (green, runs after another command block), and Repeat (purple, runs every tick). Command blocks are essential for map making, custom game modes, and server administration, allowing complex logic and automation beyond standard survival mechanics."
+    },
+    "minecraft:structure_block": {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Structure Block is a technical block used to save and load structures in Minecraft. It is unobtainable in Survival mode and indestructible. In Bedrock Edition, it supports 3D export for use in external programs and features modes like Save, Load, Corner, and 3D Export. Structure blocks allow players to copy and paste buildings, rotate them, and transfer them between worlds (via behavior packs). They visualizes the structure's bounding box with white lines, making it a powerful tool for map makers."
+    },
+    "minecraft:light_block": {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        hardness: 0,
+        blastResistance: 3600000.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
     }
 };

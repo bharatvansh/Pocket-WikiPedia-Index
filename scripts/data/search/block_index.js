@@ -1818,5 +1818,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chest_trap",
         themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        category: "block",
+        icon: "textures/blocks/command_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        category: "block",
+        icon: "textures/blocks/structure_block",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        category: "block",
+        icon: "textures/items/light_block",
+        themeColor: "§e" // yellow
     }
 ];
