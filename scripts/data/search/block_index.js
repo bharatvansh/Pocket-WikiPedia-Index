@@ -1755,5 +1755,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dark_prismarine",
         themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:grass_block",
+        name: "Grass Block",
+        category: "block",
+        icon: "textures/blocks/grass_side_carried",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        category: "block",
+        icon: "textures/blocks/stone_slab_top",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_chiseled",
+        themeColor: "§8" // dark gray
     }
 ];
