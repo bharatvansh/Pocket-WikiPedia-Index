@@ -1881,5 +1881,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/gold_block",
         themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/blocks/cake_top",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:candle",
+        name: "Candle",
+        category: "block",
+        icon: "textures/blocks/candle",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater_off",
+        themeColor: "§c" // red
     }
 ];

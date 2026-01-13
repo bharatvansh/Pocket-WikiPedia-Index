@@ -410,5 +410,47 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Buried Treasure"
+        },
+        description: "Cake is a food block that can be placed on the ground and eaten by players. It consists of 7 slices, with each slice restoring 2 hunger and 0.4 saturation. Multiple players can eat from the same cake. It cannot be picked up once placed, even with Silk Touch. In Bedrock Edition, it is obtained via crafting, trading with Farmer villagers, or finding it in Buried Treasure chests."
+    },
+    "minecraft:candle": {
+        id: "minecraft:candle",
+        name: "Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Candle is a light source block that can be placed in clusters of up to four on a single block. They must be lit using flint and steel, a fire charge, or a flaming projectile to emit light (level 3 per candle, max 12). Candles come in 16 dyed variants and one undyed variant. They can be placed on cakes to create a Candle Cake. Waterlogging a candle extinguishes it. They are found naturally in Ancient Cities."
     }
 };
