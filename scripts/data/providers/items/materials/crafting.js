@@ -1410,16 +1410,91 @@ export const craftingMaterials = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
         },
         specialNotes: [
-            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Found by brushing Suspicious Gravel in Cold Ocean Ruins",
             "Features an image of a chest overflowing with items",
-            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Rare suspicious gravel drop with 6.7% generation chance",
             "Used in crafting Decorated Pots to display the plenty pattern on one side",
             "Stacks up to 64 in Bedrock Edition",
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
-        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Trail Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Cold Ocean Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+    },
+    "minecraft:mourner_pottery_sherd": {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Mourner motif",
+            secondaryUse: "Creating ancient or ominous-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features a design depicting a figure that appears to be mourning",
+            "Has a 6.7% chance to appear when brushing suspicious gravel in cold ocean ruins",
+            "Used in crafting Decorated Pots to display the mourner pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Mourner Pottery Sherd is an archaeological artifact recovered from Cold Ocean Ruins by brushing Suspicious Gravel. It features a design of a figure that appears to be mourning, perhaps referencing the Warden or an ancient tragedy. In Minecraft Bedrock Edition, this sherd is a rare find that adds a touch of mystery to builds. When used as an ingredient in a Decorated Pot, the mourner motif appears on the corresponding side, making it an excellent choice for ancient ruins or ominous structures."
+    },
+    "minecraft:shelter_pottery_sherd": {
+        id: "minecraft:shelter_pottery_sherd",
+        name: "Shelter Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Shelter motif",
+            secondaryUse: "Creating nature or protection-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Warm Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Warm Ocean Ruins",
+            "Features a design depicting a tree, symbolizing shelter",
+            "Has a 7.1% chance to appear when brushing suspicious sand in warm ocean ruins",
+            "Used in crafting Decorated Pots to display the shelter pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Shelter Pottery Sherd is a decorative item obtained through archaeology in Warm Ocean Ruins. Uncovered by brushing Suspicious Sand, it features an image of a tree, representing shelter and protection. This design makes it a fitting decoration for nature-themed builds or safe houses. When combined with other sherds or bricks to make a Decorated Pot, the shelter pattern adorns the pot, symbolizing safety and comfort in the wilderness."
+    },
+    "minecraft:skull_pottery_sherd": {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Skull motif",
+            secondaryUse: "Creating spooky or danger-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Temples"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Desert Temples",
+            "Features a design depicting a skeleton skull",
+            "Has a 12.5% chance to appear when brushing suspicious sand in desert temples",
+            "Used in crafting Decorated Pots to display the skull pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
     }
 };
