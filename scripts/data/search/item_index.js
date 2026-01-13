@@ -1846,5 +1846,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/skull_pottery_sherd",
         themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_orange",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:magenta_dye",
+        name: "Magenta Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
+        id: "minecraft:light_blue_dye",
+        name: "Light Blue Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_light_blue",
+        themeColor: "§b" // light blue
     }
 ];

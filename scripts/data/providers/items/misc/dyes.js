@@ -178,5 +178,80 @@ export const dyes = {
             "Essential for crafting black firework stars"
         ],
         description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
+    },
+    "minecraft:orange_dye": {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks orange",
+            secondaryUse: "Creating decorative items and patterns"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Orange Tulip", "Red Dye + Yellow Dye", "Torchflower"]
+        },
+        specialNotes: [
+            "Crafted from Orange Tulip, Torchflower, or by mixing Red and Yellow Dye",
+            "Used to dye wool, terracotta, glass, concrete, and beds orange",
+            "Used to dye shulker boxes, leather armor, and candles",
+            "Combined with Gunpowder to make orange firework stars",
+            "Can be used to dye water in cauldrons (Bedrock Edition)",
+            "Essential for creating banners with orange patterns",
+            "Can be traded to Shepherd villagers for emeralds"
+        ],
+        description: "Orange Dye is a secondary color dye that can be crafted by mixing Red Dye and Yellow Dye, or obtained directly from Orange Tulips and Torchflowers. It serves to color various building materials such as wool, terracotta, glass, and concrete a bright orange. In Bedrock Edition, it can also be used to dye the water in cauldrons for coloring leather armor. Orange Dye is widely used in decoration, from crafting orange beds and candles to designing banners with intricate orange patterns."
+    },
+    "minecraft:magenta_dye": {
+        id: "minecraft:magenta_dye",
+        name: "Magenta Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks magenta",
+            secondaryUse: "Creating decorative items and patterns"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Allium", "Lilac", "Purple Dye + Pink Dye", "Blue + Red + Pink", "Blue + 2 Red + White"]
+        },
+        specialNotes: [
+            "Crafted from Allium, Lilac, or by mixing various dyes",
+            "Used to dye wool, terracotta, glass, concrete, and beds magenta",
+            "Used to dye shulker boxes, leather armor, and candles",
+            "Combined with Gunpowder to make magenta firework stars",
+            "Can be used to dye water in cauldrons (Bedrock Edition)",
+            "Essential for creating banners with magenta patterns",
+            "Can be traded to Shepherd villagers for emeralds"
+        ],
+        description: "Magenta Dye is a secondary color dye obtained from Alliums or Lilacs, or by mixing Purple and Pink dyes (or other combinations of Red, Blue, and White). It provides a vibrant magenta color to building blocks like wool, terracotta, glass, and concrete. In Bedrock Edition, this dye can be used to color cauldron water for dyeing leather armor. It plays a significant role in decoration, allowing for the creation of magenta beds, candles, and detailed banner designs."
+    },
+    "minecraft:light_blue_dye": {
+        id: "minecraft:light_blue_dye",
+        name: "Light Blue Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks light blue",
+            secondaryUse: "Creating decorative items and patterns"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blue Orchid", "Blue Dye + White Dye"]
+        },
+        specialNotes: [
+            "Crafted from Blue Orchid or by mixing Blue Dye and White Dye",
+            "Used to dye wool, terracotta, glass, concrete, and beds light blue",
+            "Used to dye shulker boxes, leather armor, and candles",
+            "Combined with Gunpowder to make light blue firework stars",
+            "Can be used to dye water in cauldrons (Bedrock Edition)",
+            "Essential for creating banners with light blue patterns",
+            "Can be traded to Shepherd villagers for emeralds"
+        ],
+        description: "Light Blue Dye is a secondary color dye that can be crafted by mixing Blue Dye and White Dye, or obtained directly from Blue Orchids. It is used to apply a soft light blue color to materials such as wool, terracotta, glass, and concrete. In Bedrock Edition, it allows for the dyeing of cauldron water to color leather armor. Light Blue Dye is essential for crafting decorative items like light blue beds and candles, as well as for designing banners with light blue patterns."
     }
 };
