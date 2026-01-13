@@ -1386,6 +1386,27 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:chest_minecart",
+        name: "Minecart with Chest",
+        category: "item",
+        icon: "textures/items/minecart_chest",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:hopper_minecart",
+        name: "Minecart with Hopper",
+        category: "item",
+        icon: "textures/items/minecart_hopper",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:tnt_minecart",
+        name: "Minecart with TNT",
+        category: "item",
+        icon: "textures/items/minecart_tnt",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:oak_boat",
         name: "Oak Boat",
         category: "item",
