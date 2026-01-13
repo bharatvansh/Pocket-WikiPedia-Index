@@ -35,6 +35,32 @@ export const swords = {
         ],
         description: "The Wooden Sword is the most basic melee weapon in Minecraft, often the first weapon a player crafts. Made from two planks of any wood type and a single stick, it deals 4 points of damage (2 hearts) per hit. While it has a very low durability of 60 uses, its cheap cost makes it invaluable for early defense against zombies and spiders. It can also be used to break cobwebs or bamboo more quickly than by hand."
     },
+    "minecraft:golden_sword": {
+        id: "minecraft:golden_sword",
+        name: "Golden Sword",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 4 attack damage (2 hearts) per hit",
+            "Has extremely low durability (33 uses)",
+            "Easiest sword to enchant with high-level enchantments",
+            "Can be smelted into a Gold Nugget"
+        ],
+        description: "The Golden Sword is a melee weapon known for its high enchantability but extremely low durability. Crafted from two Gold Ingots and a Stick, it deals 4 points of damage (2 hearts), equivalent to a Wooden Sword. While it has the fastest attack recovery in Java Edition, Bedrock Edition does not feature this mechanic, making the Golden Sword primarily useful for obtaining high-level enchantments easily or as a temporary weapon. Its 33 durability points make it unreliable for extended combat encounters."
+    },
     "minecraft:iron_sword": {
         id: "minecraft:iron_sword",
         name: "Iron Sword",

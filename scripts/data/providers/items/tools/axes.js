@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const axes = {
+    "minecraft:golden_axe": {
+        id: "minecraft:golden_axe",
+        name: "Golden Axe",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Chopping wood at maximum speed",
+            secondaryUse: "Melee combat (weak)"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Fastest axe for chopping wood",
+            "Extremely low durability (33 uses)",
+            "Deals 3 attack damage (1.5 hearts)",
+            "High enchantability"
+        ],
+        description: "The Golden Axe is the fastest tool for chopping wood and related blocks in Minecraft, surpassing all other axes in speed. However, this efficiency is hindered by its extremely low durability of 33 uses, making it impractical for large-scale deforestation. In Bedrock Edition, it deals 3 points of damage (1.5 hearts), which is significantly lower than its Java Edition counterpart and even weaker than a wooden sword. It is crafted using three Gold Ingots and two Sticks."
+    },
     "minecraft:iron_axe": {
         id: "minecraft:iron_axe",
         name: "Iron Axe",
