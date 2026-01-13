@@ -1860,5 +1860,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        category: "block",
+        icon: "textures/blocks/coal_block",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:iron_block",
+        name: "Block of Iron",
+        category: "block",
+        icon: "textures/blocks/iron_block",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:gold_block",
+        name: "Block of Gold",
+        category: "block",
+        icon: "textures/blocks/gold_block",
+        themeColor: "§6" // gold
     }
 ];
