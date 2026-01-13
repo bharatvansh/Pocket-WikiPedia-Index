@@ -1827,6 +1827,27 @@ export const blockIndex = [
         themeColor: "§6" // gold/orange
     },
     {
+        id: "minecraft:repeating_command_block",
+        name: "Repeating Command Block",
+        category: "block",
+        icon: "textures/blocks/repeating_command_block_front",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:chain_command_block",
+        name: "Chain Command Block",
+        category: "block",
+        icon: "textures/blocks/chain_command_block_front",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:border_block",
+        name: "Border Block",
+        category: "block",
+        icon: "textures/blocks/border",
+        themeColor: "§c" // red
+    },
+    {
         id: "minecraft:structure_block",
         name: "Structure Block",
         category: "block",

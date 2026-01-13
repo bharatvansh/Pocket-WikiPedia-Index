@@ -348,6 +348,27 @@ export const interactiveBlocks = {
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
     },
+    "minecraft:border_block": {
+        id: "minecraft:border_block",
+        name: "Border Block",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only or Creative with Education Edition enabled"
+        },
+        description: "The Border Block is a utility block exclusive to Education and Bedrock Editions that functions as an impassable barrier extending infinitely upwards and downwards. It appears as a red wall-like structure and emits red particles when approached. It prevents players without World Builder permissions from moving past it, making it ideal for enclosing play areas in educational worlds or adventure maps."
+    },
     "minecraft:command_block": {
         id: "minecraft:command_block",
         name: "Command Block",
@@ -368,6 +389,48 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Command Block is a technical block that can execute commands when powered by redstone. It is obtained only through commands and cannot be mined or broken in Survival mode. In Bedrock Edition, it features three modes: Impulse (orange, runs once), Chain (green, runs after another command block), and Repeat (purple, runs every tick). Command blocks are essential for map making, custom game modes, and server administration, allowing complex logic and automation beyond standard survival mechanics."
+    },
+    "minecraft:repeating_command_block": {
+        id: "minecraft:repeating_command_block",
+        name: "Repeating Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Repeating Command Block is a purple variant of the command block that executes its command every game tick (20 times per second) while powered. Obtainable only through commands or 'Pick Block' on an existing one, it cannot be mined in Survival mode. It is essential for creating continuous effects, loops, and monitoring systems in custom maps and servers."
+    },
+    "minecraft:chain_command_block": {
+        id: "minecraft:chain_command_block",
+        name: "Chain Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Chain Command Block is a green variant of the command block that executes its command only if the command block pointing into it has successfully executed. This allows for the creation of complex, sequential command chains. Like other command blocks, it is indestructible in Survival mode and obtainable only via commands."
     },
     "minecraft:structure_block": {
         id: "minecraft:structure_block",
