@@ -807,6 +807,75 @@ export const miscItems = {
         ],
         description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
     },
+    "minecraft:chest_minecart": {
+        id: "minecraft:chest_minecart",
+        name: "Minecart with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting items on rails",
+            secondaryUse: "Mobile storage in minecart systems"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Chest", "Minecart"]
+        },
+        specialNotes: [
+            "Combines a Minecart and a Chest for item transport",
+            "Has 27 slots of inventory space, same as a single chest",
+            "Drops itself and its contents when broken",
+            "Can be accessed by opening the GUI or using Hoppers",
+            "Cannot carry players or mobs"
+        ],
+        description: "A Minecart with Chest is a utility vehicle that combines the mobility of a minecart with the storage capacity of a single chest. It allows players to transport large quantities of items across rail systems, making it essential for automated storage and delivery networks. In Bedrock Edition, it is crafted by combining a minecart and a chest in a crafting grid. When broken, it drops as a single item, spilling its inventory onto the ground. It can interact with hoppers placed under the track to load or unload items automatically."
+    },
+    "minecraft:hopper_minecart": {
+        id: "minecraft:hopper_minecart",
+        name: "Minecart with Hopper",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Collecting items from above rails",
+            secondaryUse: "Transferring items between containers rapidly"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Hopper", "Minecart"]
+        },
+        specialNotes: [
+            "Pulls items from the world and containers above it",
+            "Sucks up items much faster than a regular hopper",
+            "Can pick up items through full blocks directly above the rail",
+            "Can be disabled by a powered Activator Rail",
+            "Has 5 slots of inventory space"
+        ],
+        description: "A Minecart with Hopper is a specialized vehicle designed for item collection and transport. It possesses a powerful suction ability that allows it to pull loose items from the world or extract items from containers located directly above the track. Unlike stationary hoppers, it can collect items through full blocks, making it highly effective for farm collection systems where the collection mechanism needs to be hidden. Its collection function can be toggled using Activator Rails, allowing for precise control in automated sorting systems."
+    },
+    "minecraft:tnt_minecart": {
+        id: "minecraft:tnt_minecart",
+        name: "Minecart with TNT",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating mobile explosions",
+            secondaryUse: "Clearing areas or breaching walls remotely"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["TNT", "Minecart"]
+        },
+        specialNotes: [
+            "Explodes when passing over a powered Activator Rail",
+            "Explosion power depends on the minecart's speed",
+            "Detonates instantly upon high-speed collision",
+            "Does not destroy rails or blocks under the track when on rails",
+            "Can be dispensed onto rails"
+        ],
+        description: "A Minecart with TNT is a volatile vehicle used for controlled demolitions and traps. It detonates after a short delay when passing over a powered Activator Rail, or instantly if it crashes into a block or entity at high speed. The explosion's radius and damage are directly proportional to the cart's velocity at the moment of impact. Uniquely, when detonated while on a rail, it is designed not to destroy the track or the blocks immediately beneath it, allowing for reusable blasting lines in mining or terraforming operations."
+    },
     "minecraft:oak_boat": {
         id: "minecraft:oak_boat",
         name: "Oak Boat",
