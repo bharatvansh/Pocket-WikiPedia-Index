@@ -84,6 +84,13 @@ export const blockIndex = [
         themeColor: "§6" // pinkish-brown
     },
     {
+        id: "minecraft:polished_granite",
+        name: "Polished Granite",
+        category: "block",
+        icon: "textures/blocks/polished_granite",
+        themeColor: "§6" // pinkish-brown
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
@@ -292,6 +299,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crafter",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_diorite",
+        name: "Polished Diorite",
+        category: "block",
+        icon: "textures/blocks/polished_diorite",
+        themeColor: "§7" // gray/white
     },
     {
         id: "minecraft:copper_bulb",
@@ -1467,6 +1481,13 @@ export const blockIndex = [
         name: "Infested Stone",
         category: "block",
         icon: "textures/blocks/stone",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_andesite",
+        name: "Polished Andesite",
+        category: "block",
+        icon: "textures/blocks/polished_andesite",
         themeColor: "§7" // gray
     },
     {
