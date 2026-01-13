@@ -367,5 +367,68 @@ export const stoneBlocks = {
             yRange: "Ancient Cities"
         },
         description: "Chiseled Deepslate is a decorative variant of deepslate featuring a dark, engraved pattern. It can be crafted from cobbled deepslate slabs or created using a stonecutter. Chiseled Deepslate naturally generates in Ancient Cities. With high hardness and blast resistance, it serves as a durable and stylish building block, often used to add detail to deepslate structures, pillars, and floors."
+    },
+    "minecraft:polished_granite": {
+        id: "minecraft:polished_granite",
+        name: "Polished Granite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Granite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Granite is a decorative mineral block. It is the polished version of Granite. It can be found in Trail Ruins or crafted by arranging 4 Granite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:polished_diorite": {
+        id: "minecraft:polished_diorite",
+        name: "Polished Diorite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Diorite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Diorite is a decorative mineral block. It is the polished version of Diorite. It can be found in Trail Ruins or crafted by arranging 4 Diorite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:polished_andesite": {
+        id: "minecraft:polished_andesite",
+        name: "Polished Andesite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Andesite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Andesite is a decorative mineral block. It is the polished version of Andesite. It can be found in Trail Ruins, Ancient Cities, and Woodland Mansions, or crafted by arranging 4 Andesite in a 2x2 grid. It has the same blast resistance as stone."
     }
 };
