@@ -971,5 +971,71 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:chest_minecart": {
+        id: "minecraft:chest_minecart",
+        name: "Minecart with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Storage on rails",
+            secondaryUse: "Automated transport of items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Chest", "Minecart"]
+        },
+        specialNotes: [
+            "Contains 27 slots for item storage.",
+            "Can be pushed or powered by a Powered Rail.",
+            "Returns both a chest and a minecart when broken.",
+            "Interactable with hoppers for automated loading/unloading."
+        ],
+        description: "A Minecart with Chest is a mobile storage container that runs on rails. It is ideal for transporting large quantities of items between distant locations in an automated fashion. With 27 storage slots, it matches the capacity of a single chest while maintaining the mobility of a minecart. It can be easily integrated into redstone-based logistics systems using hoppers and detector rails to manage the flow of resources efficiently across a player's world."
+    },
+    "minecraft:hopper_minecart": {
+        id: "minecraft:hopper_minecart",
+        name: "Minecart with Hopper",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Picking up items on rails",
+            secondaryUse: "Transferring items between containers"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Hopper", "Minecart"]
+        },
+        specialNotes: [
+            "Picks up items at a rate of 1 item per tick (20 items/sec), 8x faster than a regular hopper.",
+            "Can collect items from containers located directly above it.",
+            "Can be activated or deactivated using an Activator Rail.",
+            "Excellent for high-speed item collection in automatic farms."
+        ],
+        description: "The Minecart with Hopper is an advanced logistics tool that combines the item-collection power of a hopper with the speed of a minecart. In Bedrock Edition, it pulls in items eight times faster than a standard hopper, making it essential for high-throughput automated farms. It can pick up loose items on the ground or from containers above its track. Using an activator rail, players can toggle its ability to pick up items, allowing for precise control over complex sorting systems."
+    },
+    "minecraft:tnt_minecart": {
+        id: "minecraft:tnt_minecart",
+        name: "Minecart with TNT",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile explosive",
+            secondaryUse: "Traps and demolition"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["TNT", "Minecart"]
+        },
+        specialNotes: [
+            "Detonates instantly when crossing an active Activator Rail.",
+            "Explodes if it collides with a block or another minecart at high speed.",
+            "Blast radius and damage increase significantly with the minecart's velocity.",
+            "Does not destroy its own rail or the block beneath it if the explosion is small."
+        ],
+        description: "A Minecart with TNT is a high-velocity explosive delivery system. Unlike standard TNT, it can detonate instantly upon contact with an active Activator Rail or when colliding with obstacles at high speed. The power of its blast is directly tied to its velocity—the faster it travels, the more devastating the explosion. This makes it a formidable tool for both large-scale demolition projects and creative traps. It offers a unique way to weaponize rail networks against intruders or hostile mobs."
     }
 };
