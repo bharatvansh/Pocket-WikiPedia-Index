@@ -262,5 +262,47 @@ export const dirtBlocks = {
             yRange: "Surface (most biomes)"
         },
         description: "Grass Block is a natural block that generates on the surface of the Overworld. It consists of dirt with grass growing on top. Grass spreads to adjacent dirt blocks if light levels are sufficient. When mined without Silk Touch, it drops dirt. It can be converted into a dirt path with a shovel or farmland with a hoe. Grass blocks take on the color of the biome they are in."
+    },
+    "minecraft:podzol": {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Old Growth Taiga, Bamboo Jungle biomes"
+        },
+        description: "Podzol is a dirt-type block with a distinctive dark brown top and grayish sides, generating naturally in old growth taiga and bamboo jungle biomes. Unlike grass or mycelium, podzol does not spread to adjacent dirt blocks. It allows mushrooms to be placed and grown on it regardless of light level, making it valuable for mushroom farming. When mined without Silk Touch, podzol drops regular dirt. It can also be obtained by killing endermen holding the block in Bedrock Edition. Podzol's unique texture makes it popular for forest-themed builds."
+    },
+    "minecraft:farmland": {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages (crop farms)"
+        },
+        description: "Farmland is a specialized block created by using a hoe on dirt, grass blocks, or dirt paths. Essential for growing wheat, carrots, potatoes, beetroots, and other crops, farmland becomes hydrated and darkens in color when within four blocks of water, significantly speeding up crop growth. Jumping on farmland or letting mobs walk on it can trample it back into dirt, destroying any crops planted. Farmland is slightly shorter than a full block and naturally generates in village farms. It cannot be obtained as an item in Survival mode and always drops dirt when broken."
     }
 };

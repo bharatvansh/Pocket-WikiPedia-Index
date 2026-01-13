@@ -1776,5 +1776,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_chiseled",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:terracotta",
+        name: "Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay",
+        themeColor: "§6" // orange/brown
+    },
+    {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        category: "block",
+        icon: "textures/blocks/dirt_podzol_top",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        category: "block",
+        icon: "textures/blocks/farmland",
+        themeColor: "§6" // brown
     }
 ];
