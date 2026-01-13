@@ -1972,5 +1972,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_axe",
         themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        category: "item",
+        icon: "textures/items/creaking_heart",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_pale_oak",
+        themeColor: "§7" // gray/pale
     }
 ];
