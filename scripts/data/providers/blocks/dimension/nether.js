@@ -326,5 +326,26 @@ export const netherBlocks = {
             yRange: "Warped Forest biome"
         },
         description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
+    },
+    "minecraft:soul_soil": {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Soil"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley"
+        },
+        description: "Soul Soil is a block naturally found in the Soul Sand Valley biome of the Nether. Unlike Soul Sand, it does not slow down movement and is a full solid block. Soul Fire burns indefinitely on top of Soul Soil. It is used to craft Soul Torches and Soul Campfires. It produces basalt when lava flows over it while it is next to Blue Ice."
     }
     };

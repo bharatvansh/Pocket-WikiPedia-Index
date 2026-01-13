@@ -199,5 +199,47 @@ export const woodBlocks = {
             yRange: "Crafted from Pale Oak Logs"
         },
         description: "Pale Oak Wood is a block with the bark texture of Pale Oak logs on all six sides, introduced in Minecraft 1.21.50. It is crafted by arranging four Pale Oak Logs in a 2x2 grid. Unlike logs, which have a top and bottom 'rings' texture, wood blocks appear as bark on every face, making them ideal for creating seamless organic structures like custom trees or roots. Like other wood blocks, it can be stripped using an axe to create Stripped Pale Oak Wood."
+    },
+    "minecraft:crimson_stem": {
+        id: "minecraft:crimson_stem",
+        name: "Crimson Stem",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Stem"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest"
+        },
+        description: "Crimson Stem is a log-like block found in the Crimson Forest biome of the Nether. It serves as the trunk of huge crimson fungi. Unlike Overworld logs, crimson stems are fire-resistant and do not burn. They can be stripped using an axe to create Stripped Crimson Stem, or crafted into Crimson Planks. The stem has a pulsating animation similar to Warped Stem."
+    },
+    "minecraft:crimson_hyphae": {
+        id: "minecraft:crimson_hyphae",
+        name: "Crimson Hyphae",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Hyphae"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Stem"
+        },
+        description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
     }
 };

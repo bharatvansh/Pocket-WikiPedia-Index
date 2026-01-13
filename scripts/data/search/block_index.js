@@ -1902,5 +1902,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/emerald_block",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        category: "block",
+        icon: "textures/blocks/soul_soil",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:crimson_stem",
+        name: "Crimson Stem",
+        category: "block",
+        icon: "textures/blocks/crimson_stem_side",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:crimson_hyphae",
+        name: "Crimson Hyphae",
+        category: "block",
+        icon: "textures/blocks/crimson_stem_side",
+        themeColor: "§4" // dark red
     }
 ];
