@@ -10,6 +10,34 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const projectiles = {
+    "minecraft:arrow": {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition for Bows, Crossbows, and Dispensers",
+            secondaryUse: "Crafting tipped arrows"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Flint", "Stick", "Feather (Yields 4)"]
+        },
+        specialNotes: [
+            "Damage depends on the speed of the arrow (bow charge)",
+            "Can be retrieved if stuck in a block (unless shot by Infinity bow)",
+            "Cannot be retrieved if it hits a mob or player",
+            "Can activate wooden buttons, pressure plates, and tripwires",
+            "Critical hits occur when fully charged, dealing extra damage",
+            "Can be tipped with potions to apply status effects"
+        ],
+        description: "Arrows are the standard ammunition for bows, crossbows, and dispensers. They are crafted from flint, sticks, and feathers, with a single recipe yielding four arrows. When fired, their damage is determined by their speed and the weapon's charge. Arrows can be retrieved if they land in blocks, but break if they hit an entity or are fired from an Infinity-enchanted bow. They are essential for ranged combat and can also trigger wooden redstone mechanisms."
+    },
     "minecraft:wind_charge": {
         id: "minecraft:wind_charge",
         name: "Wind Charge",

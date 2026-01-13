@@ -1554,6 +1554,27 @@ export const itemIndex = [
         themeColor: "§6" // orange/terracotta
     },
     {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        category: "item",
+        icon: "textures/items/arrow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_clownfish_raw",
+        themeColor: "§6" // orange/clownfish
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:miner_pottery_sherd",
         name: "Miner Pottery Sherd",
         category: "item",

@@ -236,6 +236,33 @@ export const rawFood = {
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
     },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Feeding wolves (Bedrock) and trading"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Killing Tropical Fish mobs", "Guardian drops"]
+        },
+        specialNotes: [
+            "Restores 1 hunger (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked",
+            "Used to heal wolves by 1 heart in Bedrock Edition (cannot breed them)",
+            "Tradable to expert-level Fisherman villagers",
+            "Can be used to tempt Cats and Ocelots"
+        ],
+        description: "Tropical Fish is a food item obtained by fishing or killing tropical fish. Unlike cod or salmon, it cannot be cooked. It provides very little nourishment, restoring only 1 hunger point. Its primary value lies in its utility for trading with expert-level Fisherman villagers. In Bedrock Edition, it can also be used to heal wolves, though it cannot breed them. The item sprite depicts a Clownfish, which was its name prior to the Update Aquatic."
+    },
     "minecraft:carrot": {
         id: "minecraft:carrot",
         name: "Carrot",
