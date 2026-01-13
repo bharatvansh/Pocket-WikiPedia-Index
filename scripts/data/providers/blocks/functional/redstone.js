@@ -327,5 +327,26 @@ export const redstoneBlocks = {
             yRange: "Desert Pyramids, Woodland Mansions"
         },
         description: "TNT is an explosive block that can be primed using flint and steel, fire charges, or a redstone signal. Once primed, it becomes an entity and explodes after a 4-second delay, damaging nearby blocks and entities. In Bedrock Edition, it can also be ignited by projectiles enchanted with Flame or by hitting it if 'TNT Explodes' game rule is on. It generates naturally in desert pyramids and woodland mansions. When broken without igniting, it drops itself."
+    },
+    "minecraft:redstone_block": {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Block of Redstone"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Block of Redstone is a solid block that functions as a permanent power source for redstone mechanisms. It emits a redstone signal strength of 15 to all adjacent blocks, making it useful for compact circuit designs and powering components like pistons or redstone lamps without the need for torches or levers. It can also be pushed by pistons, allowing for movable power sources in complex machines. Crafted from nine redstone dust, it also serves as a compact storage method for redstone."
     }
 };

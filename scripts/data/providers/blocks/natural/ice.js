@@ -49,5 +49,26 @@ export const iceBlocks = {
             yRange: "Ice Spikes biome"
         },
         description: "Packed Ice is an opaque, solid variant of ice that does not melt near light sources. It is naturally found in Ice Spikes biomes and frozen oceans. Unlike regular ice, packed ice can be harvested with any pickaxe without needing Silk Touch. It retains the slippery property of regular ice, making it excellent for high-speed boat transportation systems, especially in the Nether where regular ice would melt. Packed Ice can also be crafted from nine blocks of regular ice."
+    },
+    "minecraft:snow_layer": {
+        id: "minecraft:snow_layer",
+        name: "Top Snow",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Snowball"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Various heights in snowy biomes"
+        },
+        description: "Top Snow (also known as a Snow Layer) is a block that covers the ground in snowy biomes. In Bedrock Edition, snow layers are affected by gravity and will fall if the block beneath them is removed. A single layer of snow drops snowballs when mined with a shovel, unless Silk Touch is used. Multiple layers can be stacked to create a full snow block height. Snow layers will melt if the light level from a heat source (like torches or lava) is too high."
     }
 };
