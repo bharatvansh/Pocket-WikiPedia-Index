@@ -14,6 +14,27 @@ export const itemIndex = [
         themeColor: "§f" // white/silver
     },
     {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        category: "item",
+        icon: "textures/items/arrow",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_orange",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:magenta_dye",
+        name: "Magenta Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
         id: "minecraft:apple",
         name: "Apple",
         category: "item",
