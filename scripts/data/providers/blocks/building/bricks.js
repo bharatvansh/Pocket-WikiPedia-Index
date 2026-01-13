@@ -472,5 +472,26 @@ export const brickBlocks = {
             yRange: "Ocean Monuments, Bastion Remnants"
         },
         description: "Block of Gold is a precious mineral block crafted from nine gold ingots. It serves as a compact storage method for gold and is a key component in beacon structures, where it can be used as a base. Blocks of gold also generate naturally in Ocean Monuments (encased in dark prismarine) and Bastion Remnants. They are required to activate a Nether Portal in a Ruined Portal structure if missing. Gold blocks have a hardness of 3 and blast resistance of 6, making them softer than iron blocks. They require an iron pickaxe or better to mine."
+    },
+    "minecraft:emerald_block": {
+        id: "minecraft:emerald_block",
+        name: "Block of Emerald",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: false
+        },
+        drops: ["Block of Emerald"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
     }
 };

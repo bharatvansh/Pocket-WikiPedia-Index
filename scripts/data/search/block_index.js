@@ -1881,5 +1881,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/gold_block",
         themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:snow_layer",
+        name: "Top Snow",
+        category: "block",
+        icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        category: "block",
+        icon: "textures/blocks/redstone_block",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:emerald_block",
+        name: "Block of Emerald",
+        category: "block",
+        icon: "textures/blocks/emerald_block",
+        themeColor: "§a" // green
     }
 ];
