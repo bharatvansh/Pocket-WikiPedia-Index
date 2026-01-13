@@ -1776,5 +1776,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_chiseled",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:chest",
+        name: "Chest",
+        category: "block",
+        icon: "textures/blocks/chest",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:comparator",
+        name: "Redstone Comparator",
+        category: "block",
+        icon: "textures/blocks/comparator_off",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:trapped_chest",
+        name: "Trapped Chest",
+        category: "block",
+        icon: "textures/blocks/chest_trap",
+        themeColor: "§8" // dark brown
     }
 ];
