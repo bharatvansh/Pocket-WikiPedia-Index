@@ -410,5 +410,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:tnt": {
+        id: "minecraft:tnt",
+        name: "TNT",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["TNT"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Temples, Woodland Mansions"
+        },
+        description: "TNT is an explosive block that can be primed by redstone, fire, or interaction. Once primed, it becomes an entity and explodes after 4 seconds, destroying nearby blocks and damaging entities."
     }
 };
