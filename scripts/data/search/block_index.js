@@ -1734,5 +1734,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/soul_torch",
         themeColor: "§3" // cyan/blue
+    },
+    {
+        id: "minecraft:mangrove_planks",
+        name: "Mangrove Planks",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:crimson_planks",
+        name: "Crimson Planks",
+        category: "block",
+        icon: "textures/blocks/crimson_planks",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:warped_planks",
+        name: "Warped Planks",
+        category: "block",
+        icon: "textures/blocks/warped_planks",
+        themeColor: "§3" // dark aqua
     }
 ];
