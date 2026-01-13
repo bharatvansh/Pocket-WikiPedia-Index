@@ -495,5 +495,47 @@ export const miscDecorativeBlocks = {
             yRange: "Woodland Mansions, Igloos"
         },
         description: "The Flower Pot is a decorative block that holds and displays flowers, mushrooms, saplings, cacti, and other plantable items. Crafted from three bricks arranged in a U-shape, it generates naturally in woodland mansion rooms and igloos. When a plant is placed inside, the pot shows the plant's texture; when empty, it displays the brick texture. Flower pots can be placed on any solid block or as headgear on armor stands. In Bedrock Edition, they can also be filled with dead bushes, ferns, and tall grass. They are essential for indoor gardening, herb gardens, and detailed botanical builds."
+    },
+    "minecraft:prismarine_bricks": {
+        id: "minecraft:prismarine_bricks",
+        name: "Prismarine Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments, Underwater Ruins"
+        },
+        description: "Prismarine Bricks are a decorative variant of prismarine with a cracked, teal brick texture. They generate naturally in ocean monuments and underwater ruins. Crafted from nine prismarine shards, they share the same hardness (1.5) and blast resistance (6.0) as other prismarine blocks. Unlike sea lanterns, they do not emit light. Their vibrant color and animated texture make them excellent for underwater builds and detailed flooring."
+    },
+    "minecraft:dark_prismarine": {
+        id: "minecraft:dark_prismarine",
+        name: "Dark Prismarine",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dark Prismarine"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Dark Prismarine is the darkest variant of the prismarine family, featuring a deep teal-gray grid pattern. It generates in ocean monuments, typically encasing the central gold blocks. Crafted from eight prismarine shards surrounding an ink sac (or black dye in Bedrock Edition), it offers a sleek, tiled appearance. With a hardness of 1.5 and blast resistance of 6.0, it is a durable building block perfect for contrast in aquatic-themed structures."
     }
 };
