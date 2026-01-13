@@ -603,5 +603,68 @@ export const vegetationBlocks = {
             yRange: "Woodland Mansions, Pillager Outposts, Rail rooms"
         },
         description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
+    },
+    "minecraft:kelp": {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Kelp"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Oceans (except Frozen/Warm/Deep Warm)"
+        },
+        description: "Kelp is an aquatic plant block that generates naturally in all ocean biomes except frozen, warm, and deep warm oceans. It grows in tall stalks from the ocean floor up to the water surface. When broken, it drops the Kelp item, which can be dried in a furnace to create Dried Kelp (a food source) or crafted into Dried Kelp Blocks for fuel. Kelp has a unique mechanic where placing it converts flowing water into source blocks, making it extremely useful for creating bubble columns with Soul Sand or Magma Blocks."
+    },
+    "minecraft:cactus": {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cactus"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deserts, Badlands"
+        },
+        description: "Cactus is a prickly plant block that generates naturally in dry biomes like Deserts and Badlands. It deals damage to any mob or player that touches it, making it useful for simple mob farms and defenses. Cacti can only be placed on Sand, Red Sand, or other Cactus blocks, and they cannot be placed directly adjacent to other solid blocks. When a block is placed next to a cactus, it breaks instantly. It can be smelted in a furnace to produce Green Dye."
+    },
+    "minecraft:deadbush": {
+        id: "minecraft:deadbush",
+        name: "Dead Bush",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stick (0-2)", "Dead Bush (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deserts, Badlands, Giant Tree Taigas"
+        },
+        description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
     }
 };

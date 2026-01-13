@@ -1944,5 +1944,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crimson_stem_side",
         themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        category: "block",
+        icon: "textures/blocks/kelp_plant",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        category: "block",
+        icon: "textures/blocks/cactus_side",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:deadbush",
+        name: "Dead Bush",
+        category: "block",
+        icon: "textures/blocks/deadbush",
+        themeColor: "§6" // gold/brown
     }
 ];
