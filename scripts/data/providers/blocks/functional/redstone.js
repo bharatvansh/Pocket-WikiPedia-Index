@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const redstoneBlocks = {
+    "minecraft:comparator": {
+        id: "minecraft:comparator",
+        name: "Redstone Comparator",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Comparator"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Redstone Comparator is a redstone component with two modes: compare and subtract. In compare mode, it outputs a signal equal to the stronger of its two inputs. In subtract mode, it subtracts the back signal from the side signal. It can also measure container fullness, calculate item quantity in items like shulkers, and detect block states behind it. Comparators are essential for creating complex redstone circuits, automated storage systems, and item sorting mechanisms in Bedrock Edition."
+    },
     "minecraft:lightning_rod": {
         id: "minecraft:lightning_rod",
         name: "Lightning Rod",
