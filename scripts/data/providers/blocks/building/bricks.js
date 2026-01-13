@@ -409,5 +409,68 @@ export const brickBlocks = {
             yRange: "Crafted only (Nether Bricks + Nether Wart)"
         },
         description: "Red Nether Bricks are a decorative variant of Nether Bricks. They are crafted using Nether Bricks and Nether Wart. They have the same blast resistance and hardness as regular Nether Bricks."
+    },
+    "minecraft:coal_block": {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Block of Coal"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Block of Coal is a mineral storage block crafted from nine pieces of coal. It is a highly efficient fuel source, capable of smelting 80 items in a furnace—more than the sum of its individual coal pieces (which smelt 72 items total). Blocks of coal are flammable and will burn indefinitely if set on fire. They can also be used as a building material with a dark, distinct texture. While they do not generate naturally in the world, they are essential for compact storage of coal and for maximizing fuel efficiency in large-scale smelting operations."
+    },
+    "minecraft:iron_block": {
+        id: "minecraft:iron_block",
+        name: "Block of Iron",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Block of Iron"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Block of Iron is a solid mineral block crafted from nine iron ingots. It is primarily used for compact storage of iron and as a base for beacons. Additionally, iron blocks are required to construct Iron Golems; placing a carved pumpkin atop a T-shape of four iron blocks summons the golem. They have a hardness of 5 and blast resistance of 6, making them durable building materials. Iron blocks feature a distinct metallic texture and are often used in industrial or modern builds. They require a stone pickaxe or better to mine."
+    },
+    "minecraft:gold_block": {
+        id: "minecraft:gold_block",
+        name: "Block of Gold",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: false
+        },
+        drops: ["Block of Gold"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments, Bastion Remnants"
+        },
+        description: "Block of Gold is a precious mineral block crafted from nine gold ingots. It serves as a compact storage method for gold and is a key component in beacon structures, where it can be used as a base. Blocks of gold also generate naturally in Ocean Monuments (encased in dark prismarine) and Bastion Remnants. They are required to activate a Nether Portal in a Ruined Portal structure if missing. Gold blocks have a hardness of 3 and blast resistance of 6, making them softer than iron blocks. They require an iron pickaxe or better to mine."
     }
 };
