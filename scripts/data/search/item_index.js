@@ -1846,5 +1846,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/skull_pottery_sherd",
         themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_clownfish_raw",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/bucket_tropical",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_orange",
+        themeColor: "§6" // orange
     }
 ];
