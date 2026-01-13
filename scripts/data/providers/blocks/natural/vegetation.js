@@ -37,6 +37,27 @@ export const vegetationBlocks = {
         },
         description: "Moss Block is a natural organic block that generates abundantly in Lush Caves and Mangrove Swamps, introduced in Minecraft 1.17. This vibrant green block serves as both a decorative and functional building material. When bone meal is applied to moss blocks, grass blocks, or dirt, they can spread moss to adjacent blocks. Moss blocks can be crafted into moss carpet using three moss blocks arranged horizontally, or harvested with shears to create moss carpets. They have very low hardness and blast resistance, making them easy to break by hand or with any tool. Moss blocks are essential for creating natural, forest-like environments and can support the growth of moss carpets and other moss variants."
     },
+    "minecraft:moss_carpet": {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Moss Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves, Mangrove Swamps, crafted from moss blocks"
+        },
+        description: "Moss Carpet is a decorative plant block introduced in Minecraft 1.17 that provides a thin, green covering for surfaces. It generates naturally in Lush Caves and Mangrove Swamps, and can be crafted by placing three moss blocks horizontally in a crafting grid. This transparent, carpet-like block serves primarily as decoration, creating natural ground cover in forest environments. Moss carpet spreads when bone meal is applied to it or nearby blocks, making it useful for terraforming and creating lush landscapes."
+    },
     "minecraft:pale_hanging_moss": {
         id: "minecraft:pale_hanging_moss",
         name: "Pale Hanging Moss",

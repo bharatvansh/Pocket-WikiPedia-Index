@@ -32,6 +32,27 @@ export const brickBlocks = {
         },
         description: "Sandstone is a solid block related to sand that generates naturally in deserts and beaches below layers of sand. It comes in two color variants: regular sandstone (yellow-tan) and red sandstone (reddish-orange). Sandstone requires a wooden pickaxe or better to mine efficiently, dropping itself when broken. It has three decorative variants: chiseled sandstone with hieroglyphic patterns, cut sandstone with a smoother texture, and smooth sandstone made by smelting regular sandstone. Sandstone is commonly used for desert-themed builds and offers good blast resistance despite its relatively low hardness."
     },
+    "minecraft:smooth_sandstone": {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        hardness: 0.8,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Smooth Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only (smelting sandstone)"
+        },
+        description: "Smooth Sandstone is a refined version of regular sandstone created by smelting regular sandstone blocks in a furnace. This process transforms the rough, grainy texture into a smooth, polished surface that maintains the characteristic warm, sandy color. Smooth sandstone offers improved blast resistance compared to regular sandstone, making it more suitable for practical building applications. It can be crafted into stairs and slabs for enhanced architectural versatility. The smooth texture provides a more refined appearance, making it popular for desert-themed and modern constructions."
+    },
     "minecraft:mud_bricks": {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",
