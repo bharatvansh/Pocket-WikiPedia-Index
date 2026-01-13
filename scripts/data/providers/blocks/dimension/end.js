@@ -156,5 +156,47 @@ export const endBlocks = {
             yRange: "Strongholds (End Portal room)"
         },
         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of exit portal"
+        },
+        description: "§5The Dragon Egg is a rare trophy block and the rarest item in Minecraft, generating only once atop the exit portal after defeating the Ender Dragon. When interacted with in Survival, it teleports to a nearby location. To collect it, players must make it fall as an entity onto a non-solid block like a torch. It emits a faint light level of 1 and is affected by gravity."
+    },
+    "minecraft:chorus_plant": {
+        id: "minecraft:chorus_plant",
+        name: "Chorus Plant",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chorus Fruit (0-1)"],
+        generation: {
+            dimension: "The End",
+            yRange: "Outer End islands"
+        },
+        description: "§dChorus Plants are tree-like structures found throughout the outer islands of the End. They grow from Chorus Flowers and can reach great heights, branching out in various directions. Breaking a base block causes the entire structure above it to collapse. They primarily drop Chorus Fruit, which can be eaten to teleport or popped in a furnace for crafting End Rods and Purpur Blocks."
     }
 };

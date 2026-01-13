@@ -1902,5 +1902,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/emerald_block",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:chorus_plant",
+        name: "Chorus Plant",
+        category: "block",
+        icon: "textures/blocks/chorus_plant",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:wither_rose",
+        name: "Wither Rose",
+        category: "block",
+        icon: "textures/blocks/wither_rose",
+        themeColor: "§8" // dark gray/black
     }
 ];
