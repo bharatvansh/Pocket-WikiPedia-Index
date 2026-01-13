@@ -14,6 +14,27 @@ export const blockIndex = [
         themeColor: "§6" // gold/brown
     },
     {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        category: "block",
+        icon: "textures/blocks/netherrack",
+        themeColor: "§8" // dark reddish-gray
+    },
+    {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        category: "block",
+        icon: "textures/blocks/podzol",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:red_sand",
+        name: "Red Sand",
+        category: "block",
+        icon: "textures/blocks/red_sand",
+        themeColor: "§c" // red/orange
+    },
+    {
         id: "minecraft:stone",
         name: "Stone",
         category: "block",
