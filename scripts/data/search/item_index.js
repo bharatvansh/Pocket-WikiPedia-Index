@@ -1407,6 +1407,27 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:mangrove_boat",
+        name: "Mangrove Boat",
+        category: "item",
+        icon: "textures/items/boat_mangrove",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_boat",
+        name: "Cherry Boat",
+        category: "item",
+        icon: "textures/items/boat_cherry",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        category: "item",
+        icon: "textures/items/boat_bamboo",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:boat_oar",
         name: "Boat Oar",
         category: "item",
