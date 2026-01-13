@@ -106,5 +106,77 @@ export const dyes = {
             "Essential for crafting blue firework stars"
         ],
         description: "Blue Dye is a primary color dye crafted from Lapis Lazuli or Cornflowers. It allows players to color wool, sheep, terracotta, glass, and concrete a deep blue. In Bedrock Edition, it is essential for mixing secondary colors such as purple, cyan, and light blue. While Lapis Lazuli can be used directly as a dye, processing it into Blue Dye creates a dedicated cosmetic item, separating it from its use in enchanting. It is also used to dye water in cauldrons and create blue firework stars."
+    },
+    "minecraft:green_dye": {
+        id: "minecraft:green_dye",
+        name: "Green Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks green",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Cactus"]
+        },
+        specialNotes: [
+            "Obtained by smelting Cactus in a Furnace",
+            "Used to dye wool, terracotta, glass, concrete, and beds green",
+            "Mixed with other dyes to create lime and cyan dyes",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting green firework stars",
+            "The only primary dye that requires smelting to obtain"
+        ],
+        description: "Green Dye is a primary color dye obtained by smelting Cactus in a Furnace. It is unique among primary dyes as it requires a smelting process rather than simple crafting. This dye allows players to color wool, sheep, terracotta, glass, and concrete a vibrant green. In Bedrock Edition, it is used to create other colors like Lime (mixed with White Dye) and Cyan (mixed with Blue Dye). It is also used to dye shulker boxes, leather armor, and to create green firework stars."
+    },
+    "minecraft:yellow_dye": {
+        id: "minecraft:yellow_dye",
+        name: "Yellow Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks yellow",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Dandelion", "Sunflower"]
+        },
+        specialNotes: [
+            "Crafted from Dandelion (1 dye) or Sunflower (2 dyes)",
+            "Used to dye wool, terracotta, glass, concrete, and beds yellow",
+            "Mixed with other dyes to create orange dye",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting yellow firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Yellow Dye is a primary color dye crafted from Dandelions or Sunflowers. It is used to color building materials such as wool, terracotta, glass, and concrete a bright yellow. In Bedrock Edition, it serves as a base for mixing to create Orange Dye (when combined with Red Dye). Yellow Dye is also used for cosmetic customization of leather armor, shulker boxes, and firework stars."
+    },
+    "minecraft:black_dye": {
+        id: "minecraft:black_dye",
+        name: "Black Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks black",
+            secondaryUse: "Mixing with other dyes to create darker shades"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Ink Sac", "Wither Rose"]
+        },
+        specialNotes: [
+            "Crafted from Ink Sac or Wither Rose",
+            "Used to dye wool, terracotta, glass, concrete, and beds black",
+            "Mixed with other dyes to create gray and light gray dyes",
+            "Used to dye sign text black (Ink Sacs cannot be used for this)",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting black firework stars"
+        ],
+        description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
     }
 };
