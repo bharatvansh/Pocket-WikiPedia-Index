@@ -178,5 +178,53 @@ export const dyes = {
             "Essential for crafting black firework stars"
         ],
         description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
+    },
+    "minecraft:lime_dye": {
+        id: "minecraft:lime_dye",
+        name: "Lime Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks lime",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Green Dye + White Dye", "Sea Pickle (Smelted)"]
+        },
+        specialNotes: [
+            "Crafted from Green Dye and White Dye",
+            "Obtained by smelting Sea Pickles",
+            "Used to dye wool, terracotta, glass, and concrete lime",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting lime firework stars",
+            "Can be traded from Wandering Traders"
+        ],
+        description: "Lime Dye is a secondary color dye obtained by mixing Green Dye and White Dye, or by smelting Sea Pickles. It is used to color wool, terracotta, glass, concrete, and beds a vibrant lime green. In Bedrock Edition, it can also be obtained by trading with Wandering Traders. It serves as a cosmetic item for customization of banners, shulker boxes, and leather armor."
+    },
+    "minecraft:orange_dye": {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks orange",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Orange Tulip", "Red Dye + Yellow Dye", "Torchflower", "Open Eyeblossom"]
+        },
+        specialNotes: [
+            "Crafted from Orange Tulip, Torchflower, or Open Eyeblossom",
+            "Created by mixing Red Dye and Yellow Dye",
+            "Used to dye wool, terracotta, glass, and concrete orange",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting orange firework stars",
+            "Found in suspicious gravel in Trail Ruins"
+        ],
+        description: "Orange Dye is a secondary color dye crafted from Orange Tulips, Torchflowers, or Open Eyeblossoms. It can also be created by mixing Red Dye and Yellow Dye. This dye is used to color various building materials such as wool, terracotta, glass, and concrete a bright orange. In Bedrock Edition, it is also used to craft balloons and glow sticks in Education Edition features."
     }
 };
