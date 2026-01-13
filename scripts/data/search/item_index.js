@@ -1701,6 +1701,27 @@ export const itemIndex = [
         themeColor: "§9" // blue
     },
     {
+        id: "minecraft:black_dye",
+        name: "Black Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_black",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:green_dye",
+        name: "Green Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_green",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:yellow_dye",
+        name: "Yellow Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_yellow",
+        themeColor: "§e" // yellow
+    },
+    {
         id: "minecraft:beetroot_seeds",
         name: "Beetroot Seeds",
         category: "item",
