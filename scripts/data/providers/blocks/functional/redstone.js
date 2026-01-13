@@ -327,5 +327,26 @@ export const redstoneBlocks = {
             yRange: "Desert Pyramids, Woodland Mansions"
         },
         description: "TNT is an explosive block that can be primed using flint and steel, fire charges, or a redstone signal. Once primed, it becomes an entity and explodes after a 4-second delay, damaging nearby blocks and entities. In Bedrock Edition, it can also be ignited by projectiles enchanted with Flame or by hitting it if 'TNT Explodes' game rule is on. It generates naturally in desert pyramids and woodland mansions. When broken without igniting, it drops itself."
+    },
+    "minecraft:unpowered_repeater": {
+        id: "minecraft:unpowered_repeater",
+        name: "Redstone Repeater",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Repeater"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Ancient Cities"
+        },
+        description: "A Redstone Repeater is a component used to repeat redstone signals to full strength, delay signals by 1 to 4 ticks, and lock signals. It has a front and a back; it accepts input from the back and outputs to the front. It acts as a diode, preventing signal backflow. When powered from the side by another repeater or comparator, it locks its current state. Essential for extending redstone signals beyond 15 blocks and creating timing circuits."
     }
 };
