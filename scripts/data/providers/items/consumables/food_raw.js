@@ -344,5 +344,89 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Cows and Mooshrooms (1-3 drops)",
+            "Cooking it creates Steak (Cooked Beef), which restores significantly more hunger",
+            "Used to breed and heal tamed Wolves",
+            "Can be bought by Butcher villagers for Emeralds",
+            "Butcher villagers may also gift it to players with the Hero of the Village effect"
+        ],
+        description: "Raw Beef is a food item dropped by cows and mooshrooms. While it can be eaten raw to restore 3 hunger points and 1.8 saturation, it is most valuable when cooked into Steak, which provides much higher nourishment. Beyond consumption, Raw Beef is used to breed and heal tamed wolves, making it a useful item for dog owners. It can also be traded with Butcher villagers. Cows are a common passive mob found in many biomes, ensuring a steady supply of this meat."
+    },
+    "minecraft:porkchop": {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Pigs and Hoglins"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Pigs (1-3 drops) and Hoglins (2-4 drops)",
+            "Cooking it creates Cooked Porkchop, which restores 8 hunger",
+            "Used to breed and heal tamed Wolves",
+            "Can be bought by Butcher villagers for Emeralds",
+            "Pigs dropped cooked porkchops if killed while on fire"
+        ],
+        description: "Raw Porkchop is a meat item obtained from pigs and hoglins. Eating it raw provides 3 hunger points and 1.8 saturation, but cooking it into a Cooked Porkchop vastly improves its value, making it one of the best food sources in the game. It also serves as food for breeding and healing wolves. Pigs are found in most grassy biomes, while Hoglins provide a dangerous but renewable source in the Nether's Crimson Forests. Like other raw meats, it is a staple for survival."
+    },
+    "minecraft:mutton": {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sheep"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "Dropped by Sheep (1-2 drops)",
+            "Cooking it creates Cooked Mutton, which restores 6 hunger",
+            "Used to breed and heal tamed Wolves",
+            "Can be bought by Butcher villagers for Emeralds",
+            "Sheep drop cooked mutton if killed while on fire"
+        ],
+        description: "Raw Mutton is a food item obtained by killing sheep. It restores 2 hunger points and 1.2 saturation when eaten raw. However, cooking it yields Cooked Mutton, which is far more nutritious. Raw Mutton is also used to breed and heal tamed wolves, making it a multi-purpose item for players who keep pets. Sheep are common in many biomes and can be farmed for both wool and mutton, making this a reliable and renewable food source."
     }
 };
