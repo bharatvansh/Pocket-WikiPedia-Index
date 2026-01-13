@@ -9,6 +9,33 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const axes = {
+    "minecraft:iron_axe": {
+        id: "minecraft:iron_axe",
+        name: "Iron Axe",
+        maxStack: 1,
+        durability: 251,
+        enchantable: true,
+        usage: {
+            primaryUse: "Chopping wood and wood-based blocks efficiently",
+            secondaryUse: "Melee combat weapon"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts) in Bedrock Edition",
+            "Has 251 durability, making it a good mid-game tool",
+            "Can be used to strip logs by right-clicking them",
+            "In Bedrock Edition, axes do less damage than swords of the same tier",
+            "Can receive Efficiency, Unbreaking, Fortune, or Silk Touch enchantments"
+        ],
+        description: "The Iron Axe is a durable and efficient tool for gathering wood and related blocks. Crafted with three iron ingots and two sticks, it provides a significant upgrade over stone axes in terms of mining speed and durability. In Bedrock Edition, it deals 5 points of damage, which is less than an iron sword, distinguishing its combat role from the Java Edition version. It also possesses the utility to strip logs for decorative purposes and can be enchanted to further enhance its gathering capabilities."
+    },
     "minecraft:netherite_axe": {
         id: "minecraft:netherite_axe",
         name: "Netherite Axe",

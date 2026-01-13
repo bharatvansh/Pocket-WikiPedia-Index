@@ -1930,5 +1930,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/skull_pottery_sherd",
         themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:wooden_sword",
+        name: "Wooden Sword",
+        category: "item",
+        icon: "textures/items/wood_sword",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_pickaxe",
+        name: "Stone Pickaxe",
+        category: "item",
+        icon: "textures/items/stone_pickaxe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_axe",
+        name: "Iron Axe",
+        category: "item",
+        icon: "textures/items/iron_axe",
+        themeColor: "§f" // iron/white
     }
 ];

@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const swords = {
+    "minecraft:wooden_sword": {
+        id: "minecraft:wooden_sword",
+        name: "Wooden Sword",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 4 attack damage (2 hearts) per hit",
+            "Has the lowest durability of all swords (60)",
+            "Cheap and easy to craft for early game survival",
+            "Can be used as fuel in a furnace (smelts 1 item)"
+        ],
+        description: "The Wooden Sword is the most basic melee weapon in Minecraft, often the first weapon a player crafts. Made from two planks of any wood type and a single stick, it deals 4 points of damage (2 hearts) per hit. While it has a very low durability of 60 uses, its cheap cost makes it invaluable for early defense against zombies and spiders. It can also be used to break cobwebs or bamboo more quickly than by hand."
+    },
     "minecraft:iron_sword": {
         id: "minecraft:iron_sword",
         name: "Iron Sword",
