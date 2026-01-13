@@ -1951,5 +1951,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_axe",
         themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:golden_sword",
+        name: "Golden Sword",
+        category: "item",
+        icon: "textures/items/gold_sword",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:golden_pickaxe",
+        name: "Golden Pickaxe",
+        category: "item",
+        icon: "textures/items/gold_pickaxe",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:golden_axe",
+        name: "Golden Axe",
+        category: "item",
+        icon: "textures/items/gold_axe",
+        themeColor: "§e" // yellow/gold
     }
 ];

@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const pickaxes = {
+    "minecraft:golden_pickaxe": {
+        id: "minecraft:golden_pickaxe",
+        name: "Golden Pickaxe",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Fastest mining of low-tier blocks",
+            secondaryUse: "Speedrunning or clearing stone quickly"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Fastest mining tool in the game",
+            "Extremely low durability (33 uses)",
+            "Cannot mine Iron Ore or higher tiers",
+            "High enchantability"
+        ],
+        description: "The Golden Pickaxe is the fastest mining tool in Minecraft, capable of breaking blocks significantly faster than diamond or netherite tools. However, this speed is offset by its extremely low durability of 33 uses and its inability to mine ores such as iron, gold, diamond, or redstone. Crafted from three Gold Ingots and two Sticks, it is primarily used for specific tasks requiring speed rather than longevity, or for easily obtaining high-level enchantments."
+    },
     "minecraft:stone_pickaxe": {
         id: "minecraft:stone_pickaxe",
         name: "Stone Pickaxe",
