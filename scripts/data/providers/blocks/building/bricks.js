@@ -409,5 +409,26 @@ export const brickBlocks = {
             yRange: "Crafted only (Nether Bricks + Nether Wart)"
         },
         description: "Red Nether Bricks are a decorative variant of Nether Bricks. They are crafted using Nether Bricks and Nether Wart. They have the same blast resistance and hardness as regular Nether Bricks."
+    },
+    "minecraft:terracotta": {
+        id: "minecraft:terracotta",
+        name: "Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands biomes, crafted by smelting Clay Block"
+        },
+        description: "Terracotta is a decorative building block with a distinctive orange-brown ceramic texture. Obtained by smelting clay blocks in a furnace or blast furnace, terracotta serves as a base material for creating 16 colored variants using dyes, which can then be smelted into vibrant glazed terracotta patterns. It generates naturally in badlands biomes in massive formations. With moderate hardness and blast resistance, terracotta requires only a wooden pickaxe to mine efficiently and is ideal for southwestern or desert-themed builds."
     }
 };
