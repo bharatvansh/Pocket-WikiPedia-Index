@@ -1034,5 +1034,65 @@ export const passiveMobs = {
             { item: "String", chance: "0-2" }
         ],
         description: "Cats are agile passive mobs found in villages and swamp huts. They are uniquely valuable for their ability to repel Creepers and Phantoms, making them excellent companions for base defense. Once tamed with raw fish, they follow their owners and provide occasional gifts after the player wakes from a bed. Cats are also immune to fall damage, reflecting their real-world grace and landing abilities."
+    },
+    "minecraft:agent": {
+        id: "minecraft:agent",
+        name: "Agent",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Education Edition and Bedrock with commands"],
+            lightLevel: "Any",
+            groupSize: "1 (created by commands)"
+        },
+        behaviorTraits: [
+            "Exclusive to Education Edition and Bedrock when using WebSocket servers",
+            "Created using commands such as /execute as @p run agent create",
+            "Primary purpose is to teach coding and automation to players",
+            "Has a 27-slot inventory that can be manipulated programmatically",
+            "Can execute various commands including move, turn, dig, place, and collect",
+            "Does not move or act autonomously without programmed instructions",
+            "Inventory can be accessed directly via a GUI interface in Education Edition"
+        ],
+        drops: [
+        ],
+        description: "The Agent is a specialized mob exclusive to Minecraft Education Edition and Bedrock Edition worlds connected to WebSocket servers. Designed as a programmable helper, the Agent teaches players coding concepts through in-game automation tasks. It carries a 27-slot inventory and responds to player-programmed commands to move, mine, place blocks, and collect items. In standard Bedrock Edition without server connections, Agents can be spawned but remain inactive unless triggered through NPC commands. The Agent serves as an educational tool for learning programming logic and computational thinking."
+    },
+    "minecraft:npc": {
+        id: "minecraft:npc",
+        name: "NPC",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Education Edition and Bedrock with commands"],
+            lightLevel: "Any",
+            groupSize: "1 (created by commands)"
+        },
+        behaviorTraits: [
+            "Cannot spawn naturally and must be created using commands or spawn eggs",
+            "Immobile entity that remains in place once spawned or positioned",
+            "Used to create interactive dialogue experiences and quests in Education worlds",
+            "Supports customizable names, dialogue text, and command execution on interaction",
+            "Can execute commands when players interact, enabling complex gameplay mechanics",
+            "Has 20+ customizable skin variants in Bedrock Edition for diverse appearances",
+            "Invulnerable in Survival mode but can be removed in Creative with attacks"
+        ],
+        drops: [
+        ],
+        description: "NPCs are non-player character entities exclusive to Minecraft Education and Bedrock Edition. They serve as interactive dialogue hubs and quest givers in custom worlds. NPCs can be customized with names, dialogue text, button labels, and executable commands that trigger when players interact with them. With over 20 skin variants available, NPCs provide diverse representation for storytelling. They remain stationary, are invulnerable to attacks in Survival mode, and can only be spawned via commands or spawn eggs. NPCs are essential for creating guided learning experiences."
     }
 };
