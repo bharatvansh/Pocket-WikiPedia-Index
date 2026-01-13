@@ -262,5 +262,68 @@ export const dirtBlocks = {
             yRange: "Surface (most biomes)"
         },
         description: "Grass Block is a natural block that generates on the surface of the Overworld. It consists of dirt with grass growing on top. Grass spreads to adjacent dirt blocks if light levels are sufficient. When mined without Silk Touch, it drops dirt. It can be converted into a dirt path with a shovel or farmland with a hoe. Grass blocks take on the color of the biome they are in."
+    },
+    "minecraft:podzol": {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Mega Taiga, Bamboo Jungle)"
+        },
+        description: "Podzol is a dirt-type block found in Mega Taiga and Bamboo Jungle biomes. It has a distinct brownish top texture resembling fallen pine needles. Mushrooms can spawn on Podzol at any light level, making it useful for mushroom farming. Unlike grass blocks, it does not spread to other dirt blocks and cannot be turned into farmland with a hoe. When mined without Silk Touch, it drops Dirt."
+    },
+    "minecraft:coarse_dirt": {
+        id: "minecraft:coarse_dirt",
+        name: "Coarse Dirt",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Coarse Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Mega Taiga, Badlands, Savanna)"
+        },
+        description: "Coarse Dirt is a variation of dirt with a rougher texture. Grass does not spread to Coarse Dirt, making it ideal for paths or decoration where grass growth is unwanted. It can be crafted by combining Dirt and Gravel. Unlike regular dirt, using a hoe on Coarse Dirt converts it into regular Dirt instead of Farmland. It drops itself when mined, requiring no Silk Touch."
+    },
+    "minecraft:red_sand": {
+        id: "minecraft:red_sand",
+        name: "Red Sand",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Sand"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Badlands)"
+        },
+        description: "Red Sand is a variation of sand found exclusively in Badlands (Mesa) biomes. It shares the same gravity-affected properties as regular sand, falling if unsupported. Red Sand can be smelted into Red Stained Glass or crafted into Red Sandstone and Red Concrete Powder. It is commonly used for decoration and terraforming to create arid, desert-like landscapes."
     }
 };

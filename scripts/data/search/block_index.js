@@ -1839,5 +1839,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/light_block",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        category: "block",
+        icon: "textures/blocks/dirt_podzol_top",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:coarse_dirt",
+        name: "Coarse Dirt",
+        category: "block",
+        icon: "textures/blocks/coarse_dirt",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:red_sand",
+        name: "Red Sand",
+        category: "block",
+        icon: "textures/blocks/sand_red",
+        themeColor: "§6" // orange
     }
 ];
