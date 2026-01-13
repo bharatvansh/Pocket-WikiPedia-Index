@@ -154,6 +154,27 @@ export const blockIndex = [
         themeColor: "§6" // orange/copper
     },
     {
+        id: "minecraft:copper_block",
+        name: "Block of Copper",
+        category: "block",
+        icon: "textures/blocks/copper_block",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:exposed_copper",
+        name: "Exposed Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_copper",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:weathered_copper",
+        name: "Weathered Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_copper",
+        themeColor: "§3" // dark aqua
+    },
+    {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
         category: "block",
