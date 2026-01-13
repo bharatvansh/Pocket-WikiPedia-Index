@@ -906,6 +906,81 @@ export const miscItems = {
         ],
         description: "The Boat Oar is a specialized tool item used exclusively for propelling rafts across water. Unlike boats that move automatically, rafts require manual propulsion using a boat oar, giving players precise control over their watercraft. The oar is crafted from a stick and wood slab, and when used on a raft, allows for directional movement across water surfaces. This manual control system makes rafts useful for precise navigation in tight spaces or for hands-on water transportation."
     },
+    "minecraft:mangrove_boat": {
+        id: "minecraft:mangrove_boat",
+        name: "Mangrove Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with mangrove wood appearance",
+            secondaryUse: "Matching mangrove wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with red mangrove wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Mangrove Planks (no shovel required in 1.20+)",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Mangrove Boat is a variant of the standard boat crafted from mangrove planks, introduced in the 1.19 Wild Update. It features the distinctive reddish hue of mangrove wood, making it an excellent choice for navigating swamps or matching red-wood themed builds. Like other boats in Bedrock Edition, it accommodates two passengers and offers fall damage protection. It can be crafted using five mangrove planks, providing a stylish way to traverse water bodies."
+    },
+    "minecraft:cherry_boat": {
+        id: "minecraft:cherry_boat",
+        name: "Cherry Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with cherry wood appearance",
+            secondaryUse: "Matching cherry wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with pink cherry wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Cherry Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Cherry Boat is a vibrant pink boat variant crafted from cherry planks, introduced in the 1.20 Trails & Tales update. It functions identically to other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its unique pink color makes it a favorite for decorative purposes and for players who enjoy the aesthetic of the cherry grove biome. It requires five cherry planks to craft and offers the same fall damage negation as other boats."
+    },
+    "minecraft:bamboo_raft": {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with a raft design",
+            secondaryUse: "Aesthetic alternative to traditional boats"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x5"]
+        },
+        specialNotes: [
+            "Functionally identical to boats but with a flat raft model",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Bamboo Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
+    },
     "minecraft:painting": {
         id: "minecraft:painting",
         name: "Painting",
