@@ -603,5 +603,26 @@ export const vegetationBlocks = {
             yRange: "Woodland Mansions, Pillager Outposts, Rail rooms"
         },
         description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
+    },
+    "minecraft:wither_rose": {
+        id: "minecraft:wither_rose",
+        name: "Wither Rose",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wither Rose"],
+        generation: {
+            dimension: "Any",
+            yRange: "Where a mob is killed by the Wither"
+        },
+        description: "§8The Wither Rose is a unique decorative block that inflicts the Wither II status effect on any mob or player that touches or stands in it, except for undead mobs and the Wither itself. It is obtained when a mob is killed by the Wither or its projectiles. These roses can be used to create black dye or placed in a Suspicious Stew to grant the Wither effect when consumed. They are often used in mob farms."
     }
 };
