@@ -847,6 +847,13 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:polished_blackstone_bricks",
+        name: "Polished Blackstone Bricks",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:pointed_dripstone",
         name: "Pointed Dripstone",
         category: "block",
@@ -991,6 +998,13 @@ export const blockIndex = [
         name: "Sandstone",
         category: "block",
         icon: "textures/blocks/sandstone",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        category: "block",
+        icon: "textures/blocks/smooth_sandstone",
         themeColor: "§e" // yellow/sand
     },
     {
@@ -1768,6 +1782,13 @@ export const blockIndex = [
         name: "Red Nether Bricks",
         category: "block",
         icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:red_nether_brick_stairs",
+        name: "Red Nether Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick_stairs",
         themeColor: "§4" // dark red
     },
     {

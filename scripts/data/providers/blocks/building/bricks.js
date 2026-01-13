@@ -32,6 +32,27 @@ export const brickBlocks = {
         },
         description: "Sandstone is a solid block related to sand that generates naturally in deserts and beaches below layers of sand. It comes in two color variants: regular sandstone (yellow-tan) and red sandstone (reddish-orange). Sandstone requires a wooden pickaxe or better to mine efficiently, dropping itself when broken. It has three decorative variants: chiseled sandstone with hieroglyphic patterns, cut sandstone with a smoother texture, and smooth sandstone made by smelting regular sandstone. Sandstone is commonly used for desert-themed builds and offers good blast resistance despite its relatively low hardness."
     },
+    "minecraft:smooth_sandstone": {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        hardness: 2,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by smelting sandstone"
+        },
+        description: "Smooth Sandstone is a refined variant of regular sandstone created by smelting sandstone in a furnace. It features a cleaner, smoother texture without the decorative bands found on standard sandstone blocks, making it ideal for more polished desert-themed builds. Smooth sandstone has increased hardness and blast resistance compared to regular sandstone. It can be crafted into smooth sandstone slabs and stairs for additional architectural versatility. In Bedrock Edition, smooth sandstone naturally generates in some desert village houses."
+    },
     "minecraft:mud_bricks": {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",
@@ -493,5 +514,26 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
+    },
+    "minecraft:polished_blackstone_bricks": {
+        id: "minecraft:polished_blackstone_bricks",
+        name: "Polished Blackstone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, Ruined Portals"
+        },
+        description: "Polished Blackstone Bricks are decorative building blocks crafted from four polished blackstone arranged in a 2x2 pattern. They feature a refined dark brick texture that makes them ideal for Nether-themed builds and medieval structures. These blocks naturally generate in bastion remnants and ruined portals throughout the Overworld and Nether. Polished blackstone bricks can be further processed into slabs, stairs, and walls, or smelted into cracked polished blackstone bricks for a weathered appearance. They require a wooden pickaxe or better to mine efficiently."
     }
 };

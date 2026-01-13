@@ -218,5 +218,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:red_nether_brick_stairs": {
+        id: "minecraft:red_nether_brick_stairs",
+        name: "Red Nether Brick Stairs",
+        hardness: 2,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Brick Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Red Nether Bricks"
+        },
+        description: "Red Nether Brick Stairs are stair-shaped building blocks crafted from Red Nether Bricks using the standard stair recipe or more efficiently via a stonecutter. They feature the same dark reddish-brown texture as Red Nether Bricks, making them perfect for Nether-themed architectural details, staircases, and roofing. These stairs share the same hardness and blast resistance as their parent block. In Bedrock Edition, they are waterloggable. Red Nether Brick Stairs were added in version 1.9.0, expanding the decorative options for builders working with Nether materials."
     }
 };
