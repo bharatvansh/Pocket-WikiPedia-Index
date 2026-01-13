@@ -262,5 +262,26 @@ export const dirtBlocks = {
             yRange: "Surface (most biomes)"
         },
         description: "Grass Block is a natural block that generates on the surface of the Overworld. It consists of dirt with grass growing on top. Grass spreads to adjacent dirt blocks if light levels are sufficient. When mined without Silk Touch, it drops dirt. It can be converted into a dirt path with a shovel or farmland with a hoe. Grass blocks take on the color of the biome they are in."
+    },
+    "minecraft:podzol": {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mega Taiga and Bamboo Jungle"
+        },
+        description: "Podzol is a variation of dirt found in mega taiga and bamboo jungle biomes. It has a brownish, needle-covered texture on top. Unlike grass blocks, grass cannot spread onto podzol, but it allows mushrooms to be placed and grow in any light level. When mined without Silk Touch, it drops dirt. It is often used for landscaping to create a forest floor aesthetic."
     }
 };

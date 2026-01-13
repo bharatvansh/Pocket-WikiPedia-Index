@@ -1881,5 +1881,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/gold_block",
         themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:crimson_stem",
+        name: "Crimson Stem",
+        category: "block",
+        icon: "textures/blocks/crimson_stem_side",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        category: "block",
+        icon: "textures/blocks/dirt_podzol_top",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/blocks/cake_top",
+        themeColor: "§f" // white
     }
 ];

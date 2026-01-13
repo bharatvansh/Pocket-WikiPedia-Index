@@ -199,5 +199,26 @@ export const woodBlocks = {
             yRange: "Crafted from Pale Oak Logs"
         },
         description: "Pale Oak Wood is a block with the bark texture of Pale Oak logs on all six sides, introduced in Minecraft 1.21.50. It is crafted by arranging four Pale Oak Logs in a 2x2 grid. Unlike logs, which have a top and bottom 'rings' texture, wood blocks appear as bark on every face, making them ideal for creating seamless organic structures like custom trees or roots. Like other wood blocks, it can be stripped using an axe to create Stripped Pale Oak Wood."
+    },
+    "minecraft:crimson_stem": {
+        id: "minecraft:crimson_stem",
+        name: "Crimson Stem",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Stem"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest"
+        },
+        description: "Crimson Stem is a crimson-colored, log-like block found in the Crimson Forest biome of the Nether. Unlike Overworld logs, crimson stems are fire-resistant and do not burn. They serve as the 'wood' of the huge fungi in the biome. They can be stripped using an axe to create Stripped Crimson Stem, or crafted into Crimson Planks. The animated texture of the stem pulses slightly, adding a unique alien feel to builds."
     }
 };
