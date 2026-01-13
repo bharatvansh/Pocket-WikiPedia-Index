@@ -572,5 +572,26 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_trader_llama.png",
         themeColor: "§6" // brown/decorative
+    },
+    {
+        id: "minecraft:agent",
+        name: "Agent",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_agent.png",
+        themeColor: "§b" // cyan/tech
+    },
+    {
+        id: "minecraft:npc",
+        name: "NPC",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_npc.png",
+        themeColor: "§e" // yellow/friendly
+    },
+    {
+        id: "minecraft:elder_guardian_ghost",
+        name: "Elder Guardian Ghost",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_elder_guardian.png",
+        themeColor: "§b" // cyan/ghostly
     }
 ];

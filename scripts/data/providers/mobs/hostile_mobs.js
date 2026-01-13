@@ -1206,5 +1206,35 @@ export const hostileMobs = {
             { item: "Horse Armor", chance: "If equipped" }
         ],
         description: "Zombie Horses are undead horse variants that currently do not spawn naturally in Bedrock Edition, requiring spawn eggs or commands to obtain. They display zombie-like decayed appearance and have 25 health (12.5 hearts), higher than most horses. Zombie Horses cannot drown and share taming mechanics with regular horses. When not ridden by zombies, they behave passively and can be saddled. In future updates, they may spawn naturally with zombie riders. Their distinctive greenish decayed texture sets them apart from living horses."
+    },
+    "minecraft:elder_guardian_ghost": {
+        id: "minecraft:elder_guardian_ghost",
+        name: "Elder Guardian Ghost",
+        health: 20,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean Monument (Bedrock Edition only)"],
+            lightLevel: "Any",
+            groupSize: "1 (per Mining Fatigue application)"
+        },
+        behaviorTraits: [
+            "Exclusive to Bedrock Edition as a technical implementation detail",
+            "Invisible hostile mob that serves as the particle rendering entity",
+            "Spawned automatically when Elder Guardians apply Mining Fatigue effect",
+            "Responsible for displaying the ghostly Elder Guardian face particle in player's screen",
+            "Has 2 HP spike damage from its hitbox, though rarely interacted with",
+            "Exists only for the duration of the Mining Fatigue visual effect",
+            "Not meant to be encountered in normal gameplay as it remains invisible"
+        ],
+        drops: [
+        ],
+        description: "The Elder Guardian Ghost is a technical entity exclusive to Bedrock Edition, serving as an invisible mob that renders the iconic ghostly Elder Guardian face particle when players receive the Mining Fatigue III effect. This special implementation differs from Java Edition, where the particle system handles this effect differently. The mob itself is invisible, immobile, and has 20 health points with 2 HP spike damage. Players cannot normally interact with or see Elder Guardian Ghosts, as they exist solely to display the intimidating visual effect associated with ocean monument guardians."
     }
 };
