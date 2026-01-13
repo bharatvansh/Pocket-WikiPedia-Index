@@ -293,6 +293,31 @@ export const craftingMaterials = {
         ],
         description: "Amethyst Shards are crystalline materials harvested from Amethyst Clusters found in underground Geodes. When mined with a pickaxe, a cluster drops 4 shards, increasing up to 16 with Fortune. They are renewable, as clusters regrow on immovable Budding Amethyst blocks. Shards can also be found in loot chests within Ancient Cities and Trial Chambers. Essential for crafting, they are used to create Spyglasses, Tinted Glass, Calibrated Sculk Sensors, and decorative Amethyst Blocks. Their vibrant purple color offers both functional utility and aesthetic appeal."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Note block sounds and piston interactions"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers (7.5% chance)"]
+        },
+        specialNotes: [
+            "Used to craft the Mace when combined with a Breeze Rod",
+            "Can be placed as a block with hardness 10 (requires pickaxe)",
+            "Produces 'snare drum' sound when placed under note blocks",
+            "Only obtainable from Ominous Vaults in Trial Chambers",
+            "Renewable only through Trial Chamber gameplay",
+            "Has a 7.5% chance to drop from Ominous Vaults",
+            "Required component for one of the newest weapons in Minecraft"
+        ],
+        description: "The Heavy Core is a rare item introduced in Minecraft 1.21, found exclusively in Ominous Vaults within Trial Chambers with a 7.5% drop chance. This mysterious component serves as the essential material for crafting the Mace, a powerful new weapon that deals devastating damage when attacking while falling. Beyond weapon crafting, Heavy Cores can function as note block components, producing unique 'snare drum' sounds. Their exclusive availability through the challenging Trial Chamber gameplay makes them one of the most prestigious and hard-to-obtain materials in the game."
+    },
     "minecraft:disc_fragment_5": {
         id: "minecraft:disc_fragment_5",
         name: "Disc Fragment 5",

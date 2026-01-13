@@ -1115,5 +1115,55 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:creaking_heart": {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Spawning and controlling the Creaking mob",
+            secondaryUse: "Crafting ingredient and decorative block"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Log x2", "Resin Clump x1"]
+        },
+        specialNotes: [
+            "Spawns the Creaking mob at night when placed in pale oak trees",
+            "Can be mined with Silk Touch axe to collect and relocate",
+            "When naturally generated in pale oak trees, drops resin clump if broken without Silk Touch",
+            "Only becomes active at night when placed between two vertically stacked pale oak logs",
+            "Each heart controls one Creaking that cannot travel more than 30 blocks from its heart",
+            "Destruction of the heart despawns its associated Creaking",
+            "Provides a unique challenge requiring specific biome and time conditions"
+        ],
+        description: "The Creaking Heart is a unique block found naturally within pale oak trees in the rare Pale Garden biome. This mysterious block serves as the controller for the Creaking mob, which only becomes active at night. The Creaking Heart can be collected using a Silk Touch axe and relocated, allowing players to create their own Creaking spawners. When placed correctly between two vertically stacked pale oak logs, it will spawn a Creaking that is bound to its heart and cannot travel far from it. This item adds challenge and strategy, requiring understanding of biome mechanics."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with pale oak wood appearance",
+            secondaryUse: "Matching pale garden biome builds and eerie aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with pale gray-white oak wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Pale Oak Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Pale Oak Boat is a unique water vessel crafted from pale oak planks, featuring the distinctive pale gray-white wood texture of the new pale garden biome. This boat offers the same functionality as other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its eerie appearance makes it perfect for players who want to maintain the aesthetic consistency of their pale garden builds or explore the mysterious atmosphere of the new biome. Crafted from five pale oak planks, it provides a hauntingly beautiful way to traverse water bodies."
     }
 };
