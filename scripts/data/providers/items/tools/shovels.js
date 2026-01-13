@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const shovels = {
+    "minecraft:diamond_shovel": {
+        id: "minecraft:diamond_shovel",
+        name: "Diamond Shovel",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, gravel, and snow efficiently",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x1", "Stick x2"]
+        },
+        specialNotes: [
+            "Has 1562 durability",
+            "Can create grass paths by right-clicking grass blocks",
+            "Can extinguish campfires",
+            "Can be upgraded to Netherite Shovel"
+        ],
+        description: "The Diamond Shovel is a durable tool used for digging soil, sand, and other soft materials. With 1562 durability, it is a long-lasting tool essential for large excavation projects. It can also be used to create grass paths and extinguish campfires. It serves as the base for crafting the even more durable Netherite Shovel."
+    },
     "minecraft:netherite_shovel": {
         id: "minecraft:netherite_shovel",
         name: "Netherite Shovel",
