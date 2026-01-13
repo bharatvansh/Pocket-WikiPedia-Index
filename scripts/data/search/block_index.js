@@ -1986,5 +1986,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        category: "block",
+        icon: "textures/blocks/coal_ore",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:deepslate_coal_ore",
+        name: "Deepslate Coal Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_coal_ore",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8" // dark gray
     }
 ];
