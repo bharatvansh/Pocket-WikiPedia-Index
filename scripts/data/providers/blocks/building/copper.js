@@ -15,6 +15,69 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const copperBlocks = {
+    "minecraft:copper_block": {
+        id: "minecraft:copper_block",
+        name: "Block of Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Block of Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 9 Copper Ingots"
+        },
+        description: "The Block of Copper is a solid metal block crafted from nine copper ingots. It oxidizes over time through four stages: Normal, Exposed, Weathered, and Oxidized. Players can wax the block with honeycomb to prevent oxidation or scrape it with an axe to revert it to a previous stage. In Bedrock Edition, it requires a stone pickaxe or better to mine; otherwise, it drops nothing. It serves as a compact storage for copper ingots and a versatile decorative block with a dynamic aging mechanic."
+    },
+    "minecraft:exposed_copper": {
+        id: "minecraft:exposed_copper",
+        name: "Exposed Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or generated in structures"
+        },
+        description: "Exposed Copper is the first oxidation stage of the Block of Copper, exhibiting a slightly tarnished, brownish appearance with spots of green. It forms when a regular copper block is exposed to air for some time. Like other copper variants, it can be waxed with honeycomb to freeze its state or scraped with an axe to return to the pristine copper look. It retains the same durability (hardness 3.0, blast resistance 6.0) as the original block and requires a stone pickaxe or higher to harvest."
+    },
+    "minecraft:weathered_copper": {
+        id: "minecraft:weathered_copper",
+        name: "Weathered Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally"
+        },
+        description: "Weathered Copper represents the second stage of copper oxidation, characterized by a distinct greenish-blue hue covering most of the block's surface. It naturally evolves from Exposed Copper over time but can be preserved by applying honeycomb. Using an axe on the block scrapes off the oxidation layer, reverting it to the Exposed stage. Mining requires a stone tier pickaxe or better. Its unique color makes it a popular choice for building roofs and statues that require an aged, historical aesthetic."
+    },
     "minecraft:copper_bulb": {
         id: "minecraft:copper_bulb",
         name: "Copper Bulb",
