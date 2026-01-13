@@ -644,6 +644,27 @@ export const itemIndex = [
         themeColor: "§6" // Brown
     },
     {
+        id: "minecraft:cod_bucket",
+        name: "Bucket of Cod",
+        category: "item",
+        icon: "textures/items/cod_bucket",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:salmon_bucket",
+        name: "Bucket of Salmon",
+        category: "item",
+        icon: "textures/items/salmon_bucket",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/tropical_fish_bucket",
+        themeColor: "§b" // aqua/water
+    },
+    {
         id: "minecraft:item_frame",
         name: "Item Frame",
         category: "item",
