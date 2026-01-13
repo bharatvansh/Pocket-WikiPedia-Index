@@ -236,6 +236,34 @@ export const rawFood = {
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
     },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (minimal value)",
+            secondaryUse: "Taming cats and breeding Axolotls (bucket only)"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing", "Rare drop from Guardians and Elder Guardians"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumstick) and 0.2 saturation",
+            "Cannot be cooked; mostly serves as a trophy or emergency food",
+            "Used to tame cats (33% chance) and breed them",
+            "Tropical Fish mobs drop 1 tropical fish when killed",
+            "Can be caught via fishing in any ocean biome (approx. 2% chance)",
+            "Axolotls are bred using Buckets of Tropical Fish, not the raw item"
+        ],
+        description: "Tropical Fish is a raw food item obtained by killing tropical fish or fishing. It restores a minimal amount of hunger (1 point) and very low saturation, making it a poor primary food source. Unlike cod or salmon, it cannot be cooked. Its main utility lies in taming and breeding cats. While it can be eaten in emergencies, players often seek out the living versions in buckets for aquariums or breeding axolotls, as the raw item itself has limited functionality."
+    },
     "minecraft:carrot": {
         id: "minecraft:carrot",
         name: "Carrot",
