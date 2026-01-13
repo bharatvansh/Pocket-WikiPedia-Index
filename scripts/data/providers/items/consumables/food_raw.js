@@ -92,6 +92,62 @@ export const rawFood = {
         ],
         description: "Glow Berries are a food and light source found on cave vines in lush caves. Eating them restores 2 hunger and 0.4 saturation. When attached to vines, they emit a light level of 14, providing a natural alternative to torches. Players can farm them by planting them on the underside of solid blocks; the resulting cave vines grow downward and produce berries over time or when bone-mealed. Beyond sustenance, they are highly valued as decorative lighting for underground bases and garden builds."
     },
+    "minecraft:torchflower": {
+        id: "minecraft:torchflower",
+        name: "Torchflower",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and decorative plant",
+            secondaryUse: "Sniffer breeding and decoration"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Torchflower plants in ancient cities or grown from seeds"]
+        },
+        specialNotes: [
+            "Restores 2 hunger and 0.6 saturation points",
+            "Used to breed Sniffers",
+            "Can be used as a decorative block",
+            "Grows from Torchflower Seeds",
+            "Emits a soft glow as a decorative block",
+            "Found naturally in ancient cities and mangrove swamps"
+        ],
+        description: "Torchflower is a vibrant decorative plant that can be used as food and for breeding Sniffers. When eaten, it restores 2 hunger and 0.6 saturation. The plant grows from Torchflower Seeds and emits a soft glow when placed as a block, making it both functional and ornamental. Torchflowers can be found naturally in ancient cities and mangrove swamps, or grown by planting seeds. They are essential for breeding Sniffers, which seek out and dig up Torchflower Seeds."
+    },
+    "minecraft:pitcher_plant": {
+        id: "minecraft:pitcher_plant",
+        name: "Pitcher Plant",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and decorative plant",
+            secondaryUse: "Composting material"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Pitcher Plants in mangrove swamps or grown from seeds"]
+        },
+        specialNotes: [
+            "Restores 2 hunger and 0.4 saturation points",
+            "Can be used as a decorative block",
+            "Compostable with a 50% chance of raising compost level",
+            "Grows from Pitcher Pods",
+            "Found naturally in mangrove swamps",
+            "Part of the Trails & Tales update (1.20)"
+        ],
+        description: "Pitcher Plant is a carnivorous plant that serves as both food and decoration in Minecraft Bedrock. When eaten, it restores 2 hunger and 0.4 saturation points. The plant can be grown from Pitcher Pods and serves as a unique decorative block. Pitcher Plants are naturally found in mangrove swamps, adding to the biodiversity of these new biomes. They can also be composted with a 50% success rate, making them useful for sustainable farming practices. The Pitcher Plant represents the exotic vegetation of mangrove environments."
+    },
     "minecraft:spider_eye": {
         id: "minecraft:spider_eye",
         name: "Spider Eye",
