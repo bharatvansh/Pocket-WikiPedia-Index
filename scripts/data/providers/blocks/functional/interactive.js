@@ -473,5 +473,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:structure_void": {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command/Structure Block only"
+        },
+        description: "Structure Void is an invisible block used with Structure Blocks. It indicates empty space that should not overwrite existing blocks when a structure is loaded. Players can walk through it, but it shows a small red box when holding the item in Creative mode."
     }
 };

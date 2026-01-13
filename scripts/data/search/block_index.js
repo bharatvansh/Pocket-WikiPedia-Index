@@ -1986,5 +1986,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:frosted_ice",
+        name: "Frosted Ice",
+        category: "block",
+        icon: "textures/blocks/frosted_ice_0",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        category: "block",
+        icon: "textures/items/structure_void",
+        themeColor: "§7" // gray
     }
 ];
