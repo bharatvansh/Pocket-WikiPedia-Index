@@ -344,5 +344,61 @@ export const rawFood = {
             "Compostable with a 65% chance to raise the compost level"
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Cows and Mooshrooms (1-3 drops)",
+            "Can be cooked in a furnace, smoker, or campfire to make Steak",
+            "Steak provides significantly better nutrition (8 hunger, 12.8 saturation)",
+            "Used to breed and heal tamed wolves",
+            "Used to breed dogs"
+        ],
+        description: "Raw Beef is a meat food item obtained by killing cows or mooshrooms. While it can be consumed raw to restore 3 hunger points and 1.8 saturation, it is most efficiently used when cooked into Steak, which offers much higher nutritional value. Raw Beef is also a key item for taming, breeding, and healing wolves, making it a valuable resource for players who keep canine companions."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (risky)",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Has a 30% chance to inflict Hunger I for 30 seconds when eaten",
+            "Cooking it creates Cooked Chicken, removing the hunger risk",
+            "Dropped by Chickens (1 drop guaranteed)",
+            "Used to breed and heal tamed wolves",
+            "Can be traded to Butcher villagers"
+        ],
+        description: "Raw Chicken is a food item dropped by chickens. Unlike other raw meats, eating it raw carries a significant risk: there is a 30% chance of contracting the Hunger effect for 30 seconds, which drains saturation and hunger. To avoid this, players should cook it in a furnace, smoker, or campfire to create Cooked Chicken. Despite the risk, Raw Chicken can be safely used to breed and heal tamed wolves without any negative effects on the animals."
     }
 };

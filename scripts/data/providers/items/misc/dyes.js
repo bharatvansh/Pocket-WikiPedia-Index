@@ -178,5 +178,29 @@ export const dyes = {
             "Essential for crafting black firework stars"
         ],
         description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
+    },
+    "minecraft:orange_dye": {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks orange",
+            secondaryUse: "Mixing to create other colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Dye + Yellow Dye", "Orange Tulip"]
+        },
+        specialNotes: [
+            "Crafted from Orange Tulip (1 dye) or Red Dye + Yellow Dye (2 dyes)",
+            "Used to dye wool, terracotta, glass, concrete, and beds orange",
+            "Used to dye shulker boxes, candles, and leather armor",
+            "Used to craft orange firework stars",
+            "Can be used to dye the collar of a tamed wolf or cat",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Orange Dye is a secondary color dye created by combining Red Dye and Yellow Dye, or by crafting an Orange Tulip. It serves as a vibrant coloring agent for building materials like wool, terracotta, stained glass, and concrete. Beyond construction, it is used to customize the appearance of leather armor, shulker boxes, and candles. It can also be applied to tamed pets such as wolves and cats to change the color of their collars, and is essential for crafting orange firework stars."
     }
 };
