@@ -2098,5 +2098,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/dye_powder_light_blue",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:chainmail_helmet",
+        name: "Chainmail Helmet",
+        category: "item",
+        icon: "textures/items/chainmail_helmet",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chainmail_chestplate",
+        name: "Chainmail Chestplate",
+        category: "item",
+        icon: "textures/items/chainmail_chestplate",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chainmail_leggings",
+        name: "Chainmail Leggings",
+        category: "item",
+        icon: "textures/items/chainmail_leggings",
+        themeColor: "§7" // gray
     }
 ];
