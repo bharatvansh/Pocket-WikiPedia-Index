@@ -430,5 +430,26 @@ export const stoneBlocks = {
             yRange: "Crafted only"
         },
         description: "Polished Andesite is a decorative mineral block. It is the polished version of Andesite. It can be found in Trail Ruins, Ancient Cities, and Woodland Mansions, or crafted by arranging 4 Andesite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:cobbled_deepslate": {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Obtained by mining Deepslate"
+        },
+        description: "Cobbled Deepslate is a stone-like block obtained by mining deepslate with a pickaxe without Silk Touch. It is the deepslate equivalent of cobblestone and can be used to craft deepslate variants or smelted back into deepslate. It is harder than regular cobblestone."
     }
 };
