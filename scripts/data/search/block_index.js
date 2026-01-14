@@ -1981,6 +1981,27 @@ export const blockIndex = [
         themeColor: "§4" // dark red
     },
     {
+        id: "minecraft:web",
+        name: "Cobweb",
+        category: "block",
+        icon: "textures/blocks/web",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:ladder",
+        name: "Ladder",
+        category: "block",
+        icon: "textures/blocks/ladder",
+        themeColor: "§6" // gold/wood
+    },
+    {
+        id: "minecraft:vine",
+        name: "Vines",
+        category: "block",
+        icon: "textures/blocks/vine",
+        themeColor: "§2" // dark green
+    },
+    {
         id: "minecraft:crimson_hyphae",
         name: "Crimson Hyphae",
         category: "block",

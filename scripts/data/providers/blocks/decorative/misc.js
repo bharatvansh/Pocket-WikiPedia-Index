@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const miscDecorativeBlocks = {
+    "minecraft:web": {
+        id: "minecraft:web",
+        name: "Cobweb",
+        hardness: 4.0,
+        blastResistance: 4.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["String (1)", "Cobweb (with Silk Touch/Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts, Strongholds, Basements"
+        },
+        description: "Cobweb is a unique block that significantly slows down entities moving through it. It naturally generates in mineshafts, strongholds, library rooms, and igloo basements. While it can be broken by hand, using a sword is much faster, and shears are the most efficient tool. Breaking it with shears or a Silk Touch sword drops the cobweb itself; otherwise, it drops one piece of string. It is not flammable and allows light to pass through. Cobwebs are excellent for trapping mobs or players and adding an abandoned aesthetic to builds."
+    },
     "minecraft:pink_petals": {
         id: "minecraft:pink_petals",
         name: "Pink Petals",

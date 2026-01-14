@@ -16,6 +16,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const vegetationBlocks = {
+    "minecraft:vine": {
+        id: "minecraft:vine",
+        name: "Vines",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Vines (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungles, Swamps, Lush Caves"
+        },
+        description: "Vines are climbable vegetation blocks that grow naturally on trees and walls in Jungles, Swamps, and Lush Caves. They can spread downwards to adjacent air blocks, allowing them to cover large areas over time. Players can climb them like ladders if they are supported by a solid block behind them. To harvest vines as an item, Shears must be used; otherwise, they drop nothing. They are widely used for decoration to add an overgrown or ancient look to builds. In Bedrock Edition, vines can be used to stop a player's fall damage if they touch the wall while falling."
+    },
     "minecraft:moss_block": {
         id: "minecraft:moss_block",
         name: "Moss Block",
