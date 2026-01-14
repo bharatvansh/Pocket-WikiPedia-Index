@@ -473,5 +473,68 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "End",
+            yRange: "Exit Portal"
+        },
+        description: "The Dragon Egg is a rare decorative block that appears on top of the exit portal in the End after the Ender Dragon is defeated. When clicked, it teleports to a nearby location, making it tricky to collect without a piston or falling it onto a torch. In Bedrock Edition, it emits a faint light level of 1 and is affected by gravity. It serves as a trophy and proof of defeating the dragon, and can be respawned by summoning the dragon again."
+    },
+    "minecraft:wet_sponge": {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wet Sponge"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "A Wet Sponge is a block obtained when a Sponge absorbs water or as a drop from an Elder Guardian. Unlike a regular sponge, it cannot absorb water. It drips water particles when placed in the Overworld. To revert it to a dry Sponge, it must be smelted in a furnace or placed in the Nether, where it instantly dries out with a puff of steam. It is essential for reusable water clearing operations."
+    },
+    "minecraft:structure_void": {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Structure Void is an intangible utility block used in conjunction with Structure Blocks. It represents 'empty space' that should not overwrite existing blocks when a structure is pasted. Unlike air, which overwrites blocks with air, the Structure Void preserves the destination's blocks. It is invisible (unless enabled in settings or holding the item) and allows entities to pass through it freely. It is obtainable only via commands."
     }
 };
