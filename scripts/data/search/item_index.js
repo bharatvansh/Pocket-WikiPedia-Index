@@ -14,6 +14,13 @@ export const itemIndex = [
         themeColor: "§f" // white/silver
     },
     {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        category: "item",
+        icon: "textures/items/stone_sword",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:arrow",
         name: "Arrow",
         category: "item",
@@ -47,6 +54,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/diamond_pickaxe",
         themeColor: "§b" // aqua/diamond blue
+    },
+    {
+        id: "minecraft:iron_pickaxe",
+        name: "Iron Pickaxe",
+        category: "item",
+        icon: "textures/items/iron_pickaxe",
+        themeColor: "§f" // white/silver
     },
     {
         id: "minecraft:bow",
@@ -1951,6 +1965,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_axe",
         themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        category: "item",
+        icon: "textures/items/diamond_axe",
+        themeColor: "§b" // aqua
     },
     {
         id: "minecraft:golden_sword",

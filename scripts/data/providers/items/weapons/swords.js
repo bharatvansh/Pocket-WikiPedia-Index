@@ -85,6 +85,32 @@ export const swords = {
         ],
         description: "The Iron Sword is a versatile weapon that deals moderate damage. It's more durable than wooden or stone swords but less powerful than diamond or netherite swords. Iron swords can be enchanted with various combat-related enchantments."
     },
+    "minecraft:stone_sword": {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts) per hit",
+            "Durability of 132 is significantly higher than wooden sword (60)",
+            "Crafted with Cobblestone, Blackstone, or Deepslate Cobblestone",
+            "Reliable early-game weapon before obtaining iron"
+        ],
+        description: "The Stone Sword is a reliable early-game weapon, offering a significant upgrade over wooden variants. Crafted from two Cobblestone (or cobbled deepslate/blackstone) and a Stick, it deals 5 points of damage (2.5 hearts). With a durability of 132, it serves as a staple for survival players before upgrading to iron. In Bedrock Edition, it attacks instantly without a cooldown, making it efficient for rapid combat against mobs like zombies and spiders."
+    },
     "minecraft:diamond_sword": {
         id: "minecraft:diamond_sword",
         name: "Diamond Sword",

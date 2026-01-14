@@ -61,6 +61,32 @@ export const pickaxes = {
         ],
         description: "The Stone Pickaxe is a reliable early-game tool in Minecraft, crafted from three cobblestone and two sticks. With 132 durability, it lasts more than twice as long as a wooden pickaxe and mines blocks faster. It is essential for progressing through the game's tiers, as it is the minimum requirement to mine iron ore, copper ore, and lapis lazuli. However, it cannot mine higher-tier ores like gold, diamond, or redstone, requiring an upgrade to an iron pickaxe for those resources."
     },
+    "minecraft:iron_pickaxe": {
+        id: "minecraft:iron_pickaxe",
+        name: "Iron Pickaxe",
+        maxStack: 1,
+        durability: 251,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mining ores and rock",
+            secondaryUse: "Required for Gold, Redstone, Diamond, and Emerald ores"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Required to mine Diamond, Gold, Redstone, and Emerald Ores",
+            "Durability: 251",
+            "Deals 4 attack damage (2 hearts)",
+            "Essential tool for game progression"
+        ],
+        description: "The Iron Pickaxe is a crucial mid-tier tool, serving as the gateway to high-value resources. It is the minimum tier required to mine Gold, Redstone, Diamond, and Emerald ores. Crafted with three Iron Ingots and two Sticks, it has 251 durability and mines significantly faster than stone tools. Deals 4 attack damage in Bedrock Edition. It is essential for game progression and obtaining the materials needed for diamond gear."
+    },
     "minecraft:diamond_pickaxe": {
         id: "minecraft:diamond_pickaxe",
         name: "Diamond Pickaxe",
