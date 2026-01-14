@@ -2007,5 +2007,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        category: "block",
+        icon: "textures/blocks/sponge_wet",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        category: "block",
+        icon: "textures/items/structure_void",
+        themeColor: "§c" // red
     }
 ];
