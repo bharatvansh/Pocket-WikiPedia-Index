@@ -1,0 +1,117 @@
+diff --git a/changes.diff b/changes.diff
+new file mode 100644
+index 0000000..e69de29
+diff --git a/scripts/data/providers/blocks/building/concrete.js b/scripts/data/providers/blocks/building/concrete.js
+index 4d5726d..79b29a9 100644
+--- a/scripts/data/providers/blocks/building/concrete.js
++++ b/scripts/data/providers/blocks/building/concrete.js
+@@ -31,5 +31,47 @@ export const concreteBlocks = {
+             yRange: "Crafted only"
+         },
+         description: "White Concrete is a durable building block known for its solid, vibrant white color and smooth texture. It is formed when White Concrete Powder comes into contact with water, rain, or cauldron water. Unlike wool, it is not flammable, making it a safer choice for building structures. It requires a pickaxe to mine; otherwise, it drops nothing. It is widely used in modern architectural builds due to its clean appearance."
++    },
++    "minecraft:orange_concrete": {
++        id: "minecraft:orange_concrete",
++        name: "Orange Concrete",
++        hardness: 1.8,
++        blastResistance: 1.8,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["Orange Concrete"],
++        generation: {
++            dimension: "None",
++            yRange: "Crafted only"
++        },
++        description: "Orange Concrete is a vibrant building block with a solid, matte orange color and smooth texture. It is created when Orange Concrete Powder interacts with water. Unlike wool, it is not flammable, making it a safe and durable material for construction. With a hardness of 1.8, it requires a pickaxe to be mined effectively; otherwise, the block is lost. Its bold color makes it ideal for modern architecture, pixel art, and colorful accents in builds."
++    },
++    "minecraft:white_glazed_terracotta": {
++        id: "minecraft:white_glazed_terracotta",
++        name: "White Glazed Terracotta",
++        hardness: 1.4,
++        blastResistance: 1.4,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["White Glazed Terracotta"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Underwater Ruins, Trail Ruins"
++        },
++        description: "White Glazed Terracotta is a decorative block with a unique, ornate pattern that can be rotated to create larger circular or geometric designs. It is obtained by smelting White Terracotta in a furnace. In Bedrock Edition, it generates naturally in underwater ruins and trail ruins. Unlike standard terracotta, it has a glossy finish and cannot be pushed by sticky pistons (they don't stick to it), making it useful for redstone machinery. It requires a pickaxe to mine and serves as a distinct, patterned building material."
+     }
+ };
+diff --git a/scripts/data/providers/blocks/dimension/end.js b/scripts/data/providers/blocks/dimension/end.js
+index 9ed9055..838cf73 100644
+--- a/scripts/data/providers/blocks/dimension/end.js
++++ b/scripts/data/providers/blocks/dimension/end.js
+@@ -156,5 +156,26 @@ export const endBlocks = {
+             yRange: "Strongholds (End Portal room)"
+         },
+         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
++    },
++    "minecraft:purpur_stairs": {
++        id: "minecraft:purpur_stairs",
++        name: "Purpur Stairs",
++        hardness: 1.5,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: true,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["Purpur Stairs"],
++        generation: {
++            dimension: "The End",
++            yRange: "End Cities"
++        },
++        description: "Purpur Stairs are stair blocks made from purpur blocks, found naturally in End Cities. They allow players to change elevation without jumping and can be used for roofs, seating, or detailed decoration. Crafted from six purpur blocks or using a stonecutter, they share the distinctive light purple color of the purpur family. Like other stairs, they can be placed upside down or to form corners. They have the same hardness and blast resistance as the purpur blocks they are made from."
+     }
+ };
+diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+index a24a94b..c5c178a 100644
+--- a/scripts/data/search/block_index.js
++++ b/scripts/data/search/block_index.js
+@@ -2070,5 +2070,26 @@ export const blockIndex = [
+         category: "block",
+         icon: "textures/blocks/nether_sprouts",
+         themeColor: "§3" // Dark Aqua
++    },
++    {
++        id: "minecraft:orange_concrete",
++        name: "Orange Concrete",
++        category: "block",
++        icon: "textures/blocks/concrete_orange",
++        themeColor: "§6" // gold/orange
++    },
++    {
++        id: "minecraft:white_glazed_terracotta",
++        name: "White Glazed Terracotta",
++        category: "block",
++        icon: "textures/blocks/glazed_terracotta_white",
++        themeColor: "§f" // white
++    },
++    {
++        id: "minecraft:purpur_stairs",
++        name: "Purpur Stairs",
++        category: "block",
++        icon: "textures/blocks/purpur_block",
++        themeColor: "§d" // light purple
+     }
+ ];

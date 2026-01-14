@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:orange_concrete",
+        name: "Orange Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_orange",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:white_glazed_terracotta",
+        name: "White Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:purpur_stairs",
+        name: "Purpur Stairs",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§d" // light purple
     }
 ];
