@@ -2035,5 +2035,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_shovel",
         themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        category: "item",
+        icon: "textures/items/stone_sword",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:diamond_shovel",
+        name: "Diamond Shovel",
+        category: "item",
+        icon: "textures/items/diamond_shovel",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:golden_shovel",
+        name: "Golden Shovel",
+        category: "item",
+        icon: "textures/items/gold_shovel",
+        themeColor: "§e" // yellow
     }
 ];

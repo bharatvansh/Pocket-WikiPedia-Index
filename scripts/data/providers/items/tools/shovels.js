@@ -63,5 +63,57 @@ export const shovels = {
             "Can extinguish campfires by right-clicking"
         ],
         description: "The Iron Shovel is a versatile digging tool used to harvest dirt, sand, gravel, and snow efficiently. Crafted from one iron ingot and two sticks, it has a durability of 251, making it a dependable mid-game tool. In Bedrock Edition, it deals 4 damage (2 hearts). It allows players to quickly clear land, collect resources like flint from gravel, and create grass paths by right-clicking on grass blocks."
+    },
+    "minecraft:diamond_shovel": {
+        id: "minecraft:diamond_shovel",
+        name: "Diamond Shovel",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, and gravel efficiently",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts)",
+            "High durability of 1562",
+            "Digs blocks very quickly",
+            "Can be upgraded to Netherite Shovel"
+        ],
+        description: "The Diamond Shovel is a durable and efficient tool for excavating soil, sand, and gravel. Crafted with a single diamond and two sticks, it boasts a durability of 1562, allowing for extensive landscaping projects without frequent repairs. In Bedrock Edition, it deals 5 attack damage. It is also a prerequisite for crafting the Netherite Shovel."
+    },
+    "minecraft:golden_shovel": {
+        id: "minecraft:golden_shovel",
+        name: "Golden Shovel",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Fastest digging of dirt and sand",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot", "Stick x2"]
+        },
+        specialNotes: [
+            "Fastest mining speed of all shovels",
+            "Very low durability (33 uses)",
+            "High enchantability for better enchantments",
+            "Deals 2 attack damage (1 heart)"
+        ],
+        description: "The Golden Shovel is a specialized tool known for its extreme digging speed, which surpasses even diamond and netherite tools on compatible blocks. However, its utility is limited by its very low durability of only 33 uses. Crafted from a gold ingot and two sticks, it is primarily useful for tasks requiring speed over longevity or for obtaining high-level enchantments due to its high enchantability."
     }
 };
