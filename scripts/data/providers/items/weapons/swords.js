@@ -164,5 +164,31 @@ export const swords = {
             "High enchantability allows for powerful combat modifiers"
         ],
         description: "The Netherite Sword is the most powerful melee weapon in Minecraft Bedrock Edition. With a base damage of 9 points, it surpasses the diamond sword in raw power and offers significantly more durability with 2031 points. It is fire-resistant, meaning it will float in lava instead of burning. To obtain this elite weapon, a player must upgrade a Diamond Sword using a Netherite Ingot and a Netherite Upgrade Smithing Template at a Smithing Table. Its superior stats make it the ultimate choice for high-tier combat."
+    },
+    "minecraft:stone_sword": {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 6 attack damage (3 hearts) in Bedrock Edition",
+            "Has 132 durability",
+            "Stronger than wooden and golden swords",
+            "Good early-game weapon"
+        ],
+        description: "The Stone Sword is a solid early-game melee weapon, providing a significant damage upgrade over wooden and golden swords. Crafted from two cobblestone blocks and a stick, it deals 6 damage (3 hearts) in Bedrock Edition. With 132 durability, it offers a balance of cost and effectiveness, making it the primary weapon for players until they can afford iron gear. It can also break cobwebs efficiently."
     }
 };
