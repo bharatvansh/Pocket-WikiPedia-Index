@@ -241,5 +241,68 @@ export const woodBlocks = {
             yRange: "Crafted from Crimson Stem"
         },
         description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
+    },
+    "minecraft:acacia_log": {
+        id: "minecraft:acacia_log",
+        name: "Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna Biomes"
+        },
+        description: "Acacia Log is a wood block obtained from Acacia trees found in the Savanna biome. It features a distinctive gray bark and a vibrant orange interior. Like other logs, it can be stripped with an axe, crafted into Acacia Planks, or used as fuel. The unique color of Acacia wood makes it a popular choice for colorful and exotic builds."
+    },
+    "minecraft:birch_log": {
+        id: "minecraft:birch_log",
+        name: "Birch Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Birch Forest Biomes"
+        },
+        description: "Birch Log is a wood block obtained from Birch trees found in Birch Forest biomes. It is easily recognizable by its white, paper-like bark with black horizontal marks. The wood inside is a pale, creamy color. Birch logs can be crafted into Birch Planks, stripped with an axe, or used as fuel. Their bright appearance is excellent for modern and clean architectural styles."
+    },
+    "minecraft:spruce_log": {
+        id: "minecraft:spruce_log",
+        name: "Spruce Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga Biomes"
+        },
+        description: "Spruce Log is a wood block obtained from Spruce trees found in Taiga, Old Growth Pine Taiga, and Snowy Taiga biomes. It has a dark brown bark and a similar colored interior. Spruce logs are a versatile building material, often used for rustic and medieval structures. They can be crafted into Spruce Planks, stripped with an axe to create Stripped Spruce Logs, or used as fuel."
     }
 };
