@@ -218,5 +218,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:purpur_stairs": {
+        id: "minecraft:purpur_stairs",
+        name: "Purpur Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purpur Stairs"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "Purpur Stairs are the stair variant of the Purpur Block, found in End Cities. They allow for smooth vertical movement and are essential for the roofs and details of End City structures. Crafted from 6 Purpur Blocks or using a Stonecutter."
+    },
+    "minecraft:purpur_slab": {
+        id: "minecraft:purpur_slab",
+        name: "Purpur Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purpur Slab"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "Purpur Slab is the half-block variant of the Purpur Block. Found in End Cities, often as walkways or decorative trim. Crafted from 3 Purpur Blocks or using a Stonecutter. Can be combined into a double slab."
     }
 };

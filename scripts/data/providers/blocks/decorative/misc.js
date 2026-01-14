@@ -579,5 +579,47 @@ export const miscDecorativeBlocks = {
             yRange: "Pillager Outposts, Ancient Cities, Villages"
         },
         description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
+    },
+    "minecraft:dried_kelp_block": {
+        id: "minecraft:dried_kelp_block",
+        name: "Dried Kelp Block",
+        hardness: 0.5,
+        blastResistance: 2.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dried Kelp Block"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Dried Kelp Block is a storage and fuel block crafted from nine dried kelp. It has a hardness of 0.5 and blast resistance of 2.5. It serves as an excellent fuel source for furnaces, smelting 20 items per block (lasting 200 seconds), which is more efficient than coal or charcoal. It can also be used for composting, with a 50% chance to raise the compost level. Dried kelp blocks are widely used as a compact storage method for dried kelp and as a building block with a unique dark green texture."
+    },
+    "minecraft:hay_block": {
+        id: "minecraft:hay_block",
+        name: "Hay Bale",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hay Bale"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts"
+        },
+        description: "A Hay Bale is a decorative and functional block crafted from nine wheat. It generates naturally in villages and pillager outposts, often in piles or as targets for scarecrows. Hay bales have a unique property of reducing fall damage by 80% when landed on. They also serve as a food source for horses, donkeys, mules, and llamas, healing them and accelerating the growth of foals. In Bedrock Edition, hay bales can be used to breed llamas. They are flammable and can be used to make campfires produce higher smoke signals."
     }
 };
