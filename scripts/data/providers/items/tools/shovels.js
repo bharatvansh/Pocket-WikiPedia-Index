@@ -9,6 +9,56 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const shovels = {
+    "minecraft:wooden_shovel": {
+        id: "minecraft:wooden_shovel",
+        name: "Wooden Shovel",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, gravel, and snow",
+            secondaryUse: "Fuel for furnace (burns 1 item)"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Wooden Plank", "Stick x2"]
+        },
+        specialNotes: [
+            "Low durability (60), but higher than Golden Shovel (33)",
+            "Deals 2 attack damage (1 heart) in Bedrock Edition",
+            "Can be used as fuel in a furnace"
+        ],
+        description: "A Wooden Shovel is the most basic tier of shovel, used to speed up the collection of dirt, sand, gravel, and clay. It has very low durability and speed compared to higher tiers but is easy to craft using readily available wooden planks. It is an essential starting tool for gathering resources and terraforming."
+    },
+    "minecraft:stone_shovel": {
+        id: "minecraft:stone_shovel",
+        name: "Stone Shovel",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, gravel, and snow",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone or Blackstone", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 3 attack damage (1.5 hearts) in Bedrock Edition",
+            "Durability of 132 (more than double wood)",
+            "Crafted using Cobblestone, Blackstone, or Deepslate"
+        ],
+        description: "A Stone Shovel is a durable upgrade from the wooden variant, offering faster digging speeds and more than double the durability. It is crafted using Cobblestone or other stone-tier blocks and is an essential early-game tool for excavation. It serves as a reliable tool before upgrading to iron."
+    },
     "minecraft:netherite_shovel": {
         id: "minecraft:netherite_shovel",
         name: "Netherite Shovel",

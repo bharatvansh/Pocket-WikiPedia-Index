@@ -2140,5 +2140,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_birch",
         themeColor: "§f" // white/wood
+    },
+    {
+        id: "minecraft:chainmail_boots",
+        name: "Chainmail Boots",
+        category: "item",
+        icon: "textures/items/chainmail_boots",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:wooden_shovel",
+        name: "Wooden Shovel",
+        category: "item",
+        icon: "textures/items/wood_shovel",
+        themeColor: "§6" // Gold/Wood
+    },
+    {
+        id: "minecraft:stone_shovel",
+        name: "Stone Shovel",
+        category: "item",
+        icon: "textures/items/stone_shovel",
+        themeColor: "§7" // Gray/Stone
     }
 ];
