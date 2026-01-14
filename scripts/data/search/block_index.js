@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:frosted_ice",
+        name: "Frosted Ice",
+        category: "block",
+        icon: "textures/blocks/frosted_ice_0",
+        themeColor: "§b" // Aqua/Ice
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // White
+    },
+    {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        category: "block",
+        icon: "textures/items/twisting_vines",
+        themeColor: "§3" // Dark Aqua
     }
 ];

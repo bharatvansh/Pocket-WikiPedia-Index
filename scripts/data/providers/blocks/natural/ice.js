@@ -70,5 +70,47 @@ export const iceBlocks = {
             yRange: "Various heights in snowy biomes"
         },
         description: "Top Snow (also known as a Snow Layer) is a block that covers the ground in snowy biomes. In Bedrock Edition, snow layers are affected by gravity and will fall if the block beneath them is removed. A single layer of snow drops snowballs when mined with a shovel, unless Silk Touch is used. Multiple layers can be stacked to create a full snow block height. Snow layers will melt if the light level from a heat source (like torches or lava) is too high."
+    },
+    "minecraft:frosted_ice": {
+        id: "minecraft:frosted_ice",
+        name: "Frosted Ice",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false // Cannot be obtained even with Silk Touch
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Water surface with Frost Walker"
+        },
+        description: "Frosted Ice is a temporary ice block that forms when a player walks on water with Frost Walker boots. It has a similar appearance to regular ice but features a slight cracking pattern that evolves as it melts. Unlike standard ice, Frosted Ice cannot be obtained as an item, even with Silk Touch; it simply breaks. It gradually melts back into water over time or if the light level is high enough, and it requires the source blocks to be water to generate."
+    },
+    "minecraft:powder_snow": {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        hardness: 0.25,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Bucket",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Snowy Slopes, Grove"
+        },
+        description: "Powder Snow is a trap block found in snowy mountains. Unlike other solid blocks, entities sink into it, movement is slowed, and fall damage is negated. While inside, players experience a freezing effect that deals damage over time, indicated by a frost overlay. Wearing leather armor prevents sinking and freezing. Powder Snow can be collected with a Bucket, but breaking it with a shovel or hand destroys it. It also generates in cauldrons exposed to snowfall."
     }
 };

@@ -431,5 +431,26 @@ export const netherBlocks = {
             yRange: "Warped Forest"
         },
         description: "Nether Sprouts are small, grass-like vegetation found exclusively in the Warped Forest biome. They grow on Warped Nylium alongside Warped Roots and Fungi. Unlike roots, they appear as small clumps of teal grass. They can be harvested using Shears. When composted, they have a 50% chance of raising the compost level. They provide a subtle, grassy detail to Warped Forest builds and do not burn."
+    },
+    "minecraft:twisting_vines": {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None", // Breaks instantly
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Twisting Vines"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Twisting Vines are a cyan-colored vegetation block that grows upwards from the ground in the Warped Forest biome of the Nether. Like Weeping Vines, they can be climbed and used to navigate vertical terrain. They break instantly when mined with any tool or by hand, dropping themselves as an item. Bone meal can be applied to them to force rapid growth. They are fire-resistant, fitting the non-flammable nature of the Warped Forest flora."
     }
-    };
+};
