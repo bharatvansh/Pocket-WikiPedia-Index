@@ -1,0 +1,129 @@
+diff --git a/scripts/data/providers/items/tools/hoes.js b/scripts/data/providers/items/tools/hoes.js
+index 58a9ef7..e792e69 100644
+--- a/scripts/data/providers/items/tools/hoes.js
++++ b/scripts/data/providers/items/tools/hoes.js
+@@ -117,5 +117,57 @@ export const hoes = {
+             "Enchantable with Unbreaking and Efficiency"
+         ],
+         description: "The Iron Hoe is a durable farming tool crafted from two iron ingots and two sticks. With 251 durability and higher efficiency, it makes clearing leaves, harvesting hay bales, and mining sculk blocks much faster than lower-tier hoes. It is essential for maintaining large agricultural areas without frequent tool replacement. In Bedrock Edition, it deals 4 damage, offering some defensive capability while tending to crops."
++    },
++    "minecraft:golden_hoe": {
++        id: "minecraft:golden_hoe",
++        name: "Golden Hoe",
++        maxStack: 1,
++        durability: 33,
++        enchantable: true,
++        usage: {
++            primaryUse: "Tilling dirt and grass into farmland",
++            secondaryUse: "Harvesting organic blocks very quickly"
++        },
++        combat: {
++            attackDamage: 2,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Gold Ingot x2", "Stick x2"]
++        },
++        specialNotes: [
++            "Deals 2 attack damage (1 heart)",
++            "Has very low durability (33 uses)",
++            "Fastest mining speed on compatible blocks",
++            "High enchantability"
++        ],
++        description: "The Golden Hoe is a tool crafted from gold ingots, known for its incredible speed but poor durability. It can till ground and harvest organic blocks like leaves and sponges faster than any other hoe. However, with only 33 durability, it breaks very quickly. It deals 2 damage in Bedrock Edition and is often used for its high enchantability or when speed is the priority."
++    },
++    "minecraft:diamond_hoe": {
++        id: "minecraft:diamond_hoe",
++        name: "Diamond Hoe",
++        maxStack: 1,
++        durability: 1562,
++        enchantable: true,
++        usage: {
++            primaryUse: "Tilling dirt and grass into farmland",
++            secondaryUse: "Harvesting organic blocks efficiently"
++        },
++        combat: {
++            attackDamage: 5,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Diamond x2", "Stick x2"]
++        },
++        specialNotes: [
++            "Deals 5 attack damage (2.5 hearts)",
++            "High durability of 1562",
++            "Used to upgrade to Netherite Hoe",
++            "Efficient and long-lasting"
++        ],
++        description: "The Diamond Hoe is a high-tier farming tool that offers excellent durability and performance. Crafted from two diamonds and two sticks, it lasts for 1562 uses, making it ideal for large-scale farming and landscaping. It deals 5 attack damage in Bedrock Edition. It is also required to craft the ultimate Netherite Hoe via a smithing table."
+     }
+ };
+diff --git a/scripts/data/providers/items/tools/shovels.js b/scripts/data/providers/items/tools/shovels.js
+index 100a49f..8341c0e 100644
+--- a/scripts/data/providers/items/tools/shovels.js
++++ b/scripts/data/providers/items/tools/shovels.js
+@@ -115,5 +115,31 @@ export const shovels = {
+             "Deals 2 attack damage (1 heart)"
+         ],
+         description: "The Golden Shovel is a specialized tool known for its extreme digging speed, which surpasses even diamond and netherite tools on compatible blocks. However, its utility is limited by its very low durability of only 33 uses. Crafted from a gold ingot and two sticks, it is primarily useful for tasks requiring speed over longevity or for obtaining high-level enchantments due to its high enchantability."
++    },
++    "minecraft:wooden_shovel": {
++        id: "minecraft:wooden_shovel",
++        name: "Wooden Shovel",
++        maxStack: 1,
++        durability: 60,
++        enchantable: true,
++        usage: {
++            primaryUse: "Digging dirt, sand, and gravel",
++            secondaryUse: "Creating grass paths"
++        },
++        combat: {
++            attackDamage: 2,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Planks", "Stick x2"]
++        },
++        specialNotes: [
++            "Deals 2 attack damage (1 heart)",
++            "Low durability (60 uses)",
++            "Basic starting tool for digging",
++            "Used as furnace fuel"
++        ],
++        description: "The Wooden Shovel is the most basic digging tool in Minecraft, crafted from a single wooden plank and two sticks. It is used to dig dirt, sand, gravel, and snow faster than by hand. With only 60 durability, it is a temporary tool for early game survival. In Bedrock Edition, it deals 2 attack damage. It can also be used as a fuel source in furnaces."
+     }
+ };
+diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
+index a4c63c6..2f17e1e 100644
+--- a/scripts/data/search/item_index.js
++++ b/scripts/data/search/item_index.js
+@@ -2077,5 +2077,26 @@ export const itemIndex = [
+         category: "item",
+         icon: "textures/items/iron_hoe",
+         themeColor: "§f" // iron/white
++    },
++    {
++        id: "minecraft:golden_hoe",
++        name: "Golden Hoe",
++        category: "item",
++        icon: "textures/items/gold_hoe",
++        themeColor: "§e" // yellow/gold
++    },
++    {
++        id: "minecraft:diamond_hoe",
++        name: "Diamond Hoe",
++        category: "item",
++        icon: "textures/items/diamond_hoe",
++        themeColor: "§b" // diamond/aqua
++    },
++    {
++        id: "minecraft:wooden_shovel",
++        name: "Wooden Shovel",
++        category: "item",
++        icon: "textures/items/wood_shovel",
++        themeColor: "§6" // wood/brown
+     }
+ ];

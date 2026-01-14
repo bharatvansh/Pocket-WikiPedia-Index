@@ -117,5 +117,57 @@ export const hoes = {
             "Enchantable with Unbreaking and Efficiency"
         ],
         description: "The Iron Hoe is a durable farming tool crafted from two iron ingots and two sticks. With 251 durability and higher efficiency, it makes clearing leaves, harvesting hay bales, and mining sculk blocks much faster than lower-tier hoes. It is essential for maintaining large agricultural areas without frequent tool replacement. In Bedrock Edition, it deals 4 damage, offering some defensive capability while tending to crops."
+    },
+    "minecraft:golden_hoe": {
+        id: "minecraft:golden_hoe",
+        name: "Golden Hoe",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks very quickly"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 2 attack damage (1 heart)",
+            "Has very low durability (33 uses)",
+            "Fastest mining speed on compatible blocks",
+            "High enchantability"
+        ],
+        description: "The Golden Hoe is a tool crafted from gold ingots, known for its incredible speed but poor durability. It can till ground and harvest organic blocks like leaves and sponges faster than any other hoe. However, with only 33 durability, it breaks very quickly. It deals 2 damage in Bedrock Edition and is often used for its high enchantability or when speed is the priority."
+    },
+    "minecraft:diamond_hoe": {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks efficiently"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts)",
+            "High durability of 1562",
+            "Used to upgrade to Netherite Hoe",
+            "Efficient and long-lasting"
+        ],
+        description: "The Diamond Hoe is a high-tier farming tool that offers excellent durability and performance. Crafted from two diamonds and two sticks, it lasts for 1562 uses, making it ideal for large-scale farming and landscaping. It deals 5 attack damage in Bedrock Edition. It is also required to craft the ultimate Netherite Hoe via a smithing table."
     }
 };
