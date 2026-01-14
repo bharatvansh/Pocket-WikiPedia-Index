@@ -502,5 +502,28 @@ export const utilityTools = {
             "Essential for creating diverse underwater ecosystems and displays"
         ],
         description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
+    },
+    "minecraft:pufferfish_bucket": {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting pufferfish safely",
+            secondaryUse: "Creating aquatic traps or displays"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a pufferfish mob",
+            "Preserves the pufferfish's inflation state data",
+            "Releases the pufferfish and water when used on a block",
+            "Pufferfish puff up and poison nearby players/mobs (except water mobs)",
+            "Essential for moving pufferfish to player-made traps or aquariums"
+        ],
+        description: "A Bucket of Pufferfish is a utility item that allows players to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. When placed, it creates a water source block containing the fish. This is particularly useful for moving pufferfish into defensive traps or aquariums, as they naturally inflict poison and puff up when threatened by players or certain mobs. The bucket ensures the safe handling of this dangerous aquatic creature."
     }
 };

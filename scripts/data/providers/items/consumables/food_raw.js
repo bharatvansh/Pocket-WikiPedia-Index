@@ -428,5 +428,61 @@ export const rawFood = {
             "Can be fed to wolves to speed up the growth of baby wolves"
         ],
         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Has a 30% chance to inflict Hunger effect for 30 seconds",
+            "Dropped by Chickens (1) upon death",
+            "Can be cooked into Cooked Chicken for better stats and no hunger risk",
+            "Used to breed and heal tamed wolves",
+            "Wolves are immune to the Hunger effect from raw chicken"
+        ],
+        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten to restore 2 hunger points, it carries a significant risk: a 30% chance of inflicting the Hunger effect for 30 seconds, causing the food bar to deplete rapidly. Cooking it creates Cooked Chicken, which eliminates this risk and provides more nourishment. Despite the danger to players, Raw Chicken is safe for wolves and is used to breed or heal them."
+    },
+    "minecraft:rabbit": {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Rabbits"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Rabbits (1) upon death",
+            "Can be cooked into Cooked Rabbit for significantly better stats",
+            "Used to breed and heal tamed wolves",
+            "Ingredient for Rabbit Stew (along with cooked rabbit, vegetables, and a bowl)",
+            "Butcher villagers may buy raw rabbit for emeralds"
+        ],
+        description: "Raw Rabbit is a food item dropped by rabbits. It restores 3 hunger points and 1.8 saturation when eaten. While it is edible raw, it is far more effective when cooked into Cooked Rabbit or used as a key ingredient in Rabbit Stew, which restores a massive amount of hunger. Like other raw meats, it is also useful for breeding and healing tamed wolves."
     }
 };
