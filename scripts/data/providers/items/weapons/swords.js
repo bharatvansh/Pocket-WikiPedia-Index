@@ -35,6 +35,32 @@ export const swords = {
         ],
         description: "The Wooden Sword is the most basic melee weapon in Minecraft, often the first weapon a player crafts. Made from two planks of any wood type and a single stick, it deals 4 points of damage (2 hearts) per hit. While it has a very low durability of 60 uses, its cheap cost makes it invaluable for early defense against zombies and spiders. It can also be used to break cobwebs or bamboo more quickly than by hand."
     },
+    "minecraft:stone_sword": {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 6 attack damage (3 hearts) per hit",
+            "Has 132 durability, over double that of wood",
+            "Standard early-game weapon upgrade",
+            "Effective against common hostile mobs"
+        ],
+        description: "The Stone Sword is a reliable early-game melee weapon crafted from two blocks of cobblestone and a stick. With a durability of 132 and 6 points of attack damage (3 hearts), it offers a significant improvement over the wooden sword. It is widely used by players before obtaining iron, providing a balance of cost-efficiency and combat effectiveness against common hostile mobs like zombies and skeletons."
+    },
     "minecraft:golden_sword": {
         id: "minecraft:golden_sword",
         name: "Golden Sword",

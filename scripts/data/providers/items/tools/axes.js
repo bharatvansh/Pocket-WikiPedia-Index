@@ -62,6 +62,32 @@ export const axes = {
         ],
         description: "The Iron Axe is a durable and efficient tool for gathering wood and related blocks. Crafted with three iron ingots and two sticks, it provides a significant upgrade over stone axes in terms of mining speed and durability. In Bedrock Edition, it deals 5 points of damage, which is less than an iron sword, distinguishing its combat role from the Java Edition version. It also possesses the utility to strip logs for decorative purposes and can be enchanted to further enhance its gathering capabilities."
     },
+    "minecraft:diamond_axe": {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Chopping wood",
+            secondaryUse: "Melee combat"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x3", "Stick x2"]
+        },
+        specialNotes: [
+            "High durability (1562 uses)",
+            "Fast chopping speed for wood blocks",
+            "Deals 6 damage, making it a viable weapon",
+            "Can be upgraded to Netherite Axe"
+        ],
+        description: "The Diamond Axe is a top-tier tool for chopping wood, logs, and other wooden blocks with great speed. Crafted from three diamonds and two sticks, it boasts a massive durability of 1562 uses, making it extremely long-lasting. In Bedrock Edition, it deals 6 points of damage, which is less than a diamond sword but still effective for combat. It can be enchanted with Efficiency, Unbreaking, and Silk Touch to further enhance its capabilities."
+    },
     "minecraft:netherite_axe": {
         id: "minecraft:netherite_axe",
         name: "Netherite Axe",
