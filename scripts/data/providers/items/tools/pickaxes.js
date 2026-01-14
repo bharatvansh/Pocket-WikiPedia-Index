@@ -112,5 +112,57 @@ export const pickaxes = {
             "Requires a Smithing Table and a Netherite Upgrade Template to craft"
         ],
         description: "The Netherite Pickaxe is the ultimate mining tool in Minecraft, surpassing even diamond in terms of durability and efficiency. It is created by upgrading a diamond pickaxe with a netherite ingot and a smithing template at a smithing table. Beyond its superior stats, it is fire-resistant, meaning it won't burn in lava if dropped. Its high durability and speed make it the perfect choice for late-game players focused on large-scale excavation."
+    },
+    "minecraft:wooden_pickaxe": {
+        id: "minecraft:wooden_pickaxe",
+        name: "Wooden Pickaxe",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic mining of stone and coal",
+            secondaryUse: "Fuel for furnace (burns for 10 seconds)"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Lowest durability (60) of all pickaxes",
+            "Cannot mine Iron Ore, Lapis Lazuli, or higher tiers",
+            "Can be used as fuel in a furnace",
+            "Essential for the first few minutes of gameplay"
+        ],
+        description: "The Wooden Pickaxe is the most basic mining tool in Minecraft, typically the first tool a player crafts. Made from three wooden planks and two sticks, it is essential for mining stone and coal. However, it has very low durability (60 uses) and cannot mine iron ore or other higher-tier blocks."
+    },
+    "minecraft:iron_pickaxe": {
+        id: "minecraft:iron_pickaxe",
+        name: "Iron Pickaxe",
+        maxStack: 1,
+        durability: 251,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mining ores (diamond, gold, redstone)",
+            secondaryUse: "Durable mid-game mining tool"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Required to mine Diamond, Gold, Redstone, and Emerald ores",
+            "Significantly more durable (251) than Stone (132)",
+            "Efficient and relatively cheap to mass-produce",
+            "Can break almost all blocks that require a pickaxe"
+        ],
+        description: "The Iron Pickaxe is the workhorse of Minecraft tools, offering a balance of durability and mining capability. Crafted with three iron ingots and two sticks, it is required to mine diamond, gold, redstone, and emerald ores. With 251 durability, it is reliable for most mid-game mining tasks."
     }
 };

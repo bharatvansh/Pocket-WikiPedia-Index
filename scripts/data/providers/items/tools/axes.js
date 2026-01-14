@@ -89,5 +89,31 @@ export const axes = {
             "Requires a Smithing Table to upgrade from a Diamond Axe"
         ],
         description: "The Netherite Axe is the most powerful and durable wood-cutting tool available in Minecraft Bedrock Edition. Crafted by upgrading a Diamond Axe with a Netherite Ingot and a Smithing Template, it offers unparalleled mining speed and 2032 durability points. Like other netherite equipment, it is resistant to fire and lava damage, remaining as a floating item if dropped in them. Beyond felling trees, it serves as a formidable melee weapon and can be used to strip bark from logs or scrape oxidation off copper blocks."
+    },
+    "minecraft:diamond_axe": {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Efficiently chopping wood",
+            secondaryUse: "Melee weapon"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 6 attack damage (3 hearts) in Bedrock Edition",
+            "Has 1562 durability, allowing for extensive wood gathering",
+            "Can be upgraded to Netherite Axe",
+            "High mining speed (slower than Gold, but much more durable)"
+        ],
+        description: "The Diamond Axe is a high-tier tool used for efficiently chopping wood and wood-based blocks. It possesses massive durability (1562 uses) and fast mining speed. In Bedrock Edition, it deals 6 attack damage, making it a decent weapon, though swords of the same tier are stronger. It requires three diamonds and two sticks to craft."
     }
 };
