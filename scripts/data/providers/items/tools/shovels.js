@@ -115,5 +115,31 @@ export const shovels = {
             "Deals 2 attack damage (1 heart)"
         ],
         description: "The Golden Shovel is a specialized tool known for its extreme digging speed, which surpasses even diamond and netherite tools on compatible blocks. However, its utility is limited by its very low durability of only 33 uses. Crafted from a gold ingot and two sticks, it is primarily useful for tasks requiring speed over longevity or for obtaining high-level enchantments due to its high enchantability."
+    },
+    "minecraft:wooden_shovel": {
+        id: "minecraft:wooden_shovel",
+        name: "Wooden Shovel",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, and gravel",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 2 attack damage (1 heart)",
+            "Low durability (60 uses)",
+            "Basic starting tool for digging",
+            "Used as furnace fuel"
+        ],
+        description: "The Wooden Shovel is the most basic digging tool in Minecraft, crafted from a single wooden plank and two sticks. It is used to dig dirt, sand, gravel, and snow faster than by hand. With only 60 durability, it is a temporary tool for early game survival. In Bedrock Edition, it deals 2 attack damage. It can also be used as a fuel source in furnaces."
     }
 };
