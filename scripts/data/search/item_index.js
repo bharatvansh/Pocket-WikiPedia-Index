@@ -1993,5 +1993,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/mutton_raw",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:wooden_pickaxe",
+        name: "Wooden Pickaxe",
+        category: "item",
+        icon: "textures/items/wood_pickaxe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        category: "item",
+        icon: "textures/items/stone_sword",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        category: "item",
+        icon: "textures/items/diamond_axe",
+        themeColor: "§b" // diamond/aqua
     }
 ];

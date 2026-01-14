@@ -9,6 +9,32 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const pickaxes = {
+    "minecraft:wooden_pickaxe": {
+        id: "minecraft:wooden_pickaxe",
+        name: "Wooden Pickaxe",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mining stone and coal",
+            secondaryUse: "Basic mining tool"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Weakest pickaxe in the game",
+            "Can mine Stone and Coal Ore",
+            "Cannot mine Iron Ore or higher tiers",
+            "Can be used as fuel in a furnace"
+        ],
+        description: "The Wooden Pickaxe is the most basic mining tool in Minecraft, typically the first one crafted by players. Made from three wooden planks and two sticks, it is essential for harvesting stone and coal ore. However, its utility is limited by a low durability of 60 uses and slow mining speed. It cannot mine iron ore or higher-tier blocks. If damaged or no longer needed, it can be used as fuel in a furnace."
+    },
     "minecraft:golden_pickaxe": {
         id: "minecraft:golden_pickaxe",
         name: "Golden Pickaxe",
