@@ -2119,5 +2119,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/chainmail_leggings",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        category: "item",
+        icon: "textures/items/heart_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/eye_armor_trim_smithing_template",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        category: "item",
+        icon: "textures/items/boat_birch",
+        themeColor: "§f" // white/wood
     }
 ];

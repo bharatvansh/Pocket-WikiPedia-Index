@@ -1012,6 +1012,30 @@ export const craftingMaterials = {
         ],
         description: "The Blade Pottery Sherd is a decorative item obtained through underwater archaeology in Cold Ocean Ruins. Players must carefully brush Suspicious Gravel blocks to uncover this sherd, which displays a stylized sword blade pattern. In Bedrock Edition, it serves as a crafting component for Decorated Pots, allowing builders to create custom pottery with a warrior or combat theme. When four sherds or bricks are combined in a crafting recipe, the blade design appears on the corresponding side of the finished pot."
     },
+    "minecraft:heart_pottery_sherd": {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Heart motif",
+            secondaryUse: "Collecting rare archaeological treasures"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Cold Ocean Ruins",
+            "Features a simple heart design symbolizing love or health",
+            "Rare suspicious sand drop",
+            "Used in crafting Decorated Pots to display the heart pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Heart Pottery Sherd is an archaeological artifact recovered from Cold Ocean Ruins by brushing Suspicious Sand. It features a simple heart design, distinct from the broken heart of the Heartbreak sherd. In Minecraft Bedrock Edition, this sherd allows players to add a symbol of love or health to their decorated pots. When used as an ingredient in a Decorated Pot, the heart motif appears on the corresponding side, making it an excellent choice for decorative builds or gifts."
+    },
     "minecraft:heartbreak_pottery_sherd": {
         id: "minecraft:heartbreak_pottery_sherd",
         name: "Heartbreak Pottery Sherd",

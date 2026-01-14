@@ -1050,6 +1050,31 @@ export const miscItems = {
         ],
         description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
     },
+    "minecraft:birch_boat": {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with birch wood appearance",
+            secondaryUse: "Matching birch wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with pale birch wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Birch Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Birch Boat is a variant of the standard boat crafted from birch planks. It shares all the functional characteristics of other wooden boats, including the ability to carry two passengers and high speed on ice. Its distinguishing feature is its pale wood texture, matching the aesthetic of birch forests. Like all boats in Bedrock Edition, it is crafted from five planks and requires no shovel. It serves as a reliable vehicle for water travel and transporting mobs."
+    },
     "minecraft:painting": {
         id: "minecraft:painting",
         name: "Painting",
