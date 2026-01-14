@@ -2077,5 +2077,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_hoe",
         themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§c" // red/pinkish
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_raw",
+        themeColor: "§c" // red/pinkish
+    },
+    {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        category: "item",
+        icon: "textures/items/bucket_pufferfish",
+        themeColor: "§e" // yellow
     }
 ];

@@ -1,0 +1,266 @@
+diff --git a/changes.diff b/changes.diff
+new file mode 100644
+index 0000000..1fd9603
+--- /dev/null
++++ b/changes.diff
+@@ -0,0 +1,130 @@
++diff --git a/scripts/data/providers/items/consumables/food_raw.js b/scripts/data/providers/items/consumables/food_raw.js
++index 1499880..62c07f9 100644
++--- a/scripts/data/providers/items/consumables/food_raw.js
+++++ b/scripts/data/providers/items/consumables/food_raw.js
++@@ -428,5 +428,61 @@ export const rawFood = {
++             "Can be fed to wolves to speed up the growth of baby wolves"
++         ],
++         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
+++    },
+++    "minecraft:chicken": {
+++        id: "minecraft:chicken",
+++        name: "Raw Chicken",
+++        maxStack: 64,
+++        durability: 0,
+++        enchantable: false,
+++        usage: {
+++            primaryUse: "Food source",
+++            secondaryUse: "Breeding and healing wolves"
+++        },
+++        food: {
+++            hunger: 2,
+++            saturation: 1.2
+++        },
+++        crafting: {
+++            recipeType: "Uncraftable",
+++            ingredients: ["Dropped by Chickens"]
+++        },
+++        specialNotes: [
+++            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+++            "Has a 30% chance to inflict Hunger effect for 30 seconds",
+++            "Dropped by Chickens (1) upon death",
+++            "Can be cooked into Cooked Chicken for better stats and no hunger risk",
+++            "Used to breed and heal tamed wolves",
+++            "Wolves are immune to the Hunger effect from raw chicken"
+++        ],
+++        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten to restore 2 hunger points, it carries a significant risk: a 30% chance of inflicting the Hunger effect for 30 seconds, causing the food bar to deplete rapidly. Cooking it creates Cooked Chicken, which eliminates this risk and provides more nourishment. Despite the danger to players, Raw Chicken is safe for wolves and is used to breed or heal them."
+++    },
+++    "minecraft:rabbit": {
+++        id: "minecraft:rabbit",
+++        name: "Raw Rabbit",
+++        maxStack: 64,
+++        durability: 0,
+++        enchantable: false,
+++        usage: {
+++            primaryUse: "Food source",
+++            secondaryUse: "Breeding and healing wolves"
+++        },
+++        food: {
+++            hunger: 3,
+++            saturation: 1.8
+++        },
+++        crafting: {
+++            recipeType: "Uncraftable",
+++            ingredients: ["Dropped by Rabbits"]
+++        },
+++        specialNotes: [
+++            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+++            "Dropped by Rabbits (1) upon death",
+++            "Can be cooked into Cooked Rabbit for significantly better stats",
+++            "Used to breed and heal tamed wolves",
+++            "Ingredient for Rabbit Stew (along with cooked rabbit, vegetables, and a bowl)",
+++            "Butcher villagers may buy raw rabbit for emeralds"
+++        ],
+++        description: "Raw Rabbit is a food item dropped by rabbits. It restores 3 hunger points and 1.8 saturation when eaten. While it is edible raw, it is far more effective when cooked into Cooked Rabbit or used as a key ingredient in Rabbit Stew, which restores a massive amount of hunger. Like other raw meats, it is also useful for breeding and healing tamed wolves."
++     }
++ };
++diff --git a/scripts/data/providers/items/tools/utility.js b/scripts/data/providers/items/tools/utility.js
++index 3844cc9..aa50e4c 100644
++--- a/scripts/data/providers/items/tools/utility.js
+++++ b/scripts/data/providers/items/tools/utility.js
++@@ -502,5 +502,28 @@ export const utilityTools = {
++             "Essential for creating diverse underwater ecosystems and displays"
++         ],
++         description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
+++    },
+++    "minecraft:pufferfish_bucket": {
+++        id: "minecraft:pufferfish_bucket",
+++        name: "Bucket of Pufferfish",
+++        maxStack: 1,
+++        durability: 0,
+++        enchantable: false,
+++        usage: {
+++            primaryUse: "Transporting pufferfish safely",
+++            secondaryUse: "Creating aquatic traps or displays"
+++        },
+++        crafting: {
+++            recipeType: "Uncraftable",
+++            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+++        },
+++        specialNotes: [
+++            "Obtained by using a water bucket on a pufferfish mob",
+++            "Preserves the pufferfish's inflation state data",
+++            "Releases the pufferfish and water when used on a block",
+++            "Pufferfish puff up and poison nearby players/mobs (except water mobs)",
+++            "Essential for moving pufferfish to player-made traps or aquariums"
+++        ],
+++        description: "A Bucket of Pufferfish is a utility item that allows players to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. When placed, it creates a water source block containing the fish. This is particularly useful for moving pufferfish into defensive traps or aquariums, as they naturally inflict poison and puff up when threatened by players or certain mobs. The bucket ensures the safe handling of this dangerous aquatic creature."
++     }
++ };
++diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
++index a4c63c6..d44a30f 100644
++--- a/scripts/data/search/item_index.js
+++++ b/scripts/data/search/item_index.js
++@@ -2077,5 +2077,26 @@ export const itemIndex = [
++         category: "item",
++         icon: "textures/items/iron_hoe",
++         themeColor: "§f" // iron/white
+++    },
+++    {
+++        id: "minecraft:chicken",
+++        name: "Raw Chicken",
+++        category: "item",
+++        icon: "textures/items/chicken_raw",
+++        themeColor: "§c" // red/pinkish
+++    },
+++    {
+++        id: "minecraft:rabbit",
+++        name: "Raw Rabbit",
+++        category: "item",
+++        icon: "textures/items/rabbit_raw",
+++        themeColor: "§c" // red/pinkish
+++    },
+++    {
+++        id: "minecraft:pufferfish_bucket",
+++        name: "Bucket of Pufferfish",
+++        category: "item",
+++        icon: "textures/items/bucket_pufferfish",
+++        themeColor: "§e" // yellow
++     }
++ ];
+diff --git a/scripts/data/providers/items/consumables/food_raw.js b/scripts/data/providers/items/consumables/food_raw.js
+index 1499880..62c07f9 100644
+--- a/scripts/data/providers/items/consumables/food_raw.js
++++ b/scripts/data/providers/items/consumables/food_raw.js
+@@ -428,5 +428,61 @@ export const rawFood = {
+             "Can be fed to wolves to speed up the growth of baby wolves"
+         ],
+         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
++    },
++    "minecraft:chicken": {
++        id: "minecraft:chicken",
++        name: "Raw Chicken",
++        maxStack: 64,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Food source",
++            secondaryUse: "Breeding and healing wolves"
++        },
++        food: {
++            hunger: 2,
++            saturation: 1.2
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Dropped by Chickens"]
++        },
++        specialNotes: [
++            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
++            "Has a 30% chance to inflict Hunger effect for 30 seconds",
++            "Dropped by Chickens (1) upon death",
++            "Can be cooked into Cooked Chicken for better stats and no hunger risk",
++            "Used to breed and heal tamed wolves",
++            "Wolves are immune to the Hunger effect from raw chicken"
++        ],
++        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten to restore 2 hunger points, it carries a significant risk: a 30% chance of inflicting the Hunger effect for 30 seconds, causing the food bar to deplete rapidly. Cooking it creates Cooked Chicken, which eliminates this risk and provides more nourishment. Despite the danger to players, Raw Chicken is safe for wolves and is used to breed or heal them."
++    },
++    "minecraft:rabbit": {
++        id: "minecraft:rabbit",
++        name: "Raw Rabbit",
++        maxStack: 64,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Food source",
++            secondaryUse: "Breeding and healing wolves"
++        },
++        food: {
++            hunger: 3,
++            saturation: 1.8
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Dropped by Rabbits"]
++        },
++        specialNotes: [
++            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
++            "Dropped by Rabbits (1) upon death",
++            "Can be cooked into Cooked Rabbit for significantly better stats",
++            "Used to breed and heal tamed wolves",
++            "Ingredient for Rabbit Stew (along with cooked rabbit, vegetables, and a bowl)",
++            "Butcher villagers may buy raw rabbit for emeralds"
++        ],
++        description: "Raw Rabbit is a food item dropped by rabbits. It restores 3 hunger points and 1.8 saturation when eaten. While it is edible raw, it is far more effective when cooked into Cooked Rabbit or used as a key ingredient in Rabbit Stew, which restores a massive amount of hunger. Like other raw meats, it is also useful for breeding and healing tamed wolves."
+     }
+ };
+diff --git a/scripts/data/providers/items/tools/utility.js b/scripts/data/providers/items/tools/utility.js
+index 3844cc9..aa50e4c 100644
+--- a/scripts/data/providers/items/tools/utility.js
++++ b/scripts/data/providers/items/tools/utility.js
+@@ -502,5 +502,28 @@ export const utilityTools = {
+             "Essential for creating diverse underwater ecosystems and displays"
+         ],
+         description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
++    },
++    "minecraft:pufferfish_bucket": {
++        id: "minecraft:pufferfish_bucket",
++        name: "Bucket of Pufferfish",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Transporting pufferfish safely",
++            secondaryUse: "Creating aquatic traps or displays"
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
++        },
++        specialNotes: [
++            "Obtained by using a water bucket on a pufferfish mob",
++            "Preserves the pufferfish's inflation state data",
++            "Releases the pufferfish and water when used on a block",
++            "Pufferfish puff up and poison nearby players/mobs (except water mobs)",
++            "Essential for moving pufferfish to player-made traps or aquariums"
++        ],
++        description: "A Bucket of Pufferfish is a utility item that allows players to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. When placed, it creates a water source block containing the fish. This is particularly useful for moving pufferfish into defensive traps or aquariums, as they naturally inflict poison and puff up when threatened by players or certain mobs. The bucket ensures the safe handling of this dangerous aquatic creature."
+     }
+ };
+diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
+index a4c63c6..d44a30f 100644
+--- a/scripts/data/search/item_index.js
++++ b/scripts/data/search/item_index.js
+@@ -2077,5 +2077,26 @@ export const itemIndex = [
+         category: "item",
+         icon: "textures/items/iron_hoe",
+         themeColor: "§f" // iron/white
++    },
++    {
++        id: "minecraft:chicken",
++        name: "Raw Chicken",
++        category: "item",
++        icon: "textures/items/chicken_raw",
++        themeColor: "§c" // red/pinkish
++    },
++    {
++        id: "minecraft:rabbit",
++        name: "Raw Rabbit",
++        category: "item",
++        icon: "textures/items/rabbit_raw",
++        themeColor: "§c" // red/pinkish
++    },
++    {
++        id: "minecraft:pufferfish_bucket",
++        name: "Bucket of Pufferfish",
++        category: "item",
++        icon: "textures/items/bucket_pufferfish",
++        themeColor: "§e" // yellow
+     }
+ ];
