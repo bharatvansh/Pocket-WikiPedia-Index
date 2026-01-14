@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_cobbled",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_tiles",
+        name: "Deepslate Tiles",
+        category: "block",
+        icon: "textures/blocks/deepslate_tiles",
+        themeColor: "§8" // dark gray
     }
 ];
