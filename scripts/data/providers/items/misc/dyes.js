@@ -226,5 +226,29 @@ export const dyes = {
             "Essential for crafting black firework stars"
         ],
         description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
+    },
+    "minecraft:lime_dye": {
+        id: "minecraft:lime_dye",
+        name: "Lime Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks lime",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Green Dye + White Dye", "Sea Pickle (Smelting)"]
+        },
+        specialNotes: [
+            "Crafted by mixing Green Dye and White Dye",
+            "Can be obtained by smelting Sea Pickles",
+            "Used to dye wool, terracotta, glass, concrete, and beds lime",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting lime firework stars",
+            "Used to dye water in cauldrons (Bedrock Edition)"
+        ],
+        description: "Lime Dye is a quasi-primary dye that can be obtained by mixing Green Dye and White Dye, or by smelting Sea Pickles in a furnace. It is used to apply a vibrant lime green color to various building blocks including wool, terracotta, glass, and concrete. In Bedrock Edition, it is versatile for customization, allowing players to dye leather armor, shulker boxes, and even water contained in cauldrons. It is also used to create lime firework stars for pyrotechnic displays."
     }
 };
