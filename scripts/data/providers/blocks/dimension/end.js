@@ -156,5 +156,26 @@ export const endBlocks = {
             yRange: "Strongholds (End Portal room)"
         },
         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
+    },
+    "minecraft:purpur_stairs": {
+        id: "minecraft:purpur_stairs",
+        name: "Purpur Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purpur Stairs"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "Purpur Stairs are stair blocks made from purpur blocks, found naturally in End Cities. They allow players to change elevation without jumping and can be used for roofs, seating, or detailed decoration. Crafted from six purpur blocks or using a stonecutter, they share the distinctive light purple color of the purpur family. Like other stairs, they can be placed upside down or to form corners. They have the same hardness and blast resistance as the purpur blocks they are made from."
     }
 };
