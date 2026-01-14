@@ -579,5 +579,26 @@ export const miscDecorativeBlocks = {
             yRange: "Pillager Outposts, Ancient Cities, Villages"
         },
         description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "End",
+            yRange: "Exit Portal"
+        },
+        description: "The Dragon Egg is a rare decorative block that generates on top of the exit portal after defeating the Ender Dragon. It serves primarily as a trophy item. When a player attempts to mine or interact with the egg, it teleports to a nearby location, making it difficult to collect directly. To obtain it, players typically use a piston to push it or cause it to fall onto a non-solid block like a torch. It emits a low light level of 1 and is affected by gravity."
     }
 };

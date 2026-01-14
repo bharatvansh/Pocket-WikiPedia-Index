@@ -687,5 +687,26 @@ export const vegetationBlocks = {
             yRange: "Deserts, Badlands, Giant Tree Taigas"
         },
         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+    },
+    "minecraft:waterlily": {
+        id: "minecraft:waterlily",
+        name: "Lily Pad",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lily Pad"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Swamps, Woodland Mansions"
+        },
+        description: "A Lily Pad is a flat, non-solid vegetation block that grows naturally on water surfaces in Swamp biomes and Woodland Mansions. It allows players to walk across water without falling in. Lily pads can be placed on water, ice, and frosted ice. They are fragile and break instantly when mined or collided with by a boat at high speed. They can also be obtained by fishing as a treasure item. In Bedrock Edition, they can be placed inside players."
     }
 };
