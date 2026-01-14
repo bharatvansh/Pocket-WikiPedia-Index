@@ -2007,5 +2007,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:brain_coral_block",
+        name: "Brain Coral Block",
+        category: "block",
+        icon: "textures/blocks/brain_coral_block",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:bubble_coral_block",
+        name: "Bubble Coral Block",
+        category: "block",
+        icon: "textures/blocks/bubble_coral_block",
+        themeColor: "§5" // Purple
+    },
+    {
+        id: "minecraft:fire_coral_block",
+        name: "Fire Coral Block",
+        category: "block",
+        icon: "textures/blocks/fire_coral_block",
+        themeColor: "§c" // Red
     }
 ];
