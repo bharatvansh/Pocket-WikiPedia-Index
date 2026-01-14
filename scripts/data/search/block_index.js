@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/items/cake",
+        themeColor: "§e" // Yellow (cake interior)
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // Dark Purple/Black
+    },
+    {
+        id: "minecraft:waterlily",
+        name: "Lily Pad",
+        category: "block",
+        icon: "textures/items/waterlily",
+        themeColor: "§2" // Dark Green
     }
 ];

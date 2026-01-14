@@ -494,5 +494,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Buried Treasure, Crafted"
+        },
+        description: "Cake is a food block that can be eaten by players. It must be placed on a solid block before it can be consumed. Each cake consists of seven slices, with each slice restoring 2 hunger points. Unlike most food items, it cannot be eaten from the inventory. Once placed, cake cannot be retrieved, even with Silk Touch. It is also used as a redstone component, emitting a signal strength proportional to the number of slices remaining when connected to a comparator."
     }
 };
