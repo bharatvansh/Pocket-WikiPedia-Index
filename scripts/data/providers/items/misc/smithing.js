@@ -322,6 +322,29 @@ export const smithingTemplates = {
         ],
         description: "The Dune Armor Trim Smithing Template is a rare find within the ancient chambers of Desert Pyramids. This decorative template allows players to adorn their armor with the 'Dune' pattern, which features clean, geometric lines reminiscent of desert architecture and shifting sands. It is applied at a Smithing Table using a piece of armor and a material of the player's choice to define the color. Because it is found in the dangerous traps of desert temples, it serves as a mark of a successful explorer. It can be duplicated using seven diamonds and a block of sandstone."
     },
+    "minecraft:eye_armor_trim_smithing_template": {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Eye' armor trim to any piece of armor at a Smithing Table",
+            secondaryUse: "Duplicating the template using Diamonds and End Stone"
+        },
+        crafting: {
+            recipeType: "Shaped (Duplication)",
+            ingredients: ["7x Diamond", "1x End Stone", "1x Eye Armor Trim Smithing Template"]
+        },
+        specialNotes: [
+            "Found in Stronghold Library chests (100% chance in Bedrock Edition).",
+            "Features a pattern resembling an Ender Eye.",
+            "Can be duplicated using 7 Diamonds and 1 End Stone.",
+            "Consumed upon use in a Smithing Table unless duplicated.",
+            "Requires a smithing material to define the color."
+        ],
+        description: "The Eye Armor Trim Smithing Template is a rare decorative item found in the libraries of Strongholds. It allows players to apply the 'Eye' pattern to their armor, featuring a design inspired by the Eye of Ender. This trim is a mark of players who have located the portal to the End. Like other templates, it is consumed on use but can be duplicated using seven diamonds and a block of End Stone, ensuring that the pattern can be applied to multiple armor sets."
+    },
     "minecraft:snout_armor_trim_smithing_template": {
         id: "minecraft:snout_armor_trim_smithing_template",
         name: "Snout Armor Trim Smithing Template",
