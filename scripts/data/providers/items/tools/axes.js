@@ -115,5 +115,59 @@ export const axes = {
             "High mining speed (slower than Gold, but much more durable)"
         ],
         description: "The Diamond Axe is a high-tier tool used for efficiently chopping wood and wood-based blocks. It possesses massive durability (1562 uses) and fast mining speed. In Bedrock Edition, it deals 6 attack damage, making it a decent weapon, though swords of the same tier are stronger. It requires three diamonds and two sticks to craft."
+    },
+    "minecraft:wooden_axe": {
+        id: "minecraft:wooden_axe",
+        name: "Wooden Axe",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic tool for chopping wood",
+            secondaryUse: "Weak melee weapon"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 3 attack damage (1.5 hearts) in Bedrock Edition",
+            "Has low durability (60 uses)",
+            "Can be used as fuel in a furnace (smelts 1 item)",
+            "Essential early-game tool for gathering wood",
+            "Can strip logs by right-clicking them"
+        ],
+        description: "The Wooden Axe is the most basic tool for chopping wood in Minecraft, typically crafted early in the game. Made from two planks and two sticks, it speeds up the collection of logs and wood-based blocks compared to using bare hands. However, it has very low durability (60 uses) and mining speed. In Bedrock Edition, it deals 3 damage (1.5 hearts), making it a weak weapon. It can also be used as fuel in a furnace."
+    },
+    "minecraft:stone_axe": {
+        id: "minecraft:stone_axe",
+        name: "Stone Axe",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Chopping wood efficiently",
+            secondaryUse: "Melee combat weapon"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 4 attack damage (2 hearts) in Bedrock Edition",
+            "Has 132 durability, over double that of a wooden axe",
+            "Crafted using 3 Cobblestone and 2 Sticks",
+            "Good balance of cost and efficiency for early game",
+            "Can strip logs and scrape copper blocks"
+        ],
+        description: "The Stone Axe is a reliable early-game tool crafted from three cobblestone and two sticks. It offers a significant improvement over the wooden axe in both durability (132 uses) and mining speed. In Bedrock Edition, it deals 4 damage (2 hearts), making it a decent backup weapon. It is essential for efficiently gathering large amounts of wood before upgrading to iron tools."
     }
 };
