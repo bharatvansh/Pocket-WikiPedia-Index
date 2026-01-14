@@ -136,6 +136,27 @@ export const endBlocks = {
         },
         description: "Chorus Flower is a unique purple plant block growing on chorus plants in the End dimension, appearing as flowered tips of chorus trees. Plantable on end stone in any dimension regardless of light level. Chorus flowers progress through ages 0-5, becoming fully purple at age 5. At age 5, the flower stops growing and drops one chorus fruit when harvested, resetting the cycle when replanted. Flowers at ages 0-4 drop themselves when broken. A chorus flower grows upward until age 5 or encountering air, then may branch sideways."
     },
+    "minecraft:chorus_plant": {
+        id: "minecraft:chorus_plant",
+        name: "Chorus Plant",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chorus Fruit (0-1)"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Islands"
+        },
+        description: "The Chorus Plant is the stem block of the Chorus Tree found in the End dimension. It grows naturally on End Stone and can be farmed by planting Chorus Flowers. When broken, it has a chance to drop a Chorus Fruit. The block itself is unobtainable in Survival mode, even with Silk Touch. Chorus plants connect to adjacent chorus plants and flowers, forming complex tree-like structures. They provide a unique purple aesthetic for End-themed builds but must be placed using commands or creative mode if used decoratively outside of natural growth."
+    },
     "minecraft:end_portal_frame": {
         id: "minecraft:end_portal_frame",
         name: "End Portal Frame",

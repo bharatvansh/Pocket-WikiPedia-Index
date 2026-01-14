@@ -2112,5 +2112,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_tiles",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:chorus_plant",
+        name: "Chorus Plant",
+        category: "block",
+        icon: "textures/blocks/chorus_plant",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:purpur_stairs",
+        name: "Purpur Stairs",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:purpur_slab",
+        name: "Purpur Slab",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§d" // light purple
     }
 ];
