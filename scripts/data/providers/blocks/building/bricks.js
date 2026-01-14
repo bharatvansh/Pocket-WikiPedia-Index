@@ -116,6 +116,48 @@ export const brickBlocks = {
         },
         description: "Stone Bricks are versatile decorative building blocks crafted by arranging four stone blocks in a 2x2 crafting grid. They feature a classic masonry pattern that gives structures a polished, professional appearance. Stone bricks generate naturally in strongholds, pillager outposts, and dungeons, making them one of the most common decorative blocks in the Overworld. With excellent durability (hardness 1.5, blast resistance 6.0), they provide both aesthetic appeal and structural integrity. Players can create various variants including mossy stone bricks by combining with moss, cracked stone bricks through smelting, and chiseled stone bricks using stone slabs. These blocks are essential for creating elegant walls, floors, and architectural details that require both strength and sophistication."
     },
+    "minecraft:deepslate_bricks": {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Deepslate Bricks are decorative building blocks crafted from polished deepslate or found naturally in Ancient Cities. They feature a distinct dark gray brick pattern that pairs well with other stone and deepslate variants. With a hardness of 3.0 and blast resistance of 6.0, they are durable blocks suitable for flooring, walls, and fortress construction. Deepslate bricks can be further crafted into cracked deepslate bricks by smelting, or used to create deepslate tiles."
+    },
+    "minecraft:deepslate_tiles": {
+        id: "minecraft:deepslate_tiles",
+        name: "Deepslate Tiles",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Tiles"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Deepslate Tiles are a decorative variant of deepslate featuring a detailed tile pattern. They generate naturally in Ancient Cities and can be crafted from deepslate bricks. Like other deepslate variants, they have a hardness of 3.0 and blast resistance of 6.0. Deepslate tiles offer a more refined and intricate texture compared to bricks, making them ideal for pathways, roofs, and detailed flooring. They can also be smelted to create cracked deepslate tiles."
+    },
     "minecraft:chiseled_tuff_bricks": {
         id: "minecraft:chiseled_tuff_bricks",
         name: "Chiseled Tuff Bricks",

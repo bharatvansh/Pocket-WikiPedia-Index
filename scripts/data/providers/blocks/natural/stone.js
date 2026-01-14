@@ -74,6 +74,27 @@ export const stoneBlocks = {
         },
         description: "Deepslate is a harder variant of stone found in the deepest layers of the Overworld. It generates below Y-level 0 and becomes more common below Y-level -8. Deepslate takes twice as long to mine as stone and has a distinctive dark gray appearance with subtle cracks."
     },
+    "minecraft:cobbled_deepslate": {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Obtained by mining Deepslate"
+        },
+        description: "Cobbled Deepslate is a dark stone block obtained by mining deepslate with a pickaxe without Silk Touch. It serves as the deepslate equivalent of cobblestone, sharing its blast resistance of 6.0 and hardness of 3.0. It can be used to craft polished deepslate, which is the base for other deepslate variants like bricks and tiles. Cobbled Deepslate can also be smelted back into deepslate. Its rough, dark texture makes it excellent for adding contrast and age to builds."
+    },
     "minecraft:tuff": {
         id: "minecraft:tuff",
         name: "Tuff",
