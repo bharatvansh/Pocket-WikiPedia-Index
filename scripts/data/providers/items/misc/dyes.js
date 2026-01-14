@@ -298,5 +298,77 @@ export const dyes = {
             "Can be traded to Shepherd villagers"
         ],
         description: "Light Blue Dye is a primary color dye obtained from Blue Orchids or by mixing Blue Dye (or Lapis Lazuli) with White Dye (or Bone Meal). It imparts a light blue hue to building blocks such as wool, terracotta, glass, and concrete. In Bedrock Edition, it is versatile in color mixing, contributing to the creation of Cyan and Magenta dyes. It is also used for dyeing shulker boxes, leather armor, and creating light blue firework stars."
+    },
+    "minecraft:cyan_dye": {
+        id: "minecraft:cyan_dye",
+        name: "Cyan Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks cyan",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Green Dye + Blue Dye", "Cactus Green + Lapis Lazuli"]
+        },
+        specialNotes: [
+            "Crafted by mixing Green Dye and Blue Dye (or Lapis Lazuli)",
+            "Used to dye wool, terracotta, glass, concrete, and beds cyan",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting cyan firework stars",
+            "Can be traded to Shepherd villagers",
+            "Can be sold by Wandering Traders"
+        ],
+        description: "Cyan Dye is a secondary color dye obtained by mixing Green Dye and Blue Dye (or Lapis Lazuli). It is used to color building materials such as wool, terracotta, glass, and concrete a vibrant cyan. In Bedrock Edition, it is a key component for color mixing and customizing leather armor, shulker boxes, and firework stars. Wandering Traders may also sell it for an emerald."
+    },
+    "minecraft:purple_dye": {
+        id: "minecraft:purple_dye",
+        name: "Purple Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks purple",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Dye + Blue Dye", "Red Dye + Lapis Lazuli"]
+        },
+        specialNotes: [
+            "Crafted by mixing Red Dye and Blue Dye (or Lapis Lazuli)",
+            "Used to dye wool, terracotta, glass, concrete, and beds purple",
+            "Mixed with Pink Dye to create Magenta Dye",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting purple firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Purple Dye is a secondary color dye crafted by mixing Red Dye and Blue Dye (or Lapis Lazuli). It imparts a deep purple hue to building blocks like wool, terracotta, glass, and concrete. In Bedrock Edition, it is used to create Magenta Dye when mixed with Pink Dye. It is also used for dyeing shulker boxes, leather armor, and creating purple firework stars."
+    },
+    "minecraft:brown_dye": {
+        id: "minecraft:brown_dye",
+        name: "Brown Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks brown",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Cocoa Beans"]
+        },
+        specialNotes: [
+            "Crafted from Cocoa Beans (1:1 ratio)",
+            "Used to dye wool, terracotta, glass, concrete, and beds brown",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting brown firework stars",
+            "Can be traded to Shepherd villagers",
+            "Wandering Traders may sell it for 3 emeralds"
+        ],
+        description: "Brown Dye is a primary color dye obtained from Cocoa Beans. It allows players to color wool, sheep, terracotta, glass, and concrete a rich brown. In Bedrock Edition, it is essential for coloring banners and mixing to create other shades. While Cocoa Beans were previously used directly as dye, Brown Dye is now a distinct item. It is also used to dye shulker boxes, leather armor, and create brown firework stars."
     }
 };
