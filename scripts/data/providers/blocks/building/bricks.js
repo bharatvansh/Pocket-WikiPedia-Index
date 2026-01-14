@@ -493,5 +493,47 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
+    },
+    "minecraft:deepslate_bricks": {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Trial Chambers"
+        },
+        description: "Deepslate Bricks are a decorative building block crafted from four polished deepslate blocks. They feature a dark, elegant brick pattern that makes them popular for building bases, castles, and underground structures. Naturally, they can be found in Ancient Cities and Trial Chambers. They are harder than regular stone bricks, with a hardness of 3.5, making them slightly more resistant to mining. They can be cracked or infested, and are used to craft deepslate brick stairs, slabs, and walls."
+    },
+    "minecraft:cracked_nether_bricks": {
+        id: "minecraft:cracked_nether_bricks",
+        name: "Cracked Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Cracked Nether Bricks are a decorative variant of Nether Bricks that feature a worn, cracked texture. They are obtained by smelting Nether Bricks in a furnace. These bricks naturally generate in Bastion Remnants, adding to the dilapidated aesthetic of the structures. Like standard Nether Bricks, they are fire-resistant and have a blast resistance of 6.0. They are purely decorative and cannot be used to craft other brick variants."
     }
 };
