@@ -135,5 +135,68 @@ export const plankBlocks = {
             yRange: "Crafted from Pale Oak Planks"
         },
         description: "Pale Oak Stairs are versatile building components from Minecraft Bedrock 1.21.50. Crafted from six pale oak planks, they create elegant transitions in builds. The muted, desaturated color palette creates an ethereal, ghostly atmosphere perfect for spectral mansions or atmospheric structures. Like all wooden stairs, they work with slabs for trapdoors and pair with other pale oak pieces. Their standard wood hardness and blast resistance make them practical for general construction."
+    },
+    "minecraft:mangrove_planks": {
+        id: "minecraft:mangrove_planks",
+        name: "Mangrove Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Logs"
+        },
+        description: "Mangrove Planks are a wood building block crafted from Mangrove Logs, which are found in Mangrove Swamp biomes. They feature a rich, dark red color that makes them unique among wood types. Like other planks, they serve as a fundamental building material and can be crafted into stairs, slabs, fences, gates, doors, trapdoors, pressure plates, buttons, and signs. They are flammable and can be used as fuel in a furnace."
+    },
+    "minecraft:crimson_planks": {
+        id: "minecraft:crimson_planks",
+        name: "Crimson Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Planks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Stems"
+        },
+        description: "Crimson Planks are a durable building block crafted from Crimson Stems found in the Crimson Forest biome of the Nether. Unlike Overworld wooden planks, they are fire-resistant and will not burn if exposed to fire or lava. They have a distinct purple-red color and can be used to craft non-flammable variants of stairs, slabs, fences, gates, doors, trapdoors, pressure plates, buttons, and signs. However, they cannot be used as fuel in a furnace."
+    },
+    "minecraft:warped_planks": {
+        id: "minecraft:warped_planks",
+        name: "Warped Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Planks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Stems"
+        },
+        description: "Warped Planks are a unique building block crafted from Warped Stems found in the Warped Forest biome of the Nether. They possess a vibrant cyan-blue color with peculiar grain patterns. Like their crimson counterparts, Warped Planks are completely fire-resistant and cannot be burned by fire or lava. They serve as a crucial building material for Nether bases and can be crafted into non-flammable wood variants. They cannot be used as fuel."
     }
 };
