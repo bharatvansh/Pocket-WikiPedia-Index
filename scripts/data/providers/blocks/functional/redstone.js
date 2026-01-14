@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const redstoneBlocks = {
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Detector Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts"
+        },
+        description: "A Detector Rail is a special rail type that functions as a pressure plate for minecarts. When a minecart passes over it, it emits a redstone signal to adjacent blocks and redstone dust. The signal remains active as long as the minecart is on the rail. It can also be used with a Redstone Comparator to measure the fullness of a container minecart sitting on it. Detector rails are essential for automating railway systems, creating minecart delivery stations, and triggering mechanisms upon arrival."
+    },
     "minecraft:comparator": {
         id: "minecraft:comparator",
         name: "Redstone Comparator",
@@ -179,7 +200,7 @@ export const redstoneBlocks = {
             dimension: "Overworld",
             yRange: "Ancient Cities"
         },
-        description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, it retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
+        description: "A Sticky Piston is a variation of the standard piston that can both push and pull blocks. When unpowered, the head retracts and pulls the block directly in front of its face along with it. This unique property makes it indispensable for creating flush secret doors and reversible mechanisms. Crafted by combining a piston with a slime ball, it is a key component in advanced redstone circuitry. In Bedrock Edition, sticky pistons behave consistently with regular pistons regarding the types of blocks they can move, including containers like chests and barrels."
     },
     "minecraft:dispenser": {
         id: "minecraft:dispenser",
