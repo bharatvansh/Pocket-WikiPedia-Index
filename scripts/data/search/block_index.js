@@ -2049,5 +2049,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/fire_coral_block",
         themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:crimson_roots",
+        name: "Crimson Roots",
+        category: "block",
+        icon: "textures/blocks/crimson_roots",
+        themeColor: "§4" // Dark Red
+    },
+    {
+        id: "minecraft:warped_roots",
+        name: "Warped Roots",
+        category: "block",
+        icon: "textures/blocks/warped_roots",
+        themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:nether_sprouts",
+        name: "Nether Sprouts",
+        category: "block",
+        icon: "textures/blocks/nether_sprouts",
+        themeColor: "§3" // Dark Aqua
     }
 ];
