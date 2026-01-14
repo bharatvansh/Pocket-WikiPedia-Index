@@ -2014,5 +2014,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/diamond_axe",
         themeColor: "§b" // diamond/aqua
+    },
+    {
+        id: "minecraft:wooden_axe",
+        name: "Wooden Axe",
+        category: "item",
+        icon: "textures/items/wood_axe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_axe",
+        name: "Stone Axe",
+        category: "item",
+        icon: "textures/items/stone_axe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_shovel",
+        name: "Iron Shovel",
+        category: "item",
+        icon: "textures/items/iron_shovel",
+        themeColor: "§f" // iron/white
     }
 ];
