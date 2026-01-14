@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_iron_ore",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        category: "block",
+        icon: "textures/blocks/lit_pumpkin",
+        themeColor: "§6" // Orange
+    },
+    {
+        id: "minecraft:candle",
+        name: "Candle",
+        category: "block",
+        icon: "textures/items/candle",
+        themeColor: "§e" // Yellow
     }
 ];

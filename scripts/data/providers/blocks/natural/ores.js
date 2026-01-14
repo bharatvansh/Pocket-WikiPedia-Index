@@ -32,6 +32,27 @@ export const oreBlocks = {
         },
         description: "Iron Ore is a common mineral block found in the stone layer of the Overworld that drops raw iron when mined. It generates in three batches: most abundantly between Y 80-384 peaking at Y 232, another batch between Y -24 to 56 peaking at Y 16, and a third batch evenly distributed from Y -64 to 72. Iron can be smelted into iron ingots, one of the most essential materials in Minecraft used for tools, armor, and countless crafting recipes. Its abundance makes it the backbone of early-to-mid game progression."
     },
+    "minecraft:deepslate_iron_ore": {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Iron (1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to -8 (Deepslate layers)"
+        },
+        description: "Deepslate Iron Ore is a harder variant of iron ore found in the deepslate layers of the world (typically below Y=0). It requires a stone pickaxe or better to mine. While functionally identical to regular iron ore in terms of drops, it takes longer to mine due to increased hardness (4.5). It is part of the large iron veins that can generate deep underground."
+    },
     "minecraft:gold_ore": {
         id: "minecraft:gold_ore",
         name: "Gold Ore",

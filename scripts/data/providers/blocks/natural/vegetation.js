@@ -687,5 +687,26 @@ export const vegetationBlocks = {
             yRange: "Deserts, Badlands, Giant Tree Taigas"
         },
         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+    },
+    "minecraft:lit_pumpkin": {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jack o'Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga and Snowy Taiga villages (piles)"
+        },
+        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
     }
 };

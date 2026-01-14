@@ -1,0 +1,650 @@
+diff --git a/changes.diff b/changes.diff
+new file mode 100644
+index 0000000..098113c
+--- /dev/null
++++ b/changes.diff
+@@ -0,0 +1,519 @@
++diff --git a/changes.diff b/changes.diff
++new file mode 100644
++index 0000000..cfd560a
++--- /dev/null
+++++ b/changes.diff
++@@ -0,0 +1,388 @@
+++diff --git a/changes.diff b/changes.diff
+++new file mode 100644
+++index 0000000..e6e2dfc
+++--- /dev/null
++++++ b/changes.diff
+++@@ -0,0 +1,257 @@
++++diff --git a/changes.diff b/changes.diff
++++new file mode 100644
++++index 0000000..6a9841a
++++--- /dev/null
+++++++ b/changes.diff
++++@@ -0,0 +1,127 @@
+++++diff --git a/changes.diff b/changes.diff
+++++new file mode 100644
+++++index 0000000..e69de29
+++++diff --git a/scripts/data/providers/blocks/dimension/end.js b/scripts/data/providers/blocks/dimension/end.js
+++++index 9ed9055..bd18f72 100644
+++++--- a/scripts/data/providers/blocks/dimension/end.js
++++++++ b/scripts/data/providers/blocks/dimension/end.js
+++++@@ -156,5 +156,26 @@ export const endBlocks = {
+++++             yRange: "Strongholds (End Portal room)"
+++++         },
+++++         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
++++++    },
++++++    "minecraft:dragon_egg": {
++++++        id: "minecraft:dragon_egg",
++++++        name: "Dragon Egg",
++++++        hardness: 3.0,
++++++        blastResistance: 9.0,
++++++        flammability: false,
++++++        gravityAffected: true,
++++++        transparent: true,
++++++        luminance: 1,
++++++        mining: {
++++++            tool: "None",
++++++            minTier: "None",
++++++            silkTouch: false
++++++        },
++++++        drops: ["Dragon Egg"],
++++++        generation: {
++++++            dimension: "The End",
++++++            yRange: "Exit Portal (after dragon death)"
++++++        },
++++++        description: "The Dragon Egg is a unique decorative block that generates on top of the exit portal in the End after the Ender Dragon is defeated. It is subject to gravity and will teleport when clicked or attacked, making it difficult to mine directly. Players can collect it by pushing it with a piston or making it fall onto a torch. As a trophy item, only one generates naturally per world. In Bedrock Edition, it emits a low light level of 1 and serves as the ultimate symbol of conquering the End."
+++++     }
+++++ };
+++++diff --git a/scripts/data/providers/blocks/functional/interactive.js b/scripts/data/providers/blocks/functional/interactive.js
+++++index 2a649a2..72ed389 100644
+++++--- a/scripts/data/providers/blocks/functional/interactive.js
++++++++ b/scripts/data/providers/blocks/functional/interactive.js
+++++@@ -494,5 +494,26 @@ export const interactiveBlocks = {
+++++             yRange: "Command only"
+++++         },
+++++         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
++++++    },
++++++    "minecraft:candle": {
++++++        id: "minecraft:candle",
++++++        name: "Candle",
++++++        hardness: 0.1,
++++++        blastResistance: 0.1,
++++++        flammability: false,
++++++        gravityAffected: false,
++++++        transparent: true,
++++++        luminance: 3,
++++++        mining: {
++++++            tool: "None",
++++++            minTier: "None",
++++++            silkTouch: false
++++++        },
++++++        drops: ["Candle"],
++++++        generation: {
++++++            dimension: "Overworld",
++++++            yRange: "Ancient Cities"
++++++        },
++++++        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
+++++     }
+++++ };
+++++diff --git a/scripts/data/providers/blocks/natural/vegetation.js b/scripts/data/providers/blocks/natural/vegetation.js
+++++index 9e4cb03..881d05f 100644
+++++--- a/scripts/data/providers/blocks/natural/vegetation.js
++++++++ b/scripts/data/providers/blocks/natural/vegetation.js
+++++@@ -687,5 +687,26 @@ export const vegetationBlocks = {
+++++             yRange: "Deserts, Badlands, Giant Tree Taigas"
+++++         },
+++++         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
++++++    },
++++++    "minecraft:lit_pumpkin": {
++++++        id: "minecraft:lit_pumpkin",
++++++        name: "Jack o'Lantern",
++++++        hardness: 1.0,
++++++        blastResistance: 1.0,
++++++        flammability: false,
++++++        gravityAffected: false,
++++++        transparent: false,
++++++        luminance: 15,
++++++        mining: {
++++++            tool: "Axe",
++++++            minTier: "None",
++++++            silkTouch: false
++++++        },
++++++        drops: ["Jack o'Lantern"],
++++++        generation: {
++++++            dimension: "Overworld",
++++++            yRange: "Taiga and Snowy Taiga villages (piles)"
++++++        },
++++++        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
+++++     }
+++++ };
+++++diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+++++index a24a94b..c530dab 100644
+++++--- a/scripts/data/search/block_index.js
++++++++ b/scripts/data/search/block_index.js
+++++@@ -2070,5 +2070,26 @@ export const blockIndex = [
+++++         category: "block",
+++++         icon: "textures/blocks/nether_sprouts",
+++++         themeColor: "§3" // Dark Aqua
++++++    },
++++++    {
++++++        id: "minecraft:dragon_egg",
++++++        name: "Dragon Egg",
++++++        category: "block",
++++++        icon: "textures/blocks/dragon_egg",
++++++        themeColor: "§5" // Dark Purple
++++++    },
++++++    {
++++++        id: "minecraft:lit_pumpkin",
++++++        name: "Jack o'Lantern",
++++++        category: "block",
++++++        icon: "textures/blocks/lit_pumpkin",
++++++        themeColor: "§6" // Orange
++++++    },
++++++    {
++++++        id: "minecraft:candle",
++++++        name: "Candle",
++++++        category: "block",
++++++        icon: "textures/items/candle",
++++++        themeColor: "§e" // Yellow
+++++     }
+++++ ];
++++diff --git a/scripts/data/providers/blocks/dimension/end.js b/scripts/data/providers/blocks/dimension/end.js
++++index 9ed9055..bd18f72 100644
++++--- a/scripts/data/providers/blocks/dimension/end.js
+++++++ b/scripts/data/providers/blocks/dimension/end.js
++++@@ -156,5 +156,26 @@ export const endBlocks = {
++++             yRange: "Strongholds (End Portal room)"
++++         },
++++         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
+++++    },
+++++    "minecraft:dragon_egg": {
+++++        id: "minecraft:dragon_egg",
+++++        name: "Dragon Egg",
+++++        hardness: 3.0,
+++++        blastResistance: 9.0,
+++++        flammability: false,
+++++        gravityAffected: true,
+++++        transparent: true,
+++++        luminance: 1,
+++++        mining: {
+++++            tool: "None",
+++++            minTier: "None",
+++++            silkTouch: false
+++++        },
+++++        drops: ["Dragon Egg"],
+++++        generation: {
+++++            dimension: "The End",
+++++            yRange: "Exit Portal (after dragon death)"
+++++        },
+++++        description: "The Dragon Egg is a unique decorative block that generates on top of the exit portal in the End after the Ender Dragon is defeated. It is subject to gravity and will teleport when clicked or attacked, making it difficult to mine directly. Players can collect it by pushing it with a piston or making it fall onto a torch. As a trophy item, only one generates naturally per world. In Bedrock Edition, it emits a low light level of 1 and serves as the ultimate symbol of conquering the End."
++++     }
++++ };
++++diff --git a/scripts/data/providers/blocks/functional/interactive.js b/scripts/data/providers/blocks/functional/interactive.js
++++index 2a649a2..72ed389 100644
++++--- a/scripts/data/providers/blocks/functional/interactive.js
+++++++ b/scripts/data/providers/blocks/functional/interactive.js
++++@@ -494,5 +494,26 @@ export const interactiveBlocks = {
++++             yRange: "Command only"
++++         },
++++         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+++++    },
+++++    "minecraft:candle": {
+++++        id: "minecraft:candle",
+++++        name: "Candle",
+++++        hardness: 0.1,
+++++        blastResistance: 0.1,
+++++        flammability: false,
+++++        gravityAffected: false,
+++++        transparent: true,
+++++        luminance: 3,
+++++        mining: {
+++++            tool: "None",
+++++            minTier: "None",
+++++            silkTouch: false
+++++        },
+++++        drops: ["Candle"],
+++++        generation: {
+++++            dimension: "Overworld",
+++++            yRange: "Ancient Cities"
+++++        },
+++++        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
++++     }
++++ };
++++diff --git a/scripts/data/providers/blocks/natural/vegetation.js b/scripts/data/providers/blocks/natural/vegetation.js
++++index 9e4cb03..881d05f 100644
++++--- a/scripts/data/providers/blocks/natural/vegetation.js
+++++++ b/scripts/data/providers/blocks/natural/vegetation.js
++++@@ -687,5 +687,26 @@ export const vegetationBlocks = {
++++             yRange: "Deserts, Badlands, Giant Tree Taigas"
++++         },
++++         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+++++    },
+++++    "minecraft:lit_pumpkin": {
+++++        id: "minecraft:lit_pumpkin",
+++++        name: "Jack o'Lantern",
+++++        hardness: 1.0,
+++++        blastResistance: 1.0,
+++++        flammability: false,
+++++        gravityAffected: false,
+++++        transparent: false,
+++++        luminance: 15,
+++++        mining: {
+++++            tool: "Axe",
+++++            minTier: "None",
+++++            silkTouch: false
+++++        },
+++++        drops: ["Jack o'Lantern"],
+++++        generation: {
+++++            dimension: "Overworld",
+++++            yRange: "Taiga and Snowy Taiga villages (piles)"
+++++        },
+++++        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
++++     }
++++ };
++++diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
++++index a24a94b..c530dab 100644
++++--- a/scripts/data/search/block_index.js
+++++++ b/scripts/data/search/block_index.js
++++@@ -2070,5 +2070,26 @@ export const blockIndex = [
++++         category: "block",
++++         icon: "textures/blocks/nether_sprouts",
++++         themeColor: "§3" // Dark Aqua
+++++    },
+++++    {
+++++        id: "minecraft:dragon_egg",
+++++        name: "Dragon Egg",
+++++        category: "block",
+++++        icon: "textures/blocks/dragon_egg",
+++++        themeColor: "§5" // Dark Purple
+++++    },
+++++    {
+++++        id: "minecraft:lit_pumpkin",
+++++        name: "Jack o'Lantern",
+++++        category: "block",
+++++        icon: "textures/blocks/lit_pumpkin",
+++++        themeColor: "§6" // Orange
+++++    },
+++++    {
+++++        id: "minecraft:candle",
+++++        name: "Candle",
+++++        category: "block",
+++++        icon: "textures/items/candle",
+++++        themeColor: "§e" // Yellow
++++     }
++++ ];
+++diff --git a/scripts/data/providers/blocks/functional/interactive.js b/scripts/data/providers/blocks/functional/interactive.js
+++index 2a649a2..72ed389 100644
+++--- a/scripts/data/providers/blocks/functional/interactive.js
++++++ b/scripts/data/providers/blocks/functional/interactive.js
+++@@ -494,5 +494,26 @@ export const interactiveBlocks = {
+++             yRange: "Command only"
+++         },
+++         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
++++    },
++++    "minecraft:candle": {
++++        id: "minecraft:candle",
++++        name: "Candle",
++++        hardness: 0.1,
++++        blastResistance: 0.1,
++++        flammability: false,
++++        gravityAffected: false,
++++        transparent: true,
++++        luminance: 3,
++++        mining: {
++++            tool: "None",
++++            minTier: "None",
++++            silkTouch: false
++++        },
++++        drops: ["Candle"],
++++        generation: {
++++            dimension: "Overworld",
++++            yRange: "Ancient Cities"
++++        },
++++        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
+++     }
+++ };
+++diff --git a/scripts/data/providers/blocks/natural/ores.js b/scripts/data/providers/blocks/natural/ores.js
+++index c39c46f..d7ddb02 100644
+++--- a/scripts/data/providers/blocks/natural/ores.js
++++++ b/scripts/data/providers/blocks/natural/ores.js
+++@@ -32,6 +32,27 @@ export const oreBlocks = {
+++         },
+++         description: "Iron Ore is a common mineral block found in the stone layer of the Overworld that drops raw iron when mined. It generates in three batches: most abundantly between Y 80-384 peaking at Y 232, another batch between Y -24 to 56 peaking at Y 16, and a third batch evenly distributed from Y -64 to 72. Iron can be smelted into iron ingots, one of the most essential materials in Minecraft used for tools, armor, and countless crafting recipes. Its abundance makes it the backbone of early-to-mid game progression."
+++     },
++++    "minecraft:deepslate_iron_ore": {
++++        id: "minecraft:deepslate_iron_ore",
++++        name: "Deepslate Iron Ore",
++++        hardness: 4.5,
++++        blastResistance: 3.0,
++++        flammability: false,
++++        gravityAffected: false,
++++        transparent: false,
++++        luminance: 0,
++++        mining: {
++++            tool: "Pickaxe",
++++            minTier: "Stone",
++++            silkTouch: true
++++        },
++++        drops: ["Raw Iron (1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
++++        generation: {
++++            dimension: "Overworld",
++++            yRange: "-64 to -8 (Deepslate layers)"
++++        },
++++        description: "Deepslate Iron Ore is a harder variant of iron ore found in the deepslate layers of the world (typically below Y=0). It requires a stone pickaxe or better to mine. While functionally identical to regular iron ore in terms of drops, it takes longer to mine due to increased hardness (4.5). It is part of the large iron veins that can generate deep underground."
++++    },
+++     "minecraft:gold_ore": {
+++         id: "minecraft:gold_ore",
+++         name: "Gold Ore",
+++diff --git a/scripts/data/providers/blocks/natural/vegetation.js b/scripts/data/providers/blocks/natural/vegetation.js
+++index 9e4cb03..881d05f 100644
+++--- a/scripts/data/providers/blocks/natural/vegetation.js
++++++ b/scripts/data/providers/blocks/natural/vegetation.js
+++@@ -687,5 +687,26 @@ export const vegetationBlocks = {
+++             yRange: "Deserts, Badlands, Giant Tree Taigas"
+++         },
+++         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
++++    },
++++    "minecraft:lit_pumpkin": {
++++        id: "minecraft:lit_pumpkin",
++++        name: "Jack o'Lantern",
++++        hardness: 1.0,
++++        blastResistance: 1.0,
++++        flammability: false,
++++        gravityAffected: false,
++++        transparent: false,
++++        luminance: 15,
++++        mining: {
++++            tool: "Axe",
++++            minTier: "None",
++++            silkTouch: false
++++        },
++++        drops: ["Jack o'Lantern"],
++++        generation: {
++++            dimension: "Overworld",
++++            yRange: "Taiga and Snowy Taiga villages (piles)"
++++        },
++++        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
+++     }
+++ };
+++diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+++index a24a94b..05d992c 100644
+++--- a/scripts/data/search/block_index.js
++++++ b/scripts/data/search/block_index.js
+++@@ -2070,5 +2070,26 @@ export const blockIndex = [
+++         category: "block",
+++         icon: "textures/blocks/nether_sprouts",
+++         themeColor: "§3" // Dark Aqua
++++    },
++++    {
++++        id: "minecraft:deepslate_iron_ore",
++++        name: "Deepslate Iron Ore",
++++        category: "block",
++++        icon: "textures/blocks/deepslate_iron_ore",
++++        themeColor: "§7" // Gray
++++    },
++++    {
++++        id: "minecraft:lit_pumpkin",
++++        name: "Jack o'Lantern",
++++        category: "block",
++++        icon: "textures/blocks/lit_pumpkin",
++++        themeColor: "§6" // Orange
++++    },
++++    {
++++        id: "minecraft:candle",
++++        name: "Candle",
++++        category: "block",
++++        icon: "textures/items/candle",
++++        themeColor: "§e" // Yellow
+++     }
+++ ];
++diff --git a/scripts/data/providers/blocks/functional/interactive.js b/scripts/data/providers/blocks/functional/interactive.js
++index 2a649a2..72ed389 100644
++--- a/scripts/data/providers/blocks/functional/interactive.js
+++++ b/scripts/data/providers/blocks/functional/interactive.js
++@@ -494,5 +494,26 @@ export const interactiveBlocks = {
++             yRange: "Command only"
++         },
++         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+++    },
+++    "minecraft:candle": {
+++        id: "minecraft:candle",
+++        name: "Candle",
+++        hardness: 0.1,
+++        blastResistance: 0.1,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: true,
+++        luminance: 3,
+++        mining: {
+++            tool: "None",
+++            minTier: "None",
+++            silkTouch: false
+++        },
+++        drops: ["Candle"],
+++        generation: {
+++            dimension: "Overworld",
+++            yRange: "Ancient Cities"
+++        },
+++        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
++     }
++ };
++diff --git a/scripts/data/providers/blocks/natural/ores.js b/scripts/data/providers/blocks/natural/ores.js
++index c39c46f..d7ddb02 100644
++--- a/scripts/data/providers/blocks/natural/ores.js
+++++ b/scripts/data/providers/blocks/natural/ores.js
++@@ -32,6 +32,27 @@ export const oreBlocks = {
++         },
++         description: "Iron Ore is a common mineral block found in the stone layer of the Overworld that drops raw iron when mined. It generates in three batches: most abundantly between Y 80-384 peaking at Y 232, another batch between Y -24 to 56 peaking at Y 16, and a third batch evenly distributed from Y -64 to 72. Iron can be smelted into iron ingots, one of the most essential materials in Minecraft used for tools, armor, and countless crafting recipes. Its abundance makes it the backbone of early-to-mid game progression."
++     },
+++    "minecraft:deepslate_iron_ore": {
+++        id: "minecraft:deepslate_iron_ore",
+++        name: "Deepslate Iron Ore",
+++        hardness: 4.5,
+++        blastResistance: 3.0,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: false,
+++        luminance: 0,
+++        mining: {
+++            tool: "Pickaxe",
+++            minTier: "Stone",
+++            silkTouch: true
+++        },
+++        drops: ["Raw Iron (1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
+++        generation: {
+++            dimension: "Overworld",
+++            yRange: "-64 to -8 (Deepslate layers)"
+++        },
+++        description: "Deepslate Iron Ore is a harder variant of iron ore found in the deepslate layers of the world (typically below Y=0). It requires a stone pickaxe or better to mine. While functionally identical to regular iron ore in terms of drops, it takes longer to mine due to increased hardness (4.5). It is part of the large iron veins that can generate deep underground."
+++    },
++     "minecraft:gold_ore": {
++         id: "minecraft:gold_ore",
++         name: "Gold Ore",
++diff --git a/scripts/data/providers/blocks/natural/vegetation.js b/scripts/data/providers/blocks/natural/vegetation.js
++index 9e4cb03..881d05f 100644
++--- a/scripts/data/providers/blocks/natural/vegetation.js
+++++ b/scripts/data/providers/blocks/natural/vegetation.js
++@@ -687,5 +687,26 @@ export const vegetationBlocks = {
++             yRange: "Deserts, Badlands, Giant Tree Taigas"
++         },
++         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+++    },
+++    "minecraft:lit_pumpkin": {
+++        id: "minecraft:lit_pumpkin",
+++        name: "Jack o'Lantern",
+++        hardness: 1.0,
+++        blastResistance: 1.0,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: false,
+++        luminance: 15,
+++        mining: {
+++            tool: "Axe",
+++            minTier: "None",
+++            silkTouch: false
+++        },
+++        drops: ["Jack o'Lantern"],
+++        generation: {
+++            dimension: "Overworld",
+++            yRange: "Taiga and Snowy Taiga villages (piles)"
+++        },
+++        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
++     }
++ };
++diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
++index a24a94b..05d992c 100644
++--- a/scripts/data/search/block_index.js
+++++ b/scripts/data/search/block_index.js
++@@ -2070,5 +2070,26 @@ export const blockIndex = [
++         category: "block",
++         icon: "textures/blocks/nether_sprouts",
++         themeColor: "§3" // Dark Aqua
+++    },
+++    {
+++        id: "minecraft:deepslate_iron_ore",
+++        name: "Deepslate Iron Ore",
+++        category: "block",
+++        icon: "textures/blocks/deepslate_iron_ore",
+++        themeColor: "§7" // Gray
+++    },
+++    {
+++        id: "minecraft:lit_pumpkin",
+++        name: "Jack o'Lantern",
+++        category: "block",
+++        icon: "textures/blocks/lit_pumpkin",
+++        themeColor: "§6" // Orange
+++    },
+++    {
+++        id: "minecraft:candle",
+++        name: "Candle",
+++        category: "block",
+++        icon: "textures/items/candle",
+++        themeColor: "§e" // Yellow
++     }
++ ];
+diff --git a/scripts/data/providers/blocks/functional/interactive.js b/scripts/data/providers/blocks/functional/interactive.js
+index 2a649a2..72ed389 100644
+--- a/scripts/data/providers/blocks/functional/interactive.js
++++ b/scripts/data/providers/blocks/functional/interactive.js
+@@ -494,5 +494,26 @@ export const interactiveBlocks = {
+             yRange: "Command only"
+         },
+         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
++    },
++    "minecraft:candle": {
++        id: "minecraft:candle",
++        name: "Candle",
++        hardness: 0.1,
++        blastResistance: 0.1,
++        flammability: false,
++        gravityAffected: false,
++        transparent: true,
++        luminance: 3,
++        mining: {
++            tool: "None",
++            minTier: "None",
++            silkTouch: false
++        },
++        drops: ["Candle"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Ancient Cities"
++        },
++        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
+     }
+ };
+diff --git a/scripts/data/providers/blocks/natural/ores.js b/scripts/data/providers/blocks/natural/ores.js
+index c39c46f..d7ddb02 100644
+--- a/scripts/data/providers/blocks/natural/ores.js
++++ b/scripts/data/providers/blocks/natural/ores.js
+@@ -32,6 +32,27 @@ export const oreBlocks = {
+         },
+         description: "Iron Ore is a common mineral block found in the stone layer of the Overworld that drops raw iron when mined. It generates in three batches: most abundantly between Y 80-384 peaking at Y 232, another batch between Y -24 to 56 peaking at Y 16, and a third batch evenly distributed from Y -64 to 72. Iron can be smelted into iron ingots, one of the most essential materials in Minecraft used for tools, armor, and countless crafting recipes. Its abundance makes it the backbone of early-to-mid game progression."
+     },
++    "minecraft:deepslate_iron_ore": {
++        id: "minecraft:deepslate_iron_ore",
++        name: "Deepslate Iron Ore",
++        hardness: 4.5,
++        blastResistance: 3.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Stone",
++            silkTouch: true
++        },
++        drops: ["Raw Iron (1-2 with Fortune I, 1-3 with Fortune II, 1-4 with Fortune III)"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "-64 to -8 (Deepslate layers)"
++        },
++        description: "Deepslate Iron Ore is a harder variant of iron ore found in the deepslate layers of the world (typically below Y=0). It requires a stone pickaxe or better to mine. While functionally identical to regular iron ore in terms of drops, it takes longer to mine due to increased hardness (4.5). It is part of the large iron veins that can generate deep underground."
++    },
+     "minecraft:gold_ore": {
+         id: "minecraft:gold_ore",
+         name: "Gold Ore",
+diff --git a/scripts/data/providers/blocks/natural/vegetation.js b/scripts/data/providers/blocks/natural/vegetation.js
+index 9e4cb03..881d05f 100644
+--- a/scripts/data/providers/blocks/natural/vegetation.js
++++ b/scripts/data/providers/blocks/natural/vegetation.js
+@@ -687,5 +687,26 @@ export const vegetationBlocks = {
+             yRange: "Deserts, Badlands, Giant Tree Taigas"
+         },
+         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
++    },
++    "minecraft:lit_pumpkin": {
++        id: "minecraft:lit_pumpkin",
++        name: "Jack o'Lantern",
++        hardness: 1.0,
++        blastResistance: 1.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 15,
++        mining: {
++            tool: "Axe",
++            minTier: "None",
++            silkTouch: false
++        },
++        drops: ["Jack o'Lantern"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Taiga and Snowy Taiga villages (piles)"
++        },
++        description: "A Jack o'Lantern is a solid light source block made by combining a carved pumpkin with a torch. It emits a light level of 15, which is the brightest possible light level in the game. Unlike torches, it can be placed underwater and does not break when water flows over it. It can also be used to build Snow Golems and Iron Golems. While it has a spooky face, it serves as an excellent lighting option for farms and underwater bases."
+     }
+ };
+diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+index a24a94b..05d992c 100644
+--- a/scripts/data/search/block_index.js
++++ b/scripts/data/search/block_index.js
+@@ -2070,5 +2070,26 @@ export const blockIndex = [
+         category: "block",
+         icon: "textures/blocks/nether_sprouts",
+         themeColor: "§3" // Dark Aqua
++    },
++    {
++        id: "minecraft:deepslate_iron_ore",
++        name: "Deepslate Iron Ore",
++        category: "block",
++        icon: "textures/blocks/deepslate_iron_ore",
++        themeColor: "§7" // Gray
++    },
++    {
++        id: "minecraft:lit_pumpkin",
++        name: "Jack o'Lantern",
++        category: "block",
++        icon: "textures/blocks/lit_pumpkin",
++        themeColor: "§6" // Orange
++    },
++    {
++        id: "minecraft:candle",
++        name: "Candle",
++        category: "block",
++        icon: "textures/items/candle",
++        themeColor: "§e" // Yellow
+     }
+ ];
