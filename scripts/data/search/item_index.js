@@ -2119,5 +2119,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/chainmail_leggings",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:cyan_dye",
+        name: "Cyan Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_cyan",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:purple_dye",
+        name: "Purple Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_purple",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:brown_dye",
+        name: "Brown Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_brown",
+        themeColor: "§6" // brown
     }
 ];
