@@ -687,5 +687,26 @@ export const vegetationBlocks = {
             yRange: "Deserts, Badlands, Giant Tree Taigas"
         },
         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+    },
+    "minecraft:twisting_vines": {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Twisting Vines (33% chance)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Twisting Vines are a climbable vegetation block found in the Warped Forest biome of the Nether. They grow upwards from the ground, unlike weeping vines which grow downwards. Players can climb them like ladders. They can be bone-mealed to grow instantly. When broken, they have a 33% chance to drop themselves, but using Shears guarantees a drop. They add verticality to the Warped Forest and serve as a renewable source of navigation."
     }
 };
