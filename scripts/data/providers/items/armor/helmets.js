@@ -9,6 +9,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const helmets = {
+    "minecraft:chainmail_helmet": {
+        id: "minecraft:chainmail_helmet",
+        name: "Chainmail Helmet",
+        maxStack: 1,
+        durability: 165,
+        enchantable: true,
+        usage: {
+            primaryUse: "Head protection",
+            secondaryUse: "Decoration or trophy armor"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests", "Trading with Armorer villagers", "Dropped by mobs"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (same as Iron/Gold/Turtle)",
+            "Durability: 165 (same as Iron Helmet)",
+            "Enchantability: 12 (Higher than Iron's 9, lower than Gold's 25)",
+            "Can be repaired with Iron Ingots in an Anvil",
+            "Cannot be crafted; obtained via trading or loot",
+            "Allows the skin layer to be partially visible through the mesh"
+        ],
+        description: "The Chainmail Helmet is a piece of armor made of linked metal rings. It offers the same protection (2 points) and durability (165) as an Iron Helmet but has a slightly higher enchantability of 12. Unlike other armor sets, Chainmail cannot be crafted by players and must be obtained through trading with Armorer villagers, looting chests in structures like Buried Treasure or Woodland Mansions, or as drops from mobs wearing it. Its unique semi-transparent texture makes it a popular choice for cosmetic armor stands and specific player skins."
+    },
     "minecraft:turtle_helmet": {
         id: "minecraft:turtle_helmet",
         name: "Turtle Shell",
