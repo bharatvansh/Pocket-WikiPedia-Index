@@ -1,0 +1,132 @@
+diff --git a/changes.diff b/changes.diff
+new file mode 100644
+index 0000000..e69de29
+diff --git a/scripts/data/providers/items/tools/axes.js b/scripts/data/providers/items/tools/axes.js
+index ac96e28..1697fb7 100644
+--- a/scripts/data/providers/items/tools/axes.js
++++ b/scripts/data/providers/items/tools/axes.js
+@@ -115,5 +115,57 @@ export const axes = {
+             "High mining speed (slower than Gold, but much more durable)"
+         ],
+         description: "The Diamond Axe is a high-tier tool used for efficiently chopping wood and wood-based blocks. It possesses massive durability (1562 uses) and fast mining speed. In Bedrock Edition, it deals 6 attack damage, making it a decent weapon, though swords of the same tier are stronger. It requires three diamonds and two sticks to craft."
++    },
++    "minecraft:wooden_axe": {
++        id: "minecraft:wooden_axe",
++        name: "Wooden Axe",
++        maxStack: 1,
++        durability: 60,
++        enchantable: true,
++        usage: {
++            primaryUse: "Chopping wood",
++            secondaryUse: "Fuel for furnace"
++        },
++        combat: {
++            attackDamage: 3,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Planks x3", "Stick x2"]
++        },
++        specialNotes: [
++            "Deals 3 attack damage (1.5 hearts) in Bedrock Edition",
++            "Has 60 durability",
++            "Can be used as fuel (burns 1 item)",
++            "Slowest axe"
++        ],
++        description: "The Wooden Axe is the most basic chopping tool in Minecraft, typically the first axe a player crafts. Made from three planks of any wood type and two sticks, it speeds up the gathering of wood and wooden blocks. While it has a very low durability of 60 uses and deals only 3 damage (1.5 hearts) in Bedrock Edition, it is essential for early-game resource gathering and can be used as fuel in a furnace."
++    },
++    "minecraft:stone_axe": {
++        id: "minecraft:stone_axe",
++        name: "Stone Axe",
++        maxStack: 1,
++        durability: 132,
++        enchantable: true,
++        usage: {
++            primaryUse: "Chopping wood efficiently",
++            secondaryUse: "Melee weapon"
++        },
++        combat: {
++            attackDamage: 4,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Cobblestone x3", "Stick x2"]
++        },
++        specialNotes: [
++            "Deals 4 attack damage (2 hearts) in Bedrock Edition",
++            "Has 132 durability",
++            "Faster than a wooden axe",
++            "Can be used to strip logs"
++        ],
++        description: "The Stone Axe is a common upgrade from the wooden axe, offering better durability and mining speed. Crafted with three cobblestone blocks and two sticks, it is a reliable tool for chopping trees and breaking wooden objects. In Bedrock Edition, it deals 4 damage (2 hearts), making it a passable weapon in a pinch. With 132 durability, it serves as a staple tool for players before acquiring iron."
+     }
+ };
+diff --git a/scripts/data/providers/items/weapons/swords.js b/scripts/data/providers/items/weapons/swords.js
+index d247fbb..b59a7c9 100644
+--- a/scripts/data/providers/items/weapons/swords.js
++++ b/scripts/data/providers/items/weapons/swords.js
+@@ -164,5 +164,31 @@ export const swords = {
+             "High enchantability allows for powerful combat modifiers"
+         ],
+         description: "The Netherite Sword is the most powerful melee weapon in Minecraft Bedrock Edition. With a base damage of 9 points, it surpasses the diamond sword in raw power and offers significantly more durability with 2031 points. It is fire-resistant, meaning it will float in lava instead of burning. To obtain this elite weapon, a player must upgrade a Diamond Sword using a Netherite Ingot and a Netherite Upgrade Smithing Template at a Smithing Table. Its superior stats make it the ultimate choice for high-tier combat."
++    },
++    "minecraft:stone_sword": {
++        id: "minecraft:stone_sword",
++        name: "Stone Sword",
++        maxStack: 1,
++        durability: 132,
++        enchantable: true,
++        usage: {
++            primaryUse: "Melee combat",
++            secondaryUse: "Breaking cobwebs"
++        },
++        combat: {
++            attackDamage: 6,
++            attackSpeed: 0
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Cobblestone x2", "Stick"]
++        },
++        specialNotes: [
++            "Deals 6 attack damage (3 hearts) in Bedrock Edition",
++            "Has 132 durability",
++            "Stronger than wooden and golden swords",
++            "Good early-game weapon"
++        ],
++        description: "The Stone Sword is a solid early-game melee weapon, providing a significant damage upgrade over wooden and golden swords. Crafted from two cobblestone blocks and a stick, it deals 6 damage (3 hearts) in Bedrock Edition. With 132 durability, it offers a balance of cost and effectiveness, making it the primary weapon for players until they can afford iron gear. It can also break cobwebs efficiently."
+     }
+ };
+diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
+index 4319643..b0b4586 100644
+--- a/scripts/data/search/item_index.js
++++ b/scripts/data/search/item_index.js
+@@ -2014,5 +2014,26 @@ export const itemIndex = [
+         category: "item",
+         icon: "textures/items/diamond_axe",
+         themeColor: "§b" // diamond/aqua
++    },
++    {
++        id: "minecraft:wooden_axe",
++        name: "Wooden Axe",
++        category: "item",
++        icon: "textures/items/wood_axe",
++        themeColor: "§6" // wood/brown
++    },
++    {
++        id: "minecraft:stone_axe",
++        name: "Stone Axe",
++        category: "item",
++        icon: "textures/items/stone_axe",
++        themeColor: "§7" // stone/gray
++    },
++    {
++        id: "minecraft:stone_sword",
++        name: "Stone Sword",
++        category: "item",
++        icon: "textures/items/stone_sword",
++        themeColor: "§7" // stone/gray
+     }
+ ];
