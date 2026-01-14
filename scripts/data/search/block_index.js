@@ -2070,5 +2070,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/nether_sprouts",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8" // Dark Gray
+    },
+    {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8" // Dark Gray
+    },
+    {
+        id: "minecraft:cracked_nether_bricks",
+        name: "Cracked Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_nether_bricks",
+        themeColor: "§4" // Dark Red
     }
 ];

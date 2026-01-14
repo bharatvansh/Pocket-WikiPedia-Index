@@ -1,0 +1,236 @@
+diff --git a/changes.diff b/changes.diff
+new file mode 100644
+index 0000000..937e190
+--- /dev/null
++++ b/changes.diff
+@@ -0,0 +1,115 @@
++diff --git a/scripts/data/providers/blocks/building/bricks.js b/scripts/data/providers/blocks/building/bricks.js
++index 4e87fdc..7dae20f 100644
++--- a/scripts/data/providers/blocks/building/bricks.js
+++++ b/scripts/data/providers/blocks/building/bricks.js
++@@ -493,5 +493,47 @@ export const brickBlocks = {
++             yRange: "Crafted only"
++         },
++         description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
+++    },
+++    "minecraft:deepslate_bricks": {
+++        id: "minecraft:deepslate_bricks",
+++        name: "Deepslate Bricks",
+++        hardness: 3.5,
+++        blastResistance: 6.0,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: false,
+++        luminance: 0,
+++        mining: {
+++            tool: "Pickaxe",
+++            minTier: "Wood",
+++            silkTouch: false
+++        },
+++        drops: ["Deepslate Bricks"],
+++        generation: {
+++            dimension: "Overworld",
+++            yRange: "Ancient Cities, Trial Chambers"
+++        },
+++        description: "Deepslate Bricks are a decorative building block crafted from four polished deepslate blocks. They feature a dark, elegant brick pattern that makes them popular for building bases, castles, and underground structures. Naturally, they can be found in Ancient Cities and Trial Chambers. They are harder than regular stone bricks, with a hardness of 3.5, making them slightly more resistant to mining. They can be cracked or infested, and are used to craft deepslate brick stairs, slabs, and walls."
+++    },
+++    "minecraft:cracked_nether_bricks": {
+++        id: "minecraft:cracked_nether_bricks",
+++        name: "Cracked Nether Bricks",
+++        hardness: 2.0,
+++        blastResistance: 6.0,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: false,
+++        luminance: 0,
+++        mining: {
+++            tool: "Pickaxe",
+++            minTier: "Wood",
+++            silkTouch: false
+++        },
+++        drops: ["Cracked Nether Bricks"],
+++        generation: {
+++            dimension: "Nether",
+++            yRange: "Bastion Remnants"
+++        },
+++        description: "Cracked Nether Bricks are a decorative variant of Nether Bricks that feature a worn, cracked texture. They are obtained by smelting Nether Bricks in a furnace. These bricks naturally generate in Bastion Remnants, adding to the dilapidated aesthetic of the structures. Like standard Nether Bricks, they are fire-resistant and have a blast resistance of 6.0. They are purely decorative and cannot be used to craft other brick variants."
++     }
++ };
++diff --git a/scripts/data/providers/blocks/dimension/nether.js b/scripts/data/providers/blocks/dimension/nether.js
++index 30851da..74ab5e0 100644
++--- a/scripts/data/providers/blocks/dimension/nether.js
+++++ b/scripts/data/providers/blocks/dimension/nether.js
++@@ -431,5 +431,26 @@ export const netherBlocks = {
++             yRange: "Warped Forest"
++         },
++         description: "Nether Sprouts are small, grass-like vegetation found exclusively in the Warped Forest biome. They grow on Warped Nylium alongside Warped Roots and Fungi. Unlike roots, they appear as small clumps of teal grass. They can be harvested using Shears. When composted, they have a 50% chance of raising the compost level. They provide a subtle, grassy detail to Warped Forest builds and do not burn."
+++    },
+++    "minecraft:polished_blackstone": {
+++        id: "minecraft:polished_blackstone",
+++        name: "Polished Blackstone",
+++        hardness: 1.5,
+++        blastResistance: 6.0,
+++        flammability: false,
+++        gravityAffected: false,
+++        transparent: false,
+++        luminance: 0,
+++        mining: {
+++            tool: "Pickaxe",
+++            minTier: "Wood",
+++            silkTouch: false
+++        },
+++        drops: ["Polished Blackstone"],
+++        generation: {
+++            dimension: "Nether",
+++            yRange: "Bastion Remnants"
+++        },
+++        description: "Polished Blackstone is a refined variant of Blackstone with a smooth texture, similar to polished deepslate or stone. It can be crafted by arranging four blackstone blocks in a 2x2 grid or by processing blackstone in a stonecutter. It generates naturally in Bastion Remnants. Like regular blackstone, it is fire-resistant and has a hardness of 1.5. It can be further crafted into polished blackstone bricks, slabs, stairs, and walls, as well as pressure plates and buttons."
++     }
++-    };
+++};
++diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
++index a24a94b..8cac20c 100644
++--- a/scripts/data/search/block_index.js
+++++ b/scripts/data/search/block_index.js
++@@ -2070,5 +2070,26 @@ export const blockIndex = [
++         category: "block",
++         icon: "textures/blocks/nether_sprouts",
++         themeColor: "§3" // Dark Aqua
+++    },
+++    {
+++        id: "minecraft:deepslate_bricks",
+++        name: "Deepslate Bricks",
+++        category: "block",
+++        icon: "textures/blocks/deepslate_bricks",
+++        themeColor: "§8" // Dark Gray
+++    },
+++    {
+++        id: "minecraft:polished_blackstone",
+++        name: "Polished Blackstone",
+++        category: "block",
+++        icon: "textures/blocks/polished_blackstone",
+++        themeColor: "§8" // Dark Gray
+++    },
+++    {
+++        id: "minecraft:cracked_nether_bricks",
+++        name: "Cracked Nether Bricks",
+++        category: "block",
+++        icon: "textures/blocks/cracked_nether_bricks",
+++        themeColor: "§4" // Dark Red
++     }
++ ];
+diff --git a/scripts/data/providers/blocks/building/bricks.js b/scripts/data/providers/blocks/building/bricks.js
+index 4e87fdc..7dae20f 100644
+--- a/scripts/data/providers/blocks/building/bricks.js
++++ b/scripts/data/providers/blocks/building/bricks.js
+@@ -493,5 +493,47 @@ export const brickBlocks = {
+             yRange: "Crafted only"
+         },
+         description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
++    },
++    "minecraft:deepslate_bricks": {
++        id: "minecraft:deepslate_bricks",
++        name: "Deepslate Bricks",
++        hardness: 3.5,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["Deepslate Bricks"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Ancient Cities, Trial Chambers"
++        },
++        description: "Deepslate Bricks are a decorative building block crafted from four polished deepslate blocks. They feature a dark, elegant brick pattern that makes them popular for building bases, castles, and underground structures. Naturally, they can be found in Ancient Cities and Trial Chambers. They are harder than regular stone bricks, with a hardness of 3.5, making them slightly more resistant to mining. They can be cracked or infested, and are used to craft deepslate brick stairs, slabs, and walls."
++    },
++    "minecraft:cracked_nether_bricks": {
++        id: "minecraft:cracked_nether_bricks",
++        name: "Cracked Nether Bricks",
++        hardness: 2.0,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["Cracked Nether Bricks"],
++        generation: {
++            dimension: "Nether",
++            yRange: "Bastion Remnants"
++        },
++        description: "Cracked Nether Bricks are a decorative variant of Nether Bricks that feature a worn, cracked texture. They are obtained by smelting Nether Bricks in a furnace. These bricks naturally generate in Bastion Remnants, adding to the dilapidated aesthetic of the structures. Like standard Nether Bricks, they are fire-resistant and have a blast resistance of 6.0. They are purely decorative and cannot be used to craft other brick variants."
+     }
+ };
+diff --git a/scripts/data/providers/blocks/dimension/nether.js b/scripts/data/providers/blocks/dimension/nether.js
+index 30851da..74ab5e0 100644
+--- a/scripts/data/providers/blocks/dimension/nether.js
++++ b/scripts/data/providers/blocks/dimension/nether.js
+@@ -431,5 +431,26 @@ export const netherBlocks = {
+             yRange: "Warped Forest"
+         },
+         description: "Nether Sprouts are small, grass-like vegetation found exclusively in the Warped Forest biome. They grow on Warped Nylium alongside Warped Roots and Fungi. Unlike roots, they appear as small clumps of teal grass. They can be harvested using Shears. When composted, they have a 50% chance of raising the compost level. They provide a subtle, grassy detail to Warped Forest builds and do not burn."
++    },
++    "minecraft:polished_blackstone": {
++        id: "minecraft:polished_blackstone",
++        name: "Polished Blackstone",
++        hardness: 1.5,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["Polished Blackstone"],
++        generation: {
++            dimension: "Nether",
++            yRange: "Bastion Remnants"
++        },
++        description: "Polished Blackstone is a refined variant of Blackstone with a smooth texture, similar to polished deepslate or stone. It can be crafted by arranging four blackstone blocks in a 2x2 grid or by processing blackstone in a stonecutter. It generates naturally in Bastion Remnants. Like regular blackstone, it is fire-resistant and has a hardness of 1.5. It can be further crafted into polished blackstone bricks, slabs, stairs, and walls, as well as pressure plates and buttons."
+     }
+-    };
++};
+diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+index a24a94b..8cac20c 100644
+--- a/scripts/data/search/block_index.js
++++ b/scripts/data/search/block_index.js
+@@ -2070,5 +2070,26 @@ export const blockIndex = [
+         category: "block",
+         icon: "textures/blocks/nether_sprouts",
+         themeColor: "§3" // Dark Aqua
++    },
++    {
++        id: "minecraft:deepslate_bricks",
++        name: "Deepslate Bricks",
++        category: "block",
++        icon: "textures/blocks/deepslate_bricks",
++        themeColor: "§8" // Dark Gray
++    },
++    {
++        id: "minecraft:polished_blackstone",
++        name: "Polished Blackstone",
++        category: "block",
++        icon: "textures/blocks/polished_blackstone",
++        themeColor: "§8" // Dark Gray
++    },
++    {
++        id: "minecraft:cracked_nether_bricks",
++        name: "Cracked Nether Bricks",
++        category: "block",
++        icon: "textures/blocks/cracked_nether_bricks",
++        themeColor: "§4" // Dark Red
+     }
+ ];

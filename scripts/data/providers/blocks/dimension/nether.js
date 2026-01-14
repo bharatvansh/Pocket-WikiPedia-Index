@@ -431,5 +431,26 @@ export const netherBlocks = {
             yRange: "Warped Forest"
         },
         description: "Nether Sprouts are small, grass-like vegetation found exclusively in the Warped Forest biome. They grow on Warped Nylium alongside Warped Roots and Fungi. Unlike roots, they appear as small clumps of teal grass. They can be harvested using Shears. When composted, they have a 50% chance of raising the compost level. They provide a subtle, grassy detail to Warped Forest builds and do not burn."
+    },
+    "minecraft:polished_blackstone": {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone is a refined variant of Blackstone with a smooth texture, similar to polished deepslate or stone. It can be crafted by arranging four blackstone blocks in a 2x2 grid or by processing blackstone in a stonecutter. It generates naturally in Bastion Remnants. Like regular blackstone, it is fire-resistant and has a hardness of 1.5. It can be further crafted into polished blackstone bricks, slabs, stairs, and walls, as well as pressure plates and buttons."
     }
-    };
+};
