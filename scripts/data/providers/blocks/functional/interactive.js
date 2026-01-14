@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const interactiveBlocks = {
+    "minecraft:ladder": {
+        id: "minecraft:ladder",
+        name: "Ladder",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Ladder"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Villages, Igloos"
+        },
+        description: "A Ladder is a wooden block used for climbing walls vertically. It can be placed on the sides of solid blocks and allows players and mobs to climb up or down. Ladders generate naturally in strongholds, villages, and igloo basements. They can be crafted from seven sticks arranged in an H-shape. While they have a low blast resistance and hardness, they are essential for compact vertical movement. In Bedrock Edition, ladders have a collision box that allows standing on top of them, and they can stop water flow."
+    },
     "minecraft:lodestone": {
         id: "minecraft:lodestone",
         name: "Lodestone",
