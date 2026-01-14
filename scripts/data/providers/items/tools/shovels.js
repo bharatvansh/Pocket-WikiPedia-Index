@@ -9,6 +9,60 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const shovels = {
+    "minecraft:wooden_shovel": {
+        id: "minecraft:wooden_shovel",
+        name: "Wooden Shovel",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, and gravel",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Any Planks", "Stick x2"]
+        },
+        specialNotes: [
+            "Lowest tier shovel with 60 durability",
+            "Deals 2 attack damage (1 heart)",
+            "Can be used as fuel in a furnace",
+            "Good for early game land clearing",
+            "Crafted using 1 Wooden Plank and 2 Sticks"
+        ],
+        description: "The Wooden Shovel is the most basic digging tool in Minecraft Bedrock Edition, crafted from a single wooden plank and two sticks. With a durability of 60 and an attack damage of 2, it serves as an essential starter tool for gathering resources like dirt, sand, and gravel. It can also be used to create grass paths or extinguish campfires, and unlike other shovels, it can be used as fuel in a furnace."
+    },
+    "minecraft:stone_shovel": {
+        id: "minecraft:stone_shovel",
+        name: "Stone Shovel",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Digging dirt, sand, and gravel",
+            secondaryUse: "Creating grass paths"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone/Blackstone", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 3 attack damage (1.5 hearts)",
+            "Has 132 durability (more than double wood)",
+            "Efficient early-game tool",
+            "Crafted using Cobblestone or Blackstone",
+            "Can break snow layers quickly"
+        ],
+        description: "The Stone Shovel is a common early-game tool that offers a significant upgrade over its wooden counterpart. Crafted using cobblestone or blackstone and two sticks, it provides 132 durability and deals 3 attack damage. It is an efficient choice for clearing large areas of soil, sand, or gravel before iron becomes readily available. Like other shovels, it can create path blocks and extinguish campfires."
+    },
     "minecraft:netherite_shovel": {
         id: "minecraft:netherite_shovel",
         name: "Netherite Shovel",
