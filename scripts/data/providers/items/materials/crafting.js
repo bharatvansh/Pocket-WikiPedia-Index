@@ -1520,5 +1520,78 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Mace weapon",
+            secondaryUse: "High-tier crafting component"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Ultra-rare item found only in Ominous Vaults in Trial Chambers",
+            "Crafts the Mace when combined with a Breeze Rod on a Crafting Table",
+            "Ominous Vaults require an Ominous Trial Key to unlock",
+            "Mace deals high damage and has smash attack with knockback when falling",
+            "In Bedrock Edition, has a rarity of Epic and cannot be crafted",
+            "Only renewable in servers with 129+ players through Trial Omen events"
+        ],
+        description: "The Heavy Core is an ultra-rare, non-renewable crafting component found exclusively in Ominous Vaults within Trial Chambers. These special vaults only appear during ominous trials and require an Ominous Trial Key to unlock. The Heavy Core's sole purpose is crafting the Mace, a powerful melee weapon introduced in Minecraft 1.21. When combined with a Breeze Rod in a crafting table, it produces a Mace capable of dealing massive damage and executing smash attacks that knockback enemies in an area. Due to its extreme rarity and exclusive location, the Heavy Core represents one of the most coveted items in Minecraft Bedrock Edition, serving as the pinnacle of Trial Chamber exploration."
+    },
+    "minecraft:oxidized_copper": {
+        id: "minecraft:oxidized_copper",
+        name: "Oxidized Copper",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting with Stonecutter into decorative blocks",
+            secondaryUse: "Storage and construction material"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found by placing copper blocks until fully oxidized", "Obtained by breaking oxidized copper blocks"]
+        },
+        specialNotes: [
+            "Produced when copper blocks naturally oxidize to their teal-green final stage",
+            "Can be broken back into individual blocks by placing in the world",
+            "Used in a Stonecutter to craft all oxidized copper decorative blocks",
+            "Four stages of copper oxidation: unoxidized, exposed, weathered, and oxidized",
+            "Only naturally oxidized copper can be crafted; waxing blocks prevents oxidation",
+            "Essential for building with the aged copper aesthetic"
+        ],
+        description: "Oxidized Copper is the final stage of copper's natural oxidation process, appearing as a teal-green material. When copper blocks naturally oxidize over time in Minecraft Bedrock Edition, they eventually reach this state. Players can break oxidized copper blocks in place to harvest the item, or obtain it by breaking naturally oxidized copper found in structures. In a Stonecutter, Oxidized Copper serves as the primary ingredient for crafting oxidized decorative blocks including stairs, slabs, and chiseled variants. This material is essential for builders seeking the weathered, ancient look without waiting for natural oxidation."
+    },
+    "minecraft:cut_copper": {
+        id: "minecraft:cut_copper",
+        name: "Cut Copper",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Cut Copper blocks with Stonecutter",
+            secondaryUse: "Storage of processed copper materials"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Created by placing Blocks of Copper in a Stonecutter"]
+        },
+        specialNotes: [
+            "Produced by placing a Block of Copper in a Stonecutter",
+            "Yields 4 units of Cut Copper per block (4x efficiency)",
+            "Used to craft Cut Copper blocks (stairs, slabs, chiseled)",
+            "Can be reverse-crafted into blocks in crafting grid",
+            "More efficient than manually cutting blocks",
+            "Essential for precise copper building and decoration",
+            "Does not retain oxidation state from original block"
+        ],
+        description: "Cut Copper is a processed form of copper created by placing a Block of Copper in a Stonecutter, which yields 4 units of the item. This material serves as the primary ingredient for crafting Cut Copper decorative blocks including stairs, slabs, and chiseled variants. In Bedrock Edition, the Stonecutter provides a 4x efficiency increase compared to crafting blocks manually. Cut Copper can also be reversed back into blocks in a crafting table. Unlike oxidized copper, this item does not retain the oxidation state of the original block, always producing the fresh orange variant. It is an essential material for precise and efficient copper-based construction."
     }
 };

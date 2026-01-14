@@ -2161,5 +2161,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/stone_shovel",
         themeColor: "§7" // Gray/Stone
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§b" // aqua/rare
+    },
+    {
+        id: "minecraft:oxidized_copper",
+        name: "Oxidized Copper",
+        category: "item",
+        icon: "textures/items/oxidized_copper",
+        themeColor: "§6" // orange/oxidized
+    },
+    {
+        id: "minecraft:cut_copper",
+        name: "Cut Copper",
+        category: "item",
+        icon: "textures/items/cut_copper",
+        themeColor: "§6" // copper
     }
 ];
