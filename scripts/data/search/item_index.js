@@ -2056,5 +2056,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_shovel",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:wooden_hoe",
+        name: "Wooden Hoe",
+        category: "item",
+        icon: "textures/items/wood_hoe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_hoe",
+        name: "Stone Hoe",
+        category: "item",
+        icon: "textures/items/stone_hoe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_hoe",
+        name: "Iron Hoe",
+        category: "item",
+        icon: "textures/items/iron_hoe",
+        themeColor: "§f" // iron/white
     }
 ];
