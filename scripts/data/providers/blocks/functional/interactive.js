@@ -494,5 +494,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:candle": {
+        id: "minecraft:candle",
+        name: "Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Candle is a light source block made from honeycomb and string. It can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 (max 12). Candles are unlit when placed and must be ignited with flint and steel or a fire charge. They can be waterlogged, but water will extinguish the flame. Candles come in 16 dyed variants plus the plain variant. They can also be placed on cakes to create a candle cake, perfect for celebrations."
     }
 };
