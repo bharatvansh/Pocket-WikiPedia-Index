@@ -687,5 +687,68 @@ export const vegetationBlocks = {
             yRange: "Deserts, Badlands, Giant Tree Taigas"
         },
         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+    },
+    "minecraft:waterlily": {
+        id: "minecraft:waterlily",
+        name: "Lily Pad",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lily Pad"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Swamps (on water)"
+        },
+        description: "A Lily Pad is a flat, aquatic plant block that generates naturally in Swamp biomes on top of water. It can be placed on water source blocks or flowing water, allowing players and mobs to walk across water without swimming. Lily pads break instantly when hit, but in Bedrock Edition, they also break if a boat collides with them at high speed, dropping the item. They are often used to create paths over water or in decorative ponds."
+    },
+    "minecraft:weeping_vines": {
+        id: "minecraft:weeping_vines",
+        name: "Weeping Vines",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Weeping Vines (33%)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest"
+        },
+        description: "Weeping Vines are a decorative plant block found in the Crimson Forest biome of the Nether. They grow downwards from the underside of blocks and can be climbed like ladders. Using Bone Meal on them causes them to grow downwards. They can be harvested instantly by hand, but using Shears is more efficient."
+    },
+    "minecraft:twisting_vines": {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Twisting Vines (33%)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Twisting Vines are a cyan-colored vegetation block found in the Warped Forest biome of the Nether. They grow upwards from the ground and can be climbed. Like Weeping Vines, they can be bonemealed to grow faster. They are useful for creating elevators or vertical access in the Nether. They break instantly and have a chance to drop themselves, or guaranteed with Shears/Silk Touch."
     }
 };
