@@ -2007,5 +2007,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deadbush",
         themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:acacia_log",
+        name: "Acacia Log",
+        category: "block",
+        icon: "textures/blocks/log_acacia",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:birch_log",
+        name: "Birch Log",
+        category: "block",
+        icon: "textures/blocks/log_birch",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:spruce_log",
+        name: "Spruce Log",
+        category: "block",
+        icon: "textures/blocks/log_spruce",
+        themeColor: "§6" // brown/gold
     }
 ];
