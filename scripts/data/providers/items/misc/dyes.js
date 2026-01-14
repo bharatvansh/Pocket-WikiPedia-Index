@@ -226,5 +226,77 @@ export const dyes = {
             "Essential for crafting black firework stars"
         ],
         description: "Black Dye is a primary color dye obtained from Ink Sacs (dropped by Squids) or Wither Roses. It is used to darken wool, terracotta, glass, concrete, and beds to a deep black color. In Bedrock Edition, it is essential for creating Gray Dye (mixed with White Dye). It is the required item for dyeing sign text black, as raw Ink Sacs cannot be used for this purpose. It is also used for custom banners, shulker boxes, and leather armor."
+    },
+    "minecraft:lime_dye": {
+        id: "minecraft:lime_dye",
+        name: "Lime Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks lime",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Green Dye + White Dye", "Sea Pickle (Smelting)"]
+        },
+        specialNotes: [
+            "Crafted by mixing Green Dye with White Dye or Bone Meal",
+            "Obtained by smelting Sea Pickles",
+            "Used to dye wool, terracotta, glass, concrete, and beds lime",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting lime firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Lime Dye is a secondary color dye obtained by mixing Green Dye with White Dye (or Bone Meal in Bedrock Edition), or by smelting a Sea Pickle. It provides a bright lime green color for dyeing building materials like wool, terracotta, glass, and concrete. In Bedrock Edition, it is also used to craft lime firework stars and can be applied to shulker boxes, leather armor, and even water in cauldrons."
+    },
+    "minecraft:pink_dye": {
+        id: "minecraft:pink_dye",
+        name: "Pink Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks pink",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Red Dye + White Dye", "Pink Tulip", "Peony"]
+        },
+        specialNotes: [
+            "Crafted from Pink Tulip, Peony, or Pink Petals",
+            "Created by mixing Red Dye with White Dye or Bone Meal",
+            "Used to dye wool, terracotta, glass, concrete, and beds pink",
+            "Mixed with Purple Dye to create Magenta Dye",
+            "Essential for crafting pink firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Pink Dye is a dye that can be crafted from various flowers including Pink Tulips, Peonies, and Pink Petals, or by mixing Red Dye with White Dye (or Bone Meal). It is used to color wool, sheep, terracotta, glass, and concrete a soft pink. In Bedrock Edition, Pink Dye is a key ingredient for mixing Magenta Dye and is also used for customizing leather armor, shulker boxes, and creating pink firework stars."
+    },
+    "minecraft:light_blue_dye": {
+        id: "minecraft:light_blue_dye",
+        name: "Light Blue Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks light blue",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blue Orchid", "Blue Dye + White Dye"]
+        },
+        specialNotes: [
+            "Crafted from Blue Orchid or by mixing Blue Dye with White Dye",
+            "Lapis Lazuli can substitute Blue Dye in the mixing recipe",
+            "Used to dye wool, terracotta, glass, concrete, and beds light blue",
+            "Mixed with other dyes to create cyan and magenta dyes",
+            "Essential for crafting light blue firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Light Blue Dye is a primary color dye obtained from Blue Orchids or by mixing Blue Dye (or Lapis Lazuli) with White Dye (or Bone Meal). It imparts a light blue hue to building blocks such as wool, terracotta, glass, and concrete. In Bedrock Edition, it is versatile in color mixing, contributing to the creation of Cyan and Magenta dyes. It is also used for dyeing shulker boxes, leather armor, and creating light blue firework stars."
     }
 };
