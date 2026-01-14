@@ -493,5 +493,47 @@ export const brickBlocks = {
             yRange: "Crafted only"
         },
         description: "Block of Emerald is a precious mineral block crafted from nine emeralds. It is primarily used for compact storage of emeralds, which are the main currency for trading with villagers. Like other mineral blocks, it can be used as a base for beacons to activate their powers. The block features a distinct bright green texture with a gem-like pattern, making it a popular choice for decorative accents and displays of wealth. It requires an iron pickaxe or better to mine; otherwise, it drops nothing. While emeralds can be found in mountain biomes, the block itself does not generate naturally."
+    },
+    "minecraft:deepslate_bricks": {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Deepslate Bricks are decorative blocks crafted from Polished Deepslate. They feature a distinct brick pattern and possess high durability with a hardness of 3.5 and blast resistance of 6.0. These blocks generate naturally in Ancient Cities and are ideal for building sturdy, dark-themed structures. They can be further crafted into stairs, slabs, and walls, or used to create Cracked Deepslate Bricks via smelting."
+    },
+    "minecraft:deepslate_tiles": {
+        id: "minecraft:deepslate_tiles",
+        name: "Deepslate Tiles",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Tiles"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Deepslate Tiles are decorative blocks crafted from Deepslate Bricks. They display a refined, tiled pattern suitable for flooring and detailed walls. Like other deepslate variants, they maintain a hardness of 3.5 and blast resistance of 6.0. Deepslate Tiles generate in Ancient Cities and can be crafted into stairs, slabs, and walls, or used to make Cracked Deepslate Tiles by smelting."
     }
 };

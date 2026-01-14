@@ -2091,5 +2091,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/twisting_vines",
         themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_cobbled",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_tiles",
+        name: "Deepslate Tiles",
+        category: "block",
+        icon: "textures/blocks/deepslate_tiles",
+        themeColor: "§8"
     }
 ];
