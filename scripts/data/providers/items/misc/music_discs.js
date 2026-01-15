@@ -79,6 +79,29 @@ export const musicDiscs = {
         ],
         description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
     },
+    "minecraft:music_disc_tears": {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Tears' music track in a Jukebox",
+            secondaryUse: "Comparator emits a signal strength of 10 when played"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts when killed by a player-deflected fireball"]
+        },
+        specialNotes: [
+            "Composed by Amos Roddy",
+            "Added in Java 1.21.6 and Bedrock 1.21.90 (preview)",
+            "Dropped by Ghasts when killed by a player-deflected fireball",
+            "Plays an electronic track lasting 2:55",
+            "Comparator output: 10 when played in a Jukebox"
+        ],
+        description: "'Tears' is a music disc composed by Amos Roddy and added in 2025. It is dropped by Ghasts when the player kills them by deflecting their fireball back at them. When played in a Jukebox it emits a comparator signal strength of 10 and plays an electronic track that remixes ghast sounds."
+    },
     "minecraft:music_disc_5": {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",
