@@ -14,6 +14,27 @@ export const itemIndex = [
         themeColor: "§f" // white/silver
     },
     {
+        id: "minecraft:arrow",
+        name: "Arrow",
+        category: "item",
+        icon: "textures/items/arrow",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:orange_dye",
+        name: "Orange Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_orange",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:magenta_dye",
+        name: "Magenta Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
         id: "minecraft:apple",
         name: "Apple",
         category: "item",
@@ -642,6 +663,27 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bucket_tadpole",
         themeColor: "§6" // Brown
+    },
+    {
+        id: "minecraft:cod_bucket",
+        name: "Bucket of Cod",
+        category: "item",
+        icon: "textures/items/cod_bucket",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:salmon_bucket",
+        name: "Bucket of Salmon",
+        category: "item",
+        icon: "textures/items/salmon_bucket",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        category: "item",
+        icon: "textures/items/tropical_fish_bucket",
+        themeColor: "§b" // aqua/water
     },
     {
         id: "minecraft:item_frame",
@@ -1302,13 +1344,6 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
-        id: "minecraft:chainmail_chestplate",
-        name: "Chainmail Chestplate",
-        category: "item",
-        icon: "textures/items/chainmail_chestplate",
-        themeColor: "§7" // gray
-    },
-    {
         id: "minecraft:netherite_sword",
         name: "Netherite Sword",
         category: "item",
@@ -1393,10 +1428,73 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:chest_minecart",
+        name: "Minecart with Chest",
+        category: "item",
+        icon: "textures/items/minecart_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:hopper_minecart",
+        name: "Minecart with Hopper",
+        category: "item",
+        icon: "textures/items/minecart_hopper",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:tnt_minecart",
+        name: "Minecart with TNT",
+        category: "item",
+        icon: "textures/items/minecart_tnt",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:oak_boat",
         name: "Oak Boat",
         category: "item",
         icon: "textures/items/boat_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        category: "item",
+        icon: "textures/items/boat_spruce",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:raft",
+        name: "Raft",
+        category: "item",
+        icon: "textures/items/raft",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:mangrove_boat",
+        name: "Mangrove Boat",
+        category: "item",
+        icon: "textures/items/boat_mangrove",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_boat",
+        name: "Cherry Boat",
+        category: "item",
+        icon: "textures/items/boat_cherry",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        category: "item",
+        icon: "textures/items/boat_bamboo",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:boat_oar",
+        name: "Boat Oar",
+        category: "item",
+        icon: "textures/items/boat_oar",
         themeColor: "§6"
     },
     {
@@ -1559,5 +1657,551 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bordure_indented_banner_pattern",
         themeColor: "§7" // gray/vines
+    },
+    {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        category: "item",
+        icon: "textures/items/cocoa_beans",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        category: "item",
+        icon: "textures/items/carrot",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:potato",
+        name: "Potato",
+        category: "item",
+        icon: "textures/items/potato",
+        themeColor: "§e" // yellow/skin
+    },
+    {
+        id: "minecraft:cooked_porkchop",
+        name: "Cooked Porkchop",
+        category: "item",
+        icon: "textures/items/porkchop_cooked",
+        themeColor: "§e" // beige/cooked meat
+    },
+    {
+        id: "minecraft:cooked_mutton",
+        name: "Cooked Mutton",
+        category: "item",
+        icon: "textures/items/mutton_cooked",
+        themeColor: "§6" // brown/cooked meat
+    },
+    {
+        id: "minecraft:cooked_rabbit",
+        name: "Cooked Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_cooked",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:cooked_cod",
+        name: "Cooked Cod",
+        category: "item",
+        icon: "textures/items/fish_cooked",
+        themeColor: "§f" // white/cooked fish
+    },
+    {
+        id: "minecraft:cooked_salmon",
+        name: "Cooked Salmon",
+        category: "item",
+        icon: "textures/items/fish_salmon_cooked",
+        themeColor: "§c" // red/salmon
+    },
+    {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        category: "item",
+        icon: "textures/items/melon",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_wait",
+        name: "Music Disc (Wait)",
+        category: "item",
+        icon: "textures/items/music_disc_wait",
+        themeColor: "§b" // Aqua
+    },
+    {
+        id: "minecraft:music_disc_strad",
+        name: "Music Disc (Strad)",
+        category: "item",
+        icon: "textures/items/music_disc_strad",
+        themeColor: "§f" // White
+    },
+    {
+        id: "minecraft:music_disc_mall",
+        name: "Music Disc (Mall)",
+        category: "item",
+        icon: "textures/items/music_disc_mall",
+        themeColor: "§5" // Purple
+    },
+    {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        category: "item",
+        icon: "textures/items/charcoal",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        category: "item",
+        icon: "textures/items/beetroot",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        category: "item",
+        icon: "textures/items/seeds_wheat",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:white_dye",
+        name: "White Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:red_dye",
+        name: "Red Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_red",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:blue_dye",
+        name: "Blue Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_blue",
+        themeColor: "§9" // blue
+    },
+    {
+        id: "minecraft:beetroot_seeds",
+        name: "Beetroot Seeds",
+        category: "item",
+        icon: "textures/items/seeds_beetroot",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:pumpkin_seeds",
+        name: "Pumpkin Seeds",
+        category: "item",
+        icon: "textures/items/seeds_pumpkin",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:melon_seeds",
+        name: "Melon Seeds",
+        category: "item",
+        icon: "textures/items/seeds_melon",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/record_cat",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        category: "item",
+        icon: "textures/items/record_blocks",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:music_disc_chirp",
+        name: "Music Disc (Chirp)",
+        category: "item",
+        icon: "textures/items/record_chirp",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        category: "item",
+        icon: "textures/items/prize_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:howl_pottery_sherd",
+        name: "Howl Pottery Sherd",
+        category: "item",
+        icon: "textures/items/howl_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        category: "item",
+        icon: "textures/items/plenty_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        category: "item",
+        icon: "textures/items/record_11",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        category: "item",
+        icon: "textures/items/record_mellohi",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
+        category: "item",
+        icon: "textures/items/record_stal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:music_disc_far",
+        name: "Music Disc (Far)",
+        category: "item",
+        icon: "textures/items/record_far",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        category: "item",
+        icon: "textures/items/record_ward",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:green_dye",
+        name: "Green Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_green",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:yellow_dye",
+        name: "Yellow Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_yellow",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:black_dye",
+        name: "Black Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_black",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:turtle_helmet",
+        name: "Turtle Shell",
+        category: "item",
+        icon: "textures/items/turtle_helmet",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/mourner_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:shelter_pottery_sherd",
+        name: "Shelter Pottery Sherd",
+        category: "item",
+        icon: "textures/items/shelter_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        category: "item",
+        icon: "textures/items/skull_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:wooden_sword",
+        name: "Wooden Sword",
+        category: "item",
+        icon: "textures/items/wood_sword",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_pickaxe",
+        name: "Stone Pickaxe",
+        category: "item",
+        icon: "textures/items/stone_pickaxe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_axe",
+        name: "Iron Axe",
+        category: "item",
+        icon: "textures/items/iron_axe",
+        themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:golden_sword",
+        name: "Golden Sword",
+        category: "item",
+        icon: "textures/items/gold_sword",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:golden_pickaxe",
+        name: "Golden Pickaxe",
+        category: "item",
+        icon: "textures/items/gold_pickaxe",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:golden_axe",
+        name: "Golden Axe",
+        category: "item",
+        icon: "textures/items/gold_axe",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        category: "item",
+        icon: "textures/items/beef_raw",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        category: "item",
+        icon: "textures/items/porkchop_raw",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        category: "item",
+        icon: "textures/items/mutton_raw",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:wooden_pickaxe",
+        name: "Wooden Pickaxe",
+        category: "item",
+        icon: "textures/items/wood_pickaxe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:iron_pickaxe",
+        name: "Iron Pickaxe",
+        category: "item",
+        icon: "textures/items/iron_pickaxe",
+        themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:diamond_axe",
+        name: "Diamond Axe",
+        category: "item",
+        icon: "textures/items/diamond_axe",
+        themeColor: "§b" // diamond/aqua
+    },
+    {
+        id: "minecraft:wooden_axe",
+        name: "Wooden Axe",
+        category: "item",
+        icon: "textures/items/wood_axe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_axe",
+        name: "Stone Axe",
+        category: "item",
+        icon: "textures/items/stone_axe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_shovel",
+        name: "Iron Shovel",
+        category: "item",
+        icon: "textures/items/iron_shovel",
+        themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:stone_sword",
+        name: "Stone Sword",
+        category: "item",
+        icon: "textures/items/stone_sword",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:diamond_shovel",
+        name: "Diamond Shovel",
+        category: "item",
+        icon: "textures/items/diamond_shovel",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:golden_shovel",
+        name: "Golden Shovel",
+        category: "item",
+        icon: "textures/items/gold_shovel",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:wooden_hoe",
+        name: "Wooden Hoe",
+        category: "item",
+        icon: "textures/items/wood_hoe",
+        themeColor: "§6" // wood/brown
+    },
+    {
+        id: "minecraft:stone_hoe",
+        name: "Stone Hoe",
+        category: "item",
+        icon: "textures/items/stone_hoe",
+        themeColor: "§7" // stone/gray
+    },
+    {
+        id: "minecraft:iron_hoe",
+        name: "Iron Hoe",
+        category: "item",
+        icon: "textures/items/iron_hoe",
+        themeColor: "§f" // iron/white
+    },
+    {
+        id: "minecraft:lime_dye",
+        name: "Lime Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_lime",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:pink_dye",
+        name: "Pink Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_pink",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:light_blue_dye",
+        name: "Light Blue Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_light_blue",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:chainmail_helmet",
+        name: "Chainmail Helmet",
+        category: "item",
+        icon: "textures/items/chainmail_helmet",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chainmail_chestplate",
+        name: "Chainmail Chestplate",
+        category: "item",
+        icon: "textures/items/chainmail_chestplate",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chainmail_leggings",
+        name: "Chainmail Leggings",
+        category: "item",
+        icon: "textures/items/chainmail_leggings",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        category: "item",
+        icon: "textures/items/heart_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:eye_armor_trim_smithing_template",
+        name: "Eye Armor Trim Smithing Template",
+        category: "item",
+        icon: "textures/items/eye_armor_trim_smithing_template",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        category: "item",
+        icon: "textures/items/boat_birch",
+        themeColor: "§f" // white/wood
+    },
+    {
+        id: "minecraft:chainmail_boots",
+        name: "Chainmail Boots",
+        category: "item",
+        icon: "textures/items/chainmail_boots",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:wooden_shovel",
+        name: "Wooden Shovel",
+        category: "item",
+        icon: "textures/items/wood_shovel",
+        themeColor: "§6" // Gold/Wood
+    },
+    {
+        id: "minecraft:stone_shovel",
+        name: "Stone Shovel",
+        category: "item",
+        icon: "textures/items/stone_shovel",
+        themeColor: "§7" // Gray/Stone
+    },
+    {
+        id: "minecraft:potion",
+        name: "Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:splash_potion",
+        name: "Splash Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_splash",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:lingering_potion",
+        name: "Lingering Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_lingering",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        category: "item",
+        icon: "textures/items/bucket_pufferfish",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:command_block_minecart",
+        name: "Minecart with Command Block",
+        category: "item",
+        icon: "textures/items/minecart_command_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        category: "item",
+        icon: "textures/items/boat_jungle",
+        themeColor: "§6" // gold/wood
     }
 ];
