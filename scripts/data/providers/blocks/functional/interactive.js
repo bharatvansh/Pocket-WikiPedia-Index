@@ -536,5 +536,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Structure Void is an invisible, intangible block used to indicate empty space in structures saved with Structure Blocks. When a structure is loaded, blocks in the target area are not overwritten if the corresponding block in the saved structure is a structure void. It is distinct from air, which overwrites existing blocks with air. Visible only when holding a structure void item or enabling 'Show Invisible Blocks', it allows for complex structure merging and terrain preservation."
+    },
+    "minecraft:wet_sponge": {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wet Sponge"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "A Wet Sponge is a variant of the sponge block that has already absorbed water and cannot absorb more. It is found naturally in ocean monuments or created when a dry sponge comes into contact with water. Unlike dry sponges, wet sponges do not have any absorbent properties. To reuse a wet sponge, it must be dried in a furnace or placed in the Nether, where it instantly turns back into a dry sponge. In Bedrock Edition, wet sponges can also be dried by placing them in dry biomes or using a bucket during smelting to collect the water."
     }
 };

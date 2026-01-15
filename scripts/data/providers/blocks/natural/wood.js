@@ -346,5 +346,26 @@ export const woodBlocks = {
             yRange: "Surface (Savanna biomes)"
         },
         description: "Acacia logs come from the uniquely shaped, umbrella-like acacia trees found in the savanna biome. They feature a dark gray bark and a distinctive vibrant orange interior wood. This striking color contrast makes acacia logs a popular choice for unique architectural designs and decorative accents. They can be crafted into acacia planks, which retain the warm orange hue, making them ideal for adding a splash of color to desert or savanna-dwelling structures."
+    },
+    "minecraft:mangrove_leaves": {
+        id: "minecraft:mangrove_leaves",
+        name: "Mangrove Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Mangrove Propagule", "Mangrove Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "63 to 100 (Mangrove Swamps)"
+        },
+        description: "Mangrove Leaves are the dense, vibrant foliage found on Mangrove trees in Mangrove Swamp biomes. They are unique among leaves because they support the growth of Mangrove Propagules, which hang from the underside of the leaf blocks. These leaves can be harvested using shears or a tool with Silk Touch. Like other leaf variants, they can be used for decoration or composting. They provide a lush, dark green canopy that is characteristic of the swampy environments they inhabit."
     }
 };
