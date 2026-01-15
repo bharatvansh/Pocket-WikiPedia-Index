@@ -2273,5 +2273,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/log_acacia",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:wet_sponge",
+        name: "Wet Sponge",
+        category: "block",
+        icon: "textures/blocks/sponge_wet",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_leaves",
+        name: "Mangrove Leaves",
+        category: "block",
+        icon: "textures/blocks/mangrove_leaves",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:warped_planks",
+        name: "Warped Planks",
+        category: "block",
+        icon: "textures/blocks/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:crimson_planks",
+        name: "Crimson Planks",
+        category: "block",
+        icon: "textures/blocks/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mud_brick_stairs",
+        name: "Mud Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/mud_brick_stairs",
+        themeColor: "§6"
     }
 ];

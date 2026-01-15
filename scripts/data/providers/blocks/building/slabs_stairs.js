@@ -218,5 +218,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:mud_brick_stairs": {
+        id: "minecraft:mud_brick_stairs",
+        name: "Mud Brick Stairs",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Mud Bricks"
+        },
+        description: "Mud Brick Stairs are the stair-shaped variant of mud bricks, introduced in 1.19's Wild Update. They offer a warm, earthy-brown aesthetic that is perfect for desert, swamp, or rustic-themed builds. Crafted from six mud bricks or via a stonecutter, they allow for smooth vertical transitions and detailed roofing. While they have relatively low blast resistance compared to stone stairs, they provide a unique texture that bridges the gap between wood and stone. They can be waterlogged and placed in various orientations to create complex architectural details."
     }
 };
