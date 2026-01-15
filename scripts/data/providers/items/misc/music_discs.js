@@ -190,6 +190,29 @@ export const musicDiscs = {
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
     },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays; also found in Monster Room, Ancient City, and Woodland Mansion chests"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Found in Monster Room (19.4%), Ancient City (16.1%), and Woodland Mansion (21.5%) chest loot",
+            "Drops when a Creeper is killed by a Skeleton or Stray",
+            "Track length: 3:05",
+            "Comparator output: 2"
+        ],
+        description: "Music Disc 'Cat' is a classic disc composed by C418. Its upbeat, chiptune-style melody (3:05) is found in Monster Room, Ancient City, and Woodland Mansion chests and can also drop when a Creeper is killed by a Skeleton or Stray. When played in a Jukebox, it causes a Comparator to emit a signal strength of 2."
+    },
     "minecraft:music_disc_tears": {
         id: "minecraft:music_disc_tears",
         name: "Music Disc (Tears)",
