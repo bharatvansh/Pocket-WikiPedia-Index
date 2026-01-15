@@ -2154,5 +2154,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wooden_button",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:quartz_ore",
+        name: "Nether Quartz Ore",
+        category: "block",
+        icon: "textures/blocks/nether_quartz_ore",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:chiseled_nether_bricks",
+        name: "Chiseled Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/chiseled_nether_bricks",
+        themeColor: "§4"
     }
 ];
