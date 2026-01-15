@@ -208,18 +208,16 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          echo "status=no_issues" >> $GITHUB_OUTPUT
-          # Temporarily disabled
-          # cd .github/scripts
-          # node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt
+          cd .github/scripts
+          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt
           
           # Read the status (has_issues or no_issues)
-          # if [ -f ../../verification_status.txt ]; then
-          #   STATUS=$(cat ../../verification_status.txt)
-          #   echo "status=$STATUS" >> $GITHUB_OUTPUT
-          # else
-          #   echo "status=no_issues" >> $GITHUB_OUTPUT
-          # fi
+          if [ -f ../../verification_status.txt ]; then
+            STATUS=$(cat ../../verification_status.txt)
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+          else
+            echo "status=no_issues" >> $GITHUB_OUTPUT
+          fi
           
       - name: Post verification summary
         if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
