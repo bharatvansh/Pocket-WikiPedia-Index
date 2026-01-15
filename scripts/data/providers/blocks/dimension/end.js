@@ -160,7 +160,7 @@ export const endBlocks = {
     "minecraft:purpur_slab": {
         id: "minecraft:purpur_slab",
         name: "Purpur Slab",
-        hardness: 1.5,
+        hardness: 2.0,
         blastResistance: 6.0,
         flammability: false,
         gravityAffected: false,

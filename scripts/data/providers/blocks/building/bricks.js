@@ -576,7 +576,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: null
         },
-        description: "Mossy Stone Bricks are a variant of stone bricks covered in vines and moss, giving them an overgrown and ancient appearance. They generate naturally in strongholds, jungle temples, and dungeons. Players can craft them by combining stone bricks with moss blocks or vines. They are perfect for building hidden ruins, forest dwellings, or adding age to stone structures. Like regular stone bricks, they are durable and require a pickaxe to mine. They can be further crafted into mossy stone brick slabs, stairs, and walls, offering versatility for nature-integrated architectural designs."
+        description: "Mossy Stone Bricks are a variant of stone bricks covered in vines and moss, giving them an overgrown and ancient appearance. They generate naturally in strongholds, ocean ruins, trail ruins, and igloo basements. Players can craft them by combining stone bricks with moss blocks or vines. They are perfect for building hidden ruins, forest dwellings, or adding age to stone structures. Like regular stone bricks, they are durable and require a pickaxe to mine. They can be further crafted into mossy stone brick slabs, stairs, and walls, offering versatility for nature-integrated architectural designs."
     },
     "minecraft:cracked_stone_bricks": {
         id: "minecraft:cracked_stone_bricks",
