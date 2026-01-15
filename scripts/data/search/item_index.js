@@ -2182,5 +2182,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/potion_bottle_lingering",
         themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        category: "item",
+        icon: "textures/items/bucket_pufferfish",
+        themeColor: "§b" // aqua/water
+    },
+    {
+        id: "minecraft:command_block_minecart",
+        name: "Minecart with Command Block",
+        category: "item",
+        icon: "textures/items/minecart_command_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        category: "item",
+        icon: "textures/items/boat_jungle",
+        themeColor: "§6" // gold/wood
     }
 ];

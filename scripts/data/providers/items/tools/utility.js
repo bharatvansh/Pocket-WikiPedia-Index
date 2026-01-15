@@ -502,5 +502,28 @@ export const utilityTools = {
             "Essential for creating diverse underwater ecosystems and displays"
         ],
         description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
+    },
+    "minecraft:pufferfish_bucket": {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting pufferfish safely between locations",
+            secondaryUse: "Creating aquatic displays with pufferfish"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a pufferfish mob",
+            "Preserves the pufferfish's health state when stored",
+            "Places water and spawns the pufferfish when used on a block",
+            "Pufferfish inflict poison if approached by players in Survival mode",
+            "Essential for moving pufferfish to aquariums or defensive moats"
+        ],
+        description: "A Bucket of Pufferfish is a utility item used to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. This item allows players to move these dangerous aquatic mobs without direct contact, which would otherwise inflict poison. When used, the bucket creates a water source block and releases the pufferfish. It is commonly used to create defensive moats or decorative aquariums, as pufferfish puff up when threatened."
     }
 };
