@@ -2210,5 +2210,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_jungle",
         themeColor: "§6" // gold/wood
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§d" // Epic rarity (Purple/Light Purple)
+    },
+    {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        category: "item",
+        icon: "textures/items/sniffer_egg",
+        themeColor: "§2" // uncommon/greenish
     }
 ];

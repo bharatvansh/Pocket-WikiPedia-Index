@@ -1520,5 +1520,30 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Decorative block and snare drum sound source for Note Blocks"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Looted from Ominous Vaults (7.25% - 8.3% chance)",
+            "Combined with a Breeze Rod to craft a Mace",
+            "High blast resistance (30) makes it explosion-resistant",
+            "Makes a snare drum sound when placed under a Note Block",
+            "Can be pushed by pistons but not pulled by sticky pistons",
+            "Sitting centered on a block, it serves as a unique decoration",
+            "Introduced in the 1.21 Tricky Trials update"
+        ],
+        description: "The Heavy Core is a rare, dense block discovered within Ominous Vaults in Trial Chambers. Its primary purpose is the creation of the Mace, a devastating weapon that scales damage with fall distance. Beyond combat, its unique properties allow it to serve as a durable, blast-resistant building block or a musical component for Note Blocks. Its small, centered model makes it an excellent choice for detailed industrial or high-tech decorations."
     }
 };
