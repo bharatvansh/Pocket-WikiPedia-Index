@@ -553,7 +553,7 @@ export const brickBlocks = {
         drops: ["Chiseled Stone Bricks"],
         generation: {
             dimension: "Overworld",
-            yRange: "Strongholds, Jungle Temples, Igloo Basements"
+            yRange: null
         },
         description: "Chiseled Stone Bricks are a decorative variant of stone bricks featuring a distinctive square pattern. They are crafted by stacking two stone brick slabs vertically or by using a stonecutter on a stone brick block. These blocks generate naturally in strongholds, jungle temples, and igloo basements. They are primarily used as accent blocks for columns and corners in stone-based architecture. Chiseled stone bricks can also be used to craft lodestones when combined with a netherite ingot, making them valuable for navigation. Their intricate design adds a touch of ancient masonry to any build."
     },
@@ -574,7 +574,7 @@ export const brickBlocks = {
         drops: ["Mossy Stone Bricks"],
         generation: {
             dimension: "Overworld",
-            yRange: "Strongholds, Jungle Temples, Dungeons"
+            yRange: null
         },
         description: "Mossy Stone Bricks are a variant of stone bricks covered in vines and moss, giving them an overgrown and ancient appearance. They generate naturally in strongholds, jungle temples, and dungeons. Players can craft them by combining stone bricks with moss blocks or vines. They are perfect for building hidden ruins, forest dwellings, or adding age to stone structures. Like regular stone bricks, they are durable and require a pickaxe to mine. They can be further crafted into mossy stone brick slabs, stairs, and walls, offering versatility for nature-integrated architectural designs."
     },
@@ -595,7 +595,7 @@ export const brickBlocks = {
         drops: ["Cracked Stone Bricks"],
         generation: {
             dimension: "Overworld",
-            yRange: "Strongholds, Igloo Basements, Smelting"
+            yRange: null
         },
         description: "Cracked Stone Bricks are a weathered version of stone bricks that feature visible cracks across their surface. They are created by smelting regular stone bricks in a furnace or found naturally in strongholds and igloo basements. These blocks are excellent for depicting ruins, aged dungeons, or structural instability in builds. Despite their damaged look, they maintain a hardness of 1.5 and blast resistance of 6.0, the same as standard stone bricks. Silverfish can also hide inside infested versions of this block, which can be found in strongholds near the end portal."
     }

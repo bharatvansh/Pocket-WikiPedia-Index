@@ -174,7 +174,7 @@ export const endBlocks = {
         drops: ["Purpur Slab"],
         generation: {
             dimension: "The End",
-            yRange: "End Cities"
+            yRange: null
         },
         description: "Purpur Slabs are half-block variants of Purpur Blocks, introduced to provide more flexibility in End-themed architecture. They feature the same vibrant purple color and shell-like texture as regular Purpur. Crafted from three Purpur Blocks or by using a stonecutter, they are essential for creating smooth elevation changes, detailed flooring, and intricate roof designs in End Cities. They generate naturally as part of the architecture within End Cities and End Ships. Being fire-resistant and moderately durable, they are both decorative and functional components for builders exploring the End."
     },
@@ -195,7 +195,7 @@ export const endBlocks = {
         drops: ["Purpur Stairs"],
         generation: {
             dimension: "The End",
-            yRange: "End Cities and End Ships"
+            yRange: null
         },
         description: "Purpur Stairs are the stair-shaped variant of Purpur Blocks, used extensively in the construction of End Cities and End Ships. They allow players to navigate vertical spaces easily while maintaining the unique aesthetic of the End dimension. Crafted from six Purpur Blocks or obtained through a stonecutter, these stairs are waterloggable and can be placed in various orientations. They share the same properties as Purpur Blocks, including a hardness of 1.5 and blast resistance of 6.0. Their bright purple hue makes them a striking choice for any build requiring a touch of alien elegance."
     }
