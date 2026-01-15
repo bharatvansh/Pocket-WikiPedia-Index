@@ -2209,6 +2209,19 @@ export const itemIndex = [
         name: "Jungle Boat",
         category: "item",
         icon: "textures/items/boat_jungle",
-        themeColor: "§6" // gold/wood
+    },
+    {
+        id: "minecraft:netherite_leggings",
+        name: "Netherite Leggings",
+        category: "item",
+        icon: "textures/items/netherite_leggings",
+        themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:netherite_boots",
+        name: "Netherite Boots",
+        category: "item",
+        icon: "textures/items/netherite_boots",
+        themeColor: "§8" // dark gray/netherite
     }
 ];
