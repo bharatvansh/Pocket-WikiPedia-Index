@@ -1400,6 +1400,20 @@ export const itemIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:music_disc_wait",
+        name: "Music Disc (Wait)",
+        category: "item",
+        icon: "textures/items/music_disc_wait",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        category: "item",
+        icon: "textures/items/music_disc_mellohi",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:glowstone_dust",
         name: "Glowstone Dust",
         category: "item",

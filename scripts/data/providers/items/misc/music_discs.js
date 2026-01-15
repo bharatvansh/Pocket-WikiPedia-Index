@@ -213,6 +213,52 @@ export const musicDiscs = {
         ],
         description: "Music Disc 'Cat' is a classic disc composed by C418. Its upbeat, chiptune-style melody (3:05) is found in Monster Room, Ancient City, and Woodland Mansion chests and can also drop when a Creeper is killed by a Skeleton or Stray. When played in a Jukebox, it causes a Comparator to emit a signal strength of 2."
     },
+    "minecraft:music_disc_wait": {
+        id: "minecraft:music_disc_wait",
+        name: "Music Disc (Wait)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Wait' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 12 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons, Strays, or Bogged"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Track length: 3:58",
+            "Redstone signal strength: 12",
+            "Rarity: Uncommon (as of Bedrock 1.21.30)",
+            "Originally titled 'Where Are We Now' on the Volume Beta soundtrack"
+        ],
+        description: "'Wait' is a classic music disc composed by C418, featuring an upbeat and synth-heavy melody that is highly nostalgic for many players. It is part of the standard set of discs primarily obtained when a Skeleton, Stray, or Bogged kills a Creeper. In Bedrock Edition, its rarity was updated to Uncommon in the 1.21.30 update. When played in a Jukebox, it outputs a strong redstone signal of 12, making it useful for disc-based redstone mechanisms."
+    },
+    "minecraft:music_disc_mellohi": {
+        id: "minecraft:music_disc_mellohi",
+        name: "Music Disc (Mellohi)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mellohi' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 7 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons, Strays, or Bogged"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Track length: 1:36",
+            "Redstone signal strength: 7",
+            "Rarity: Uncommon (as of Bedrock 1.21.30)",
+            "Features a slow, melancholic, waltz-like melody"
+        ],
+        description: "'Mellohi' is a music disc composed by C418, known for its slow, haunting, and waltz-like melody. Its atmospheric sound makes it a favorite for players looking to set a mysterious or spooky mood in their builds. It is obtained when a Creeper is killed by a Skeleton, Stray, or Bogged. Following the 1.21.30 Bedrock update, its rarity is classified as Uncommon. When placed in a Jukebox, it outputs a redstone signal strength of 7."
+    },
     "minecraft:music_disc_tears": {
         id: "minecraft:music_disc_tears",
         name: "Music Disc (Tears)",
