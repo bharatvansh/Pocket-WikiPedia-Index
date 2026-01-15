@@ -595,8 +595,7 @@ export const netherBlocks = {
         },
         drops: ["Cracked Nether Bricks"],
         generation: {
-            dimension: "Nether",
-            yRange: null
+            dimension: "None"
         },
         description: "Cracked Nether Bricks are a decorative variant of nether bricks that appear aged and fractured. They are obtained by smelting regular nether bricks in a furnace. These blocks provide a weathered aesthetic to Nether fortresses and other dark-themed builds, suggesting long-term exposure to the Nether's intense heat. While they share the same resistance and hardness as regular nether bricks, they cannot be used to craft stairs or slabs. They are particularly effective when mixed with standard nether bricks to create textured, ruined walls and historical structures."
     }
