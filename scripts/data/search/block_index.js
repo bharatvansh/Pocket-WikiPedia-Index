@@ -2133,5 +2133,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wooden_button",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        category: "block",
+        icon: "textures/blocks/log_oak",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:oak_leaves",
+        name: "Oak Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_oak",
+        themeColor: "§2" // green
     }
 ];

@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const plankBlocks = {
+    "minecraft:oak_planks": {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oak Logs"
+        },
+        description: "Oak Planks are a common building block crafted from Oak Logs. They feature a light brown color with a classic wood grain texture. As one of the most widely used materials, they are essential for crafting tools, crafting tables, chests, and sticks. They have a hardness of 2.0 and blast resistance of 3.0, making them suitable for basic shelter. Oak planks are flammable and can be used as fuel. They are the base material for oak stairs, slabs, fences, and doors."
+    },
     "minecraft:cherry_planks": {
         id: "minecraft:cherry_planks",
         name: "Cherry Planks",
