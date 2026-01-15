@@ -11,6 +11,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const oreBlocks = {
+    "minecraft:coal_ore": {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Coal (1, affected by Fortune)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320 (and -64 to 192)"
+        },
+        description: "Coal Ore is a common mineral block found in the Overworld that drops Coal when mined. It is the most abundant ore and can be found at almost any elevation, though it is most common near the surface and in mountain biomes. Coal is an essential early-game resource used primarily as fuel for furnaces and to craft torches. Mining coal ore also drops experience orbs, making it a good source of XP."
+    },
     "minecraft:iron_ore": {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
