@@ -2238,5 +2238,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/purpur_block",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        category: "block",
+        icon: "textures/blocks/log_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_log",
+        name: "Spruce Log",
+        category: "block",
+        icon: "textures/blocks/log_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_log",
+        name: "Birch Log",
+        category: "block",
+        icon: "textures/blocks/log_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_log",
+        name: "Jungle Log",
+        category: "block",
+        icon: "textures/blocks/log_jungle",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:acacia_log",
+        name: "Acacia Log",
+        category: "block",
+        icon: "textures/blocks/log_acacia",
+        themeColor: "§7"
     }
 ];
