@@ -241,5 +241,47 @@ export const woodBlocks = {
             yRange: "Crafted from Crimson Stem"
         },
         description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
+    },
+    "minecraft:oak_log": {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Forest, Plains, Swamp, Jungle)"
+        },
+        description: "Oak Log is a natural wood block obtained from Oak trees, which are found in many biomes such as Plains, Forests, Swamps, and Jungles. It has a brown bark and is one of the most common wood types in Minecraft. It can be stripped using an axe to create Stripped Oak Log, or crafted into Oak Planks, wood, smoke, or charcoal. In Bedrock Edition, it is a key resource for early-game survival."
+    },
+    "minecraft:oak_leaves": {
+        id: "minecraft:oak_leaves",
+        name: "Oak Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Oak Sapling (5%)", "Apple (0.5%)", "Stick (1-2)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Forest, Plains, Swamp)"
+        },
+        description: "Oak Leaves are the foliage of Oak trees, found abundantly in Forest, Plains, and Swamp biomes. They are a transparent block that decays if not connected to a log. When destroyed, they have a chance to drop Oak Saplings or Apples. Shears can be used to harvest the leaves themselves. In Bedrock Edition, leaves change color depending on the biome they are placed in, making them useful for landscaping."
     }
 };
