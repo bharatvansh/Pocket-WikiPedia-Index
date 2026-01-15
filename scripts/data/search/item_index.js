@@ -1601,5 +1601,19 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bordure_indented_banner_pattern",
         themeColor: "§7" // gray/vines
+    },
+    {
+        id: "minecraft:netherite_leggings",
+        name: "Netherite Leggings",
+        category: "item",
+        icon: "textures/items/netherite_leggings",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:netherite_boots",
+        name: "Netherite Boots",
+        category: "item",
+        icon: "textures/items/netherite_boots",
+        themeColor: "§8"
     }
 ];
