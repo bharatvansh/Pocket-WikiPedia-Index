@@ -11,6 +11,60 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const cookedFood = {
+    "minecraft:cooked_rabbit": {
+        id: "minecraft:cooked_rabbit",
+        name: "Cooked Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Ingredient for Rabbit Stew and healing wolves"
+        },
+        food: {
+            hunger: 5,
+            saturation: 6.0
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Rabbit", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 5 hunger (2.5 drumsticks) and 6.0 saturation",
+            "Obtained by smelting raw rabbit or killing rabbits with fire",
+            "Key ingredient for crafting Rabbit Stew",
+            "Can be fed to wolves to heal them in Bedrock Edition",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Rabbit is a food item obtained by cooking raw rabbit in a furnace, smoker, or campfire. It restores 5 hunger points and 6.0 saturation, making it comparable to bread or baked potatoes. Its primary utility lies in being a core ingredient for Rabbit Stew, which provides massive hunger restoration. Additionally, in Bedrock Edition, cooked rabbit can be used to heal tamed wolves, adding to its value for pet owners."
+    },
+    "minecraft:cooked_salmon": {
+        id: "minecraft:cooked_salmon",
+        name: "Cooked Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Healing wolves"
+        },
+        food: {
+            hunger: 6,
+            saturation: 9.6
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Salmon", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger (3 drumsticks) and 9.6 saturation",
+            "Obtained by smelting raw salmon or killing salmon/polar bears with fire",
+            "Significantly better stats than cooked cod (matches cooked mutton)",
+            "Can be fed to wolves to heal them in Bedrock Edition",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Salmon is a nutritious food item obtained by cooking raw salmon. It restores 6 hunger points and provides 9.6 saturation, making it a superior food source compared to cooked cod and statistically identical to cooked mutton. It is easily sourced from rivers and oceans where salmon are abundant. In Bedrock Edition, it also serves as a healing item for tamed wolves, making it a versatile resource for survival and exploration."
+    },
     "minecraft:rabbit_stew": {
         id: "minecraft:rabbit_stew",
         name: "Rabbit Stew",
@@ -351,7 +405,7 @@ export const cookedFood = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "High-tier food source",
+            primaryUse: "High-value food source",
             secondaryUse: "Breeding and healing wolves"
         },
         food: {
@@ -363,23 +417,23 @@ export const cookedFood = {
             ingredients: ["Raw Porkchop", "Fuel"]
         },
         specialNotes: [
-            "Restores 8 hunger points (4 drumsticks) and 12.8 saturation",
-            "One of the best food items for saturation in Bedrock Edition",
+            "Restores 8 hunger (4 drumsticks) and 12.8 saturation",
             "Obtained by smelting raw porkchop or killing pigs with fire",
-            "Can be used to breed, heal, and speed up growth of wolves",
-            "Stackable up to 64, making it ideal for exploration and combat"
+            "Statistically identical to Steak",
+            "Can be used to breed, heal, and grow wolves",
+            "Stackable up to 64"
         ],
-        description: "Cooked Porkchop is a high-tier food item in Minecraft Bedrock Edition, obtained by cooking raw porkchop. It is identical to steak in its nutritional value, providing 8 hunger points and 12.8 saturation points, making it one of the most reliable food sources for keeping the hunger bar filled during long explorations or combat. Pigs drop 1-3 cooked porkchops when killed while on fire, providing an easy way to gather food in the wild. Like other meats, it can also be used to manage tamed wolves."
+        description: "Cooked Porkchop is a high-energy food item obtained by cooking raw porkchop in a furnace, smoker, or campfire. It can also be obtained directly by killing pigs or hoglins with fire. Statistically identical to steak, it restores 8 hunger points and provides excellent saturation (12.8), making it one of the best food sources for sustaining health and hunger during long adventures or combat encounters. It serves as a reliable staple for players who farm pigs."
     },
-    "minecraft:cooked_salmon": {
-        id: "minecraft:cooked_salmon",
-        name: "Cooked Salmon",
+    "minecraft:cooked_mutton": {
+        id: "minecraft:cooked_mutton",
+        name: "Cooked Mutton",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Excellent food source",
-            secondaryUse: "Taming and breeding cats"
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing wolves"
         },
         food: {
             hunger: 6,
@@ -387,15 +441,42 @@ export const cookedFood = {
         },
         crafting: {
             recipeType: "Smelting",
-            ingredients: ["Raw Salmon", "Fuel"]
+            ingredients: ["Raw Mutton", "Fuel"]
         },
         specialNotes: [
-            "Restores 6 hunger points (3 drumsticks) and 9.6 saturation",
-            "Obtained by smelting raw salmon or killing salmon with fire",
-            "Guardians and Elder Guardians have a chance to drop it when killed",
-            "Can be used to tame and breed cats in Bedrock Edition",
-            "High saturation makes it significantly better than cooked cod"
+            "Restores 6 hunger (3 drumsticks) and 9.6 saturation",
+            "Obtained by smelting raw mutton or killing sheep with fire",
+            "Can be used to breed, heal, and grow wolves",
+            "Stackable up to 64",
+            "A byproduct of sheep wool farms"
         ],
-        description: "Cooked Salmon is an excellent food source obtained by cooking raw salmon in a furnace, smoker, or campfire. It provides 6 hunger points and 9.6 saturation, placing it above cooked cod in terms of nutritional value. In Bedrock Edition, cooked salmon is particularly useful for cat owners, as it can be used to tame and breed cats, as well as speed up the growth of kittens. It can also be obtained as a drop from Guardians, making it a common find during ocean monument raids."
+        description: "Cooked Mutton is a nutritious food item obtained by cooking raw mutton or killing sheep with fire. Restoring 6 hunger points and providing solid saturation (9.6), it serves as a reliable food source for players who raise sheep for wool. While slightly less nutritious than steak or porkchops, it is a valuable byproduct of wool farms and offers a good balance of availability and sustenance."
+    },
+    "minecraft:cooked_cod": {
+        id: "minecraft:cooked_cod",
+        name: "Cooked Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Healing wolves"
+        },
+        food: {
+            hunger: 5,
+            saturation: 6.0
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Cod", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 5 hunger (2.5 drumsticks) and 6.0 saturation",
+            "Obtained by smelting raw cod or killing cod with fire",
+            "Can be fed to wolves to heal them",
+            "Cats can be fed cooked cod to heal them (but prefer raw to tame)",
+            "Stackable up to 64"
+        ],
+        description: "Cooked Cod is a food item obtained by cooking raw cod in a furnace, smoker, or campfire. It restores 5 hunger points and 6 saturation, making it equal to bread or baked potatoes in nutritional value. Easily obtained from the abundant cod found in oceans, it is a convenient food source for players living near water or exploring marine biomes. It can also be fed to wolves to heal them."
     }
 };

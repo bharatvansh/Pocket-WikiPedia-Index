@@ -479,7 +479,7 @@ export const craftingMaterials = {
             "Used to craft cyan dye when combined with green dye",
             "Can be obtained from suspicious gravel and suspicious sand in trail ruins"
         ],
-        description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves a dual purpose as blue dye for coloring wool, banners, and concrete. Beyond its essential role in magical enhancement, lapis can be crafted into blocks for storage and decoration, making it both a functional and aesthetic resource."
+        description: "Lapis Lazuli is a deep blue mineral primarily used to power the enchanting system. Unlike other materials, lapis is consumed each time a player uses an Enchantment Table, with costs scaling based on enchantment level. Mined from lapis ore found at various depths underground, it serves as both a placeable wire for transmitting power and a crafting ingredient for numerous redstone components. When placed on blocks, it forms circuits that can transmit signals up to 15 blocks, powering mechanisms like pistons, doors, and dispensers. Redstone is also essential for crafting clocks, compasses, and advanced redstone devices, making it crucial for automation and complex builds."
     },
     "minecraft:paper": {
         id: "minecraft:paper",
@@ -1012,6 +1012,30 @@ export const craftingMaterials = {
         ],
         description: "The Blade Pottery Sherd is a decorative item obtained through underwater archaeology in Cold Ocean Ruins. Players must carefully brush Suspicious Gravel blocks to uncover this sherd, which displays a stylized sword blade pattern. In Bedrock Edition, it serves as a crafting component for Decorated Pots, allowing builders to create custom pottery with a warrior or combat theme. When four sherds or bricks are combined in a crafting recipe, the blade design appears on the corresponding side of the finished pot."
     },
+    "minecraft:heart_pottery_sherd": {
+        id: "minecraft:heart_pottery_sherd",
+        name: "Heart Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Heart motif",
+            secondaryUse: "Collecting rare archaeological treasures"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Cold Ocean Ruins",
+            "Features a simple heart design symbolizing love or health",
+            "Rare suspicious sand drop",
+            "Used in crafting Decorated Pots to display the heart pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Heart Pottery Sherd is an archaeological artifact recovered from Cold Ocean Ruins by brushing Suspicious Sand. It features a simple heart design, distinct from the broken heart of the Heartbreak sherd. In Minecraft Bedrock Edition, this sherd allows players to add a symbol of love or health to their decorated pots. When used as an ingredient in a Decorated Pot, the heart motif appears on the corresponding side, making it an excellent choice for decorative builds or gifts."
+    },
     "minecraft:heartbreak_pottery_sherd": {
         id: "minecraft:heartbreak_pottery_sherd",
         name: "Heartbreak Pottery Sherd",
@@ -1206,5 +1230,295 @@ export const craftingMaterials = {
             "Stacks up to 64 in Bedrock Edition"
         ],
         description: "The Miner Pottery Sherd is an archaeological artifact found in Trail Ruins by brushing Suspicious Gravel. This pottery fragment features a clear pickaxe design, representing the mining activities that have defined Minecraft's gameplay and lore. It is a tribute to the miners of the past. When used to craft a Decorated Pot, the Miner pattern creates a thematic decoration perfect for mine entrances, smithies, treasure rooms, or any build that celebrates the art of excavation."
+    },
+    "minecraft:cocoa_beans": {
+        id: "minecraft:cocoa_beans",
+        name: "Cocoa Beans",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Brown Dye and Cookies",
+            secondaryUse: "Composting"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Cocoa Pods on Jungle Logs"]
+        },
+        specialNotes: [
+            "Found growing on jungle trees in Jungle biomes",
+            "Can be farmed by planting on Jungle Logs",
+            "Used to craft Brown Dye (1:1 ratio) and Cookies",
+            "Compostable with a 65% chance to raise the compost level",
+            "Harvested when orange-brown for maximum yield (3 beans)"
+        ],
+        description: "Cocoa Beans are a farming resource found naturally growing on the trunks of jungle trees. They are harvested from cocoa pods, which go through three growth stages. When fully grown (orange-brown), breaking a pod yields 3 beans, allowing for easy multiplication. Their primary use is crafting Brown Dye and Cookies. They are essential for mass-producing brown building materials like wool, terracotta, and concrete, as well as providing a sweet treat when combined with wheat."
+    },
+    "minecraft:charcoal": {
+        id: "minecraft:charcoal",
+        name: "Charcoal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Fuel for smelting in furnaces and campfires",
+            secondaryUse: "Crafting torches, campfires, and fire charges"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Log or Wood (any type)"]
+        },
+        specialNotes: [
+            "Obtained by smelting logs or wood in a furnace",
+            "Burns for 80 seconds, smelting up to 8 items (same as coal)",
+            "Essential for crafting Torches (1 Charcoal + 1 Stick = 4 Torches)",
+            "Used to craft Campfires, Soul Torches, and Fire Charges",
+            "Cannot be crafted into a Coal Block",
+            "Renewable fuel source derived from trees"
+        ],
+        description: "Charcoal is a renewable fuel source created by smelting logs or wood in a furnace. It shares the same fuel efficiency as coal, burning for 80 seconds and smelting up to 8 items per piece. Charcoal is an essential alternative to coal, especially for players who have not yet found coal ore or who have a surplus of wood. It can be used to craft torches, campfires, and fire charges, but unlike coal, it cannot be compacted into blocks or traded with villagers in the same way."
+    },
+    "minecraft:wheat_seeds": {
+        id: "minecraft:wheat_seeds",
+        name: "Wheat Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Wheat",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Breaking grass or tall grass", "Harvesting Wheat"]
+        },
+        specialNotes: [
+            "Obtained by breaking grass, tall grass, or ferns",
+            "Planted on farmland to grow Wheat crops",
+            "Used to breed chickens and reduce growth time of baby chickens",
+            "Used to tame parrots in Bedrock Edition",
+            "Compostable with a 30% chance to raise the compost level",
+            "Dropped by wheat crops when harvested"
+        ],
+        description: "Wheat Seeds are the starting point for one of the most fundamental crops in Minecraft. They are easily obtained by breaking grass or harvesting mature wheat. When planted on tilled farmland, they grow into wheat, which is essential for food and animal breeding. Beyond farming, wheat seeds serve as the primary food for chickens, allowing players to breed them, and are used to tame parrots. Their abundance makes them a reliable resource for starting a farm and establishing a food supply early in the game."
+    },
+    "minecraft:beetroot_seeds": {
+        id: "minecraft:beetroot_seeds",
+        name: "Beetroot Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Beetroots",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvesting Beetroot", "Found in Village chests"]
+        },
+        specialNotes: [
+            "Obtained by harvesting mature Beetroot crops (2-5 seeds per crop)",
+            "Found in chests within Snowy and Plains villages",
+            "Planted on farmland to grow Beetroot",
+            "Used to breed chickens and accelerate the growth of baby chickens",
+            "Can be used to tame parrots in Bedrock Edition",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Beetroot Seeds are agricultural items used to grow beetroot crops. They are primarily obtained by harvesting fully grown beetroots or can be found in village chests. When planted on tilled farmland, they grow into harvestable beetroots. Like other seeds, they play a key role in animal husbandry, serving as food to breed chickens and reduce the growth time of chicks. In Bedrock Edition, they can also be used to tame parrots. They are a renewable resource essential for maintaining a steady supply of beetroot soup and red dye."
+    },
+    "minecraft:pumpkin_seeds": {
+        id: "minecraft:pumpkin_seeds",
+        name: "Pumpkin Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Pumpkins",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pumpkin"]
+        },
+        specialNotes: [
+            "Crafted by placing a Pumpkin in a crafting grid (yields 4 seeds)",
+            "Can be found in chests within Dungeons, Mineshafts, and Woodland Mansions",
+            "Planted on farmland to grow a Pumpkin Stem",
+            "Pumpkin Stems produce Pumpkins on adjacent dirt, grass, or farmland blocks",
+            "Used to breed chickens and tame parrots",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Pumpkin Seeds are essential for farming pumpkins, which are valuable for food, golems, and trading. They can be crafted from pumpkins or found in loot chests within dungeons and mineshafts. When planted on farmland, a seed grows into a stem that eventually produces a pumpkin on an adjacent block. This stem can continue to produce pumpkins indefinitely if the fruit is harvested without breaking the stem. Like other seeds, pumpkin seeds can be used to breed chickens, tame parrots, and compost organic waste."
+    },
+    "minecraft:melon_seeds": {
+        id: "minecraft:melon_seeds",
+        name: "Melon Seeds",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Planting to grow Melons",
+            secondaryUse: "Breeding chickens and taming parrots"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Melon Slice"]
+        },
+        specialNotes: [
+            "Crafted by placing a Melon Slice in a crafting grid (yields 1 seed)",
+            "Found in chests within Dungeons, Mineshafts, and Woodland Mansions",
+            "Planted on farmland to grow a Melon Stem",
+            "Melon Stems produce Melon blocks on adjacent dirt, grass, or farmland blocks",
+            "Used to breed chickens and tame parrots",
+            "Compostable with a 30% chance to raise the compost level"
+        ],
+        description: "Melon Seeds are the starting point for growing melons, a source of food and potion ingredients. They are obtained by crafting melon slices or finding them in rare loot chests. Once planted on farmland, the seed grows into a stem that generates melon blocks on adjacent spaces. This process allows for infinite melon production from a single stem. Beyond farming, melon seeds serve as feed for chickens and can be used to tame parrots, making them a versatile item for survival players."
+    },
+    "minecraft:prize_pottery_sherd": {
+        id: "minecraft:prize_pottery_sherd",
+        name: "Prize Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Prize motif",
+            secondaryUse: "Collecting rare archaeological treasures"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a design of a diamond, symbolizing wealth and value",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the prize pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Prize Pottery Sherd is an archaeological artifact recovered from Trail Ruins by brushing Suspicious Gravel. It features a design of a diamond, symbolizing wealth or a valuable prize. In Minecraft Bedrock Edition, this sherd is a rare find that adds a touch of luxury to builds. When used as an ingredient in a Decorated Pot, the prize motif appears on the corresponding side, making it an excellent choice for treasure rooms or displaying achievements."
+    },
+    "minecraft:howl_pottery_sherd": {
+        id: "minecraft:howl_pottery_sherd",
+        name: "Howl Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Howl motif",
+            secondaryUse: "Creating wolf or nature-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Trail Ruins structures",
+            "Features a silhouette of a wolf howling at the moon",
+            "Rare suspicious gravel drop with 8.3% generation chance",
+            "Used in crafting Decorated Pots to display the howl pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Howl Pottery Sherd is a unique pottery fragment found by excavating Suspicious Gravel in Trail Ruins. It displays a silhouette of a wolf howling at the moon, capturing the wild spirit of the Overworld. This sherd is a favorite among players who keep wolves as companions. When crafted into a Decorated Pot, the howling wolf design is prominently displayed, perfect for decorating kennels, forest bases, or nature-themed builds."
+    },
+    "minecraft:plenty_pottery_sherd": {
+        id: "minecraft:plenty_pottery_sherd",
+        name: "Plenty Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Plenty motif",
+            secondaryUse: "Creating wealth or storage-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features an image of a chest overflowing with items",
+            "Rare suspicious gravel drop with 6.7% generation chance",
+            "Used in crafting Decorated Pots to display the plenty pattern on one side",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Plenty Pottery Sherd is a decorative item obtained through archaeology in Cold Ocean Ruins. Uncovered by brushing Suspicious Gravel, it features an image of a chest overflowing with items, representing abundance and prosperity. This design makes it a fitting decoration for storage rooms or trading halls. When combined with other sherds or bricks to make a Decorated Pot, the plenty pattern adorns the pot, symbolizing a bountiful harvest or successful adventure."
+    },
+    "minecraft:mourner_pottery_sherd": {
+        id: "minecraft:mourner_pottery_sherd",
+        name: "Mourner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Mourner motif",
+            secondaryUse: "Creating ancient or ominous-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Gravel in Cold Ocean Ruins",
+            "Features a design depicting a figure that appears to be mourning",
+            "Has a 6.7% chance to appear when brushing suspicious gravel in cold ocean ruins",
+            "Used in crafting Decorated Pots to display the mourner pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Mourner Pottery Sherd is an archaeological artifact recovered from Cold Ocean Ruins by brushing Suspicious Gravel. It features a design of a figure that appears to be mourning, perhaps referencing the Warden or an ancient tragedy. In Minecraft Bedrock Edition, this sherd is a rare find that adds a touch of mystery to builds. When used as an ingredient in a Decorated Pot, the mourner motif appears on the corresponding side, making it an excellent choice for ancient ruins or ominous structures."
+    },
+    "minecraft:shelter_pottery_sherd": {
+        id: "minecraft:shelter_pottery_sherd",
+        name: "Shelter Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Shelter motif",
+            secondaryUse: "Creating nature or protection-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Warm Ocean Ruins"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Warm Ocean Ruins",
+            "Features a design depicting a tree, symbolizing shelter",
+            "Has a 7.1% chance to appear when brushing suspicious sand in warm ocean ruins",
+            "Used in crafting Decorated Pots to display the shelter pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Shelter Pottery Sherd is a decorative item obtained through archaeology in Warm Ocean Ruins. Uncovered by brushing Suspicious Sand, it features an image of a tree, representing shelter and protection. This design makes it a fitting decoration for nature-themed builds or safe houses. When combined with other sherds or bricks to make a Decorated Pot, the shelter pattern adorns the pot, symbolizing safety and comfort in the wilderness."
+    },
+    "minecraft:skull_pottery_sherd": {
+        id: "minecraft:skull_pottery_sherd",
+        name: "Skull Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Skull motif",
+            secondaryUse: "Creating spooky or danger-themed decorations"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Sand in Desert Temples"]
+        },
+        specialNotes: [
+            "Found exclusively by brushing Suspicious Sand in Desert Temples",
+            "Features a design depicting a skeleton skull",
+            "Has a 12.5% chance to appear when brushing suspicious sand in desert temples",
+            "Used in crafting Decorated Pots to display the skull pattern on one side",
+            "Breaking a Decorated Pot without Silk Touch returns the sherds used in crafting",
+            "Stacks up to 64 in Bedrock Edition",
+            "Part of the archaeology system introduced in the Trails & Tales update"
+        ],
+        description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
     }
 };

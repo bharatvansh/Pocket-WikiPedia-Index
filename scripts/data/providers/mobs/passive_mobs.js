@@ -355,6 +355,74 @@ export const passiveMobs = {
         ],
         description: "Cows are fundamental passive mobs for leather and food resources, essential for early-game survival. They spawn commonly in grassy biomes and provide leather for armor and item crafting, as well as beef for food. Cows can be milked infinite times using buckets, providing milk that removes all status effects when consumed. They can be bred with wheat to establish sustainable farms. The brown mooshroom variant spawns exclusively on mushroom islands and provides mushroom stew when milked with a bowl. Cows are one of the most valuable early-game passive mobs for food, leather, and milk resources."
     },
+    "minecraft:horse": {
+        id: "minecraft:horse",
+        name: "Horse",
+        health: 22,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.225
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna", "Savanna Plateau", "Sunflower Plains", "Windswept Savanna", "Villages"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Tamed by repeatedly mounting until hearts appear (temper stat influences attempts)",
+            "Can be ridden when saddled and controlled with horse armor for protection",
+            "Jump height and speed vary between individuals based on genetic stats",
+            "Can be bred using golden apples or golden carrots to produce foals",
+            "Foals inherit stats from parents making selective breeding valuable",
+            "Multiple coat colors and patterns available for variety",
+            "Can be attached to leads and follow players holding golden foods"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Saddle", chance: "If equipped" },
+            { item: "Horse Armor", chance: "If equipped" }
+        ],
+        description: "Horses are versatile passive mobs found in plains and savanna biomes, offering fast transportation across terrain. Each horse has unique stats for health (15-30), speed, and jump height, encouraging selective breeding for optimal mounts. Taming requires repeated mounting until hearts appear, then equipping a saddle enables riding. Horse armor provides additional protection in combat. Their superior mobility makes them ideal for exploration, transporting players quickly between locations, and navigating difficult terrain that would be time-consuming on foot."
+    },
+    "minecraft:mule": {
+        id: "minecraft:mule",
+        name: "Mule",
+        health: 23,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: "N/A (bred from horse and donkey)",
+            lightLevel: "Any",
+            groupSize: "1 (from breeding)"
+        },
+        behaviorTraits: [
+            "Offspring of breeding a horse with a donkey",
+            "Can be equipped with a chest providing 15 storage slots for any item",
+            "Tamed by repeated mounting like horses and donkeys",
+            "Cannot be bred (sterile) but can ride when saddled",
+            "Inherits average stats from parents with health typically 22-23",
+            "Drops equipped chest and contents upon death",
+            "Cannot wear horse armor unlike horses"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Chest", chance: "If equipped" },
+            { item: "Saddle", chance: "If equipped" }
+        ],
+        description: "Mules are sterile hybrids created by breeding horses with donkeys in Bedrock Edition. They combine donkey chest capabilities with improved mobility compared to pure donkeys. When given a chest, mules gain 15 inventory slots for any items, making them excellent pack animals for long expeditions. While they cannot be bred themselves, mules can be ridden when saddled and have health ranging from 15-30 points. They inherit average stats from their parents and serve as specialized storage mounts for players needing both transportation and carrying capacity."
+    },
     "minecraft:goat": {
         id: "minecraft:goat",
         name: "Goat",
@@ -481,6 +549,102 @@ export const passiveMobs = {
             { item: "None", chance: "Baby animals don't drop items" }
         ],
         description: "Tadpoles are the aquatic baby form of frogs that hatch from frogspawn. They swim aimlessly in water and flop around on land while seeking water to survive. Tadpoles follow players holding slimeballs and can be collected in water buckets for transport. They are hunted by axolotls and take 20 minutes to grow into adult frogs, with their final variant determined by the biome they mature in. Tadpoles are essential for frog breeding and provide a unique aquatic life cycle in Minecraft."
+    },
+    "minecraft:turtle": {
+        id: "minecraft:turtle",
+        name: "Turtle",
+        health: 30,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.25
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Beach"],
+            lightLevel: "7+",
+            groupSize: "1-5"
+        },
+        behaviorTraits: [
+            "Move slowly on land but swim fast in water",
+            "Lay eggs on beaches that hatch into baby turtles",
+            "Babies drop scutes when growing into adults",
+            "Follow players holding seagrass",
+            "Can be bred using seagrass",
+            "Attempt to return to nearest water when on land",
+            "Cannot be led with leads but can be led by holding seagrass"
+        ],
+        drops: [
+            { item: "Seagrass", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf; adults)" }
+        ],
+        description: "Turtles are passive aquatic mobs found exclusively on beaches. They move slowly on land but become swift swimmers in water. Their most valuable feature is the scute dropped when a baby turtle matures, which is used to craft turtle shell helmets that grant 10 seconds of water breathing. Turtles lay eggs in sand that must be protected; they follow players holding seagrass and can be bred with it. Baby turtles are particularly vulnerable to mobs and take about 20 minutes to grow into adults, making proper enclosures essential for farming scutes."
+    },
+    "minecraft:panda": {
+        id: "minecraft:panda",
+        name: "Panda",
+        health: 20,
+        stats: {
+            attackDamage: 6,
+            movementSpeed: 0.15
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Jungle", "Bamboo Jungle"],
+            lightLevel: "7+",
+            groupSize: "1-2"
+        },
+        behaviorTraits: [
+            "Have 7 personality variants including lazy, playful, and aggressive",
+            "Aggressive pandas attack when provoked or if other pandas are hurt",
+            "Sneeze occasionally; baby pandas may drop slimeballs when sneezing",
+            "Follow players holding bamboo and can be bred with it",
+            "Roll over and play when happy, especially playful and lazy variants",
+            "Lazy pandas sit more often while playful ones roll and jump",
+            "Weak variant has half health and shakes nervously"
+        ],
+        drops: [
+            { item: "Bamboo", chance: "1" },
+            { item: "Slimeball", chance: "Rare (baby sneeze, 1/700 chance)" }
+        ],
+        description: "Pandas are passive mobs found in jungle biomes with unique personalities. They come in seven variants: normal, lazy, worried, playful, aggressive, weak, and the rare brown panda. While mostly passive, the aggressive variant will attack if provoked or if another panda is hurt. Pandas can be bred with bamboo and follow players holding it. Baby pandas occasionally sneeze, which has a 1/700 chance to drop a slimeball. Playful pandas roll and jump frequently, while lazy variants prefer sitting. The weak variant has only half the health of normal pandas."
+    },
+    "minecraft:donkey": {
+        id: "minecraft:donkey",
+        name: "Donkey",
+        health: 23,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.175
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Plains", "Savanna", "Meadow"],
+            lightLevel: "7+",
+            groupSize: "2-6"
+        },
+        behaviorTraits: [
+            "Can be equipped with a chest to provide 15 inventory slots",
+            "Can be ridden with a saddle and controlled with carrots",
+            "Must be tamed by repeatedly riding until hearts appear",
+            "Follow players holding golden carrots, golden apples, or hay bales",
+            "Can be bred using golden carrots or golden apples",
+            "Cannot jump as high as horses but are stronger for carrying loads",
+            "Has health between 15-30 HP when spawned naturally"
+        ],
+        drops: [
+            { item: "Leather", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Donkeys are passive mobs found in plains, savannas, and meadows. Their most valuable feature is the ability to be equipped with a chest, providing 15 inventory slots for transport. Unlike horses, donkeys cannot jump as high but make excellent pack animals. They can be tamed by repeatedly mounting them, then ridden with a saddle and controlled using a carrot on a stick. Donkeys can be bred using golden carrots or golden apples and follow players holding these items or hay bales. Their natural health varies from 15-30 HP when spawned."
     },
     "minecraft:tropical_fish": {
         id: "minecraft:tropical_fish",
@@ -870,5 +1034,65 @@ export const passiveMobs = {
             { item: "String", chance: "0-2" }
         ],
         description: "Cats are agile passive mobs found in villages and swamp huts. They are uniquely valuable for their ability to repel Creepers and Phantoms, making them excellent companions for base defense. Once tamed with raw fish, they follow their owners and provide occasional gifts after the player wakes from a bed. Cats are also immune to fall damage, reflecting their real-world grace and landing abilities."
+    },
+    "minecraft:agent": {
+        id: "minecraft:agent",
+        name: "Agent",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Education Edition and Bedrock with commands"],
+            lightLevel: "Any",
+            groupSize: "1 (created by commands)"
+        },
+        behaviorTraits: [
+            "Exclusive to Education Edition and Bedrock when using WebSocket servers",
+            "Created using commands such as /execute as @p run agent create",
+            "Primary purpose is to teach coding and automation to players",
+            "Has a 27-slot inventory that can be manipulated programmatically",
+            "Can execute various commands including move, turn, dig, place, and collect",
+            "Does not move or act autonomously without programmed instructions",
+            "Inventory can be accessed directly via a GUI interface in Education Edition"
+        ],
+        drops: [
+        ],
+        description: "The Agent is a specialized mob exclusive to Minecraft Education Edition and Bedrock Edition worlds connected to WebSocket servers. Designed as a programmable helper, the Agent teaches players coding concepts through in-game automation tasks. It carries a 27-slot inventory and responds to player-programmed commands to move, mine, place blocks, and collect items. In standard Bedrock Edition without server connections, Agents can be spawned but remain inactive unless triggered through NPC commands. The Agent serves as an educational tool for learning programming logic and computational thinking."
+    },
+    "minecraft:npc": {
+        id: "minecraft:npc",
+        name: "NPC",
+        health: 20,
+        stats: {
+            attackDamage: 0,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Passive",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Education Edition and Bedrock with commands"],
+            lightLevel: "Any",
+            groupSize: "1 (created by commands)"
+        },
+        behaviorTraits: [
+            "Cannot spawn naturally and must be created using commands or spawn eggs",
+            "Immobile entity that remains in place once spawned or positioned",
+            "Used to create interactive dialogue experiences and quests in Education worlds",
+            "Supports customizable names, dialogue text, and command execution on interaction",
+            "Can execute commands when players interact, enabling complex gameplay mechanics",
+            "Has 20+ customizable skin variants in Bedrock Edition for diverse appearances",
+            "Invulnerable in Survival mode but can be removed in Creative with attacks"
+        ],
+        drops: [
+        ],
+        description: "NPCs are non-player character entities exclusive to Minecraft Education and Bedrock Edition. They serve as interactive dialogue hubs and quest givers in custom worlds. NPCs can be customized with names, dialogue text, button labels, and executable commands that trigger when players interact with them. With over 20 skin variants available, NPCs provide diverse representation for storytelling. They remain stationary, are invulnerable to attacks in Survival mode, and can only be spawned via commands or spawn eggs. NPCs are essential for creating guided learning experiences."
     }
 };

@@ -807,6 +807,75 @@ export const miscItems = {
         ],
         description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
     },
+    "minecraft:chest_minecart": {
+        id: "minecraft:chest_minecart",
+        name: "Minecart with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting items on rails",
+            secondaryUse: "Mobile storage in minecart systems"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Chest", "Minecart"]
+        },
+        specialNotes: [
+            "Combines a Minecart and a Chest for item transport",
+            "Has 27 slots of inventory space, same as a single chest",
+            "Drops itself and its contents when broken",
+            "Can be accessed by opening the GUI or using Hoppers",
+            "Cannot carry players or mobs"
+        ],
+        description: "A Minecart with Chest is a utility vehicle that combines the mobility of a minecart with the storage capacity of a single chest. It allows players to transport large quantities of items across rail systems, making it essential for automated storage and delivery networks. In Bedrock Edition, it is crafted by combining a minecart and a chest in a crafting grid. When broken, it drops as a single item, spilling its inventory onto the ground. It can interact with hoppers placed under the track to load or unload items automatically."
+    },
+    "minecraft:hopper_minecart": {
+        id: "minecraft:hopper_minecart",
+        name: "Minecart with Hopper",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Collecting items from above rails",
+            secondaryUse: "Transferring items between containers rapidly"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Hopper", "Minecart"]
+        },
+        specialNotes: [
+            "Pulls items from the world and containers above it",
+            "Sucks up items much faster than a regular hopper",
+            "Can pick up items through full blocks directly above the rail",
+            "Can be disabled by a powered Activator Rail",
+            "Has 5 slots of inventory space"
+        ],
+        description: "A Minecart with Hopper is a specialized vehicle designed for item collection and transport. It possesses a powerful suction ability that allows it to pull loose items from the world or extract items from containers located directly above the track. Unlike stationary hoppers, it can collect items through full blocks, making it highly effective for farm collection systems where the collection mechanism needs to be hidden. Its collection function can be toggled using Activator Rails, allowing for precise control in automated sorting systems."
+    },
+    "minecraft:tnt_minecart": {
+        id: "minecraft:tnt_minecart",
+        name: "Minecart with TNT",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating mobile explosions",
+            secondaryUse: "Clearing areas or breaching walls remotely"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["TNT", "Minecart"]
+        },
+        specialNotes: [
+            "Explodes when passing over a powered Activator Rail",
+            "Explosion power depends on the minecart's speed",
+            "Detonates instantly upon high-speed collision",
+            "Does not destroy rails or blocks under the track when on rails",
+            "Can be dispensed onto rails"
+        ],
+        description: "A Minecart with TNT is a volatile vehicle used for controlled demolitions and traps. It detonates after a short delay when passing over a powered Activator Rail, or instantly if it crashes into a block or entity at high speed. The explosion's radius and damage are directly proportional to the cart's velocity at the moment of impact. Uniquely, when detonated while on a rail, it is designed not to destroy the track or the blocks immediately beneath it, allowing for reusable blasting lines in mining or terraforming operations."
+    },
     "minecraft:oak_boat": {
         id: "minecraft:oak_boat",
         name: "Oak Boat",
@@ -830,6 +899,181 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
+    },
+    "minecraft:spruce_boat": {
+        id: "minecraft:spruce_boat",
+        name: "Spruce Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with spruce wood appearance",
+            secondaryUse: "Matching spruce wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to oak boat but with spruce wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Useful for matching spruce wood builds and forest-themed bases",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Spruce Boat is a variant of the standard boat crafted from spruce planks, offering the same functionality as the oak boat but with a darker, more rustic appearance. It provides the same two-passenger capacity and water transportation capabilities while maintaining aesthetic consistency with spruce wood builds and forest-themed structures. This boat is particularly popular among players building in colder, forest biomes or those who prefer the darker aesthetic of spruce wood. All the benefits of standard boats apply, including enhanced speed on ice and fall damage protection."
+    },
+    "minecraft:raft": {
+        id: "minecraft:raft",
+        name: "Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Alternative water transportation using boat oars for manual propulsion",
+            secondaryUse: "Building floating structures and mobile bases"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Logs x6", "Sticks x2"]
+        },
+        specialNotes: [
+            "Requires boat oar for manual rowing and propulsion",
+            "Can be used to carry players and mobs across water",
+            "Crafted from logs rather than planks, creating a more rustic appearance",
+            "Can be used as a base for building floating structures",
+            "Boat oar must be crafted separately and used to control movement",
+            "Larger footprint than standard boats, offering more building potential",
+            "In Bedrock, can pick up mobs when used as a water vehicle"
+        ],
+        description: "The Raft is a unique water transportation item offering a primitive and customizable approach to water travel. Unlike traditional boats, rafts require a separate boat oar for propulsion, giving players precise control over their watercraft. Rafts are crafted from logs and sticks, creating a larger, more rustic appearance ideal for building floating structures and mobile bases. The larger footprint provides creative building opportunities while maintaining full functionality for transporting players and mobs across water."
+    },
+    "minecraft:boat_oar": {
+        id: "minecraft:boat_oar",
+        name: "Boat Oar",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Propelling rafts across water surfaces",
+            secondaryUse: "Crafting material for raft construction and modifications"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick", "Wood Slab"]
+        },
+        specialNotes: [
+            "Essential tool for operating rafts - rafts cannot move without an oar",
+            "Can be used on rafts to propel them forward through water",
+            "Right-click while holding oar on raft to move in the direction you're facing",
+            "Essential for raft-based exploration and transportation",
+            "Can be combined with other items in crafting recipes",
+            "Each oar can be used indefinitely without durability loss",
+            "Required component for the raft crafting recipe in some versions"
+        ],
+        description: "The Boat Oar is a specialized tool item used exclusively for propelling rafts across water. Unlike boats that move automatically, rafts require manual propulsion using a boat oar, giving players precise control over their watercraft. The oar is crafted from a stick and wood slab, and when used on a raft, allows for directional movement across water surfaces. This manual control system makes rafts useful for precise navigation in tight spaces or for hands-on water transportation."
+    },
+    "minecraft:mangrove_boat": {
+        id: "minecraft:mangrove_boat",
+        name: "Mangrove Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with mangrove wood appearance",
+            secondaryUse: "Matching mangrove wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with red mangrove wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Mangrove Planks (no shovel required in 1.20+)",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Mangrove Boat is a variant of the standard boat crafted from mangrove planks, introduced in the 1.19 Wild Update. It features the distinctive reddish hue of mangrove wood, making it an excellent choice for navigating swamps or matching red-wood themed builds. Like other boats in Bedrock Edition, it accommodates two passengers and offers fall damage protection. It can be crafted using five mangrove planks, providing a stylish way to traverse water bodies."
+    },
+    "minecraft:cherry_boat": {
+        id: "minecraft:cherry_boat",
+        name: "Cherry Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with cherry wood appearance",
+            secondaryUse: "Matching cherry wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with pink cherry wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Cherry Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Cherry Boat is a vibrant pink boat variant crafted from cherry planks, introduced in the 1.20 Trails & Tales update. It functions identically to other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its unique pink color makes it a favorite for decorative purposes and for players who enjoy the aesthetic of the cherry grove biome. It requires five cherry planks to craft and offers the same fall damage negation as other boats."
+    },
+    "minecraft:bamboo_raft": {
+        id: "minecraft:bamboo_raft",
+        name: "Bamboo Raft",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with a raft design",
+            secondaryUse: "Aesthetic alternative to traditional boats"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x5"]
+        },
+        specialNotes: [
+            "Functionally identical to boats but with a flat raft model",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Bamboo Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
+    },
+    "minecraft:birch_boat": {
+        id: "minecraft:birch_boat",
+        name: "Birch Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with birch wood appearance",
+            secondaryUse: "Matching birch wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with pale birch wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Birch Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Birch Boat is a variant of the standard boat crafted from birch planks. It shares all the functional characteristics of other wooden boats, including the ability to carry two passengers and high speed on ice. Its distinguishing feature is its pale wood texture, matching the aesthetic of birch forests. Like all boats in Bedrock Edition, it is crafted from five planks and requires no shovel. It serves as a reliable vehicle for water travel and transporting mobs."
     },
     "minecraft:painting": {
         id: "minecraft:painting",
@@ -896,5 +1140,53 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:command_block_minecart": {
+        id: "minecraft:command_block_minecart",
+        name: "Minecart with Command Block",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Executing commands on rails",
+            secondaryUse: "Creating mobile command systems"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "Cannot be crafted; must be obtained using /give or Pick Block in Creative",
+            "Executes its command when passing over a powered Activator Rail",
+            "Checks the command once every game tick if on an always-active circuit, but on rails it depends on activation",
+            "Useful for adventure maps and automated systems",
+            "Drops as an item when broken in Creative mode (contents saved if Ctrl+Pick Block used)"
+        ],
+        description: "The Minecart with Command Block is a utility vehicle that combines a minecart with an Impulse Command Block. It allows for the execution of commands as the cart travels along a rail system. The command stored within is triggered when the minecart passes over a powered Activator Rail. This item is not available in the Survival inventory and cannot be crafted; it must be obtained via commands or the Creative inventory. It is a powerful tool for map makers and technical players creating complex, mobile automation systems."
+    },
+    "minecraft:jungle_boat": {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with jungle wood appearance",
+            secondaryUse: "Matching jungle wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with reddish-brown jungle wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Jungle Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
     }
 };

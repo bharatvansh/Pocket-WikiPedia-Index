@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Chest, trapped chest, ender chest, barrel,
 // shulker box (all 17 colors including undyed), decorated pot,
-// chiseled bookshelf, jukebox, composter, beehive, bee nest
+// chiseled bookshelf, jukebox, composter, beehive, bee nest, hopper
 // ============================================
 
 /**
@@ -15,7 +15,7 @@ export const containerBlocks = {
         name: "Chest",
         hardness: 2.5,
         blastResistance: 2.5,
-        flammability: false,
+        flammability: true,
         gravityAffected: false,
         transparent: true,
         luminance: 0,
@@ -26,10 +26,31 @@ export const containerBlocks = {
         },
         drops: ["Chest"],
         generation: {
-            dimension: "Overworld, Nether, End",
-            yRange: "Dungeons, Strongholds, Villages, etc."
+            dimension: "Overworld",
+            yRange: "Villages, dungeons, mineshafts, strongholds, temples, woodland mansions, ocean ruins"
         },
-        description: "A Chest is a storage block that provides 27 slots of inventory space for storing items. Two chests placed side-by-side join to form a Large Chest, doubling the capacity to 54 slots. Chests can generate naturally in many structures containing loot, such as dungeons, villages, and strongholds. While they can be broken by hand, axes are the most efficient tool. They are essential for inventory management and can be used with hoppers for automation."
+        description: "A Chest is a fundamental storage block with 27 inventory slots for storing items and blocks. Two adjacent chests combine to form a large chest with 54 slots. Chests can be trapped by mobs, which occurs when a silverfish, endermite, or zombie villager spawns inside. They generate naturally in villages, dungeons, mineshafts, strongholds, and various temples. In Bedrock Edition, chests can be placed underwater and work as expected, making them useful for underwater base storage."
+    },
+    "minecraft:trapped_chest": {
+        id: "minecraft:trapped_chest",
+        name: "Trapped Chest",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Trapped Chest"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dungeons, mineshafts, villages, woodland mansions, jungle temples"
+        },
+        description: "A Trapped Chest is a variant of the standard chest that emits a redstone signal when opened, detectable by adjacent redstone comparators. The signal strength is based on how many players are viewing the chest simultaneously, ranging from 1 to 15. It functions identically to a regular chest for storage, combining with adjacent trapped chests to form large trapped chests. Trapped chests can be used in combination traps, hidden switches, and detection systems in Bedrock Edition."
     },
     "minecraft:barrel": {
         id: "minecraft:barrel",

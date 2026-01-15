@@ -156,5 +156,68 @@ export const lightingBlocks = {
             yRange: "Villages, Bastion Remnants"
         },
         description: "A Lantern is a metallic light source that emits a bright light level of 15, exceeding that of torches. It can be placed on top of blocks or hung from the underside of solid blocks. Lanterns generate naturally in snowy tundra villages and bastion remnants. Crafted from eight iron nuggets surrounding a torch, they are more durable than torches and possess a valid collision box. They are widely used in builds for their aesthetic appeal and ability to hang from ceilings or chains."
+    },
+    "minecraft:soul_lantern": {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Soul Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "The Soul Lantern is a variant of the regular lantern that emits a dim, turquoise light with a luminance level of 10. Crafted using a soul torch and eight iron nuggets, it possesses a distinct blue flame characteristic of soul fire. Unlike regular lanterns (level 15), soul lanterns do not melt ice or snow. They repel piglins, making them functional for safe travel in the Nether. Soul lanterns can be placed on blocks or hung from ceilings and chains, adding a spooky or mystical aesthetic to builds."
+    },
+    "minecraft:soul_torch": {
+        id: "minecraft:soul_torch",
+        name: "Soul Torch",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Torch"],
+        generation: {
+            dimension: "Nether, Overworld",
+            yRange: "Crafted only, Ancient Cities (Bedrock)"
+        },
+        description: "The Soul Torch is a variant of the standard torch that emits a calming blue light with a luminance level of 10. Crafted using soul soil or soul sand and a coal or charcoal, it produces the distinctive blue flames associated with soul fire. Soul torches burn longer than regular torches and do not melt ice or snow, making them practical for cold biomes. They repel piglins in the Nether and can be placed on walls or the ground. In Bedrock Edition, soul torches generate naturally in ancient cities, providing ambient blue lighting throughout the Deep Dark."
+    },
+    "minecraft:torch": {
+        id: "minecraft:torch",
+        name: "Torch",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Torch"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Villages, Mineshafts, Ancient Cities"
+        },
+        description: "A Torch is a non-solid block that emits a light level of 14. It is one of the most common light sources in the game, essential for preventing hostile mob spawning and illuminating caves and structures. Crafted from a stick and coal or charcoal, torches can be placed on the top or sides of most solid blocks. They break if the block they are attached to is removed or if water flows into them. Torches are also used in crafting lanterns and jack o'lanterns."
     }
 };

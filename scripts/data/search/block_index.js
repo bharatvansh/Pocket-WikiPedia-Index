@@ -14,6 +14,27 @@ export const blockIndex = [
         themeColor: "§6" // gold/brown
     },
     {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        category: "block",
+        icon: "textures/blocks/netherrack",
+        themeColor: "§8" // dark reddish-gray
+    },
+    {
+        id: "minecraft:podzol",
+        name: "Podzol",
+        category: "block",
+        icon: "textures/blocks/podzol",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:red_sand",
+        name: "Red Sand",
+        category: "block",
+        icon: "textures/blocks/red_sand",
+        themeColor: "§c" // red/orange
+    },
+    {
         id: "minecraft:stone",
         name: "Stone",
         category: "block",
@@ -84,6 +105,13 @@ export const blockIndex = [
         themeColor: "§6" // pinkish-brown
     },
     {
+        id: "minecraft:polished_granite",
+        name: "Polished Granite",
+        category: "block",
+        icon: "textures/blocks/polished_granite",
+        themeColor: "§6" // pinkish-brown
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
@@ -145,6 +173,27 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/copper_ore",
         themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:copper_block",
+        name: "Block of Copper",
+        category: "block",
+        icon: "textures/blocks/copper_block",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:exposed_copper",
+        name: "Exposed Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_copper",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:weathered_copper",
+        name: "Weathered Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_copper",
+        themeColor: "§3" // dark aqua
     },
     {
         id: "minecraft:iron_ore",
@@ -292,6 +341,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crafter",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:polished_diorite",
+        name: "Polished Diorite",
+        category: "block",
+        icon: "textures/blocks/polished_diorite",
+        themeColor: "§7" // gray/white
     },
     {
         id: "minecraft:copper_bulb",
@@ -1470,6 +1526,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:polished_andesite",
+        name: "Polished Andesite",
+        category: "block",
+        icon: "textures/blocks/polished_andesite",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:pale_oak_sapling",
         name: "Pale Oak Sapling",
         category: "block",
@@ -1547,6 +1610,27 @@ export const blockIndex = [
         themeColor: "§5" // purple (mycelium)
     },
     {
+        id: "minecraft:polished_deepslate",
+        name: "Polished Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_polished",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:soul_lantern",
+        name: "Soul Lantern",
+        category: "block",
+        icon: "textures/blocks/soul_lantern",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:warped_stem",
+        name: "Warped Stem",
+        category: "block",
+        icon: "textures/blocks/warped_stem_side",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
         id: "minecraft:stonecutter",
         name: "Stonecutter",
         category: "block",
@@ -1558,13 +1642,503 @@ export const blockIndex = [
         name: "Coal Ore",
         category: "block",
         icon: "textures/blocks/coal_ore",
-        themeColor: "§8" // dark gray / black
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:cocoa",
+        name: "Cocoa",
+        category: "block",
+        icon: "textures/blocks/cocoa_stage_2",
+        themeColor: "§6" // orange/brown
+    },
+    {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        category: "block",
+        icon: "textures/blocks/iron_bars",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:hay_block",
+        name: "Hay Bale",
+        category: "block",
+        icon: "textures/blocks/hay_block_side",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:nether_wart_block",
+        name: "Nether Wart Block",
+        category: "block",
+        icon: "textures/blocks/nether_wart_block",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        category: "block",
+        icon: "textures/blocks/warped_wart_block",
+        themeColor: "§3" // dark aqua/teal
+    },
+    {
+        id: "minecraft:melon_block",
+        name: "Melon Block",
+        category: "block",
+        icon: "textures/blocks/melon_side",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        category: "block",
+        icon: "textures/blocks/pumpkin_side",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:carved_pumpkin",
+        name: "Carved Pumpkin",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:polished_tuff_wall",
+        name: "Polished Tuff Wall",
+        category: "block",
+        icon: "textures/blocks/polished_tuff",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        category: "block",
+        icon: "textures/blocks/tuff_bricks",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tuff_brick_stairs",
+        name: "Tuff Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/tuff_bricks",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:small_amethyst_bud",
+        name: "Small Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/small_amethyst_bud",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:medium_amethyst_bud",
+        name: "Medium Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/medium_amethyst_bud",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:large_amethyst_bud",
+        name: "Large Amethyst Bud",
+        category: "block",
+        icon: "textures/blocks/large_amethyst_bud",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:pale_oak_wood",
+        name: "Pale Oak Wood",
+        category: "block",
+        icon: "textures/blocks/pale_oak_log",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:pale_oak_slab",
+        name: "Pale Oak Slab",
+        category: "block",
+        icon: "textures/blocks/pale_oak_planks",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:resin_brick_slab",
+        name: "Resin Brick Slab",
+        category: "block",
+        icon: "textures/blocks/resin_bricks",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:brick_block",
+        name: "Bricks",
+        category: "block",
+        icon: "textures/blocks/brick",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:red_nether_brick",
+        name: "Red Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:end_portal_frame",
+        name: "End Portal Frame",
+        category: "block",
+        icon: "textures/blocks/end_portal_frame_top",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:hanging_sign",
+        name: "Hanging Sign",
+        category: "block",
+        icon: "textures/blocks/hanging_sign",
+        themeColor: "§6" // brown/wood
+    },
+    {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        category: "block",
+        icon: "textures/blocks/flower_pot",
+        themeColor: "§6" // brown/terracotta
+    },
+    {
+        id: "minecraft:soul_torch",
+        name: "Soul Torch",
+        category: "block",
+        icon: "textures/blocks/soul_torch",
+        themeColor: "§3" // cyan/blue
+    },
+    {
+        id: "minecraft:torch",
+        name: "Torch",
+        category: "block",
+        icon: "textures/blocks/torch_on",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:prismarine_bricks",
+        name: "Prismarine Bricks",
+        category: "block",
+        icon: "textures/blocks/prismarine_bricks",
+        themeColor: "§b" // aqua/teal
+    },
+    {
+        id: "minecraft:dark_prismarine",
+        name: "Dark Prismarine",
+        category: "block",
+        icon: "textures/blocks/dark_prismarine",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:grass_block",
+        name: "Grass Block",
+        category: "block",
+        icon: "textures/blocks/grass_side_carried",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        category: "block",
+        icon: "textures/blocks/stone_slab_top",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_chiseled",
+        themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:chest",
         name: "Chest",
         category: "block",
-        icon: "textures/blocks/chest_front",
-        themeColor: "§6" // wood/orange
+        icon: "textures/blocks/chest",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:comparator",
+        name: "Redstone Comparator",
+        category: "block",
+        icon: "textures/blocks/comparator_off",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:trapped_chest",
+        name: "Trapped Chest",
+        category: "block",
+        icon: "textures/blocks/chest_trap",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        category: "block",
+        icon: "textures/blocks/command_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:repeating_command_block",
+        name: "Repeating Command Block",
+        category: "block",
+        icon: "textures/blocks/repeating_command_block_front",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:chain_command_block",
+        name: "Chain Command Block",
+        category: "block",
+        icon: "textures/blocks/chain_command_block_front",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:border_block",
+        name: "Border Block",
+        category: "block",
+        icon: "textures/blocks/border",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        category: "block",
+        icon: "textures/blocks/structure_block",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        category: "block",
+        icon: "textures/items/light_block",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:tnt",
+        name: "TNT",
+        category: "block",
+        icon: "textures/blocks/tnt_side",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:white_concrete",
+        name: "White Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_wool",
+        name: "White Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        category: "block",
+        icon: "textures/blocks/coal_block",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:iron_block",
+        name: "Block of Iron",
+        category: "block",
+        icon: "textures/blocks/iron_block",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:gold_block",
+        name: "Block of Gold",
+        category: "block",
+        icon: "textures/blocks/gold_block",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:snow_layer",
+        name: "Top Snow",
+        category: "block",
+        icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        category: "block",
+        icon: "textures/blocks/redstone_block",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:emerald_block",
+        name: "Block of Emerald",
+        category: "block",
+        icon: "textures/blocks/emerald_block",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        category: "block",
+        icon: "textures/blocks/soul_soil",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:crimson_stem",
+        name: "Crimson Stem",
+        category: "block",
+        icon: "textures/blocks/crimson_stem_side",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:web",
+        name: "Cobweb",
+        category: "block",
+        icon: "textures/blocks/web",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:ladder",
+        name: "Ladder",
+        category: "block",
+        icon: "textures/blocks/ladder",
+        themeColor: "§6" // gold/wood
+    },
+    {
+        id: "minecraft:vine",
+        name: "Vines",
+        category: "block",
+        icon: "textures/blocks/vine",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:crimson_hyphae",
+        name: "Crimson Hyphae",
+        category: "block",
+        icon: "textures/blocks/crimson_stem_side",
+        themeColor: "§4" // dark red
+    },
+    {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        category: "block",
+        icon: "textures/blocks/kelp_plant",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        category: "block",
+        icon: "textures/blocks/cactus_side",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:deadbush",
+        name: "Dead Bush",
+        category: "block",
+        icon: "textures/blocks/deadbush",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:brain_coral_block",
+        name: "Brain Coral Block",
+        category: "block",
+        icon: "textures/blocks/brain_coral_block",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:bubble_coral_block",
+        name: "Bubble Coral Block",
+        category: "block",
+        icon: "textures/blocks/bubble_coral_block",
+        themeColor: "§5" // Purple
+    },
+    {
+        id: "minecraft:fire_coral_block",
+        name: "Fire Coral Block",
+        category: "block",
+        icon: "textures/blocks/fire_coral_block",
+        themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:crimson_roots",
+        name: "Crimson Roots",
+        category: "block",
+        icon: "textures/blocks/crimson_roots",
+        themeColor: "§4" // Dark Red
+    },
+    {
+        id: "minecraft:warped_roots",
+        name: "Warped Roots",
+        category: "block",
+        icon: "textures/blocks/warped_roots",
+        themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:nether_sprouts",
+        name: "Nether Sprouts",
+        category: "block",
+        icon: "textures/blocks/nether_sprouts",
+        themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:candle",
+        name: "Candle",
+        category: "block",
+        icon: "textures/items/candle",
+        themeColor: "§e" // Yellow
+    },
+    {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        category: "block",
+        icon: "textures/items/structure_void",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        category: "block",
+        icon: "textures/items/twisting_vines",
+        themeColor: "§3" // Dark Aqua
+    },
+    {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate_cobbled",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_bricks",
+        name: "Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_tiles",
+        name: "Deepslate Tiles",
+        category: "block",
+        icon: "textures/blocks/deepslate_tiles",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:stone_pressure_plate",
+        name: "Stone Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/stone_pressure_plate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:wooden_button",
+        name: "Wooden Button",
+        category: "block",
+        icon: "textures/blocks/wooden_button",
+        themeColor: "§6"
     }
 ];

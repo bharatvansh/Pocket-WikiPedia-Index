@@ -418,14 +418,14 @@ export const workstationBlocks = {
         luminance: 0,
         mining: {
             tool: "Pickaxe",
-            minTier: "Wood",
+            minTier: "None",
             silkTouch: false
         },
         drops: ["Stonecutter"],
         generation: {
             dimension: "Overworld",
-            yRange: "Village mason houses, Trail Ruins"
+            yRange: "Village mason houses"
         },
-        description: "A Stonecutter is a functional block used to craft stone and copper building blocks in smaller and more precise quantities than a Crafting Table. It allows players to skip crafting steps (e.g., turning Stone directly into Chiseled Stone Bricks) and is often more resource-efficient, producing one stair per block instead of the usual ratio. It serves as the job site block for Stone Mason villagers and generates naturally in villages and trail ruins."
+        description: "A Stonecutter is a functional block used to craft stone-related blocks into their various slab, stair, and brick variants. It serves as a more efficient alternative to the crafting table for stone recipes, allowing for a 1:1 conversion ratio and skipping intermediate steps (like crafting a block before a stair). It also functions as the job site block for Mason villagers. Crafted from one iron ingot and three stone blocks, it features an animated saw blade on top. While the blade appears dangerous, it does not damage players or mobs in Bedrock Edition."
     }
 };

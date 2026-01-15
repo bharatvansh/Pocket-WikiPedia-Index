@@ -235,5 +235,198 @@ export const rawFood = {
             "Most common fish catch while fishing at approximately 60% of fish catches"
         ],
         description: "Raw Cod is the most common fish item in Minecraft, easily obtained through fishing or by killing cod mobs in ocean biomes. While edible raw, providing 2 hunger and 0.4 saturation, cooking it into Cooked Cod significantly improves its nutritional value to 5 hunger and 6 saturation. Raw Cod is essential for taming cats and gaining ocelot trust, making it valuable for pet collectors. As the most abundant fish in the game, cod serves as a reliable and renewable food source for players near oceans. Guardians and Elder Guardians also have a chance to drop raw cod, though fishing is the most efficient method."
+    },
+    "minecraft:carrot": {
+        id: "minecraft:carrot",
+        name: "Carrot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and farming",
+            secondaryUse: "Breeding pigs and rabbits"
+        },
+        food: {
+            hunger: 3,
+            saturation: 3.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Village gardens", "Rare drop from Zombies"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 3.6 saturation",
+            "Used to breed pigs and rabbits",
+            "Crafting ingredient for Golden Carrots, Rabbit Stew, and Carrot on a Stick",
+            "Can be traded to Farmer villagers for emeralds",
+            "Planted on farmland to grow more carrots"
+        ],
+        description: "Carrots are a common food crop found in village gardens or obtained as a rare drop from zombies. Eating a carrot restores 3 hunger points and 3.6 saturation. They are a staple crop for players, serving as a reliable food source and a key item for animal husbandry, specifically for breeding pigs and rabbits. Carrots are also the base ingredient for Golden Carrots, one of the best food items in the game, and are essential for controlling pigs when crafted into a Carrot on a Stick."
+    },
+    "minecraft:potato": {
+        id: "minecraft:potato",
+        name: "Potato",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Farming and baking into Baked Potatoes",
+            secondaryUse: "Breeding pigs and trading"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.6
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Village gardens", "Rare drop from Zombies"]
+        },
+        specialNotes: [
+            "Restores 1 hunger (0.5 drumsticks) and 0.6 saturation when raw",
+            "Should be cooked into Baked Potatoes for better nutrition",
+            "Planted on farmland to grow more potatoes",
+            "Has a small chance to drop a Poisonous Potato when harvested",
+            "Used to breed pigs and trade with Farmer villagers"
+        ],
+        description: "Potatoes are a versatile crop found in villages or dropped rarely by zombies. While they can be eaten raw to restore 1 hunger point, they are most effective when cooked in a furnace to create Baked Potatoes, which provide significantly more nourishment. Potatoes are highly efficient to farm due to their multiple yields per harvest. However, harvesting them carries a small risk of obtaining a useless Poisonous Potato. They are a fundamental crop for survival and trading with villagers."
+    },
+    "minecraft:melon_slice": {
+        id: "minecraft:melon_slice",
+        name: "Melon Slice",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting seeds and Glistering Melon"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Melon blocks"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "Melon blocks drop 3-7 slices when broken (more with Fortune)",
+            "Crafted into Melon Seeds for farming or Glistering Melon for potions",
+            "Can be composted with a 50% chance of raising the compost level",
+            "Farmer villagers may sell melon slices or buy full melon blocks"
+        ],
+        description: "A Melon Slice is a food item obtained by breaking a full Melon block. Each block drops multiple slices, making it a high-volume food source, though its individual nutritional value is low with only 2 hunger and 1.2 saturation restored. Its true value lies in its utility: slices can be crafted into seeds for farming or combined with gold nuggets to create Glistering Melons, a key ingredient for healing potions. It also serves as a decent composting material."
+    },
+    "minecraft:beetroot": {
+        id: "minecraft:beetroot",
+        name: "Beetroot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source and crafting Beetroot Soup",
+            secondaryUse: "Breeding pigs and crafting Red Dye"
+        },
+        food: {
+            hunger: 1,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Harvested from Beetroot crops", "Village gardens"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point and 1.2 saturation",
+            "Used to craft Beetroot Soup (6 Beetroots + 1 Bowl)",
+            "Can be crafted into Red Dye",
+            "Used to breed pigs and lead them",
+            "Farmer villagers may trade Beetroots for Emeralds",
+            "Compostable with a 65% chance to raise the compost level"
+        ],
+        description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Cows (1-3) and Mooshrooms (1-3) upon death",
+            "Can be cooked into Steak, which provides significantly better stats",
+            "Used to breed and heal tamed wolves",
+            "Butcher villagers may buy raw beef for emeralds",
+            "Can be fed to wolves to speed up the growth of baby wolves"
+        ],
+        description: "Raw Beef is a food item dropped by cows and mooshrooms. While it can be eaten raw to restore 3 hunger points and 1.8 saturation, it is most valuable when cooked into Steak, which offers superior nutrition. Raw beef serves a critical role in animal husbandry, allowing players to breed and heal tamed wolves. It is a common drop in most biomes where cows spawn, making it a reliable early-game resource for both food and pet management."
+    },
+    "minecraft:porkchop": {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Pigs"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Pigs (1-3) upon death",
+            "Can be cooked into Cooked Porkchop for much better stats",
+            "Used to breed and heal tamed wolves",
+            "Butcher villagers may buy raw porkchop for emeralds",
+            "Can be fed to wolves to speed up the growth of baby wolves"
+        ],
+        description: "Raw Porkchop is a food item dropped by pigs. Eating it raw provides 3 hunger points and 1.8 saturation, but cooking it into Cooked Porkchop significantly increases its nutritional value to match that of steak. Beyond consumption, raw porkchops are used to breed and heal tamed wolves, making them useful for players who maintain a pack of dogs. They are easily obtained in most grassy biomes where pigs spawn."
+    },
+    "minecraft:mutton": {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sheep"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Dropped by Sheep (1-2) upon death",
+            "Can be cooked into Cooked Mutton for better stats",
+            "Used to breed and heal tamed wolves",
+            "Butcher villagers may buy raw mutton for emeralds",
+            "Can be fed to wolves to speed up the growth of baby wolves"
+        ],
+        description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
     }
 };

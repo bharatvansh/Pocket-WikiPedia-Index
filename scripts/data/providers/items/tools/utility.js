@@ -433,5 +433,97 @@ export const utilityTools = {
             "Tadpoles grow into frogs based on the biome they mature in."
         ],
         description: "A Bucket of Tadpole is a utility item used to transport tadpoles safely. It is obtained by using a water bucket on a swimming tadpole. This item is crucial for frog breeding, as it allows players to move tadpoles to different biomes (temperate, warm, or cold) to determine the color of the resulting frog. Like other fish buckets, it places a water source block containing the tadpole when used."
+    },
+    "minecraft:cod_bucket": {
+        id: "minecraft:cod_bucket",
+        name: "Bucket of Cod",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting cod safely between locations",
+            secondaryUse: "Displaying cod in aquariums and water features"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Cod"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a cod mob",
+            "Preserves the cod's health and data when stored",
+            "Places water and spawns the cod when used on a block",
+            "Can be used to create fish displays in underwater builds",
+            "Essential for fish farming and aquarium construction"
+        ],
+        description: "A Bucket of Cod is a utility item used to transport and display cod safely. It is obtained by using a water bucket on a swimming cod. This allows players to move cod between different water locations, create underwater displays, or establish fish farms. When used, the bucket places a water source block and spawns the cod, making it perfect for aquarium construction and fish breeding projects. The bucket preserves the cod's health and behavior data during transport."
+    },
+    "minecraft:salmon_bucket": {
+        id: "minecraft:salmon_bucket",
+        name: "Bucket of Salmon",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting salmon between different water biomes",
+            secondaryUse: "Creating salmon displays in aquariums and builds"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Salmon"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a salmon mob",
+            "Preserves the salmon's size variant (small, normal, large)",
+            "In Bedrock Edition, large salmon have 25% chance to drop bones",
+            "Places water and spawns salmon when used on a block",
+            "Useful for establishing salmon farms in warm or cold biomes"
+        ],
+        description: "A Bucket of Salmon is a utility item used to safely transport salmon between different water environments. It is obtained by using a water bucket on a swimming salmon, preserving its size variant and health. This item is essential for fish farming, as players can move salmon between warm and cold biomes to establish breeding populations. When used, the bucket creates a water source and spawns the salmon, making it ideal for aquarium construction and sustainable fishing operations."
+    },
+    "minecraft:tropical_fish_bucket": {
+        id: "minecraft:tropical_fish_bucket",
+        name: "Bucket of Tropical Fish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting tropical fish while preserving their unique patterns",
+            secondaryUse: "Creating diverse aquatic displays with varied fish types"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Tropical Fish"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a tropical fish mob",
+            "Preserves the fish's unique color pattern, size, and species data",
+            "There are over 2,700 possible tropical fish variants in Bedrock",
+            "Places water and spawns the tropical fish when used on a block",
+            "Essential for creating diverse underwater ecosystems and displays"
+        ],
+        description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
+    },
+    "minecraft:pufferfish_bucket": {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting pufferfish safely between locations",
+            secondaryUse: "Creating aquatic displays with pufferfish"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a pufferfish mob",
+            "Preserves the pufferfish's health state when stored",
+            "Places water and spawns the pufferfish when used on a block",
+            "Pufferfish inflict poison if approached by players in Survival mode",
+            "Essential for moving pufferfish to aquariums or defensive moats"
+        ],
+        description: "A Bucket of Pufferfish is a utility item used to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. This item allows players to move these dangerous aquatic mobs without direct contact, which would otherwise inflict poison. When used, the bucket creates a water source block and releases the pufferfish. It is commonly used to create defensive moats or decorative aquariums, as pufferfish puff up when threatened."
     }
 };

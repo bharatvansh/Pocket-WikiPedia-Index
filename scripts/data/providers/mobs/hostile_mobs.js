@@ -68,6 +68,42 @@ export const hostileMobs = {
         ],
         description: "Zombies are common undead hostile mobs that spawn in dark areas throughout the Overworld. They burn in direct sunlight unless protected by a helmet or shade. Zombies attack by pursuing players and villagers, dealing melee damage. They can spawn with armor and weapons, and have a chance to drop useful items."
     },
+    "minecraft:zombie_villager": {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        health: 20,
+        stats: {
+            attackDamage: "2.5-4.5",
+            movementSpeed: 0.23
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Most Overworld biomes", "Abandoned Villages", "Igloos"],
+            lightLevel: "0",
+            groupSize: "2-4 (5% chance replacing zombies)"
+        },
+        behaviorTraits: [
+            "Infected villagers that retain profession clothing when zombified",
+            "Can be cured by splashing with Weakness potion then feeding golden apple",
+            "Curing takes 2-5 minutes in Bedrock Edition to convert back to villager",
+            "Burns in sunlight like other undead unless wearing a helmet",
+            "Can spawn naturally when a zombie kills a villager",
+            "Can break wooden doors on Hard difficulty",
+            "Baby zombie villagers spawn and are faster than adults"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Iron Ingot", chance: "Rare (2.5%)" },
+            { item: "Carrot", chance: "Rare (2.5%)" },
+            { item: "Potato", chance: "Rare (2.5%)" },
+            { item: "Equipped items/armor", chance: "If picked up" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Zombie Villagers are infected villagers that have become hostile undead mobs. They behave like regular zombies, attacking players and villagers, but retain their villager profession clothing. What makes them special is they can be cured back to normal villagers. In Bedrock Edition, curing requires splashing them with a Potion of Weakness and feeding them a golden apple. The conversion takes 2-5 minutes. Zombie villagers drop the same items as zombies but curing them is the only way to restore villagers in abandoned villages or obtain villagers with specific trades in remote areas."
+    },
     "minecraft:husk": {
         id: "minecraft:husk",
         name: "Husk",
@@ -1104,5 +1140,101 @@ export const hostileMobs = {
             { item: "Experience", chance: "12,000 (First Dragon)" }
         ],
         description: "The Ender Dragon is a massive flying boss mob and the primary antagonist of Minecraft, residing in the End dimension. It utilizes a variety of attacks, including diving at players, breathing harmful clouds of purple gas, and firing explosive fireballs. Players must typically destroy the End Crystals atop obsidian pillars to prevent the dragon from regenerating health. Defeating the dragon opens the exit portal, grants a massive amount of experience, and allows access to the outer islands."
+    },
+    "minecraft:skeleton_horse": {
+        id: "minecraft:skeleton_horse",
+        name: "Skeleton Horse",
+        health: 15,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (during thunderstorms)"],
+            lightLevel: "Any",
+            groupSize: "3-6 (skeleton trap) or 1 (natural)"
+        },
+        behaviorTraits: [
+            "Spawns as part of a skeleton trap during thunderstorms in Bedrock Edition",
+            "Lightning must strike near player to trigger the skeleton trap",
+            "Skeleton rider becomes hostile while the horse remains passive until rider is killed",
+            "Once rider is defeated, the horse becomes tameable and requires only a saddle to ride",
+            "Does not burn in sunlight like other undead skeletons",
+            "Can be led and bred like regular horses after being tamed",
+            "Jump height and speed are randomly determined when spawned"
+        ],
+        drops: [
+            { item: "Bone", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" }
+        ],
+        description: "Skeleton Horses are rare undead horses that spawn during thunderstorms as skeleton traps in Bedrock Edition. When lightning strikes near a player, a skeleton trap activates, spawning 3-6 skeleton horses with skeleton riders. These riders are hostile, but their horses are passive. After defeating the skeletons, the horses can be tamed and ridden simply by equipping a saddle. They possess random stats like regular horses and can be bred with golden apples or golden carrots. Unlike other undead, they don't burn in sunlight."
+    },
+    "minecraft:zombie_horse": {
+        id: "minecraft:zombie_horse",
+        name: "Zombie Horse",
+        health: 25,
+        stats: {
+            attackDamage: 4,
+            movementSpeed: 0.2
+        },
+        classification: {
+            type: "Hostile",
+            undead: true
+        },
+        spawning: {
+            biomes: ["Overworld (command/creative egg only in current Bedrock)"],
+            lightLevel: "Any",
+            groupSize: "1 (can be ridden by zombie in future updates)"
+        },
+        behaviorTraits: [
+            "Undead horse variant that does not spawn naturally in current Bedrock Edition versions",
+            "Can only be spawned using spawn eggs or commands in Bedrock Edition",
+            "Behaves passively when spawned but can become hostile when ridden by a zombie",
+            "Immune to drowning damage like other undead mobs",
+            "Can be tamed and ridden like regular horses when not hostile",
+            "Burns in sunlight unless wearing armor in some versions",
+            "Cannot be bred like other horses and has fixed 25 health"
+        ],
+        drops: [
+            { item: "Rotten Flesh", chance: "0-2" },
+            { item: "Experience", chance: "1-3 (when killed by player/tamed wolf)" },
+            { item: "Saddle", chance: "If equipped" },
+            { item: "Horse Armor", chance: "If equipped" }
+        ],
+        description: "Zombie Horses are undead horse variants that currently do not spawn naturally in Bedrock Edition, requiring spawn eggs or commands to obtain. They display zombie-like decayed appearance and have 25 health (12.5 hearts), higher than most horses. Zombie Horses cannot drown and share taming mechanics with regular horses. When not ridden by zombies, they behave passively and can be saddled. In future updates, they may spawn naturally with zombie riders. Their distinctive greenish decayed texture sets them apart from living horses."
+    },
+    "minecraft:elder_guardian_ghost": {
+        id: "minecraft:elder_guardian_ghost",
+        name: "Elder Guardian Ghost",
+        health: 20,
+        stats: {
+            attackDamage: 2,
+            movementSpeed: 0.0
+        },
+        classification: {
+            type: "Hostile",
+            undead: false
+        },
+        spawning: {
+            biomes: ["Ocean Monument (Bedrock Edition only)"],
+            lightLevel: "Any",
+            groupSize: "1 (per Mining Fatigue application)"
+        },
+        behaviorTraits: [
+            "Exclusive to Bedrock Edition as a technical implementation detail",
+            "Invisible hostile mob that serves as the particle rendering entity",
+            "Spawned automatically when Elder Guardians apply Mining Fatigue effect",
+            "Responsible for displaying the ghostly Elder Guardian face particle in player's screen",
+            "Has 2 HP spike damage from its hitbox, though rarely interacted with",
+            "Exists only for the duration of the Mining Fatigue visual effect",
+            "Not meant to be encountered in normal gameplay as it remains invisible"
+        ],
+        drops: [
+        ],
+        description: "The Elder Guardian Ghost is a technical entity exclusive to Bedrock Edition, serving as an invisible mob that renders the iconic ghostly Elder Guardian face particle when players receive the Mining Fatigue III effect. This special implementation differs from Java Edition, where the particle system handles this effect differently. The mob itself is invisible, immobile, and has 20 health points with 2 HP spike damage. Players cannot normally interact with or see Elder Guardian Ghosts, as they exist solely to display the intimidating visual effect associated with ocean monument guardians."
     }
 };

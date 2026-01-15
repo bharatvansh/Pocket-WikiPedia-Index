@@ -79,6 +79,29 @@ export const musicDiscs = {
         ],
         description: "'Precipice' is an atmospheric and mysterious music disc composed by Aaron Cherof for the 1.21 Tricky Trials update. It can be discovered by players exploring Trial Chambers, where it serves as a rare reward from standard Vaults. The track's moody and evocative soundscape reflects the adventurous and sometimes dangerous nature of the chambers. In terms of game mechanics, it is notable for providing a strong redstone signal of 13 when played in a Jukebox, making it useful for complex redstone contraptions that rely on disc-based signal differentiation."
     },
+    "minecraft:music_disc_tears": {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Tears' music track in a Jukebox",
+            secondaryUse: "Comparator emits a signal strength of 10 when played"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts when killed by a player-deflected fireball"]
+        },
+        specialNotes: [
+            "Composed by Amos Roddy",
+            "Added in Java 1.21.6 and Bedrock 1.21.90 (preview)",
+            "Dropped by Ghasts when killed by a player-deflected fireball",
+            "Plays an electronic track lasting 2:55",
+            "Comparator output: 10 when played in a Jukebox"
+        ],
+        description: "'Tears' is a music disc composed by Amos Roddy and added in 2025. It is dropped by Ghasts when the player kills them by deflecting their fireball back at them. When played in a Jukebox it emits a comparator signal strength of 10 and plays an electronic track that remixes ghast sounds."
+    },
     "minecraft:music_disc_5": {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",
@@ -190,29 +213,6 @@ export const musicDiscs = {
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
     },
-    "minecraft:music_disc_cat": {
-        id: "minecraft:music_disc_cat",
-        name: "Music Disc (Cat)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Cat' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Creepers killed by Skeletons or Strays; also found in Monster Room, Ancient City, and Woodland Mansion chests"]
-        },
-        specialNotes: [
-            "Composed by C418",
-            "Found in Monster Room (19.4%), Ancient City (16.1%), and Woodland Mansion (21.5%) chest loot",
-            "Drops when a Creeper is killed by a Skeleton or Stray",
-            "Track length: 3:05",
-            "Comparator output: 2"
-        ],
-        description: "Music Disc 'Cat' is a classic disc composed by C418. Its upbeat, chiptune-style melody (3:05) is found in Monster Room, Ancient City, and Woodland Mansion chests and can also drop when a Creeper is killed by a Skeleton or Stray. When played in a Jukebox, it causes a Comparator to emit a signal strength of 2."
-    },
     "minecraft:music_disc_wait": {
         id: "minecraft:music_disc_wait",
         name: "Music Disc (Wait)",
@@ -225,16 +225,147 @@ export const musicDiscs = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Creepers killed by Skeletons, Strays, or Bogged"]
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
         },
         specialNotes: [
             "Composed by C418",
-            "Track length: 3:58",
-            "Redstone signal strength: 12",
-            "Rarity: Uncommon (as of Bedrock 1.21.30)",
-            "Originally titled 'Where Are We Now' on the Volume Beta soundtrack"
+            "Originally named 'where are we now' in the game files",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 12 in a Jukebox"
         ],
-        description: "'Wait' is a classic music disc composed by C418, featuring an upbeat and synth-heavy melody that is highly nostalgic for many players. It is part of the standard set of discs primarily obtained when a Skeleton, Stray, or Bogged kills a Creeper. In Bedrock Edition, its rarity was updated to Uncommon in the 1.21.30 update. When played in a Jukebox, it outputs a strong redstone signal of 12, making it useful for disc-based redstone mechanisms."
+        description: "Music Disc 'Wait' is a track composed by C418 featuring an upbeat and cheerful remix of the main Minecraft theme. In Bedrock Edition, it is unique as it can be found in Buried Treasure chests as well as being obtained from Creepers killed by Skeletons. When placed in a Jukebox, it outputs a signal strength of 12 to a Comparator."
+    },
+    "minecraft:music_disc_strad": {
+        id: "minecraft:music_disc_strad",
+        name: "Music Disc (Strad)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Strad' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 9 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a tropical, steel drum melody",
+            "Outputs a redstone signal strength of 9 in a Jukebox",
+            "One of the 12 original music discs"
+        ],
+        description: "Music Disc 'Strad' is a tropical-themed track composed by C418, characterized by its distinct steel drum melody and relaxed vibe. Like most other music discs, it is obtained when a Creeper is killed by a Skeleton's arrow. It outputs a redstone signal strength of 9 when played in a Jukebox, fitting for its sunny disposition."
+    },
+    "minecraft:music_disc_mall": {
+        id: "minecraft:music_disc_mall",
+        name: "Music Disc (Mall)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Mall' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 6 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a calm, slow-building melody",
+            "Outputs a redstone signal strength of 6 in a Jukebox"
+        ],
+        description: "Music Disc 'Mall' is a serene track composed by C418 that begins slowly and gradually picks up tempo. It serves as a calming background piece for any base. This disc is obtainable by having a Skeleton defeat a Creeper. In redstone mechanisms, it provides a signal strength of 6 when used with a Jukebox and Comparator."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a light, looping melody",
+            "Outputs a redstone signal strength of 2 in a Jukebox",
+            "One of the first two music discs added to Minecraft"
+        ],
+        description: "Music Disc 'Cat' is a whimsical, looping track composed by C418. Along with '13', it was one of the first music discs introduced to the game. It is obtained when a Skeleton or Stray kills a Creeper, or found in Dungeon and Woodland Mansion chests. When played in a Jukebox, it outputs a Comparator signal strength of 2."
+    },
+    "minecraft:music_disc_blocks": {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Blocks' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 3 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features an upbeat, rhythmic tune",
+            "Outputs a redstone signal strength of 3 in a Jukebox"
+        ],
+        description: "Music Disc 'Blocks' is an upbeat track composed by C418. It features a catchy, rhythmic melody that is distinct from the more ambient tracks. Like most discs, it is obtained as a drop from a Creeper killed by a Skeleton. In redstone contraptions, it provides a signal strength of 3 when played in a Jukebox."
+    },
+    "minecraft:music_disc_chirp": {
+        id: "minecraft:music_disc_chirp",
+        name: "Music Disc (Chirp)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Chirp' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 4 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a retro, bossa nova style tune",
+            "Outputs a redstone signal strength of 4 in a Jukebox"
+        ],
+        description: "Music Disc 'Chirp' is a retro-styled track composed by C418, often described as having a bossa nova feel. It is one of the collectible music discs obtainable from Creeper drops caused by Skeletons. When used in a Jukebox with a Comparator, it outputs a signal strength of 4."
+    },
+    "minecraft:music_disc_11": {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '11' recording in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "The only music disc that appears physically broken",
+            "Features a disturbing recording of running, coughing, and static",
+            "Outputs a redstone signal strength of 11 in a Jukebox"
+        ],
+        description: "Music Disc 11 is a unique and mysterious record, easily identifiable by its broken, fragmented appearance. Unlike other discs that play music, this disc plays a disturbing audio recording of a person running across different blocks, struggling, and coughing, accompanied by static and eerie noises. It ends abruptly with a sharp cut. In Bedrock Edition, it can be obtained when a Creeper is killed by a Skeleton. When placed in a Jukebox, it outputs a signal strength of 11 to a Comparator."
     },
     "minecraft:music_disc_mellohi": {
         id: "minecraft:music_disc_mellohi",
@@ -248,64 +379,82 @@ export const musicDiscs = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Creepers killed by Skeletons, Strays, or Bogged"]
+            ingredients: [
+                "Found in Buried Treasure chests",
+                "Dropped by Creepers killed by Skeletons or Strays"
+            ]
         },
         specialNotes: [
             "Composed by C418",
-            "Track length: 1:36",
-            "Redstone signal strength: 7",
-            "Rarity: Uncommon (as of Bedrock 1.21.30)",
-            "Features a slow, melancholic, waltz-like melody"
+            "Features a slow, melancholic waltz melody",
+            "Has an 18.9% chance to be found in Buried Treasure chests in Bedrock Edition",
+            "Outputs a redstone signal strength of 7 in a Jukebox"
         ],
-        description: "'Mellohi' is a music disc composed by C418, known for its slow, haunting, and waltz-like melody. Its atmospheric sound makes it a favorite for players looking to set a mysterious or spooky mood in their builds. It is obtained when a Creeper is killed by a Skeleton, Stray, or Bogged. Following the 1.21.30 Bedrock update, its rarity is classified as Uncommon. When placed in a Jukebox, it outputs a redstone signal strength of 7."
+        description: "Music Disc 'Mellohi' is a track composed by C418, featuring a slow, somber waltz that conveys a mood of melancholy and introspection. In Bedrock Edition, this disc can be discovered in Buried Treasure chests buried under beaches, in addition to being a drop from Creepers killed by Skeletons. Its distinct purple and white label matches its eerie yet beautiful tone. When played in a Jukebox, it emits a comparator signal strength of 7."
     },
-    "minecraft:music_disc_tears": {
-        id: "minecraft:music_disc_tears",
-        name: "Music Disc (Tears)",
+    "minecraft:music_disc_stal": {
+        id: "minecraft:music_disc_stal",
+        name: "Music Disc (Stal)",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Playing the 'Tears' music track in a Jukebox",
+            primaryUse: "Playing the 'Stal' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 8 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a smooth jazz melody with recorder and saxophone",
+            "Outputs a redstone signal strength of 8 in a Jukebox",
+            "The name 'Stal' translates to 'steel' in Polish"
+        ],
+        description: "Music Disc 'Stal' is a jazz-inspired track composed by C418. It is characterized by a relaxed tempo, featuring a prominent recorder melody accompanied by piano, saxophone, and bass. This disc is a classic collectible obtained from Creepers killed by Skeletons. Its soothing, somewhat humorous jazz style makes it a favorite for many players. In redstone mechanisms, it provides a signal strength of 8 when detected by a Comparator attached to a Jukebox."
+    },
+    "minecraft:music_disc_far": {
+        id: "minecraft:music_disc_far",
+        name: "Music Disc (Far)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Far' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 5 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Features a calm, relaxing nature-inspired melody",
+            "Outputs a redstone signal strength of 5 in a Jukebox"
+        ],
+        description: "Music Disc 'Far' is a serene, ambient track composed by C418. It evokes a sense of vast distance and nature, featuring echoing synths and a gentle melody. Like most other music discs, it is obtained when a Creeper is killed by a Skeleton's arrow. It is a perfect background track for peaceful moments in the game. In redstone mechanisms, playing this disc in a Jukebox outputs a signal strength of 5 to a connected Comparator."
+    },
+    "minecraft:music_disc_ward": {
+        id: "minecraft:music_disc_ward",
+        name: "Music Disc (Ward)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Ward' music track in a Jukebox",
             secondaryUse: "Providing a redstone signal strength of 10 via a Comparator"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Ghasts when killed by a player-deflected fireball"]
+            ingredients: ["Dropped by Creepers killed by Skeletons or Strays"]
         },
         specialNotes: [
-            "Composed by Amos Roddy",
-            "Added in Java 1.21.6 and Bedrock 1.21.90 (Preview)",
-            "Dropped by Ghasts when killed by player-deflected fireballs",
-            "Emits a comparator signal strength of 10 when played in a Jukebox",
-            "Track length: 2:55",
-            "Genre: Electronic",
-            "Rarity: Uncommon"
+            "Composed by C418",
+            "Starts with a funeral march before switching to an upbeat electronic tune",
+            "Outputs a redstone signal strength of 10 in a Jukebox",
+            "One of the darker, more mysterious tracks in the game"
         ],
-        description: "'Tears' is a music disc composed by Amos Roddy and released as part of the 'Chase the Skies' soundtrack. It is obtained when a Ghast is defeated by a player-deflected fireball. When played in a jukebox, the track, an electronic piece incorporating ghast vocal samples, plays for approximately 2:55 and a comparator next to the jukebox emits a signal of 10."
-    },
-    "minecraft:music_disc_lava_chicken": {
-        id: "minecraft:music_disc_lava_chicken",
-        name: "Music Disc (Lava Chicken)",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Playing the 'Lava Chicken' music track in a Jukebox",
-            secondaryUse: "Providing a redstone signal strength of 9 via a Comparator"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by chicken jockeys (baby zombie riding a chicken)"]
-        },
-        specialNotes: [
-            "Composed by Hyper Potions",
-            "Added in Java 1.21.7 and Bedrock 1.21.93",
-            "Dropped by chicken jockeys (baby zombie riding a chicken)",
-            "Emits a comparator signal strength of 9 when played in a Jukebox",
-            "Track length: 2:15",
-            "Inspired by 'Steve\'s Lava Chicken' from A Minecraft Movie"
-        ],
-        description: "'Lava Chicken' is a music disc that plays Hyper Potions' 'Lava Chicken' track (approx. 2:15). It is obtained by defeating chicken jockeys (baby zombies riding chickens). When played in a jukebox, it provides a comparator signal strength of 9."
+        description: "Music Disc 'Ward' is a unique track composed by C418. It begins with a snippet of Chopin's Funeral March, creating a somber tone, before abruptly transitioning into an electronic, upbeat, yet slightly ominous melody. This drastic shift makes it one of the most distinctive discs in the collection. Obtained from Creeper drops, it outputs a signal strength of 10 when played in a Jukebox, making it useful for specific redstone calibration."
     }
 };

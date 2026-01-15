@@ -113,5 +113,110 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Stairs are a stair block variant made from Resin Bricks, introduced in Minecraft 1.21.50. They feature a distinctive warm, orange-toned brick texture. Like other stairs, they allow entities to change elevation without jumping and can be used for roofs, detailed walls, and corner connections. They are crafted using 6 Resin Bricks in a stair pattern or by using a Stonecutter. These stairs are part of the resin block family, which also includes blocks, slabs, walls, and chiseled variants."
+    },
+    "minecraft:polished_tuff_wall": {
+        id: "minecraft:polished_tuff_wall",
+        name: "Polished Tuff Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Tuff Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Polished Tuff Wall is a decorative barrier block introduced in Minecraft 1.21. Crafted from six polished tuff blocks in a crafting table or via a stonecutter, it shares the smooth, dark gray aesthetic of the polished tuff family. Like other walls, it can be used to create fences, parapets, and complex architectural details. It connects to adjacent walls and blocks, making it versatile for structural designs. It generates naturally in Trial Chambers and requires a wooden pickaxe or better to mine."
+    },
+    "minecraft:tuff_brick_slab": {
+        id: "minecraft:tuff_brick_slab",
+        name: "Tuff Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Brick Slab is a half-block variant of tuff bricks, introduced in Minecraft 1.21. It features the distinct brick pattern of tuff bricks but in a slab form, perfect for detailed flooring, steps, and roofing. Crafted from three tuff bricks in a row or using a stonecutter, it allows for more precise building and decoration without the bulk of full blocks. These slabs generate naturally in Trial Chambers and require a wooden pickaxe or better to be mined."
+    },
+    "minecraft:tuff_brick_stairs": {
+        id: "minecraft:tuff_brick_stairs",
+        name: "Tuff Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Brick Stairs are the stair variant of tuff bricks, introduced in Minecraft 1.21. They allow for smooth elevation changes and detailed architectural features like roofs and corner trims, maintaining the rugged brick aesthetic of the tuff family. Crafted from six tuff bricks or via a stonecutter, they are essential for cohesive builds using tuff materials. They generate naturally in Trial Chambers and can be waterlogged, adding to their versatility in various building styles."
+    },
+    "minecraft:pale_oak_slab": {
+        id: "minecraft:pale_oak_slab",
+        name: "Pale Oak Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "Pale Oak Slab is a half-block building component crafted from Pale Oak Planks, introduced in Minecraft 1.21.50. It features the same muted, ghostly wood texture as the planks, allowing for detailed construction in Pale Garden builds. Slabs can be placed in the upper or lower half of a block space and are essential for flooring, roofing, and smooth elevation changes. They can be crafted in a crafting table or using a stonecutter."
+    },
+    "minecraft:resin_brick_slab": {
+        id: "minecraft:resin_brick_slab",
+        name: "Resin Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Resin Brick Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Resin Bricks"
+        },
+        description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
     }
 };

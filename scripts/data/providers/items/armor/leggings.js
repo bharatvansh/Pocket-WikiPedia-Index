@@ -10,27 +10,28 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const leggings = {
-    "minecraft:netherite_leggings": {
-        id: "minecraft:netherite_leggings",
-        name: "Netherite Leggings",
+    "minecraft:chainmail_leggings": {
+        id: "minecraft:chainmail_leggings",
+        name: "Chainmail Leggings",
         maxStack: 1,
-        durability: 555,
+        durability: 225,
         enchantable: true,
         usage: {
-            primaryUse: "Exceptional lower body protection",
-            secondaryUse: "Granting knockback resistance and fire immunity"
+            primaryUse: "Leg protection",
+            secondaryUse: "Decoration or trophy armor"
         },
         crafting: {
-            recipeType: "Smithing",
-            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Leggings", "Netherite Ingot"]
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests", "Trading with Armorer villagers", "Dropped by mobs"]
         },
         specialNotes: [
-            "Provides 6 armor points and 3 armor toughness",
-            "Increases knockback resistance by 10% (1 point)",
-            "Fire-resistant; floats on lava and survives burning",
-            "Requires a Smithing Table to upgrade from Diamond Leggings",
-            "Exclusive Swift Sneak enchantment can be applied via books"
+            "Provides 4 armor points (Iron provides 5)",
+            "Durability: 225 (same as Iron Leggings)",
+            "Enchantability: 12 (Higher than Iron's 9)",
+            "Can be repaired with Iron Ingots in an Anvil",
+            "Obtainable via Armorer villager trades or Buried Treasure",
+            "Partially transparent texture"
         ],
-        description: "Netherite Leggings are the most powerful leg protection available in Minecraft Bedrock Edition. Boasting 6 armor points and 3 armor toughness, they offer significant damage reduction against heavy hits. Like all netherite equipment, they are fire-resistant and will float if dropped into lava. To obtain them, players must combine Diamond Leggings with a Netherite Ingot and a Netherite Upgrade Smithing Template at a Smithing Table, representing a significant investment of rare materials from the Nether."
+        description: "Chainmail Leggings provide 4 armor points of protection for the legs, one point less than Iron Leggings, while maintaining the same durability of 225. They possess a higher enchantability rating (12), allowing for potentially better enchantment rolls. Uncraftable in survival, they are primarily sourced from Armorer villagers, loot chests, or drops from armored mobs. Like other chainmail pieces, they can be repaired using Iron Ingots in an anvil."
     }
 };

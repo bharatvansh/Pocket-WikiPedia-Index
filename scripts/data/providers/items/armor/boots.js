@@ -9,27 +9,27 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const boots = {
-    "minecraft:netherite_boots": {
-        id: "minecraft:netherite_boots",
-        name: "Netherite Boots",
+    "minecraft:chainmail_boots": {
+        id: "minecraft:chainmail_boots",
+        name: "Chainmail Boots",
         maxStack: 1,
-        durability: 481,
+        durability: 195,
         enchantable: true,
         usage: {
-            primaryUse: "Superior foot protection and mobility support",
-            secondaryUse: "Providing knockback resistance and fire immunity"
+            primaryUse: "Foot protection",
+            secondaryUse: "Decoration or trophy armor"
         },
         crafting: {
-            recipeType: "Smithing",
-            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Boots", "Netherite Ingot"]
+            recipeType: "Uncraftable",
+            ingredients: ["Found in loot chests", "Trading with Armorer villagers", "Dropped by mobs"]
         },
         specialNotes: [
-            "Provides 3 armor points and 3 armor toughness",
-            "Increases knockback resistance by 10% (1 point)",
-            "Immune to fire damage and floats on lava surfaces",
-            "Upgraded from Diamond Boots using a Smithing Table",
-            "Compatible with mobility enchantments like Depth Strider and Soul Speed"
+            "Provides 1 defense point (half shirt)",
+            "Durability: 195 (Same as Iron Boots in Bedrock)",
+            "Enchantability: 12 (Higher than Iron, lower than Gold)",
+            "Cannot be crafted; found in structures or traded",
+            "Repaired using Iron Ingots in an Anvil"
         ],
-        description: "Netherite Boots provide the ultimate foot protection in Minecraft Bedrock Edition, offering 3 armor points and 3 armor toughness. They share the unique properties of the netherite tier, including fire immunity and knockback resistance. These boots are particularly valuable when combined with enchantments like Feather Falling or Soul Speed, as their high 481 durability ensures they last through extensive exploration and combat. Crafting them requires a Diamond Boots base, a Netherite Ingot, and a Netherite Upgrade Smithing Template."
+        description: "Chainmail Boots are a type of armor that offers the same protection as Gold Boots but with significantly higher durability, matching Iron. They are unique as they cannot be crafted and are only obtained through trading with Armorer villagers, finding them in Buried Treasure, or as rare drops from mobs. They provide moderate protection for the feet and have a distinctive mesh appearance."
     }
 };

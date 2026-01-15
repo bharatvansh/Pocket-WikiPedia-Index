@@ -13,6 +13,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const miscDecorativeBlocks = {
+    "minecraft:web": {
+        id: "minecraft:web",
+        name: "Cobweb",
+        hardness: 4.0,
+        blastResistance: 4.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["String (1)", "Cobweb (with Silk Touch/Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts, Strongholds, Basements"
+        },
+        description: "Cobweb is a unique block that significantly slows down entities moving through it. It naturally generates in mineshafts, strongholds, library rooms, and igloo basements. While it can be broken by hand, using a sword is much faster, and shears are the most efficient tool. Breaking it with shears or a Silk Touch sword drops the cobweb itself; otherwise, it drops one piece of string. It is not flammable and allows light to pass through. Cobwebs are excellent for trapping mobs or players and adding an abandoned aesthetic to builds."
+    },
     "minecraft:pink_petals": {
         id: "minecraft:pink_petals",
         name: "Pink Petals",
@@ -369,5 +390,194 @@ export const miscDecorativeBlocks = {
             yRange: "Bastion Remnants / Mineshafts"
         },
         description: "Chain is a metallic decorative block that can be placed horizontally or vertically. Chains are naturally generated in Bastion Remnants, Ruined Portals, and Mineshafts. They can also be crafted using one Iron Ingot and two Iron Nuggets. Chains connect to each other and to lanterns, making them perfect for suspending light sources from ceilings. Chains have a small collision box aligned with their center. They are primarily used for decoration, especially for hanging lanterns or bells."
+    },
+    "minecraft:iron_bars": {
+        id: "minecraft:iron_bars",
+        name: "Iron Bars",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Bars"],
+        generation: {
+            dimension: "Overworld, End",
+            yRange: "Strongholds, Villages, End Cities"
+        },
+        description: "Iron Bars are decorative blocks used to create fences, cages, or windows. They are crafted from six iron ingots and can be found naturally in strongholds, villages, igloos, woodland mansions, and end cities. Like glass panes, they connect to adjacent solid blocks and other iron bars, forming a thin barrier. They allow light to pass through completely. While they look fragile, they have the same blast resistance as cobblestone. In the End dimension, they are found in cages around End Crystals atop obsidian pillars."
+    },
+    "minecraft:small_amethyst_bud": {
+        id: "minecraft:small_amethyst_bud",
+        name: "Small Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Small Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Small Amethyst Bud is the first growth stage of an amethyst cluster, appearing exclusively on the sides of Budding Amethyst blocks in geodes. It emits a faint light level of 1. Like all amethyst buds, it cannot be mined with a standard pickaxe; breaking it without Silk Touch yields nothing. To collect the bud itself, a Silk Touch tool is required. It is primarily decorative, representing the initial phase of crystal growth before it matures into larger forms."
+    },
+    "minecraft:medium_amethyst_bud": {
+        id: "minecraft:medium_amethyst_bud",
+        name: "Medium Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 2,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Medium Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Medium Amethyst Bud is the second growth stage of the amethyst crystal lifecycle, found on Budding Amethyst blocks. It emits a light level of 2, slightly brighter than the small variant. This block is unobtainable via standard mining, as it drops nothing when broken without the Silk Touch enchantment. When harvested correctly, it serves as a distinct decorative element for detailed crystal builds, marking the progression from a small sprout to a larger formation."
+    },
+    "minecraft:large_amethyst_bud": {
+        id: "minecraft:large_amethyst_bud",
+        name: "Large Amethyst Bud",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 4,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Large Amethyst Bud (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Amethyst Geodes"
+        },
+        description: "Large Amethyst Bud is the third growth stage of an amethyst cluster, preceding the fully grown cluster. It generates on Budding Amethyst blocks within geodes and emits a light level of 4. Like other buds, it is fragile and drops nothing if mined without Silk Touch. With Silk Touch, it can be collected and placed on any block face. Visually prominent, it signifies a nearly mature crystal and is often used in builds to create varied, organic-looking crystal caves."
+    },
+    "minecraft:hanging_sign": {
+        id: "minecraft:hanging_sign",
+        name: "Hanging Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hanging Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Hanging Sign is an elegant decorative block introduced in Minecraft 1.20 that displays text in a hanging format. Crafted from two chains and stripped wood, hanging signs provide a sophisticated alternative to standard signs. They can only be placed on the bottom face of solid blocks, with chains attaching to the ceiling. Like regular signs, they can hold up to 90 characters on four lines. Perfect for tavern names, shop signs, and detailed player-created signage systems."
+    },
+    "minecraft:flower_pot": {
+        id: "minecraft:flower_pot",
+        name: "Flower Pot",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flower Pot", "Brick (if empty)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Woodland Mansions, Igloos"
+        },
+        description: "The Flower Pot is a decorative block that holds and displays flowers, mushrooms, saplings, cacti, and other plantable items. Crafted from three bricks arranged in a U-shape, it generates naturally in woodland mansion rooms and igloos. When a plant is placed inside, the pot shows the plant's texture; when empty, it displays the brick texture. Flower pots can be placed on any solid block or as headgear on armor stands. In Bedrock Edition, they can also be filled with dead bushes, ferns, and tall grass. They are essential for indoor gardening, herb gardens, and detailed botanical builds."
+    },
+    "minecraft:prismarine_bricks": {
+        id: "minecraft:prismarine_bricks",
+        name: "Prismarine Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments, Underwater Ruins"
+        },
+        description: "Prismarine Bricks are a decorative variant of prismarine with a cracked, teal brick texture. They generate naturally in ocean monuments and underwater ruins. Crafted from nine prismarine shards, they share the same hardness (1.5) and blast resistance (6.0) as other prismarine blocks. Unlike sea lanterns, they do not emit light. Their vibrant color and animated texture make them excellent for underwater builds and detailed flooring."
+    },
+    "minecraft:dark_prismarine": {
+        id: "minecraft:dark_prismarine",
+        name: "Dark Prismarine",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dark Prismarine"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Dark Prismarine is the darkest variant of the prismarine family, featuring a deep teal-gray grid pattern. It generates in ocean monuments, typically encasing the central gold blocks. Crafted from eight prismarine shards surrounding an ink sac (or black dye in Bedrock Edition), it offers a sleek, tiled appearance. With a hardness of 1.5 and blast resistance of 6.0, it is a durable building block perfect for contrast in aquatic-themed structures."
+    },
+    "minecraft:white_wool": {
+        id: "minecraft:white_wool",
+        name: "White Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pillager Outposts, Ancient Cities, Villages"
+        },
+        description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
     }
 };

@@ -16,6 +16,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const vegetationBlocks = {
+    "minecraft:vine": {
+        id: "minecraft:vine",
+        name: "Vines",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Vines (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungles, Swamps, Lush Caves"
+        },
+        description: "Vines are climbable vegetation blocks that grow naturally on trees and walls in Jungles, Swamps, and Lush Caves. They can spread downwards to adjacent air blocks, allowing them to cover large areas over time. Players can climb them like ladders if they are supported by a solid block behind them. To harvest vines as an item, Shears must be used; otherwise, they drop nothing. They are widely used for decoration to add an overgrown or ancient look to builds. In Bedrock Edition, vines can be used to stop a player's fall damage if they touch the wall while falling."
+    },
     "minecraft:moss_block": {
         id: "minecraft:moss_block",
         name: "Moss Block",
@@ -519,5 +540,152 @@ export const vegetationBlocks = {
             yRange: "Lush Caves, under Rooted Dirt"
         },
         description: "Hanging Roots are decorative vegetation blocks that sprout from the underside of Rooted Dirt blocks, typically found in Lush Caves. They add a detailed, organic feel to cave ceilings and forest floors. While they break instantly by hand, they can only be collected as an item using Shears or a tool with Silk Touch. In Bedrock Edition, they can also be grown by using Bone Meal on a Rooted Dirt block. They are purely decorative and do not obstruct player movement, making them ideal for adding atmosphere to nature-themed builds."
+    },
+    "minecraft:cocoa": {
+        id: "minecraft:cocoa",
+        name: "Cocoa",
+        hardness: 0.2,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cocoa Beans (2-3)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes (on Jungle logs)"
+        },
+        description: "Cocoa is a renewable plant block that grows naturally on the sides of jungle logs in Jungle biomes. It has three growth stages, starting as a small green pod and maturing into a larger orange-brown pod. When fully grown, it drops 2-3 cocoa beans, which are used to craft brown dye and cookies. It breaks instantly when mined with an axe. Players can manually plant cocoa beans on jungle logs (stripped or regular, including wood variants) to farm them. Bone meal can be used to instantly advance their growth stage."
+    },
+    "minecraft:melon_block": {
+        id: "minecraft:melon_block",
+        name: "Melon Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Melon Slice (3-7)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes, Savanna villages, Woodland Mansions"
+        },
+        description: "Melon is a fruit block that generates naturally in jungle biomes, savanna villages, and woodland mansions. It can be farmed from melon seeds planted on farmland. When broken, it drops 3-7 melon slices, which can be eaten or crafted into glistering melon slices or melon seeds. Using a tool with Silk Touch drops the melon block itself. It has a hardness and blast resistance of 1.0 and is most efficiently mined with an axe."
+    },
+    "minecraft:pumpkin": {
+        id: "minecraft:pumpkin",
+        name: "Pumpkin",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pumpkin"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grassy biomes, Woodland Mansions, Pillager Outposts"
+        },
+        description: "Pumpkin is a fruit block that generates naturally in patches in most grassy biomes. It has a smooth, orange texture without a face. Players can use shears on a pumpkin to carve it, turning it into a carved pumpkin and dropping four pumpkin seeds. It can be farmed from pumpkin seeds planted on farmland. Pumpkins are essential for creating snow golems and iron golems (using the carved variant) and can be crafted into pumpkin pie."
+    },
+    "minecraft:carved_pumpkin": {
+        id: "minecraft:carved_pumpkin",
+        name: "Carved Pumpkin",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Carved Pumpkin"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Woodland Mansions, Pillager Outposts, Rail rooms"
+        },
+        description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
+    },
+    "minecraft:kelp": {
+        id: "minecraft:kelp",
+        name: "Kelp",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Kelp"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Oceans (except Frozen/Warm/Deep Warm)"
+        },
+        description: "Kelp is an aquatic plant block that generates naturally in all ocean biomes except frozen, warm, and deep warm oceans. It grows in tall stalks from the ocean floor up to the water surface. When broken, it drops the Kelp item, which can be dried in a furnace to create Dried Kelp (a food source) or crafted into Dried Kelp Blocks for fuel. Kelp has a unique mechanic where placing it converts flowing water into source blocks, making it extremely useful for creating bubble columns with Soul Sand or Magma Blocks."
+    },
+    "minecraft:cactus": {
+        id: "minecraft:cactus",
+        name: "Cactus",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cactus"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deserts, Badlands"
+        },
+        description: "Cactus is a prickly plant block that generates naturally in dry biomes like Deserts and Badlands. It deals damage to any mob or player that touches it, making it useful for simple mob farms and defenses. Cacti can only be placed on Sand, Red Sand, or other Cactus blocks, and they cannot be placed directly adjacent to other solid blocks. When a block is placed next to a cactus, it breaks instantly. It can be smelted in a furnace to produce Green Dye."
+    },
+    "minecraft:deadbush": {
+        id: "minecraft:deadbush",
+        name: "Dead Bush",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stick (0-2)", "Dead Bush (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deserts, Badlands, Giant Tree Taigas"
+        },
+        description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
     }
 };

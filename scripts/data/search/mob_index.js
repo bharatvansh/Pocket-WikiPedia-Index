@@ -509,5 +509,89 @@ export const mobIndex = [
         category: "mob",
         icon: "textures/items/spawn_eggs/spawn_egg_cat.png",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:turtle",
+        name: "Turtle",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_turtle.png",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:panda",
+        name: "Panda",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_panda.png",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:donkey",
+        name: "Donkey",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_donkey.png",
+        themeColor: "§6" // gray/brown
+    },
+    {
+        id: "minecraft:horse",
+        name: "Horse",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_horse.png",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:mule",
+        name: "Mule",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_mule.png",
+        themeColor: "§8" // dark gray/brown
+    },
+    {
+        id: "minecraft:zombie_villager",
+        name: "Zombie Villager",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie_villager.png",
+        themeColor: "§8" // green/zombie
+    },
+    {
+        id: "minecraft:skeleton_horse",
+        name: "Skeleton Horse",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_skeleton_horse.png",
+        themeColor: "§7" // white/bone
+    },
+    {
+        id: "minecraft:zombie_horse",
+        name: "Zombie Horse",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie_horse.png",
+        themeColor: "§8" // dark green/rotted
+    },
+    {
+        id: "minecraft:trader_llama",
+        name: "Trader Llama",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_trader_llama.png",
+        themeColor: "§6" // brown/decorative
+    },
+    {
+        id: "minecraft:agent",
+        name: "Agent",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_agent.png",
+        themeColor: "§b" // cyan/tech
+    },
+    {
+        id: "minecraft:npc",
+        name: "NPC",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_npc.png",
+        themeColor: "§e" // yellow/friendly
+    },
+    {
+        id: "minecraft:elder_guardian_ghost",
+        name: "Elder Guardian Ghost",
+        category: "mob",
+        icon: "textures/items/spawn_eggs/spawn_egg_elder_guardian.png",
+        themeColor: "§b" // cyan/ghostly
     }
 ];

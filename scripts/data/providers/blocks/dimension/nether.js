@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const netherBlocks = {
+    "minecraft:netherrack": {
+        id: "minecraft:netherrack",
+        name: "Netherrack",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Netherrack"],
+        generation: {
+            dimension: "Nether",
+            yRange: "All Y-levels"
+        },
+        description: "Netherrack is the most common block in the Nether, forming the majority of the terrain. It has a hardness of 0.4 and blast resistance of 0.4, making it relatively soft but still requires a pickaxe to mine. Fire can burn indefinitely on top of netherrack, allowing players to create eternal flames. In Bedrock Edition, netherrack can generate as part of nether portals when they spawn, making it renewable. This reddish-brown block serves as the primary building material for Nether structures and can be smelted into nether bricks."
+    },
     "minecraft:nether_bricks": {
         id: "minecraft:nether_bricks",
         name: "Nether Bricks",
@@ -284,5 +305,152 @@ export const netherBlocks = {
             yRange: "Warped Forest (Surface)"
         },
         description: "Warped Nylium is a variant of netherrack covered in warped fungus, found naturally generating as the surface layer of Warped Forest biomes. It has a teal-blue grass-like texture on top and a netherrack texture on the bottom. Like crimson nylium, it can be spread to adjacent netherrack blocks using bone meal. When mined without Silk Touch, it drops netherrack; with Silk Touch, it drops itself. It serves as a spawnable surface for warped fungi, roots, and vines when bone meal is applied."
+    },
+    "minecraft:nether_wart_block": {
+        id: "minecraft:nether_wart_block",
+        name: "Nether Wart Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Nether Wart Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest biome"
+        },
+        description: "Nether Wart Block is a decorative block found naturally in Crimson Forest biomes in the Nether, typically forming the leaves of huge crimson fungi. It can be crafted from nine nether wart items but, unlike other storage blocks, it cannot be crafted back into nether wart. This red, textured block shares similar properties with wood but cannot be used as fuel or to create planks. It is best mined with a hoe. While primarily decorative, it serves as a key atmospheric element of the Crimson Forest, matching the red hue of the biome."
+    },
+    "minecraft:warped_wart_block": {
+        id: "minecraft:warped_wart_block",
+        name: "Warped Wart Block",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Wart Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest biome"
+        },
+        description: "Warped Wart Block is a decorative block found naturally in Warped Forest biomes in the Nether, forming the foliage of huge warped fungi. It has a distinct teal-blue color and texture similar to nether wart blocks. Unlike nether wart blocks, it cannot be crafted from any item, nor can it be crafted into anything. It is purely a natural block obtained by mining huge warped fungi or finding it in bastion remnant chests. The fastest way to mine it is with a hoe. It provides a unique alien aesthetic for builders looking for vibrant blue organic materials."
+    },
+    "minecraft:soul_soil": {
+        id: "minecraft:soul_soil",
+        name: "Soul Soil",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Soul Soil"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valley"
+        },
+        description: "Soul Soil is a block naturally found in the Soul Sand Valley biome of the Nether. Unlike Soul Sand, it does not slow down movement and is a full solid block. Soul Fire burns indefinitely on top of Soul Soil. It is used to craft Soul Torches and Soul Campfires. It produces basalt when lava flows over it while it is next to Blue Ice."
+    },
+    "minecraft:crimson_roots": {
+        id: "minecraft:crimson_roots",
+        name: "Crimson Roots",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Roots (with Shears)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest"
+        },
+        description: "Crimson Roots are decorative vegetation blocks found in the Crimson Forest biome. They generate naturally on top of Crimson Nylium. Using Bone Meal on Crimson Nylium will produce Crimson Roots along with Crimson Fungi. They are non-solid blocks that break instantly when mined. To collect them as an item, Shears must be used; otherwise, they drop nothing. They do not burn, despite being vegetation."
+    },
+    "minecraft:warped_roots": {
+        id: "minecraft:warped_roots",
+        name: "Warped Roots",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Roots (with Shears)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Warped Roots are decorative vegetation blocks native to the Warped Forest biome in the Nether. They grow naturally on Warped Nylium and share the biome's distinctive teal color scheme. Like their crimson counterparts, they can be generated by using Bone Meal on Warped Nylium. They require Shears to be harvested as an item. These roots add detail to the alien landscape of the Warped Forest and are safe from fire."
+    },
+    "minecraft:nether_sprouts": {
+        id: "minecraft:nether_sprouts",
+        name: "Nether Sprouts",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Nether Sprouts (with Shears)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Nether Sprouts are small, grass-like vegetation found exclusively in the Warped Forest biome. They grow on Warped Nylium alongside Warped Roots and Fungi. Unlike roots, they appear as small clumps of teal grass. They can be harvested using Shears. When composted, they have a 50% chance of raising the compost level. They provide a subtle, grassy detail to Warped Forest builds and do not burn."
+    },
+    "minecraft:twisting_vines": {
+        id: "minecraft:twisting_vines",
+        name: "Twisting Vines",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Twisting Vines (33% chance)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Twisting Vines are a climbing plant found in the Warped Forest biome of the Nether. They grow upward from the ground, unlike weeping vines which grow downward. Players can climb them like ladders. Bone meal can be applied to extend their growth. They break instantly by hand, having a 33% chance to drop themselves, but shears or Silk Touch always yield the item. They are fire-resistant and add verticality to the Warped Forest landscape."
     }
     };

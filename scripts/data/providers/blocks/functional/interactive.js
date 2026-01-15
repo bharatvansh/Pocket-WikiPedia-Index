@@ -12,6 +12,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const interactiveBlocks = {
+    "minecraft:ladder": {
+        id: "minecraft:ladder",
+        name: "Ladder",
+        hardness: 0.4,
+        blastResistance: 0.4,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Ladder"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Villages, Igloos"
+        },
+        description: "A Ladder is a wooden block used for climbing walls vertically. It can be placed on the sides of solid blocks and allows players and mobs to climb up or down. Ladders generate naturally in strongholds, villages, and igloo basements. They can be crafted from seven sticks arranged in an H-shape. While they have a low blast resistance and hardness, they are essential for compact vertical movement. In Bedrock Edition, ladders have a collision box that allows standing on top of them, and they can stop water flow."
+    },
     "minecraft:lodestone": {
         id: "minecraft:lodestone",
         name: "Lodestone",
@@ -347,5 +368,173 @@ export const interactiveBlocks = {
             yRange: "Command only or Creative with Education Edition enabled"
         },
         description: "The Deny block is exclusive to Bedrock Edition with Education Edition enabled. It prevents players without World Builder permissions from placing or breaking blocks above it, creating restricted zones for educational environments and adventure maps. Obtainable through commands or Creative inventory with Education features active, it works with Allow blocks to define precise boundaries. Displays a red prohibition symbol texture. World Builder status holders can override restrictions and manipulate Deny blocks."
+    },
+    "minecraft:border_block": {
+        id: "minecraft:border_block",
+        name: "Border Block",
+        hardness: -1,
+        blastResistance: 18000000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only or Creative with Education Edition enabled"
+        },
+        description: "The Border Block is a utility block exclusive to Education and Bedrock Editions that functions as an impassable barrier extending infinitely upwards and downwards. It appears as a red wall-like structure and emits red particles when approached. It prevents players without World Builder permissions from moving past it, making it ideal for enclosing play areas in educational worlds or adventure maps."
+    },
+    "minecraft:command_block": {
+        id: "minecraft:command_block",
+        name: "Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Command Block is a technical block that can execute commands when powered by redstone. It is obtained only through commands and cannot be mined or broken in Survival mode. In Bedrock Edition, it features three modes: Impulse (orange, runs once), Chain (green, runs after another command block), and Repeat (purple, runs every tick). Command blocks are essential for map making, custom game modes, and server administration, allowing complex logic and automation beyond standard survival mechanics."
+    },
+    "minecraft:repeating_command_block": {
+        id: "minecraft:repeating_command_block",
+        name: "Repeating Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Repeating Command Block is a purple variant of the command block that executes its command every game tick (20 times per second) while powered. Obtainable only through commands or 'Pick Block' on an existing one, it cannot be mined in Survival mode. It is essential for creating continuous effects, loops, and monitoring systems in custom maps and servers."
+    },
+    "minecraft:chain_command_block": {
+        id: "minecraft:chain_command_block",
+        name: "Chain Command Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Chain Command Block is a green variant of the command block that executes its command only if the command block pointing into it has successfully executed. This allows for the creation of complex, sequential command chains. Like other command blocks, it is indestructible in Survival mode and obtainable only via commands."
+    },
+    "minecraft:structure_block": {
+        id: "minecraft:structure_block",
+        name: "Structure Block",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Structure Block is a technical block used to save and load structures in Minecraft. It is unobtainable in Survival mode and indestructible. In Bedrock Edition, it supports 3D export for use in external programs and features modes like Save, Load, Corner, and 3D Export. Structure blocks allow players to copy and paste buildings, rotate them, and transfer them between worlds (via behavior packs). They visualizes the structure's bounding box with white lines, making it a powerful tool for map makers."
+    },
+    "minecraft:light_block": {
+        id: "minecraft:light_block",
+        name: "Light Block",
+        hardness: 0,
+        blastResistance: 3600000.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Light Block is an invisible block that emits light, primarily used by map makers to illuminate areas without visible light sources. It is obtained via commands and has 16 data values representing light levels from 0 to 15. In Bedrock Edition, the block is invisible unless the player is holding a light block item, which reveals a particle icon. It has no collision box, allowing entities to walk through it, and can be broken instantly. It is waterloggable, making it useful for underwater lighting."
+    },
+    "minecraft:candle": {
+        id: "minecraft:candle",
+        name: "Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Candle is a light source block that can be placed in clusters of up to four. Each candle adds 3 to the light level, reaching a maximum of 12. Candles are crafted from string and honeycomb and can be dyed into 16 colors. They are unlit when placed and must be lit using flint and steel, fire charge, or any flaming projectile. Candles are waterloggable but cannot be lit while waterlogged. They can also be placed on cakes to create a candle cake."
+    },
+    "minecraft:structure_void": {
+        id: "minecraft:structure_void",
+        name: "Structure Void",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Command only"
+        },
+        description: "The Structure Void is an invisible, intangible block used to indicate empty space in structures saved with Structure Blocks. When a structure is loaded, blocks in the target area are not overwritten if the corresponding block in the saved structure is a structure void. It is distinct from air, which overwrites existing blocks with air. Visible only when holding a structure void item or enabling 'Show Invisible Blocks', it allows for complex structure merging and terrain preservation."
     }
 };

@@ -304,5 +304,152 @@ export const stoneBlocks = {
             yRange: "Strongholds, Mountain biomes, Igloos"
         },
         description: "Infested Stone is a deceptive block that looks identical to regular stone but hides a Silverfish inside. When broken in Survival mode, it doesn't drop anything and instead releases a hostile Silverfish that attacks the player. These blocks are commonly found in strongholds, mountain biomes, and underneath igloos. In Bedrock Edition, they can be identified because they break faster than normal stone. Using a tool with Silk Touch allows the player to retrieve a normal stone block without spawning the creature."
+    },
+    "minecraft:polished_deepslate": {
+        id: "minecraft:polished_deepslate",
+        name: "Polished Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Polished Deepslate is a decorative building block crafted from four cobbled deepslate blocks or created via a stonecutter. It has a smooth, dark gray texture that serves as a refined version of deepslate, making it excellent for flooring, walls, and structural accents. It generates naturally in Ancient Cities. Like other deepslate variants, it has a high hardness (3.5) and blast resistance (6.0), providing durability comparable to stone products. It can be further crafted into deepslate bricks, deepslate tiles, or polished deepslate walls, stairs, and slabs."
+    },
+    "minecraft:smooth_stone": {
+        id: "minecraft:smooth_stone",
+        name: "Smooth Stone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Stone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, some structures"
+        },
+        description: "Smooth Stone is a variation of stone with a smoother texture. It can be obtained by smelting stone in a furnace. Smooth Stone is often found in villages and is used to craft blast furnaces, armor stands, and smooth stone slabs. It has the same blast resistance as regular stone but a distinct, clean appearance favored for building floors and borders."
+    },
+    "minecraft:chiseled_deepslate": {
+        id: "minecraft:chiseled_deepslate",
+        name: "Chiseled Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Chiseled Deepslate is a decorative variant of deepslate featuring a dark, engraved pattern. It can be crafted from cobbled deepslate slabs or created using a stonecutter. Chiseled Deepslate naturally generates in Ancient Cities. With high hardness and blast resistance, it serves as a durable and stylish building block, often used to add detail to deepslate structures, pillars, and floors."
+    },
+    "minecraft:polished_granite": {
+        id: "minecraft:polished_granite",
+        name: "Polished Granite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Granite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Granite is a decorative mineral block. It is the polished version of Granite. It can be found in Trail Ruins or crafted by arranging 4 Granite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:polished_diorite": {
+        id: "minecraft:polished_diorite",
+        name: "Polished Diorite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Diorite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Diorite is a decorative mineral block. It is the polished version of Diorite. It can be found in Trail Ruins or crafted by arranging 4 Diorite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:polished_andesite": {
+        id: "minecraft:polished_andesite",
+        name: "Polished Andesite",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Polished Andesite"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Andesite is a decorative mineral block. It is the polished version of Andesite. It can be found in Trail Ruins, Ancient Cities, and Woodland Mansions, or crafted by arranging 4 Andesite in a 2x2 grid. It has the same blast resistance as stone."
+    },
+    "minecraft:cobbled_deepslate": {
+        id: "minecraft:cobbled_deepslate",
+        name: "Cobbled Deepslate",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deepslate layers (below Y 0)"
+        },
+        description: "Cobbled Deepslate is a rough stone variant obtained by mining Deepslate with a pickaxe. It shares the dark gray aesthetic of Deepslate but with a fractured texture. With a hardness of 3.5 and blast resistance of 6.0, it is tougher than regular cobblestone. It is used to craft stone tools, furnaces, and brewing stands, and can be smelted back into Deepslate or crafted into Polished Deepslate."
     }
 };

@@ -36,5 +36,86 @@ export const hoes = {
             "Enchantable with Fortune, Silk Touch, and Efficiency"
         ],
         description: "The Netherite Hoe is the highest-tier hoe in Minecraft Bedrock Edition, offering the greatest durability and speed for tilling and harvesting. Beyond its primary function of creating farmland, it is exceptionally efficient at breaking blocks like hay, sponges, and leaves. Like all netherite equipment, it is fire-resistant and will float in lava, ensuring it won't be lost to fire. It represents the pinnacle of agricultural tools for dedicated players."
+    },
+    "minecraft:wooden_hoe": {
+        id: "minecraft:wooden_hoe",
+        name: "Wooden Hoe",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks like leaves and sculk"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 2 attack damage (1 heart) in Bedrock Edition",
+            "Has low durability (60 uses)",
+            "Used to turn Coarse Dirt into Dirt",
+            "Can be used as fuel in a furnace",
+            "Speed increases on blocks like Hay Bales and Leaves"
+        ],
+        description: "The Wooden Hoe is a basic farming tool crafted from two planks and two sticks. It allows players to till dirt and grass blocks into farmland for planting crops, or to harvest organic blocks like leaves and hay bales slightly faster than by hand. With only 60 durability and low mining speed, it is primarily a starter tool. In Bedrock Edition, it deals 2 points of damage. It can also be used as furnace fuel."
+    },
+    "minecraft:stone_hoe": {
+        id: "minecraft:stone_hoe",
+        name: "Stone Hoe",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks efficiently"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 3 attack damage (1.5 hearts) in Bedrock Edition",
+            "Has 132 durability, better than wood",
+            "Harvests sponge, wet sponge, and hay bales faster",
+            "Can be crafted with Cobblestone, Blackstone, or Cobbled Deepslate",
+            "Efficient for early-game farming"
+        ],
+        description: "The Stone Hoe provides a solid upgrade over the wooden variant, offering more than double the durability (132 uses) and increased mining speed. Crafted with two blocks of cobblestone (or equivalent stone variants) and two sticks, it is a reliable tool for establishing larger farms early in the game. It effectively tills soil and harvests vegetation-based blocks. In Bedrock Edition, it serves as a weak weapon with 3 attack damage."
+    },
+    "minecraft:iron_hoe": {
+        id: "minecraft:iron_hoe",
+        name: "Iron Hoe",
+        maxStack: 1,
+        durability: 251,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks quickly"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 4 attack damage (2 hearts) in Bedrock Edition",
+            "Has 251 durability, suitable for medium farming",
+            "Greatly increases speed on Sculk and Leaves",
+            "Standard mid-game farming tool",
+            "Enchantable with Unbreaking and Efficiency"
+        ],
+        description: "The Iron Hoe is a durable farming tool crafted from two iron ingots and two sticks. With 251 durability and higher efficiency, it makes clearing leaves, harvesting hay bales, and mining sculk blocks much faster than lower-tier hoes. It is essential for maintaining large agricultural areas without frequent tool replacement. In Bedrock Edition, it deals 4 damage, offering some defensive capability while tending to crops."
     }
 };
