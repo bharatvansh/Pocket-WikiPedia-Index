@@ -644,32 +644,32 @@ export const miscItems = {
             "Crafted with 3 iron ingots in a V-shape in the crafting grid"
         ],
         description: "The Bucket is a versatile utility item crafted from three iron ingots. It serves multiple essential functions including transporting liquids like water and lava, milking cows and goats, collecting powder snow, and capturing aquatic mobs such as fish and axolotls. Empty buckets stack up to 16, but once filled, they can only stack individually. Buckets are fundamental for farming, building, redstone contraptions, and survival tactics such as water elevators or using water to prevent fall damage. Lava-filled buckets serve as efficient fuel, smelting 100 items per bucket."
-        },
-        "minecraft:tripwire_hook": {
+    },
+    "minecraft:tripwire_hook": {
         id: "minecraft:tripwire_hook",
         name: "Tripwire Hook",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-        primaryUse: "Crafting Tripwires and Trapped Chests",
-        secondaryUse: "Redstone detection and automation systems"
+            primaryUse: "Crafting Tripwires and Trapped Chests",
+            secondaryUse: "Redstone detection and automation systems"
         },
         crafting: {
-        recipeType: "Shaped",
-        ingredients: ["Iron Ingot", "Stick", "Wood Plank"]
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot", "Stick", "Wood Plank"]
         },
         specialNotes: [
-        "Used to craft Tripwire Hook (placed 4 in a line) connected with String",
-        "Creates an invisible tripwire that triggers redstone when crossed by entities",
-        "Shears can break tripwire without triggering it",
-        "Used in crafting Trapped Chests (shapeless recipe with Chest and Tripwire Hook)",
-        "Dropped by breaking Tripwire Hooks in Jungle Temples",
-        "Essential for traps, mob detection, and automated redstone circuits"
+            "Used to craft Tripwire Hook (placed 4 in a line) connected with String",
+            "Creates an invisible tripwire that triggers redstone when crossed by entities",
+            "Shears can break tripwire without triggering it",
+            "Used in crafting Trapped Chests (shapeless recipe with Chest and Tripwire Hook)",
+            "Dropped by breaking Tripwire Hooks in Jungle Temples",
+            "Essential for traps, mob detection, and automated redstone circuits"
         ],
         description: "The Tripwire Hook is a redstone component used to create detection systems and traps. When placed in a line of up to 40 blocks and connected with string, it creates a tripwire that activates a redstone signal when any entity passes through it. This mechanism is invaluable for creating automatic doors, mob spawners, trap defenses, and hidden alarm systems. Tripwire Hooks are also a key ingredient in crafting Trapped Chests, which appear identical to regular chests but emit a redstone signal when opened. While commonly found in Jungle Temple loot chests, they are easily crafted for early-game redstone automation."
-        },
-        "minecraft:writable_book": {
+    },
+    "minecraft:writable_book": {
         id: "minecraft:writable_book",
         name: "Book and Quill",
         maxStack: 1,
@@ -1188,5 +1188,53 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with a pale oak appearance",
+            secondaryUse: "Maneuvering through the Pale Garden and other biomes"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Features the ghostly white color of pale oak wood",
+            "Consistent with other Bedrock boats, no shovel is needed for crafting",
+            "Can serve as furnace fuel, smelting up to 6 items",
+            "The Creaking mob cannot be transported in any boat",
+            "Moves much faster on ice, packed ice, and blue ice",
+            "Provides immunity to fall damage for all passengers"
+        ],
+        description: "The Pale Oak Boat is a specialized water vehicle introduced in the 1.21.50 update. Crafted from five Pale Oak Planks, it features a distinct, almost white color that matches the eerie aesthetic of the Pale Garden biome. Like other boats in the Bedrock Edition, it supports two passengers and can be used on land over ice for high-speed travel. Its introduction provides players with a new wood variant for aquatic exploration while maintaining standard boat mechanics."
+    },
+    "minecraft:pale_oak_chest_boat": {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation with mobile storage capacity",
+            secondaryUse: "Transporting resources across the Pale Garden's waterways"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pale Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines a pale oak boat with a chest for 27 slots of storage",
+            "Can only carry one passenger due to the chest taking up space",
+            "Inventories can be accessed while sneaking or while riding",
+            "Drops both the boat and chest upon destruction",
+            "Fuel value remains consistent with standard boats",
+            "Specifically programmed to exclude the Creaking mob"
+        ],
+        description: "The Pale Oak Boat with Chest is a utility vehicle that merges the storage of a single chest with the mobility of a pale oak boat. Providing 27 slots of inventory space, it is ideal for long expeditions where carrying extra supplies or loot is necessary. While it sacrifices the second passenger slot, it retains the speed and versatility of wooden boats on water and ice. Released as part of the Bundles & Bravery update, it completes the pale oak wood set for maritime travel."
     }
 };
