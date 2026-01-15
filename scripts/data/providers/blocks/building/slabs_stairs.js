@@ -236,7 +236,7 @@ export const slabsStairsBlocks = {
         drops: ["Cobblestone Wall"],
         generation: {
             dimension: "Overworld",
-            yRange: "Villages"
+            yRange: "N/A"
         },
         description: "Cobblestone Walls are decorative barrier blocks crafted from cobblestone. They act as a medium-height fence that players and most mobs cannot jump over, making them excellent for perimeter defense and animal pens. Walls automatically connect to adjacent solid blocks and other walls, forming a continuous barrier. They offer a rugged, stony aesthetic perfect for castles, dungeons, and rustic villages. Unlike fences, they are non-flammable and provide higher blast resistance."
     },
@@ -256,9 +256,9 @@ export const slabsStairsBlocks = {
         },
         drops: ["Mossy Cobblestone Wall"],
         generation: {
-            dimension: "Overworld",
-            yRange: "Jungle Temples, Villages"
+            dimension: "Zombie Villages",
+            yRange: "N/A"
         },
-        description: "Mossy Cobblestone Walls are a variant of cobblestone walls that feature moss-covered stone. They provide the same functional benefits as regular walls, acting as a jump-proof barrier that connects to nearby blocks. The overgrown, aged appearance makes them ideal for ruins, jungle-themed builds, and overgrown gardens. They are crafted from mossy cobblestone or by combining regular cobblestone walls with vines or moss blocks, adding a touch of history and nature to any construction."
+        description: "Mossy Cobblestone Walls are a variant of cobblestone walls that feature moss-covered stone. They provide the same functional benefits as regular walls, acting as a jump-proof barrier that connects to nearby blocks. The overgrown, aged appearance makes them ideal for ruins and overgrown gardens. They are crafted from mossy cobblestone or by converting mossy cobblestone blocks directly in a stonecutter, adding a touch of history and nature to any construction."
     }
 };

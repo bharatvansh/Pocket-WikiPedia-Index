@@ -68,7 +68,7 @@ export const glassBlocks = {
         drops: ["Glass Pane (with Silk Touch)"],
         generation: {
             dimension: "Overworld",
-            yRange: "Crafted from 6 Glass blocks"
+            yRange: "None"
         },
         description: "Glass Panes are thin, transparent blocks used primarily for windows and decorative elements. They are crafted from six glass blocks, yielding sixteen panes, making them much more material-efficient than full blocks. Panes connect to adjacent blocks and other panes, creating a seamless glass surface. While they offer the same visibility and light transmission as glass blocks, they take up only a fraction of a block's width, allowing for more detailed and space-efficient architectural designs."
     }

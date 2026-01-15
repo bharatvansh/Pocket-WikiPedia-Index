@@ -156,7 +156,7 @@ export const woodBlocks = {
             dimension: "Overworld",
             yRange: "0 to 320"
         },
-        description: "Dark oak logs are obtained from the thick-trunked dark oak trees found in dark forest biomes. They feature a very dark brown bark and a rich, deep brown interior wood. Due to their dark coloration, they are often used for sophisticated and imposing structures. Dark oak logs can be processed into dark oak planks, stripped, or used as fuel. They are also known for being required to grow large 2x2 dark oak trees."
+        description: "Dark oak logs are obtained from the thick-trunked dark oak trees found in dark forest biomes. They feature a very dark brown bark and a rich, deep brown interior wood. Due to their dark coloration, they are often used for sophisticated and imposing structures. Dark oak logs can be processed into dark oak planks, stripped, or used as fuel. Dark oak saplings, when placed in a 2x2 arrangement, are required to grow these massive trees."
     },
     "minecraft:pale_oak_leaves": {
         id: "minecraft:pale_oak_leaves",
