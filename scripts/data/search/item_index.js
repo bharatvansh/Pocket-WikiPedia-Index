@@ -1302,6 +1302,13 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:chainmail_chestplate",
+        name: "Chainmail Chestplate",
+        category: "item",
+        icon: "textures/items/chainmail_chestplate",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:netherite_sword",
         name: "Netherite Sword",
         category: "item",
