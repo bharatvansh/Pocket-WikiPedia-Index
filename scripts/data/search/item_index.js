@@ -1148,6 +1148,20 @@ export const itemIndex = [
         themeColor: "§c" // red/brown
     },
     {
+        id: "minecraft:cooked_porkchop",
+        name: "Cooked Porkchop",
+        category: "item",
+        icon: "textures/items/porkchop_cooked",
+        themeColor: "§c" // red/pink
+    },
+    {
+        id: "minecraft:cooked_salmon",
+        name: "Cooked Salmon",
+        category: "item",
+        icon: "textures/items/fish_salmon_cooked",
+        themeColor: "§c" // red/pink
+    },
+    {
         id: "minecraft:music_disc_pigstep",
         name: "Music Disc (Pigstep)",
         category: "item",

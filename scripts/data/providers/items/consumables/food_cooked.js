@@ -343,5 +343,59 @@ export const cookedFood = {
             "Unlike raw potatoes, they cannot be planted to grow more crops"
         ],
         description: "The Baked Potato is a highly efficient food item in Minecraft Bedrock Edition, produced by cooking raw potatoes. While a single baked potato restores 5 hunger points and 6.0 saturation, the real strength lies in the high yield of potato crops, which can produce multiple potatoes per harvest. This makes it a very sustainable food source for survival players. Additionally, baked potatoes are a necessary component in the recipe for Rabbit Stew, the game's most restorative meal. They are a popular choice for automated farms and are also commonly traded by Farmer villagers."
+    },
+    "minecraft:cooked_porkchop": {
+        id: "minecraft:cooked_porkchop",
+        name: "Cooked Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-tier food source",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 8,
+            saturation: 12.8
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Porkchop", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 8 hunger points (4 drumsticks) and 12.8 saturation",
+            "One of the best food items for saturation in Bedrock Edition",
+            "Obtained by smelting raw porkchop or killing pigs with fire",
+            "Can be used to breed, heal, and speed up growth of wolves",
+            "Stackable up to 64, making it ideal for exploration and combat"
+        ],
+        description: "Cooked Porkchop is a high-tier food item in Minecraft Bedrock Edition, obtained by cooking raw porkchop. It is identical to steak in its nutritional value, providing 8 hunger points and 12.8 saturation points, making it one of the most reliable food sources for keeping the hunger bar filled during long explorations or combat. Pigs drop 1-3 cooked porkchops when killed while on fire, providing an easy way to gather food in the wild. Like other meats, it can also be used to manage tamed wolves."
+    },
+    "minecraft:cooked_salmon": {
+        id: "minecraft:cooked_salmon",
+        name: "Cooked Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Excellent food source",
+            secondaryUse: "Taming and breeding cats"
+        },
+        food: {
+            hunger: 6,
+            saturation: 9.6
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Raw Salmon", "Fuel"]
+        },
+        specialNotes: [
+            "Restores 6 hunger points (3 drumsticks) and 9.6 saturation",
+            "Obtained by smelting raw salmon or killing salmon with fire",
+            "Guardians and Elder Guardians have a chance to drop it when killed",
+            "Can be used to tame and breed cats in Bedrock Edition",
+            "High saturation makes it significantly better than cooked cod"
+        ],
+        description: "Cooked Salmon is an excellent food source obtained by cooking raw salmon in a furnace, smoker, or campfire. It provides 6 hunger points and 9.6 saturation, placing it above cooked cod in terms of nutritional value. In Bedrock Edition, cooked salmon is particularly useful for cat owners, as it can be used to tame and breed cats, as well as speed up the growth of kittens. It can also be obtained as a drop from Guardians, making it a common find during ocean monument raids."
     }
 };
