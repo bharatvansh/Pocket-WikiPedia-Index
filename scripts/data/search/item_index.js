@@ -1176,6 +1176,13 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        category: "item",
+        icon: "textures/items/music_disc_tears",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:tide_armor_trim_smithing_template",
         name: "Tide Armor Trim Smithing Template",
         category: "item",

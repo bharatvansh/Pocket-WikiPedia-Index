@@ -189,5 +189,30 @@ export const musicDiscs = {
             "Also found in Dungeon and Woodland Mansion chests"
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+    },
+    "minecraft:music_disc_tears": {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Tears' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 10 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Ghasts when killed by a player-deflected fireball"]
+        },
+        specialNotes: [
+            "Composed by Amos Roddy",
+            "Added in Java 1.21.6 and Bedrock 1.21.90 (Preview)",
+            "Dropped by Ghasts when killed by player-deflected fireballs",
+            "Emits a comparator signal strength of 10 when played in a Jukebox",
+            "Track length: 2:55",
+            "Genre: Electronic",
+            "Rarity: Uncommon"
+        ],
+        description: "'Tears' is a music disc composed by Amos Roddy and released as part of the 'Chase the Skies' soundtrack. It is obtained when a Ghast is defeated by a player-deflected fireball. When played in a jukebox, the track, an electronic piece incorporating ghast vocal samples, plays for approximately 2:55 and a comparator next to the jukebox emits a signal of 10."
     }
 };
