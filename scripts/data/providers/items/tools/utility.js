@@ -502,5 +502,28 @@ export const utilityTools = {
             "Essential for creating diverse underwater ecosystems and displays"
         ],
         description: "A Bucket of Tropical Fish is a special utility item that preserves the unique characteristics of tropical fish during transport. It is obtained by using a water bucket on a tropical fish, maintaining its distinctive color pattern, size, and species data. With over 2,700 possible variants in Bedrock Edition, this bucket is essential for collectors who want to preserve rare fish patterns. When used, it creates a water source and spawns the tropical fish with all its original properties intact, making it perfect for creating diverse aquarium displays and underwater ecosystems."
+    },
+    "minecraft:pufferfish_bucket": {
+        id: "minecraft:pufferfish_bucket",
+        name: "Bucket of Pufferfish",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting pufferfish safely",
+            secondaryUse: "Creating traps with pufferfish"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by using a Water Bucket on a Pufferfish"]
+        },
+        specialNotes: [
+            "Obtained by using a water bucket on a pufferfish mob",
+            "Places water and spawns the pufferfish when used on a block",
+            "Pufferfish puff up and poison nearby players/mobs (except aquatic ones)",
+            "Useful for creating defensive moats or traps",
+            "Preserves the pufferfish's health state"
+        ],
+        description: "A Bucket of Pufferfish is a utility item used to catch and transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. This item allows players to safely move these dangerous mobs to new locations, such as aquariums or defensive moats. When placed, it releases the pufferfish along with a water source block. Since pufferfish inflate and inflict poison on nearby non-aquatic entities, transporting them in a bucket is the safest method to handle them for building traps or farms."
     }
 };
