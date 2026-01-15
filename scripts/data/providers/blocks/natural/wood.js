@@ -32,6 +32,132 @@ export const woodBlocks = {
         },
         description: "Pale Oak Log is a wood type unique to the Pale Garden biome, introduced in Minecraft Bedrock Edition 1.21.50. These pale, grayish-brown logs form the trunks of Pale Oak trees, creating an eerie atmosphere with their muted coloration. Like other logs, they can be stripped with an axe and crafted into pale oak planks, stripped pale oak logs, or pale oak wood. The distinctive appearance of pale oak makes it popular for atmospheric builds, especially those seeking a ghostly or mystical aesthetic."
     },
+    "minecraft:oak_log": {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Oak logs are basic wood blocks obtained from oak trees, the most common tree in Minecraft. They feature a brownish bark and a light tan interior. Oak logs are versatile building materials and can be crafted into oak planks, charcoal, or stripped using an axe. They are essential for early-game survival, providing the primary source of wood for tools and construction in most Overworld biomes."
+    },
+    "minecraft:spruce_log": {
+        id: "minecraft:spruce_log",
+        name: "Spruce Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Spruce logs are harvested from spruce trees found in taiga and snowy biomes. They have a dark brown, rugged bark and a slightly lighter interior. Spruce logs are favored by builders for their rustic and cozy aesthetic. Like other logs, they can be crafted into planks, stripped, or used as fuel. They are particularly common in cold climates and provide a sturdy look to cabins and medieval-style builds."
+    },
+    "minecraft:birch_log": {
+        id: "minecraft:birch_log",
+        name: "Birch Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Birch logs come from birch trees, easily identified by their distinctive white bark with dark spots. The interior wood is light-colored, making it popular for bright and modern architectural designs. Birch logs can be processed into planks, stripped for a clean look, or used for crafting and fuel. They are found in birch forests and occasionally in other biomes, offering a stark contrast to typical darker wood types."
+    },
+    "minecraft:jungle_log": {
+        id: "minecraft:jungle_log",
+        name: "Jungle Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Jungle logs are found in lush jungle biomes, forming the massive trunks of jungle trees. They have a greenish-brown bark and a warm, brownish-red interior. Jungle logs are essential for building in tropical environments and can be crafted into jungle-themed planks or stripped logs. They are also needed to grow cocoa beans, which can be placed on the sides of the logs to mature."
+    },
+    "minecraft:acacia_log": {
+        id: "minecraft:acacia_log",
+        name: "Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Acacia logs are unique to savanna biomes, harvested from the twisted acacia trees. They feature a gray bark and a vibrant orange interior wood. This striking color contrast makes acacia a popular choice for colorful and modern builds. Acacia logs can be crafted into planks, stripped, or used for various wooden components. Their natural resistance to the savanna environment is reflected in their rugged appearance."
+    },
+    "minecraft:dark_oak_log": {
+        id: "minecraft:dark_oak_log",
+        name: "Dark Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "0 to 320"
+        },
+        description: "Dark oak logs are obtained from the thick-trunked dark oak trees found in dark forest biomes. They feature a very dark brown bark and a rich, deep brown interior wood. Due to their dark coloration, they are often used for sophisticated and imposing structures. Dark oak logs can be processed into dark oak planks, stripped, or used as fuel. They are also known for being required to grow large 2x2 dark oak trees."
+    },
     "minecraft:pale_oak_leaves": {
         id: "minecraft:pale_oak_leaves",
         name: "Pale Oak Leaves",

@@ -50,5 +50,26 @@ export const glassBlocks = {
             yRange: "Crafted from Sand x4 in Furnace, Ocean Monuments (glass panes)"
         },
         description: "Glass is a fundamental transparent building block crafted by smelting sand in a furnace. It serves as a versatile construction material that allows light to pass through while providing weather protection. Glass is essential for building greenhouses, windows, modern architecture, and underwater structures. While fragile with low hardness and blast resistance (0.3 each), glass can be crafted into glass panes for more efficient space usage and lighter visual weight. Glass blocks are non-flammable and provide complete visibility from both sides. They're perfect for creating bright, airy interiors and are especially valuable for farming setups, aquariums, and decorative lighting effects. In Bedrock Edition, glass drops itself when broken, making collection straightforward without the need for Silk Touch enchantment."
+    },
+    "minecraft:glass_pane": {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Glass Pane (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 6 Glass blocks"
+        },
+        description: "Glass Panes are thin, transparent blocks used primarily for windows and decorative elements. They are crafted from six glass blocks, yielding sixteen panes, making them much more material-efficient than full blocks. Panes connect to adjacent blocks and other panes, creating a seamless glass surface. While they offer the same visibility and light transmission as glass blocks, they take up only a fraction of a block's width, allowing for more detailed and space-efficient architectural designs."
     }
 };

@@ -218,5 +218,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:cobblestone_wall": {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages"
+        },
+        description: "Cobblestone Walls are decorative barrier blocks crafted from cobblestone. They act as a medium-height fence that players and most mobs cannot jump over, making them excellent for perimeter defense and animal pens. Walls automatically connect to adjacent solid blocks and other walls, forming a continuous barrier. They offer a rugged, stony aesthetic perfect for castles, dungeons, and rustic villages. Unlike fences, they are non-flammable and provide higher blast resistance."
+    },
+    "minecraft:mossy_cobblestone_wall": {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Villages"
+        },
+        description: "Mossy Cobblestone Walls are a variant of cobblestone walls that feature moss-covered stone. They provide the same functional benefits as regular walls, acting as a jump-proof barrier that connects to nearby blocks. The overgrown, aged appearance makes them ideal for ruins, jungle-themed builds, and overgrown gardens. They are crafted from mossy cobblestone or by combining regular cobblestone walls with vines or moss blocks, adding a touch of history and nature to any construction."
     }
 };
