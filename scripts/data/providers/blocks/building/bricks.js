@@ -555,7 +555,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: null
         },
-        description: "Chiseled Stone Bricks are a decorative variant of stone bricks featuring a distinctive square pattern. They are crafted by stacking two stone brick slabs vertically or by using a stonecutter on a stone brick block. These blocks generate naturally in strongholds, jungle temples, and igloo basements. They are primarily used as accent blocks for columns and corners in stone-based architecture. Chiseled stone bricks can also be used to craft lodestones when combined with an iron ingot, making them valuable for navigation. Their intricate design adds a touch of ancient masonry to any build."
+        description: "Chiseled Stone Bricks are a decorative variant of stone bricks featuring a distinctive square pattern. They are crafted by stacking two stone brick slabs vertically or by using a stonecutter on a stone brick block. These blocks generate naturally in jungle temples, igloo basements, and cold ocean ruins. They are primarily used as accent blocks for columns and corners in stone-based architecture. Chiseled stone bricks can also be used to craft lodestones when combined with an iron ingot, making them valuable for navigation. Their intricate design adds a touch of ancient masonry to any build."
     },
     "minecraft:mossy_stone_bricks": {
         id: "minecraft:mossy_stone_bricks",
