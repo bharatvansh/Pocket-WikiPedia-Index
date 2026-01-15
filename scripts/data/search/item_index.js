@@ -1372,6 +1372,13 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a"
+    },
+    {
         id: "minecraft:glowstone_dust",
         name: "Glowstone Dust",
         category: "item",
