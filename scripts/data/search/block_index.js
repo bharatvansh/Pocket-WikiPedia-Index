@@ -14,6 +14,20 @@ export const blockIndex = [
         themeColor: "§6" // gold/brown
     },
     {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        category: "block",
+        icon: "textures/blocks/farmland_dry",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:grass_path",
+        name: "Dirt Path",
+        category: "block",
+        icon: "textures/blocks/grass_path_top",
+        themeColor: "§6" // tan/brown
+    },
+    {
         id: "minecraft:netherrack",
         name: "Netherrack",
         category: "block",

@@ -32,6 +32,48 @@ export const dirtBlocks = {
         },
         description: "Dirt is one of the most common blocks in Minecraft. It can be easily dug up with a shovel and is often found in large quantities near the surface. Dirt can be converted to farmland or used as a building material."
     },
+    "minecraft:farmland": {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Naturally in Villages"
+        },
+        description: "Farmland is a specialized block created by using a hoe on dirt or grass blocks. It is essential for agriculture, allowing players to plant crops such as wheat, carrots, potatoes, and beetroot. To remain fertile, farmland must be within four blocks of a water source; otherwise, it will eventually dehydrate and revert to dirt. Additionally, jumping or falling on farmland can trample it, instantly converting it back into a regular dirt block."
+    },
+    "minecraft:grass_path": {
+        id: "minecraft:grass_path",
+        name: "Dirt Path",
+        hardness: 0.65,
+        blastResistance: 0.65,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Naturally in Villages"
+        },
+        description: "A Dirt Path (formerly known as a Grass Path) is a decorative block typically found in villages. It is created by using a shovel on grass blocks, dirt, podzol, or coarse dirt. One unique feature is its height, which is slightly lower (15/16ths) than a standard block. In Bedrock Edition, players can collect the path block itself using a tool with the Silk Touch enchantment; otherwise, it drops dirt when broken. It cannot be converted back into grass unless it is destroyed and replaced."
+    },
     "minecraft:mud": {
         id: "minecraft:mud",
         name: "Mud",
