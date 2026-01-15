@@ -10,6 +10,27 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const containerBlocks = {
+    "minecraft:chest": {
+        id: "minecraft:chest",
+        name: "Chest",
+        hardness: 2.5,
+        blastResistance: 2.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chest"],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "Dungeons, Strongholds, Villages, etc."
+        },
+        description: "A Chest is a storage block that provides 27 slots of inventory space for storing items. Two chests placed side-by-side join to form a Large Chest, doubling the capacity to 54 slots. Chests can generate naturally in many structures containing loot, such as dungeons, villages, and strongholds. While they can be broken by hand, axes are the most efficient tool. They are essential for inventory management and can be used with hoppers for automation."
+    },
     "minecraft:barrel": {
         id: "minecraft:barrel",
         name: "Barrel",

@@ -1545,5 +1545,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mycelium_top",
         themeColor: "§5" // purple (mycelium)
+    },
+    {
+        id: "minecraft:stonecutter",
+        name: "Stonecutter",
+        category: "block",
+        icon: "textures/blocks/stonecutter_side",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        category: "block",
+        icon: "textures/blocks/coal_ore",
+        themeColor: "§8" // dark gray / black
+    },
+    {
+        id: "minecraft:chest",
+        name: "Chest",
+        category: "block",
+        icon: "textures/blocks/chest_front",
+        themeColor: "§6" // wood/orange
     }
 ];
