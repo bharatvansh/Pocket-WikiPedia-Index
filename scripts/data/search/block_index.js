@@ -2140,5 +2140,19 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wooden_button",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:quartz_ore",
+        name: "Nether Quartz Ore",
+        category: "block",
+        icon: "textures/blocks/quartz_ore",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:mangrove_leaves",
+        name: "Mangrove Leaves",
+        category: "block",
+        icon: "textures/blocks/mangrove_leaves",
+        themeColor: "§2"
     }
 ];

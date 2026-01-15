@@ -199,5 +199,26 @@ export const oreBlocks = {
             yRange: "-64 to 15 (deepslate layers)"
         },
         description: "Deepslate Diamond Ore is a variant of diamond ore that generates in deepslate and tuff layers, found more commonly than regular diamond ore due to its lower altitude generation. It requires an iron pickaxe or better to mine. Like regular diamond ore, it drops diamonds when mined without Silk Touch, with increased yields from Fortune enchantment. Deepslate diamond ore also generates as part of fossils that generate below Y=0, replacing some bone blocks."
+    },
+    "minecraft:quartz_ore": {
+        id: "minecraft:quartz_ore",
+        name: "Nether Quartz Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Nether Quartz (1, affected by Fortune)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "7 to 117"
+        },
+        description: "Nether Quartz Ore is a common ore found exclusively in the Nether. It is easily identifiable by its white streaks against the red netherrack. When mined with a pickaxe, it drops one Nether Quartz and experience orbs. It is an essential resource for crafting redstone components like comparators and observers, as well as decorative quartz blocks. In Bedrock Edition, it is one of the primary reasons players venture into the Nether early on, providing a quick source of experience and materials for automation."
     }
 };

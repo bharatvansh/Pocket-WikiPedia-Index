@@ -241,5 +241,26 @@ export const woodBlocks = {
             yRange: "Crafted from Crimson Stem"
         },
         description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
+    },
+    "minecraft:mangrove_leaves": {
+        id: "minecraft:mangrove_leaves",
+        name: "Mangrove Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Propagule", "Stick", "Mangrove Leaves (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamps"
+        },
+        description: "Mangrove Leaves are the dense, dark green foliage of Mangrove trees found in swampy biomes. Unique among leaf blocks, they can host Mangrove Propagules, which hang from the underside as they grow. While they can be broken with any tool, shears or hoes are the most efficient. To obtain the leaf block itself, shears must be used. In Bedrock Edition, these leaves contribute to the thick, atmospheric canopy of Mangrove Swamps, often generating with vines and moss, making the biome challenging to navigate but rich in wood resources."
     }
 };
