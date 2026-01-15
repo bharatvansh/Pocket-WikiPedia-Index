@@ -2168,5 +2168,75 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/chiseled_nether_bricks",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:chiseled_polished_blackstone",
+        name: "Chiseled Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/chiseled_polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_blackstone_bricks",
+        name: "Polished Blackstone Bricks",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cracked_polished_blackstone_bricks",
+        name: "Cracked Polished Blackstone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cracked_nether_bricks",
+        name: "Cracked Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_nether_bricks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:chiseled_stone_bricks",
+        name: "Chiseled Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/chiseled_stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:mossy_stone_bricks",
+        name: "Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/mossy_stone_bricks",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:cracked_stone_bricks",
+        name: "Cracked Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:purpur_slab",
+        name: "Purpur Slab",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:purpur_stairs",
+        name: "Purpur Stairs",
+        category: "block",
+        icon: "textures/blocks/purpur_block",
+        themeColor: "§d"
     }
 ];

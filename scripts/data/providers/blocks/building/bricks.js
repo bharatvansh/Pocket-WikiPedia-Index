@@ -535,5 +535,68 @@ export const brickBlocks = {
             yRange: "Ancient Cities"
         },
         description: "Deepslate Tiles are decorative blocks crafted from Deepslate Bricks. They display a refined, tiled pattern suitable for flooring and detailed walls. Like other deepslate variants, they maintain a hardness of 3.5 and blast resistance of 6.0. Deepslate Tiles generate in Ancient Cities and can be crafted into stairs, slabs, and walls, or used to make Cracked Deepslate Tiles by smelting."
+    },
+    "minecraft:chiseled_stone_bricks": {
+        id: "minecraft:chiseled_stone_bricks",
+        name: "Chiseled Stone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Stone Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: null
+        },
+        description: "Chiseled Stone Bricks are a decorative variant of stone bricks featuring a distinctive square pattern. They are crafted by stacking two stone brick slabs vertically or by using a stonecutter on a stone brick block. These blocks generate naturally in jungle temples, igloo basements, and cold ocean ruins. They are primarily used as accent blocks for columns and corners in stone-based architecture. Chiseled stone bricks can also be used to craft lodestones when combined with an iron ingot, making them valuable for navigation. Their intricate design adds a touch of ancient masonry to any build."
+    },
+    "minecraft:mossy_stone_bricks": {
+        id: "minecraft:mossy_stone_bricks",
+        name: "Mossy Stone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: null
+        },
+        description: "Mossy Stone Bricks are a variant of stone bricks covered in vines and moss, giving them an overgrown and ancient appearance. They generate naturally in strongholds, ocean ruins, trail ruins, and igloo basements. Players can craft them by combining stone bricks with moss blocks or vines. They are perfect for building hidden ruins, forest dwellings, or adding age to stone structures. Like regular stone bricks, they are durable and require a pickaxe to mine. They can be further crafted into mossy stone brick slabs, stairs, and walls, offering versatility for nature-integrated architectural designs."
+    },
+    "minecraft:cracked_stone_bricks": {
+        id: "minecraft:cracked_stone_bricks",
+        name: "Cracked Stone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Stone Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: null
+        },
+        description: "Cracked Stone Bricks are a weathered version of stone bricks that feature visible cracks across their surface. They are created by smelting regular stone bricks in a furnace or found naturally in strongholds, igloo basements, ocean ruins (cold), ruined portals, and trail ruins. These blocks are excellent for depicting ruins, aged dungeons, or structural instability in builds. Despite their damaged look, they maintain a hardness of 1.5 and blast resistance of 6.0, the same as standard stone bricks. Silverfish can also hide inside infested versions of this block, which can be found in strongholds near the end portal."
     }
 };

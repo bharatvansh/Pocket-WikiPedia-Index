@@ -494,5 +494,109 @@ export const netherBlocks = {
             yRange: "Crafted from 2 Nether Brick Slabs"
         },
         description: "Chiseled Nether Bricks are a decorative variant of Nether Bricks, featuring a unique skull-like or geometric pattern. Introduced in the Nether Update, they add architectural detail to Nether-themed builds. They are crafted by stacking two Nether Brick slabs vertically in a crafting grid or by using a stonecutter on a Nether Brick block. Like regular Nether Bricks, they are fire-resistant and require a pickaxe to mine. They also produce a unique \"bass drum\" sound when placed under a note block."
+    },
+    "minecraft:polished_blackstone": {
+        id: "minecraft:polished_blackstone",
+        name: "Polished Blackstone",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone"],
+        generation: {
+            dimension: "Nether",
+            yRange: null
+        },
+        description: "Polished Blackstone is a dark, sleek building block crafted from four Blackstone blocks in a 2x2 grid or processed through a stonecutter. It features a smoother finish compared to raw Blackstone, making it a popular choice for detailed Nether-themed architecture and elegant dark builds. It generates naturally in Bastion Remnants, often forming parts of the structural foundation and decorative trim. Like its base form, it is fire-resistant and requires a pickaxe to mine. Polished Blackstone can be further processed into slabs, stairs, and walls, or used to craft Polished Blackstone Bricks."
+    },
+    "minecraft:chiseled_polished_blackstone": {
+        id: "minecraft:chiseled_polished_blackstone",
+        name: "Chiseled Polished Blackstone",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Polished Blackstone"],
+        generation: {
+            dimension: "Nether",
+            yRange: null
+        },
+        description: "Chiseled Polished Blackstone is a decorative variant of Blackstone featuring an intricate piglin-snout pattern. It is primarily used as an accent block in Nether-themed builds or to denote structural importance. This block can be crafted by vertically stacking two Polished Blackstone slabs in a crafting table or by using a stonecutter. It generates naturally in Bastion Remnants, particularly in treasury rooms and throne areas. It has the same hardness and blast resistance as regular Blackstone and serves as a stylish decorative element that reflects the history of the Nether."
+    },
+    "minecraft:polished_blackstone_bricks": {
+        id: "minecraft:polished_blackstone_bricks",
+        name: "Polished Blackstone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: null
+        },
+        description: "Polished Blackstone Bricks are a refined building block crafted from four Polished Blackstone blocks. They feature a classic brick pattern in a deep dark gray color, offering a sophisticated look for fortress-like constructions in the Nether. These bricks generate naturally in Bastion Remnants, forming large sections of the walls and bridges. They are highly durable and blast-resistant, making them excellent for protective structures. Builders often use them alongside other Blackstone variants to create depth and texture in dark-themed architectural designs."
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+        id: "minecraft:cracked_polished_blackstone_bricks",
+        name: "Cracked Polished Blackstone Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Polished Blackstone Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: null
+        },
+        description: "Cracked Polished Blackstone Bricks are a weathered variant of polished blackstone bricks, achieved by smelting them in a furnace. They add a sense of age and decay to structures, making them ideal for building ruins or ancient-looking citadels in the Nether dimension. They also generate naturally in Bastion Remnants, where they reflect the wear and tear of the harsh Nether environment over time. Despite their cracked appearance, they retain the same hardness and blast resistance as their intact counterparts. They do not have further crafted variants like slabs or stairs."
+    },
+    "minecraft:cracked_nether_bricks": {
+        id: "minecraft:cracked_nether_bricks",
+        name: "Cracked Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Nether Bricks"],
+        generation: {
+            dimension: "None"
+        },
+        description: "Cracked Nether Bricks are a decorative variant of nether bricks that appear aged and fractured. They are obtained by smelting regular nether bricks in a furnace. These blocks provide a weathered aesthetic to Nether fortresses and other dark-themed builds, suggesting long-term exposure to the Nether's intense heat. While they share the same resistance and hardness as regular nether bricks, they cannot be used to craft stairs or slabs. They are particularly effective when mixed with standard nether bricks to create textured, ruined walls and historical structures."
     }
-    };
+};
