@@ -189,5 +189,74 @@ export const musicDiscs = {
             "Also found in Dungeon and Woodland Mansion chests"
         ],
         description: "Music Disc 13 is one of the oldest and most mysterious music discs in Minecraft. Unlike the more melodic tracks, '13' consists of eerie ambient sounds, including echoing cave noises, splashing water, and muffled metallic sounds. It is primarily obtained when a Skeleton or Stray kills a Creeper, though it can also be found in certain loot chests. When played in a Jukebox, it creates a tense atmosphere, making it a favorite for haunted houses or atmospheric builds."
+    },
+    "minecraft:music_disc_cat": {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Cat' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 2 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons", "Found in Dungeon, Ancient City, and Woodland Mansion chests"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Outputs a redstone signal strength of 2 when played in a Jukebox",
+            "Found in Dungeon (21.5%), Ancient City (16.1%), and Woodland Mansion (21.8%) chests",
+            "Can be obtained when a Skeleton or Stray kills a Creeper",
+            "One of the original music discs added to Minecraft"
+        ],
+        description: "'Cat' is a light and melodic music disc composed by C418. It features a cheerful, synth-heavy tune that is widely recognized by players. In Minecraft Bedrock Edition, it can be found in Dungeons, Ancient Cities, and Woodland Mansions, or obtained by tricking a Skeleton into killing a Creeper. When placed in a Jukebox, it outputs a redstone signal strength of 2, making it useful for sorting systems that differentiate between discs."
+    },
+    "minecraft:music_disc_blocks": {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Blocks' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 3 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Outputs a redstone signal strength of 3 when played in a Jukebox",
+            "Can be obtained when a Skeleton or Stray kills a Creeper",
+            "Features an upbeat, rhythmic tune",
+            "One of the 12 original music discs"
+        ],
+        description: "'Blocks' is an upbeat music disc composed by C418, known for its catchy and rhythmic melody. Like most classic music discs, it is primarily obtained by having a Skeleton or Stray kill a Creeper. When played in a Jukebox, it emits a comparator signal strength of 3. Its distinct orange-red center makes it easily recognizable in inventory, and its lively tune makes it a popular choice for in-game jukeboxes."
+    },
+    "minecraft:music_disc_chirp": {
+        id: "minecraft:music_disc_chirp",
+        name: "Music Disc (Chirp)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Chirp' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 4 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by Skeletons"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Outputs a redstone signal strength of 4 when played in a Jukebox",
+            "Can be obtained when a Skeleton or Stray kills a Creeper",
+            "Features a retro, sample-heavy tune reminiscent of old vinyl records",
+            "One of the 12 original music discs"
+        ],
+        description: "'Chirp' is a music disc composed by C418 that features a distinct retro style with a catchy, repetitive melody. It is often described as having a nostalgic feel, similar to old vinyl recordings. In Minecraft Bedrock Edition, players can obtain this disc by maneuvering a Skeleton or Stray to shoot and kill a Creeper. When inserted into a Jukebox, it outputs a redstone signal strength of 4, allowing it to be used in specific redstone mechanisms."
     }
 };

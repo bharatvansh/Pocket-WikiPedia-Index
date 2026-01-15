@@ -1552,5 +1552,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bordure_indented_banner_pattern",
         themeColor: "§7" // gray/vines
+    },
+    {
+        id: "minecraft:music_disc_cat",
+        name: "Music Disc (Cat)",
+        category: "item",
+        icon: "textures/items/music_disc_cat",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:music_disc_blocks",
+        name: "Music Disc (Blocks)",
+        category: "item",
+        icon: "textures/items/music_disc_blocks",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:music_disc_chirp",
+        name: "Music Disc (Chirp)",
+        category: "item",
+        icon: "textures/items/music_disc_chirp",
+        themeColor: "§4" // red
     }
 ];
