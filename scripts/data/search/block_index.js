@@ -1638,6 +1638,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:coal_ore",
+        name: "Coal Ore",
+        category: "block",
+        icon: "textures/blocks/coal_ore",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:cocoa",
         name: "Cocoa",
         category: "block",
