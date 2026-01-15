@@ -452,5 +452,47 @@ export const netherBlocks = {
             yRange: "Warped Forest"
         },
         description: "Twisting Vines are a climbing plant found in the Warped Forest biome of the Nether. They grow upward from the ground, unlike weeping vines which grow downward. Players can climb them like ladders. Bone meal can be applied to extend their growth. They break instantly by hand, having a 33% chance to drop themselves, but shears or Silk Touch always yield the item. They are fire-resistant and add verticality to the Warped Forest landscape."
+    },
+    "minecraft:quartz_ore": {
+        id: "minecraft:quartz_ore",
+        name: "Nether Quartz Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Nether Quartz (1, affected by Fortune)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "10 to 117"
+        },
+        description: "Nether Quartz Ore is a common ore found exclusively in the Nether, appearing embedded in Netherrack. It is the only natural source of Nether Quartz, which is used for crafting various redstone components like comparators and observers, as well as decorative quartz blocks. When mined with a pickaxe, it drops one piece of Nether Quartz and experience orbs. It can be found at all altitudes in the Nether but is most abundant between Y-levels 10 and 117. Like other Nether ores, it is safe from lava and fire."
+    },
+    "minecraft:chiseled_nether_bricks": {
+        id: "minecraft:chiseled_nether_bricks",
+        name: "Chiseled Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Chiseled Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from 2 Nether Brick Slabs"
+        },
+        description: "Chiseled Nether Bricks are a decorative variant of Nether Bricks, featuring a unique skull-like or geometric pattern. Introduced in the Nether Update, they add architectural detail to Nether-themed builds. They are crafted by stacking two Nether Brick slabs vertically in a crafting grid or by using a stonecutter on a Nether Brick block. Like regular Nether Bricks, they are fire-resistant and require a pickaxe to mine. They also produce a unique \"bass drum\" sound when placed under a note block."
     }
     };
