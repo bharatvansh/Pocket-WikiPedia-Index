@@ -451,5 +451,26 @@ export const stoneBlocks = {
             yRange: "Deepslate layers (below Y 0)"
         },
         description: "Cobbled Deepslate is a rough stone variant obtained by mining Deepslate with a pickaxe. It shares the dark gray aesthetic of Deepslate but with a fractured texture. With a hardness of 3.5 and blast resistance of 6.0, it is tougher than regular cobblestone. It is used to craft stone tools, furnaces, and brewing stands, and can be smelted back into Deepslate or crafted into Polished Deepslate."
+    },
+    "minecraft:bedrock": {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        hardness: -1.0,
+        blastResistance: 3600000.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "-64 to -60 (Overworld), 0-4 & 123-127 (Nether)"
+        },
+        description: "Bedrock is an indestructible block that forms the boundary of the world. It generates at the very bottom of the Overworld and both the top and bottom of the Nether, preventing players from falling into the void or escaping the dimension's confines. While it can be viewed and used as a foundation in Creative mode, it is impossible to mine or destroy in Survival mode without using glitches. It also serves as the primary component of the End's exit portal and gateway structures, providing a permanent frame for these essential inter-dimensional travel points."
     }
 };

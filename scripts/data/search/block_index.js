@@ -42,6 +42,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:bedrock",
+        name: "Bedrock",
+        category: "block",
+        icon: "textures/blocks/bedrock",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:dripstone_block",
         name: "Dripstone Block",
         category: "block",
@@ -2028,6 +2035,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cactus_side",
         themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:wither_rose",
+        name: "Wither Rose",
+        category: "block",
+        icon: "textures/blocks/wither_rose",
+        themeColor: "§0" // black
     },
     {
         id: "minecraft:deadbush",

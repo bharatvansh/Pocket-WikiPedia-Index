@@ -687,5 +687,26 @@ export const vegetationBlocks = {
             yRange: "Deserts, Badlands, Giant Tree Taigas"
         },
         description: "Dead Bush is a decorative transparent block found in arid biomes such as Deserts, Badlands, and Giant Tree Taigas. It represents a withered shrub and provides an atmospheric touch to dry environments. When broken by hand or with most tools, it has a chance to drop 0-2 Sticks, serving as an emergency source of wood in treeless areas. To collect the Dead Bush itself for decoration (e.g., in flower pots), players must use Shears."
+    },
+    "minecraft:wither_rose": {
+        id: "minecraft:wither_rose",
+        name: "Wither Rose",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wither Rose"],
+        generation: {
+            dimension: "Overworld, Nether, End",
+            yRange: "N/A (Spawns when Wither kills a mob)"
+        },
+        description: "The Wither Rose is a rare, dark flower that is created when a Wither kills a non-undead mob. Unlike most plants, it inflicts the Wither effect on any creature that walks through it, making it a powerful tool for traps and automated mob farms. It can be placed on most solid blocks, including netherrack and soul sand, which is atypical for flowers. Despite its lethal nature, it can be used to craft Black Dye or as a decorative element in more macabre builds. It is one of the few flowers that can be found in any dimension, provided a Wither has been summoned to create it."
     }
 };
