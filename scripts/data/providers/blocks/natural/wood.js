@@ -259,7 +259,7 @@ export const woodBlocks = {
         drops: ["Oak Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "0 to 320"
+            yRange: "Surface (Found in various biomes)"
         },
         description: "Oak logs are one of the most common wood types in Minecraft, harvested from oak trees. They feature a grayish-brown bark and a light tan interior. Oak wood is highly versatile, serving as a primary crafting ingredient for planks, sticks, and various tools. They are found across numerous biomes, including forests, plains, and riverbanks, making them an essential resource for players starting their survival journey."
     },
@@ -280,7 +280,7 @@ export const woodBlocks = {
         drops: ["Spruce Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "63 to 150"
+            yRange: "Surface (Taiga and Snowy biomes)"
         },
         description: "Spruce logs are harvested from spruce trees, primarily found in colder biomes like the taiga and snowy tundra. They have a dark brown bark and a slightly lighter brown interior. Spruce wood is favored by many builders for its cozy, rustic aesthetic, often used in medieval or winter-themed constructions. These logs can be crafted into spruce planks or used in their raw form for structural support, blending seamlessly into snowy landscapes."
     },
@@ -301,7 +301,7 @@ export const woodBlocks = {
         drops: ["Birch Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "63 to 120"
+            yRange: "Surface (Birch Forest and others)"
         },
         description: "Birch logs are easily identifiable by their unique white bark with black horizontal streaks. They are harvested from birch trees, which typically grow in birch forest biomes. The interior of the log reveals a very light tan wood. Because of their bright and clean appearance, birch logs and their planks are popular for modern-style builds and contrast well with darker materials like stone or dark oak, offering a clean, airy feel to any structure."
     },
@@ -322,7 +322,7 @@ export const woodBlocks = {
         drops: ["Jungle Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "63 to 100"
+            yRange: "Surface (Jungle biomes)"
         },
         description: "Jungle logs are obtained from the massive trees found in jungle biomes. They feature a greenish-gray bark with horizontal striations and a pinkish-brown interior. Jungle logs are unique because they can support the growth of cocoa beans on their sides. These logs are essential for crafting jungle-themed furniture and tropical-themed structures, reflecting the vibrant and dense life of the biomes where they naturally generate."
     },
@@ -343,7 +343,7 @@ export const woodBlocks = {
         drops: ["Acacia Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "63 to 100"
+            yRange: "Surface (Savanna biomes)"
         },
         description: "Acacia logs come from the uniquely shaped, umbrella-like acacia trees found in the savanna biome. They feature a dark gray bark and a distinctive vibrant orange interior wood. This striking color contrast makes acacia logs a popular choice for unique architectural designs and decorative accents. They can be crafted into acacia planks, which retain the warm orange hue, making them ideal for adding a splash of color to desert or savanna-dwelling structures."
     }
