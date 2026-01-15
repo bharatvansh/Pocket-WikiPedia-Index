@@ -11,6 +11,48 @@
  * @type {Object.<string, import('../../block_types').BlockDetails>}
  */
 export const woodBlocks = {
+    "minecraft:oak_log": {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Forests, Swamps, Plains)"
+        },
+        description: "Oak Logs are the natural trunk blocks of Oak trees, the most common tree type in Minecraft. They generate in forests, swamps, and plains. Like other logs, they can be stripped with an axe to create Stripped Oak Logs or crafted into Oak Planks. They have a brown bark texture with the characteristic 'bullseye' ring pattern on top. Oak logs are a versatile building material and can be used as fuel in furnaces. In Bedrock Edition, they are essential for early-game survival and crafting."
+    },
+    "minecraft:oak_leaves": {
+        id: "minecraft:oak_leaves",
+        name: "Oak Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Oak Sapling", "Apple", "Stick", "Oak Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Forests, Swamps, Plains)"
+        },
+        description: "Oak Leaves form the canopy of Oak trees. They have a lush green color that varies depending on the biome (e.g., brownish in swamps). When decaying or mined without Silk Touch, they have a chance to drop Oak Saplings or Apples, the latter being a food source. They are transparent blocks that diffuse light. Shears are the most efficient tool for harvesting them to preserve the block. In Bedrock Edition, leaves turn white when it snows in snowy biomes."
+    },
     "minecraft:pale_oak_log": {
         id: "minecraft:pale_oak_log",
         name: "Pale Oak Log",
