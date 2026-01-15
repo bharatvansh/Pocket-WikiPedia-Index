@@ -237,5 +237,29 @@ export const musicDiscs = {
             "Rarity: Uncommon"
         ],
         description: "'Tears' is a music disc composed by Amos Roddy and released as part of the 'Chase the Skies' soundtrack. It is obtained when a Ghast is defeated by a player-deflected fireball. When played in a jukebox, the track, an electronic piece incorporating ghast vocal samples, plays for approximately 2:55 and a comparator next to the jukebox emits a signal of 10."
+    },
+    "minecraft:music_disc_lava_chicken": {
+        id: "minecraft:music_disc_lava_chicken",
+        name: "Music Disc (Lava Chicken)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Lava Chicken' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 9 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by chicken jockeys (baby zombie riding a chicken)"]
+        },
+        specialNotes: [
+            "Composed by Hyper Potions",
+            "Added in Java 1.21.7 and Bedrock 1.21.93",
+            "Dropped by chicken jockeys (baby zombie riding a chicken)",
+            "Emits a comparator signal strength of 9 when played in a Jukebox",
+            "Track length: 2:15",
+            "Inspired by 'Steve\'s Lava Chicken' from A Minecraft Movie"
+        ],
+        description: "'Lava Chicken' is a music disc that plays Hyper Potions' 'Lava Chicken' track (approx. 2:15). It is obtained by defeating chicken jockeys (baby zombies riding chickens). When played in a jukebox, it provides a comparator signal strength of 9."
     }
 };

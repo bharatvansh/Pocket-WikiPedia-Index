@@ -1183,6 +1183,13 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:music_disc_lava_chicken",
+        name: "Music Disc (Lava Chicken)",
+        category: "item",
+        icon: "textures/items/music_disc_lava_chicken",
+        themeColor: "§c" // red
+    },
+    {
         id: "minecraft:tide_armor_trim_smithing_template",
         name: "Tide Armor Trim Smithing Template",
         category: "item",
