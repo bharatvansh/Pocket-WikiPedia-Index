@@ -169,6 +169,29 @@ export const musicDiscs = {
         ],
         description: "Music Disc 'Relic' is a disc that plays Aaron Cherof's track of the same name when inserted into a Jukebox. In Minecraft Bedrock Edition it is found through archaeology, obtained by brushing suspicious gravel in Trail Ruins rather than from mob drops. When played, it outputs a comparator signal strength of 14, making it useful for redstone builds that sort or detect specific discs."
     },
+    "minecraft:music_disc_11": {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the '11' music track in a Jukebox",
+            secondaryUse: "Providing a redstone signal strength of 11 via a Comparator"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers when killed by Skeletons or Strays"]
+        },
+        specialNotes: [
+            "Composed by C418",
+            "Shortest official music disc (approx. 1:11 duration)",
+            "Dropped by Creepers when killed by Skeletons or Strays",
+            "Emits a comparator signal strength of 11 when played in a Jukebox",
+            "One of the original music discs in Minecraft"
+        ],
+        description: "'11' is a short, eerie instrumental track by C418. It's known for its fragmented, mysterious sound and is most commonly obtained when a Skeleton (or Stray) kills a Creeper, causing it to drop a random music disc. When played in a Jukebox, the track adds an unsettling atmosphere and causes adjacent Comparators to output a signal strength of 11."
+    },
     "minecraft:music_disc_13": {
         id: "minecraft:music_disc_13",
         name: "Music Disc (13)",

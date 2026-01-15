@@ -1365,6 +1365,13 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:music_disc_11",
+        name: "Music Disc (11)",
+        category: "item",
+        icon: "textures/items/music_disc_11",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:music_disc_13",
         name: "Music Disc (13)",
         category: "item",
