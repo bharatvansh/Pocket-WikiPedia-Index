@@ -135,5 +135,26 @@ export const plankBlocks = {
             yRange: "Crafted from Pale Oak Planks"
         },
         description: "Pale Oak Stairs are versatile building components from Minecraft Bedrock 1.21.50. Crafted from six pale oak planks, they create elegant transitions in builds. The muted, desaturated color palette creates an ethereal, ghostly atmosphere perfect for spectral mansions or atmospheric structures. Like all wooden stairs, they work with slabs for trapdoors and pair with other pale oak pieces. Their standard wood hardness and blast resistance make them practical for general construction."
+    },
+    "minecraft:oak_planks": {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oak Logs"
+        },
+        description: "Oak Planks are a common building block crafted from Oak Logs. They have a light brown wooden texture and are used for crafting many essential items like crafting tables, chests, sticks, and beds. Oak planks are also used as a fuel source in furnaces. With a hardness of 2.0 and blast resistance of 3.0, they are a reliable material for building houses and structures."
     }
 };
