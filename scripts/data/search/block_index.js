@@ -2112,5 +2112,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_tiles",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:repeater",
+        name: "Redstone Repeater",
+        category: "block",
+        icon: "textures/blocks/repeater",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:stone_pressure_plate",
+        name: "Stone Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/stone_pressure_plate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:wooden_button",
+        name: "Wooden Button",
+        category: "block",
+        icon: "textures/blocks/wooden_button",
+        themeColor: "§6"
     }
 ];

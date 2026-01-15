@@ -348,5 +348,68 @@ export const redstoneBlocks = {
             yRange: "Crafted only"
         },
         description: "The Block of Redstone is a solid block that functions as a permanent power source for redstone mechanisms. It emits a redstone signal strength of 15 to all adjacent blocks, making it useful for compact circuit designs and powering components like pistons or redstone lamps without the need for torches or levers. It can also be pushed by pistons, allowing for movable power sources in complex machines. Crafted from nine redstone dust, it also serves as a compact storage method for redstone."
+    },
+    "minecraft:repeater": {
+        id: "minecraft:repeater",
+        name: "Redstone Repeater",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Redstone Repeater"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Redstone Repeater is a crucial redstone component that serves three primary functions: it extends redstone signals up to full strength (15 blocks), introduces adjustable delays from 1 to 4 ticks, and acts as a one-way valve preventing signals from passing backwards. Crafted from three stone, two redstone torches, and one redstone dust, repeaters are essential for building complex circuits, timing mechanisms, and long-distance signal transmission. In Bedrock Edition, the repeater's delay can be adjusted by right-clicking, with visual indicators showing the current delay setting."
+    },
+    "minecraft:stone_pressure_plate": {
+        id: "minecraft:stone_pressure_plate",
+        name: "Stone Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stone Pressure Plate"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Stone Pressure Plate is a redstone-activated switch that detects when players, mobs, or items land on it, emitting a redstone signal strength of 15. Unlike wooden pressure plates, stone variants only activate for players and mobs, not items, making them ideal for security systems and mob detection traps. Crafted from two stone blocks, they provide a clean, discreet activation method for hidden doors, automatic lighting systems, and defensive mechanisms in Bedrock Edition builds."
+    },
+    "minecraft:wooden_button": {
+        id: "minecraft:wooden_button",
+        name: "Wooden Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wooden Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted; Desert Pyramids, Jungle Temples"
+        },
+        description: "The Wooden Button is a redstone switch that provides a 30 redstone tick pulse when pressed, longer than the stone button's 20 ticks. Activated by hand or projectile, it serves as a temporary power source for doors, trapdoors, and other redstone mechanisms. In Bedrock Edition, wooden buttons can be crafted from any wood type and occasionally generate naturally in desert pyramids and jungle temples. Their extended pulse duration makes them particularly useful for timing-sensitive circuits and contraptions."
     }
 };
