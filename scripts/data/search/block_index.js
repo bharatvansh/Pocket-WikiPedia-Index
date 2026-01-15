@@ -476,6 +476,76 @@ export const blockIndex = [
         themeColor: "§e" // pale yellow
     },
     {
+        id: "minecraft:oak_log",
+        name: "Oak Log",
+        category: "block",
+        icon: "textures/blocks/log_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_log",
+        name: "Spruce Log",
+        category: "block",
+        icon: "textures/blocks/log_spruce",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_log",
+        name: "Birch Log",
+        category: "block",
+        icon: "textures/blocks/log_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_log",
+        name: "Jungle Log",
+        category: "block",
+        icon: "textures/blocks/log_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_log",
+        name: "Acacia Log",
+        category: "block",
+        icon: "textures/blocks/log_acacia",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dark_oak_log",
+        name: "Dark Oak Log",
+        category: "block",
+        icon: "textures/blocks/log_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        category: "block",
+        icon: "textures/items/glass_pane",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        category: "block",
+        icon: "textures/items/door_iron",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/cobblestone_wall",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/mossy_cobblestone_wall",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:pale_oak_leaves",
         name: "Pale Oak Leaves",
         category: "block",

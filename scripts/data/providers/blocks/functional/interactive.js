@@ -536,5 +536,26 @@ export const interactiveBlocks = {
             yRange: "Command only"
         },
         description: "The Structure Void is an invisible, intangible block used to indicate empty space in structures saved with Structure Blocks. When a structure is loaded, blocks in the target area are not overwritten if the corresponding block in the saved structure is a structure void. It is distinct from air, which overwrites existing blocks with air. Visible only when holding a structure void item or enabling 'Show Invisible Blocks', it allows for complex structure merging and terrain preservation."
+    },
+    "minecraft:iron_door": {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Shipwrecks"
+        },
+        description: "Iron Doors are heavy-duty versions of standard wooden doors, providing significantly more security. Unlike wooden doors, iron doors cannot be opened by hand; they require a redstone signal, such as a lever, button, or pressure plate, to operate. This makes them ideal for protecting bases from mobs and unwanted players. In Bedrock Edition, they can be mined with any pickaxe. Their high blast resistance and security features make them a staple in high-tech and defensive builds."
     }
 };
