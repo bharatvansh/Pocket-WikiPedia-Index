@@ -1140,5 +1140,53 @@ export const miscItems = {
             "Useful for long-distance ocean exploration or moving base materials across water"
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
+    },
+    "minecraft:command_block_minecart": {
+        id: "minecraft:command_block_minecart",
+        name: "Minecart with Command Block",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Moving command block activation on rails",
+            secondaryUse: "Running commands at specific locations via rail systems"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via commands or creative inventory"]
+        },
+        specialNotes: [
+            "Executes a command when passing over a powered Activator Rail",
+            "Command is executed once per activation tick",
+            "Can only be obtained using /give or the Creative inventory",
+            "Cannot be crafted in survival mode",
+            "Contains an Impulse Command Block by default"
+        ],
+        description: "A Minecart with Command Block is a utility vehicle that combines the mobility of a minecart with the functionality of a command block. It allows players to execute commands at specific locations along a rail system. The command block inside the cart activates when it passes over a powered Activator Rail. Unlike standard command blocks, this item cannot be crafted and is only available through commands or the Creative inventory, making it a tool primarily for map makers and server administrators."
+    },
+    "minecraft:jungle_boat": {
+        id: "minecraft:jungle_boat",
+        name: "Jungle Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with jungle wood appearance",
+            secondaryUse: "Matching jungle wood builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats but with jungle wood texture",
+            "Can carry two passengers, including mobs and players",
+            "Crafted from 5 Jungle Planks",
+            "Moves significantly faster on ice and packed ice",
+            "In Bedrock, mobs can be picked up even when a player is already riding",
+            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It functions identically to other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its distinguishing feature is its reddish-brown jungle wood texture, making it ideal for navigating jungle rivers or matching jungle-themed builds. It requires five jungle planks to craft and offers the same fall damage negation as other boats."
     }
 };
