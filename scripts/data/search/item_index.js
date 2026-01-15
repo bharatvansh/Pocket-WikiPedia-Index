@@ -210,6 +210,13 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        category: "item",
+        icon: "textures/items/music_disc_tears",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:creeper_banner_pattern",
         name: "Creeper Banner Pattern",
         category: "item",
