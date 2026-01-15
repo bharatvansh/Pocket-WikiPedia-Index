@@ -222,8 +222,8 @@ export const slabsStairsBlocks = {
     "minecraft:mud_brick_stairs": {
         id: "minecraft:mud_brick_stairs",
         name: "Mud Brick Stairs",
-        hardness: 0.5,
-        blastResistance: 0.5,
+        hardness: 1.5,
+        blastResistance: 3.0,
         flammability: false,
         gravityAffected: false,
         transparent: true,
