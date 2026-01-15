@@ -597,6 +597,6 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: null
         },
-        description: "Cracked Stone Bricks are a weathered version of stone bricks that feature visible cracks across their surface. They are created by smelting regular stone bricks in a furnace or found naturally in strongholds and igloo basements. These blocks are excellent for depicting ruins, aged dungeons, or structural instability in builds. Despite their damaged look, they maintain a hardness of 1.5 and blast resistance of 6.0, the same as standard stone bricks. Silverfish can also hide inside infested versions of this block, which can be found in strongholds near the end portal."
+        description: "Cracked Stone Bricks are a weathered version of stone bricks that feature visible cracks across their surface. They are created by smelting regular stone bricks in a furnace or found naturally in strongholds, igloo basements, ocean ruins (cold), ruined portals, and trail ruins. These blocks are excellent for depicting ruins, aged dungeons, or structural instability in builds. Despite their damaged look, they maintain a hardness of 1.5 and blast resistance of 6.0, the same as standard stone bricks. Silverfish can also hide inside infested versions of this block, which can be found in strongholds near the end portal."
     }
 };
