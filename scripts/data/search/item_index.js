@@ -2161,5 +2161,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/stone_shovel",
         themeColor: "§7" // Gray/Stone
+    },
+    {
+        id: "minecraft:potion",
+        name: "Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:splash_potion",
+        name: "Splash Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_splash",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:lingering_potion",
+        name: "Lingering Potion",
+        category: "item",
+        icon: "textures/items/potion_bottle_lingering",
+        themeColor: "§d" // Pink
     }
 ];
