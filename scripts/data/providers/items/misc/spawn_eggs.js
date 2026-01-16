@@ -407,5 +407,28 @@ export const spawnEggs = {
             "Can be used on a Spawner to create a Shulker spawner."
         ],
         description: "The Shulker Spawn Egg allows for the instantaneous placement of a Shulker. These mobs are found in End cities and are known for their shell-like appearance and projectiles that cause players to levitate. This egg is a valuable tool for Creative mode builders creating obstacle courses or protecting structures. Like all spawn eggs, it can be applied to a Monster Spawner."
+    },
+    "minecraft:creaking_spawn_egg": {
+        id: "minecraft:creaking_spawn_egg",
+        name: "Creaking Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Creaking mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Added in the 1.21.50 'The Garden Awakens' update.",
+            "Used to instantly spawn a Creaking mob.",
+            "Can change a Spawner's type to Creaking when applied.",
+            "Normally only available in Creative Mode or via commands.",
+            "Creakings spawned this way are independent of any Creaking Heart."
+        ],
+        description: "The Creaking Spawn Egg is a specialized item available primarily in Creative Mode. When used on a block, it immediately summons a Creaking at that location. This item is essential for map makers who need to populate the Pale Garden or custom builds with Creakings without relying on Creaking Hearts. The Creaking is a unique mob that only moves when not being looked at by the player. In Survival, this item can only be obtained through commands."
     }
 };
