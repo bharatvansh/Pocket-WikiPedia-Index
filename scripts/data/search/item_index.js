@@ -2379,20 +2379,6 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
-        id: "minecraft:chicken",
-        name: "Raw Chicken",
-        category: "item",
-        icon: "textures/items/chicken_raw",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:rabbit",
-        name: "Raw Rabbit",
-        category: "item",
-        icon: "textures/items/rabbit_raw",
-        themeColor: "§f"
-    },
-    {
         id: "minecraft:pale_oak_boat",
         name: "Pale Oak Boat",
         category: "item",
