@@ -2398,6 +2398,5 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_chestplate",
         themeColor: "§e" // gold/yellow
-    },
     }
 ];
