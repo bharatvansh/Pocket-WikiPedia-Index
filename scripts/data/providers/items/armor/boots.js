@@ -32,6 +32,29 @@ export const boots = {
         ],
         description: "Chainmail Boots are a type of armor that offers the same protection as Gold Boots but with significantly higher durability, matching Iron. They are unique as they cannot be crafted and are only obtained through trading with Armorer villagers, finding them in Buried Treasure, or as rare drops from mobs. They provide moderate protection for the feet and have a distinctive mesh appearance."
     },
+    "minecraft:iron_boots": {
+        id: "minecraft:iron_boots",
+        name: "Iron Boots",
+        maxStack: 1,
+        durability: 195,
+        enchantable: true,
+        usage: {
+            primaryUse: "Foot protection",
+            secondaryUse: "Decoration for Armor Stands"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x4"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 bar).",
+            "Useful for enchantments like Feather Falling and Depth Strider.",
+            "Crafted with 4 Iron Ingots.",
+            "Lightest piece of the iron armor set.",
+            "Allows for faster swimming when enchanted with Depth Strider."
+        ],
+        description: "Iron Boots are fundamental footwear for any mid-game explorer. Providing 2 armor points, they offer decent protection and can be enchanted with powerful effects like Feather Falling to reduce fall damage or Depth Strider for faster swimming. They are the cheapest piece of iron armor to craft, requiring only four iron ingots. Despite being the lowest tier of iron armor in terms of defense, they are vital for completing the full iron set and receiving the set's maximum defense benefits."
+    },
     "minecraft:diamond_boots": {
         id: "minecraft:diamond_boots",
         name: "Diamond Boots",

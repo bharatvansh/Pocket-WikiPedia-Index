@@ -34,6 +34,29 @@ export const leggings = {
         ],
         description: "Chainmail Leggings provide 4 armor points of protection for the legs, one point less than Iron Leggings, while maintaining the same durability of 225. They possess a higher enchantability rating (12), allowing for potentially better enchantment rolls. Uncraftable in survival, they are primarily sourced from Armorer villagers, loot chests, or drops from armored mobs. Like other chainmail pieces, they can be repaired using Iron Ingots in an anvil."
     },
+    "minecraft:iron_leggings": {
+        id: "minecraft:iron_leggings",
+        name: "Iron Leggings",
+        maxStack: 1,
+        durability: 225,
+        enchantable: true,
+        usage: {
+            primaryUse: "Leg protection",
+            secondaryUse: "Decoration for Armor Stands"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x7"]
+        },
+        specialNotes: [
+            "Provides 5 armor points (2.5 bars).",
+            "Crafted with 7 Iron Ingots in a 'U' shape.",
+            "Second most protective piece in the iron armor set.",
+            "Commonly dropped by armored Zombies and Skeletons.",
+            "Supports enchantments like Swift Sneak and Protection."
+        ],
+        description: "Iron Leggings are a standard mid-tier choice for lower-body protection. Offering 5 armor points, they provide a significant defensive boost while remaining easy to craft using iron ingots. They are often one of the first pieces of armor a player crafts after a chestplate. These leggings are durable enough for extensive exploration and cave diving, and they can be found in various loot chests in villages, shipwrecks, and strongholds."
+    },
     "minecraft:diamond_leggings": {
         id: "minecraft:diamond_leggings",
         name: "Diamond Leggings",
