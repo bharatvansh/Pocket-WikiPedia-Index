@@ -1281,4 +1281,95 @@ export const miscItems = {
         ],
         description: "The Pale Oak Hanging Sign is a decorative variant of the sign that hangs from chains. Crafted from Stripped Pale Oak Logs and Chains, it offers a more elegant and versatile way to display information in your world. It can be suspended from the underside of blocks or attached to the sides with a support bracket. Like standard signs, it supports dual-sided text entry, dye customization, and waxing. Its unique desaturated tone makes it a standout choice for markers within the Pale Garden biome."
     },
+    "minecraft:crafter": {
+        id: "minecraft:crafter",
+        name: "Crafter",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Automating crafting recipes via redstone signals",
+            secondaryUse: "Compact automatic factory systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["5x Iron Ingot", "1x Crafting Table", "1x Redstone Dust", "2x Dropper"]
+        },
+        specialNotes: [
+            "Activated by a redstone pulse to craft one item.",
+            "Slots can be toggled 'on' or 'off' to define the recipe shape.",
+            "Pushes the crafted item into the world or an adjacent container.",
+            "Has a unique 'crushing' animation when crafting.",
+            "Introduced in the 1.21 Tricky Trials update."
+        ],
+        description: "The Crafter is a revolutionary utility block that brings automation to the crafting system. By supplying it with ingredients and a redstone signal, players can automate the production of any item in the game. Its interactive GUI allows players to disable specific slots, enabling complex recipes to be maintained without overflow. This block is the cornerstone of advanced technical Minecraft, allowing for the creation of fully autonomous farms and factories."
+    },
+    "minecraft:creaking_heart": {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning the Creaking mob at night",
+            secondaryUse: "Decorative block and source of Resin"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["2x Pale Oak Log", "1x Block of Resin"]
+        },
+        specialNotes: [
+            "Must be placed between two Pale Oak Logs matching its orientation to activate.",
+            "Only active during the night; summons a protective Creaking mob.",
+            "If the heart is destroyed, the linked Creaking is also destroyed.",
+            "Drops Resin Clumps when attacked while active.",
+            "Obtainable by silk touch or by crafting with Resin."
+        ],
+        description: "The Creaking Heart is the haunting central core of the Creaking mob, found within the Pale Garden. It acts as a stationary summoner that manifests a Creaking to defend itself whenever it or its linked logs are disturbed. To function, it must be properly oriented between Pale Oak wood. During the night, it becomes a formidable barrier for explorers, but also a valuable source of Resin for those brave enough to harvest it. It represents the symbiotic relationship between the flora and the eerie residents of the Pale Garden."
+    },
+    "minecraft:open_eyeblossom": {
+        id: "minecraft:open_eyeblossom",
+        name: "Open Eyeblossom",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Gray Dye",
+            secondaryUse: "Decoration and particle emission"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found in Pale Garden biomes"]
+        },
+        specialNotes: [
+            "Opens at night and closes during the day (becoming a Closed Eyeblossom).",
+            "Emits orange particles when open.",
+            "Can be planted on grass, dirt, or moss blocks.",
+            "When open, it can be crafted into Gray Dye; when closed, it crafts into Orange Dye.",
+            "Bees are not attracted to Eyeblossoms."
+        ],
+        description: "The Eyeblossom is a unique plant introduced in the 1.21.50 update, exclusive to the Pale Garden biome. It has a distinct lifecycle, opening its glowing orange 'eyes' only during the night and closing them during the day. This behavior makes it a striking decorative plant for spooky or atmospheric builds. Interestingly, players can obtain different dyes depending on whether the flower is open or closed, making its harvesting time a tactical choice. It adds a subtle but effective layer of mysticism to the desaturated landscape of the Pale Garden."
+    },
+    "minecraft:trial_explorer_map": {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating the nearest Trial Chamber",
+            secondaryUse: "Exploration and navigation"
+        },
+        crafting: {
+            recipeType: "Trade",
+            ingredients: ["12x Emerald", "1x Compass (Journeyman Cartographer)"]
+        },
+        specialNotes: [
+            "Displays a brown map icon for Trial Chambers.",
+            "Can be purchased from Journeyman-level Cartographer villagers.",
+            "Essential for finding Trial Chambers in worlds without using cheats or external tools.",
+            "Shows the structure's location relative to the player's position."
+        ],
+        description: "The Trial Explorer Map is a specialized navigation tool designed to lead players to Trial Chambers. By following the icon on the map, players can locate these massive underground structures and take on the challenges within. It is an indispensable resource for explorers who want to experience the 1.21 update's content without having to search aimlessly underground. This map is acquired through villager trading, specifically from Cartographers who have reached the Journeyman level."
+    },
 };
