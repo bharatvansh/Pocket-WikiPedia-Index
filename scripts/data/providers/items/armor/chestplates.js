@@ -34,6 +34,29 @@ export const chestplates = {
         ],
         description: "The Chainmail Chestplate is a body armor piece that provides 5 defense points, slightly less than the Iron Chestplate's 6, but shares the same durability of 240. It features a higher enchantability value of 12, making it easier to obtain better enchantments. Since it cannot be crafted, players must seek it out by trading with Armorer villagers or exploring structures like Buried Treasure and Woodland Mansions. It can be repaired in an anvil using Iron Ingots."
     },
+    "minecraft:diamond_chestplate": {
+        id: "minecraft:diamond_chestplate",
+        name: "Diamond Chestplate",
+        maxStack: 1,
+        durability: 528,
+        enchantable: true,
+        usage: {
+            primaryUse: "Heavy torso protection",
+            secondaryUse: "Base for Netherite Chestplate upgrade"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x8"]
+        },
+        specialNotes: [
+            "Provides 8 armor points (4 hearts)",
+            "Has 528 durability points in Bedrock Edition",
+            "Can be enchanted with Protection, Thorns, and Mending",
+            "Requires 8 diamonds to craft in a standard chestplate pattern",
+            "Required base item for crafting a Netherite Chestplate"
+        ],
+        description: "The Diamond Chestplate is the most powerful piece of armor in Minecraft before reaching Netherite. It provides 8 full armor points, significantly reducing incoming damage from mobs and environmental hazards. Crafted from 8 diamonds, it is a significant investment that provides unparalleled survivability. Like all diamond armor, it can be enchanted to near-invincibility and is the essential foundation for creating a soul-infused Netherite Chestplate."
+    },
     "minecraft:netherite_chestplate": {
         id: "minecraft:netherite_chestplate",
         name: "Netherite Chestplate",

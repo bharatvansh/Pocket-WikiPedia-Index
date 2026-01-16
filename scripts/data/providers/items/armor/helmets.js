@@ -33,6 +33,29 @@ export const helmets = {
         ],
         description: "The Chainmail Helmet is a piece of armor made of linked metal rings. It offers the same protection (2 points) and durability (165) as an Iron Helmet but has a slightly higher enchantability of 12. Unlike other armor sets, Chainmail cannot be crafted by players and must be obtained through trading with Armorer villagers, looting chests in structures like Buried Treasure or Woodland Mansions, or as drops from mobs wearing it. Its unique semi-transparent texture makes it a popular choice for cosmetic armor stands and specific player skins."
     },
+    "minecraft:diamond_helmet": {
+        id: "minecraft:diamond_helmet",
+        name: "Diamond Helmet",
+        maxStack: 1,
+        durability: 363,
+        enchantable: true,
+        usage: {
+            primaryUse: "High-level head protection",
+            secondaryUse: "Base for Netherite Helmet upgrade"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x5"]
+        },
+        specialNotes: [
+            "Provides 3 armor points (1.5 hearts)",
+            "Has 363 durability points in Bedrock Edition",
+            "Can be enchanted with Protection, Respiration, and Aqua Affinity",
+            "Used in a Smithing Table to create a Netherite Helmet",
+            "Highest durability and protection tier before Netherite"
+        ],
+        description: "The Diamond Helmet is a high-tier protective headgear that offers superior defense and durability compared to iron or gold. It provides 3 armor points and is essential for surviving late-game combat and exploration. In addition to its strong defensive stats, it serves as the necessary base for crafting the ultimate Netherite Helmet using a Smithing Table and an upgrade template."
+    },
     "minecraft:turtle_helmet": {
         id: "minecraft:turtle_helmet",
         name: "Turtle Shell",

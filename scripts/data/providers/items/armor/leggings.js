@@ -34,6 +34,29 @@ export const leggings = {
         ],
         description: "Chainmail Leggings provide 4 armor points of protection for the legs, one point less than Iron Leggings, while maintaining the same durability of 225. They possess a higher enchantability rating (12), allowing for potentially better enchantment rolls. Uncraftable in survival, they are primarily sourced from Armorer villagers, loot chests, or drops from armored mobs. Like other chainmail pieces, they can be repaired using Iron Ingots in an anvil."
     },
+    "minecraft:diamond_leggings": {
+        id: "minecraft:diamond_leggings",
+        name: "Diamond Leggings",
+        maxStack: 1,
+        durability: 495,
+        enchantable: true,
+        usage: {
+            primaryUse: "Sturdy leg protection",
+            secondaryUse: "Base for Netherite Leggings upgrade"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x7"]
+        },
+        specialNotes: [
+            "Provides 6 armor points (3 hearts)",
+            "Has 495 durability points in Bedrock Edition",
+            "Protects the lower body of the player",
+            "Can be enchanted with specialized enchantments like Swift Sneak",
+            "Used to upgrade into Netherite Leggings at a Smithing Table"
+        ],
+        description: "Diamond Leggings offer exceptional protection for the lower half of the player's body. Providing 6 armor points, they are a vital component of a full diamond set, offering high durability and defensive power. They are crafted by arranging 7 diamonds in the leggings pattern. In the late game, these leggings are transformed into Netherite Leggings, inheriting their enchantments while gaining additional toughness and fire resistance."
+    },
     "minecraft:netherite_leggings": {
         id: "minecraft:netherite_leggings",
         name: "Netherite Leggings",

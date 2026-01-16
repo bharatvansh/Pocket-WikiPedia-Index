@@ -345,6 +345,33 @@ export const rawFood = {
         ],
         description: "Beetroot is a vegetable crop found in village gardens or grown from seeds. While it provides minimal nourishment on its own, restoring only 1 hunger point, it can be crafted into Beetroot Soup for a much more substantial meal. Beetroots are also versatile in crafting, serving as a source of Red Dye. They play a role in animal husbandry for breeding pigs and can be traded with Farmer villagers. Players can farm them by planting Beetroot Seeds, which are also obtained during harvest."
     },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and taming wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "30% chance of inflicting the Hunger effect for 30 seconds",
+            "Can be cooked into Cooked Chicken for better nutrition and safety",
+            "Used to breed and heal tamed wolves",
+            "Obtained by killing chickens; drops 1 meat (more with Looting)"
+        ],
+        description: "Raw Chicken is a basic food item obtained by killing chickens. While it provides modest hunger restoration, it carries a 30% risk of causing food poisoning (the Hunger effect) in Bedrock Edition. It is highly recommended to cook it into Cooked Chicken before consumption to eliminate the risk and increase its nutritional value. Like other raw meats, it is also useful for breeding and healing tamed wolves."
+    },
     "minecraft:beef": {
         id: "minecraft:beef",
         name: "Raw Beef",
