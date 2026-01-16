@@ -129,7 +129,7 @@ export const hoes = {
             secondaryUse: "Fastest harvesting of leaves and bells"
         },
         combat: {
-            attackDamage: 1,
+            attackDamage: 2,
             attackSpeed: 0
         },
         crafting: {
@@ -140,9 +140,9 @@ export const hoes = {
             "Extremely low durability (32 uses).",
             "Highest enchantability tier among hoes.",
             "Harvests certain blocks slightly faster than iron.",
-            "Deals 1 attack damage in Bedrock Edition.",
+            "Deals 2 attack damage in Bedrock Edition.",
             "Frequently dropped by Piglins in the Nether."
         ],
-        description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with only 1 attack damage."
+        description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with 2 attack damage."
     }
 };
