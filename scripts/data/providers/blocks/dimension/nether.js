@@ -598,5 +598,26 @@ export const netherBlocks = {
             dimension: "None"
         },
         description: "Cracked Nether Bricks are a decorative variant of nether bricks that appear aged and fractured. They are obtained by smelting regular nether bricks in a furnace. These blocks provide a weathered aesthetic to Nether fortresses and other dark-themed builds, suggesting long-term exposure to the Nether's intense heat. While they share the same resistance and hardness as regular nether bricks, they cannot be used to craft stairs or slabs. They are particularly effective when mixed with standard nether bricks to create textured, ruined walls and historical structures."
+    },
+    "minecraft:quartz_pillar": {
+        id: "minecraft:quartz_pillar",
+        name: "Quartz Pillar",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Quartz Pillar"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, crafted from 2 Quartz Blocks"
+        },
+        description: "Quartz Pillar is a decorative variant of the quartz block, featuring a distinctive cylindrical texture with vertical lines. It is primarily used for constructing columns, pillars, and grand architectural features in classical or modern builds. It can be placed in different orientations, allowing the lines to run vertically or horizontally. Quartz pillars are crafted by vertically stacking two quartz blocks or obtained via a stonecutter. They generate naturally in bastion remnants and provide a clean, elegant aesthetic while maintaining the same properties as standard quartz blocks."
     }
 };

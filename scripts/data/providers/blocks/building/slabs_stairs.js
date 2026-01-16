@@ -239,5 +239,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Mud Bricks"
         },
         description: "Mud Brick Stairs are the stair-shaped variant of mud bricks, introduced in 1.19's Wild Update. They offer a warm, earthy-brown aesthetic that is perfect for desert, swamp, or rustic-themed builds. Crafted from six mud bricks or via a stonecutter, they allow for smooth vertical transitions and detailed roofing. While they have relatively low blast resistance compared to stone stairs, they provide a unique texture that bridges the gap between wood and stone. They can be waterlogged and placed in various orientations to create complex architectural details."
+    },
+    "minecraft:bamboo_stairs": {
+        id: "minecraft:bamboo_stairs",
+        name: "Bamboo Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "Bamboo Stairs are a building block crafted from bamboo planks, introduced in Minecraft 1.20 as part of the bamboo wood set. They feature a unique 'woven' texture distinct from traditional wood planks, offering a tropical or oriental aesthetic to structures. Like other stairs, they allow for smooth elevation changes and can be used for detailed roofing and trim. They are flammable and can be broken most efficiently with an axe. Bamboo stairs are also waterloggable, making them versatile for various architectural and landscape designs."
+    },
+    "minecraft:bamboo_slab": {
+        id: "minecraft:bamboo_slab",
+        name: "Bamboo Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "Bamboo Slab is a half-block variant of bamboo planks, featuring the same distinctive yellow-tan woven texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three bamboo planks horizontally or using a stonecutter, it is an essential part of the bamboo wood family. Bamboo slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique natural look that complements tropical, rustic, and modern builds effortlessly."
     }
 };

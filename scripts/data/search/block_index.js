@@ -2308,5 +2308,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mud_brick_stairs",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:cracked_deepslate_bricks",
+        name: "Cracked Deepslate Bricks",
+        category: "block",
+        icon: "textures/blocks/deepslate_bricks_cracked",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cracked_deepslate_tiles",
+        name: "Cracked Deepslate Tiles",
+        category: "block",
+        icon: "textures/blocks/deepslate_tiles_cracked",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:quartz_pillar",
+        name: "Quartz Pillar",
+        category: "block",
+        icon: "textures/blocks/quartz_pillar",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:bamboo_stairs",
+        name: "Bamboo Stairs",
+        category: "block",
+        icon: "textures/blocks/bamboo_stairs",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bamboo_slab",
+        name: "Bamboo Slab",
+        category: "block",
+        icon: "textures/blocks/bamboo_slab",
+        themeColor: "§e"
     }
 ];
