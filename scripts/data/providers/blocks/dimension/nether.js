@@ -704,5 +704,26 @@ export const netherBlocks = {
             yRange: "Bastion Remnants, crafted from 4 Basalt"
         },
         description: "Polished Basalt is a decorative variant of basalt with a smooth finish and a cleaner texture. It is crafted from four regular basalt blocks in a 2x2 pattern or processed via a stonecutter. It generates naturally in some bastion remnant structures and provides a sophisticated dark gray aesthetic for building. Like logs, polished basalt is a directional block and can be placed in three different orientations. It maintains the same durability as raw basalt, requiring a pickaxe to mine efficiently and offering moderate resistance to explosions."
+    },
+    "minecraft:nether_brick_fence": {
+        id: "minecraft:nether_brick_fence",
+        name: "Nether Brick Fence",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Brick Fence"],
+        generation: {
+            dimension: "Nether",
+            yRange: "48–72 (Nether Fortresses)"
+        },
+        description: "Nether Brick Fence is a dark, fire-resistant barrier block found naturally in Nether Fortresses. Unlike wooden fences, it is immune to fire and cannot be burned, making it a superior choice for building in the Nether or near lava. It has a higher blast resistance than most Overworld fences and requires a pickaxe to mine. While it does not connect to wooden fences, it connects to most solid blocks and other nether brick fence pieces. It is crafted from nether bricks and nether brick items, providing a sturdy and atmospheric defensive perimeter for any fortress or dark-themed build."
     }
 };

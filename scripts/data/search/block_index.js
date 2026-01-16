@@ -2413,5 +2413,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/flower_oxeye_daisy",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:chiseled_quartz_block",
+        name: "Chiseled Quartz Block",
+        category: "block",
+        icon: "textures/blocks/quartz_block_chiseled",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:nether_brick_fence",
+        name: "Nether Brick Fence",
+        category: "block",
+        icon: "textures/blocks/nether_brick_fence",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:end_stone_brick_stairs",
+        name: "End Stone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/end_stone_brick_stairs",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:dark_oak_log",
+        name: "Dark Oak Log",
+        category: "block",
+        icon: "textures/blocks/log_dark_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:red_mushroom",
+        name: "Red Mushroom",
+        category: "block",
+        icon: "textures/blocks/mushroom_red",
+        themeColor: "§c"
     }
 ];

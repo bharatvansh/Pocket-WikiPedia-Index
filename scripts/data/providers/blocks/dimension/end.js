@@ -198,5 +198,26 @@ export const endBlocks = {
             yRange: null
         },
         description: "Purpur Stairs are the stair-shaped variant of Purpur Blocks, used extensively in the construction of End Cities and End Ships. They allow players to navigate vertical spaces easily while maintaining the unique aesthetic of the End dimension. Crafted from six Purpur Blocks or obtained through a stonecutter, these stairs are waterloggable and can be placed in various orientations. They share the same properties as Purpur Blocks, including a hardness of 1.5 and blast resistance of 6.0. Their bright purple hue makes them a striking choice for any build requiring a touch of alien elegance."
+    },
+    "minecraft:end_stone_brick_stairs": {
+        id: "minecraft:end_stone_brick_stairs",
+        name: "End Stone Brick Stairs",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["End Stone Brick Stairs"],
+        generation: {
+            dimension: "The End",
+            yRange: "60–100 (End Cities)"
+        },
+        description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
     }
 };
