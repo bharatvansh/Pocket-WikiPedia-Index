@@ -218,5 +218,110 @@ export const spawnEggs = {
             "Changes a Spawner's type to Warden when used on it."
         ],
         description: "The Warden Spawn Egg creates a Warden instantly for testing encounters or building Deep Dark scenarios in Creative Mode. It is available through Creative or commands and places the Warden exactly where the egg is used. As with other spawn eggs, applying it to a Monster Spawner will convert that spawner to generate Wardens."
+    },
+    "minecraft:bee_spawn_egg": {
+        id: "minecraft:bee_spawn_egg",
+        name: "Bee Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bee mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Bees are neutral and will sting when provoked.",
+            "Has a chance to spawn a baby bee."
+        ],
+        description: "The Bee Spawn Egg is a Creative/Commands-only item that summons a bee at the targeted location. Bees are neutral and become hostile if provoked, making this egg useful for testing pollination setups or defensive mechanics. Using the egg on a Monster Spawner converts it to spawn bees for controlled population or farm design."
+    },
+    "minecraft:breeze_spawn_egg": {
+        id: "minecraft:breeze_spawn_egg",
+        name: "Breeze Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Breeze mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Breezes are hostile mobs found in trial chambers.",
+            "Drops breeze rods when defeated."
+        ],
+        description: "The Breeze Spawn Egg creates a breeze, the hostile trial-chamber mob that drops breeze rods. It is a Creative/Commands item for staging combat or testing wind-charge interactions. When used on a Monster Spawner, it changes the spawner to generate breezes."
+    },
+    "minecraft:frog_spawn_egg": {
+        id: "minecraft:frog_spawn_egg",
+        name: "Frog Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Frog mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Frogs are temperate, warm, or cold variants based on biome.",
+            "In Bedrock, frogs spawn naturally in swamps and mangrove swamps."
+        ],
+        description: "The Frog Spawn Egg instantly creates a frog for Creative builds or testing. Frog variants depend on biome temperature, and in Bedrock they naturally spawn in swamps and mangrove swamps. Applying the egg to a Monster Spawner changes it to produce frogs, letting builders control amphibian placement."
+    },
+    "minecraft:glow_squid_spawn_egg": {
+        id: "minecraft:glow_squid_spawn_egg",
+        name: "Glow Squid Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Glow Squid mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Glow squids are passive and drop glow ink sacs.",
+            "In Bedrock, they spawn in underground water below Y=30."
+        ],
+        description: "The Glow Squid Spawn Egg spawns a glow squid at the target spot, handy for underwater builds or testing glow ink sacs. In Bedrock, glow squids spawn in underground water below Y=30 and are passive. As with other spawn eggs, it can also reconfigure a Monster Spawner to produce glow squids."
+    },
+    "minecraft:goat_spawn_egg": {
+        id: "minecraft:goat_spawn_egg",
+        name: "Goat Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Goat mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Goats are neutral and can spawn in mountain biomes.",
+            "Has a small chance to spawn a screaming goat."
+        ],
+        description: "The Goat Spawn Egg summons a goat immediately, useful for mountain scenes or goat horn testing. Goats are neutral mobs that naturally appear in snowy mountain biomes, and spawn eggs have a small chance to create a screaming goat. Using it on a Monster Spawner converts the spawner to goats."
     }
 };
