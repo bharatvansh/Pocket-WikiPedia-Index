@@ -2343,5 +2343,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_slab",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:weeping_vines",
+        name: "Weeping Vines",
+        category: "block",
+        icon: "textures/items/weeping_vines",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:crimson_fungus",
+        name: "Crimson Fungus",
+        category: "block",
+        icon: "textures/blocks/crimson_fungus",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:warped_fungus",
+        name: "Warped Fungus",
+        category: "block",
+        icon: "textures/blocks/warped_fungus",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:polished_basalt",
+        name: "Polished Basalt",
+        category: "block",
+        icon: "textures/blocks/polished_basalt_side",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:cherry_sapling",
+        name: "Cherry Sapling",
+        category: "block",
+        icon: "textures/blocks/cherry_sapling",
+        themeColor: "§d"
     }
 ];
