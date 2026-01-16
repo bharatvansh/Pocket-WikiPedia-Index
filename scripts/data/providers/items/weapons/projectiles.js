@@ -1,6 +1,6 @@
 // Pocket Wikipedia Foundation - Projectiles Data
 // ============================================
-// This file contains: Arrow, spectral arrow, tipped arrows (all types),
+// This file contains: Arrow, spectral arrow, tipped arrow,
 // firework rocket, snowball, egg, ender pearl, eye of ender,
 // fire charge, wind charge
 // ============================================
@@ -93,5 +93,63 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:spectral_arrow": {
+        id: "minecraft:spectral_arrow",
+        name: "Spectral Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Highlighting targets with a glowing effect when hit",
+            secondaryUse: "Long-distance combat and target tracking through obstacles"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Arrow", "Glowstone Dust (4 per 2 arrows)"]
+        },
+        specialNotes: [
+            "Crafted by surrounding arrows with glowstone dust (4 glowstone + 4 arrows = 8 spectral arrows)",
+            "Applies a glowing outline effect to hit entities for 10 seconds",
+            "Glowing entities remain visible even behind walls and obstacles",
+            "Can be obtained from Piglins via bartering or found in Bastions",
+            "Does not apply potion effects like tipped arrows",
+            "The glowing effect allows tracking of mobs regardless of light level or obstruction",
+            "Cannot stack with other spectral arrows in the same slot if partially used"
+        ],
+        description: "The Spectral Arrow is a specialized projectile crafted from regular arrows and glowstone dust. When it hits a target, it applies a glowing effect that outlines the entity in a bright color, making it clearly visible even behind walls and in darkness for 10 seconds. This makes spectral arrows invaluable for tracking elusive mobs during combat or for PvP scenarios. Players can also obtain them through bartering with Piglins in the Nether or loot them from Bastion Remnants. Unlike tipped arrows, spectral arrows do not inflict potion effects but instead provide superior target visibility."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying potion effects through ranged attacks",
+            secondaryUse: "Setting traps and crowd control in PvP combat"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Arrow (8)", "Lingering Potion (any type)"]
+        },
+        specialNotes: [
+            "Created in a crafting grid by combining 8 arrows with a lingering potion",
+            "In Bedrock Edition, arrows can be dipped in cauldrons containing potions instead",
+            "The type of potion determines which effect the arrow inflicts upon impact",
+            "Applies full potion effect duration (30-3600 seconds depending on the potion type)",
+            "Can apply any potion effect including Poison, Weakness, Slowness, Harming, and more",
+            "More efficient than crafting lingering potions individually",
+            "Pairs well with crossbows or enchanted bows for rapid-fire effects"
+        ],
+        description: "Tipped Arrows are specialized projectiles infused with potion effects, created by combining regular arrows with lingering potions. In Bedrock Edition, a more efficient alternative is available: arrows can be directly dipped into cauldrons containing any type of potion. When fired, these arrows apply their associated potion effect upon impact. This enables creative combat tactics such as applying Poison to weaken enemies, Slowness to control movement, or Weakness to reduce enemy damage output. Tipped arrows are essential for advanced players who want to combine ranged combat with the versatility of potions."
     }
 };

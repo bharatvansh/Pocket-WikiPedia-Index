@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:spectral_arrow",
+        name: "Spectral Arrow",
+        category: "item",
+        icon: "textures/items/spectral_arrow",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/tipped_arrow",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        category: "item",
+        icon: "textures/items/sunflower",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:peony",
+        name: "Peony",
+        category: "item",
+        icon: "textures/items/peony",
+        themeColor: "§d"
     }
 ];

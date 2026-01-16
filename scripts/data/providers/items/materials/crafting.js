@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder, popped chorus fruit
+// amethyst shard, gunpowder, popped chorus fruit, heavy core
 // ============================================
 
 /**
@@ -1520,5 +1520,30 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Altering Note Block sounds and decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers", "Dropped from Ominous Trial Spawners (7.25% chance)"]
+        },
+        specialNotes: [
+            "Found exclusively in Trial Chambers (introduced in Minecraft 1.21)",
+            "Obtained only from Ominous Vaults by defeating difficult Ominous Trial Spawners",
+            "Requires an Ominous Trial Key to unlock the vault containing it",
+            "Used to craft the Mace weapon (1 Heavy Core + 1 Breeze Rod in a crafting grid)",
+            "Can be placed on Note Blocks to alter their sound to a deep, heavy tone",
+            "Serves as a status symbol for players who have conquered challenging Ominous Trials",
+            "Dropped from vault only once per player per ominous trial completion"
+        ],
+        description: "The Heavy Core is a rare crafting material introduced in Minecraft 1.21 with the Tricky Trials update. It is exclusively obtained from Ominous Vaults within Trial Chambers after completing challenging Ominous Trial Spawner challenges. The primary use of the Heavy Core is to craft the Mace, a powerful melee weapon that accumulates damage based on fall height. Beyond combat applications, Heavy Cores can be placed on Note Blocks to produce a deep, resonant sound, making them useful for music compositions. Their rarity and the difficulty required to obtain them make Heavy Cores a prized item among players seeking powerful late-game equipment."
     }
 };

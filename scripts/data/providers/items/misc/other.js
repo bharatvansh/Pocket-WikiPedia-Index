@@ -5,7 +5,7 @@
 // enchanted book, knowledge book, bundle, goat horn (all variants),
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
+// bucket, dragon egg, oak boat, oak boat with chest, sunflower, peony
 // ============================================
 
 /**
@@ -1408,5 +1408,55 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:sunflower": {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative tall flower for landscaping and farming",
+            secondaryUse: "Crafting yellow dye and farming aesthetic builds"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Naturally generated in plains, sunflower plains, and other biomes", "Bone meal on grass blocks"]
+        },
+        specialNotes: [
+            "A two-block-high flower that grows naturally in plains and sunflower plains biomes",
+            "Can be crafted into yellow dye when placed in a crafting grid",
+            "Bees are attracted to sunflowers and will pollinate them",
+            "Growing sunflowers in a field creates a vibrant, decorative landscape",
+            "Bone meal applied to grass in plains can generate sunflowers",
+            "Top block of the flower is the harvestable sunflower item",
+            "Popular for both survival farming and creative aesthetic builds"
+        ],
+        description: "The Sunflower is a beautiful two-block-high flower found naturally in plains and sunflower plains biomes. Its bright yellow petals make it a popular choice for decorative landscaping and themed builds. When harvested, sunflowers drop themselves as items and can be crafted into yellow dye. Interestingly, sunflowers also attract bees, making them valuable for honey production and pollination mechanics. Players can generate more sunflowers by using bone meal on grass blocks in suitable biomes, allowing for large-scale flower farms for both decoration and dye production."
+    },
+    "minecraft:peony": {
+        id: "minecraft:peony",
+        name: "Peony",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative tall flower for landscaping and gardens",
+            secondaryUse: "Crafting pink dye for dyeing and decorations"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Naturally generated in forests and flower forests", "Bone meal on grass blocks"]
+        },
+        specialNotes: [
+            "A two-block-high flower with pink coloration and distinctive ruffled petals",
+            "Spawns naturally in forest and flower forest biomes",
+            "Can be crafted into pink dye for dyeing wool, leather armor, and concrete",
+            "Can be obtained through bone meal growth on grass blocks in compatible biomes",
+            "Top block of the flower is the harvestable peony item",
+            "Popular among players who prefer pink aesthetic in their builds",
+            "Bees do not specifically target peonies, but they do pollinate nearby flowers"
+        ],
+        description: "The Peony is an elegant two-block-high flower with soft pink petals, naturally spawning in forest and flower forest biomes. Its distinctive ruffled appearance makes it a favorite for romantic, garden-themed, and pink-themed builds. When harvested, peonies can be crafted into pink dye, providing a renewable source of this popular color for dyeing wool, leather armor, and concrete blocks. Players can cultivate larger peony gardens by using bone meal on grass blocks in forest biomes, creating stunning flower fields. While bees do not specifically target peonies, they do participate in the broader pollination ecosystem of flower gardens."
     }
 };
