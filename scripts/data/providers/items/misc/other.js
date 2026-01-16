@@ -1188,5 +1188,28 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities with a ghostly white appearance",
+            secondaryUse: "Matching pale oak builds and aesthetic consistency"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Made from Pale Oak wood, featuring a distinct ghostly white appearance",
+            "Can carry up to two passengers, including players and most mobs",
+            "Moves significantly faster when placed on ice or packed ice",
+            "Nullifies all fall damage for its passengers when falling from any height",
+            "In Bedrock, can pick up mobs even when a player is already riding"
+        ],
+        description: "The Pale Oak Boat is a water vehicle introduced in the 1.21.50 update, crafted from five Pale Oak planks. It features the pale, ghostly white texture characteristic of the Pale Oak trees found in the Creaking's biome. Like other boats, it serves as an efficient way to travel across water or ice and can transport two entities at once. Its unique appearance makes it a popular choice for aesthetic consistency in 'spooky' or monochromatic builds, while providing the standard utility of all Minecraft boats."
     }
 };

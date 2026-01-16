@@ -2363,5 +2363,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_helmet",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        category: "item",
+        icon: "textures/items/diamond_hoe",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/tipped_arrow",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_raw",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_pale_oak",
+        themeColor: "§f"
     }
 ];

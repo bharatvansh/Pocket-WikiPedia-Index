@@ -93,5 +93,32 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting status effects on hit, such as Poison, Healing, or Slowness",
+            secondaryUse: "Tactical ranged combat and mob management"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron",
+            ingredients: ["Arrow", "Potion in Cauldron", "or 8 Arrows + 1 Lingering Potion"]
+        },
+        specialNotes: [
+            "Inflicts status effects on hit, such as Poison, Healing, or Slowness",
+            "In Bedrock Edition, can be crafted by dipping arrows into a Potion Cauldron",
+            "Can also be crafted using 8 Arrows and a Lingering Potion",
+            "Used with Bows and Crossbows to provide tactical advantages in combat",
+            "Status effect duration is usually 1/8th of the corresponding potion"
+        ],
+        description: "Tipped Arrows are specialized ammunition that apply status effects to hit entities. In Bedrock Edition, they have a unique crafting method where players can dip regular arrows into cauldrons filled with potions, allowing for mass production. They can also be crafted with lingering potions. Effects include positive buffs like Healing or negative debuffs like Poison and Weakness. They add a strategic layer to ranged combat, allowing players to weaken foes or support allies from a distance."
     }
 };

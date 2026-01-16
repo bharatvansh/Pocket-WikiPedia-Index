@@ -144,5 +144,31 @@ export const hoes = {
             "Frequently dropped by Piglins in the Nether."
         ],
         description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with 2 attack damage."
+    },
+    "minecraft:diamond_hoe": {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt, grass, and moss into farmland",
+            secondaryUse: "Efficiently harvesting leaves, sponges, hay blocks, and sculk-related blocks"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Has a durability of 1562, significantly higher than iron",
+            "Used to quickly harvest blocks like sculk, leaves, and sponges",
+            "Can be enchanted with Efficiency, Unbreaking, and Silk Touch",
+            "Allows for large-scale tilling of dirt and grass into farmland"
+        ],
+        description: "The Diamond Hoe is a high-tier tool used for large-scale farming and efficient block harvesting. While its primary role is tilling soil for crops, its speed at clearing leaves, hay, and sculk is unmatched by other diamond tools. With 1562 durability, it lasts much longer than its iron counterpart, making it a valuable long-term investment for advanced players."
     }
 };
