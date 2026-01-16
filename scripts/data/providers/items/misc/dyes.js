@@ -291,7 +291,6 @@ export const dyes = {
         },
         specialNotes: [
             "Crafted from Blue Orchid or by mixing Blue Dye with White Dye",
-            "Lapis Lazuli can substitute Blue Dye in the mixing recipe",
             "Used to dye wool, terracotta, glass, concrete, and beds light blue",
             "Mixed with other dyes to create cyan and magenta dyes",
             "Essential for crafting light blue firework stars",
@@ -359,17 +358,16 @@ export const dyes = {
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Blue Dye + Green Dye", "Lapis Lazuli + Green Dye", "Pitcher Plant"]
+            ingredients: ["Blue Dye + Green Dye", "Pitcher Plant"]
         },
         specialNotes: [
             "Crafted by mixing Blue and Green dyes, or Lapis Lazuli and Green dye",
             "Provides a vibrant teal/cyan color to blocks and mobs",
             "Used to dye wool, terracotta, glass, concrete, and beds cyan",
             "Can be used to dye shulker boxes and leather armor",
-            "Essential for crafting cyan firework stars",
-            "In Bedrock Edition, Lapis Lazuli is a direct substitute for Blue Dye in recipes"
+            "Essential for crafting cyan firework stars"
         ],
-        description: "Cyan Dye is a secondary dye that produces a bright, vibrant teal or blue-green color. It is traditionally crafted by combining Blue and Green dyes, though Bedrock Edition allows Lapis Lazuli to be used as a substitute for the blue component. This dye is popular for aquatic-themed builds or adding bold pops of color to modern structures. It can be applied to a wide range of blocks, including terracotta and glass, and is used to customize character items like shulker boxes and leather armor."
+        description: "Cyan Dye is a secondary dye that produces a bright, vibrant teal or blue-green color. It is traditionally crafted by combining Blue and Green dyes. This dye is popular for aquatic-themed builds or adding bold pops of color to modern structures. It can be applied to a wide range of blocks, including terracotta and glass, and is used to customize character items like shulker boxes and leather armor."
     },
     "minecraft:purple_dye": {
         id: "minecraft:purple_dye",
@@ -383,7 +381,7 @@ export const dyes = {
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Blue Dye + Red Dye", "Lapis Lazuli + Red Dye"]
+            ingredients: ["Blue Dye + Red Dye"]
         },
         specialNotes: [
             "Crafted by mixing Blue and Red dyes together",
@@ -393,7 +391,7 @@ export const dyes = {
             "Essential for crafting purple firework stars",
             "Can be traded to Shepherd villagers"
         ],
-        description: "Purple Dye is a secondary color obtained by mixing the primary colors red and blue. In Bedrock Edition, Lapis Lazuli can be used instead of Blue Dye to create this mixture. It offers a rich, royal purple hue for dyeing sheep and various building materials. Purple dye is also a critical component for creating Magenta Dye. It is widely used in decoration for its striking appearance and can be applied to almost any dyeable item, including shulker boxes and leather armor sets."
+        description: "Purple Dye is a secondary color obtained by mixing the primary colors red and blue. It offers a rich, royal purple hue for dyeing sheep and various building materials. Purple dye is also a critical component for creating Magenta Dye. It is widely used in decoration for its striking appearance and can be applied to almost any dyeable item, including shulker boxes and leather armor sets."
     },
     "minecraft:brown_dye": {
         id: "minecraft:brown_dye",
