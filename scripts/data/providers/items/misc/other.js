@@ -1141,6 +1141,31 @@ export const miscItems = {
         ],
         description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
     },
+    "minecraft:furnace_minecart": {
+        id: "minecraft:furnace_minecart",
+        name: "Minecart with Furnace",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Self-propelled minecart transportation",
+            secondaryUse: "Pushing other minecarts in a train"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Minecart", "Furnace"]
+        },
+        specialNotes: [
+            "Powered by coal or charcoal, consuming fuel immediately upon use",
+            "Travels at a constant speed of 4 blocks per second (240 m/min) when fueled",
+            "One piece of coal powers it for 3 minutes of travel",
+            "Moves in the direction the player is facing when fuel is added",
+            "Can push a train of up to 4 minecarts (including itself)",
+            "Does not require powered rails to maintain speed",
+            "Java Edition only - not available in Bedrock Edition"
+        ],
+        description: "The Minecart with Furnace is a self-propelled vehicle that moves along rails without requiring powered rails. Crafted by combining a minecart with a furnace, it is fueled using coal or charcoal. When fueled, it travels at a constant speed of 4 blocks per second and can push other minecarts, creating a simple train system. The direction of travel is determined by the player's facing direction when fuel is added. While it offers an alternative to powered rail systems, it is less commonly used due to the efficiency and control offered by powered rails. Note that this item is exclusive to Java Edition and is not available in Bedrock Edition."
+    },
     "minecraft:command_block_minecart": {
         id: "minecraft:command_block_minecart",
         name: "Minecart with Command Block",
@@ -1408,5 +1433,52 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
-    }
+    },
+    "minecraft:activator_rail": {
+        id: "minecraft:activator_rail",
+        name: "Activator Rail",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Activating special minecart functions with redstone",
+            secondaryUse: "Ejecting entities, locking hoppers, and igniting TNT minecarts"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x6", "Stick x2", "Redstone Torch x1 (yields 6)"]
+        },
+        specialNotes: [
+            "When powered, ejects mobs and players from regular minecarts",
+            "Disables hopper minecarts when powered, preventing item collection",
+            "Ignites TNT minecarts instantly when powered",
+            "Does not affect minecart speed like powered rails",
+            "Can be powered by adjacent redstone components or redstone torches",
+            "Crafting recipe yields 6 activator rails"
+        ],
+        description: "Activator Rails are specialized rail blocks that trigger specific actions when powered by redstone. Unlike powered rails that affect minecart speed, activator rails interact with the contents and state of minecarts passing over them. When powered, they eject entities from regular minecarts, disable hopper minecarts to prevent item transfer, ignite TNT minecarts for controlled explosions, and activate command block minecarts. They are crafted using six iron ingots, two sticks, and a redstone torch, yielding six rails. Essential for automated rail systems and complex minecart contraptions, activator rails provide precision control over minecart behavior in Bedrock Edition."
+    },
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emitting a redstone signal when a minecart passes over it",
+            secondaryUse: "Detecting minecarts for automated rail systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x6", "Stone Pressure Plate x1", "Redstone Dust x1 (yields 6)"]
+        },
+        specialNotes: [
+            "Outputs a redstone signal (power level 15) while a minecart is on it",
+            "Signal lasts as long as the minecart remains on the rail",
+            "Works with all minecart types (empty, chest, hopper, TNT, etc.)",
+            "Can power adjacent redstone components and rails",
+            "Often used for automatic track switches and station systems",
+            "Crafting recipe yields 6 detector rails"
+        ],
+        description: "Detector Rails are redstone-sensitive rail blocks that emit a signal when a minecart passes over them. They function as minecart-activated pressure plates, providing a power level of 15 to adjacent blocks and redstone components while occupied. This makes them essential for creating automatic rail switches, station arrival signals, and complex transportation networks. Crafted from six iron ingots, one stone pressure plate, and redstone dust, the recipe yields six detector rails. They work with all minecart types and are fundamental components in automated sorting systems and intelligent rail networks in Minecraft Bedrock Edition."
 };

@@ -93,5 +93,61 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:spectral_arrow": {
+        id: "minecraft:spectral_arrow",
+        name: "Spectral Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition that causes targets to glow",
+            secondaryUse: "Revealing hidden enemies through walls"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Glowstone Dust x4", "Arrow x1 (yields 2)"]
+        },
+        specialNotes: [
+            "Applies the Glowing effect to hit targets for 10 seconds",
+            "The glow effect makes targets visible through walls and blocks",
+            "Crafted by surrounding an arrow with 4 glowstone dust, yielding 2 spectral arrows",
+            "Can be found in Bastion Remnant chests",
+            "Works with both bows and crossbows",
+            "The glow outline is visible to all players, not just the shooter"
+        ],
+        description: "Spectral Arrows are specialized ammunition that applies the Glowing status effect to any mob or player they hit, causing them to be outlined and visible through walls for 10 seconds. This makes them extremely valuable for PvP combat and tracking mobs in dark areas. Crafted by surrounding a single arrow with four glowstone dust, the recipe yields two spectral arrows. They can also be found as loot in Bastion Remnants. The glowing effect works regardless of the target's invisibility, making spectral arrows a counter to invisibility potions."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition that applies potion effects to targets",
+            secondaryUse: "Delivering status effects at range"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Lingering Potion x1", "Arrow x8 (yields 8)"]
+        },
+        specialNotes: [
+            "Java Edition: Crafted with 1 lingering potion + 8 arrows, yields 8 tipped arrows",
+            "Bedrock Edition: Can also be made by dipping arrows in a potion-filled cauldron",
+            "A full cauldron in Bedrock can tip up to 48 arrows (16 per 1/3 level)",
+            "Applies the potion effect to targets for a reduced duration",
+            "Arrow of Decay (Wither effect) is exclusive to Bedrock Edition",
+            "Works with bows, crossbows, and dispensers"
+        ],
+        description: "Tipped Arrows are versatile ammunition items that deliver potion effects upon impact. In Java Edition, they are crafted by combining eight arrows with a lingering potion, yielding eight tipped arrows of that effect. Bedrock Edition offers an additional method: dipping arrows into a cauldron filled with potion, where a full cauldron can tip up to 48 arrows. The duration of the applied effect is typically 1/8 of the original potion's duration. Bedrock Edition also features the unique Arrow of Decay, which applies the Wither effect. Tipped arrows are essential for ranged combat strategies, allowing players to poison, slow, or weaken enemies from a distance."
     }
 };
