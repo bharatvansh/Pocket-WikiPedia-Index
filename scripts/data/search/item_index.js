@@ -2072,6 +2072,27 @@ export const itemIndex = [
         themeColor: "§c" // red
     },
     {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_raw",
+        themeColor: "§c" // orange
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_tropical_raw",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:wooden_pickaxe",
         name: "Wooden Pickaxe",
         category: "item",
@@ -2175,6 +2196,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/dye_powder_light_blue",
         themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:cyan_dye",
+        name: "Cyan Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_cyan",
+        themeColor: "§3" // cyan
+    },
+    {
+        id: "minecraft:purple_dye",
+        name: "Purple Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_purple",
+        themeColor: "§5" // purple
     },
     {
         id: "minecraft:chainmail_helmet",
