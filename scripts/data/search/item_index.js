@@ -2223,5 +2223,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_boots",
         themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:golden_leggings",
+        name: "Golden Leggings",
+        category: "item",
+        icon: "textures/items/gold_leggings",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:diamond_leggings",
+        name: "Diamond Leggings",
+        category: "item",
+        icon: "textures/items/diamond_leggings",
+        themeColor: "§b" // aqua/diamond blue
+    },
+    {
+        id: "minecraft:leather_boots",
+        name: "Leather Boots",
+        category: "item",
+        icon: "textures/items/leather_boots",
+        themeColor: "§6" // brown/leather
+    },
+    {
+        id: "minecraft:iron_boots",
+        name: "Iron Boots",
+        category: "item",
+        icon: "textures/items/iron_boots",
+        themeColor: "§f" // white/iron
+    },
+    {
+        id: "minecraft:golden_boots",
+        name: "Golden Boots",
+        category: "item",
+        icon: "textures/items/gold_boots",
+        themeColor: "§e" // gold/yellow
     }
 ];
