@@ -609,13 +609,6 @@ export const blockIndex = [
         themeColor: "§e" // pale yellow
     },
     {
-        id: "minecraft:pink_petals",
-        name: "Pink Petals",
-        category: "block",
-        icon: "textures/blocks/pink_petals",
-        themeColor: "§d" // light pink/purple
-    },
-    {
         id: "minecraft:pale_moss_carpet",
         name: "Pale Moss Carpet",
         category: "block",
