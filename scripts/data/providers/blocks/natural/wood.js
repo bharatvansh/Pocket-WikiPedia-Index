@@ -111,8 +111,8 @@ export const woodBlocks = {
         },
         drops: ["Block of Bamboo"],
         generation: {
-            dimension: "Overworld",
-            yRange: "Crafted from 9 Bamboo"
+            dimension: "None",
+            yRange: "None"
         },
         description: "A block of bamboo is a wood-like block crafted from nine bamboo items. It functions similarly to other logs, meaning it can be stripped with an axe to create stripped bamboo blocks or crafted into bamboo planks. It features a unique segmented appearance."
     },
@@ -153,8 +153,8 @@ export const woodBlocks = {
         },
         drops: ["Block of Stripped Bamboo"],
         generation: {
-            dimension: "Overworld",
-            yRange: "Crafted from Block of Bamboo using Axe"
+            dimension: "None",
+            yRange: "None"
         },
         description: "The Block of Stripped Bamboo is created by using an axe on a regular Block of Bamboo. It features the same segmented texture but without the bark, revealing a smoother interior. Introduced in 1.19, it can be crafted into bamboo planks or used decoratively. Like all bamboo blocks, it is highly flammable with hardness and blast resistance of 2.0. Its unique linear pattern distinguishes it from traditional log-based blocks, making it ideal for exotic Asian-inspired architectural designs."
     },
@@ -195,8 +195,8 @@ export const woodBlocks = {
         },
         drops: ["Pale Oak Wood"],
         generation: {
-            dimension: "Overworld",
-            yRange: "Crafted from Pale Oak Logs"
+            dimension: "None",
+            yRange: "None"
         },
         description: "Pale Oak Wood is a block with the bark texture of Pale Oak logs on all six sides, introduced in Minecraft 1.21.50. It is crafted by arranging four Pale Oak Logs in a 2x2 grid. Unlike logs, which have a top and bottom 'rings' texture, wood blocks appear as bark on every face, making them ideal for creating seamless organic structures like custom trees or roots. Like other wood blocks, it can be stripped using an axe to create Stripped Pale Oak Wood."
     },
@@ -237,8 +237,8 @@ export const woodBlocks = {
         },
         drops: ["Crimson Hyphae"],
         generation: {
-            dimension: "Nether",
-            yRange: "Crafted from Crimson Stem"
+            dimension: "None",
+            yRange: "None"
         },
         description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
     },
@@ -388,5 +388,68 @@ export const woodBlocks = {
             yRange: "60–128 (Surface)"
         },
         description: "Dark Oak Logs are harvested from the thick, sprawling dark oak trees found in the dense Dark Forest biome. They feature a very dark brown, almost black bark and a slightly lighter brown interior wood. Dark oak trees are unique because they require four saplings planted in a 2x2 grid to grow, resulting in massive trunks. These logs are a favorite among builders for their rich, deep color, which provides excellent contrast against lighter materials. They can be crafted into dark oak planks, stripped with an axe, or used as a strong structural element in medieval and gothic-style builds."
+    },
+    "minecraft:oak_wood": {
+        id: "minecraft:oak_wood",
+        name: "Oak Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Oak Wood is a block that features the bark texture of an oak log on all six sides. It is crafted by placing four oak logs in a 2x2 grid, yielding three blocks of wood. Unlike logs, which show rings on two ends, wood blocks provide a seamless bark appearance, making them ideal for building custom tree trunks, large branches, or decorative pillars. In Bedrock Edition, they share the same physical properties as oak logs, including flammability and hardness. They can also be stripped with an axe to create stripped oak wood."
+    },
+    "minecraft:spruce_wood": {
+        id: "minecraft:spruce_wood",
+        name: "Spruce Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Spruce Wood is a decorative block with the dark, textured bark of spruce logs on all six faces. It is obtained through crafting with four spruce logs or via stonecutting in some versions. Builders favor spruce wood for its rustic, cabin-like aesthetic, using it to create organic-looking structures where the cross-section rings of a log would be undesirable. Like other wood variants, it is flammable and most efficiently harvested with an axe. It can be further processed into stripped spruce wood, maintaining its versatile structural role in northern-themed builds."
+    },
+    "minecraft:birch_wood": {
+        id: "minecraft:birch_wood",
+        name: "Birch Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Birch Wood is a wood-type block that displays the iconic white-and-black bark of birch trees on all sides. Crafted from four birch logs, it allows for the creation of seamless white pillars and custom organic shapes. Its high-contrast, bright appearance makes it a staple for modern architecture and decorative accents. It follows the same mechanical rules as other Overworld wood blocks, being susceptible to fire and requiring an axe for quick mining. It can be stripped to reveal the light-colored interior wood while keeping the six-sided bark-like format."
     }
 };

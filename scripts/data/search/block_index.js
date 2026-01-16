@@ -2448,5 +2448,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mushroom_red",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:oak_wood",
+        name: "Oak Wood",
+        category: "block",
+        icon: "textures/blocks/log_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_wood",
+        name: "Spruce Wood",
+        category: "block",
+        icon: "textures/blocks/log_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_wood",
+        name: "Birch Wood",
+        category: "block",
+        icon: "textures/blocks/log_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:white_terracotta",
+        name: "White Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:orange_terracotta",
+        name: "Orange Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_orange",
+        themeColor: "§6"
     }
 ];
