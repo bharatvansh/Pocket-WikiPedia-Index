@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        category: "item",
+        icon: "textures/items/sunflower",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:peony",
+        name: "Peony",
+        category: "item",
+        icon: "textures/items/peony",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:sculk_vein",
+        name: "Sculk Vein",
+        category: "item",
+        icon: "textures/blocks/sculk_vein",
+        themeColor: "§3" // dark aqua/deep dark
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        category: "item",
+        icon: "textures/blocks/tuff",
+        themeColor: "§7" // gray
     }
 ];

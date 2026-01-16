@@ -3,7 +3,8 @@
 // This file contains: Raw beef, raw porkchop, raw chicken,
 // raw mutton, raw rabbit, raw cod, raw salmon, tropical fish,
 // apple, melon slice, sweet berries, glow berries,
-// carrot, potato, beetroot, dried kelp, chorus fruit
+// carrot, potato, beetroot, dried kelp, chorus fruit,
+// sunflower, peony
 // ============================================
 
 /**
@@ -511,5 +512,66 @@ export const rawFood = {
             "Caught with a 2% chance when fishing similarly to other fish"
         ],
         description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
+    },
+    "minecraft:sunflower": {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Yellow Dye (2 dyes per flower)",
+            secondaryUse: "Decorative plant and composting"
+        },
+        food: {
+            hunger: 0,
+            saturation: 0
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Generated in plains, sunflower plains, and flower biomes"]
+        },
+        specialNotes: [
+            "Cannot be eaten directly",
+            "Crafts into 2 Yellow Dyes in a crafting grid",
+            "Double-height flower found in plains and sunflower plains biomes",
+            "Can be replanted on grass or dirt blocks for renewable dye production",
+            "Compostable with a 65% chance of raising the compost level",
+            "Bees pollinate sunflowers and can be bred near them",
+            "Decorative use in gardens and builds"
+        ],
+        description: "The Sunflower is a tall, two-block high flower found naturally in plains, sunflower plains, and other grassy biomes. While inedible, it is a valuable crafting resource that yields two Yellow Dyes when processed in a crafting grid, making it more efficient than the single-dye dandelion. Beyond dye production, sunflowers serve as decorative flora and can be replanted to create renewable dye farms. Bees are attracted to sunflowers and can be bred while in proximity to them, making sunflower fields excellent locations for apiary operations. The flower is also compostable and contributes to bone meal production when processed in a composter."
+    },
+    "minecraft:peony": {
+        id: "minecraft:peony",
+        name: "Peony",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Pink Dye",
+            secondaryUse: "Decorative plant and composting"
+        },
+        food: {
+            hunger: 0,
+            saturation: 0
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Generated in forest biomes and various decorative biomes"]
+        },
+        specialNotes: [
+            "Cannot be eaten directly",
+            "Crafts into 2 Pink Dyes in a crafting grid",
+            "Double-height flower found in forest and meadow biomes",
+            "Can be replanted on grass or dirt blocks",
+            "Compostable with a 65% chance of raising the compost level",
+            "Distinctive bright pink color makes it visually striking",
+            "Bees can pollinate and breed near peonies",
+            "Popular choice for building decorative gardens"
+        ],
+        description: "The Peony is a distinctive double-height flower recognizable by its vibrant pink hue. Found naturally in forests, meadows, and other verdant biomes, it can be harvested for crafting into two Pink Dyes. This makes peonies a reliable source of pink coloration for dyeing wool, terracotta, glass, and other blocks. Like sunflowers, peonies can be replanted for renewable dye production and are compostable for bone meal generation. Their striking appearance makes them popular for decorative gardening and building projects, and they also serve as good locations for establishing bee colonies due to bee pollination mechanics."
     }
 };
+
+

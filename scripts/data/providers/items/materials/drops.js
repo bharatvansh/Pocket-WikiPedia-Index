@@ -5,7 +5,8 @@
 // nether star, shulker shell, phantom membrane, rabbit hide,
 // rabbit foot, ink sac, glow ink sac, spider eye, rotten flesh,
 // breeze rod, armadillo scute, turtle scute, nautilus shell,
-// heart of the sea, dragon breath, totem of undying, gold nugget
+// heart of the sea, dragon breath, totem of undying, gold nugget,
+// sculk vein, heavy core, tuff
 // ============================================
 
 /**
@@ -464,5 +465,80 @@ export const mobDrops = {
             "Does not have a placing or usage function on its own"
         ],
         description: "Shulker Shells are specialized items dropped by Shulkers, found exclusively in End Cities. Their sole but incredibly important purpose is the crafting of Shulker Boxes. These boxes revolutionize inventory management by allowing players to carry large quantities of items in a single slot, even when the box is broken and transported. Because Shulkers do not respawn, shells are a limited and highly sought-after resource in any survival world."
+    },
+    "minecraft:sculk_vein": {
+        id: "minecraft:sculk_vein",
+        name: "Sculk Vein",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and crafting material",
+            secondaryUse: "Building and theming structures in deep dark aesthetic"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Mined from the Deep Dark biome", "Generated around Sculk Catalysts"]
+        },
+        specialNotes: [
+            "Generates naturally in Deep Dark biomes",
+            "Forms around Sculk Catalysts when mobs drop experience nearby",
+            "Can be placed on multiple faces of a block (sides, top, bottom)",
+            "Has no inherent function beyond decoration and atmosphere",
+            "Requires any tool to break; drops itself when mined",
+            "Cannot be placed without a supporting block",
+            "Part of the deep dark sculk block family with Sculk, Sculk Catalyst, and Sculk Sensor"
+        ],
+        description: "Sculk Vein is a decorative block variant that generates exclusively in the Deep Dark biome, forming intricate veins across stone and other blocks. When any mob dies within seven blocks of a Sculk Catalyst, these veins instantly form in the surrounding area, creating a creeping network of the sinister blue-green material. While purely decorative with no functional purpose, sculk veins are essential for creating an authentic deep dark aesthetic and are highly valued by builders seeking to recreate or theme structures around the deep dark biome's eerie atmosphere. The vein can cling to any solid surface, allowing for creative placement possibilities."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Decorative heavy block"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare drop from Trial Chambers", "Found in Vault loot and Trial Spawner chambers"]
+        },
+        specialNotes: [
+            "Drops from Trial Spawners and Vaults in Trial Chambers",
+            "Has a 6.7% chance to drop from standard Vaults",
+            "Has a 3.3% chance to drop from Ominous Vaults",
+            "Combined with a Breeze Rod to craft the powerful Mace weapon",
+            "Dense and heavy, suitable as decorative building material",
+            "Can be placed as a solid block with a muted gray-brown appearance",
+            "Represents a craftable endgame weapon component"
+        ],
+        description: "The Heavy Core is a dense, mysterious block found exclusively in Trial Chambers as a rare drop from Trial Spawners and Vault loot. Its primary purpose is as a crafting component combined with a Breeze Rod to create the Mace, one of the most powerful melee weapons in Minecraft Bedrock Edition. The Heavy Core's weighty aesthetic and scarcity make it a prized commodity for players pursuing end-game combat equipment. Beyond its crafting utility, the block's dense appearance makes it suitable as a decorative building material for construction projects that require a sense of weight and permanence. Finding multiple Heavy Cores requires exploring and completing Trial Chambers multiple times."
+    },
+    "minecraft:tuff": {
+        id: "minecraft:tuff",
+        name: "Tuff",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative building block",
+            secondaryUse: "Crafting Tuff Bricks and variant blocks"
+        },
+        crafting: {
+            recipeType: "Found",
+            ingredients: ["Mined in the Overworld below Y=16"]
+        },
+        specialNotes: [
+            "Generates naturally in ore blobs below Y=16 in the Overworld",
+            "Requires a pickaxe to mine; drops itself when broken",
+            "Texture resembles cobblestone with a subtle greenish-gray tint",
+            "Can be crafted into Tuff Bricks, Tuff Stairs, Tuff Slabs, and more",
+            "Polished Tuff is a smoother decorative variant",
+            "Used in construction for a rough, volcanic stone aesthetic",
+            "Similar hardness to cobblestone and andesite"
+        ],
+        description: "Tuff is a rough, volcanic stone block found underground in the Overworld, particularly in ore blobs below Y=16. Its greenish-gray coloration and cobblestone-like texture make it a distinctive building material with a natural, earthy aesthetic. While purely decorative with no functional crafting purpose beyond its own variants, tuff has become increasingly popular among builders for constructing structures with a weathered, ancient, or geological appearance. The block can be further refined into polished tuff, bricks, slabs, and stairs, offering architects greater flexibility in design. Mining tuff with any pickaxe yields the block itself, making it an easily renewable building resource."
     }
 };
