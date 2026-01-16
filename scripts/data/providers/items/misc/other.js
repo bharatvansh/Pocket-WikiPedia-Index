@@ -1244,7 +1244,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Spruce Boat", "Chest"]
         },
         specialNotes: [
@@ -1266,7 +1266,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Birch Boat", "Chest"]
         },
         specialNotes: [
@@ -1288,7 +1288,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Jungle Boat", "Chest"]
         },
         specialNotes: [
@@ -1310,7 +1310,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Acacia Boat", "Chest"]
         },
         specialNotes: [
@@ -1332,7 +1332,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Dark Oak Boat", "Chest"]
         },
         specialNotes: [
@@ -1354,7 +1354,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Mangrove Boat", "Chest"]
         },
         specialNotes: [
@@ -1376,7 +1376,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Cherry Boat", "Chest"]
         },
         specialNotes: [
@@ -1398,7 +1398,7 @@ export const miscItems = {
             secondaryUse: "Transporting items across large bodies of water"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Bamboo Raft", "Chest"]
         },
         specialNotes: [
