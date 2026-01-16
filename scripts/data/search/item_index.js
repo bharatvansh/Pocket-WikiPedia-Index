@@ -2365,6 +2365,41 @@ export const itemIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:bogged_spawn_egg",
+        name: "Bogged Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_bogged",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:breeze_spawn_egg",
+        name: "Breeze Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_breeze",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:armadillo_spawn_egg",
+        name: "Armadillo Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_armadillo",
+        themeColor: "§6" // brown/orange
+    },
+    {
+        id: "minecraft:camel_spawn_egg",
+        name: "Camel Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_camel",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:sniffer_spawn_egg",
+        name: "Sniffer Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_eggs/spawn_egg_sniffer",
+        themeColor: "§2" // green/red
+    },
+    {
         id: "minecraft:diamond_hoe",
         name: "Diamond Hoe",
         category: "item",
@@ -2398,6 +2433,5 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_chestplate",
         themeColor: "§e" // gold/yellow
-    },
     }
 ];
