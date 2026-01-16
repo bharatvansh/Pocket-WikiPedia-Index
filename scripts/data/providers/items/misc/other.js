@@ -1408,5 +1408,95 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Navigation through Pale Garden biomes"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Identical functionality to other boats with a desaturated white texture",
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Nullifies fall damage for all passengers when falling"
+        ],
+        description: "The Pale Oak Boat is a variant of the standard boat crafted from pale oak planks, introduced in the 1.21.50 Winter Drop. It features a unique, desaturated white appearance that matches the aesthetic of the Pale Garden biome. Like all boats in Bedrock Edition, it handles up to two passengers and provides immunity to fall damage. It is a reliable tool for aquatic exploration and transporting mobs."
+    },
+    "minecraft:pale_oak_chest_boat": {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pale Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines a Pale Oak Boat with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the boat and the chest contents when broken",
+            "Matches the desaturated aesthetic of the Pale Garden"
+        ],
+        description: "The Pale Oak Boat with Chest offers mobile storage for players exploring the Pale Garden or other coastal biomes. By combining a Pale Oak Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water with a unique Winter Drop aesthetic."
+    },
+    "minecraft:pale_oak_sign": {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing text on walls or floor",
+            secondaryUse: "Labeling chests or designating areas"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Matches the pale, desaturated white color of the Pale Oak set",
+            "Can be placed on the ground (standing) or on walls (hanging/attached)",
+            "Supports up to four lines of text on both sides in Bedrock",
+            "Can be edited after placement unless waxed with Honeycomb",
+            "Text can be dyed or made to glow with a Glow Ink Sac"
+        ],
+        description: "The Pale Oak Sign is a decorative and informational item introduced in the Winter Drop (1.21.50). Crafted from pale oak planks and a stick, it provides a desaturated white canvas for player-written text. In Bedrock Edition, signs can have text on both sides, and the text can be further customized with dyes or glow ink. It is essential for organization, navigation, and adding detail to builds within the Pale Garden biome."
+    },
+    "minecraft:pale_oak_hanging_sign": {
+        id: "minecraft:pale_oak_hanging_sign",
+        name: "Pale Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative signage that hangs from blocks",
+            secondaryUse: "Detailed building and labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stripped Pale Oak Log x2", "Chain x6"]
+        },
+        specialNotes: [
+            "Features two chains that can hang from the bottom or side of blocks",
+            "More expensive to craft than standard signs, requiring chains and logs",
+            "Text can be applied to both sides and customized with dyes or glow ink",
+            "Provides a more rustic and detailed look for signage",
+            "Matches the unique white-gray color of the Pale Garden set"
+        ],
+        description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
     }
 };

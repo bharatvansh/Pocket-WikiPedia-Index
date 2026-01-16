@@ -407,5 +407,70 @@ export const spawnEggs = {
             "Can be used on a Spawner to create a Shulker spawner."
         ],
         description: "The Shulker Spawn Egg allows for the instantaneous placement of a Shulker. These mobs are found in End cities and are known for their shell-like appearance and projectiles that cause players to levitate. This egg is a valuable tool for Creative mode builders creating obstacle courses or protecting structures. Like all spawn eggs, it can be applied to a Monster Spawner."
+    },
+    "minecraft:creaking_spawn_egg": {
+        id: "minecraft:creaking_spawn_egg",
+        name: "Creaking Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Creaking mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Added in the 1.21.50 'The Garden Awakens' update.",
+            "Used to instantly spawn a Creaking mob.",
+            "Can change a Spawner's type to Creaking when applied.",
+            "Normally only available in Creative Mode or via commands.",
+            "Creakings spawned this way are independent of any Creaking Heart."
+        ],
+        description: "The Creaking Spawn Egg is a specialized item available primarily in Creative Mode. When used on a block, it immediately summons a Creaking at that location. This item is essential for map makers who need to populate the Pale Garden or custom builds with Creakings without relying on Creaking Hearts. The Creaking is a unique mob that only moves when not being looked at by the player. In Survival, this item can only be obtained through commands."
+    },
+    "minecraft:pillager_spawn_egg": {
+        id: "minecraft:pillager_spawn_egg",
+        name: "Pillager Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Pillager mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Pillager armed with a crossbow.",
+            "Used on a Spawner to create a Pillager spawner.",
+            "Primarily available in Creative Mode or via commands."
+        ],
+        description: "The Pillager Spawn Egg is an item that allows for the instantaneous summoning of a Pillager. Primarily used in Creative Mode, it is a staple for testing raid mechanics or building adventure maps. Pillagers are hostile illagers armed with crossbows that often lead patrols or defend outposts. By clicking on a block or a Monster Spawner, the player can place a Pillager exactly where needed."
+    },
+    "minecraft:evoker_spawn_egg": {
+        id: "minecraft:evoker_spawn_egg",
+        name: "Evoker Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Evoker mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns an Evoker, the most powerful illager variant.",
+            "Evokers can summon Vexes and use fang attacks.",
+            "Can change a Spawner's type to Evoker."
+        ],
+        description: "The Evoker Spawn Egg is a powerful Creative Mode tool that summons an Evoker instantly. Evokers are the most dangerous type of illager, capable of summoning Vexes and casting fangs from the ground. This item is invaluable for map makers creating boss encounters or testing high-stakes survival scenarios. Like all spawn eggs, it can be used on a surface or a Monster Spawner."
     }
 };
