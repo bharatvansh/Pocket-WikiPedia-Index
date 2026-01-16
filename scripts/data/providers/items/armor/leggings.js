@@ -25,7 +25,7 @@ export const leggings = {
             ingredients: ["Leather x7"]
         },
         specialNotes: [
-            "Provides 2 armor points (1 bar).",
+            "Provides 2 armor points (1 full armor icon).",
             "Durable enough for early-game exploration.",
             "Can be dyed in Bedrock Edition using a cauldron.",
             "Crafted with seven pieces of leather in a 'U' shape.",

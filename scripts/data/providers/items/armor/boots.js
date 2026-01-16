@@ -24,7 +24,7 @@ export const boots = {
             ingredients: ["Leather x4"]
         },
         specialNotes: [
-            "Provides 1 armor point (half a bar).",
+            "Provides 1 armor point (half an armor icon).",
             "Allows the player to walk on Powder Snow without sinking.",
             "Can be dyed in cauldrons with varied color combinations.",
             "Crafted with only four leather pieces.",

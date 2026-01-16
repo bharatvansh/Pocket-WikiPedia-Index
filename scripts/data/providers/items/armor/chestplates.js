@@ -25,7 +25,7 @@ export const chestplates = {
             ingredients: ["Leather x8"]
         },
         specialNotes: [
-            "Provides 3 armor points (1.5 bars).",
+            "Provides 3 armor points (1.5 armor icons).",
             "The most protective piece in the leather armor set.",
             "Unique to Bedrock: Dyed in cauldrons rather than crafting tables.",
             "Can be found in village tannery chests or dropped by mobs.",
