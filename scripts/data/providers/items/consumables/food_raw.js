@@ -511,5 +511,89 @@ export const rawFood = {
             "Caught with a 2% chance when fishing similarly to other fish"
         ],
         description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
+    },
+    "minecraft:beef": {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source for players",
+            secondaryUse: "Breeding cows and mooshrooms"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Cows and Mooshrooms"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Cows and mooshrooms drop 1-3 raw beef when killed",
+            "Can be cooked into Steak for much better stats (8 hunger, 12.8 saturation)",
+            "Used to breed cows and mooshrooms in Bedrock Edition",
+            "10% chance to inflict Hunger effect for 30 seconds when eaten (Bedrock Edition)",
+            "Easily renewable through cow farms"
+        ],
+        description: "Raw Beef is a meat item dropped by cows and mooshrooms upon death. When eaten raw, it restores 3 hunger points and 1.8 saturation but carries a 10% chance of inflicting the Hunger status effect in Bedrock Edition. However, it becomes significantly more valuable when cooked into Steak, providing 8 hunger points and 12.8 saturation. Beyond sustenance, raw beef serves as an essential breeding item for cows and mooshrooms. Due to the ease of building cow farms, beef is one of the most renewable food sources in Minecraft."
+    },
+    "minecraft:porkchop": {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source for players",
+            secondaryUse: "Breeding pigs and hoglins"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Pigs and Hoglins"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Pigs drop 1-3 raw porkchops when killed; hoglins drop 2-4",
+            "Can be cooked into Cooked Porkchop for much better stats (8 hunger, 12.8 saturation)",
+            "Used to breed pigs in Bedrock Edition (hoglins cannot be bred)",
+            "10% chance to inflict Hunger effect for 30 seconds when eaten (Bedrock Edition)",
+            "Renewable through pig farms for meat and saddle farming"
+        ],
+        description: "Raw Porkchop is a meat item dropped by pigs and hoglins upon death. When eaten raw, it restores 3 hunger points and 1.8 saturation but carries a 10% chance of inflicting the Hunger status effect in Bedrock Edition. Like raw beef, cooking it into a Cooked Porkchop dramatically improves its nutrition to 8 hunger points and 12.8 saturation. Raw porkchops are essential for breeding pigs, making them vital for establishing reliable meat and saddle farms. The abundance of pigs makes this one of the most readily available meat sources in survival mode."
+    },
+    "minecraft:mutton": {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source for players",
+            secondaryUse: "Breeding sheep and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Sheep"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "Sheep drop 1-2 raw mutton when killed; increased by Looting enchantment",
+            "Can be cooked into Cooked Mutton for better stats (6 hunger, 9.6 saturation)",
+            "Used to breed and heal tamed wolves in Bedrock Edition",
+            "Butcher villagers may buy raw mutton for emeralds",
+            "Often obtained as a byproduct of sheep farms when harvesting wool"
+        ],
+        description: "Raw Mutton is a meat item dropped by sheep upon death. While it restores only 2 hunger points and 1.2 saturation when eaten raw, cooking it into Cooked Mutton significantly improves its nutritional value to 6 hunger points and 9.6 saturation. Raw mutton is particularly valuable for wolf management, as it can be used to breed and heal tamed wolves in Bedrock Edition. Many players obtain mutton as a natural byproduct of wool farming, making it a practical secondary resource from sheep operations."
     }
 };

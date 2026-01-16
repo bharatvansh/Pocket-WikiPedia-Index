@@ -1408,5 +1408,54 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:knowledge_book": {
+        id: "minecraft:knowledge_book",
+        name: "Knowledge Book",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Revealing crafting recipes to the player",
+            secondaryUse: "Utility item for command blocks and custom maps"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained only through commands or Creative inventory"]
+        },
+        specialNotes: [
+            "Cannot be obtained in Survival mode without commands",
+            "When used by a player, it reveals specific recipes",
+            "Primarily used in adventure maps and command-based systems",
+            "In Bedrock Edition, can be obtained through /give command",
+            "Does not stack despite having a maxStack of 1 in Creative",
+            "Disappears after use (consumed like a food item)"
+        ],
+        description: "The Knowledge Book is a special utility item in Minecraft Bedrock Edition used to grant players knowledge of specific crafting recipes. It cannot be crafted or found naturally and must be obtained through commands or the Creative inventory. When a player uses the Knowledge Book, it reveals one or more recipes, allowing them to craft items they would not otherwise know how to make. This item is invaluable for adventure map creators and command block systems, as it provides a way to guide players toward specific crafting goals. The book is consumed upon use and disappears from the player's inventory."
+    },
+    "minecraft:copper_horn": {
+        id: "minecraft:copper_horn",
+        name: "Copper Horn",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing unique horn sounds",
+            secondaryUse: "Signaling and special sound effects"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x3", "Goat Horn"]
+        },
+        specialNotes: [
+            "Crafted with 3 Copper Ingots in a V-shape and 1 Goat Horn in the middle",
+            "Plays three different horn sounds when used",
+            "Has a 7-second cooldown between uses (Bedrock Edition)",
+            "Sound can be heard up to 256 blocks away",
+            "Unique to Minecraft Bedrock Edition (not in Java Edition)",
+            "Does not stack; only one can be held at a time",
+            "Can be used by Pillagers in Raids (plays specific horn sounds)"
+        ],
+        description: "The Copper Horn is a Bedrock Edition-exclusive musical instrument crafted from three copper ingots and a goat horn. When played, it produces distinct horn sounds that can be heard up to 256 blocks away, making it useful for signaling across large distances. The horn has a 7-second cooldown between uses, preventing rapid-fire playing. It features a unique crafting recipe that combines copper's rustic aesthetic with the horn's organic nature. This item has become iconic for the Bedrock Edition experience and offers a distinctive way to add atmosphere and communication to multiplayer worlds."
     }
 };

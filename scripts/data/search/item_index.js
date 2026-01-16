@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:beef",
+        name: "Raw Beef",
+        category: "item",
+        icon: "textures/items/beef_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:porkchop",
+        name: "Raw Porkchop",
+        category: "item",
+        icon: "textures/items/porkchop_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:mutton",
+        name: "Raw Mutton",
+        category: "item",
+        icon: "textures/items/mutton_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:knowledge_book",
+        name: "Knowledge Book",
+        category: "item",
+        icon: "textures/items/knowledge_book",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:copper_horn",
+        name: "Copper Horn",
+        category: "item",
+        icon: "textures/items/copper_horn",
+        themeColor: "§6"
     }
 ];
