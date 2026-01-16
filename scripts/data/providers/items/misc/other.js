@@ -1448,10 +1448,10 @@ export const miscItems = {
         specialNotes: [
             "Reduces detection range of skeletons by 50% when worn.",
             "Displays bone-rattling sound effects when placed on a Note Block.",
-            "Can be found within chests in Ancient City structures.",
+            "Generates naturally as placed blocks within Ancient City structures (specifically within the barracks and ruins sub-structures).",
             "Can be worn by mobs capable of wearing armor."
         ],
-        description: "The Skeleton Skull is a decorative block that looks like the head of a skeleton. Obtaining one requires a charged creeper to kill a skeleton, making it a trophy item for many players. When worn, it helps the player blend in, reducing the distance at which skeletons will spot them. In Bedrock Edition, it can also be used as a sound-effect component for Note Blocks, producing the iconic bone-rattling noise of a skeleton when activated."
+        description: "The Skeleton Skull is a decorative block that looks like the head of a skeleton. Obtaining one typically requires a charged creeper to kill a skeleton, or finding one in an Ancient City, making it a trophy item for many players. When worn, it helps the player blend in, reducing the distance at which skeletons will spot them. In Bedrock Edition, it can also be used as a sound-effect component for Note Blocks, producing the iconic bone-rattling noise of a skeleton when activated."
     },
     "minecraft:creeper_head": {
         id: "minecraft:creeper_head",
