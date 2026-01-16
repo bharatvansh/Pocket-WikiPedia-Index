@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        category: "item",
+        icon: "textures/items/diamond_hoe",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:enderman_spawn_egg",
+        name: "Enderman Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_enderman",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:wither_skeleton_spawn_egg",
+        name: "Wither Skeleton Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_wither_skeleton",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:guardian_spawn_egg",
+        name: "Guardian Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_guardian",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:shulker_spawn_egg",
+        name: "Shulker Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_shulker",
+        themeColor: "§d"
     }
 ];
