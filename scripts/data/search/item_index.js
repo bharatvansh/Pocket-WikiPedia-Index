@@ -2225,13 +2225,6 @@ export const itemIndex = [
         themeColor: "§8" // dark gray/netherite
     },
     {
-        id: "minecraft:pale_oak_boat",
-        name: "Pale Oak Boat",
-        category: "item",
-        icon: "textures/items/boat_pale_oak",
-        themeColor: "§f" // white/silver
-    },
-    {
         id: "minecraft:pale_oak_chest_boat",
         name: "Pale Oak Boat with Chest",
         category: "item",

@@ -1189,30 +1189,6 @@ export const miscItems = {
         ],
         description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
     },
-    "minecraft:pale_oak_boat": {
-        id: "minecraft:pale_oak_boat",
-        name: "Pale Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with a pale oak appearance",
-            secondaryUse: "Maneuvering through the Pale Garden and other biomes"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Pale Oak Planks x5"]
-        },
-        specialNotes: [
-            "Features the ghostly white color of pale oak wood",
-            "Consistent with other Bedrock boats, no shovel is needed for crafting",
-            "Can serve as furnace fuel, smelting up to 6 items",
-            "The Creaking mob cannot be transported in any boat",
-            "Moves much faster on ice, packed ice, and blue ice",
-            "Provides immunity to fall damage for all passengers"
-        ],
-        description: "The Pale Oak Boat is a specialized water vehicle introduced in the 1.21.50 update. Crafted from five Pale Oak Planks, it features a distinct, almost white color that matches the eerie aesthetic of the Pale Garden biome. Like other boats in the Bedrock Edition, it supports two passengers and can be used on land over ice for high-speed travel. Its introduction provides players with a new wood variant for aquatic exploration while maintaining standard boat mechanics."
-    },
     "minecraft:pale_oak_chest_boat": {
         id: "minecraft:pale_oak_chest_boat",
         name: "Pale Oak Boat with Chest",
