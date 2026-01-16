@@ -9,6 +9,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const helmets = {
+    "minecraft:leather_helmet": {
+        id: "minecraft:leather_helmet",
+        name: "Leather Cap",
+        maxStack: 1,
+        durability: 55,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic head protection",
+            secondaryUse: "Dyeing for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x5"]
+        },
+        specialNotes: [
+            "Provides 1 armor point (half an armor icon).",
+            "Can be dyed in a cauldron to change its color (Bedrock Edition).", 
+            "Low durability compared to iron or gold armor.",
+            "Often dropped by zombies and husks.",
+            "Essential for the 'Tie Dye Outfit' achievement in Bedrock Edition."      
+        ],
+        description: "The Leather Cap is the most basic tier of head protection available in Minecraft Bedrock Edition. Crafted from five pieces of leather, it provides 1 point of armor. While its defensive capabilities are minimal, it offers a unique customization feature: players can dye it in a wide array of colors using a cauldron filled with dyed water. This makes it a popular choice for team identification or vanity sets. It has a durability of 55 points, necessitating frequent repair or replacement in active combat."
+    },
     "minecraft:chainmail_helmet": {
         id: "minecraft:chainmail_helmet",
         name: "Chainmail Helmet",

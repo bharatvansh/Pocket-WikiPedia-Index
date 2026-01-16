@@ -2295,6 +2295,41 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:leather_helmet",
+        name: "Leather Cap",
+        category: "item",
+        icon: "textures/items/leather_helmet",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:leather_chestplate",
+        name: "Leather Tunic",
+        category: "item",
+        icon: "textures/items/leather_chestplate",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:leather_leggings",
+        name: "Leather Pants",
+        category: "item",
+        icon: "textures/items/leather_leggings",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:leather_boots",
+        name: "Leather Boots",
+        category: "item",
+        icon: "textures/items/leather_boots",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:golden_hoe",
+        name: "Golden Hoe",
+        category: "item",
+        icon: "textures/items/gold_hoe",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:iron_chestplate",
         name: "Iron Chestplate",
         category: "item",
