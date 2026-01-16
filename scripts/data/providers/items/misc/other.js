@@ -1372,4 +1372,50 @@ export const miscItems = {
         ],
         description: "The Trial Explorer Map is a specialized navigation tool designed to lead players to Trial Chambers. By following the icon on the map, players can locate these massive underground structures and take on the challenges within. It is an indispensable resource for explorers who want to experience the 1.21 update's content without having to search aimlessly underground. This map is acquired through villager trading, specifically from Cartographers who have reached the Journeyman level."
     },
+    "minecraft:closed_eyeblossom": {
+        id: "minecraft:closed_eyeblossom",
+        name: "Closed Eyeblossom",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Orange Dye",
+            secondaryUse: "Decoration"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found in Pale Garden biomes"]
+        },
+        specialNotes: [
+            "Closes during the day and opens at night (becoming an Open Eyeblossom).",
+            "Can be planted on grass, dirt, or moss blocks.",
+            "When closed, it can be crafted into Orange Dye; when open, it crafts into Gray Dye.",
+            "Does not emit particles or light while closed.",
+            "Bees are not attracted to Eyeblossoms."
+        ],
+        description: "The Closed Eyeblossom is the dormant state of the Eyeblossom plant, found within the Pale Garden biome. During the daylight hours, the flower remains closed and desaturated, blending into the muted environment of the Pale Garden. In this state, it can be crafted into Orange Dye. As night falls, the flower transition into its open state, revealing glowing orange petals and becoming a source of Gray Dye. This diurnal cycle adds a dynamic element to the game's flora, requiring players to consider the time of day for both aesthetic and resource gathering purposes."
+    },
+    "minecraft:creeper_head": {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decoration and wearable head armor",
+            secondaryUse: "Reducing Creeper detection range and crafting banner patterns"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by a Creeper killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Obtained when a Creeper is killed by a Charged Creeper's explosion",
+            "Reduces the detection range of Creepers by 50% when worn",
+            "Used to craft the 'Creeper Charge' banner pattern",
+            "Can be placed on blocks or worn as a helmet",
+            "Produces sounds in Note Blocks (Creeper sound) when placed on top"
+        ],
+        description: "The Creeper Head is a rare decorative item and trophy. It is obtainable only when a Creeper is killed by the explosion of a Charged Creeper. When worn as a helmet, it functionally reduces the detection range of Creepers by 50%, making it a valuable tool for stealth. It can also be used as a decoration, emitting a Creeper's static hiss when placed on a Note Block. Additionally, it is a key ingredient for crafting Creeper-themed banner patterns, allowing players to incorporate the iconic mob's face into their designs."
+    }
 };

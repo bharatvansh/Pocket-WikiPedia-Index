@@ -346,5 +346,77 @@ export const dyes = {
             "Can be traded to Shepherd villagers"
         ],
         description: "Purple Dye is a secondary color dye produced by combining primary Blue Dye (or Lapis Lazuli) and Red Dye. It is used to apply a regal purple color to sheep, wool, and a wide variety of building blocks like concrete and glass. In Bedrock Edition, it is an essential middle step for creating Magenta Dye. It also allows for the customization of leather armor, shulker boxes, and firework stars, adding variety to both character appearance and celebratory displays."
+    },
+    "minecraft:gray_dye": {
+        id: "minecraft:gray_dye",
+        name: "Gray Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks gray",
+            secondaryUse: "Mixing with other dyes to create Light Gray Dye"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Black Dye + White Dye", "Ink Sac + White Dye", "Open Eyeblossom"]
+        },
+        specialNotes: [
+            "Crafted by mixing Black and White dyes or using an Open Eyeblossom",
+            "Used to color wool, terracotta, glass, concrete, and beds gray",
+            "Mixed with White Dye to create Light Gray Dye",
+            "Essential for crafting gray firework stars",
+            "Can be used to dye the collars of tamed wolves",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Gray Dye is a secondary color dye obtained by mixing Black Dye (or an Ink Sac) with White Dye, or by crafting an Open Eyeblossom. It provides a neutral gray tone for various building materials, including wool, terracotta, glass, and concrete. In Bedrock Edition, it is a key component for creating even lighter shades like Light Gray Dye. It is also used for cosmetic customization of leather armor, shulker boxes, and firework stars, offering a balanced and professional look for builds and equipment."
+    },
+    "minecraft:light_gray_dye": {
+        id: "minecraft:light_gray_dye",
+        name: "Light Gray Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks light gray",
+            secondaryUse: "Decoration and aesthetic customization"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Azure Bluet", "Oxeye Daisy", "White Tulip", "Gray Dye + White Dye", "Black Dye + 2x White Dye"]
+        },
+        specialNotes: [
+            "Crafted from Azure Bluet, Oxeye Daisy, or White Tulip flowers",
+            "Can be made by mixing Gray Dye and White Dye, or Black and 2x White",
+            "Used to color wool, terracotta, glass, concrete, and beds light gray",
+            "Essential for crafting light gray firework stars",
+            "Can be traded to Shepherd villagers",
+            "Historically known as 'Silver Dye' in some contexts"
+        ],
+        description: "Light Gray Dye is a versatile coloring agent that can be obtained from several flowers or by mixing darker dyes with White Dye. It provides a soft, light gray hue that is popular for modern architecture and subtle detailing in Minecraft builds. Beyond blocks, it can be applied to leather armor, shulker boxes, and water in cauldrons. Its multiple crafting paths—both through floral gathering and chemical mixing—make it one of the most accessible secondary dyes for players."
+    },
+    "minecraft:brown_dye": {
+        id: "minecraft:brown_dye",
+        name: "Brown Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks brown",
+            secondaryUse: "Customizing banners and firework stars"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Cocoa Beans"]
+        },
+        specialNotes: [
+            "Crafted directly from Cocoa Beans",
+            "Used to color wool, terracotta, glass, concrete, and beds brown",
+            "Used to dye shulker boxes, leather armor, and wolf collars",
+            "Essential for crafting brown firework stars",
+            "Can be used to dye water in cauldrons (Bedrock Edition)",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Brown Dye is a primary color dye obtained exclusively from Cocoa Beans. It is used to apply a warm, earthy brown tone to various surfaces including wool, terracotta, glass, and concrete. In Bedrock Edition, it is a staple for creating realistic or rustic structures. Beyond its use in construction, Brown Dye allows for the personalization of leather armor and tamed wolf collars. It is also a necessary component for creating brown firework stars and various banner patterns."
     }
 };

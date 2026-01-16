@@ -2328,5 +2328,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_boots",
         themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:gray_dye",
+        name: "Gray Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_gray",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:light_gray_dye",
+        name: "Light Gray Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_light_gray",
+        themeColor: "§7" // light gray
+    },
+    {
+        id: "minecraft:brown_dye",
+        name: "Brown Dye",
+        category: "item",
+        icon: "textures/items/dye_powder_brown",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:closed_eyeblossom",
+        name: "Closed Eyeblossom",
+        category: "item",
+        icon: "textures/blocks/eyeblossom_closed",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        category: "item",
+        icon: "textures/items/creeper_head",
+        themeColor: "§a" // green
     }
 ];
