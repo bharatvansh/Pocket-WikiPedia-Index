@@ -1298,5 +1298,115 @@ export const miscItems = {
             "Features the reddish-brown jungle wood texture"
         ],
         description: "The Jungle Boat with Chest is a mobile inventory solution crafted from a Jungle Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot from tropical explorations. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across jungle rivers and open seas."
+    },
+    "minecraft:acacia_chest_boat": {
+        id: "minecraft:acacia_chest_boat",
+        name: "Acacia Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Acacia Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines an Acacia Boat with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the boat and the chest contents when broken",
+            "Features the bright orange acacia wood texture"
+        ],
+        description: "The Acacia Boat with Chest is a mobile inventory solution crafted from an Acacia Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot across savanna coastal regions. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across rivers and open seas."
+    },
+    "minecraft:dark_oak_chest_boat": {
+        id: "minecraft:dark_oak_chest_boat",
+        name: "Dark Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Dark Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines a Dark Oak Boat with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the boat and the chest contents when broken",
+            "Features the dark brown dark oak wood texture"
+        ],
+        description: "The Dark Oak Boat with Chest is a sturdy mobile storage vessel crafted by combining a Dark Oak Boat with a Chest. It provides 27 slots of storage, making it ideal for hauling heavy loads across deep oceans and rivers. While it only accommodates a single passenger, its large storage capacity makes it indispensable for moving resources to new base locations."
+    },
+    "minecraft:mangrove_chest_boat": {
+        id: "minecraft:mangrove_chest_boat",
+        name: "Mangrove Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines a Mangrove Boat with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the boat and the chest contents when broken",
+            "Features the deep red mangrove wood texture"
+        ],
+        description: "The Mangrove Boat with Chest is a specialized vessel introduced for swamp and mangrove exploration. By combining a Mangrove Boat with a Chest, players gain 27 slots of mobile storage. It's perfect for gathering mangrove wood and other swamp resources. Like other chest boats, it carries one passenger and provides a reliable way to move goods through narrow waterways."
+    },
+    "minecraft:cherry_chest_boat": {
+        id: "minecraft:cherry_chest_boat",
+        name: "Cherry Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Boat", "Chest"]
+        },
+        specialNotes: [
+            "Combines a Cherry Boat with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the boat and the chest contents when broken",
+            "Features the pink cherry wood texture"
+        ],
+        description: "The Cherry Boat with Chest is a vibrant pink mobile storage unit introduced in the Trails & Tales update. Crafted from a Cherry Boat and a Chest, it offers 27 slots of inventory space for sea-bound adventures. It provides a unique aesthetic for transport and is as functional as it is colorful, allowing players to move their valuables across water with ease."
+    },
+    "minecraft:bamboo_chest_raft": {
+        id: "minecraft:bamboo_chest_raft",
+        name: "Bamboo Raft with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Raft", "Chest"]
+        },
+        specialNotes: [
+            "Combines a Bamboo Raft with a Chest for 27 slots of mobile storage",
+            "Can only carry one passenger (player or mob) due to the chest",
+            "Drops both the raft and the chest contents when broken",
+            "Features the unique flat bamboo raft design"
+        ],
+        description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
     }
 };

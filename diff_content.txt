@@ -1,0 +1,326 @@
+diff --git a/scripts/data/providers/items/armor/boots.js b/scripts/data/providers/items/armor/boots.js
+index edf6f07..a870988 100644
+--- a/scripts/data/providers/items/armor/boots.js
++++ b/scripts/data/providers/items/armor/boots.js
+@@ -78,6 +78,29 @@ export const boots = {
+         ],
+         description: "Iron Boots are fundamental footwear for any mid-game explorer. Providing 2 armor points, they offer decent protection and can be enchanted with powerful effects like Feather Falling to reduce fall damage or Depth Strider for faster swimming. They are the cheapest piece of iron armor to craft, requiring only four iron ingots. Despite being the lowest tier of iron armor in terms of defense, they are vital for completing the full iron set and receiving the set's maximum defense benefits."
+     },
++    "minecraft:golden_boots": {
++        id: "minecraft:golden_boots",
++        name: "Golden Boots",
++        maxStack: 1,
++        durability: 91,
++        enchantable: true,
++        usage: {
++            primaryUse: "Foot protection and Piglin pacification",
++            secondaryUse: "Strategic use for Nether travel"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Gold Ingot x4"]
++        },
++        specialNotes: [
++            "Provides 1 armor point (0.5 bar).",
++            "Prevents Piglins from attacking the wearer in the Nether.",
++            "Lowest durability of all metal boots (91 vs 195 for Iron).",
++            "Can be enchanted with powerful enchantments more easily than other materials.",
++            "Crafted using 4 Gold Ingots."
++        ],
++        description: "Golden Boots provide 1 point of armor protection for the player's feet. Like all golden armor, they are fragile but possess high enchantability. Their primary strategic use is in the Nether, where wearing at least one piece of gold armor prevents Piglins from becoming hostile towards the player. This makes them a lightweight and effective way to travel safely through Bastion Remnants and other Piglin-heavy areas."
++    },
+     "minecraft:diamond_boots": {
+         id: "minecraft:diamond_boots",
+         name: "Diamond Boots",
+diff --git a/scripts/data/providers/items/armor/leggings.js b/scripts/data/providers/items/armor/leggings.js
+index c082df4..d90b159 100644
+--- a/scripts/data/providers/items/armor/leggings.js
++++ b/scripts/data/providers/items/armor/leggings.js
+@@ -80,6 +80,29 @@ export const leggings = {
+         ],
+         description: "Iron Leggings are a standard mid-tier choice for lower-body protection. Offering 5 armor points, they provide a significant defensive boost while remaining easy to craft using iron ingots. They are often one of the first pieces of armor a player crafts after a chestplate. These leggings are durable enough for extensive exploration and cave diving, and they can be found in various loot chests in villages, shipwrecks, and strongholds."
+     },
++    "minecraft:golden_leggings": {
++        id: "minecraft:golden_leggings",
++        name: "Golden Leggings",
++        maxStack: 1,
++        durability: 105,
++        enchantable: true,
++        usage: {
++            primaryUse: "Leg protection and Piglin pacification",
++            secondaryUse: "High enchantability for better rolls"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Gold Ingot x7"]
++        },
++        specialNotes: [
++            "Provides 3 armor points (1.5 bars).",
++            "Prevents Piglins from attacking the wearer in the Nether.",
++            "Very low durability compared to iron leggings (105 vs 225).",
++            "High enchantability, making it easier to get better enchantments.",
++            "Can be found in Nether Bastion Remnants and Ruined Portals."
++        ],
++        description: "Golden Leggings are a tier of leg armor providing 3 points of protection. While their durability is significantly lower than iron or diamond gear, they have one major advantage: they pacify Piglins in the Nether. This makes them a popular choice for exploration in dangerous dimensions. They also feature high enchantability, allowing players to obtain powerful buffs more easily at enchantment tables."
++    },
+     "minecraft:diamond_leggings": {
+         id: "minecraft:diamond_leggings",
+         name: "Diamond Leggings",
+diff --git a/scripts/data/providers/items/consumables/food_raw.js b/scripts/data/providers/items/consumables/food_raw.js
+index 1499880..7d8e220 100644
+--- a/scripts/data/providers/items/consumables/food_raw.js
++++ b/scripts/data/providers/items/consumables/food_raw.js
+@@ -428,5 +428,88 @@ export const rawFood = {
+             "Can be fed to wolves to speed up the growth of baby wolves"
+         ],
+         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
++    },
++    "minecraft:chicken": {
++        id: "minecraft:chicken",
++        name: "Raw Chicken",
++        maxStack: 64,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Food source (better when cooked)",
++            secondaryUse: "Breeding and healing dogs/wolves"
++        },
++        food: {
++            hunger: 2,
++            saturation: 1.2
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Dropped by Chickens"]
++        },
++        specialNotes: [
++            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
++            "30% chance of inflicting Hunger for 30 seconds when eaten raw",
++            "Dropped by Chickens (1) upon death",
++            "Can be cooked into Cooked Chicken for better hunger restoration",
++            "Used to breed and heal tamed wolves",
++            "Butcher villagers may buy raw chicken for emeralds"
++        ],
++        description: "Raw Chicken is a food item dropped by chickens. Unlike beef and pork, eating it raw carries a 30% risk of food poisoning (Hunger effect), so cooking it into Cooked Chicken is highly recommended. It provides 2 hunger points when eaten raw. Raw chicken is also a staple for breeding and healing tamed wolves, often being the easiest meat to farm in large quantities."
++    },
++    "minecraft:rabbit": {
++        id: "minecraft:rabbit",
++        name: "Raw Rabbit",
++        maxStack: 64,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Food source",
++            secondaryUse: "Crafting Rabbit Stew"
++        },
++        food: {
++            hunger: 3,
++            saturation: 1.8
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Dropped by Rabbits"]
++        },
++        specialNotes: [
++            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
++            "Dropped by Rabbits (0-1) upon death",
++            "Can be cooked into Cooked Rabbit for better stats",
++            "Essential ingredient for Rabbit Stew",
++            "Butcher villagers may buy raw rabbit for emeralds"
++        ],
++        description: "Raw Rabbit is a food item dropped by rabbits. It provides 3 hunger points and 1.8 saturation when eaten raw. While it can be cooked into Cooked Rabbit, its most efficient use is as an ingredient for Rabbit Stew, which is one of the most complex but rewarding food items in the game. Rabbits can be difficult to hunt due to their speed and small size, making this meat a more specialized food source."
++    },
++    "minecraft:tropical_fish": {
++        id: "minecraft:tropical_fish",
++        name: "Tropical Fish",
++        maxStack: 64,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Feeding and breeding Axolotls",
++            secondaryUse: "Food source (cannot be cooked)"
++        },
++        food: {
++            hunger: 1,
++            saturation: 0.2
++        },
++        crafting: {
++            recipeType: "Uncraftable",
++            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing in tropical oceans"]
++        },
++        specialNotes: [
++            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
++            "Cannot be cooked in a furnace, smoker, or campfire",
++            "Used to breed Axolotls (must be in a bucket for breeding adults)",
++            "Has 2,700 naturally occurring variants in Bedrock Edition",
++            "Dropped by Tropical Fish mobs (1 guaranteed) when killed",
++            "Caught with a 2% chance when fishing similarly to other fish"
++        ],
++        description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
+     }
+ };
+diff --git a/scripts/data/providers/items/misc/other.js b/scripts/data/providers/items/misc/other.js
+index 4dcd973..ef114e3 100644
+--- a/scripts/data/providers/items/misc/other.js
++++ b/scripts/data/providers/items/misc/other.js
+@@ -1188,5 +1188,115 @@ export const miscItems = {
+             "Nullifies fall damage for all passengers when falling from any height"
+         ],
+         description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
++    },
++    "minecraft:acacia_boat": {
++        id: "minecraft:acacia_boat",
++        name: "Acacia Boat",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Water transportation for up to two passengers",
++            secondaryUse: "Fast travel on ice"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Acacia Planks x5"]
++        },
++        specialNotes: [
++            "Identical functionality to other boats but with orange acacia wood texture",
++            "Can carry two passengers, including mobs and players",
++            "Moves significantly faster on ice and packed ice",
++            "Nullifies fall damage for all passengers when falling"
++        ],
++        description: "The Acacia Boat is a variant of the standard boat crafted from acacia planks. It features the distinctive orange color of acacia wood, making it a popular choice for players in savanna biomes. Like all boats in Minecraft Bedrock Edition, it can carry up to two passengers and is famous for its high speed when placed on ice. It is crafted from five acacia planks in a 'U' shape and provides a reliable way to traverse oceans and rivers."
++    },
++    "minecraft:dark_oak_boat": {
++        id: "minecraft:dark_oak_boat",
++        name: "Dark Oak Boat",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Water transportation for up to two passengers",
++            secondaryUse: "Fast travel on ice"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Dark Oak Planks x5"]
++        },
++        specialNotes: [
++            "Identical functionality to other boats but with dark oak wood texture",
++            "Can carry two passengers, including mobs and players",
++            "Moves significantly faster on ice and packed ice",
++            "Nullifies fall damage for all passengers when falling"
++        ],
++        description: "The Dark Oak Boat is a variant of the standard boat crafted from dark oak planks. It features the characteristic dark brown color of dark oak, providing a solid and rustic aesthetic. Functionally identical to other boats, it can carry two passengers and travels extremely fast on ice surfaces. It is a reliable tool for exploration and mob transport, especially for players who prefer the darker wood tones in their equipment."
++    },
++    "minecraft:spruce_chest_boat": {
++        id: "minecraft:spruce_chest_boat",
++        name: "Spruce Boat with Chest",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Mobile storage and water transportation",
++            secondaryUse: "Transporting items across large bodies of water"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Spruce Boat", "Chest"]
++        },
++        specialNotes: [
++            "Combines a Spruce Boat with a Chest for 27 slots of mobile storage",
++            "Can only carry one passenger (player or mob) due to the chest",
++            "Drops both the boat and the chest contents when broken",
++            "Ideal for long-distance transport of resources across oceans"
++        ],
++        description: "The Spruce Boat with Chest is a utility vehicle that provides 27 slots of storage while maintaining water mobility. Crafted by combining a Spruce Boat with a Chest, it allows players to move large quantities of items across water. Because the chest ocupaies the second seat, it can only carry one passenger. This makes it a vital tool for resource gathering trips and moving between coastal bases."
++    },
++    "minecraft:birch_chest_boat": {
++        id: "minecraft:birch_chest_boat",
++        name: "Birch Boat with Chest",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Mobile storage and water transportation",
++            secondaryUse: "Transporting items across large bodies of water"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Birch Boat", "Chest"]
++        },
++        specialNotes: [
++            "Combines a Birch Boat with a Chest for 27 slots of mobile storage",
++            "Can only carry one passenger (player or mob) due to the chest",
++            "Drops both the boat and the chest contents when broken",
++            "Matches the pale aesthetic of birch wood"
++        ],
++        description: "The Birch Boat with Chest offers mobile storage for players who prefer the light-colored birch aesthetic. By combining a Birch Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water."
++    },
++    "minecraft:jungle_chest_boat": {
++        id: "minecraft:jungle_chest_boat",
++        name: "Jungle Boat with Chest",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Mobile storage and water transportation",
++            secondaryUse: "Transporting items across large bodies of water"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Jungle Boat", "Chest"]
++        },
++        specialNotes: [
++            "Combines a Jungle Boat with a Chest for 27 slots of mobile storage",
++            "Can only carry one passenger (player or mob) due to the chest",
++            "Drops both the boat and the chest contents when broken",
++            "Features the reddish-brown jungle wood texture"
++        ],
++        description: "The Jungle Boat with Chest is a mobile inventory solution crafted from a Jungle Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot from tropical explorations. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across jungle rivers and open seas."
+     }
+ };
+diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
+index a956da5..357829d 100644
+--- a/scripts/data/search/item_index.js
++++ b/scripts/data/search/item_index.js
+@@ -2363,5 +2363,40 @@ export const itemIndex = [
+         category: "item",
+         icon: "textures/items/iron_helmet",
+         themeColor: "§f"
++    },
++    {
++        id: "minecraft:acacia_boat",
++        name: "Acacia Boat",
++        category: "item",
++        icon: "textures/items/boat_acacia",
++        themeColor: "§6"
++    },
++    {
++        id: "minecraft:dark_oak_boat",
++        name: "Dark Oak Boat",
++        category: "item",
++        icon: "textures/items/boat_dark_oak",
++        themeColor: "§8"
++    },
++    {
++        id: "minecraft:spruce_chest_boat",
++        name: "Spruce Boat with Chest",
++        category: "item",
++        icon: "textures/items/boat_spruce_chest",
++        themeColor: "§6"
++    },
++    {
++        id: "minecraft:birch_chest_boat",
++        name: "Birch Boat with Chest",
++        category: "item",
++        icon: "textures/items/boat_birch_chest",
++        themeColor: "§f"
++    },
++    {
++        id: "minecraft:jungle_chest_boat",
++        name: "Jungle Boat with Chest",
++        category: "item",
++        icon: "textures/items/boat_jungle_chest",
++        themeColor: "§6"
+     }
+ ];

@@ -429,8 +429,8 @@ export const rawFood = {
         ],
         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
     },
-    "minecraft:chicken": {
-        id: "minecraft:chicken",
+    "minecraft:raw_chicken": {
+        id: "minecraft:raw_chicken",
         name: "Raw Chicken",
         maxStack: 64,
         durability: 0,
@@ -457,8 +457,8 @@ export const rawFood = {
         ],
         description: "Raw Chicken is a food item dropped by chickens. Unlike beef and pork, eating it raw carries a 30% risk of food poisoning (Hunger effect), so cooking it into Cooked Chicken is highly recommended. It provides 2 hunger points when eaten raw. Raw chicken is also a staple for breeding and healing tamed wolves, often being the easiest meat to farm in large quantities."
     },
-    "minecraft:rabbit": {
-        id: "minecraft:rabbit",
+    "minecraft:raw_rabbit": {
+        id: "minecraft:raw_rabbit",
         name: "Raw Rabbit",
         maxStack: 64,
         durability: 0,
@@ -484,8 +484,8 @@ export const rawFood = {
         ],
         description: "Raw Rabbit is a food item dropped by rabbits. It provides 3 hunger points and 1.8 saturation when eaten raw. While it can be cooked into Cooked Rabbit, its most efficient use is as an ingredient for Rabbit Stew, which is one of the most complex but rewarding food items in the game. Rabbits can be difficult to hunt due to their speed and small size, making this meat a more specialized food source."
     },
-    "minecraft:tropical_fish": {
-        id: "minecraft:tropical_fish",
+    "minecraft:tropical_fish_item": {
+        id: "minecraft:tropical_fish_item",
         name: "Tropical Fish",
         maxStack: 64,
         durability: 0,
