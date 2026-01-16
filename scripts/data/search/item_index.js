@@ -2503,5 +2503,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:allay_spawn_egg",
+        name: "Allay Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_allay",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:sniffer_spawn_egg",
+        name: "Sniffer Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_sniffer",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:breeze_spawn_egg",
+        name: "Breeze Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_breeze",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:bogged_spawn_egg",
+        name: "Bogged Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_bogged",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:camel_spawn_egg",
+        name: "Camel Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_camel",
+        themeColor: "§6"
     }
 ];
