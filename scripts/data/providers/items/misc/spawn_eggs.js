@@ -323,5 +323,89 @@ export const spawnEggs = {
             "Changes a Spawner's type to Warden when used on it."
         ],
         description: "The Warden Spawn Egg creates a Warden instantly for testing encounters or building Deep Dark scenarios in Creative Mode. It is available through Creative or commands and places the Warden exactly where the egg is used. As with other spawn eggs, applying it to a Monster Spawner will convert that spawner to generate Wardens."
+    },
+    "minecraft:enderman_spawn_egg": {
+        id: "minecraft:enderman_spawn_egg",
+        name: "Enderman Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Enderman mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item.",
+            "Spawns a neutral Enderman that teleports when wet or looked at.",
+            "Can be used on a Spawner to create an Enderman spawner."
+        ],
+        description: "The Enderman Spawn Egg is a Creative Mode item used to summon an Enderman. Endermen are neutral mobs that can teleport and pick up certain blocks. This egg is useful for testing teleportation mechanics or building custom End-themed encounters. Like other spawn eggs, it can also be used to modify the mob type of a Monster Spawner."
+    },
+    "minecraft:wither_skeleton_spawn_egg": {
+        id: "minecraft:wither_skeleton_spawn_egg",
+        name: "Wither Skeleton Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Wither Skeleton mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item.",
+            "Wither Skeletons inflict the Wither effect on hit.",
+            "Essential for creating manual Wither Skeleton farms using spawners."
+        ],
+        description: "The Wither Skeleton Spawn Egg allows for the immediate summoning of a Wither Skeleton. These hostile mobs are typically found in Nether Fortresses and are known for their ability to inflict the Wither effect. This egg is primarily used in Creative Mode for map design or mob farm testing. Using it on a Monster Spawner will convert it into a Wither Skeleton spawner."
+    },
+    "minecraft:guardian_spawn_egg": {
+        id: "minecraft:guardian_spawn_egg",
+        name: "Guardian Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Guardian mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item.",
+            "Spawns a Guardian, an aquatic hostile mob with a laser attack.",
+            "Does not spawn Elder Guardians (use separate egg)."
+        ],
+        description: "The Guardian Spawn Egg is used to summon a Guardian, an aquatic hostile mob found around Ocean Monuments. Guardians attack with a long-range laser and have thorns-like spikes when attacking. This egg is useful for creating underwater hazards in custom maps. It can also be used on a Monster Spawner to change its mob type to Guardian."
+    },
+    "minecraft:shulker_spawn_egg": {
+        id: "minecraft:shulker_spawn_egg",
+        name: "Shulker Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Shulker mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item.",
+            "Shulkers fire levitation-inducing projectiles.",
+            "Can be used on a Spawner to create a Shulker spawner."
+        ],
+        description: "The Shulker Spawn Egg allows for the instantaneous placement of a Shulker. These mobs are found in End cities and are known for their shell-like appearance and projectiles that cause players to levitate. This egg is a valuable tool for Creative mode builders creating obstacle courses or protecting structures. Like all spawn eggs, it can be applied to a Monster Spawner."
     }
 };

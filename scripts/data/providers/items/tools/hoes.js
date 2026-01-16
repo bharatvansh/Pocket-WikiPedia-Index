@@ -144,5 +144,32 @@ export const hoes = {
             "Frequently dropped by Piglins in the Nether."
         ],
         description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with 2 attack damage."
+    },
+    "minecraft:diamond_hoe": {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Fastest harvesting of leaves, sponges, and hay bales"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick x2"]
+        },
+        specialNotes: [
+            "High durability (1562 uses) in Bedrock Edition",
+            "Highest tier of hoe available without Netherite",
+            "Deals 5 attack damage (2.5 hearts) in Bedrock Edition",
+            "Greatly improves efficiency when mining Sculk and Shroomlights",
+            "Can be upgraded to a Netherite Hoe using a Smithing Template"
+        ],
+        description: "The Diamond Hoe is a high-tier agricultural tool that offers significant durability and harvesting speed. Crafted from two diamonds and two sticks, it is primarily used to till dirt and grass blocks into farmland. In Bedrock Edition, it also serves as a moderately effective weapon, dealing 5 points of damage. It is the most advanced hoe made of Overworld materials and is essential for clearing large amounts of vegetation or maintaining massive farms efficiently."
     }
 };
