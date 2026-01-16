@@ -640,5 +640,26 @@ export const brickBlocks = {
             yRange: "Ancient Cities"
         },
         description: "Cracked Deepslate Tiles are a decorative variant of deepslate tiles with a fractured surface. Found naturally in Ancient Cities, they add a sense of history and weathered texture to flooring and walls. They are produced by smelting standard deepslate tiles in a furnace. Like other deepslate variants, they are significantly harder than stone, requiring more time to mine. Their dark gray, tiled pattern with visible cracks makes them excellent for atmospheric builds, ruined temples, or intricate industrial designs where a worn, heavy aesthetic is desired."
+    },
+    "minecraft:chiseled_quartz_block": {
+        id: "minecraft:chiseled_quartz_block",
+        name: "Chiseled Quartz Block",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Chiseled Quartz Block"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Chiseled Quartz Block is a decorative variant of the Quartz Block featuring an intricate, square-patterned carving. It is crafted by stacking two quartz slabs vertically in a crafting grid or by using a stonecutter. While primarily used for aesthetic purposes in modern and classical architecture, it generates naturally in bastion remnants. Like other quartz blocks, it has a hardness of 0.8 and require a pickaxe to mine. Its bright white appearance and unique geometric design make it ideal for decorative trims, pillars, and ornate flooring in high-end Minecraft constructions."
     }
 };
