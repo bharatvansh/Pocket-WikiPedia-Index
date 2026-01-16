@@ -112,6 +112,41 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:crafter",
+        name: "Crafter",
+        category: "item",
+        icon: "textures/blocks/crafter_top",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        category: "item",
+        icon: "textures/blocks/creaking_heart",
+        themeColor: "§6" // resin orange
+    },
+    {
+        id: "minecraft:open_eyeblossom",
+        name: "Open Eyeblossom",
+        category: "item",
+        icon: "textures/blocks/eyeblossom_open",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§6" // orange/map
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
