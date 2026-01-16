@@ -388,7 +388,7 @@ export const dyes = {
         specialNotes: [
             "Crafted by mixing Blue and Red dyes together",
             "Used to color wool, terracotta, glass, concrete, and beds purple",
-            "Mixed with Pink Dye or Pink Petals to produce Magenta Dye",
+            "Mixed with Pink Dye to produce Magenta Dye",
             "Used to dye shulker boxes and leather armor",
             "Essential for crafting purple firework stars",
             "Can be traded to Shepherd villagers"
