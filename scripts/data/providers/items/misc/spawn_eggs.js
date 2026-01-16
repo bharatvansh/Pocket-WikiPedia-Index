@@ -218,5 +218,27 @@ export const spawnEggs = {
             "Sets Spawners to generate Camels indefinitely."
         ],
         description: "The Camel Spawn Egg provides an immediate way to summon Camels, the tall desert-dwelling mounts. Known for their ability to carry two players and dash across gaps, Camels are excellent for traversal. Using this egg on a surface summons an adult Camel, while using it on another Camel will spawn a baby version. It can also be applied to a Monster Spawner to create a Camel-generating block. This item is essential for Creative builders looking to populate desert villages or map makers setting up long-distance travel systems."
+    },
+    "minecraft:warden_spawn_egg": {
+        id: "minecraft:warden_spawn_egg",
+        name: "Warden Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Warden mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons the powerful, vibration-sensitive Warden mob.",
+            "Available only in the Creative Mode inventory or via /give command.",
+            "Changes a Monster Spawner to produce Wardens when applied.",
+            "Spawns the Warden in any environment, not just Ancient Cities."
+        ],
+        description: "The Warden Spawn Egg allows for the immediate summoning of the Warden, the formidable guardian of the Deep Dark. As a blind mob that relies on sound and vibration, the Warden is one of the most dangerous entities in the game. This egg is a tool for Creative Mode players and map makers to test their skills or create custom encounters. Like other spawn eggs, it can be used to modify spawners, providing a way to generate Wardens outside of their natural habitat for research or challenge maps."
     }
 };

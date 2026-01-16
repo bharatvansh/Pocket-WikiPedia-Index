@@ -2538,5 +2538,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_camel",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/tipped_arrow",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:zombie_head",
+        name: "Zombie Head",
+        category: "item",
+        icon: "textures/items/zombie_head",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        category: "item",
+        icon: "textures/items/skeleton_skull",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        category: "item",
+        icon: "textures/items/creeper_head",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:warden_spawn_egg",
+        name: "Warden Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_warden",
+        themeColor: "§3"
     }
 ];

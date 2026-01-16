@@ -93,5 +93,31 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition that applies status effects to targets",
+            secondaryUse: "Can be used with Bows, Crossbows, and Dispensers"
+        },
+        combat: {
+            attackDamage: "Varies (based on bow pull)",
+            attackSpeed: 1.0
+        },
+        crafting: {
+            recipeType: "Shaped/Cauldron",
+            ingredients: ["8 Arrows", "1 Lingering Potion (Crafting Table) or Potion in Cauldron (Bedrock Only)"]
+        },
+        specialNotes: [
+            "Applies a status effect to the hit target for a duration.",
+            "Always consumed, even when using a bow with the Infinity enchantment.",
+            "Can be crafted in Bedrock Edition by dipping arrows into a cauldron filled with potion.",
+            "The duration of the effect is generally 1/8th of the corresponding potion."
+        ],
+        description: "Tipped Arrows are specialized ammunition that deliver status effects upon impact. By combining regular arrows with potions, players can strategically use buffs or debuffs against mobs and other players. In Bedrock Edition, they have a unique crafting method involving cauldrons, allowing for efficient large-scale production. This makes them a versatile tool for tactical combat, enabling everything from healing allies to poisoning enemies from a distance."
     }
 };

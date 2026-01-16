@@ -1408,5 +1408,71 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:zombie_head": {
+        id: "minecraft:zombie_head",
+        name: "Zombie Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable accessory",
+            secondaryUse: "Used on Note Blocks to play zombie sounds"
+        },
+        crafting: {
+            recipeType: "Special Drop",
+            ingredients: ["Dropped by Zombie killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Reduces detection range of zombies by 50% when worn.",
+            "Can be placed on blocks in 16 different rotations.",
+            "Plays zombie ambient sounds when placed on a Note Block.",
+            "Found occasionally in structure chests like Ancient Cities."
+        ],
+        description: "The Zombie Head is a rare decorative item representing the head of a zombie. It can be worn as a helmet, which provides a stealth advantage by cutting the detection range of other zombies in half. Builders often use it for macabre decorations or spooky detail. A unique feature in Bedrock Edition allows it to be placed on a Note Block to emit realistic zombie groans, making it a valuable tool for atmospheric sound design in adventure maps."
+    },
+    "minecraft:skeleton_skull": {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable accessory",
+            secondaryUse: "Used on Note Blocks to play skeleton sounds"
+        },
+        crafting: {
+            recipeType: "Special Drop",
+            ingredients: ["Dropped by Skeleton killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Reduces detection range of skeletons by 50% when worn.",
+            "Displays bone-rattling sound effects when placed on a Note Block.",
+            "Can be found within chests in Ancient City structures.",
+            "Can be worn by mobs capable of wearing armor."
+        ],
+        description: "The Skeleton Skull is a decorative block that looks like the head of a skeleton. Obtaining one requires a charged creeper to kill a skeleton, making it a trophy item for many players. When worn, it helps the player blend in, reducing the distance at which skeletons will spot them. In Bedrock Edition, it can also be used as a sound-effect component for Note Blocks, producing the iconic bone-rattling noise of a skeleton when activated."
+    },
+    "minecraft:creeper_head": {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable accessory",
+            secondaryUse: "Used on Note Blocks to play creeper sounds"
+        },
+        crafting: {
+            recipeType: "Special Drop",
+            ingredients: ["Dropped by Creeper killed by another Charged Creeper"]
+        },
+        specialNotes: [
+            "Reduces detection range of creepers by 50% when worn.",
+            "Plays the terrifying 'Sss' fuse sound when placed on a Note Block.",
+            "Can be used in a crafting table to make a Creeper Charge pattern.",
+            "Highly valued as a rare trophy from charged creeper explosions."
+        ],
+        description: "The Creeper Head is one of the most recognizable heads in Minecraft. It is a rare drop achieved only when a charged creeper kills another creeper. Wearing it makes the player less noticeable to creepers, providing a small but vital safety buffer. In Bedrock Edition, its interaction with Note Blocks is particularly famous, as it plays the characteristic fuse-hissing sound, often used by players to create pranks or high-tension environmental effects in their builds."
     }
 };
