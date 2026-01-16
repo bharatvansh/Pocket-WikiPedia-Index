@@ -113,5 +113,110 @@ export const spawnEggs = {
             "Crucial for establishing villager populations in Creative."
         ],
         description: "The Villager Spawn Egg is a unique tool forsummoning Villagers without reproductive mechanics. When used on a surface, it creates a new Villager with a randomized biome outfit and profession (if nearby workstations allow). A unique feature of this egg is that using it on an existing adult Villager will instantly spawn a baby Villager of the same biome type. This allows for rapid population of custom-built villages in Creative Mode. It can also be used on Spawners, though Villager spawners are rarely used in standard play."
+    },
+    "minecraft:allay_spawn_egg": {
+        id: "minecraft:allay_spawn_egg",
+        name: "Allay Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Allay mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Manual summoning tool for the helpful blue Allay.",
+            "Changes a Spawner's type to Allay when applied.",
+            "Can be used to quickly populate areas with item-collecting mobs."
+        ],
+        description: "The Allay Spawn Egg is a creative-only item that allows for the instantaneous summoning of an Allay. Allays are friendly, flying creatures that search for and collect items that match what they are currently holding. This spawn egg is invaluable for map makers who want to provide players with helpful companions or to test item-gathering systems. Like other spawn eggs, using it on a Monster Spawner will convert that spawner into an Allay spawner, enabling a continuous supply of these blue, fairy-like mobs."
+    },
+    "minecraft:sniffer_spawn_egg": {
+        id: "minecraft:sniffer_spawn_egg",
+        name: "Sniffer Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Sniffer mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons the ancient Sniffer mob instantly.",
+            "Converts existing Spawners into Sniffer producers.",
+            "Useful for setting up ancient seed gathering areas."
+        ],
+        description: "The Sniffer Spawn Egg is an item used to summon the Sniffer, an ancient mob that was the winner of the 2022 Mob Vote. In Creative Mode, this item provides the only way to manually place Sniffers without waiting for Sniffer Eggs to hatch. Once spawned, these large creatures will begin sniffing the ground to find ancient seeds. Applying this egg to a Monster Spawner will transform it into a Sniffer spawner, allowing for the creation of ancient gardens or technical testing of the Sniffer's digging mechanics."
+    },
+    "minecraft:breeze_spawn_egg": {
+        id: "minecraft:breeze_spawn_egg",
+        name: "Breeze Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Breeze mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creates a hostile Breeze mob at the target location.",
+            "Changes Spawner data to produce Breeze mobs.",
+            "Essential for creating custom Trial Chamber challenges."
+        ],
+        description: "The Breeze Spawn Egg allows players in Creative Mode to summon the Breeze, a volatile, wind-based hostile mob. The Breeze is known for its erratic movement and wind charge attacks, which can activate mechanisms and knock back players. This item is particularly useful for designers building custom trial chambers or adventure maps featuring wind-themed challenges. By using the egg on a Monster Spawner, players can ensure a steady stream of Breeze mobs, making it easy to test combat scenarios and defensive builds."
+    },
+    "minecraft:bogged_spawn_egg": {
+        id: "minecraft:bogged_spawn_egg",
+        name: "Bogged Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bogged mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Bogged skeleton that shoots poison arrows.",
+            "Transforms Monster Spawners into Bogged spawners.",
+            "Perfect for swamp-themed maps or poison-based mob farms."
+        ],
+        description: "The Bogged Spawn Egg is used to instantly summon a Bogged, a swamp-themed variant of the Skeleton. Bogged mobs are dangerous due to their use of poison-tipped arrows, making them a significant threat in survival scenarios. This spawn egg is a staple for Creative Mode users who need to populate swampy regions or trial chambers. When used on a Monster Spawner, it overrides the previous mob type, allowing for the creation of specialized poison-arrow farms or custom dungeon encounters where poison is a primary hazard."
+    },
+    "minecraft:camel_spawn_egg": {
+        id: "minecraft:camel_spawn_egg",
+        name: "Camel Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Camel mob",
+            secondaryUse: "Can be used on an adult camel to spawn a baby"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Manually summons a ridable Camel at the targeted spot.",
+            "Clicking an adult camel with the egg produces a baby.",
+            "Sets Spawners to generate Camels indefinitely."
+        ],
+        description: "The Camel Spawn Egg provides an immediate way to summon Camels, the tall desert-dwelling mounts. Known for their ability to carry two players and dash across gaps, Camels are excellent for traversal. Using this egg on a surface summons an adult Camel, while using it on another Camel will spawn a baby version. It can also be applied to a Monster Spawner to create a Camel-generating block. This item is essential for Creative builders looking to populate desert villages or map makers setting up long-distance travel systems."
     }
 };
