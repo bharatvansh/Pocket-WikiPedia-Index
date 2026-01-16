@@ -598,5 +598,47 @@ export const brickBlocks = {
             yRange: null
         },
         description: "Cracked Stone Bricks are a weathered version of stone bricks that feature visible cracks across their surface. They are created by smelting regular stone bricks in a furnace or found naturally in strongholds, igloo basements, ocean ruins (cold), ruined portals, and trail ruins. These blocks are excellent for depicting ruins, aged dungeons, or structural instability in builds. Despite their damaged look, they maintain a hardness of 1.5 and blast resistance of 6.0, the same as standard stone bricks. Silverfish can also hide inside infested versions of this block, which can be found in strongholds near the end portal."
+    },
+    "minecraft:cracked_deepslate_bricks": {
+        id: "minecraft:cracked_deepslate_bricks",
+        name: "Cracked Deepslate Bricks",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Deepslate Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Cracked Deepslate Bricks are a weathered variant of deepslate bricks, featuring visible fractures that suggest age and decay. They generate naturally within the dark, expansive structures of Ancient Cities in the Deep Dark biome. Players can also obtain them by smelting regular deepslate bricks in a furnace. These blocks are ideal for creating ruins, aged dungeons, or adding mechanical detail to dark-themed constructions. Despite their damaged appearance, they retain the high durability and blast resistance characteristic of the deepslate family, requiring a pickaxe to mine."
+    },
+    "minecraft:cracked_deepslate_tiles": {
+        id: "minecraft:cracked_deepslate_tiles",
+        name: "Cracked Deepslate Tiles",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cracked Deepslate Tiles"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "Cracked Deepslate Tiles are a decorative variant of deepslate tiles with a fractured surface. Found naturally in Ancient Cities, they add a sense of history and weathered texture to flooring and walls. They are produced by smelting standard deepslate tiles in a furnace. Like other deepslate variants, they are significantly harder than stone, requiring more time to mine. Their dark gray, tiled pattern with visible cracks makes them excellent for atmospheric builds, ruined temples, or intricate industrial designs where a worn, heavy aesthetic is desired."
     }
 };
