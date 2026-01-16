@@ -729,5 +729,110 @@ export const vegetationBlocks = {
             yRange: "Cherry Grove biome"
         },
         description: "Cherry Sapling is a beautiful pink-flowered sapling introduced in the 1.20 Trails & Tales update. It grows naturally in the Cherry Grove biome and can be obtained by breaking or decaying Cherry Leaves. Unlike dark oak saplings, a single cherry sapling can grow into a full cherry tree, though it may take several growth stages. Its vibrant pink appearance makes it a popular choice for decorative landscaping and botanical gardens. Bone meal can be used to accelerate its growth into a mature cherry tree with its iconic falling leaf particles."
+    },
+    "minecraft:allium": {
+        id: "minecraft:allium",
+        name: "Allium",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Allium"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Flower Forest, Meadow biomes"
+        },
+        description: "Alliums are decorative flowers with distinctive ball-shaped magenta blooms. They are primarily found in the Flower Forest and Meadow biomes. Players can use them to craft magenta dye or in a suspicious stew to gain Fire Resistance for a short duration. They can be placed in flower pots for decoration and are a favorite for bees."
+    },
+    "minecraft:azure_bluet": {
+        id: "minecraft:azure_bluet",
+        name: "Azure Bluet",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Azure Bluet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest, Meadow biomes"
+        },
+        description: "Azure Bluets are small, white flowers that grow in Plains, Flower Forests, and Meadows. They are often found in large patches and can be used to craft light gray dye. When used to make suspicious stew, they grant the Blindness effect (7 seconds in Bedrock). Their delicate appearance makes them popular for landscaping and garden builds."
+    },
+    "minecraft:cornflower": {
+        id: "minecraft:cornflower",
+        name: "Cornflower",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cornflower"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest biomes"
+        },
+        description: "Cornflowers are vibrant blue flowers naturally generating in Plains and Flower Forest biomes. Introduced in the Village & Pillage update, they provide an easy source of blue dye. In Bedrock Edition, a suspicious stew crafted with a cornflower gives players the Jump Boost effect for 5 seconds. They are frequently used to add a splash of deep blue to meadows and gardens."
+    },
+    "minecraft:lily_of_the_valley": {
+        id: "minecraft:lily_of_the_valley",
+        name: "Lily of the Valley",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lily of the Valley"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forest, Flower Forest, Meadow biomes"
+        },
+        description: "Lily of the Valley is a beautiful, bell-shaped white flower found in Forest biomes. Despite its elegant look, it is poisonous in-game; using it in a suspicious stew inflicts the Poison effect for 11 seconds. It is a reliable source of white dye and adds a touch of sophistication to forest floors and indoor floral arrangements."
+    },
+    "minecraft:oxeye_daisy": {
+        id: "minecraft:oxeye_daisy",
+        name: "Oxeye Daisy",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oxeye Daisy"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest, Meadow biomes"
+        },
+        description: "Oxeye Daisies are common wildflowers with white petals and yellow centers, found in Plains and Flower Forests. They can be crafted into light gray dye and produce a suspicious stew that grants the Regeneration effect for 7 seconds. They are versatile decorative blocks that fit well in any rural or naturalistic Minecraft build."
     }
 };

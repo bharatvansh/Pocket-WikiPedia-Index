@@ -2378,5 +2378,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_sapling",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:allium",
+        name: "Allium",
+        category: "block",
+        icon: "textures/blocks/flower_allium",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:azure_bluet",
+        name: "Azure Bluet",
+        category: "block",
+        icon: "textures/blocks/flower_houstonia",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:cornflower",
+        name: "Cornflower",
+        category: "block",
+        icon: "textures/blocks/flower_cornflower",
+        themeColor: "§1" // dark blue
+    },
+    {
+        id: "minecraft:lily_of_the_valley",
+        name: "Lily of the Valley",
+        category: "block",
+        icon: "textures/blocks/flower_lily_of_the_valley",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:oxeye_daisy",
+        name: "Oxeye Daisy",
+        category: "block",
+        icon: "textures/blocks/flower_oxeye_daisy",
+        themeColor: "§f" // white
     }
 ];
