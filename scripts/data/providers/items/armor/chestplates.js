@@ -10,6 +10,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const chestplates = {
+    "minecraft:leather_chestplate": {
+        id: "minecraft:leather_chestplate",
+        name: "Leather Tunic",
+        maxStack: 1,
+        durability: 80,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic torso protection",
+            secondaryUse: "Can be dyed in countless colors"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x8"]
+        },
+        specialNotes: [
+            "Provides 3 armor points (1.5 bars).",
+            "The most protective piece in the leather armor set.",
+            "Unique to Bedrock: Dyed in cauldrons rather than crafting tables.",
+            "Can be found in village tannery chests or dropped by mobs.",
+            "Essential for early-game survival when iron is scarce."
+        ],
+        description: "The Leather Tunic, also known as leather armor for the torso, provides 3 armor points, making it the most significant defensive piece in the leather set. Crafted with eight leather pieces, it is an accessible early-game option. Its standout feature in Bedrock Edition is the ability to be dyed in a cauldron, allowing for millions of possible color combinations. This utility makes it a favorite for custom aesthetics despite its low durability of 80 points."
+    },
     "minecraft:chainmail_chestplate": {
         id: "minecraft:chainmail_chestplate",
         name: "Chainmail Chestplate",

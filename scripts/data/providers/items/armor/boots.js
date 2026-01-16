@@ -9,6 +9,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const boots = {
+    "minecraft:leather_boots": {
+        id: "minecraft:leather_boots",
+        name: "Leather Boots",
+        maxStack: 1,
+        durability: 65,
+        enchantable: true,
+        usage: {
+            primaryUse: "Foot protection and walking on Powder Snow",
+            secondaryUse: "Dyeing for aesthetic customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x4"]
+        },
+        specialNotes: [
+            "Provides 1 armor point (half a bar).",
+            "Allows the player to walk on Powder Snow without sinking.",
+            "Can be dyed in cauldrons with varied color combinations.",
+            "Crafted with only four leather pieces.",
+            "Required for traversing mountain biomes safely."
+        ],
+        description: "Leather Boots provide 1 armor point and have a durability of 65. While they offer the least protection in the set, they possess a unique and vital utility: allowing the wearer to walk across Powder Snow blocks without sinking. This makes them essential for navigating snowy mountain peaks. Like other leather pieces in Bedrock Edition, they can be dyed in cauldrons, making them both a functional tool for exploration and a versatile fashion choice."
+    },
     "minecraft:chainmail_boots": {
         id: "minecraft:chainmail_boots",
         name: "Chainmail Boots",

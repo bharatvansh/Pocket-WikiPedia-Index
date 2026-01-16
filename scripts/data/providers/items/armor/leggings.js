@@ -10,6 +10,29 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const leggings = {
+    "minecraft:leather_leggings": {
+        id: "minecraft:leather_leggings",
+        name: "Leather Pants",
+        maxStack: 1,
+        durability: 75,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic leg protection",
+            secondaryUse: "Customization through dyeing"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x7"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 bar).",
+            "Durable enough for early-game exploration.",
+            "Can be dyed in Bedrock Edition using a cauldron.",
+            "Crafted with seven pieces of leather in a 'U' shape.",
+            "Allows players to display custom colors while maintaining minimal defense."
+        ],
+        description: "Leather Pants offer basic protection for the lower body, providing 2 armor points. They are crafted from seven leather pieces and are often the second piece of armor players make. In Bedrock Edition, they can be customized by dipping them into a cauldron filled with dyed water. With 75 durability, they are suited for players who haven't yet secured enough iron for better gear but wish to avoid taking full damage from fall or mob attacks."
+    },
     "minecraft:chainmail_leggings": {
         id: "minecraft:chainmail_leggings",
         name: "Chainmail Leggings",

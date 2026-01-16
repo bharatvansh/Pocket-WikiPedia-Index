@@ -117,5 +117,32 @@ export const hoes = {
             "Enchantable with Unbreaking and Efficiency"
         ],
         description: "The Iron Hoe is a durable farming tool crafted from two iron ingots and two sticks. With 251 durability and higher efficiency, it makes clearing leaves, harvesting hay bales, and mining sculk blocks much faster than lower-tier hoes. It is essential for maintaining large agricultural areas without frequent tool replacement. In Bedrock Edition, it deals 4 damage, offering some defensive capability while tending to crops."
+    },
+    "minecraft:golden_hoe": {
+        id: "minecraft:golden_hoe",
+        name: "Golden Hoe",
+        maxStack: 1,
+        durability: 32,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Fastest harvesting of leaves and bells"
+        },
+        combat: {
+            attackDamage: 1,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Extremely low durability (32 uses).",
+            "Highest enchantability tier among hoes.",
+            "Harvests certain blocks slightly faster than iron.",
+            "Deals 1 attack damage in Bedrock Edition.",
+            "Frequently dropped by Piglins in the Nether."
+        ],
+        description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with only 1 attack damage."
     }
 };
