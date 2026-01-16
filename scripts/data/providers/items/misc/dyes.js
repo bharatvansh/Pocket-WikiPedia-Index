@@ -362,7 +362,7 @@ export const dyes = {
             ingredients: ["Blue Dye + Green Dye", "Lapis Lazuli + Green Dye", "Pitcher Plant"]
         },
         specialNotes: [
-            "Crafted by mixing Blue and Green dyes, or Blue and Lapis with Green",
+            "Crafted by mixing Blue and Green dyes, or Lapis Lazuli and Green dye",
             "Provides a vibrant teal/cyan color to blocks and mobs",
             "Used to dye wool, terracotta, glass, concrete, and beds cyan",
             "Can be used to dye shulker boxes and leather armor",
