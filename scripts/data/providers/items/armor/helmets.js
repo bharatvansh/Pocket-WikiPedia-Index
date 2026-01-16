@@ -33,6 +33,52 @@ export const helmets = {
         ],
         description: "The Chainmail Helmet is a piece of armor made of linked metal rings. It offers the same protection (2 points) and durability (165) as an Iron Helmet but has a slightly higher enchantability of 12. Unlike other armor sets, Chainmail cannot be crafted by players and must be obtained through trading with Armorer villagers, looting chests in structures like Buried Treasure or Woodland Mansions, or as drops from mobs wearing it. Its unique semi-transparent texture makes it a popular choice for cosmetic armor stands and specific player skins."
     },
+    "minecraft:iron_helmet": {
+        id: "minecraft:iron_helmet",
+        name: "Iron Helmet",
+        maxStack: 1,
+        durability: 165,
+        enchantable: true,
+        usage: {
+            primaryUse: "Head protection",
+            secondaryUse: "Decoration for Armor Stands"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x5"]
+        },
+        specialNotes: [
+            "Provides 2 armor points.",
+            "Reliable mid-tier protection for the head.",
+            "Frequently found in village armorer chests or dropped by zombies.",
+            "Can be repaired in an anvil with Iron Ingots.",
+            "Supports various enchantments including Protection and Respiration."
+        ],
+        description: "The Iron Helmet is a reliable mid-tier armor piece that provides 2 points of armor for the head. It is crafted using five iron ingots and is much more accessible than diamond gear, making it a staple for players transitioning out of the early game. Iron helmets can also be found in various loot chests throughout the world or obtained from villager trading. With 165 durability, it offers decent protection and can be enchanted to improve survivability in various environments."
+    },
+    "minecraft:diamond_helmet": {
+        id: "minecraft:diamond_helmet",
+        name: "Diamond Helmet",
+        maxStack: 1,
+        durability: 363,
+        enchantable: true,
+        usage: {
+            primaryUse: "Head protection",
+            secondaryUse: "Base for crafting Netherite Helmet"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x5"]
+        },
+        specialNotes: [
+            "Provides 3 armor points and 2 armor toughness.",
+            "Durable head protection crafted from 5 diamonds.",
+            "Base item for crafting Netherite Helmet in a Smithing Table.",
+            "Repairable in an anvil using Diamonds.",
+            "Can be enchanted with Aqua Affinity and Respiration."
+        ],
+        description: "The Diamond Helmet is a premium piece of armor crafted from five diamonds. It provides 3 points of armor and 2 points of armor toughness, offering significant protection against physical damage. It is a vital step in progressing toward late-game equipment, as it serves as the base for upgrading into a Netherite Helmet using a Smithing Table. Its high durability of 363 makes it incredibly reliable for long exploration trips and intense boss fights."
+    },
     "minecraft:turtle_helmet": {
         id: "minecraft:turtle_helmet",
         name: "Turtle Shell",
