@@ -168,6 +168,41 @@ export const itemIndex = [
         themeColor: "§6" // brown
     },
     {
+        id: "minecraft:enderman_spawn_egg",
+        name: "Enderman Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_enderman",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:dolphin_spawn_egg",
+        name: "Dolphin Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_dolphin",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:warden_spawn_egg",
+        name: "Warden Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_warden",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:allay_spawn_egg",
+        name: "Allay Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_allay",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:sniffer_spawn_egg",
+        name: "Sniffer Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_sniffer",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:netherite_upgrade_smithing_template",
         name: "Netherite Upgrade Smithing Template",
         category: "item",
