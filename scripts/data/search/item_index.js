@@ -2288,6 +2288,41 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:iron_boots",
+        name: "Iron Boots",
+        category: "item",
+        icon: "textures/items/iron_boots",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_chestplate",
+        name: "Iron Chestplate",
+        category: "item",
+        icon: "textures/items/iron_chestplate",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_leggings",
+        name: "Iron Leggings",
+        category: "item",
+        icon: "textures/items/iron_leggings",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:golden_helmet",
+        name: "Golden Helmet",
+        category: "item",
+        icon: "textures/items/gold_helmet",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:golden_chestplate",
+        name: "Golden Chestplate",
+        category: "item",
+        icon: "textures/items/gold_chestplate",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:iron_helmet",
         name: "Iron Helmet",
         category: "item",

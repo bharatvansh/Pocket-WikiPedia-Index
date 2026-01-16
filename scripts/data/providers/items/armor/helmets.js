@@ -56,6 +56,29 @@ export const helmets = {
         ],
         description: "The Iron Helmet is a reliable mid-tier armor piece that provides 2 points of armor for the head. It is crafted using five iron ingots and is much more accessible than diamond gear, making it a staple for players transitioning out of the early game. Iron helmets can also be found in various loot chests throughout the world or obtained from villager trading. With 165 durability, it offers decent protection and can be enchanted to improve survivability in various environments."
     },
+    "minecraft:golden_helmet": {
+        id: "minecraft:golden_helmet",
+        name: "Golden Helmet",
+        maxStack: 1,
+        durability: 77,
+        enchantable: true,
+        usage: {
+            primaryUse: "Head protection and Piglin pacification",
+            secondaryUse: "Easier access to high-level enchantments"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x5"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 bar).",
+            "Prevents Piglins from attacking the wearer in the Nether.",
+            "Extremely low durability compared to iron (77 vs 165).",
+            "High enchantability allows for better enchantments at lower levels.",
+            "Can be found in Nether Bastion Remnants and Ruined Portals."
+        ],
+        description: "The Golden Helmet provides the same protection as iron (2 armor points) but with significantly lower durability. However, its high enchantability and unique utility in the Nether make it a strategic choice. Wearing any piece of gold armor, such as this helmet, pacifies Piglins, allowing players to explore the Nether more safely. While it breaks quickly, it is often favored by players who want to save their iron or diamond gear for combat while traveling through neutral mob territories."
+    },
     "minecraft:diamond_helmet": {
         id: "minecraft:diamond_helmet",
         name: "Diamond Helmet",
