@@ -6,7 +6,9 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder, popped chorus fruit
+// amethyst shard, gunpowder, popped chorus fruit, coal block, redstone block,
+// iron block, gold block, mourner pottery sherd, shelter pottery sherd,
+// skull pottery sherd
 // ============================================
 
 /**
@@ -1520,5 +1522,101 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:coal_block": {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of coal (equivalent to 9 coal)",
+            secondaryUse: "Fuel source lasting 160 seconds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Coal x9"]
+        },
+        specialNotes: [
+            "Crafted from 9 coal in a 3x3 pattern",
+            "Stores coal compactly; can be uncrafted back into 9 coal",
+            "Burns for 160 seconds in a furnace (same as 9 coal individually)",
+            "Mineable with any pickaxe; yields 1 block of coal",
+            "Cannot be mined with hands or wooden pickaxes in Bedrock Edition",
+            "Useful for long-term coal storage in large quantities"
+        ],
+        description: "A Block of Coal is a compact storage form for coal, created by arranging nine coal in a 3x3 crafting pattern. Each block stores the equivalent of nine individual coal items. When placed in a furnace, it provides 160 seconds of fuel, the same duration as nine coal would provide. This block allows for efficient storage and transport of large coal quantities. It can be broken with any pickaxe tier to retrieve the block or uncrafted to recover the nine coal units, making it flexible for storage needs."
+    },
+    "minecraft:redstone_block": {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of redstone dust (equivalent to 9 dust)",
+            secondaryUse: "Constant redstone power source"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Redstone Dust x9"]
+        },
+        specialNotes: [
+            "Crafted from 9 redstone dust in a 3x3 pattern",
+            "Emits constant redstone power (power level 15) to adjacent blocks",
+            "Power is output on all six sides simultaneously",
+            "Can be uncrafted back into 9 redstone dust",
+            "Mineable with a pickaxe; yields 1 block of redstone",
+            "Essential for creating compact redstone circuits and power sources"
+        ],
+        description: "A Block of Redstone is a storage and power block created from nine redstone dust arranged in a 3x3 crafting pattern. Unlike individual dust, this block emits a constant power level of 15 to all adjacent blocks, making it an excellent permanent power source for redstone contraptions. This feature allows for compact and clean redstone designs where a single block can power multiple adjacent components. The block can be easily converted back to dust when no longer needed, providing flexibility in redstone engineering and storage management."
+    },
+    "minecraft:iron_block": {
+        id: "minecraft:iron_block",
+        name: "Block of Iron",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of iron ingots (equivalent to 9 ingots)",
+            secondaryUse: "Building and construction material"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x9"]
+        },
+        specialNotes: [
+            "Crafted from 9 iron ingots in a 3x3 pattern",
+            "Stores iron compactly; can be uncrafted back into 9 ingots",
+            "Used as building material with high blast resistance (6.0)",
+            "Mineable with a stone pickaxe or better; drops the block",
+            "Cannot be mined with wooden pickaxes in Bedrock Edition",
+            "Useful for creating storage areas or decorative structures"
+        ],
+        description: "A Block of Iron is an excellent storage solution for large quantities of iron ingots, created by arranging nine ingots in a 3x3 pattern. It serves both practical and decorative purposes: players can use it for safe, compact storage of valuable iron resources, or incorporate it into builds for its industrial aesthetic and high blast resistance. The block can be easily broken with a stone pickaxe or better and uncrafted back into nine ingots, providing maximum flexibility. Its durability makes it suitable for secure storage areas in bases vulnerable to explosions."
+    },
+    "minecraft:gold_block": {
+        id: "minecraft:gold_block",
+        name: "Block of Gold",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of gold ingots (equivalent to 9 ingots)",
+            secondaryUse: "Decorative building material for luxury structures"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x9"]
+        },
+        specialNotes: [
+            "Crafted from 9 gold ingots in a 3x3 pattern",
+            "Stores gold compactly; can be uncrafted back into 9 ingots",
+            "Decorative material popular for creating opulent structures",
+            "Mineable with an iron pickaxe or better; yields 1 block",
+            "Cannot be mined with wooden or stone pickaxes in Bedrock Edition",
+            "Frequently used in builds to display wealth and status"
+        ],
+        description: "A Block of Gold is a premium storage and decorative block, created from nine gold ingots in a 3x3 crafting pattern. Its shimmering appearance and rarity make it a symbol of wealth in Minecraft, often featured in player builds to showcase treasure or decorate luxurious structures. Functionally, it allows for compact storage of gold ingots and can be uncrafted when the ingots are needed. While not as practical as storage solutions for more common materials, the gold block serves as both a status symbol and a convenient way to manage large gold quantities, especially for players with successful gold farms or nether exploration."
     }
 };

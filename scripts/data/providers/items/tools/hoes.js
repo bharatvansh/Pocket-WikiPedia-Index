@@ -144,5 +144,33 @@ export const hoes = {
             "Frequently dropped by Piglins in the Nether."
         ],
         description: "The Golden Hoe is a fast but fragile farming tool. While it shares the same tilling capability as other hoes, it excels in its high enchantability, allowing for easier access to top-tier enchantments. However, its extremely low durability of just 32 uses makes it impractical for large-scale farming. It is often obtained via bartering with Piglins or found in Ruined Portal chests. In Bedrock, it provides minimal combat value with 2 attack damage."
+    },
+    "minecraft:diamond_hoe": {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        maxStack: 1,
+        durability: 1561,
+        enchantable: true,
+        usage: {
+            primaryUse: "Tilling dirt and grass into farmland",
+            secondaryUse: "Harvesting organic blocks with high durability"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond x2", "Stick x2"]
+        },
+        specialNotes: [
+            "Highest durability among standard hoes (1561 uses)",
+            "Deals 5 attack damage (2.5 hearts) in Bedrock Edition",
+            "Can be upgraded to Netherite Hoe at a Smithing Table",
+            "Enchantable with Unbreaking, Efficiency, and Silk Touch",
+            "Fastest tool for mining sponges and hay blocks",
+            "Effective at harvesting leaves, moss, and sculk blocks"
+        ],
+        description: "The Diamond Hoe is a premium farming tool offering exceptional durability of 1561 uses, making it ideal for maintaining large-scale agricultural operations. Crafted from two diamonds and two sticks, it provides the highest durability among standard hoes. Beyond tilling farmland, it excels at harvesting blocks like hay, sponges, leaves, and moss faster than other tools. With 5 attack damage, it serves as a weak weapon if needed. The diamond hoe can be upgraded to a netherite hoe for improved durability and fire resistance, representing a solid investment in agricultural infrastructure."
     }
 };

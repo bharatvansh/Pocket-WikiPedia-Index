@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:diamond_hoe",
+        name: "Diamond Hoe",
+        category: "item",
+        icon: "textures/items/diamond_hoe",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:coal_block",
+        name: "Block of Coal",
+        category: "item",
+        icon: "textures/blocks/coal_block",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:redstone_block",
+        name: "Block of Redstone",
+        category: "item",
+        icon: "textures/blocks/redstone_block",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:iron_block",
+        name: "Block of Iron",
+        category: "item",
+        icon: "textures/blocks/iron_block",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:gold_block",
+        name: "Block of Gold",
+        category: "item",
+        icon: "textures/blocks/gold_block",
+        themeColor: "§e"
     }
 ];
