@@ -2,7 +2,7 @@
 // ============================================
 // This file contains: Name tag, saddle, horse armor (all types),
 // lead, trial key, ominous trial key, written book, book and quill,
-// enchanted book, knowledge book, bundle, goat horn (all variants),
+// enchanted book, knowledge book, bundle, goat horn (all variants), copper horn,
 // painting, item frame, glow item frame, armor stand, end crystal,
 // experience bottle, firework star, wolf armor, totem of undying,
 // bucket, dragon egg, oak boat, oak boat with chest
@@ -1408,5 +1408,29 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:copper_horn": {
+        id: "minecraft:copper_horn",
+        name: "Copper Horn",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing sound effects and signals",
+            secondaryUse: "Bedrock Edition exclusive feature"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Unique to Bedrock Edition", "Cannot be obtained in Survival mode with normal gameplay"]
+        },
+        specialNotes: [
+            "Exclusive to Minecraft Bedrock Edition",
+            "Intended as a developer or promotional item",
+            "Cannot be crafted, mined, or obtained through normal survival gameplay",
+            "Cannot be used with use button in Survival mode",
+            "Available only through commands or creative mode",
+            "Represents a horn made of oxidized copper material"
+        ],
+        description: "The Copper Horn is an exclusive item in Minecraft Bedrock Edition that was designed as a special audio instrument. Unlike the Goat Horn which plays actual music, the Copper Horn is intended for specific sound effects and signals. It is unobtainable through normal survival gameplay methods and can only be accessed via creative mode or commands. The horn's design suggests an instrument crafted from weathered, oxidized copper materials. This item represents Bedrock Edition's occasional experimental or promotional items that differ from the Java Edition."
     }
 };

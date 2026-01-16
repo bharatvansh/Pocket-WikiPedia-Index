@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, gunpowder, popped chorus fruit
+// amethyst shard, gunpowder, popped chorus fruit, disc fragments 1-4
 // ============================================
 
 /**
@@ -1520,5 +1520,97 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:disc_fragment_1": {
+        id: "minecraft:disc_fragment_1",
+        name: "Disc Fragment 1",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc (Creator)",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests with a 29.8% drop rate",
+            "Combine 9 fragments in a crafting table to create Music Disc (Creator)",
+            "One of two music discs that must be crafted rather than found whole",
+            "The Creator disc is composed by Aaron Chervenak and plays modern, atmospheric music",
+            "Added in the Wild Update (1.19)"
+        ],
+        description: "Disc Fragment 1 is a rare crafting material found exclusively within the chests of Ancient Cities, hidden deep in the Deep Dark biome. This shard represents a portion of a broken record. Players must collect nine of these fragments and arrange them in a 3x3 crafting grid to create Music Disc (Creator), a modern atmospheric track composed by Aaron Chervenak. This makes the Creator disc one of the few music records that cannot be obtained as a complete item, requiring exploration and collection to obtain this unique soundtrack."
+    },
+    "minecraft:disc_fragment_2": {
+        id: "minecraft:disc_fragment_2",
+        name: "Disc Fragment 2",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc (Creator (Music Box))",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests with a 29.8% drop rate",
+            "Combine 9 fragments in a crafting table to create Music Disc (Creator (Music Box))",
+            "The Creator (Music Box) variant is a slower, more relaxed version of the Creator disc",
+            "One of the newer music discs added in the 1.19 Wild Update",
+            "Ancient Cities are dangerous locations where the Warden can spawn"
+        ],
+        description: "Disc Fragment 2 is a rare archaeological material exclusively discovered in Ancient City chests throughout the Deep Dark dimension. Like other disc fragments, it appears as a broken piece of a vinyl record. Nine of these fragments must be collected and crafted together to create Music Disc (Creator (Music Box)), a more relaxed, instrumental arrangement of the Creator track. The ancient cities themselves are mysterious underground structures laden with treasures but patrolled by the dangerous Warden mob, adding an element of risk to acquiring these musical materials."
+    },
+    "minecraft:disc_fragment_3": {
+        id: "minecraft:disc_fragment_3",
+        name: "Disc Fragment 3",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc (Precipice)",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests with a 29.8% drop rate",
+            "Combine 9 fragments in a crafting table to create Music Disc (Precipice)",
+            "Precipice is composed by Lena Raine and features dramatic, intense music",
+            "The disc delivers a powerful emotional experience fitting for boss fights and intense moments",
+            "Added in the Trails & Tales update (1.20)"
+        ],
+        description: "Disc Fragment 3 is an archaeological treasure found within the depths of Ancient Cities, buried among other rare relics of the past. This fragment, when combined with eight others of its kind, crafts Music Disc (Precipice), an intense and dramatic soundtrack composed by Lena Raine. The Precipice disc is known for its powerful, emotional composition that captures the tension and grandeur of dangerous moments in Minecraft gameplay. Collecting these fragments requires brave exploration of the Ancient City's depths while avoiding encounters with the terrifying Warden."
+    },
+    "minecraft:disc_fragment_4": {
+        id: "minecraft:disc_fragment_4",
+        name: "Disc Fragment 4",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc (Otherside)",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Found exclusively in Ancient City chests with a 29.8% drop rate",
+            "Combine 9 fragments in a crafting table to create Music Disc (Otherside)",
+            "Otherside is composed by Lena Raine and explores mysterious, otherworldly themes",
+            "The disc has a mystical, ambient quality that evokes the strange Deep Dark dimension",
+            "Added in the Wild Update (1.19)"
+        ],
+        description: "Disc Fragment 4 is a broken piece of music media recovered from Ancient Cities in the mysterious Deep Dark biome. When nine of these fragments are collected and crafted together, they reform into Music Disc (Otherside), a haunting and mysterious composition by Lena Raine that captures the eerie, alien atmosphere of the Deep Dark dimension. The disc features ethereal melodies and strange soundscapes that transport players to otherworldly realms. Obtaining these fragments requires venturing into one of Minecraft's most dangerous and atmospheric locations."
     }
 };

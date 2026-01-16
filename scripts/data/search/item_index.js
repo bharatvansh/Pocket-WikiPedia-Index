@@ -637,10 +637,45 @@ export const itemIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:copper_horn",
+        name: "Copper Horn",
+        category: "item",
+        icon: "textures/items/copper_horn",
+        themeColor: "§6" // copper/orange
+    },
+    {
         id: "minecraft:disc_fragment_5",
         name: "Disc Fragment 5",
         category: "item",
         icon: "textures/items/disc_fragment_5",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:disc_fragment_1",
+        name: "Disc Fragment 1",
+        category: "item",
+        icon: "textures/items/disc_fragment_1",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:disc_fragment_2",
+        name: "Disc Fragment 2",
+        category: "item",
+        icon: "textures/items/disc_fragment_2",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:disc_fragment_3",
+        name: "Disc Fragment 3",
+        category: "item",
+        icon: "textures/items/disc_fragment_3",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:disc_fragment_4",
+        name: "Disc Fragment 4",
+        category: "item",
+        icon: "textures/items/disc_fragment_4",
         themeColor: "§b" // aqua
     },
     {
