@@ -2365,38 +2365,38 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
-        id: "minecraft:chicken",
-        name: "Raw Chicken",
+        id: "minecraft:acacia_boat",
+        name: "Acacia Boat",
         category: "item",
-        icon: "textures/items/chicken_raw",
-        themeColor: "§c"
-    },
-    {
-        id: "minecraft:rabbit",
-        name: "Raw Rabbit",
-        category: "item",
-        icon: "textures/items/rabbit_raw",
-        themeColor: "§c"
-    },
-    {
-        id: "minecraft:tropical_fish",
-        name: "Tropical Fish",
-        category: "item",
-        icon: "textures/items/fish_tropical_raw",
+        icon: "textures/items/boat_acacia",
         themeColor: "§6"
     },
     {
-        id: "minecraft:golden_leggings",
-        name: "Golden Leggings",
+        id: "minecraft:dark_oak_boat",
+        name: "Dark Oak Boat",
         category: "item",
-        icon: "textures/items/gold_leggings",
-        themeColor: "§e"
+        icon: "textures/items/boat_dark_oak",
+        themeColor: "§8"
     },
     {
-        id: "minecraft:golden_boots",
-        name: "Golden Boots",
+        id: "minecraft:spruce_chest_boat",
+        name: "Spruce Boat with Chest",
         category: "item",
-        icon: "textures/items/gold_boots",
-        themeColor: "§e"
+        icon: "textures/items/boat_spruce_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_chest_boat",
+        name: "Birch Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_birch_chest",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_chest_boat",
+        name: "Jungle Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_jungle_chest",
+        themeColor: "§6"
     }
 ];

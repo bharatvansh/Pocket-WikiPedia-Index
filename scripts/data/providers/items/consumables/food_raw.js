@@ -437,26 +437,25 @@ export const rawFood = {
         enchantable: false,
         usage: {
             primaryUse: "Food source (better when cooked)",
-            secondaryUse: "Breeding and healing tamed wolves"
+            secondaryUse: "Breeding and healing dogs/wolves"
         },
         food: {
             hunger: 2,
             saturation: 1.2
-        },
-        stats: {
-            hungerChance: "30%"
         },
         crafting: {
             recipeType: "Uncraftable",
             ingredients: ["Dropped by Chickens"]
         },
         specialNotes: [
-            "30% chance of inflicting Hunger effect for 30 seconds when eaten.",
-            "Dropped by chickens when they die.",
-            "Used to breed and heal tamed wolves.",
-            "Better to cook in a furnace, smoker or campfire to make Cooked Chicken."
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "30% chance of inflicting Hunger for 30 seconds when eaten raw",
+            "Dropped by Chickens (1) upon death",
+            "Can be cooked into Cooked Chicken for better hunger restoration",
+            "Used to breed and heal tamed wolves",
+            "Butcher villagers may buy raw chicken for emeralds"
         ],
-        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten raw, it has a 30% chance of causing the Hunger status effect, making it less efficient and potentially harmful. It is primarily used to breed wolves or as a raw material to be cooked into Cooked Chicken, which provides much better nutritional value and has no negative effects."
+        description: "Raw Chicken is a food item dropped by chickens. Unlike beef and pork, eating it raw carries a 30% risk of food poisoning (Hunger effect), so cooking it into Cooked Chicken is highly recommended. It provides 2 hunger points when eaten raw. Raw chicken is also a staple for breeding and healing tamed wolves, often being the easiest meat to farm in large quantities."
     },
     "minecraft:rabbit": {
         id: "minecraft:rabbit",
@@ -465,8 +464,8 @@ export const rawFood = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Food source (better when cooked)",
-            secondaryUse: "Ingredient for Rabbit Stew"
+            primaryUse: "Food source",
+            secondaryUse: "Crafting Rabbit Stew"
         },
         food: {
             hunger: 3,
@@ -477,12 +476,13 @@ export const rawFood = {
             ingredients: ["Dropped by Rabbits"]
         },
         specialNotes: [
-            "Dropped by rabbits when they die.",
-            "Can be cooked into Cooked Rabbit for better nutrition.",
-            "Used as an ingredient in Rabbit Stew.",
-            "Can be used to breed and heal tamed wolves."
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Rabbits (0-1) upon death",
+            "Can be cooked into Cooked Rabbit for better stats",
+            "Essential ingredient for Rabbit Stew",
+            "Butcher villagers may buy raw rabbit for emeralds"
         ],
-        description: "Raw Rabbit is a food item obtained by killing rabbits. It provides 3 hunger points and 1.8 saturation. While it can be eaten raw, its maximum potential is reached when cooked into Cooked Rabbit or used as a key ingredient in Rabbit Stew. Like other raw meats, it is also useful for breeding and healing tamed wolves."
+        description: "Raw Rabbit is a food item dropped by rabbits. It provides 3 hunger points and 1.8 saturation when eaten raw. While it can be cooked into Cooked Rabbit, its most efficient use is as an ingredient for Rabbit Stew, which is one of the most complex but rewarding food items in the game. Rabbits can be difficult to hunt due to their speed and small size, making this meat a more specialized food source."
     },
     "minecraft:tropical_fish": {
         id: "minecraft:tropical_fish",
@@ -491,8 +491,8 @@ export const rawFood = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Food source",
-            secondaryUse: "Taming and breeding cats and ocelots"
+            primaryUse: "Feeding and breeding Axolotls",
+            secondaryUse: "Food source (cannot be cooked)"
         },
         food: {
             hunger: 1,
@@ -500,14 +500,16 @@ export const rawFood = {
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Obtained via fishing", "Dropped by Tropical Fish mobs"]
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing in tropical oceans"]
         },
         specialNotes: [
-            "Cannot be cooked in a furnace, smoker, or campfire.",
-            "Dropped by tropical fish mobs.",
-            "Used to feed and breed cats and ocelots.",
-            "Comes in many varieties in the world, but the item form is singular."
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked in a furnace, smoker, or campfire",
+            "Used to breed Axolotls (must be in a bucket for breeding adults)",
+            "Has 2,700 naturally occurring variants in Bedrock Edition",
+            "Dropped by Tropical Fish mobs (1 guaranteed) when killed",
+            "Caught with a 2% chance when fishing similarly to other fish"
         ],
-        description: "Tropical Fish is a food item obtained by killing tropical fish or through fishing. Unlike cod or salmon, it cannot be cooked, making it a relatively poor food source for players with only 1 hunger point and 0.2 saturation. Its primary utility is for taming and breeding cats or gaining the trust of ocelots in Bedrock Edition. It is commonly found in warm ocean biomes."
+        description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
     }
 };
