@@ -2608,5 +2608,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/boat_pale_oak_chest",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:goat_spawn_egg",
+        name: "Goat Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_goat",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:ghast_spawn_egg",
+        name: "Ghast Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ghast",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:enderman_spawn_egg",
+        name: "Enderman Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_enderman",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:blaze_spawn_egg",
+        name: "Blaze Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_blaze",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:shulker_spawn_egg",
+        name: "Shulker Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_shulker",
+        themeColor: "§d"
     }
 ];

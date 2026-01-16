@@ -303,5 +303,110 @@ export const spawnEggs = {
             "Creative-only item for manual aquatic mob placement."
         ],
         description: "The Tadpole Spawn Egg is used to summon a Tadpole, the larval stage of a Frog. Tadpoles are aquatic and will take damage if they are out of water for too long. Unlike most baby mobs, they are completely different animals from their adult forms. Using this egg is the fastest way to place Tadpoles in specific biomes to ensure they grow into the desired Warm, Cold, or Temperate Frog variants. It can also be applied to a Monster Spawner to create a Tadpole-generating block."
+    },
+    "minecraft:goat_spawn_egg": {
+        id: "minecraft:goat_spawn_egg",
+        name: "Goat Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Goat mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Allows instant placement of Goats in any biome.",
+            "Can be used on an adult Goat to spawn a baby Goat.",
+            "Available only in Creative Mode or via commands."
+        ],
+        description: "The Goat Spawn Egg is a creative-only item used to summon an adult or baby Goat instantly. Goats are neutral mobs found in mountain biomes, capable of jumping high and occasionally ramming players or other mobs. Using this egg allows players to place Goats anywhere, which is useful for setting up mountain-themed areas or testing Goat Horn drops. Like all spawn eggs, it can be used on a Spawner to change its mob type to Goat."
+    },
+    "minecraft:ghast_spawn_egg": {
+        id: "minecraft:ghast_spawn_egg",
+        name: "Ghast Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Ghast mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a full-sized Ghast which may require a large open space.",
+            "Converts Monster Spawners into Ghast producers.",
+            "Hostile behavior is immediate upon spawning."
+        ],
+        description: "The Ghast Spawn Egg is used to instantly summon a Ghast, the large, flying, fireball-shooting hostile mob from the Nether. In Creative Mode, this egg simplifies the process of testing Nether-related defenses or environmental hazards. Using it on a block summons a live Ghast, which will immediately begin searching for players to attack. If applied to a Monster Spawner, the spawner will begin producing Ghasts periodically."
+    },
+    "minecraft:enderman_spawn_egg": {
+        id: "minecraft:enderman_spawn_egg",
+        name: "Enderman Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Enderman mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns an Enderman at the target location.",
+            "Can be used to modify Monster Spawners to produce Endermen.",
+            "Endermen spawned this way retain their block-moving capabilities."
+        ],
+        description: "The Enderman Spawn Egg allows for the instantaneous summoning of an Enderman. These tall, neutral mobs are known for their ability to teleport and pick up blocks. While naturally appearing in the Overworld, Nether, and End, this spawn egg allows for precise placement in Creative Mode. When used on a Monster Spawner, it creates an Enderman spawner, which is useful for building custom pearl farms or testing Ender-themed challenges."
+    },
+    "minecraft:blaze_spawn_egg": {
+        id: "minecraft:blaze_spawn_egg",
+        name: "Blaze Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Blaze mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons a hostile Blaze.",
+            "Enables the creation of custom Blaze spawners.",
+            "Ideal for testing fire protection and combat scenarios."
+        ],
+        description: "The Blaze Spawn Egg is used to summon a Blaze, a hostile mob typically found in Nether Fortresses. Blazes are known for flying and shooting fireballs at players, making them a significant threat. This item is essential for Creative Mode players who wish to design combat encounters or test fire-resistance mechanics. Using this egg on a Monster Spawner will turn it into a Blaze spawner, mirroring the natural spawners found in the Nether."
+    },
+    "minecraft:shulker_spawn_egg": {
+        id: "minecraft:shulker_spawn_egg",
+        name: "Shulker Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Shulker mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Shulker which attaches to the nearest wall or ceiling.",
+            "Transforms Monster Spawners into Shulker spawners.",
+            "Levitation bullets are active immediately if a target is found."
+        ],
+        description: "The Shulker Spawn Egg is used to summon a Shulker, a shell-guarded hostile mob found in End Cities. Shulkers are unique for their ability to teleport and fire levitation bullets that cause players to float. In Creative Mode, this spawn egg allows for the placement of Shulkers on any solid surface. Applying this egg to a Monster Spawner will convert it into a Shulker spawner, allowing for localized testing of levitation mechanics or shell farms."
     }
 };
