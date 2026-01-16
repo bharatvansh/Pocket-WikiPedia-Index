@@ -2363,5 +2363,110 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_helmet",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:acacia_boat",
+        name: "Acacia Boat",
+        category: "item",
+        icon: "textures/items/boat_acacia",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:dark_oak_boat",
+        name: "Dark Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_dark_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:spruce_chest_boat",
+        name: "Spruce Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_spruce_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_chest_boat",
+        name: "Birch Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_birch_chest",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_chest_boat",
+        name: "Jungle Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_jungle_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_chest_boat",
+        name: "Acacia Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_acacia_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:dark_oak_chest_boat",
+        name: "Dark Oak Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_dark_oak_chest",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:mangrove_chest_boat",
+        name: "Mangrove Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_mangrove_chest",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:cherry_chest_boat",
+        name: "Cherry Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_cherry_chest",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_chest_raft",
+        name: "Bamboo Raft with Chest",
+        category: "item",
+        icon: "textures/items/raft_bamboo_chest",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:golden_boots",
+        name: "Golden Boots",
+        category: "item",
+        icon: "textures/items/gold_boots",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:golden_leggings",
+        name: "Golden Leggings",
+        category: "item",
+        icon: "textures/items/gold_leggings",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:raw_chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:raw_rabbit",
+        name: "Raw Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_raw",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:tropical_fish_item",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_tropical",
+        themeColor: "§c"
     }
 ];

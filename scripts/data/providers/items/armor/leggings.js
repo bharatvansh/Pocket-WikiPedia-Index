@@ -80,6 +80,29 @@ export const leggings = {
         ],
         description: "Iron Leggings are a standard mid-tier choice for lower-body protection. Offering 5 armor points, they provide a significant defensive boost while remaining easy to craft using iron ingots. They are often one of the first pieces of armor a player crafts after a chestplate. These leggings are durable enough for extensive exploration and cave diving, and they can be found in various loot chests in villages, shipwrecks, and strongholds."
     },
+    "minecraft:golden_leggings": {
+        id: "minecraft:golden_leggings",
+        name: "Golden Leggings",
+        maxStack: 1,
+        durability: 105,
+        enchantable: true,
+        usage: {
+            primaryUse: "Leg protection and Piglin pacification",
+            secondaryUse: "High enchantability for better rolls"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x7"]
+        },
+        specialNotes: [
+            "Provides 3 armor points (1.5 bars).",
+            "Prevents Piglins from attacking the wearer in the Nether.",
+            "Very low durability compared to iron leggings (105 vs 225).",
+            "High enchantability, making it easier to get better enchantments.",
+            "Can be found in Nether Bastion Remnants and Ruined Portals."
+        ],
+        description: "Golden Leggings are a tier of leg armor providing 3 points of protection. While their durability is significantly lower than iron or diamond gear, they have one major advantage: they pacify Piglins in the Nether. This makes them a popular choice for exploration in dangerous dimensions. They also feature high enchantability, allowing players to obtain powerful buffs more easily at enchantment tables."
+    },
     "minecraft:diamond_leggings": {
         id: "minecraft:diamond_leggings",
         name: "Diamond Leggings",

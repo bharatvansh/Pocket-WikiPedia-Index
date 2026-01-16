@@ -428,5 +428,88 @@ export const rawFood = {
             "Can be fed to wolves to speed up the growth of baby wolves"
         ],
         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
+    },
+    "minecraft:raw_chicken": {
+        id: "minecraft:raw_chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger points (1 drumstick) and 1.2 saturation",
+            "30% chance of inflicting Hunger for 30 seconds when eaten raw",
+            "Dropped by Chickens (1) upon death",
+            "Can be cooked into Cooked Chicken for better hunger restoration",
+            "Used to breed and heal tamed wolves",
+            "Butcher villagers may buy raw chicken for emeralds"
+        ],
+        description: "Raw Chicken is a food item dropped by chickens. Unlike beef and pork, eating it raw carries a 30% risk of food poisoning (Hunger effect), so cooking it into Cooked Chicken is highly recommended. It provides 2 hunger points when eaten raw. Raw chicken is also a staple for breeding and healing tamed wolves, often being the easiest meat to farm in large quantities."
+    },
+    "minecraft:raw_rabbit": {
+        id: "minecraft:raw_rabbit",
+        name: "Raw Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Crafting Rabbit Stew"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Rabbits"]
+        },
+        specialNotes: [
+            "Restores 3 hunger points (1.5 drumsticks) and 1.8 saturation",
+            "Dropped by Rabbits (0-1) upon death",
+            "Can be cooked into Cooked Rabbit for better stats",
+            "Essential ingredient for Rabbit Stew",
+            "Butcher villagers may buy raw rabbit for emeralds"
+        ],
+        description: "Raw Rabbit is a food item dropped by rabbits. It provides 3 hunger points and 1.8 saturation when eaten raw. While it can be cooked into Cooked Rabbit, its most efficient use is as an ingredient for Rabbit Stew, which is one of the most complex but rewarding food items in the game. Rabbits can be difficult to hunt due to their speed and small size, making this meat a more specialized food source."
+    },
+    "minecraft:tropical_fish_item": {
+        id: "minecraft:tropical_fish_item",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Feeding and breeding Axolotls",
+            secondaryUse: "Food source (cannot be cooked)"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish mobs", "Obtained via fishing in tropical oceans"]
+        },
+        specialNotes: [
+            "Restores 1 hunger point (0.5 drumsticks) and 0.2 saturation",
+            "Cannot be cooked in a furnace, smoker, or campfire",
+            "Used to breed Axolotls (must be in a bucket for breeding adults)",
+            "Has 2,700 naturally occurring variants in Bedrock Edition",
+            "Dropped by Tropical Fish mobs (1 guaranteed) when killed",
+            "Caught with a 2% chance when fishing similarly to other fish"
+        ],
+        description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
     }
 };
