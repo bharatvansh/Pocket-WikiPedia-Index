@@ -658,7 +658,7 @@ export const brickBlocks = {
         drops: ["Chiseled Quartz Block"],
         generation: {
             dimension: "Nether",
-            yRange: "Bastion Remnants"
+            yRange: "32–96 (Bastion Remnants)"
         },
         description: "Chiseled Quartz Block is a decorative variant of the Quartz Block featuring an intricate, square-patterned carving. It is crafted by stacking two quartz slabs vertically in a crafting grid or by using a stonecutter. While primarily used for aesthetic purposes in modern and classical architecture, it generates naturally in bastion remnants. Like other quartz blocks, it has a hardness of 0.8 and require a pickaxe to mine. Its bright white appearance and unique geometric design make it ideal for decorative trims, pillars, and ornate flooring in high-end Minecraft constructions."
     }

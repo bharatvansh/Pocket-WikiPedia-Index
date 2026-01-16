@@ -216,7 +216,7 @@ export const endBlocks = {
         drops: ["End Stone Brick Stairs"],
         generation: {
             dimension: "The End",
-            yRange: "End Cities"
+            yRange: "60–100 (End Cities)"
         },
         description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
     }

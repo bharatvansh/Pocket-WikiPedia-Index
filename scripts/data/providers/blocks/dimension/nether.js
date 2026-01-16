@@ -722,7 +722,7 @@ export const netherBlocks = {
         drops: ["Nether Brick Fence"],
         generation: {
             dimension: "Nether",
-            yRange: "Nether Fortresses"
+            yRange: "48–72 (Nether Fortresses)"
         },
         description: "Nether Brick Fence is a dark, fire-resistant barrier block found naturally in Nether Fortresses. Unlike wooden fences, it is immune to fire and cannot be burned, making it a superior choice for building in the Nether or near lava. It has a higher blast resistance than most Overworld fences and requires a pickaxe to mine. While it does not connect to wooden fences, it connects to most solid blocks and other nether brick fence pieces. It is crafted from nether bricks and nether brick items, providing a sturdy and atmospheric defensive perimeter for any fortress or dark-themed build."
     }

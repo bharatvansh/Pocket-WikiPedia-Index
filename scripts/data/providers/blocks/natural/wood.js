@@ -385,7 +385,7 @@ export const woodBlocks = {
         drops: ["Dark Oak Log"],
         generation: {
             dimension: "Overworld",
-            yRange: "Surface (Dark Forest biomes)"
+            yRange: "60–128 (Surface)"
         },
         description: "Dark Oak Logs are harvested from the thick, sprawling dark oak trees found in the dense Dark Forest biome. They feature a very dark brown, almost black bark and a slightly lighter brown interior wood. Dark oak trees are unique because they require four saplings planted in a 2x2 grid to grow, resulting in massive trunks. These logs are a favorite among builders for their rich, deep color, which provides excellent contrast against lighter materials. They can be crafted into dark oak planks, stripped with an axe, or used as a strong structural element in medieval and gothic-style builds."
     }
