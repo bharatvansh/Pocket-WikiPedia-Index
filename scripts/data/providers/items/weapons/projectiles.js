@@ -93,5 +93,65 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:spectral_arrow": {
+        id: "minecraft:spectral_arrow",
+        name: "Spectral Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition that applies the Glowing effect to targets",
+            secondaryUse: "Revealing hidden mobs and players through walls"
+        },
+        combat: {
+            attackDamage: 2, // Base damage like regular arrows
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["4x Glowstone Dust", "1x Arrow"]
+        },
+        specialNotes: [
+            "Crafting yields 2 spectral arrows per recipe (Java Edition only)",
+            "Currently NOT available in Bedrock Edition through normal gameplay",
+            "Applies Glowing effect for 10 seconds on hit",
+            "Glowing outline is visible through blocks and walls",
+            "Outline color matches team color (white by default)",
+            "NOT affected by Infinity enchantment (always consumed)",
+            "Can be obtained via bartering with Piglins (Java Edition)",
+            "Useful for tracking mobs in caves and PvP combat"
+        ],
+        description: "Spectral Arrows are special ammunition exclusive to Java Edition that apply the Glowing status effect to any entity they hit, making the target visible through walls with a bright outline for 10 seconds. Crafted by surrounding an arrow with four glowstone dust (yielding 2 arrows), they are particularly useful for tracking elusive mobs, finding hidden players in PvP, or marking targets in dark caves. The glowing effect shows the target's team color if applicable, otherwise appearing as white. Unlike regular arrows, spectral arrows are always consumed when fired, even from Infinity-enchanted bows, balancing their powerful tracking capability. Note that these arrows are not available in Bedrock Edition through standard gameplay."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ammunition that applies potion effects to targets",
+            secondaryUse: "Ranged application of status effects in combat"
+        },
+        combat: {
+            attackDamage: 2, // Base arrow damage plus potion effect
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["8x Arrow", "1x Lingering Potion (any effect)"]
+        },
+        specialNotes: [
+            "Crafting yields 8 tipped arrows per lingering potion (Java Edition)",
+            "In Bedrock Edition: Use arrows on cauldrons filled with potions (more efficient - up to 64 arrows per cauldron)",
+            "Potion effect lasts 1/8th the duration of the original potion",
+            "Available effects: Poison, Weakness, Slowness, Harming, Healing, and many more",
+            "Arrow of Decay (Wither effect) is exclusive to Bedrock Edition",
+            "NOT affected by Infinity enchantment (always consumed)",
+            "Can be obtained by trading with Fletcher villagers at Master level",
+            "Effects cannot be combined on a single arrow"
+        ],
+        description: "Tipped Arrows are ammunition items that apply potion effects to targets upon hit, combining arrow damage with status effects. In Java Edition, they are crafted by surrounding a lingering potion with 8 arrows, while Bedrock Edition offers a more efficient method using cauldrons filled with potions (allowing up to 64 arrows to be tipped per full cauldron). The applied effect lasts for 1/8th the duration of the original potion, making them strategic tools for combat. Various effects are available including damage, healing, poison, weakness, and more. The exclusive Arrow of Decay in Bedrock Edition applies the Wither effect. Like spectral arrows, tipped arrows are always consumed regardless of Infinity enchantment. Master-level Fletcher villagers also sell random tipped arrows, providing an alternative acquisition method."
     }
 };

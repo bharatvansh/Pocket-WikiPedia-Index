@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "item",
+        icon: "textures/items/rail_normal",
+        themeColor: "§7" // gray/iron
+    },
+    {
+        id: "minecraft:activator_rail",
+        name: "Activator Rail",
+        category: "item",
+        icon: "textures/items/rail_activator",
+        themeColor: "§c" // red (when powered)
+    },
+    {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        category: "item",
+        icon: "textures/items/rail_detector",
+        themeColor: "§c" // red/redstone
+    },
+    {
+        id: "minecraft:spectral_arrow",
+        name: "Spectral Arrow",
+        category: "item",
+        icon: "textures/items/spectral_arrow",
+        themeColor: "§e" // yellow/gold (glowing)
+    },
+    {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/tipped_arrow",
+        themeColor: "§d" // pink/purple (potion)
     }
 ];

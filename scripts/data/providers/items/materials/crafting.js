@@ -1520,5 +1520,80 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating minecart tracks for transportation",
+            secondaryUse: "Building automated railway systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Iron Ingot", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafting yields 16 rails per recipe",
+            "Automatically curves to connect adjacent perpendicular tracks",
+            "Can be placed on slopes for ascending/descending tracks",
+            "Found naturally in Mineshafts inside chest minecarts",
+            "Breaks when the block beneath it is removed",
+            "Cannot turn while going uphill",
+            "Essential component for minecart transportation systems"
+        ],
+        description: "Rails are non-solid blocks that provide a path for minecarts to travel. Crafted from six iron ingots and one stick arranged in a specific pattern, each recipe yields 16 rails. When placed, rails automatically connect to adjacent tracks and can form curves when two perpendicular tracks meet. Rails can be placed flat on the ground or on slopes to create ascending and descending tracks. They are commonly found in abandoned mineshafts and are essential for creating efficient transportation networks in both survival and creative builds."
+    },
+    "minecraft:activator_rail": {
+        id: "minecraft:activator_rail",
+        name: "Activator Rail",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Activating minecarts with special functions",
+            secondaryUse: "Ejecting players and mobs from minecarts when powered"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Iron Ingot", "2x Stick", "1x Redstone Torch"]
+        },
+        specialNotes: [
+            "Crafting yields 6 activator rails per recipe",
+            "Requires redstone power to activate",
+            "Ejects players and mobs from minecarts when powered",
+            "Activates TNT minecarts, causing them to explode",
+            "Disables hopper minecarts when powered",
+            "Command block minecarts execute commands when passing over powered activator rails",
+            "Visual appearance changes when powered (turns red)"
+        ],
+        description: "Activator Rails are specialized rails that interact with minecarts when powered by redstone. When a minecart passes over a powered activator rail, different effects occur based on the minecart type: players and mobs are ejected, TNT minecarts are primed to explode, hopper minecarts are disabled, and command block minecarts execute their commands. Crafted from six iron ingots, two sticks, and one redstone torch yielding 6 rails, they are essential for creating advanced railway systems with automated functions and safety mechanisms."
+    },
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Detecting minecarts and outputting redstone signals",
+            secondaryUse: "Creating automated railway switches and stations"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Iron Ingot", "1x Stone Pressure Plate", "1x Redstone Dust"]
+        },
+        specialNotes: [
+            "Crafting yields 6 detector rails per recipe",
+            "Outputs a redstone signal when a minecart is on it",
+            "Signal strength varies based on container minecart fullness",
+            "Can be found in Mineshaft chests (27.1% chance)",
+            "Acts like a pressure plate for minecarts",
+            "Powers adjacent blocks and rails while active",
+            "Essential for automatic railway systems and minecart detection"
+        ],
+        description: "Detector Rails function as pressure plates specifically for minecarts, emitting a redstone signal whenever a minecart passes over them. When a minecart occupies a detector rail, it activates for as long as the minecart remains on it, powering adjacent redstone components and rails. For container minecarts (chest, hopper, or furnace), the signal strength corresponds to how full the container is, similar to how comparators read chest contents. Crafted from six iron ingots, one stone pressure plate, and redstone dust yielding 6 rails, detector rails are fundamental to creating automated sorting systems, railway switches, and smart transportation networks."
     }
 };
