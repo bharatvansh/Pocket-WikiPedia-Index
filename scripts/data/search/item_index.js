@@ -2223,5 +2223,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_boots",
         themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:iron_chestplate",
+        name: "Iron Chestplate",
+        category: "item",
+        icon: "textures/items/iron_chestplate",
+        themeColor: "§f" // white/silver
+    },
+    {
+        id: "minecraft:golden_chestplate",
+        name: "Golden Chestplate",
+        category: "item",
+        icon: "textures/items/gold_chestplate",
+        themeColor: "§e" // yellow/gold
+    },
+    {
+        id: "minecraft:diamond_chestplate",
+        name: "Diamond Chestplate",
+        category: "item",
+        icon: "textures/items/diamond_chestplate",
+        themeColor: "§b" // aqua/diamond blue
+    },
+    {
+        id: "minecraft:leather_leggings",
+        name: "Leather Pants",
+        category: "item",
+        icon: "textures/items/leather_leggings",
+        themeColor: "§6" // brown/leather
+    },
+    {
+        id: "minecraft:iron_leggings",
+        name: "Iron Leggings",
+        category: "item",
+        icon: "textures/items/iron_leggings",
+        themeColor: "§f" // white/silver
     }
 ];

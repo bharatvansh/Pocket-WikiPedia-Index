@@ -57,5 +57,51 @@ export const leggings = {
             "Highest tier of leg protection in the game"
         ],
         description: "Netherite Leggings are the strongest and most durable leg armor in Minecraft Bedrock Edition. They provide the same 6 points of armor as Diamond Leggings but offer significantly higher durability and built-in knockback resistance. A unique property of netherite equipment is its immunity to fire and lava; if dropped, the item will float on top of lava rather than burning. They are crafted by upgrading Diamond Leggings with a Netherite Ingot and a Smithing Template at a Smithing Table."
+    },
+    "minecraft:leather_leggings": {
+        id: "minecraft:leather_leggings",
+        name: "Leather Pants",
+        maxStack: 1,
+        durability: 75,
+        enchantable: true,
+        usage: {
+            primaryUse: "Leg protection",
+            secondaryUse: "Can be dyed various colors"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x7"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 full armor icon)",
+            "Durability: 75 (Bedrock Edition)",
+            "Only armor type that can be dyed in a cauldron (Bedrock)",
+            "Protects the wearer from freezing in powder snow",
+            "Can be crafted using 7 Leather pieces"
+        ],
+        description: "Leather Pants (Leather Leggings) are a basic tier of leg armor providing 2 points of protection. While they offer the lowest defense among armor materials, they have the unique ability to be dyed in over 12 million color combinations using a cauldron in Bedrock Edition. Additionally, they are essential for traversing snowy biomes, as they prevent the player from sinking into and freezing within Powder Snow blocks."
+    },
+    "minecraft:iron_leggings": {
+        id: "minecraft:iron_leggings",
+        name: "Iron Leggings",
+        maxStack: 1,
+        durability: 225,
+        enchantable: true,
+        usage: {
+            primaryUse: "Leg protection",
+            secondaryUse: "Decoration on armor stands"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x7"]
+        },
+        specialNotes: [
+            "Provides 5 armor points (2.5 armor icons)",
+            "Durability: 225 (Bedrock Edition)",
+            "Crafted using 7 Iron Ingots in an inverted U-shape",
+            "Provides more protection than chainmail or gold leggings",
+            "Can be smelted into an Iron Nugget"
+        ],
+        description: "Iron Leggings provide a reliable 5 points of protection for a player's legs. As part of a full iron set, they offer substantial defense during the middle stages of survival gameplay. With a durability of 225, they last significantly longer than gold or leather versions. They are frequently dropped by armored mobs and can be found in various loot chests throughout the Overworld. Like other iron tools and armor, they can be smelted down in a furnace to recover a single Iron Nugget."
     }
 };
