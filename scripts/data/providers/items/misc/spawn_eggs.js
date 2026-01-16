@@ -177,6 +177,111 @@ export const spawnEggs = {
         ],
         description: "The Camel Spawn Egg creates a camel at the targeted location, which is useful for populating deserts or testing mounts in Creative Mode. Camels spawned this way are unsaddled and can occasionally be babies. Like other spawn eggs, it is obtained through Creative/Commands and can change a Monster Spawner to produce camels."
     },
+    "minecraft:armadillo_spawn_egg": {
+        id: "minecraft:armadillo_spawn_egg",
+        name: "Armadillo Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Armadillo mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item; not obtainable in Survival.",
+            "Using on a Spawner converts it to an Armadillo spawner.",
+            "Armadillos curl into a ball when threatened and can be brushed for scutes."
+        ],
+        description: "The Armadillo Spawn Egg is a Creative/Commands-only item that spawns an armadillo at the clicked location. Armadillos curl up when startled and can be brushed to obtain scutes used for wolf armor, making this egg useful for testing behavior and farms in builds. Like other spawn eggs, it can change a Monster Spawner to produce armadillos."
+    },
+    "minecraft:bogged_spawn_egg": {
+        id: "minecraft:bogged_spawn_egg",
+        name: "Bogged Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bogged mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item; not obtainable in Survival.",
+            "Bogged are swamp-dwelling skeleton variants.",
+            "Using on a Spawner converts it to a Bogged spawner."
+        ],
+        description: "The Bogged Spawn Egg spawns a bogged at the target location, letting creators place this swamp-dwelling skeleton variant on demand. It is primarily a Creative/Commands-only item for testing and map design. Using it on a Monster Spawner converts the spawner to produce bogged mobs."
+    },
+    "minecraft:breeze_spawn_egg": {
+        id: "minecraft:breeze_spawn_egg",
+        name: "Breeze Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Breeze mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item; not obtainable in Survival.",
+            "Breezes are hostile mobs from trial chamber spawners.",
+            "Using on a Spawner converts it to a Breeze spawner."
+        ],
+        description: "The Breeze Spawn Egg instantly summons a breeze, the wind-based hostile mob found in trial chambers. It is handy for testing wind charge combat or trial chamber encounters in Creative mode. It can also be used on a Monster Spawner to set it to spawn breezes."
+    },
+    "minecraft:frog_spawn_egg": {
+        id: "minecraft:frog_spawn_egg",
+        name: "Frog Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Frog mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item; not obtainable in Survival.",
+            "Frog variants depend on the biome where they spawn.",
+            "Using on a Spawner converts it to a Frog spawner."
+        ],
+        description: "The Frog Spawn Egg instantly spawns a frog, making it easy to seed swamps or test frog behaviors. Frog variants depend on the biome where they spawn, and frogs can eat small slimes and magma cubes. The egg can also change a Monster Spawner to produce frogs."
+    },
+    "minecraft:goat_spawn_egg": {
+        id: "minecraft:goat_spawn_egg",
+        name: "Goat Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Goat mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Creative/Commands-only item; not obtainable in Survival.",
+            "Goats can ram entities and be milked with a bucket.",
+            "Using on a Spawner converts it to a Goat spawner."
+        ],
+        description: "The Goat Spawn Egg spawns a goat instantly, useful for populating mountain builds or testing goat behavior. Goats can ram entities and be milked, and some spawn as babies or as rare screaming goats. Like other spawn eggs, it can convert a Monster Spawner to goats."
+    },
     "minecraft:sniffer_spawn_egg": {
         id: "minecraft:sniffer_spawn_egg",
         name: "Sniffer Spawn Egg",
