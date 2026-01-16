@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_warden",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:creaking_spawn_egg",
+        name: "Creaking Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_creaking",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:frog_spawn_egg",
+        name: "Frog Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_frog",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tadpole",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_pale_oak",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        category: "item",
+        icon: "textures/items/boat_pale_oak_chest",
+        themeColor: "§f"
     }
 ];

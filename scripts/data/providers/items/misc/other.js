@@ -1474,5 +1474,49 @@ export const miscItems = {
             "Highly valued as a rare trophy from charged creeper explosions."
         ],
         description: "The Creeper Head is one of the most recognizable heads in Minecraft. It is a rare drop achieved only when a charged creeper kills another creeper. Wearing it makes the player less noticeable to creepers, providing a small but vital safety buffer. In Bedrock Edition, its interaction with Note Blocks is particularly famous, as it plays the characteristic fuse-hissing sound, often used by players to create pranks or high-tension environmental effects in their builds."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Fast travel on ice and packed ice"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Features the distinct pale, ghostly white texture of Pale Oak wood.",
+            "Accommodates up to two passengers, including mobs and players.",
+            "Nullifies fall damage for all occupants when falling from any height.",
+            "Moves significantly faster on ice and packed ice surfaces."
+        ],
+        description: "The Pale Oak Boat is a watercraft variant made from Pale Oak planks, introduced in the 1.21 'Winter Drop'. It features a unique, desaturated white appearance that matches the aesthetic of the Pale Garden biome. Functionally, it works like all other boats, allowing for efficient travel across water and extreme speeds on ice. It can carry two passengers and is a vital tool for transporting mobs safely over water or through the desaturated landscapes of the Pale Garden."
+    },
+    "minecraft:pale_oak_chest_boat": {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting a single player and up to 27 stacks of items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pale Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Provides 27 slots of inventory storage for ocean-bound travel.",
+            "Reduces passenger capacity to one due to the chest occupying the second seat.",
+            "Drops both the boat and the chest's contents when broken.",
+            "Matches the pale, ghostly aesthetic of the Pale Oak wood set."
+        ],
+        description: "The Pale Oak Boat with Chest combines the unique aesthetic of Pale Oak with the practical storage of a single chest. It offers 27 slots of inventory space, making it perfect for long-distance resource gathering in the Pale Garden or across the oceans. Because the chest takes up the rear seat, only one passenger can ride at a time. This vessel is an essential companion for explorers who need to haul large quantities of desaturated wood or moss back to their main base."
     }
 };

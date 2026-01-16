@@ -240,5 +240,68 @@ export const spawnEggs = {
             "Spawns the Warden in any environment, not just Ancient Cities."
         ],
         description: "The Warden Spawn Egg allows for the immediate summoning of the Warden, the formidable guardian of the Deep Dark. As a blind mob that relies on sound and vibration, the Warden is one of the most dangerous entities in the game. This egg is a tool for Creative Mode players and map makers to test their skills or create custom encounters. Like other spawn eggs, it can be used to modify spawners, providing a way to generate Wardens outside of their natural habitat for research or challenge maps."
+    },
+    "minecraft:creaking_spawn_egg": {
+        id: "minecraft:creaking_spawn_egg",
+        name: "Creaking Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Creaking mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Specifically summons the Creaking mob, a vibration-sensitive guardian of the Pale Garden.",
+            "When used on a Monster Spawner, it converts it into a Creaking spawner.",
+            "Available only in Creative Mode or via commands in Bedrock Edition."
+        ],
+        description: "The Creaking Spawn Egg is a creative-only item used to summon a Creaking. The Creaking is a unique, tree-like hostile mob that only moves when players aren't looking at it. It is naturally linked to a Creaking Heart block, which makes the mob invulnerable until the heart is destroyed. Using this egg allows players to place a Creaking anywhere, though it persists only as long as its conditions are met or if spawned manually without a heart in Creative."
+    },
+    "minecraft:frog_spawn_egg": {
+        id: "minecraft:frog_spawn_egg",
+        name: "Frog Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Frog mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Can spawn one of three frog variants depending on the temperature of the biome.",
+            "Using it on a Monster Spawner creates a Frog spawner.",
+            "Available in the Creative Mode inventory for manual placement."
+        ],
+        description: "The Frog Spawn Egg allows players to instantly summon a Frog. In Bedrock Edition, the variant of the frog spawned depends on the climate of the biome where the egg is used: Temperate (orange), Warm (white), or Cold (green). Frogs are passive mobs that can leap great distances and eat small slimes or magma cubes. This spawn egg is particularly useful for map makers who want to create functional Froglight farms or add life to swamp-themed builds in Creative Mode."
+    },
+    "minecraft:tadpole_spawn_egg": {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Tadpole mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a baby frog (Tadpole) that must stay in water to survive.",
+            "A Tadpole will grow into a specific Frog variant based on the biome it matures in.",
+            "Creative-only item for manual aquatic mob placement."
+        ],
+        description: "The Tadpole Spawn Egg is used to summon a Tadpole, the larval stage of a Frog. Tadpoles are aquatic and will take damage if they are out of water for too long. Unlike most baby mobs, they are completely different animals from their adult forms. Using this egg is the fastest way to place Tadpoles in specific biomes to ensure they grow into the desired Warm, Cold, or Temperate Frog variants. It can also be applied to a Monster Spawner to create a Tadpole-generating block."
     }
 };
