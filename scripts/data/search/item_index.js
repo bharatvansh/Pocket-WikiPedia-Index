@@ -21,6 +21,13 @@ export const itemIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/arrow_tipped",
+        themeColor: "§f" // white/varies
+    },
+    {
         id: "minecraft:orange_dye",
         name: "Orange Dye",
         category: "item",
@@ -1495,7 +1502,35 @@ export const itemIndex = [
         name: "Bamboo Raft",
         category: "item",
         icon: "textures/items/boat_bamboo",
-        themeColor: "§e"
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/boat_pale_oak",
+        themeColor: "§7" // gray/white
+    },
+    {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Chest Boat",
+        category: "item",
+        icon: "textures/items/boat_pale_oak_chest",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        category: "item",
+        icon: "textures/items/sign_pale_oak",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_hanging_sign",
+        name: "Pale Oak Hanging Sign",
+        category: "item",
+        icon: "textures/items/hanging_sign_pale_oak",
+        themeColor: "§7"
     },
     {
         id: "minecraft:boat_oar",

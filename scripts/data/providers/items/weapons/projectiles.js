@@ -66,6 +66,34 @@ export const projectiles = {
         ],
         description: "The Arrow is the fundamental ammunition for ranged combat in Minecraft, used with Bows, Crossbows, and Dispensers. It is crafted from flint, a stick, and a feather, producing four arrows per batch. In Bedrock Edition, arrows deal damage proportional to their velocity, and they can be tipped with potions to inflict status effects. Skeletons and Pillagers frequently drop them, making them a renewable resource even without crafting."
     },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting status effects on hit using a Bow or Crossbow",
+            secondaryUse: "Ammunition for Dispensers"
+        },
+        combat: {
+            attackDamage: 2, // Plus effect damage
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron",
+            ingredients: ["Arrow x64", "Cauldron with Potion (1/3 bottle)"]
+        },
+        specialNotes: [
+            "In Bedrock Edition, they are crafted by using arrows on a cauldron containing a potion",
+            "One potion bottle in a cauldron can tip 16 arrows (8 in Java)",
+            "A full cauldron (3 bottles) can tip a full stack of 64 arrows",
+            "Effects include Swiftness, Harming, Healing, Poison, and more",
+            "The duration of the effect is generally 1/8th of the original potion",
+            "Cannot be retrieved after being fired from a Bow with Infinity"
+        ],
+        description: "Tipped arrows are specialized projectiles that deliver potion effects to the target they hit. Unlike Java Edition's crafting table recipe, Bedrock Edition players create them by dipping arrows into a cauldron filled with a potion. A single potion bottle can tip 16 arrows, making the process highly efficient. These arrows are essential for advanced combat strategies, allowing players to heal allies or apply debilitating debuffs from a distance. They are compatible with both Bows and Crossbows, though they cannot be recovered if shot from an Infinity-enchanted bow."
+    },
     "minecraft:snowball": {
         id: "minecraft:snowball",
         name: "Snowball",
