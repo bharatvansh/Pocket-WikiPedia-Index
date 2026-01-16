@@ -1408,5 +1408,128 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:sponge": {
+        id: "minecraft:sponge",
+        name: "Sponge",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Absorbing water in a 5x5x5 area",
+            secondaryUse: "Creating dry zones in ocean monuments and underwater builds"
+        },
+        crafting: {
+            recipeType: "Smelting",
+            ingredients: ["Wet Sponge in Furnace"]
+        },
+        specialNotes: [
+            "Cannot be crafted; obtained from Ocean Monuments or Elder Guardians",
+            "Absorbs up to 65 water source blocks in a 5x5x5 radius when placed",
+            "Becomes a wet sponge after absorbing water",
+            "Wet sponges can be dried in a furnace or placed in the Nether",
+            "Elder Guardians have a 100% chance to drop 1 wet sponge on death",
+            "Room with sponges generates in every Ocean Monument"
+        ],
+        description: "The Sponge is a rare and highly useful block for underwater construction and water removal. Found exclusively in Ocean Monuments as part of the sponge room or dropped by Elder Guardians, it cannot be crafted through normal means. When placed adjacent to water, it instantly absorbs all water source blocks in a 5x5x5 area, becoming a wet sponge. This makes it invaluable for clearing large water-filled spaces, creating air pockets in underwater builds, or draining sections of ocean monuments. Wet sponges can be restored to dry sponges by smelting them in a furnace or simply placing them in the Nether dimension."
+    },
+    "minecraft:sea_pickle": {
+        id: "minecraft:sea_pickle",
+        name: "Sea Pickle",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Underwater lighting and decoration",
+            secondaryUse: "Crafting lime dye"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found naturally in warm ocean biomes"]
+        },
+        specialNotes: [
+            "Emits light underwater (level 3-15 depending on cluster size)",
+            "Can be placed 1-4 per block, with brightness increasing per pickle",
+            "Only glows when underwater; does not emit light when dry",
+            "Can be bonemealed on coral blocks to multiply",
+            "Smelting or composting produces lime dye",
+            "Naturally generates in colonies on coral blocks in warm oceans"
+        ],
+        description: "Sea Pickles are bioluminescent organisms found in warm ocean biomes, growing naturally on living coral blocks. They serve as a unique underwater lighting source, with their brightness depending on how many pickles are clustered together on a single block - from light level 3 for one pickle up to level 15 for four. Importantly, sea pickles only emit light when submerged in water; they remain dark when placed on land. They can be multiplied by using bone meal on coral blocks in warm oceans. Beyond their lighting capabilities, sea pickles can be smelted or composted to produce lime dye, making them both decorative and functional."
+    },
+    "minecraft:glow_lichen": {
+        id: "minecraft:glow_lichen",
+        name: "Glow Lichen",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Natural cave lighting and decoration",
+            secondaryUse: "Ambient lighting for builds"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained with shears from cave walls"]
+        },
+        specialNotes: [
+            "Emits a constant light level of 7",
+            "Can only be harvested with shears; breaks without drop otherwise",
+            "Can be placed on any face of most solid blocks",
+            "Naturally generates on stone, andesite, diorite, granite, calcite, tuff, deepslate, and dripstone",
+            "Can be waterlogged and still emits light",
+            "Does not spread or grow like vines",
+            "Composting has a 50% chance to raise compost level"
+        ],
+        description: "Glow Lichen is a dim bioluminescent plant introduced in the Caves & Cliffs update, naturally found decorating cave walls throughout the underground. It emits a soft light level of 7, making it useful for subtle ambient lighting without the harsh brightness of torches. Unlike most blocks, glow lichen can only be collected using shears - breaking it with any other tool causes it to drop nothing. It can be placed on any face of compatible blocks and remains functional even when waterlogged. While it cannot spread or grow on its own like vines, its unique aesthetic and gentle glow make it popular for natural-looking cave bases and atmospheric builds."
+    },
+    "minecraft:big_dripleaf": {
+        id: "minecraft:big_dripleaf",
+        name: "Big Dripleaf",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Temporary platform that tilts after being stepped on",
+            secondaryUse: "Creating parkour challenges and puzzle mechanisms"
+        },
+        crafting: {
+            recipeType: "Growth",
+            ingredients: ["Grown from Small Dripleaf using bone meal"]
+        },
+        specialNotes: [
+            "Tilts downward 1 second after an entity stands on it, causing them to fall",
+            "Returns to horizontal position after 1 second if no entity is present",
+            "Can be placed only on clay, moss blocks, dirt variants, or farmland",
+            "Grows up to 16 blocks tall with bone meal on small dripleaf",
+            "Found naturally in Lush Cave biomes",
+            "Breaks instantly with any tool; axe is most efficient",
+            "Can support up to 10 entities before tilting"
+        ],
+        description: "The Big Dripleaf is a unique plant block introduced in the Caves & Cliffs update, found naturally in Lush Cave biomes or grown from small dripleaves using bone meal. Its distinctive feature is its large leaf platform that serves as a temporary surface - when an entity steps on it, the leaf remains stable for one second before tilting downward at a 45-degree angle, causing anything on top to fall through. After tilting, it returns to its horizontal position after another second. This mechanic makes big dripleaves popular for creating parkour challenges, puzzle mechanisms, and trap designs. The plant can only be placed on certain blocks like clay, moss, or dirt, and can grow quite tall when bonemealed."
+    },
+    "minecraft:moss_block": {
+        id: "minecraft:moss_block",
+        name: "Moss Block",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Converting nearby stone blocks to moss when bonemealed",
+            secondaryUse: "Growing moss carpet, azalea, and other vegetation"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Lush Caves, shipwrecks, or traded from Wandering Traders"]
+        },
+        specialNotes: [
+            "Spreads to adjacent stone-type blocks when bonemealed",
+            "Bone meal also spawns moss carpet, grass, azaleas, and flowering azaleas on top",
+            "Can be mined fastest with a hoe, but any tool works",
+            "Naturally generates in Lush Caves and shipwreck supply chests",
+            "Wandering Traders sell moss blocks for 1 emerald each",
+            "Can be used to craft moss carpet in a 2:3 ratio",
+            "Has a 65% chance to increase compost level when composted"
+        ],
+        description: "Moss Blocks are versatile plant blocks introduced in the Caves & Cliffs update, primarily found in Lush Cave biomes or obtained through trading with Wandering Traders. Their unique feature is the ability to spread moss when bonemealed - converting adjacent stone, cobblestone, andesite, diorite, granite, tuff, and other stone variants into moss blocks. Bone meal also causes moss carpet, grass, azaleas, and flowering azaleas to grow on top of the moss block and surrounding area. This spreading mechanic makes moss blocks excellent for terraforming projects and creating natural-looking overgrown areas. The blocks are best mined with a hoe and can be crafted into moss carpet or used in composters for a 65% chance of raising the compost level."
     }
 };

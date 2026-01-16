@@ -2573,5 +2573,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/fish_tropical",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:sponge",
+        name: "Sponge",
+        category: "item",
+        icon: "textures/blocks/sponge",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:sea_pickle",
+        name: "Sea Pickle",
+        category: "item",
+        icon: "textures/blocks/sea_pickle",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:glow_lichen",
+        name: "Glow Lichen",
+        category: "item",
+        icon: "textures/blocks/glow_lichen",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:big_dripleaf",
+        name: "Big Dripleaf",
+        category: "item",
+        icon: "textures/blocks/big_dripleaf",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:moss_block",
+        name: "Moss Block",
+        category: "item",
+        icon: "textures/blocks/moss_block",
+        themeColor: "§2"
     }
 ];
