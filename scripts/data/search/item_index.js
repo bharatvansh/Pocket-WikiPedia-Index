@@ -2258,5 +2258,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_boots",
         themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:diamond_helmet",
+        name: "Diamond Helmet",
+        category: "item",
+        icon: "textures/items/diamond_helmet",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:diamond_chestplate",
+        name: "Diamond Chestplate",
+        category: "item",
+        icon: "textures/items/diamond_chestplate",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:diamond_leggings",
+        name: "Diamond Leggings",
+        category: "item",
+        icon: "textures/items/diamond_leggings",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:diamond_boots",
+        name: "Diamond Boots",
+        category: "item",
+        icon: "textures/items/diamond_boots",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:iron_helmet",
+        name: "Iron Helmet",
+        category: "item",
+        icon: "textures/items/iron_helmet",
+        themeColor: "§f"
     }
 ];
