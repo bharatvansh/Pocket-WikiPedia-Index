@@ -10,6 +10,30 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const chestplates = {
+    "minecraft:leather_chestplate": {
+        id: "minecraft:leather_chestplate",
+        name: "Leather Tunic",
+        maxStack: 1,
+        durability: 80,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic torso protection",
+            secondaryUse: "Freezing protection and decoration"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Leather x8"]
+        },
+        specialNotes: [
+            "Provides 3 armor points (1.5 shield icons)",
+            "Protects the wearer from freezing damage in Powder Snow",
+            "Can be dyed millions of colors using a Cauldron in Bedrock Edition",
+            "Durability: 80",
+            "Repairable with Leather in an Anvil",
+            "Crafted using 8 pieces of Leather in a shaped pattern"
+        ],
+        description: "The Leather Tunic is a torso protection piece that provides 3 armor points. Beyond its survival utility, it is the only armor piece in Minecraft Bedrock Edition that protects the player from the freezing effect caused by Powder Snow. Like other leather armor, it can be dyed in a cauldron to create millions of unique colors, making it essential for both cold-weather exploration and decorative outfit design."
+    },
     "minecraft:chainmail_chestplate": {
         id: "minecraft:chainmail_chestplate",
         name: "Chainmail Chestplate",

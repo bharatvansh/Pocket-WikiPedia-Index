@@ -2223,5 +2223,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_boots",
         themeColor: "§8" // dark gray/netherite
+    },
+    {
+        id: "minecraft:leather_helmet",
+        name: "Leather Cap",
+        category: "item",
+        icon: "textures/items/leather_helmet",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:iron_helmet",
+        name: "Iron Helmet",
+        category: "item",
+        icon: "textures/items/iron_helmet",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:golden_helmet",
+        name: "Golden Helmet",
+        category: "item",
+        icon: "textures/items/gold_helmet",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:diamond_helmet",
+        name: "Diamond Helmet",
+        category: "item",
+        icon: "textures/items/diamond_helmet",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:leather_chestplate",
+        name: "Leather Tunic",
+        category: "item",
+        icon: "textures/items/leather_chestplate",
+        themeColor: "§6"
     }
 ];
