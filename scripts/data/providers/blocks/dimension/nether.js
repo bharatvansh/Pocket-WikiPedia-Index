@@ -3,7 +3,8 @@
 // This file contains: Netherrack, nether bricks, red nether bricks,
 // nether wart block, warped wart block, crimson nylium, warped nylium,
 // crimson stem, warped stem, shroomlight, basalt, smooth basalt,
-// polished basalt, blackstone variants, gilded blackstone,
+// polished basalt, weeping vines, crimson fungus, warped fungus,
+// blackstone variants, gilded blackstone,
 // soul sand, soul soil, magma block, glowstone, crying obsidian
 // ============================================
 
@@ -619,5 +620,89 @@ export const netherBlocks = {
             yRange: "Bastion Remnants, crafted from 2 Quartz Blocks"
         },
         description: "Quartz Pillar is a decorative variant of the quartz block, featuring a distinctive cylindrical texture with vertical lines. It is primarily used for constructing columns, pillars, and grand architectural features in classical or modern builds. It can be placed in different orientations, allowing the lines to run vertically or horizontally. Quartz pillars are crafted by vertically stacking two quartz blocks or obtained via a stonecutter. They generate naturally in bastion remnants and provide a clean, elegant aesthetic while maintaining the same properties as standard quartz blocks."
+    },
+    "minecraft:weeping_vines": {
+        id: "minecraft:weeping_vines",
+        name: "Weeping Vines",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Weeping Vines (with Shears)"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest (ceiling)"
+        },
+        description: "Weeping Vines are red, climbable plants that grow downwards from the ceilings of Crimson Forests in the Nether. They can grow up to 26 blocks long and can be extended using bone meal. Unlike Overworld vines, they are non-flammable and grow from the top down. Players can climb them like ladders to navigate the vertical terrain of the Nether. To harvest them as an item, Shears must be used, although they can be broken instantly by any tool. They provide an atmospheric red aesthetic to the Crimson Forest biome."
+    },
+    "minecraft:crimson_fungus": {
+        id: "minecraft:crimson_fungus",
+        name: "Crimson Fungus",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Fungus"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crimson Forest"
+        },
+        description: "Crimson Fungus is a mushroom-like block found naturally in the Crimson Forest biome of the Nether. It is primarily used to grow huge crimson fungi by using bone meal on it when placed on crimson nylium. This fungus is non-flammable and can be placed on various Nether surfaces including soul sand and soul soil. Hoglins are notably afraid of warped fungus, but they are not repelled by the crimson variant. It can also be used as an ingredient for suspicious stew or to breed Striders in Bedrock Edition."
+    },
+    "minecraft:warped_fungus": {
+        id: "minecraft:warped_fungus",
+        name: "Warped Fungus",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Fungus"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Warped Fungus is a teal-colored mushroom variant found in the Warped Forest biome. It is a vital resource in the Nether, used to breed and lead Striders, and can be combined with a fishing rod to create a Warped Fungus on a Stick. Notably, Hoglins are afraid of warped fungus and will stay at least 7 blocks away from it. When bone meal is used on a warped fungus placed on warped nylium, it grows into a huge warped fungus. Like its crimson counterpart, it is fire-resistant and serves as a decorative or functional botanical element."
+    },
+    "minecraft:polished_basalt": {
+        id: "minecraft:polished_basalt",
+        name: "Polished Basalt",
+        hardness: 1.25,
+        blastResistance: 4.25,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Basalt"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, crafted from 4 Basalt"
+        },
+        description: "Polished Basalt is a decorative variant of basalt with a smooth finish and a cleaner texture. It is crafted from four regular basalt blocks in a 2x2 pattern or processed via a stonecutter. It generates naturally in some bastion remnant structures and provides a sophisticated dark gray aesthetic for building. Like logs, polished basalt is a directional block and can be placed in three different orientations. It maintains the same durability as raw basalt, requiring a pickaxe to mine efficiently and offering moderate resistance to explosions."
     }
 };

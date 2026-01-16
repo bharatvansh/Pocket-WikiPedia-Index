@@ -708,5 +708,26 @@ export const vegetationBlocks = {
             yRange: "N/A (Spawns when Wither kills a mob)"
         },
         description: "The Wither Rose is a rare, dark flower that is created when a Wither kills a non-undead mob. Unlike most plants, it inflicts the Wither effect on any creature that walks through it, making it a powerful tool for traps and automated mob farms. It can be placed on most solid blocks, including netherrack and soul sand, which is atypical for flowers. Despite its lethal nature, it can be used to craft Black Dye or as a decorative element in more macabre builds. It is one of the few flowers that can be found in any dimension, provided a Wither has been summoned to create it."
+    },
+    "minecraft:cherry_sapling": {
+        id: "minecraft:cherry_sapling",
+        name: "Cherry Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Cherry Grove biome"
+        },
+        description: "Cherry Sapling is a beautiful pink-flowered sapling introduced in the 1.20 Trails & Tales update. It grows naturally in the Cherry Grove biome and can be obtained by breaking or decaying Cherry Leaves. Unlike dark oak saplings, a single cherry sapling can grow into a full cherry tree, though it may take several growth stages. Its vibrant pink appearance makes it a popular choice for decorative landscaping and botanical gardens. Bone meal can be used to accelerate its growth into a mature cherry tree with its iconic falling leaf particles."
     }
 };
