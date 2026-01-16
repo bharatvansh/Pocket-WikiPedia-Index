@@ -78,6 +78,29 @@ export const boots = {
         ],
         description: "Iron Boots are fundamental footwear for any mid-game explorer. Providing 2 armor points, they offer decent protection and can be enchanted with powerful effects like Feather Falling to reduce fall damage or Depth Strider for faster swimming. They are the cheapest piece of iron armor to craft, requiring only four iron ingots. Despite being the lowest tier of iron armor in terms of defense, they are vital for completing the full iron set and receiving the set's maximum defense benefits."
     },
+    "minecraft:golden_boots": {
+        id: "minecraft:golden_boots",
+        name: "Golden Boots",
+        maxStack: 1,
+        durability: 91,
+        enchantable: true,
+        usage: {
+            primaryUse: "Foot protection and Piglin pacification",
+            secondaryUse: "Strategic use for Nether travel"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x4"]
+        },
+        specialNotes: [
+            "Provides 1 armor point (0.5 bar).",
+            "Prevents Piglins from attacking the wearer in the Nether.",
+            "Lowest durability of all metal boots (91 vs 195 for Iron).",
+            "Can be enchanted with powerful enchantments more easily than other materials.",
+            "Crafted using 4 Gold Ingots."
+        ],
+        description: "Golden Boots provide 1 point of armor protection for the player's feet. Like all golden armor, they are fragile but possess high enchantability. Their primary strategic use is in the Nether, where wearing at least one piece of gold armor prevents Piglins from becoming hostile towards the player. This makes them a lightweight and effective way to travel safely through Bastion Remnants and other Piglin-heavy areas."
+    },
     "minecraft:diamond_boots": {
         id: "minecraft:diamond_boots",
         name: "Diamond Boots",

@@ -428,5 +428,86 @@ export const rawFood = {
             "Can be fed to wolves to speed up the growth of baby wolves"
         ],
         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing tamed wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        stats: {
+            hungerChance: "30%"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "30% chance of inflicting Hunger effect for 30 seconds when eaten.",
+            "Dropped by chickens when they die.",
+            "Used to breed and heal tamed wolves.",
+            "Better to cook in a furnace, smoker or campfire to make Cooked Chicken."
+        ],
+        description: "Raw Chicken is a food item obtained from chickens. While it can be eaten raw, it has a 30% chance of causing the Hunger status effect, making it less efficient and potentially harmful. It is primarily used to breed wolves or as a raw material to be cooked into Cooked Chicken, which provides much better nutritional value and has no negative effects."
+    },
+    "minecraft:rabbit": {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Ingredient for Rabbit Stew"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Rabbits"]
+        },
+        specialNotes: [
+            "Dropped by rabbits when they die.",
+            "Can be cooked into Cooked Rabbit for better nutrition.",
+            "Used as an ingredient in Rabbit Stew.",
+            "Can be used to breed and heal tamed wolves."
+        ],
+        description: "Raw Rabbit is a food item obtained by killing rabbits. It provides 3 hunger points and 1.8 saturation. While it can be eaten raw, its maximum potential is reached when cooked into Cooked Rabbit or used as a key ingredient in Rabbit Stew. Like other raw meats, it is also useful for breeding and healing tamed wolves."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Taming and breeding cats and ocelots"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via fishing", "Dropped by Tropical Fish mobs"]
+        },
+        specialNotes: [
+            "Cannot be cooked in a furnace, smoker, or campfire.",
+            "Dropped by tropical fish mobs.",
+            "Used to feed and breed cats and ocelots.",
+            "Comes in many varieties in the world, but the item form is singular."
+        ],
+        description: "Tropical Fish is a food item obtained by killing tropical fish or through fishing. Unlike cod or salmon, it cannot be cooked, making it a relatively poor food source for players with only 1 hunger point and 0.2 saturation. Its primary utility is for taming and breeding cats or gaining the trust of ocelots in Bedrock Edition. It is commonly found in warm ocean biomes."
     }
 };

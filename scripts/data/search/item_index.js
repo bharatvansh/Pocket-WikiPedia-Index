@@ -2363,5 +2363,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/iron_helmet",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        category: "item",
+        icon: "textures/items/chicken_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        category: "item",
+        icon: "textures/items/rabbit_raw",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        category: "item",
+        icon: "textures/items/fish_tropical_raw",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:golden_leggings",
+        name: "Golden Leggings",
+        category: "item",
+        icon: "textures/items/gold_leggings",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:golden_boots",
+        name: "Golden Boots",
+        category: "item",
+        icon: "textures/items/gold_boots",
+        themeColor: "§e"
     }
 ];
