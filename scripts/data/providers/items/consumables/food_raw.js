@@ -511,5 +511,145 @@ export const rawFood = {
             "Caught with a 2% chance when fishing similarly to other fish"
         ],
         description: "Tropical Fish are a category of fish found in warm ocean biomes. Unlike cod and salmon, they cannot be cooked and provide minimal nutrition when eaten raw. Their primary value is for Axolotls, as they are the only food source that can be used to breed them and speed up baby growth. In Bedrock Edition, they feature an incredible 2,700 color and pattern variations. They are easily obtained using a bucket on the mob itself or through fishing in warm oceans."
+    },
+    "minecraft:raw_beef": {
+        id: "minecraft:raw_beef",
+        name: "Raw Beef",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that can be cooked",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by cattle (cows, mooshrooms)", "Found in dungeon chests"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 1.8 saturation",
+            "Cows and mooshrooms drop 1-3 raw beef (increased by Looting)",
+            "Can be cooked in furnace, smoker, or campfire to make Steak",
+            "80% chance to apply Hunger effect for 30 seconds in Bedrock Edition",
+            "Can be fed to wolves to heal them (despite Hunger effect)",
+            "Stackable up to 64"
+        ],
+        description: "Raw Beef is a common food item dropped by cattle, including cows and mooshrooms, when killed. It restores 3 hunger points and 1.8 saturation, making it a moderate food source. However, consuming raw beef carries an 80% chance of inflicting the Hunger status effect for 30 seconds in Bedrock Edition, making it risky as emergency food. The superior solution is to cook it into Steak using a furnace, smoker, or campfire, which eliminates the Hunger effect and increases the nutritional value significantly. Raw beef also serves as a safe food for wolves, as they do not suffer the Hunger status effect."
+    },
+    "minecraft:raw_porkchop": {
+        id: "minecraft:raw_porkchop",
+        name: "Raw Porkchop",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that can be cooked",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by pigs and hoglins", "Rarely found in structure chests"]
+        },
+        specialNotes: [
+            "Restores 3 hunger (1.5 drumsticks) and 1.8 saturation",
+            "Pigs drop 1-3 raw porkchop (increased by Looting); Hoglins drop 2-4",
+            "Can be cooked in furnace, smoker, or campfire to make Cooked Porkchop",
+            "80% chance to apply Hunger effect for 30 seconds in Bedrock Edition",
+            "Can be fed to wolves to heal them (despite Hunger effect)",
+            "Stackable up to 64"
+        ],
+        description: "Raw Porkchop is a common food item obtained by killing pigs or hoglins. Like raw beef, it restores 3 hunger and 1.8 saturation but carries an 80% chance of inflicting the Hunger status effect for 30 seconds when eaten raw in Bedrock Edition. Cooking raw porkchop into Cooked Porkchop using a furnace, smoker, or campfire eliminates this risk while providing superior nutrition (8 hunger and 12.8 saturation). Raw porkchop is a safe food source for wolves and serves as a staple for early-game survival, especially in areas with abundant pig farms."
+    },
+    "minecraft:raw_mutton": {
+        id: "minecraft:raw_mutton",
+        name: "Raw Mutton",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that can be cooked",
+            secondaryUse: "Breeding and healing wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by sheep (natural and colored)", "Obtained in structure chests"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 1.2 saturation",
+            "Sheep drop 1-2 raw mutton (increased by Looting) when killed",
+            "Can be cooked in furnace, smoker, or campfire to make Cooked Mutton",
+            "80% chance to apply Hunger effect for 30 seconds in Bedrock Edition",
+            "Can be fed to wolves to heal them (despite Hunger effect)",
+            "Often overlooked due to lower yield compared to beef or porkchop"
+        ],
+        description: "Raw Mutton is a food item dropped by sheep when killed, making it a natural byproduct of wool and dye farming. It restores a modest 2 hunger and 1.2 saturation. Like other raw meat, eating it raw carries an 80% chance of applying the Hunger status effect. Cooking raw mutton into Cooked Mutton provides better nutrition and eliminates the Hunger risk. While sheep yield only 1-2 raw mutton per kill (compared to pigs and cows), it remains a viable food source for players who maintain sheep farms. Wolves can also safely consume raw mutton."
+    },
+    "minecraft:raw_cod": {
+        id: "minecraft:raw_cod",
+        name: "Raw Cod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that can be cooked",
+            secondaryUse: "Feeding and breeding cats (for taming and growth)"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Caught via fishing", "Dropped by Cod mobs in rivers and oceans"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Can be cooked in furnace, smoker, or campfire to make Cooked Cod",
+            "Used to tame and breed cats in Bedrock Edition (replaces raw fish)",
+            "Can be fed to wolves to heal them",
+            "Obtained with approximately 10% chance when fishing in rivers, oceans, and other water bodies",
+            "Cod mobs drop 1 raw cod when killed"
+        ],
+        description: "Raw Cod is a basic fish food item obtained through fishing in rivers and oceans, or by killing Cod mobs directly. It restores only 2 hunger and 0.4 saturation, making it relatively inefficient as a primary food source. However, its primary value lies in being used to tame and breed cats in Bedrock Edition, making it essential for pet collectors. Raw cod can be cooked into Cooked Cod for better nutrition (5 hunger and 6.0 saturation). It serves as a reliable renewable food source for players living near water and works well for feeding wolves."
+    },
+    "minecraft:raw_salmon": {
+        id: "minecraft:raw_salmon",
+        name: "Raw Salmon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source that can be cooked",
+            secondaryUse: "Feeding and breeding cats and wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 0.4
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Caught via fishing", "Dropped by Salmon mobs in rivers and oceans"]
+        },
+        specialNotes: [
+            "Restores 2 hunger (1 drumstick) and 0.4 saturation",
+            "Can be cooked in furnace, smoker, or campfire to make Cooked Salmon",
+            "Used to tame and breed cats and wolves in Bedrock Edition",
+            "Obtained with approximately 10% chance when fishing in rivers and oceans",
+            "Salmon mobs drop 1 raw salmon when killed",
+            "More abundant than cod in larger bodies of water, making it a reliable renewable resource"
+        ],
+        description: "Raw Salmon is a fish food obtained by fishing in rivers and oceans or by killing Salmon mobs. Like raw cod, it restores only 2 hunger and 0.4 saturation but becomes invaluable when used to tame, breed, and heal cats and wolves in Bedrock Edition. Raw salmon is particularly useful for players managing wolf packs and cat collections. It can be cooked into Cooked Salmon for superior nutrition (6 hunger and 9.6 saturation). Salmon is often more abundant than cod in larger water bodies, making it a reliable resource for survival gameplay."
     }
 };
