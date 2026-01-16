@@ -1188,5 +1188,188 @@ export const miscItems = {
             "Nullifies fall damage for all passengers when falling from any height"
         ],
         description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
-    }
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two entities",
+            secondaryUse: "Themed transportation for Pale Garden builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Matches the desaturated, grayish-white appearance of Pale Oak wood",
+            "Can carry two passengers, including players and mobs",
+            "Moves very fast on ice, especially blue ice",
+            "Nullifies fall damage for all occupants regardless of height",
+            "Introduced as part of the Pale Garden biome update (1.21.40+)"
+        ],
+        description: "The Pale Oak Boat is a specialized watercraft variant introduced alongside the Pale Garden biome. Crafted from five Pale Oak Planks, it features a unique ghostly, desaturated appearance that matches the wood of the Pale Oak tree. Like all Minecraft boats, it is a highly efficient way to travel across oceans and rivers, supporting up to two passengers. It also serves as an excellent traversal tool over ice and protects its occupants from fall damage, making it useful both on and off the water."
+    },
+    "minecraft:pale_oak_chest_boat": {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Chest Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation with mobile storage",
+            secondaryUse: "Transporting items and one passenger across Pale Garden"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pale Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Features a 27-slot inventory accessible while inside or outside the boat",
+            "Can only carry one passenger due to the space taken by the chest",
+            "Retains the grayish-white aesthetic of the Pale Oak wood set",
+            "Drops its contents and the chest boat item when destroyed",
+            "Ideal for transporting resources from the eerie Pale Garden biome"
+        ],
+        description: "The Pale Oak Chest Boat is mid-range transportation that combines the Pale Oak Boat with a standard Chest. This variant is perfect for expeditions into the Pale Garden, allowing players to carry up to 27 additional slots of resources while traveling. While it limits passenger capacity to one, its storage benefit is invaluable for long-range resource gathering. Its distinct pale gray appearance ensures it fits perfectly within the muted color palette of the 1.21.40 winter update content."
+    },
+    "minecraft:pale_oak_sign": {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on blocks or surfaces",
+            secondaryUse: "Directional markers and labeling storage"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Can be placed on the top of blocks or on walls",
+            "Text can be edited after placement in Bedrock Edition",
+            "Dye can be used to change text color; Glow Ink Sac makes text glow",
+            "Both sides of the sign can have different text and colors",
+            "Signs can be locked by using honeycombs to prevent further editing"
+        ],
+        description: "The Pale Oak Sign is a classic messaging tool crafted from Pale Oak Planks. Its grayish-white wood provides a stark, clean background for text, making it highly readable. In Bedrock Edition, signs are versatile; they can be placed on almost any surface, and their text can be edited even after placement. Players can further customize them using dyes and glow ink sacs, or wax them with honeycombs to prevent further changes, making them essential for base organization and adventure map creation."
+    },
+    "minecraft:pale_oak_hanging_sign": {
+        id: "minecraft:pale_oak_hanging_sign",
+        name: "Pale Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text hanging from blocks or side of blocks",
+            secondaryUse: "Aesthetic signage with a premium feel"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Chain x2", "Stripped Pale Oak Log x6"]
+        },
+        specialNotes: [
+            "Can be hung from the bottom or side of blocks with a solid bracket",
+            "Requires Stripped Pale Oak Logs and Chains to craft",
+            "Functionally identical to standard signs but with a smaller text area",
+            "Matches the Pale Oak wood set for a consistent haunting aesthetic",
+            "Text can be applied to both sides, each with unique formatting"
+        ],
+        description: "The Pale Oak Hanging Sign is a decorative variant of the sign that hangs from chains. Crafted from Stripped Pale Oak Logs and Chains, it offers a more elegant and versatile way to display information in your world. It can be suspended from the underside of blocks or attached to the sides with a support bracket. Like standard signs, it supports dual-sided text entry, dye customization, and waxing. Its unique desaturated tone makes it a standout choice for markers within the Pale Garden biome."
+    },
+    "minecraft:crafter": {
+        id: "minecraft:crafter",
+        name: "Crafter",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Automating crafting recipes via redstone signals",
+            secondaryUse: "Compact automatic factory systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["5x Iron Ingot", "1x Crafting Table", "1x Redstone Dust", "2x Dropper"]
+        },
+        specialNotes: [
+            "Activated by a redstone pulse to craft one item.",
+            "Slots can be toggled 'on' or 'off' to define the recipe shape.",
+            "Pushes the crafted item into the world or an adjacent container.",
+            "Has a unique 'crushing' animation when crafting.",
+            "Introduced in the 1.21 Tricky Trials update."
+        ],
+        description: "The Crafter is a revolutionary utility block that brings automation to the crafting system. By supplying it with ingredients and a redstone signal, players can automate the production of any item in the game. Its interactive GUI allows players to disable specific slots, enabling complex recipes to be maintained without overflow. This block is the cornerstone of advanced technical Minecraft, allowing for the creation of fully autonomous farms and factories."
+    },
+    "minecraft:creaking_heart": {
+        id: "minecraft:creaking_heart",
+        name: "Creaking Heart",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning the Creaking mob at night",
+            secondaryUse: "Decorative block and source of Resin"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["2x Pale Oak Log", "1x Block of Resin"]
+        },
+        specialNotes: [
+            "Must be placed between two Pale Oak Logs matching its orientation to activate.",
+            "Only active during the night; summons a protective Creaking mob.",
+            "If the heart is destroyed, the linked Creaking is also destroyed.",
+            "Drops Resin Clumps when attacked while active.",
+            "Obtainable by silk touch or by crafting with Resin."
+        ],
+        description: "The Creaking Heart is the haunting central core of the Creaking mob, found within the Pale Garden. It acts as a stationary summoner that manifests a Creaking to defend itself whenever it or its linked logs are disturbed. To function, it must be properly oriented between Pale Oak wood. During the night, it becomes a formidable barrier for explorers, but also a valuable source of Resin for those brave enough to harvest it. It represents the symbiotic relationship between the flora and the eerie residents of the Pale Garden."
+    },
+    "minecraft:open_eyeblossom": {
+        id: "minecraft:open_eyeblossom",
+        name: "Open Eyeblossom",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Gray Dye",
+            secondaryUse: "Decoration and particle emission"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found in Pale Garden biomes"]
+        },
+        specialNotes: [
+            "Opens at night and closes during the day (becoming a Closed Eyeblossom).",
+            "Emits orange particles when open.",
+            "Can be planted on grass, dirt, or moss blocks.",
+            "When open, it can be crafted into Gray Dye; when closed, it crafts into Orange Dye.",
+            "Bees are not attracted to Eyeblossoms."
+        ],
+        description: "The Eyeblossom is a unique plant introduced in the 1.21.50 update, exclusive to the Pale Garden biome. It has a distinct lifecycle, opening its glowing orange 'eyes' only during the night and closing them during the day. This behavior makes it a striking decorative plant for spooky or atmospheric builds. Interestingly, players can obtain different dyes depending on whether the flower is open or closed, making its harvesting time a tactical choice. It adds a subtle but effective layer of mysticism to the desaturated landscape of the Pale Garden."
+    },
+    "minecraft:trial_explorer_map": {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating the nearest Trial Chamber",
+            secondaryUse: "Exploration and navigation"
+        },
+        crafting: {
+            recipeType: "Trade",
+            ingredients: ["12x Emerald", "1x Compass (Journeyman Cartographer)"]
+        },
+        specialNotes: [
+            "Displays a brown map icon for Trial Chambers.",
+            "Can be purchased from Journeyman-level Cartographer villagers.",
+            "Essential for finding Trial Chambers in worlds without using cheats or external tools.",
+            "Shows the structure's location relative to the player's position."
+        ],
+        description: "The Trial Explorer Map is a specialized navigation tool designed to lead players to Trial Chambers. By following the icon on the map, players can locate these massive underground structures and take on the challenges within. It is an indispensable resource for explorers who want to experience the 1.21 update's content without having to search aimlessly underground. This map is acquired through villager trading, specifically from Cartographers who have reached the Journeyman level."
+    },
 };

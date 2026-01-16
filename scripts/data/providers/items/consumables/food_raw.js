@@ -428,5 +428,89 @@ export const rawFood = {
             "Can be fed to wolves to speed up the growth of baby wolves"
         ],
         description: "Raw Mutton is a food item dropped by sheep. It provides 2 hunger points and 1.2 saturation when eaten raw. Cooking it into Cooked Mutton significantly improves its nutritional value to match that of cooked salmon. Raw mutton is also useful for breeding and healing tamed wolves. It is easily obtained from sheep farms, often as a byproduct of wool production."
+    },
+    "minecraft:chicken": {
+        id: "minecraft:chicken",
+        name: "Raw Chicken",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (better when cooked)",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 2,
+            saturation: 1.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Chickens"]
+        },
+        specialNotes: [
+            "Restores 2 hunger and 1.2 saturation when eaten raw",
+            "Has a 30% chance to inflict Hunger effect for 30 seconds",
+            "Cooked Chicken is significantly safer and more nutritious",
+            "Used to breed and heal tamed wolves",
+            "Dropped by Chickens (1) upon death",
+            "Speed up growth of baby wolves by 10%"
+        ],
+        description: "Raw Chicken is a food item dropped by chickens. While edible, it carries a 30% risk of food poisoning (Hunger effect), making cooking it into Cooked Chicken highly recommended. It provides 2 hunger points and 1.2 saturation. Like other raw meats, it is essential for breeding and healing tamed wolves. Chickens are easily farmable and are found in almost all grassy biomes, providing a consistent source of this item early in the game."
+    },
+    "minecraft:rabbit": {
+        id: "minecraft:rabbit",
+        name: "Raw Rabbit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source",
+            secondaryUse: "Breeding and healing dogs/wolves"
+        },
+        food: {
+            hunger: 3,
+            saturation: 1.8
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Rabbits"]
+        },
+        specialNotes: [
+            "Restores 3 hunger and 1.8 saturation when eaten raw",
+            "Can be cooked into Cooked Rabbit for better stats",
+            "Essential ingredient for crafting Rabbit Stew",
+            "Used to breed and heal tamed wolves",
+            "Dropped by Rabbits (0-1) when killed by player or wolf",
+            "Found in deserts, flower forests, and tundra biomes"
+        ],
+        description: "Raw Rabbit is a food item obtained from rabbits. It provides 3 hunger points and 1.8 saturation, matching raw beef and porkchops in nutrition. However, its small yield and the difficulty of hunting rabbits make it less common as a staple food. It can be cooked for better nutrition or used in complex recipes like Rabbit Stew. In addition to player consumption, raw rabbit is a vital resource for wolf owners, serving to breed and maintain their tamed pack."
+    },
+    "minecraft:tropical_fish": {
+        id: "minecraft:tropical_fish",
+        name: "Tropical Fish",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Food source (low nutrition)",
+            secondaryUse: "Breeding and healing Axolotls"
+        },
+        food: {
+            hunger: 1,
+            saturation: 0.2
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Tropical Fish", "Caught while fishing"]
+        },
+        specialNotes: [
+            "Restores 1 hunger and 0.2 saturation",
+            "Cannot be cooked; provides very little nourishment",
+            "Essential for breeding Axolotls (must be in a bucket for breeding)",
+            "Dropped by Tropical Fish mobs (1) upon death",
+            "Found in warm ocean biomes and lush caves (in some versions)",
+            "3,584 possible color/pattern combinations (visual only)"
+        ],
+        description: "Tropical Fish is a colorful but low-nutrition food item found in warm oceans. It only restores 1 hunger point and very little saturation, making it one of the least efficient food sources in the game. Its primary value is decorative or for husbandry; items of Tropical Fish are dropped by the mobs when killed. Interestingly, it is the only fish that cannot be cooked. Despite its poor food stats, it is required for interacting with Axolotls, who thrive on these vibrant aquatic creatures."
     }
 };

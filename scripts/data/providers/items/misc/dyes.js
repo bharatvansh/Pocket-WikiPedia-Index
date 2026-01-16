@@ -298,5 +298,53 @@ export const dyes = {
             "Can be traded to Shepherd villagers"
         ],
         description: "Light Blue Dye is a primary color dye obtained from Blue Orchids or by mixing Blue Dye (or Lapis Lazuli) with White Dye (or Bone Meal). It imparts a light blue hue to building blocks such as wool, terracotta, glass, and concrete. In Bedrock Edition, it is versatile in color mixing, contributing to the creation of Cyan and Magenta dyes. It is also used for dyeing shulker boxes, leather armor, and creating light blue firework stars."
+    },
+    "minecraft:cyan_dye": {
+        id: "minecraft:cyan_dye",
+        name: "Cyan Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks cyan",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Green Dye + Blue Dye", "Pitcher Plant"]
+        },
+        specialNotes: [
+            "Crafted from Pitcher Plant or by mixing Green and Blue Dye",
+            "Lapis Lazuli can substitute Blue Dye in the mixing recipe",
+            "Used to dye wool, terracotta, glass, concrete, and beds cyan",
+            "Mixed with other dyes to create gray and purple variations",
+            "Essential for crafting cyan firework stars",
+            "Can be used to dye the collars of tamed wolves"
+        ],
+        description: "Cyan Dye is a secondary color dye obtained by mixing Green Dye and Blue Dye (or Lapis Lazuli), or by crafting a Pitcher Plant. It provides a unique blue-green hue for various building materials including wool, terracotta, glass, and concrete. In Bedrock Edition, it is a popular choice for aquatic-themed builds and modern architecture. Beyond blocks, it can be used to customize the appearance of leather armor, shulker boxes, and is a component in several banner patterns."
+    },
+    "minecraft:purple_dye": {
+        id: "minecraft:purple_dye",
+        name: "Purple Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks purple",
+            secondaryUse: "Mixing with other dyes to create secondary colors"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blue Dye + Red Dye"]
+        },
+        specialNotes: [
+            "Crafted by mixing Blue Dye and Red Dye in any crafting grid",
+            "Lapis Lazuli can substitute Blue Dye in the mixing recipe",
+            "Used to dye wool, terracotta, glass, concrete, and beds purple",
+            "Mixed with Pink Dye to create Magenta Dye",
+            "Essential for crafting purple firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Purple Dye is a secondary color dye produced by combining primary Blue Dye (or Lapis Lazuli) and Red Dye. It is used to apply a regal purple color to sheep, wool, and a wide variety of building blocks like concrete and glass. In Bedrock Edition, it is an essential middle step for creating Magenta Dye. It also allows for the customization of leather armor, shulker boxes, and firework stars, adding variety to both character appearance and celebratory displays."
     }
 };

@@ -155,6 +155,28 @@ export const mobDrops = {
         ],
         description: "Resin Clumps are resources obtained from the Creaking Heart and Creaking mobs in Pale Garden biomes. Attacking a Creaking Heart or a linked Creaking drops 1-3 clumps. These are used to craft Blocks of Resin (3x3 grid) or smelted into Resin Bricks. Introduced in the 1.21 update, this material allows players to incorporate the unique orange aesthetic of the Pale Garden into their builds. The harvesting process is tied to the interactive mechanics of the Creaking mob, rewarding players for engaging with this atmospheric threat."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace"
+        },
+        crafting: {
+            recipeType: "Loot",
+            ingredients: ["Ominous Vault (7.5% chance)"]
+        },
+        specialNotes: [
+            "Found exclusively in Ominous Vaults within Trial Chambers.",
+            "Required ingredient for crafting the Mace (combined with a Breeze Rod).",
+            "Functional as a decorative block that can be placed in any orientation.",
+            "It is a 'Rare' tier item.",
+            "Introduced in the 1.21 Tricky Trials update."
+        ],
+        description: "The Heavy Core is a dense, powerful artifact found deep within the Ominous Vaults of Trial Chambers. It is characterized by its significant weight and mysterious properties. When combined with a Breeze Rod at a crafting table, it forms the Mace, a powerful weapon that utilizes the player's falling momentum to deal massive damage. Its scarcity and the danger required to obtain it make it one of the most prestigious materials in the 1.21 update."
+    },
     "minecraft:blaze_rod": {
         id: "minecraft:blaze_rod",
         name: "Blaze Rod",
