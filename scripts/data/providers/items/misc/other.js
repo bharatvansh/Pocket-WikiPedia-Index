@@ -1408,5 +1408,121 @@ export const miscItems = {
             "Features the unique flat bamboo raft design"
         ],
         description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+    },
+    "minecraft:pale_oak_boat": {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Water transportation for up to two passengers",
+            secondaryUse: "Fast travel on ice and transporting mobs"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x5"]
+        },
+        specialNotes: [
+            "Introduced in the Garden Awakens Update (Bedrock 1.21.50)",
+            "Features the distinctive pale gray wood texture of Pale Oak",
+            "Can carry two passengers, including mobs and players",
+            "Moves significantly faster on ice and packed ice",
+            "Nullifies fall damage for all passengers when falling from any height"
+        ],
+        description: "The Pale Oak Boat is a new boat variant introduced in Minecraft Bedrock Edition 1.21.50 as part of the Garden Awakens Update. Crafted from five Pale Oak Planks sourced from the eerie Pale Garden biome, this boat features a unique ghostly gray appearance that matches the aesthetic of its origin. Like all boats, it can carry up to two passengers and provides efficient water transportation, offering enhanced speed when traveling over ice blocks. Its distinctive pale coloration makes it a perfect choice for players exploring or building in colder biomes or who prefer a more subtle, muted aesthetic for their watercraft."
+    },
+    "minecraft:pale_oak_chest_boat": {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Mobile storage and water transportation",
+            secondaryUse: "Transporting items across large bodies of water"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Pale Oak Boat", "Chest"]
+        },
+        specialNotes: [
+            "Introduced in the Garden Awakens Update (Bedrock 1.21.50)",
+            "Provides 27 slots of mobile inventory storage",
+            "Can only carry one passenger due to the chest occupying the second seat",
+            "Drops both the boat and chest contents when broken",
+            "Features the pale gray Pale Oak wood texture"
+        ],
+        description: "The Pale Oak Boat with Chest combines the haunting aesthetic of Pale Oak wood with practical mobile storage, offering 27 inventory slots for transporting resources across water. Introduced in Bedrock Edition 1.21.50, this vessel is crafted by combining a Pale Oak Boat with a Chest. While it sacrifices the second passenger seat for storage capacity, it remains an essential tool for players conducting long-distance ocean expeditions, moving base supplies, or gathering resources from distant Pale Garden biomes. Its ghostly pale appearance makes it visually distinctive among chest boats."
+    },
+    "minecraft:pale_oak_sign": {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying custom text for navigation and information",
+            secondaryUse: "Decorative element and labeling storage systems"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Introduced in the Garden Awakens Update (Bedrock 1.21.50)",
+            "Can display up to 4 lines of text with 15 characters per line",
+            "Text can be edited after placement in Bedrock Edition",
+            "Can be waxed with honeycomb to prevent text editing",
+            "Available in both standing and wall-mounted variants"
+        ],
+        description: "The Pale Oak Sign is a text-displaying block introduced in Minecraft Bedrock Edition 1.21.50, crafted from six Pale Oak Planks and one stick. This sign variant features the distinctive pale gray wood tone of the Pale Garden biome, providing a subtle and ghostly aesthetic for player messages, directions, and labels. Like all signs, it supports up to four lines of customizable text, with each line accommodating 15 characters. In Bedrock Edition, signs remain editable after placement unless waxed with honeycomb. The Pale Oak Sign can be placed as a standing sign on solid surfaces or attached to walls, making it versatile for navigation systems, storage organization, and atmospheric builds in the eerie Pale Garden environment."
+    },
+    "minecraft:pale_oak_hanging_sign": {
+        id: "minecraft:pale_oak_hanging_sign",
+        name: "Pale Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying custom text suspended from blocks or chains",
+            secondaryUse: "Creating decorative signage and atmospheric builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Chain x2", "Stripped Pale Oak Log x6"]
+        },
+        specialNotes: [
+            "Introduced in the Garden Awakens Update (Bedrock 1.21.50)",
+            "Hangs from chains attached to blocks above",
+            "Can display up to 4 lines of text (narrower than regular signs)",
+            "Can be waxed with honeycomb to prevent text editing",
+            "Crafted using stripped logs instead of planks, unlike regular signs"
+        ],
+        description: "The Pale Oak Hanging Sign is a suspended text-display block added in Minecraft Bedrock Edition 1.21.50, crafted from two chains and six stripped Pale Oak Logs. Unlike traditional signs, hanging signs dangle beneath the block they are attached to, connected by decorative chains, making them ideal for shop fronts, tavern signs, and atmospheric medieval or fantasy builds. The Pale Oak variant features the ghostly pale gray wood characteristic of the Pale Garden biome, lending an eerie elegance to any structure. Hanging signs support up to four lines of text, though each line is narrower than on standard signs. They can be waxed with honeycomb to lock text and prevent accidental edits, making them perfect for permanent labeling in multiplayer environments or adventure maps."
+    },
+    "minecraft:pale_oak_door": {
+        id: "minecraft:pale_oak_door",
+        name: "Pale Oak Door",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating openings that can be opened and closed",
+            secondaryUse: "Controlling mob and player access to buildings"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Pale Oak Planks x6"]
+        },
+        specialNotes: [
+            "Introduced in the Garden Awakens Update (Bedrock 1.21.50)",
+            "Opens when right-clicked or powered by redstone",
+            "Takes up two vertical blocks when placed",
+            "Crafting yields 3 doors from 6 planks",
+            "Features the pale gray wood texture of Pale Oak",
+            "Can be used as fuel in furnaces, smelting 1.5 items per door"
+        ],
+        description: "The Pale Oak Door is a functional building block introduced in Minecraft Bedrock Edition 1.21.50 as part of the Garden Awakens Update. Crafted from six Pale Oak Planks in the standard door pattern, this door features the distinctive pale gray coloration of wood from the Pale Garden biome. Like all wooden doors, it can be opened manually by right-clicking or automatically via redstone signals, providing versatile access control for buildings. Each crafting recipe yields three doors, making it resource-efficient for large construction projects. The door occupies two vertical blocks when placed and swings open on hinges, with the hinge side determined by surrounding blocks and the player's position during placement. Its ghostly pale appearance makes it an excellent aesthetic choice for builds inspired by the eerie Pale Garden or for players seeking a more muted, elegant door design."
     }
 };
