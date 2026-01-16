@@ -298,5 +298,125 @@ export const dyes = {
             "Can be traded to Shepherd villagers"
         ],
         description: "Light Blue Dye is a primary color dye obtained from Blue Orchids or by mixing Blue Dye (or Lapis Lazuli) with White Dye (or Bone Meal). It imparts a light blue hue to building blocks such as wool, terracotta, glass, and concrete. In Bedrock Edition, it is versatile in color mixing, contributing to the creation of Cyan and Magenta dyes. It is also used for dyeing shulker boxes, leather armor, and creating light blue firework stars."
+    },
+    "minecraft:gray_dye": {
+        id: "minecraft:gray_dye",
+        name: "Gray Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks gray",
+            secondaryUse: "Mixing with other dyes to create light gray dye"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Black Dye + White Dye", "Ink Sac + Bone Meal"]
+        },
+        specialNotes: [
+            "Secondary dye created by combining black and white primary colors",
+            "In Bedrock Edition, raw Ink Sacs and Bone Meal can substitute for dyes",
+            "Used to color wool, terracotta, glass, concrete, and beds gray",
+            "Can be used to dye leather armor and shulker boxes",
+            "Essential for crafting gray firework stars",
+            "Can be traded to Shepherd villagers for emeralds"
+        ],
+        description: "Gray Dye is a secondary color dye obtained by mixing black and white dyes. In Bedrock Edition, this can be achieved by combining an Ink Sac with Bone Meal directly. It is used to apply a neutral gray tone to various materials including wool, terracotta, and concrete. As a versatile mid-tone, it is often used in building for industrial or stone-themed aesthetics. It can also be mixed with more white dye to produce light gray dye, or used to customize shulker boxes and leather equipment."
+    },
+    "minecraft:light_gray_dye": {
+        id: "minecraft:light_gray_dye",
+        name: "Light Gray Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks light gray",
+            secondaryUse: "Applying a soft neutral tone to decorative items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Azure Bluet", "Oxeye Daisy", "White Tulip", "Gray Dye + White Dye"]
+        },
+        specialNotes: [
+            "Can be crafted from several flowers: Azure Bluet, Oxeye Daisy, or White Tulip",
+            "Also created by mixing Gray Dye with White Dye (or two White + one Black)",
+            "One of the most accessible dyes due to variety of flower sources",
+            "Used to color wool, terracotta, glass, concrete, and beds light gray",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting light gray firework stars"
+        ],
+        description: "Light Gray Dye is a versatile coloring agent that can be obtained from several different flowers or by mixing other dyes. It provides a soft, neutral light-gray hue to building blocks and equipment. Due to the abundance of flowers like Azure Bluets and Oxeye Daisies in plains biomes, it is one of the easiest dyes to gather in large quantities early in the game. It is frequently used for modern architectural builds, subtle gradients, and customizing various player items like beds and shulker boxes."
+    },
+    "minecraft:cyan_dye": {
+        id: "minecraft:cyan_dye",
+        name: "Cyan Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks cyan",
+            secondaryUse: "Creating vibrant blue-green decorative elements"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blue Dye + Green Dye", "Lapis Lazuli + Green Dye", "Pitcher Plant"]
+        },
+        specialNotes: [
+            "Crafted by mixing Blue and Green dyes, or Blue and Lapis with Green",
+            "Provides a vibrant teal/cyan color to blocks and mobs",
+            "Used to dye wool, terracotta, glass, concrete, and beds cyan",
+            "Can be used to dye shulker boxes and leather armor",
+            "Essential for crafting cyan firework stars",
+            "In Bedrock Edition, Lapis Lazuli is a direct substitute for Blue Dye in recipes"
+        ],
+        description: "Cyan Dye is a secondary dye that produces a bright, vibrant teal or blue-green color. It is traditionally crafted by combining Blue and Green dyes, though Bedrock Edition allows Lapis Lazuli to be used as a substitute for the blue component. This dye is popular for aquatic-themed builds or adding bold pops of color to modern structures. It can be applied to a wide range of blocks, including terracotta and glass, and is used to customize character items like shulker boxes and leather armor."
+    },
+    "minecraft:purple_dye": {
+        id: "minecraft:purple_dye",
+        name: "Purple Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks purple",
+            secondaryUse: "Mixing with Pink Dye to create Magenta Dye"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Blue Dye + Red Dye", "Lapis Lazuli + Red Dye"]
+        },
+        specialNotes: [
+            "Crafted by mixing Blue and Red dyes together",
+            "Used to color wool, terracotta, glass, concrete, and beds purple",
+            "Mixed with Pink Dye or Pink Petals to produce Magenta Dye",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting purple firework stars",
+            "Can be traded to Shepherd villagers"
+        ],
+        description: "Purple Dye is a secondary color obtained by mixing the primary colors red and blue. In Bedrock Edition, Lapis Lazuli can be used instead of Blue Dye to create this mixture. It offers a rich, royal purple hue for dyeing sheep and various building materials. Purple dye is also a critical component for creating Magenta Dye. It is widely used in decoration for its striking appearance and can be applied to almost any dyeable item, including shulker boxes and leather armor sets."
+    },
+    "minecraft:brown_dye": {
+        id: "minecraft:brown_dye",
+        name: "Brown Dye",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dyeing wool, sheep, and building blocks brown",
+            secondaryUse: "Coloring decorative items and equipment"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Cocoa Beans"]
+        },
+        specialNotes: [
+            "Crafted directly from Cocoa Beans (found in Jungle biomes)",
+            "Used to dye wool, terracotta, glass, concrete, and beds brown",
+            "Provides an earthy, natural tone to builds and structures",
+            "Used to dye shulker boxes and leather armor",
+            "Essential for crafting brown firework stars",
+            "In Bedrock Edition, Cocoa Beans themselves can sometimes be used as a dye substitute"
+        ],
+        description: "Brown Dye is a coloring agent derived entirely from Cocoa Beans, which are harvested from cocoa pods on trees in jungle biomes. It provides a natural, earthy brown color that is perfect for simulating wood, soil, or organic textures in building projects. While Cocoa Beans were historically used directly as dye, they are now primarily crafted into this dedicated Brown Dye item. It is essential for customizing leather armor, shulker boxes, and create brown firework stars."
     }
 };
