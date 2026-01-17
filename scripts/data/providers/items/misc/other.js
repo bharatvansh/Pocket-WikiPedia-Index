@@ -1488,7 +1488,7 @@ export const miscItems = {
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["Stripped Pale Oak Log x2", "Chain x6"]
+            ingredients: ["Stripped Pale Oak Log x6", "Chain x2"]
         },
         specialNotes: [
             "Features two chains that can hang from the bottom or side of blocks",
