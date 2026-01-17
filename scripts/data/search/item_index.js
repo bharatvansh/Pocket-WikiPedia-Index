@@ -2643,5 +2643,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_creaking",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:blaze_spawn_egg",
+        name: "Blaze Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_blaze",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:ghast_spawn_egg",
+        name: "Ghast Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ghast",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:magma_cube_spawn_egg",
+        name: "Magma Cube Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_magma_cube",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:phantom_spawn_egg",
+        name: "Phantom Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_phantom",
+        themeColor: "§9"
+    },
+    {
+        id: "minecraft:witch_spawn_egg",
+        name: "Witch Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_witch",
+        themeColor: "§5"
     }
 ];

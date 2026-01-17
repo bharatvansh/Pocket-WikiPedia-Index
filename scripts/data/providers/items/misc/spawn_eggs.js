@@ -430,5 +430,110 @@ export const spawnEggs = {
             "Creakings spawned this way are independent of any Creaking Heart."
         ],
         description: "The Creaking Spawn Egg is a specialized item available primarily in Creative Mode. When used on a block, it immediately summons a Creaking at that location. This item is essential for map makers who need to populate the Pale Garden or custom builds with Creakings without relying on Creaking Hearts. The Creaking is a unique mob that only moves when not being looked at by the player. In Survival, this item can only be obtained through commands."
+    },
+    "minecraft:blaze_spawn_egg": {
+        id: "minecraft:blaze_spawn_egg",
+        name: "Blaze Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Blaze mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Blazes spawned from eggs immediately begin floating and prepared for combat.",
+            "Changes a Spawner's type to Blaze when used on it."
+        ],
+        description: "The Blaze Spawn Egg is a Creative Mode item that allows players to instantly summon a Blaze. Blazes are fiery, flying hostile mobs found primarily in Nether Fortresses. Using this egg on a block will place a Blaze, while using it on a Monster Spawner will convert that spawner into a Blaze spawner. This is particularly useful for building manual Blaze rod farms or creating perilous Nether-themed challenges in custom maps."
+    },
+    "minecraft:ghast_spawn_egg": {
+        id: "minecraft:ghast_spawn_egg",
+        name: "Ghast Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Ghast mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a full-sized flying Ghast at the target location.",
+            "Requires significant space to spawn successfully due to its 4x4 size.",
+            "Can be used to create Ghast spawners for tear and gunpowder farms."
+        ],
+        description: "The Ghast Spawn Egg is a specialized item for summoning Ghasts, the large flying jellyfish-like mobs of the Nether. Due to the Ghast's massive size, it requires a large open area to be spawned successfully. When used on a surface, a Ghast appears and will immediately begin floating and firing explosive fireballs at nearby players. In Creative Mode, it can also be used to transform a Monster Spawner into a Ghast spawner, though Ghasts from spawners have unique placement requirements."
+    },
+    "minecraft:magma_cube_spawn_egg": {
+        id: "minecraft:magma_cube_spawn_egg",
+        name: "Magma Cube Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Magma Cube mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a randomized size (Small, Medium, or Large) Magma Cube.",
+            "Magma Cubes jump and split similar to Slimes.",
+            "Used on a Spawner to create a Magma Cube spawner for magma cream farms."
+        ],
+        description: "The Magma Cube Spawn Egg summons a Magma Cube, the fire-resistant Nether equivalent of the Slime. Each use spawns a Magma Cube of a random size, which split into smaller versions when defeated. These hopping mobs are the primary source of Magma Cream. Like other spawn eggs, this item is mostly for Creative Mode use, allowing for the placement of mobs or the conversion of Monster Spawners into efficient Magma Cube spawners for resource gathering."
+    },
+    "minecraft:phantom_spawn_egg": {
+        id: "minecraft:phantom_spawn_egg",
+        name: "Phantom Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Phantom mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a flying Phantom regardless of the player's sleep status.",
+            "Phantoms burn in sunlight unless wearing a helmet (rare) or spawned under shade.",
+            "Allows for the creation of Phantom spawners in custom maps."
+        ],
+        description: "The Phantom Spawn Egg is used to summon Phantoms, the swooping undead mobs that typically appear when a player hasn't slept for several days. This item allows for Phantoms to be placed manually in any conditions, making it useful for testing defense mechanics or building horror-themed maps in Creative Mode. When used on a Monster Spawner, it creates a Phantom-producing spawner, which can provide a reliable source of Phantom Membranes."
+    },
+    "minecraft:witch_spawn_egg": {
+        id: "minecraft:witch_spawn_egg",
+        name: "Witch Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Witch mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Witch that uses various splash and drinkable potions in combat.",
+            "Does not spawn cats with the Witch; those spawn naturally in huts.",
+            "Changes a Spawner's type to Witch for potion ingredient farms."
+        ],
+        description: "The Witch Spawn Egg allows for the immediate summoning of a Witch, a hostile mob that uses alchemy to attack and defend. Witches are known for throwing splash potions of poison, weakness, and slowness while healing themselves with health and fire resistance. This spawn egg is primarily a Creative tool for placing these magic-users or for transforming Monster Spawners into Witch spawners, which are highly efficient for farming various brewing ingredients."
     }
 };
