@@ -1592,5 +1592,90 @@ export const miscItems = {
             "Commonly used by creators for high-detail custom map decorations"
         ],
         description: "The Player Head in Minecraft Bedrock Edition is a decorative item that mimics the default player appearance. While it lacks the ability to display specific player skins found in the Java Edition, it remains a heavily utilized block for detailing and custom maps. It can be worn as a purely cosmetic piece or placed as a block to represent human presence in a build. In Survival mode, it remains one of the few unobtainable heads without experimental features or cheats."
+    },
+    "minecraft:red_bundle": {
+        id: "minecraft:red_bundle",
+        name: "Red Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: ["Reduces inventory clutter by storing up to 64 items (1 stack) within it", "Players can dye a standard Bundle red using one Red Dye"],
+        crafting: {
+            recipeType: "Workbench",
+            ingredients: ["1x Bundle", "1x Red Dye"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Bundles of Bravery' 1.21.40 update",
+            "Storing a bundle inside another is not supported in the standard Bedrock logic"
+        ],
+        description: "The Red Bundle is a storage solution that allows players to condense multiple stacks or single items into a single inventory slot. Each bundle has a total capacity of 64 weight units—meaning it can hold one full stack (like 64 Cobblestone) or multiple smaller groups of items (like 16 Ender Pearls and 48 Dirt). You can identify this specific variant by its vibrant red color, which is achieved by crafting a Bundle with Red Dye."
+    },
+    "minecraft:blue_bundle": {
+        id: "minecraft:blue_bundle",
+        name: "Blue Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: ["Reduces inventory clutter by storing up to 64 items (1 stack) within it", "Players can dye a standard Bundle blue using one Blue Dye"],
+        crafting: {
+            recipeType: "Workbench",
+            ingredients: ["1x Bundle", "1x Blue Dye"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Bundles of Bravery' 1.21.40 update",
+            "Weight limit: 1 fully stacked item or 64 single items"
+        ],
+        description: "The Blue Bundle acts as a portable container specifically colored for organization in your inventory. Like all bundles in Bedrock Edition, it uses a 'weight' system where everything adds up to a maximum of 64. Using a Blue Bundle helps distinguish storage categories, such as keeping valuables or building supplies separate."
+    },
+    "minecraft:green_bundle": {
+        id: "minecraft:green_bundle",
+        name: "Green Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: ["Reduces inventory clutter by storing up to 64 items (1 stack) within it", "Players can dye a standard Bundle green using one Green Dye"],
+        crafting: {
+            recipeType: "Workbench",
+            ingredients: ["1x Bundle", "1x Green Dye"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Bundles of Bravery' 1.21.40 update",
+            "Right-click or use action to empty the contents into the inventory"
+        ],
+        description: "The Green Bundle is a variant of the bundle item that provides the same essential storage functionality with a green cosmetic finish. It is particularly useful for players organizing survival items during long journeys, allowing for the consolidation of miscellaneous items gathered from the wilderness."
+    },
+    "minecraft:yellow_bundle": {
+        id: "minecraft:yellow_bundle",
+        name: "Yellow Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: ["Reduces inventory clutter by storing up to 64 items (1 stack) within it", "Players can dye a standard Bundle yellow using one Yellow Dye"],
+        crafting: {
+            recipeType: "Workbench",
+            ingredients: ["1x Bundle", "1x Yellow Dye"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Bundles of Bravery' 1.21.40 update",
+            "Visual indicator displays how full the bundle is"
+        ],
+        description: "The Yellow Bundle serves as both a cosmetic variant and a functional storage tool. It follows the standard capacity rules of Bedrock bundles: it can hold any combination of items as long as their total count relative to their max stack size doesn't exceed 64."
+    },
+    "minecraft:black_bundle": {
+        id: "minecraft:black_bundle",
+        name: "Black Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: ["Reduces inventory clutter by storing up to 64 items (1 stack) within it", "Players can dye a standard Bundle black using one Black Dye"],
+        crafting: {
+            recipeType: "Workbench",
+            ingredients: ["1x Bundle", "1x Black Dye"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Bundles of Bravery' 1.21.40 update",
+            "Perfect for dark-themed inventory organization"
+        ],
+        description: "The Black Bundle is the sleekest variant of the storage item, providing a professional look for your inventory management needs. Like the others, it is obtained by combining a standard bundle with dye and allows for the consolidation of various items into a single slot."
     }
 };

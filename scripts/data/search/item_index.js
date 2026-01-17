@@ -2783,5 +2783,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_rabbit",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:red_bundle",
+        name: "Red Bundle",
+        category: "item",
+        icon: "textures/items/bundle_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:blue_bundle",
+        name: "Blue Bundle",
+        category: "item",
+        icon: "textures/items/bundle_blue",
+        themeColor: "§9"
+    },
+    {
+        id: "minecraft:green_bundle",
+        name: "Green Bundle",
+        category: "item",
+        icon: "textures/items/bundle_green",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:yellow_bundle",
+        name: "Yellow Bundle",
+        category: "item",
+        icon: "textures/items/bundle_yellow",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:black_bundle",
+        name: "Black Bundle",
+        category: "item",
+        icon: "textures/items/bundle_black",
+        themeColor: "§0"
     }
 ];
