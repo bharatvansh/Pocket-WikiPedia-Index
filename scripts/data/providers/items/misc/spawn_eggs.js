@@ -750,5 +750,115 @@ export const spawnEggs = {
             "Transforms Monster Spawners into specialized Rabbit spawners."
         ],
         description: "The Rabbit Spawn Egg is a specialized item that summons a rabbit instantly. The variant of rabbit spawned often depends on the surrounding biome, adding realistic variety to custom environments. Rabbits are small, fast mobs that provide unique drops like rabbit's feet for brewing and hides for leather crafting. In addition to basic placement, the egg can be used on a Monster Spawner to create a rabbit-producing spawner. This is a valuable technique for players needing a renewable source of potion ingredients or specialized food materials."
+    },
+    "minecraft:wolf_spawn_egg": {
+        id: "minecraft:wolf_spawn_egg",
+        name: "Wolf Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Wolf mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly spawns a Wolf mob at the selected location.",
+            "Since 1.20.80, spawned wolves will adapt their appearance to the biome they are spawned in.",
+            "Commonly used in Creative Mode to test pack behavior or to find specific variants.",
+            "Can be used on a Monster Spawner to create a Wolf spawner."
+        ],
+        description: "The Wolf Spawn Egg is a Creative mode item used to instantly summon a Wolf. In Bedrock Edition, wolves spawned from this egg will match the biome-specific variant if used in the correct biome, or default to the Pale Wolf variant. This item allows players to easily gather a pack of wolves for taming without needing to search through taiga or forest biomes. Like other spawn eggs, it can be used on a monster spawner to change its type to Wolf, making it a critical tool for creative building and testing."
+    },
+    "minecraft:mooshroom_spawn_egg": {
+        id: "minecraft:mooshroom_spawn_egg",
+        name: "Mooshroom Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Mooshroom mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Red Mooshroom; does not spawn the Brown variant directly unless struck by lightning.",
+            "Essential for setting up sustainable food sources in Creative or via commands.",
+            "Used to change a Monster Spawner's mob type to Mooshroom.",
+            "Provides a direct way to obtain red mushrooms and stew-giving mobs."
+        ],
+        description: "The Mooshroom Spawn Egg is a specialized item used to summon the rare mushroom-covered cow variant found in Mushroom Fields. When used on a block, it spawns a Red Mooshroom by default. These mobs are highly prized for their ability to provide Mushroom Stew when milked with a bowl. This spawn egg is one of the most efficient ways to populate a base with Mooshrooms without the difficult task of transporting them across oceans from their rare native islands."
+    },
+    "minecraft:ocelot_spawn_egg": {
+        id: "minecraft:ocelot_spawn_egg",
+        name: "Ocelot Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Ocelot mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a wild Ocelot, which is distinct from tamed Cats.",
+            "Useful for protecting builds from Creepers, who fear the Ocelot's presence.",
+            "When fed raw fish, the spawned Ocelot will trust the player but will not change its appearance.",
+            "Can be used to modify a Spawner into an Ocelot spawner."
+        ],
+        description: "The Ocelot Spawn Egg allows players to instantly summon an Ocelot, the shy feline native to jungle biomes. Unlike cats, ocelots spawned with this egg cannot be fully tamed into pets but can be made to 'trust' the player when fed raw fish. This item is particularly useful for players building jungle-themed sanctuaries or those needing guardians to keep Creepers at bay, as Creepers will naturally avoid Ocelots. It can also be applied to spawners to create a constant source of these elusive predators."
+    },
+    "minecraft:parrot_spawn_egg": {
+        id: "minecraft:parrot_spawn_egg",
+        name: "Parrot Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Parrot mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns one of five random color variants of the Parrot mob.",
+            "Parrots can be tamed with seeds and will perch on the player's shoulders.",
+            "Capable of mimicking the ambient sounds of nearby hostile mobs such as Zombies or Creepers.",
+            "Used on a Spawner to transform it into a Parrot-producing spawner."
+        ],
+        description: "The Parrot Spawn Egg is a Creative-only item that summons a Parrot, choosing one of its five colorful variants (red, blue, green, cyan, or gray) at random. Parrots are unique avian mobs that can imitate the sounds of nearby hostile mobs and can be made to perch on a player's shoulder. This spawn egg simplifies the process of collecting all color variants and is a fun decorative addition to any tropical-themed build or pirate ship adventure map."
+    },
+    "minecraft:polar_bear_spawn_egg": {
+        id: "minecraft:polar_bear_spawn_egg",
+        name: "Polar Bear Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Polar Bear mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Polar Bear; may occasionally spawn a cub alongside an adult.",
+            "Adults become hostile if their cubs are nearby or if they are attacked.",
+            "Commonly used for decoration in ice-themed builds or challenge maps.",
+            "Transforms a Monster Spawner into a Polar Bear spawner when applied."
+        ],
+        description: "The Polar Bear Spawn Egg summons a Polar Bear, the powerful neutral mob found in frozen biomes. These bears are generally peaceful unless they have a cub nearby or are provoked. This item is frequently used by map makers to add environmental life to snowy tundras and ice spikes biomes. In Creative Mode, it allows players to study their defensive behavior or build arctic-themed exhibits without the danger of exploring freezing environments."
     }
 };
