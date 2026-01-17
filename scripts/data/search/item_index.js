@@ -2748,5 +2748,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/tipped_arrow",
         themeColor: "§b" // aqua/potion
+    },
+    {
+        id: "minecraft:cow_spawn_egg",
+        name: "Cow Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_cow",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:pig_spawn_egg",
+        name: "Pig Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pig",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:sheep_spawn_egg",
+        name: "Sheep Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_sheep",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:chicken_spawn_egg",
+        name: "Chicken Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_chicken",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:rabbit_spawn_egg",
+        name: "Rabbit Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_rabbit",
+        themeColor: "§f" // white
     }
 ];
