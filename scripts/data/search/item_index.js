@@ -2783,5 +2783,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_rabbit",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:edge_pottery_sherd",
+        name: "Edge Pottery Sherd",
+        category: "item",
+        icon: "textures/items/edge_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tadpole",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:glow_squid_spawn_egg",
+        name: "Glow Squid Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_glow_squid",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:strider_spawn_egg",
+        name: "Strider Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_strider",
+        themeColor: "§c"
     }
 ];

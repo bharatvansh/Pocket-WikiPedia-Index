@@ -750,5 +750,65 @@ export const spawnEggs = {
             "Transforms Monster Spawners into specialized Rabbit spawners."
         ],
         description: "The Rabbit Spawn Egg is a specialized item that summons a rabbit instantly. The variant of rabbit spawned often depends on the surrounding biome, adding realistic variety to custom environments. Rabbits are small, fast mobs that provide unique drops like rabbit's feet for brewing and hides for leather crafting. In addition to basic placement, the egg can be used on a Monster Spawner to create a rabbit-producing spawner. This is a valuable technique for players needing a renewable source of potion ingredients or specialized food materials."
+    },
+    "minecraft:tadpole_spawn_egg": {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Immediately spawns a Tadpole mob when used on a block.",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Available only through Creative Mode or commands.",
+            "Can be used on a spawner to change it to a Tadpole spawner."
+        ],
+        description: "A brightly colored egg used to manifest a Tadpole. While usually only available to those with creative powers, it provides an easy way to populate swamp waters with the early life stage of frogs."
+    },
+    "minecraft:glow_squid_spawn_egg": {
+        id: "minecraft:glow_squid_spawn_egg",
+        name: "Glow Squid Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Immediately spawns a Glow Squid mob when used on a block.",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Available only through Creative Mode or commands.",
+            "Can be used on a spawner to change it to a Glow Squid spawner."
+        ],
+        description: "An egg pulsing with bioluminescent energy. Using it manifests a Glow Squid, the shimmering inhabitant of deep, dark underwater caverns known for its glowing properties and ink."
+    },
+    "minecraft:strider_spawn_egg": {
+        id: "minecraft:strider_spawn_egg",
+        name: "Strider Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Immediately spawns a Strider mob when used on a block.",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Available only through Creative Mode or commands.",
+            "Essential for map makers creating lava-based navigation challenges."
+        ],
+        description: "A warm, reddish egg that manifests a Strider when cracked. These passive inhabitants of the Nether are unique for their ability to walk on lava, making them invaluable for traversing the fiery dimensions of the underworld."
     }
 };

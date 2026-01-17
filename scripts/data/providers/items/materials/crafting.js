@@ -1520,5 +1520,45 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting material for the Mace weapon.",
+            secondaryUse: "Can be placed as a decorative block or used as a base for player heads."
+        },
+        crafting: {
+            recipeType: "None (Found in Vaults)",
+            ingredients: []
+        },
+        specialNotes: [
+            "Rare reward from Ominous Vaults in Trial Chambers with a 2.2% drop rate.",
+            "Can be combined with a Breeze Rod in a Crafting Table to create a Mace."
+        ],
+        description: "A dense, metallic block of unknown origin found deep within Trial Chambers. It is exceptionally heavy and serves as the core component for crafting a Mace, allowing for devastating smash attacks when falling from a height."
+    },
+    "minecraft:edge_pottery_sherd": {
+        id: "minecraft:edge_pottery_sherd",
+        name: "Edge Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Used as a decoration for the sides of a Decorated Pot.",
+            secondaryUse: "None"
+        },
+        crafting: {
+            recipeType: "None (Found via Archaeology)",
+            ingredients: []
+        },
+        specialNotes: [
+            "Obtained by brushing Suspicious Gravel in Trail Ruins structures.",
+            "One of twenty-four distinct pottery sherds found through archaeology."
+        ],
+        description: "A fragment of ancient pottery featuring a geometric edge pattern. Collectors and archaeologists seek these shards to reconstruct decorative pots that tell stories of a time long past."
     }
 };
