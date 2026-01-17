@@ -525,5 +525,27 @@ export const utilityTools = {
             "Essential for moving pufferfish to aquariums or defensive moats"
         ],
         description: "A Bucket of Pufferfish is a utility item used to safely transport pufferfish. It is obtained by using a water bucket on a swimming pufferfish. This item allows players to move these dangerous aquatic mobs without direct contact, which would otherwise inflict poison. When used, the bucket creates a water source block and releases the pufferfish. It is commonly used to create defensive moats or decorative aquariums, as pufferfish puff up when threatened."
+    },
+    "minecraft:trial_explorer_map": {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating the nearest Trial Chamber",
+            secondaryUse: "Navigation and structures finding"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Purchased from journeyman-level Cartographer villagers"]
+        },
+        specialNotes: [
+            "Points to the nearest Trial Chamber.",
+            "Purchased from journeyman-level Cartographer villagers for 12 Emeralds and a Compass.",
+            "Highlights the chamber with a specific icon.",
+            "Useful for locating Tricky Trials content in Survival."
+        ],
+        description: "The Trial Explorer Map is a specialized navigation item obtained through trading with a journeyman-level Cartographer villager. It displays the location of the nearest Trial Chamber, marking it with a unique icon. Unlike regular maps, it is pre-filled with the topographical layout of the surrounding area relative to the chamber. It is essential for players seeking to conquer the combat challenges and rewards within Trial Chambers. In Bedrock Edition, it follows the locator map format, showing the player's position relative to the map's area."
     }
 };

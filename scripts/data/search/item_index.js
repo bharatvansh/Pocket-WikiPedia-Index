@@ -1120,6 +1120,13 @@ export const itemIndex = [
         themeColor: "§f" // paper/white
     },
     {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:wheat",
         name: "Wheat",
         category: "item",
@@ -2329,6 +2336,34 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/potion_bottle_lingering",
         themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:potion_infestation",
+        name: "Potion of Infestation",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:potion_oozing",
+        name: "Potion of Oozing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:potion_weaving",
+        name: "Potion of Weaving",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:potion_wind_charging",
+        name: "Potion of Wind Charging",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
     },
     {
         id: "minecraft:pufferfish_bucket",
