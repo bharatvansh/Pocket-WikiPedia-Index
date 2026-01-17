@@ -83,6 +83,7 @@ jobs:
       - name: Check for duplicate entries
         id: duplicates
         if: steps.scope.outputs.status == 'no_issues'
+        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -98,7 +99,7 @@ jobs:
           fi
 
       - name: Post duplicate errors and stop (if duplicates found)
-        if: steps.duplicates.outputs.status == 'has_issues'
+        if: always() && steps.duplicates.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           script: |
@@ -125,6 +126,7 @@ jobs:
       - name: Validate format (syntax + structure)
         id: format
         if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues'
+        continue-on-error: true
         run: |
           cd .github/scripts
           node validate-format.js --output ../../format_report.md --status ../../format_status.txt
@@ -138,7 +140,7 @@ jobs:
           fi
 
       - name: Post format errors and stop (if format issues)
-        if: steps.format.outputs.status == 'has_issues'
+        if: always() && steps.format.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           script: |
@@ -165,6 +167,7 @@ jobs:
       - name: Cross-reference validation (check index registration)
         id: crossrefs
         if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
+        continue-on-error: true
         run: |
           cd .github/scripts
           node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt
@@ -178,7 +181,7 @@ jobs:
           fi
 
       - name: Post cross-reference errors and stop (if missing from index)
-        if: steps.crossrefs.outputs.status == 'has_issues'
+        if: always() && steps.crossrefs.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           script: |
