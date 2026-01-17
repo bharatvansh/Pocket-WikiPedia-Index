@@ -2713,5 +2713,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_ravager",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:zombie_head",
+        name: "Zombie Head",
+        category: "item",
+        icon: "textures/items/zombie_head",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        category: "item",
+        icon: "textures/items/skeleton_skull",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        category: "item",
+        icon: "textures/items/creeper_head",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:player_head",
+        name: "Player Head",
+        category: "item",
+        icon: "textures/items/player_head",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        category: "item",
+        icon: "textures/items/tipped_arrow",
+        themeColor: "§b" // aqua/potion
     }
 ];

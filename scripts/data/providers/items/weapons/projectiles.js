@@ -93,5 +93,33 @@ export const projectiles = {
             "Can be fired from dispensers to defend areas"
         ],
         description: "Snowballs are projectile items obtained by shoveling snow or from snow golems. While they deal no damage to most mobs, they provide knockback and are particularly effective against Blazes, dealing 3 points of damage per hit in Bedrock Edition. They can also be crafted into full snow blocks for building. Their low stack size of 16 makes them unique among projectiles, and they are frequently used for both lighthearted snowball fights and serious blaze management in the Nether."
+    },
+    "minecraft:tipped_arrow": {
+        id: "minecraft:tipped_arrow",
+        name: "Tipped Arrow",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ranged combat with added status effects",
+            secondaryUse: "Tactical support or crowd control"
+        },
+        combat: {
+            attackDamage: 2, // Base damage, same as regular arrow
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Crafting/Cauldron",
+            ingredients: ["Regular Arrows + Lingering Potion", "Regular Arrows + Potion (Cauldron in Bedrock)"]
+        },
+        specialNotes: [
+            "In Bedrock, can be made by using arrows on a Potion-filled cauldron",
+            "One cauldron bottle layer can tip up to 16 arrows",
+            "Inflicts the potion's effect on the target upon impact",
+            "Effect duration is generally 1/8th of the original potion's duration",
+            "Does not work with the Infinity enchantment; consumed upon use",
+            "Includes effects like Poison, Harming, Weakness, and Strength"
+        ],
+        description: "Tipped Arrows are advanced projectiles that combine standard ranged damage with the utility of status effects. In Bedrock Edition, they feature a unique crafting method where players can dip regular arrows into a cauldron filled with a potion, providing a highly efficient way to mass-produce them. These arrows are invaluable for tactical combat, allowing players to weaken foes from a distance or apply helpful buffs to allies. Because they are consumed even with the Infinity enchantment, they are often saved for critical encounters."
     }
 };
