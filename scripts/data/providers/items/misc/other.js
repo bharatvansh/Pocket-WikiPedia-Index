@@ -1500,5 +1500,97 @@ export const miscItems = {
             "Matches the unique white-gray color of the Pale Garden set"
         ],
         description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
+    },
+    "minecraft:zombie_head": {
+        id: "minecraft:zombie_head",
+        name: "Zombie Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable head armor",
+            secondaryUse: "Reducing Zombie detection range"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Zombies killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Obtained when a Zombie is killed by a Charged Creeper's explosion",
+            "Can be worn as a helmet or placed as a decorative block",
+            "Reduces the detection range of Zombies by 50% when worn",
+            "Compatible with note blocks to produce Zombie sounds",
+            "Added as a trophy item for late-game combat challenges"
+        ],
+        description: "The Zombie Head is a rare decorative item representing the iconic undead mob. It is primarily obtained by manipulation of a Charged Creeper to kill a Zombie. When worn by a player, it serves a functional purpose by significantly masking the player's presence from other Zombies, reducing their detection range. Additionally, placing it on a note block allows players to create ambient mob sounds, making it a favorite for map-makers and decorators."
+    },
+    "minecraft:skeleton_skull": {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable head armor",
+            secondaryUse: "Reducing Skeleton detection range"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Skeletons killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Obtained when a Skeleton is killed by a Charged Creeper's explosion",
+            "Can be worn as a helmet (purely decorative protection)",
+            "Reduces the detection range of Skeletons by 50% when worn",
+            "Produces Skeleton bone sounds when placed on a note block",
+            "Can be used to craft Skeleton-themed banner patterns"
+        ],
+        description: "The Skeleton Skull is a prized decorative item obtained through the rare encounter of a Charged Creeper killing a Skeleton. This stark white skull can be worn by players to partially camouflage themselves from Skeletons, making it easier to navigate areas populated by archers. In Bedrock Edition, it also has a creative interaction with note blocks, allowing for the generation of skeleton-specific sound effects for atmospheric builds."
+    },
+    "minecraft:creeper_head": {
+        id: "minecraft:creeper_head",
+        name: "Creeper Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative block and wearable head armor",
+            secondaryUse: "Reducing Creeper detection range"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Creepers killed by a Charged Creeper"]
+        },
+        specialNotes: [
+            "Obtained when a Creeper is killed by another Charged Creeper's explosion",
+            "Reduces the detection range of Creepers by 50% when worn",
+            "Produces the iconic 'hiss' sound when placed on a note block",
+            "Essential for crafting the Creeper Charge banner pattern",
+            "A popular trophy item for surviving dangerous mob interactions"
+        ],
+        description: "The Creeper Head is one of the most recognizable trophies in Minecraft, obtained when a Charged Creeper kills one of its own kind. Beyond its use as a distinctive green helmet, it provides a tactical advantage by halving the distance at which Creepers notice the player. Builders often use it alongside note blocks to create suspenseful 'hissing' traps or ambient sounds in themed environments."
+    },
+    "minecraft:player_head": {
+        id: "minecraft:player_head",
+        name: "Player Head",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Purely decorative block and wearable item",
+            secondaryUse: "Unique identity representation in builds"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Creative inventory or Commands only in Bedrock"]
+        },
+        specialNotes: [
+            "In Bedrock Edition, this item is generally only accessible via Creative Mode",
+            "Does not display individual player skins in Bedrock like it does in Java",
+            "Can be worn as a helmet but provides no armor value",
+            "Takes on the appearance of the default 'Steve' skin",
+            "Commonly used by creators for high-detail custom map decorations"
+        ],
+        description: "The Player Head in Minecraft Bedrock Edition is a decorative item that mimics the default player appearance. While it lacks the ability to display specific player skins found in the Java Edition, it remains a heavily utilized block for detailing and custom maps. It can be worn as a purely cosmetic piece or placed as a block to represent human presence in a build. In Survival mode, it remains one of the few unobtainable heads without experimental features or cheats."
     }
 };

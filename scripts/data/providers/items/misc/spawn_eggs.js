@@ -640,5 +640,115 @@ export const spawnEggs = {
             "Can be used on a Spawner to create a Ravager spawner."
         ],
         description: "The Ravager Spawn Egg summons a Ravager, a massive, powerful illager beast. Ravagers are formidable opponents with high health and a devastating charge attack. This egg is essential for Creative Mode players who need to test base defenses against heavy attackers or create complex combat scenarios in adventure maps. Like other spawn eggs, it can be used to transform a Monster Spawner into a Ravager spawner, though Ravagers' large size requires ample space for the spawner to function correctly."
+    },
+    "minecraft:cow_spawn_egg": {
+        id: "minecraft:cow_spawn_egg",
+        name: "Cow Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Cow mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons an adult Cow in any biome.",
+            "Can be used to establish a renewable source of leather, beef, and milk.",
+            "Using it on an adult Cow will spawn a baby calf.",
+            "Equally effective for converting Monster Spawners into Cow spawners."
+        ],
+        description: "The Cow Spawn Egg is a utility item for Creative Mode players that allows the immediate placement of a cow. Cows are vital passive mobs that provide leather for armor and books, beef for food, and milk for clearing status effects. This spawn egg is perfect for quickly populating ranches or testing farm designs. When applied to a Monster Spawner, it overrides its current setting to produce cows indefinitely, offering a method for creating high-output leather and food farms in custom maps."
+    },
+    "minecraft:pig_spawn_egg": {
+        id: "minecraft:pig_spawn_egg",
+        name: "Pig Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Pig mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Immediately summons a Pig at the target location.",
+            "Pigs are a primary source of raw porkchops and can be ridden with a saddle.",
+            "Using the egg on an adult Pig will summon a piglet.",
+            "Converts existing Monster Spawners into Pig spawners."
+        ],
+        description: "The Pig Spawn Egg provides an effortless way to summon a pig in Minecraft Bedrock Edition. Predominantly accessible in Creative Mode, it enables builders to seed their worlds with these iconic pink animals without waiting for natural spawns. Pigs are valuable for their porkchop drops and their ability to be ridden when equipped with a saddle and steered with a carrot on a stick. Like other spawn eggs, using it on a Monster Spawner transforms it into a Pig spawner, which is useful for specialized food production farms."
+    },
+    "minecraft:sheep_spawn_egg": {
+        id: "minecraft:sheep_spawn_egg",
+        name: "Sheep Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Sheep mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Sheep with a randomized wool color (weighted toward white).",
+            "Sheep provide wool for crafting beds and decorations, and mutton for food.",
+            "Using the egg on an adult Sheep will spawn a lamb.",
+            "Sets Monster Spawners to produce Sheep upon contact."
+        ],
+        description: "The Sheep Spawn Egg is a Creative Mode item used to instantly place a sheep. The color of the spawned sheep is randomized based on natural weightings, though white is the most common. Sheep are essential for survival progression as they provide the wool necessary for crafting beds to set spawn points. They also drop mutton when harvested. This spawn egg is an excellent tool for populating pastures or for technical players who wish to convert spawner blocks into high-efficiency wool or food generators."
+    },
+    "minecraft:chicken_spawn_egg": {
+        id: "minecraft:chicken_spawn_egg",
+        name: "Chicken Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Chicken mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Immediately summons a Chicken which can lay eggs over time.",
+            "Chickens provide feathers for arrows and raw chicken for food.",
+            "Using the egg on an adult Chicken will spawn a baby chick.",
+            "Can be used to modify Monster Spawners into Chicken spawners."
+        ],
+        description: "The Chicken Spawn Egg allows for the immediate summoning of a chicken, the primary source of feathers and poultry in the game. In Creative Mode, this is the most direct way to populate areas with poultry or to test egg-collection systems. Chickens are unique among farm animals as they also periodically lay eggs while alive. Using this egg on a Monster Spawner will convert it into a chicken spawner, which can be used to create massive quantities of feathers for projectiles and meat for sustenance or trading."
+    },
+    "minecraft:rabbit_spawn_egg": {
+        id: "minecraft:rabbit_spawn_egg",
+        name: "Rabbit Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Rabbit mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Rabbit with a biome-appropriate fur variant.",
+            "Rabbits drop rabbit hide, raw rabbit, and rare rabbit's feet.",
+            "Using the egg on an adult Rabbit will spawn a baby bunny.",
+            "Transforms Monster Spawners into specialized Rabbit spawners."
+        ],
+        description: "The Rabbit Spawn Egg is a specialized item that summons a rabbit instantly. The variant of rabbit spawned often depends on the surrounding biome, adding realistic variety to custom environments. Rabbits are small, fast mobs that provide unique drops like rabbit's feet for brewing and hides for leather crafting. In addition to basic placement, the egg can be used on a Monster Spawner to create a rabbit-producing spawner. This is a valuable technique for players needing a renewable source of potion ingredients or specialized food materials."
     }
 };
