@@ -2608,5 +2608,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_shulker",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:pale_oak_boat",
+        name: "Pale Oak Boat",
+        category: "item",
+        icon: "textures/items/pale_oak_boat",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_chest_boat",
+        name: "Pale Oak Boat with Chest",
+        category: "item",
+        icon: "textures/items/pale_oak_chest_boat",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        category: "item",
+        icon: "textures/items/pale_oak_sign",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_hanging_sign",
+        name: "Pale Oak Hanging Sign",
+        category: "item",
+        icon: "textures/items/pale_oak_hanging_sign",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:creaking_spawn_egg",
+        name: "Creaking Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_creaking",
+        themeColor: "§7"
     }
 ];
