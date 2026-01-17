@@ -535,5 +535,110 @@ export const spawnEggs = {
             "Changes a Spawner's type to Witch for potion ingredient farms."
         ],
         description: "The Witch Spawn Egg allows for the immediate summoning of a Witch, a hostile mob that uses alchemy to attack and defend. Witches are known for throwing splash potions of poison, weakness, and slowness while healing themselves with health and fire resistance. This spawn egg is primarily a Creative tool for placing these magic-users or for transforming Monster Spawners into Witch spawners, which are highly efficient for farming various brewing ingredients."
+    },
+    "minecraft:drowned_spawn_egg": {
+        id: "minecraft:drowned_spawn_egg",
+        name: "Drowned Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Drowned mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Drowned instantly at the target location.",
+            "Drowned are aquatic zombie variants that can spawn with tridents.",
+            "Changes a Spawner's type to Drowned when used on it."
+        ],
+        description: "The Drowned Spawn Egg allows players to instantly summon a Drowned, the aquatic variant of the zombie. Predominantly used in Creative Mode, it is useful for testing underwater combat or populating aquatic builds. This item is essential for map makers who need to place Drowned without relying on zombies drowning in water. Like other spawn eggs, using it on a Monster Spawner will convert that spawner into a Drowned spawner, making it useful for trident and nautilus shell farms."
+    },
+    "minecraft:husk_spawn_egg": {
+        id: "minecraft:husk_spawn_egg",
+        name: "Husk Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Husk mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Husk instantly at the target location.",
+            "Husks are desert-dwelling zombie variants that do not burn in sunlight.",
+            "Apply to a Spawner to convert it to a Husk spawner."
+        ],
+        description: "The Husk Spawn Egg summons a Husk, a zombie variant found in desert biomes. Unlike regular zombies, Husks do not burn in sunlight and apply the Hunger effect when they hit a player. This egg is a valuable Creative Mode tool for placing desert-themed threats or for transforming Monster Spawners into Husk spawners. Using this item ensures that the summoned mob is specifically a Husk, providing consistency for map designers and technical testers."
+    },
+    "minecraft:stray_spawn_egg": {
+        id: "minecraft:stray_spawn_egg",
+        name: "Stray Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Stray mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Stray instantly at the target location.",
+            "Strays are cold-dwelling skeleton variants that fire tipped arrows of slowness.",
+            "Use on a Spawner to create a Stray spawner."
+        ],
+        description: "The Stray Spawn Egg is used to summon a Stray, the icy variant of the skeleton found in frozen biomes. Strays are known for their ability to fire arrows that inflict the Slowness effect. This egg is highly useful in Creative Mode for setting up snowy-themed encounters or for modifying Monster Spawners to produce Strays. Stray spawners are particularly valuable for farming arrows of slowness, making this egg a key tool for creating specialized resource farms in custom environments."
+    },
+    "minecraft:pillager_spawn_egg": {
+        id: "minecraft:pillager_spawn_egg",
+        name: "Pillager Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Pillager mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Pillager instantly at the target location.",
+            "Pillagers are illager variants that use crossbows for ranged attacks.",
+            "Use on a Spawner to create a Pillager spawner."
+        ],
+        description: "The Pillager Spawn Egg allows for the immediate summoning of a Pillager, the most common type of illager. These hostile mobs are typically found at Pillager Outposts or as part of raid parties and patrols. This egg is used in Creative Mode to test raid defense mechanics or to populate custom structures with ranged attackers. When applied to a Monster Spawner, it converts the spawner into a Pillager spawner, which can be useful for creating manual crossbow or emerald farms."
+    },
+    "minecraft:ravager_spawn_egg": {
+        id: "minecraft:ravager_spawn_egg",
+        name: "Ravager Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Ravager mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a full-sized Ravager beast at the target location.",
+            "Ravagers have high health and can smash certain blocks like crops.",
+            "Can be used on a Spawner to create a Ravager spawner."
+        ],
+        description: "The Ravager Spawn Egg summons a Ravager, a massive, powerful illager beast. Ravagers are formidable opponents with high health and a devastating charge attack. This egg is essential for Creative Mode players who need to test base defenses against heavy attackers or create complex combat scenarios in adventure maps. Like other spawn eggs, it can be used to transform a Monster Spawner into a Ravager spawner, though Ravagers' large size requires ample space for the spawner to function correctly."
     }
 };

@@ -2678,5 +2678,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_witch",
         themeColor: "§5"
+    },
+    {
+        id: "minecraft:drowned_spawn_egg",
+        name: "Drowned Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_drowned",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:husk_spawn_egg",
+        name: "Husk Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_husk",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stray_spawn_egg",
+        name: "Stray Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_stray",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pillager_spawn_egg",
+        name: "Pillager Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pillager",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:ravager_spawn_egg",
+        name: "Ravager Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ravager",
+        themeColor: "§8"
     }
 ];
