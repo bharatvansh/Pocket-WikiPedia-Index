@@ -1417,7 +1417,7 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Water transportation for up to two entities",
-            secondaryUse: "Navigation through Pale Garden biomes"
+            secondaryUse: "Fuel"
         },
         crafting: {
             recipeType: "Shaped",
@@ -1427,7 +1427,8 @@ export const miscItems = {
             "Identical functionality to other boats with a desaturated white texture",
             "Can carry two passengers, including mobs and players",
             "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling"
+            "Nullifies fall damage for all passengers when falling",
+            "Can be used as fuel in a furnace (smelts 6 items)"
         ],
         description: "The Pale Oak Boat is a variant of the standard boat crafted from pale oak planks, introduced in the 1.21.50 Winter Drop. It features a unique, desaturated white appearance that matches the aesthetic of the Pale Garden biome. Like all boats in Bedrock Edition, it handles up to two passengers and provides immunity to fall damage. It is a reliable tool for aquatic exploration and transporting mobs."
     },
@@ -1439,7 +1440,7 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
+            secondaryUse: "Fuel"
         },
         crafting: {
             recipeType: "Shapeless",
@@ -1449,7 +1450,8 @@ export const miscItems = {
             "Combines a Pale Oak Boat with a Chest for 27 slots of mobile storage",
             "Can only carry one passenger (player or mob) due to the chest",
             "Drops both the boat and the chest contents when broken",
-            "Matches the desaturated aesthetic of the Pale Garden"
+            "Matches the desaturated aesthetic of the Pale Garden",
+            "Can be used as fuel in a furnace (smelts 6 items)"
         ],
         description: "The Pale Oak Boat with Chest offers mobile storage for players exploring the Pale Garden or other coastal biomes. By combining a Pale Oak Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water with a unique Winter Drop aesthetic."
     },
