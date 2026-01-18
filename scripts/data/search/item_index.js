@@ -2923,5 +2923,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_polar_bear",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:slime_spawn_egg",
+        name: "Slime Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_slime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:silverfish_spawn_egg",
+        name: "Silverfish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_silverfish",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:cave_spider_spawn_egg",
+        name: "Cave Spider Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_cave_spider",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:bat_spawn_egg",
+        name: "Bat Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_bat",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:cat_spawn_egg",
+        name: "Cat Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_cat",
+        themeColor: "§6"
     }
 ];
