@@ -1169,6 +1169,6 @@ export const spawnEggs = {
             "Changes a Spawner's type to Cat when used on it.",
             "Spawns one of 11 different cat variants randomly."
         ],
-        description: "The Cat Spawn Egg summons a domestic cat, a versatile passive mob that can be tamed to repel creepers and phantoms. When used, it spawns one of eleven possible feline variants. This egg is invaluable for builders wanting to add pets to their homes or for testing anti-mob defenses. In Bedrock Edition, it is the most reliable way to place specific cat breeds in Creative Mode or set a spawner to produce helpful feline watchers."
+        description: "The Cat Spawn Egg summons a domestic cat, a versatile passive mob that repels creepers and phantoms. Cat Spawn Eggs spawn random variants (specific breeds require /summon commands); stray cats also repel phantoms. This egg is invaluable for builders wanting to add pets to their homes or for testing anti-mob defenses. Using it on a Monster Spawner converts it into a Cat spawner, providing constant protection against certain hostile threats."
     }
 };
