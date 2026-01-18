@@ -1170,5 +1170,110 @@ export const spawnEggs = {
             "Spawns one of 11 different cat variants randomly."
         ],
         description: "The Cat Spawn Egg summons a domestic cat, a versatile passive mob that repels creepers and phantoms. Cat Spawn Eggs spawn random variants (specific breeds require /summon commands); stray cats also repel phantoms. This egg is invaluable for builders wanting to add pets to their homes or for testing anti-mob defenses. Using it on a Monster Spawner converts it into a Cat spawner, providing constant protection against certain hostile threats."
+    },
+    "minecraft:bee_spawn_egg": {
+        id: "minecraft:bee_spawn_egg",
+        name: "Bee Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bee mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Bees are neutral mobs that produce honey and can pollinate crops.",
+            "Clicking an adult Bee with the egg will spawn a baby Bee."
+        ],
+        description: "The Bee Spawn Egg allows players to instantly summon a Bee. Bees are unique neutral mobs that are essential for honey production and crop growth. This item is primarily used in Creative Mode for testing farm designs or map making. When used on a Monster Spawner, it transforms it into a Bee spawner, though Bees typically require nests or hives to function effectively. In Survival, this item can only be obtained through commands or cheats."
+    },
+    "minecraft:piglin_spawn_egg": {
+        id: "minecraft:piglin_spawn_egg",
+        name: "Piglin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Piglin mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Piglins are neutral mobs that can be bartered with using gold ingots.",
+            "Will zombify if brought to the Overworld or the End."
+        ],
+        description: "The Piglin Spawn Egg summons a Piglin at the targeted location. Piglins are iconic inhabitants of the Nether, known for their love of gold and unique bartering mechanic. This egg is mostly used in Creative Mode to set up trading halls or testing Nether-themed structures. Like other spawn eggs, it can be applied to a Monster Spawner to create a Piglin spawner. Care should be taken when spawning them outside the Nether, as they will soon transform into Zombified Piglins."
+    },
+    "minecraft:hoglin_spawn_egg": {
+        id: "minecraft:hoglin_spawn_egg",
+        name: "Hoglin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Hoglin mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Hoglins are aggressive beasts that drop porkchops and leather.",
+            "Will transform into a Zoglin if brought to the Overworld or the End."
+        ],
+        description: "The Hoglin Spawn Egg is a Creative Mode item used to instantly summon a Hoglin. Hoglins are large, aggressive beasts found in Crimson Forests, providing a rare survival source of food and leather in the Nether. This egg is useful for testing combat scenarios or populating Nether-themed builds. Like all spawn eggs, it can override a Monster Spawner's data to generate Hoglins. They are sensitive to non-Nether dimensions and will zombify into Zoglins if moved there."
+    },
+    "minecraft:strider_spawn_egg": {
+        id: "minecraft:strider_spawn_egg",
+        name: "Strider Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Strider mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Striders are passive mobs that can walk on lava.",
+            "Can be ridden by players using a saddle and a warped fungus on a stick."
+        ],
+        description: "The Strider Spawn Egg allows for the immediate summoning of a Strider. Striders are unique, passive mobs from the Nether that provide a means of lava transportation. This item is primarily a Creative tool for placing these creatures in lava lakes or testing mount mechanics. When used on a Monster Spawner, it creates a Strider spawner. Striders spawned outside of lava will shiver and take on a purple tint, moving significantly slower."
+    },
+    "minecraft:zombified_piglin_spawn_egg": {
+        id: "minecraft:zombified_piglin_spawn_egg",
+        name: "Zombified Piglin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Zombified Piglin mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Zombified Piglins are neutral undead that wield golden swords.",
+            "Will swarm the player if one is attacked."
+        ],
+        description: "The Zombified Piglin Spawn Egg summons a Zombified Piglin, a common and neutral undead mob of the Nether. They are immune to fire and lava and are famous for their collective aggression when provoked. This spawn egg is highly useful in Creative Mode for designing gold farms or Nether-themed maps. By applying it to a Monster Spawner, players can create a dedicated gold and rotten flesh farm, bypassing the need for complex natural-spawn mechanics."
     }
 };
