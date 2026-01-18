@@ -1275,5 +1275,120 @@ export const spawnEggs = {
             "Will swarm the player if one is attacked."
         ],
         description: "The Zombified Piglin Spawn Egg summons a Zombified Piglin, a common and neutral undead mob of the Nether. They are immune to fire and lava and are famous for their collective aggression when provoked. This spawn egg is highly useful in Creative Mode for designing gold farms or Nether-themed maps. By applying it to a Monster Spawner, players can create a dedicated gold and rotten flesh farm, bypassing the need for complex natural-spawn mechanics."
+    },
+    "minecraft:ocelot_spawn_egg": {
+        id: "minecraft:ocelot_spawn_egg",
+        name: "Ocelot Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Ocelot mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Found naturally in Jungle biomes",
+            "Feed raw fish to gain trust (but not tame)",
+            "Will flee from players who move too quickly",
+            "Creepers stay away from Ocelots",
+            "Can be used on a spawner to create an Ocelot spawner"
+        ],
+        description: "The Ocelot Spawn Egg allows players to instantly summon an Ocelot, a shy feline found in jungle biomes. While they cannot be tamed into cats, feeding them raw fish earns their trust, preventing them from fleeing. They are known for scaring away Creepers and Phantoms, making them useful for base protection. Like all spawn eggs, this can be used on a spawner to create a dedicated Ocelot habitat, ideal for players wanting to add life to their jungle builds or protect livestock from explosive threats."
+    },
+    "minecraft:donkey_spawn_egg": {
+        id: "minecraft:donkey_spawn_egg",
+        name: "Donkey Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Donkey mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Found in Plains and Savanna biomes",
+            "Tamed by repeatedly mounting",
+            "Equip with a chest for 15 slots of storage",
+            "Breeding a donkey with a horse creates a mule",
+            "Cannot be equipped with horse armor"
+        ],
+        description: "The Donkey Spawn Egg summons a Donkey, a versatile variant of the horse found in plains and savannas. Donkeys are valued for their utility; while they cannot wear horse armor, they can be equipped with chests to provide 15 slots of portable storage. They move slower than horses but are easier to breed and manage for long-distance transport. Using this on a spawner creates a donkey spawner, allowing for the rapid generation of these helpful pack animals for survival exploration and resource gathering."
+    },
+    "minecraft:mule_spawn_egg": {
+        id: "minecraft:mule_spawn_egg",
+        name: "Mule Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Mule mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Result of breeding a horse and a donkey",
+            "Cannot spawn naturally in the world",
+            "Can be equipped with chests (15 slots)",
+            "Tamed by repeatedly mounting",
+            "Sterile; cannot be bred to create offspring"
+        ],
+        description: "The Mule Spawn Egg summons a Mule, a sterile crossbreed that combines horse speed with donkey utility. Mules are unique because they do not spawn naturally and must be bred from a horse and a donkey. They can be equipped with chests for 15 slots of extra inventory, making them superior long-distance travel companions. This spawn egg is particularly useful for map creators who want to provide players with advanced mounts without requiring the multi-step breeding process needed in standard survival."
+    },
+    "minecraft:skeleton_horse_spawn_egg": {
+        id: "minecraft:skeleton_horse_spawn_egg",
+        name: "Skeleton Horse Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Skeleton Horse mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawn from 'skeleton traps' during thunderstorms",
+            "Do not require taming to ride",
+            "Can be ridden underwater (unlike normal horses)",
+            "Does not need a saddle to control in Bedrock Edition",
+            "Healed using Instant Harming potions (undead)"
+        ],
+        description: "The Skeleton Horse Spawn Egg summons an undead mount that possesses unique abilities. Unlike standard horses, they can be ridden underwater and do not require taming or a saddle to control in Bedrock Edition. They are immune to drowning and provide a fast, spooky way to navigate both land and sea. In survival, they only appear during rare skeleton traps in thunderstorms. This egg allows Creative players to bypass weather dependency and immediately utilize one of the game's most interesting mounts."
+    },
+    "minecraft:zombie_horse_spawn_egg": {
+        id: "minecraft:zombie_horse_spawn_egg",
+        name: "Zombie Horse Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Zombie Horse mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Do not spawn naturally in survival mode",
+            "Green-skinned undead variant of the horse",
+            "Has 15 hearts (30 health), more than most horses",
+            "Healed using Instant Harming potions (undead)",
+            "Can be tamed and ridden in creative/commands"
+        ],
+        description: "The Zombie Horse Spawn Egg summons a green-skinned undead horse variant that is significantly more durable than typical horses. Boasting 15 hearts of health, they are among the toughest passive mobs. Although they do not spawn naturally in survival, this egg makes them accessible for Creative projects and commands. These horses are undead, meaning they are healed by harming effects rather than healing. They serve as excellent, high-health aesthetic mounts for builders and adventure map designers."
     }
 };

@@ -2993,5 +2993,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_zombified_piglin",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:ocelot_spawn_egg",
+        name: "Ocelot Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ocelot",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:donkey_spawn_egg",
+        name: "Donkey Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_donkey",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:mule_spawn_egg",
+        name: "Mule Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_mule",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:skeleton_horse_spawn_egg",
+        name: "Skeleton Horse Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_skeleton_horse",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:zombie_horse_spawn_egg",
+        name: "Zombie Horse Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_zombie_horse",
+        themeColor: "§a"
     }
 ];
