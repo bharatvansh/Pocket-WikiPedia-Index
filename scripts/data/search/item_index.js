@@ -2818,5 +2818,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/ice_bomb",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:bleach",
+        name: "Bleach",
+        category: "item",
+        icon: "textures/items/bleach",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:sparkler",
+        name: "Sparkler",
+        category: "item",
+        icon: "textures/items/sparkler",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:glow_stick",
+        name: "Glow Stick",
+        category: "item",
+        icon: "textures/items/glow_stick",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:super_fertilizer",
+        name: "Super Fertilizer",
+        category: "item",
+        icon: "textures/items/super_fertilizer",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:medicine",
+        name: "Antidote",
+        category: "item",
+        icon: "textures/items/antidote",
+        themeColor: "§f"
     }
 ];
