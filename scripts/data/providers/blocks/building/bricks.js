@@ -32,6 +32,90 @@ export const brickBlocks = {
         },
         description: "Sandstone is a solid block related to sand that generates naturally in deserts and beaches below layers of sand. It comes in two color variants: regular sandstone (yellow-tan) and red sandstone (reddish-orange). Sandstone requires a wooden pickaxe or better to mine efficiently, dropping itself when broken. It has three decorative variants: chiseled sandstone with hieroglyphic patterns, cut sandstone with a smoother texture, and smooth sandstone made by smelting regular sandstone. Sandstone is commonly used for desert-themed builds and offers good blast resistance despite its relatively low hardness."
     },
+    "minecraft:smooth_sandstone": {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Smooth Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by smelting Sandstone"
+        },
+        description: "Smooth Sandstone is a refined version of sandstone with a clean, uniform texture on all sides. It lacks the layered appearance of regular sandstone, making it highly desirable for clean architectural lines and decorative builds. It is crafted by smelting regular sandstone in a furnace and maintains the same physical properties like blast resistance and mining requirements."
+    },
+    "minecraft:cut_sandstone": {
+        id: "minecraft:cut_sandstone",
+        name: "Cut Sandstone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Cut Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 4 Sandstone"
+        },
+        description: "Cut Sandstone is a decorative variant of sandstone that features a distinct border around its edges. This gives it a tile-like or paneled appearance, perfect for flooring, wall accents, or adding structural detail to desert-themed buildings. It is crafted in a 2x2 grid using regular sandstone and can also be used to craft Cut Sandstone Slabs."
+    },
+    "minecraft:chiseled_sandstone": {
+        id: "minecraft:chiseled_sandstone",
+        name: "Chiseled Sandstone",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Chiseled Sandstone"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Temples, Desert Villages"
+        },
+        description: "Chiseled Sandstone is a decorative block that features a unique carved pattern. In Bedrock Edition, this icon typically represents a face, often interpreted as a Creeper. These blocks generate naturally in desert temples and desert villages, serving as intricate architectural highlights. They can also be crafted using sandstone slabs in a crafting table."
+    },
+    "minecraft:sandstone_wall": {
+        id: "minecraft:sandstone_wall",
+        name: "Sandstone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Sandstone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Sandstone"
+        },
+        description: "Sandstone Walls are thin decorative barrier blocks that offer a refined, solid alternative to wooden fences. They connect to each other and surrounding blocks, forming a continuous barrier that is 1.5 blocks high for entities, preventing them from jumping over. Made from sandstone, these walls are perfect for desert outposts, fortifications, and garden boundaries."
+    },
     "minecraft:mud_bricks": {
         id: "minecraft:mud_bricks",
         name: "Mud Bricks",

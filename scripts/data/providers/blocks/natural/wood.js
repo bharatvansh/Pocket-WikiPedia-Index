@@ -179,6 +179,27 @@ export const woodBlocks = {
         },
         description: "Warped Stem is a turquoise-colored, log-like block found in the Warped Forest biome of the Nether. Unlike Overworld logs, warped stems are fire-resistant and do not burn. They serve as the 'wood' of the huge fungi in the biome. They can be stripped using an axe to create Stripped Warped Stem, or crafted into Warped Planks. The animated texture of the stem pulses slightly, adding a unique alien feel to builds."
     },
+    "minecraft:warped_hyphae": {
+        id: "minecraft:warped_hyphae",
+        name: "Warped Hyphae",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Hyphae"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Nether (Warped Forest)"
+        },
+        description: "Warped Hyphae is a wood-like block that has the warped stem's bark texture on all six sides. It is fire-resistant and pulses with a dark aqua color. Unlike many other nether blocks, it can be crafted into warped planks or used as a decorative building block. It is essentially the 'wood' version of the warped stem, allowing for consistent bark textures on all sides of a pillar or structure."
+    },
     "minecraft:pale_oak_wood": {
         id: "minecraft:pale_oak_wood",
         name: "Pale Oak Wood",

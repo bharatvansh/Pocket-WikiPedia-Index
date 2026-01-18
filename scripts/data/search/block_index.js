@@ -2588,5 +2588,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:warped_hyphae",
+        name: "Warped Hyphae",
+        category: "block",
+        icon: "textures/blocks/warped_hyphae",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:smooth_sandstone",
+        name: "Smooth Sandstone",
+        category: "block",
+        icon: "textures/blocks/sandstone_smooth",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:cut_sandstone",
+        name: "Cut Sandstone",
+        category: "block",
+        icon: "textures/blocks/cut_sandstone",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:chiseled_sandstone",
+        name: "Chiseled Sandstone",
+        category: "block",
+        icon: "textures/blocks/chiseled_sandstone",
+        themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:sandstone_wall",
+        name: "Sandstone Wall",
+        category: "block",
+        icon: "textures/blocks/sandstone_wall",
+        themeColor: "§e" // yellow/sand
     }
 ];
