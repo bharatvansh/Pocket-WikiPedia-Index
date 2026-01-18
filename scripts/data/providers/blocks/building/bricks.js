@@ -135,7 +135,7 @@ export const brickBlocks = {
             dimension: "Overworld",
             yRange: "N/A (Crafted)"
         },
-        description: "Chiseled Red Sandstone is a decorative variant of red sandstone featuring an intricate carved pattern. In Bedrock Edition, this block displays a unique design, often interpreted as a stylized wither or a similar face-like icon. It is primarily used as an architectural accent or for decorative pillars in structures located in the Badlands. It can be crafted by placing two red sandstone slabs vertically in a crafting grid or more efficiently using a stonecutter. It requires a pickaxe or better to mine."
+        description: "Chiseled Red Sandstone is a decorative block primarily used as an architectural accent. It is exclusively crafted by placing two red sandstone slabs in a vertical line within a crafting grid or by using a stonecutter. Unlike regular red sandstone, it does not generate naturally in any structures. Its side texture features a stylized carving of a Wither, providing an intricate detail for pillars and borders in desert or Badlands-themed builds. It requires a pickaxe to mine efficiently and drops itself when broken."
     },
     "minecraft:cut_red_sandstone": {
         id: "minecraft:cut_red_sandstone",
