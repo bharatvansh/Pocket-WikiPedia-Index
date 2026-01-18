@@ -2658,5 +2658,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sandstone_wall",
         themeColor: "§e" // yellow/sand
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:spawner",
+        name: "Monster Spawner",
+        category: "block",
+        icon: "textures/blocks/mob_spawner",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:brown_mushroom",
+        name: "Brown Mushroom",
+        category: "block",
+        icon: "textures/blocks/mushroom_brown",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:seagrass",
+        name: "Seagrass",
+        category: "block",
+        icon: "textures/blocks/seagrass",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:coarse_dirt",
+        name: "Coarse Dirt",
+        category: "block",
+        icon: "textures/blocks/coarse_dirt",
+        themeColor: "§6" // brown
     }
 ];

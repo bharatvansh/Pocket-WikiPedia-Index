@@ -918,5 +918,47 @@ export const vegetationBlocks = {
             yRange: "Swamp, Mangrove Swamp biomes"
         },
         description: "Lily Pads are flat, green vegetation blocks that float on the surface of water and ice. They generate naturally in Swamps and Mangrove Swamps. Players and mobs can walk on top of them, allowing for easy travel across water without swimming. They can be placed on source blocks and flowing water, but they will break if the water beneath them is removed. In Bedrock Edition, they can also be used as a source of green dye when composted, or simply as a decorative element for garden ponds and aquatic landscapes."
+    },
+    "minecraft:brown_mushroom": {
+        id: "minecraft:brown_mushroom",
+        name: "Brown Mushroom",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Mushroom"],
+        generation: {
+            dimension: "Overworld, Nether",
+            yRange: "Shaded areas, Mushroom Fields, Nether floors"
+        },
+        description: "The Brown Mushroom is a small fungal vegetation found in low-light environments throughout the Overworld and the Nether. Unlike most plants, it emits a very faint light level of 1 in Bedrock Edition. It can be planted on most solid blocks in light levels below 13, or on mycelium and podzol at any light level. When treated with bone meal on these surfaces, it grows into a huge brown mushroom. It is a key ingredient for crafting Mushroom Stew, Rabbit Stew, and various Suspicious Stews, making it a valuable resource for survival food and effects."
+    },
+    "minecraft:seagrass": {
+        id: "minecraft:seagrass",
+        name: "Seagrass",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Seagrass (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underwater (Oceans, Rivers, Swamps)"
+        },
+        description: "Seagrass is an underwater vegetation block that generates naturally in most aquatic biomes. It serves as the primary food source for turtles; feeding them seagrass allows players to breed them, and baby turtles will consume it to grow faster. While it can be broken by hand, it only drops seagrass items when harvested with shears. It can be grown on underwater dirt, sand, or gravel by using bone meal. In Bedrock Edition, it provides a lush, vibrant look to underwater landscapes and is essential for turtle-based resource farming."
     }
 };
