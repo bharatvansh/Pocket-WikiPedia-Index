@@ -3028,5 +3028,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_zombie_horse",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:antidote",
+        name: "Antidote",
+        category: "item",
+        icon: "textures/items/antidote",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:elixir",
+        name: "Elixir",
+        category: "item",
+        icon: "textures/items/elixir",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:eye_drops",
+        name: "Eye Drops",
+        category: "item",
+        icon: "textures/items/eye_drops",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:tonic",
+        name: "Tonic",
+        category: "item",
+        icon: "textures/items/tonic",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:glow_stick",
+        name: "Glow Stick",
+        category: "item",
+        icon: "textures/items/glow_stick_blue",
+        themeColor: "§9"
     }
 ];

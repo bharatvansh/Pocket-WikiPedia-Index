@@ -88,5 +88,97 @@ export const potions = {
             "Brewed using Dragon's Breath collected from the Ender Dragon"
         ],
         description: "Lingering Potions are advanced potion variants that create a cloud of status effect upon impact. They are brewed by combining a Splash Potion with Dragon's Breath. The resulting cloud persists for 30 seconds, applying the effect to any entity that passes through it. This area-of-effect mechanic makes them useful for zoning or sustaining buffs/debuffs. Additionally, Lingering Potions are the only way to craft Tipped Arrows, which imbue arrows with potion effects."
+    },
+    "minecraft:antidote": {
+        id: "minecraft:antidote",
+        name: "Antidote",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Curing the Poison status effect",
+            secondaryUse: "Counteracting negative effects from poisonous mobs or items"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Silver (Element)"]
+        },
+        specialNotes: [
+            "Exclusively available in Bedrock and Education Editions.",
+            "Can only be consumed when the player is suffering from Poison.",
+            "Instantly removes all levels of the Poison effect upon consumption.",
+            "Returns an empty glass bottle to the player's inventory after use.",
+            "Cannot be turned into splash or lingering variants."
+        ],
+        description: "The Antidote is a specialized medicinal item in Minecraft Bedrock Edition, accessible when Education features are toggled on. It is brewed by combining an Awkward Potion with the element Silver in a Brewing Stand. Its primary function is to immediately cure the player of any Poison effect, making it highly effective against Cave Spiders, Pufferfish, or Witches. Unlike standard potions, it can only be drunk when the specified debuff is active, and it does not have splash or lingering versions."
+    },
+    "minecraft:elixir": {
+        id: "minecraft:elixir",
+        name: "Elixir",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Curing the Weakness status effect",
+            secondaryUse: "Restoring full physical damage capabilities"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Cobalt (Element)"]
+        },
+        specialNotes: [
+            "Exclusively available in Bedrock and Education Editions.",
+            "Can only be consumed when the player is suffering from Weakness.",
+            "Instantly removes the Weakness effect, restoring normal attack damage.",
+            "Returns an empty glass bottle after use.",
+            "Useful in combat against mobs that apply weakness."
+        ],
+        description: "The Elixir is a chemistry-based medicine used to counteract the Weakness status effect. Available only in Bedrock and Education Editions with chemistry features enabled, it is created by brewing Cobalt into an Awkward Potion. When consumed, it immediately restores the player's ability to deal full melee damage. This makes it a strategic item to carry when facing Witches or other sources of spiritual or physical fatigue, though it requires the player to be affected by Weakness before it can be drunk."
+    },
+    "minecraft:eye_drops": {
+        id: "minecraft:eye_drops",
+        name: "Eye Drops",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Curing the Blindness status effect",
+            secondaryUse: "Restoring full visibility in dark or obscured environments"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Calcium (Element)"]
+        },
+        specialNotes: [
+            "Exclusively available in Bedrock and Education Editions.",
+            "Can only be consumed when the player is blinded.",
+            "Instantly clears vision by removing the Blindness effect.",
+            "Returns an empty glass bottle after use.",
+            "Crucial for countering the Warden's darkness or other blinding hazards."
+        ],
+        description: "Eye Drops are a medicinal item designed to cure Blindness, found in the chemistry features of Bedrock and Education Editions. They are brewed using Calcium and an Awkward Potion. Upon consumption, the player's vision is instantly restored, removing the thick fog and limited sight range caused by Blindness. This utility is particularly valuable in environments where visibility is compromised by mob effects or specific traps, allowing for a swift recovery of situational awareness."
+    },
+    "minecraft:tonic": {
+        id: "minecraft:tonic",
+        name: "Tonic",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Curing the Nausea status effect",
+            secondaryUse: "Stabilizing vision and movement"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Bismuth (Element)"]
+        },
+        specialNotes: [
+            "Exclusively available in Bedrock and Education Editions.",
+            "Can only be consumed when the player is experiencing Nausea.",
+            "Instantly stops the screen-warping effect of Nausea.",
+            "Returns an empty glass bottle after use.",
+            "Helpful for players sensitive to the Nausea visual effect."
+        ],
+        description: "The Tonic is a chemistry-brewed medicine used to treat Nausea in Minecraft Bedrock and Education Editions. It is produced by brewing Bismuth into an Awkward Potion in a standard Brewing Stand. Consumption of the Tonic immediately ceases the disorienting screen-warping visual effect associated with Nausea, providing immediate clarity and stability for the player. Like other medicines, it is a single-use item that leaves behind a glass bottle and can only be used when the symptom is present."
     }
 };

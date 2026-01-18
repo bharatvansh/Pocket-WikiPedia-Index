@@ -1655,5 +1655,28 @@ export const miscItems = {
             "Requires Education Edition features to be enabled for crafting."
         ],
         description: "Balloons are fun, buoyant objects available in Minecraft Bedrock when Education features are active. They can be attached to most mobs, causing them to float upwards into the air, or tied to fence posts for colorful decorations. They come in 16 different colors based on the dye used in crafting. While they are mostly for fun, they can be popped by arrows or other projectiles, making for interesting mini-games."
+    },
+    "minecraft:glow_stick": {
+        id: "minecraft:glow_stick",
+        name: "Glow Stick",
+        maxStack: 1,
+        durability: 100,
+        enchantable: false,
+        usage: {
+            primaryUse: "Hand-held light source (aesthetic focus)",
+            secondaryUse: "Signaling and decoration in dark environments"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Polyethylene x6", "Hydrogen Peroxide", "Luminol", "Any Dye"]
+        },
+        specialNotes: [
+            "Exclusively available in Bedrock and Education Editions.",
+            "Does not emit block light; glowing effect is visual on the item only.",
+            "Shaken by using the item to activate the glow.",
+            "Durability depletes gradually while the glow is active.",
+            "Available in 16 different colors matching standard dyes."
+        ],
+        description: "The Glow Stick is a unique hand-held item available in Minecraft Bedrock Edition when chemistry features are enabled. Crafted by combining specialized compounds like Polyethylene and Luminol with a dye, it comes in sixteen vibrant colors. When activated by 'using' the item, the player shakes the stick to initiate a chemical glow. While it does not illuminate the surrounding blocks like a torch, the item itself remains brightly visible in even the deepest darkness, making it perfect for aesthetic signaling, nighttime celebrations, or as a futuristic decorative tool in cave exploration."
     }
 };
