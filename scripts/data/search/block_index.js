@@ -2483,5 +2483,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_orange",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:sweet_berry_bush",
+        name: "Sweet Berry Bush",
+        category: "block",
+        icon: "textures/blocks/sweet_berry_bush_stage3",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:cave_vines",
+        name: "Cave Vines",
+        category: "block",
+        icon: "textures/blocks/cave_vines_body_with_berries",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:chorus_plant",
+        name: "Chorus Plant",
+        category: "block",
+        icon: "textures/blocks/chorus_plant",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:waterlily",
+        name: "Lily Pad",
+        category: "block",
+        icon: "textures/blocks/waterlily",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:infested_deepslate",
+        name: "Infested Deepslate",
+        category: "block",
+        icon: "textures/blocks/deepslate",
+        themeColor: "§8"
     }
 ];
