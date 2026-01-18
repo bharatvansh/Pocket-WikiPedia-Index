@@ -177,5 +177,26 @@ export const plankBlocks = {
             yRange: "Crafted from Crimson Stem"
         },
         description: "Crimson Planks are the fire-resistant counterpart to Warped Planks, found in the Nether's Crimson Forest. They are crafted from crimson stems or hyphae and possess a deep burgundy-red color. Like their warped cousins, crimson planks are impervious to fire and lava, making them ideal for hazardous environments. They provide a unique gothic aesthetic to builds and can be used to craft a full set of crimson-colored wooden items. They are a vital resource for players establishing permanent bases in the Nether who want to avoid the risks of traditional wood."
+    },
+    "minecraft:mangrove_planks": {
+        id: "minecraft:mangrove_planks",
+        name: "Mangrove Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A"
+        },
+        description: "Mangrove Planks are a deep red building material harvested from Mangrove trees in the Mangrove Swamp biome. They were introduced in the 1.19 Wild Update. Like other wood types, they are versatile and can be crafted into stairs, slabs, doors, and fences. Their rich coloration makes them a favorite for adding bold accents to builds, especially in tropical or nautical themes. They share the same physical properties as other wood planks, offering both durability and aesthetic appeal for a wide range of construction projects."
     }
 };
