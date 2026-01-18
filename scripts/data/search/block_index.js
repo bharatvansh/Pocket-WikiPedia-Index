@@ -2728,5 +2728,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/coarse_dirt",
         themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        category: "block",
+        icon: "textures/blocks/farmland_dry",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:dirt_path",
+        name: "Dirt Path",
+        category: "block",
+        icon: "textures/blocks/dirt_path_top",
+        themeColor: "§e" // yellow/brown
+    },
+    {
+        id: "minecraft:snow",
+        name: "Snow Block",
+        category: "block",
+        icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_glazed_terracotta",
+        name: "White Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_stained_glass",
+        name: "White Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // white
     }
 ];

@@ -70,5 +70,26 @@ export const iceBlocks = {
             yRange: "Various heights in snowy biomes"
         },
         description: "Top Snow (also known as a Snow Layer) is a block that covers the ground in snowy biomes. In Bedrock Edition, snow layers are affected by gravity and will fall if the block beneath them is removed. A single layer of snow drops snowballs when mined with a shovel, unless Silk Touch is used. Multiple layers can be stacked to create a full snow block height. Snow layers will melt if the light level from a heat source (like torches or lava) is too high."
+    },
+    "minecraft:snow": {
+        id: "minecraft:snow",
+        name: "Snow Block",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["4x Snowball"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Snowy Biomes, Igloos"
+        },
+        description: "A Snow Block is a full-sized block crafted from four snowballs. It is primarily used for building and creating snow golems. Unlike snow layers, snow blocks are not affected by gravity and do not melt near light sources. They are easily broken with a shovel and are a common building material in cold biomes for creating igloos and snowy structures."
     }
 };
