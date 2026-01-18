@@ -304,5 +304,26 @@ export const dirtBlocks = {
             yRange: "Surface (most biomes)"
         },
         description: "Grass Block is a natural block that generates on the surface of the Overworld. It consists of dirt with grass growing on top. Grass spreads to adjacent dirt blocks if light levels are sufficient. When mined without Silk Touch, it drops dirt. It can be converted into a dirt path with a shovel or farmland with a hoe. Grass blocks take on the color of the biome they are in."
+    },
+    "minecraft:coarse_dirt": {
+        id: "minecraft:coarse_dirt",
+        name: "Coarse Dirt",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Coarse Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Windswept Savanna, Wooded Badlands, Old Growth Taiga"
+        },
+        description: "Coarse Dirt is a variation of dirt that prevents grass from spreading onto it. It features a slightly darker and more textured appearance compared to regular dirt. It generates naturally in biomes where vegetation is sparse or the soil is rocky, such as Windswept Savannas and Old Growth Taigas. Players can also craft it by combining two dirt blocks with two gravel blocks. Tilling coarse dirt with a hoe converts it into regular dirt. It's an excellent choice for path-making and landscaping where a more rugged, earth-toned look is desired without the risk of grass overgrowth."
     }
 };

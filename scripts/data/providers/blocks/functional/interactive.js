@@ -557,5 +557,26 @@ export const interactiveBlocks = {
             yRange: "Ocean Monuments"
         },
         description: "A Wet Sponge is a variant of the sponge block that has already absorbed water and cannot absorb more. It is found naturally in ocean monuments or created when a dry sponge comes into contact with water. Unlike dry sponges, wet sponges do not have any absorbent properties. To reuse a wet sponge, it must be dried in a furnace or placed in the Nether, where it instantly turns back into a dry sponge. In Bedrock Edition, wet sponges can also be dried by placing them in dry biomes or using a bucket during smelting to collect the water."
+    },
+    "minecraft:spawner": {
+        id: "minecraft:spawner",
+        name: "Monster Spawner",
+        hardness: 5,
+        blastResistance: 5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld, Nether",
+            yRange: "Dungeons, Mineshafts, Strongholds, Bastion Remnants, Nether Fortresses"
+        },
+        description: "A Monster Spawner is a cage-like block that generates naturally in various structures. It contains a miniature, spinning mob inside and attempts to spawn that specific mob in a 9x9x3 area around itself whenever a player is within 16 blocks. Spawners are invaluable for creating automated mob farms for experience and items. In survival mode, they cannot be obtained as an item, even with Silk Touch, and drop only experience when broken with a pickaxe. The spawn rate depends on light levels and whether the maximum mob density for that area has been reached."
     }
 };

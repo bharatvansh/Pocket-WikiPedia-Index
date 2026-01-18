@@ -326,6 +326,27 @@ export const stoneBlocks = {
         },
         description: "Infested Deepslate is a variant of deepslate that houses a Silverfish. Like other infested blocks, it looks identical to its non-infested counterpart but can be distinguished in Bedrock Edition by how quickly it breaks (~0.75 hardness vs 3.0+ for normal deepslate). When broken without Silk Touch, it releases a Silverfish and drops no item. It generates naturally in deepslate layers and within strongholds. It provides a dangerous surprise for miners working in the deep dark layers of the Overworld."
     },
+    "minecraft:infested_cobblestone": {
+        id: "minecraft:infested_cobblestone",
+        name: "Infested Cobblestone",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Cobblestone (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos, Mountain biomes"
+        },
+        description: "Infested Cobblestone is a block that contains a silverfish and looks exactly like regular cobblestone. In Bedrock Edition, it can be distinguished by the fact that it breaks instantly even by hand, whereas regular cobblestone takes longer. When broken, it releases a silverfish and drops nothing unless a tool with Silk Touch is used, which will drop a regular cobblestone block. It generates naturally in strongholds, under some igloos, and in mountain biomes."
+    },
     "minecraft:polished_deepslate": {
         id: "minecraft:polished_deepslate",
         name: "Polished Deepslate",
