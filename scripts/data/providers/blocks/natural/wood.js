@@ -535,5 +535,110 @@ export const woodBlocks = {
             yRange: "N/A"
         },
         description: "Stripped Mangrove Wood is a decorative block with the stripped texture of Mangrove logs on all six faces. It provides a seamless, smooth deep red surface, ideal for large wooden structures and artistic builds. It is crafted from stripped mangrove logs or by stripping regular mangrove wood with an axe. This block shares the fire-susceptible nature of overworld wood and is most effectively broken with an axe. Its uniform deep red color provides a consistent aesthetic for large surfaces where bark or wood rings would be distracting."
+    },
+    "minecraft:oak_leaves": {
+        id: "minecraft:oak_leaves",
+        name: "Oak Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Oak Sapling (5%)", "Apple (0.5%)", "Stick (2%)", "Oak Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320"
+        },
+        description: "Oak Leaves are the most common foliage in Minecraft, found on oak and dark oak trees across many biomes. They are notable for their ability to drop apples, providing a basic food source early in the game. When broken naturally, they have a chance to drop oak saplings and sticks. In Bedrock Edition, these leaves change color depending on the biome they are placed in, ranging from vibrant green in jungles to a more muted tone in deserts."
+    },
+    "minecraft:spruce_leaves": {
+        id: "minecraft:spruce_leaves",
+        name: "Spruce Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Spruce Sapling (5%)", "Stick (2%)", "Spruce Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320"
+        },
+        description: "Spruce Leaves are found on spruce trees, primarily in taiga and snowy biomes. They have a denser, more needle-like appearance and a darker green color compared to oak leaves. They drop spruce saplings when decayed or broken, which can be grown into large 2x2 spruce trees. Like other leaves, they are highly flammable and can be quickly cleared away using shears or fire. They are often used in builds to create a colder or more forest-like atmosphere."
+    },
+    "minecraft:birch_leaves": {
+        id: "minecraft:birch_leaves",
+        name: "Birch Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Birch Sapling (5%)", "Stick (2%)", "Birch Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320"
+        },
+        description: "Birch Leaves are the foliage of birch trees, known for their light, bright green color. They provide a cheerful aesthetic to birch forest biomes. While they do not drop apples, they have a reliable 5% chance to drop birch saplings. They are effectively harvested using shears to maintain their block form for decorative purposes. Birch leaves are often paired with their distinctive white bark logs to create high-contrast builds or modern garden designs."
+    },
+    "minecraft:jungle_leaves": {
+        id: "minecraft:jungle_leaves",
+        name: "Jungle Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Jungle Sapling (2.5%)", "Stick (2%)", "Jungle Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320"
+        },
+        description: "Jungle Leaves form the thick, towering canopies of jungle biomes. They are unique in having a lower sapling drop rate than most other tree types, making jungle saplings slightly more difficult to accumulate. These leaves create a very dense shadow on the jungle floor, allowing for unique mob spawning conditions. They are often found draped in vines and are some of the most lush-looking foliage in the game, perfect for creating overgrown or tropical-themed environments."
+    },
+    "minecraft:acacia_leaves": {
+        id: "minecraft:acacia_leaves",
+        name: "Acacia Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Acacia Sapling (5%)", "Stick (2%)", "Acacia Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320"
+        },
+        description: "Acacia Leaves are found on the uniquely shaped, diagonal-growing acacia trees in savanna biomes. They have a distinct green color that complements the reddish-orange hue of acacia wood. Like other leaves, they are best harvested with shears or a silk touch tool. They contribute to the iconic silhouette of the savanna landscape. In Bedrock Edition, they serve as a versatile decoration block for players looking to recreate African-inspired landscapes or desert oases."
     }
 };
