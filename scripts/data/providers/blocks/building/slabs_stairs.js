@@ -299,7 +299,7 @@ export const slabsStairsBlocks = {
         drops: ["Mangrove Slab"],
         generation: {
             dimension: "Overworld",
-            yRange: "Crafted from Mangrove Planks"
+            yRange: "N/A"
         },
         description: "Mangrove Slab is a half-block variant of Mangrove planks. It allows for more precise elevation changes and detailed architectural features while maintaining the rich, deep red aesthetic of Mangrove wood. It is crafted from three Mangrove planks or via a stonecutter in the standard recipe. Like other wooden slabs, it is flammable and can be waterlogged, providing versatility for various building styles from swampy docks to sophisticated interior flooring."
     }

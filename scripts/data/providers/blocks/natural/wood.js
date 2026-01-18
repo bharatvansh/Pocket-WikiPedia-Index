@@ -469,7 +469,7 @@ export const woodBlocks = {
         drops: ["Mangrove Wood"],
         generation: {
             dimension: "None",
-            yRange: "None"
+            yRange: "N/A"
         },
         description: "Mangrove Wood is a block with the bark texture of Mangrove logs on all six sides. It is crafted with four Mangrove logs. It is perfect for creating seamless trunks and organic structures where the log rings are not desired. It retains the dark brown bark and deep red color of the Mangrove set. Like other wood variants, it is flammable and most efficiently harvested with an axe. It can be further processed into stripped mangrove wood, maintaining its versatile structural role in building designs."
     },
@@ -490,7 +490,7 @@ export const woodBlocks = {
         drops: ["Stripped Mangrove Log"],
         generation: {
             dimension: "None",
-            yRange: "None"
+            yRange: "N/A"
         },
         description: "Stripped Mangrove Log is a variant of the Mangrove log created by using an axe on it. Stripping the bark reveals the beautiful, smooth deep red interior of the wood. This version is often preferred by builders for its clean and uniform appearance, making it excellent for modern and detailed constructions. Introduced in the 1.19 Wild Update, it can be crafted into mangrove planks or used decoratively. Like all mangrove wood blocks, it is flammable with a hardness of 2.0 and blast resistance of 2.0."
     },
@@ -511,7 +511,7 @@ export const woodBlocks = {
         drops: ["Stripped Mangrove Wood"],
         generation: {
             dimension: "None",
-            yRange: "None"
+            yRange: "N/A"
         },
         description: "Stripped Mangrove Wood is a decorative block with the stripped texture of Mangrove logs on all six faces. It provides a seamless, smooth deep red surface, ideal for large wooden structures and artistic builds. It is crafted from stripped mangrove logs or by stripping regular mangrove wood with an axe. This block shares the fire-susceptible nature of overworld wood and is most effectively broken with an axe. Its uniform deep red color provides a consistent aesthetic for large surfaces where bark or wood rings would be distracting."
     }

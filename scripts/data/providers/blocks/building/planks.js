@@ -195,8 +195,8 @@ export const plankBlocks = {
         drops: ["Mangrove Planks"],
         generation: {
             dimension: "Overworld",
-            yRange: "Crafted from Mangrove Logs"
+            yRange: "N/A"
         },
-        description: "Mangrove Planks are a deep red building material harvested from Mangrove trees in the Swamp. They were introduced in the 1.19 Wild Update. Like other wood types, they are versatile and can be crafted into stairs, slabs, doors, and fences. Their rich coloration makes them a favorite for adding bold accents to builds, especially in tropical or nautical themes. They share the same physical properties as other wood planks, offering both durability and aesthetic appeal for a wide range of construction projects."
+        description: "Mangrove Planks are a deep red building material harvested from Mangrove trees in the Mangrove Swamp biome. They were introduced in the 1.19 Wild Update. Like other wood types, they are versatile and can be crafted into stairs, slabs, doors, and fences. Their rich coloration makes them a favorite for adding bold accents to builds, especially in tropical or nautical themes. They share the same physical properties as other wood planks, offering both durability and aesthetic appeal for a wide range of construction projects."
     }
 };
