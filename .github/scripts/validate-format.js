@@ -102,8 +102,9 @@ function validateEntry(key, entry, dataType, issues) {
         }
     }
 
-    // Validate ID matches key
-    if (entry.id && entry.id !== key) {
+    // Validate ID matches key (allow shared IDs for certain Bedrock variants like medicine)
+    const isSharedId = ['minecraft:medicine'].includes(entry.id);
+    if (entry.id && entry.id !== key && !isSharedId) {
         issues.push({
             type: 'id_mismatch',
             entry: key,
