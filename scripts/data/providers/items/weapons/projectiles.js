@@ -122,6 +122,32 @@ export const projectiles = {
         ],
         description: "Tipped Arrows are advanced projectiles that combine standard ranged damage with the utility of status effects. In Bedrock Edition, they feature a unique crafting method where players can dip regular arrows into a cauldron filled with a potion, providing a highly efficient way to mass-produce them. These arrows are invaluable for tactical combat, allowing players to weaken foes from a distance or apply helpful buffs to allies. Because they are consumed even with the Infinity enchantment, they are often saved for critical encounters."
     },
+    "minecraft:arrow_of_oozing": {
+        id: "minecraft:arrow_of_oozing",
+        name: "Arrow of Oozing",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Oozing effect to targets from a distance",
+            secondaryUse: "Automating slime farming in mob grinders"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock)",
+            ingredients: ["Arrow x16", "Potion of Oozing (Cauldron)"]
+        },
+        specialNotes: [
+            "Duration in Bedrock Edition is 22 seconds (1/8th of potion duration)",
+            "Causes hit entities to spawn 2 medium slimes when they die",
+            "In Bedrock, can be mass-produced using a Cauldron filled with Potion of Oozing",
+            "Greatly simplifies the process of infusing mobs with the Oozing effect"
+        ],
+        description: "The Arrow of Oozing is a specific tipped arrow variant added in 1.21. It allows players and dispensers to apply the Oozing effect to mobs from a safe distance. In Bedrock Edition, these are most efficiently crafted by dipping standard arrows into a cauldron filled with three Potion of Oozing bottles, yielding a full stack of 64 arrows. Any mob hit by this arrow will spawn two slimes upon death for the next 22 seconds, making it an essential tool for efficient slime harvesting in technical Minecraft builds."
+    },
     "minecraft:ice_bomb": {
         id: "minecraft:ice_bomb",
         name: "Ice Bomb",

@@ -88,5 +88,94 @@ export const potions = {
             "Brewed using Dragon's Breath collected from the Ender Dragon"
         ],
         description: "Lingering Potions are advanced potion variants that create a cloud of status effect upon impact. They are brewed by combining a Splash Potion with Dragon's Breath. The resulting cloud persists for 30 seconds, applying the effect to any entity that passes through it. This area-of-effect mechanic makes them useful for zoning or sustaining buffs/debuffs. Additionally, Lingering Potions are the only way to craft Tipped Arrows, which imbue arrows with potion effects."
+    },
+    "minecraft:oozing_potion": {
+        id: "minecraft:oozing_potion",
+        name: "Potion of Oozing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Causes affected entities to spawn 2 Slimes upon death",
+            secondaryUse: "Used to create Oozing Splash and Lingering potions"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Slime Block"]
+        },
+        specialNotes: [
+            "Effect duration is 3 minutes in Bedrock Edition",
+            "Affected entities spawn 2 medium slimes when they die",
+            "Brewed using a Slime Block and an Awkward Potion",
+            "Useful for automating slimeball farms or tactical combat"
+        ],
+        description: "The Potion of Oozing is a specialized utility potion introduced in 1.21. When applied to an entity, it grants the Oozing effect, ensuring that two medium slimes spawn when the entity perishes. This effect is independent of how the entity dies, making it highly valuable for slime farming. It is brewed by combining an Awkward Potion with a Slime Block, representing a unique use for the compacted slime material."
+    },
+    "minecraft:weaving_potion": {
+        id: "minecraft:weaving_potion",
+        name: "Potion of Weaving",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Causes affected entities to spawn Cobwebs upon death",
+            secondaryUse: "Allows entities to move through Cobwebs faster"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Cobweb"]
+        },
+        specialNotes: [
+            "Effect duration is 3 minutes in Bedrock Edition",
+            "Affected entities spawn 2-3 Cobwebs when they die",
+            "Non-player entities can move through Cobwebs at 50% speed instead of 25%",
+            "Brewed using a Cobweb and an Awkward Potion",
+            "Introduced as part of the Tricky Trials update (1.21)"
+        ],
+        description: "The Potion of Weaving is a tactical potion that interacts with Cobweb mechanics. Entities under this effect will spawn multiple Cobweb blocks upon death, potentially trapping nearby enemies. Additionally, it grants the ability to traverse Cobwebs with significantly less speed reduction. Brewed from a Cobweb and an Awkward Potion, it offers unique battlefield control options, especially in tight spaces like Trial Chambers."
+    },
+    "minecraft:wind_charged_potion": {
+        id: "minecraft:wind_charged_potion",
+        name: "Potion of Wind Charging",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Causes affected entities to emit a wind burst upon death",
+            secondaryUse: "Synergizes with Wind Charge and Mace combat"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Breeze Rod"]
+        },
+        specialNotes: [
+            "Effect duration is 3 minutes in Bedrock Edition",
+            "Affected entities release a wind burst (similar to a Wind Charge) when they die",
+            "Brewed using a Breeze Rod and an Awkward Potion",
+            "Can launch nearby entities into the air upon the target's death"
+        ],
+        description: "The Potion of Wind Charging imbues entities with the volatile energy of the Breeze. Upon the death of an affected entity, a powerful wind burst is released, knocking back any nearby creatures. This effect mimics the impact of a Wind Charge projectile. It is brewed by adding a Breeze Rod to an Awkward Potion, making it a high-tier potion derived from Trial Chamber rewards. It is particularly effective for crowd control in dense mob encounters."
+    },
+    "minecraft:infested_potion": {
+        id: "minecraft:infested_potion",
+        name: "Potion of Infestation",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Gives entities a 10% chance to spawn 1-2 Silverfish when hurt",
+            secondaryUse: "Creating chaotic combat situations"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Stone Block"]
+        },
+        specialNotes: [
+            "Effect duration is 3 minutes in Bedrock Edition",
+            "Each time an entity takes damage, there is a 10% chance to spawn 1-2 Silverfish",
+            "Brewed using a Stone block and an Awkward Potion",
+            "Ideal for distracting enemies or creating unexpected hazards"
+        ],
+        description: "The Potion of Infestation makes combat unpredictable by granting entities a chance to spawn Silverfish whenever they take damage. This effect can quickly fill a battlefield with the small, aggressive pests, creating a distraction for both the attacker and the defender. Brewed simply from a Stone block and an Awkward Potion, it is one of the more accessible 1.21 potions but requires careful use to avoid being overwhelmed by your own infestation."
     }
 };
