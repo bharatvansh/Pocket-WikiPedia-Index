@@ -1183,6 +1183,41 @@ export const blockIndex = [
         themeColor: "§4" // dark red
     },
     {
+        id: "minecraft:mangrove_planks",
+        name: "Mangrove Planks",
+        category: "block",
+        icon: "textures/blocks/planks_mangrove",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mangrove_wood",
+        name: "Mangrove Wood",
+        category: "block",
+        icon: "textures/blocks/mangrove_wood",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:stripped_mangrove_log",
+        name: "Stripped Mangrove Log",
+        category: "block",
+        icon: "textures/blocks/stripped_mangrove_log",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:stripped_mangrove_wood",
+        name: "Stripped Mangrove Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_mangrove_wood",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mangrove_slab",
+        name: "Mangrove Slab",
+        category: "block",
+        icon: "textures/blocks/mangrove_slab",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:bamboo_block",
         name: "Block of Bamboo",
         category: "block",

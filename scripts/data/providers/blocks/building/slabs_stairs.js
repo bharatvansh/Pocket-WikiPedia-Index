@@ -281,5 +281,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "Bamboo Slab is a half-block variant of bamboo planks, featuring the same distinctive yellow-tan woven texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three bamboo planks horizontally or using a stonecutter, it is an essential part of the bamboo wood family. Bamboo slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique natural look that complements tropical, rustic, and modern builds effortlessly."
+    },
+    "minecraft:mangrove_slab": {
+        id: "minecraft:mangrove_slab",
+        name: "Mangrove Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "Mangrove Slab is a half-block variant of Mangrove planks. It allows for more precise elevation changes and detailed architectural features while maintaining the rich, deep red aesthetic of Mangrove wood. It is crafted from three Mangrove planks or via a stonecutter in the standard recipe. Like other wooden slabs, it is flammable and can be waterlogged, providing versatility for various building styles from swampy docks to sophisticated interior flooring."
     }
 };
