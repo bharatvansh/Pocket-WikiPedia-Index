@@ -750,5 +750,110 @@ export const spawnEggs = {
             "Transforms Monster Spawners into specialized Rabbit spawners."
         ],
         description: "The Rabbit Spawn Egg is a specialized item that summons a rabbit instantly. The variant of rabbit spawned often depends on the surrounding biome, adding realistic variety to custom environments. Rabbits are small, fast mobs that provide unique drops like rabbit's feet for brewing and hides for leather crafting. In addition to basic placement, the egg can be used on a Monster Spawner to create a rabbit-producing spawner. This is a valuable technique for players needing a renewable source of potion ingredients or specialized food materials."
+    },
+    "minecraft:wolf_spawn_egg": {
+        id: "minecraft:wolf_spawn_egg",
+        name: "Wolf Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Wolf mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a wild wolf that can be tamed with bones.",
+            "Changes a Spawner's type to Wolf when used on it.",
+            "Natural wolf variants (e.g., Pale, Ashen) depend on the biome."
+        ],
+        description: "The Wolf Spawn Egg allows for the immediate summoning of a wolf at any targeted location. Primarily used in Creative Mode, it enables players to quickly add canine companions to their worlds without hunting for them in forests or taigas. Wild wolves spawned this way can be tamed by using bones on them. Like all spawn eggs, it can override a Monster Spawner's data to produce wolves indefinitely, which is useful for creating specialized taming areas or defending custom-built bases."
+    },
+    "minecraft:mooshroom_spawn_egg": {
+        id: "minecraft:mooshroom_spawn_egg",
+        name: "Mooshroom Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Mooshroom mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Red Mooshroom by default in most cases.",
+            "Can be milked with a bowl for Mushroom Stew or a bucket for Milk.",
+            "Transformations into Brown Mooshrooms require a lightning strike."
+        ],
+        description: "The Mooshroom Spawn Egg summons a red mooshroom, the fungal bovine native to Mushroom Fields. This rare variant of the cow is highly valued for its ability to provide Mushroom Stew when milked with a bowl. In Creative Mode, this egg is the easiest way to place these unique animals outside of their rare natural habitat. When applied to a Monster Spawner, it creates a mooshroom spawner, ensuring a constant supply of stew and leather. Note that brown mooshrooms are typically obtained only if a red one is struck by lightning."
+    },
+    "minecraft:squid_spawn_egg": {
+        id: "minecraft:squid_spawn_egg",
+        name: "Squid Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Squid mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a squid, which must be placed in water to avoid suffocating.",
+            "Squids are the primary source of black ink sacs in the game.",
+            "Changes a Spawner's type to Squid when applied."
+        ],
+        description: "The Squid Spawn Egg is used to summon a squid instantly. As aquatic mobs, squids must be spawned in water or they will eventually suffocate. They are the primary source of ink sacs used for black dye and coloring various items. This egg is essential for Creative builders designing underwater features or automated ink-farming systems. By using the egg on a Monster Spawner, players can create a dedicated squid spawner, which is often easier than building complex natural-spawn farms for ink production."
+    },
+    "minecraft:glow_squid_spawn_egg": {
+        id: "minecraft:glow_squid_spawn_egg",
+        name: "Glow Squid Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Glow Squid mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a glow squid, which produces a bioluminescent effect.",
+            "Glow squids drop glow ink sacs, used for glowing signs and frames.",
+            "Must be spawned in water to prevent suffocation."
+        ],
+        description: "The Glow Squid Spawn Egg instantly summoned a glow squid, a bioluminescent aquatic mob. These creatures emit a gentle glowing aura and drop glow ink sacs when defeated, which are essential for making glowing signs and item frames. Like standard squids, glow squids require water to survive. In Creative Mode, this egg allows for the placement of these atmospheric mobs in caves or deep oceans. When used on a Monster Spawner, it creates a glow squid spawner, providing a reliable source of glow ink for lighting and decoration projects."
+    },
+    "minecraft:fox_spawn_egg": {
+        id: "minecraft:fox_spawn_egg",
+        name: "Fox Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Fox mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Red Fox or Snowy Fox depending on the biome.",
+            "Foxes are nocturnal and can carry items in their mouths.",
+            "Changes a Spawner's type to Fox when used on it."
+        ],
+        description: "The Fox Spawn Egg summons a fox at the targeted location. The fur color of the spawned fox (Red or Snowy) is determined by the biome in which the egg is used. Foxes are curious, nocturnal creatures that sleep during the day and can hold various items in their mouths. This egg is primarily used in Creative Mode for populating taiga builds or testing item-retrieval mechanics. When applied to a Monster Spawner, it creates a fox spawner, allowing for the generation of these agile mobs for custom maps or specialized berry-farming systems."
     }
 };

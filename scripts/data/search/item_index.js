@@ -2818,5 +2818,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/ice_bomb",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:wolf_spawn_egg",
+        name: "Wolf Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_wolf",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:mooshroom_spawn_egg",
+        name: "Mooshroom Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_mooshroom",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:squid_spawn_egg",
+        name: "Squid Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_squid",
+        themeColor: "§9"
+    },
+    {
+        id: "minecraft:glow_squid_spawn_egg",
+        name: "Glow Squid Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_glow_squid",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:fox_spawn_egg",
+        name: "Fox Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_fox",
+        themeColor: "§6"
     }
 ];
