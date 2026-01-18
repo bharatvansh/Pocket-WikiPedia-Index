@@ -960,5 +960,110 @@ export const vegetationBlocks = {
             yRange: "Underwater (Oceans, Rivers, Swamps)"
         },
         description: "Seagrass is an underwater vegetation block that generates naturally in most aquatic biomes. It serves as the primary food source for turtles; feeding them seagrass allows players to breed them, and baby turtles will consume it to grow faster. While it can be broken by hand, it only drops seagrass items when harvested with shears. It can be grown on underwater dirt, sand, or gravel by using bone meal. In Bedrock Edition, it provides a lush, vibrant look to underwater landscapes and is essential for turtle-based resource farming."
+    },
+    "minecraft:sunflower": {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sunflower"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Sunflower Plains biome"
+        },
+        description: "Sunflowers are tall, vibrant yellow flowers that naturally generate in the Sunflower Plains biome. A unique characteristic of sunflowers is that they always face east, regardless of where they are placed, making them a natural compass for players. They can be used to craft yellow dye or added to a suspicious stew recipes to provide health restoration. Using bone meal on a sunflower will cause it to drop another sunflower item, making them easily renewable for decoration and dye production."
+    },
+    "minecraft:lilac": {
+        id: "minecraft:lilac",
+        name: "Lilac",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lilac"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forest biomes"
+        },
+        description: "Lilacs are beautiful, two-block tall flowers characterized by their fragrant, light purple clusters of blossoms. They generate naturally in many forested biomes, including the standard Forest and Birch Forest. Like other tall flowers, applying bone meal to a lilac cause it to drop an additional lilac item. They are primarily used for decoration in gardens and can be crafted into two pieces of magenta dye. Their height and color make them a popular choice for adding vertical variety and soft tones to Minecraft landscapes."
+    },
+    "minecraft:rose_bush": {
+        id: "minecraft:rose_bush",
+        name: "Rose Bush",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Rose Bush"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forest biomes"
+        },
+        description: "Rose Bushes are tall, thorny plants featuring multiple vibrant red blooms. They are commonly found in Forest biomes and are a reliable source of red dye, yielding two pieces per plant. Rose bushes are frequently used for landscaping and as decorative barriers in gardens. In Bedrock Edition, using bone meal on a placed rose bush will produce a copy of the item. Their classic red appearance adds a traditional touch to floral arrangements and can be used to add color to various building materials through dye."
+    },
+    "minecraft:peony": {
+        id: "minecraft:peony",
+        name: "Peony",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Peony"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forest biomes"
+        },
+        description: "Peonies are large, two-block tall flowers that bloom with delicate pink petals. They generate naturally in Forest biomes and are prized for their soft, aesthetic appeal in garden designs. Like other tall flowers, they can be easily farmed by applying bone meal, which causes the plant to drop a duplicate peony item. One peony can be crafted into two pieces of pink dye, making them an efficient way to obtain the color. They are ideal for creating lush, floral environments and adding a touch of elegance to any build."
+    },
+    "minecraft:tall_grass": {
+        id: "minecraft:tall_grass",
+        name: "Tall Grass",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wheat Seeds (chance)", "Tall Grass (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Savannas, Jungles"
+        },
+        description: "Tall Grass is a two-block high variant of grass that generates naturally in various biomes like Plains, Savannas, and Jungles. Unlike regular short grass, it provides more visual density to the landscape. When broken by hand, it has a chance to drop wheat seeds, but it must be harvested with Shears to be collected as an item. It can be grown by applying bone meal to short grass or directly to a grass block. Its height makes it useful for creating overgrown aesthetics or providing camouflage in survival situations."
     }
 };

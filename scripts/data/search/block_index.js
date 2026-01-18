@@ -2763,5 +2763,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:sunflower",
+        name: "Sunflower",
+        category: "block",
+        icon: "textures/blocks/sunflower_front",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:lilac",
+        name: "Lilac",
+        category: "block",
+        icon: "textures/blocks/double_plant_syringa_top",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:rose_bush",
+        name: "Rose Bush",
+        category: "block",
+        icon: "textures/blocks/double_plant_rose_top",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:peony",
+        name: "Peony",
+        category: "block",
+        icon: "textures/blocks/double_plant_paeonia_top",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:tall_grass",
+        name: "Tall Grass",
+        category: "block",
+        icon: "textures/blocks/double_plant_grass_top",
+        themeColor: "§a" // green
     }
 ];
