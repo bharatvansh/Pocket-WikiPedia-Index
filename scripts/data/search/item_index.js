@@ -2853,5 +2853,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_fox",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:elder_guardian_spawn_egg",
+        name: "Elder Guardian Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_elder_guardian",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:evoker_spawn_egg",
+        name: "Evoker Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_evoker",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:vindicator_spawn_egg",
+        name: "Vindicator Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_vindicator",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:piglin_brute_spawn_egg",
+        name: "Piglin Brute Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_piglin_brute",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:wandering_trader_spawn_egg",
+        name: "Wandering Trader Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_wandering_trader",
+        themeColor: "§b"
     }
 ];

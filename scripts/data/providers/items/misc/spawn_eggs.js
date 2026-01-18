@@ -855,5 +855,110 @@ export const spawnEggs = {
             "Changes a Spawner's type to Fox when used on it."
         ],
         description: "The Fox Spawn Egg summons a fox at the targeted location. The fur color of the spawned fox (Red or Snowy) is determined by the biome in which the egg is used. Foxes are curious, nocturnal creatures that sleep during the day and can hold various items in their mouths. This egg is primarily used in Creative Mode for populating taiga builds or testing item-retrieval mechanics. When applied to a Monster Spawner, it creates a fox spawner, allowing for the generation of these agile mobs for custom maps or specialized berry-farming systems."
+    },
+    "minecraft:elder_guardian_spawn_egg": {
+        id: "minecraft:elder_guardian_spawn_egg",
+        name: "Elder Guardian Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Elder Guardian mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns the largest Guardian variant, which inflicts Mining Fatigue.",
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Elder Guardian when used on it."
+        ],
+        description: "The Elder Guardian Spawn Egg is a Creative Mode item used to summon an Elder Guardian instantly. These massive, pale-grey versions of the Guardian are typically found in Ocean Monuments and are known for their ability to inflict the Mining Fatigue status effect on players. This egg is essential for map designers who need to place these miniboss-level threats in custom aquatic structures or to convert Monster Spawners into Elder Guardian spawners."
+    },
+    "minecraft:evoker_spawn_egg": {
+        id: "minecraft:evoker_spawn_egg",
+        name: "Evoker Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Evoker mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Evokers summon Vexes and Evocation Fangs in battle.",
+            "Drops a Totem of Undying upon death.",
+            "Useful for testing player defenses against Vex summons."
+        ],
+        description: "The Evoker Spawn Egg allows for the immediate summoning of an Evoker, the most dangerous of the illager variants. Evokers are unique in their ability to cast spells, summons winged Vexes, and create jaws from the ground to damage players. In Creative Mode, this egg is invaluable for testing base defenses or populating custom mansions and raid scenarios. Using it on a Monster Spawner will create an Evoker spawner, which can provide a reliable source of Totems of Undying."
+    },
+    "minecraft:vindicator_spawn_egg": {
+        id: "minecraft:vindicator_spawn_egg",
+        name: "Vindicator Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Vindicator mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Vindicators are extremely fast and wield iron axes.",
+            "They belong to the illager family and participate in raids.",
+            "Commonly found in Woodland Mansions."
+        ],
+        description: "The Vindicator Spawn Egg is used to summon a Vindicator instantly. These hostile illagers are known for their speed and for charging at players with their axes raised. This egg is a key tool for Creative Mode players building challenging raid encounters or populating woodland mansion-style structures. Like other spawn eggs, applying it to a Monster Spawner will convert that spawner into a Vindicator spawner, which is useful for emerald and axe farming."
+    },
+    "minecraft:piglin_brute_spawn_egg": {
+        id: "minecraft:piglin_brute_spawn_egg",
+        name: "Piglin Brute Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Piglin Brute mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Piglin Brutes have much higher health than regular Piglins.",
+            "They will never retreat and cannot be distracted by gold.",
+            "Wield golden axes and do not wear armor."
+        ],
+        description: "The Piglin Brute Spawn Egg summons a Piglin Brute, the elite guardian of Bastion Remnants. Unlike standard Piglins, Brutes are always hostile, have massive health pools, and cannot be bartered with or distracted by gold. This item is essential for map creators who need to place formidable guards in custom Nether bastions. Its ability to convert a Monster Spawner allows for the creation of high-difficulty combat arenas in Creative Mode."
+    },
+    "minecraft:wandering_trader_spawn_egg": {
+        id: "minecraft:wandering_trader_spawn_egg",
+        name: "Wandering Trader Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Wandering Trader mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Wandering Trader with randomized trades.",
+            "Does not spawn with Llama unless part of natural spawning logic.",
+            "Despawns after a set period of time."
+        ],
+        description: "The Wandering Trader Spawn Egg allows players to instantly place a Wandering Trader. These passive mobs roam the world with their llamas and offer a variety of rare and exotic trade items in exchange for emeralds. In Creative Mode, this egg is useful for testing trade pools or populating market spaces in custom villages. Using it on a Monster Spawner creates a Wandering Trader spawner, though their despawn rates still apply to those spawned from blocks."
     }
 };
