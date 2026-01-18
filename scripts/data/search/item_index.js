@@ -3273,5 +3273,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/blocks/material_reducer",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:sodium_acetate",
+        name: "Sodium Acetate",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:sodium_hypochlorite",
+        name: "Sodium Hypochlorite",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:magnesium_oxide",
+        name: "Magnesium Oxide",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:aluminum_oxide",
+        name: "Aluminum Oxide",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:boron_trioxide",
+        name: "Boron Trioxide",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
     }
 ];
