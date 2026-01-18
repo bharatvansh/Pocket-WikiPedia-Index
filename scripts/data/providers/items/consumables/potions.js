@@ -88,5 +88,121 @@ export const potions = {
             "Brewed using Dragon's Breath collected from the Ender Dragon"
         ],
         description: "Lingering Potions are advanced potion variants that create a cloud of status effect upon impact. They are brewed by combining a Splash Potion with Dragon's Breath. The resulting cloud persists for 30 seconds, applying the effect to any entity that passes through it. This area-of-effect mechanic makes them useful for zoning or sustaining buffs/debuffs. Additionally, Lingering Potions are the only way to craft Tipped Arrows, which imbue arrows with potion effects."
+    },
+    "minecraft:potion_of_oozing": {
+        id: "minecraft:potion_of_oozing",
+        name: "Potion of Oozing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Oozing effect to spawn slimes on death",
+            secondaryUse: "Slime farming and combat crowd control"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Slime Block"]
+        },
+        specialNotes: [
+            "Causes entities to spawn 2 medium slimes upon death",
+            "Brewed by combining an Awkward Potion with a Slime Block",
+            "Added in the 1.21 Tricky Trials update (1.21.0)",
+            "Useful for automation and slime farming",
+            "Can be found in Trial Chamber Vaults as loot"
+        ],
+        description: "The Potion of Oozing is a brewing-based consumable introduced in the 1.21 Tricky Trials update. When consumed, it applies the Oozing status effect for 3 minutes, which causes the entity to spawn two medium-sized Slimes upon its death. This makes it an incredibly useful tool for farming slime balls or creating chaos in combat. In Bedrock Edition, it is brewed by combining an Awkward Potion with a Slime Block. It can also be found in Trial Chambers as a reward from Vaults, providing a strategic option for players facing trial challenges."
+    },
+    "minecraft:potion_of_weaving": {
+        id: "minecraft:potion_of_weaving",
+        name: "Potion of Weaving",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Weaving effect to spawn cobwebs on death",
+            secondaryUse: "Battlefield control and moving faster through cobwebs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Cobweb"]
+        },
+        specialNotes: [
+            "Spawns 2-3 Cobwebs upon the entity's death",
+            "Allows moving through cobwebs at 50% speed (instead of 25%)",
+            "Brewed by combining an Awkward Potion with a Cobweb",
+            "Introduced in 1.21 Tricky Trials",
+            "Found as loot in Trial Chamber Vaults"
+        ],
+        description: "The Potion of Weaving is a specialized brew from the 1.21 update that grants the Weaving effect. Entities under this influence will spawn two to three Cobwebs upon death, potentially trapping nearby enemies. Uniquely, affected players and mobs can move through cobwebs at 50% of their normal speed instead of being almost completely immobilized. It is brewed by adding a Cobweb to an Awkward Potion. This potion is particularly thematic for Trial Chambers, where it can be used to control the battlefield or harvested from Vault rewards."
+    },
+    "minecraft:potion_of_infestation": {
+        id: "minecraft:potion_of_infestation",
+        name: "Potion of Infestation",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Infested effect to spawn silverfish when damaged",
+            secondaryUse: "Strategy for overwhelming enemies"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Stone"]
+        },
+        specialNotes: [
+            "10% chance to spawn 1-2 Silverfish when the entity takes damage",
+            "Brewed by combining an Awkward Potion with a Stone block",
+            "Added in the 1.21 Tricky Trials update",
+            "Found as loot in Trial Chamber Vaults",
+            "Strategically useful for distracting groups of enemies"
+        ],
+        description: "The Potion of Infestation is a combat-oriented beverage that grants the Infested status effect. While active, any damage taken by the entity has a 10% chance to spawn 1-2 Silverfish at its location. This creates a swarm of hostile pests around the target, making it ideal for overwhelming enemies or creating distractions. In Bedrock Edition, it is brewed by combining an Awkward Potion with a block of Stone. It is a key reward from Trial Chambers, reflecting the update's focus on dynamic and unpredictable combat encounters."
+    },
+    "minecraft:potion_of_wind_charging": {
+        id: "minecraft:potion_of_wind_charging",
+        name: "Potion of Wind Charging",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Wind Charged effect to release wind bursts on death",
+            secondaryUse: "Knocking back enemies and interacting with redstone"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Breeze Rod"]
+        },
+        specialNotes: [
+            "Releases a Wind Burst (knockback) upon the entity's death",
+            "Brewed by combining an Awkward Potion with a Breeze Rod",
+            "Introduced in the 1.21 Tricky Trials update",
+            "Interacts with redstone (buttons, levers) upon explosion",
+            "Common loot found in Trial Chamber Vaults"
+        ],
+        description: "The Potion of Wind Charging imbues the consumer with the essence of the Breeze. Upon the entity's death, it releases a powerful Wind Burst, similar to the explosion of a Wind Charge, which knocks back nearby mobs and interacts with redstone components. This effect can be used to set off traps or clear space. It is brewed by adding a Breeze Rod to an Awkward Potion. Like other 1.21 potions, it is frequently obtained from rewards within Trial Chambers, serving as a powerful late-game alchemical tool for tactical combat."
+    },
+    "minecraft:potion_of_decay": {
+        id: "minecraft:potion_of_decay",
+        name: "Potion of Decay",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Wither effect to damage entities",
+            secondaryUse: "High-stakes combat and Bedrock-exclusive item collecting"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Witch Hut cauldrons"]
+        },
+        specialNotes: [
+            "Inflicts the Wither II status effect for 40 seconds",
+            "Exclusive to Minecraft Bedrock Edition",
+            "Unbrewable in survival mode; found in Witch Hut cauldrons",
+            "Causes damage over time that can kill entities",
+            "Affects both living and undead mobs (unlike Poison)",
+            "Highly rare survival item with significant combat utility"
+        ],
+        description: "The Potion of Decay is a rare and powerful Bedrock Edition exclusive item that inflicts the Wither II effect for 40 seconds. Unlike most potions, it cannot be brewed at a brewing stand in survival mode. It is primarily found as a rare loot item in Witch Hut cauldrons or obtained through commands. When used, it drains the health of most living entities, turning their health bar black and dealing continuous damage. It is one of the few ways to weaponize the Wither effect in Bedrock, making it highly prized for high-stakes encounters."
     }
 };

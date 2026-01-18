@@ -147,6 +147,41 @@ export const itemIndex = [
         themeColor: "§b" // wind/cyan
     },
     {
+        id: "minecraft:potion_of_oozing",
+        name: "Potion of Oozing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:potion_of_weaving",
+        name: "Potion of Weaving",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:potion_of_infestation",
+        name: "Potion of Infestation",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:potion_of_wind_charging",
+        name: "Potion of Wind Charging",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:potion_of_decay",
+        name: "Potion of Decay",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
