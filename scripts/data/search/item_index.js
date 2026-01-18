@@ -133,6 +133,41 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
+        id: "minecraft:oozing_potion",
+        name: "Potion of Oozing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a" // Green
+    },
+    {
+        id: "minecraft:weaving_potion",
+        name: "Potion of Weaving",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§7" // Gray
+    },
+    {
+        id: "minecraft:wind_charged_potion",
+        name: "Potion of Wind Charging",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§b" // Light Blue
+    },
+    {
+        id: "minecraft:infested_potion",
+        name: "Potion of Infestation",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§6" // Brown
+    },
+    {
+        id: "minecraft:arrow_of_oozing",
+        name: "Arrow of Oozing",
+        category: "item",
+        icon: "textures/items/arrow",
+        themeColor: "§a" // Green
+    },
+    {
         id: "minecraft:wind_charge",
         name: "Wind Charge",
         category: "item",
