@@ -2660,11 +2660,11 @@ export const blockIndex = [
         themeColor: "§e" // yellow/sand
     },
     {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
+        id: "minecraft:infested_cobblestone",
+        name: "Infested Cobblestone",
         category: "block",
-        icon: "textures/blocks/dragon_egg",
-        themeColor: "§5" // purple
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:spawner",
