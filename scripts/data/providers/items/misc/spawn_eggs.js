@@ -1065,5 +1065,110 @@ export const spawnEggs = {
             "Perfect for populating frozen biomes and snowy structures."
         ],
         description: "The Polar Bear Spawn Egg provides a quick way to summon Polar Bears in Minecraft's Creative Mode. When used on a surface, it will spawn either an adult Polar Bear or, less frequently, a cub. It can also be applied to a Monster Spawner to change its mob type. This spawn egg is essential for creating cold-themed survival maps, ice fortresses, or realistic arctic tundras where these powerful and protective animals naturally belong."
+    },
+    "minecraft:slime_spawn_egg": {
+        id: "minecraft:slime_spawn_egg",
+        name: "Slime Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Slime mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Slime when used on it.",
+            "Spawns a random size (Small, Medium, or Large) Slime."
+        ],
+        description: "The Slime Spawn Egg is a Creative Mode item used to instantly summon a Slime. Slimes are bouncy, green, cube-shaped mobs that divide into smaller versions when killed. This egg is essential for testing gravity-based farms, parkour mechanics, or populating swamp biomes. When applied to a Monster Spawner, it creates a Slime spawner, providing a renewable source of slimeballs in custom map environments."
+    },
+    "minecraft:silverfish_spawn_egg": {
+        id: "minecraft:silverfish_spawn_egg",
+        name: "Silverfish Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Silverfish mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Silverfish when used on it.",
+            "Small hostile mobs that can hide inside Infested Blocks."
+        ],
+        description: "The Silverfish Spawn Egg allows for the immediate summoning of a Silverfish, a small hostile mob typically found in Strongholds or Infested Blocks. When attacked, Silverfish can summon other nearby Silverfish to swarm the player. This egg is useful for testing mob-calling mechanics or building trap-heavy environments. Applied to a Monster Spawner, it creates a persistent threat of silverfish swarms in targeted areas."
+    },
+    "minecraft:cave_spider_spawn_egg": {
+        id: "minecraft:cave_spider_spawn_egg",
+        name: "Cave Spider Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Cave Spider mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Cave Spider when used on it.",
+            "Small spiders that inflict Poison to players on impact."
+        ],
+        description: "The Cave Spider Spawn Egg summons a Cave Spider, the smaller and more dangerous relative of the common spider. Found in abandoned mineshafts, these hostile mobs inflict poison attacks that can bypass armor. This spawn egg is particularly useful for map designers creating challenging dungeon encounters. Using it on a Monster Spawner converts it into a Cave Spider spawner, useful for farming string, spider eyes, and experience."
+    },
+    "minecraft:bat_spawn_egg": {
+        id: "minecraft:bat_spawn_egg",
+        name: "Bat Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bat mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Bat when used on it.",
+            "Ambient mob that adds atmosphere to dark caves and structures."
+        ],
+        description: "The Bat Spawn Egg is used to instantly summon a Bat, the only ambient flying mob found in caves. Bats have no significant drops and are primarily used for atmosphere. This spawn egg is essential for map makers who want to add life to underground environments or dark structures without adding hostile threats. Like other spawn eggs, it can be used on a Monster Spawner to create a dedicated bat-summoning block."
+    },
+    "minecraft:cat_spawn_egg": {
+        id: "minecraft:cat_spawn_egg",
+        name: "Cat Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Cat mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Changes a Spawner's type to Cat when used on it.",
+            "Spawns one of 11 different cat variants randomly."
+        ],
+        description: "The Cat Spawn Egg summons a domestic cat, a versatile passive mob that repels creepers and phantoms. Cat Spawn Eggs spawn random variants (specific breeds require /summon commands); stray cats also repel phantoms. This egg is invaluable for builders wanting to add pets to their homes or for testing anti-mob defenses. Using it on a Monster Spawner converts it into a Cat spawner, providing constant protection against certain hostile threats."
     }
 };
