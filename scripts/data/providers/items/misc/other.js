@@ -2097,5 +2097,115 @@ export const miscItems = {
             "Available only when Education features are toggled."
         ],
         description: "The Material Reducer is a chemistry workstation that breaks down standard Minecraft blocks into their constituent chemical elements. By placing a block like Grass, Stone, or Glass into the reducer, the machine decomposes it into a variety of elements such as Oxygen, Silicon, or Carbon. This provides a way to obtain elements without using the Element Constructor, allowing players to discover the chemical makeup of the Minecraft world."
+    },
+    "minecraft:sodium_acetate": {
+        id: "minecraft:sodium_acetate",
+        name: "Sodium Acetate",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Ice Bombs",
+            secondaryUse: "Alchemy and chemistry experiments"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Carbon x2", "Hydrogen x3", "Sodium x1", "Oxygen x2"]
+        },
+        specialNotes: [
+            "Chemical formula: C2H3NaO2",
+            "Requires 2 Carbon, 3 Hydrogen, 1 Sodium, and 2 Oxygen in the Compound Creator.",
+            "Used to create Ice Bombs by combining four units in a Lab Table.",
+            "Only available when Education Edition features are enabled."
+        ],
+        description: "Sodium Acetate is a chemical compound used in Minecraft Bedrock's education mode primarily for the creation of Ice Bombs. It is synthesized in the Compound Creator by combining carbon, hydrogen, sodium, and oxygen atoms. When four units of Sodium Acetate are processed in a Lab Table, they result in an Ice Bomb, which can freeze water into ice upon impact. It represents one of the more complex chemical products players can manufacture for functional use."
+    },
+    "minecraft:sodium_hypochlorite": {
+        id: "minecraft:sodium_hypochlorite",
+        name: "Sodium Hypochlorite",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Bleach",
+            secondaryUse: "Chemistry-based utility"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Sodium x1", "Chlorine x1", "Oxygen x1"]
+        },
+        specialNotes: [
+            "Chemical formula: NaClO",
+            "Synthesized using 1 Sodium, 1 Chlorine, and 1 Oxygen in the Compound Creator.",
+            "Core ingredient for making Bleach when combined with Water in a Lab Table.",
+            "Essential for chem-based cleaning and color restoration in Minecraft."
+        ],
+        description: "Sodium Hypochlorite is a powerful oxidizing compound used in the production of Bleach within Minecraft Bedrock's education features. Players can create it in the Compound Creator by balancing sodium, chlorine, and oxygen elements. When mixed with water at a Lab Table, it produces Bleach, a versatile tool for removing dyes from beds, banners, and wool. It serves as a key example of how chemistry can be applied to decorative and utility-based crafting."
+    },
+    "minecraft:magnesium_oxide": {
+        id: "minecraft:magnesium_oxide",
+        name: "Magnesium Oxide",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Heat Blocks",
+            secondaryUse: "Environmental heat management"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Magnesium x1", "Oxygen x1"]
+        },
+        specialNotes: [
+            "Chemical formula: MgO",
+            "Created by combining 1 Magnesium and 1 Oxygen in the Compound Creator.",
+            "Used at the Lab Table to manufacture Heat Blocks.",
+            "Helps create blocks that can melt nearby ice and snow without emitting light."
+        ],
+        description: "Magnesium Oxide is a basic chemical compound available in the chemistry system of Minecraft Bedrock. It is produced by combining magnesium and oxygen atoms in the Compound Creator. Its primary utility is as a component for crafting Heat Blocks, which are unique blocks capable of melting snow and ice in a wide radius. This makes Magnesium Oxide an important material for players looking to manage frozen environments using advanced chemical tools."
+    },
+    "minecraft:aluminum_oxide": {
+        id: "minecraft:aluminum_oxide",
+        name: "Aluminum Oxide",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Hardened Glass",
+            secondaryUse: "Industrial building reinforcement"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Aluminum x2", "Oxygen x3"]
+        },
+        specialNotes: [
+            "Chemical formula: Al2O3",
+            "Synthesized from 2 Aluminum and 3 Oxygen atoms in the Compound Creator.",
+            "Used in a Crafting Table to produce Hardened Glass and Hardened Glass Panes.",
+            "One of the two compounds required for industrial-strength transparent blocks."
+        ],
+        description: "Aluminum Oxide is a sturdy chemical compound used primarily in the manufacturing of Hardened Glass within Minecraft Bedrock's education mode. It is created in the Compound Creator using aluminum and oxygen. When combined with Boron Trioxide and regular glass in a Crafting Table, it produces a much more durable version of glass that has higher blast resistance. This compound highlights the industrial applications of chemistry in creating superior building materials."
+    },
+    "minecraft:boron_trioxide": {
+        id: "minecraft:boron_trioxide",
+        name: "Boron Trioxide",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Hardened Glass",
+            secondaryUse: "Industrial building reinforcement"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Boron x2", "Oxygen x3"]
+        },
+        specialNotes: [
+            "Chemical formula: B2O3",
+            "Created by combining 2 Boron and 3 Oxygen atoms in the Compound Creator.",
+            "Vital component for crafting Hardened Glass in the Crafting Table.",
+            "Works in conjunction with Aluminum Oxide to reinforce glass structures."
+        ],
+        description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
     }
 };
