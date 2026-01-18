@@ -293,29 +293,6 @@ export const craftingMaterials = {
         ],
         description: "Amethyst Shards are crystalline materials harvested from Amethyst Clusters found in underground Geodes. When mined with a pickaxe, a cluster drops 4 shards, increasing up to 16 with Fortune. They are renewable, as clusters regrow on immovable Budding Amethyst blocks. Shards can also be found in loot chests within Ancient Cities and Trial Chambers. Essential for crafting, they are used to create Spyglasses, Tinted Glass, Calibrated Sculk Sensors, and decorative Amethyst Blocks. Their vibrant purple color offers both functional utility and aesthetic appeal."
     },
-    "minecraft:heavy_core": {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Crafting the Mace",
-            secondaryUse: "Decorative block"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in Ominous Vaults in Trial Chambers"]
-        },
-        specialNotes: [
-            "Found exclusively in Ominous Vaults (7.5% spawn chance)",
-            "Required component for crafting the Mace (Heavy Core + Breeze Rod)",
-            "Has high blast resistance (1,200) similar to Obsidian",
-            "Can be placed as a decorative block; it is smaller than a full block",
-            "Added in Minecraft 1.21 Tricky Trials update"
-        ],
-        description: "The Heavy Core is a rare and dense block introduced in the 1.21 Tricky Trials update. Its primary and most prestigious use is crafting the Mace, a powerful hammer-like weapon that rewards players for tactical falling. Obtained exclusively as a rare drop from Ominous Vaults within Trial Chambers, the Heavy Core represents a sign of mastery over the most difficult combat trials. It can also be used as a decorative block, showing off a player's accomplishments in the deep trials."
-    },
     "minecraft:disc_fragment_5": {
         id: "minecraft:disc_fragment_5",
         name: "Disc Fragment 5",

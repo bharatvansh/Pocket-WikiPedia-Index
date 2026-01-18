@@ -105,11 +105,11 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
+        id: "minecraft:red_bundle",
+        name: "Red Bundle",
         category: "item",
-        icon: "textures/items/heavy_core",
-        themeColor: "§b"
+        icon: "textures/items/bundle_red",
+        themeColor: "§c"
     },
     {
         id: "minecraft:trial_explorer_map",
@@ -560,11 +560,11 @@ export const itemIndex = [
         themeColor: "§f" // white/egg color
     },
     {
-        id: "minecraft:sniffer_egg",
-        name: "Sniffer Egg",
+        id: "minecraft:blue_bundle",
+        name: "Blue Bundle",
         category: "item",
-        icon: "textures/blocks/sniffer_egg",
-        themeColor: "§2"
+        icon: "textures/items/bundle_blue",
+        themeColor: "§9"
     },
     {
         id: "minecraft:echo_shard",

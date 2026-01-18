@@ -60,29 +60,6 @@ export const mobDrops = {
         ],
         description: "Turtle Scutes are small, hard plates shed by baby turtles as they grow into adults. Unlike most mob drops which are obtained by killing, scutes are a reward for nurturing life; players must protect turtle eggs until they hatch and then wait for the babies to mature to collect them. Five scutes can be crafted into a Turtle Shell, a unique helmet that provides the Water Breathing effect. Additionally, Turtle Scutes (via the Turtle Shell) are the key to brewing the Potion of the Turtle Master, which grants high resistance at the cost of movement speed."
     },
-    "minecraft:sniffer_egg": {
-        id: "minecraft:sniffer_egg",
-        name: "Sniffer Egg",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Hatching the Sniffer mob",
-            secondaryUse: "Archaeology reward and breeding result"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Brushing Suspicious Sand in Warm Ocean Ruins", "Breeding two Sniffers"]
-        },
-        specialNotes: [
-            "Takes approximately 20 minutes to hatch when placed as a block",
-            "Hatching time is halved (10 minutes) if placed on a Moss block",
-            "A Sniffer Egg block will show 'cracking' particles as it nears hatching",
-            "Obtained via archaeology (brushing suspicious sand) or by breeding adult Sniffers",
-            "In Bedrock Edition, it is a key part of the 1.20 Trails & Tales archaeology system"
-        ],
-        description: "The Sniffer Egg is an ancient biological artifact that allows players to revive the extinct Sniffer mob. These large, colorful eggs are primarily found buried in Suspicious Sand within Warm Ocean Ruins, requiring a brush to uncover. Once placed, the egg eventually hatches into a Snifflet. To speed up the process, savvy players place the egg on a Moss block, which simulates the ideal ancient environment for the creature. Breeding two adult Sniffers with Torchflower seeds will also produce a Sniffer Egg as an item drop."
-    },
     "minecraft:dragon_breath": {
         id: "minecraft:dragon_breath",
         name: "Dragon's Breath",

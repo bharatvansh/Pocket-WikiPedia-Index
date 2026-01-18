@@ -296,6 +296,50 @@ export const miscItems = {
         ],
         description: "The Black Bundle provides the same inventory management benefits as the standard bundle but with a dark obsidian-like appearance. By combining a bundle with black dye, players can create a sleek storage pouch for their darkest treasures. It is perfect for organizing end-game materials or simply adding a bit of style to a player's inventory management system."
     },
+    "minecraft:red_bundle": {
+        id: "minecraft:red_bundle",
+        name: "Red Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory organization",
+            secondaryUse: "Storage of diverse small-stack items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bundle", "Red Dye"]
+        },
+        specialNotes: [
+            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Crafted by combining a standard bundle with red dye",
+            "Allows for color-coded organization of inventories",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Red Bundle is a vibrant storage option for players who like to keep their inventories organized and colorful. Like other bundle variants, it allows for grouping multiple item types together. The red color is perfect for highlighting important resources or weapons in a cluttered backpack."
+    },
+    "minecraft:blue_bundle": {
+        id: "minecraft:blue_bundle",
+        name: "Blue Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory organization",
+            secondaryUse: "Storage of diverse small-stack items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bundle", "Blue Dye"]
+        },
+        specialNotes: [
+            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Crafted by combining a standard bundle with blue dye",
+            "Allows for color-coded organization of inventories",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Blue Bundle offers a cool, calm aesthetic for inventory management. Obtained by dyeing a standard bundle with blue dye, it functions identically to other bundles. Many players use blue bundles to store water-themed resources like kelp, shells, or ice."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
