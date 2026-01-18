@@ -160,6 +160,29 @@ export const miscItems = {
         ],
         description: "The Ominous Trial Key is an upgraded form of the Trial Key used to open Ominous Vaults in Trial Chambers. These vaults provide significantly better loot, but the key is only obtainable from Ominous Trial Spawners during an ominous trial. Like normal vaults, an Ominous Vault can only be unlocked once per player, and the key is consumed on use."
     },
+    "minecraft:trial_explorer_map": {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Trial Chambers",
+            secondaryUse: "Navigation and structure scouting"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Traded by Journeyman Cartographer villagers"]
+        },
+        specialNotes: [
+            "Points to the nearest Trial Chamber in the Overworld",
+            "Obtained from Journeyman level Cartographer villagers for 12 emeralds and a compass",
+            "Essential tool for locating the Tricky Trials update's main structure",
+            "In Bedrock Edition, they were added in the 1.21 update",
+            "Unlike standard maps, these cannot be crafted from scratch"
+        ],
+        description: "The Trial Explorer Map is a specialized navigational tool used to uncover the location of Trial Chambers. These maps are not found in chests or crafted; instead, they must be purchased from a Journeyman-level Cartographer. The map reveals the surrounding terrain of a nearby Trial Chamber, marking its location with a small icon. This makes them indispensable for players looking to engage with the combat challenges and rewards of the chambers."
+    },
     "minecraft:wolf_armor": {
         id: "minecraft:wolf_armor",
         name: "Wolf Armor",
@@ -228,6 +251,50 @@ export const miscItems = {
             "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
         ],
         description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
+    },
+    "minecraft:white_bundle": {
+        id: "minecraft:white_bundle",
+        name: "White Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory organization",
+            secondaryUse: "Storage of diverse small-stack items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bundle", "White Dye"]
+        },
+        specialNotes: [
+            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Crafted by combining a standard bundle with white dye",
+            "Allows for color-coded organization of inventories",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The White Bundle is a colored variant of the bundle storage item. Like the original, it can condense multiple different items into a single inventory slot, but with a clean white aesthetic. It is especially useful for players who want to categorize their loot color-wise, such as white blocks or materials. It represents a significant quality-of-life improvement for explorers who gather many different types of resources on their journeys."
+    },
+    "minecraft:black_bundle": {
+        id: "minecraft:black_bundle",
+        name: "Black Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory organization",
+            secondaryUse: "Storage of diverse small-stack items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bundle", "Black Dye"]
+        },
+        specialNotes: [
+            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Crafted by combining a standard bundle with black dye",
+            "Allows for color-coded organization of inventories",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Black Bundle provides the same inventory management benefits as the standard bundle but with a dark obsidian-like appearance. By combining a bundle with black dye, players can create a sleek storage pouch for their darkest treasures. It is perfect for organizing end-game materials or simply adding a bit of style to a player's inventory management system."
     },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
