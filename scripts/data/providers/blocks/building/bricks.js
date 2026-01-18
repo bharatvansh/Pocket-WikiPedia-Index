@@ -119,8 +119,8 @@ export const brickBlocks = {
     "minecraft:chiseled_red_sandstone": {
         id: "minecraft:chiseled_red_sandstone",
         name: "Chiseled Red Sandstone",
-        hardness: 2.0,
-        blastResistance: 6.0,
+        hardness: 0.8,
+        blastResistance: 0.8,
         flammability: false,
         gravityAffected: false,
         transparent: false,
@@ -140,8 +140,8 @@ export const brickBlocks = {
     "minecraft:cut_red_sandstone": {
         id: "minecraft:cut_red_sandstone",
         name: "Cut Red Sandstone",
-        hardness: 2.0,
-        blastResistance: 6.0,
+        hardness: 0.8,
+        blastResistance: 0.8,
         flammability: false,
         gravityAffected: false,
         transparent: false,
