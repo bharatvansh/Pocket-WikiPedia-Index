@@ -78,6 +78,69 @@ export const copperBlocks = {
         },
         description: "Weathered Copper represents the second stage of copper oxidation, characterized by a distinct greenish-blue hue covering most of the block's surface. It naturally evolves from Exposed Copper over time but can be preserved by applying honeycomb. Using an axe on the block scrapes off the oxidation layer, reverting it to the Exposed stage. Mining requires a stone tier pickaxe or better. Its unique color makes it a popular choice for building roofs and statues that require an aged, historical aesthetic."
     },
+    "minecraft:oxidized_copper": {
+        id: "minecraft:oxidized_copper",
+        name: "Oxidized Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally (Final stage)"
+        },
+        description: "Oxidized Copper is the final stage of copper oxidation, featuring a beautiful teal-green patina that covers the entire block. It naturally forms from weathered copper when exposed to the elements for a long period. This block can be waxed with honeycomb to lock in its aged look or scraped with an axe to revert it to a previous oxidation stage. It is a favorite among builders for creating aged roofs, verdigris statues, and grand industrial structures."
+    },
+    "minecraft:cut_copper": {
+        id: "minecraft:cut_copper",
+        name: "Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Copper Blocks"
+        },
+        description: "Cut Copper is a decorative building block crafted by stonecutting or crafting from four blocks of copper. It features a unique tiled texture that makes it ideal for industrial flooring, modern roofs, and accent walls. Like regular copper blocks, cut copper undergoes four stages of oxidation, changing from orange to teal over time. It can be waxed to preserve a specific color or scraped to reverse the aging process."
+    },
+    "minecraft:oxidized_cut_copper": {
+        id: "minecraft:oxidized_cut_copper",
+        name: "Oxidized Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally (Final stage)"
+        },
+        description: "Oxidized Cut Copper is the final, fully aged form of cut copper blocks. It boasts a distinctive teal-green color while retaining its sharp, tiled texture. This block is perfect for adding a sense of history and permanence to a build, often used for turquoise-colored roofs or weathered pathways. It can be waxed to maintain its current state or scraped with an axe to reveal the layers of color beneath, providing builders with excellent gradient control."
+    },
     "minecraft:copper_bulb": {
         id: "minecraft:copper_bulb",
         name: "Copper Bulb",

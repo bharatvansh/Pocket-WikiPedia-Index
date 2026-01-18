@@ -203,6 +203,27 @@ export const blockIndex = [
         themeColor: "§3" // dark aqua
     },
     {
+        id: "minecraft:oxidized_copper",
+        name: "Oxidized Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:cut_copper",
+        name: "Cut Copper",
+        category: "block",
+        icon: "textures/blocks/cut_copper",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:oxidized_cut_copper",
+        name: "Oxidized Cut Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_cut_copper",
+        themeColor: "§2" // dark green
+    },
+    {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
         category: "block",
@@ -999,6 +1020,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_redstone_ore",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:deepslate_lapis_ore",
+        name: "Deepslate Lapis Lazuli Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_lapis_ore",
+        themeColor: "§1" // dark blue
+    },
+    {
+        id: "minecraft:deepslate_emerald_ore",
+        name: "Deepslate Emerald Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_emerald_ore",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:suspicious_gravel",

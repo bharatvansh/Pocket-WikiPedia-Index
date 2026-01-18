@@ -304,5 +304,47 @@ export const oreBlocks = {
             yRange: "-64 to 0 (deepslate layers)"
         },
         description: "Deepslate Redstone Ore is a variant of redstone ore that generates in the deepslate layers, appearing from Y=-64 up to Y=0. When stepped on or clicked, it glows and emits redstone particles. Mining it requires an iron pickaxe or better and yields 4-5 units of Redstone Dust, which can be increased with Fortune. This ore is a core component for advanced mechanics and automation. Its location at great depths makes it abundant for those exploring the deep dark or searching for diamonds near the world's bottom."
+    },
+    "minecraft:deepslate_lapis_ore": {
+        id: "minecraft:deepslate_lapis_ore",
+        name: "Deepslate Lapis Lazuli Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Lapis Lazuli (4-9, affected by Fortune)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 64"
+        },
+        description: "Deepslate Lapis Lazuli Ore is a tougher variant of the standard lapis ore, found deep within the Overworld's deepslate layers. It requires an iron pickaxe or better to mine. When broken, it yields a generous amount of lapis lazuli, which is essential for enchanting items and crafting blue dyes. Like other deepslate ores, it is more time-consuming to mine than its stone counterpart, but it offers the same valuable resources for any player venturing into the depths."
+    },
+    "minecraft:deepslate_emerald_ore": {
+        id: "minecraft:deepslate_emerald_ore",
+        name: "Deepslate Emerald Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Emerald (1, affected by Fortune)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-16 to 320 (Mountain biomes only)"
+        },
+        description: "Deepslate Emerald Ore is one of the rarest blocks in Minecraft, generating only in mountain biomes within the deepslate layers. It must be mined with an iron pickaxe or better. It drops a single emerald, the primary currency for trading with villagers. Because emeralds typically generate higher up, finding the deepslate variant is particularly rare. It is highly sought after by collectors and builders for its unique appearance and rarity."
     }
 };
