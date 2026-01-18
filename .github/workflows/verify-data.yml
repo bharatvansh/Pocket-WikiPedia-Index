@@ -41,22 +41,26 @@ jobs:
 
       - name: Validate PR scope (only data files allowed)
         id: scope
+        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
           cd .github/scripts
-          node check-scope.js --base $BASE_REF --output ../../scope_report.md --status ../../scope_status.txt
+          node check-scope.js --base $BASE_REF --output ../../scope_report.md --status ../../scope_status.txt || true
           
           # Read the status
           if [ -f ../../scope_status.txt ]; then
             STATUS=$(cat ../../scope_status.txt)
-            echo "status=$STATUS" >> $GITHUB_OUTPUT
           else
-            echo "status=no_issues" >> $GITHUB_OUTPUT
+            STATUS="has_issues"
           fi
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
       - name: Post scope errors and stop (if unauthorized files changed)
-        if: steps.scope.outputs.status == 'has_issues'
+        if: always() && steps.scope.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
@@ -76,30 +80,30 @@ jobs:
               body: report,
               event: 'REQUEST_CHANGES'
             });
-            
-            // Fail the workflow
-            core.setFailed('Unauthorized file changes detected in PR');
 
       - name: Check for duplicate entries
         id: duplicates
-        if: steps.scope.outputs.status == 'no_issues'
+        if: always()
         continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
           cd .github/scripts
-          node check-duplicates.js --diff ../../diff_content.txt --output ../../duplicate_report.md --status ../../duplicate_status.txt
+          node check-duplicates.js --diff ../../diff_content.txt --output ../../duplicate_report.md --status ../../duplicate_status.txt || true
           
           # Read the status
           if [ -f ../../duplicate_status.txt ]; then
             STATUS=$(cat ../../duplicate_status.txt)
-            echo "status=$STATUS" >> $GITHUB_OUTPUT
           else
-            echo "status=no_issues" >> $GITHUB_OUTPUT
+            STATUS="has_issues"
           fi
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
       - name: Post duplicate errors and stop (if duplicates found)
-        if: always() && steps.duplicates.outputs.status == 'has_issues'
+        if: always() && steps.duplicates.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
@@ -119,28 +123,28 @@ jobs:
               body: report,
               event: 'REQUEST_CHANGES'
             });
-            
-            // Fail the workflow
-            core.setFailed('Duplicate entries detected');
 
       - name: Validate format (syntax + structure)
         id: format
-        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues'
+        if: always()
         continue-on-error: true
         run: |
           cd .github/scripts
-          node validate-format.js --output ../../format_report.md --status ../../format_status.txt
+          node validate-format.js --output ../../format_report.md --status ../../format_status.txt || true
           
           # Read the status
           if [ -f ../../format_status.txt ]; then
             STATUS=$(cat ../../format_status.txt)
-            echo "status=$STATUS" >> $GITHUB_OUTPUT
           else
-            echo "status=no_issues" >> $GITHUB_OUTPUT
+            STATUS="has_issues"
           fi
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
       - name: Post format errors and stop (if format issues)
-        if: always() && steps.format.outputs.status == 'has_issues'
+        if: always() && steps.format.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
@@ -160,28 +164,28 @@ jobs:
               body: report,
               event: 'REQUEST_CHANGES'
             });
-            
-            // Fail the workflow
-            core.setFailed('Format validation failed');
 
       - name: Cross-reference validation (check index registration)
         id: crossrefs
-        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues'
+        if: always()
         continue-on-error: true
         run: |
           cd .github/scripts
-          node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt
+          node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt || true
           
           # Read the status
           if [ -f ../../crossref_status.txt ]; then
             STATUS=$(cat ../../crossref_status.txt)
-            echo "status=$STATUS" >> $GITHUB_OUTPUT
           else
-            echo "status=no_issues" >> $GITHUB_OUTPUT
+            STATUS="has_issues"
           fi
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
       - name: Post cross-reference errors and stop (if missing from index)
-        if: always() && steps.crossrefs.outputs.status == 'has_issues'
+        if: always() && steps.crossrefs.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
@@ -201,13 +205,10 @@ jobs:
               body: report,
               event: 'REQUEST_CHANGES'
             });
-            
-            // Fail the workflow
-            core.setFailed('Cross-reference validation failed: entries exist without index registration');
 
       - name: Run Gemini verification (only if all checks pass)
         id: verify
-        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
+        if: always() && steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -223,7 +224,7 @@ jobs:
           fi
           
       - name: Post verification summary
-        if: steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues'
+        if: always() && steps.verify.conclusion != 'skipped'
         run: |
           if [ -f verification_report.md ]; then
             echo "## 📋 Data Verification Report" >> $GITHUB_STEP_SUMMARY
@@ -231,7 +232,7 @@ jobs:
           fi
 
       - name: Request changes on PR (if issues found)
-        if: steps.verify.outputs.status == 'has_issues'
+        if: always() && steps.verify.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
@@ -253,11 +254,15 @@ jobs:
               body: report,
               event: 'REQUEST_CHANGES'
             });
-            
-            core.setFailed('Issues found that require manual review');
+
+      - name: Fail workflow if any validation failed
+        if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure' || steps.verify.outcome == 'failure')
+        run: |
+          echo "One or more validation checks failed. Please review the PR comments."
+          exit 1
 
       - name: Comment and Auto-merge PR (if no issues)
-        if: steps.verify.outputs.status == 'no_issues'
+        if: always() && steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues' && steps.verify.outputs.status == 'no_issues'
         uses: actions/github-script@v7
         with:
           script: |

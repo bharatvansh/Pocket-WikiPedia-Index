@@ -627,6 +627,11 @@ async function main() {
             fs.writeFileSync(options.status, status);
             console.log(`Status: ${status} (from structured output)`);
         }
+
+        // Exit with error if issues found to signal failure to GitHub Actions
+        if (result.hasIssues) {
+            process.exit(1);
+        }
     } catch (error) {
         const errorMsg = `❌ Verification failed: ${error.message}`;
         console.error(errorMsg);
