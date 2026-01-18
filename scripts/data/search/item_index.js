@@ -2638,6 +2638,41 @@ export const itemIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:cherry_hanging_sign",
+        name: "Cherry Hanging Sign",
+        category: "item",
+        icon: "textures/items/cherry_hanging_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_hanging_sign",
+        name: "Bamboo Hanging Sign",
+        category: "item",
+        icon: "textures/items/bamboo_hanging_sign",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_hanging_sign",
+        name: "Mangrove Hanging Sign",
+        category: "item",
+        icon: "textures/items/mangrove_hanging_sign",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_hanging_sign",
+        name: "Crimson Hanging Sign",
+        category: "item",
+        icon: "textures/items/crimson_hanging_sign",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:warped_hanging_sign",
+        name: "Warped Hanging Sign",
+        category: "item",
+        icon: "textures/items/warped_hanging_sign",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:creaking_spawn_egg",
         name: "Creaking Spawn Egg",
         category: "item",

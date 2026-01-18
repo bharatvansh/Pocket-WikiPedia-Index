@@ -1501,6 +1501,116 @@ export const miscItems = {
         ],
         description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
     },
+    "minecraft:cherry_hanging_sign": {
+        id: "minecraft:cherry_hanging_sign",
+        name: "Cherry Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for Cherry Grove themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Cherry Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Can be placed under blocks, on the side of blocks, or attached to other hanging signs.",
+            "Text can be applied to both sides and can be dyed or made to glow.",
+            "Matches the pink aesthetic of the Cherry Grove biome."
+        ],
+        description: "The Cherry Hanging Sign is a decorative item that allows players to display text in a stylish hanging format. Crafted from stripped cherry logs and chains, it features the vibrant pink color unique to the cherry wood set. Unlike standard signs, hanging signs have a smaller text area but can be placed in more versatile positions, such as dangling from the bottom of blocks or protruding from walls. They are perfect for adding detail to Cherry Grove settlements or creating elegant shop signs."
+    },
+    "minecraft:bamboo_hanging_sign": {
+        id: "minecraft:bamboo_hanging_sign",
+        name: "Bamboo Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for jungle or bamboo themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Bamboo Block", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Crafted from stripped bamboo blocks rather than traditional logs.",
+            "Can hang from the bottom of blocks or be attached to fences and walls.",
+            "Features the unique yellowish texture of the bamboo wood set."
+        ],
+        description: "The Bamboo Hanging Sign is a unique variant of the hanging sign crafted from bamboo. It provides a tropical aesthetic that fits perfectly with jungle environments or bamboo structures. Like other hanging signs, it can hold text on both sides and can be customized with dyes and glow ink. Its distinct yellow-green color and bamboo-pole texture make it a popular choice for players looking to create a more organic or rustic look for their signage systems."
+    },
+    "minecraft:mangrove_hanging_sign": {
+        id: "minecraft:mangrove_hanging_sign",
+        name: "Mangrove Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for swamp or dark-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Mangrove Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Features a deep reddish-brown color characteristic of mangrove wood.",
+            "Can be placed on the side of blocks with a protruding bracket.",
+            "Supports text on both its front and back faces."
+        ],
+        description: "The Mangrove Hanging Sign offers a bold, reddish-brown aesthetic for player signage. Crafted from stripped mangrove logs and chains, it is ideal for use in swamp biomes or as a high-contrast label in various builds. It functions identically to other hanging signs, allowing for four lines of text per side. Its rich color and unique bracket design when placed on walls make it a favored item for builders who prioritize a sophisticated and weathered look."
+    },
+    "minecraft:crimson_hanging_sign": {
+        id: "minecraft:crimson_hanging_sign",
+        name: "Crimson Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text in the Nether or on fire-resistant structures",
+            secondaryUse: "Decorative signage for Nether-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Crimson Hyphae", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Completely fireproof, as it is made from Nether-native wood.",
+            "Features a vibrant purple-red color with a unique hyphae texture.",
+            "Does not burn if placed near lava or fire."
+        ],
+        description: "The Crimson Hanging Sign is a fire-resistant signage option native to the Nether's Crimson Forests. Because it is crafted from hyphae rather than Overworld wood, it will not burn, making it the perfect choice for labeling chest rooms or directions in the Nether. It features a striking purple-red hue and can be placed in various orientations. Like its Overworld counterparts, it supports multi-line text on both sides and remains a durable decorative piece in the most extreme environments."
+    },
+    "minecraft:warped_hanging_sign": {
+        id: "minecraft:warped_hanging_sign",
+        name: "Warped Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text in the Nether or on fire-resistant structures",
+            secondaryUse: "Decorative signage for End or Nether themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Warped Hyphae", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Completely fireproof, as it is made from Nether-native wood.",
+            "Features a unique teal-blue color characteristic of Warped Forests.",
+            "Ideal for high-visibility signs in dark environments."
+        ],
+        description: "The Warped Hanging Sign is a teal-colored, fireproof sign found in the Warped Forests of the Nether. Being immune to fire, it is an essential tool for navigation in volcanic regions. Its bright teal color provides excellent visibility against darker blocks, and its texture is distinct from Overworld wood. It can be hung from the bottom or sides of blocks and supports text customization including dyes and glow effects, serving as both a functional and eerie decorative element."
+    },
     "minecraft:zombie_head": {
         id: "minecraft:zombie_head",
         name: "Zombie Head",
