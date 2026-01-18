@@ -2798,5 +2798,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/double_plant_grass_top",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:oak_leaves",
+        name: "Oak Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_oak",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:spruce_leaves",
+        name: "Spruce Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_spruce",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:birch_leaves",
+        name: "Birch Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_birch",
+        themeColor: "§a" // light green
+    },
+    {
+        id: "minecraft:jungle_leaves",
+        name: "Jungle Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_jungle",
+        themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:acacia_leaves",
+        name: "Acacia Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_acacia",
+        themeColor: "§2" // green
     }
 ];
