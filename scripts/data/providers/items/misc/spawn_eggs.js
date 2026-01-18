@@ -1390,5 +1390,110 @@ export const spawnEggs = {
             "Can be tamed and ridden in creative/commands"
         ],
         description: "The Zombie Horse Spawn Egg summons a green-skinned undead horse variant that is significantly more durable than typical horses. Boasting 15 hearts of health, they are among the toughest passive mobs. Although they do not spawn naturally in survival, this egg makes them accessible for Creative projects and commands. These horses are undead, meaning they are healed by harming effects rather than healing. They serve as excellent, high-health aesthetic mounts for builders and adventure map designers."
+    },
+    "minecraft:horse_spawn_egg": {
+        id: "minecraft:horse_spawn_egg",
+        name: "Horse Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Horse",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Horse with random color and markings.",
+            "Can spawn a baby Horse if used on an adult Horse.",
+            "Can be used to change a Monster Spawner's type to Horse."
+        ],
+        description: "The Horse Spawn Egg is a creative-only item used to summon horses instantly. Each egg spawns a horse with a randomized combination of one of seven base colors and one of five marking patterns, resulting in 35 unique visual variants. When used on an existing adult horse, it will spawn a foal (baby horse) of the same species. It is widely used by map creators to populate stables or for testing breeding mechanics quickly without searching for wild herds."
+    },
+    "minecraft:vex_spawn_egg": {
+        id: "minecraft:vex_spawn_egg",
+        name: "Vex Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Vex",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Vexes spawned from eggs do not have a lifespan (unlike those summoned by Evokers).",
+            "Can fly through solid blocks and entities.",
+            "Always spawns with an Iron Sword in its hand."
+        ],
+        description: "The Vex Spawn Egg is used to summon a Vex, a small, flying hostile mob typically found during village raids. Unlike Vexes summoned by an Evoker, those spawned from an egg do not gradually take damage over time and will persist indefinitely until killed. They retain their unique ability to phase through walls and blocks, making them highly dangerous in enclosed spaces. In Creative Mode, they are often used to test base defenses or to create challenging obstacle courses for players."
+    },
+    "minecraft:endermite_spawn_egg": {
+        id: "minecraft:endermite_spawn_egg",
+        name: "Endermite Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Endermite",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Smallest hostile mob in Minecraft.",
+            "Endermen will immediately attack any nearby Endermite.",
+            "Useful for creating Enderman farms by using them as bait."
+        ],
+        description: "The Endermite Spawn Egg allows for the immediate summoning of an Endermite, the smallest hostile mob in the game. While they are usually rare, spawning only 5% of the time an Ender Pearl is thrown, this egg provides a reliable way to obtain them. Their most significant utility is their relationship with Endermen, who are naturally hostile toward them. This behavior is frequently exploited in the creation of efficient Enderman farms in the End dimension, where an Endermite is used as bait to lure Endermen into drop traps."
+    },
+    "minecraft:tadpole_spawn_egg": {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Tadpole",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Tadpoles spawn only in water and will flop on land.",
+            "They will grow into a specific Frog variant depending on the biome temperature.",
+            "Can be picked up using a Water Bucket to create a Bucket of Tadpole."
+        ],
+        description: "The Tadpole Spawn Egg is a Creative Mode item that spawns a Tadpole, the larval stage of frogs. Since Tadpoles are aquatic, they must be spawned in water; otherwise, they will struggle on land and eventually die. The type of frog a Tadpole grows into is determined by the climate (cold, temperate, or warm) of the biome where it grows up. This makes the spawn egg useful for quickly obtaining specific frog types (Cold/Green, Temperate/Orange, or Warm/White) for building Froglight farms without manual breeding."
+    },
+    "minecraft:trader_llama_spawn_egg": {
+        id: "minecraft:trader_llama_spawn_egg",
+        name: "Trader Llama Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Trader Llama",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns with a unique, pre-applied decorative carpet.",
+            "Naturally hostile towards Illagers and Zombies.",
+            "Will spit at any mob or player that attacks its owner or itself."
+        ],
+        description: "The Trader Llama Spawn Egg summons the unique variant of llama that accompanies Wandering Traders. These llamas differ from standard ones by spawning with ornate, colorful carpets and displaying protective behaviors. They are naturally defensive of their owner, spitting at hostiles like Pillagers or Zombies. When spawned via an egg in Creative, they retain these distinctive traits and textures, making them excellent for adding detail to marketplaces or caravan-themed builds where a regular llama's appearance might be too plain."
     }
 };

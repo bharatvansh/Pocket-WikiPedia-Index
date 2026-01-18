@@ -3028,5 +3028,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_zombie_horse",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:horse_spawn_egg",
+        name: "Horse Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_horse",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:vex_spawn_egg",
+        name: "Vex Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_vex",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:endermite_spawn_egg",
+        name: "Endermite Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_endermite",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:tadpole_spawn_egg",
+        name: "Tadpole Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tadpole",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:trader_llama_spawn_egg",
+        name: "Trader Llama Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_trader_llama",
+        themeColor: "§f"
     }
 ];
