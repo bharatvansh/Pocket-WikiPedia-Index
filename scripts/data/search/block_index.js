@@ -966,6 +966,41 @@ export const blockIndex = [
         themeColor: "§7" // gray/cyan
     },
     {
+        id: "minecraft:deepslate_coal_ore",
+        name: "Deepslate Coal Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_coal_ore",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_iron_ore",
+        themeColor: "§7" // gray/brown
+    },
+    {
+        id: "minecraft:deepslate_copper_ore",
+        name: "Deepslate Copper Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_copper_ore",
+        themeColor: "§6" // orange/copper
+    },
+    {
+        id: "minecraft:deepslate_gold_ore",
+        name: "Deepslate Gold Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_gold_ore",
+        themeColor: "§6" // gold/yellow
+    },
+    {
+        id: "minecraft:deepslate_redstone_ore",
+        name: "Deepslate Redstone Ore",
+        category: "block",
+        icon: "textures/blocks/deepslate_redstone_ore",
+        themeColor: "§c" // red
+    },
+    {
         id: "minecraft:suspicious_gravel",
         name: "Suspicious Gravel",
         category: "block",
