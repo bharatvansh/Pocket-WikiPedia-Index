@@ -302,5 +302,26 @@ export const slabsStairsBlocks = {
             yRange: "N/A"
         },
         description: "Mangrove Slab is a half-block variant of Mangrove planks. It allows for more precise elevation changes and detailed architectural features while maintaining the rich, deep red aesthetic of Mangrove wood. It is crafted from three Mangrove planks or via a stonecutter in the standard recipe. Like other wooden slabs, it is flammable and can be waterlogged, providing versatility for various building styles from swampy docks to sophisticated interior flooring."
+    },
+    "minecraft:red_sandstone_slab": {
+        id: "minecraft:red_sandstone_slab",
+        name: "Red Sandstone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Sandstone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted)"
+        },
+        description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
     }
 };
