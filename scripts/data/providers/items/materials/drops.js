@@ -4,7 +4,7 @@
 // slime ball, ender pearl, blaze rod, ghast tear, magma cream,
 // nether star, shulker shell, phantom membrane, rabbit hide,
 // rabbit foot, ink sac, glow ink sac, spider eye, rotten flesh,
-// breeze rod, armadillo scute, turtle scute, nautilus shell,
+// breeze rod, armadillo scute, turtle scute, sniffer_egg, nautilus shell,
 // heart of the sea, dragon breath, totem of undying, gold nugget
 // ============================================
 

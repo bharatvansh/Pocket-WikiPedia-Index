@@ -105,6 +105,20 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
+        id: "minecraft:red_bundle",
+        name: "Red Bundle",
+        category: "item",
+        icon: "textures/items/bundle_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:trial_explorer_map",
+        name: "Trial Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
@@ -462,6 +476,20 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:white_bundle",
+        name: "White Bundle",
+        category: "item",
+        icon: "textures/items/bundle_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:black_bundle",
+        name: "Black Bundle",
+        category: "item",
+        icon: "textures/items/bundle_black",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:brush",
         name: "Brush",
         category: "item",
@@ -530,6 +558,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/egg",
         themeColor: "§f" // white/egg color
+    },
+    {
+        id: "minecraft:blue_bundle",
+        name: "Blue Bundle",
+        category: "item",
+        icon: "textures/items/bundle_blue",
+        themeColor: "§9"
     },
     {
         id: "minecraft:echo_shard",
