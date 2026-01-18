@@ -960,5 +960,110 @@ export const spawnEggs = {
             "Despawns after a set period of time."
         ],
         description: "The Wandering Trader Spawn Egg allows players to instantly place a Wandering Trader. These passive mobs roam the world with their llamas and offer a variety of rare and exotic trade items in exchange for emeralds. In Creative Mode, this egg is useful for testing trade pools or populating market spaces in custom villages. Using it on a Monster Spawner creates a Wandering Trader spawner, though their despawn rates still apply to those spawned from blocks."
+    },
+    "minecraft:dolphin_spawn_egg": {
+        id: "minecraft:dolphin_spawn_egg",
+        name: "Dolphin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Dolphin",
+            secondaryUse: "Used on a Spawner to change its type to Dolphin"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Specifically summons a Dolphin mob.",
+            "Allows customization of Monster Spawners to produce Dolphins.",
+            "Can be used underwater to populate aquatic builds."
+        ],
+        description: "The Dolphin Spawn Egg is an item used to instantly summon a Dolphin. Typically restricted to Creative Mode or accessible via commands, it provides a direct way to spawn these playful aquatic mobs. When used on a block, a Dolphin appears; if used on an existing Monster Spawner, it converts that spawner to a Dolphin spawner. This is particularly useful for creating themed aquariums or specific aquatic environments in custom maps."
+    },
+    "minecraft:llama_spawn_egg": {
+        id: "minecraft:llama_spawn_egg",
+        name: "Llama Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Llama",
+            secondaryUse: "Used on a Spawner to change its type to Llama"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Llama with a random appearance (color/markings).",
+            "Changes a Monster Spawner to produce Llamas.",
+            "Crucial for populating mountain or savanna biomes in Creative."
+        ],
+        description: "The Llama Spawn Egg allows players in Creative Mode to instantly summon a Llama. Upon use, a Llama with a randomized coat color will appear at the targeted location. Like other spawn eggs, it can be applied to a Monster Spawner to set its mob type to Llama. Since Llamas are useful for transporting items in caravans, this spawn egg is a quick way for map creators to provide players with pack animals or to populate mountain scenery."
+    },
+    "minecraft:panda_spawn_egg": {
+        id: "minecraft:panda_spawn_egg",
+        name: "Panda Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Panda",
+            secondaryUse: "Used on a Spawner to change its type to Panda"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Panda with a random personality or the rare brown variant.",
+            "Changes a Monster Spawner to a Panda spawner.",
+            "Ideal for populating bamboo jungle builds."
+        ],
+        description: "The Panda Spawn Egg is a Creative Mode item that summons a Panda mob. When used, it spawns a Panda which may have any of the seven possible personalities: normal, lazy, worried, playful, aggressive, weak, or the very rare brown variant. It functions like all spawn eggs in that it can also modify the behavior of a Monster Spawner. This item is the fastest way to add these rare and charismatic mobs to a bamboo forest or zoo-themed environment."
+    },
+    "minecraft:parrot_spawn_egg": {
+        id: "minecraft:parrot_spawn_egg",
+        name: "Parrot Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Parrot",
+            secondaryUse: "Used on a Spawner to change its type to Parrot"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Parrot in one of five vibrant colors.",
+            "Enables Monster Spawners to produce Parrots.",
+            "Great for adding life and sound to jungle-themed maps."
+        ],
+        description: "The Parrot Spawn Egg is an item used to effortlessly summon Parrots in Minecraft. Available primarily in Creative Mode, it spawns a Parrot in one of its five possible colors: red, blue, green, cyan, or gray. It can also be used on a Monster Spawner to convert it into a Parrot-summoning block. This item is a favorite for designers looking to add colorful, sound-mimicking birds to tropical or jungle-themed builds without waiting for natural spawns."
+    },
+    "minecraft:polar_bear_spawn_egg": {
+        id: "minecraft:polar_bear_spawn_egg",
+        name: "Polar Bear Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Polar Bear",
+            secondaryUse: "Used on a Spawner to change its type to Polar Bear"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons an adult Polar Bear or a cub at the clicked location.",
+            "Modifies Monster Spawners to generate Polar Bears.",
+            "Perfect for populating frozen biomes and snowy structures."
+        ],
+        description: "The Polar Bear Spawn Egg provides a quick way to summon Polar Bears in Minecraft's Creative Mode. When used on a surface, it will spawn either an adult Polar Bear or, less frequently, a cub. It can also be applied to a Monster Spawner to change its mob type. This spawn egg is essential for creating cold-themed survival maps, ice fortresses, or realistic arctic tundras where these powerful and protective animals naturally belong."
     }
 };
