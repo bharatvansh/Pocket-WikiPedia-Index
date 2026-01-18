@@ -90,7 +90,7 @@ export const potions = {
         description: "Lingering Potions are advanced potion variants that create a cloud of status effect upon impact. They are brewed by combining a Splash Potion with Dragon's Breath. The resulting cloud persists for 30 seconds, applying the effect to any entity that passes through it. This area-of-effect mechanic makes them useful for zoning or sustaining buffs/debuffs. Additionally, Lingering Potions are the only way to craft Tipped Arrows, which imbue arrows with potion effects."
     },
     "minecraft:antidote": {
-        id: "minecraft:antidote",
+        id: "minecraft:medicine",
         name: "Antidote",
         maxStack: 1,
         durability: 0,
@@ -113,7 +113,7 @@ export const potions = {
         description: "The Antidote is a specialized medicinal item in Minecraft Bedrock Edition, accessible when Education features are toggled on. It is brewed by combining an Awkward Potion with the element Silver in a Brewing Stand. Its primary function is to immediately cure the player of any Poison effect, making it highly effective against Cave Spiders, Pufferfish, or Witches. Unlike standard potions, it can only be drunk when the specified debuff is active, and it does not have splash or lingering versions."
     },
     "minecraft:elixir": {
-        id: "minecraft:elixir",
+        id: "minecraft:medicine",
         name: "Elixir",
         maxStack: 1,
         durability: 0,
@@ -136,7 +136,7 @@ export const potions = {
         description: "The Elixir is a chemistry-based medicine used to counteract the Weakness status effect. Available only in Bedrock and Education Editions with chemistry features enabled, it is created by brewing Cobalt into an Awkward Potion. When consumed, it immediately restores the player's ability to deal full melee damage. This makes it a strategic item to carry when facing Witches or other sources of spiritual or physical fatigue, though it requires the player to be affected by Weakness before it can be drunk."
     },
     "minecraft:eye_drops": {
-        id: "minecraft:eye_drops",
+        id: "minecraft:medicine",
         name: "Eye Drops",
         maxStack: 1,
         durability: 0,
@@ -159,7 +159,7 @@ export const potions = {
         description: "Eye Drops are a medicinal item designed to cure Blindness, found in the chemistry features of Bedrock and Education Editions. They are brewed using Calcium and an Awkward Potion. Upon consumption, the player's vision is instantly restored, removing the thick fog and limited sight range caused by Blindness. This utility is particularly valuable in environments where visibility is compromised by mob effects or specific traps, allowing for a swift recovery of situational awareness."
     },
     "minecraft:tonic": {
-        id: "minecraft:tonic",
+        id: "minecraft:medicine",
         name: "Tonic",
         maxStack: 1,
         durability: 0,

@@ -1667,7 +1667,7 @@ export const miscItems = {
             secondaryUse: "Signaling and decoration in dark environments"
         },
         crafting: {
-            recipeType: "Compound Creator",
+            recipeType: "Crafting Table",
             ingredients: ["Polyethylene x6", "Hydrogen Peroxide", "Luminol", "Any Dye"]
         },
         specialNotes: [
@@ -1675,7 +1675,7 @@ export const miscItems = {
             "Does not emit block light; glowing effect is visual on the item only.",
             "Shaken by using the item to activate the glow.",
             "Durability depletes gradually while the glow is active.",
-            "Available in 16 different colors matching standard dyes."
+            "Available in 16 colors matching standard dyes; Note: Black and Light Gray are unobtainable/bugged."
         ],
         description: "The Glow Stick is a unique hand-held item available in Minecraft Bedrock Edition when chemistry features are enabled. Crafted by combining specialized compounds like Polyethylene and Luminol with a dye, it comes in sixteen vibrant colors. When activated by 'using' the item, the player shakes the stick to initiate a chemical glow. While it does not illuminate the surrounding blocks like a torch, the item itself remains brightly visible in even the deepest darkness, making it perfect for aesthetic signaling, nighttime celebrations, or as a futuristic decorative tool in cave exploration."
     }
