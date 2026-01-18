@@ -1987,5 +1987,115 @@ export const miscItems = {
             "Cannot be turned into splash or lingering versions."
         ],
         description: "Medicines are specialized remedial items that provide targeted cures for some of Minecraft's most common ailments. Unlike milk buckets, which remove all status effects, each medicine type focuses on a single debuff: Antidote for Poison, Elixir for Weakness, Eye Drops for Blindness, and Tonic for Nausea. These are brewed using the Brewing Stand by infusing Awkward Potions with pure chemical elements like Silver or Cobalt, representing the pinnacle of chemistry-based survival."
+    },
+    "minecraft:super_fertilizer": {
+        id: "minecraft:super_fertilizer",
+        name: "Super Fertilizer",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly growing plants and crops to maturity.",
+            secondaryUse: "Generating flowers and tall grass on grass blocks."
+        },
+        crafting: {
+            recipeType: "Lab Table",
+            ingredients: ["Ammonia + Phosphorus"]
+        },
+        specialNotes: [
+            "Guaranteed 100% growth rate compared to standard Bone Meal.",
+            "Increases the count of flowers produced when used on soil.",
+            "One of the few functional chemistry items in Bedrock.",
+            "Requires Education Edition features to be enabled."
+        ],
+        description: "Super Fertilizer is an enhanced version of bone meal available in Bedrock Edition's education mode. It is crafted on a Lab Table by combining Ammonia and Phosphorus. Unlike regular bone meal, which has a chance to fail or require multiple uses, Super Fertilizer instantly grows plants to their final stage and produces a larger amount of flowers and grass when used on ground. It represents a more efficient, chemistry-based approach to farming and horticulture."
+    },
+    "minecraft:compound_creator": {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Combining chemical elements into compounds.",
+            secondaryUse: "Educational exploration of molecular chemistry."
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Contains 36 input slots for elements.",
+            "Allows creation of over 30 unique compounds.",
+            "Includes a 'combination' animation during success.",
+            "Vital for crafting Latex and other special materials."
+        ],
+        description: "The Compound Creator is one of the four chemistry workstations introduced in Education Edition. It allows players to combine various chemical elements into compounds, such as Salt, Latex, or Crude Oil. Players place elements in the grid, and if the proportions are correct, the resulting compound appears. It is the fundamental starting point for advanced chemistry-based crafting, enabling the creation of unique items like balloons and glow sticks."
+    },
+    "minecraft:element_constructor": {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Synthesizing chemical elements from subatomic particles.",
+            secondaryUse: "Learning atomic numbers and structure."
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Allows setting precise Protons, Neutrons, and Electrons.",
+            "Can create all 118 known elements.",
+            "Supports fictional isotopes like 'PWI' (if applicable) or high-numbered elements.",
+            "The primary source for Silver, Gold, and Carbon elements."
+        ],
+        description: "The Element Constructor is a powerful workstation that allows players to build chemical elements from scratch. By adjusting the number of protons, neutrons, and electrons in its interface, players can create any of the 118 elements from the periodic table, as well as several fictional isotopes. This block serves as the source of all raw materials for Education Edition's chemistry system, turning atomic theory into a tangible gameplay mechanic."
+    },
+    "minecraft:lab_table": {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Executing complex chemical reactions to create special items.",
+            secondaryUse: "Experimental crafting of alchemical products."
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Used to create Ice Bombs, Bleach, and Heat Blocks.",
+            "Requires clicking the 'Combine' button to activate.",
+            "Failure results in a puff of smoke and loss of materials.",
+            "Features a unique 'shaking' animation when working."
+        ],
+        description: "The Lab Table is a workstation used to combine compounds and elements into functional items through chemical reactions. Unlike the Compound Creator, which is for stable mixtures, the Lab Table is used for 'experimental' results like Bleach, Ice Bombs, and Super Fertilizer. It features a unique animation when used, where the player must 'combine' the materials, and occasionally an incorrect mixture can lead to a small puff of fire and smoke."
+    },
+    "minecraft:material_reducer": {
+        id: "minecraft:material_reducer",
+        name: "Material Reducer",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decomposing Minecraft blocks into their constituent elements.",
+            secondaryUse: "Analyzing the chemical composition of game materials."
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Deconstructs common blocks like Grass, Stone, and Wood.",
+            "The output elements depend on the block's real-world properties.",
+            "A non-destructive way to farm elements in peaceful experiments.",
+            "Available only when Education features are toggled."
+        ],
+        description: "The Material Reducer is a chemistry workstation that breaks down standard Minecraft blocks into their constituent chemical elements. By placing a block like Grass, Stone, or Glass into the reducer, the machine decomposes it into a variety of elements such as Oxygen, Silicon, or Carbon. This provides a way to obtain elements without using the Element Constructor, allowing players to discover the chemical makeup of the Minecraft world."
     }
 };

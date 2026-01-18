@@ -3238,5 +3238,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/medicine_antidote",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:super_fertilizer",
+        name: "Super Fertilizer",
+        category: "item",
+        icon: "textures/items/super_fertilizer",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        category: "item",
+        icon: "textures/blocks/compound_creator",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        category: "item",
+        icon: "textures/blocks/element_constructor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        category: "item",
+        icon: "textures/blocks/lab_table",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:material_reducer",
+        name: "Material Reducer",
+        category: "item",
+        icon: "textures/blocks/material_reducer",
+        themeColor: "§7"
     }
 ];
