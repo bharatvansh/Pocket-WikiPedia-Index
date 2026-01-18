@@ -319,8 +319,8 @@ export const slabsStairsBlocks = {
         },
         drops: ["Red Sandstone Slab"],
         generation: {
-            dimension: "Overworld",
-            yRange: "N/A (Crafted)"
+            dimension: "None",
+            yRange: "N/A"
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
     }

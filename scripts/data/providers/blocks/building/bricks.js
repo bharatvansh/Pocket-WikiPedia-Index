@@ -112,9 +112,9 @@ export const brickBlocks = {
         drops: ["Red Sandstone"],
         generation: {
             dimension: "Overworld",
-            yRange: "Badlands (mostly Y 60 to 128)"
+            yRange: "Badlands (Cave entrances and villages)"
         },
-        description: "Red Sandstone is a solid decorative block characteristic of Badlands biomes. It is the reddish-orange counterpart to regular sandstone and shares many of its physical properties. It can be found naturally generating in the layered cliffs of Mesa or crafted by combining four pieces of red sand in a square. Like regular sandstone, it is a sturdy building material that requires a pickaxe to mine efficiently. It serves as the base for several decorative variants including chiseled, cut, and smooth versions, making it a favorite for adding warm, earthy tones to southwest-themed or desert architecture."
+        description: "Red Sandstone is a solid decorative block characteristic of Badlands biomes. It is the reddish-orange counterpart to regular sandstone and shares many of its physical properties. It can be found naturally generating at cave entrances within the Badlands to support sand gravity or found under Red Sand in Badlands villages. It can also be crafted by combining four pieces of red sand in a square. Like regular sandstone, it is a sturdy building material that requires a pickaxe to mine efficiently. It serves as the base for several decorative variants including chiseled, cut, and smooth versions, making it a favorite for adding warm, earthy tones to southwest-themed or desert architecture."
     },
     "minecraft:chiseled_red_sandstone": {
         id: "minecraft:chiseled_red_sandstone",
@@ -132,8 +132,8 @@ export const brickBlocks = {
         },
         drops: ["Chiseled Red Sandstone"],
         generation: {
-            dimension: "Overworld",
-            yRange: "N/A (Crafted)"
+            dimension: "None",
+            yRange: "N/A"
         },
         description: "Chiseled Red Sandstone is a decorative block primarily used as an architectural accent. It is exclusively crafted by placing two red sandstone slabs in a vertical line within a crafting grid or by using a stonecutter. Unlike regular red sandstone, it does not generate naturally in any structures. Its side texture features a stylized carving of a Wither, providing an intricate detail for pillars and borders in desert or Badlands-themed builds. It requires a pickaxe to mine efficiently and drops itself when broken."
     },
@@ -153,8 +153,8 @@ export const brickBlocks = {
         },
         drops: ["Cut Red Sandstone"],
         generation: {
-            dimension: "Overworld",
-            yRange: "N/A (Crafted)"
+            dimension: "None",
+            yRange: "N/A"
         },
         description: "Cut Red Sandstone is a refined version of red sandstone that features a distinct border around its edges, giving it a paneled or tile-like appearance. This variant is ideal for adding structural detail, flooring, or decorative trim to buildings that use a warm, desert-inspired color palette. It is crafted in a 2x2 grid using four blocks of regular red sandstone. Like other sandstone variants, it is harvested using a pickaxe and can be further processed into slabs."
     },
@@ -174,8 +174,8 @@ export const brickBlocks = {
         },
         drops: ["Smooth Red Sandstone"],
         generation: {
-            dimension: "Overworld",
-            yRange: "Crafted by smelting Red Sandstone"
+            dimension: "None",
+            yRange: "N/A"
         },
         description: "Smooth Red Sandstone is a polished version of red sandstone with a completely uniform texture on all sides. It lacks the layered and gritty appearance of its raw counterpart, providing a clean and sophisticated finish for high-quality architectural projects. It is created by smelting regular red sandstone in a furnace. Its increased hardness and blast resistance compared to standard red sandstone make it not only an aesthetic choice but also a more durable one for exterior walls."
     },
