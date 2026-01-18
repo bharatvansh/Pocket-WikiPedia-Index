@@ -750,5 +750,110 @@ export const spawnEggs = {
             "Transforms Monster Spawners into specialized Rabbit spawners."
         ],
         description: "The Rabbit Spawn Egg is a specialized item that summons a rabbit instantly. The variant of rabbit spawned often depends on the surrounding biome, adding realistic variety to custom environments. Rabbits are small, fast mobs that provide unique drops like rabbit's feet for brewing and hides for leather crafting. In addition to basic placement, the egg can be used on a Monster Spawner to create a rabbit-producing spawner. This is a valuable technique for players needing a renewable source of potion ingredients or specialized food materials."
+    },
+    "minecraft:wolf_spawn_egg": {
+        id: "minecraft:wolf_spawn_egg",
+        name: "Wolf Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Wolf mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Wolf; variant depends on the biome of spawn.",
+            "Clicking an adult Wolf with the egg spawns a puppy.",
+            "Nine distinct variants exist: Pale, Woods, Ashen, Black, Chestnut, Rusty, Spotted, Striped, and Snowy."
+        ],
+        description: "The Wolf Spawn Egg is a Creative Mode item that allows players to instantly summon a wolf. In recent updates, wolves have gained nine unique biome-specific variants, and using this egg will spawn the variant corresponding to the current biome. Wolves can be tamed with bones to become loyal companions. Like all spawn eggs, it can be used on a Monster Spawner to convert it into a wolf spawner, though wolves are generally kept as pets rather than farmed."
+    },
+    "minecraft:bee_spawn_egg": {
+        id: "minecraft:bee_spawn_egg",
+        name: "Bee Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Bee mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a neutral Bee that produces honey in hives.",
+            "Can spawn baby bees when used on an adult.",
+            "Great for populating apiaries in Creative Mode."
+        ],
+        description: "The Bee Spawn Egg allows for the immediate summoning of a bee. Bees are essential for pollinating crops and producing honey and honeycomb in hives or nests. This egg is particularly useful for players in Creative Mode who want to jumpstart honey production or populate a garden. Using the egg on a Monster Spawner will create a bee spawner, which is a rare but efficient way to automate honeycomb and honey bottle collection in custom environments."
+    },
+    "minecraft:fox_spawn_egg": {
+        id: "minecraft:fox_spawn_egg",
+        name: "Fox Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Fox mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Red or Snowy fox variant based on the biome.",
+            "Foxes can hold items in their mouths and have unique pouncing behavior.",
+            "Using it on an adult fox spawns a fox kit."
+        ],
+        description: "The Fox Spawn Egg is used to instantly summon a fox. Foxes come in two main types: the common red fox found in taigas and the snowy fox found in snowy biomes. This egg respects biome conditions, meaning it will spawn the snowy variant if used in a cold biome. Foxes are nocturnal and have a chance to spawn carrying randomized items. Like other spawn eggs, this can be used to modify Monster Spawners, though fox spawners are primarily used for decorative or niche mechanic testing."
+    },
+    "minecraft:panda_spawn_egg": {
+        id: "minecraft:panda_spawn_egg",
+        name: "Panda Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Panda mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a panda with randomized personality traits.",
+            "Traits include Lazy, Worried, Playful, Aggressive, Weak, and Brown.",
+            "Using it on an adult panda spawns a baby panda."
+        ],
+        description: "The Panda Spawn Egg summons a panda instantly, which is useful for populating jungle-themed builds in Creative Mode. Pandas are unique because they have hidden 'genes' that determine their personality and appearance, resulting in variants like the rare brown panda or the sneezing weak panda. This egg is a direct way to observe these different behaviors. It can also be applied to a Monster Spawner to set it to generate pandas, providing a specialized way to gather bamboo-consuming mobs."
+    },
+    "minecraft:dolphin_spawn_egg": {
+        id: "minecraft:dolphin_spawn_egg",
+        name: "Dolphin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Dolphin mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a dolphin which provides 'Dolphin's Grace' to nearby swimmers.",
+            "Dolphins can jump over obstacles and play with items.",
+            "Requires water to survive; dolphins will dry out on land."
+        ],
+        description: "The Dolphin Spawn Egg allows for the immediate placement of a dolphin in aquatic environments. Dolphins are highly interactive mobs that can lead players to shipwrecks or ruins if fed raw fish. They also grant a speed boost to swimming players nearby. This egg is perfect for enhancing custom ocean biomes or testing aquatic speed mechanics. Like all spawn eggs, using it on a Monster Spawner transforms it into a dolphin spawner, though specific water conditions are needed for the dolphins to spawn and thrive."
     }
 };

@@ -2783,5 +2783,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_rabbit",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:wolf_spawn_egg",
+        name: "Wolf Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_wolf",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:bee_spawn_egg",
+        name: "Bee Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_bee",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:fox_spawn_egg",
+        name: "Fox Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_fox",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:panda_spawn_egg",
+        name: "Panda Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_panda",
+        themeColor: "§f" // white/black
+    },
+    {
+        id: "minecraft:dolphin_spawn_egg",
+        name: "Dolphin Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_dolphin",
+        themeColor: "§b" // aqua/blue
     }
 ];
