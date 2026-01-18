@@ -63,23 +63,36 @@ jobs:
         if: always() && steps.scope.outcome == 'failure'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'scope_report.md');
             let report = '## 🔒 PR Scope Validation Failed\n\n';
             
-            if (fs.existsSync('scope_report.md')) {
-              report += fs.readFileSync('scope_report.md', 'utf8');
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
             report += '\n\n---\n*Data contribution PRs must ONLY modify data files. Please remove unauthorized file changes or create a separate PR for code changes.*';
             
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              body: report,
-              event: 'REQUEST_CHANGES'
-            });
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: report
+              });
+            }
 
       - name: Check for duplicate entries
         id: duplicates
@@ -106,23 +119,36 @@ jobs:
         if: always() && steps.duplicates.outcome == 'failure'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'duplicate_report.md');
             let report = '## 🔄 Duplicate Entry Detected\n\n';
             
-            if (fs.existsSync('duplicate_report.md')) {
-              report += fs.readFileSync('duplicate_report.md', 'utf8');
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
             report += '\n\n---\n*Please remove the duplicate entries before the data can be verified.*';
             
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              body: report,
-              event: 'REQUEST_CHANGES'
-            });
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: report
+              });
+            }
 
       - name: Validate format (syntax + structure)
         id: format
@@ -147,23 +173,36 @@ jobs:
         if: always() && steps.format.outcome == 'failure'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'format_report.md');
             let report = '## ❌ Format Validation Failed\n\n';
             
-            if (fs.existsSync('format_report.md')) {
-              report += fs.readFileSync('format_report.md', 'utf8');
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
             report += '\n\n---\n*Please fix the format/syntax issues above before the data can be verified.*';
             
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              body: report,
-              event: 'REQUEST_CHANGES'
-            });
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: report
+              });
+            }
 
       - name: Cross-reference validation (check index registration)
         id: crossrefs
@@ -188,23 +227,36 @@ jobs:
         if: always() && steps.crossrefs.outcome == 'failure'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'crossref_report.md');
             let report = '## 🔗 Cross-Reference Validation Failed\n\n';
             
-            if (fs.existsSync('crossref_report.md')) {
-              report += fs.readFileSync('crossref_report.md', 'utf8');
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
             report += '\n\n---\n*Please ensure all data entries are registered in their corresponding search index files (mob_index.js, block_index.js, item_index.js).*';
             
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              body: report,
-              event: 'REQUEST_CHANGES'
-            });
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: report
+              });
+            }
 
       - name: Run Gemini verification (only if all checks pass)
         id: verify
@@ -235,25 +287,37 @@ jobs:
         if: always() && steps.verify.outcome == 'failure'
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'verification_report.md');
             
             let report = '## 📋 Data Verification Report\n\n';
             
-            if (fs.existsSync('verification_report.md')) {
-              report += fs.readFileSync('verification_report.md', 'utf8');
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
             report += '\n\n---\n⚠️ **Please review and fix the issues above before merging.**';
             
-            // Use PR review API to request changes - this notifies the PR creator
-            await github.rest.pulls.createReview({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              body: report,
-              event: 'REQUEST_CHANGES'
-            });
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.pull_request.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body: report
+              });
+            }
 
       - name: Fail workflow if any validation failed
         if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure' || steps.verify.outcome == 'failure')
