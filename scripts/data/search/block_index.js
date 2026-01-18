@@ -2660,6 +2660,41 @@ export const blockIndex = [
         themeColor: "§e" // yellow/sand
     },
     {
+        id: "minecraft:red_sandstone",
+        name: "Red Sandstone",
+        category: "block",
+        icon: "textures/blocks/red_sandstone",
+        themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:chiseled_red_sandstone",
+        name: "Chiseled Red Sandstone",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_chiseled",
+        themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:cut_red_sandstone",
+        name: "Cut Red Sandstone",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_cut",
+        themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:smooth_red_sandstone",
+        name: "Smooth Red Sandstone",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_smooth",
+        themeColor: "§c" // red/orange
+    },
+    {
+        id: "minecraft:red_sandstone_slab",
+        name: "Red Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_slab_top",
+        themeColor: "§c" // red/orange
+    },
+    {
         id: "minecraft:infested_cobblestone",
         name: "Infested Cobblestone",
         category: "block",
