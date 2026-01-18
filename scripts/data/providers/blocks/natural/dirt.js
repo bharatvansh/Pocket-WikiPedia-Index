@@ -325,5 +325,47 @@ export const dirtBlocks = {
             yRange: "Windswept Savanna, Wooded Badlands, Old Growth Taiga"
         },
         description: "Coarse Dirt is a variation of dirt that prevents grass from spreading onto it. It features a slightly darker and more textured appearance compared to regular dirt. It generates naturally in biomes where vegetation is sparse or the soil is rocky, such as Windswept Savannas and Old Growth Taigas. Players can also craft it by combining two dirt blocks with two gravel blocks. Tilling coarse dirt with a hoe converts it into regular dirt. It's an excellent choice for path-making and landscaping where a more rugged, earth-toned look is desired without the risk of grass overgrowth."
+    },
+    "minecraft:farmland": {
+        id: "minecraft:farmland",
+        name: "Farmland",
+        hardness: 0.6,
+        blastResistance: 0.6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages"
+        },
+        description: "Farmland is a block created by using a hoe on dirt or grass blocks. It is essential for growing crops like wheat, carrots, potatoes, and pumpkins. Farmland must be hydrated by nearby water to remain productive; without water or crops, it eventually reverts to dirt. Walking or jumping on it can also turn it back into dirt."
+    },
+    "minecraft:dirt_path": {
+        id: "minecraft:dirt_path",
+        name: "Dirt Path",
+        hardness: 0.65,
+        blastResistance: 0.65,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dirt"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Plains, Savanna"
+        },
+        description: "Dirt paths are decorative blocks created by using a shovel on grass blocks, dirt, podzol, or coarse dirt. They are slightly shorter than full blocks (15/16 height). Unlike grass, dirt paths provide a pleasant, trampled-earth look ideal for paths and roads in villages and landscapes."
     }
 };

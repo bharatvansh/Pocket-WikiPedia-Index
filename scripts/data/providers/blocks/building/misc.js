@@ -112,5 +112,26 @@ export const miscBuildingBlocks = {
             yRange: "Badlands, Savanna Villages"
         },
         description: "Orange Terracotta is a vibrant, earth-toned block found abundantly in the Badlands biome and occasionally in savanna village houses. It is created by smelting clay and applying orange dye, or found naturally in massive strata. It features a warm, orange-brown hue that fits perfectly with desert or Mediterranean-style architecture. Like all terracotta variants, it has a hardness of 1.25 and requires a pickaxe for collection. Its matte texture is distinct from the glossy look of concrete, providing a more natural feel to builds. It can also be further smelted into orange glazed terracotta."
+    },
+    "minecraft:white_glazed_terracotta": {
+        id: "minecraft:white_glazed_terracotta",
+        name: "White Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["White Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from White Terracotta"
+        },
+        description: "White Glazed Terracotta is a vibrant decorative block with a unique, ornate pattern. It is created by smelting white terracotta in a furnace. Like other glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it valuable for complex redstone machinery. Its directional placement allows players to create large, recurring patterns across floors and walls."
     }
 };
