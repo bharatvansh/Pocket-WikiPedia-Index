@@ -6,6 +6,7 @@ import { smithingTemplates } from './smithing.js';
 import { musicDiscs } from './music_discs.js';
 import { spawnEggs } from './spawn_eggs.js';
 import { bannerPatterns } from './banners.js';
+import { bannerItems } from './banner_items.js';
 import { miscItems } from './other.js';
 
 export const misc = {
@@ -14,5 +15,6 @@ export const misc = {
     ...musicDiscs,
     ...spawnEggs,
     ...bannerPatterns,
+    ...bannerItems,
     ...miscItems
 };
