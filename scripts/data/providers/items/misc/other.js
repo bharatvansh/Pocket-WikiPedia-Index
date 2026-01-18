@@ -1655,5 +1655,116 @@ export const miscItems = {
             "Requires Education Edition features to be enabled for crafting."
         ],
         description: "Balloons are fun, buoyant objects available in Minecraft Bedrock when Education features are active. They can be attached to most mobs, causing them to float upwards into the air, or tied to fence posts for colorful decorations. They come in 16 different colors based on the dye used in crafting. While they are mostly for fun, they can be popped by arrows or other projectiles, making for interesting mini-games."
+    },
+    "minecraft:latex": {
+        id: "minecraft:latex",
+        name: "Latex",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting fuel and material for Balloons",
+            secondaryUse: "Chemistry component"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Carbon x5", "Hydrogen x8"]
+        },
+        specialNotes: [
+            "Created using the formula C5H8 in the Compound Creator.",
+            "Essential ingredient for crafting balloons of any color.",
+            "Exclusive to the Education Edition features toggle.",
+            "Cannot be used as fuel or food."
+        ],
+        description: "Latex is a complex chemical compound used primarily in the production of balloons. It is created by combining carbon and hydrogen atoms in a specific ratio within the Compound Creator. As one of the core chemistry items in Bedrock Edition's education features, it represents the intersection of science and crafting, allowing players to manufacture items that defy standard Minecraft physics, such as lifting mobs into the sky."
+    },
+    "minecraft:bleach": {
+        id: "minecraft:bleach",
+        name: "Bleach",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Removing dye from colored blocks and items",
+            secondaryUse: "Chemistry component"
+        },
+        crafting: {
+            recipeType: "Lab Table",
+            ingredients: ["Water x3", "Sodium Hypochlorite x3"]
+        },
+        specialNotes: [
+            "Can reset the color of wool, carpets, beds, and banners to white.",
+            "Created by combining Water and Sodium Hypochlorite in a Lab Table.",
+            "Requires Education Edition features to be enabled.",
+            "Provides a way to reclaim basic building materials from dyed versions."
+        ],
+        description: "Bleach is a powerful cleaning agent that can strip the color from various dyed items in Minecraft. When combined with colored wool, beds, or banners in a crafting grid, it restores them to their original white color. This item is particularly useful for builders who want to repurpose their materials or correct mis-colored decorations. It is manufactured using the Lab Table by balancing specific amounts of Water and Sodium Hypochlorite."
+    },
+    "minecraft:sparkler": {
+        id: "minecraft:sparkler",
+        name: "Sparkler",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emitting colorful particles when held and activated",
+            secondaryUse: "Decoration and celebration"
+        },
+        crafting: {
+            recipeType: "Lab Table/Crafting Table",
+            ingredients: ["Magnesium", "Stick", "Chloride (Calcium, Mercuric, Lithium, Potassium, or Tungsten)"]
+        },
+        specialNotes: [
+            "Available in Blue, Red, Green, Purple, and Orange colors.",
+            "Activated when used in the player's hand, continuously emitting particles.",
+            "Does not emit actual light level, only visual particles.",
+            "Gradually consumes durability while active until it burns out."
+        ],
+        description: "Sparklers are decorative items that create a beautiful, continuous stream of colored particles when held and used. They come in five distinct colors, each determined by the specific metal chloride used during crafting. While they don't provide functional lighting for exploration, they are perfect for celebrations, markers, or atmospheric effects in maps. They are a staple of the chemistry-based crafting available in Bedrock Edition's education mode."
+    },
+    "minecraft:glow_stick": {
+        id: "minecraft:glow_stick",
+        name: "Glow Stick",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Portable, hand-held light source",
+            secondaryUse: "Underwater illumination"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Polyethylene x6", "Hydrogen Peroxide", "Luminol", "Dye"]
+        },
+        specialNotes: [
+            "Emits a bright light level of 15 when activated.",
+            "Must be 'shaken' (used) to start glowing.",
+            "Works perfectly underwater, unlike torches.",
+            "Eventually burns out and is removed from the inventory.",
+            "Available in 16 different colors based on the dye used."
+        ],
+        description: "Glow Sticks are advanced portable light sources that provide high-intensity illumination while held in the player's hand. Unlike traditional torches, they are waterproof and can be used to light up the depths of the ocean. After being activated with a shake, they emit light for a limited time before eventually burning out. They are crafted through a multi-step chemistry process involving the creation of polyethylene and luminol."
+    },
+    "minecraft:medicine": {
+        id: "minecraft:medicine",
+        name: "Medicine",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Curing specific negative status effects",
+            secondaryUse: "Advanced alchemy"
+        },
+        crafting: {
+            recipeType: "Brewing Stand",
+            ingredients: ["Awkward Potion", "Element (Silver, Bismuth, Calcium, or Cobalt)"]
+        },
+        specialNotes: [
+            "Antidote cures Poison; Elixir cures Weakness; Eye Drops cure Blindness; Tonic cures Nausea.",
+            "Brewed by adding specific elements to Awkward Potions.",
+            "More targeted than milk, as it only removes the specific negative effect.",
+            "Cannot be turned into splash or lingering versions."
+        ],
+        description: "Medicines are specialized remedial items that provide targeted cures for some of Minecraft's most common ailments. Unlike milk buckets, which remove all status effects, each medicine type focuses on a single debuff: Antidote for Poison, Elixir for Weakness, Eye Drops for Blindness, and Tonic for Nausea. These are brewed using the Brewing Stand by infusing Awkward Potions with pure chemical elements like Silver or Cobalt, representing the pinnacle of chemistry-based survival."
     }
 };

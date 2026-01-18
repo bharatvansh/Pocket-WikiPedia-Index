@@ -3063,5 +3063,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_trader_llama",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:latex",
+        name: "Latex",
+        category: "item",
+        icon: "textures/items/latex",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:bleach",
+        name: "Bleach",
+        category: "item",
+        icon: "textures/items/bleach",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:sparkler",
+        name: "Sparkler",
+        category: "item",
+        icon: "textures/items/sparkler_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:glow_stick",
+        name: "Glow Stick",
+        category: "item",
+        icon: "textures/items/glow_stick_blue",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:medicine",
+        name: "Medicine",
+        category: "item",
+        icon: "textures/items/medicine_antidote",
+        themeColor: "§f"
     }
 ];
