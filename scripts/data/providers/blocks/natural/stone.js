@@ -305,6 +305,27 @@ export const stoneBlocks = {
         },
         description: "Infested Stone is a deceptive block that looks identical to regular stone but hides a Silverfish inside. When broken in Survival mode, it doesn't drop anything and instead releases a hostile Silverfish that attacks the player. These blocks are commonly found in strongholds, mountain biomes, and underneath igloos. In Bedrock Edition, they can be identified because they break faster than normal stone. Using a tool with Silk Touch allows the player to retrieve a normal stone block without spawning the creature."
     },
+    "minecraft:infested_deepslate": {
+        id: "minecraft:infested_deepslate",
+        name: "Infested Deepslate",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Deepslate (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deepslate layers (below Y 0), Strongholds"
+        },
+        description: "Infested Deepslate is a variant of deepslate that houses a Silverfish. Like other infested blocks, it looks identical to its non-infested counterpart but can be distinguished in Bedrock Edition by how quickly it breaks (~0.75 hardness vs 3.0+ for normal deepslate). When broken without Silk Touch, it releases a Silverfish and drops no item. It generates naturally in deepslate layers and within strongholds. It provides a dangerous surprise for miners working in the deep dark layers of the Overworld."
+    },
     "minecraft:polished_deepslate": {
         id: "minecraft:polished_deepslate",
         name: "Polished Deepslate",
