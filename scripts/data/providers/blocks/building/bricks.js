@@ -107,7 +107,7 @@ export const brickBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Red Sandstone"],
         generation: {
@@ -128,7 +128,7 @@ export const brickBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Chiseled Red Sandstone"],
         generation: {
@@ -149,7 +149,7 @@ export const brickBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Cut Red Sandstone"],
         generation: {
@@ -170,7 +170,7 @@ export const brickBlocks = {
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Smooth Red Sandstone"],
         generation: {
