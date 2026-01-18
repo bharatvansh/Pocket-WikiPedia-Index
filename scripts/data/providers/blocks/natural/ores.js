@@ -199,5 +199,110 @@ export const oreBlocks = {
             yRange: "-64 to 15 (deepslate layers)"
         },
         description: "Deepslate Diamond Ore is a variant of diamond ore that generates in deepslate and tuff layers, found more commonly than regular diamond ore due to its lower altitude generation. It requires an iron pickaxe or better to mine. Like regular diamond ore, it drops diamonds when mined without Silk Touch, with increased yields from Fortune enchantment. Deepslate diamond ore also generates as part of fossils that generate below Y=0, replacing some bone blocks."
+    },
+    "minecraft:deepslate_coal_ore": {
+        id: "minecraft:deepslate_coal_ore",
+        name: "Deepslate Coal Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Coal (1)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Coal Ore is a rare variant of coal ore that generates in deepslate and tuff layers, typically between Y=-64 and Y=0. It is significantly harder to mine than regular coal ore, requiring a pickaxe. When mined without Silk Touch, it drops a single piece of coal, which can be increased with the Fortune enchantment. Although rare due to coal's high-altitude generation bias, it can be found in the transition layer where stone meets deepslate. Like regular coal, it provides experience when mined."
+    },
+    "minecraft:deepslate_iron_ore": {
+        id: "minecraft:deepslate_iron_ore",
+        name: "Deepslate Iron Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Iron (1)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Iron Ore is a harder variant of iron ore found in the deepslate layers of the Overworld, appearing between Y=-64 and Y=0. It requires a stone pickaxe or better to mine. When broken, it drops Raw Iron, which must be smelted into iron ingots for use in tools and armor. Fortune enchantments increase the amount of Raw Iron dropped. Due to its generation at lower depths, it is often found alongside other deep minerals and is a crucial resource for players transitioning to the mid-game while exploring deep cave systems."
+    },
+    "minecraft:deepslate_copper_ore": {
+        id: "minecraft:deepslate_copper_ore",
+        name: "Deepslate Copper Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: true
+        },
+        drops: ["Raw Copper (2-5)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-16 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Copper Ore generates within deepslate and tuff layers, usually found from Y=-16 to Y=0. It is tougher than stone-based copper ore but shares the same properties when mined, dropping 2-5 Raw Copper. This yield can be further increased with Fortune. The raw copper can be smelted into ingots for crafting lightning rods, spyglasses, or decorative copper blocks that oxidize over time. While most copper is found at higher elevations, deepslate variants provide a reliable source for explorers in deep caves."
+    },
+    "minecraft:deepslate_gold_ore": {
+        id: "minecraft:deepslate_gold_ore",
+        name: "Deepslate Gold Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Raw Gold (1)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Gold Ore is a rare mineral block found at deep underground levels, typically between Y=-64 and Y=0. It must be mined with an iron pickaxe or better to obtain Raw Gold. Like its stone counterpart, it is often found in small veins and is essential for crafting golden apples, powered rails, and bartering with Piglins. Generating in the deepslate layer makes it harder to break, but it remains a prized find for players seeking valuable resources in the deepest parts of the Overworld."
+    },
+    "minecraft:deepslate_redstone_ore": {
+        id: "minecraft:deepslate_redstone_ore",
+        name: "Deepslate Redstone Ore",
+        hardness: 4.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Redstone Dust (4-5)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 0 (deepslate layers)"
+        },
+        description: "Deepslate Redstone Ore is a variant of redstone ore that generates in the deepslate layers, appearing from Y=-64 up to Y=0. When stepped on or clicked, it glows and emits redstone particles. Mining it requires an iron pickaxe or better and yields 4-5 units of Redstone Dust, which can be increased with Fortune. This ore is a core component for advanced mechanics and automation. Its location at great depths makes it abundant for those exploring the deep dark or searching for diamonds near the world's bottom."
     }
 };
