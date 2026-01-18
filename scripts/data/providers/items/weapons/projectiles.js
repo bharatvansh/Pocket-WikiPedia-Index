@@ -121,5 +121,30 @@ export const projectiles = {
             "Includes effects like Poison, Harming, Weakness, and Strength"
         ],
         description: "Tipped Arrows are advanced projectiles that combine standard ranged damage with the utility of status effects. In Bedrock Edition, they feature a unique crafting method where players can dip regular arrows into a cauldron filled with a potion, providing a highly efficient way to mass-produce them. These arrows are invaluable for tactical combat, allowing players to weaken foes from a distance or apply helpful buffs to allies. Because they are consumed even with the Infinity enchantment, they are often saved for critical encounters."
+    },
+    "minecraft:ice_bomb": {
+        id: "minecraft:ice_bomb",
+        name: "Ice Bomb",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Freezing water blocks into ice",
+            secondaryUse: "Creating paths across water"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Sodium Acetate x4 in Lab Table"]
+        },
+        specialNotes: [
+            "Turns water into ice in a small radius upon impact.",
+            "Does not deal damage to entities.",
+            "Found in Education Edition or Bedrock with Education features enabled."
+        ],
+        description: "The Ice Bomb is a throwable projectile that instantly turns water blocks into ice upon contact. It is extremely useful for crossing large oceans or lakes without needing a boat or Frost Walker enchantments. While it doesn't deal any damage to mobs, its utility in world navigation is significant. It is crafted in the Lab Table using Sodium Acetate, a chemistry feature exclusive to Education and Bedrock Editions."
     }
 };

@@ -218,5 +218,26 @@ export const ingots = {
             "Primary source for copper-based building materials"
         ],
         description: "Raw Copper is a metallic resource harvested from Copper Ore or Deepslate Copper Ore. When mined with a stone pickaxe or higher, it drops 2 to 5 pieces of raw copper, a yield that can be further increased with the Fortune enchantment. This material must be smelted into copper ingots to craft decorative blocks, lightning rods, and spyglasses. Its introduction in 1.17 allowed players to gather copper much more efficiently than other metals, supporting the large-scale construction often associated with copper blocks."
+    },
+    "minecraft:copper_nugget": {
+        id: "minecraft:copper_nugget",
+        name: "Copper Nugget",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting material for copper ingots",
+            secondaryUse: "Recycling copper equipment"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Copper Ingot"]
+        },
+        specialNotes: [
+            "Nine nuggets can be crafted into one Copper Ingot.",
+            "Obtained by smelting copper tools or armor in a furnace or blast furnace.",
+            "Introduced as a way to recycle copper equipment more efficiently."
+        ],
+        description: "A Copper Nugget is a small piece of copper metal. Like iron and gold nuggets, nine of these can be combined in a crafting grid to create a full copper ingot. They are primarily obtained by smelting copper-based tools, weapons, or armor, allowing players to salvage materials from unwanted or damaged equipment. This makes them an essential part of the copper resource cycle in later versions of Minecraft Bedrock Edition."
     }
 };
