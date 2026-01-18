@@ -1592,5 +1592,68 @@ export const miscItems = {
             "Commonly used by creators for high-detail custom map decorations"
         ],
         description: "The Player Head in Minecraft Bedrock Edition is a decorative item that mimics the default player appearance. While it lacks the ability to display specific player skins found in the Java Edition, it remains a heavily utilized block for detailing and custom maps. It can be worn as a purely cosmetic piece or placed as a block to represent human presence in a build. In Survival mode, it remains one of the few unobtainable heads without experimental features or cheats."
+    },
+    "minecraft:camera": {
+        id: "minecraft:camera",
+        name: "Camera",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Capturing photographs of the world",
+            secondaryUse: "Placing as a stationary photo-taking device"
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Obtainable via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "Exclusively found in Bedrock and Education Editions.",
+            "Creates a Photo item when used to take a picture.",
+            "Can be placed on the ground and will track nearby players."
+        ],
+        description: "The Camera is a unique tool found in Minecraft Bedrock Edition, originally part of the Education Edition features. It allows players to capture still images of their surroundings, which are then saved as Photo items. When held, it can be used to take a snapshot, and when placed on the ground, it acts as a stationary camera that follows player movements. It is a fantastic tool for documenting adventures or creating in-game galleries."
+    },
+    "minecraft:portfolio": {
+        id: "minecraft:portfolio",
+        name: "Portfolio",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Storing and viewing photographs",
+            secondaryUse: "Managing photo collections"
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Obtainable via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "Acts as a digital photo album for the player.",
+            "Can hold multiple Photos taken with the Camera.",
+            "Bedrock and Education Edition exclusive item."
+        ],
+        description: "The Portfolio is a specialized item used to store and organize the photos captured with a Camera. It functions similarly to a book, allowing players to flip through their pictures and add captions. This makes it an essential companion for the Camera, providing a way to preserve and share memories of your Minecraft journey. It is only available when Education features are enabled or via the Creative inventory."
+    },
+    "minecraft:balloon": {
+        id: "minecraft:balloon",
+        name: "Balloon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Attaching to mobs to make them float",
+            secondaryUse: "Decoration when tied to fences"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Latex x6", "Lead x1", "Helium x1", "Dye x1"]
+        },
+        specialNotes: [
+            "Can be attached to passive and neutral mobs.",
+            "Goes up at a steady speed and can lift mobs into the sky.",
+            "Requires Education Edition features to be enabled for crafting."
+        ],
+        description: "Balloons are fun, buoyant objects available in Minecraft Bedrock when Education features are active. They can be attached to most mobs, causing them to float upwards into the air, or tied to fence posts for colorful decorations. They come in 16 different colors based on the dye used in crafting. While they are mostly for fun, they can be popped by arrows or other projectiles, making for interesting mini-games."
     }
 };

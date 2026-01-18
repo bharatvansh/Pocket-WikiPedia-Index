@@ -2783,5 +2783,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_rabbit",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:copper_nugget",
+        name: "Copper Nugget",
+        category: "item",
+        icon: "textures/items/copper_nugget",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:camera",
+        name: "Camera",
+        category: "item",
+        icon: "textures/items/camera",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:portfolio",
+        name: "Portfolio",
+        category: "item",
+        icon: "textures/items/portfolio",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:balloon",
+        name: "Balloon",
+        category: "item",
+        icon: "textures/items/balloon",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:ice_bomb",
+        name: "Ice Bomb",
+        category: "item",
+        icon: "textures/items/ice_bomb",
+        themeColor: "§b"
     }
 ];
