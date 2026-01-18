@@ -196,7 +196,7 @@ export const woodBlocks = {
         drops: ["Warped Hyphae"],
         generation: {
             dimension: "Nether",
-            yRange: "Nether (Warped Forest)"
+            yRange: "Crafted from Warped Stems"
         },
         description: "Warped Hyphae is a wood-like block that has the warped stem's bark texture on all six sides. It is fire-resistant and pulses with a dark aqua color. Unlike many other nether blocks, it can be crafted into warped planks or used as a decorative building block. It is essentially the 'wood' version of the warped stem, allowing for consistent bark textures on all sides of a pillar or structure."
     },
