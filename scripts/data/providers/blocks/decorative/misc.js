@@ -579,5 +579,26 @@ export const miscDecorativeBlocks = {
             yRange: "Pillager Outposts, Ancient Cities, Villages"
         },
         description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
+    },
+    "minecraft:pale_oak_fence": {
+        id: "minecraft:pale_oak_fence",
+        name: "Pale Oak Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks and Sticks"
+        },
+        description: "Pale Oak Fences are thin, protective barrier blocks crafted from pale oak planks and sticks. They are 1.5 blocks high for most entities, preventing them from being jumped over. Naturally fitting the Pale Garden's somber aesthetic, these fences offer a ghostly, light gray alternative to traditional wood barriers. They connect automatically to adjacent fences, gates, and most solid blocks, making them perfect for atmospheric perimeters or detailed decorative railings."
     }
 };

@@ -411,5 +411,26 @@ export const redstoneBlocks = {
             yRange: "Crafted; Desert Pyramids, Jungle Temples"
         },
         description: "The Wooden Button is a redstone switch that provides a 30 redstone tick pulse when pressed, longer than the stone button's 20 ticks. Activated by hand or projectile, it serves as a temporary power source for doors, trapdoors, and other redstone mechanisms. In Bedrock Edition, wooden buttons can be crafted from any wood type and occasionally generate naturally in desert pyramids and jungle temples. Their extended pulse duration makes them particularly useful for timing-sensitive circuits and contraptions."
+    },
+    "minecraft:pale_oak_button": {
+        id: "minecraft:pale_oak_button",
+        name: "Pale Oak Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "The Pale Oak Button is a compact redstone power source crafted from a single pale oak plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its muted, cream-gray color allows it to blend subtly with other pale oak blocks or stand out against darker materials. It can be placed on any side of a solid block, making it a versatile tool for activating doors, machines, or hidden mechanisms."
     }
 };
