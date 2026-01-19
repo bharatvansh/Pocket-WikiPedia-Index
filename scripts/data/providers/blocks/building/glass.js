@@ -71,5 +71,26 @@ export const glassBlocks = {
             yRange: "Crafted from Glass x8 and White Dye"
         },
         description: "White Stained Glass is a transparent block created by surrounding a piece of White Dye with eight glass blocks. It retains the transparency of regular glass while adding a soft white tint, perfect for modern windows or decorative light filters. Like regular glass, it is fragile and requires a Silk Touch tool to be harvested; otherwise, it shatters when broken."
+    },
+    "minecraft:glass_pane": {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Glass Pane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 6 Glass blocks"
+        },
+        description: "Glass Panes are thin, transparent blocks that offer a sleeker alternative to full glass blocks. They are crafted from six glass blocks, yielding sixteen panes. Their slim profile allows them to align with the edges of adjacent blocks, making them ideal for windows and decorative partitions. While they are fragile, they provide the same light transmission as regular glass and connect automatically to form continuous surfaces. In Bedrock Edition, they are a cost-effective way to add transparency to any structure."
     }
 };

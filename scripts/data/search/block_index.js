@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_pane",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:sea_lantern",
         name: "Sea Lantern",
         category: "block",
@@ -1631,6 +1638,27 @@ export const blockIndex = [
         themeColor: "§7" // gray/pale
     },
     {
+        id: "minecraft:oak_stairs",
+        name: "Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/oak_stairs",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:stone_stairs",
+        name: "Cobblestone Stairs",
+        category: "block",
+        icon: "textures/blocks/cobblestone_stairs",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:stone_brick_stairs",
+        name: "Stone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_brick_stairs",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:infested_stone",
         name: "Infested Stone",
         category: "block",
@@ -1650,6 +1678,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_sapling",
         themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/oak_sapling",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:hanging_roots",
@@ -2924,5 +2959,75 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/fern",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        category: "block",
+        icon: "textures/blocks/flower_dandelion",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        category: "block",
+        icon: "textures/blocks/flower_rose",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo_stem",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:cherry_door",
+        name: "Cherry Door",
+        category: "block",
+        icon: "textures/items/door_cherry",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:cherry_trapdoor",
+        name: "Cherry Trapdoor",
+        category: "block",
+        icon: "textures/blocks/cherry_trapdoor",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:cherry_fence_gate",
+        name: "Cherry Fence Gate",
+        category: "block",
+        icon: "textures/blocks/cherry_fence_gate",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        category: "block",
+        icon: "textures/items/door_bamboo",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bamboo_trapdoor",
+        name: "Bamboo Trapdoor",
+        category: "block",
+        icon: "textures/blocks/bamboo_trapdoor",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];
