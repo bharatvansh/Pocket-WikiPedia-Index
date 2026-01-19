@@ -178,6 +178,48 @@ export const endBlocks = {
         },
         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
     },
+    "minecraft:end_portal": {
+        id: "minecraft:end_portal",
+        name: "End Portal",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "The End",
+            yRange: "Inside End Portal Frame"
+        },
+        description: "The End Portal block is the shimmering, galaxy-textured surface that appears when an End Portal is activated. It is indestructible and cannot be obtained as an item. Stepping into this block instantly teleports the player between the Overworld and the End. It emits a maximum light level of 15 and has a unique visual effect that looks like a window into deep space."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Final boss pedestal"
+        },
+        description: "The Dragon Egg is a unique decorative block and the rarest item in Minecraft. It appears on top of the exit portal bedrock pedestal once the first Ender Dragon is defeated. When clicked or hit in survival, it teleports to a nearby location. To collect it, players must use a piston to push it or dig beneath it and place a torch so it falls onto the torch. It is primarily a trophy representing the player's victory over the final boss."
+    },
     "minecraft:purpur_slab": {
         id: "minecraft:purpur_slab",
         name: "Purpur Slab",

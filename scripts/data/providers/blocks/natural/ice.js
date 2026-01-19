@@ -91,5 +91,26 @@ export const iceBlocks = {
             yRange: "Snowy Biomes, Igloos"
         },
         description: "A Snow Block is a full-sized block crafted from four snowballs. It is primarily used for building and creating snow golems. Unlike snow layers, snow blocks are not affected by gravity and do not melt near light sources. They are easily broken with a shovel and are a common building material in cold biomes for creating igloos and snowy structures."
+    },
+    "minecraft:bubble_column": {
+        id: "minecraft:bubble_column",
+        name: "Bubble Column",
+        hardness: -1,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Underwater (above Magma/Soul Sand)"
+        },
+        description: "A Bubble Column is a vertical water current that provides air to players. It is created when a Magma Block (producing a downward whirlpool) or Soul Sand (producing upward bubbles) is placed underwater. These columns can be used to quickly transport players and items vertically. Upward columns push entities to the surface, while downward columns pull them to the bottom. They also prevent drowning by replenishing the air meter."
     }
 };

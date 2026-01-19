@@ -322,6 +322,13 @@ export const blockIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:bubble_column",
+        name: "Bubble Column",
+        category: "block",
+        icon: "textures/blocks/magma",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:mud",
         name: "Mud",
         category: "block",
@@ -922,6 +929,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/ancient_debris_side",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:portal",
+        name: "Nether Portal",
+        category: "block",
+        icon: "textures/blocks/portal",
+        themeColor: "§d" // light purple
     },
     {
         id: "minecraft:ender_chest",
@@ -1834,6 +1848,13 @@ export const blockIndex = [
         themeColor: "§6" // orange
     },
     {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§e" // yellow
+    },
+    {
         id: "minecraft:polished_tuff_wall",
         name: "Polished Tuff Wall",
         category: "block",
@@ -1930,6 +1951,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_portal_frame_top",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:end_portal",
+        name: "End Portal",
+        category: "block",
+        icon: "textures/blocks/end_portal",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§0" // black
     },
     {
         id: "minecraft:hanging_sign",
