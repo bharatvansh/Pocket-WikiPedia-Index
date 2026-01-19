@@ -133,5 +133,26 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from White Terracotta"
         },
         description: "White Glazed Terracotta is a vibrant decorative block with a unique, ornate pattern. It is created by smelting white terracotta in a furnace. Like other glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it valuable for complex redstone machinery. Its directional placement allows players to create large, recurring patterns across floors and walls."
+    },
+    "minecraft:smooth_quartz": {
+        id: "minecraft:smooth_quartz",
+        name: "Smooth Quartz",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: true
+        },
+        drops: ["Smooth Quartz"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Block of Quartz"
+        },
+        description: "Smooth Quartz is a clean, decorative building block obtained by smelting a regular Block of Quartz in a furnace. It features a smoother, more uniform texture than the standard quartz block, with the visible grid lines removed. This makes it an ideal choice for modern architecture, sleek interiors, and minimalist designs. It shares the same durability properties as other quartz variants, requiring a pickaxe to mine. Smooth Quartz can be used to craft smooth quartz stairs and slabs using a crafting table or stonecutter, offering versatility for high-quality constructions."
     }
 };

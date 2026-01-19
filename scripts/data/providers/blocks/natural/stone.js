@@ -95,6 +95,27 @@ export const stoneBlocks = {
         },
         description: "Tuff is an ornamental stone that generates in the Overworld as large underground ore-blob deposits and as part of iron ore veins below Y=0. It drops itself when mined with any pickaxe, but drops nothing if broken without one. Tuff is also used as a base material for multiple building variants, and can be stonecut into polished, brick, chiseled, slab, stair, and wall forms."
     },
+    "minecraft:infested_tuff": {
+        id: "minecraft:infested_tuff",
+        name: "Infested Tuff",
+        hardness: 0,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Tuff (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Infested Tuff is a deceptive block introduced in the Tricky Trials update, found naturally within Trial Chambers. It looks identical to regular Tuff but contains a hidden Silverfish that emerges when the block is broken. Unlike normal stone-based infested blocks, Infested Tuff can be identified by how quickly it breaks, even by hand. Breaking it releases a hostile Silverfish that may call upon others if hit. Using a tool with Silk Touch allows the player to retrieve a regular Tuff block without spawning the creature, while any other mining method results in no item drop."
+    },
     "minecraft:chiseled_tuff": {
         id: "minecraft:chiseled_tuff",
         name: "Chiseled Tuff",

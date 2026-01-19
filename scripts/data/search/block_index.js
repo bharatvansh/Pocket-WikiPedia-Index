@@ -2903,5 +2903,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:diamond_ore",
+        name: "Diamond Ore",
+        category: "block",
+        icon: "textures/blocks/diamond_ore",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:infested_tuff",
+        name: "Infested Tuff",
+        category: "block",
+        icon: "textures/blocks/tuff",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:smooth_quartz",
+        name: "Smooth Quartz",
+        category: "block",
+        icon: "textures/blocks/quartz_block_bottom",
+        themeColor: "§f"
     }
 ];
