@@ -116,6 +116,27 @@ export const stoneBlocks = {
         },
         description: "Infested Tuff is a deceptive block introduced in the Tricky Trials update, found naturally within Trial Chambers. It looks identical to regular Tuff but contains a hidden Silverfish that emerges when the block is broken. Unlike normal stone-based infested blocks, Infested Tuff can be identified by how quickly it breaks, even by hand. Breaking it releases a hostile Silverfish that may call upon others if hit. Using a tool with Silk Touch allows the player to retrieve a regular Tuff block without spawning the creature, while any other mining method results in no item drop."
     },
+    "minecraft:infested_mossy_stone_bricks": {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        hardness: 0,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Any",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Mossy Stone Bricks (if Silk Touch)", "Silverfish"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Infested Mossy Stone Bricks are blocks that look identical to Mossy Stone Bricks but contain a silverfish. They are primarily found in strongholds. Like all infested blocks in Bedrock Edition, they can be broken instantly by hand. Breaking the block without Silk Touch will spawn a silverfish and drop nothing. They are a common hazard in strongholds, where multiple silverfish can be alerted if one is provoked."
+    },
     "minecraft:chiseled_tuff": {
         id: "minecraft:chiseled_tuff",
         name: "Chiseled Tuff",

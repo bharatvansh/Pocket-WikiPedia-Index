@@ -178,27 +178,6 @@ export const endBlocks = {
         },
         description: "An End Portal Frame is a block found in Strongholds that forms the End Portal. It is indestructible in survival mode. Players must place Eyes of Ender into the frames to activate the portal to the End. When 12 frames are placed in a 5x5 ring (corners omitted) and filled with eyes, the portal activates."
     },
-    "minecraft:dragon_egg": {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
-        hardness: 3.0,
-        blastResistance: 9.0,
-        flammability: false,
-        gravityAffected: false,
-        transparent: true,
-        luminance: 1,
-        mining: {
-            tool: "None",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Dragon Egg"],
-        generation: {
-            dimension: "The End",
-            yRange: "Exit Portal top"
-        },
-        description: "The Dragon Egg is a unique decorative block and the rarest item in Minecraft. It appears on top of the exit portal in The End after the Ender Dragon is defeated for the first time. When a player tries to mine it, the egg typically teleports to a nearby location. To collect it, players must use creative methods like pushing it with a piston or dropping it onto a torch. It has a slight luminance of 1 and a high blast resistance of 9. While it serves no functional purpose in gameplay, it is highly valued by players as a trophy representing the ultimate victory."
-    },
     "minecraft:purpur_slab": {
         id: "minecraft:purpur_slab",
         name: "Purpur Slab",

@@ -2912,11 +2912,11 @@ export const blockIndex = [
         themeColor: "§b"
     },
     {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
         category: "block",
-        icon: "textures/blocks/dragon_egg",
-        themeColor: "§d"
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§7"
     },
     {
         id: "minecraft:infested_tuff",
