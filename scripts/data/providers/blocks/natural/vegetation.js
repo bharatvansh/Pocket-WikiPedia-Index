@@ -457,27 +457,6 @@ export const vegetationBlocks = {
         },
         description: "The Closed Eyeblossom is the daytime state of the Eyeblossom flower, found in the Pale Garden biome. During the day, its petals are shut tight. It naturally transitions to an Open Eyeblossom at night. Players can harvest it to craft Gray Dye or use it in a Suspicious Stew recipe to obtain Nausea. Like its open counterpart, it is a key feature of the Pale Garden's eerie flora and can be bonemealed on Pale Moss Blocks to propagate."
     },
-    "minecraft:sugar_cane": {
-        id: "minecraft:sugar_cane",
-        name: "Sugar Cane",
-        hardness: 0,
-        blastResistance: 0,
-        flammability: true,
-        gravityAffected: false,
-        transparent: true,
-        luminance: 0,
-        mining: {
-            tool: "None",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Sugar Cane"],
-        generation: {
-            dimension: "Overworld",
-            yRange: "Next to water sources"
-        },
-        description: "Sugar Cane is a common natural plant found growing next to water on grass, dirt, sand, or podzol blocks. It can grow up to three blocks tall and is an essential resource for survival, as it is used to craft sugar and paper. Paper is vital for creating books, maps, and fireworks, making sugar cane a high-priority crop for many players. It can be harvested instantly by hand and requires a direct water source adjacent to the block it is planted on. In Bedrock Edition, sugar cane can also be grown instantly using bone meal, allowing for rapid accumulation of resources."
-    },
     "minecraft:pitcher_crop": {
         id: "minecraft:pitcher_crop",
         name: "Pitcher Crop",

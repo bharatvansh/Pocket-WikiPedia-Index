@@ -326,6 +326,48 @@ export const woodBlocks = {
         },
         description: "Azalea Leaves are dense foliage blocks that form the canopy of Azalea trees, which often mark the location of a Lush Cave below. These leaves have a vibrant green color and come in two variants: regular and flowering. While flowering ones contain pink or purple blossoms, regular Azalea Leaves provide a clean, lush aesthetic for builds. They can be harvested as blocks using shears or a tool with Silk Touch. When decayed or broken by hand, they have a chance to drop azalea saplings and sticks. They are highly flammable and have low resistance to explosions."
     },
+    "minecraft:stripped_spruce_log": {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Spruce Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found in Taiga, Snowy Plains, and Grove biomes"
+        },
+        description: "Stripped Spruce Logs are obtained by using an axe on spruce logs. They have a dark brown, clean texture. They are commonly used as decorative pillars and structural elements in builds that require a rustic or cold-weather aesthetic. Like all logs, they can be crafted into planks or wood blocks."
+    },
+    "minecraft:stripped_birch_log": {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Birch Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found in Birch Forest and Old Growth Birch Forest biomes"
+        },
+        description: "Stripped Birch Logs are created by removing the bark from birch logs with an axe. They have a light, creamy white texture that is very smooth. They are often used in modern builds, interior flooring, or as accent columns where a bright, clean look is desired. They can be crafted into birch planks."
+    },
     "minecraft:spruce_log": {
         id: "minecraft:spruce_log",
         name: "Spruce Log",

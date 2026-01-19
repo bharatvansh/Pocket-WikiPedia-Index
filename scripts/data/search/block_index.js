@@ -1589,13 +1589,6 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
-        id: "minecraft:sugar_cane",
-        name: "Sugar Cane",
-        category: "block",
-        icon: "textures/blocks/reeds",
-        themeColor: "§a" // green
-    },
-    {
         id: "minecraft:ominous_vault",
         name: "Ominous Vault",
         category: "block",
@@ -1909,13 +1902,6 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_portal_frame_top",
         themeColor: "§a" // green
-    },
-    {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
-        category: "block",
-        icon: "textures/blocks/dragon_egg",
-        themeColor: "§5" // dark purple
     },
     {
         id: "minecraft:hanging_sign",
@@ -2385,6 +2371,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stripped_oak_log",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        category: "block",
+        icon: "textures/blocks/stripped_spruce_log",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        category: "block",
+        icon: "textures/blocks/stripped_birch_log",
+        themeColor: "§f" // white/beige
     },
     {
         id: "minecraft:spruce_log",
