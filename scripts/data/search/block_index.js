@@ -3134,5 +3134,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_slab",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:oak_fence",
+        name: "Oak Fence",
+        category: "block",
+        icon: "textures/blocks/oak_fence",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:oak_fence_gate",
+        name: "Oak Fence Gate",
+        category: "block",
+        icon: "textures/blocks/oak_fence_gate",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        category: "block",
+        icon: "textures/blocks/iron_door",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:iron_trapdoor",
+        name: "Iron Trapdoor",
+        category: "block",
+        icon: "textures/blocks/iron_trapdoor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:bamboo_fence",
+        name: "Bamboo Fence",
+        category: "block",
+        icon: "textures/blocks/bamboo_fence",
+        themeColor: "§e"
     }
 ];

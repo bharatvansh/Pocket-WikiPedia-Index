@@ -641,5 +641,68 @@ export const interactiveBlocks = {
             yRange: "Crafted from Pale Oak Planks and Sticks"
         },
         description: "A Pale Oak Fence Gate serves as an interactive entrance through fence perimeters. Matching the Pale Oak wood set, it displays a light, ghostly gray-white hue. It can be opened and closed by hand or via redstone, and always opens away from the player. When placed, it provides a seamless transition for pale oak fences while maintaining the desaturated, atmospheric look of the Pale Garden biome."
+    },
+    "minecraft:oak_fence_gate": {
+        id: "minecraft:oak_fence_gate",
+        name: "Oak Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found in Villages"
+        },
+        description: "The Oak Fence Gate is the interactive counterpart to the oak fence, allowing players and entities to pass through periodic openings in a perimeter. It can be toggled by right-clicking or by redstone power. When placed, it automatically aligns with adjacent fences and walls. One unique property of fence gates is that they can be placed in mid-air and will remain there, which is often used in complex builds or mob-grinding designs."
+    },
+    "minecraft:iron_door": {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Woodland Mansions"
+        },
+        description: "The Iron Door is a high-security entrance block that cannot be opened by hand, requiring redstone signals from levers, buttons, or pressure plates to function. This makes it immune to villager and zombie interaction, providing a safe haven for players. Crafted from six iron ingots, it is much more durable than wooden doors and is highly resistant to explosions. It is a fundamental component for secure bases and automated dungeon designs in Bedrock Edition."
+    },
+    "minecraft:iron_trapdoor": {
+        id: "minecraft:iron_trapdoor",
+        name: "Iron Trapdoor",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Iron Trapdoor"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "An Iron Trapdoor is a horizontal variant of the iron door, functioning as a one-block opening that only responds to redstone power. It cannot be toggled by player interaction, making it ideal for trap-based defenses, hidden entrances, or secure flooring. Like its vertical counterpart, it is fire-proof and explosion-resistant. Its sleek, metallic appearance also makes it a popular industrial-themed decoration for skylights, ventilation shafts, or futuristic flooring."
     }
 };
