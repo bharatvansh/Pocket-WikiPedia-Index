@@ -59,41 +59,6 @@ jobs:
           # Signal failure if issues found
           [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post scope errors and stop (if unauthorized files changed)
-        if: always() && steps.scope.outcome == 'failure'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'scope_report.md');
-            let report = '## 🔒 PR Scope Validation Failed\n\n';
-            
-            if (fs.existsSync(reportPath)) {
-              report += fs.readFileSync(reportPath, 'utf8');
-            }
-            
-            report += '\n\n---\n*Data contribution PRs must ONLY modify data files. Please remove unauthorized file changes or create a separate PR for code changes.*';
-            
-            try {
-              await github.rest.pulls.createReview({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                body: report,
-                event: 'REQUEST_CHANGES'
-              });
-            } catch (error) {
-              console.log('Failed to create review, falling back to comment:', error.message);
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: report
-              });
-            }
-
       - name: Check for duplicate entries
         id: duplicates
         if: always()
@@ -115,41 +80,6 @@ jobs:
           # Signal failure if issues found
           [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post duplicate errors and stop (if duplicates found)
-        if: always() && steps.duplicates.outcome == 'failure'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'duplicate_report.md');
-            let report = '## 🔄 Duplicate Entry Detected\n\n';
-            
-            if (fs.existsSync(reportPath)) {
-              report += fs.readFileSync(reportPath, 'utf8');
-            }
-            
-            report += '\n\n---\n*Please remove the duplicate entries before the data can be verified.*';
-            
-            try {
-              await github.rest.pulls.createReview({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                body: report,
-                event: 'REQUEST_CHANGES'
-              });
-            } catch (error) {
-              console.log('Failed to create review, falling back to comment:', error.message);
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: report
-              });
-            }
-
       - name: Validate format (syntax + structure)
         id: format
         if: always()
@@ -168,41 +98,6 @@ jobs:
           
           # Signal failure if issues found
           [ "$STATUS" == "no_issues" ] || exit 1
-
-      - name: Post format errors and stop (if format issues)
-        if: always() && steps.format.outcome == 'failure'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const path = require('path');
-            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'format_report.md');
-            let report = '## ❌ Format Validation Failed\n\n';
-            
-            if (fs.existsSync(reportPath)) {
-              report += fs.readFileSync(reportPath, 'utf8');
-            }
-            
-            report += '\n\n---\n*Please fix the format/syntax issues above before the data can be verified.*';
-            
-            try {
-              await github.rest.pulls.createReview({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                body: report,
-                event: 'REQUEST_CHANGES'
-              });
-            } catch (error) {
-              console.log('Failed to create review, falling back to comment:', error.message);
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: report
-              });
-            }
 
       - name: Cross-reference validation (check index registration)
         id: crossrefs
@@ -223,29 +118,46 @@ jobs:
           # Signal failure if issues found
           [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post cross-reference errors and stop (if missing from index)
-        if: always() && steps.crossrefs.outcome == 'failure'
+      - name: Report validation failures
+        if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure')
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
-            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'crossref_report.md');
-            let report = '## 🔗 Cross-Reference Validation Failed\n\n';
             
-            if (fs.existsSync(reportPath)) {
-              report += fs.readFileSync(reportPath, 'utf8');
+            let combinedReport = '## ❌ Data Validation Failed\n\nPlease fix the following issues before this PR can be verified and merged:\n\n';
+            let hasReports = false;
+            
+            const reports = [
+              { file: 'scope_report.md', title: '🔒 PR Scope' },
+              { file: 'duplicate_report.md', title: '🔄 Duplicate Entries' },
+              { file: 'format_report.md', title: '📋 Format/Syntax' },
+              { file: 'crossref_report.md', title: '🔗 Cross-References' }
+            ];
+            
+            for (const r of reports) {
+              const reportPath = path.join(process.env.GITHUB_WORKSPACE, r.file);
+              if (fs.existsSync(reportPath)) {
+                const content = fs.readFileSync(reportPath, 'utf8');
+                if (content.includes('❌') || content.includes('Unauthorized') || content.includes('Issues Detected')) {
+                  combinedReport += `### ${r.title}\n${content}\n\n---\n`;
+                  hasReports = true;
+                }
+              }
             }
             
-            report += '\n\n---\n*Please ensure all data entries are registered in their corresponding search index files (mob_index.js, block_index.js, item_index.js).*';
-            
+            if (!hasReports) {
+              combinedReport += 'Validation steps failed, but no detailed reports were found. Please check the action logs.';
+            }
+
             try {
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                body: report,
+                pull_number: context.issue.number,
+                body: combinedReport,
                 event: 'REQUEST_CHANGES'
               });
             } catch (error) {
@@ -253,8 +165,8 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
-                body: report
+                issue_number: context.issue.number,
+                body: combinedReport
               });
             }
 
@@ -283,7 +195,7 @@ jobs:
             cat verification_report.md >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Request changes on PR (if issues found)
+      - name: Request changes on PR (if Gemini found issues)
         if: always() && steps.verify.outcome == 'failure'
         uses: actions/github-script@v7
         with:
@@ -305,7 +217,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
+                pull_number: context.issue.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -314,8 +226,97 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.payload.pull_request.number,
+                issue_number: context.issue.number,
                 body: report
+              });
+            }
+
+      - name: Fail workflow if any validation failed
+        if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure' || steps.verify.outcome == 'failure')
+        run: |
+          echo "One or more validation checks failed. Please review the PR comments."
+          exit 1
+
+      - name: Comment and Auto-merge PR (if no issues)
+        if: always() && steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues' && steps.verify.outputs.status == 'no_issues'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            let report = '## ✅ Data Verification Passed\n\n';
+            
+            if (fs.existsSync('verification_report.md')) {
+              report += fs.readFileSync('verification_report.md', 'utf8');
+            } else {
+              report += 'All data entries have been verified successfully!';
+            }
+            
+            report += '\n\n🚀 **Auto-merging this PR...**';
+            
+            // Post success comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: report
+            });
+            
+            // Auto-merge the PR using squash merge
+            try {
+              // Check if PR is a draft and mark it as ready for review
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number
+              });
+
+              if (pr.draft) {
+                console.log('PR is a draft, attempting to mark as ready for review...');
+                
+                // Try using GraphQL API which is more reliable for state changes
+                try {
+                  await github.graphql(`
+                    mutation($pullRequestId: ID!) {
+                      markPullRequestReadyForReview(input: {pullRequestId: $pullRequestId}) {
+                        pullRequest {
+                          isDraft
+                        }
+                      }
+                    }
+                  `, {
+                    pullRequestId: pr.node_id
+                  });
+                  console.log('Successfully marked as ready for review via GraphQL');
+                } catch (gqlError) {
+                  console.log('GraphQL update failed, falling back to REST:', gqlError.message);
+                  await github.rest.pulls.update({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: context.issue.number,
+                    draft: false
+                  });
+                }
+                
+                // Wait for state to propagate
+                await new Promise(resolve => setTimeout(resolve, 5000));
+              }
+
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                merge_method: 'squash'
+              });
+              console.log('PR merged successfully!');
+            } catch (error) {
+              console.log('Auto-merge failed:', error.message);
+              // Post a comment about the failure
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `⚠️ Auto-merge failed: ${error.message}\n\nPlease merge manually.`
               });
             }
 
