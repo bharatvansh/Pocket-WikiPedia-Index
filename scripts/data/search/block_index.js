@@ -2903,5 +2903,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cracked_stone_bricks",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
     }
 ];
