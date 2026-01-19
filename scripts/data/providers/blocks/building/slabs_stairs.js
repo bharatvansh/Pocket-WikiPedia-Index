@@ -722,5 +722,110 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
+    },
+    "minecraft:stone_brick_stairs": {
+        id: "minecraft:stone_brick_stairs",
+        name: "Stone Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos, Ocean Ruins"
+        },
+        description: "Stone Brick Stairs are a decorative building block crafted from Stone Bricks. They allow entities to change elevation without jumping and are commonly used for roofs, tiered seating, and architectural trim. They generate naturally in several structures, including strongholds, igloos, and cold ocean ruins. Like other stone-based stairs, they are fire-resistant and require a pickaxe to mine. They can be waterlogged and placed in various orientations to create complex shapes."
+    },
+    "minecraft:stone_brick_slab": {
+        id: "minecraft:stone_brick_slab",
+        name: "Stone Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos, Jungle Temples"
+        },
+        description: "Stone Brick Slabs are half-block variants of stone bricks, offering a compact and versatile building option for floors, ceilings, and detailed architectural trim. They generate naturally in strongholds, igloos, and jungle temples. Slabs can be placed in the upper or lower half of a block space or combined into a double slab. Because they are stone-based, they provide good blast resistance and are completely fire-resistant. They are crafted from three stone bricks or via a stonecutter."
+    },
+    "minecraft:cobblestone_stairs": {
+        id: "minecraft:cobblestone_stairs",
+        name: "Cobblestone Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts, Strongholds"
+        },
+        description: "Cobblestone Stairs are one of the most common stair variants, used extensively in early-game construction and naturally occurring in villages, strongholds, and pillager outposts. They provide a rugged, stony aesthetic for staircases, roofs, and defensive walls. Crafted from six cobblestone blocks or via a stonecutter, they are durable and resistant to most explosions. Like other stairs, they are waterloggable and can be placed upside down or as corner pieces to create detailed structures."
+    },
+    "minecraft:cobblestone_slab": {
+        id: "minecraft:cobblestone_slab",
+        name: "Cobblestone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts, Dungeons"
+        },
+        description: "Cobblestone Slabs are half-height blocks that provide a versatile building material for roads, flooring, and layered architecture. They are found naturally in villages, dungeons, and pillager outposts. Being crafted from cobblestone, they are fire-resistant and offer solid blast resistance. Slabs allow for smooth elevation changes in landscape design and can be used to prevent mob spawning when placed in the lower-half position. They are crafted in a crafting table or more efficiently using a stonecutter."
+    },
+    "minecraft:sandstone_stairs": {
+        id: "minecraft:sandstone_stairs",
+        name: "Sandstone Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Sandstone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Wells, Desert Temples, Desert Villages"
+        },
+        description: "Sandstone Stairs are decorative building blocks that perfectly match the aesthetic of desert biomes. They naturally generate in desert temples, desert wells, and desert villages, often forming the roofs and steps of these structures. Crafted from sandstone blocks or via a stonecutter, they allow for seamless vertical transitions and detailed trim work in desert-themed architecture. While they have lower blast resistance than stone-based stairs, they are completely fire-resistant. They can be waterlogged and placed in multiple orientations."
     }
 };

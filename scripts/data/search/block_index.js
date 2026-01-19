@@ -3309,5 +3309,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:stone_brick_stairs",
+        name: "Stone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_brick_stairs",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:stone_brick_slab",
+        name: "Stone Brick Slab",
+        category: "block",
+        icon: "textures/blocks/stone_brick_slab",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cobblestone_stairs",
+        name: "Cobblestone Stairs",
+        category: "block",
+        icon: "textures/blocks/cobblestone_stairs",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cobblestone_slab",
+        name: "Cobblestone Slab",
+        category: "block",
+        icon: "textures/blocks/cobblestone_slab",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:sandstone_stairs",
+        name: "Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/sandstone_stairs",
+        themeColor: "§e"
     }
 ];
