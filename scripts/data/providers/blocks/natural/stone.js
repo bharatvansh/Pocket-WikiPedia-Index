@@ -556,5 +556,68 @@ export const stoneBlocks = {
             yRange: "-64 to -60 (Overworld), 0-4 & 123-127 (Nether)"
         },
         description: "Bedrock is an indestructible block that forms the boundary of the world. It generates at the very bottom of the Overworld and both the top and bottom of the Nether, preventing players from falling into the void or escaping the dimension's confines. While it can be viewed and used as a foundation in Creative mode, it is impossible to mine or destroy in Survival mode without using glitches. It also serves as the primary component of the End's exit portal and gateway structures, providing a permanent frame for these essential inter-dimensional travel points."
+    },
+    "minecraft:infested_stone_bricks": {
+        id: "minecraft:infested_stone_bricks",
+        name: "Infested Stone Bricks",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos, Mountain biomes"
+        },
+        description: "Infested Stone Bricks are deceptive blocks that look exactly like regular stone bricks but house a Silverfish. In Bedrock Edition, they can be distinguished by their lower hardness (0.75), causing them to break faster than normal stone bricks. When broken, they drop nothing and release a hostile silverfish that attacks the player. They can be found in strongholds, igloo basements, and mountain biomes. Using a tool with Silk Touch allows the player to retrieve normal stone bricks instead of spawning the creature."
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+        id: "minecraft:infested_cracked_stone_bricks",
+        name: "Infested Cracked Stone Bricks",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Cracked Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos"
+        },
+        description: "Infested Cracked Stone Bricks are a variant of infested blocks that mimic cracked stone bricks. These blocks are most commonly found in strongholds and igloo basements. They appear identical to their non-infested counterparts but are much easier to break. Upon being mined without Silk Touch, a Silverfish will emerge to defend its territory. This block serves as a dangerous trap for players exploring subterranean structures, requiring caution when mining suspicious-looking bricks in these specific environments."
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+        id: "minecraft:infested_chiseled_stone_bricks",
+        name: "Infested Chiseled Stone Bricks",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Chiseled Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Igloos"
+        },
+        description: "Infested Chiseled Stone Bricks contain a hidden Silverfish and perfectly imitate the decorative appearance of chiseled stone bricks. They generate naturally in strongholds and underneath igloos. In Bedrock Edition, their unique property of breaking faster than normal decorative stone is the only way to detect them before they are broken. If a player mines this block without the Silk Touch enchantment, it will vanish and unleash a hostile Silverfish. They are often used in the architecture of ancient structures to deter intruders."
     }
 };
