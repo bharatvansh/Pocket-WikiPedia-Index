@@ -2282,6 +2282,41 @@ export const blockIndex = [
         themeColor: "§d" // Pink
     },
     {
+        id: "minecraft:bubble_coral",
+        name: "Bubble Coral",
+        category: "block",
+        icon: "textures/blocks/bubble_coral",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:fire_coral",
+        name: "Fire Coral",
+        category: "block",
+        icon: "textures/blocks/fire_coral",
+        themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:tube_coral_fan",
+        name: "Tube Coral Fan",
+        category: "block",
+        icon: "textures/blocks/tube_coral_fan",
+        themeColor: "§9" // Blue
+    },
+    {
+        id: "minecraft:brain_coral_fan",
+        name: "Brain Coral Fan",
+        category: "block",
+        icon: "textures/blocks/brain_coral_fan",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:bubble_coral_fan",
+        name: "Bubble Coral Fan",
+        category: "block",
+        icon: "textures/blocks/bubble_coral_fan",
+        themeColor: "§d" // Pink
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",

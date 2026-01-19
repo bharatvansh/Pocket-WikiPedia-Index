@@ -177,5 +177,110 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (on top of coral blocks)"
         },
         description: "Brain Coral is a non-solid, pink-colored aquatic plant that grows in clusters within warm ocean biomes. It is named for its intricate, folded texture that resembles a brain. This small decorative block can be found attached to the tops of solid blocks underwater, primarily on coral reefs. While it can be broken easily, it requires Silk Touch to be collected; otherwise, it yields nothing. If placed outside of water, it will soon die and lose its vibrant pink color. It is a fantastic choice for organic detail."
+    },
+    "minecraft:bubble_coral": {
+        id: "minecraft:bubble_coral",
+        name: "Bubble Coral",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Bubble Coral (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (on top of coral blocks)"
+        },
+        description: "Bubble Coral is a magenta-colored, non-solid aquatic plant found naturally in warm ocean reefs. It grows on the upper surfaces of coral blocks and adds a vibrant splash of purple-pink to the underwater environment. This delicate organism can be broken instantly by hand but only yields an item if mined with a Silk Touch tool. Like all living corals, it must remain submerged in water to retain its color and life; exposure to air causes it to die and turn gray. It is highly valued by builders for its unique color and shape."
+    },
+    "minecraft:fire_coral": {
+        id: "minecraft:fire_coral",
+        name: "Fire Coral",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Fire Coral (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (on top of coral blocks)"
+        },
+        description: "Fire Coral is a striking red, non-solid coral variant that grows in the warm oceans of Minecraft. It is found attached to the tops of coral blocks within reef structures. While it is easily broken, harvesting it requires the Silk Touch enchantment to obtain it as an item. Fire Coral must be kept in water to survive; if placed on land, it will quickly die and lose its vibrant red color, becoming dead coral. Its intense red hue makes it an excellent choice for adding detail and contrast to underwater landscapes and aquariums."
+    },
+    "minecraft:tube_coral_fan": {
+        id: "minecraft:tube_coral_fan",
+        name: "Tube Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Tube Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of coral blocks)"
+        },
+        description: "Tube Coral Fan is a vibrant blue, fan-like aquatic structure that grows on the sides of coral blocks in warm ocean biomes. Unlike the standard coral plants, fans are specifically found attached to the vertical faces of blocks, adding depth to reef formations. They are extremely fragile and will only drop as an item if harvested with a Silk Touch tool. Submergence in water is essential for their survival; without it, they wither and become Dead Tube Coral Fans. Their delicate, flat shape is perfect for detailed underwater decorating."
+    },
+    "minecraft:brain_coral_fan": {
+        id: "minecraft:brain_coral_fan",
+        name: "Brain Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Brain Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of coral blocks)"
+        },
+        description: "Brain Coral Fan is a pink, decorative aquatic plant that attaches to the vertical surfaces of coral blocks in warm oceans. It features the same intricate, folded patterns as Brain Coral but in a flat, fan-like configuration. This non-solid block is instantly broken by hand and requires Silk Touch to be collected as an item. It must remain in water to stay alive and colorful. Builders often use Brain Coral Fans to create more realistic and complex coral reef designs, utilizing its ability to be placed on the sides of blocks for extra detail."
+    },
+    "minecraft:bubble_coral_fan": {
+        id: "minecraft:bubble_coral_fan",
+        name: "Bubble Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Bubble Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of coral blocks)"
+        },
+        description: "Bubble Coral Fan is a magenta-colored fan variant that grows naturally on the sides of coral blocks within warm ocean reefs. It provides a unique vertical decoration with its vibrant purple-pink hue and flat, fan-like shape. Like other coral fans, it is delicate and requires a Silk Touch enchanted tool for successful harvesting. It depends on water to maintain its life and color; it will turn into a dead variant if removed from the ocean or placed on land. It is an essential component for creating diverse and visually interesting coral reef ecosystems."
     }
 };
