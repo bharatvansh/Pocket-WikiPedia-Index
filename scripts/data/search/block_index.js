@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_pane",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:sea_lantern",
         name: "Sea Lantern",
         category: "block",
@@ -1631,6 +1638,27 @@ export const blockIndex = [
         themeColor: "§7" // gray/pale
     },
     {
+        id: "minecraft:oak_stairs",
+        name: "Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/oak_stairs",
+        themeColor: "§6" // brown
+    },
+    {
+        id: "minecraft:stone_stairs",
+        name: "Cobblestone Stairs",
+        category: "block",
+        icon: "textures/blocks/cobblestone_stairs",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:stone_brick_stairs",
+        name: "Stone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_brick_stairs",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:infested_stone",
         name: "Infested Stone",
         category: "block",
@@ -1650,6 +1678,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_sapling",
         themeColor: "§7" // gray/pale
+    },
+    {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/oak_sapling",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:hanging_roots",

@@ -323,5 +323,68 @@ export const slabsStairsBlocks = {
             yRange: "N/A"
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
+    },
+    "minecraft:oak_stairs": {
+        id: "minecraft:oak_stairs",
+        name: "Oak Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oak Planks"
+        },
+        description: "Oak Stairs are versatile building blocks crafted from Oak Planks. They allow players and mobs to change elevation smoothly without jumping. They can be placed in various orientations, including upside-down and connecting with other stairs to form corners. Beyond their use for staircases, they are frequently used as decorative trim, sloped roofing, and even as furniture. Like other oak products, they are flammable and easily harvested with an axe."
+    },
+    "minecraft:stone_stairs": {
+        id: "minecraft:stone_stairs",
+        name: "Cobblestone Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Fortresses, or crafted"
+        },
+        description: "Cobblestone Stairs are durable elevation blocks crafted from Cobblestone. They offer a rugged, stony aesthetic that is perfect for castle walls, dungeon steps, and outdoor pathways. Because they are stone products, they are highly resistant to explosions and are non-flammable. In Bedrock Edition, they are frequently seen in naturally generated structures like villages and strongholds. They require a pickaxe to harvest; otherwise, they drop nothing."
+    },
+    "minecraft:stone_brick_stairs": {
+        id: "minecraft:stone_brick_stairs",
+        name: "Stone Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds or crafted"
+        },
+        description: "Stone Brick Stairs provide a clean and polished appearance for staircases and architectural detailing. They are crafted from Stone Bricks and share the same high blast resistance and durability. These stairs are a staple in sophisticated builds, such as grand manors and fortress interiors, and generate naturally in ancient strongholds. Their uniform pattern allows them to blend seamlessly with stone brick walls and slabs. As with other stone-based blocks, a pickaxe is required to mine them effectively."
     }
 };

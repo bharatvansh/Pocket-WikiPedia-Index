@@ -1212,5 +1212,26 @@ export const vegetationBlocks = {
             yRange: "Jungle and Bamboo Jungle biomes"
         },
         description: "Bamboo is a fast-growing plant found abundantly in Jungle and Bamboo Jungle biomes. It can grow up to 12-16 blocks tall and is the primary food source for Pandas. When harvested, it can be used to craft scaffolding, sticks, and various bamboo-based wood blocks like planks and slabs. Bamboo is also a highly efficient fuel source for furnaces. It can be planted on many blocks, including grass, dirt, and sand, and its growth can be significantly accelerated using bone meal. In Bedrock Edition, a sword is the most effective tool for instantly breaking bamboo."
+    },
+    "minecraft:oak_sapling": {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Surface (Forest, Plains, etc.)"
+        },
+        description: "Oak Saplings are the primary source for growing oak trees. They can be obtained by breaking or decaying oak leaves. When planted on dirt, grass, or moss blocks, they eventually grow into full oak trees characterized by their dark brown bark and lush green foliage. Applying bone meal can instantly advance their growth. They are essential for a renewable wood supply in survival mode."
     }
 };
