@@ -1128,5 +1128,89 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:dandelion": {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dandelion"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Forests, and Mountain Meadow biomes"
+        },
+        description: "Dandelions are common, bright yellow flowers found in many Overworld biomes like Plains and Forests. They can be crafted into yellow dye or used to make suspicious stew that provides health restoration. Dandelions are also used for breeding bees and can be placed in flower pots for decoration. When bone meal is used on a grass block in their native biomes, they have a chance to generate naturally. In Bedrock Edition, they are a simple yet versatile plant for adding color to landscapes and gardens."
+    },
+    "minecraft:poppy": {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Poppy"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forests, Plains, and Sunflower Plains biomes"
+        },
+        description: "Poppies are vibrant red flowers that generate naturally in many grassy biomes across the Overworld. They are a primary source of red dye and can be used to craft suspicious stew that grants Night Vision in Bedrock Edition. Iron Golems are occasionally seen holding poppies, and they will drop 0-1 poppy when defeated. Like other small flowers, they can be placed in flower pots and are attractive to bees. They are easy to find and serve as an essential decorative element for players looking to add a touch of red to their environment."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Near water sources in most biomes"
+        },
+        description: "Sugar Cane is a valuable plant block found naturally along the edges of rivers and oceans, growing on sand, dirt, or grass directly adjacent to water. It can grow up to three blocks high naturally, or higher if placed manually by the player. It is a vital resource for crafting paper and sugar, making it essential for early-game exploration (maps) and late-game enchantment (bookshelves). In Bedrock Edition, sugar cane can also be grown using bone meal, allowing for fast and efficient harvesting in automated farms."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle and Bamboo Jungle biomes"
+        },
+        description: "Bamboo is a fast-growing plant found abundantly in Jungle and Bamboo Jungle biomes. It can grow up to 12-16 blocks tall and is the primary food source for Pandas. When harvested, it can be used to craft scaffolding, sticks, and various bamboo-based wood blocks like planks and slabs. Bamboo is also a highly efficient fuel source for furnaces. It can be planted on many blocks, including grass, dirt, and sand, and its growth can be significantly accelerated using bone meal. In Bedrock Edition, a sword is the most effective tool for instantly breaking bamboo."
     }
 };

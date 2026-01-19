@@ -2924,5 +2924,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/fern",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        category: "block",
+        icon: "textures/blocks/flower_dandelion",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        category: "block",
+        icon: "textures/blocks/flower_rose",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo_stem",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
     }
 ];
