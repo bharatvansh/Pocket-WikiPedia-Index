@@ -2037,6 +2037,41 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:blue_concrete",
+        name: "Blue Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_blue",
+        themeColor: "§1" // blue
+    },
+    {
+        id: "minecraft:red_concrete",
+        name: "Red Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_red",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:black_concrete",
+        name: "Black Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_black",
+        themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:yellow_concrete",
+        name: "Yellow Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_yellow",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:lime_concrete",
+        name: "Lime Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_lime",
+        themeColor: "§a" // lime
+    },
+    {
         id: "minecraft:white_wool",
         name: "White Wool",
         category: "block",
