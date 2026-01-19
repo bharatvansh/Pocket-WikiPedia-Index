@@ -575,5 +575,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
+    },
+    "minecraft:resin_brick_wall": {
+        id: "minecraft:resin_brick_wall",
+        name: "Resin Brick Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Resin Brick Wall"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Resin Bricks"
+        },
+        description: "Resin Brick Wall is a decorative barrier block crafted from Resin Bricks, introduced in update 1.21.50. It features a warm, orange-toned brick texture. Like other walls, it connects to adjacent blocks and walls to form a seamless boundary. It is fire-resistant and offers moderate protection against explosions, making it a stylish and sturdy choice for enclosing areas or adding structural depth to builds using the resin block family."
     }
 };

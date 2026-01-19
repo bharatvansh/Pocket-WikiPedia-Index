@@ -497,5 +497,68 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of copper, featuring a distinct teal-green patina. Found naturally in Trial Chambers, it serves as a weathered decorative and functional block. Players can wax it with honeycomb to lock its appearance or scrape it with an axe to revert it to a weathered state. It must be mined with a stone pickaxe or better to drop as an item. Unlike iron trapdoors, copper trapdoors can be toggled by hand or redstone, providing versatility for aged industrial or ancient-themed builds."
+    },
+    "minecraft:waxed_copper_bulb": {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Bulb"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted by waxing a Copper Bulb with Honeycomb"
+        },
+        description: "A Waxed Copper Bulb is a copper bulb that has been treated with honeycomb to prevent further oxidation. It retains its current light level (15) and appearance indefinitely. Like regular bulbs, it toggles its state with a redstone pulse, but its light output will never decrease over time. This makes it ideal for permanent lighting solutions and reliable redstone circuits that require a consistent pulse-based toggle without the risk of aging."
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+        id: "minecraft:waxed_exposed_copper_bulb",
+        name: "Waxed Exposed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 12,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Copper Bulb"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted by waxing an Exposed Copper Bulb"
+        },
+        description: "The Waxed Exposed Copper Bulb is a copper bulb in its first stage of oxidation that has been sealed with honeycomb. It emits a light level of 12 and will maintain this output forever, bypassing the natural aging process of copper. Just like standard bulbs, it responds to redstone pulses by toggling on and off. Its tarnished brownish color provides a unique atmospheric glow for builds that require a slightly weathered look without becoming fully oxidized."
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 8,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Copper Bulb"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted by waxing a Weathered Copper Bulb"
+        },
+        description: "The Waxed Weathered Copper Bulb is a blue-green patinated copper bulb that has been waxed to preserve its appearance. It emits a steady light level of 8 when active. By applying honeycomb, builders can lock in this specific oxidation stage and light output, preventing the bulb from ever reaching the final oxidized stage. It remains fully functional as a redstone toggle, providing a durable and atmospheric lighting option for aged industrial or rustic designs."
     }
 };

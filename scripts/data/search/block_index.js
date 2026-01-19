@@ -3134,5 +3134,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_slab",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:resin_brick_wall",
+        name: "Resin Brick Wall",
+        category: "block",
+        icon: "textures/blocks/resin_brick_wall",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pale_oak_pressure_plate",
+        name: "Pale Oak Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/pale_oak_pressure_plate",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/copper_bulb",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_exposed_copper_bulb",
+        name: "Waxed Exposed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_bulb",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_bulb",
+        themeColor: "§6"
     }
 ];
