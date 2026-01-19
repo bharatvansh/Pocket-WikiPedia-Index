@@ -32,6 +32,27 @@ export const woodBlocks = {
         },
         description: "Pale Oak Log is a wood type unique to the Pale Garden biome, introduced in Minecraft Bedrock Edition 1.21.50. These pale, grayish-brown logs form the trunks of Pale Oak trees, creating an eerie atmosphere with their muted coloration. Like other logs, they can be stripped with an axe and crafted into pale oak planks, stripped pale oak logs, or pale oak wood. The distinctive appearance of pale oak makes it popular for atmospheric builds, especially those seeking a ghostly or mystical aesthetic."
     },
+    "minecraft:stripped_pale_oak_log": {
+        id: "minecraft:stripped_pale_oak_log",
+        name: "Stripped Pale Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Pale Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Pale Oak Log"
+        },
+        description: "Stripped Pale Oak Log is a wood variant created by using an axe on a Pale Oak Log, introduced in Minecraft 1.21.50. This process removes the grayish-brown bark, revealing the smooth, nearly white interior wood. It is commonly used as a clean building material for modern or atmospheric designs in the Pale Garden. Like other stripped wood, it can be crafted into pale oak planks, hanging signs, or wood blocks. Its spectral highlight makes it a favorite for builders looking to create high-contrast or eerie structures."
+    },
     "minecraft:pale_oak_leaves": {
         id: "minecraft:pale_oak_leaves",
         name: "Pale Oak Leaves",

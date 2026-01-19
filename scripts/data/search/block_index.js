@@ -511,10 +511,38 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
+        id: "minecraft:weathered_chiseled_copper",
+        name: "Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:oxidized_chiseled_copper",
+        name: "Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
         id: "minecraft:pale_oak_log",
         name: "Pale Oak Log",
         category: "block",
         icon: "textures/blocks/pale_oak_log",
+        themeColor: "§e" // pale yellow
+    },
+    {
+        id: "minecraft:stripped_pale_oak_log",
+        name: "Stripped Pale Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_pale_oak_log",
         themeColor: "§e" // pale yellow
     },
     {
