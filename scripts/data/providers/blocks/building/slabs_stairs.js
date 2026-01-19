@@ -323,5 +323,110 @@ export const slabsStairsBlocks = {
             yRange: "N/A"
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
+    },
+    "minecraft:oak_stairs": {
+        id: "minecraft:oak_stairs",
+        name: "Oak Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Shipwrecks, Mineshafts, Strongholds"
+        },
+        description: "Oak Stairs are a common building block crafted from Oak Planks. They allow for smooth elevation changes without jumping and are frequently used for roofs, chairs, and decorative trim. They can be waterlogged and placed in various orientations, including upside down. Oak wood is the most abundant wood type in Minecraft, making these stairs a staple in early-game construction and village architecture. They are flammable and can be broken most efficiently with an axe."
+    },
+    "minecraft:spruce_stairs": {
+        id: "minecraft:spruce_stairs",
+        name: "Spruce Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga Villages, Shipwrecks, Igloos"
+        },
+        description: "Spruce Stairs are crafted from Spruce Planks and feature a dark, rustic brown tone. Popular in medieval and cabin-style builds, they offer a cozy aesthetic compared to the lighter oak variant. Like all stairs, they are waterloggable and can be placed in multiple directions to create complex shapes like corners and eaves. They naturally generate in Taiga villages and shipwreck structures. Being a wood product, they are flammable and are best harvested using an axe."
+    },
+    "minecraft:birch_stairs": {
+        id: "minecraft:birch_stairs",
+        name: "Birch Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages (occasional), Shipwrecks"
+        },
+        description: "Birch Stairs are a light-colored wood building block made from Birch Planks. Their pale, almost white appearance makes them ideal for modern architectural designs, bright interiors, and highlighting dark areas. They share the same functional properties as other wooden stairs, including the ability to be waterlogged and placed upside down. While less common in natural structures than oak or spruce, they are a favorite among players for clean and minimalist aesthetics."
+    },
+    "minecraft:jungle_stairs": {
+        id: "minecraft:jungle_stairs",
+        name: "Jungle Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Shipwrecks"
+        },
+        description: "Jungle Stairs are crafted from Jungle Planks and possess a unique pinkish-tan hue. They are most commonly found in Jungle Temples and shipwrecked vessels. These stairs are perfect for tropical-themed builds and complement other jungle-derived materials like vines and bamboo. They provide the standard stair utility, allowing for seamless vertical movement and versatile decorative applications. Like other wood variants, they are flammable and can be mined with any tool, though an axe is preferred."
+    },
+    "minecraft:acacia_stairs": {
+        id: "minecraft:acacia_stairs",
+        name: "Acacia Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna Villages, Shipwrecks"
+        },
+        description: "Acacia Stairs are vibrant orange-colored stairs crafted from Acacia Planks. They naturally occur in Savanna villages, where they form roofs and seating for the unique local architecture. Their bold color makes them a standout choice for high-contrast builds and desert-themed landscaping. Acacia stairs are waterloggable and can be used to create intricate rooflines or detailed wall patterns. They are flammable and are most quickly broken using an axe."
     }
 };

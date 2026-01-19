@@ -2959,5 +2959,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/door_crimson",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:oak_stairs",
+        name: "Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/oak_stairs",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_stairs",
+        name: "Spruce Stairs",
+        category: "block",
+        icon: "textures/blocks/spruce_stairs",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_stairs",
+        name: "Birch Stairs",
+        category: "block",
+        icon: "textures/blocks/birch_stairs",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:jungle_stairs",
+        name: "Jungle Stairs",
+        category: "block",
+        icon: "textures/blocks/jungle_stairs",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_stairs",
+        name: "Acacia Stairs",
+        category: "block",
+        icon: "textures/blocks/acacia_stairs",
+        themeColor: "§6"
     }
 ];
