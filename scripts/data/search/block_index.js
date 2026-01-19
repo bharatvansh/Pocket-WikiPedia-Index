@@ -3099,5 +3099,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/cherry_slab",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/cobblestone_wall",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/mossy_cobblestone_wall",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:stone_brick_wall",
+        name: "Stone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/stone_brick_wall",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:mossy_stone_brick_wall",
+        name: "Mossy Stone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/mossy_stone_brick_wall",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:granite_wall",
+        name: "Granite Wall",
+        category: "block",
+        icon: "textures/blocks/granite_wall",
+        themeColor: "§6"
     }
 ];
