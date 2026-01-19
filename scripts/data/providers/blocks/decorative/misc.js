@@ -600,5 +600,47 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Pale Oak Planks and Sticks"
         },
         description: "Pale Oak Fences are thin, protective barrier blocks crafted from pale oak planks and sticks. They are 1.5 blocks high for most entities, preventing them from being jumped over. Naturally fitting the Pale Garden's somber aesthetic, these fences offer a ghostly, light gray alternative to traditional wood barriers. They connect automatically to adjacent fences, gates, and most solid blocks, making them perfect for atmospheric perimeters or detailed decorative railings."
+    },
+    "minecraft:oak_fence": {
+        id: "minecraft:oak_fence",
+        name: "Oak Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found in Villages"
+        },
+        description: "An Oak Fence is a thin barrier block, 1.5 blocks high for movement but only 1 block high visually. Crafted from sticks and oak planks, it provides a rustic and efficient way to contain livestock or protect property without blocking line of sight. It connects automatically to neighboring fences and solid blocks. In Bedrock Edition, it is a staple of early-game construction, found naturally in many villages and farm structures."
+    },
+    "minecraft:bamboo_fence": {
+        id: "minecraft:bamboo_fence",
+        name: "Bamboo Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Fence"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
     }
 };
