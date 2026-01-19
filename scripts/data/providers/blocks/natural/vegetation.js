@@ -1083,7 +1083,7 @@ export const vegetationBlocks = {
         drops: ["Dandelion"],
         generation: {
             dimension: "Overworld",
-            yRange: "Most grassy biomes"
+            yRange: "Surface"
         },
         description: "Dandelions are common yellow flowers that generate naturally across many grassy biomes in the Overworld. They are one of the most iconic plants in Minecraft, providing a reliable source of yellow dye. In Bedrock Edition, dandelions can be used to breed rabbits or lead them. When used as an ingredient for suspicious stew, they grant the Saturation effect, making them valuable for survival food management. Their simple, bright appearance makes them a staple for decorative gardens and meadow-themed builds."
     },
@@ -1104,7 +1104,7 @@ export const vegetationBlocks = {
         drops: ["Poppy"],
         generation: {
             dimension: "Overworld",
-            yRange: "Most grassy biomes"
+            yRange: "Surface"
         },
         description: "Poppies are vibrant red flowers that commonly generate in various Overworld biomes. They serve as a primary source of red dye, which is essential for coloring wool, glass, and concrete. Interestingly, Iron Golems have a chance to drop 0-2 poppies upon death, symbolizing their gentle nature when not being provoked. In Bedrock Edition, poppies can be combined with other ingredients to craft suspicious stew that grants Night Vision. They are frequently used in landscaping to add a splash of deep red to natural environments."
     },
@@ -1125,7 +1125,7 @@ export const vegetationBlocks = {
         drops: ["Blue Orchid"],
         generation: {
             dimension: "Overworld",
-            yRange: "Swamp biomes only"
+            yRange: "Surface"
         },
         description: "The Blue Orchid is a rare and beautiful flower that generates exclusively in Swamp biomes. Its distinct light blue color makes it highly sought after for both decoration and as the sole source of light blue dye. Unlike more common flowers, the Blue Orchid's limited habitat makes finding one a notable event for explorers. In Bedrock Edition, using a Blue Orchid in a suspicious stew recipe provides the Saturation effect. Its elegant, sprawling growth pattern adds a touch of mystery and color to the murky swamp landscape."
     },
@@ -1146,7 +1146,7 @@ export const vegetationBlocks = {
         drops: ["Pink Tulip"],
         generation: {
             dimension: "Overworld",
-            yRange: "Flower Forest, Meadow biomes"
+            yRange: "Surface"
         },
         description: "Pink Tulips are decorative flowers that generate in Flower Forests and Meadows. They are one of four tulip variants available in Minecraft, each providing a different color of dye. Pink tulips yield pink dye, which is widely used for feminine or soft-toned building projects. When used in the crafting of suspicious stew, they inflict the Weakness effect on the consumer. Their symmetrical and upright appearance makes them ideal for orderly flower beds and formal garden designs."
     },
@@ -1167,7 +1167,7 @@ export const vegetationBlocks = {
         drops: ["White Tulip"],
         generation: {
             dimension: "Overworld",
-            yRange: "Flower Forest, Meadow biomes"
+            yRange: "Surface"
         },
         description: "White Tulips are common flowers found in Flower Forest and Meadow biomes. They provide a source of light gray dye, which is useful for creating modern and industrial-colored materials. Like other tulips, they have a distinct, compact shape. In Bedrock Edition, white tulips used in suspicious stew grant the Blindness effect (although the duration is short). Their clean, neutral white petals make them a versatile choice for any floral arrangement, fitting perfectly into both vibrant gardens and monochromatic builds."
     }
