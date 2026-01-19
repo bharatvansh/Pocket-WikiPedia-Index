@@ -29,7 +29,28 @@ export const endBlocks = {
             dimension: "The End",
             yRange: "Main island surface"
         },
-        description: "End Stone is the primary building block that makes up the surface of the End dimension's main island. It has a distinctive tan-yellow color with small embedded particles that resemble stars or eyes. With a hardness of 3.0 and blast resistance of 9.0, it is significantly more durable than stone and can be mined with any pickaxe, though it takes longer without a proper tool. End Stone is used to craft end stone bricks and can be crafted into crafting tables, furnaces, and other utility blocks in the End. It's an essential material for building in the End dimension and provides excellent protection against the Ender Dragon's attacks due to its higher blast resistance compared to most Overworld blocks."
+        description: "The End Stone is the primary building block that makes up the surface of the End dimension's main island. It has a distinctive tan-yellow color with small embedded particles that resemble stars or eyes. With a hardness of 3.0 and blast resistance of 9.0, it is significantly more durable than stone and can be mined with any pickaxe, though it takes longer without a proper tool. End Stone is used to craft end stone bricks and can be crafted into crafting tables, furnaces, and other utility blocks in the End. It's an essential material for building in the End dimension and provides excellent protection against the Ender Dragon's attacks due to its higher blast resistance compared to most Overworld blocks."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of exit portal"
+        },
+        description: "The Dragon Egg is a extremely rare decorative block that generates on top of the exit portal in the End after the first Ender Dragon is defeated. It is a gravity-affected block and is indestructible in survival mode. If a player attempts to mine or interact with it, it will teleport to a nearby location. To collect it, one must either use a piston to push it, or place a torch or other non-solid block underneath it and break the block it's sitting on, causing it to fall and drop as an item. It emits a very faint light level of 1 in Bedrock Edition."
     },
     "minecraft:end_rod": {
         id: "minecraft:end_rod",

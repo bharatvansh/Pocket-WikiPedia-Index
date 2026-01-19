@@ -280,6 +280,13 @@ export const blockIndex = [
         themeColor: "§a" // green/pink
     },
     {
+        id: "minecraft:azalea_leaves",
+        name: "Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/azalea_leaves",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:glowstone",
         name: "Glowstone",
         category: "block",
@@ -1582,6 +1589,13 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:ominous_vault",
         name: "Ominous Vault",
         category: "block",
@@ -1897,6 +1911,13 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:hanging_sign",
         name: "Hanging Sign",
         category: "block",
@@ -2034,6 +2055,13 @@ export const blockIndex = [
         name: "White Concrete",
         category: "block",
         icon: "textures/blocks/concrete_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_concrete_powder",
+        name: "White Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_white",
         themeColor: "§f" // white
     },
     {
@@ -2349,6 +2377,13 @@ export const blockIndex = [
         name: "Oak Log",
         category: "block",
         icon: "textures/blocks/log_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_oak_log",
+        name: "Stripped Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_oak_log",
         themeColor: "§6"
     },
     {
