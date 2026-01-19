@@ -703,5 +703,47 @@ export const woodBlocks = {
             yRange: "Crafted from Stripped Cherry Logs"
         },
         description: "Stripped Cherry Wood is a decorative block with the stripped texture of cherry logs on all six faces. It provides a seamless, smooth pink surface, ideal for large wooden structures and artistic builds. It is crafted from stripped cherry logs or by stripping regular cherry wood with an axe. This block shares the fire-susceptible nature of overworld wood and is most effectively broken with an axe. Its uniform pink color provides a consistent aesthetic for large surfaces where bark would be distracting."
+    },
+    "minecraft:stripped_crimson_stem": {
+        id: "minecraft:stripped_crimson_stem",
+        name: "Stripped Crimson Stem",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Crimson Stem"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Obtained by using an axe on Crimson Stem"
+        },
+        description: "Stripped Crimson Stem is a fire-resistant, wood-like block obtained by using an axe on a Crimson Stem. This process removes the outer pulsating layer, revealing a smooth, vibrant purple-red interior. Like regular crimson stems, they do not burn and can be used to craft crimson planks or hyphae. They are highly valued by builders for their consistent and striking color palette, which remains unique to the Nether's fungal 'forests'. They provide a polished look for nether-themed constructions and decorative accents."
+    },
+    "minecraft:stripped_warped_stem": {
+        id: "minecraft:stripped_warped_stem",
+        name: "Stripped Warped Stem",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Warped Stem"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Obtained by using an axe on Warped Stem"
+        },
+        description: "Stripped Warped Stem is a fire-resistant block created by stripping the 'bark' from a Warped Stem using an axe. It features a beautiful, smooth teal or cyan-green surface that is both alien and aesthetically pleasing. Found naturally in the huge fungi of the Warped Forest, these blocks are immune to fire and lava, making them excellent for construction in dangerous environments. They can be crafted into warped planks or used as structural pillars. Their bright, non-burning nature distinguishes them from all Overworld wood types, offering a unique utility and style."
     }
 };

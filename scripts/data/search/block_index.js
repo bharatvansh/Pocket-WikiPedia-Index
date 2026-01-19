@@ -3204,5 +3204,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_fence",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:infested_stone_bricks",
+        name: "Infested Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_cracked_stone_bricks",
+        name: "Infested Cracked Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_chiseled_stone_bricks",
+        name: "Infested Chiseled Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/chiseled_stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:stripped_crimson_stem",
+        name: "Stripped Crimson Stem",
+        category: "block",
+        icon: "textures/blocks/stripped_crimson_stem",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:stripped_warped_stem",
+        name: "Stripped Warped Stem",
+        category: "block",
+        icon: "textures/blocks/stripped_warped_stem",
+        themeColor: "§3"
     }
 ];
