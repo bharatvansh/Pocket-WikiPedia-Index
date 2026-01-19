@@ -2868,5 +2868,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        category: "block",
+        icon: "textures/blocks/flower_dandelion",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        category: "block",
+        icon: "textures/blocks/flower_rose",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
+        category: "block",
+        icon: "textures/blocks/flower_blue_orchid",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        category: "block",
+        icon: "textures/blocks/flower_tulip_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/items/reeds",
+        themeColor: "§a"
     }
 ];
