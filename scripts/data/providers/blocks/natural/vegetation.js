@@ -1065,5 +1065,47 @@ export const vegetationBlocks = {
             yRange: "Plains, Savannas, Jungles"
         },
         description: "Tall Grass is a two-block high variant of grass that generates naturally in various biomes like Plains, Savannas, and Jungles. Unlike regular short grass, it provides more visual density to the landscape. When broken by hand, it has a chance to drop wheat seeds, but it must be harvested with Shears to be collected as an item. It can be grown by applying bone meal to short grass or directly to a grass block. Its height makes it useful for creating overgrown aesthetics or providing camouflage in survival situations."
+    },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found near water on grass, sand, or dirt"
+        },
+        description: "Sugar Cane is a 1-block wide plant that grows up to 3 blocks high (occasionally 4 in world generation) when adjacent to a water source. It is essential for crafting paper and sugar, making it vital for enchanting and potion-making. In Bedrock Edition, sugar cane can also be grown using bone meal to instantly increase its height. It can only be placed on grass blocks, sand, red sand, podzol, or dirt that is directly next to water."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle and Bamboo Jungle biomes"
+        },
+        description: "Bamboo is the fastest-growing plant in Minecraft, primarily found in jungle biomes and especially dense in bamboo jungles. It can grow up to 12-16 blocks tall and can be harvested instantly with a sword. Bamboo is incredibly versatile: it's used to breed pandas, smelted as fuel, or crafted into scaffolding, sticks, and the bamboo wood set (introduced in 1.20). Since update 1.14, it has been an essential resource for players looking for efficient scaffolding and sustainable wood sources."
     }
 };

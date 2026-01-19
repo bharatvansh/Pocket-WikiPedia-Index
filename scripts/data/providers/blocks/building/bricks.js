@@ -829,5 +829,68 @@ export const brickBlocks = {
             yRange: "32–96 (Bastion Remnants)"
         },
         description: "Chiseled Quartz Block is a decorative variant of the Quartz Block featuring an intricate, square-patterned carving. It is crafted by stacking two quartz slabs vertically in a crafting grid or by using a stonecutter. While primarily used for aesthetic purposes in modern and classical architecture, it generates naturally in bastion remnants. Like other quartz blocks, it has a hardness of 0.8 and require a pickaxe to mine. Its bright white appearance and unique geometric design make it ideal for decorative trims, pillars, and ornate flooring in high-end Minecraft constructions."
+    },
+    "minecraft:infested_stone_bricks": {
+        id: "minecraft:infested_stone_bricks",
+        name: "Infested Stone Bricks",
+        hardness: 0.0,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Infested Stone Bricks are deceptive blocks that house silverfish. While shielding their inhabitant, they appear identical to regular stone bricks, but in Bedrock Edition, they can be distinguished by their near-instant breaking time (hardness 0.0). When mined without Silk Touch, the block is destroyed and a hostile silverfish is released. They generate naturally within the walls and floors of Strongholds, often surprising players as they explore toward the end portal."
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        hardness: 0.0,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Mossy Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Infested Mossy Stone Bricks are a variation of infested blocks containing silverfish. They mimic the look of aged, moss-covered stone bricks found in Strongholds. Like other infested blocks in Bedrock Edition, they have zero hardness, meaning they break significantly faster than their non-infested counterparts. Breaking one without Silk Touch releases a silverfish, which can alert other nearby silverfish hidden in infested blocks, potentially leading to a dangerous swarm."
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+        id: "minecraft:infested_cracked_stone_bricks",
+        name: "Infested Cracked Stone Bricks",
+        hardness: 0.0,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Cracked Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Infested Cracked Stone Bricks appear as worn, fractured blocks but secretly contain silverfish. They are most commonly encountered in Strongholds. In Bedrock Edition, their lack of hardness makes them easy to identify if a player pays attention to mining speed. If broken, they release a silverfish and drop nothing. Using Silk Touch allows the collection of the regular cracked stone brick block. These blocks add an element of danger to exploring the subterranean ruins of strongholds."
     }
 };
