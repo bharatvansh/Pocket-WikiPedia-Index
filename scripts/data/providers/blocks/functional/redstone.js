@@ -495,5 +495,26 @@ export const redstoneBlocks = {
             yRange: "Bastion Remnants; Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
+    },
+    "minecraft:pale_oak_pressure_plate": {
+        id: "minecraft:pale_oak_pressure_plate",
+        name: "Pale Oak Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Pressure Plate"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "The Pale Oak Pressure Plate is a redstone component that emits a signal when an entity stands on it. Matching the desaturated aesthetic of the Pale Garden biome wood set, it provides a functional yet atmospheric way to trigger redstone mechanisms. As a wooden pressure plate, it can be activated by all entities, including players, mobs, and items. It is essential for automated doors and traps in creepy or somber builds."
     }
 };
