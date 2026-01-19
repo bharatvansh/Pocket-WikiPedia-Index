@@ -516,6 +516,27 @@ export const interactiveBlocks = {
         },
         description: "A Candle is a light source block that can be placed in clusters of up to four. Each candle adds 3 to the light level, reaching a maximum of 12. Candles are crafted from string and honeycomb and can be dyed into 16 colors. They are unlit when placed and must be lit using flint and steel, fire charge, or any flaming projectile. Candles are waterloggable but cannot be lit while waterlogged. They can also be placed on cakes to create a candle cake."
     },
+    "minecraft:white_candle": {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from a candle and White Dye"
+        },
+        description: "The White Candle is a clean, decorative light source that can be placed in groups of up to four on a single block. Each additional candle increases the light emitted by 3, up to a maximum of 12. It features a bright white wax appearance, making it ideal for modern, elegant, or snowy-themed builds. Like the undyed variant, it must be lit with flint and steel or a fire charge and can be placed on a cake to create a White Candle Cake. It is waterloggable but can only be lit when dry."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",

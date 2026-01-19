@@ -511,6 +511,48 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:weathered_chiseled_copper",
+        name: "Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§3" // teal/cyan
+    },
+    {
+        id: "minecraft:oxidized_chiseled_copper",
+        name: "Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§b" // light aqua
+    },
+    {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:weathered_chiseled_copper",
+        name: "Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§3" // teal/cyan
+    },
+    {
+        id: "minecraft:oxidized_chiseled_copper",
+        name: "Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§b" // light aqua
+    },
+    {
         id: "minecraft:pale_oak_log",
         name: "Pale Oak Log",
         category: "block",
@@ -2310,6 +2352,13 @@ export const blockIndex = [
         themeColor: "§e" // Yellow
     },
     {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        category: "block",
+        icon: "textures/items/candle_white",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:structure_void",
         name: "Structure Void",
         category: "block",
@@ -2853,6 +2902,20 @@ export const blockIndex = [
         name: "Snow Block",
         category: "block",
         icon: "textures/blocks/snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
         themeColor: "§f" // white
     },
     {
