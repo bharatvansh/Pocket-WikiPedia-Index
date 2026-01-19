@@ -2868,5 +2868,61 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:diamond_ore",
+        name: "Diamond Ore",
+        category: "block",
+        icon: "textures/blocks/diamond_ore",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:smooth_quartz",
+        name: "Smooth Quartz",
+        category: "block",
+        icon: "textures/blocks/quartz_block_bottom",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_tuff",
+        name: "Infested Tuff",
+        category: "block",
+        icon: "textures/blocks/tuff",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:end_gateway",
+        name: "End Gateway",
+        category: "block",
+        icon: "textures/blocks/end_gateway",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:bamboo_sapling",
+        name: "Bamboo Sapling",
+        category: "block",
+        icon: "textures/blocks/bamboo_sapling",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:fern",
+        name: "Fern",
+        category: "block",
+        icon: "textures/blocks/fern",
+        themeColor: "§2"
     }
 ];

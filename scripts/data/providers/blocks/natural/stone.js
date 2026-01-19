@@ -347,6 +347,48 @@ export const stoneBlocks = {
         },
         description: "Infested Cobblestone is a block that contains a silverfish and looks exactly like regular cobblestone. In Bedrock Edition, it can be distinguished by the fact that it breaks instantly even by hand, whereas regular cobblestone takes longer. When broken, it releases a silverfish and drops nothing unless a tool with Silk Touch is used, which will drop a regular cobblestone block. It generates naturally in strongholds, under some igloos, and in mountain biomes."
     },
+    "minecraft:infested_mossy_stone_bricks": {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Mossy Stone Bricks (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Infested Mossy Stone Bricks are a variation of stone bricks infested with silverfish. They look identical to normal mossy stone bricks but break significantly faster in Bedrock Edition. When broken without Silk Touch, they release a hostile silverfish and drop no item. They are found exclusively in strongholds, serving as a trap for unsuspecting players exploring the ancient structures."
+    },
+    "minecraft:infested_tuff": {
+        id: "minecraft:infested_tuff",
+        name: "Infested Tuff",
+        hardness: 0.75,
+        blastResistance: 0.75,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (spawns Silverfish), Tuff (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Trial Chambers"
+        },
+        description: "Infested Tuff is another infested block variant introduced to house silverfish. It mimics the appearance of regular tuff blocks but is distinguished by its lower durability and the silverfish that emerges when disturbed. In Bedrock Edition, the faster breaking speed is a tell-tale sign of its infestation. It is typically found in structures where silverfish are common, like strongholds."
+    },
     "minecraft:polished_deepslate": {
         id: "minecraft:polished_deepslate",
         name: "Polished Deepslate",

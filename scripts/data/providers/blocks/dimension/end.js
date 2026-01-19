@@ -240,5 +240,26 @@ export const endBlocks = {
             yRange: "60–100 (End Cities)"
         },
         description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
+    },
+    "minecraft:end_gateway": {
+        id: "minecraft:end_gateway",
+        name: "End Gateway",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None"],
+        generation: {
+            dimension: "The End",
+            yRange: "75 (Main Island) / Various (Outer Islands)"
+        },
+        description: "The End Gateway is a small, indestructible portal block that facilitates travel between the main End island and outer islands. It generates when the Ender Dragon is defeated. Players can enter by throwing an ender pearl into the gap or by using a trapdoor to crawl through. It emits a powerful light level of 15 and features a unique end galaxy texture. This block is essential for exploring the vast outer reaches of the End where End Cities and Chorus Plants are found."
     }
 };
