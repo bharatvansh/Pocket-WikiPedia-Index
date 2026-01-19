@@ -704,5 +704,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "An Iron Trapdoor is a horizontal variant of the iron door, functioning as a one-block opening that only responds to redstone power. It cannot be toggled by player interaction, making it ideal for trap-based defenses, hidden entrances, or secure flooring. Like its vertical counterpart, it is fire-proof and explosion-resistant. Its sleek, metallic appearance also makes it a popular industrial-themed decoration for skylights, ventilation shafts, or futuristic flooring."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from 3 wheat, 2 sugar, 1 egg, and 3 milk buckets"
+        },
+        description: "Cake is a unique edible block that can be placed in the world. Unlike other food, it must be placed on a solid block before it can be eaten. It consists of seven slices, each restoring two hunger points and 0.4 saturation. Once placed, it cannot be picked back up and drops nothing when broken. In Bedrock Edition, it can be used as a redstone component, emitting a signal through a comparator based on the number of slices remaining. It can also be topped with a candle to create a Candle Cake, perfect for celebrations."
     }
 };

@@ -1149,5 +1149,47 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:red_tulip": {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest biomes"
+        },
+        description: "The Red Tulip is a vibrant decorative flower found naturally in Plains and Flower Forest biomes. Like other tulips, it can be used to craft red dye or in suspicious stew recipes to provide the Weakness effect to the consumer. It can be planted in flower pots or directly on grass and dirt blocks to add a pop of color to gardens. While it has no health or defensive utility, its bright red petals make it a popular choice for aesthetic landscaping and floral arrangements in Bedrock Edition."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes (especially Bamboo Jungle)"
+        },
+        description: "Bamboo is a versatile, fast-growing plant found in Jungle biomes. It can grow up to 12-16 blocks high and is the primary food source for pandas. When harvested, it can be used as fuel, providing one of the fastest ways to smelt items, or crafted into scaffolding, sticks, and bamboo wood sets. In Bedrock Edition, it has high growth rates and can be planted on many blocks including grass, dirt, and sand. Breaking the bottom-most stalk of a bamboo plant causes the entire tower to collapse, dropping all segments as items."
     }
 };

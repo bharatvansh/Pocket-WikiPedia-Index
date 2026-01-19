@@ -3337,5 +3337,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        category: "block",
+        icon: "textures/blocks/flower_tulip_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/items/cake",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/items/bamboo",
+        themeColor: "§a"
     }
 ];
