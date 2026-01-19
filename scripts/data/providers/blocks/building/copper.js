@@ -141,6 +141,111 @@ export const copperBlocks = {
         },
         description: "Oxidized Cut Copper is the final, fully aged form of cut copper blocks. It boasts a distinctive teal-green color while retaining its sharp, tiled texture. This block is perfect for adding a sense of history and permanence to a build, often used for turquoise-colored roofs or weathered pathways. It can be waxed to maintain its current state or scraped with an axe to reveal the layers of color beneath, providing builders with excellent gradient control."
     },
+    "minecraft:waxed_copper": {
+        id: "minecraft:waxed_copper",
+        name: "Waxed Block of Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Block of Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by applying Honeycomb to a Block of Copper"
+        },
+        description: "The Waxed Block of Copper is a variant of the standard copper block that has been treated with honeycomb to prevent further oxidation. This process locks the block in its current vibrant orange state, indefinitely preserving its metallic shine. Like its unwaxed counterpart, it is crafted from nine copper ingots or by applying honeycomb to a placed block. It retains a hardness of 3.0 and requires a stone pickaxe or better for harvesting. It is perfect for builders who want to maintain a clean, industrial look without the natural weathering process."
+    },
+    "minecraft:waxed_exposed_copper": {
+        id: "minecraft:waxed_exposed_copper",
+        name: "Waxed Exposed Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by applying Honeycomb to Exposed Copper"
+        },
+        description: "Waxed Exposed Copper is a block of copper that has begun the oxidation process, showing a slight brownish tarnish, and has been sealed with honeycomb. This treatment halts any further aging, preserving the unique transition phase between pristine copper and its weathered form. It is often used to add subtle character and warmth to architectural designs. Mining it requires a stone pickaxe or higher, and it has a blast resistance of 6.0. By waxing the block at this specific stage, builders can create detailed color gradients that remain stable over time."
+    },
+    "minecraft:waxed_weathered_copper": {
+        id: "minecraft:waxed_weathered_copper",
+        name: "Waxed Weathered Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by applying Honeycomb to Weathered Copper"
+        },
+        description: "Waxed Weathered Copper is a copper block that has reached the third stage of oxidation, displaying a significant blue-green patina while retaining hints of its original orange. Applying honeycomb to this block locks in this specific aged appearance, preventing it from reaching full oxidation. It is highly valued for its aquatic and historical aesthetic, making it a popular choice for roofs and statues. With a hardness of 3.0, it must be mined with a stone pickaxe or better. Its stabilized color provides a consistent, time-worn charm to any structure."
+    },
+    "minecraft:waxed_oxidized_copper": {
+        id: "minecraft:waxed_oxidized_copper",
+        name: "Waxed Oxidized Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by applying Honeycomb to Oxidized Copper"
+        },
+        description: "Waxed Oxidized Copper is the final stage of copper oxidation, fully covered in a rich teal-green patina and sealed with honeycomb to prevent any changes (though it cannot oxidize further naturally). Waxing this block ensures it stays protected and indicates it has been 'finished' by the builder. It is a staple for grand architectural projects, offering an elegant, verdigris look that is completely stable. It retains the standard copper stats, including a blast resistance of 6.0, and requires a stone-tier tool. It represents the pinnacle of copper's natural beauty."
+    },
+    "minecraft:waxed_cut_copper": {
+        id: "minecraft:waxed_cut_copper",
+        name: "Waxed Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted by applying Honeycomb to Cut Copper"
+        },
+        description: "Waxed Cut Copper is a decorative block featuring a tiled, geometric texture that has been treated with honeycomb to freeze its oxidation state. Crafted by stonecutting or crafting from blocks of copper, this variant is shielded from the elements, ensuring its appearance never changes. It is ideal for industrial flooring, modern rooftops, and accent walls where a consistent pattern and color are required. Like all copper blocks, it has a hardness of 3.0 and requires a stone pickaxe or better to drop. The waxing process allows for permanent, high-contrast copper designs."
+    },
     "minecraft:copper_bulb": {
         id: "minecraft:copper_bulb",
         name: "Copper Bulb",
