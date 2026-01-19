@@ -640,5 +640,68 @@ export const woodBlocks = {
             yRange: "64 to 320"
         },
         description: "Acacia Leaves are found on the uniquely shaped, diagonal-growing acacia trees in savanna biomes. They have a distinct green color that complements the reddish-orange hue of acacia wood. Like other leaves, they are best harvested with shears or a silk touch tool. They contribute to the iconic silhouette of the savanna landscape. In Bedrock Edition, they serve as a versatile decoration block for players looking to recreate African-inspired landscapes or desert oases."
+    },
+    "minecraft:cherry_wood": {
+        id: "minecraft:cherry_wood",
+        name: "Cherry Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cherry Logs"
+        },
+        description: "Cherry Wood is a block that has the bark texture of a cherry tree on all six sides. It is crafted by placing four cherry logs in a 2x2 grid. Unlike logs, which show rings on two ends, wood blocks provide a seamless bark appearance, making them ideal for building custom tree trunks, large branches, or decorative pillars. It features the signature dark purple bark of the cherry set and can be stripped with an axe to create stripped cherry wood."
+    },
+    "minecraft:stripped_cherry_log": {
+        id: "minecraft:stripped_cherry_log",
+        name: "Stripped Cherry Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Cherry Log"],
+        generation: {
+            dimension: "None",
+            yRange: "Axe on Cherry Log"
+        },
+        description: "Stripped Cherry Log is a variant of the cherry log created by using an axe on it. Stripping the bark reveals the beautiful, smooth pinkish interior of the wood. This version is often preferred by builders for its clean and uniform appearance, making it excellent for modern and detailed constructions. Introduced in the 1.20 Trails & Tales update, it can be crafted into cherry planks or used decoratively. Like all cherry wood blocks, it is flammable with a hardness and blast resistance of 2.0."
+    },
+    "minecraft:stripped_cherry_wood": {
+        id: "minecraft:stripped_cherry_wood",
+        name: "Stripped Cherry Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Cherry Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Stripped Cherry Logs"
+        },
+        description: "Stripped Cherry Wood is a decorative block with the stripped texture of cherry logs on all six faces. It provides a seamless, smooth pink surface, ideal for large wooden structures and artistic builds. It is crafted from stripped cherry logs or by stripping regular cherry wood with an axe. This block shares the fire-susceptible nature of overworld wood and is most effectively broken with an axe. Its uniform pink color provides a consistent aesthetic for large surfaces where bark would be distracting."
     }
 };

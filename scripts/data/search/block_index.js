@@ -3064,5 +3064,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crimson_stairs",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_wood",
+        name: "Cherry Wood",
+        category: "block",
+        icon: "textures/blocks/cherry_wood",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:stripped_cherry_log",
+        name: "Stripped Cherry Log",
+        category: "block",
+        icon: "textures/blocks/stripped_cherry_log",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:stripped_cherry_wood",
+        name: "Stripped Cherry Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_cherry_wood",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:cherry_stairs",
+        name: "Cherry Stairs",
+        category: "block",
+        icon: "textures/blocks/cherry_stairs",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:cherry_slab",
+        name: "Cherry Slab",
+        category: "block",
+        icon: "textures/blocks/cherry_slab",
+        themeColor: "§d"
     }
 ];

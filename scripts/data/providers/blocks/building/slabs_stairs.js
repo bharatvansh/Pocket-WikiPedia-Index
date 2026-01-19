@@ -533,5 +533,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Crimson Planks"
         },
         description: "Crimson Stairs are fire-resistant stairs crafted from crimson planks, a wood-type native to the Crimson Forest in the Nether. Unlike Overworld wooden stairs, they do not burn, making them ideal for construction in the Nether or near lava. They feature a deep maroon and red color scheme with an alien, fungal texture. They can be crafted using six crimson planks or via a stonecutter. Like all wooden stairs, they are best harvested with an axe. Their unique resistance to fire and distinctive color palette make them a favorite for builders seeking both safety and a dark, rustic aesthetic."
+    },
+    "minecraft:cherry_stairs": {
+        id: "minecraft:cherry_stairs",
+        name: "Cherry Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "Cherry Stairs are crafted from Cherry Planks and feature a light pink, aesthetic tone. Introduced in 1.20, they are popular for cute and colorful builds, offering a unique palette compared to other wood variants. Like all stairs, they are waterloggable and can be placed in multiple directions to create complex shapes like corners and eaves. They provide smooth elevation changes without jumping. Being a wood product, they are flammable and are best harvested using an axe."
+    },
+    "minecraft:cherry_slab": {
+        id: "minecraft:cherry_slab",
+        name: "Cherry Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
     }
 };
