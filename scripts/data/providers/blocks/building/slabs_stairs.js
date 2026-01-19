@@ -617,5 +617,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
+    },
+    "minecraft:mangrove_stairs": {
+        id: "minecraft:mangrove_stairs",
+        name: "Mangrove Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mangrove Swamps"
+        },
+        description: "Mangrove Stairs are building blocks crafted from Mangrove Planks, introduced in the Wild Update. Characterized by their distinct deep red hue, they allow for compact vertical movement and detailed architectural shapes. Mangrove trees are unique for their complex root systems and ability to grow in water, and these stairs bring that exotic aesthetic to any build. They can be placed in multiple orientations and are waterloggable. Being a wood variant, they are flammable and most efficiently mined using an axe."
+    },
+    "minecraft:warped_stairs": {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Stairs"],
+        generation: {
+            dimension: "The Nether",
+            yRange: "Warped Forest"
+        },
+        description: "Warped Stairs are a non-flammable wood-like building block crafted from Warped Planks found in the Nether's Warped Forest biome. They feature a unique cyan-teal color and an animated texture that distinguishes them from Overworld wood types. Since they do not burn, they are an excellent choice for construction in the Nether or near lava sources. Like other stairs, they facilitate elevation changes and can be used for elaborate roofing or decorative trims. They are most quickly broken using an axe, though they have higher resistance to fire than standard wood."
     }
 };

@@ -3204,5 +3204,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_fence",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_stairs",
+        name: "Mangrove Stairs",
+        category: "block",
+        icon: "textures/blocks/mangrove_stairs",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mangrove_fence",
+        name: "Mangrove Fence",
+        category: "block",
+        icon: "textures/blocks/mangrove_fence",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        category: "block",
+        icon: "textures/blocks/warped_stairs",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:warped_fence",
+        name: "Warped Fence",
+        category: "block",
+        icon: "textures/blocks/warped_fence",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:crimson_fence",
+        name: "Crimson Fence",
+        category: "block",
+        icon: "textures/blocks/crimson_fence",
+        themeColor: "§4"
     }
 ];

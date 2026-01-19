@@ -642,5 +642,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:mangrove_fence": {
+        id: "minecraft:mangrove_fence",
+        name: "Mangrove Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "None (Crafted)"
+        },
+        description: "Mangrove Fences are thin barrier blocks crafted from Mangrove Planks and Sticks. They inherit the rich, dark red color of the mangrove wood. Fences are unique in that they appear to be 1.5 blocks high to mobs and players, preventing them from being jumped over, while only occupying a single block in the world. They connect automatically to adjacent blocks and other fences. In the humid Mangrove Swamps, these fences are often used to create boardwalks or animal pens that match the local environment. They are flammable and can be broken quickly with an axe."
+    },
+    "minecraft:warped_fence": {
+        id: "minecraft:warped_fence",
+        name: "Warped Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Fence"],
+        generation: {
+            dimension: "The Nether",
+            yRange: "None (Crafted)"
+        },
+        description: "Warped Fences are barrier blocks that do not burn, made from Warped Planks and Sticks. Found in the Warped Forest of the Nether, their teal color adds a mystical look to structures. Like all fences, they serve as effective barriers that cannot be jumped over by most mobs due to their 1.5 block collision height. Their fire resistance makes them indispensable for building safe bridges or enclosures in the hazardous Nether environment. They do not catch fire even when in direct contact with lava or fire, making them a superior choice for lighting-safe decorations."
+    },
+    "minecraft:crimson_fence": {
+        id: "minecraft:crimson_fence",
+        name: "Crimson Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Fence"],
+        generation: {
+            dimension: "The Nether",
+            yRange: "None (Crafted)"
+        },
+        description: "Crimson Fences are a fire-resistant barrier variant crafted from Crimson Planks and Sticks, native to the Crimson Forest in the Nether. They sport a deep magenta or maroon color that fits the eerie atmosphere of the Nether. Because they are technically fungal in origin rather than traditional wood, they are completely immune to fire and lava. This property makes them perfect for creating secure livestock pens or decorative perimeters in the Nether. They connect to other blocks similarly to Overworld fences but provide much better protection against the elements of the underworld."
     }
 };
