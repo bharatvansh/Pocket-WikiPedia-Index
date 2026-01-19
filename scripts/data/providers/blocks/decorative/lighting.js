@@ -219,5 +219,26 @@ export const lightingBlocks = {
             yRange: "Strongholds, Villages, Mineshafts, Ancient Cities"
         },
         description: "A Torch is a non-solid block that emits a light level of 14. It is one of the most common light sources in the game, essential for preventing hostile mob spawning and illuminating caves and structures. Crafted from a stick and coal or charcoal, torches can be placed on the top or sides of most solid blocks. They break if the block they are attached to is removed or if water flows into them. Torches are also used in crafting lanterns and jack o'lanterns."
+    },
+    "minecraft:lit_pumpkin": {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 15,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jack o'Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from a Carved Pumpkin and a Torch"
+        },
+        description: "A Jack o'Lantern is a luminous decorative block crafted by combining a carved pumpkin with a torch. It provides the maximum light level of 15, making it an excellent alternative to glowstone or torches, specifically in aquatic environments where it can also be placed underwater. Unlike normal pumpkins, it cannot be worn. Its iconic glowing face makes it popular for Halloween-themed builds, path lighting, and underwater illumination."
     }
 };

@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:sea_lantern",
         name: "Sea Lantern",
         category: "block",
@@ -404,6 +411,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/copper_grate",
         themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        category: "block",
+        icon: "textures/items/door_iron",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:iron_trapdoor",
+        name: "Iron Trapdoor",
+        category: "block",
+        icon: "textures/blocks/iron_trapdoor",
+        themeColor: "§7"
     },
     {
         id: "minecraft:tuff_bricks",
@@ -1813,6 +1834,13 @@ export const blockIndex = [
         themeColor: "§6" // orange
     },
     {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:polished_tuff_wall",
         name: "Polished Tuff Wall",
         category: "block",
@@ -2868,5 +2896,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
     }
 ];

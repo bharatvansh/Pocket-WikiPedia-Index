@@ -641,5 +641,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from Pale Oak Planks and Sticks"
         },
         description: "A Pale Oak Fence Gate serves as an interactive entrance through fence perimeters. Matching the Pale Oak wood set, it displays a light, ghostly gray-white hue. It can be opened and closed by hand or via redstone, and always opens away from the player. When placed, it provides a seamless transition for pale oak fences while maintaining the desaturated, atmospheric look of the Pale Garden biome."
+    },
+    "minecraft:iron_door": {
+        id: "minecraft:iron_door",
+        name: "Iron Door",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Iron Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Woodland Mansions"
+        },
+        description: "An Iron Door is a high-security alternative to wooden doors. It is completely immune to player interaction by hand and can only be opened using redstone power, such as from buttons, levers, pressure plates, or redstone circuits. This makes it ideal for protecting bases from mobs or unwanted visitors, as villagers and most hostile mobs cannot open them. It has a significantly higher blast resistance and hardness than wooden doors, requiring a stone pickaxe or better to mine efficiently."
+    },
+    "minecraft:iron_trapdoor": {
+        id: "minecraft:iron_trapdoor",
+        name: "Iron Trapdoor",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Iron Trapdoor"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from 4 Iron Ingots"
+        },
+        description: "The Iron Trapdoor is a horizontal utility block that functions like an iron door. It requires a redstone signal to toggle its state between open and closed and cannot be moved by hand. Its high durability and blast resistance make it excellent for secure floor hatches, ceiling entrances, or compact redstone-controlled apertures. It is often used in technical builds, mob farms, and security-focused bases where manual operation is not desired."
     }
 };

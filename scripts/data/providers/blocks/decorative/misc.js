@@ -600,5 +600,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Pale Oak Planks and Sticks"
         },
         description: "Pale Oak Fences are thin, protective barrier blocks crafted from pale oak planks and sticks. They are 1.5 blocks high for most entities, preventing them from being jumped over. Naturally fitting the Pale Garden's somber aesthetic, these fences offer a ghostly, light gray alternative to traditional wood barriers. They connect automatically to adjacent fences, gates, and most solid blocks, making them perfect for atmospheric perimeters or detailed decorative railings."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Spawned once after defeating the Ender Dragon"
+        },
+        description: "The Dragon Egg is a rare and unique trophy block that spawns on top of the exit portal in The End after the Ender Dragon is defeated for the first time. In Bedrock Edition, it is affected by gravity and will fall like sand or gravel. When clicked or hit in Survival mode, it teleports to a nearby location, making it difficult to harvest without using gravity or creative methods like pushing it onto a torch with a piston. It emits a light level of 1 and is purely decorative."
     }
 };
