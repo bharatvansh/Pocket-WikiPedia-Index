@@ -579,6 +579,111 @@ export const interactiveBlocks = {
         },
         description: "A Monster Spawner is a cage-like block that generates naturally in various structures. It contains a miniature, spinning mob inside and attempts to spawn that specific mob in a 9x9x3 area around itself whenever a player is within 16 blocks. Spawners are invaluable for creating automated mob farms for experience and items. In survival mode, they cannot be obtained as an item, even with Silk Touch, and drop only experience when broken with a pickaxe. The spawn rate depends on light levels and whether the maximum mob density for that area has been reached."
     },
+    "minecraft:cherry_door": {
+        id: "minecraft:cherry_door",
+        name: "Cherry Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Door"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Door is a beautiful wooden block introduced in version 1.20. It features a soft pink color and a circular glass window, matching the aesthetic of the Cherry Grove biome. Like other wooden doors, it can be opened by hand or powered by redstone. It occupies a two-block high space and is 3.0 in hardness. Its unique design and vibrant color make it a popular choice for Japanese-inspired or floral-themed builds, providing a elegant and welcoming entrance to structures."
+    },
+    "minecraft:cherry_trapdoor": {
+        id: "minecraft:cherry_trapdoor",
+        name: "Cherry Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Trapdoor"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Trapdoor is a horizontal variant of the cherry wood set, sharing the same pinkish hue and delicate texture. Crafted from six cherry planks, it functions as a one-block opening that can be toggled by player interaction or redstone signals. Its decorative appearance, featuring a lattice-like circular cutout, makes it ideal for detailed flooring, window shutters, or unique architectural accents. Introduced in Minecraft 1.20, it is a key component for builders using the Cherry wood palette."
+    },
+    "minecraft:cherry_fence_gate": {
+        id: "minecraft:cherry_fence_gate",
+        name: "Cherry Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Fence Gate"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cherry Planks and Sticks"
+        },
+        description: "The Cherry Fence Gate is an interactive wood block used as an entrance through fence perimeters. It carries the distinct pink color of the cherry wood family. Like all fence gates, it can be opened and closed by hand or via redstone, and always opens away from the player. It provides a seamless transition for cherry fences while maintaining the vibrant, floral look of the Cherry Grove biome, making it perfect for garden enclosures or orchard entrances."
+    },
+    "minecraft:bamboo_door": {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Door"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Door is a unique wooden door introduced in Minecraft 1.20 as part of the bamboo wood set. It features a woven bamboo texture with a small window at the top, offering a rustic or tropical aesthetic. Crafted from six bamboo planks, it shares the same 3.0 hardness and blast resistance as other wooden doors. It is functional and decorative, allowing for a tropical feel in builds. In Bedrock Edition, it behaves identically to other wooden doors, responding to both manual interaction and redstone power."
+    },
+    "minecraft:bamboo_trapdoor": {
+        id: "minecraft:bamboo_trapdoor",
+        name: "Bamboo Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Trapdoor"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Trapdoor is a horizontal variant of the bamboo wood set. It features a distinctive woven pattern and a warm yellow-green color. Crafted from six bamboo planks, it can be used for hidden passages, ventilation, or as a decorative element. Like other trapdoors, it can be toggled by the player or redstone. Its unique texture makes it stand out from traditional wood trapdoors, making it a favorite for tropical, beach-themed, or intricate detailed builds."
+    },
     "minecraft:pale_oak_door": {
         id: "minecraft:pale_oak_door",
         name: "Pale Oak Door",
