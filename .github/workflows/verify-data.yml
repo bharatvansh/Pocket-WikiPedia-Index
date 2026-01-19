@@ -41,7 +41,6 @@ jobs:
 
       - name: Validate PR scope (only data files allowed)
         id: scope
-        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -55,14 +54,45 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
-          
-          # Signal failure if issues found
-          [ "$STATUS" == "no_issues" ] || exit 1
+
+      - name: Post scope errors (if unauthorized files changed)
+        if: always() && steps.scope.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'scope_report.md');
+            let report = '## 🔒 PR Scope Validation Failed\n\n';
+            
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
+            }
+            
+            report += '\n\n---\n*Data contribution PRs must ONLY modify data files. Please remove unauthorized file changes or create a separate PR for code changes.*';
+            
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: report
+              });
+            }
 
       - name: Check for duplicate entries
         id: duplicates
         if: always()
-        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -76,14 +106,45 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
-          
-          # Signal failure if issues found
-          [ "$STATUS" == "no_issues" ] || exit 1
+
+      - name: Post duplicate errors (if duplicates found)
+        if: always() && steps.duplicates.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'duplicate_report.md');
+            let report = '## 🔄 Duplicate Entry Detected\n\n';
+            
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
+            }
+            
+            report += '\n\n---\n*Please remove the duplicate entries before the data can be verified.*';
+            
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: report
+              });
+            }
 
       - name: Validate format (syntax + structure)
         id: format
         if: always()
-        continue-on-error: true
         run: |
           cd .github/scripts
           node validate-format.js --output ../../format_report.md --status ../../format_status.txt || true
@@ -95,14 +156,45 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
-          
-          # Signal failure if issues found
-          [ "$STATUS" == "no_issues" ] || exit 1
+
+      - name: Post format errors (if format issues)
+        if: always() && steps.format.outputs.status == 'has_issues'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'format_report.md');
+            let report = '## ❌ Format Validation Failed\n\n';
+            
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
+            }
+            
+            report += '\n\n---\n*Please fix the format/syntax issues above before the data can be verified.*';
+            
+            try {
+              await github.rest.pulls.createReview({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                body: report,
+                event: 'REQUEST_CHANGES'
+              });
+            } catch (error) {
+              console.log('Failed to create review, falling back to comment:', error.message);
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: report
+              });
+            }
 
       - name: Cross-reference validation (check index registration)
         id: crossrefs
         if: always()
-        continue-on-error: true
         run: |
           cd .github/scripts
           node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt || true
@@ -114,50 +206,30 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
-          
-          # Signal failure if issues found
-          [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Report validation failures
-        if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure')
+      - name: Post cross-reference errors (if missing from index)
+        if: always() && steps.crossrefs.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const path = require('path');
+            const reportPath = path.join(process.env.GITHUB_WORKSPACE, 'crossref_report.md');
+            let report = '## 🔗 Cross-Reference Validation Failed\n\n';
             
-            let combinedReport = '## ❌ Data Validation Failed\n\nPlease fix the following issues before this PR can be verified and merged:\n\n';
-            let hasReports = false;
-            
-            const reports = [
-              { file: 'scope_report.md', title: '🔒 PR Scope' },
-              { file: 'duplicate_report.md', title: '🔄 Duplicate Entries' },
-              { file: 'format_report.md', title: '📋 Format/Syntax' },
-              { file: 'crossref_report.md', title: '🔗 Cross-References' }
-            ];
-            
-            for (const r of reports) {
-              const reportPath = path.join(process.env.GITHUB_WORKSPACE, r.file);
-              if (fs.existsSync(reportPath)) {
-                const content = fs.readFileSync(reportPath, 'utf8');
-                if (content.includes('❌') || content.includes('Unauthorized') || content.includes('Issues Detected')) {
-                  combinedReport += `### ${r.title}\n${content}\n\n---\n`;
-                  hasReports = true;
-                }
-              }
+            if (fs.existsSync(reportPath)) {
+              report += fs.readFileSync(reportPath, 'utf8');
             }
             
-            if (!hasReports) {
-              combinedReport += 'Validation steps failed, but no detailed reports were found. Please check the action logs.';
-            }
-
+            report += '\n\n---\n*Please ensure all data entries are registered in their corresponding search index files (mob_index.js, block_index.js, item_index.js).*';
+            
             try {
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: context.issue.number,
-                body: combinedReport,
+                body: report,
                 event: 'REQUEST_CHANGES'
               });
             } catch (error) {
@@ -166,7 +238,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: combinedReport
+                body: report
               });
             }
 
@@ -177,7 +249,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd .github/scripts
-          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt
+          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt || true
           
           # Read the status (has_issues or no_issues)
           if [ -f ../../verification_status.txt ]; then
@@ -196,7 +268,7 @@ jobs:
           fi
 
       - name: Request changes on PR (if Gemini found issues)
-        if: always() && steps.verify.outcome == 'failure'
+        if: always() && steps.verify.outputs.status == 'has_issues'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -232,7 +304,7 @@ jobs:
             }
 
       - name: Fail workflow if any validation failed
-        if: always() && (steps.scope.outcome == 'failure' || steps.duplicates.outcome == 'failure' || steps.format.outcome == 'failure' || steps.crossrefs.outcome == 'failure' || steps.verify.outcome == 'failure')
+        if: always() && (steps.scope.outputs.status == 'has_issues' || steps.duplicates.outputs.status == 'has_issues' || steps.format.outputs.status == 'has_issues' || steps.crossrefs.outputs.status == 'has_issues' || steps.verify.outputs.status == 'has_issues')
         run: |
           echo "One or more validation checks failed. Please review the PR comments."
           exit 1
