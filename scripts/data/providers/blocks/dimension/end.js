@@ -240,5 +240,47 @@ export const endBlocks = {
             yRange: "60–100 (End Cities)"
         },
         description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Atop the exit portal"
+        },
+        description: "The Dragon Egg is a rare trophy block and one of the most unique items in Minecraft. It generates once on top of the exit portal in the End after the Ender Dragon is defeated. In Bedrock Edition, players can obtain a second egg by re-summoning and defeating the dragon again. It is affected by gravity and will teleport if a player attempts to mine it directly in Survival mode. Its primary use is as a prestige item or decoration, emitting a very faint light level of 1."
+    },
+    "minecraft:end_gateway": {
+        id: "minecraft:end_gateway",
+        name: "End Gateway",
+        hardness: -1,
+        blastResistance: 3600000,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None"],
+        generation: {
+            dimension: "The End",
+            yRange: "Outer island gateways"
+        },
+        description: "The End Gateway is a small, indestructible portal block that facilitates travel between the main End island and outer islands. It generates when the Ender Dragon is defeated. Players can enter by throwing an ender pearl into the gap or by using a trapdoor to crawl through. It emits a powerful light level of 15 and features a unique end galaxy texture. This block is essential for exploring the vast outer reaches of the End where End Cities and Chorus Plants are found."
     }
 };
