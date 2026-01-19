@@ -497,5 +497,89 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of copper, featuring a distinct teal-green patina. Found naturally in Trial Chambers, it serves as a weathered decorative and functional block. Players can wax it with honeycomb to lock its appearance or scrape it with an axe to revert it to a weathered state. It must be mined with a stone pickaxe or better to drop as an item. Unlike iron trapdoors, copper trapdoors can be toggled by hand or redstone, providing versatility for aged industrial or ancient-themed builds."
+    },
+    "minecraft:waxed_copper": {
+        id: "minecraft:waxed_copper",
+        name: "Waxed Block of Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Block of Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted with Honeycomb or Waxing a Block of Copper"
+        },
+        description: "A Waxed Block of Copper is a variant of the Block of Copper that has been treated with honeycomb to prevent it from oxidizing. It retains its vibrant orange color indefinitely, making it a permanent decorative choice for builders who prefer the look of fresh copper. It can be returned to its regular, un-waxed state by using an axe on it. It has the same durability as a standard copper block and requires a stone-tier pickaxe or higher for harvesting."
+    },
+    "minecraft:waxed_exposed_copper": {
+        id: "minecraft:waxed_exposed_copper",
+        name: "Waxed Exposed Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted with Honeycomb or Waxing Exposed Copper"
+        },
+        description: "Waxed Exposed Copper is an Exposed Copper block that has been treated with honeycomb to lock in its first stage of oxidation. This prevents it from further aging into the weathered or oxidized states, preserving its unique brownish-orange mottled appearance. Builders use this block to maintain specific color gradients in their structures. It can be un-waxed using an axe or mined with a stone pickaxe or better. Its properties remain identical to the standard exposed copper variant."
+    },
+    "minecraft:waxed_weathered_copper": {
+        id: "minecraft:waxed_weathered_copper",
+        name: "Waxed Weathered Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted with Honeycomb or Waxing Weathered Copper"
+        },
+        description: "Waxed Weathered Copper is a copper block in its second oxidation stage that has been waxed with honeycomb to freeze its appearance. This preserves the iconic blue-green patina mixed with hints of the original copper color, preventing it from eventually turning completely teal. Ideal for representing moderately aged metallic surfaces, it is a staple for industrial and steampunk builds. Like other waxed variants, an axe can be used to remove the wax layer, allowing oxidation to resume."
+    },
+    "minecraft:waxed_oxidized_copper": {
+        id: "minecraft:waxed_oxidized_copper",
+        name: "Waxed Oxidized Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted with Honeycomb or Waxing Oxidized Copper"
+        },
+        description: "Waxed Oxidized Copper is the final stage of copper oxidation that has been sealed with honeycomb. While fully oxidized copper doesn't naturally change further, waxing it ensures that it cannot be reverted to a previous stage by lightning strikes or lightning rods in its vicinity. It provides a consistent building material that matches the color of regular oxidized copper but with the \"waxed\" property. It boasts a rich teal-green color throughout, perfect for aged copper roofs."
     }
 };
