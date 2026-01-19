@@ -1127,7 +1127,7 @@ export const vegetationBlocks = {
             dimension: "Overworld",
             yRange: "Surface"
         },
-        description: "The Blue Orchid is a rare and beautiful flower that generates exclusively in Swamp biomes. Its distinct light blue color makes it highly sought after for both decoration and as the sole source of light blue dye. Unlike more common flowers, the Blue Orchid's limited habitat makes finding one a notable event for explorers. In Bedrock Edition, using a Blue Orchid in a suspicious stew recipe provides the Saturation effect. Its elegant, sprawling growth pattern adds a touch of mystery and color to the murky swamp landscape."
+        description: "The Blue Orchid is a rare and beautiful flower that generates exclusively in Swamp biomes. Its distinct light blue color makes it highly sought after for both decoration and as a natural source of light blue dye. Unlike more common flowers, the Blue Orchid's limited habitat makes finding one a notable event for explorers. In Bedrock Edition, using a Blue Orchid in a suspicious stew recipe provides the Saturation effect. Its elegant, sprawling growth pattern adds a touch of mystery and color to the murky swamp landscape."
     },
     "minecraft:pink_tulip": {
         id: "minecraft:pink_tulip",

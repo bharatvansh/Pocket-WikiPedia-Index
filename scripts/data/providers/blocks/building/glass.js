@@ -84,13 +84,13 @@ export const glassBlocks = {
         mining: {
             tool: "None",
             minTier: "None",
-            silkTouch: false
+            silkTouch: true
         },
-        drops: ["Glass Pane"],
+        drops: [],
         generation: {
             dimension: "Overworld",
             yRange: "Crafted from 6 Glass blocks; generates in Villages"
         },
-        description: "Glass Panes are thin, transparent blocks that serve as a more resource-efficient alternative to full glass blocks for windows. One crafting recipe yields 16 panes from 6 glass blocks. They automatically connect to adjacent solid blocks and other panes, forming a seamless glass surface. While they share the fragile 0.3 hardness of glass blocks, they offer more architectural detail and depth to builds. In Bedrock Edition, they drop themselves as items when broken, similar to glass blocks."
+        description: "Glass Panes are thin, transparent blocks that serve as a more resource-efficient alternative to full glass blocks for windows. One crafting recipe yields 16 panes from 6 glass blocks. They automatically connect to adjacent solid blocks and other panes, forming a seamless glass surface. While they share the fragile 0.3 hardness of glass blocks, they offer more architectural detail and depth to builds. Like regular glass, they shatter when broken and require a tool with Silk Touch to be harvested as an item."
     }
 };
