@@ -1066,27 +1066,6 @@ export const vegetationBlocks = {
         },
         description: "Tall Grass is a two-block high variant of grass that generates naturally in various biomes like Plains, Savannas, and Jungles. Unlike regular short grass, it provides more visual density to the landscape. When broken by hand, it has a chance to drop wheat seeds, but it must be harvested with Shears to be collected as an item. It can be grown by applying bone meal to short grass or directly to a grass block. Its height makes it useful for creating overgrown aesthetics or providing camouflage in survival situations."
     },
-    "minecraft:sugar_cane": {
-        id: "minecraft:sugar_cane",
-        name: "Sugar Cane",
-        hardness: 0,
-        blastResistance: 0,
-        flammability: true,
-        gravityAffected: false,
-        transparent: true,
-        luminance: 0,
-        mining: {
-            tool: "None",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Sugar Cane"],
-        generation: {
-            dimension: "Overworld",
-            yRange: "Adjacent to water sources"
-        },
-        description: "Sugar cane is a tall, reed-like vegetation block that grows naturally near water. It can be planted on grass, dirt, podzol, or sand, provided the block is adjacent to water. It grows up to three blocks high over time. Harvesting sugar cane is essential for producing sugar (used in cooking and potions) and paper (used for maps, books, and fireworks). It's a staple of many farms due to its simplicity and versatility."
-    },
     "minecraft:bamboo_sapling": {
         id: "minecraft:bamboo_sapling",
         name: "Bamboo Sapling",
@@ -1107,6 +1086,27 @@ export const vegetationBlocks = {
             yRange: "Jungle biomes"
         },
         description: "A Bamboo Sapling is the initial growth stage of a bamboo plant. It is created when a player plants bamboo on a valid block like grass, dirt, or sand. After a short period, it matures into a full bamboo stalk. While in this stage, it is extremely fragile and will break instantly if harvested or if its supporting block is removed. In Bedrock Edition, it's a key part of the fast-growing bamboo ecosystem, allowing players to quickly establish large bamboo forests for wood, fuel, and crafting."
+    },
+    "minecraft:moss_carpet": {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Anything",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Moss Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Moss Carpet is a thin, decorative block that generates naturally in Lush Caves. It can also be crafted from two moss blocks or grown by using bone meal on a moss block. It is one of the few carpeting blocks that is non-flammable and provides a soft, green texture to floors. Because it is so thin, it does not obstruct the player's movement and can be used to hide lighting sources like sea lanterns or glowstone while still allowing light to pass through. It is also a source of decoration that adds a life-like, organic feel to builds."
     },
     "minecraft:fern": {
         id: "minecraft:fern",

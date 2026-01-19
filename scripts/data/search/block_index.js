@@ -2905,20 +2905,6 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
-        id: "minecraft:sugar_cane",
-        name: "Sugar Cane",
-        category: "block",
-        icon: "textures/blocks/reeds",
-        themeColor: "§2"
-    },
-    {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
-        category: "block",
-        icon: "textures/blocks/dragon_egg",
-        themeColor: "§5"
-    },
-    {
         id: "minecraft:end_gateway",
         name: "End Gateway",
         category: "block",

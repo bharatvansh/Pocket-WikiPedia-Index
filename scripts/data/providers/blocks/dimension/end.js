@@ -241,27 +241,6 @@ export const endBlocks = {
         },
         description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
     },
-    "minecraft:dragon_egg": {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
-        hardness: 3.0,
-        blastResistance: 9.0,
-        flammability: false,
-        gravityAffected: true,
-        transparent: true,
-        luminance: 1,
-        mining: {
-            tool: "None",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Dragon Egg"],
-        generation: {
-            dimension: "The End",
-            yRange: "Atop the exit portal"
-        },
-        description: "The Dragon Egg is a rare trophy block and one of the most unique items in Minecraft. It generates once on top of the exit portal in the End after the Ender Dragon is defeated. In Bedrock Edition, players can obtain a second egg by re-summoning and defeating the dragon again. It is affected by gravity and will teleport if a player attempts to mine it directly in Survival mode. Its primary use is as a prestige item or decoration, emitting a very faint light level of 1."
-    },
     "minecraft:end_gateway": {
         id: "minecraft:end_gateway",
         name: "End Gateway",
