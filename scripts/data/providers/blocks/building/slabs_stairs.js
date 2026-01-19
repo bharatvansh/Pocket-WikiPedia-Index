@@ -428,5 +428,110 @@ export const slabsStairsBlocks = {
             yRange: "Savanna Villages, Shipwrecks"
         },
         description: "Acacia Stairs are vibrant orange-colored stairs crafted from Acacia Planks. They naturally occur in Savanna villages, where they form roofs and seating for the unique local architecture. Their bold color makes them a standout choice for high-contrast builds and desert-themed landscaping. Acacia stairs are waterloggable and can be used to create intricate rooflines or detailed wall patterns. They are flammable and are most quickly broken using an axe."
+    },
+    "minecraft:prismarine_stairs": {
+        id: "minecraft:prismarine_stairs",
+        name: "Prismarine Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Stairs are a decorative block variant of prismarine, primarily used for underwater or aquatic-themed construction. Introduced in the 1.8 update, they feature the same animated blue-green texture as regular prismarine blocks. They can be crafted using six prismarine blocks or processed through a stonecutter for better efficiency. Like other stairs, they are waterloggable and can be placed in various orientations to create complex shapes. Their color and texture make them ideal for building monuments, temples, and detailed ocean floor structures."
+    },
+    "minecraft:dark_prismarine_stairs": {
+        id: "minecraft:dark_prismarine_stairs",
+        name: "Dark Prismarine Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dark Prismarine Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Dark Prismarine Stairs are the darkened variant of prismarine stairs, crafted from dark prismarine. They offer a deep teal-cyan color that provides a striking contrast in builds, especially in aquatic environments. Like other prismarine variants, they are moderately durable and blast-resistant. They are frequently used in ocean monuments and high-end underwater bases for their smooth, dark aesthetic. They can be crafted in a crafting table or more efficiently using a stonecutter. Their ability to be waterlogged allows them to blend seamlessly into submerged architecture."
+    },
+    "minecraft:prismarine_brick_stairs": {
+        id: "minecraft:prismarine_brick_stairs",
+        name: "Prismarine Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Brick Stairs are decorative blocks featuring the characteristic tiled pattern of prismarine bricks. They provide a refined and structured look for buildings, often used as trim or structural accents in ocean monuments. These stairs share the same hardness and blast resistance as other prismarine variants but offer a distinct geometric texture. They are crafted from prismarine bricks or via a stonecutter. As with all stairs, they are waterloggable, making them perfect for grand underwater entrances, decorative pillars, and complex ceiling designs in submerged palaces."
+    },
+    "minecraft:red_nether_brick_stairs": {
+        id: "minecraft:red_nether_brick_stairs",
+        name: "Red Nether Brick Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Brick Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Red Nether Bricks"
+        },
+        description: "Red Nether Brick Stairs are a fire-resistant building block crafted from red nether bricks. They offer a vibrant crimson-red alternative to the dark purple of standard nether brick stairs, making them highly desirable for Nether-themed architecture and high-contrast builds. They share the same durability as nether bricks and are immune to ghast fireballs. Like standard nether bricks, they produce \"bass drum\" sounds when placed under a note block. They can be crafted in a crafting grid or via a stonecutter, providing a sturdy and atmospheric way to create stairs and roofs in the Nether."
+    },
+    "minecraft:crimson_stairs": {
+        id: "minecraft:crimson_stairs",
+        name: "Crimson Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "Crimson Stairs are fire-resistant stairs crafted from crimson planks, a wood-type native to the Crimson Forest in the Nether. Unlike Overworld wooden stairs, they do not burn, making them ideal for construction in the Nether or near lava. They feature a deep maroon and red color scheme with an alien, fungal texture. They can be crafted using six crimson planks or via a stonecutter. Like all wooden stairs, they are best harvested with an axe. Their unique resistance to fire and distinctive color palette make them a favorite for builders seeking both safety and a dark, rustic aesthetic."
     }
 };

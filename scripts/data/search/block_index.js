@@ -2994,5 +2994,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/acacia_stairs",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:prismarine_stairs",
+        name: "Prismarine Stairs",
+        category: "block",
+        icon: "textures/blocks/prismarine_stairs",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:prismarine_brick_stairs",
+        name: "Prismarine Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/prismarine_bricks_stairs",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:dark_prismarine_stairs",
+        name: "Dark Prismarine Stairs",
+        category: "block",
+        icon: "textures/blocks/dark_prismarine_stairs",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:red_nether_brick_stairs",
+        name: "Red Nether Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick_stairs",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_stairs",
+        name: "Crimson Stairs",
+        category: "block",
+        icon: "textures/blocks/crimson_stairs",
+        themeColor: "§4"
     }
 ];
