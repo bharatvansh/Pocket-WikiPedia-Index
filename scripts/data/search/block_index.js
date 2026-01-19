@@ -280,6 +280,13 @@ export const blockIndex = [
         themeColor: "§a" // green/pink
     },
     {
+        id: "minecraft:azalea_leaves",
+        name: "Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/azalea_leaves",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:glowstone",
         name: "Glowstone",
         category: "block",
@@ -2037,6 +2044,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:white_concrete_powder",
+        name: "White Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_white",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:white_wool",
         name: "White Wool",
         category: "block",
@@ -2350,6 +2364,27 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/log_oak",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_oak_log",
+        name: "Stripped Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_oak_log",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        category: "block",
+        icon: "textures/blocks/stripped_spruce_log",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        category: "block",
+        icon: "textures/blocks/stripped_birch_log",
+        themeColor: "§f" // white/beige
     },
     {
         id: "minecraft:spruce_log",
@@ -2868,5 +2903,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:diamond_ore",
+        name: "Diamond Ore",
+        category: "block",
+        icon: "textures/blocks/diamond_ore",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_tuff",
+        name: "Infested Tuff",
+        category: "block",
+        icon: "textures/blocks/tuff",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:moss_carpet",
+        name: "Moss Carpet",
+        category: "block",
+        icon: "textures/blocks/moss_carpet",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:smooth_quartz",
+        name: "Smooth Quartz",
+        category: "block",
+        icon: "textures/blocks/quartz_block_bottom",
+        themeColor: "§f"
     }
 ];

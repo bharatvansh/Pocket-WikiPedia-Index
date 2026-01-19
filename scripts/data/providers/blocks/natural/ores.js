@@ -179,6 +179,27 @@ export const oreBlocks = {
         },
         description: "Emerald Ore is a rare mineral block that generates only in mountain and windswept hills biomes. It drops emeralds when mined, or itself if mined with Silk Touch. It generates from Y -16 to 320, with the highest concentration at Y 232, making it one of the rarest ores due to its biome restriction. Emeralds are the primary currency for trading with villagers and used to craft blocks of emerald for decoration. Unlike most ores, emerald ore can generate exposed to air."
     },
+    "minecraft:diamond_ore": {
+        id: "minecraft:diamond_ore",
+        name: "Diamond Ore",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Iron",
+            silkTouch: true
+        },
+        drops: ["Diamond"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "-64 to 16"
+        },
+        description: "Diamond Ore is a rare mineral block that generates deep within the Overworld's stone layer, typically between Y levels 16 and -64. It is the most prized ore among players, dropping a single Diamond when mined with an iron pickaxe or higher. Using a Fortune enchantment can significantly increase the yield of diamonds. While its deepslate variant is more common at lower depths, regular stone Diamond Ore remains a classic and sought-after find for any miner exploring cave systems. It provides experience points when broken and is used to create top-tier equipment."
+    },
     "minecraft:deepslate_diamond_ore": {
         id: "minecraft:deepslate_diamond_ore",
         name: "Deepslate Diamond Ore",
