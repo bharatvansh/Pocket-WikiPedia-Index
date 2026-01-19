@@ -246,6 +246,69 @@ export const copperBlocks = {
         },
         description: "Chiseled Copper (1.21) is a decorative block with a unique geometric pattern. It is crafted by placing two cut copper slabs vertically or by using a stonecutter on cut copper. Like other copper blocks, it oxidizes over time through four distinct stages (unexposed to fully oxidized) unless waxed with a honeycomb. It generates naturally within Trial Chambers in various oxidation states. Builders use it for intricate architectural details, pillars, and accent walls due to its sophisticated carved appearance."
     },
+    "minecraft:exposed_chiseled_copper": {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Exposed Chiseled Copper is the first oxidation stage of the chiseled copper block, featuring a tarnished brownish-orange color. It retains the unique carved geometric pattern but shows signs of early weathering. Like all copper blocks, it can be waxed with honeycomb to lock this specific look or scraped with an axe to revert it to the fresh copper stage. It naturally forms in Trial Chambers or through the gradual oxidation of a pristine chiseled copper block when exposed to air."
+    },
+    "minecraft:weathered_chiseled_copper": {
+        id: "minecraft:weathered_chiseled_copper",
+        name: "Weathered Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Weathered Chiseled Copper is the second stage of oxidation for the chiseled copper block, characterized by a prominent blue-green patina mixed with remaining orange tones. The intricate carved design is still visible through the oxidation. Builders use this block to achieve a classic aged copper look in their structures. It can be waxed with honeycomb to preserve its current state or scraped with an axe to reveal the previous oxidation layers. It generates naturally within Trial Chambers as part of the decorative architectural elements."
+    },
+    "minecraft:oxidized_chiseled_copper": {
+        id: "minecraft:oxidized_chiseled_copper",
+        name: "Oxidized Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Oxidized Chiseled Copper is the final oxidation stage of the chiseled copper block, featuring a rich, uniform teal-green patina. In this stage, the block has completely weathered, providing a beautiful aged aesthetic for ancient ruins or grand industrial builds. Despite its heavy oxidation, it remains as durable as the original block. It can be waxed to maintain its teal color or scraped with an axe to revert it to the weathered stage. This block is a key decorative component of the Trial Chambers' unique visual style."
+    },
     "minecraft:exposed_copper_grate": {
         id: "minecraft:exposed_copper_grate",
         name: "Exposed Copper Grate",
