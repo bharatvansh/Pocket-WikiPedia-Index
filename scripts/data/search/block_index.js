@@ -3204,5 +3204,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_fence",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/blocks/cake_top",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:quartz_stairs",
+        name: "Quartz Stairs",
+        category: "block",
+        icon: "textures/blocks/quartz_stairs",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:quartz_slab",
+        name: "Quartz Slab",
+        category: "block",
+        icon: "textures/blocks/quartz_slab",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/cobblestone_wall",
+        themeColor: "§7"
     }
 ];

@@ -516,6 +516,27 @@ export const interactiveBlocks = {
         },
         description: "A Candle is a light source block that can be placed in clusters of up to four. Each candle adds 3 to the light level, reaching a maximum of 12. Candles are crafted from string and honeycomb and can be dyed into 16 colors. They are unlit when placed and must be lit using flint and steel, fire charge, or any flaming projectile. Candles are waterloggable but cannot be lit while waterlogged. They can also be placed on cakes to create a candle cake."
     },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cake is a unique food block that can be placed on most solid blocks. Unlike other food, it cannot be eaten from the hotbar; it must be placed first. A single cake has seven slices, each restoring 2 hunger (1 drumstick) and 0.4 saturation. It is crafted using three buckets of milk, two sugar, one egg, and three wheat. Once a slice is eaten, it cannot be recovered, and if the block is broken, the cake is destroyed without dropping anything."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",

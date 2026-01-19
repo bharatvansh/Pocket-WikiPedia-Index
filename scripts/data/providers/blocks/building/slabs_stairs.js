@@ -617,5 +617,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
+    },
+    "minecraft:quartz_stairs": {
+        id: "minecraft:quartz_stairs",
+        name: "Quartz Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Quartz Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Quartz Stairs are decorative blocks crafted from blocks of quartz. They provide a smooth, bright white aesthetic that is popular for modern architecture, pillars, and classical-style buildings. Like other stairs, they are waterloggable and can be placed upside down or in corners to create complex shapes. They require a pickaxe to be harvested; otherwise, they drop nothing. They offer a more refined look compared to stone or wood stairs."
+    },
+    "minecraft:quartz_slab": {
+        id: "minecraft:quartz_slab",
+        name: "Quartz Slab",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Quartz Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Quartz Slab is a half-block variant of the block of quartz. It features the same clean, white texture and is used for detailed flooring, ceilings, and roofing. Slabs can be placed in the top or bottom half of a block space or combined into a double slab. Because it is stone-based, it is fire-resistant. It is an essential component for builders who want a bright, uniform appearance in their structures without the bulk of full blocks."
+    },
+    "minecraft:cobblestone_wall": {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Pillager Outposts"
+        },
+        description: "Cobblestone Wall is a decorative and protective barrier block. It is 1.5 blocks high for entities, preventing them from jumping over it, while players can see over it easily. It connects automatically to adjacent blocks, solid objects, and other walls to form a continuous fence. It generates naturally in various structures like villages and outposts. It is highly durable and explosion-resistant, making it a reliable choice for fortifications and animal pens."
     }
 };
