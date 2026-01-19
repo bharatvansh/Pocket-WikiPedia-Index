@@ -1148,7 +1148,7 @@ export const vegetationBlocks = {
             dimension: "Overworld",
             yRange: "Surface"
         },
-        description: "Pink Tulips are decorative flowers that generate in Flower Forests and Meadows. They are one of four tulip variants available in Minecraft, each providing a different color of dye. Pink tulips yield pink dye, which is widely used for feminine or soft-toned building projects. When used in the crafting of suspicious stew, they inflict the Weakness effect on the consumer. Their symmetrical and upright appearance makes them ideal for orderly flower beds and formal garden designs."
+        description: "Pink Tulips are decorative flowers that generate in Flower Forests, plains, and sunflower plains. They are one of four tulip variants available in Minecraft, each providing a different color of dye. Pink tulips yield pink dye, which is widely used for feminine or soft-toned building projects. When used in the crafting of suspicious stew, they inflict the Weakness effect on the consumer. Their symmetrical and upright appearance makes them ideal for orderly flower beds and formal garden designs."
     },
     "minecraft:white_tulip": {
         id: "minecraft:white_tulip",
@@ -1169,6 +1169,6 @@ export const vegetationBlocks = {
             dimension: "Overworld",
             yRange: "Surface"
         },
-        description: "White Tulips are common flowers found in Flower Forest and Meadow biomes. They provide a source of light gray dye, which is useful for creating modern and industrial-colored materials. Like other tulips, they have a distinct, compact shape. In Bedrock Edition, white tulips used in suspicious stew grant the Blindness effect (although the duration is short). Their clean, neutral white petals make them a versatile choice for any floral arrangement, fitting perfectly into both vibrant gardens and monochromatic builds."
+        description: "White Tulips are common flowers found in Plains, Sunflower Plains, and Flower Forest biomes. They provide a source of light gray dye, which is useful for creating modern and industrial-colored materials. Like other tulips, they have a distinct, compact shape. In Bedrock Edition, white tulips used in suspicious stew grant the Weakness effect, similar to other tulip varieties. Their clean, neutral white petals make them a versatile choice for any floral arrangement, fitting perfectly into both vibrant gardens and monochromatic builds."
     }
 };
