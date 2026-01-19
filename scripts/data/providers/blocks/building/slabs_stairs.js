@@ -617,5 +617,110 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
+    },
+    "minecraft:cobbled_deepslate_stairs": {
+        id: "minecraft:cobbled_deepslate_stairs",
+        name: "Cobbled Deepslate Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Cobbled Deepslate Stairs are a stair variant of cobbled deepslate, featuring a dark, rugged texture perfect for subterranean architecture. They allow for smooth vertical movement and are frequently used in the construction of roofs, seating, and detailed underground passages. In Bedrock Edition, they can be crafted using six cobbled deepslate blocks or more efficiently via a stonecutter. Like other deepslate variants, they are tougher than standard stone stairs, offering both durability and a somber, industrial aesthetic to any build."
+    },
+    "minecraft:cobbled_deepslate_slab": {
+        id: "minecraft:cobbled_deepslate_slab",
+        name: "Cobbled Deepslate Slab",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Cobbled Deepslate Slab is the half-block variant of cobbled deepslate, providing a versatile building component for floors, ceilings, and intricate architectural highlights. It retains the signature dark gray and fractured appearance of cobbled deepslate, making it ideal for detailing caves or creating atmospheric pathways. These slabs can be combined into double slabs or placed in various halves of a block space. They are fire-resistant and require a pickaxe to mine, offering a sturdy and dark-toned alternative to regular stone slabs."
+    },
+    "minecraft:cobbled_deepslate_wall": {
+        id: "minecraft:cobbled_deepslate_wall",
+        name: "Cobbled Deepslate Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobbled Deepslate Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Cobbled Deepslate Walls are decorative barrier blocks used to create perimeters, fortifications, or garden boundaries with a dark, stony aesthetic. They connect to adjacent walls and blocks, forming a continuous barrier that is 1.5 blocks high for most entities, preventing them from jumping over. Crafted from six cobbled deepslate blocks or via a stonecutter, these walls are more durable than their cobblestone counterparts. They are perfect for reinforcing underground structures or adding a layer of security to grim, fortress-style builds."
+    },
+    "minecraft:deepslate_brick_stairs": {
+        id: "minecraft:deepslate_brick_stairs",
+        name: "Deepslate Brick Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Brick Stairs are a refined stair variant crafted from deepslate bricks. They feature a sophisticated, dark masonry pattern that provides a more polished look than cobbled deepslate stairs while maintaining the same high durability. These stairs are essential for creating grand staircases, clean rooflines, and detailed trim in dark-themed architecture. They generate naturally in Ancient Cities and are favored by builders for their uniform, elegant appearance. Like other deepslate variants, they are fire-resistant and must be mined with a pickaxe."
+    },
+    "minecraft:deepslate_brick_slab": {
+        id: "minecraft:deepslate_brick_slab",
+        name: "Deepslate Brick Slab",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
     }
 };
