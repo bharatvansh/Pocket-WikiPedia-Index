@@ -578,5 +578,68 @@ export const interactiveBlocks = {
             yRange: "Dungeons, Mineshafts, Strongholds, Bastion Remnants, Nether Fortresses"
         },
         description: "A Monster Spawner is a cage-like block that generates naturally in various structures. It contains a miniature, spinning mob inside and attempts to spawn that specific mob in a 9x9x3 area around itself whenever a player is within 16 blocks. Spawners are invaluable for creating automated mob farms for experience and items. In survival mode, they cannot be obtained as an item, even with Silk Touch, and drop only experience when broken with a pickaxe. The spawn rate depends on light levels and whether the maximum mob density for that area has been reached."
+    },
+    "minecraft:pale_oak_door": {
+        id: "minecraft:pale_oak_door",
+        name: "Pale Oak Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "A Pale Oak Door is a decorative and functional block crafted from six pale oak planks. It features a muted, desaturated gray-white color that matches the eerie aesthetic of the Pale Garden biome. Like other wooden doors, it can be opened by hand or powered by redstone. It occupies a two-block high space and provides a ghostly, elegant entrance to any build."
+    },
+    "minecraft:pale_oak_trapdoor": {
+        id: "minecraft:pale_oak_trapdoor",
+        name: "Pale Oak Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "The Pale Oak Trapdoor is a horizontal variant of the pale oak wood set. It shares the characteristic ghostly palette of the Pale Garden. Crafted from six pale oak planks, it functions as a one-block opening that can be toggled by player interaction or redstone signals. Its desaturated appearance makes it ideal for subtle flooring details, hidden passages, or unique architectural accents in more somber or weathered building designs."
+    },
+    "minecraft:pale_oak_fence_gate": {
+        id: "minecraft:pale_oak_fence_gate",
+        name: "Pale Oak Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks and Sticks"
+        },
+        description: "A Pale Oak Fence Gate serves as an interactive entrance through fence perimeters. Matching the Pale Oak wood set, it displays a light, ghostly gray-white hue. It can be opened and closed by hand or via redstone, and always opens away from the player. When placed, it provides a seamless transition for pale oak fences while maintaining the desaturated, atmospheric look of the Pale Garden biome."
     }
 };

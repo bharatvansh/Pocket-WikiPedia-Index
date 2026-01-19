@@ -2833,5 +2833,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/leaves_acacia",
         themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:pale_oak_door",
+        name: "Pale Oak Door",
+        category: "block",
+        icon: "textures/items/pale_oak_door",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_trapdoor",
+        name: "Pale Oak Trapdoor",
+        category: "block",
+        icon: "textures/blocks/pale_oak_trapdoor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_fence",
+        name: "Pale Oak Fence",
+        category: "block",
+        icon: "textures/blocks/pale_oak_fence",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_fence_gate",
+        name: "Pale Oak Fence Gate",
+        category: "block",
+        icon: "textures/blocks/pale_oak_fence_gate",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_button",
+        name: "Pale Oak Button",
+        category: "block",
+        icon: "textures/blocks/pale_oak_button",
+        themeColor: "§7"
     }
 ];
