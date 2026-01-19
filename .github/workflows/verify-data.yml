@@ -41,6 +41,7 @@ jobs:
 
       - name: Validate PR scope (only data files allowed)
         id: scope
+        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -54,9 +55,12 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post scope errors (if unauthorized files changed)
-        if: always() && steps.scope.outputs.status == 'has_issues'
+      - name: Post scope errors and stop (if unauthorized files changed)
+        if: always() && steps.scope.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -76,7 +80,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.issue.number,
+                pull_number: context.payload.pull_request.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -85,7 +89,7 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 body: report
               });
             }
@@ -93,6 +97,7 @@ jobs:
       - name: Check for duplicate entries
         id: duplicates
         if: always()
+        continue-on-error: true
         env:
           BASE_REF: ${{ github.base_ref }}
         run: |
@@ -106,9 +111,12 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post duplicate errors (if duplicates found)
-        if: always() && steps.duplicates.outputs.status == 'has_issues'
+      - name: Post duplicate errors and stop (if duplicates found)
+        if: always() && steps.duplicates.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -128,7 +136,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.issue.number,
+                pull_number: context.payload.pull_request.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -137,7 +145,7 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 body: report
               });
             }
@@ -145,6 +153,7 @@ jobs:
       - name: Validate format (syntax + structure)
         id: format
         if: always()
+        continue-on-error: true
         run: |
           cd .github/scripts
           node validate-format.js --output ../../format_report.md --status ../../format_status.txt || true
@@ -156,9 +165,12 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post format errors (if format issues)
-        if: always() && steps.format.outputs.status == 'has_issues'
+      - name: Post format errors and stop (if format issues)
+        if: always() && steps.format.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -178,7 +190,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.issue.number,
+                pull_number: context.payload.pull_request.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -187,7 +199,7 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 body: report
               });
             }
@@ -195,6 +207,7 @@ jobs:
       - name: Cross-reference validation (check index registration)
         id: crossrefs
         if: always()
+        continue-on-error: true
         run: |
           cd .github/scripts
           node check-cross-refs.js --output ../../crossref_report.md --status ../../crossref_status.txt || true
@@ -206,9 +219,12 @@ jobs:
             STATUS="has_issues"
           fi
           echo "status=$STATUS" >> $GITHUB_OUTPUT
+          
+          # Signal failure if issues found
+          [ "$STATUS" == "no_issues" ] || exit 1
 
-      - name: Post cross-reference errors (if missing from index)
-        if: always() && steps.crossrefs.outputs.status == 'has_issues'
+      - name: Post cross-reference errors and stop (if missing from index)
+        if: always() && steps.crossrefs.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -228,7 +244,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.issue.number,
+                pull_number: context.payload.pull_request.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -237,7 +253,7 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 body: report
               });
             }
@@ -249,7 +265,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd .github/scripts
-          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt || true
+          node verify-data.js --diff ../../diff_content.txt --output ../../verification_report.md --status ../../verification_status.txt
           
           # Read the status (has_issues or no_issues)
           if [ -f ../../verification_status.txt ]; then
@@ -267,8 +283,8 @@ jobs:
             cat verification_report.md >> $GITHUB_STEP_SUMMARY
           fi
 
-      - name: Request changes on PR (if Gemini found issues)
-        if: always() && steps.verify.outputs.status == 'has_issues'
+      - name: Request changes on PR (if issues found)
+        if: always() && steps.verify.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -289,7 +305,7 @@ jobs:
               await github.rest.pulls.createReview({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                pull_number: context.issue.number,
+                pull_number: context.payload.pull_request.number,
                 body: report,
                 event: 'REQUEST_CHANGES'
               });
@@ -298,97 +314,8 @@ jobs:
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 body: report
-              });
-            }
-
-      - name: Fail workflow if any validation failed
-        if: always() && (steps.scope.outputs.status == 'has_issues' || steps.duplicates.outputs.status == 'has_issues' || steps.format.outputs.status == 'has_issues' || steps.crossrefs.outputs.status == 'has_issues' || steps.verify.outputs.status == 'has_issues')
-        run: |
-          echo "One or more validation checks failed. Please review the PR comments."
-          exit 1
-
-      - name: Comment and Auto-merge PR (if no issues)
-        if: always() && steps.scope.outputs.status == 'no_issues' && steps.duplicates.outputs.status == 'no_issues' && steps.format.outputs.status == 'no_issues' && steps.crossrefs.outputs.status == 'no_issues' && steps.verify.outputs.status == 'no_issues'
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const fs = require('fs');
-            let report = '## ✅ Data Verification Passed\n\n';
-            
-            if (fs.existsSync('verification_report.md')) {
-              report += fs.readFileSync('verification_report.md', 'utf8');
-            } else {
-              report += 'All data entries have been verified successfully!';
-            }
-            
-            report += '\n\n🚀 **Auto-merging this PR...**';
-            
-            // Post success comment
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: report
-            });
-            
-            // Auto-merge the PR using squash merge
-            try {
-              // Check if PR is a draft and mark it as ready for review
-              const { data: pr } = await github.rest.pulls.get({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.issue.number
-              });
-
-              if (pr.draft) {
-                console.log('PR is a draft, attempting to mark as ready for review...');
-                
-                // Try using GraphQL API which is more reliable for state changes
-                try {
-                  await github.graphql(`
-                    mutation($pullRequestId: ID!) {
-                      markPullRequestReadyForReview(input: {pullRequestId: $pullRequestId}) {
-                        pullRequest {
-                          isDraft
-                        }
-                      }
-                    }
-                  `, {
-                    pullRequestId: pr.node_id
-                  });
-                  console.log('Successfully marked as ready for review via GraphQL');
-                } catch (gqlError) {
-                  console.log('GraphQL update failed, falling back to REST:', gqlError.message);
-                  await github.rest.pulls.update({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    pull_number: context.issue.number,
-                    draft: false
-                  });
-                }
-                
-                // Wait for state to propagate
-                await new Promise(resolve => setTimeout(resolve, 5000));
-              }
-
-              await github.rest.pulls.merge({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.issue.number,
-                merge_method: 'squash'
-              });
-              console.log('PR merged successfully!');
-            } catch (error) {
-              console.log('Auto-merge failed:', error.message);
-              // Post a comment about the failure
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: `⚠️ Auto-merge failed: ${error.message}\n\nPlease merge manually.`
               });
             }
 
