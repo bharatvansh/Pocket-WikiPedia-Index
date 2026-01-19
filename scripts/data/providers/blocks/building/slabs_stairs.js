@@ -575,5 +575,110 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "Cherry Slab is a half-block variant of Cherry planks, featuring the same distinctive pink texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three cherry planks horizontally or using a stonecutter, it is an essential part of the cherry wood family. Cherry slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique aesthetic that complements floral and colorful builds."
+    },
+    "minecraft:cobblestone_wall": {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pillager Outposts, Villages, Woodland Mansions"
+        },
+        description: "Cobblestone Walls are decorative barrier blocks that offer a solid alternative to wooden fences. Introduced in Minecraft's early versions, they are crafted from cobblestone and stand 1.5 blocks high for entities, preventing them from jumping over. They connect to adjacent blocks and other walls, forming a continuous perimeter. Ideal for fortifications, garden borders, and medieval-themed builds, they provide excellent durability and blast resistance. They require a pickaxe to mine efficiently and can be waterlogged in Bedrock Edition."
+    },
+    "minecraft:mossy_cobblestone_wall": {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pillager Outposts, Old Growth Taiga, Jungle Pyramids"
+        },
+        description: "Mossy Cobblestone Walls are a weathered variant of the standard cobblestone wall, featuring green moss patches that suggest age and exposure to the elements. They offer the same functionality as regular walls, preventing entities from jumping over due to their 1.5-block collision height. These walls are perfect for adding character to ancient ruins, abandoned dungeons, or nature-integrated architectural designs. They are crafted by combining cobblestone with moss or vines and share the same durability and mining requirements as their clean counterparts."
+    },
+    "minecraft:stone_brick_wall": {
+        id: "minecraft:stone_brick_wall",
+        name: "Stone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted, some structures"
+        },
+        description: "Stone Brick Walls are sophisticated decorative barriers crafted from stone bricks. They provide a clean, masonry-styled alternative to wooden fences and are commonly used in grand architectural projects, castles, and formal gardens. Like other walls, they connect seamlessly to nearby blocks and provide a 1.5-block high obstruction for players and mobs. They offer high blast resistance and require a pickaxe to harvest. Their uniform, grey brick pattern makes them a versatile choice for builders seeking a more professional and structured appearance."
+    },
+    "minecraft:mossy_stone_brick_wall": {
+        id: "minecraft:mossy_stone_brick_wall",
+        name: "Mossy Stone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted, Strongholds"
+        },
+        description: "Mossy Stone Brick Walls are the overgrown version of stone brick walls, covered in vines and moss for a time-worn look. They are ideal for depicting history in builds, such as old castle ramparts, hidden jungle temples, or rustic estate boundaries. Functionally, they behave like all other walls, connecting to surrounding structures and providing a collision height that entities cannot jump over. These walls are durable and fire-resistant, maintaining the same physical properties as stone bricks while adding a natural, organic touch to structures."
+    },
+    "minecraft:granite_wall": {
+        id: "minecraft:granite_wall",
+        name: "Granite Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Granite Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages (Savanna)"
+        },
+        description: "Granite Walls are decorative stone barriers that showcase the distinctive pinkish-brown, granular texture of granite. Part of the rock wall family, they are perfect for adding warm, earthy tones to building perimeters and landscaping projects. Like all walls in Bedrock Edition, they can be waterlogged and provide a 1.5-block high jump barrier for most entities. They are crafted from granite and require a pickaxe for efficient mining. Their unique color palette makes them a popular choice for matching with other igneous rock variants like diorite and andesite."
     }
 };
