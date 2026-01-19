@@ -2212,6 +2212,41 @@ export const blockIndex = [
         themeColor: "§c" // Red
     },
     {
+        id: "minecraft:tube_coral_block",
+        name: "Tube Coral Block",
+        category: "block",
+        icon: "textures/blocks/tube_coral_block",
+        themeColor: "§9" // Blue
+    },
+    {
+        id: "minecraft:horn_coral_block",
+        name: "Horn Coral Block",
+        category: "block",
+        icon: "textures/blocks/horn_coral_block",
+        themeColor: "§e" // Yellow
+    },
+    {
+        id: "minecraft:tube_coral",
+        name: "Tube Coral",
+        category: "block",
+        icon: "textures/blocks/tube_coral",
+        themeColor: "§9" // Blue
+    },
+    {
+        id: "minecraft:horn_coral",
+        name: "Horn Coral",
+        category: "block",
+        icon: "textures/blocks/horn_coral",
+        themeColor: "§e" // Yellow
+    },
+    {
+        id: "minecraft:brain_coral",
+        name: "Brain Coral",
+        category: "block",
+        icon: "textures/blocks/brain_coral",
+        themeColor: "§d" // Pink
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",
