@@ -686,6 +686,41 @@ export const blockIndex = [
         themeColor: "§c" // light pink
     },
     {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:sculk",
         name: "Sculk",
         category: "block",
@@ -820,7 +855,7 @@ export const blockIndex = [
     },
     {
         id: "minecraft:honeycomb_block",
-        name: "Honeycomb Block",
+        name: "Honeycomb Building Block",
         category: "block",
         icon: "textures/blocks/honeycomb_block",
         themeColor: "§6" // gold/orange
@@ -3204,5 +3239,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_fence",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:waxed_chiseled_copper",
+        name: "Waxed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:exposed_chiseled_copper",
+        name: "Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:weathered_chiseled_copper",
+        name: "Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:oxidized_chiseled_copper",
+        name: "Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:ominous_trial_spawner",
+        name: "Ominous Trial Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner_top_ominous",
+        themeColor: "§5"
     }
 ];
