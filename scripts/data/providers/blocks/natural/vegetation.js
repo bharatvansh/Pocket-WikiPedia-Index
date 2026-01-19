@@ -1149,5 +1149,47 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Adjacent to water (on sand, dirt, grass, podzol)"
+        },
+        description: "Sugar Cane is an essential plant that grows naturally in tall stalks near water source blocks in the Overworld. It can grow up to three blocks high and is used to craft sugar and paper, making it vital for making books, maps, and dynamic enchantments. Unlike many other plants, it does not require a tool to harvest and breaks instantly by hand. It must be planted on a block directly adjacent to water to grow. In Bedrock Edition, sugar cane can be grown faster using bone meal, allowing players to quickly farm large quantities of this renewable resource."
+    },
+    "minecraft:flowering_azalea": {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flowering Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves, on top of Azalea trees"
+        },
+        description: "Flowering Azalea is a decorative bush variant of the azalea plant, characterized by its vibrant pink flowers. It grows naturally in Lush Caves and atop Azalea trees that mark underground caves. Unlike regular azalea, this variant counts as a flower, allowing it to be used by bees for pollination. It can be planted on many surface blocks including moss, dirt, and grass. Applying bone meal to a flowering azalea will cause it to grow into a full-sized azalea tree. It is a popular choice for garden decoration and adding floral detail to builds."
     }
 };

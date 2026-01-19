@@ -3309,5 +3309,33 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/items/reeds",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        category: "block",
+        icon: "textures/blocks/flowering_azalea",
+        themeColor: "§d"
     }
 ];
