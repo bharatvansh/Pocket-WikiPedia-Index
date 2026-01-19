@@ -725,5 +725,47 @@ export const netherBlocks = {
             yRange: "48–72 (Nether Fortresses)"
         },
         description: "Nether Brick Fence is a dark, fire-resistant barrier block found naturally in Nether Fortresses. Unlike wooden fences, it is immune to fire and cannot be burned, making it a superior choice for building in the Nether or near lava. It has a higher blast resistance than most Overworld fences and requires a pickaxe to mine. While it does not connect to wooden fences, it connects to most solid blocks and other nether brick fence pieces. It is crafted from nether bricks and nether brick items, providing a sturdy and atmospheric defensive perimeter for any fortress or dark-themed build."
+    },
+    "minecraft:warped_door": {
+        id: "minecraft:warped_door",
+        name: "Warped Door",
+        hardness: 3,
+        blastResistance: 3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Door"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "The Warped Door is a unique, fireproof door crafted from warped planks found in the Nether's Warped Forest. Unlike Overworld wooden doors, it does not burn or catch fire, making it an essential building component for bases in the Nether. It features a striking teal color and a strange, alien-like texture that matches the warped wood family. Functionally, it behaves like a standard door that players can open and close manually, but its resistance to fire and lava provides superior protection in hazardous environments."
+    },
+    "minecraft:crimson_door": {
+        id: "minecraft:crimson_door",
+        name: "Crimson Door",
+        hardness: 3,
+        blastResistance: 3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Door"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "The Crimson Door is a fire-resistant door made from crimson planks, native to the Crimson Forest biomes in the Nether. It shares the fireproof properties of all Nether wood types, ensuring it remains intact even when exposed to nearby lava or fire. Its deep maroon and red hues provide a dark, rustic aesthetic that complements netherrack and blackstone builds. Like other doors in Bedrock Edition, it can be used to block mob pathfinding and can be opened by hand or with redstone signals, all while resisting the Nether's heat."
     }
 };
