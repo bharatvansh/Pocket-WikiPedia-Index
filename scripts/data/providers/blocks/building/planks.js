@@ -198,5 +198,110 @@ export const plankBlocks = {
             yRange: "N/A"
         },
         description: "Mangrove Planks are a deep red building material harvested from Mangrove trees in the Mangrove Swamp biome. They were introduced in the 1.19 Wild Update. Like other wood types, they are versatile and can be crafted into stairs, slabs, doors, and fences. Their rich coloration makes them a favorite for adding bold accents to builds, especially in tropical or nautical themes. They share the same physical properties as other wood planks, offering both durability and aesthetic appeal for a wide range of construction projects."
+    },
+    "minecraft:oak_planks": {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oak Logs"
+        },
+        description: "Oak Planks are a staple building block in Minecraft, crafted from Oak Logs found in forests. Featuring a classic light brown hue, they are the most common wood variety and serve as the foundation for countless builds. These versatile planks can be used to craft basic essentials like crafting tables, chests, boats, and tools. They are flammable and easily broken with an axe, but provide a sturdy and aesthetically pleasing material for homes and structures. Whether you are a beginner or a veteran builder, Oak Planks remain an essential part of any survival journey."
+    },
+    "minecraft:spruce_planks": {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Logs"
+        },
+        description: "Spruce Planks are a dark, rich brown building material crafted from Spruce Logs, primarily found in Taiga and Snowy biomes. Their deep coloration often makes them a favorite for rustic, medieval, or mountain-themed architecture. Like all wooden planks, they are versatile enough to be crafted into stairs, slabs, doors, and fences, maintaining a cohesive dark aesthetic across all wooden components. Spruce trees are known for their height and density, providing an abundant source of this wood. These planks are flammable but offer reliable durability for any construction."
+    },
+    "minecraft:birch_planks": {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Logs"
+        },
+        description: "Birch Planks are a light, cream-colored building block crafted from Birch Logs, commonly found in Birch Forests. Their pale, almost white appearance provides a bright and clean look, making them ideal for modern interior designs or as a high-contrast accent against darker materials. Birch wood is widely utilized for its pleasant aesthetic and is fully compatible with all wood-based crafting recipes, including sticks and tools. While they share the same flammability and hardness as other planks, their distinctive brightness sets them apart in the game's diverse wood palette."
+    },
+    "minecraft:jungle_planks": {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Logs"
+        },
+        description: "Jungle Planks are derived from the massive Jungle trees found in tropical biomes. They feature a unique pinkish-orange tint that distinguishes them from more traditional wood types like Oak or Spruce. Harvested in lush, vine-covered environments, these planks are perfect for tropical-themed builds, treehouses, or adding a warmer tone to a structure. They function identically to other planks in terms of crafting versatility and durability, allowing for the creation of unique stairs and boats. Their vibrant color captures the essence of the dense jungles they originate from."
+    },
+    "minecraft:acacia_planks": {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Logs"
+        },
+        description: "Acacia Planks are recognized for their bold, vibrant orange color, crafted from Acacia Logs found in the Savanna biome. Their striking appearance makes them a popular choice for unique architectural designs or as a contrasting floor material. Acacia trees grow in distinct, umbrella-like shapes, reflecting the harsh but beautiful environment of the savanna. These planks provide all the standard utility of wood, including fire susceptibility and ease of mining with an axe. Their intense hue adds a touch of the exotic to any landscape, providing a warm and inviting feel to builds."
     }
 };

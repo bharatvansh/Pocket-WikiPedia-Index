@@ -2868,5 +2868,75 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:infested_stone_bricks",
+        name: "Infested Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/mossy_stone_bricks",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:infested_cracked_stone_bricks",
+        name: "Infested Cracked Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
     }
 ];
