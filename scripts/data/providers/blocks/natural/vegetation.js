@@ -1149,5 +1149,89 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Banks of water (0-128)"
+        },
+        description: "Sugar Cane is a vital plant found naturally along the banks of rivers and oceans in the Overworld. In Bedrock Edition, it can be instantly grown to a maximum height of three blocks using bone meal, provided it is planted on grass, dirt, sand, or podzol adjacent to water. It is primarily used to craft paper for books and maps, or sugar for culinary and alchemical recipes. Breaking the bottom section will cause all segments above it to drop as items, making harvesting quick and efficient."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle and Bamboo Jungle biomes"
+        },
+        description: "Bamboo is a fast-growing plant primarily found in Jungle biomes. It can grow exceptionally tall and is an extremely versatile resource. Bamboo can be used as fuel, to breed pandas, or crafted into scaffolding, sticks, and the bamboo wood set. In Bedrock Edition, using bone meal on bamboo will cause it to grow instantly. While it can be broken with any tool, a sword or axe is the most effective. It serves as a sustainable source of building materials and fuel for many survival projects."
+    },
+    "minecraft:large_fern": {
+        id: "minecraft:large_fern",
+        name: "Large Fern",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Large Fern (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle and Taiga biomes"
+        },
+        description: "The Large Fern is a two-block tall variant of the common fern, found naturally in lush biomes like Jungles and Taigas. Like its smaller counterpart, it is purely decorative and adds a dense, wild aesthetic to landscapes. When broken by hand, it has a chance to drop wheat seeds, but it must be harvested with Shears to be obtained as an item. Applying bone meal to a regular fern will cause it to grow into a Large Fern, providing builders with an excellent option for realistic forest undergrowth."
+    },
+    "minecraft:yellow_flower": {
+        id: "minecraft:yellow_flower",
+        name: "Dandelion",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dandelion"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Most grassy biomes"
+        },
+        description: "The Dandelion is one of the most common flowers in Minecraft, recognizable by its bright yellow petals. It generates naturally in most grassy biomes across the Overworld. Dandelions are a primary source of yellow dye and can be used to craft suspicious stew, which provides a Saturation effect in Bedrock Edition. In addition to their practical uses, they are popular for decoration and are a favorite for bees. Applying bone meal to grass blocks in favorable biomes will produce more dandelions."
     }
 };

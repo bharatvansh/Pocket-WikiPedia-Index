@@ -157,6 +157,27 @@ export const endBlocks = {
         },
         description: "Chorus Plants are strange, branching tree-like structures native to the outer islands of the End dimension. They grow from a single Chorus Flower planted on End Stone. Breaking a lower section of the plant causes all sections above it to break as well, similar to sugar cane or cacti. When broken, they drop Chorus Fruit, which can be eaten to teleport the player to a nearby location or smelted into Popped Chorus Fruit for crafting Purpur blocks and End Rods. They provide a renewable resource for high-end building materials and survival mechanics in the End."
     },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Exit Portal (center island)"
+        },
+        description: "The Dragon Egg is a rare trophy block and the final reward for defeating the Ender Dragon. Only one naturally generates per world, appearing at the top of the exit portal. When a player attempts to mine it, the egg typically teleports to a nearby surface. To collect it, players must push it with a piston or cause it to fall onto a non-solid block like a torch or slab. It is one of the rarest objects in Minecraft, representing the ultimate achievement in survival mode."
+    },
     "minecraft:end_portal_frame": {
         id: "minecraft:end_portal_frame",
         name: "End Portal Frame",

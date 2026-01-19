@@ -2905,6 +2905,34 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/items/bamboo",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:large_fern",
+        name: "Large Fern",
+        category: "block",
+        icon: "textures/blocks/large_fern_top",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:yellow_flower",
+        name: "Dandelion",
+        category: "block",
+        icon: "textures/blocks/flower_dandelion",
+        themeColor: "§e" // yellow
+    },
+    {
         id: "minecraft:oak_leaves",
         name: "Oak Leaves",
         category: "block",
@@ -3015,6 +3043,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_gateway",
         themeColor: "§5"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§8" // dark gray/purple
     },
     {
         id: "minecraft:bamboo_sapling",
