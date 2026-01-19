@@ -105,13 +105,6 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
-        category: "item",
-        icon: "textures/items/heavy_core",
-        themeColor: "§7"
-    },
-    {
         id: "minecraft:red_bundle",
         name: "Red Bundle",
         category: "item",
@@ -677,55 +670,6 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bundle_lime",
         themeColor: "§a"
-    },
-    {
-        id: "minecraft:green_bundle",
-        name: "Green Bundle",
-        category: "item",
-        icon: "textures/items/bundle_green",
-        themeColor: "§2"
-    },
-    {
-        id: "minecraft:brown_bundle",
-        name: "Brown Bundle",
-        category: "item",
-        icon: "textures/items/bundle_brown",
-        themeColor: "§6"
-    },
-    {
-        id: "minecraft:purple_bundle",
-        name: "Purple Bundle",
-        category: "item",
-        icon: "textures/items/bundle_purple",
-        themeColor: "§5"
-    },
-    {
-        id: "minecraft:cyan_bundle",
-        name: "Cyan Bundle",
-        category: "item",
-        icon: "textures/items/bundle_cyan",
-        themeColor: "§3"
-    },
-    {
-        id: "minecraft:pink_bundle",
-        name: "Pink Bundle",
-        category: "item",
-        icon: "textures/items/bundle_pink",
-        themeColor: "§d"
-    },
-    {
-        id: "minecraft:gray_bundle",
-        name: "Gray Bundle",
-        category: "item",
-        icon: "textures/items/bundle_gray",
-        themeColor: "§8"
-    },
-    {
-        id: "minecraft:light_gray_bundle",
-        name: "Light Gray Bundle",
-        category: "item",
-        icon: "textures/items/bundle_light_gray",
-        themeColor: "§7"
     },
     {
         id: "minecraft:echo_shard",
@@ -3398,20 +3342,6 @@ export const itemIndex = [
         name: "Boron Trioxide",
         category: "item",
         icon: "textures/items/compound",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:pale_oak_sapling",
-        name: "Pale Oak Sapling",
-        category: "item",
-        icon: "textures/blocks/pale_oak_sapling",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:pale_moss_carpet",
-        name: "Pale Moss Carpet",
-        category: "item",
-        icon: "textures/blocks/pale_moss_carpet",
         themeColor: "§f"
     }
 ];

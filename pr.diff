@@ -1,0 +1,167 @@
+diff --git a/scripts/data/providers/items/misc/other.js b/scripts/data/providers/items/misc/other.js
+index 3b93df1..d40aa42 100644
+--- a/scripts/data/providers/items/misc/other.js
++++ b/scripts/data/providers/items/misc/other.js
+@@ -340,6 +340,116 @@ export const miscItems = {
+         ],
+         description: "The Blue Bundle offers a cool, calm aesthetic for inventory management. Obtained by dyeing a standard bundle with blue dye, it functions identically to other bundles. Many players use blue bundles to store water-themed resources like kelp, shells, or ice."
+     },
++    "minecraft:orange_bundle": {
++        id: "minecraft:orange_bundle",
++        name: "Orange Bundle",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Inventory organization",
++            secondaryUse: "Storage of diverse small-stack items"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Bundle", "Orange Dye"]
++        },
++        specialNotes: [
++            "Can hold up to 64 items (depending on their individual stack sizes)",
++            "Crafted by combining a standard bundle with orange dye",
++            "Allows for color-coded organization of inventories",
++            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
++        ],
++        description: "The Orange Bundle is a colorful storage tool introduced in the Bundles of Bravery drop. It allows players to combine different item types into a single inventory slot, saving precious space during exploration. By using orange dye on a standard bundle, players can create this vibrant pouch. It is ideal for categorizing resources like copper, pumpkins, or acacia wood, making it easier to stay organized while on the go in the vast world of Minecraft Bedrock Edition."
++    },
++    "minecraft:magenta_bundle": {
++        id: "minecraft:magenta_bundle",
++        name: "Magenta Bundle",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Inventory organization",
++            secondaryUse: "Storage of diverse small-stack items"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Bundle", "Magenta Dye"]
++        },
++        specialNotes: [
++            "Can hold up to 64 items (depending on their individual stack sizes)",
++            "Crafted by combining a standard bundle with magenta dye",
++            "Allows for color-coded organization of inventories",
++            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
++        ],
++        description: "The Magenta Bundle is a bright and distinctive variant of the bundle item, added in the 1.21.40 update. It provides the same essential storage functionality as all bundles, allowing for up to 64 items of various types to be grouped together. Its unique magenta color is perfect for players who want their storage to stand out or for organizing end-themed loot like chorus fruit. Crafted with magenta dye, it adds a splash of color to any player's inventory management system."
++    },
++    "minecraft:light_blue_bundle": {
++        id: "minecraft:light_blue_bundle",
++        name: "Light Blue Bundle",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Inventory organization",
++            secondaryUse: "Storage of diverse small-stack items"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Bundle", "Light Blue Dye"]
++        },
++        specialNotes: [
++            "Can hold up to 64 items (depending on their individual stack sizes)",
++            "Crafted by combining a standard bundle with light blue dye",
++            "Allows for color-coded organization of inventories",
++            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
++        ],
++        description: "The Light Blue Bundle brings a soft, airy aesthetic to inventory organization. Part of the 'Bundles of Bravery' update, this item is crafted by combining a standard bundle with light blue dye. It functions as a compact storage solution, especially useful for gathering small quantities of various materials without filling up the inventory. The light blue color is often chosen by players for sorting sky or ocean-related items, helping to maintain a tidy and visually appealing backpack."
++    },
++    "minecraft:yellow_bundle": {
++        id: "minecraft:yellow_bundle",
++        name: "Yellow Bundle",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Inventory organization",
++            secondaryUse: "Storage of diverse small-stack items"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Bundle", "Yellow Dye"]
++        },
++        specialNotes: [
++            "Can hold up to 64 items (depending on their individual stack sizes)",
++            "Crafted by combining a standard bundle with yellow dye",
++            "Allows for color-coded organization of inventories",
++            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
++        ],
++        description: "The Yellow Bundle is a sunny and cheerful storage pouch that helps players tackle inventory clutter. Introduced in version 1.21.40, it allows for the storage of multiple items in one slot, with the total capacity base on standard stack sizes. This yellow variant is easily identifiable in a busy inventory, making it perfect for marking high-priority supplies or gold-related items. It is a practical and stylish addition to any adventurer's gear, crafted simply with yellow dye."
++    },
++    "minecraft:lime_bundle": {
++        id: "minecraft:lime_bundle",
++        name: "Lime Bundle",
++        maxStack: 1,
++        durability: 0,
++        enchantable: false,
++        usage: {
++            primaryUse: "Inventory organization",
++            secondaryUse: "Storage of diverse small-stack items"
++        },
++        crafting: {
++            recipeType: "Shaped",
++            ingredients: ["Bundle", "Lime Dye"]
++        },
++        specialNotes: [
++            "Can hold up to 64 items (depending on their individual stack sizes)",
++            "Crafted by combining a standard bundle with lime dye",
++            "Allows for color-coded organization of inventories",
++            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
++        ],
++        description: "The Lime Bundle is a vivid, green-tinted storage item that arrived with the 'Bundles of Bravery' drop for Bedrock Edition. It offers players a convenient way to condense their items, holding up to 64 units across multiple types. By dyeing a bundle with lime dye, players get a pouch that is perfect for organizing natural resources like saplings, seeds, or moss. Its bright color ensures it won't be easily lost among other items, providing both utility and aesthetic appeal."
++    },
+     "minecraft:spyglass": {
+         id: "minecraft:spyglass",
+         name: "Spyglass",
+diff --git a/scripts/data/search/item_index.js b/scripts/data/search/item_index.js
+index 80f5bc1..235df7d 100644
+--- a/scripts/data/search/item_index.js
++++ b/scripts/data/search/item_index.js
+@@ -636,6 +636,41 @@ export const itemIndex = [
+         icon: "textures/items/bundle_blue",
+         themeColor: "§9"
+     },
++    {
++        id: "minecraft:orange_bundle",
++        name: "Orange Bundle",
++        category: "item",
++        icon: "textures/items/bundle_orange",
++        themeColor: "§6"
++    },
++    {
++        id: "minecraft:magenta_bundle",
++        name: "Magenta Bundle",
++        category: "item",
++        icon: "textures/items/bundle_magenta",
++        themeColor: "§d"
++    },
++    {
++        id: "minecraft:light_blue_bundle",
++        name: "Light Blue Bundle",
++        category: "item",
++        icon: "textures/items/bundle_light_blue",
++        themeColor: "§b"
++    },
++    {
++        id: "minecraft:yellow_bundle",
++        name: "Yellow Bundle",
++        category: "item",
++        icon: "textures/items/bundle_yellow",
++        themeColor: "§e"
++    },
++    {
++        id: "minecraft:lime_bundle",
++        name: "Lime Bundle",
++        category: "item",
++        icon: "textures/items/bundle_lime",
++        themeColor: "§a"
++    },
+     {
+         id: "minecraft:echo_shard",
+         name: "Echo Shard",

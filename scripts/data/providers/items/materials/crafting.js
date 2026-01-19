@@ -894,6 +894,29 @@ export const craftingMaterials = {
         ],
         description: "Resin Bricks are durable crafting materials obtained by hardening Resin Clumps through the smelting process. Found in the eerie Pale Garden biome, these bricks serve as the primary component for constructing Resin Bricks blocks and Resin Walls. Their distinctive orange-brown hue makes them an excellent choice for players looking to add unique color and texture to their builds. As a part of the Pale Garden's ecosystem, Resin Bricks represent the transformation of organic resin into a solid, reliable building material."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace",
+            secondaryUse: "Decorative block"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare drop from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Rare reward from Ominous Vaults in Trial Chambers",
+            "Essential component for crafting the Mace (with a Breeze Rod)",
+            "Highly heavy block that cannot be moved by pistons",
+            "Distinctive appearance that serves as a status symbol",
+            "Introduced in the 1.21 Tricky Trials update"
+        ],
+        description: "The Heavy Core is a rare and powerful block-item primarily used as a crafting component for the Mace. It is obtained exclusively as a rare drop from Ominous Vaults in Trial Chambers, which require an Ominous Trial Key to open. When combined with a Breeze Rod in a crafting grid, it forms the Mace, a legendary weapon that deals increased damage based on fall distance. Aside from its crafting role, it can be placed as a decorative block with unique properties, making it a prized trophy for players who conquer the most difficult combat challenges in the game."
+    },
     "minecraft:glowstone_dust": {
         id: "minecraft:glowstone_dust",
         name: "Glowstone Dust",
