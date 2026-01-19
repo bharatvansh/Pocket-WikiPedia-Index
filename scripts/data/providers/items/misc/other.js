@@ -1,94 +1,35 @@
-// Pocket Wikipedia Foundation - Other Miscellaneous Items Data
-// ============================================
-// This file contains: Name tag, saddle, horse armor (all types),
-// lead, trial key, ominous trial key, written book, book and quill,
+// Pocket Wikipedia Foundation - Miscellaneous Items Provider
+// Contains metadata for items that don't fit into other categories:
 // enchanted book, knowledge book, bundle, goat horn (all variants),
-// painting, item frame, glow item frame, armor stand, end crystal,
-// experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
-// ============================================
+// dragon egg, elytra, and other unique items.
 
 /**
- * Other miscellaneous items data registry
- * @type {Object.<string, import('../../item_types').ItemDetails>}
+ * Miscellaneous items metadata
+ * @type {Object.<string, import('../index').ItemMetadata>}
  */
 export const miscItems = {
     "minecraft:dragon_egg": {
         id: "minecraft:dragon_egg",
         name: "Dragon Egg",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Trophy item",
-            secondaryUse: "Decorative and status symbol"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained by defeating the Ender Dragon"]
-        },
-        specialNotes: [
-            "Only one Dragon Egg naturally generates per world",
-            "Teleports when hit or interacted with in Survival mode",
-            "Falls like sand or gravel if no block is beneath it",
-            "Can be collected using a piston or by placing a torch beneath it",
-            "Widely considered the rarest item in Minecraft"
-        ],
-        description: "The Dragon Egg is a unique trophy item that appears at the top of the exit portal after defeating the Ender Dragon for the first time. It is widely considered the rarest item in the game since only one naturally generates per world. While it has no functional crafting use, it serves as a prestigious decorative piece. In survival mode, attempting to mine it normally will cause it to teleport to a nearby location; players must use clever methods like pistons or placing a torch under the block it falls on to successfully collect it."
-    },
-    "minecraft:name_tag": {
-        id: "minecraft:name_tag",
-        name: "Name Tag",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Naming mobs to prevent them from despawning",
-            secondaryUse: "Customizing mobs and adding personal touches to tamed pets"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in dungeon chests, mineshaft chests, woodland mansion chests, ancient city chests", "Obtained from fishing (0.8% chance)", "Purchased from Librarian villagers (20 emeralds at Master level)"]
-        },
-        specialNotes: [
-            "Prevents mob despawning; requires renaming at an anvil (1 XP)",
-            "Found in Dungeon, Mineshaft, Mansion, and Ancient City chests",
-            "Fishing treasure drop (0.8%); sold by Master Librarians (20 emeralds)",
-            "Naming hostile mobs prevents despawning (except in Peaceful)",
-            "Custom names appear in death messages if the mob kills a player"
-        ],
-        description: "A Name Tag is a utility item used to name mobs and prevent them from despawning. To use one, rename it at an anvil for one experience level, then apply it to a mob. This consumes the tag. Named mobs persist in the world and display their name above their head; their name also appears in death messages if they kill a player. Players can find Name Tags in loot chests (dungeons, mineshafts, ancient cities), catch them through fishing (0.8% chance), or buy them from Master-level Librarian villagers for 20 emeralds."
-    },
-    "minecraft:shield": {
-        id: "minecraft:shield",
-        name: "Shield",
         maxStack: 1,
-        durability: 336,
-        enchantable: true,
+        durability: 0,
+        enchantable: false,
         usage: {
-            primaryUse: "Blocking attacks",
-            secondaryUse: "Deflecting projectiles"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+            primaryUse: "Ultimate trophy and decorative block",
+            secondaryUse: "Teleports when interacted with (right-click/tap)"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Wood Planks x6", "Iron Ingot"]
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by defeating the Ender Dragon for the first time"]
         },
         specialNotes: [
-            "Blocks 100% of attack damage when raised",
-            "Can block arrows, tridents, and other projectiles",
-            "Creeper explosions and axes can disable shields temporarily",
-            "Can be decorated with banner patterns",
-            "Enchantable with Unbreaking and Mending"
+            "Only one Dragon Egg exists naturally per world",
+            "Falls like sand or gravel if no block is beneath it",
+            "Can be mined by placing a torch two blocks below and breaking the block it sits on",
+            "Does not have a functional use in crafting or progression beyond decoration",
+            "Considered the rarest item in a single-player survival world"
         ],
-        description: "The Shield is a defensive tool that can block incoming melee attacks and projectiles. When raised by crouching or using secondary action button, it reduces incoming damage to zero. Shields can be customized with banner patterns and enhanced with enchantments for increased durability."
+        description: "The Dragon Egg is the rarest and most prestigious trophy in Minecraft. It appears on the exit portal after the Ender Dragon is defeated for the very first time in a world. While it has no functional purpose in terms of gameplay progression or crafting, it serves as a symbol of a player's triumph over the game's final boss. It has the unique property of teleporting to a nearby location when clicked, making it notoriously difficult to pick up without specific techniques like using pistons or gravity-based mining."
     },
     "minecraft:elytra": {
         id: "minecraft:elytra",
@@ -97,26 +38,21 @@ export const miscItems = {
         durability: 432,
         enchantable: true,
         usage: {
-            primaryUse: "Gliding through air",
-            secondaryUse: "Fast travel with fireworks"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+            primaryUse: "Gliding and powered flight (with firework rockets)",
+            secondaryUse: "High-speed transportation across long distances"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found in End Ships"]
+            ingredients: ["Found in End Ships within End Cities"]
         },
         specialNotes: [
-            "Equipped in the chestplate slot",
-            "Allows gliding when jumping from heights",
-            "Firework rockets can boost speed while gliding",
-            "Loses durability over time while gliding (1 per second)",
-            "Can only be found in End Ship item frames",
-            "Repairable with Phantom Membranes or Mending enchantment"
+            "Equipped in the chestplate slot; reduces armor protection to zero for that slot",
+            "Repaired using Phantom Membranes in an anvil or the Mending enchantment",
+            "Lose 1 durability point per second while gliding",
+            "When durability reaches 1, they become 'Broken Elytra' and stop functioning until repaired",
+            "Can be enchanted with Unbreaking and Mending for longevity"
         ],
-        description: "Elytra are rare wings found exclusively in End Ships within End Cities. They allow the player to glide through the air and, when combined with firework rockets, enable powerful flight capabilities. Elytra are one of the most sought-after items in the game, providing unparalleled mobility for exploration and travel."
+        description: "Elytra are rare, high-tier items that provide players with the ability to glide and fly. Found exclusively in End Ships, they are considered one of the most transformative items in the game, completely changing how players navigate the world. When paired with firework rockets, Elytra allow for sustained, powered flight, making them the fastest mode of travel in Minecraft. They are fragile and require regular maintenance with Phantom Membranes to prevent them from becoming broken and unusable."
     },
     "minecraft:trial_key": {
         id: "minecraft:trial_key",
@@ -125,19 +61,21 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Unlocking a Vault in a Trial Chamber",
-            secondaryUse: "Claiming loot rewards from Trial Chamber challenges"
+            primaryUse: "Unlocking Vaults in Trial Chambers",
+            secondaryUse: "Accessing loot from Trial Spawner rewards"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained from Trial Spawners and some other containers in Trial Chambers"]
+            recipeType: "None",
+            ingredients: ["Dropped by Trial Spawners after defeating all mobs"]
         },
         specialNotes: [
-            "Consumed when used to unlock a Vault",
-            "Each Vault can be unlocked only once per player",
-            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
+            "Introduced in Bedrock Edition 1.21",
+            "Has a 50% chance to drop from a standard Trial Spawner",
+            "Consumed upon use when unlocking a Vault",
+            "Distinct from the Ominous Trial Key used for Ominous Vaults",
+            "A stackable reward that encourages multiple dungeon runs"
         ],
-        description: "The Trial Key is a reward item tied to Trial Chambers in Minecraft Bedrock Edition. It is used on a Vault to claim its loot, with the vault tracking which players have already opened it so each player can only unlock it once. Trial Keys are primarily earned from Trial Spawners after completing their combat waves, and can also appear in other Trial Chamber containers."
+        description: "The Trial Key is a specialized utility item used to unlock Vaults found within Trial Chambers. These keys are earned by successfully completing the challenges set by Trial Spawners. Once all mobs from a spawner are defeated, there is a high chance it will eject a Trial Key as part of its reward. Using the key on a Vault grants the player a variety of valuable loot, but the key is consumed in the process. Each Vault can only be opened once per player, encouraging explorers to seek out more chambers."
     },
     "minecraft:ominous_trial_key": {
         id: "minecraft:ominous_trial_key",
@@ -146,89 +84,66 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Unlocking an Ominous Vault in a Trial Chamber",
-            secondaryUse: "Accessing higher-tier Trial Chamber loot during ominous trials"
+            primaryUse: "Unlocking Ominous Vaults in Trial Chambers",
+            secondaryUse: "Obtaining high-tier rewards like the Heavy Core"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained only from Ominous Trial Spawners"]
+            recipeType: "None",
+            ingredients: ["Dropped by Ominous Trial Spawners"]
         },
         specialNotes: [
-            "Consumed when used to unlock an Ominous Vault",
-            "Ominous Trial Spawners are created when a player carrying the Trial Omen effect activates a Trial Spawner",
-            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
+            "Requires the 'Bad Omen' effect to be active near Trial Spawners",
+            "Features a much more difficult combat challenge than standard keys",
+            "Has a 30% chance to drop from an Ominous Trial Spawner",
+            "The only way to obtain the Heavy Core for crafting the Mace",
+            "Identified by its darker, more menacing texture compared to the standard key"
         ],
-        description: "The Ominous Trial Key is an upgraded form of the Trial Key used to open Ominous Vaults in Trial Chambers. These vaults provide significantly better loot, but the key is only obtainable from Ominous Trial Spawners during an ominous trial. Like normal vaults, an Ominous Vault can only be unlocked once per player, and the key is consumed on use."
+        description: "The Ominous Trial Key is a rare and dangerous variant of the standard Trial Key, used to unlock the significantly more valuable Ominous Vaults. To obtain one, players must trigger an Ominous Trial by approaching a Trial Spawner while under the Raid Omen effect. This initiates a much harder version of the Trial Spawner's challenge. If successful, the spawner has a chance to drop this key. These keys provide access to the best loot the chambers have to offer, including the elusive Heavy Core."
     },
-    "minecraft:trial_explorer_map": {
-        id: "minecraft:trial_explorer_map",
-        name: "Trial Explorer Map",
-        maxStack: 1,
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Locating Trial Chambers",
-            secondaryUse: "Navigation and structure scouting"
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "High-value decorative block"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Traded by Journeyman Cartographer villagers"]
+            ingredients: ["Rare reward from Ominous Vaults (7.5% chance)"]
         },
         specialNotes: [
-            "Points to the nearest Trial Chamber in the Overworld",
-            "Obtained from Journeyman level Cartographer villagers for 12 emeralds and a compass",
-            "Essential tool for locating the Tricky Trials update's main structure",
-            "In Bedrock Edition, they were added in the 1.21 update",
-            "Unlike standard maps, these cannot be crafted from scratch"
+            "Extremely heavy; cannot be moved by pistons",
+            "Used with a Breeze Rod in a crafting table to create the Mace",
+            "One of the most difficult items to obtain in the 1.21 update",
+            "Emits a distinct metallic sound when placed or broken",
+            "A block-item hybrid that can be placed in the world"
         ],
-        description: "The Trial Explorer Map is a specialized navigational tool used to uncover the location of Trial Chambers. These maps are not found in chests or crafted; instead, they must be purchased from a Journeyman-level Cartographer. The map reveals the surrounding terrain of a nearby Trial Chamber, marking its location with a small icon. This makes them indispensable for players looking to engage with the combat challenges and rewards of the chambers."
+        description: "The Heavy Core is a dense, metallic block-item that serves as the heart of the Mace weapon. It is one of the rarest rewards in the game, only obtainable by unlocking Ominous Vaults within Trial Chambers. Its primary purpose is to be combined with a Breeze Rod to create the Mace, a powerful weapon that scales damage with fall distance. Due to its weight and rarity, the Heavy Core is a symbol of both martial prowess and a bit of luck in conquering the game's toughest trials."
     },
-    "minecraft:wolf_armor": {
-        id: "minecraft:wolf_armor",
-        name: "Wolf Armor",
-        maxStack: 1,
-        durability: 64,
+    "minecraft:breeze_rod": {
+        id: "minecraft:breeze_rod",
+        name: "Breeze Rod",
+        maxStack: 64,
+        durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Equipping on tamed wolves to provide damage protection",
-            secondaryUse: "Can be repaired with additional armadillo scutes"
+            primaryUse: "Crafting Wind Charges and the Mace",
+            secondaryUse: "Crafting Flow Armor Trim and Flow Banner Patterns"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Armadillo Scute x6"]
+            recipeType: "None",
+            ingredients: ["Dropped by Breezes in Trial Chambers"]
         },
         specialNotes: [
-            "Provides 11 armor points when equipped (equivalent to a full set of gold armor)",
-            "Can only be equipped on tamed wolves",
-            "Reduces damage taken by wolves significantly",
-            "Has 64 durability and breaks when depleted",
-            "Can be repaired using armadillo scutes in crafting grid or by using directly on wolf (restores 8 durability)",
-            "Two damaged wolf armors can be combined in crafting grid to repair"
+            "Breezes drop 1-2 rods; increased by Looting enchantment",
+            "Can be crafted into 4 Wind Charges",
+            "Essential component for the Mace (with Heavy Core)",
+            "A relatively new material added in the 1.21 update"
         ],
-        description: "Wolf armor is protective gear for tamed wolves, crafted from armadillo scutes. Introduced in 1.21, it provides protection equivalent to gold armor, absorbing incoming damage until its 64 durability points are depleted. Owners can repair damaged armor using armadillo scutes or by combining two worn pieces. This equipment significantly boosts a wolf's survivability against hostile mobs and environmental hazards, making them more resilient companions for combat and exploration."
-    },
-    "minecraft:totem_of_undying": {
-        id: "minecraft:totem_of_undying",
-        name: "Totem of Undying",
-        maxStack: 1,
-        durability: 1,
-        enchantable: false,
-        usage: {
-            primaryUse: "Prevents death when held in off-hand or main hand",
-            secondaryUse: "Survival in dangerous combat situations and boss fights"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Evokers in Woodland Mansions and Raids"]
-        },
-        specialNotes: [
-            "Prevents death when held (hand/off-hand); consumed on use",
-            "Grants Absorption II (5s), Regeneration II (45s), Fire Resistance I (40s)",
-            "Dropped by Evokers in Mansions and Raids (100% chance)",
-            "Does not protect against void damage or /kill",
-            "Essential specialized loot for hardcore survival"
-        ],
-        description: "The Totem of Undying prevents death if held in either hand when taking lethal damage. Upon use, the item is consumed and grants the player Absorption II, Regeneration II, and Fire Resistance I. Totems are exclusively dropped by Evokers in Woodland Mansions and Raids. Note that it does not protect against void damage or the /kill command. This legendary survival tool provides a crucial second chance, making it one of the most sought-after items for high-stakes combat and exploration."
+        description: "The Breeze Rod is a specialized crafting material dropped by the Breeze mob, found within Trial Chambers. It crackles with elemental wind energy and serves multiple purposes in high-level crafting. Most notably, it is used alongside a Heavy Core to create the Mace, and it can also be broken down into Wind Charges for player use. Its versatility and connection to the Trial Chambers make it a highly sought-after drop for players looking to master the 1.21 combat features."
     },
     "minecraft:bundle": {
         id: "minecraft:bundle",
@@ -237,17 +152,18 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Staging and organizing multiple items within a single inventory slot.",
-            secondaryUse: "Items can be added or removed from the bundle while it is held in the inventory."
+            primaryUse: "Storing and organizing multiple item types in one slot",
+            secondaryUse: "Gathering diverse items during early exploration"
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["Leather", "String"]
+            ingredients: ["String x1", "Leather x1"]
         },
         specialNotes: [
-            "Can hold up to 64 items of varying types.",
-            "The capacity depends on the stack size of the items placed inside.",
-            "Can be dyed in 16 different colors using dyes in a crafting grid.",
+            "Can hold up to 64 items (1 stack equivalent)",
+            "Items can be added or removed from the bundle while it is held in the inventory.",
+            "Visual bar indicates how full the bundle is",
+            "Empty bundles stack to 1, but multiple bundles can be carried in the inventory",
             "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
         ],
         description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
@@ -259,17 +175,16 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Bundle", "White Dye"]
         },
         specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Functions identically to a standard bundle",
             "Crafted by combining a standard bundle with white dye",
-            "Allows for color-coded organization of inventories",
             "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
         description: "The White Bundle is a colored variant of the bundle storage item. Like the original, it can condense multiple different items into a single inventory slot, but with a clean white aesthetic. It is especially useful for players who want to categorize their loot color-wise, such as white blocks or materials. It represents a significant quality-of-life improvement for explorers who gather many different types of resources on their journeys."
@@ -281,17 +196,16 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Bundle", "Black Dye"]
         },
         specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Functions identically to a standard bundle",
             "Crafted by combining a standard bundle with black dye",
-            "Allows for color-coded organization of inventories",
             "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
         description: "The Black Bundle provides the same inventory management benefits as the standard bundle but with a dark obsidian-like appearance. By combining a bundle with black dye, players can create a sleek storage pouch for their darkest treasures. It is perfect for organizing end-game materials or simply adding a bit of style to a player's inventory management system."
@@ -303,17 +217,16 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Bundle", "Red Dye"]
         },
         specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Functions identically to a standard bundle",
             "Crafted by combining a standard bundle with red dye",
-            "Allows for color-coded organization of inventories",
             "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
         description: "The Red Bundle is a vibrant storage option for players who like to keep their inventories organized and colorful. Like other bundle variants, it allows for grouping multiple item types together. The red color is perfect for highlighting important resources or weapons in a cluttered backpack."
@@ -325,66 +238,252 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
+            recipeType: "Shapeless",
             ingredients: ["Bundle", "Blue Dye"]
         },
         specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
+            "Functions identically to a standard bundle",
             "Crafted by combining a standard bundle with blue dye",
-            "Allows for color-coded organization of inventories",
             "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
         description: "The Blue Bundle offers a cool, calm aesthetic for inventory management. Obtained by dyeing a standard bundle with blue dye, it functions identically to other bundles. Many players use blue bundles to store water-themed resources like kelp, shells, or ice."
     },
-    "minecraft:spyglass": {
-        id: "minecraft:spyglass",
-        name: "Spyglass",
+    "minecraft:orange_bundle": {
+        id: "minecraft:orange_bundle",
+        name: "Orange Bundle",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Zooming in to view distant objects and terrain",
-            secondaryUse: "Exploration and scouting from elevated positions"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Amethyst Shard x1", "Copper Ingot x2"]
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Orange Dye"]
         },
         specialNotes: [
-            "Zooms FOV to 1/8x; restricts movement to sneak speed",
-            "Crafted with 1 Amethyst Shard + 2 Copper Ingots",
-            "Usable in boats/minecarts but not while swimming/flying",
-            "Features circular vignette and smooth zoom transitions",
-            "Useful for scouting distant structures and terrain"
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with orange dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
-        description: "Introduced in 1.17, the Spyglass allows players to zoom in on distant objects by narrowing their FOV to one-eighth of normal. It is crafted using one Amethyst Shard and two Copper Ingots. While in use, movement is restricted to sneaking speed, making it ideal for scouting biomes, structures, or threats from elevated positions. The tool features a unique circular vignette and smooth telescoping animations. Whether you are navigating the landscape or planning a large-scale build, the Spyglass is an essential reconnaissance tool for any explorer."
+        description: "The Orange Bundle is a colorful storage tool introduced in the Bundles of Bravery drop. It allows players to combine different item types into a single inventory slot, saving precious space during exploration. By using orange dye on a standard bundle, players can create this vibrant pouch. It is ideal for categorizing resources like copper, pumpkins, or acacia wood, making it easier to stay organized while on the go in the vast world of Minecraft Bedrock Edition."
     },
-    "minecraft:recovery_compass": {
-        id: "minecraft:recovery_compass",
-        name: "Recovery Compass",
-        maxStack: 64,
+    "minecraft:magenta_bundle": {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Finding the location of the player's last death",
-            secondaryUse: "Retrieving items and experience lost on death"
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Echo Shard x8", "Compass x1"]
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Magenta Dye"]
         },
         specialNotes: [
-            "Points to last death location in the current dimension; spins if alive/different dim",
-            "Crafted with Compass + 8 Echo Shards (from Ancient Cities)",
-            "Does not track dropped items, only death coords",
-            "Ineffective in the End dimension in Bedrock Edition",
-            "Crucial for retrieving gear before despawn timer expires"
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with magenta dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
         ],
-        description: "The Recovery Compass points to a player's most recent death location. It only functions within the same dimension where the death occurred; otherwise, it spins randomly. It is crafted using eight Echo Shards (rare loot found in Ancient City chests) and a regular compass. This tool is vital for retrieving dropped items and experience before the five-minute despawn timer. In Bedrock Edition, the compass does not function in the End. Its unique tracking ability makes it a crucial item for high-risk exploration where losing valuable gear is a constant threat."
+        description: "The Magenta Bundle is a bright and distinctive variant of the bundle item, added in the 1.21.40 update. It provides the same essential storage functionality as all bundles, allowing for up to 64 items of various types to be grouped together. Its unique magenta color is perfect for players who want their storage to stand out or for organizing end-themed loot like chorus fruit. Crafted with magenta dye, it adds a splash of color to any player's inventory management system."
+    },
+    "minecraft:light_blue_bundle": {
+        id: "minecraft:light_blue_bundle",
+        name: "Light Blue Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Light Blue Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with light blue dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Light Blue Bundle brings a soft, airy aesthetic to inventory organization. Part of the 'Bundles of Bravery' update, this item is crafted by combining a standard bundle with light blue dye. It functions as a compact storage solution, especially useful for gathering small quantities of various materials without filling up the inventory. The light blue color is often chosen by players for sorting sky or ocean-related items, helping to maintain a tidy and visually appealing backpack."
+    },
+    "minecraft:yellow_bundle": {
+        id: "minecraft:yellow_bundle",
+        name: "Yellow Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Yellow Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with yellow dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Yellow Bundle is a sunny and cheerful storage pouch that helps players tackle inventory clutter. Introduced in version 1.21.40, it allows for the storage of multiple items in one slot, with the total capacity base on standard stack sizes. This yellow variant is easily identifiable in a busy inventory, making it perfect for marking high-priority supplies or gold-related items. It is a practical and stylish addition to any adventurer's gear, crafted simply with yellow dye."
+    },
+    "minecraft:lime_bundle": {
+        id: "minecraft:lime_bundle",
+        name: "Lime Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Lime Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with lime dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Lime Bundle is a vivid, green-tinted storage item that arrived with the 'Bundles of Bravery' drop for Bedrock Edition. It offers players a convenient way to condense their items, holding up to 64 units across multiple types. By dyeing a bundle with lime dye, players get a pouch that is perfect for organizing natural resources like saplings, seeds, or moss. Its bright color ensures it won't be easily lost among other items, providing both utility and aesthetic appeal."
+    },
+    "minecraft:green_bundle": {
+        id: "minecraft:green_bundle",
+        name: "Green Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Green Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with green dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Green Bundle is a dark, forest-toned storage variant introduced in the Bundles of Bravery update. It allows for the efficient organization of items, fitting multiple types into a single inventory slot up to a total count of 64. Crafted by combining a standard bundle with green dye, it is a favorite for players who want to categorize their wilderness finds or foliage-related blocks. Its deep green hue provides a classic Minecraft look while significantly improving the quality of inventory management during long-distance travels."
+    },
+    "minecraft:brown_bundle": {
+        id: "minecraft:brown_bundle",
+        name: "Brown Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Brown Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with brown dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Brown Bundle is a practical storage solution with an earthy aesthetic, added to Bedrock Edition in version 1.21.40. Like all bundles, it can hold up to a stack's worth of diverse items, making it perfect for clearing up the clutter of miscellaneous blocks. It is crafted by dyeing a bundle with brown dye. Many players find the brown bundle ideal for storing wood-related materials, dirt, or other subterranean loot, blending seamlessly with a traditional survivalist's inventory layout."
+    },
+    "minecraft:purple_bundle": {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Purple Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with purple dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Purple Bundle offers a royal and mysterious aesthetic for storage, becoming available as part of the 1.21.40 drop. This variant is created by applying purple dye to a regular bundle, resulting in a sleek pouch that can house various item stacks in one slot. It is particularly useful for organizing high-value or end-game resources like obsidian or shulker-related items. The vibrant purple color makes it easy to locate in a inventory, providing both function and a splash of color to the player's UI."
+    },
+    "minecraft:cyan_bundle": {
+        id: "minecraft:cyan_bundle",
+        name: "Cyan Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Cyan Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with cyan dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Cyan Bundle is a bright and modern storage alternative for Minecraft explorers. Introduced in the 'Bundles of Bravery' update, it allows players to store up to 64 items of different types in a single slot. By crafting a bundle with cyan dye, players receive this distinctively colored pouch. It is often used for ocean-themed resources or prismarine blocks, helping players keep their theme-specific loot organized. This bundle is an essential tool for any player looking to optimize their carrying capacity with style."
+    },
+    "minecraft:pink_bundle": {
+        id: "minecraft:pink_bundle",
+        name: "Pink Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Colored storage pouch",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Pink Dye"]
+        },
+        specialNotes: [
+            "Functions identically to a standard bundle",
+            "Crafted by combining a standard bundle with pink dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Pink Bundle is a cheerful and vibrant storage variant added to the game in version 1.21.40. Crafted using pink dye on a standard bundle, it functions as a compact storage pouch for grouping various items together. This variant is especially popular for players who enjoy a more colorful and personalized inventory setup. Whether you're gathering flowers, wool, or cherry wood, the pink bundle provides a dedicated, easy-to-spot location for your pink-themed collections, ensuring your backpack stays tidy and bright."
+    },
+    "minecraft:totem_of_undying": {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Preventing death once per item",
+            secondaryUse: "Gaining temporary combat buffs (Regeneration, Fire Resistance, Absorption)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Evokers in Woodland Mansions or Raids"]
+        },
+        specialNotes: [
+            "Must be held in the main hand or off-hand when fatal damage is taken",
+            "Consumed upon use, leaving the player with half a heart of health",
+            "Clears all existing status effects upon activation",
+            "Does not prevent death from the Void or the `/kill` command",
+            "One of the few items dropped by specific mobs that cannot be farmed easily without raids"
+        ],
+        description: "The Totem of Undying is a powerful and rare defensive item that offers players a literal second chance at life. When held during a fatal blow, the totem activates, preserving the player's life and granting them a brief window of nearly invulnerable status effects. It is primarily obtained by defeating Evokers, the powerful spellcasters of the Illager family. For many survivors and hardcore mode players, the Totam of Undying is an essential item that they never leave home without."
     },
     "minecraft:goat_horn": {
         id: "minecraft:goat_horn",
@@ -394,73 +493,231 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Playing a loud horn sound",
-            secondaryUse: "Signaling other players over long distances"
+            secondaryUse: "Atmospheric signaling and decoration"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Goats when they ram into solid blocks"]
+            recipeType: "None",
+            ingredients: ["Dropped by a Goat ramming a hard block (Stone, Logs, Ore, etc.)"]
         },
         specialNotes: [
-            "Dropped when a Goat rams into Coal Ore, Copper Ore, Emerald Ore, Iron Ore, Log, Packed Ice, or Stone",
-            "Has 8 sound variants: Ponder, Sing, Seek, Feel (Regular); Admire, Call, Yearn, Dream (Screaming)",
-            "Has a cooldown of 7 seconds between uses",
-            "Sound can be heard up to 256 blocks away",
-            "Not stackable",
-            "Can be used by Pillagers in Raids (specifically the 'Seek' horn sound)",
-            "Does not have durability"
+            "Exists in 8 unique variants: Ponder, Sing, Seek, Feel, Admire, Call, Yearn, and Dream",
+            "4 variants are exclusive to Screaming Goats",
+            "Sound can be heard over long distances (up to 256 blocks)",
+            "Has a 7-second cooldown after being used",
+            "Dropping conditions require the goat to ram a naturally occurring solid block"
         ],
-        description: "The Goat Horn is an instrument item dropped by Goats when they ram into specific hard blocks like logs, stone, packed ice, or ores. There are eight different variants of the horn, each producing a unique sound when used. Four variants (Ponder, Sing, Seek, Feel) are dropped by regular goats, while the other four (Admire, Call, Yearn, Dream) are obtained exclusively from Screaming Goats. When played, the horn emits a loud sound audible up to 256 blocks away, followed by a 7-second cooldown. This makes it an excellent tool for long-distance signaling in multiplayer."
+        description: "Goat Horns are interactive musical instruments that signify player presence or signal activities in multiplayer. They are obtained when a goat accidentally rams into a solid, natural block like stone or iron ore, causing one of its horns to break off. There are eight distinct sounds available, each with its own name and texture variant. While they provide no combat advantage, they are highly valued for their unique sounds and the challenge associated with collecting all eight variants from both regular and rare screaming goats."
     },
-    "minecraft:firework_rocket": {
-        id: "minecraft:firework_rocket",
-        name: "Firework Rocket",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
+    "minecraft:brush": {
+        id: "minecraft:brush",
+        name: "Brush",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
         usage: {
-            primaryUse: "Propelling the player while gliding with Elytra",
-            secondaryUse: "Creating decorative explosions in the sky"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+            primaryUse: "Extracting items from Suspicious Sand and Gravel",
+            secondaryUse: "Participating in Archaeology gameplay"
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["Paper", "Gunpowder (1-3)", "Firework Star (optional)"]
+            ingredients: ["Feather x1", "Copper Ingot x1", "Stick x1"]
         },
         specialNotes: [
-            "Flight duration (1-3) depends on the amount of Gunpowder used.",
-            "If crafted with a Firework Star, it explodes with color and shape effects.",
-            "Rockets used for Elytra boosting should not have explosion effects to avoid damaging the player.",
-            "Can be launched from a dispenser or crossbow.",
-            "Explosion effects include: Small Ball, Large Ball, Star-shaped, Creeper-shaped, and Burst."
+            "Introduced in Bedrock Edition 1.20 (Trails & Tales)",
+            "Only works on Suspicious Sand and Suspicious Gravel blocks",
+            "Can be enchanted with Unbreaking and Mending",
+            "Loses 1 durability point per block successfully brushed",
+            "Essential for finding Pottery Sherds and Armor Trims"
         ],
-        description: "The Firework Rocket is a versatile item used for both decorative displays and functional transport. When crafted with Gunpowder and Paper, it creates a simple rocket; adding Firework Stars imparts colorful explosion effects. Its most critical use in survival is powering Elytra flight, providing a speed boost that enables long-distance travel. The duration of the rocket's flight (tier 1-3) is determined by the amount of gunpowder used in crafting."
+        description: "The Brush is the primary tool for the archaeology system in Minecraft. Crafted with a simple combination of a feather, copper, and a stick, it allows players to carefully uncover hidden treasures buried within suspicious blocks. When used on suspicious sand or gravel found in ruins or wells, the brush slowly reveals the item contained within. This tool is the only way to obtain Pottery Sherds, which can be crafted into decorative pots, and certain rare armor trim smithing templates."
     },
-    "minecraft:firework_star": {
-        id: "minecraft:firework_star",
-        name: "Firework Star",
+    "minecraft:ominous_bottle": {
+        id: "minecraft:ominous_bottle",
+        name: "Ominous Bottle",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Determines the color, effect, and shape of Firework Rockets",
-            secondaryUse: "Crafting item for decorative pyrotechnics"
+            primaryUse: "Triggering the 'Bad Omen' and 'Trial Omen' effects",
+            secondaryUse: "Initiating raids or ominous trials"
         },
         crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Gunpowder", "Any Dye", "Special Ingredient (Optional)"]
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Raid Captains or reward from Vaults"]
         },
         specialNotes: [
-            "Crafted with 1 Gunpowder, at least 1 Dye, and optional effect modifiers",
-            "Modifiers: Diamond (Trail), Glowstone Dust (Twinkle), Fire Charge (Large Ball)",
-            "More modifiers: Gold Nugget (Star-shaped), Feather (Burst), Mob Head (Creeper-shaped)",
-            "Multiple dyes can be used to create multi-colored explosions",
-            "Essential component for crafting meaningful Firework Rockets",
-            "The star itself cannot be launched; it must be combined with Paper and Gunpowder"
+            "Introduced in Bedrock Edition 1.21",
+            "Replaced the method of gaining Bad Omen from killing Captains directly",
+            "Comes in levels I through V, determining the difficulty and duration of the Omen",
+            "Drinking the bottle lasts for 1 hour 40 minutes (100 minutes)",
+            "Essential for players wishing to start an Ominous Trial for better rewards"
         ],
-        description: "The Firework Star is a crucial component used to customize the explosion of Firework Rockets. By combining gunpowder with various dyes and optional ingredients in a crafting grid, players can create stars that determine the color, shape, and additional effects of the resulting firework. Adding a Diamond creates a trail, while Glowstone Dust adds a twinkle effect. Different items like gold nuggets or mob heads can change the explosion's shape. Once crafted, the star is combined with paper and more gunpowder to create a rocket that will display the chosen effects when launched."
+        description: "The Ominous Bottle is a consumable item that grants the player the Bad Omen status effect upon drinking. In the 1.21 update, this item became the primary way to manage when and where raids or Ominous Trials occur. Bottles can be found as loot in Trial Chambers or dropped by Pillager Captains. By consuming a higher-level bottle, players can increase the intensity of the challenges they face, leading to better rewards but significantly higher danger from the mobs they encounter."
+    },
+    "minecraft:echo_shard": {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Recovery Compass",
+            secondaryUse: "High-tier decorative crafting material"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found only in Ancient City loot chests"]
+        },
+        specialNotes: [
+            "Extremely rare item found in the Deep Dark biome",
+            "Requires 8 shards and a Compass to craft one Recovery Compass",
+            "Cannot be obtained through mining or mob drops",
+            "Distinct dark blue and teal appearance matching skulk blocks",
+            "One of the only items tied specifically to the Warden's domain"
+        ],
+        description: "Echo Shards are mysterious crystals found exclusively within the loot chests of Ancient Cities. These shards are imbued with the energy of the Deep Dark and serve as the core component of the Recovery Compass. They are difficult to obtain due to the presence of the Warden and the stealth required to navigate Ancient Cities. For many players, gathering enough Echo Shards to craft a Recovery Compass is a major milestone in their exploration of the overworld's most dangerous depths."
+    },
+    "minecraft:recovery_compass": {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the location of the player's last death",
+            secondaryUse: "Finding lost items after a fatal accident"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Echo Shard x8", "Compass x1"]
+        },
+        specialNotes: [
+            "Only works if the player has previously died in the current dimension",
+            "If the player has not died or is in the wrong dimension, the needle spins randomly",
+            "Does not work in Hardcore mode (since there is no respawn)",
+            "Considered one of the most useful late-game utility items for survival",
+            "Must be crafted using rare materials from Ancient Cities"
+        ],
+        description: "The Recovery Compass is an advanced navigational tool that assists players in retrieving their lost gear. Unlike a standard compass that points to world spawn, the Recovery Compass tracks the exact coordinates of a player's last death. This makes it invaluable for long-distance explorers who may have died far from their base. However, it requires a significant investment of rare Echo Shards to craft and only functions while held in the same dimension where the death occurred."
+    },
+    "minecraft:disc_fragment_5": {
+        id: "minecraft:disc_fragment_5",
+        name: "Disc Fragment 5",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the '5' Music Disc",
+            secondaryUse: "Collectable material from Ancient Cities"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City loot chests"]
+        },
+        specialNotes: [
+            "9 fragments are required to craft the full Music Disc",
+            "Extremely rare; found in small quantities (1-2 per chest)",
+            "The resulting disc is one of the most unique and unsettling tracks in the game",
+            "Exclusively found in the Deep Dark biome",
+            "Introduced as part of the 1.19 Wild Update"
+        ],
+        description: "Disc Fragments are small, broken pieces of a music disc found only in the ruins of Ancient Cities. Separately, they are just shards of blackened material, but when nine of them are gathered and combined in a crafting grid, they form the mysterious '5' Music Disc. This disc is notable for containing ambient sounds and lore-heavy audio rather than a traditional musical track, making the fragments a high-priority item for players interested in Minecraft's hidden story and environmental storytelling."
+    },
+    "minecraft:spyglass": {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Zooming in on distant blocks and entities",
+            secondaryUse: "Scouting terrain and checking for danger"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Amethyst Shard x1", "Copper Ingot x2"]
+        },
+        specialNotes: [
+            "Provides an FOV (Field of View) reduction of roughly 1/10th",
+            "Creates a circular vignette effect on the screen when used",
+            "Player movement speed is significantly slowed while looking through it",
+            "Allows players to see detail beyond the normal render distance limitations",
+            "A non-consuming tool that lasts forever"
+        ],
+        description: "The Spyglass is a handheld tool used for long-distance observation. It allows players to zoom in on specific points in the distance, making it much easier to spot structures, mobs, or other players from a safe distance. Crafted from copper and amethyst, it represents one of the early functional uses for these materials. While it doesn't provide any combat buffs, its utility for scouting and planning makes it a staple for any explorer's inventory."
+    },
+    "minecraft:totem": {
+        id: "minecraft:totem",
+        name: "Totem of Undying",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Preventing death once per item",
+            secondaryUse: "Gaining temporary combat buffs (Regeneration, Fire Resistance, Absorption)"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Evokers in Woodland Mansions or Raids"]
+        },
+        specialNotes: [
+            "Must be held in the main hand or off-hand when fatal damage is taken",
+            "Consumed upon use, leaving the player with half a heart of health",
+            "Clears all existing status effects upon activation",
+            "Does not prevent death from the Void or the `/kill` command",
+            "One of the few items dropped by specific mobs that cannot be farmed easily without raids"
+        ],
+        description: "The Totem of Undying is a powerful and rare defensive item that offers players a literal second chance at life. When held during a fatal blow, the totem activates, preserving the player's life and granting them a brief window of nearly invulnerable status effects. It is primarily obtained by defeating Evokers, the powerful spellcasters of the Illager family. For many survivors and hardcore mode players, the Totem of Undying is an essential item that they never leave home without."
+    },
+    "minecraft:trident": {
+        id: "minecraft:trident",
+        name: "Trident",
+        maxStack: 1,
+        durability: 250,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee and ranged aquatic combat",
+            secondaryUse: "Mobility (Riptide) and lightning strikes (Channeling)"
+        },
+        combat: {
+            attackDamage: 9,
+            attackSpeed: 1.1
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Drowned (0.53% chance when holding one in Bedrock)"]
+        },
+        specialNotes: [
+            "In Bedrock, can be found as a drop from Drowned even if they are not holding one",
+            "Has unique enchantments: Loyalty, Impaling, Riptide, and Channeling",
+            "Riptide allows the player to launch themselves through water or rain",
+            "Channeling summons lightning during thunderstorms if a mob is hit",
+            "Impaling deals extra damage to aquatic mobs (in Bedrock, this includes all mobs in water)"
+        ],
+        description: "The Trident is a legendary aquatic weapon that offers some of the most unique gameplay mechanics in Minecraft. It cannot be crafted and must be obtained as a rare drop from Drowned. Depending on its enchantments, the Trident can be a powerful throwing weapon that returns to your hand (Loyalty), a tool for summoning lightning (Channeling), or a high-speed engine for flying through the rain (Riptide). It is particularly potent in Bedrock Edition, where its Impaling enchantment applies to any mob standing in water or rain, making it a versatile tool for both land and sea."
+    },
+    "minecraft:shield": {
+        id: "minecraft:shield",
+        name: "Shield",
+        maxStack: 1,
+        durability: 336,
+        enchantable: true,
+        usage: {
+            primaryUse: "Blocking incoming attacks and projectiles",
+            secondaryUse: "Deflecting creeper explosions"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Wood Planks x6", "Iron Ingot x1"]
+        },
+        specialNotes: [
+            "In Bedrock, blocking is activated by crouching",
+            "Reduces damage from most frontal attacks to zero when active",
+            "Can be customized with Banners to change its appearance",
+            "Blocks projectiles like arrows, causing them to bounce off",
+            "Can be disabled for a short time if struck by an Axe-wielding mob or player"
+        ],
+        description: "The Shield is a fundamental defensive tool that significantly increases a player's survivability. By holding the crouch button in Bedrock Edition, the player raises the shield, negating almost all damage from the front, including explosions and projectiles. It is relatively easy to craft, requiring only wood and a single iron ingot. Shields can also be personalized by applying banners to them in a crafting grid, allowing players to show off their designs while staying protected in combat."
     },
     "minecraft:saddle": {
         id: "minecraft:saddle",
@@ -469,103 +726,113 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Riding horses, donkeys, mules, and camels",
-            secondaryUse: "Riding pigs and striders (requires steering item)"
+            primaryUse: "Riding horses, donkeys, mules, pigs, and striders",
+            secondaryUse: "Transportation and racing"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found in chests (Dungeons, Nether Fortresses, etc.)", "Fishing treasure", "Trading with Leatherworker villagers", "Mob drop (Ravager, Strider with Zombified Piglin)"]
+            ingredients: ["Found in Dungeon, Fortress, and Village chests", "Fishing reward", "Traded by Leatherworkers"]
         },
         specialNotes: [
-            "Required to control Horses, Donkeys, Mules, and Camels.",
-            "Required to ride Pigs (needs Carrot on a Stick to steer).",
-            "Required to ride Striders (needs Warped Fungus on a Stick to steer).",
-            "Cannot be crafted in standard survival (uncraftable).",
-            "Ravagers always drop a saddle on death."
+            "Essential for controlling the movement of tamed horses and llamas",
+            "Pigs require a 'Carrot on a Stick' to be steered while saddled",
+            "Striders require a 'Warped Fungus on a Stick' to be steered",
+            "Cannot be crafted; must be found or traded",
+            "A renewable resource through fishing and high-level villager trading"
         ],
-        description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
+        description: "The Saddle is an essential utility item for players looking to master ground and lava-based transportation. While it can be placed on several different mobs, its primary use is for riding tamed horses, allowing for high-speed travel across the overworld. Because it cannot be crafted, finding a saddle in a loot chest or through fishing is often considered a major milestone for early-game players. It also enables the unique ability to ride pigs and striders when paired with their respective steering tools."
     },
-    "minecraft:diamond_horse_armor": {
-        id: "minecraft:diamond_horse_armor",
-        name: "Diamond Horse Armor",
-        maxStack: 1,
+    "minecraft:name_tag": {
+        id: "minecraft:name_tag",
+        name: "Name Tag",
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Equipping on a tamed horse to provide high-level protection",
-            secondaryUse: "Decorative armor for horses"
-        },
-        specialNotes: [
-            "Provides 11 armor points (5.5 chestplates) to horses.",
-            "Can only be found in structure chests; cannot be crafted.",
-            "Cannot be enchanted or repaired.",
-            "Found in Dungeons, Desert Temples, End Cities, and more.",
-            "Equipped by opening the horse's inventory while riding or nearby."
-        ],
-        description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
-    },
-    "minecraft:iron_horse_armor": {
-        id: "minecraft:iron_horse_armor",
-        name: "Iron Horse Armor",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Protecting a tamed horse",
-            secondaryUse: "Increasing a horse's armor rating by 5 points"
+            primaryUse: "Giving custom names to mobs",
+            secondaryUse: "Preventing mobs from despawning"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found in loot chests"]
+            ingredients: ["Found in chests (Dungeon, Mineshaft, Mansion)", "Fishing reward", "Traded by Librarians"]
         },
         specialNotes: [
-            "Found in Dungeons, Strongholds, Villages, Nether Fortresses, and Jungle Temples",
-            "Can be equipped on tamed horses only",
-            "Does not have durability and never breaks"
+            "Must be renamed in an Anvil before it can be used on a mob",
+            "A named mob will never despawn naturally",
+            "Cannot be used on players or the Ender Dragon",
+            "Includes Easter eggs like 'Dinnerbone' or 'Grumm' (flips mobs) and 'jeb_' (rainbow sheep)",
+            "Using 'Toast' on a rabbit gives it a special memorial skin"
         ],
-        description: "Iron Horse Armor is a specialized piece of equipment designed to protect tamed horses from damage. Unlike player armor, it cannot be crafted and must be discovered within loot chests in various world structures. When equipped, it provides 5 points of armor to the horse, significantly increasing its survival chances against mobs and other hazards. It is a durable item that does not wear out over time, making it a permanent upgrade for a player's mount."
+        description: "The Name Tag is a simple but beloved item used to add personality and persistence to the mobs in a player's world. By renaming the tag in an anvil and using it on a mob, the player gives that creature a permanent name that appears whenever looked at. This is particularly useful for pet animals or for keeping specific hostile mobs (like an 'invited' zombie) from disappearing. It also unlocks several of Minecraft's most famous hidden features, changing the appearance or behavior of certain mobs based on the name given."
     },
-    "minecraft:golden_horse_armor": {
-        id: "minecraft:golden_horse_armor",
-        name: "Golden Horse Armor",
-        maxStack: 1,
+    "minecraft:lead": {
+        id: "minecraft:lead",
+        name: "Lead",
+        maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Protecting a tamed horse",
-            secondaryUse: "Increasing a horse's armor rating by 7 points"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in loot chests"]
-        },
-        specialNotes: [
-            "Found in Dungeons, Villages (Weaponsmith chests), Nether Fortresses, Bastion Remnants, Ruined Portals, Desert Pyramids, Jungle Temples, Strongholds (Altar chests), and End Cities",
-            "Provides more protection than iron horse armor but less than diamond",
-            "Can be equipped on tamed horses only"
-        ],
-        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld, the Nether, and The End, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
-    },
-    "minecraft:leather_horse_armor": {
-        id: "minecraft:leather_horse_armor",
-        name: "Leather Horse Armor",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Protecting and decorating a tamed horse",
-            secondaryUse: "Can be dyed in a cauldron to change its color"
+            primaryUse: "Leashing and leading mobs around",
+            secondaryUse: "Tethering mobs to fence posts"
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["7x Leather"]
+            ingredients: ["String x4", "Slimeball x1"]
         },
         specialNotes: [
-            "The only type of horse armor that can be crafted in Bedrock Edition",
-            "Can be dyed into 12,326,391 different colors using cauldrons",
-            "Provides 3 armor points to the horse"
+            "Can be used on most passive and neutral mobs",
+            "In Bedrock, can also leash certain boat types or entities depending on experiments",
+            "Multiple mobs can be led by a single player using separate leads",
+            "Will break if the distance between the player and mob exceeds 10 blocks",
+            "Dropping the lead item occurs when the leash is broken or the mob is killed"
         ],
-        description: "Leather Horse Armor is the entry-level protection for horses and is unique as the only craftable horse armor in Minecraft Bedrock Edition. It is made from seven pieces of leather and provides a modest 3 armor points. Its most notable feature is its customization; players can use dyed water in a cauldron to color the armor, allowing for millions of possible color combinations to personalize their steeds."
+        description: "The Lead (or leash) is a fundamental tool for animal husbandry and mob transport. It allows players to manually guide animals like cows, sheep, and horses without needing to lure them with food. It is also the only way to tether a mob to a fixed location, such as a fence post, which is essential for building stables or securing pets. While it can be crafted easily with string and slime, many players obtain their first leads by encounter with the Wandering Trader's llamas."
+    },
+    "minecraft:firework_rocket": {
+        id: "minecraft:firework_rocket",
+        name: "Firework Rocket",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Elytra propulsion and celebrations",
+            secondaryUse: "Ranged attack (when crafted with Firework Stars)"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Gunpowder x1-3", "Paper x1", "Firework Star (Optional)"]
+        },
+        specialNotes: [
+            "Flight duration is determined by the amount of gunpowder (1 to 3)",
+            "Propels the player forward when using Elytra in mid-air",
+            "Does not deal damage unless a Firework Star is included in the recipe",
+            "Can be fired from Crossbows as a powerful explosive projectile",
+            "Used to create beautiful, customizable light shows in the sky"
+        ],
+        description: "Firework Rockets are versatile items used for both transportation and aesthetics. While originally intended for decorative displays, they became one of the game's most essential items with the introduction of Elytra, as they provide the thrust needed for sustained flight. By adjusting the amount of gunpowder during crafting, players can control how long each rocket boost lasts. For combat, rockets can be infused with firework stars to create explosive ammunition for crossbows, making them as dangerous as they are beautiful."
+    },
+    "minecraft:flint_and_steel": {
+        id: "minecraft:flint_and_steel",
+        name: "Flint and Steel",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Lighting fires, portals, and TNT",
+            secondaryUse: "Clearing leaves and igniting campfires"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Flint x1", "Iron Ingot x1"]
+        },
+        specialNotes: [
+            "Required to activate the Nether Portal",
+            "Instantly ignites Creeper if used on them",
+            "Can be enchanted with Unbreaking and Mending",
+            "Has a limited number of uses before it breaks",
+            "A essential tool for early survival and entering other dimensions"
+        ],
+        description: "Flint and Steel is a basic but indispensable tool for any Minecraft player. It is used to start fires on the surface of most blocks, light campfires for cooking, and, most importantly, ignite the obsidian frame to open a Nether Portal. Beyond its utility for travel, it can be used offensively to set mobs on fire or to quickly clear clutter like excess foliage. Every player should carry one, especially when preparing to travel to the Nether or deal with TNT."
     },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
@@ -574,8 +841,8 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Displaying and protecting items",
-            secondaryUse: "Creating galleries and showcases"
+            primaryUse: "Displaying items and blocks on any solid surface",
+            secondaryUse: "Creating storage labels, maps, and decorations"
         },
         crafting: {
             recipeType: "Shaped",
@@ -880,847 +1147,20 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Reducing Piglin detection range"
+            secondaryUse: "Redstone-interactive decoration"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Piglins killed by a Charged Creeper"]
+            ingredients: ["Dropped by a Piglin when killed by a Charged Creeper"]
         },
         specialNotes: [
-            "Added in the 1.20 Trails & Tales update",
-            "Dropped when a Piglin or Piglin Brute is killed by a Charged Creeper explosion",
-            "Ear flutters when the player wearing it moves or when powered by redstone",
-            "Reduces the detection range of Piglins by 50% when worn"
+            "Features animated ears that flap when the wearer moves",
+            "When placed as a block and powered by redstone, its ears flap continually",
+            "Reduces the detection range of Piglins by 50% when worn",
+            "A rare trophy item obtained through careful mob manipulation",
+            "Essential for mimicking Piglin behavior or high-detail Nether builds"
         ],
-        description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
-    },
-    "minecraft:minecart": {
-        id: "minecraft:minecart",
-        name: "Minecart",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Transporting players and mobs on rails",
-            secondaryUse: "Base for crafting specialized minecarts (Chest, Hopper, TNT)"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["5x Iron Ingot"]
-        },
-        specialNotes: [
-            "Placed on rails by using it on them; broken by attacking it",
-            "Can carry players and most mobs (including hostile ones)",
-            "Speeds depend on the type of rail used (Powered vs Normal)",
-            "Can be combined with Chests, Hoppers, or TNT in a crafting grid",
-            "In Bedrock Edition, minecarts can be placed on a rail by a dispenser",
-            "Minecarts can pick up mobs that walk into them while on a rail"
-        ],
-        description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
-    },
-    "minecraft:chest_minecart": {
-        id: "minecraft:chest_minecart",
-        name: "Minecart with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Transporting items on rails",
-            secondaryUse: "Mobile storage in minecart systems"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Chest", "Minecart"]
-        },
-        specialNotes: [
-            "Combines a Minecart and a Chest for item transport",
-            "Has 27 slots of inventory space, same as a single chest",
-            "Drops itself and its contents when broken",
-            "Can be accessed by opening the GUI or using Hoppers",
-            "Cannot carry players or mobs"
-        ],
-        description: "A Minecart with Chest is a utility vehicle that combines the mobility of a minecart with the storage capacity of a single chest. It allows players to transport large quantities of items across rail systems, making it essential for automated storage and delivery networks. In Bedrock Edition, it is crafted by combining a minecart and a chest in a crafting grid. When broken, it drops as a single item, spilling its inventory onto the ground. It can interact with hoppers placed under the track to load or unload items automatically."
-    },
-    "minecraft:hopper_minecart": {
-        id: "minecraft:hopper_minecart",
-        name: "Minecart with Hopper",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Collecting items from above rails",
-            secondaryUse: "Transferring items between containers rapidly"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Hopper", "Minecart"]
-        },
-        specialNotes: [
-            "Pulls items from the world and containers above it",
-            "Sucks up items much faster than a regular hopper",
-            "Can pick up items through full blocks directly above the rail",
-            "Can be disabled by a powered Activator Rail",
-            "Has 5 slots of inventory space"
-        ],
-        description: "A Minecart with Hopper is a specialized vehicle designed for item collection and transport. It possesses a powerful suction ability that allows it to pull loose items from the world or extract items from containers located directly above the track. Unlike stationary hoppers, it can collect items through full blocks, making it highly effective for farm collection systems where the collection mechanism needs to be hidden. Its collection function can be toggled using Activator Rails, allowing for precise control in automated sorting systems."
-    },
-    "minecraft:tnt_minecart": {
-        id: "minecraft:tnt_minecart",
-        name: "Minecart with TNT",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Creating mobile explosions",
-            secondaryUse: "Clearing areas or breaching walls remotely"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["TNT", "Minecart"]
-        },
-        specialNotes: [
-            "Explodes when passing over a powered Activator Rail",
-            "Explosion power depends on the minecart's speed",
-            "Detonates instantly upon high-speed collision",
-            "Does not destroy rails or blocks under the track when on rails",
-            "Can be dispensed onto rails"
-        ],
-        description: "A Minecart with TNT is a volatile vehicle used for controlled demolitions and traps. It detonates after a short delay when passing over a powered Activator Rail, or instantly if it crashes into a block or entity at high speed. The explosion's radius and damage are directly proportional to the cart's velocity at the moment of impact. Uniquely, when detonated while on a rail, it is designed not to destroy the track or the blocks immediately beneath it, allowing for reusable blasting lines in mining or terraforming operations."
-    },
-    "minecraft:oak_boat": {
-        id: "minecraft:oak_boat",
-        name: "Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities",
-            secondaryUse: "Transporting mobs across land and water"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Oak Planks x5"]
-        },
-        specialNotes: [
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
-    },
-    "minecraft:spruce_boat": {
-        id: "minecraft:spruce_boat",
-        name: "Spruce Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with spruce wood appearance",
-            secondaryUse: "Matching spruce wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Spruce Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to oak boat but with spruce wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Useful for matching spruce wood builds and forest-themed bases",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Spruce Boat is a variant of the standard boat crafted from spruce planks, offering the same functionality as the oak boat but with a darker, more rustic appearance. It provides the same two-passenger capacity and water transportation capabilities while maintaining aesthetic consistency with spruce wood builds and forest-themed structures. This boat is particularly popular among players building in colder, forest biomes or those who prefer the darker aesthetic of spruce wood. All the benefits of standard boats apply, including enhanced speed on ice and fall damage protection."
-    },
-    "minecraft:raft": {
-        id: "minecraft:raft",
-        name: "Raft",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Alternative water transportation using boat oars for manual propulsion",
-            secondaryUse: "Building floating structures and mobile bases"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Logs x6", "Sticks x2"]
-        },
-        specialNotes: [
-            "Requires boat oar for manual rowing and propulsion",
-            "Can be used to carry players and mobs across water",
-            "Crafted from logs rather than planks, creating a more rustic appearance",
-            "Can be used as a base for building floating structures",
-            "Boat oar must be crafted separately and used to control movement",
-            "Larger footprint than standard boats, offering more building potential",
-            "In Bedrock, can pick up mobs when used as a water vehicle"
-        ],
-        description: "The Raft is a unique water transportation item offering a primitive and customizable approach to water travel. Unlike traditional boats, rafts require a separate boat oar for propulsion, giving players precise control over their watercraft. Rafts are crafted from logs and sticks, creating a larger, more rustic appearance ideal for building floating structures and mobile bases. The larger footprint provides creative building opportunities while maintaining full functionality for transporting players and mobs across water."
-    },
-    "minecraft:boat_oar": {
-        id: "minecraft:boat_oar",
-        name: "Boat Oar",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Propelling rafts across water surfaces",
-            secondaryUse: "Crafting material for raft construction and modifications"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Stick", "Wood Slab"]
-        },
-        specialNotes: [
-            "Essential tool for operating rafts - rafts cannot move without an oar",
-            "Can be used on rafts to propel them forward through water",
-            "Right-click while holding oar on raft to move in the direction you're facing",
-            "Essential for raft-based exploration and transportation",
-            "Can be combined with other items in crafting recipes",
-            "Each oar can be used indefinitely without durability loss",
-            "Required component for the raft crafting recipe in some versions"
-        ],
-        description: "The Boat Oar is a specialized tool item used exclusively for propelling rafts across water. Unlike boats that move automatically, rafts require manual propulsion using a boat oar, giving players precise control over their watercraft. The oar is crafted from a stick and wood slab, and when used on a raft, allows for directional movement across water surfaces. This manual control system makes rafts useful for precise navigation in tight spaces or for hands-on water transportation."
-    },
-    "minecraft:mangrove_boat": {
-        id: "minecraft:mangrove_boat",
-        name: "Mangrove Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with mangrove wood appearance",
-            secondaryUse: "Matching mangrove wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Mangrove Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with red mangrove wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Mangrove Planks (no shovel required in 1.20+)",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Mangrove Boat is a variant of the standard boat crafted from mangrove planks, introduced in the 1.19 Wild Update. It features the distinctive reddish hue of mangrove wood, making it an excellent choice for navigating swamps or matching red-wood themed builds. Like other boats in Bedrock Edition, it accommodates two passengers and offers fall damage protection. It can be crafted using five mangrove planks, providing a stylish way to traverse water bodies."
-    },
-    "minecraft:cherry_boat": {
-        id: "minecraft:cherry_boat",
-        name: "Cherry Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with cherry wood appearance",
-            secondaryUse: "Matching cherry wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Cherry Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with pink cherry wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Cherry Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Cherry Boat is a vibrant pink boat variant crafted from cherry planks, introduced in the 1.20 Trails & Tales update. It functions identically to other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its unique pink color makes it a favorite for decorative purposes and for players who enjoy the aesthetic of the cherry grove biome. It requires five cherry planks to craft and offers the same fall damage negation as other boats."
-    },
-    "minecraft:bamboo_raft": {
-        id: "minecraft:bamboo_raft",
-        name: "Bamboo Raft",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with a raft design",
-            secondaryUse: "Aesthetic alternative to traditional boats"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bamboo Planks x5"]
-        },
-        specialNotes: [
-            "Functionally identical to boats but with a flat raft model",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Bamboo Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
-    },
-    "minecraft:birch_boat": {
-        id: "minecraft:birch_boat",
-        name: "Birch Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with birch wood appearance",
-            secondaryUse: "Matching birch wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Birch Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with pale birch wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Birch Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Birch Boat is a variant of the standard boat crafted from birch planks. It shares all the functional characteristics of other wooden boats, including the ability to carry two passengers and high speed on ice. Its distinguishing feature is its pale wood texture, matching the aesthetic of birch forests. Like all boats in Bedrock Edition, it is crafted from five planks and requires no shovel. It serves as a reliable vehicle for water travel and transporting mobs."
-    },
-    "minecraft:painting": {
-        id: "minecraft:painting",
-        name: "Painting",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Placing decorative art on walls",
-            secondaryUse: "Creating secret doors and hidden passages"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Stick x8", "Wool (any color) x1"]
-        },
-        specialNotes: [
-            "Can be placed in different sizes (1x1 to 4x4) depending on available space",
-            "There are 30 different paintings available in Bedrock Edition",
-            "Can be placed over doors or openings to create hidden passages",
-            "Breaking a painting drops the item for relocation"
-        ],
-        description: "Paintings are decorative entities that can be placed on vertical surfaces. They come in various sizes, from small 1x1 canvases to large 4x4 masterpieces, randomly chosen based on the space available when placed. In Bedrock Edition, there are 30 unique painting designs. Beyond decoration, paintings are commonly used to create secret doors, as players and mobs can walk through them if there is an opening behind the canvas."
-    },
-    "minecraft:glow_item_frame": {
-        id: "minecraft:glow_item_frame",
-        name: "Glow Item Frame",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying items with a glowing background",
-            secondaryUse: "Lighting up displayed items in the dark"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Item Frame", "Glow Ink Sac"]
-        },
-        specialNotes: [
-            "Makes the displayed item clearly visible even in total darkness",
-            "Does not increase the light level of the surrounding area (decorative only)",
-            "Obtained by combining a regular item frame with a glow ink sac from a glow squid",
-            "Can be placed on any side of most blocks, including top and bottom"
-        ],
-        description: "The Glow Item Frame is a specialized version of the standard item frame that allows displayed items to remain fully visible in the dark. It is crafted by combining a regular item frame with a glow ink sac. While it makes the item glow with a bright background, it does not actually emit light into the environment. This makes it perfect for maps, signage, or trophy rooms where visibility is needed regardless of lighting conditions."
-    },
-    "minecraft:oak_chest_boat": {
-        id: "minecraft:oak_chest_boat",
-        name: "Oak Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation with mobile storage",
-            secondaryUse: "Transporting a single player or mob plus items"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Oak Boat", "Chest"]
-        },
-        specialNotes: [
-            "Provides 27 slots of storage, equivalent to a single chest",
-            "Can only hold one passenger (player or mob) instead of the two allowed in standard boats",
-            "When broken, it drops both the boat with chest item and the contents of the chest",
-            "Useful for long-distance ocean exploration or moving base materials across water"
-        ],
-        description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
-    },
-    "minecraft:command_block_minecart": {
-        id: "minecraft:command_block_minecart",
-        name: "Minecart with Command Block",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Executing commands on rails",
-            secondaryUse: "Creating mobile command systems"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained via commands or Creative inventory"]
-        },
-        specialNotes: [
-            "Cannot be crafted; must be obtained using /give or Pick Block in Creative",
-            "Executes its command when passing over a powered Activator Rail",
-            "Checks the command once every game tick if on an always-active circuit, but on rails it depends on activation",
-            "Useful for adventure maps and automated systems",
-            "Drops as an item when broken in Creative mode (contents saved if Ctrl+Pick Block used)"
-        ],
-        description: "The Minecart with Command Block is a utility vehicle that combines a minecart with an Impulse Command Block. It allows for the execution of commands as the cart travels along a rail system. The command stored within is triggered when the minecart passes over a powered Activator Rail. This item is not available in the Survival inventory and cannot be crafted; it must be obtained via commands or the Creative inventory. It is a powerful tool for map makers and technical players creating complex, mobile automation systems."
-    },
-    "minecraft:jungle_boat": {
-        id: "minecraft:jungle_boat",
-        name: "Jungle Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with jungle wood appearance",
-            secondaryUse: "Matching jungle wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Jungle Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with reddish-brown jungle wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Jungle Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
-    },
-    "minecraft:acacia_boat": {
-        id: "minecraft:acacia_boat",
-        name: "Acacia Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two passengers",
-            secondaryUse: "Fast travel on ice"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Acacia Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with orange acacia wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling"
-        ],
-        description: "The Acacia Boat is a variant of the standard boat crafted from acacia planks. It features the distinctive orange color of acacia wood, making it a popular choice for players in savanna biomes. Like all boats in Minecraft Bedrock Edition, it can carry up to two passengers and is famous for its high speed when placed on ice. It is crafted from five acacia planks in a 'U' shape and provides a reliable way to traverse oceans and rivers."
-    },
-    "minecraft:dark_oak_boat": {
-        id: "minecraft:dark_oak_boat",
-        name: "Dark Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two passengers",
-            secondaryUse: "Fast travel on ice"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Dark Oak Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with dark oak wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling"
-        ],
-        description: "The Dark Oak Boat is a variant of the standard boat crafted from dark oak planks. It features the characteristic dark brown color of dark oak, providing a solid and rustic aesthetic. Functionally identical to other boats, it can carry two passengers and travels extremely fast on ice surfaces. It is a reliable tool for exploration and mob transport, especially for players who prefer the darker wood tones in their equipment."
-    },
-    "minecraft:spruce_chest_boat": {
-        id: "minecraft:spruce_chest_boat",
-        name: "Spruce Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Spruce Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Spruce Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Ideal for long-distance transport of resources across oceans"
-        ],
-        description: "The Spruce Boat with Chest is a utility vehicle that provides 27 slots of storage while maintaining water mobility. Crafted by combining a Spruce Boat with a Chest, it allows players to move large quantities of items across water. Because the chest ocupaies the second seat, it can only carry one passenger. This makes it a vital tool for resource gathering trips and moving between coastal bases."
-    },
-    "minecraft:birch_chest_boat": {
-        id: "minecraft:birch_chest_boat",
-        name: "Birch Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Birch Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Birch Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Matches the pale aesthetic of birch wood"
-        ],
-        description: "The Birch Boat with Chest offers mobile storage for players who prefer the light-colored birch aesthetic. By combining a Birch Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water."
-    },
-    "minecraft:jungle_chest_boat": {
-        id: "minecraft:jungle_chest_boat",
-        name: "Jungle Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Jungle Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Jungle Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the reddish-brown jungle wood texture"
-        ],
-        description: "The Jungle Boat with Chest is a mobile inventory solution crafted from a Jungle Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot from tropical explorations. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across jungle rivers and open seas."
-    },
-    "minecraft:acacia_chest_boat": {
-        id: "minecraft:acacia_chest_boat",
-        name: "Acacia Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Acacia Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines an Acacia Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the bright orange acacia wood texture"
-        ],
-        description: "The Acacia Boat with Chest is a mobile inventory solution crafted from an Acacia Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot across savanna coastal regions. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across rivers and open seas."
-    },
-    "minecraft:dark_oak_chest_boat": {
-        id: "minecraft:dark_oak_chest_boat",
-        name: "Dark Oak Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Dark Oak Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Dark Oak Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the dark brown dark oak wood texture"
-        ],
-        description: "The Dark Oak Boat with Chest is a sturdy mobile storage vessel crafted by combining a Dark Oak Boat with a Chest. It provides 27 slots of storage, making it ideal for hauling heavy loads across deep oceans and rivers. While it only accommodates a single passenger, its large storage capacity makes it indispensable for moving resources to new base locations."
-    },
-    "minecraft:mangrove_chest_boat": {
-        id: "minecraft:mangrove_chest_boat",
-        name: "Mangrove Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Mangrove Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Mangrove Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the deep red mangrove wood texture"
-        ],
-        description: "The Mangrove Boat with Chest is a specialized vessel introduced for swamp and mangrove exploration. By combining a Mangrove Boat with a Chest, players gain 27 slots of mobile storage. It's perfect for gathering mangrove wood and other swamp resources. Like other chest boats, it carries one passenger and provides a reliable way to move goods through narrow waterways."
-    },
-    "minecraft:cherry_chest_boat": {
-        id: "minecraft:cherry_chest_boat",
-        name: "Cherry Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Cherry Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Cherry Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the pink cherry wood texture"
-        ],
-        description: "The Cherry Boat with Chest is a vibrant pink mobile storage unit introduced in the Trails & Tales update. Crafted from a Cherry Boat and a Chest, it offers 27 slots of inventory space for sea-bound adventures. It provides a unique aesthetic for transport and is as functional as it is colorful, allowing players to move their valuables across water with ease."
-    },
-    "minecraft:bamboo_chest_raft": {
-        id: "minecraft:bamboo_chest_raft",
-        name: "Bamboo Raft with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Bamboo Raft", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Bamboo Raft with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the raft and the chest contents when broken",
-            "Features the unique flat bamboo raft design"
-        ],
-        description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
-    },
-    "minecraft:pale_oak_boat": {
-        id: "minecraft:pale_oak_boat",
-        name: "Pale Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities",
-            secondaryUse: "Fuel"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Pale Oak Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats with a desaturated white texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling",
-            "Can be used as fuel in a furnace (smelts 6 items)"
-        ],
-        description: "The Pale Oak Boat is a variant of the standard boat crafted from pale oak planks, introduced in the 1.21.50 Winter Drop. It features a unique, desaturated white appearance that matches the aesthetic of the Pale Garden biome. Like all boats in Bedrock Edition, it handles up to two passengers and provides immunity to fall damage. It is a reliable tool for aquatic exploration and transporting mobs."
-    },
-    "minecraft:pale_oak_chest_boat": {
-        id: "minecraft:pale_oak_chest_boat",
-        name: "Pale Oak Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Fuel"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Pale Oak Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Pale Oak Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Matches the desaturated aesthetic of the Pale Garden",
-            "Can be used as fuel in a furnace (smelts 6 items)"
-        ],
-        description: "The Pale Oak Boat with Chest offers mobile storage for players exploring the Pale Garden or other coastal biomes. By combining a Pale Oak Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water with a unique Winter Drop aesthetic."
-    },
-    "minecraft:pale_oak_sign": {
-        id: "minecraft:pale_oak_sign",
-        name: "Pale Oak Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Placing text on walls or floor",
-            secondaryUse: "Labeling chests or designating areas"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Pale Oak Planks x6", "Stick"]
-        },
-        specialNotes: [
-            "Matches the pale, desaturated white color of the Pale Oak set",
-            "Can be placed on the ground (standing) or on walls (hanging/attached)",
-            "Supports up to four lines of text on both sides in Bedrock",
-            "Can be edited after placement unless waxed with Honeycomb",
-            "Text can be dyed or made to glow with a Glow Ink Sac"
-        ],
-        description: "The Pale Oak Sign is a decorative and informational item introduced in the Winter Drop (1.21.50). Crafted from pale oak planks and a stick, it provides a desaturated white canvas for player-written text. In Bedrock Edition, signs can have text on both sides, and the text can be further customized with dyes or glow ink. It is essential for organization, navigation, and adding detail to builds within the Pale Garden biome."
-    },
-    "minecraft:pale_oak_hanging_sign": {
-        id: "minecraft:pale_oak_hanging_sign",
-        name: "Pale Oak Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Decorative signage that hangs from blocks",
-            secondaryUse: "Detailed building and labeling"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Stripped Pale Oak Log x6", "Chain x2"]
-        },
-        specialNotes: [
-            "Features two chains that can hang from the bottom or side of blocks",
-            "More expensive to craft than standard signs, requiring chains and logs",
-            "Text can be applied to both sides and customized with dyes or glow ink",
-            "Provides a more rustic and detailed look for signage",
-            "Matches the unique white-gray color of the Pale Garden set"
-        ],
-        description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
-    },
-    "minecraft:cherry_hanging_sign": {
-        id: "minecraft:cherry_hanging_sign",
-        name: "Cherry Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying text on a hanging sign",
-            secondaryUse: "Decorative signage for Cherry Grove themed builds"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["6x Stripped Cherry Log", "2x Chain"]
-        },
-        specialNotes: [
-            "Introduced in 1.20 Trails & Tales update.",
-            "Can be placed under blocks, on the side of blocks, or attached to other hanging signs.",
-            "Text can be applied to both sides and can be dyed or made to glow.",
-            "Matches the pink aesthetic of the Cherry Grove biome."
-        ],
-        description: "The Cherry Hanging Sign is a decorative item that allows players to display text in a stylish hanging format. Crafted from stripped cherry logs and chains, it features the vibrant pink color unique to the cherry wood set. Unlike standard signs, hanging signs have a smaller text area but can be placed in more versatile positions, such as dangling from the bottom of blocks or protruding from walls. They are perfect for adding detail to Cherry Grove settlements or creating elegant shop signs."
-    },
-    "minecraft:bamboo_hanging_sign": {
-        id: "minecraft:bamboo_hanging_sign",
-        name: "Bamboo Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying text on a hanging sign",
-            secondaryUse: "Decorative signage for jungle or bamboo themed builds"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["6x Stripped Bamboo Block", "2x Chain"]
-        },
-        specialNotes: [
-            "Introduced in 1.20 Trails & Tales update.",
-            "Crafted from stripped bamboo blocks rather than traditional logs.",
-            "Can hang from the bottom of blocks or be attached to fences and walls.",
-            "Features the unique yellowish texture of the bamboo wood set."
-        ],
-        description: "The Bamboo Hanging Sign is a unique variant of the hanging sign crafted from bamboo. It provides a tropical aesthetic that fits perfectly with jungle environments or bamboo structures. Like other hanging signs, it can hold text on both sides and can be customized with dyes and glow ink. Its distinct yellow-green color and bamboo-pole texture make it a popular choice for players looking to create a more organic or rustic look for their signage systems."
-    },
-    "minecraft:mangrove_hanging_sign": {
-        id: "minecraft:mangrove_hanging_sign",
-        name: "Mangrove Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying text on a hanging sign",
-            secondaryUse: "Decorative signage for swamp or dark-themed builds"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["6x Stripped Mangrove Log", "2x Chain"]
-        },
-        specialNotes: [
-            "Introduced in 1.20 Trails & Tales update.",
-            "Features a deep reddish-brown color characteristic of mangrove wood.",
-            "Can be placed on the side of blocks with a protruding bracket.",
-            "Supports text on both its front and back faces."
-        ],
-        description: "The Mangrove Hanging Sign offers a bold, reddish-brown aesthetic for player signage. Crafted from stripped mangrove logs and chains, it is ideal for use in swamp biomes or as a high-contrast label in various builds. It functions identically to other hanging signs, allowing for four lines of text per side. Its rich color and unique bracket design when placed on walls make it a favored item for builders who prioritize a sophisticated and weathered look."
-    },
-    "minecraft:crimson_hanging_sign": {
-        id: "minecraft:crimson_hanging_sign",
-        name: "Crimson Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying text in the Nether or on fire-resistant structures",
-            secondaryUse: "Decorative signage for Nether-themed builds"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["6x Stripped Crimson Hyphae", "2x Chain"]
-        },
-        specialNotes: [
-            "Introduced in 1.20 Trails & Tales update.",
-            "Completely fireproof, as it is made from Nether-native wood.",
-            "Features a vibrant purple-red color with a unique hyphae texture.",
-            "Does not burn if placed near lava or fire."
-        ],
-        description: "The Crimson Hanging Sign is a fire-resistant signage option native to the Nether's Crimson Forests. Because it is crafted from hyphae rather than Overworld wood, it will not burn, making it the perfect choice for labeling chest rooms or directions in the Nether. It features a striking purple-red hue and can be placed in various orientations. Like its Overworld counterparts, it supports multi-line text on both sides and remains a durable decorative piece in the most extreme environments."
-    },
-    "minecraft:warped_hanging_sign": {
-        id: "minecraft:warped_hanging_sign",
-        name: "Warped Hanging Sign",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Displaying text in the Nether or on fire-resistant structures",
-            secondaryUse: "Decorative signage for End or Nether themed builds"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["6x Stripped Warped Hyphae", "2x Chain"]
-        },
-        specialNotes: [
-            "Introduced in 1.20 Trails & Tales update.",
-            "Completely fireproof, as it is made from Nether-native wood.",
-            "Features a unique teal-blue color characteristic of Warped Forests.",
-            "Ideal for high-visibility signs in dark environments."
-        ],
-        description: "The Warped Hanging Sign is a teal-colored, fireproof sign found in the Warped Forests of the Nether. Being immune to fire, it is an essential tool for navigation in volcanic regions. Its bright teal color provides excellent visibility against darker blocks, and its texture is distinct from Overworld wood. It can be hung from the bottom or sides of blocks and supports text customization including dyes and glow effects, serving as both a functional and eerie decorative element."
+        description: "The Piglin Head is a rare decorative item added to the game as part of late-game exploration and mob combat. It is uniquely obtained when a Charged Creeper's explosion kills a Piglin. Like other mob heads, it can be worn as a helmet or placed as a block. Its most iconic feature is the animated ears, which flap as the player moves or when powered by redstone. For adventurers, it serves as a powerful tool for sneaking through the Nether, as it halves the distance at which Piglins will notice and potentially attack the player."
     },
     "minecraft:zombie_head": {
         id: "minecraft:zombie_head",
@@ -1730,20 +1170,20 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Reducing Zombie detection range"
+            secondaryUse: "Redstone-interactive decoration"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Zombies killed by a Charged Creeper"]
+            ingredients: ["Dropped by a Zombie when killed by a Charged Creeper"]
         },
         specialNotes: [
-            "Obtained when a Zombie is killed by a Charged Creeper's explosion",
-            "Can be worn as a helmet or placed as a decorative block",
+            "Obtained when a Zombie is killed by another Charged Creeper's explosion",
             "Reduces the detection range of Zombies by 50% when worn",
-            "Compatible with note blocks to produce Zombie sounds",
-            "Added as a trophy item for late-game combat challenges"
+            "Can be placed on a note block to play the Zombie's idle sound",
+            "A gruesome but popular trophy for survival players",
+            "Used in crafting the Zombie Charge banner pattern"
         ],
-        description: "The Zombie Head is a rare decorative item representing the iconic undead mob. It is primarily obtained by manipulation of a Charged Creeper to kill a Zombie. When worn by a player, it serves a functional purpose by significantly masking the player's presence from other Zombies, reducing their detection range. Additionally, placing it on a note block allows players to create ambient mob sounds, making it a favorite for map-makers and decorators."
+        description: "The Zombie Head is a collectible entity item that captures the likeness of the common undead mob. It is a rare drop that occurs only when a Zombie is caught in the blast of a Charged Creeper. Players can wear it as a decorative helmet, which also provides a stealth benefit by reducing Zombie detection range. In more creative uses, placing it on a note block allows builders to create custom ambient soundscapes, making it a favorite for haunted house builds and complex map designs."
     },
     "minecraft:skeleton_skull": {
         id: "minecraft:skeleton_skull",
@@ -1753,20 +1193,20 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Reducing Skeleton detection range"
+            secondaryUse: "Redstone-interactive decoration"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Skeletons killed by a Charged Creeper"]
+            ingredients: ["Dropped by a Skeleton when killed by a Charged Creeper"]
         },
         specialNotes: [
-            "Obtained when a Skeleton is killed by a Charged Creeper's explosion",
-            "Can be worn as a helmet (purely decorative protection)",
+            "Obtained when a Skeleton is killed by another Charged Creeper's explosion",
             "Reduces the detection range of Skeletons by 50% when worn",
-            "Produces Skeleton bone sounds when placed on a note block",
-            "Can be used to craft Skeleton-themed banner patterns"
+            "Produces the Skeleton's bone-rattling sound when placed on a note block",
+            "Used to craft the Skeleton Charge (Skull) banner pattern",
+            "Classic white skeletal trophy for any player's base"
         ],
-        description: "The Skeleton Skull is a prized decorative item obtained through the rare encounter of a Charged Creeper killing a Skeleton. This stark white skull can be worn by players to partially camouflage themselves from Skeletons, making it easier to navigate areas populated by archers. In Bedrock Edition, it also has a creative interaction with note blocks, allowing for the generation of skeleton-specific sound effects for atmospheric builds."
+        description: "The Skeleton Skull is a classic decorative item that players can obtain through the difficult task of using a Charged Creeper to kill a Skeleton. It serves as both a trophy and a utility item; when worn as armor, it halves the distance at which Skeletons will target the player, providing a tactical edge in the dark. It is also an essential crafting ingredient for creating the iconic skull-and-crossbones banner pattern, making it a staple for pirate-themed builds and high-detail dungeon aesthetics."
     },
     "minecraft:creeper_head": {
         id: "minecraft:creeper_head",
@@ -1776,7 +1216,7 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Reducing Creeper detection range"
+            secondaryUse: "Redstone-interactive decoration"
         },
         crafting: {
             recipeType: "Uncraftable",
@@ -2096,7 +1536,7 @@ export const miscItems = {
             "A non-destructive way to farm elements in peaceful experiments.",
             "Available only when Education features are toggled."
         ],
-        description: "The Material Reducer is a chemistry workstation that breaks down standard Minecraft blocks into their constituent chemical elements. By placing a block like Grass, Stone, or Glass into the reducer, the machine decomposes it into a variety of elements such as Oxygen, Silicon, or Carbon. This provides a way to obtain elements without using the Element Constructor, allowing players to discover the chemical makeup of the Minecraft world."
+        description: "The Material Reducer is a chemistry workstation that breaks down standard Minecraft blocks into their constituent chemical elements. By placing a block like Grass, Stone, or Wood into the reducer, the machine decomposes it into a variety of elements such as Oxygen, Silicon, or Carbon. This provides a way to obtain elements without using the Element Constructor, allowing players to discover the chemical makeup of the Minecraft world."
     },
     "minecraft:sodium_acetate": {
         id: "minecraft:sodium_acetate",
