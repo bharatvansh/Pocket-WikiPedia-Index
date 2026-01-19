@@ -560,5 +560,89 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Trapdoor is the final oxidation stage of copper, featuring a distinct teal-green patina. Found naturally in Trial Chambers, it serves as a weathered decorative and functional block. Players can wax it with honeycomb to lock its appearance or scrape it with an axe to revert it to a weathered state. It must be mined with a stone pickaxe or better to drop as an item. Unlike iron trapdoors, copper trapdoors can be toggled by hand or redstone, providing versatility for aged industrial or ancient-themed builds."
+    },
+    "minecraft:waxed_copper": {
+        id: "minecraft:waxed_copper",
+        name: "Waxed Block of Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Block of Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from 9 Copper Ingots or applied Honeycomb"
+        },
+        description: "A Block of Copper that has been treated with honeycomb to lock in its current oxidation state. This waxed variant will not change color over time, regardless of exposure to the elements. Players can use an axe on the block to scrape off the wax layer, allowing it to resume natural oxidation. It can also be crafted back into nine copper ingots, making it a viable storage option. Its reflective orange surface is highly valued for building statues, roofs, and accents that require a clean, permanent metallic look."
+    },
+    "minecraft:waxed_cut_copper": {
+        id: "minecraft:waxed_cut_copper",
+        name: "Waxed Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cut Copper or applied Honeycomb"
+        },
+        description: "A decorative variant of cut copper that has been waxed with honeycomb to prevent further oxidation. It features the same tiled, industrial texture as standard cut copper but is permanently frozen in its pristine orange state. Waxed cut copper is ideal for builders who want a consistent, non-aging tiled look for modern flooring or industrial roofing. Like other waxed blocks, the wax can be scraped off with an axe to allow the block to begin weathering naturally into its' subsequent developmental stages."
+    },
+    "minecraft:waxed_chiseled_copper": {
+        id: "minecraft:waxed_chiseled_copper",
+        name: "Waxed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Chiseled Copper is a decorative block with a unique carved geometric pattern that has been treated with honeycomb to prevent oxidation. This treatment ensures the block maintains its' original orange-copper color indefinitely. It provides a sophisticated look for pillars, borders, and accent walls in architectural designs. If a player decides they want a more weathered look, they can scrape the wax off with any axe, allowing the block to eventually turn green through natural exposure to air."
+    },
+    "minecraft:waxed_copper_grate": {
+        id: "minecraft:waxed_copper_grate",
+        name: "Waxed Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Copper Grates or applied Honeycomb"
+        },
+        description: "A transparent lattice-style block crafted from copper that has been waxed to lock in its' fresh appearance. It allows light to pass through and can be walked upon, making it perfect for industrial walkways, vents, or decorative railings. Because it is waxed, it won't weather into the green patina common to older copper structures. Players can remove the wax coating using an axe, which then allows the block to oxidize through its' usual stages. In Bedrock Edition, it behaves as a transparent block that requires a pickaxe for harvesting."
     }
 };
