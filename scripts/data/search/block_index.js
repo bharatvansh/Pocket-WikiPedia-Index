@@ -2868,5 +2868,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_button",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/blocks/reeds",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:infested_stone_bricks",
+        name: "Infested Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stone_bricks",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:infested_mossy_stone_bricks",
+        name: "Infested Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/mossy_stone_bricks",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:infested_cracked_stone_bricks",
+        name: "Infested Cracked Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/cracked_stone_bricks",
+        themeColor: "§7"
     }
 ];
