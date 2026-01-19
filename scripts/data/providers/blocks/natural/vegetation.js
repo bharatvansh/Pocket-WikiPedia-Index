@@ -289,6 +289,27 @@ export const vegetationBlocks = {
         },
         description: "Flowering Azalea Leaves are the mature form of Azalea plants, found naturally in the Lush Caves biome where they form thick, vibrant foliage with beautiful pink or purple flowers. These leaves can be harvested with shears using Silk Touch to preserve their decorative appearance. When bone meal is applied to regular Azalea plants, they can grow into this flowering variant. Flowering Azalea Leaves have a unique appearance combining the lush green leaves of traditional foliage with the decorative blossoms of azalea flowers. They are perfect for creating botanical gardens, floral displays, or adding vibrant color to underground constructions."
     },
+    "minecraft:azalea_leaves": {
+        id: "minecraft:azalea_leaves",
+        name: "Azalea Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Hoe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Azalea Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves biome"
+        },
+        description: "Azalea Leaves are natural foliage blocks that generate as part of Azalea trees, which mark the location of Lush Caves below. They are characterized by a dense, vibrant green texture. Unlike flowering azalea leaves, they do not contain blossoms. These leaves can be harvested using shears or a tool with Silk Touch; otherwise, they have a chance to drop azalea saplings or flowering azalea saplings. They are highly flammable and serve as a beautiful decorative block for gardens and custom trees, reflecting the lush atmosphere of their native biome."
+    },
     "minecraft:mangrove_roots": {
         id: "minecraft:mangrove_roots",
         name: "Mangrove Roots",

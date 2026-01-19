@@ -241,6 +241,48 @@ export const endBlocks = {
         },
         description: "End Stone Brick Stairs are the stair variant of End Stone Bricks, providing a way to create smooth vertical transitions in End-themed architecture. They share the distinctive tan, star-patterned texture of End Stone Bricks and possess the same high durability, with a hardness of 3.0 and blast resistance of 9.0. This makes them more resistant to explosions than typical stone stairs. They can be crafted using a crafting table or a stonecutter. As a key structural element in End City construction, they are essential for creating detailed, durable, and aesthetically unique staircases."
     },
+    "minecraft:end_stone_brick_wall": {
+        id: "minecraft:end_stone_brick_wall",
+        name: "End Stone Brick Wall",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["End Stone Brick Wall"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "End Stone Brick Walls are decorative barrier blocks crafted from End Stone Bricks. They provide a refined alternative to wooden fences with the distinct tan color and star-patterned texture of the End dimension. These walls share the high durability of the end stone family, boasting a blast resistance of 9.0, making them stronger than most Overworld stone walls. They generate naturally in End Cities and can be crafted to create secure perimeters, balconies, and detailed architectural structures that can withstand significant damage."
+    },
+    "minecraft:end_stone_brick_slab": {
+        id: "minecraft:end_stone_brick_slab",
+        name: "End Stone Brick Slab",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["End Stone Brick Slab"],
+        generation: {
+            dimension: "The End",
+            yRange: "End Cities"
+        },
+        description: "The End Stone Brick Slab is a half-block variant of End Stone Bricks, offering high durability and a clean, tan aesthetic. It is ideal for smooth elevation changes, roofing, and intricate floor patterns in End-themed builds. Featuring a blast resistance of 9.0, it provides superior protection against explosions compared to standard stone slabs. These slabs generate naturally within the architecture of End Cities and can be crafted from three End Stone Bricks or more efficiently via a stonecutter. They are waterloggable and can be used for both decorative and defensive applications."
+    },
     "minecraft:end_gateway": {
         id: "minecraft:end_gateway",
         name: "End Gateway",

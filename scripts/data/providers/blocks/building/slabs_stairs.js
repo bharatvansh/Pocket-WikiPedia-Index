@@ -177,6 +177,27 @@ export const slabsStairsBlocks = {
         },
         description: "Tuff Brick Stairs are the stair variant of tuff bricks, introduced in Minecraft 1.21. They allow for smooth elevation changes and detailed architectural features like roofs and corner trims, maintaining the rugged brick aesthetic of the tuff family. Crafted from six tuff bricks or via a stonecutter, they are essential for cohesive builds using tuff materials. They generate naturally in Trial Chambers and can be waterlogged, adding to their versatility in various building styles."
     },
+    "minecraft:tuff_brick_wall": {
+        id: "minecraft:tuff_brick_wall",
+        name: "Tuff Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Brick Walls are decorative barrier blocks introduced in Minecraft 1.21. Crafted from Tuff Bricks, they feature a sophisticated dark gray, masonry-style texture that matches the Trial Chambers' aesthetic. These walls connect to each other and surrounding blocks, forming a continuous barrier that is 1.5 blocks high for most entities. They generate naturally in Trial Chambers and can be crafted using six Tuff Bricks or a stonecutter. Their rugged, stone-brick appearance makes them excellent for defensive perimeters, dungeon-themed builds, and modern industrial designs."
+    },
     "minecraft:pale_oak_slab": {
         id: "minecraft:pale_oak_slab",
         name: "Pale Oak Slab",
@@ -218,6 +239,27 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Resin Bricks"
         },
         description: "Resin Brick Slab is a half-block variant of Resin Bricks, introduced in Minecraft 1.21.50. It allows for more precise building and decoration with the distinctive warm, orange-toned brick texture of resin. Crafted from three Resin Bricks in a row or using a stonecutter, it is perfect for flooring, steps, and roofing. Like other resin brick blocks, it is durable and blast-resistant, serving as a key component in the resin block family."
+    },
+    "minecraft:resin_brick_wall": {
+        id: "minecraft:resin_brick_wall",
+        name: "Resin Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Resin Brick Wall"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Resin Brick Walls are decorative barrier blocks introduced in the Minecraft 1.21.50 Winter Drop. Crafted from six Resin Bricks or via a stonecutter, they feature a vibrant orange-brown texture that matches the resin block family. These walls can be used to create detailed boundaries, railings, and architectural accents while providing the same durability as full resin bricks. Like other stone-type walls, they connect to adjacent blocks and walls, making them versatile for structural designs in warm-toned builds."
     },
     "minecraft:mud_brick_stairs": {
         id: "minecraft:mud_brick_stairs",

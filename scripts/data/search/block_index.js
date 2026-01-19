@@ -168,6 +168,20 @@ export const blockIndex = [
         themeColor: "§6" // yellow/tan
     },
     {
+        id: "minecraft:end_stone_brick_wall",
+        name: "End Stone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/end_stone_brick_wall",
+        themeColor: "§6" // yellow/tan
+    },
+    {
+        id: "minecraft:end_stone_brick_slab",
+        name: "End Stone Brick Slab",
+        category: "block",
+        icon: "textures/blocks/end_stone_brick_slab",
+        themeColor: "§6" // yellow/tan
+    },
+    {
         id: "minecraft:stone_bricks",
         name: "Stone Bricks",
         category: "block",
@@ -278,6 +292,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/flowering_azalea_leaves",
         themeColor: "§a" // green/pink
+    },
+    {
+        id: "minecraft:azalea_leaves",
+        name: "Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/azalea_leaves",
+        themeColor: "§a" // green
     },
     {
         id: "minecraft:glowstone",
@@ -1834,6 +1855,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:tuff_brick_wall",
+        name: "Tuff Brick Wall",
+        category: "block",
+        icon: "textures/blocks/tuff_brick_wall",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:small_amethyst_bud",
         name: "Small Amethyst Bud",
         category: "block",
@@ -1873,6 +1901,13 @@ export const blockIndex = [
         name: "Resin Brick Slab",
         category: "block",
         icon: "textures/blocks/resin_bricks",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:resin_brick_wall",
+        name: "Resin Brick Wall",
+        category: "block",
+        icon: "textures/blocks/resin_brick_wall",
         themeColor: "§6" // orange
     },
     {
