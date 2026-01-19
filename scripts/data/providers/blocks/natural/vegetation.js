@@ -1065,5 +1065,110 @@ export const vegetationBlocks = {
             yRange: "Plains, Savannas, Jungles"
         },
         description: "Tall Grass is a two-block high variant of grass that generates naturally in various biomes like Plains, Savannas, and Jungles. Unlike regular short grass, it provides more visual density to the landscape. When broken by hand, it has a chance to drop wheat seeds, but it must be harvested with Shears to be collected as an item. It can be grown by applying bone meal to short grass or directly to a grass block. Its height makes it useful for creating overgrown aesthetics or providing camouflage in survival situations."
+    },
+    "minecraft:dandelion": {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dandelion"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Forests, Meadow biomes"
+        },
+        description: "Dandelions are bright yellow flowers that generate naturally across many grassy biomes in the Overworld, such as Plains and Forests. In addition to being a beautiful decorative element, they can be crafted into Yellow Dye. When used to craft Suspicious Stew, they grant the Saturation effect in Bedrock Edition. They are common, renewable, and a favorite of bees for pollination, making them a staple of any Minecraft garden or meadow."
+    },
+    "minecraft:poppy": {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Poppy"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Most grassy biomes"
+        },
+        description: "Poppies are vibrant red flowers that are common throughout the Overworld. They often spawn in small patches in grassy biomes like Plains and Forests. Iron Golems can also spawn holding or dropping them, symbolizing friendliness. Poppies can be crafted into Red Dye or used to make Suspicious Stew that grants the Night Vision effect. Their bold color and cultural significance in the game make them popular for landscaping and memorial builds."
+    },
+    "minecraft:blue_orchid": {
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Orchid"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Swamp biomes"
+        },
+        description: "The Blue Orchid is a delicate light-blue flower that exclusively generates in Swamp biomes. Its unique and rare color makes it a highly desired decorative piece for builders. Like other flowers, it can be used to attract and breed bees for honey production. When crafted into a Suspicious Stew, it provides the Saturation effect. It is also the primary source of Light Blue Dye, serving as a vital resource for players looking to customize their builds with cooler tones."
+    },
+    "minecraft:red_tulip": {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest biomes"
+        },
+        description: "Red Tulips are elegant flowers that generate in Plains and Flower Forest biomes. They are part of the four tulip variants available in Minecraft, known for their distinct cup-shaped blooms. Builders often use them in garden arrangements for their bright red color. They can be crafted into Red Dye. When used in a Suspicious Stew recipe, they grant the Weakness effect to the player. Tulips are unique because they can be grown from bone meal only in certain biomes that naturally support them."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Near water sources"
+        },
+        description: "Sugar Cane is an important perennial plant found growing on the banks of water sources in most Overworld biomes. It can be planted on grass, dirt, sand, or red sand as long as the block is directly adjacent to water. It is used to produce Sugar for cooking and Paper for books, maps, and fireworks. It grows up to three blocks tall and is completely renewable, making it essential for late-game enchanting and exploration of the Minecraft world."
     }
 };
