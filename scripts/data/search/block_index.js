@@ -3029,5 +3029,40 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dragon_egg",
         themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:light_weighted_pressure_plate",
+        name: "Light Weighted Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/light_weighted_pressure_plate",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:heavy_weighted_pressure_plate",
+        name: "Heavy Weighted Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/heavy_weighted_pressure_plate",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:polished_blackstone_button",
+        name: "Polished Blackstone Button",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_button",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:warped_door",
+        name: "Warped Door",
+        category: "block",
+        icon: "textures/items/door_warped",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:crimson_door",
+        name: "Crimson Door",
+        category: "block",
+        icon: "textures/items/door_crimson",
+        themeColor: "§4"
     }
 ];

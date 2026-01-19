@@ -432,5 +432,68 @@ export const redstoneBlocks = {
             yRange: "Crafted from Pale Oak Planks"
         },
         description: "The Pale Oak Button is a compact redstone power source crafted from a single pale oak plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its muted, cream-gray color allows it to blend subtly with other pale oak blocks or stand out against darker materials. It can be placed on any side of a solid block, making it a versatile tool for activating doors, machines, or hidden mechanisms."
+    },
+    "minecraft:light_weighted_pressure_plate": {
+        id: "minecraft:light_weighted_pressure_plate",
+        name: "Light Weighted Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Weighted Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Gold Ingots"
+        },
+        description: "A Light Weighted Pressure Plate (Gold) is a specialized redstone component that outputs a signal strength based on the number of entities standing on it. In Bedrock Edition, it emits a signal strength equal to the number of entities, up to a maximum of 15. This allows for precise entity counting in automated systems. It can detect all entities, including players, mobs, and dropped items, making it essential for complex mob farms and item sorters that require specific quantity detection."
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+        id: "minecraft:heavy_weighted_pressure_plate",
+        name: "Heavy Weighted Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Heavy Weighted Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Iron Ingots"
+        },
+        description: "The Heavy Weighted Pressure Plate (Iron) is a redstone component designed to detect large groups of entities. Its signal strength increases by 1 for every 10 entities present (rounded up), requiring 141 or more entities to reach the maximum signal strength of 15. In Bedrock Edition, it is commonly used in high-capacity mob farms or security systems where a signal is only desired when many entities are present. Like other weighted plates, it can be activated by any entity type, including dropped items."
+    },
+    "minecraft:polished_blackstone_button": {
+        id: "minecraft:polished_blackstone_button",
+        name: "Polished Blackstone Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Button"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants; Crafted from Polished Blackstone"
+        },
+        description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
     }
 };
