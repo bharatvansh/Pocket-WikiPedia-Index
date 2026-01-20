@@ -1811,6 +1811,69 @@ export const miscItems = {
         ],
         description: "The Warped Hanging Sign is a teal-colored, fireproof sign found in the Warped Forests of the Nether. Being immune to fire, it is an essential tool for navigation in volcanic regions. Its bright teal color provides excellent visibility against darker blocks, and its texture is distinct from Overworld wood. It can be hung from the bottom or sides of blocks and supports text customization including dyes and glow effects, serving as both a functional and eerie decorative element."
     },
+    "minecraft:oak_hanging_sign": {
+        id: "minecraft:oak_hanging_sign",
+        name: "Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text hung from blocks or walls",
+            secondaryUse: "Decorative signage for buildings"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Oak Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in the 1.20 Trails & Tales update.",
+            "Can be hung from the bottom or sides of blocks.",
+            "Text can be applied to both sides of the sign."
+        ],
+        description: "The Oak Hanging Sign is a decorative signage item crafted from oak wood. It features a traditional wooden texture and is suspended by two chains, allowing it to hang from the underside of blocks or be attached to the side of walls using a bracket. Like standard signs, it can display up to four lines of text on both sides, which can be further customized with dyes or glow ink sacs for better visibility."
+    },
+    "minecraft:spruce_hanging_sign": {
+        id: "minecraft:spruce_hanging_sign",
+        name: "Spruce Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text hung from blocks or walls",
+            secondaryUse: "Decorative signage for spruce-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Spruce Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in the 1.20 Trails & Tales update.",
+            "Matches the dark, rustic aesthetic of spruce wood.",
+            "Durable and visible against lighter colored blocks."
+        ],
+        description: "Crafted from spruce wood, the Spruce Hanging Sign offers a darker, more rustic alternative to the standard oak variant. It is held by two chains and can be placed in multiple orientations, hanging freely from overhead blocks or attached to walls. The dark wood provides a clean background for text, which can be written on both the front and back of the sign, making it ideal for directional cues in spruce forests or mountain dwellings."
+    },
+    "minecraft:birch_hanging_sign": {
+        id: "minecraft:birch_hanging_sign",
+        name: "Birch Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text hung from blocks or walls",
+            secondaryUse: "Decorative signage for birch-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Birch Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in the 1.20 Trails & Tales update.",
+            "Features the light, pale texture of birch wood.",
+            "Highly visible against dark backgrounds."
+        ],
+        description: "The Birch Hanging Sign is a light-colored decorative item that stands out in dark environments or against dark-colored building materials. Suspended by two chains, this sign can be hung from the ceiling or attached to a wall. Its pale birch texture makes it one of the most visible hanging signs, especially when used with dark dyes for the text. It functions identically to other hanging signs, supporting text on both sides and interactive editing."
+    },
     "minecraft:zombie_head": {
         id: "minecraft:zombie_head",
         name: "Zombie Head",
