@@ -119,6 +119,13 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7" // gray/stone
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
@@ -285,6 +292,27 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_goat",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:salmon_spawn_egg",
+        name: "Salmon Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_salmon",
+        themeColor: "§c" // pink/red
+    },
+    {
+        id: "minecraft:cod_spawn_egg",
+        name: "Cod Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_cod",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pufferfish",
+        themeColor: "§e" // yellow
     },
     {
         id: "minecraft:netherite_upgrade_smithing_template",
@@ -656,6 +684,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bundle_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        category: "item",
+        icon: "textures/items/bundle_purple",
+        themeColor: "§5"
     },
     {
         id: "minecraft:echo_shard",
@@ -1524,6 +1559,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        category: "item",
+        icon: "textures/items/resin_clump",
+        themeColor: "§6" // orange
     },
     {
         id: "minecraft:resin_brick",
@@ -2797,6 +2839,27 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/warped_hanging_sign",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:oak_hanging_sign",
+        name: "Oak Hanging Sign",
+        category: "item",
+        icon: "textures/items/oak_hanging_sign",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_hanging_sign",
+        name: "Spruce Hanging Sign",
+        category: "item",
+        icon: "textures/items/spruce_hanging_sign",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_hanging_sign",
+        name: "Birch Hanging Sign",
+        category: "item",
+        icon: "textures/items/birch_hanging_sign",
+        themeColor: "§e"
     },
     {
         id: "minecraft:creaking_spawn_egg",
