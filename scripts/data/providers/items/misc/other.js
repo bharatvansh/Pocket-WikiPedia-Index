@@ -406,6 +406,29 @@ export const miscItems = {
         ],
         description: "The Lime Bundle provides a fresh, vibrant aesthetic for player inventory management. By combining a bundle with lime dye, players can create a distinct pouch for their green-themed items or natural resources. It follows the standard bundle mechanics, allowing for the efficient storage of multiple item types in a single inventory slot."
     },
+    "minecraft:purple_bundle": {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory management and organization",
+            secondaryUse: "Storage of up to 64 items of different types"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Purple Dye"]
+        },
+        specialNotes: [
+            "Crafted by combining a standard Bundle with Purple Dye.",
+            "Can hold up to 64 items, including mixed stacks of different items.",
+            "Items can be added or removed while the bundle is held in the inventory.",
+            "Purple color helps organize magic-related items like potions or ender pearls.",
+            "Released in Bedrock Edition 1.21.40 (Bundles of Bravery update)."
+        ],
+        description: "The Purple Bundle is a stylish and functional variant of the bundle, offering a regal purple aesthetic for inventory management. Created by dyeing a standard bundle with purple dye, it retains the core functionality of grouping multiple item types into a single slot. This is particularly useful for players who collect many different items while exploring, such as various flowers, mob drops, or building materials. The purple hue specifically makes it an excellent choice for organizing rare treasures, magic components, or simply adding a touch of color to a player's storage system."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",

@@ -293,6 +293,29 @@ export const craftingMaterials = {
         ],
         description: "Amethyst Shards are crystalline materials harvested from Amethyst Clusters found in underground Geodes. When mined with a pickaxe, a cluster drops 4 shards, increasing up to 16 with Fortune. They are renewable, as clusters regrow on immovable Budding Amethyst blocks. Shards can also be found in loot chests within Ancient Cities and Trial Chambers. Essential for crafting, they are used to create Spyglasses, Tinted Glass, Calibrated Sculk Sensors, and decorative Amethyst Blocks. Their vibrant purple color offers both functional utility and aesthetic appeal."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "High-tier loot item and decorative block"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Extremely rare drop from Ominous Vaults (8.3% chance).",
+            "Used exclusively with a Breeze Rod to craft the Mace.",
+            "Can be placed as a block but acts primarily as a high-tier crafting item.",
+            "Introduced in the 1.21 Tricky Trials update.",
+            "Cannot be moved by pistons or sticky pistons when placed."
+        ],
+        description: "The Heavy Core is an exceptionally dense and rare item found only within the depths of Trial Chambers. It is a prestigious reward obtained by unlocking Ominous Vaults with an Ominous Trial Key. Its primary and most powerful use is as the head of the Mace, a weapon that deals devastating damage based on the height of a player's fall. Combining its immense weight with the agility of a Breeze Rod allows players to create one of the most unique weapons in Minecraft history. Its block-like appearance also makes it a symbol of triumph for explorers who have conquered the Trial Chambers."
+    },
     "minecraft:disc_fragment_5": {
         id: "minecraft:disc_fragment_5",
         name: "Disc Fragment 5",
@@ -871,6 +894,30 @@ export const craftingMaterials = {
             "Introduced as part of the Archaeology system in 1.20"
         ],
         description: "The Angler Pottery Sherd is a specialized crafting item obtained through the archaeology system. In Bedrock Edition, it is found by carefully using a brush on suspicious sand blocks located within warm ocean ruins. When used in a 2x2 crafting recipe for a Decorated Pot, it applies a unique illustration of a fishing hook to one of the pot's sides. This allows players to create personalized decorative vessels that reflect their adventures and maritime explorations."
+    },
+    "minecraft:resin_clump": {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelted into Resin Bricks",
+            secondaryUse: "Crafting Resin Blocks and Armor Trims"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by a Creaking or harvested from Creaking Hearts"]
+        },
+        specialNotes: [
+            "Generated when a Creaking is hit while protected by its Creaking Heart.",
+            "Can be harvested by breaking Resin Clump blocks that grow near the Heart.",
+            "Smelting one Resin Clump yields one Resin Brick.",
+            "Nine Resin Clumps can be crafted into a block of Resin.",
+            "Essential for creating the new orange-themed Resin building blocks.",
+            "Introduced in the 1.21.40 Winter Drop update."
+        ],
+        description: "Resin Clumps are a unique organic material found only within the Pale Garden biome. These vibrant orange masses are produced by Creaking Hearts as a defensive or structural response when their associated Creaking mob is attacked. Players can collect them by either attacking the Creaking or by harvesting the clumps directly from blocks surrounding the Heart. As a versatile material, Resin Clumps can be smelted into Resin Bricks for building or crafted into solid Resin Blocks. They represent a key part of the spooky Pale Garden's ecology and provide builders with a warm, striking new color palette."
     },
     "minecraft:resin_brick": {
         id: "minecraft:resin_brick",
