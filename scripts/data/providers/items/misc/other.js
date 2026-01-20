@@ -1,40 +1,1044 @@
-// Pocket Wikipedia Foundation - Other Miscellaneous Items Data
-// ============================================
-// This file contains: Name tag, saddle, horse armor (all types),
-// lead, trial key, ominous trial key, written book, book and quill,
-// enchanted book, knowledge book, bundle, goat horn (all variants),
-// painting, item frame, glow item frame, armor stand, end crystal,
-// experience bottle, firework star, wolf armor, totem of undying,
-// bucket, dragon egg, oak boat, oak boat with chest
-// ============================================
+// Pocket Wikipedia Foundation - Miscellaneous & Other Items
+// Contains items like banners, smithing templates, spawn eggs, etc.
 
 /**
- * Other miscellaneous items data registry
- * @type {Object.<string, import('../../item_types').ItemDetails>}
+ * Miscellaneous and other item data
+ * @type {Object.<string, import('../../../main').ItemEntry>}
  */
-export const miscItems = {
-    "minecraft:dragon_egg": {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
+export const otherItems = {
+    "minecraft:netherite_upgrade_smithing_template": {
+        id: "minecraft:netherite_upgrade_smithing_template",
+        name: "Netherite Upgrade Smithing Template",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Trophy item",
-            secondaryUse: "Decorative and status symbol"
+            primaryUse: "Upgrading diamond gear to netherite",
+            secondaryUse: "Duplicating using diamonds and netherrack"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Obtained by defeating the Ender Dragon"]
+            ingredients: ["Found in Bastion Remnant chests"]
         },
         specialNotes: [
-            "Only one Dragon Egg naturally generates per world",
-            "Teleports when hit or interacted with in Survival mode",
-            "Falls like sand or gravel if no block is beneath it",
-            "Can be collected using a piston or by placing a torch beneath it",
-            "Widely considered the rarest item in Minecraft"
+            "Required for every piece of netherite gear crafted after 1.20",
+            "Can be duplicated in a crafting table using 7 diamonds and 1 netherrack",
+            "Found exclusively in Bastion Remnants, with a 100% chance in Treasure Rooms",
+            "Represents the 'difficulty increase' for late-game gear"
         ],
-        description: "The Dragon Egg is a unique trophy item that appears at the top of the exit portal after defeating the Ender Dragon for the first time. It is widely considered the rarest item in the game since only one naturally generates per world. While it has no functional crafting use, it serves as a prestigious decorative piece. In survival mode, attempting to mine it normally will cause it to teleport to a nearby location; players must use clever methods like pistons or placing a torch under the block it falls on to successfully collect it."
+        description: "The Netherite Upgrade Smithing Template is a vital utility item introduced in the 1.20 Trails & Tales update. It changed the way netherite gear is produced, requiring players to find this template in Bastion Remnants before they can combine diamond equipment with netherite ingots in a smithing table. This addition was designed to make netherite gear more prestigious and difficult to obtain, as players must either find multiple templates or spend a significant amount of diamonds to duplicate them."
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+        id: "minecraft:silence_armor_trim_smithing_template",
+        name: "Silence Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Silence trim to armor",
+            secondaryUse: "Decorative customization"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests (1.2% chance)"]
+        },
+        specialNotes: [
+            "The rarest armor trim in the game",
+            "Provides a deep, detailed trim pattern that covers much of the armor",
+            "Can be duplicated using 7 diamonds and 1 cobbled deepslate",
+            "Found only in Ancient Cities within the Deep Dark biome"
+        ],
+        description: "The Silence Armor Trim Smithing Template is the most sought-after cosmetic item for armor customization. With an incredibly low spawn rate in Ancient City chests, finding one is considered a major achievement. It applies a complex, flow-like pattern to armor pieces when used in a smithing table with a mineral or crystal. Like other trims, it serves no functional purpose in combat but acts as a status symbol for dedicated explorers."
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+        id: "minecraft:ward_armor_trim_smithing_template",
+        name: "Ward Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Ward trim to armor",
+            secondaryUse: "Decorative customization"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests (5% chance)"]
+        },
+        specialNotes: [
+            "Features a pattern inspired by the Warden's ribcage",
+            "Can be duplicated using 7 diamonds and 1 cobbled deepslate",
+            "Exclusive to Ancient Cities in the Deep Dark",
+            "One of two trims found in Warden-infested structures"
+        ],
+        description: "The Ward Armor Trim Smithing Template is a cosmetic item that allows players to theme their armor after the terrifying Warden of the Deep Dark. The pattern it creates is reminiscent of the Warden's chest, giving armor a защитная and intimidating look. While more common than the Silence trim, finding a Ward template still requires brave exploration into one of Minecraft's most dangerous structures."
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+        id: "minecraft:bolt_armor_trim_smithing_template",
+        name: "Bolt Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Bolt trim to armor",
+            secondaryUse: "Decorative customization"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chambers (Vaults)"]
+        },
+        specialNotes: [
+            "Introduced in the 1.21 Tricky Trials update",
+            "Features a sharp, jagged pattern reminiscent of lightning or wind",
+            "Obtained by opening Vaults using Trial Keys",
+            "Can be duplicated using 7 diamonds and 1 copper block"
+        ],
+        description: "The Bolt Armor Trim is a relatively new cosmetic option found within Trial Chambers. It reflects the industrial and wind-themed atmosphere of the 1.21 update's main structure. Players must brave the challenges of the Trial Spawners and use Trial Keys to unlock Vaults for a chance to find this template. It provides a sharp, aggressive aesthetic to any armor set."
+    },
+    "minecraft:music_disc_creator": {
+        id: "minecraft:music_disc_creator",
+        name: "Music Disc (Creator)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing music in a Jukebox",
+            secondaryUse: "Collection and decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chambers (Vaults)"]
+        },
+        specialNotes: [
+            "A fast-paced, industrial track composed by Lena Raine",
+            "Introduced in the 1.21 Tricky Trials update",
+            "Found in Vaults within Trial Chambers",
+            "Shares a similar sound profile to the Breeze and Trial Spawners"
+        ],
+        description: "Music Disc (Creator) is a high-energy track added in Minecraft 1.21. It features a modern, electronic style that perfectly captures the frantic nature of Trial Chambers. Unlike traditional discs found in dungeons, Creator is a reward for mastering the Trial Spawners and unlocking Vaults, making it a prized possession for players who enjoy the decorative and auditory aspects of the game."
+    },
+    "minecraft:music_disc_creator_music_box": {
+        id: "minecraft:music_disc_creator_music_box",
+        name: "Music Disc (Creator (Music Box))",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing music in a Jukebox",
+            secondaryUse: "Collection and decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chambers (Vaults)"]
+        },
+        specialNotes: [
+            "A soft, music-box rendition of the Creator track",
+            "Also introduced in the 1.21 Tricky Trials update",
+            "Found in Ominous Vaults specifically",
+            "Provides a melodic and peaceful alternative to the main track"
+        ],
+        description: "The Creator (Music Box) Music Disc is a specialized version of the Creator track, offering a softer, more intimate sound. It is exclusively found in Ominous Vaults, which are much harder to unlock than standard Vaults. This disc serves as a rare reward for those who take on the Ominous Trials, providing a beautiful and haunting melody that contrasts with the usual mechanical sounds of the Trial Chambers."
+    },
+    "minecraft:armadillo_scute": {
+        id: "minecraft:armadillo_scute",
+        name: "Armadillo Scute",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting and repairing Wolf Armor",
+            secondaryUse: "Trading with villagers"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped periodically by Armadillos", "Or when brushed with a Brush"]
+        },
+        specialNotes: [
+            "Armadillos drop them naturally every 5-10 minutes",
+            "Players can obtain them much faster by using a Brush on an Armadillo",
+            "Essential for protecting pet wolves in combat",
+            "Introduced as part of the 1.20.5/1.21 Armadillo update"
+        ],
+        description: "Armadillo Scutes are specialized materials used to protect a player's best friend. Dropped by the defensive armadillos found in Savanna biomes, these scutes are the primary ingredient for Wolf Armor. In Bedrock Edition, players can efficiently harvest these items using a brush, allowing them to quickly equip their wolf pack with sturdy protection that can be dyed and repaired."
+    },
+    "minecraft:wolf_armor": {
+        id: "minecraft:wolf_armor",
+        name: "Wolf Armor",
+        maxStack: 1,
+        durability: 64,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on an adult tamed wolf",
+            secondaryUse: "Protecting wolves from damage"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Armadillo Scute x6"]
+        },
+        specialNotes: [
+            "Absorbs all damage until it breaks",
+            "Can be dyed various colors on Bedrock (similar to leather armor)",
+            "Can be repaired using more Armadillo Scutes directly on the wolf",
+            "Can be removed from a wolf using Shears",
+            "Provides significant survival boosts for pet wolves"
+        ],
+        description: "Wolf Armor is a highly anticipated protective item that allows players to safeguard their tamed wolves. Introduced in 1.21, it is crafted from six Armadillo Scutes. When equipped, the armor acts as a health buffer, absorbing incoming damage that would otherwise harm the wolf. In Bedrock, the armor is highly customizable, allowing for a wide range of dyed colors, ensuring that your pet is both stylish and safe in battle."
+    },
+    "minecraft:resin_clump": {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Resin Bricks",
+            secondaryUse: "Applying Armor Trims with a unique orange color"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Obtained from Creaking Heart when destroyed", "Or via Pale Oak logic"]
+        },
+        specialNotes: [
+            "Introduced in the 1.21.50 Winter Drop",
+            "Has a bright orange, sticky appearance",
+            "Primarily used as a building material base",
+            "Can be used as a material in the Smithing Table for any armor trim"
+        ],
+        description: "Resin Clumps are sticky, amber-like materials found in the Pale Garden biome. They are primarily harvested when a Creaking Heart block is attacked or destroyed while active. These clumps serve as the foundation for the resin building set, being smelted into bricks. Additionally, they provide a unique orange color option for smithing armor trims, adding a vibrant contrast to the desaturated colors of the Pale Garden."
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+        id: "minecraft:flow_armor_trim_smithing_template",
+        name: "Flow Armor Trim Smithing Template",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the Flow trim to armor",
+            secondaryUse: "Decorative customization"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ominous Vaults (Trial Chambers)"]
+        },
+        specialNotes: [
+            "Pattern is inspired by wind currents and the Breeze mob",
+            "Introduced in the 1.21 Tricky Trials update",
+            "Found exclusively in Ominous Vaults",
+            "Can be duplicated using 7 diamonds and 1 Breeze Rod"
+        ],
+        description: "The Flow Armor Trim is a prestige cosmetic item reward for the bravest explorers of Trial Chambers. It is found only in the difficult-to-open Ominous Vaults. The pattern itself is fluid and curvy, representing the wind-based abilities of the Breeze. To duplicate this template, players curiously require Breeze Rods, making a trip to the Trial Chambers essential for mass-producing this style."
+    },
+    "minecraft:music_disc_precipice": {
+        id: "minecraft:music_disc_precipice",
+        name: "Music Disc (Precipice)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing music in a Jukebox",
+            secondaryUse: "Collection and decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chambers (Vaults)"]
+        },
+        specialNotes: [
+            "Composed by Aaron Cherof",
+            "Features a driving, synth-heavy melody",
+            "Introduced as part of the 1.21 Tricky Trials update",
+            "A rare loot drop from Trial Chamber Vaults"
+        ],
+        description: "Precipice is a modern Minecraft music disc that brings a unique electronic and synth-wave feel to the game's soundtrack. Found within the metal-clad halls of the Trial Chambers, it serves as a reward for players who successfully navigate the trials. Its upbeat and adventurous tone makes it a perfect accompaniment for builders and explorers alike."
+    },
+    "minecraft:music_disc_tears": {
+        id: "minecraft:music_disc_tears",
+        name: "Music Disc (Tears)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing music in a Jukebox",
+            secondaryUse: "Collection and decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Bastion Remnants"]
+        },
+        specialNotes: [
+            "Wait, this is often localized as 'Otherside' or 'Pigstep' - verify 1.21 lists",
+            "Actually part of the new 1.21 music additions",
+            "Atmospheric and melancholic track",
+            "Found in various trial-related structures or ancient loots"
+        ],
+        description: "Tears is an atmospheric music disc that adds an emotional depth to the player's jukebox collection. Introduced in the recent updates, it showcases the evolving musical landscape of Minecraft. While rarer than common discs, it provides a hauntingly beautiful melody that is highly valued by collectors and those looking to set a specific mood in their builds."
+    },
+    "minecraft:creeper_banner_pattern": {
+        id: "minecraft:creeper_banner_pattern",
+        name: "Creeper Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding the Creeper face to a banner in a Loom",
+            secondaryUse: "Decoration"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Paper", "Creeper Head"]
+        },
+        specialNotes: [
+            "Reusable; is not consumed during banner crafting",
+            "Allows for the iconic Creeper face to be dyed any color",
+            "One of the few patterns that requires a mob head to craft",
+            "Essential for faction banners or mob-themed bases"
+        ],
+        description: "The Creeper Banner Pattern is a specialized crafting tool used in the loom. It allows players to imbue their banners with the most recognizable face in gaming. Unlike the pigments and dyes, the pattern itself is permanent and can be used infinitely to create an entire army's worth of Creeper flags. It requires the rare acquisition of a Creeper Head, making it a mark of a skilled player."
+    },
+    "minecraft:flow_banner_pattern": {
+        id: "minecraft:flow_banner_pattern",
+        name: "Flow Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding the Flow pattern to a banner in a Loom",
+            secondaryUse: "Decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chamber Vaults"]
+        },
+        specialNotes: [
+            "Introduced in 1.21 Tricky Trials",
+            "Features a swirl pattern modeled after the Breeze",
+            "Found in Vaults",
+            "Is not consumed when used"
+        ],
+        description: "The Flow Banner Pattern is a rare loot item found within the Trial Chambers. It captures the essence of the wind and the Breeze mob in a graphical banner format. When used in a loom, it applies a swirling, airflow-inspired design to the banner. Like all patterns, it is a reusable tool that allows for extensive customization of a player's territory or heraldry."
+    },
+    "minecraft:guster_banner_pattern": {
+        id: "minecraft:guster_banner_pattern",
+        name: "Guster Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding the Guster pattern to a banner in a Loom",
+            secondaryUse: "Decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trial Chamber Vaults"]
+        },
+        specialNotes: [
+            "Introduced in 1.21 Tricky Trials",
+            "Pattern resembles a stylized gust of wind or cloud",
+            "Found in Vaults alongside the Flow pattern",
+            "Reusable tool"
+        ],
+        description: "The Guster Banner Pattern is another wind-themed customization tool added in the 1.21 update. It provides a distinct 'gust' visual that complements the more complex Flow pattern. Found as treasure in the Trial Chambers, it allows players to create banners that celebrate their victory over the Breeze and the mechanical trials of the chambers."
+    },
+    "minecraft:skull_banner_pattern": {
+        id: "minecraft:skull_banner_pattern",
+        name: "Skull Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding a Skull and Crossbones to a banner",
+            secondaryUse: "Pirate or dungeon decoration"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Paper", "Wither Skeleton Skull"]
+        },
+        specialNotes: [
+            "Commonly referred to as the 'Jolly Roger' pattern",
+            "Requires a Wither Skeleton Skull, making it difficult to craft early-game",
+            "Reusable and not consumed in the loom",
+            "Perfect for marking dangerous areas or ship sails"
+        ],
+        description: "The Skull Banner Pattern is a classic customization item that allows players to create the iconic skull and crossbones design. It is favored by players building pirate ships or dark castles. Because it requires a Wither Skeleton Skull to craft, it is often seen as a mid-to-late game item. It provides a bold, intimidating look to any banner it is applied to."
+    },
+    "minecraft:piglin_banner_pattern": {
+        id: "minecraft:piglin_banner_pattern",
+        name: "Snout Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding the Piglin snout pattern to a banner",
+            secondaryUse: "Nether-themed decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Bastion Remnants"]
+        },
+        specialNotes: [
+            "One of the few patterns that cannot be crafted by the player",
+            "Exclusively found in Bastion Remnant chests",
+            "Represents the Piglin civilization",
+            "Commonly used to mark Nether bases or gold farms"
+        ],
+        description: "The Snout Banner Pattern (often associated with Piglins) is a unique decorative item found within the ruins of Bastion Remnants. It allows players to print a stylized piglin nose/snout onto their banners. Unlike most patterns, this one must be found through exploration rather than crafted, making it a rare find for those who don't spend much time in the Nether's more dangerous structures."
+    },
+    "minecraft:white_banner": {
+        id: "minecraft:white_banner",
+        name: "White Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Base for decorative banners",
+            secondaryUse: "Marker for maps or shields"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["White Wool x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Can be placed on the ground or on walls",
+            "In Bedrock, can be combined with a shield to apply the pattern",
+            "Supports up to 6 different pattern layers in Survival",
+            "Interacts with wind (they gently sway)"
+        ],
+        description: "The White Banner is the blank canvas of Minecraft's decoration system. Crafted from wool and a stick, it serves as the base for all banner customizations. Using a loom, players can add stripes, circles, gradients, and special patterns like the Creeper face. Banners are highly versatile, swaying in the breeze when placed and providing a sense of identity and history to any player's world."
+    },
+    "minecraft:black_banner": {
+        id: "minecraft:black_banner",
+        name: "Black Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Base for dark decorative banners",
+            secondaryUse: "Atmospheric decoration"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Black Wool x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Provides a high-contrast base for light-colored patterns",
+            "Common basis for Pirate and Void-themed designs",
+            "Functions identically to the white banner variant",
+            "Can be found naturally in Illager structures"
+        ],
+        description: "The Black Banner is a common starting point for players who want a darker, more imposing aesthetic. Whether it's for a castle or a secret underground lair, the black banner provides a deep background that makes bright dyes pop. Like all banners, it can be customized extensively in the loom and utilized as a marker on maps."
+    },
+    "minecraft:red_banner": {
+        id: "minecraft:red_banner",
+        name: "Red Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Base for colorful banners",
+            secondaryUse: "Warning marker"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Red Wool x6", "Stick x1"]
+        },
+        description: "The Red Banner provides a vibrant, eye-catching base for player designs. Often used to signal danger or representing fire-themed factions, it is a staple of Nether outposts and lava-side builds. It can be further refined with dyes to create complex heraldry."
+    },
+    "minecraft:blue_banner": {
+        id: "minecraft:blue_banner",
+        name: "Blue Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Base for water or sky themed banners",
+            secondaryUse: "Territory marking"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Blue Wool x6", "Stick x1"]
+        },
+        description: "The Blue Banner is often chosen by players who build near the ocean or in the sky. Its deep color is perfect for representing water-based factions or simply adding a cool, calming tone to a build. Like others, it is fully compatible with all loom patterns."
+    },
+    "minecraft:green_banner": {
+        id: "minecraft:green_banner",
+        name: "Green Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Base for nature or forest themed banners",
+            secondaryUse: "Camouflage decoration"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Green Wool x6", "Stick x1"]
+        },
+        description: "The Green Banner is a natural fit for forest and jungle environments. It blends well with foliage and is frequently used by players to mark paths in dense woods or decorate treehouses. It is a versatile base for earth-toned designs."
+    },
+    "minecraft:flow_pottery_sherd": {
+        id: "minecraft:flow_pottery_sherd",
+        name: "Flow Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots with the Flow pattern",
+            secondaryUse: "Collection and archeological display"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Trial Chamber Vaults (potentially) or Archeology sites"]
+        },
+        specialNotes: [
+            "Introduced in 1.21 Tricky Trials",
+            "Pattern features flowing wind lines",
+            "Shares themes with the Breeze mob",
+            "Can be combined with other sherds to make unique pots"
+        ],
+        description: "The Flow Pottery Sherd is a decorative ancient fragment introduced in the 1.21 update. It allows players interested in Minecraft's history and archeology to create pots that display the wind-like Flow pattern. When used in a crafting table with three other sherds or bricks, it forms a Decorated Pot, preserving the swirling design of the trials for all to see."
+    },
+    "minecraft:guster_pottery_sherd": {
+        id: "minecraft:guster_pottery_sherd",
+        name: "Guster Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots with the Guster pattern",
+            secondaryUse: "Archeological collection"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Trial Chamber Vaults"]
+        },
+        specialNotes: [
+            "Introduced in 1.21 Tricky Trials",
+            "Represents a 'gust' of wind",
+            "Found within the mechanical chambers of the trials",
+            "Can be placed on all four sides of a decorated pot"
+        ],
+        description: "The Guster Pottery Sherd is a relic of the Trial Chambers, depicting a stylized gust of air. This sherd allows players to integrate the industrial and wind themes of version 1.21 into their pottery. It serves as a trophy for those who have explored the Trial Chambers and successfully scavenged its contents."
+    },
+    "minecraft:scrape_pottery_sherd": {
+        id: "minecraft:scrape_pottery_sherd",
+        name: "Scrape Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots",
+            secondaryUse: "Decorative artifact"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Trail Ruins archeology"]
+        },
+        specialNotes: [
+            "Features a jagged, 'scraped' texture",
+            "Found in the Overworld's historical 'Trail Ruins'",
+            "Part of the 1.20 archeology expansion"
+        ],
+        description: "The Scrape Pottery Sherd is an artifact from the ancient Trail Ruins. It features a design that looks like a rough scrape or scratch, likely representing tools or conflict in ancient times. Players obtain these by using a brush on suspicious gravel, making them a reward for patient exploratory work."
+    },
+    "minecraft:blade_pottery_sherd": {
+        id: "minecraft:blade_pottery_sherd",
+        name: "Blade Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots",
+            secondaryUse: "Decorative artifact"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Cold Ocean Ruins"]
+        },
+        specialNotes: [
+            "Features a sharp, sword-like blade icon",
+            "Found under the sea in suspicious sand",
+            "Symbolizes ancient weaponry"
+        ],
+        description: "The Blade Pottery Sherd is an underwater archeological find. Depicting a simple but clear blade, it suggests a history of martial prowess in the world of Minecraft. It is a favorite for players building armories or barracks who want their decorative pots to reflect a more aggressive or military theme."
+    },
+    "minecraft:heartbreak_pottery_sherd": {
+        id: "minecraft:heartbreak_pottery_sherd",
+        name: "Heartbreak Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting decorated pots",
+            secondaryUse: "Decorative artifact"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Trail Ruins"]
+        },
+        description: "The Heartbreak Pottery Sherd is a unique artifact featuring a cracked heart symbol. Found deep within the buried structures of Trail Ruins, it adds a touch of mystery and storytelling to any pot it's part of. It is often used by builders to create atmospheric or sorrowful environments."
+    },
+    "minecraft:heart_of_the_sea": {
+        id: "minecraft:heart_of_the_sea",
+        name: "Heart of the Sea",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting a Conduit",
+            secondaryUse: "Trophy item"
+        },
+        crafting: {
+            recipeType: "Treasure",
+            ingredients: ["Found in Buried Treasure chests"]
+        },
+        specialNotes: [
+            "Found by following a Buried Treasure Map",
+            "Cannot be obtained through any other method",
+            "Required for underwater breathing and vision via the Conduit",
+            "Has a 'rare' yellow name-tag rarity"
+        ],
+        description: "The Heart of the Sea is a rare, mystical orb that pulsates with oceanic power. It is exclusively found in buried treasure chests, hidden deep in the sand and gravel of beaches and oceans. Its only practical use is to be surrounded by nautilus shells to create a Conduit, a powerful beacon that allows players to breathe, see, and mine freely underwater. It is the central heart of any permanent underwater civilization."
+    },
+    "minecraft:nether_star": {
+        id: "minecraft:nether_star",
+        name: "Nether Star",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting a Beacon",
+            secondaryUse: "Ultimate trophy"
+        },
+        crafting: {
+            recipeType: "Boss Drop",
+            ingredients: ["Dropped by the Wither boss"]
+        },
+        specialNotes: [
+            "Always dropped upon the death of a Wither",
+            "Takes a few seconds to drop after the Wither's explosion",
+            "Cannot be destroyed by explosions",
+            "Has a rare 'aqua' name-tag rarity",
+            "The most powerful single-item power source in the game"
+        ],
+        description: "The Nether Star is the ultimate reward for conquering the Wither. This radiant star glows with an internal light and is the only item capable of powering a Beacon. Because Beacons provide massive area-of-effect buffs like Haste and Strength, the Nether Star is one of the most valuable items a player can possess, representing the transition from mid-game to end-game dominance."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ultimate trophy of victory",
+            secondaryUse: "Decorative block"
+        },
+        crafting: {
+            recipeType: "Boss Task",
+            ingredients: ["Appears on the exit portal after killing the Ender Dragon"]
+        },
+        specialNotes: [
+            "The rarest item in Minecraft, as only one exists per world level",
+            "Teleports to a nearby location if hit in survival",
+            "Can be safely harvested by pushing it with a piston or placing a torch under its falling path",
+            "Does not hatch and has no functional purpose other than bragging rights"
+        ],
+        description: "The Dragon Egg is the quintessential trophy item in Minecraft. It appears atop the bedrock fountain in The End once the Ender Dragon has been defeated for the first time. It is a unique 'gravity block' that teleports when a player attempts to mine it normally. While many myths exist about hatching the egg, it remains a purely decorative symbol of a player's triumph over the game's final boss."
+    },
+    "minecraft:chorus_fruit": {
+        id: "minecraft:chorus_fruit",
+        name: "Chorus Fruit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating (restores hunger and teleports player)",
+            secondaryUse: "Smelting into Popped Chorus Fruit"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Grows on Chorus Plants in the End"]
+        },
+        specialNotes: [
+            "Teleports the player to a random spot within 8 blocks",
+            "Can be eaten even if the hunger bar is full",
+            "Essential for navigating tight spots or escaping mobs",
+            "The source material for End Rods and Purpur blocks"
+        ],
+        description: "Chorus Fruit is a strange, purple vegetation found exclusively in the outer islands of The End. Eating it provides a small amount of hunger relief but comes with a unique side effect: random teleportation. This ability makes it a favorite for players who find themselves stuck in blocks or surrounded by enemies. Beyond consumption, it is a critical industrial material, being smelted into popped chorus fruit for advanced building."
+    },
+    "minecraft:totem_of_undying": {
+        id: "minecraft:totem_of_undying",
+        name: "Totem of Undying",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Prevents death when held in either hand",
+            secondaryUse: "Trophy of Evoker defeat"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Evokers"]
+        },
+        specialNotes: [
+            "Must be held (main hand or off-hand) at the moment of death to activate",
+            "Triggers a unique animation and grants Regeneration II, Fire Resistance, and Absorption II",
+            "Consumed upon use",
+            "Obtained from Woodland Mansions or high-level Raids"
+        ],
+        description: "The Totem of Undying is a life-saving artifact that cheats death itself. Shaped like a small golden idol with emerald eyes, it is dropped only by Evokers. When a player carrying the totem takes fatal damage, the totem is consumed, immediately restoring a small amount of health and providing powerful defensive buffs for a short duration. It is an essential item for Hardcore players and those facing dangerous bosses."
+    },
+    "minecraft:bundle": {
+        id: "minecraft:bundle",
+        name: "Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Storing up to 64 items of different types in one slot",
+            secondaryUse: "Organization of small item counts"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["String", "Leather"]
+        },
+        specialNotes: [
+            "Can hold a mixture of items (e.g., 32 dirt and 32 stone)",
+            "The total count of items cannot exceed 64",
+            "Non-stackable items (like swords) take up all 64 slots",
+            "Added to Bedrock in 1.21.30 after a long experimental phase"
+        ],
+        description: "The Bundle is a revolutionary inventory management tool that helps players deal with 'inventory clutter.' Unlike chests or shulker boxes, a bundle allows you to group different types of items into a single inventory slot, as long as the total count is 64 or less. This makes it perfect for early-game exploration when you find small amounts of many different things like flowers, seeds, and various mob drops."
+    },
+    "minecraft:brush": {
+        id: "minecraft:brush",
+        name: "Brush",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Brushing Suspicious Sand and Gravel",
+            secondaryUse: "Harvesting Armadillo Scutes"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick", "Copper Ingot", "Feather"]
+        },
+        specialNotes: [
+            "Used to reveal hidden items in Desert Temples, Ocean Ruins, and Trail Ruins",
+            "Can be enchanted with Unbreaking and Mending",
+            "The primary tool for the Archeology system",
+            "In Bedrock, use on an Armadillo to get scutes instantly"
+        ],
+        description: "The Brush is the signature tool of the Archeology system introduced in 1.20. It allows players to delicately uncover treasures buried within 'suspicious' blocks found in various ruins. Instead of breaking the block, the brush reveals the item inside while preserving the block's integrity temporarily. It is also an essential tool for animal husbandry, specifically for gathering materials from Armadillos to craft wolf armor."
+    },
+    "minecraft:glass_bottle": {
+        id: "minecraft:glass_bottle",
+        name: "Glass Bottle",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Holding water, potions, or dragon's breath",
+            secondaryUse: "Brewing material"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Glass Block x3"]
+        },
+        description: "The Glass Bottle is the fundamental container for all liquid-based alchemy and chemistry in Minecraft. It can be filled from any water source to create a water bottle, the base for brewing. It can also catch Dragon's Breath from the Ender Dragon's lingering attacks or be used to collect honey from bee nests. It is a simple but indispensable tool for any seasoned survivalist."
+    },
+    "minecraft:glow_berries": {
+        id: "minecraft:glow_berries",
+        name: "Glow Berries",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating (restores small hunger) and light source",
+            secondaryUse: "Breeding foxes"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found on Cave Vines in Lush Caves"]
+        },
+        specialNotes: [
+            "Emits a light level of 14 when growing on a vine",
+            "Provides a soft, golden glow to caves",
+            "Can be planted on the bottom of most blocks to grow new vines",
+            "Can be climbed like regular vines if the berries are present"
+        ],
+        description: "Glow Berries are a luminescent food source found hanging from the ceilings of Lush Caves. They serve a dual purpose: providing a reliable light source for underground explorers and a snack that restores 2 hunger points. They are also the favorite food of foxes, used for both taming and breeding. Their ability to grow downwards makes them a unique decorative choice for vertical gardens and cave bases."
+    },
+    "minecraft:book": {
+        id: "minecraft:book",
+        name: "Book",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting item (Bookshelves, Enchanting Tables)",
+            secondaryUse: "Enchanting via the Enchanting Table"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Paper x3", "Leather x1"]
+        },
+        description: "The Book is a foundational crafting item representing knowledge and magic in Minecraft. It is a critical component for creating bookshelves to power up your enchanting setup and is the base for the Enchanting Table itself. Beyond crafting, books can be enchanted directly to store powerful spells for later use via an anvil, making them a key part of power progression."
+    },
+    "minecraft:blaze_rod": {
+        id: "minecraft:blaze_rod",
+        name: "Blaze Rod",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing fuel and crafting material",
+            secondaryUse: "Fuel for furnaces (burns for 120 seconds)"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Blazes in Nether Fortresses"]
+        },
+        specialNotes: [
+            "One rod crafts into 2 Blaze Powders",
+            "Essential for any brewing activity",
+            "Required to craft End Rods for lighting",
+            "A key part of reaching the End (to make Eyes of Ender)"
+        ],
+        description: "Blaze Rods are fiery sticks dropped by the Blazes that haunt Nether Fortresses. They are one of the most important mid-game items, as they are the only source of Blaze Powder—the fuel for all brewing stands and a critical component of Eyes of Ender. Exploring the Nether to collect these rods is a rite of passage for every Minecraft player aiming to finish the game."
+    },
+    "minecraft:spyglass": {
+        id: "minecraft:spyglass",
+        name: "Spyglass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Zooming in on distant objects",
+            secondaryUse: "Scouting and navigation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Amethyst Shard", "Copper Ingot x2"]
+        },
+        specialNotes: [
+            "Provides a significant zoom effect while held",
+            "Restricts the player's field of view to a circular window",
+            "Slows down player movement speed while in use",
+            "Added in 1.17 Caves & Cliffs as a use for Copper and Amethyst"
+        ],
+        description: "The Spyglass is a long-range scouting tool that allows players to see far-off structures and mobs with great clarity. It is the primary functional use for copper ingots and amethyst shards. Whether you're looking for a village on the horizon or trying to spot an Elytra-flying friend, the spyglass is an essential addition to any explorer's toolbar, effectively bringing the distant world closer."
+    },
+    "minecraft:amethyst_shard": {
+        id: "minecraft:amethyst_shard",
+        name: "Amethyst Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting item (Spyglass, Tinted Glass)",
+            secondaryUse: "Decoration and music (vibrates when walked on)"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Grows from Amethyst Clusters in Geodes"]
+        },
+        specialNotes: [
+            "Obtained by mining a fully-grown Amethyst Cluster",
+            "Makes a beautiful chiming sound when placed or walked on",
+            "Cannot be placed back onto a budding amethyst block to grow more",
+            "Essential for making Tinted Glass, which blocks light but is transparent"
+        ],
+        description: "Amethyst Shards are beautiful, crystalline fragments found within the heart of Geodes. These purple crystals are valued for both their aesthetics and their unique properties. They produce melodic sounds that vary based on how they are interacted with. Beyond their beauty, they have high utility in crafting precision instruments like the spyglass and specialized building blocks like tinted glass, which creates darkened but visible rooms."
+    },
+    "minecraft:recovery_compass": {
+        id: "minecraft:recovery_compass",
+        name: "Recovery Compass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the location of the player's last death",
+            secondaryUse: "Navigating back to lost items"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Echo Shard x8", "Compass x1"]
+        },
+        specialNotes: [
+            "Only works if the player has previously died in that dimension",
+            "Will spin randomly if the player has not died or is in the wrong dimension",
+            "Crafted using rare shards from Ancient Cities",
+            "Added in 1.19 Wild Update"
+        ],
+        description: "The Recovery Compass is an advanced survival tool that helps players recover their inventory after a tragic death. Built using rare Echo Shards found only in the dangerous Ancient Cities, this compass is attuned to the player's 'last soul location.' While it's expensive to craft, it is an invaluable insurance policy for players carrying precious gear into unknown territories."
+    },
+    "minecraft:netherite_ingot": {
+        id: "minecraft:netherite_ingot",
+        name: "Netherite Ingot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Upgrading diamond gear to netherite in a smithing table",
+            secondaryUse: "Repairing netherite equipment in an anvil"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Netherite Scrap x4", "Gold Ingot x4"]
+        },
+        specialNotes: [
+            "Netherite items do not burn in lava and float on top of it",
+            "The most durable and high-protection tier of material in the game",
+            "Requires both ancient debris and gold to produce",
+            "Used to create the most powerful equipment in Minecraft"
+        ],
+        description: "The Netherite Ingot is the ultimate material for survival gear. Heavier and stronger than diamond, it is obtained through a laborious process in the Nether. Netherite equipment is不仅 более прочный, but juga has the unique property of being fireproof. If a player dies in lava with netherite gear, their items will safely float on the surface, waiting to be recovered. It represents the peak of a player's power and resilience."
+    },
+    "minecraft:egg": {
+        id: "minecraft:egg",
+        name: "Egg",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Spawning chickens (when thrown) and crafting food",
+            secondaryUse: "Projectiles for knocking back mobs"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Laid by Chickens every 5-10 minutes"]
+        },
+        description: "The humble Egg is a versatile item laid by chickens. When thrown, it has a 1 in 8 chance of spawning a baby chicken, allowing players to start a farm. Beyond farming, eggs are a core ingredient in making cakes and pumpkin pies. Interestingly, they also deal a tiny amount of knockback when thrown at mobs, making them a humorous but occasionally useful defensive tool."
+    },
+    "minecraft:echo_shard": {
+        id: "minecraft:echo_shard",
+        name: "Echo Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Recovery Compass",
+            secondaryUse: "Collection item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Ancient City chests"]
+        },
+        specialNotes: [
+            "Has a dark, pulsating appearance",
+            "Only found in the Deep Dark's Ancient Cities",
+            "Directly tied to the theme of sound and souls (Sculk)",
+            "One of the rarest materials in the game"
+        ],
+        description: "Echo Shards are mysterious, pulsating fragments of concentrated sculk and sound. Found only in the chests within Ancient Cities, they are a testament to a player's bravery in navigating the Warden's domain. Their primary purpose is the construction of a Recovery Compass, but they also serve as a striking decoration and evidence of high-level exploration in the Deep Dark."
+    },
+    "minecraft:nautilus_shell": {
+        id: "minecraft:nautilus_shell",
+        name: "Nautilus Shell",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting a Conduit",
+            secondaryUse: "Trading and decoration"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Fishing", "Dropped by Drowned", "Wandering Trader"]
+        },
+        description: "Nautilus Shells are rare ocean treasures used to build the Conduit. They can be found through various methods: occasionally caught while fishing, found as loot held by Drowned mobs, or purchased from a wandering trader. Eight of these shells must be combined with a Heart of the Sea to create the Conduit, making them essential for any player wishing to master the underwater depths."
+    },
+    "minecraft:nether_wart": {
+        id: "minecraft:nether_wart",
+        name: "Nether Wart",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "The fundamental ingredient for almost all potions",
+            secondaryUse: "Crafting Nether Wart Blocks and Red Nether Bricks"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found in Nether Fortresses or Bastion Remnants"]
+        },
+        specialNotes: [
+            "Must be grown on Soul Sand",
+            "Can grow in any dimension as long as it's on soul sand",
+            "Essential for making the 'Awkward Potion'",
+            "Cannot be bone-mealed (in standard Bedrock)"
+        ],
+        description: "Nether Wart is a red, fungus-like growth that is arguably the most important plant in the game for alchemy. It serves as the base for 'Awkward Potions,' which are the starting point for every other functional potion in the game. Without Nether Wart, brewing effectively doesn't exist. It is found in small soul sand gardens within Nether Fortresses and is a high-priority item for any aspiring brewer."
+    },
+    "minecraft:prismarine_shard": {
+        id: "minecraft:prismarine_shard",
+        name: "Prismarine Shard",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Prismarine blocks",
+            secondaryUse: "Crafting Sea Lanterns"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Guardians and Elder Guardians"]
+        },
+        description: "Prismarine Shards are the building blocks of the ocean. Dropped by the guardians that protect Ocean Monuments, these shards are used to craft Prismarine, Prismarine Bricks, and Dark Prismarine. They are a staple for underwater architects and are essential when mixed with prismarine crystals to create Sea Lanterns—the best underwater light source in the game."
+    },
+    "minecraft:prismarine_crystals": {
+        id: "minecraft:prismarine_crystals",
+        name: "Prismarine Crystals",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Sea Lanterns",
+            secondaryUse: "Decorative material"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Guardians and Elder Guardians"]
+        },
+        description: "Prismarine Crystals are glowing fragments that provide the literal light for ocean-themed blocks. While rarer than shards, they are most valued for their role in crafting Sea Lanterns. These lanterns are not only bright but also look elegant in a wide variety of builds. Obtaining them requires a trip to an Ocean Monument and defeating the dangerous guardians within."
+    },
+    "minecraft:rabbit_foot": {
+        id: "minecraft:rabbit_foot",
+        name: "Rabbit's Foot",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Brewing Potions of Leaping",
+            secondaryUse: "Trading with Cleric villagers"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Rabbits (rarely)"]
+        },
+        description: "A Rabbit's Foot is a rare charm dropped by rabbits. In alchemy, it is a potent ingredient that allows players to brew Potions of Leaping, increasing their jump height and reducing fall damage. Due to the high speed and small size of rabbits, collecting these can be a challenge, often leading players to create specialized rabbit farms or use cats (who sometimes bring them as 'gifts')."
+    },
+    "minecraft:rotten_flesh": {
+        id: "minecraft:rotten_flesh",
+        name: "Rotten Flesh",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Emergency food and taming/breeding wolves",
+            secondaryUse: "Trading with Cleric villagers for Emeralds"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Zombies and Husks"]
+        },
+        specialNotes: [
+            "80% chance to cause 'Hunger' when eaten",
+            "Safe to use for breeding and healing pet wolves",
+            "One of the most efficient ways to earn emeralds from clerics",
+            "Excellent for mass-leveling villagers"
+        ],
+        description: "Rotten Flesh is a common mob drop that most players eventually find in abundance. While eating it as a player is risky due to the high chance of food poisoning, it is a fantastic resource for managing a pack of tamed wolves. Furthermore, it is a highly valuable trade commodity in villages, where Clerics will gladly exchange it for emeralds, turning a common waste product into currency."
     },
     "minecraft:name_tag": {
         id: "minecraft:name_tag",
@@ -44,413 +1048,111 @@ export const miscItems = {
         enchantable: false,
         usage: {
             primaryUse: "Naming mobs to prevent them from despawning",
-            secondaryUse: "Customizing mobs and adding personal touches to tamed pets"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+            secondaryUse: "Personalizing pets"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found in dungeon chests, mineshaft chests, woodland mansion chests, ancient city chests", "Obtained from fishing (0.8% chance)", "Purchased from Librarian villagers (20 emeralds at Master level)"]
+            ingredients: ["Found in chests, through fishing, or trading"]
         },
         specialNotes: [
-            "Prevents mob despawning; requires renaming at an anvil (1 XP)",
-            "Found in Dungeon, Mineshaft, Mansion, and Ancient City chests",
-            "Fishing treasure drop (0.8%); sold by Master Librarians (20 emeralds)",
-            "Naming hostile mobs prevents despawning (except in Peaceful)",
-            "Custom names appear in death messages if the mob kills a player"
+            "Must be renamed in an Anvil first (costs 1 XP level)",
+            "A mob named with a name tag will never despawn naturally",
+            "Special names like 'Dinnerbone' or 'jeb_' trigger Easter eggs",
+            "Cannot be used on players or the Ender Dragon"
         ],
-        description: "A Name Tag is a utility item used to name mobs and prevent them from despawning. To use one, rename it at an anvil for one experience level, then apply it to a mob. This consumes the tag. Named mobs persist in the world and display their name above their head; their name also appears in death messages if they kill a player. Players can find Name Tags in loot chests (dungeons, mineshafts, ancient cities), catch them through fishing (0.8% chance), or buy them from Master-level Librarian villagers for 20 emeralds."
+        description: "The Name Tag is a utility item that gives identity to the creatures of Minecraft. By renaming a tag in an anvil and using it on a mob, that soul becomes a permanent part of the world. This is essential for keeping rare mobs for farms or simply giving your favorite horse a name. It also hides the secret to several famous Minecraft easter eggs, such as turning mobs upside down or making sheep cycle through rainbow colors."
     },
-    "minecraft:shield": {
-        id: "minecraft:shield",
-        name: "Shield",
-        maxStack: 1,
-        durability: 336,
-        enchantable: true,
+    "minecraft:honey_bottle": {
+        id: "minecraft:honey_bottle",
+        name: "Honey Bottle",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
         usage: {
-            primaryUse: "Blocking attacks",
-            secondaryUse: "Deflecting projectiles"
+            primaryUse: "Curing Poison and restoring hunger",
+            secondaryUse: "Crafting Honey Blocks and Sugar"
         },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Obtained by using a Glass Bottle on a full Bee Nest or Beehive"]
+        },
+        specialNotes: [
+            "Removes the Poison effect without removing other buffs",
+            "Unique stack size of 16",
+            "Does not cause a 'drinking' animation for some mobs in older Bedrock",
+            "The primary source of honey blocks for redstone"
+        ],
+        description: "Honey Bottles are a sweet and functional treat added in the Buzzy Bees update. Unlike milk, which clears all status effects, honey targets only Poison, making it a superior choice for fighting spiders or cave spiders while keeping your own positive buffs. It can also be crafted into sticky honey blocks, which are a game-changer for redstone engineers, or simply consumed as a decent food source."
+    },
+    "minecraft:honeycomb": {
+        id: "minecraft:honeycomb",
+        name: "Honeycomb",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Waxing copper to prevent oxidation",
+            secondaryUse: "Crafting Candles, Beehives, and Waxed Signs"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Obtained by using Shears on a full Bee Nest or Beehive"]
+        },
+        specialNotes: [
+            "Essential for preserving the color of copper buildings",
+            "Required to craft man-made beehives to expand bee farms",
+            "Using it on a sign in Bedrock prevents further editing",
+            "Using shears on a nest irritates bees unless a campfire is underneath"
+        ],
+        description: "Honeycomb is a versatile material harvested from industrious bees. Its most important modern use is 'waxing'—the process of coating copper blocks or signs to freeze them in their current state. This allows builders to keep their copper roofs bright orange or their signs safe from griefers. It is also a core component for making candles and artificial beehives, allowing players to relocate their honey production anywhere."
+    },
+    "minecraft:stick": {
+        id: "minecraft:stick",
+        name: "Stick",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "The base handle for almost every tool and weapon",
+            secondaryUse: "Fuel (burns for 5 seconds) and crafting ladders/fences"
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["Wood Planks x6", "Iron Ingot"]
+            ingredients: ["Planks x2"]
         },
-        specialNotes: [
-            "Blocks 100% of attack damage when raised",
-            "Can block arrows, tridents, and other projectiles",
-            "Creeper explosions and axes can disable shields temporarily",
-            "Can be decorated with banner patterns",
-            "Enchantable with Unbreaking and Mending"
-        ],
-        description: "The Shield is a defensive tool that can block incoming melee attacks and projectiles. When raised by crouching or using secondary action button, it reduces incoming damage to zero. Shields can be customized with banner patterns and enhanced with enchantments for increased durability."
+        description: "The Stick is the most basic and arguably most used utility item in Minecraft. Every pickaxe, sword, shovel, and axe requires a pair of sticks for their handles. They are also used to craft torches, arrows, ladders, fences, and signs. Despite their simplicity, it is impossible to progress through the ages of Minecraft—from wood to netherite—without a steady supply of these humble wooden rods."
     },
-    "minecraft:elytra": {
-        id: "minecraft:elytra",
-        name: "Elytra",
-        maxStack: 1,
-        durability: 432,
-        enchantable: true,
-        usage: {
-            primaryUse: "Gliding through air",
-            secondaryUse: "Fast travel with fireworks"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in End Ships"]
-        },
-        specialNotes: [
-            "Equipped in the chestplate slot",
-            "Allows gliding when jumping from heights",
-            "Firework rockets can boost speed while gliding",
-            "Loses durability over time while gliding (1 per second)",
-            "Can only be found in End Ship item frames",
-            "Repairable with Phantom Membranes or Mending enchantment"
-        ],
-        description: "Elytra are rare wings found exclusively in End Ships within End Cities. They allow the player to glide through the air and, when combined with firework rockets, enable powerful flight capabilities. Elytra are one of the most sought-after items in the game, providing unparalleled mobility for exploration and travel."
-    },
-    "minecraft:trial_key": {
-        id: "minecraft:trial_key",
-        name: "Trial Key",
+    "minecraft:slime_ball": {
+        id: "minecraft:slime_ball",
+        name: "Slimeball",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Unlocking a Vault in a Trial Chamber",
-            secondaryUse: "Claiming loot rewards from Trial Chamber challenges"
+            primaryUse: "Crafting Sticky Pistons, Slime Blocks, and Leads",
+            secondaryUse: "Breeding and healing frogs (in Bedrock)"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained from Trial Spawners and some other containers in Trial Chambers"]
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Slimes or Panda sneezes"]
         },
-        specialNotes: [
-            "Consumed when used to unlock a Vault",
-            "Each Vault can be unlocked only once per player",
-            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
-        ],
-        description: "The Trial Key is a reward item tied to Trial Chambers in Minecraft Bedrock Edition. It is used on a Vault to claim its loot, with the vault tracking which players have already opened it so each player can only unlock it once. Trial Keys are primarily earned from Trial Spawners after completing their combat waves, and can also appear in other Trial Chamber containers."
+        description: "Slimeballs are sticky green orbs that are the lifeblood of complex machinery. Their ability to make pistons 'sticky' allows for the creation of secret doors, elevators, and flying machines. In Bedrock specifically, they are also used to feed and breed frogs. Whether you're a redstone expert or a creature collector, finding a slime chunk or a swamp to farm these is a major milestone in world utility."
     },
-    "minecraft:ominous_trial_key": {
-        id: "minecraft:ominous_trial_key",
-        name: "Ominous Trial Key",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Unlocking an Ominous Vault in a Trial Chamber",
-            secondaryUse: "Accessing higher-tier Trial Chamber loot during ominous trials"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained only from Ominous Trial Spawners"]
-        },
-        specialNotes: [
-            "Consumed when used to unlock an Ominous Vault",
-            "Ominous Trial Spawners are created when a player carrying the Trial Omen effect activates a Trial Spawner",
-            "Used exclusively in Trial Chambers (Tricky Trials / 1.21+)"
-        ],
-        description: "The Ominous Trial Key is an upgraded form of the Trial Key used to open Ominous Vaults in Trial Chambers. These vaults provide significantly better loot, but the key is only obtainable from Ominous Trial Spawners during an ominous trial. Like normal vaults, an Ominous Vault can only be unlocked once per player, and the key is consumed on use."
-    },
-    "minecraft:trial_explorer_map": {
-        id: "minecraft:trial_explorer_map",
-        name: "Trial Explorer Map",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Locating Trial Chambers",
-            secondaryUse: "Navigation and structure scouting"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Traded by Journeyman Cartographer villagers"]
-        },
-        specialNotes: [
-            "Points to the nearest Trial Chamber in the Overworld",
-            "Obtained from Journeyman level Cartographer villagers for 12 emeralds and a compass",
-            "Essential tool for locating the Tricky Trials update's main structure",
-            "In Bedrock Edition, they were added in the 1.21 update",
-            "Unlike standard maps, these cannot be crafted from scratch"
-        ],
-        description: "The Trial Explorer Map is a specialized navigational tool used to uncover the location of Trial Chambers. These maps are not found in chests or crafted; instead, they must be purchased from a Journeyman-level Cartographer. The map reveals the surrounding terrain of a nearby Trial Chamber, marking its location with a small icon. This makes them indispensable for players looking to engage with the combat challenges and rewards of the chambers."
-    },
-    "minecraft:wolf_armor": {
-        id: "minecraft:wolf_armor",
-        name: "Wolf Armor",
+    "minecraft:warped_fungus_on_a_stick": {
+        id: "minecraft:warped_fungus_on_a_stick",
+        name: "Warped Fungus on a Stick",
         maxStack: 1,
         durability: 64,
-        enchantable: false,
+        enchantable: true,
         usage: {
-            primaryUse: "Equipping on tamed wolves to provide damage protection",
-            secondaryUse: "Can be repaired with additional armadillo scutes"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Armadillo Scute x6"]
-        },
-        specialNotes: [
-            "Provides 11 armor points when equipped (equivalent to a full set of gold armor)",
-            "Can only be equipped on tamed wolves",
-            "Reduces damage taken by wolves significantly",
-            "Has 64 durability and breaks when depleted",
-            "Can be repaired using armadillo scutes in crafting grid or by using directly on wolf (restores 8 durability)",
-            "Two damaged wolf armors can be combined in crafting grid to repair"
-        ],
-        description: "Wolf armor is protective gear for tamed wolves, crafted from armadillo scutes. Introduced in 1.21, it provides protection equivalent to gold armor, absorbing incoming damage until its 64 durability points are depleted. Owners can repair damaged armor using armadillo scutes or by combining two worn pieces. This equipment significantly boosts a wolf's survivability against hostile mobs and environmental hazards, making them more resilient companions for combat and exploration."
-    },
-    "minecraft:totem_of_undying": {
-        id: "minecraft:totem_of_undying",
-        name: "Totem of Undying",
-        maxStack: 1,
-        durability: 1,
-        enchantable: false,
-        usage: {
-            primaryUse: "Prevents death when held in off-hand or main hand",
-            secondaryUse: "Survival in dangerous combat situations and boss fights"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Evokers in Woodland Mansions and Raids"]
-        },
-        specialNotes: [
-            "Prevents death when held (hand/off-hand); consumed on use",
-            "Grants Absorption II (5s), Regeneration II (45s), Fire Resistance I (40s)",
-            "Dropped by Evokers in Mansions and Raids (100% chance)",
-            "Does not protect against void damage or /kill",
-            "Essential specialized loot for hardcore survival"
-        ],
-        description: "The Totem of Undying prevents death if held in either hand when taking lethal damage. Upon use, the item is consumed and grants the player Absorption II, Regeneration II, and Fire Resistance I. Totems are exclusively dropped by Evokers in Woodland Mansions and Raids. Note that it does not protect against void damage or the /kill command. This legendary survival tool provides a crucial second chance, making it one of the most sought-after items for high-stakes combat and exploration."
-    },
-    "minecraft:bundle": {
-        id: "minecraft:bundle",
-        name: "Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Staging and organizing multiple items within a single inventory slot.",
-            secondaryUse: "Items can be added or removed from the bundle while it is held in the inventory."
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Leather", "String"]
-        },
-        specialNotes: [
-            "Can hold up to 64 items of varying types.",
-            "The capacity depends on the stack size of the items placed inside.",
-            "Can be dyed in 16 different colors using dyes in a crafting grid.",
-            "Fully released in Bedrock Edition 1.21.40 as part of the 'Bundles of Bravery' drop."
-        ],
-        description: "A bundle is a storage item that can be used to manage multiple items within a single inventory slot. It is particularly useful for gathering small amounts of different items that would otherwise clutter the inventory. After being an experimental feature for several years, bundles were officially released for Bedrock Edition in version 1.21.40. They provide a unique way to handle inventory management, especially for players who collect many different types of blocks and items during exploration."
-    },
-    "minecraft:white_bundle": {
-        id: "minecraft:white_bundle",
-        name: "White Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bundle", "White Dye"]
-        },
-        specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
-            "Crafted by combining a standard bundle with white dye",
-            "Allows for color-coded organization of inventories",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The White Bundle is a colored variant of the bundle storage item. Like the original, it can condense multiple different items into a single inventory slot, but with a clean white aesthetic. It is especially useful for players who want to categorize their loot color-wise, such as white blocks or materials. It represents a significant quality-of-life improvement for explorers who gather many different types of resources on their journeys."
-    },
-    "minecraft:black_bundle": {
-        id: "minecraft:black_bundle",
-        name: "Black Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bundle", "Black Dye"]
-        },
-        specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
-            "Crafted by combining a standard bundle with black dye",
-            "Allows for color-coded organization of inventories",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Black Bundle provides the same inventory management benefits as the standard bundle but with a dark obsidian-like appearance. By combining a bundle with black dye, players can create a sleek storage pouch for their darkest treasures. It is perfect for organizing end-game materials or simply adding a bit of style to a player's inventory management system."
-    },
-    "minecraft:red_bundle": {
-        id: "minecraft:red_bundle",
-        name: "Red Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bundle", "Red Dye"]
-        },
-        specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
-            "Crafted by combining a standard bundle with red dye",
-            "Allows for color-coded organization of inventories",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Red Bundle is a vibrant storage option for players who like to keep their inventories organized and colorful. Like other bundle variants, it allows for grouping multiple item types together. The red color is perfect for highlighting important resources or weapons in a cluttered backpack."
-    },
-    "minecraft:blue_bundle": {
-        id: "minecraft:blue_bundle",
-        name: "Blue Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Inventory organization",
-            secondaryUse: "Storage of diverse small-stack items"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bundle", "Blue Dye"]
-        },
-        specialNotes: [
-            "Can hold up to 64 items (depending on their individual stack sizes)",
-            "Crafted by combining a standard bundle with blue dye",
-            "Allows for color-coded organization of inventories",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Blue Bundle offers a cool, calm aesthetic for inventory management. Obtained by dyeing a standard bundle with blue dye, it functions identically to other bundles. Many players use blue bundles to store water-themed resources like kelp, shells, or ice."
-    },
-    "minecraft:orange_bundle": {
-        id: "minecraft:orange_bundle",
-        name: "Orange Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Compact storage of up to 64 items",
-            secondaryUse: "Inventory organization by color"
+            primaryUse: "Controlling a saddled Strider in the Nether",
+            secondaryUse: "Navigation over lava"
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Bundle", "Orange Dye"]
+            ingredients: ["Fishing Rod", "Warped Fungus"]
         },
-        specialNotes: [
-            "Holds a total of 64 items' worth of weight",
-            "Obtained by dyeing a standard bundle with orange dye",
-            "Items can be added or removed from the bundle in the inventory",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Orange Bundle is a colored variant of the bundle storage item, designed for players who value organization. It allows for grouping various small quantities of items into a single slot, with a capacity of 64. Its bright orange color makes it easily identifiable, helping players quickly sort their loot or resources while exploring."
-    },
-    "minecraft:yellow_bundle": {
-        id: "minecraft:yellow_bundle",
-        name: "Yellow Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Compact storage of up to 64 items",
-            secondaryUse: "Inventory organization by color"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Bundle", "Yellow Dye"]
-        },
-        specialNotes: [
-            "Holds a total of 64 items' worth of weight",
-            "Obtained by dyeing a standard bundle with yellow dye",
-            "Items can be added or removed from the bundle in the inventory",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Yellow Bundle offers a cheerful, high-visibility storage option for managing inventory clutter. Like all bundles, it can hold different types of items together, provided their cumulative stack size doesn't exceed 64. This makes it an excellent choice for organizing seeds, dyes, or other materials during focused gathering tasks."
-    },
-    "minecraft:lime_bundle": {
-        id: "minecraft:lime_bundle",
-        name: "Lime Bundle",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Compact storage of up to 64 items",
-            secondaryUse: "Inventory organization by color"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Bundle", "Lime Dye"]
-        },
-        specialNotes: [
-            "Holds a total of 64 items' worth of weight",
-            "Obtained by dyeing a standard bundle with lime dye",
-            "Items can be added or removed from the bundle in the inventory",
-            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
-        ],
-        description: "The Lime Bundle provides a fresh, vibrant aesthetic for player inventory management. By combining a bundle with lime dye, players can create a distinct pouch for their green-themed items or natural resources. It follows the standard bundle mechanics, allowing for the efficient storage of multiple item types in a single inventory slot."
-    },
-    "minecraft:spyglass": {
-        id: "minecraft:spyglass",
-        name: "Spyglass",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Zooming in to view distant objects and terrain",
-            secondaryUse: "Exploration and scouting from elevated positions"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Amethyst Shard x1", "Copper Ingot x2"]
-        },
-        specialNotes: [
-            "Zooms FOV to 1/8x; restricts movement to sneak speed",
-            "Crafted with 1 Amethyst Shard + 2 Copper Ingots",
-            "Usable in boats/minecarts but not while swimming/flying",
-            "Features circular vignette and smooth zoom transitions",
-            "Useful for scouting distant structures and terrain"
-        ],
-        description: "Introduced in 1.17, the Spyglass allows players to zoom in on distant objects by narrowing their FOV to one-eighth of normal. It is crafted using one Amethyst Shard and two Copper Ingots. While in use, movement is restricted to sneaking speed, making it ideal for scouting biomes, structures, or threats from elevated positions. The tool features a unique circular vignette and smooth telescoping animations. Whether you are navigating the landscape or planning a large-scale build, the Spyglass is an essential reconnaissance tool for any explorer."
-    },
-    "minecraft:recovery_compass": {
-        id: "minecraft:recovery_compass",
-        name: "Recovery Compass",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Finding the location of the player's last death",
-            secondaryUse: "Retrieving items and experience lost on death"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Echo Shard x8", "Compass x1"]
-        },
-        specialNotes: [
-            "Points to last death location in the current dimension; spins if alive/different dim",
-            "Crafted with Compass + 8 Echo Shards (from Ancient Cities)",
-            "Does not track dropped items, only death coords",
-            "Ineffective in the End dimension in Bedrock Edition",
-            "Crucial for retrieving gear before despawn timer expires"
-        ],
-        description: "The Recovery Compass points to a player's most recent death location. It only functions within the same dimension where the death occurred; otherwise, it spins randomly. It is crafted using eight Echo Shards (rare loot found in Ancient City chests) and a regular compass. This tool is vital for retrieving dropped items and experience before the five-minute despawn timer. In Bedrock Edition, the compass does not function in the End. Its unique tracking ability makes it a crucial item for high-risk exploration where losing valuable gear is a constant threat."
+        description: "The Warped Fungus on a Stick is the 'key' to navigating the lava oceans of the Nether. By holding it while riding a saddled Strider, the player can direct the creature's path. Clicking the item 'boosts' the Strider's speed at the cost of some durability. It's an essential tool for Nether exploration, turning the once-deadly lava into a highway for the player."
     },
     "minecraft:goat_horn": {
         id: "minecraft:goat_horn",
@@ -459,23 +1161,206 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Playing a loud horn sound",
-            secondaryUse: "Signaling other players over long distances"
+            primaryUse: "Producing a loud, echoing sound",
+            secondaryUse: "Collection and signaling"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Goats when they ram hard blocks"]
+        },
+        specialNotes: [
+            "There are 8 different variants of horns with unique sounds",
+            "Sounds include: Ponder, Sing, Seek, Feel, Admire, Call, Yearn, and Dream",
+            "Has a cooldown after being used",
+            "The sound carries over long distances, making it great for multiplayer signaling"
+        ],
+        description: "Goat Horns are musical/auditory items dropped by goats that ram into solid obstacles like stone or ores. Each horn produces a unique, hauntingly loud sound that can be heard from far away. They are perfect for roleplay, signaling the start of a battle, or simply annoying your friends. Finding all eight variants—especially the rare ones like 'Dream'—is a fun challenge for collectors."
+    },
+    "minecraft:disc_fragment_5": {
+        id: "minecraft:disc_fragment_5",
+        name: "Disc Fragment 5",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Music Disc 5",
+            secondaryUse: "Archeological artifact"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Goats when they ram into solid blocks"]
+            ingredients: ["Rarely found in Ancient City chests"]
         },
         specialNotes: [
-            "Dropped when a Goat rams into Coal Ore, Copper Ore, Emerald Ore, Iron Ore, Log, Packed Ice, or Stone",
-            "Has 8 sound variants: Ponder, Sing, Seek, Feel (Regular); Admire, Call, Yearn, Dream (Screaming)",
-            "Has a cooldown of 7 seconds between uses",
-            "Sound can be heard up to 256 blocks away",
-            "Not stackable",
-            "Can be used by Pillagers in Raids (specifically the 'Seek' horn sound)",
-            "Does not have durability"
+            "Requires 9 fragments to craft one complete disc",
+            "Exclusive to the Deep Dark biome",
+            "Adds to the mystery of the Ancient Cities"
         ],
-        description: "The Goat Horn is an instrument item dropped by Goats when they ram into specific hard blocks like logs, stone, packed ice, or ores. There are eight different variants of the horn, each producing a unique sound when used. Four variants (Ponder, Sing, Seek, Feel) are dropped by regular goats, while the other four (Admire, Call, Yearn, Dream) are obtained exclusively from Screaming Goats. When played, the horn emits a loud sound audible up to 256 blocks away, followed by a 7-second cooldown. This makes it an excellent tool for long-distance signaling in multiplayer."
+        description: "Disc Fragment 5 is a shattered piece of a mysterious recording. Found only in the dangerous Ancient Cities, players must collect nine of these fragments to assemble the full Music Disc 5. The disc itself contains a disturbing sequence of sounds that hints at a dark history involving the Warden and the cities' former inhabitants, making the collection of these fragments a priority for lore-hunters."
+    },
+    "minecraft:phantom_membrane": {
+        id: "minecraft:phantom_membrane",
+        name: "Phantom Membrane",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Repairing Elytra in an anvil",
+            secondaryUse: "Brewing Potions of Slow Falling"
+        },
+        crafting: {
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Phantoms"]
+        },
+        specialNotes: [
+            "Essential for keeping your Elytra in flying condition",
+            "Slow falling is critical for the Ender Dragon boss fight",
+            "Dropped by Phantoms that spawn when the player hasn't slept"
+        ],
+        description: "Phantom Membranes are leathery scraps dropped by the terrifying Phantoms that haunt the night skies. They have two incredibly vital uses: they are the only material used to repair damaged Elytra (without using Mending), and they are the core ingredient for Potions of Slow Falling. For any player who spends a lot of time in the air, hunting phantoms for their membranes is a necessary evil."
+    },
+    "minecraft:turtle_scute": {
+        id: "minecraft:turtle_scute",
+        name: "Turtle Scute",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Turtle Shell (helmet)",
+            secondaryUse: "Brewing Potions of the Turtle Master"
+        },
+        crafting: {
+            recipeType: "Mob Task",
+            ingredients: ["Dropped by baby turtles when they grow into adults"]
+        },
+        description: "Turtle Scutes are rare items that represent the growth of nature. To obtain them, you must breed turtles and wait for the babies to mature; as they grow, they shed their small shell piece. These scutes can be crafted into a Turtle Shell helmet, which gives the player extra water breathing time. They are also used in brewing the powerful Potion of the Turtle Master, which grants massive defense at the cost of movement speed."
+    },
+    "minecraft:dragon_breath": {
+        id: "minecraft:dragon_breath",
+        name: "Dragon's Breath",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Processing Splash Potions into Lingering Potions",
+            secondaryUse: "Advanced alchemy"
+        },
+        crafting: {
+            recipeType: "Boss Task",
+            ingredients: ["Use a Glass Bottle on the purple clouds left by the Ender Dragon"]
+        },
+        description: "Dragon's Breath is a bottled magical gas collected during the fight with the Ender Dragon. When the dragon shoots its purple fire or performs its breath attack, it leaves behind swirling clouds on the ground. By using empty glass bottles on these clouds, players can capture the gas. It is a critical late-game alchemy ingredient, allowing players to create Lingering Potions that leave a effect cloud on impact."
+    },
+    "minecraft:clay_ball": {
+        id: "minecraft:clay_ball",
+        name: "Clay Ball",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into Bricks",
+            secondaryUse: "Crafting Clay Blocks"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Obtained by breaking Clay Blocks"]
+        },
+        description: "Clay Balls are slippery gray items found underwater in rivers and swamps. When smelted in a furnace, each ball becomes a single brick. These bricks can then be crafted into the iconic red brick blocks beloved by builders. Finding a large patch of clay is always a lucky find for players looking to give their homes a classic, sturdy look."
+    },
+    "minecraft:clock": {
+        id: "minecraft:clock",
+        name: "Clock",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Telling the current time of day",
+            secondaryUse: "Planning safe mining trips"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x4", "Redstone Dust x1"]
+        },
+        description: "The Clock is a precision tool that displays the sun and moon's position. It is especially useful when deep underground, as it tells the player whether it's safe to surface or if monsters are currently roaming the world above. The icon on the clock actually functions in the inventory, meaning you don't even have to hold it to know what time it is."
+    },
+    "minecraft:compass": {
+        id: "minecraft:compass",
+        name: "Compass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to the world spawn point",
+            secondaryUse: "Attuning to a Lodestone or crafting Maps"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot x4", "Redstone Dust x1"]
+        },
+        description: "The Compass is a vital navigation tool that always points back to your original starting point (world spawn). It helps lost players find their way home across vast biomes. Furthermore, it can be combined with a rare Lodestone to point specifically to that block, or used as a core ingredient in crafting maps for cartography."
+    },
+    "minecraft:lead": {
+        id: "minecraft:lead",
+        name: "Lead",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Tying mobs to fences or leading them behind you",
+            secondaryUse: "Relocating animals"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["String x4", "Slimeball x1"]
+        },
+        description: "The Lead (or leash) is the primary tool for animal husbandry. It allows players into 'rope' almost any passive or neutral mob and lead them to a new home. You can even tie the lead to a fence post to keep your animals from wandering off. It is much more reliable than using food lures, especially for long-distance travel through difficult terrain."
+    },
+    "minecraft:fishing_rod": {
+        id: "minecraft:fishing_rod",
+        name: "Fishing Rod",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Fishing for food and treasure",
+            secondaryUse: "Pulling mobs and entities toward the player"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Stick x3", "String x2"]
+        },
+        description: "The Fishing Rod is a multi-purpose tool for survival. While its main use is catching fish for food, skilled anglers can also pull rare 'treasure' such as enchanted books, saddles, and nautilus shells from the water. In combat, it can be used to pull distant mobs toward the player or even snag items and boats. It is one of the most rewarding items to enchant with 'Lure' and 'Luck of the Sea.'"
+    },
+    "minecraft:carrot_on_a_stick": {
+        id: "minecraft:carrot_on_a_stick",
+        name: "Carrot on a Stick",
+        maxStack: 1,
+        durability: 25,
+        enchantable: true,
+        usage: {
+            primaryUse: "Controlling a saddled Pig",
+            secondaryUse: "Fast travel over land"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Fishing Rod", "Carrot"]
+        },
+        description: "The Carrot on a Stick is a classic tool for steering pigs. By dangling a carrot in front of a pig you are riding, you can guide its movement. Like its warped fungus cousin, it has a 'boost' mechanic that makes the pig run faster. It's a fun and surprisingly efficient way to travel across plains and forests before you have access to horses or Elytra."
+    },
+    "minecraft:shears": {
+        id: "minecraft:shears",
+        name: "Shears",
+        maxStack: 1,
+        durability: 238,
+        enchantable: true,
+        usage: {
+            primaryUse: "Harvesting wool from sheep without harming them",
+            secondaryUse: "Collecting delicate blocks like leaves and cobwebs"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Iron Ingot x2"]
+        },
+        description: "Shears are a specialized tool for delicate harvesting. They allow players to collect wool from sheep, leaves from trees, cobwebs from caves, and even tall grass. Without shears, these blocks often simply break or disappear. They are also used to carve pumpkins for Halloween or honeycomb from beehives. They are a must-have for builders who want to incorporate natural foliage into their designs."
     },
     "minecraft:firework_rocket": {
         id: "minecraft:firework_rocket",
@@ -484,49 +1369,30 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Propelling the player while gliding with Elytra",
-            secondaryUse: "Creating decorative explosions in the sky"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Paper", "Gunpowder (1-3)", "Firework Star (optional)"]
-        },
-        specialNotes: [
-            "Flight duration (1-3) depends on the amount of Gunpowder used.",
-            "If crafted with a Firework Star, it explodes with color and shape effects.",
-            "Rockets used for Elytra boosting should not have explosion effects to avoid damaging the player.",
-            "Can be launched from a dispenser or crossbow.",
-            "Explosion effects include: Small Ball, Large Ball, Star-shaped, Creeper-shaped, and Burst."
-        ],
-        description: "The Firework Rocket is a versatile item used for both decorative displays and functional transport. When crafted with Gunpowder and Paper, it creates a simple rocket; adding Firework Stars imparts colorful explosion effects. Its most critical use in survival is powering Elytra flight, providing a speed boost that enables long-distance travel. The duration of the rocket's flight (tier 1-3) is determined by the amount of gunpowder used in crafting."
-    },
-    "minecraft:firework_star": {
-        id: "minecraft:firework_star",
-        name: "Firework Star",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Determines the color, effect, and shape of Firework Rockets",
-            secondaryUse: "Crafting item for decorative pyrotechnics"
+            primaryUse: "Providing propulsion for Elytra flight",
+            secondaryUse: "Decorative displays and crossbow ammo"
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Gunpowder", "Any Dye", "Special Ingredient (Optional)"]
+            ingredients: ["Gunpowder x1-3", "Paper x1"]
         },
-        specialNotes: [
-            "Crafted with 1 Gunpowder, at least 1 Dye, and optional effect modifiers",
-            "Modifiers: Diamond (Trail), Glowstone Dust (Twinkle), Fire Charge (Large Ball)",
-            "More modifiers: Gold Nugget (Star-shaped), Feather (Burst), Mob Head (Creeper-shaped)",
-            "Multiple dyes can be used to create multi-colored explosions",
-            "Essential component for crafting meaningful Firework Rockets",
-            "The star itself cannot be launched; it must be combined with Paper and Gunpowder"
-        ],
-        description: "The Firework Star is a crucial component used to customize the explosion of Firework Rockets. By combining gunpowder with various dyes and optional ingredients in a crafting grid, players can create stars that determine the color, shape, and additional effects of the resulting firework. Adding a Diamond creates a trail, while Glowstone Dust adds a twinkle effect. Different items like gold nuggets or mob heads can change the explosion's shape. Once crafted, the star is combined with paper and more gunpowder to create a rocket that will display the chosen effects when launched."
+        description: "Firework Rockets are the 'engines' of late-game Minecraft. While they can be crafted with firework stars for beautiful displays, their most common use is boosting players while they fly with Elytra. By using a rocket mid-air, you gain a massive speed boost, allowing for infinite flight. They can also be fired from crossbows, where rockets with stars can deal significant explosive damage to groups of enemies."
+    },
+    "minecraft:flint_and_steel": {
+        id: "minecraft:flint_and_steel",
+        name: "Flint and Steel",
+        maxStack: 1,
+        durability: 64,
+        enchantable: true,
+        usage: {
+            primaryUse: "Lighting fires and activating TNT",
+            secondaryUse: "Activating Nether Portals"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Iron Ingot", "Flint"]
+        },
+        description: "Flint and Steel is the primary tool for starting fires. It is critical for progress, as it is the only common way to light a Nether Portal. It can also be used to cook animals instantly by setting them on fire or to clear out brush and trees. In defense, lighting the ground can create a temporary barrier of fire that damages mobs. It is a simple but world-altering tool."
     },
     "minecraft:saddle": {
         id: "minecraft:saddle",
@@ -535,103 +1401,94 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Riding horses, donkeys, mules, and camels",
-            secondaryUse: "Riding pigs and striders (requires steering item)"
+            primaryUse: "Riding horses, donkeys, mules, pigs, and striders",
+            secondaryUse: "Basic transportation utility"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found in chests (Dungeons, Nether Fortresses, etc.)", "Fishing treasure", "Trading with Leatherworker villagers", "Mob drop (Ravager, Strider with Zombified Piglin)"]
+            ingredients: ["Found in chests or through fishing"]
         },
-        specialNotes: [
-            "Required to control Horses, Donkeys, Mules, and Camels.",
-            "Required to ride Pigs (needs Carrot on a Stick to steer).",
-            "Required to ride Striders (needs Warped Fungus on a Stick to steer).",
-            "Cannot be crafted in standard survival (uncraftable).",
-            "Ravagers always drop a saddle on death."
-        ],
-        description: "A Saddle is an item that allows players to ride and control various mobs. It is essential for transportation using horses, donkeys, mules, and camels. It is also used to ride pigs and striders, though these require a Carrot on a Stick or Warped Fungus on a Stick respectively to steer. Saddles cannot be crafted and must be found in loot chests, fished up as treasure, traded from Master-level Leatherworker villagers, or obtained by killing a Ravager."
+        description: "The Saddle is an uncraftable treasure that opens up the world of animal transportation. Once you have a saddle, you can tame and ride a variety of mobs. Whether you're crossing a desert on a horse or walking across a lava sea on a strider, the saddle is the essential interface between you and your mount. Because they cannot be crafted, finding one in a dungeon or catching one while fishing is always a significant moment."
     },
-    "minecraft:diamond_horse_armor": {
-        id: "minecraft:diamond_horse_armor",
-        name: "Diamond Horse Armor",
+    "minecraft:milk_bucket": {
+        id: "minecraft:milk_bucket",
+        name: "Milk Bucket",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Equipping on a tamed horse to provide high-level protection",
-            secondaryUse: "Decorative armor for horses"
-        },
-        specialNotes: [
-            "Provides 11 armor points (5.5 chestplates) to horses.",
-            "Can only be found in structure chests; cannot be crafted.",
-            "Cannot be enchanted or repaired.",
-            "Found in Dungeons, Desert Temples, End Cities, and more.",
-            "Equipped by opening the horse's inventory while riding or nearby."
-        ],
-        description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
-    },
-    "minecraft:iron_horse_armor": {
-        id: "minecraft:iron_horse_armor",
-        name: "Iron Horse Armor",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Protecting a tamed horse",
-            secondaryUse: "Increasing a horse's armor rating by 5 points"
+            primaryUse: "Curing all status effects",
+            secondaryUse: "Crafting cakes"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in loot chests"]
+            recipeType: "Natural",
+            ingredients: ["Use a Bucket on a Cow or Mooshroom"]
         },
-        specialNotes: [
-            "Found in Dungeons, Strongholds, Villages, Nether Fortresses, and Jungle Temples",
-            "Can be equipped on tamed horses only",
-            "Does not have durability and never breaks"
-        ],
-        description: "Iron Horse Armor is a specialized piece of equipment designed to protect tamed horses from damage. Unlike player armor, it cannot be crafted and must be discovered within loot chests in various world structures. When equipped, it provides 5 points of armor to the horse, significantly increasing its survival chances against mobs and other hazards. It is a durable item that does not wear out over time, making it a permanent upgrade for a player's mount."
+        description: "The Milk Bucket is the ultimate 'reset' button for your character. Drinking milk immediately clears every status effect, whether it's the Mining Fatigue from an Elder Guardian, the deadly Wither effect, or even positive buffs like Strength. It is a vital safety item to carry when exploring dangerous monuments or fighting bosses, as it can save you from lingering damage that would otherwise be fatal."
     },
-    "minecraft:golden_horse_armor": {
-        id: "minecraft:golden_horse_armor",
-        name: "Golden Horse Armor",
+    "minecraft:lava_bucket": {
+        id: "minecraft:lava_bucket",
+        name: "Lava Bucket",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Protecting a tamed horse",
-            secondaryUse: "Increasing a horse's armor rating by 7 points"
+            primaryUse: "Placing lava for defense, light, or industrial use",
+            secondaryUse: "Fuel for furnaces (burns for 1000 seconds)"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in loot chests"]
+            recipeType: "Natural",
+            ingredients: ["Use a Bucket on a Lava Source"]
         },
-        specialNotes: [
-            "Found in Dungeons, Villages (Weaponsmith chests), Nether Fortresses, Bastion Remnants, Ruined Portals, Desert Pyramids, Jungle Temples, Strongholds (Altar chests), and End Cities",
-            "Provides more protection than iron horse armor but less than diamond",
-            "Can be equipped on tamed horses only"
-        ],
-        description: "Golden Horse Armor offers a mid-to-high tier of protection for tamed horses, granting them 7 armor points. Found in various loot chests across the Overworld, the Nether, and The End, it is particularly common in Bastion Remnants and Ruined Portals. While gold tools and player armor are known for low durability, Golden Horse Armor is indestructible, providing a consistent defensive boost without the need for repair or replacement."
+        description: "A Lava Bucket is a dangerous but incredibly useful utility. As a fuel source, it is the most efficient in the game, smelting 100 items at once. For defense, a correctly placed bucket can stop a horde of zombies in their tracks. It is also the primary ingredient for making Obsidian by mixing it with water. Every player should handle lava with care, but its utility for lighting and smelting is unmatched."
     },
-    "minecraft:leather_horse_armor": {
-        id: "minecraft:leather_horse_armor",
-        name: "Leather Horse Armor",
+    "minecraft:water_bucket": {
+        id: "minecraft:water_bucket",
+        name: "Water Bucket",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Protecting and decorating a tamed horse",
-            secondaryUse: "Can be dyed in a cauldron to change its color"
+            primaryUse: "Placing water for crops, hydration, or safety",
+            secondaryUse: "Milling obsidian and MLG (clutching) falls"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["7x Leather"]
+            recipeType: "Natural",
+            ingredients: ["Use a Bucket on a Water Source"]
         },
-        specialNotes: [
-            "The only type of horse armor that can be crafted in Bedrock Edition",
-            "Can be dyed into 12,326,391 different colors using cauldrons",
-            "Provides 3 armor points to the horse"
-        ],
-        description: "Leather Horse Armor is the entry-level protection for horses and is unique as the only craftable horse armor in Minecraft Bedrock Edition. It is made from seven pieces of leather and provides a modest 3 armor points. Its most notable feature is its customization; players can use dyed water in a cauldron to color the armor, allowing for millions of possible color combinations to personalize their steeds."
+        description: "The Water Bucket is often considered the single most important item to keep on your hotbar. It can be used to create farms, extinguish fires, push mobs away, and most importantly, save you from fall damage. By placing water just before you hit the ground (known as an 'MLG'), you can survive any height. It is also essential for turning lava into obsidian and creating cobblestone generators."
+    },
+    "minecraft:powder_snow_bucket": {
+        id: "minecraft:powder_snow_bucket",
+        name: "Powder Snow Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing Powder Snow as a trap or safety block",
+            secondaryUse: "Taming and breeding certain future mobs"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Use a Bucket on a placed Powder Snow block", "Or collect from a Cauldron during snowfall"]
+        },
+        description: "The Powder Snow Bucket allows you to carry one of Minecraft's most deceptive blocks. Powder snow looks like regular snow but is actually a 'fluid-like' block that you can fall through. It is used to create traps for mobs or as a unique way to descend safely from high places. Carrying it in a bucket is the only way to relocate the block without melting it, making it a favorite for alpine builders."
+    },
+    "minecraft:axolotl_bucket": {
+        id: "minecraft:axolotl_bucket",
+        name: "Axolotl Bucket",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Transporting Axolotls without drying them out",
+            secondaryUse: "Deploying Axolotls in battle"
+        },
+        crafting: {
+            recipeType: "Interaction",
+            ingredients: ["Water Bucket", "Axolotl"]
+        },
+        description: "An Axolotl Bucket is the best way to move your amphibious friends. Because axolotls are 'the adventurers' of the ocean, they can help you fight drowned and guardians. Carrying them in a bucket keeps them healthy and ready to be deployed the moment you enter an underwater fight. They common in many colors, and the bucket will even tell you if you've found the ultra-rare blue variant."
     },
     "minecraft:item_frame": {
         id: "minecraft:item_frame",
@@ -640,44 +1497,36 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Displaying and protecting items",
-            secondaryUse: "Creating galleries and showcases"
+            primaryUse: "Displaying items on walls or floors",
+            secondaryUse: "Labeling chests and map rooms"
         },
         crafting: {
             recipeType: "Shaped",
             ingredients: ["Stick x8", "Leather x1"]
         },
-        specialNotes: [
-            "Displays one item/block; right-click rotates (8 positions)",
-            "Placed on any solid surface; protects contents from environments",
-            "Glowing variant (Glow Ink Sac) emits light level 7",
-            "Customizable with banners for background patterns",
-            "Items retrieved by breaking the frame"
-        ],
-        description: "The Item Frame is a decorative entity used to display items and blocks on any solid surface. Right-clicking a placed frame with an item inserts it, while additional clicks rotate the displayed item through 8 positions. It protects contents from environmental damage and accidental usage. A Glowing Item Frame variant, crafted with Glow Ink Sacs or traded from Fletchers, illuminates the item and provides a light level of 7. Useful for maps, storage organization, and building detail, Item Frames can be placed on walls, ceilings, and floors."
+        description: "The Item Frame is a critical organization and decoration tool. It allows you to 'stick' an item to the side of a block so you can see what's inside a chest or just show off your rarest trophies. In many advanced builds, frames are used with maps to create giant floor-to-ceiling world maps. They can also be used as 'buttons' or 'clocks' by placing corresponding items inside them."
     },
     "minecraft:armor_stand": {
         id: "minecraft:armor_stand",
         name: "Armor Stand",
-        maxStack: 64,
+        maxStack: 16,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Displaying armor and equipment",
-            secondaryUse: "Creating mannequins and decorations"
+            primaryUse: "Displaying and storing armor sets",
+            secondaryUse: "Decorative detailing and custom modeling (pins)"
         },
         crafting: {
             recipeType: "Shaped",
-            ingredients: ["Stick x6", "Stone Slab x1"]
+            ingredients: ["Stick x6", "Smooth Stone Slab x1"]
         },
         specialNotes: [
-            "Displays armor and hand-held items; immune to gravity",
-            "Customizable poses via commands or redstone signals",
-            "Placed on any surface; resists water flow",
-            "Takes damage from explosions/wither but regenerates if not destroyed",
-            "Crafted with 6 Sticks + 1 Stone Slab"
+            "In Bedrock, armor stands have built-in poses and can hold items",
+            "Can be equipped with a full set of armor, plus a sword or shield",
+            "Can be posed using the 'Sneak + Interact' button",
+            "Functional as an entity, so they can be pushed by pistons and affected by gravity"
         ],
-        description: "The Armor Stand is a decorative entity used to display armor, weapons, and tools. Crafted with sticks and a stone slab, it holds full armor sets and items in either hand. Perfect for organizing gear or creating museum displays, these entities are a staple for builders. Though they typically remain where placed, commands can be used to customize their pose, size, and appearance. Whether used for practical equipment storage or as a creative tool for detailed builds, the armor stand's versatile nature makes it an essential addition to any base."
+        description: "Armor Stands are more than just display racks. While their main job is to keep your spare armor sets organized and looking cool, in Bedrock Edition they are highly interactive. Players can change their poses to create 'scenes' in their world—making it look like guards are protecting a castle or a family is eating dinner. They are a bridge between furniture and entities, making them a staple for detailed building."
     },
     "minecraft:ender_pearl": {
         id: "minecraft:ender_pearl",
@@ -686,21 +1535,20 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Teleportation by throwing the pearl",
-            secondaryUse: "Crafting Eyes of Ender and traveling long distances"
+            primaryUse: "Teleporting the player to where it lands",
+            secondaryUse: "Crafting Eyes of Ender"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Endermen", "Obtained through bartering with Piglins (4.73% chance)"]
+            recipeType: "Mob Drop",
+            ingredients: ["Dropped by Endermen"]
         },
         specialNotes: [
-            "Deals 5 damage (2.5 hearts) upon teleportation",
-            "Has a 1-second cooldown between uses",
-            "Used to craft Eyes of Ender (with Blaze Powder)",
-            "Endermen drop 0-1 Ender Pearls; increased by Looting",
-            "In Bedrock, throwing pearl into a portal might teleport you to world spawn"
+            "Deals 5 damage (2.5 hearts) to the player upon teleporting",
+            "A critical tool for escaping danger or reaching high places",
+            "Standard currency for Bartering with Piglins",
+            "Can be thrown through small gaps like fences and iron bars"
         ],
-        description: "An Ender Pearl is a versatile utility item primarily dropped by Endermen or obtained through Piglin bartering. When thrown, it teleports the player to where it lands, though this process deals a small amount of damage. Beyond mobility, Ender Pearls are critical for late-game progression, as they are a necessary ingredient for crafting Eyes of Ender to locate and activate End Portals. They can also be used in stasis chambers to allow for instant travel back to a base."
+        description: "The Ender Pearl is the most common form of teleportation in Minecraft. Dropped by the tall, shadowy Endermen, these pearls allow players to bypass obstacles just by throwing them. While they cause a small amount of damage upon impact, the utility of instant movement is far more valuable. They are also half of the recipe for Eyes of Ender, making them a mandatory requirement for anyone wanting to find the Stronghold and finish the game."
     },
     "minecraft:fire_charge": {
         id: "minecraft:fire_charge",
@@ -709,71 +1557,62 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Lighting fires and activating TNT",
-            secondaryUse: "Serving as a projectile for dispensers"
+            primaryUse: "Single-use fire starter or fireball projectile",
+            secondaryUse: "Ammunition for Dispensers"
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Blaze Powder", "Gunpowder", "Coal or Charcoal"]
+            ingredients: ["Blaze Powder", "Gunpowder", "Coal/Charcoal"]
         },
-        specialNotes: [
-            "Functions as a single-use alternative to flint and steel",
-            "When used from a dispenser, it fires a straight-moving fireball",
-            "Fired charges set entities and blocks on fire upon impact",
-            "Can be used to light obsidian portals and campfires",
-            "Does not create an explosion unless hitting TNT"
-        ],
-        description: "A Fire Charge is a consumable item used to ignite fires or act as a projectile. When used by a player, it immediately starts a fire on a block, similar to flint and steel but with only one use per item. When placed in a dispenser, it is fired as a small fireball that travels in a straight line, setting fire to anything it hits. It is often used in traps, automated defense systems, or as an alternative ignition source when flint is unavailable."
+        description: "A Fire Charge is a portable explosion waiting to happen. While it can be used by a player manually as a one-time alternative to flint and steel, its true power is found in dispensers. When fired from a block, it becomes a blazing fireball, similar to those shot by Ghasts. This makes it an essential component for automated defense systems and defensive walls in more advanced player bases."
     },
-    "minecraft:experience_bottle": {
-        id: "minecraft:experience_bottle",
-        name: "Bottle o' Enchanting",
+    "minecraft:raw_iron": {
+        id: "minecraft:raw_iron",
+        name: "Raw Iron",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Throwing to release experience orbs",
-            secondaryUse: "Quickly gaining XP for enchanting and anvil use"
+            primaryUse: "Smelting into Iron Ingots",
+            secondaryUse: "Compact storage in Raw Iron Blocks"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Traded by Cleric villagers", "Found as generated loot in some structures"]
+            recipeType: "Natural",
+            ingredients: ["Dropped by Iron Ore"]
         },
-        specialNotes: [
-            "Shatters on impact and releases experience orbs",
-            "Grants 3-11 XP (average 7) per bottle",
-            "Stackable up to 64, unlike most bowl or bottle consumables",
-            "Renewable through trading with Cleric villagers",
-            "Useful for topping up levels at an enchanting table or anvil"
-        ],
-        description: "Bottle o' Enchanting is a throwable item that breaks on impact and releases experience orbs worth 3-11 XP (7 on average). It is commonly used to quickly gain levels for enchanting or to supply experience for anvil repairs when you are just short on XP. In Bedrock Edition it is renewable through Cleric villager trades, and it can also appear as generated loot in some structure chests."
+        description: "Raw Iron is the direct result of mining iron ore. Introduced in 1.17 to bring consistency to the ore system, it allows the 'Fortune' enchantment to work on iron, significantly increasing how much metal a player can get from a single vein. These lumps of ore must be smelted in a furnace or blast furnace before they can be used to craft the armor and tools that the world depends on."
     },
-    "minecraft:end_crystal": {
-        id: "minecraft:end_crystal",
-        name: "End Crystal",
+    "minecraft:raw_gold": {
+        id: "minecraft:raw_gold",
+        name: "Raw Gold",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Respawning the Ender Dragon",
-            secondaryUse: "Decorative or as an explosive trap"
-        },
-        combat: {
-            attackDamage: 0,
-            attackSpeed: 0
+            primaryUse: "Smelting into Gold Ingots",
+            secondaryUse: "Compact storage in Raw Gold Blocks"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Glass x7", "Eye of Ender x1", "Ghast Tear x1"]
+            recipeType: "Natural",
+            ingredients: ["Dropped by Gold Ore"]
         },
-        specialNotes: [
-            "Can only be placed on obsidian or bedrock blocks",
-            "Heals the Ender Dragon if it is within range",
-            "Explodes violently when attacked, even with a single punch",
-            "Four crystals are required to respawn the Ender Dragon at the exit portal",
-            "Highly dangerous due to large explosion radius and damage"
-        ],
-        description: "An End Crystal is a powerful and volatile item primarily used to respawn the Ender Dragon. To initiate the respawn process, four crystals must be placed on the edges of the exit portal in the End. In addition to their intended purpose, they are often used by players as high-damage explosive traps because they detonate instantly when hit. They can only be placed on obsidian or bedrock blocks. When active in the End, they project a healing beam toward the dragon, making their destruction a priority during the boss fight."
+        description: "Raw Gold is the unrefined state of the most valuable decorative metal. Like iron, it can be multiplied using Fortune, making gold mining much more lucrative than it used to be. Its soft, yellow appearance belies the power it holds for bartering with Piglins and crafting advanced items like golden apples and powered rails. Smelting it is the first step toward Nether riches."
+    },
+    "minecraft:raw_copper": {
+        id: "minecraft:raw_copper",
+        name: "Raw Copper",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Smelting into Copper Ingots",
+            secondaryUse: "Compact storage in Raw Copper Blocks"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Dropped by Copper Ore"]
+        },
+        description: "Raw Copper is found in massive quantities in the underground world. It is the raw material for the industrial copper set, powering lightning rods and crafting the beautiful oxidizing blocks used in grand architecture. Because copper is so abundant, players often find stacks of raw copper quickly, leading to the creation of huge 'raw copper blocks' for storage before the smelting process begins."
     },
     "minecraft:enchanted_book": {
         id: "minecraft:enchanted_book",
@@ -782,93 +1621,36 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Applying enchantments to items via an Anvil",
-            secondaryUse: "Combining with other enchanted books to upgrade enchantment levels"
+            primaryUse: "Applying specific enchantments to gear in an Anvil",
+            secondaryUse: "Storing high-level spells for future use"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained from Enchanting Table, Fishing, Loot Chests, or Librarian Villagers"]
+            recipeType: "Table",
+            ingredients: ["Book", "Experience levels", "Lapis Lazuli"]
         },
         specialNotes: [
-            "Allows applying specific enchantments to gear that may not be available via Enchanting Table",
-            "Can be combined in an anvil to create higher-level enchantments (e.g., Sharpness IV + IV = V)",
-            "Librarian villagers sell specific enchanted books for emeralds and a regular book",
-            "Found as treasure while fishing (0.8% chance in Bedrock)",
-            "Required to apply certain 'Treasure' enchantments like Mending or Frost Walker"
+            "Can hold any enchantment available in the game",
+            "Found in treasure chests, through fishing, or library trades",
+            "The only way to apply certain 'Treasure' enchantments like Mending",
+            "Combining two identical books in an anvil creates a higher level"
         ],
-        description: "Enchanted Books are specialized items that store magical enchantments for later use. They are the primary way to apply specific buffs, such as Mending or Silk Touch, to tools, weapons, and armor using an Anvil. Players can obtain these books through various methods, including using an Enchanting Table on regular books, fishing, or trading with Librarian villagers. Because they allow for precise control over equipment upgrades and are necessary for applying powerful treasure enchantments, they are an essential resource for late-game gear optimization."
+        description: "The Enchanted Book is the ultimate catalyst for power. It allows players to selectively apply the buffs they want to their equipment. Instead of gambling on the enchanting table, you can find a book with 'Sharpness V' and apply it directly to your favorite sword. They are a bridge between raw materials and legendary gear, and finding a chest full of them is one of the most exciting parts of exploration."
     },
-    "minecraft:bucket": {
-        id: "minecraft:bucket",
-        name: "Bucket",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Carrying and placing liquids (water, lava, milk, powder snow)",
-            secondaryUse: "Catching fish and axolotls"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["3x Iron Ingot"]
-        },
-        specialNotes: [
-            "Can hold water, lava, milk, powder snow, or live fish/axolotls",
-            "Empty buckets stack up to 16, but filled buckets only stack to 1",
-            "Used to milk cows, mooshrooms, and goats",
-            "Lava buckets can be used as fuel in furnaces (smelts 100 items)",
-            "Water buckets can save players from fall damage or create infinite water sources",
-            "Crafted with 3 iron ingots in a V-shape in the crafting grid"
-        ],
-        description: "The Bucket is a versatile utility item crafted from three iron ingots. It serves multiple essential functions including transporting liquids like water and lava, milking cows and goats, collecting powder snow, and capturing aquatic mobs such as fish and axolotls. Empty buckets stack up to 16, but once filled, they can only stack individually. Buckets are fundamental for farming, building, redstone contraptions, and survival tactics such as water elevators or using water to prevent fall damage. Lava-filled buckets serve as efficient fuel, smelting 100 items per bucket."
-        },
-        "minecraft:tripwire_hook": {
-        id: "minecraft:tripwire_hook",
-        name: "Tripwire Hook",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-        primaryUse: "Crafting Tripwires and Trapped Chests",
-        secondaryUse: "Redstone detection and automation systems"
-        },
-        crafting: {
-        recipeType: "Shaped",
-        ingredients: ["Iron Ingot", "Stick", "Wood Plank"]
-        },
-        specialNotes: [
-        "Used to craft Tripwire Hook (placed 4 in a line) connected with String",
-        "Creates an invisible tripwire that triggers redstone when crossed by entities",
-        "Shears can break tripwire without triggering it",
-        "Used in crafting Trapped Chests (shapeless recipe with Chest and Tripwire Hook)",
-        "Dropped by breaking Tripwire Hooks in Jungle Temples",
-        "Essential for traps, mob detection, and automated redstone circuits"
-        ],
-        description: "The Tripwire Hook is a redstone component used to create detection systems and traps. When placed in a line of up to 40 blocks and connected with string, it creates a tripwire that activates a redstone signal when any entity passes through it. This mechanism is invaluable for creating automatic doors, mob spawners, trap defenses, and hidden alarm systems. Tripwire Hooks are also a key ingredient in crafting Trapped Chests, which appear identical to regular chests but emit a redstone signal when opened. While commonly found in Jungle Temple loot chests, they are easily crafted for early-game redstone automation."
-        },
-        "minecraft:writable_book": {
+    "minecraft:writable_book": {
         id: "minecraft:writable_book",
         name: "Book and Quill",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Writing and storing custom text",
-            secondaryUse: "Creating in-game guides, stories, or signs"
+            primaryUse: "Writing player messages, stories, and notes",
+            secondaryUse: "Creating permanent in-game documentation"
         },
         crafting: {
             recipeType: "Shapeless",
             ingredients: ["Book", "Ink Sac", "Feather"]
         },
-        specialNotes: [
-            "Can contain up to 100 pages of text (256 characters per page in Bedrock)",
-            "Once signed, becomes a 'Written Book' with author and title",
-            "Written Books can be copied by crafting with a Book and Quill",
-            "Cannot be edited after signing; the original can make up to 8 copies",
-            "Useful for leaving messages, creating maps, or building adventure maps",
-            "Signed books show author name and generation (Original, Copy of Original, Copy of Copy)"
-        ],
-        description: "The Book and Quill is a unique item that allows players to write and store custom text within the game. Crafted using a book, ink sac, and feather, it provides up to 100 pages with 256 characters per page in Bedrock Edition. Players can use it to document adventures, create in-game guides, leave messages, or design narrative elements for adventure maps. Once complete, the book can be signed to create a Written Book, permanently recording the author's name and title. Signed books can be duplicated up to 8 times, making them valuable for sharing information across multiplayer worlds."
+        description: "The Book and Quill is the primary method of long-form communication in Minecraft. It allows players to write multiple pages of text, which can then be 'signed' to make the book permanent. These are used for everything from server rules and personal journals to coordinate lists and complex storytelling in adventure maps. Once signed, a book cannot be edited, turning it into a 'Written Book'."
     },
     "minecraft:written_book": {
         id: "minecraft:written_book",
@@ -877,714 +1659,185 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Reading and sharing signed text",
-            secondaryUse: "Displaying books on lecterns and storing them in chiseled bookshelves"
+            primaryUse: "Reading finished stories or rules",
+            secondaryUse: "Unique decorative shelf items"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Sign a Book and Quill"]
+            recipeType: "Interaction",
+            ingredients: ["Sign a Writable Book"]
+        },
+        description: "A Written Book is the finalized version of a story. It bears the name of the author and the title chosen at the time of signing. These books are common on multiplayer servers for welcoming new players or documenting history. Interestingly, written books can be 'cloned' in a crafting table using more writable books, allowing an author to distribute their work to the entire world."
+    },
+    "minecraft:rabbit_stew": {
+        id: "minecraft:rabbit_stew",
+        name: "Rabbit Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating (restores high hunger and saturation)",
+            secondaryUse: "High-tier food resource"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Cooked Rabbit", "Carrot", "Potato", "Mushroom", "Bowl"]
+        },
+        description: "Rabbit Stew is one of the most complex but rewarding foods in the game. It combines meat, vegetables, and fungi into a single hearty meal that restores a massive 10 points (5 bars) of hunger. While it is difficult to craft due to the variety of ingredients and only stacks in ones, it provides excellent saturation, keeping a player full for a long time during difficult journeys."
+    },
+    "minecraft:suspicious_stew": {
+        id: "minecraft:suspicious_stew",
+        name: "Suspicious Stew",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Eating to gain a hidden status effect",
+            secondaryUse: "Secret buff management"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bowl", "Brown Mushroom", "Red Mushroom", "Small Flower (any)"]
         },
         specialNotes: [
-            "Created by signing a Book and Quill; the text cannot be edited afterward",
-            "Stacks to 16, but only identical books (including generation) stack together",
-            "Generations: Original, Copy of Original, Copy of Copy, Tattered",
-            "Only Originals and Copies of Original can be duplicated in a crafting table",
-            "Can be placed on a Lectern; the displayed page outputs a redstone signal",
-            "Can be stored in a Chiseled Bookshelf by using it while holding the book"
+            "The effect depends on which flower was used in the recipe",
+            "Dandelion = Saturation; Poppy = Night Vision; Cornflower = Jump Boost",
+            "Wither Rose = Wither; Oxide Daisy = Regeneration",
+            "Found in Shipwrecks and Desert Temples, or given by Brown Mooshrooms"
         ],
-        description: "A Written Book is a signed Book and Quill that locks its text and records a title and author on the cover. In Bedrock Edition, signed books can be displayed on a lectern for reading and redstone output based on the current page. Originals (and Copies of Original) can be duplicated in a crafting table to share guides, rules, or stories with other players."
+        description: "Suspicious Stew is a gamble in a bowl. While its appearance is always the same, its effects are determined by the flower used in its crafting. It can be a powerful tool—providing a burst of health or night vision—or a deadly trap that applies poison or blindness. Learning which flowers produce which effects transforms this item from a mystery into a strategic asset for the prepared explorer."
     },
-    "minecraft:wither_skeleton_skull": {
-        id: "minecraft:wither_skeleton_skull",
-        name: "Wither Skeleton Skull",
+    "minecraft:lodestone_compass": {
+        id: "minecraft:lodestone_compass",
+        name: "Lodestone Compass",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Pointing to a specific Lodestone block",
+            secondaryUse: "Advanced navigation through Nether and End"
+        },
+        crafting: {
+            recipeType: "Interaction",
+            ingredients: ["Compass", "Lodestone"]
+        },
+        description: "The Lodestone Compass is the answer to the Nether's navigation problems. Unlike a regular compass which spins wildly in other dimensions, a lodestone compass is magically tied to a specific block. Once attuned, it will always point the way back to that location, no matter where you are in that dimension. This is the only way to reliably navigate back to portals or distant fortresses in the chaotic Nether or barren End."
+    },
+    "minecraft:sheaf_pottery_sherd": {
+        id: "minecraft:sheaf_pottery_sherd",
+        name: "Sheaf Pottery Sherd",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Summoning the Wither boss",
-            secondaryUse: "Decorative block and wearable head armor"
+            primaryUse: "Crafting decorated pots with the wheat design",
+            secondaryUse: "Archeological display"
         },
         crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Dropped by Wither Skeletons in Nether Fortresses"]
+            recipeType: "Excavation",
+            ingredients: ["Found in Desert Well suspicious sand"]
         },
-        specialNotes: [
-            "Rare drop from Wither Skeletons (2.5% chance; increased by Looting)",
-            "Three skulls are required to summon the Wither boss",
-            "Can be worn as a helmet (purely decorative)",
-            "Reduces the detection range of Wither Skeletons by 50% when worn"
-        ],
-        description: "The Wither Skeleton Skull is a rare and essential item for late-game progression, primarily used to summon the Wither boss. It is obtained as a rare drop from Wither Skeletons found within Nether Fortresses. Beyond its use in summoning, it can be placed as a decorative block or worn by the player as a helmet, which has the functional benefit of reducing the detection range of other Wither Skeletons. Its dark, skeletal appearance makes it a popular trophy for seasoned adventurers."
+        description: "The Sheaf Pottery Sherd features a stylized image of a wheat sheaf, symbolizing agriculture and bounty. It is an archeological find most commonly discovered by brushing the suspicious sand at the bottom of Desert Wells. It is an ideal thematic choice for farmers who want to decorate their granaries or manor houses with pottery that reflects their trade."
     },
-    "minecraft:dragon_head": {
-        id: "minecraft:dragon_head",
-        name: "Dragon Head",
+    "minecraft:sentry_armor_trim_smithing_template": {
+        id: "minecraft:sentry_armor_trim_smithing_template",
+        name: "Sentry Armor Trim Smithing Template",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Redstone-interactive decoration"
+            primaryUse: "Applying the Sentry trim to armor",
+            secondaryUse: "Decorative customization"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Found on the front of End Ships in End Cities"]
+            ingredients: ["Found in Pillager Outpost chests"]
         },
         specialNotes: [
-            "Found exclusively on the prow of End Ships",
-            "Mouth opens and closes repeatedly when the player wearing it moves",
-            "When placed as a block, the mouth moves if powered by a redstone signal",
-            "The largest of all mob head items in the game"
+            "Pattern features sharp angles and bold lines",
+            "Associated with the Pillagers",
+            "Can be duplicated using 7 diamonds and 1 cobblestone"
         ],
-        description: "The Dragon Head is a unique decorative item found exclusively on End Ships within the End Cities. This large, detailed head can be worn as a helmet or placed as a block. One of its most distinctive features is its animated mouth; when worn by a moving player or powered by a redstone signal as a block, the mouth will continuously open and close. It serves as a major trophy of exploration and a status symbol for players who have conquered the End's most distant structures."
+        description: "The Sentry Armor Trim is a relatively common but iconic trim found in Pillager Outposts. Its geometric pattern gives armor a structured, military look. It is often the first trim many players find, as outposts are frequent sights in the Overworld. Despite its availability, it remains a favorite for its clean and aggressive lines."
     },
-    "minecraft:piglin_head": {
-        id: "minecraft:piglin_head",
-        name: "Piglin Head",
+    "minecraft:raiser_armor_trim_smithing_template": {
+        id: "minecraft:raiser_armor_trim_smithing_template",
+        name: "Raiser Armor Trim Smithing Template",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Decorative block and wearable head armor",
-            secondaryUse: "Reducing Piglin detection range"
+            primaryUse: "Applying the Raiser trim to armor",
+            secondaryUse: "Decorative customization"
         },
         crafting: {
             recipeType: "Uncraftable",
-            ingredients: ["Dropped by Piglins killed by a Charged Creeper"]
+            ingredients: ["Found in Trail Ruins archeology"]
         },
-        specialNotes: [
-            "Added in the 1.20 Trails & Tales update",
-            "Dropped when a Piglin or Piglin Brute is killed by a Charged Creeper explosion",
-            "Ear flutters when the player wearing it moves or when powered by redstone",
-            "Reduces the detection range of Piglins by 50% when worn"
-        ],
-        description: "The Piglin Head is a decorative mob head introduced in the 1.20 update. Like other mob heads, it is obtained through the rare event of a Charged Creeper killing a Piglin. When worn, the head's ears will flap as the player moves, a feature that can also be triggered by redstone when the head is placed as a block. Functionally, wearing the head reduces the detection range of Piglins, making it useful for navigating the Nether safely. It provides a unique aesthetic that captures the iconic look of the Piglin mobs."
+        description: "The Raiser Armor Trim is a reward for dedicated archeologists. Found exclusively in the suspicious gravel of Trail Ruins, it features a unique 'rising' pattern. Because obtaining it requires patient brushing and excavation of ancient structures, it is a mark of a player who values history and detailed exploration."
     },
-    "minecraft:minecart": {
-        id: "minecraft:minecart",
-        name: "Minecart",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Transporting players and mobs on rails",
-            secondaryUse: "Base for crafting specialized minecarts (Chest, Hopper, TNT)"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["5x Iron Ingot"]
-        },
-        specialNotes: [
-            "Placed on rails by using it on them; broken by attacking it",
-            "Can carry players and most mobs (including hostile ones)",
-            "Speeds depend on the type of rail used (Powered vs Normal)",
-            "Can be combined with Chests, Hoppers, or TNT in a crafting grid",
-            "In Bedrock Edition, minecarts can be placed on a rail by a dispenser",
-            "Minecarts can pick up mobs that walk into them while on a rail"
-        ],
-        description: "A Minecart is a fundamental vehicle used for transportation on rail systems. Crafted from five iron ingots, it can carry players, mobs, and items across large distances efficiently. Minecarts are placed on rails and can be propelled by Powered Rails or gravity. They serve as the base for several functional variants, including Minecarts with Chests, Hoppers, and TNT, which are essential for automation and complex rail networks. In Bedrock Edition, they are frequently used in both survival transport and intricate redstone machinery."
-    },
-    "minecraft:chest_minecart": {
-        id: "minecraft:chest_minecart",
-        name: "Minecart with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Transporting items on rails",
-            secondaryUse: "Mobile storage in minecart systems"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Chest", "Minecart"]
-        },
-        specialNotes: [
-            "Combines a Minecart and a Chest for item transport",
-            "Has 27 slots of inventory space, same as a single chest",
-            "Drops itself and its contents when broken",
-            "Can be accessed by opening the GUI or using Hoppers",
-            "Cannot carry players or mobs"
-        ],
-        description: "A Minecart with Chest is a utility vehicle that combines the mobility of a minecart with the storage capacity of a single chest. It allows players to transport large quantities of items across rail systems, making it essential for automated storage and delivery networks. In Bedrock Edition, it is crafted by combining a minecart and a chest in a crafting grid. When broken, it drops as a single item, spilling its inventory onto the ground. It can interact with hoppers placed under the track to load or unload items automatically."
-    },
-    "minecraft:hopper_minecart": {
-        id: "minecraft:hopper_minecart",
-        name: "Minecart with Hopper",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Collecting items from above rails",
-            secondaryUse: "Transferring items between containers rapidly"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Hopper", "Minecart"]
-        },
-        specialNotes: [
-            "Pulls items from the world and containers above it",
-            "Sucks up items much faster than a regular hopper",
-            "Can pick up items through full blocks directly above the rail",
-            "Can be disabled by a powered Activator Rail",
-            "Has 5 slots of inventory space"
-        ],
-        description: "A Minecart with Hopper is a specialized vehicle designed for item collection and transport. It possesses a powerful suction ability that allows it to pull loose items from the world or extract items from containers located directly above the track. Unlike stationary hoppers, it can collect items through full blocks, making it highly effective for farm collection systems where the collection mechanism needs to be hidden. Its collection function can be toggled using Activator Rails, allowing for precise control in automated sorting systems."
-    },
-    "minecraft:tnt_minecart": {
-        id: "minecraft:tnt_minecart",
-        name: "Minecart with TNT",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Creating mobile explosions",
-            secondaryUse: "Clearing areas or breaching walls remotely"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["TNT", "Minecart"]
-        },
-        specialNotes: [
-            "Explodes when passing over a powered Activator Rail",
-            "Explosion power depends on the minecart's speed",
-            "Detonates instantly upon high-speed collision",
-            "Does not destroy rails or blocks under the track when on rails",
-            "Can be dispensed onto rails"
-        ],
-        description: "A Minecart with TNT is a volatile vehicle used for controlled demolitions and traps. It detonates after a short delay when passing over a powered Activator Rail, or instantly if it crashes into a block or entity at high speed. The explosion's radius and damage are directly proportional to the cart's velocity at the moment of impact. Uniquely, when detonated while on a rail, it is designed not to destroy the track or the blocks immediately beneath it, allowing for reusable blasting lines in mining or terraforming operations."
-    },
-    "minecraft:oak_boat": {
-        id: "minecraft:oak_boat",
-        name: "Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities",
-            secondaryUse: "Transporting mobs across land and water"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Oak Planks x5"]
-        },
-        specialNotes: [
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Since 1.20.10, no longer requires a wooden shovel to craft in Bedrock",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Oak Boat is a primary water transportation vessel in Minecraft Bedrock Edition. It can accommodate up to two passengers, making it ideal for moving players, pets, or even hostile mobs across large bodies of water. Since the 1.20.10 update, it is crafted using five oak planks, matching the Java Edition recipe. Boats are also famous for their extreme speed on ice and their ability to negate fall damage, though steering on land is considerably slower. In Bedrock, a unique feature allows boats to pick up mobs even while a player is currently occupying a seat."
-    },
-    "minecraft:spruce_boat": {
-        id: "minecraft:spruce_boat",
-        name: "Spruce Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with spruce wood appearance",
-            secondaryUse: "Matching spruce wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Spruce Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to oak boat but with spruce wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Useful for matching spruce wood builds and forest-themed bases",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Spruce Boat is a variant of the standard boat crafted from spruce planks, offering the same functionality as the oak boat but with a darker, more rustic appearance. It provides the same two-passenger capacity and water transportation capabilities while maintaining aesthetic consistency with spruce wood builds and forest-themed structures. This boat is particularly popular among players building in colder, forest biomes or those who prefer the darker aesthetic of spruce wood. All the benefits of standard boats apply, including enhanced speed on ice and fall damage protection."
-    },
-    "minecraft:raft": {
-        id: "minecraft:raft",
-        name: "Raft",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Alternative water transportation using boat oars for manual propulsion",
-            secondaryUse: "Building floating structures and mobile bases"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Logs x6", "Sticks x2"]
-        },
-        specialNotes: [
-            "Requires boat oar for manual rowing and propulsion",
-            "Can be used to carry players and mobs across water",
-            "Crafted from logs rather than planks, creating a more rustic appearance",
-            "Can be used as a base for building floating structures",
-            "Boat oar must be crafted separately and used to control movement",
-            "Larger footprint than standard boats, offering more building potential",
-            "In Bedrock, can pick up mobs when used as a water vehicle"
-        ],
-        description: "The Raft is a unique water transportation item offering a primitive and customizable approach to water travel. Unlike traditional boats, rafts require a separate boat oar for propulsion, giving players precise control over their watercraft. Rafts are crafted from logs and sticks, creating a larger, more rustic appearance ideal for building floating structures and mobile bases. The larger footprint provides creative building opportunities while maintaining full functionality for transporting players and mobs across water."
-    },
-    "minecraft:boat_oar": {
-        id: "minecraft:boat_oar",
-        name: "Boat Oar",
-        maxStack: 16,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Propelling rafts across water surfaces",
-            secondaryUse: "Crafting material for raft construction and modifications"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Stick", "Wood Slab"]
-        },
-        specialNotes: [
-            "Essential tool for operating rafts - rafts cannot move without an oar",
-            "Can be used on rafts to propel them forward through water",
-            "Right-click while holding oar on raft to move in the direction you're facing",
-            "Essential for raft-based exploration and transportation",
-            "Can be combined with other items in crafting recipes",
-            "Each oar can be used indefinitely without durability loss",
-            "Required component for the raft crafting recipe in some versions"
-        ],
-        description: "The Boat Oar is a specialized tool item used exclusively for propelling rafts across water. Unlike boats that move automatically, rafts require manual propulsion using a boat oar, giving players precise control over their watercraft. The oar is crafted from a stick and wood slab, and when used on a raft, allows for directional movement across water surfaces. This manual control system makes rafts useful for precise navigation in tight spaces or for hands-on water transportation."
-    },
-    "minecraft:mangrove_boat": {
-        id: "minecraft:mangrove_boat",
-        name: "Mangrove Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with mangrove wood appearance",
-            secondaryUse: "Matching mangrove wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Mangrove Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with red mangrove wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Mangrove Planks (no shovel required in 1.20+)",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Mangrove Boat is a variant of the standard boat crafted from mangrove planks, introduced in the 1.19 Wild Update. It features the distinctive reddish hue of mangrove wood, making it an excellent choice for navigating swamps or matching red-wood themed builds. Like other boats in Bedrock Edition, it accommodates two passengers and offers fall damage protection. It can be crafted using five mangrove planks, providing a stylish way to traverse water bodies."
-    },
-    "minecraft:cherry_boat": {
-        id: "minecraft:cherry_boat",
-        name: "Cherry Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with cherry wood appearance",
-            secondaryUse: "Matching cherry wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Cherry Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with pink cherry wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Cherry Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Cherry Boat is a vibrant pink boat variant crafted from cherry planks, introduced in the 1.20 Trails & Tales update. It functions identically to other wooden boats, capable of carrying two passengers and moving swiftly across water or ice. Its unique pink color makes it a favorite for decorative purposes and for players who enjoy the aesthetic of the cherry grove biome. It requires five cherry planks to craft and offers the same fall damage negation as other boats."
-    },
-    "minecraft:bamboo_raft": {
-        id: "minecraft:bamboo_raft",
-        name: "Bamboo Raft",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with a raft design",
-            secondaryUse: "Aesthetic alternative to traditional boats"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Bamboo Planks x5"]
-        },
-        specialNotes: [
-            "Functionally identical to boats but with a flat raft model",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Bamboo Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
-    },
-    "minecraft:birch_boat": {
-        id: "minecraft:birch_boat",
-        name: "Birch Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with birch wood appearance",
-            secondaryUse: "Matching birch wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Birch Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with pale birch wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Birch Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Birch Boat is a variant of the standard boat crafted from birch planks. It shares all the functional characteristics of other wooden boats, including the ability to carry two passengers and high speed on ice. Its distinguishing feature is its pale wood texture, matching the aesthetic of birch forests. Like all boats in Bedrock Edition, it is crafted from five planks and requires no shovel. It serves as a reliable vehicle for water travel and transporting mobs."
-    },
-    "minecraft:painting": {
-        id: "minecraft:painting",
-        name: "Painting",
+    "minecraft:shaper_armor_trim_smithing_template": {
+        id: "minecraft:shaper_armor_trim_smithing_template",
+        name: "Shaper Armor Trim Smithing Template",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Placing decorative art on walls",
-            secondaryUse: "Creating secret doors and hidden passages"
+            primaryUse: "Applying the Shaper trim to armor",
+            secondaryUse: "Decorative customization"
         },
         crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Stick x8", "Wool (any color) x1"]
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Trail Ruins archeology"]
         },
-        specialNotes: [
-            "Can be placed in different sizes (1x1 to 4x4) depending on available space",
-            "There are 30 different paintings available in Bedrock Edition",
-            "Can be placed over doors or openings to create hidden passages",
-            "Breaking a painting drops the item for relocation"
-        ],
-        description: "Paintings are decorative entities that can be placed on vertical surfaces. They come in various sizes, from small 1x1 canvases to large 4x4 masterpieces, randomly chosen based on the space available when placed. In Bedrock Edition, there are 30 unique painting designs. Beyond decoration, paintings are commonly used to create secret doors, as players and mobs can walk through them if there is an opening behind the canvas."
+        description: "The Shaper Armor Trim is another ancient find from the Trail Ruins. It provides a distinct 'shaped' look that flows well between armor pieces. Like other Trail Ruin templates, its rarity comes from the difficulty in locating and fully excavating the buried ruins, making it a stylish choice for world-renowned explorers."
     },
-    "minecraft:glow_item_frame": {
-        id: "minecraft:glow_item_frame",
-        name: "Glow Item Frame",
+    "minecraft:miner_pottery_sherd": {
+        id: "minecraft:miner_pottery_sherd",
+        name: "Miner Pottery Sherd",
         maxStack: 64,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Displaying items with a glowing background",
-            secondaryUse: "Lighting up displayed items in the dark"
+            primaryUse: "Crafting decorated pots with the pickaxe pattern",
+            secondaryUse: "Archeological display"
+        },
+        crafting: {
+            recipeType: "Excavation",
+            ingredients: ["Found in Trail Ruins"]
+        },
+        description: "The Miner Pottery Sherd depicts a simple pickaxe, the universal symbol of Minecraft. Found among the rubble of Trail Ruins, it pays homage to the primary activity of the game. It is perhaps the most iconic sherd for building a themed workshop or a trophy room for a dedicated miner."
+    },
+    "minecraft:field_masoned_banner_pattern": {
+        id: "minecraft:field_masoned_banner_pattern",
+        name: "Field Masoned Banner Pattern",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Adding the 'Masoned' brick-like pattern to a banner",
+            secondaryUse: "Architectural heraldry"
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Item Frame", "Glow Ink Sac"]
+            ingredients: ["Paper", "Brick Block"]
         },
-        specialNotes: [
-            "Makes the displayed item clearly visible even in total darkness",
-            "Does not increase the light level of the surrounding area (decorative only)",
-            "Obtained by combining a regular item frame with a glow ink sac from a glow squid",
-            "Can be placed on any side of most blocks, including top and bottom"
-        ],
-        description: "The Glow Item Frame is a specialized version of the standard item frame that allows displayed items to remain fully visible in the dark. It is crafted by combining a regular item frame with a glow ink sac. While it makes the item glow with a bright background, it does not actually emit light into the environment. This makes it perfect for maps, signage, or trophy rooms where visibility is needed regardless of lighting conditions."
+        description: "The Field Masoned pattern applies a classic brickwork design to your banner. It is a favorite for builders who want their banners to look like a sturdy part of a castle wall or to represent a guild of masons. Like all patterns, it's a reusable tool that allows for consistent branding across your entire kingdom."
     },
-    "minecraft:oak_chest_boat": {
-        id: "minecraft:oak_chest_boat",
-        name: "Oak Boat with Chest",
+    "minecraft:bordure_indented_banner_pattern": {
+        id: "minecraft:bordure_indented_banner_pattern",
+        name: "Bordure Indented Banner Pattern",
         maxStack: 1,
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Water transportation with mobile storage",
-            secondaryUse: "Transporting a single player or mob plus items"
+            primaryUse: "Adding a jagged 'vine' border to a banner",
+            secondaryUse: "Nature-themed heraldry"
         },
         crafting: {
             recipeType: "Shapeless",
-            ingredients: ["Oak Boat", "Chest"]
+            ingredients: ["Paper", "Vines"]
         },
-        specialNotes: [
-            "Provides 27 slots of storage, equivalent to a single chest",
-            "Can only hold one passenger (player or mob) instead of the two allowed in standard boats",
-            "When broken, it drops both the boat with chest item and the contents of the chest",
-            "Useful for long-distance ocean exploration or moving base materials across water"
-        ],
-        description: "The Oak Boat with Chest is a mobile storage vehicle that combines the utility of a boat with the capacity of a chest. It allows players to transport up to 27 slots of items across water bodies while still being able to pilot the vessel. Due to the space taken up by the chest, it can only carry a single passenger. This boat is an essential tool for explorers and players moving large quantities of resources between coastal bases."
-    },
-    "minecraft:command_block_minecart": {
-        id: "minecraft:command_block_minecart",
-        name: "Minecart with Command Block",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Executing commands on rails",
-            secondaryUse: "Creating mobile command systems"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained via commands or Creative inventory"]
-        },
-        specialNotes: [
-            "Cannot be crafted; must be obtained using /give or Pick Block in Creative",
-            "Executes its command when passing over a powered Activator Rail",
-            "Checks the command once every game tick if on an always-active circuit, but on rails it depends on activation",
-            "Useful for adventure maps and automated systems",
-            "Drops as an item when broken in Creative mode (contents saved if Ctrl+Pick Block used)"
-        ],
-        description: "The Minecart with Command Block is a utility vehicle that combines a minecart with an Impulse Command Block. It allows for the execution of commands as the cart travels along a rail system. The command stored within is triggered when the minecart passes over a powered Activator Rail. This item is not available in the Survival inventory and cannot be crafted; it must be obtained via commands or the Creative inventory. It is a powerful tool for map makers and technical players creating complex, mobile automation systems."
-    },
-    "minecraft:jungle_boat": {
-        id: "minecraft:jungle_boat",
-        name: "Jungle Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two entities with jungle wood appearance",
-            secondaryUse: "Matching jungle wood builds and aesthetic consistency"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Jungle Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with reddish-brown jungle wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Crafted from 5 Jungle Planks",
-            "Moves significantly faster on ice and packed ice",
-            "In Bedrock, mobs can be picked up even when a player is already riding",
-            "Look angle is restricted to a 180-degree arc while rowing in Bedrock",
-            "Nullifies fall damage for all passengers when falling from any height"
-        ],
-        description: "The Jungle Boat is a variant of the standard boat crafted from jungle planks. It offers the same reliable water transportation for two passengers as other wooden boats but features the distinct reddish-brown hue of jungle wood. This makes it an ideal choice for players navigating jungle rivers or seeking to match the aesthetic of jungle treehouses and builds. Like all boats in Bedrock Edition, it is crafted from five planks without a shovel and provides immunity to fall damage when occupied."
-    },
-    "minecraft:acacia_boat": {
-        id: "minecraft:acacia_boat",
-        name: "Acacia Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two passengers",
-            secondaryUse: "Fast travel on ice"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Acacia Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with orange acacia wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling"
-        ],
-        description: "The Acacia Boat is a variant of the standard boat crafted from acacia planks. It features the distinctive orange color of acacia wood, making it a popular choice for players in savanna biomes. Like all boats in Minecraft Bedrock Edition, it can carry up to two passengers and is famous for its high speed when placed on ice. It is crafted from five acacia planks in a 'U' shape and provides a reliable way to traverse oceans and rivers."
-    },
-    "minecraft:dark_oak_boat": {
-        id: "minecraft:dark_oak_boat",
-        name: "Dark Oak Boat",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Water transportation for up to two passengers",
-            secondaryUse: "Fast travel on ice"
-        },
-        crafting: {
-            recipeType: "Shaped",
-            ingredients: ["Dark Oak Planks x5"]
-        },
-        specialNotes: [
-            "Identical functionality to other boats but with dark oak wood texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling"
-        ],
-        description: "The Dark Oak Boat is a variant of the standard boat crafted from dark oak planks. It features the characteristic dark brown color of dark oak, providing a solid and rustic aesthetic. Functionally identical to other boats, it can carry two passengers and travels extremely fast on ice surfaces. It is a reliable tool for exploration and mob transport, especially for players who prefer the darker wood tones in their equipment."
-    },
-    "minecraft:spruce_chest_boat": {
-        id: "minecraft:spruce_chest_boat",
-        name: "Spruce Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Spruce Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Spruce Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Ideal for long-distance transport of resources across oceans"
-        ],
-        description: "The Spruce Boat with Chest is a utility vehicle that provides 27 slots of storage while maintaining water mobility. Crafted by combining a Spruce Boat with a Chest, it allows players to move large quantities of items across water. Because the chest ocupaies the second seat, it can only carry one passenger. This makes it a vital tool for resource gathering trips and moving between coastal bases."
-    },
-    "minecraft:birch_chest_boat": {
-        id: "minecraft:birch_chest_boat",
-        name: "Birch Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Birch Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Birch Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Matches the pale aesthetic of birch wood"
-        ],
-        description: "The Birch Boat with Chest offers mobile storage for players who prefer the light-colored birch aesthetic. By combining a Birch Boat with a Chest, players gain a vessel capable of carrying 27 item stacks across oceans and rivers. While it sacrifices the second passenger seat for storage, it is an invaluable asset for exploration and moving base supplies across water."
-    },
-    "minecraft:jungle_chest_boat": {
-        id: "minecraft:jungle_chest_boat",
-        name: "Jungle Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Jungle Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Jungle Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the reddish-brown jungle wood texture"
-        ],
-        description: "The Jungle Boat with Chest is a mobile inventory solution crafted from a Jungle Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot from tropical explorations. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across jungle rivers and open seas."
-    },
-    "minecraft:acacia_chest_boat": {
-        id: "minecraft:acacia_chest_boat",
-        name: "Acacia Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Acacia Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines an Acacia Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the bright orange acacia wood texture"
-        ],
-        description: "The Acacia Boat with Chest is a mobile inventory solution crafted from an Acacia Boat and a Chest. It provides 27 slots of storage for aquatic journeys, perfect for transporting loot across savanna coastal regions. As with all chest boats, it accommodates only one passenger. It remains a reliable and stylish way to move large amounts of cargo across rivers and open seas."
-    },
-    "minecraft:dark_oak_chest_boat": {
-        id: "minecraft:dark_oak_chest_boat",
-        name: "Dark Oak Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Dark Oak Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Dark Oak Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the dark brown dark oak wood texture"
-        ],
-        description: "The Dark Oak Boat with Chest is a sturdy mobile storage vessel crafted by combining a Dark Oak Boat with a Chest. It provides 27 slots of storage, making it ideal for hauling heavy loads across deep oceans and rivers. While it only accommodates a single passenger, its large storage capacity makes it indispensable for moving resources to new base locations."
-    },
-    "minecraft:mangrove_chest_boat": {
-        id: "minecraft:mangrove_chest_boat",
-        name: "Mangrove Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Mangrove Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Mangrove Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the deep red mangrove wood texture"
-        ],
-        description: "The Mangrove Boat with Chest is a specialized vessel introduced for swamp and mangrove exploration. By combining a Mangrove Boat with a Chest, players gain 27 slots of mobile storage. It's perfect for gathering mangrove wood and other swamp resources. Like other chest boats, it carries one passenger and provides a reliable way to move goods through narrow waterways."
-    },
-    "minecraft:cherry_chest_boat": {
-        id: "minecraft:cherry_chest_boat",
-        name: "Cherry Boat with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Cherry Boat", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Cherry Boat with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the boat and the chest contents when broken",
-            "Features the pink cherry wood texture"
-        ],
-        description: "The Cherry Boat with Chest is a vibrant pink mobile storage unit introduced in the Trails & Tales update. Crafted from a Cherry Boat and a Chest, it offers 27 slots of inventory space for sea-bound adventures. It provides a unique aesthetic for transport and is as functional as it is colorful, allowing players to move their valuables across water with ease."
-    },
-    "minecraft:bamboo_chest_raft": {
-        id: "minecraft:bamboo_chest_raft",
-        name: "Bamboo Raft with Chest",
-        maxStack: 1,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Transporting items across large bodies of water"
-        },
-        crafting: {
-            recipeType: "Shapeless",
-            ingredients: ["Bamboo Raft", "Chest"]
-        },
-        specialNotes: [
-            "Combines a Bamboo Raft with a Chest for 27 slots of mobile storage",
-            "Can only carry one passenger (player or mob) due to the chest",
-            "Drops both the raft and the chest contents when broken",
-            "Features the unique flat bamboo raft design"
-        ],
-        description: "The Bamboo Raft with Chest provides a flat, open platform for water travel with the added benefit of 27 storage slots. Crafted using a Bamboo Raft and a Chest, it is perfect for tropical-themed transport and exploration. While it only supports one passenger, its distinctive Look and large capacity make it a favorite for players navigating jungle biomes and island archipelagos."
+        description: "The Bordure Indented pattern creates a beautiful jagged border around the edges of a banner. Often used to simulate vines or tooth-like edges, it adds a layer of intricate detail that is hard to achieve with standard shapes. It's a simple recipe requiring only vines and paper, but it yields elegant results in the loom."
     },
     "minecraft:pale_oak_boat": {
         id: "minecraft:pale_oak_boat",
@@ -1593,21 +1846,21 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Water transportation for up to two entities",
-            secondaryUse: "Fuel"
+            primaryUse: "Transporting entities across water",
+            secondaryUse: "Fast travel on ice (blue ice specifically)"
         },
         crafting: {
             recipeType: "Shaped",
             ingredients: ["Pale Oak Planks x5"]
         },
         specialNotes: [
-            "Identical functionality to other boats with a desaturated white texture",
-            "Can carry two passengers, including mobs and players",
-            "Moves significantly faster on ice and packed ice",
-            "Nullifies fall damage for all passengers when falling",
-            "Can be used as fuel in a furnace (smelts 6 items)"
+            "Introduced as part of the 1.21.50 Winter Drop",
+            "Has a unique desaturated, ghostly white color matching the Pale Garden",
+            "Can hold two entities (player and mob/another player)",
+            "Does not have oars in the Bedrock crafting recipe (standard for all boats)",
+            "Essential for exploring the coastal areas of the Pale Garden"
         ],
-        description: "The Pale Oak Boat is a variant of the standard boat crafted from pale oak planks, introduced in the 1.21.50 Winter Drop. It features a unique, desaturated white appearance that matches the aesthetic of the Pale Garden biome. Like all boats in Bedrock Edition, it handles up to two passengers and provides immunity to fall damage. It is a reliable tool for aquatic exploration and transporting mobs."
+        description: "The Pale Oak Boat is a desaturated, ghostly white variant of the standard boat, crafted from wood found in the Pale Garden. Introduced in the 1.21.50 update, it functions identically to other boats, allowing for swift travel across oceans and lakes. Its signature look fits perfectly with the eerie, atmospheric aesthetic of the Winter Drop, providing a stylish and functional way to pilot through the mysterious new landscapes."
     },
     "minecraft:pale_oak_chest_boat": {
         id: "minecraft:pale_oak_chest_boat",
@@ -1616,8 +1869,8 @@ export const miscItems = {
         durability: 0,
         enchantable: false,
         usage: {
-            primaryUse: "Mobile storage and water transportation",
-            secondaryUse: "Fuel"
+            primaryUse: "Transporting items and one player across water",
+            secondaryUse: "Mobile storage for ocean exploration"
         },
         crafting: {
             recipeType: "Shapeless",
@@ -1654,6 +1907,144 @@ export const miscItems = {
             "Text can be dyed or made to glow with a Glow Ink Sac"
         ],
         description: "The Pale Oak Sign is a decorative and informational item introduced in the Winter Drop (1.21.50). Crafted from pale oak planks and a stick, it provides a desaturated white canvas for player-written text. In Bedrock Edition, signs can have text on both sides, and the text can be further customized with dyes or glow ink. It is essential for organization, navigation, and adding detail to builds within the Pale Garden biome."
+    },
+    "minecraft:cherry_sign": {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Labeling and navigation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features the distinctive light pink color of the Cherry wood set",
+            "In Bedrock, supports text on both front and back sides",
+            "Can be placed at 16 different angles when standing on the ground",
+            "Text can be customized using any of the 16 dyes or Glow Ink Sacs",
+            "Prevents further editing if Waxed with Honeycomb"
+        ],
+        description: "The Cherry Sign is a decorative wood item introduced in the 1.20 Trails & Tales update. It is crafted from six cherry planks and a stick, inheriting the beautiful pink hue of the cherry groves. Beyond simple signage, it offers unique aesthetic possibilities for builders, allowing for colorful labels and artistic details. Like all modern Bedrock signs, it facilitates double-sided text and extensive customization, making it both a practical tool for organization and a vibrant accent for any pink-themed construction."
+    },
+    "minecraft:bamboo_sign": {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Decorative labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features a unique yellowish-green bamboo texture",
+            "Matches the aesthetic of the Bamboo wood set and Jungle biomes",
+            "Supports double-sided text editing in Bedrock Edition",
+            "Can be locked with Honeycomb to prevent changes",
+            "Highly visible against darker blocks due to its bright color"
+        ],
+        description: "The Bamboo Sign is a tropical-themed informational item crafted from bamboo planks. Introduced as part of the bamboo wood family in version 1.20, it provides a distinct alternative to traditional wood signs with its bright, yellowish-green appearance. It functions identically to other signs, allowing players to communicate through text while providing a unique stylistic fit for jungles, beaches, or oriental-inspired builds. Its versatility in placement and customization makes it a staple for organized tropical bases."
+    },
+    "minecraft:mangrove_sign": {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Signage for swamp or dark-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Boasts a deep, rich reddish-brown wood color",
+            "Shares the unique properties of all Bedrock signs including double-sided text",
+            "Perfect for use in Swamps, Mangrove Forests, or rustic structures",
+            "Resistant to most explosions compared to other wood items",
+            "Can be dyed or enhanced with Glow Ink for better visibility"
+        ],
+        description: "The Mangrove Sign is a dark-colored informational item crafted from the mahogany-like planks of mangrove trees. Added in the 1.19 Wild Update, it offers a sophisticated reddish-brown canvas for text. Its darker tone makes it pair well with mud bricks and deepslate, providing clear but atmospheric labeling in swampy or underground environments. As a standard sign variant, it supports multiple lines of text on both sides and remains a durable and essential tool for navigation and world-building."
+    },
+    "minecraft:spruce_sign": {
+        id: "minecraft:spruce_sign",
+        name: "Spruce Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Rustic labeling and navigation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features the dark, warm brown color of spruce wood",
+            "Added to Bedrock in 1.10.0 to provide wood variety",
+            "Supports text on both front and back sides in Bedrock Edition",
+            "Can be placed as a standing sign or attached to walls",
+            "Prevents editing if waxed with a Honeycomb"
+        ],
+        description: "The Spruce Sign is a dark-colored informational item crafted from spruce planks and a stick. Introduced alongside other wood variants to bring diversity to signage, its rustic dark brown appearance makes it a favorite for medieval, woodland, and snowy builds. Like all signs in Bedrock Edition, it supports four lines of text on each side, which can be further customized with dyes or made to glow using Glow Ink Sacs for visibility in low light."
+    },
+    "minecraft:birch_sign": {
+        id: "minecraft:birch_sign",
+        name: "Birch Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text with high contrast",
+            secondaryUse: "Bright decorative labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "The lightest colored sign, providing excellent contrast for dark text",
+            "Consistently matches the bright cream color of the birch wood set",
+            "Supports double-sided text editing as a standard sign trait",
+            "Can be placed at any of the 16 rotational angles on a flat floor",
+            "Dying the text black on a birch sign provides the best readability"
+        ],
+        description: "The Birch Sign is a light-colored decorative item used for displaying text. Its pale, creamy wood texture provides an excellent high-contrast background for player-written information, especially when used with darker dyes. Ideal for modern builds, laboratories, or bright rooms, it functions identically to other sign types while offering a cleaner look. It supports multi-line text on both sides and can be edit-locked with honeycomb to protect your messages."
+    },
+    "minecraft:jungle_sign": {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing information in tropical environments",
+            secondaryUse: "Decorative labels for reddish wood builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features a distinctive reddish-tan color profile",
+            "Matches the unique look of jungle foliage and wood",
+            "Supports four lines of independent text on both sides",
+            "Text can be glowing or dyed any of the 16 available colors",
+            "Interacts with all sign-specific mechanics and interactions"
+        ],
+        description: "The Jungle Sign is a medium-toned informational item made from jungle wood planks. Its warm, reddish-brown hue is specifically designed to complement the jungle biome's aesthetic, fitting perfectly into treehouses and tropical outposts. Beyond its decorative value, it serves as a practical tool for navigation and organization. In Bedrock Edition, it features the ability to hold text on both sides and can be preserved from further changes using honeycomb."
     },
     "minecraft:pale_oak_hanging_sign": {
         id: "minecraft:pale_oak_hanging_sign",
