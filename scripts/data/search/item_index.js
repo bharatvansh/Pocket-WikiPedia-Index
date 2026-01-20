@@ -560,6 +560,27 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:light_blue_bundle",
+        name: "Light Blue Bundle",
+        category: "item",
+        icon: "textures/items/bundle_light_blue",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:gray_bundle",
+        name: "Gray Bundle",
+        category: "item",
+        icon: "textures/items/bundle_gray",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:light_gray_bundle",
+        name: "Light Gray Bundle",
+        category: "item",
+        icon: "textures/items/bundle_light_gray",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:brush",
         name: "Brush",
         category: "item",
