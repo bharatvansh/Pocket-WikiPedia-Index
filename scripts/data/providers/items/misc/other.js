@@ -1851,6 +1851,72 @@ export const miscItems = {
         ],
         description: "The Warped Hanging Sign is a teal-colored, fireproof sign found in the Warped Forests of the Nether. Being immune to fire, it is an essential tool for navigation in volcanic regions. Its bright teal color provides excellent visibility against darker blocks, and its texture is distinct from Overworld wood. It can be hung from the bottom or sides of blocks and supports text customization including dyes and glow effects, serving as both a functional and eerie decorative element."
     },
+    "minecraft:jungle_hanging_sign": {
+        id: "minecraft:jungle_hanging_sign",
+        name: "Jungle Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for jungle-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Jungle Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Features the distinct greenish-brown hue of jungle wood.",
+            "Can be placed under blocks, on the side of blocks, or attached to other hanging signs.",
+            "Text can be applied to both sides and can be dyed or made to glow."
+        ],
+        description: "The Jungle Hanging Sign is a decorative item that allows players to display text in a stylish hanging format. Crafted from stripped jungle logs and chains, it features the distinct greenish-brown hue of jungle wood. Unlike standard signs, hanging signs are double-sided and can be hung from the bottom of blocks or protruding from walls with a metal bracket. They are ideal for adding detail to tropical settlements or dense jungle outposts where standard floor signs might be too bulky."
+    },
+    "minecraft:dark_oak_hanging_sign": {
+        id: "minecraft:dark_oak_hanging_sign",
+        name: "Dark Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for dark forest themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Dark Oak Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Features the rich, deep brown color of dark oak wood.",
+            "Can be placed under blocks, on the side of blocks, or attached to other hanging signs.",
+            "Text can be applied to both sides and can be dyed or made to glow."
+        ],
+        description: "The Dark Oak Hanging Sign provides a robust and elegant way to display information using the dark, rich tones of dark oak wood. These signs are double-sided, allowing text to be read from both directions. They are especially useful in dark forest builds or when a more formal, darker aesthetic is required. Like other hanging signs, they can be suspended from chains or mounted on walls with a sturdy bracket, making them perfect for tavern signs or shop labels."
+    },
+    "minecraft:acacia_hanging_sign": {
+        id: "minecraft:acacia_hanging_sign",
+        name: "Acacia Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on a hanging sign",
+            secondaryUse: "Decorative signage for savanna-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Acacia Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Features the vibrant orange color unique to acacia wood.",
+            "Can be placed under blocks, on the side of blocks, or attached to other hanging signs.",
+            "Text can be applied to both sides and can be dyed or made to glow."
+        ],
+        description: "The Acacia Hanging Sign is a vibrant decorative item characterized by the bright orange color of acacia wood. It allows players to place double-sided signs in various orientations, including hanging from ceilings or extending from walls. Its unique color makes it stand out in arid biomes like savannas. Crafting requires stripped acacia logs and chains, making it a more advanced signage option that coordinates perfectly with the orange palette of savanna structures."
+    },
     "minecraft:zombie_head": {
         id: "minecraft:zombie_head",
         name: "Zombie Head",
