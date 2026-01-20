@@ -2689,5 +2689,71 @@ export const miscItems = {
             "Works in conjunction with Aluminum Oxide to reinforce glass structures."
         ],
         description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
+    },
+    "minecraft:element_3": {
+        id: "minecraft:element_3",
+        name: "Lithium",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creation of chemical compounds",
+            secondaryUse: "Used in the Compound Creator and Lab Table"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["3 Protons", "3 or 4 Neutrons", "3 Electrons"]
+        },
+        specialNotes: [
+            "Atomic number 3",
+            "An alkali metal that is the lightest of all metals",
+            "Used to craft Lithium Hydride and Lithium Oxide",
+            "Available only with Education Edition features enabled"
+        ],
+        description: "Lithium is a soft, silvery-white alkali metal that is the third element of the periodic table. In Minecraft Bedrock Edition's Education features, it can be created using the Element Constructor by configuring three protons and electrons, along with various amounts of neutrons. It is primarily used as a crafting ingredient in the Compound Creator to produce substances like Lithium Hydride. Lithium represents one of the foundational elements in the game's chemistry system, standing out with its specific pink-toned symbol in an element grid."
+    },
+    "minecraft:element_4": {
+        id: "minecraft:element_4",
+        name: "Beryllium",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creation of chemical compounds",
+            secondaryUse: "Basis for advanced chemistry experiments"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["4 Protons", "5 Neutrons", "4 Electrons"]
+        },
+        specialNotes: [
+            "Atomic number 4",
+            "A steel-gray alkaline earth metal known for its strength and light weight",
+            "Produced by configuring the Element Constructor with 4 protons",
+            "Not found naturally; must be synthesized or decomposed from materials"
+        ],
+        description: "Beryllium is a chemical element with the symbol Be and atomic number 4. Within the Minecraft Education features, players can manufacture this alkaline earth metal by placing 4 protons, electrons, and 5 neutrons into the Element Constructor. While it has fewer specific uses than other common elements like Oxygen or Carbon, it is part of the comprehensive set of 118 elements available for experimental chemistry. In the game's UI, Beryllium is represented by its 'Be' symbol, typically in a grayish-teal background, and serves as a key component for complex compound creation."
+    },
+    "minecraft:element_5": {
+        id: "minecraft:element_5",
+        name: "Boron",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creation of chemical compounds",
+            secondaryUse: "Key ingredient for Hardened Glass manufacturing"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["5 Protons", "6 Neutrons", "5 Electrons"]
+        },
+        specialNotes: [
+            "Atomic number 5",
+            "A metalloid element commonly used in glass and ceramics",
+            "Used at the Compound Creator to produce Boron Trioxide",
+            "Crucial for manufacturing reinforced hardened glass blocks"
+        ],
+        description: "Boron is the fifth element of the periodic table and is categorized as a metalloid. In Minecraft's chemistry system, it is an essential ingredient for industrial-grade crafting. By combining Boron with Oxygen in a Compound Creator, players can produce Boron Trioxide, which is a required agent for the creation of Hardened Glass. This makes Boron one of the more practically significant elements for survival builders who have Education features enabled. It is easily synthesized in the Element Constructor using five protons and can also be found by reducing certain blocks in the Material Reducer."
     }
 };

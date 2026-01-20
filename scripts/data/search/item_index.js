@@ -3476,5 +3476,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_ghastling",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:element_3",
+        name: "Lithium",
+        category: "item",
+        icon: "textures/items/element_lithium",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:element_4",
+        name: "Beryllium",
+        category: "item",
+        icon: "textures/items/element_beryllium",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:element_5",
+        name: "Boron",
+        category: "item",
+        icon: "textures/items/element_boron",
+        themeColor: "§2"
     }
 ];
