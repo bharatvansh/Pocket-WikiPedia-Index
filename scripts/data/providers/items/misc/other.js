@@ -535,6 +535,69 @@ export const miscItems = {
         ],
         description: "The Green Bundle is a dark, forest-toned variant of the versatile storage item. Ideal for wilderness explorers or botanists, this bundle is created by applying green dye to a standard bundle. It provides the same essential organizational benefits, condensing inventory slots by grouping together small amounts of different items. Its deep green color is perfect for camouflaging among foliage or organizing nature-derived resources."
     },
+    "minecraft:light_blue_bundle": {
+        id: "minecraft:light_blue_bundle",
+        name: "Light Blue Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Stashing multiple items into one slot",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Light Blue Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with light blue dye",
+            "Increases inventory efficiency by grouping varied items",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Light Blue Bundle is a decorative and functional storage item that helps players manage their inventory more efficiently. By combining a regular bundle with light blue dye, players get a pouch with a sky-colored aesthetic. Like all bundles, it has a capacity of 64 and can hold different types of items together, making it perfect for organizing small quantities of diverse materials collected during exploration."
+    },
+    "minecraft:gray_bundle": {
+        id: "minecraft:gray_bundle",
+        name: "Gray Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Stashing multiple items into one slot",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Gray Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with gray dye",
+            "Useful for grouping industrial or stone-based materials",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Gray Bundle provides a neutral, stone-toned storage option for players who like to keep their inventories tidy with a more muted color palette. Crafted by applying gray dye to a regular bundle, it retains the full functionality of the base item, allowing for up to 64 mixed items to be stored in a single slot. This variant is especially popular for organizing ores, stones, or miscellaneous neutral-colored materials gathered during mining trips."
+    },
+    "minecraft:light_gray_bundle": {
+        id: "minecraft:light_gray_bundle",
+        name: "Light Gray Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Stashing multiple items into one slot",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Light Gray Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with light gray dye",
+            "Offers a clean, silver-like aesthetic for organization",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Light Gray Bundle is a sleek storage variant that combines utility with a polished, minimalist appearance. By combining a bundle with light gray dye, players create a pouch that is both easy to distinguish and aesthetically pleasing. It follows the standard bundle rules, allowing many different item types to share a single slot. It is an ideal choice for players who want to categorize their light-colored blocks or silver-toned items without using high-contrast colors."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
