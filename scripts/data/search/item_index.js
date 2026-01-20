@@ -658,6 +658,27 @@ export const itemIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:cyan_bundle",
+        name: "Cyan Bundle",
+        category: "item",
+        icon: "textures/items/bundle_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        category: "item",
+        icon: "textures/items/bundle_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:brown_bundle",
+        name: "Brown Bundle",
+        category: "item",
+        icon: "textures/items/bundle_brown",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:echo_shard",
         name: "Echo Shard",
         category: "item",
@@ -2755,6 +2776,48 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/pale_oak_sign",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        category: "item",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        category: "item",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        category: "item",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:spruce_sign",
+        name: "Spruce Sign",
+        category: "item",
+        icon: "textures/items/spruce_sign",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_sign",
+        name: "Birch Sign",
+        category: "item",
+        icon: "textures/items/birch_sign",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        category: "item",
+        icon: "textures/items/jungle_sign",
+        themeColor: "§6"
     },
     {
         id: "minecraft:pale_oak_hanging_sign",

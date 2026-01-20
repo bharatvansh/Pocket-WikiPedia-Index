@@ -406,6 +406,72 @@ export const miscItems = {
         ],
         description: "The Lime Bundle provides a fresh, vibrant aesthetic for player inventory management. By combining a bundle with lime dye, players can create a distinct pouch for their green-themed items or natural resources. It follows the standard bundle mechanics, allowing for the efficient storage of multiple item types in a single inventory slot."
     },
+    "minecraft:cyan_bundle": {
+        id: "minecraft:cyan_bundle",
+        name: "Cyan Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inventory organization",
+            secondaryUse: "Storage of diverse small-stack items"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Cyan Dye"]
+        },
+        specialNotes: [
+            "Holds up to 64 items (depending on their individual stack sizes)",
+            "Crafted by combining a standard bundle with cyan dye",
+            "Allows for color-coded organization of inventories",
+            "Introduced for Bedrock Edition in the 1.21.40 update"
+        ],
+        description: "The Cyan Bundle provides a cool-toned storage solution for organizing your Minecraft inventory. As a part of the 'Bundles of Bravery' update, it allows players to consolidate various items into a single slot, making it perfect for managing diverse loot during underwater expeditions or exploring icy biomes."
+    },
+    "minecraft:magenta_bundle": {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Magenta Dye"]
+        },
+        specialNotes: [
+            "Stores up to a full stack (64 units) of mixed items",
+            "Uses a 'last-in, first-out' system for item removal",
+            "Created using a standard Bundle and Magenta Dye",
+            "Provides a colorful alternative for advanced inventory management"
+        ],
+        description: "The Magenta Bundle offers a striking and easily identifiable way to manage your items. Released alongside the bundle system in Bedrock Edition 1.21.40, this variant helps players maintain a clean inventory by grouping different items together. Its bright color is excellent for marking high-value rare items or exotic materials."
+    },
+    "minecraft:brown_bundle": {
+        id: "minecraft:brown_bundle",
+        name: "Brown Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Brown Dye"]
+        },
+        specialNotes: [
+            "Capable of holding up to 64 items in a single inventory slot",
+            "Item capacity varies based on the stackability of the contents",
+            "Crafted by merging a standard Bundle with Brown Dye",
+            "Perfect for organic and natural resource organization"
+        ],
+        description: "The Brown Bundle features an earthy tone that blends naturally with traditional explorer gear. Similar to other bundles introduced in Bedrock 1.21.40, it is a versatile tool for organizing resources while traveling. Whether you are gathering seeds, crops, or wood types, the brown bundle keeps your inventory tidy."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
@@ -1654,6 +1720,144 @@ export const miscItems = {
             "Text can be dyed or made to glow with a Glow Ink Sac"
         ],
         description: "The Pale Oak Sign is a decorative and informational item introduced in the Winter Drop (1.21.50). Crafted from pale oak planks and a stick, it provides a desaturated white canvas for player-written text. In Bedrock Edition, signs can have text on both sides, and the text can be further customized with dyes or glow ink. It is essential for organization, navigation, and adding detail to builds within the Pale Garden biome."
+    },
+    "minecraft:cherry_sign": {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Labeling and navigation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features the distinctive light pink color of the Cherry wood set",
+            "In Bedrock, supports text on both front and back sides",
+            "Can be placed at 16 different angles when standing on the ground",
+            "Text can be customized using any of the 16 dyes or Glow Ink Sacs",
+            "Prevents further editing if Waxed with Honeycomb"
+        ],
+        description: "The Cherry Sign is a decorative wood item introduced in the 1.20 Trails & Tales update. It is crafted from six cherry planks and a stick, inheriting the beautiful pink hue of the cherry groves. Beyond simple signage, it offers unique aesthetic possibilities for builders, allowing for colorful labels and artistic details. Like all modern Bedrock signs, it facilitates double-sided text and extensive customization, making it both a practical tool for organization and a vibrant accent for any pink-themed construction."
+    },
+    "minecraft:bamboo_sign": {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Decorative labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features a unique yellowish-green bamboo texture",
+            "Matches the aesthetic of the Bamboo wood set and Jungle biomes",
+            "Supports double-sided text editing in Bedrock Edition",
+            "Can be locked with Honeycomb to prevent changes",
+            "Highly visible against darker blocks due to its bright color"
+        ],
+        description: "The Bamboo Sign is a tropical-themed informational item crafted from bamboo planks. Introduced as part of the bamboo wood family in version 1.20, it provides a distinct alternative to traditional wood signs with its bright, yellowish-green appearance. It functions identically to other signs, allowing players to communicate through text while providing a unique stylistic fit for jungles, beaches, or oriental-inspired builds. Its versatility in placement and customization makes it a staple for organized tropical bases."
+    },
+    "minecraft:mangrove_sign": {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Signage for swamp or dark-themed builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Boasts a deep, rich reddish-brown wood color",
+            "Shares the unique properties of all Bedrock signs including double-sided text",
+            "Perfect for use in Swamps, Mangrove Forests, or rustic structures",
+            "Resistant to most explosions compared to other wood items",
+            "Can be dyed or enhanced with Glow Ink for better visibility"
+        ],
+        description: "The Mangrove Sign is a dark-colored informational item crafted from the mahogany-like planks of mangrove trees. Added in the 1.19 Wild Update, it offers a sophisticated reddish-brown canvas for text. Its darker tone makes it pair well with mud bricks and deepslate, providing clear but atmospheric labeling in swampy or underground environments. As a standard sign variant, it supports multiple lines of text on both sides and remains a durable and essential tool for navigation and world-building."
+    },
+    "minecraft:spruce_sign": {
+        id: "minecraft:spruce_sign",
+        name: "Spruce Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on walls or ground",
+            secondaryUse: "Rustic labeling and navigation"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features the dark, warm brown color of spruce wood",
+            "Added to Bedrock in 1.10.0 to provide wood variety",
+            "Supports text on both front and back sides in Bedrock Edition",
+            "Can be placed as a standing sign or attached to walls",
+            "Prevents editing if waxed with a Honeycomb"
+        ],
+        description: "The Spruce Sign is a dark-colored informational item crafted from spruce planks and a stick. Introduced alongside other wood variants to bring diversity to signage, its rustic dark brown appearance makes it a favorite for medieval, woodland, and snowy builds. Like all signs in Bedrock Edition, it supports four lines of text on each side, which can be further customized with dyes or made to glow using Glow Ink Sacs for visibility in low light."
+    },
+    "minecraft:birch_sign": {
+        id: "minecraft:birch_sign",
+        name: "Birch Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text with high contrast",
+            secondaryUse: "Bright decorative labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "The lightest colored sign, providing excellent contrast for dark text",
+            "Consistently matches the bright cream color of the birch wood set",
+            "Supports double-sided text editing as a standard sign trait",
+            "Can be placed at any of the 16 rotational angles on a flat floor",
+            "Dying the text black on a birch sign provides the best readability"
+        ],
+        description: "The Birch Sign is a light-colored decorative item used for displaying text. Its pale, creamy wood texture provides an excellent high-contrast background for player-written information, especially when used with darker dyes. Ideal for modern builds, laboratories, or bright rooms, it functions identically to other sign types while offering a cleaner look. It supports multi-line text on both sides and can be edit-locked with honeycomb to protect your messages."
+    },
+    "minecraft:jungle_sign": {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing information in tropical environments",
+            secondaryUse: "Decorative labels for reddish wood builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x6", "Stick"]
+        },
+        specialNotes: [
+            "Features a distinctive reddish-tan color profile",
+            "Matches the unique look of jungle foliage and wood",
+            "Supports four lines of independent text on both sides",
+            "Text can be glowing or dyed any of the 16 available colors",
+            "Interacts with all sign-specific commands and mechanics"
+        ],
+        description: "The Jungle Sign is a medium-toned informational item made from jungle wood planks. Its warm, reddish-brown hue is specifically designed to complement the jungle biome's aesthetic, fitting perfectly into treehouses and tropical outposts. Beyond its decorative value, it serves as a practical tool for navigation and organization. In Bedrock Edition, it features the ability to hold text on both sides and can be preserved from further changes using honeycomb."
     },
     "minecraft:pale_oak_hanging_sign": {
         id: "minecraft:pale_oak_hanging_sign",
