@@ -207,6 +207,29 @@ export const miscItems = {
         ],
         description: "Wolf armor is protective gear for tamed wolves, crafted from armadillo scutes. Introduced in 1.21, it provides protection equivalent to gold armor, absorbing incoming damage until its 64 durability points are depleted. Owners can repair damaged armor using armadillo scutes or by combining two worn pieces. This equipment significantly boosts a wolf's survivability against hostile mobs and environmental hazards, making them more resilient companions for combat and exploration."
     },
+    "minecraft:iron_nautilus_armor": {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on tamed Nautilus or Zombie Nautilus",
+            secondaryUse: "Providing damage protection to aquatic mounts"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Buried Treasure and Ocean Ruins chests", "Can be sheared from Zombie Nautilus Jockeys"]
+        },
+        specialNotes: [
+            "Introduced in the 'Mounts of Mayhem' (1.21.130) update",
+            "Provides protection to Nautilus mounts while being ridden",
+            "Increases the mount's survivability against hostile aquatic mobs",
+            "Indestructible while equipped (0 durability)",
+            "Can only be equipped on tamed Nautilus variants"
+        ],
+        description: "Iron Nautilus Armor is a piece of protective gear added in the Mounts of Mayhem update for Bedrock Edition. It is specifically designed to be equipped on tamed Nautilus or Zombie Nautilus mounts, providing them with a sturdy layer of defense. Unlike player armor, it does not have durability and can be used indefinitely unless the mob is killed. It is primarily found in nautical loot chests, such as those in Buried Treasure or Ocean Ruins, and can also be obtained by shearing it off a Zombie Nautilus Jockey."
+    },
     "minecraft:totem_of_undying": {
         id: "minecraft:totem_of_undying",
         name: "Totem of Undying",

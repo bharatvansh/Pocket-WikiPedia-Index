@@ -163,8 +163,33 @@ export const swords = {
             "Crafted with Heavy Core + Breeze Rod; no attack cooldown in Bedrock"
         ],
         description: "The Mace is a powerful melee weapon added in 1.21. Crafted from a Heavy Core and a Breeze Rod, it features a unique smash attack mechanic: falling 1.5+ blocks before hitting an enemy deals massive damage scaling with fall distance while negating the user's fall damage. In Bedrock Edition, it deals 6 base damage. It supports exclusive enchantments: Density for extra fall damage, Breach to bypass armor, and Wind Burst to launch the player upward on impact. This makes the Mace a devastating tool for aerial strikes and tactical combat."
-    },
-    "minecraft:netherite_sword": {
+    },    "minecraft:iron_spear": {
+        id: "minecraft:iron_spear",
+        name: "Iron Spear",
+        maxStack: 1,
+        durability: 250,
+        enchantable: true,
+        usage: {
+            primaryUse: "Long-reach melee combat",
+            secondaryUse: "Thrusting and lunging attacks"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Iron Ingot", "Stick x2"]
+        },
+        specialNotes: [
+            "Introduced as part of the 'Mounts of Mayhem' (1.21.130+) update",
+            "Features a longer reach than standard swords",
+            "Supported by the Lunge enchantment for gap-closing attacks",
+            "Effective for keeping distance from creepers and other dangerous mobs",
+            "In Bedrock, can be used to poke through narrow gaps"
+        ],
+        description: "The Iron Spear is a versatile melee weapon added to Bedrock Edition in the Mounts of Mayhem update. Crafted with a single iron ingot and two sticks, it provides an increased attack reach compared to standard swords, allowing players to strike enemies from a safer distance. It is uniquely compatible with the Lunge enchantment, which enables a powerful dash attack that closes the gap between the player and their target. Its defensive utility and range make it an excellent choice for cautious explorers and mounted combat."
+    },    "minecraft:netherite_sword": {
         id: "minecraft:netherite_sword",
         name: "Netherite Sword",
         maxStack: 1,

@@ -3455,5 +3455,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_spear",
+        name: "Iron Spear",
+        category: "item",
+        icon: "textures/items/iron_spear",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        category: "item",
+        icon: "textures/items/iron_nautilus_armor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:ghastling_spawn_egg",
+        name: "Ghastling Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ghastling",
+        themeColor: "§f"
     }
 ];
