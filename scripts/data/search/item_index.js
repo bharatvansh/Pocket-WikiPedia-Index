@@ -3455,5 +3455,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:element_1",
+        name: "Hydrogen",
+        category: "item",
+        icon: "textures/items/element_1",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:element_2",
+        name: "Helium",
+        category: "item",
+        icon: "textures/items/element_2",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:element_6",
+        name: "Carbon",
+        category: "item",
+        icon: "textures/items/element_6",
+        themeColor: "§b"
     }
 ];

@@ -2666,5 +2666,71 @@ export const miscItems = {
             "Works in conjunction with Aluminum Oxide to reinforce glass structures."
         ],
         description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
+    },
+    "minecraft:element_1": {
+        id: "minecraft:element_1",
+        name: "Hydrogen",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Making compounds in the Compound Creator",
+            secondaryUse: "Crafting balloons and chemistry-based torches"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["1 Proton", "1 Electron", "0-1 Neutrons"]
+        },
+        specialNotes: [
+            "Atomic Number: 1",
+            "The most abundant element in the universe",
+            "Used to craft Water (H2O) and Latex (C8H8)",
+            "Essential for creating Balloons in Bedrock Edition"
+        ],
+        description: "Hydrogen is the first chemical element on the periodic table with the symbol H and atomic number 1. In Minecraft Bedrock's chemistry features, it is obtained using the Element Constructor by balancing protons and electrons. As the most abundant element, it serves as a critical building block for many compounds, most notably being used to create Water and Latex. When combined with Helium, it can be used to produce colorful balloons that launch mobs into the air."
+    },
+    "minecraft:element_2": {
+        id: "minecraft:element_2",
+        name: "Helium",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Balloons",
+            secondaryUse: "Material for compounds in the Compound Creator"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["2 Protons", "2 Electrons", "2 Neutrons"]
+        },
+        specialNotes: [
+            "Atomic Number: 2",
+            "A noble gas that is lighter than air",
+            "Key ingredient for crafting Balloons (Latex + Dye + Helium + Lead)",
+            "Colorless, odorless, and non-toxic"
+        ],
+        description: "Helium is a noble gas with the symbol He and atomic number 2. In Minecraft Bedrock Edition, it is a specialized chemistry item used primarily to create functional balloons. Unlike most blocks and items, Helium is an element constructed from subatomic particles in the Element Constructor. When combined with Latex, lead, and dye in a crafting table, it produces a balloon that can be attached to fences or mobs, making the latter float away. Its unique properties as a lighter-than-air gas make it a favorite for biochemical experiments."
+    },
+    "minecraft:element_6": {
+        id: "minecraft:element_6",
+        name: "Carbon",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Making organic compounds like Latex",
+            secondaryUse: "Key component for Glue, Crude Oil, and Charcoal"
+        },
+        crafting: {
+            recipeType: "Element Constructor",
+            ingredients: ["6 Protons", "6 Electrons", "6 Neutrons"]
+        },
+        specialNotes: [
+            "Atomic Number: 6",
+            "Foundation of all known life and organic chemistry",
+            "Used to craft Latex (C8H8) for balloons",
+            "Important component in the creation of many biological compounds"
+        ],
+        description: "Carbon is a nonmetallic chemical element with the symbol C and atomic number 6. In the Minecraft Bedrock chemistry system, Carbon is an essential building block for organic compounds. It is most commonly used by players to produce Latex, which is a required component for crafting balloons. By balancing six protons, electrons, and neutrons in the Element Constructor, players gain access to this versatile element. Its role in forming the chemical basis of many items makes it one of the most practical elements for advanced chemistry."
     }
 };
