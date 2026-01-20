@@ -294,6 +294,27 @@ export const itemIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:salmon_spawn_egg",
+        name: "Salmon Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_salmon",
+        themeColor: "§c" // pink/red
+    },
+    {
+        id: "minecraft:cod_spawn_egg",
+        name: "Cod Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_cod",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pufferfish",
+        themeColor: "§e" // yellow
+    },
+    {
         id: "minecraft:netherite_upgrade_smithing_template",
         name: "Netherite Upgrade Smithing Template",
         category: "item",
