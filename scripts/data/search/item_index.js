@@ -182,27 +182,6 @@ export const itemIndex = [
         themeColor: "§5"
     },
     {
-        id: "minecraft:potion_of_healing",
-        name: "Potion of Healing",
-        category: "item",
-        icon: "textures/items/potion_bottle_drinkable",
-        themeColor: "§c"
-    },
-    {
-        id: "minecraft:potion_of_fire_resistance",
-        name: "Potion of Fire Resistance",
-        category: "item",
-        icon: "textures/items/potion_bottle_drinkable",
-        themeColor: "§6"
-    },
-    {
-        id: "minecraft:potion_of_night_vision",
-        name: "Potion of Night Vision",
-        category: "item",
-        icon: "textures/items/potion_bottle_drinkable",
-        themeColor: "§9"
-    },
-    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
@@ -677,6 +656,27 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bundle_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:cyan_bundle",
+        name: "Cyan Bundle",
+        category: "item",
+        icon: "textures/items/bundle_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        category: "item",
+        icon: "textures/items/bundle_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:brown_bundle",
+        name: "Brown Bundle",
+        category: "item",
+        icon: "textures/items/bundle_brown",
+        themeColor: "§6"
     },
     {
         id: "minecraft:echo_shard",
@@ -2776,6 +2776,48 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/pale_oak_sign",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        category: "item",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        category: "item",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        category: "item",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:spruce_sign",
+        name: "Spruce Sign",
+        category: "item",
+        icon: "textures/items/spruce_sign",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_sign",
+        name: "Birch Sign",
+        category: "item",
+        icon: "textures/items/birch_sign",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        category: "item",
+        icon: "textures/items/jungle_sign",
+        themeColor: "§6"
     },
     {
         id: "minecraft:pale_oak_hanging_sign",
