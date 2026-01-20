@@ -119,6 +119,13 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7" // gray/stone
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
@@ -656,6 +663,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bundle_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        category: "item",
+        icon: "textures/items/bundle_purple",
+        themeColor: "§5"
     },
     {
         id: "minecraft:echo_shard",
@@ -1524,6 +1538,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/angler_pottery_sherd",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:resin_clump",
+        name: "Resin Clump",
+        category: "item",
+        icon: "textures/items/resin_clump",
+        themeColor: "§6" // orange
     },
     {
         id: "minecraft:resin_brick",
