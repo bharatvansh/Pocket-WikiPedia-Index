@@ -658,6 +658,27 @@ export const itemIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        category: "item",
+        icon: "textures/items/bundle_purple",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        category: "item",
+        icon: "textures/items/bundle_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:pink_bundle",
+        name: "Pink Bundle",
+        category: "item",
+        icon: "textures/items/bundle_pink",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:echo_shard",
         name: "Echo Shard",
         category: "item",
