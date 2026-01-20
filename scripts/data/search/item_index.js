@@ -3476,5 +3476,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_ghastling",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:copper_nautilus_armor",
+        name: "Copper Nautilus Armor",
+        category: "item",
+        icon: "textures/items/copper_nautilus_armor",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        category: "item",
+        icon: "textures/items/diamond_nautilus_armor",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        category: "item",
+        icon: "textures/items/netherite_nautilus_armor",
+        themeColor: "§8"
     }
 ];

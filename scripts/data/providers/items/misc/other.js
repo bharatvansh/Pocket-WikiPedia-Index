@@ -230,6 +230,75 @@ export const miscItems = {
         ],
         description: "Iron Nautilus Armor is a piece of protective gear added in the Mounts of Mayhem update for Bedrock Edition. It is specifically designed to be equipped on tamed Nautilus or Zombie Nautilus mounts, providing them with a sturdy layer of defense. Unlike player armor, it does not have durability and can be used indefinitely unless the mob is killed. It is primarily found in nautical loot chests, such as those in Buried Treasure or Ocean Ruins, and can also be obtained by shearing it off a Zombie Nautilus Jockey."
     },
+    "minecraft:copper_nautilus_armor": {
+        id: "minecraft:copper_nautilus_armor",
+        name: "Copper Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed Nautilus or Zombie Nautilus",
+            secondaryUse: "Providing basic protection to aquatic mounts"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Shipwrecks, Ocean Ruins, and Buried Treasure chests"]
+        },
+        specialNotes: [
+            "Added in the 1.21.130 'Mounts of Mayhem' update",
+            "Can be sheared off from a Zombie Nautilus Jockey",
+            "Provides the lowest protection among all Nautilus armor types",
+            "Does not have durability and cannot be broken",
+            "Distinctive orange-hued armor for early-game ocean exploration"
+        ],
+        description: "Copper Nautilus Armor is a basic tier of protection for Nautilus mounts, introduced in the Mounts of Mayhem update. Like other nautilus armors, it is uncraftable and must be found through exploration of oceanic structures like Shipwrecks and Ocean Ruins. Its distinctive orange-brown color makes it easy to spot. This armor provides a base level of defense for the Nautilus, ensuring it can withstand more hits from hostile mobs while being ridden in deep-sea adventures."
+    },
+    "minecraft:diamond_nautilus_armor": {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed Nautilus or Zombie Nautilus",
+            secondaryUse: "Providing high-tier protection and toughness to aquatic mounts"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Buried Treasure and Ocean Ruins chests"]
+        },
+        specialNotes: [
+            "Features a toughness value of 2 to better resist heavy attacks",
+            "Base item required for upgrading to Netherite Nautilus Armor",
+            "Significantly increases the Nautilus's resistance to damage",
+            "Indestructible and does not lose durability",
+            "One of the rarest loot items in oceanic structures"
+        ],
+        description: "Diamond Nautilus Armor is a high-tier protective set for Nautilus mounts in Minecraft Bedrock Edition. It is a rare find in Buried Treasure or Ocean Ruins, offering superior protection compared to iron and copper variants. With an added toughness value of 2, it allows the Nautilus to better withstand powerful attacks from mobs like Guardians. It also serves as the necessary base for the ultimate upgrade into Netherite Nautilus Armor at a smithing table."
+    },
+    "minecraft:netherite_nautilus_armor": {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Elite protection for Nautilus mounts",
+            secondaryUse: "Providing maximum defense, toughness, and knockback resistance"
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Nautilus Armor", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "The strongest tier of armor available for Nautilus mounts",
+            "Provides a toughness value of 3 and additional knockback resistance",
+            "Immune to fire and lava; floats on the surface if dropped",
+            "Upgraded from Diamond Nautilus Armor at a Smithing Table",
+            "Represents the absolute endgame gear for aquatic exploration"
+        ],
+        description: "Netherite Nautilus Armor is the pinnacle of biological mount protection in Minecraft. It is obtained by upgrading Diamond Nautilus Armor with a Netherite Ingot and a Netherite Upgrade Smithing Template. This elite gear grants the Nautilus the highest possible defense and a toughness value of 3, along with increased knockback resistance. Like all netherite items, it is fire-resistant and floats in lava. It ensures the Nautilus is virtually unstoppable during intense underwater combat encounters."
+    },
     "minecraft:totem_of_undying": {
         id: "minecraft:totem_of_undying",
         name: "Totem of Undying",
