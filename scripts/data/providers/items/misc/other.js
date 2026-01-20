@@ -1741,6 +1741,75 @@ export const miscItems = {
         ],
         description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
     },
+    "minecraft:oak_sign": {
+        id: "minecraft:oak_sign",
+        name: "Oak Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing and displaying written text on walls or ground",
+            secondaryUse: "Inventory organization and navigation markers"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Oak Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Can be placed on the top or sides of most blocks",
+            "Supports up to four lines of text on both the front and back sides",
+            "Text can be customized with dyes and made to glow with Glow Ink Sacs",
+            "Editable after placement; use Honeycomb to wax and prevent further edits",
+            "Commonly used for labeling chests and creating directional markers"
+        ],
+        description: "The Oak Sign is a classic informational and decorative item crafted from oak planks and a stick. It serves as a primary way for players to communicate, label storage, or provide directions within the world. In Bedrock Edition, signs are versatile; they can be placed on the ground or attached to walls. Both sides of the sign can hold text, which can be further customized using various dyes or made to glow in the dark with a Glow Ink Sac. Its' light brown color is iconic and matches most traditional wooden structures."
+    },
+    "minecraft:spruce_sign": {
+        id: "minecraft:spruce_sign",
+        name: "Spruce Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying written information with a rustic appearance",
+            secondaryUse: "Labeling and decorative detailing in wilderness builds"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Spruce Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Features the dark, rustic brown color of spruce wood",
+            "Both sides support up to four lines of text each",
+            "Text color can be changed using dyes; Glow Ink Sacs make text luminous",
+            "Can be 'waxed' with Honeycomb to lock the text and prevent editing",
+            "Generates naturally in taiga village structures"
+        ],
+        description: "The Spruce Sign is a dark-wood variant of the standard sign, perfect for rustic or forest-themed environments. Crafted from spruce planks and a stick, it provides a beautiful dark brown background for player-written messages. Functionally identical to other signs, it can be placed standing on the ground or attached to walls. Players can write on both sides of the sign and use honeycomb to prevent any further changes to the text. Its' aesthetic fits perfectly with taiga builds, campsites, and industrial designs where a darker wood tone is preferred."
+    },
+    "minecraft:birch_sign": {
+        id: "minecraft:birch_sign",
+        name: "Birch Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing highly visible signage with a light-colored background",
+            secondaryUse: "Modern labeling and clean aesthetic detailing"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Birch Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Features a pale, light-colored background for high text visibility",
+            "Allows for text on both front and back faces",
+            "Dyes and Glow Ink Sacs can be used to customize text appearance",
+            "Waxing with Honeycomb prevents the sign from being edited",
+            "Matches the aesthetics of modern and birch forest architecture"
+        ],
+        description: "The Birch Sign is a light-colored informational item crafted from birch planks and a stick. Due to its' pale, creamy color, it offers excellent contrast for dark text, making it one of the most readable sign types. Like all signs in Bedrock Edition, it can be placed in multiple orientations and features double-sided text support. Players can enhance their signs with colored dyes or glow ink, and lock them using honeycomb to prevent tampering. Its' clean, bright appearance makes it a favorite for modern builds, labs, and well-lit residential areas."
+    },
     "minecraft:cherry_hanging_sign": {
         id: "minecraft:cherry_hanging_sign",
         name: "Cherry Hanging Sign",
