@@ -473,6 +473,29 @@ export const spawnEggs = {
         ],
         description: "The Ghast Spawn Egg is a specialized item for summoning Ghasts, the large flying jellyfish-like mobs of the Nether. Due to the Ghast's massive size, it requires a large open area to be spawned successfully. When used on a surface, a Ghast appears and will immediately begin floating and firing explosive fireballs at nearby players. In Creative Mode, it can also be used to transform a Monster Spawner into a Ghast spawner, though Ghasts from spawners have unique placement requirements."
     },
+    "minecraft:ghastling_spawn_egg": {
+        id: "minecraft:ghastling_spawn_egg",
+        name: "Ghastling Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Ghastling",
+            secondaryUse: "Changing a Monster Spawner to spawn Ghastlings"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Introduced as part of the 'The Garden Awakens' (1.21.50) update",
+            "Spawns a Ghastling, which is a smaller, cuter version of the Ghast",
+            "Ghastlings are passive or neutral depending on player proximity",
+            "Can be found as a rare item in specific structure chests in the Nether",
+            "Added in Bedrock Edition 1.21.50.20 preview"
+        ],
+        description: "The Ghastling Spawn Egg is used to summon a Ghastling, a smaller and more friendly relative of the Ghast added in the 1.21 'The Garden Awakens' update. Unlike their larger counterparts, Ghastlings are generally docile and drift through the Nether with large, expressive eyes. While they are primarily decorative, their addition adds more life to the Nether environment. In survival mode, they are typically non-renewable and must be found in rare loot locations or spawned in Creative mode."
+    },
     "minecraft:magma_cube_spawn_egg": {
         id: "minecraft:magma_cube_spawn_egg",
         name: "Magma Cube Spawn Egg",
