@@ -340,6 +340,72 @@ export const miscItems = {
         ],
         description: "The Blue Bundle offers a cool, calm aesthetic for inventory management. Obtained by dyeing a standard bundle with blue dye, it functions identically to other bundles. Many players use blue bundles to store water-themed resources like kelp, shells, or ice."
     },
+    "minecraft:orange_bundle": {
+        id: "minecraft:orange_bundle",
+        name: "Orange Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Orange Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with orange dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Orange Bundle is a colored variant of the bundle storage item, designed for players who value organization. It allows for grouping various small quantities of items into a single slot, with a capacity of 64. Its bright orange color makes it easily identifiable, helping players quickly sort their loot or resources while exploring."
+    },
+    "minecraft:yellow_bundle": {
+        id: "minecraft:yellow_bundle",
+        name: "Yellow Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Yellow Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with yellow dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Yellow Bundle offers a cheerful, high-visibility storage option for managing inventory clutter. Like all bundles, it can hold different types of items together, provided their cumulative stack size doesn't exceed 64. This makes it an excellent choice for organizing seeds, dyes, or other materials during focused gathering tasks."
+    },
+    "minecraft:lime_bundle": {
+        id: "minecraft:lime_bundle",
+        name: "Lime Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Lime Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with lime dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Lime Bundle provides a fresh, vibrant aesthetic for player inventory management. By combining a bundle with lime dye, players can create a distinct pouch for their green-themed items or natural resources. It follows the standard bundle mechanics, allowing for the efficient storage of multiple item types in a single inventory slot."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
