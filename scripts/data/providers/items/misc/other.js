@@ -469,6 +469,72 @@ export const miscItems = {
         ],
         description: "The Pink Bundle is a charming and useful addition for players looking to declutter their inventory with style. Like other dyed variants, it keeps the functionality of the standard bundle, letting players mix and match different items into the same slot. It reflects a softer aesthetic and is often used by players to organize cherry blossom petals or other delicate findings."
     },
+    "minecraft:cyan_bundle": {
+        id: "minecraft:cyan_bundle",
+        name: "Cyan Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Cyan Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with cyan dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Cyan Bundle provides a cool, aquatic aesthetic to inventory management in Minecraft Bedrock. By combining a standard bundle with cyan dye, players can create a vibrant storage pouch that stands out in any container. Like all bundles introduced in 1.21.40, it efficiently groups varied items into a single slot, making it indispensable for ocean explorers collecting shells, prismarine, and coral."
+    },
+    "minecraft:brown_bundle": {
+        id: "minecraft:brown_bundle",
+        name: "Brown Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Brown Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with brown dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Brown Bundle offers an earthy, rustic look for players who appreciate traditional craftsmanship. This item is crafted by dyeing a bundle with brown dye, resulting in a pouch that resembles high-quality tanned leather. It is a perfect thematic choice for storing farming materials, seeds, or wood-related items. Its capacity to hold 64 items of mixed types ensures that even the most cluttered pack stays organized."
+    },
+    "minecraft:green_bundle": {
+        id: "minecraft:green_bundle",
+        name: "Green Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Compact storage of up to 64 items",
+            secondaryUse: "Inventory organization by color"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Green Dye"]
+        },
+        specialNotes: [
+            "Holds a total of 64 items' worth of weight",
+            "Obtained by dyeing a standard bundle with green dye",
+            "Items can be added or removed from the bundle in the inventory",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)"
+        ],
+        description: "The Green Bundle is a dark, forest-toned variant of the versatile storage item. Ideal for wilderness explorers or botanists, this bundle is created by applying green dye to a standard bundle. It provides the same essential organizational benefits, condensing inventory slots by grouping together small amounts of different items. Its deep green color is perfect for camouflaging among foliage or organizing nature-derived resources."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
