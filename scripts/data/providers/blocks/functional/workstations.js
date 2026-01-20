@@ -33,27 +33,6 @@ export const workstationBlocks = {
         },
         description: "A Smoker is a specialized furnace that smelts food items twice as fast as a regular furnace, making it highly efficient for cooking meat, fish, potatoes, kelp, and other food items. However, it cannot smelt ores or other non-food materials. When active, the smoker emits smoke particles and provides a light level of 13, creating an atmospheric effect. Crafted from four logs and one furnace, the smoker serves as the job site block for Butcher villagers and spawns naturally in their houses in villages."
     },
-    "minecraft:obsidian": {
-        id: "minecraft:obsidian",
-        name: "Obsidian",
-        hardness: 50,
-        blastResistance: 1200,
-        flammability: false,
-        gravityAffected: false,
-        transparent: false,
-        luminance: 0,
-        mining: {
-            tool: "Pickaxe",
-            minTier: "Diamond",
-            silkTouch: false
-        },
-        drops: ["Obsidian"],
-        generation: {
-            dimension: "Overworld, Nether, The End",
-            yRange: "Any (forms when water meets lava source)"
-        },
-        description: "Obsidian is an extremely hard and blast-resistant block formed when flowing water touches a lava source block. It has the second-highest blast resistance in the game after bedrock, making it immune to normal explosions. Obsidian can only be mined with a diamond or netherite pickaxe. It is used to craft enchanting tables, beacons, ender chests, and to build Nether portal frames."
-    },
     "minecraft:crafter": {
         id: "minecraft:crafter",
         name: "Crafter",
