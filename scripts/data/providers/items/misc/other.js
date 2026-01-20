@@ -183,6 +183,30 @@ export const miscItems = {
         ],
         description: "The Trial Explorer Map is a specialized navigational tool used to uncover the location of Trial Chambers. These maps are not found in chests or crafted; instead, they must be purchased from a Journeyman-level Cartographer. The map reveals the surrounding terrain of a nearby Trial Chamber, marking its location with a small icon. This makes them indispensable for players looking to engage with the combat challenges and rewards of the chambers."
     },
+    "minecraft:woodland_explorer_map": {
+        id: "minecraft:woodland_explorer_map",
+        name: "Woodland Explorer Map",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Woodland Mansions",
+            secondaryUse: "Navigation in Roofed Forest biomes"
+        },
+        crafting: {
+            recipeType: "Trading",
+            ingredients: ["Journeyman Cartographer (Level 3)", "Emeralds", "Compass"]
+        },
+        specialNotes: [
+            "Purchased from Journeyman-level Cartographer villagers",
+            "Shows the terrain of the area containing the nearest Woodland Mansion",
+            "Includes a marker for the player's position relative to the mansion",
+            "The mansion is represented by a small house icon on the map",
+            "In Bedrock Edition, this is a type of Locator Map",
+            "Essential for finding the rare and dangerous Woodland Mansion structures"
+        ],
+        description: "The Woodland Explorer Map is a specialized locator map used to find Woodland Mansions, one of the rarest structures in Minecraft. Unlike standard maps, it comes pre-drawn with the terrain of the distant area surrounding a mansion. Players can obtain these maps by trading with a Journeyman-level Cartographer villager. The map features a unique icon for the mansion and a marker for the player's current location, helping them navigate across thousands of blocks to reach their destination and challenge the Illagers within."
+    },
     "minecraft:wolf_armor": {
         id: "minecraft:wolf_armor",
         name: "Wolf Armor",

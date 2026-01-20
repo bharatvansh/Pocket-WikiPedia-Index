@@ -119,11 +119,25 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:woodland_explorer_map",
+        name: "Woodland Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
         icon: "textures/items/mace",
         themeColor: "§6" // copper/brown
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§d" // Purple
     },
     {
         id: "minecraft:ominous_bottle",
@@ -243,6 +257,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_sniffer",
         themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        category: "item",
+        icon: "textures/blocks/sniffer_egg",
+        themeColor: "§2"
     },
     {
         id: "minecraft:warden_spawn_egg",

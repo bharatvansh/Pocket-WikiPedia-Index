@@ -107,6 +107,30 @@ export const mobDrops = {
         ],
         description: "The Breeze Rod is a unique item dropped exclusively by Breezes in Trial Chambers. Similar to Blaze Rods, they serve as a fundamental crafting component for specialized items introduced in the 1.21 Tricky Trials update. A single Breeze Rod can be broken down into four Wind Charges or combined with a Heavy Core to create the powerful Mace weapon. Beyond crafting, Breeze Rods are essential for maintaining a Mace's durability at an anvil and can be used to duplicate the rare Flow Armor Trim smithing template."
     },
+    "minecraft:sniffer_egg": {
+        id: "minecraft:sniffer_egg",
+        name: "Sniffer Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Hatching into a Snifflet",
+            secondaryUse: "Decorative block for ancient-themed builds"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained via archaeology in Warm Ocean Ruins", "Dropped when breeding two Sniffers"]
+        },
+        specialNotes: [
+            "Found by brushing Suspicious Sand in Warm Ocean Ruins (6.7% chance)",
+            "Obtained as an item when breeding two adult Sniffers",
+            "Must be placed on a block to hatch; takes approximately 20 minutes",
+            "Hatching time is halved (10 minutes) if placed on a Moss Block",
+            "Wobbles and develops cracks as it nears hatching",
+            "Cannot be broken by mobs jumping on it, unlike Turtle Eggs"
+        ],
+        description: "The Sniffer Egg is an ancient block that hatches into a Snifflet, the juvenile form of the Sniffer mob. These rare eggs can be recovered from the ocean floor by brushing suspicious sand in warm ocean ruins or produced by breeding two adult Sniffers. Once placed, the egg eventually hatches after 20 minutes of real-world time. Placing it on a moss block accelerates this process, causing it to hatch twice as fast. The egg's unique appearance and hatching mechanic make it a center-piece for ancient gardens and archaeological displays."
+    },
     "minecraft:armadillo_scute": {
         id: "minecraft:armadillo_scute",
         name: "Armadillo Scute",

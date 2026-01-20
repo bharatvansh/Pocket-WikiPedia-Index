@@ -293,6 +293,30 @@ export const craftingMaterials = {
         ],
         description: "Amethyst Shards are crystalline materials harvested from Amethyst Clusters found in underground Geodes. When mined with a pickaxe, a cluster drops 4 shards, increasing up to 16 with Fortune. They are renewable, as clusters regrow on immovable Budding Amethyst blocks. Shards can also be found in loot chests within Ancient Cities and Trial Chambers. Essential for crafting, they are used to create Spyglasses, Tinted Glass, Calibrated Sculk Sensors, and decorative Amethyst Blocks. Their vibrant purple color offers both functional utility and aesthetic appeal."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace",
+            secondaryUse: "Decorative block with high blast resistance"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Rare drop from Ominous Vaults (Trial Chambers)"]
+        },
+        specialNotes: [
+            "Has a 2.2% chance to be ejected from an Ominous Vault",
+            "Essential component for crafting the Mace (Heavy Core + Breeze Rod)",
+            "Acts as a block that can be placed in the world",
+            "Requires a pickaxe to be mined successfully",
+            "Introduced in the 1.21 Tricky Trials update",
+            "Possesses a high blast resistance of 6.0"
+        ],
+        description: "The Heavy Core is a rare and dense block found exclusively within Ominous Vaults in Trial Chambers. It is a critical endgame material used to craft the Mace, a powerful weapon that deals increased damage based on fall distance. Aside from its utility in weaponry, the Heavy Core can be placed as a decorative block. Its high weight and resistance to explosions reflect its name, making it one of the most difficult and rewarding items to obtain in Trial Chambers."
+    },
     "minecraft:disc_fragment_5": {
         id: "minecraft:disc_fragment_5",
         name: "Disc Fragment 5",
