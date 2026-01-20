@@ -1870,6 +1870,72 @@ export const miscItems = {
         ],
         description: "The Pale Oak Hanging Sign is a premium signage variant introduced in the 1.21.50 update. Crafted with chains and stripped pale oak logs, it offers a distinct aesthetic compared to floor-standing signs. It hangs beautifully from fences, walls, or the bottom of blocks, making it ideal for shop signs or artistic labels. Its pale, ghostly appearance makes it a perfect fit for the mysterious atmosphere of the Pale Garden."
     },
+    "minecraft:oak_hanging_sign": {
+        id: "minecraft:oak_hanging_sign",
+        name: "Oak Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative signage that hangs from blocks",
+            secondaryUse: "Displaying text in a dangling format"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Oak Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Can hang from the bottom of blocks or be attached to walls",
+            "Text can be applied to both sides and customized with dyes",
+            "Makes use of stripped oak logs for a consistent wood grain",
+            "Introduced in the 1.20 Trails & Tales update"
+        ],
+        description: "The Oak Hanging Sign is a decorative signage item crafted from stripped oak logs and chains. Introduced in the Trails & Tales update, it allows players to display text in a dangling format. It can be suspended from the bottom of blocks or attached to the sides of solid blocks. Like standard signs, it supports writing on both the front and back, and the text can be customized with various dyes and glow ink to improve visibility."
+    },
+    "minecraft:spruce_hanging_sign": {
+        id: "minecraft:spruce_hanging_sign",
+        name: "Spruce Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text with a dark, rustic aesthetic",
+            secondaryUse: "Versatile placement for decorative shop signs"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Spruce Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Features the distinctive dark brown color of spruce wood",
+            "Hanging signs can be attached to the side of a block with a bracket",
+            "Supports double-sided text that can be locked with honeycomb",
+            "Text can be made luminous with a Glow Ink Sac"
+        ],
+        description: "The Spruce Hanging Sign is a dark-wood decorative piece made using stripped spruce logs and chains. It provides a rustic, dark brown aesthetic that is well-suited for taiga builds or more industrial designs. This hanging variant is more versatile in placement than traditional standing signs, as it can hang directly from ceilings or brackets on walls. Players can customize the text on both sides using dyes, and then lock it in place using honeycomb."
+    },
+    "minecraft:birch_hanging_sign": {
+        id: "minecraft:birch_hanging_sign",
+        name: "Birch Hanging Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "High-visibility signage with a light wood background",
+            secondaryUse: "Modern labeling for bright architectures"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Stripped Birch Log", "2x Chain"]
+        },
+        specialNotes: [
+            "Provides excellent contrast for text due to its pale wood color",
+            "Can dangle from the bottom of blocks or attach to walls",
+            "Allows players to write and edit text on both sides",
+            "Features a creamy white-yellow birch texture"
+        ],
+        description: "The Birch Hanging Sign offers a light-colored, highly visible option for decorative signage. Crafted from stripped birch logs and chains, its pale creamy wood provides a high-contrast background that makes it one of the easiest sign types to read. It is particularly effective for modern shop signs or bright, airy builds. It follows the same functionality as other hanging signs, supporting double-sided text, color dyes, and luminosity when combined with glow ink sacs."
+    },
     "minecraft:oak_sign": {
         id: "minecraft:oak_sign",
         name: "Oak Sign",
