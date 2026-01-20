@@ -1127,7 +1127,7 @@ export const spawnEggs = {
             "Changes a Spawner's type to Cave Spider when used on it.",
             "Small spiders that inflict Poison to players on impact."
         ],
-        description: "The Cave Spider Spawn Egg summons a Cave Spider, the smaller and more dangerous relative of the common spider. Found in abandoned mineshafts, these hostile mobs inflict poison attacks that can bypass armor. This spawn egg is particularly useful for map designers creating challenging dungeon encounters. Using it on a Monster Spawner converts it into a Cave Spider spawner, useful for farming string, spider eyes, and experience."
+        description: "The Cave Spider Spawn Egg summons a Cave Spider, the smaller and more dangerous relative of the common spider. Found in abandoned mineshaafts, these hostile mobs inflict poison attacks that can bypass armor. This spawn egg is particularly useful for map designers creating challenging dungeon encounters. Using it on a Monster Spawner converts it into a Cave Spider spawner, useful for farming string, spider eyes, and experience."
     },
     "minecraft:bat_spawn_egg": {
         id: "minecraft:bat_spawn_egg",
@@ -1495,5 +1495,71 @@ export const spawnEggs = {
             "Will spit at any mob or player that attacks its owner or itself."
         ],
         description: "The Trader Llama Spawn Egg summons the unique variant of llama that accompanies Wandering Traders. These llamas differ from standard ones by spawning with ornate, colorful carpets and displaying protective behaviors. They are naturally defensive of their owner, spitting at hostiles like Pillagers or Zombies. When spawned via an egg in Creative, they retain these distinctive traits and textures, making them excellent for adding detail to marketplaces or caravan-themed builds where a regular llama's appearance might be too plain."
+    },
+    "minecraft:salmon_spawn_egg": {
+        id: "minecraft:salmon_spawn_egg",
+        name: "Salmon Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Salmon mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Salmon must be spawned in water to prevent them from suffocating.",
+            "Changes a Spawner's type to Salmon when used on it.",
+            "Salmon are passive mobs that drop raw salmon and occasionally bone meal."
+        ],
+        description: "The Salmon Spawn Egg is a Creative Mode item used to instantly summon a Salmon. Salmon are common passive aquatic mobs found in rivers and cold oceans. Using this egg allows players to quickly populate water bodies or test aquatic farm designs. Like other spawn eggs, it can be used on a Monster Spawner to change its type to Salmon, which is useful for creating efficient sources of raw salmon and bone meal."
+    },
+    "minecraft:cod_spawn_egg": {
+        id: "minecraft:cod_spawn_egg",
+        name: "Cod Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Cod mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Available to players in Creative Mode or through commands.",
+            "Cod require water to survive and will flop on land if spawned there.",
+            "Can transform a Spawner into a Cod spawner for resource farming.",
+            "Cod frequently spawn in large schools in the wild."
+        ],
+        description: "The Cod Spawn Egg allows for the immediate summoning of a Cod, a common fish found in various ocean biomes. Predominantly used in Creative Mode, it is essential for seeding custom ocean builds or testing aquatic mob behaviors. When used on a Monster Spawner, it converts the spawner into a Cod spawner. This provides a consistent way to farm raw cod and bone meal, making it a valuable tool for technical players and map designers alike."
+    },
+    "minecraft:pufferfish_spawn_egg": {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Pufferfish mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Normally only available in Creative Mode or via commands.",
+            "Pufferfish inflate and deal poison damage to nearby players.",
+            "Essential for establishing Pufferfish spawners for potion ingredient farming.",
+            "Used to farm Pufferfish, which are required for Water Breathing potions."
+        ],
+        description: "The Pufferfish Spawn Egg summons a Pufferfish instantly at the targeted location. Pufferfish are unique defensive aquatic mobs that inflate and inflict Poison when approached by players or other mobs. In Creative Mode, this egg is useful for creating hazardous underwater environments or for testing player interactions with defensive mobs. Applying it to a Monster Spawner creates a Pufferfish spawner, which can be used to farm pufferfish for water breathing potions or as a compact defense mechanism."
     }
 };
