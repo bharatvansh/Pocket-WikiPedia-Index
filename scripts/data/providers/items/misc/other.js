@@ -406,6 +406,69 @@ export const miscItems = {
         ],
         description: "The Lime Bundle provides a fresh, vibrant aesthetic for player inventory management. By combining a bundle with lime dye, players can create a distinct pouch for their green-themed items or natural resources. It follows the standard bundle mechanics, allowing for the efficient storage of multiple item types in a single inventory slot."
     },
+    "minecraft:purple_bundle": {
+        id: "minecraft:purple_bundle",
+        name: "Purple Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Used to store up to 64 items of different types in a single slot.",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Purple Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with purple dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)",
+            "Can hold different items totaling up to a stack of 64"
+        ],
+        description: "The Purple Bundle is a royal-looking storage variant that helps adventurers manage their inventory space more effectively. By combining a standard bundle with purple dye, players can create this elegant pouch to group various small items together. It is perfect for organizing ender pearls, obsidian, or other purple-themed treasures found during exploration."
+    },
+    "minecraft:magenta_bundle": {
+        id: "minecraft:magenta_bundle",
+        name: "Magenta Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Used to store up to 64 items of different types in a single slot.",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Magenta Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with magenta dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)",
+            "Helps organize items by color or category while exploring"
+        ],
+        description: "The Magenta Bundle adds a pop of bright color to any player's inventory while providing the standard compact storage benefits of a bundle. It is crafted by applying magenta dye to a regular bundle, allowing players to store a variety of items up to a full stack's worth. This variant is ideal for those who enjoy a vibrant and highly organized method of carrying diverse loot."
+    },
+    "minecraft:pink_bundle": {
+        id: "minecraft:pink_bundle",
+        name: "Pink Bundle",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Used to store up to 64 items of different types in a single slot.",
+            secondaryUse: "Items can be added or removed from the bundle in the inventory."
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Bundle", "Pink Dye"]
+        },
+        specialNotes: [
+            "Obtained by dyeing a standard bundle with pink dye",
+            "Introduced in Bedrock Edition 1.21.40 (Bundles of Bravery)",
+            "Useful for early-game inventory management during exploration"
+        ],
+        description: "The Pink Bundle is a charming and useful addition for players looking to declutter their inventory with style. Like other dyed variants, it keeps the functionality of the standard bundle, letting players mix and match different items into the same slot. It reflects a softer aesthetic and is often used by players to organize cherry blossom petals or other delicate findings."
+    },
     "minecraft:spyglass": {
         id: "minecraft:spyglass",
         name: "Spyglass",
