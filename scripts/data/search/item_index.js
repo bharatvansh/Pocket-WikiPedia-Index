@@ -2820,6 +2820,27 @@ export const itemIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:jungle_hanging_sign",
+        name: "Jungle Hanging Sign",
+        category: "item",
+        icon: "textures/items/jungle_hanging_sign",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:dark_oak_hanging_sign",
+        name: "Dark Oak Hanging Sign",
+        category: "item",
+        icon: "textures/items/dark_oak_hanging_sign",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:acacia_hanging_sign",
+        name: "Acacia Hanging Sign",
+        category: "item",
+        icon: "textures/items/acacia_hanging_sign",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:creaking_spawn_egg",
         name: "Creaking Spawn Egg",
         category: "item",
