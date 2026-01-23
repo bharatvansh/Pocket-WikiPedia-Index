@@ -3455,5 +3455,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_spear",
+        name: "Iron Spear",
+        category: "item",
+        icon: "textures/items/iron_spear",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        category: "item",
+        icon: "textures/items/iron_nautilus_armor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_netherite",
+        themeColor: "§8"
     }
 ];

@@ -2666,5 +2666,51 @@ export const miscItems = {
             "Works in conjunction with Aluminum Oxide to reinforce glass structures."
         ],
         description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
+    },
+    "minecraft:iron_nautilus_armor": {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Protecting tamed Nautilus mounts",
+            secondaryUse: "Cosmetic customization for aquatic mounts"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in chests of Sunken Ruin and Ocean Monument structures"]
+        },
+        specialNotes: [
+            "Equipped on a tamed Nautilus to increase its protection",
+            "One of five material variants available for nautilus armor",
+            "Can be found as loot in ocean-themed structure chests",
+            "Does not have a crafting recipe in vanilla survival",
+            "Added in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "Iron Nautilus Armor is a protective item specifically designed for the Nautilus mob, added in the Mounts of Mayhem update. It provides a sturdy layer of protection for these tamed aquatic mounts, allowing them to withstand more damage during underwater explorations. While it cannot be crafted, it can be discovered by brave explorers within the treasure chests of Sunken Ruin and Ocean Monument structures. Equipping this armor on a Nautilus ensures that your underwater companion is well-prepared for the dangers of the deep."
+    },
+    "minecraft:netherite_horse_armor": {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Maximum protection for horses",
+            secondaryUse: "Makes horse armor fire-resistant"
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Horse Armor", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "Most powerful horse armor in Minecraft",
+            "Makes the equipped horse armor immune to fire and lava",
+            "Greatly increases the horse's survival chance against projectiles and melee",
+            "Requires a Smithing Table to upgrade from Diamond Horse Armor",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "Netherite Horse Armor is the highest tier of protection for horses, introduced in the Mounts of Mayhem drop. Much like netherite player gear, it is fire-resistant and will not burn in lava. It provides unparalleled defense for your equine companions, making it essential for late-game exploration across the Overworld and Nether. It must be forged on a Smithing Table using a Netherite Upgrade template and a diamond horse armor set. This armor represents the ultimate safeguard for your most valued mounts, ensuring they remain protected even in the most hostile environments."
     }
 };
