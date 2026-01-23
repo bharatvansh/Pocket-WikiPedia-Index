@@ -762,6 +762,25 @@ export const miscItems = {
         ],
         description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
     },
+    "minecraft:diamond_nautilus_armor": {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed Nautilus mount for high protection",
+            secondaryUse: "Extending the Nautilus's survivability and adding toughness"
+        },
+        specialNotes: [
+            "Provides 11 armor points and 2 toughness when equipped on a Nautilus",
+            "Found in Shipwrecks, Ocean Ruins, and Buried Treasure chests",
+            "Indestructible equipment with no durability bar",
+            "Can be upgraded to Netherite Nautilus Armor using a Smithing Table",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "Diamond Nautilus Armor is a high-tier protective equipment for the Nautilus mount, added in the Mounts of Mayhem update. Like horse armor, it does not have durability and cannot be crafted, requiring players to explore Shipwrecks, Ocean Ruins, and Buried Treasure to find it. It provides 11 armor points and 2 toughness, making the Nautilus significantly more resilient. It can also be upgraded to a Netherite version using a Netherite Upgrade Smithing Template for even greater protection."
+    },
     "minecraft:iron_horse_armor": {
         id: "minecraft:iron_horse_armor",
         name: "Iron Horse Armor",
