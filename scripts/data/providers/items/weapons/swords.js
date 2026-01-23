@@ -191,6 +191,87 @@ export const swords = {
         ],
         description: "The Iron Spear is a versatile melee weapon added to Bedrock Edition in the Mounts of Mayhem update. Crafted with a single iron ingot and two sticks, it provides an increased attack reach compared to standard swords, allowing players to strike enemies from a safer distance. It is uniquely compatible with the Lunge enchantment, which enables a powerful dash attack that closes the gap between the player and their target. Its defensive utility and range make it an excellent choice for cautious explorers and mounted combat."
     },
+    "minecraft:diamond_spear": {
+        id: "minecraft:diamond_spear",
+        name: "Diamond Spear",
+        maxStack: 1,
+        durability: 1562,
+        enchantable: true,
+        usage: {
+            primaryUse: "Extended-reach melee combat",
+            secondaryUse: "Powerful charge attacks while moving"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Diamond", "Stick x2"]
+        },
+        specialNotes: [
+            "Added in the Mounts of Mayhem update (1.21.130)",
+            "Features a 1.5 block longer reach than swords",
+            "Jab attack allows for safer spacing during combat",
+            "Charge attack damage increases based on player's current speed",
+            "Can be enchanted with Lunge for horizontal movement"
+        ],
+        description: "The Diamond Spear is a high-tier tiered weapon introduced in the Mounts of Mayhem update. Crafted from a single diamond and two sticks, it offers an increased attack range over standard swords, allowing players to poke enemies from distance. Its unique mechanics include a Jab attack for spacing and a Charge attack that scales in power with the user's velocity. While it deals less base damage than a diamond sword, its tactical advantages in reach and mounted combat make it a powerful choice for experienced warriors."
+    },
+    "minecraft:netherite_spear": {
+        id: "minecraft:netherite_spear",
+        name: "Netherite Spear",
+        maxStack: 1,
+        durability: 2031,
+        enchantable: true,
+        usage: {
+            primaryUse: "Elite extended-reach combat",
+            secondaryUse: "Devastating high-speed charge attacks"
+        },
+        combat: {
+            attackDamage: 7,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Spear", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "The most powerful spear variant in Bedrock Edition",
+            "Fireproof and floats on lava like all netherite items",
+            "Maximum reach and durability for a tiered weapon",
+            "Compatible with the Lunge enchantment for advanced mobility",
+            "Charge attacks can deal extreme damage when used from a mount"
+        ],
+        description: "The Netherite Spear represents the pinnacle of tiered weaponry in Minecraft Bedrock. Upgraded from a Diamond Spear at a smithing table, it combines massive durability with the spear's signature extended reach. It features both the defensive Jab attack and the velocity-scaling Charge attack, which is especially lethal when performed from a fast mount like a horse or nautilus. Being made of netherite, it is completely immune to fire and lava damage, ensuring it won't be lost in the Nether's depths."
+    },
+    "minecraft:copper_spear": {
+        id: "minecraft:copper_spear",
+        name: "Copper Spear",
+        maxStack: 1,
+        durability: 180,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mid-tier extended-reach combat",
+            secondaryUse: "Early-game charge attacks"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot", "Stick x2"]
+        },
+        specialNotes: [
+            "Added in the Mounts of Mayhem update (1.21.130)",
+            "Provides a useful sink for copper ingots in survival",
+            "More durable than stone and golden spears",
+            "Excellent for keeping hostile mobs at bay in early game",
+            "Identical reach to higher-tier spear variants"
+        ],
+        description: "The Copper Spear is a cost-effective tiered weapon that bridges the gap between early and mid-game gear. Crafted using a copper ingot and two sticks, it provides the same extended reach as diamond or netherite spears but with lower durability and damage. It is an ideal weapon for players with an abundance of copper who want to utilize the spear's unique Jab and Charge mechanics without depleting more valuable materials like iron or diamonds."
+    },
     "minecraft:netherite_sword": {
         id: "minecraft:netherite_sword",
         name: "Netherite Sword",
