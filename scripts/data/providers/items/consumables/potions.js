@@ -204,5 +204,74 @@ export const potions = {
             "Highly rare survival item with significant combat utility"
         ],
         description: "The Potion of Decay is a rare and powerful Bedrock Edition exclusive item that inflicts the Wither II effect for 40 seconds. Unlike most potions, it cannot be brewed at a brewing stand in survival mode. It is primarily found as a rare loot item in Witch Hut cauldrons or obtained through commands. When used, it drains the health of most living entities, turning their health bar black and dealing continuous damage. It is one of the few ways to weaponize the Wither effect in Bedrock, making it highly prized for high-stakes encounters."
+    },
+    "minecraft:potion_of_night_vision": {
+        id: "minecraft:potion_of_night_vision",
+        name: "Potion of Night Vision",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Enhancing visibility in dark environments",
+            secondaryUse: "Improving clarity underwater and in the Nether"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Golden Carrot"]
+        },
+        specialNotes: [
+            "Makes everything appear at full brightness (light level 15)",
+            "Base duration is 3:00, extended version is 8:00",
+            "Essential for exploring the deep dark and large caves",
+            "Significantly improves visibility when combined with Water Breathing",
+            "Can be corrupted into a Potion of Invisibility using a Fermented Spider Eye"
+        ],
+        description: "The Potion of Night Vision is a vital utility brew that allows players to see clearly in total darkness. When consumed, it raises the perceived light level of everything to maximum, making navigation in caves, the deep dark, and underwater significantly safer. It is brewed by adding a Golden Carrot to an Awkward Potion. In Bedrock Edition, this potion is especially useful for builders and explorers working in large-scale dark structures, ensuring that every detail is visible without the need for extensive torch placement."
+    },
+    "minecraft:potion_of_fire_resistance": {
+        id: "minecraft:potion_of_fire_resistance",
+        name: "Potion of Fire Resistance",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Immunity to all heat-based damage",
+            secondaryUse: "Swimming in lava for exploration or item recovery"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Magma Cream"]
+        },
+        specialNotes: [
+            "Provides 100% protection against fire, lava, and Magma Blocks",
+            "Prevents damage from Blaze ranged attacks and fire charges",
+            "Base duration is 3:00, extended version is 8:00",
+            "Essential for Nether exploration and the Ender Dragon fight",
+            "Can be brewed with a Redstone Dust to extend the duration to 8 minutes"
+        ],
+        description: "The Potion of Fire Resistance is an indispensable survival tool for any adventurer entering the Nether. It grants complete immunity to all forms of heat-based damage, allowing players to swim through lava lakes and walk across magma blocks with zero health loss. It is brewed using Magma Cream and an Awkward Potion. This potion is often the difference between life and death in the Nether's harsh environment, providing a safety net when facing Blazes or accidental falls into the sea of lava."
+    },
+    "minecraft:potion_of_water_breathing": {
+        id: "minecraft:potion_of_water_breathing",
+        name: "Potion of Water Breathing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Preventing oxygen loss while submerged",
+            secondaryUse: "Long-term underwater construction and exploration"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Pufferfish"]
+        },
+        specialNotes: [
+            "Stops the oxygen bar from depleting underwater",
+            "Prevents drowning damage entirely while the effect is active",
+            "Base duration 3:00, extended version 8:00",
+            "Brewed by adding a Pufferfish to an Awkward Potion",
+            "Critical for raiding Ocean Monuments and exploring Shipwrecks"
+        ],
+        description: "The Potion of Water Breathing is a specialized brew that allows players to breathe underwater indefinitely for its duration. By adding a Pufferfish to an Awkward Potion, players can craft this elixir to safely explore the ocean depths, raid monuments, and build elaborate submerged bases without fear of drowning. In Bedrock Edition, it remains a core component for oceanic mastery. It is highly recommended to combine this with Night Vision for full efficiency when working beneath the waves."
     }
 };
