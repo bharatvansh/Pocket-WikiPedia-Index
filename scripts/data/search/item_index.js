@@ -119,6 +119,27 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:woodland_explorer_map",
+        name: "Woodland Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:ocean_explorer_map",
+        name: "Ocean Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:buried_treasure_map",
+        name: "Buried Treasure Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
@@ -2890,6 +2911,27 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        category: "item",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        category: "item",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        category: "item",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:cherry_hanging_sign",
         name: "Cherry Hanging Sign",
         category: "item",
@@ -3476,5 +3518,47 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_spear",
+        name: "Iron Spear",
+        category: "item",
+        icon: "textures/items/iron_spear",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        category: "item",
+        icon: "textures/items/iron_nautilus_armor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        category: "item",
+        icon: "textures/items/horse_armor_netherite",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:eye_of_ender",
+        name: "Eye of Ender",
+        category: "item",
+        icon: "textures/items/eye_of_ender",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:ominous_banner",
+        name: "Ominous Banner",
+        category: "item",
+        icon: "textures/items/banner_illager",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:potion_of_turtle_master",
+        name: "Potion of the Turtle Master",
+        category: "item",
+        icon: "textures/items/potion_bottle_turtle",
+        themeColor: "§1"
     }
 ];

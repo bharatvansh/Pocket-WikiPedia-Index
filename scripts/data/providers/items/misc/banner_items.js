@@ -128,5 +128,28 @@ export const bannerItems = {
             "Green dye is uniquely obtained by smelting Cactus in a furnace"
         ],
         description: "The Green Banner is a nature-inspired decorative item used to represent life, forests, and growth in Minecraft Bedrock Edition. It is crafted using six pieces of green wool and a single stick. Players often use it for camouflage in lush biomes or to mark hidden outposts. Like other banners, it can be elaborately decorated in a Loom and applied to shields. Since green dye requires smelting cactus, this banner represents a unique link to desert resources and farming."
+    },
+    "minecraft:ominous_banner": {
+        id: "minecraft:ominous_banner",
+        name: "Ominous Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative trophy and raid marking",
+            secondaryUse: "Status symbol for defeating Raid Captains"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Dropped by Raid Captains (Illager Captains)"]
+        },
+        specialNotes: [
+            "Dropped by Raid Captains in Pillager Outposts and Raids",
+            "Features a unique gray and white illager face design",
+            "In Bedrock, picking it up does not grant the Bad Omen effect (use Ominous Bottles)",
+            "Can be placed on the ground or walls to mark territory",
+            "Always drops when a Raid Captain dies, regardless of how they are killed"
+        ],
+        description: "The Ominous Banner is a unique decorative item carried by Raid Captains. It features a distinctive 'Illager' face pattern that cannot be crafted using standard banner recipes. In Bedrock Edition, these banners serve as trophies for players who successfully defend against raids or conquer Pillager Outposts. While picking one up used to grant Bad Omen in older versions, it now serves primarily as a decorative status symbol. When placed, it stands as a grim reminder of the Illager threat and the player's prowess in combat. Raid Captains will always drop one upon their defeat."
     }
 };
