@@ -199,6 +199,27 @@ export const containerBlocks = {
         },
         description: "A Shulker Box is a unique storage block that preserves its contents when broken, allowing items to be transported easily. It provides 27 slots of inventory space, similar to a chest. Unlike chests, shulker boxes can be picked up and placed elsewhere without losing the items inside, making them essential for high-capacity transport and organization. They can be dyed in 16 different colors and are crafted using two shulker shells and a chest. In Bedrock Edition, they can be broken by hand and will still drop as an item."
     },
+    "minecraft:white_shulker_box": {
+        id: "minecraft:white_shulker_box",
+        name: "White Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Shulker Box"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Shulker Box + White Dye)"
+        },
+        description: "The White Shulker Box is a color-variant of the shulker box, a portable storage container that retains its contents when broken. It is created by combining a standard shulker box with white dye. Like all shulker boxes, it provides 27 slots of inventory space and can be placed inside other containers like chests, but not inside other shulker boxes. This white variant is often used by players for organizing inventories using a clean, modern aesthetic or minimalist color-coding system."
+    },
     "minecraft:hopper": {
         id: "minecraft:hopper",
         name: "Hopper",

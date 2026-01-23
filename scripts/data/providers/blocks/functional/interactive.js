@@ -75,6 +75,27 @@ export const interactiveBlocks = {
         },
         description: "A trial spawner is a special spawner block found exclusively within Trial Chambers in Minecraft 1.21+. Unlike regular monster spawners, trial spawners activate when a player enters a 14-block radius and spawn mobs based on the number of nearby players. All spawned mobs must be defeated before the trial spawner ejects loot and a trial key. Ominous variants appear during ominous events and spawn stronger, armored mobs. As a permanent structure block, it cannot be obtained by players."
     },
+    "minecraft:ominous_trial_spawner": {
+        id: "minecraft:ominous_trial_spawner",
+        name: "Ominous Trial Spawner",
+        hardness: 50,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 12,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers (triggered by Trial Omen)"
+        },
+        description: "An Ominous Trial Spawner is a more difficult variant of the Trial Spawner, triggered when a player with the Trial Omen effect approaches a standard Trial Spawner. It is surrounded by soul-colored flames and spawns tougher mobs, often equipped with armor and weapons. Mobs spawned by this block can also spawn projectiles or potions above players' heads. Upon completion, it provides better rewards than a standard spawner, including Ominous Trial Keys, and then enters a 30-minute cooldown period."
+    },
     "minecraft:vault": {
         id: "minecraft:vault",
         name: "Vault",
