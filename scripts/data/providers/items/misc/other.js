@@ -230,6 +230,44 @@ export const miscItems = {
         ],
         description: "Iron Nautilus Armor is a piece of protective gear added in the Mounts of Mayhem update for Bedrock Edition. It is specifically designed to be equipped on tamed Nautilus or Zombie Nautilus mounts, providing them with a sturdy layer of defense. Unlike player armor, it does not have durability and can be used indefinitely unless the mob is killed. It is primarily found in nautical loot chests, such as those in Buried Treasure or Ocean Ruins, and can also be obtained by shearing it off a Zombie Nautilus Jockey."
     },
+    "minecraft:netherite_horse_armor": {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ultimate protection for tamed horses",
+            secondaryUse: "Fire-resistant gear for equine mounts"
+        },
+        specialNotes: [
+            "Provides 19 armor points (9.5 chestplates) to horses",
+            "Grants +3 Armor Toughness and 10% Knockback Resistance",
+            "Fireproof and will not burn in lava if dropped",
+            "Created by upgrading Diamond Horse Armor at a Smithing Table",
+            "Requires a Netherite Upgrade Smithing Template to craft"
+        ],
+        description: "Netherite Horse Armor is the highest-tier protective equipment for horses in Minecraft Bedrock Edition, added in the Mounts of Mayhem update. It offers unparalleled protection for equine companions, providing 19 armor points and significant toughness to withstand the toughest encounters. Like other netherite items, it is immune to fire and lava. To obtain it, players must use a Netherite Upgrade Smithing Template to enhance a piece of Diamond Horse Armor at a Smithing Table with a Netherite Ingot."
+    },
+    "minecraft:diamond_nautilus_armor": {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Elite protection for tamed Nautilus mounts",
+            secondaryUse: "Underwater mount enhancement"
+        },
+        specialNotes: [
+            "Provides 11 armor points and +2 Armor Toughness to Nautilus mounts",
+            "Can be discovered in Buried Treasure and Ocean Ruins chests",
+            "Cannot be crafted by the player; must be found in the world",
+            "Can only be equipped on tamed Nautilus and Zombie Nautilus mobs",
+            "Significantly increases the survivability of underwater companions"
+        ],
+        description: "Diamond Nautilus Armor is a high-tier specialized armor designed for the Nautilus and Zombie Nautilus mounts introduced in Mounts of Mayhem. Much like horse armor, it cannot be produced at a crafting table and must be salvaged from deep-sea ruins or buried treasure. When applied to a tamed nautilus, it grants 11 protection points and 2 points of armor toughness, allowing the mount to safely navigate dangerous aquatic biomes and withstand attacks from Drowned or Guardians."
+    },
     "minecraft:totem_of_undying": {
         id: "minecraft:totem_of_undying",
         name: "Totem of Undying",

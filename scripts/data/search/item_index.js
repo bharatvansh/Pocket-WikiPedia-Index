@@ -3476,5 +3476,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_ghastling",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:diamond_spear",
+        name: "Diamond Spear",
+        category: "item",
+        icon: "textures/items/diamond_spear",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:netherite_spear",
+        name: "Netherite Spear",
+        category: "item",
+        icon: "textures/items/netherite_spear",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:copper_spear",
+        name: "Copper Spear",
+        category: "item",
+        icon: "textures/items/copper_spear",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        category: "item",
+        icon: "textures/items/netherite_horse_armor",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        category: "item",
+        icon: "textures/items/diamond_nautilus_armor",
+        themeColor: "§b"
     }
 ];
