@@ -1512,6 +1512,13 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:diamond_nautilus_armor",
+        name: "Diamond Nautilus Armor",
+        category: "item",
+        icon: "textures/items/diamond_nautilus_armor",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:music_disc_otherside",
         name: "Music Disc (Otherside)",
         category: "item",
@@ -1649,6 +1656,20 @@ export const itemIndex = [
         name: "Netherite Sword",
         category: "item",
         icon: "textures/items/netherite_sword",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:diamond_spear",
+        name: "Diamond Spear",
+        category: "item",
+        icon: "textures/items/diamond_spear",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:netherite_spear",
+        name: "Netherite Spear",
+        category: "item",
+        icon: "textures/items/netherite_spear",
         themeColor: "§8"
     },
     {
