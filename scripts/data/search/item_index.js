@@ -287,6 +287,41 @@ export const itemIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:iron_golem_spawn_egg",
+        name: "Iron Golem Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_iron_golem",
+        themeColor: "§7" // iron gray
+    },
+    {
+        id: "minecraft:snow_golem_spawn_egg",
+        name: "Snow Golem Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_snow_golem",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:npc_spawn_egg",
+        name: "NPC Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_npc",
+        themeColor: "§6" // brown/villager
+    },
+    {
+        id: "minecraft:agent_spawn_egg",
+        name: "Agent Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_agent",
+        themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:wither_spawn_egg",
+        name: "Wither Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_wither",
+        themeColor: "§5" // purple/ominous
+    },
+    {
         id: "minecraft:netherite_upgrade_smithing_template",
         name: "Netherite Upgrade Smithing Template",
         category: "item",

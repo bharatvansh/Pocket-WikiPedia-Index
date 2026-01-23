@@ -431,6 +431,117 @@ export const spawnEggs = {
         ],
         description: "The Creaking Spawn Egg is a specialized item available primarily in Creative Mode. When used on a block, it immediately summons a Creaking at that location. This item is essential for map makers who need to populate the Pale Garden or custom builds with Creakings without relying on Creaking Hearts. The Creaking is a unique mob that only moves when not being looked at by the player. In Survival, this item can only be obtained through commands."
     },
+    "minecraft:iron_golem_spawn_egg": {
+        id: "minecraft:iron_golem_spawn_egg",
+        name: "Iron Golem Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Iron Golem protector",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons a fully-formed Iron Golem to protect players and villages.",
+            "Normally only available in Creative Mode or via commands in Bedrock Edition.",
+            "Can be used on a Monster Spawner to create an iron farm spawner.",
+            "Bypasses the traditional construction requirement of iron blocks and pumpkins."
+        ],
+        description: "The Iron Golem Spawn Egg provides an instantaneous method for summoning a village's primary defender. While Iron Golems are typically built using iron blocks and pumpkins, this spawn egg allows for their immediate placement without resource consumption. In Bedrock Edition, they serve as powerful allies against hostile mobs, featuring high health and massive knockback attacks. Using this egg on a Monster Spawner will convert it into an iron golem spawner, which is a rare but effective way to automate the collection of iron ingots and poppies in custom-designed environments."
+    },
+    "minecraft:snow_golem_spawn_egg": {
+        id: "minecraft:snow_golem_spawn_egg",
+        name: "Snow Golem Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Snow Golem ally",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Snow Golem that attacks hostile mobs with snowballs.",
+            "Normally restricted to Creative Mode or obtained via commands.",
+            "Changes a Monster Spawner's type to Snow Golem for infinite snow production.",
+            "The Snow Golem will still melt in warm biomes or rain regardless of how it's spawned."
+        ],
+        description: "The Snow Golem Spawn Egg instantly summons a Snow Golem, a utility mob often used for home defense or snowball farming. While naturally created with snow blocks and a pumpkin, the spawn egg bypasses any construction requirements. These fragile golems are famous for peppering enemies with snowballs and leaving a trail of snow in cool biomes. In Bedrock Edition, their unique ability to provoke mobs from a distance makes them excellent distractions. Applying this egg to a Monster Spawner will create a steady supply of these wintry allies, though they must still be protected from heat and rain."
+    },
+    "minecraft:npc_spawn_egg": {
+        id: "minecraft:npc_spawn_egg",
+        name: "NPC Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning interactive Non-Player Characters (NPCs)",
+            secondaryUse: "Customizing world dialogue and command interactions"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Bedrock-exclusive item used for world building and education.",
+            "Spawns an NPC that can be named and skin-swapped.",
+            "Can be programmed with custom dialogue and up to six command buttons.",
+            "NPCs are indestructible in survival mode and do not count toward mob caps.",
+            "Allows for complex interactions without the need for external mods."
+        ],
+        description: "The NPC Spawn Egg is a Bedrock-exclusive utility item used to summon Non-Player Characters (NPCs). Unlike standard mobs, NPCs are interactive entities that can be customized with unique names, skins, and dialogue. They are cornerstone tools for world builders and educators, as they can be programmed to execute commands, provide information, or act as shopkeepers. NPCs do not spawn naturally and are indestructible in survival mode, making them ideal for static interactions in adventure maps and social hubs."
+    },
+    "minecraft:agent_spawn_egg": {
+        id: "minecraft:agent_spawn_egg",
+        name: "Agent Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning the Agent robotic assistant",
+            secondaryUse: "Bridging gameplay with coding education"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Exclusive to Bedrock and Education editions for coding features.",
+            "Summons the Agent, which can be programmed using 'Code Connection'.",
+            "Can perform tasks like mining, building, and farming automatically.",
+            "Each player has their own unique Agent bound to them."
+        ],
+        description: "The Agent Spawn Egg is a specialized item in Minecraft Bedrock and Education editions used to summon the Agent, a small robotic entity. The Agent's primary purpose is to assist players in learning to code; it can be programmed via external editors to move, mine, build, and interact with the world automatically. While similar in stature to other small mobs, the Agent is a unique player-bound companion that helps bridge the gap between gameplay and computational thinking, serving as a physical representation of the player's written code."
+    },
+    "minecraft:wither_spawn_egg": {
+        id: "minecraft:wither_spawn_egg",
+        name: "Wither Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning the Wither boss",
+            secondaryUse: "Testing combat systems and arena designs"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons the three-headed boss without the Soul Sand ritual.",
+            "Extremely dangerous; use with caution in built-up areas.",
+            "In Bedrock, spawns Wither Skeletons at 50% health (Hard difficulty only).",
+            "Restricted to Creative Mode or obtained via commands."
+        ],
+        description: "The Wither Spawn Egg is a devastatingly powerful item used to instantly manifest the Wither, one of Minecraft's most formidable bosses. Normally summoned through a time-consuming ritual involving soul sand and wither skeleton skulls, the spawn egg provides an immediate (and often dangerous) activation of the boss's three-headed form. In Bedrock Edition, the Wither's behavior is particularly aggressive, featuring world-altering explosions and a high health bar. This item is strictly restricted to Creative Mode and commands, as it allows for the effortless population of boss arenas or the testing of end-game defensive gear."
+    },
     "minecraft:blaze_spawn_egg": {
         id: "minecraft:blaze_spawn_egg",
         name: "Blaze Spawn Egg",
