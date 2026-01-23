@@ -119,6 +119,27 @@ export const itemIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:woodland_explorer_map",
+        name: "Woodland Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:ocean_explorer_map",
+        name: "Ocean Explorer Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:buried_treasure_map",
+        name: "Buried Treasure Map",
+        category: "item",
+        icon: "textures/items/map_filled",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:mace",
         name: "Mace",
         category: "item",
