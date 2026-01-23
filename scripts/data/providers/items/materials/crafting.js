@@ -964,6 +964,29 @@ export const craftingMaterials = {
         ],
         description: "The Archer Pottery Sherd is an archaeological item used in the creation of Decorated Pots. It features a stylized image of a figure with a bow and arrow, evoking themes of combat and hunting from Minecraft's ancient past. Players can discover this sherd by using a Brush on Suspicious Sand found within Desert Temples and Desert Wells. When four sherds (or a combination of sherds and bricks) are arranged in a square on a crafting table, they form a Decorated Pot that displays the archer motif on the corresponding side."
     },
+    "minecraft:brave_pottery_sherd": {
+        id: "minecraft:brave_pottery_sherd",
+        name: "Brave Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Brave motif",
+            secondaryUse: "Decorative archaeological item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by brushing Suspicious Gravel in Trail Ruins"]
+        },
+        specialNotes: [
+            "Features a stylized engraving of a person with arms raised.",
+            "Found exclusively by using a Brush on Suspicious Gravel in Trail Ruins.",
+            "Introduced as part of the archaeology features in version 1.20.",
+            "Used to craft a Decorated Pot with a 'brave' design on the side.",
+            "Can be combined with other sherds or bricks to create custom patterns."
+        ],
+        description: "The Brave Pottery Sherd is an archaeological item featuring a stylized engraving of a person with their arms raised in a heroic or brave pose. It is found by brushing suspicious gravel within Trail Ruins. When used to craft a Decorated Pot, it adds a unique 'Brave' motif to one side of the resulting block. This sherd is part of the extensive collection of patterns available to players for creating custom, ancient-looking decorative vessels."
+    },
     "minecraft:scrape_pottery_sherd": {
         id: "minecraft:scrape_pottery_sherd",
         name: "Scrape Pottery Sherd",

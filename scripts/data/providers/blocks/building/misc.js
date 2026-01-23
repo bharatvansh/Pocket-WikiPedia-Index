@@ -134,6 +134,27 @@ export const miscBuildingBlocks = {
         },
         description: "White Glazed Terracotta is a vibrant decorative block with a unique, ornate pattern. It is created by smelting white terracotta in a furnace. Like other glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it valuable for complex redstone machinery. Its directional placement allows players to create large, recurring patterns across floors and walls."
     },
+    "minecraft:magenta_glazed_terracotta": {
+        id: "minecraft:magenta_glazed_terracotta",
+        name: "Magenta Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Magenta Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Magenta Terracotta"
+        },
+        description: "Magenta Glazed Terracotta is a vibrant decorative block featuring a complex, directional pattern with a prominent square and floral motif. It is obtained by smelting magenta stained terracotta in a furnace. Like other glazed terracotta blocks, it is blast-resistant and non-flammable. Its unique property is its directional placement; depending on the player's orientation when placing it, the pattern can be rotated to create larger, intricate designs or recurring mosaics. This variant is popular for adding pops of bold color and detail to floors and ceilings."
+    },
     "minecraft:smooth_quartz": {
         id: "minecraft:smooth_quartz",
         name: "Smooth Quartz Block",

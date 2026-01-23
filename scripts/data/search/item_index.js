@@ -1876,6 +1876,13 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:brave_pottery_sherd",
+        name: "Brave Pottery Sherd",
+        category: "item",
+        icon: "textures/items/brave_pottery_sherd",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:painting",
         name: "Painting",
         category: "item",

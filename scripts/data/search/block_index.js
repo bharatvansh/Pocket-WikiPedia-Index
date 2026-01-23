@@ -406,6 +406,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:ominous_trial_spawner",
+        name: "Ominous Trial Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:vault",
         name: "Vault",
         category: "block",
@@ -1384,6 +1391,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_undyed",
         themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:white_shulker_box",
+        name: "White Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_white",
+        themeColor: "§f"
     },
     {
         id: "minecraft:campfire",
@@ -2952,6 +2966,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glazed_terracotta_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:magenta_glazed_terracotta",
+        name: "Magenta Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_magenta",
+        themeColor: "§d"
     },
     {
         id: "minecraft:white_stained_glass",

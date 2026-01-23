@@ -116,6 +116,27 @@ export const stoneBlocks = {
         },
         description: "Chiseled Tuff is a decorative stone introduced in Minecraft 1.21, carved with patterns resembling trial chamber motifs. It can be crafted from two tuff slabs placed vertically or created in a stonecutter from a single tuff block. Chiseled Tuff shares the same hardness and blast resistance as regular tuff. It generates naturally within Trial Chamber structures and is part of the expanded tuff family, which includes stairs, slabs, walls, and bricks. This block provides builders with a unique pattern for detailed architectural work."
     },
+    "minecraft:tuff_bricks": {
+        id: "minecraft:tuff_bricks",
+        name: "Tuff Bricks",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Bricks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Bricks are a building material introduced in the 1.21 update, providing a refined, blocky alternative to raw Tuff. They are crafted by arranging four Tuff blocks in a 2x2 grid or by using a stonecutter. naturally appearing in Trial Chambers, they share the same durability as other stone bricks, with a hardness of 1.5 and blast resistance of 6.0. They serve as a foundational material for the tuff block family, which further includes slabs, stairs, and walls, allowing for cohesive and textured subterranean builds."
+    },
     "minecraft:calcite": {
         id: "minecraft:calcite",
         name: "Calcite",
