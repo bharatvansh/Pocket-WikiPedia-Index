@@ -3547,4 +3547,5 @@ export const itemIndex = [
         icon: "textures/items/netherite_nautilus_armor",
         themeColor: "§8"
     }
+    }
 ];
