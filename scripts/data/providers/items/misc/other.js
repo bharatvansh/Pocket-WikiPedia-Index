@@ -2800,5 +2800,74 @@ export const miscItems = {
             "Introduced in the Mounts of Mayhem update (1.21.130+)"
         ],
         description: "Netherite Horse Armor is the highest tier of protection for horses, introduced in the Mounts of Mayhem drop. Much like netherite player gear, it is fire-resistant and will not burn in lava. It provides unparalleled defense for your equine companions, making it essential for late-game exploration across the Overworld and Nether. It must be forged on a Smithing Table using a Netherite Upgrade template and a diamond horse armor set. This armor represents the ultimate safeguard for your most valued mounts, ensuring they remain protected even in the most hostile environments."
+    },
+    "minecraft:cherry_sign": {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on the ground or side of blocks",
+            secondaryUse: "Decorative labeling for cherry-themed structures"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Cherry Planks", "1x Stick"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Features the distinct pink color of cherry wood.",
+            "Can be placed on the ground or attached to the side of blocks.",
+            "Text can be edited after placement in Bedrock Edition.",
+            "Can be made to glow using a Glow Squid Ink Sac."
+        ],
+        description: "The Cherry Sign is a decorative item crafted from the vibrant pink wood of cherry trees. Like other wood signs, it is used to display text for labeling or navigation. Its unique pastel color makes it a favorite for aesthetic builds, particularly those inspired by blossom forests or Japanese architecture. In Bedrock 1.20, players can edit the text on signs after they have been placed, and applying Honeycombs will wax it to prevent further edits."
+    },
+    "minecraft:bamboo_sign": {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on the ground or side of blocks",
+            secondaryUse: "Tropical-themed signage and labeling"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Bamboo Planks", "1x Stick"]
+        },
+        specialNotes: [
+            "Introduced in 1.20 Trails & Tales update.",
+            "Crafted from bamboo planks rather than traditional wood logs.",
+            "Displays a bright yellowish-green color unique to bamboo blocks.",
+            "Can be waxed with Honeycomb to prevent text editing.",
+            "Both sides of the sign can have different text and colors."
+        ],
+        description: "The Bamboo Sign is a decorative utility item introduced as part of the bamboo wood set in the 1.20 update. It offers a bright, yellowish aesthetic that complements tropical or jungle-themed structures. Players can use it to label containers, designate areas, or leave messages for others. In Bedrock Edition, signs support dual-sided text, and the text can be formatted with dyes or made luminous with glow ink. Its inclusion provides builders with even more color options for signage."
+    },
+    "minecraft:mangrove_sign": {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying text on the ground or side of blocks",
+            secondaryUse: "Dark-themed decorative signage"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Mangrove Planks", "1x Stick"]
+        },
+        specialNotes: [
+            "Introduced in 1.19 The Wild Update.",
+            "Features the deep reddish-brown hue characteristic of mangrove wood.",
+            "Can be placed in various orientations on floors or walls.",
+            "Compatible with dye and glow ink for enhanced visibility.",
+            "In Bedrock, interacting with a placed sign allows for text re-editing."
+        ],
+        description: "The Mangrove Sign is a decorative item used for displaying text, crafted from the dark red wood found in mangrove swamps. It was added in the 1.19 Wild Update to expand the mangrove wood family. The sign's rich color provides a sophisticated look for dark-themed builds. Functionally, it serves the same purpose as all other wood signs, allowing for informative labeling. Recent Bedrock updates have enhanced signs, allowing players to edit text on both sides and lock the content using honeycombs."
     }
 };

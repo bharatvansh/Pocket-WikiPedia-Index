@@ -2911,6 +2911,27 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        category: "item",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        category: "item",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        category: "item",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:cherry_hanging_sign",
         name: "Cherry Hanging Sign",
         category: "item",
