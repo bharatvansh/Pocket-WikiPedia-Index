@@ -204,5 +204,28 @@ export const potions = {
             "Highly rare survival item with significant combat utility"
         ],
         description: "The Potion of Decay is a rare and powerful Bedrock Edition exclusive item that inflicts the Wither II effect for 40 seconds. Unlike most potions, it cannot be brewed at a brewing stand in survival mode. It is primarily found as a rare loot item in Witch Hut cauldrons or obtained through commands. When used, it drains the health of most living entities, turning their health bar black and dealing continuous damage. It is one of the few ways to weaponize the Wither effect in Bedrock, making it highly prized for high-stakes encounters."
+    },
+    "minecraft:potion_of_turtle_master": {
+        id: "minecraft:potion_of_turtle_master",
+        name: "Potion of the Turtle Master",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying extreme damage resistance",
+            secondaryUse: "Strategic defense at the cost of mobility"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Turtle Shell"]
+        },
+        specialNotes: [
+            "Grants Resistance IV and Slowness IV status effects",
+            "Reduces incoming damage by 80% but significantly slows the player",
+            "Brewed by adding a Turtle Shell (Helmet) to an Awkward Potion",
+            "High-tier potion for boss fights and tanking heavy hits",
+            "Can be extended with Redstone or made stronger with Glowstone"
+        ],
+        description: "The Potion of the Turtle Master is one of the most powerful defensive brews in Minecraft Bedrock Edition. It grants the wearer incredible damage resistance (Resistance IV), reducing most incoming damage by a staggering 80%. However, this power comes at the cost of near-total loss of mobility, as it also inflicts Slowness IV. This trade-off makes it a highly strategic item, often used in boss fights or when cornered by high-damage threats. It is brewed by adding a Turtle Shell (crafted from scutes) to an Awkward Potion, reflecting the slow but sturdy nature of the turtle."
     }
 };

@@ -3518,5 +3518,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/horse_armor_netherite",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:eye_of_ender",
+        name: "Eye of Ender",
+        category: "item",
+        icon: "textures/items/eye_of_ender",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:ominous_banner",
+        name: "Ominous Banner",
+        category: "item",
+        icon: "textures/items/banner_illager",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:potion_of_turtle_master",
+        name: "Potion of the Turtle Master",
+        category: "item",
+        icon: "textures/items/potion_bottle_turtle",
+        themeColor: "§1"
     }
 ];

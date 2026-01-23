@@ -38,6 +38,29 @@ export const projectiles = {
         ],
         description: "The Wind Charge is a versatile projectile item dropped by Breezes in Trial Chambers or crafted from Breeze Rods. When thrown, it travels in a straight line and explodes upon impact, creating a wind burst that knocks back entities and can interact with redstone components. Players often use Wind Charges for 'wind jumping,' allowing them to reach high places while safely negating any fall damage from the boost. In Bedrock Edition, the Wind Charge has a short half-second cooldown, making it a dynamic tool for both combat and traversal."
     },
+    "minecraft:eye_of_ender": {
+        id: "minecraft:eye_of_ender",
+        name: "Eye of Ender",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Strongholds",
+            secondaryUse: "Activating End Portals"
+        },
+        crafting: {
+            recipeType: "Shapeless",
+            ingredients: ["Ender Pearl", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Used to find Strongholds by floating toward the nearest one",
+            "Shatters with a 20% chance after being thrown",
+            "Requires up to 12 eyes to fully activate an End Portal frame",
+            "Can be crafted from 1 Ender Pearl and 1 Blaze Powder",
+            "Crucial for progressing to the End dimension"
+        ],
+        description: "The Eye of Ender is a critical item for any explorer aiming to defeat the Ender Dragon. Crafted from Blaze Powder and Ender Pearls, it serves two main purposes: locating Strongholds and activating the End Portal. When thrown in the Overworld, it flies toward the nearest Stronghold, hovering in the air before either dropping or shattering. Once a Stronghold is found, eyes must be placed into the empty portal frame blocks; exactly twelve are needed to open the gateway to the End. Its mysterious green glow and erratic flight make it one of the game's most iconic survival items."
+    },
     "minecraft:arrow": {
         id: "minecraft:arrow",
         name: "Arrow",
