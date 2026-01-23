@@ -182,6 +182,27 @@ export const itemIndex = [
         themeColor: "§5"
     },
     {
+        id: "minecraft:potion_of_healing",
+        name: "Potion of Healing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:potion_of_strength",
+        name: "Potion of Strength",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",

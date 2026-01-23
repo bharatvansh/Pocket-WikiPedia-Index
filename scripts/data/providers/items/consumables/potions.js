@@ -204,5 +204,71 @@ export const potions = {
             "Highly rare survival item with significant combat utility"
         ],
         description: "The Potion of Decay is a rare and powerful Bedrock Edition exclusive item that inflicts the Wither II effect for 40 seconds. Unlike most potions, it cannot be brewed at a brewing stand in survival mode. It is primarily found as a rare loot item in Witch Hut cauldrons or obtained through commands. When used, it drains the health of most living entities, turning their health bar black and dealing continuous damage. It is one of the few ways to weaponize the Wither effect in Bedrock, making it highly prized for high-stakes encounters."
+    },
+    "minecraft:potion_of_healing": {
+        id: "minecraft:potion_of_healing",
+        name: "Potion of Healing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Restoring health instantly",
+            secondaryUse: "Dealing damage to undead mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Glistering Melon Slice"]
+        },
+        specialNotes: [
+            "Instantly restores 4 health (2 hearts) in Bedrock Edition",
+            "Damages undead mobs like Zombies and Skeletons instead of healing them",
+            "Cannot be extended with Redstone but can be enhanced with Glowstone (Level II)",
+            "Provides no duration-based status icon as its effect is immediate"
+        ],
+        description: "The Potion of Healing is a vital survival item that provides an instantaneous health boost. In Bedrock Edition, it restores 4 points of health (two hearts) upon consumption. Unlike most potions that grant a timed status effect, the healing is immediate, making it essential during intense combat or emergency situations. It is brewed by adding a Glistering Melon Slice to an Awkward Potion. Interestingly, this potion has a reversed effect on undead creatures, acting as a harmful weapon against them."
+    },
+    "minecraft:potion_of_strength": {
+        id: "minecraft:potion_of_strength",
+        name: "Potion of Strength",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increasing melee attack damage",
+            secondaryUse: "Speeding up combat encounters with high-health mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Adds +3 damage to melee attacks in Bedrock Edition (Strength I)",
+            "Does not increase damage from ranged weapons like bows or tridents",
+            "Can be extended to last 8 minutes using Redstone Dust",
+            "Essential for boss fights and clearing difficult structures"
+        ],
+        description: "The Potion of Strength significantly enhances a player's combat capabilities by increasing the damage dealt with melee weapons. In Bedrock Edition, Strength I adds a flat 3 points of damage to every hit, making even basic tools formidable. It is brewed by combining Blaze Powder with an Awkward Potion in a brewing stand. While it is highly effective for close-quarters combat, it provides no benefit to ranged attacks or explosions. This potion is a staple for players facing the Wither or raiding bastions."
+    },
+    "minecraft:potion_of_regeneration": {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Restoring health over time",
+            secondaryUse: "Counteracting damage-over-time effects like Poison or Wither"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Ghast Tear"]
+        },
+        specialNotes: [
+            "Restores 1 health (half a heart) every 2.5 seconds in Bedrock Edition",
+            "Regeneration persists even if the player is currently taking damage",
+            "Duration can be extended to 1:30 or 2:00 minutes depending on the version",
+            "Brewed using a Ghast Tear, making it a relatively rare late-game resource"
+        ],
+        description: "The Potion of Regeneration is a powerful healing tool that gradually restores a player's health over a set duration. Unlike the Potion of Healing, which is instantaneous, Regeneration provides sustained recovery, restoring half a heart of health every 2.5 seconds. This makes it incredibly valuable for long-drawn battles or surviving environmental hazards. It is brewed by adding a Ghast Tear to an Awkward Potion. Its ability to keep a player healthy while taking damage makes it a top-tier choice for difficult boss fights."
     }
 };
