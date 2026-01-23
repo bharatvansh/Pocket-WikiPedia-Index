@@ -272,6 +272,87 @@ export const swords = {
         ],
         description: "The Copper Spear is a cost-effective tiered weapon that bridges the gap between early and mid-game gear. Crafted using a copper ingot and two sticks, it provides the same extended reach as diamond or netherite spears but with lower durability and damage. It is an ideal weapon for players with an abundance of copper who want to utilize the spear's unique Jab and Charge mechanics without depleting more valuable materials like iron or diamonds."
     },
+    "minecraft:wooden_spear": {
+        id: "minecraft:wooden_spear",
+        name: "Wooden Spear",
+        maxStack: 1,
+        durability: 59,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic extended-reach combat",
+            secondaryUse: "Early-game defense"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Any Planks", "Stick x2"]
+        },
+        specialNotes: [
+            "Part of the 'Mounts of Mayhem' (1.21.130) update",
+            "Cheapest spear variant to craft",
+            "Offers more range than a wooden sword but lower speed",
+            "Ideal for early survival against zombies and skeletons",
+            "Can be repaired with any wooden planks"
+        ],
+        description: "The Wooden Spear is the most basic tier of polearm introduced in the Mounts of Mayhem update. While it has low durability and damage, its primary advantage is the extended reach it provides over standard swords. This allows early-game players to keep dangerous enemies at a distance. It is crafted simply with two sticks and any type of wooden plank, making it a highly accessible tool for new adventurers who prioritize safety over raw power."
+    },
+    "minecraft:stone_spear": {
+        id: "minecraft:stone_spear",
+        name: "Stone Spear",
+        maxStack: 1,
+        durability: 131,
+        enchantable: true,
+        usage: {
+            primaryUse: "Starting extended-reach combat",
+            secondaryUse: "Defensive perimeter control"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone or Blackstone", "Stick x2"]
+        },
+        specialNotes: [
+            "Introduced alongside other tier-variants in Mounts of Mayhem",
+            "More durable than wooden and golden spears",
+            "Provides a 1-block reach advantage over standard tools",
+            "Effective for early-game exploration of caves",
+            "Crafted using cobblestone, blackstone, or cobbled deepslate"
+        ],
+        description: "The Stone Spear is a reliable early-game weapon that offers better durability and damage than its wooden counterpart. Part of the Mounts of Mayhem update, it grants players the ability to strike from a distance, which is particularly useful for dealing with creepers or keeping mobs away from base perimeters. It is a cost-effective choice for players who have not yet secured iron but need a weapon with more utility than a basic stone sword."
+    },
+    "minecraft:golden_spear": {
+        id: "minecraft:golden_spear",
+        name: "Golden Spear",
+        maxStack: 1,
+        durability: 32,
+        enchantable: true,
+        usage: {
+            primaryUse: "High-enchantability reach combat",
+            secondaryUse: "Fast-strike charge attacks"
+        },
+        combat: {
+            attackDamage: 3,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot", "Stick x2"]
+        },
+        specialNotes: [
+            "Added as the high-enchantability variant in Mounts of Mayhem",
+            "Very low durability, matching other golden tools",
+            "Significantly higher chance of getting top-tier enchantments",
+            "Beneficial for early access to powerful Lunge or Jab levels",
+            "Can be repaired with gold ingots in an anvil"
+        ],
+        description: "The Golden Spear combines the extended reach of the spear class with the high enchantability of gold. Although it suffers from extremely low durability, it is much easier to imbue with powerful enchantments at an enchanting table. This makes it a strategic choice for players who want to utilize the maximum potential of spear-exclusive enchants early on. Its' gold construction also makes it a valuable, albeit fragile, addition to any adventurer's arsenal in the Nether."
+    },
     "minecraft:netherite_sword": {
         id: "minecraft:netherite_sword",
         name: "Netherite Sword",

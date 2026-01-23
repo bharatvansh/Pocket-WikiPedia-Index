@@ -3511,5 +3511,40 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/diamond_nautilus_armor",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:wooden_spear",
+        name: "Wooden Spear",
+        category: "item",
+        icon: "textures/items/wooden_spear",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stone_spear",
+        name: "Stone Spear",
+        category: "item",
+        icon: "textures/items/stone_spear",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:golden_spear",
+        name: "Golden Spear",
+        category: "item",
+        icon: "textures/items/golden_spear",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:golden_nautilus_armor",
+        name: "Golden Nautilus Armor",
+        category: "item",
+        icon: "textures/items/golden_nautilus_armor",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        category: "item",
+        icon: "textures/items/netherite_nautilus_armor",
+        themeColor: "§8"
     }
 ];

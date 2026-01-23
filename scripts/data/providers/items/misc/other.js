@@ -268,6 +268,48 @@ export const miscItems = {
         ],
         description: "Diamond Nautilus Armor is a high-tier specialized armor designed for the Nautilus and Zombie Nautilus mounts introduced in Mounts of Mayhem. Much like horse armor, it cannot be produced at a crafting table and must be salvaged from deep-sea ruins or buried treasure. When applied to a tamed nautilus, it grants 11 protection points and 2 points of armor toughness, allowing the mount to safely navigate dangerous aquatic biomes and withstand attacks from Drowned or Guardians."
     },
+    "minecraft:golden_nautilus_armor": {
+        id: "minecraft:golden_nautilus_armor",
+        name: "Golden Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Armor for Nautilus and Piglin pacification",
+            secondaryUse: "Moderate protection for aquatic mounts"
+        },
+        specialNotes: [
+            "Provides 11 armor points to Nautilus mounts",
+            "Pacifies Piglins if held by the player or equipped on a nearby mount",
+            "Found in Ocean Ruins and Bastion Remnant chests",
+            "Indestructible while equipped; same durability logic as horse armor",
+            "Matches the aesthetic of other gold gear in the 'Mounts of Mayhem' update"
+        ],
+        description: "Golden Nautilus Armor is a specialized variant of aquatic mount gear introduced in Mounts of Mayhem. It provides decent protection for a tamed Nautilus while offering the unique benefit of Piglin pacification. Players who keep a golden-armored nautilus nearby or carry the armor itself will find Piglins to be neutral rather than hostile. Like other mount armors, it cannot be crafted and must be discovered in sunken ruins or the treasure-filled halls of Nether Bastions."
+    },
+    "minecraft:netherite_nautilus_armor": {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ultimate protection for Nautilus mounts",
+            secondaryUse: "Fireproof and high-toughness aquatic gear"
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Nautilus Armor", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "The strongest armor available for Nautilus mounts",
+            "Provides +3 Armor Toughness and 10% Knockback Resistance",
+            "Fireproof; will not burn if dropped in lava",
+            "Requires upgrading a Diamond Nautilus Armor at a smithing table",
+            "Exclusive to the 'Mounts of Mayhem' update (1.21.130)"
+        ],
+        description: "Netherite Nautilus Armor represents the absolute peak of protection for underwater mounts. By upgrading Diamond Nautilus Armor with a Netherite Ingot and Smithing Template, players can create a fireproof suit for their aquatic companions. Beyond its high protection value, it grants significant armor toughness and resistance to knockback, ensuring that your mount stays focused even in the heat of battle. It is an essential upgrade for those who wish to take their nautilus into the most dangerous environments."
+    },
     "minecraft:totem_of_undying": {
         id: "minecraft:totem_of_undying",
         name: "Totem of Undying",
