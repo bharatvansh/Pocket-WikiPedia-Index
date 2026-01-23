@@ -3476,5 +3476,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:iron_golem_spawn_egg",
+        name: "Iron Golem Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_iron_golem",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:snow_golem_spawn_egg",
+        name: "Snow Golem Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_snow_golem",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:ender_dragon_spawn_egg",
+        name: "Ender Dragon Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_ender_dragon",
+        themeColor: "§5"
     }
 ];

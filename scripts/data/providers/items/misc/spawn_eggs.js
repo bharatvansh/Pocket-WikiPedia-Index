@@ -1495,5 +1495,71 @@ export const spawnEggs = {
             "Will spit at any mob or player that attacks its owner or itself."
         ],
         description: "The Trader Llama Spawn Egg summons the unique variant of llama that accompanies Wandering Traders. These llamas differ from standard ones by spawning with ornate, colorful carpets and displaying protective behaviors. They are naturally defensive of their owner, spitting at hostiles like Pillagers or Zombies. When spawned via an egg in Creative, they retain these distinctive traits and textures, making them excellent for adding detail to marketplaces or caravan-themed builds where a regular llama's appearance might be too plain."
+    },
+    "minecraft:iron_golem_spawn_egg": {
+        id: "minecraft:iron_golem_spawn_egg",
+        name: "Iron Golem Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning an Iron Golem",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Primary way to spawn Iron Golems in Creative without building.",
+            "Used on a Spawner to create Iron Golem spawners.",
+            "Spawns a full-sized Iron Golem that is naturally neutral to players.",
+            "Available only via commands or the Creative inventory."
+        ],
+        description: "The Iron Golem Spawn Egg is a specialized item used to instantly summon an Iron Golem. These large, powerful passive-utility mobs are typically created with iron blocks but can be summoned on demand with this egg in Creative mode. They are essential for protecting villages and clearing out hostile mobs. Like other spawn eggs, this can be used on a Monster Spawner to create an Iron Golem farm, though they require a large area to spawn successfully."
+    },
+    "minecraft:snow_golem_spawn_egg": {
+        id: "minecraft:snow_golem_spawn_egg",
+        name: "Snow Golem Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Snow Golem",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons a Snow Golem at the targeted location.",
+            "Converts Monster Spawners into Snow Golem spawners.",
+            "Snow Golems spawned this way will still melt in hot biomes.",
+            "Only available through Creative Mode or specific commands."
+        ],
+        description: "The Snow Golem Spawn Egg allows for the immediate summoning of a Snow Golem, a utility mob that throws snowballs at enemies. While usually constructed from snow blocks and a pumpkin, this egg provides a direct way to place them in any biome. Snow Golems leave trails of snow as they walk and are highly effective for distracting hostile mobs. Note that they will melt and take damage in warm biomes such as deserts or jungles unless provided with the Fire Resistance effect."
+    },
+    "minecraft:ender_dragon_spawn_egg": {
+        id: "minecraft:ender_dragon_spawn_egg",
+        name: "Ender Dragon Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly summoning the Ender Dragon boss",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Command-only item; extremely destructive if used in the Overworld.",
+            "Summons the Ender Dragon boss instantly.",
+            "Can change a Spawner's type to Ender Dragon, though not recommended.",
+            "Requires large open spaces to function without destroying terrain."
+        ],
+        description: "The Ender Dragon Spawn Egg is a powerful command-only item used to summon the Ender Dragon, the final boss of Minecraft. Because of the dragon's destructive nature and its tendency to fly through blocks, this egg is carefully restricted and not found in the standard Creative inventory. It is primarily used for testing server performance, boss mechanics, or creating high-stakes map encounters. Using this on a spawner will create a dragon spawner, though its utility is limited due to the dragon's complex AI."
     }
 };
