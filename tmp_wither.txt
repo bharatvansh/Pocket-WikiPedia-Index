@@ -1,0 +1,29 @@
+
+>     "minecraft:wither_spawn_egg": {
+>         id: "minecraft:wither_spawn_egg",
+          name: "Wither Spawn Egg",
+          maxStack: 64,
+          durability: 0,
+          enchantable: false,
+          usage: {
+              primaryUse: "Instantly spawning the Wither boss",
+              secondaryUse: "Testing combat systems and arena designs"
+          },
+          crafting: {
+              recipeType: "Creative/Commands Only",
+              ingredients: []
+          },
+          specialNotes: [
+              "Instantly summons the three-headed boss without the Soul Sand ritual.",
+              "Extremely dangerous; use with caution in built-up areas.",
+              "In Bedrock, spawns Wither Skeletons at 50% health (Hard difficulty only).",
+              "Restricted to Creative Mode or obtained via commands."
+          ],
+          description: "The Wither Spawn Egg is a devastatingly powerful item used to instantly manifest the Wither, one of Minecraft's most formidable bosses. Normally summoned through a time-consuming ritual involving soul sand and wither skeleton skulls, the spawn egg provides an immediate (and often dangerous) activation of the boss's three-headed form. In Bedrock Edition, the Wither's behavior is particularly aggressive, featuring world-altering explosions and a high health bar. This item is strictly restricted to Creative Mode and commands, as it allows for the effortless population of boss arenas or the testing of end-game defensive gear."
+      },
+      "minecraft:blaze_spawn_egg": {
+          id: "minecraft:blaze_spawn_egg",
+          name: "Blaze Spawn Egg",
+          maxStack: 64,
+          durability: 0,
+
