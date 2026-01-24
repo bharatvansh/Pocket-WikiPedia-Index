@@ -1561,5 +1561,77 @@ export const spawnEggs = {
             "Requires large open spaces to function without destroying terrain."
         ],
         description: "The Ender Dragon Spawn Egg is a powerful command-only item used to summon the Ender Dragon, the final boss of Minecraft. Because of the dragon's destructive nature and its tendency to fly through blocks, this egg is carefully restricted and not found in the standard Creative inventory. It is primarily used for testing server performance, boss mechanics, or creating high-stakes map encounters. Using this on a spawner will create a dragon spawner, though its utility is limited due to the dragon's complex AI."
+    },
+    "minecraft:zoglin_spawn_egg": {
+        id: "minecraft:zoglin_spawn_egg",
+        name: "Zoglin Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Zoglin mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Instantly summons a Zoglin, a hostile undead version of the Hoglin.",
+            "Zoglins attack almost all mobs on sight, including players and villagers.",
+            "Immune to fire and lava damage, making them dangerous in the Nether.",
+            "Cannot be bred or lured like normal Hoglins.",
+            "Can be used on a Monster Spawner to create a Zoglin spawner.",
+            "Available only in Creative mode or through commands."
+        ],
+        description: "The Zoglin Spawn Egg is a Creative-only item used to instantly summon a Zoglin, the aggressive, undead version of a Hoglin. Zoglins are created when Hoglins spend too much time in the Overworld, but this egg allows them to be placed anywhere. Unlike Hoglins, Zoglins are immune to fire, cannot be bred, and will attack nearly any entity they see. They are a powerful tool for creating dangerous environments or testing mob interactions."
+    },
+    "minecraft:npc_spawn_egg": {
+        id: "minecraft:npc_spawn_egg",
+        name: "NPC Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning customizable Non-Player Characters (NPCs)",
+            secondaryUse: "Used by map builders for dialogue and command execution"
+        },
+        crafting: {
+            recipeType: "Commands Only",
+            ingredients: ["/give @s spawn_egg 1 51"]
+        },
+        specialNotes: [
+            "Summons a customizable Non-Player Character (NPC) for Bedrock Edition.",
+            "Can be given custom names, dialogue, and skins by someone with World Builder permissions.",
+            "Supports command execution through the 'Advanced Settings' menu.",
+            "NPCs are stationary and usually invincible to survival players.",
+            "Obtained via /give command (e.g., /give @s spawn_egg 1 51).",
+            "Essential for interactive roleplay and adventure map creation."
+        ],
+        description: "The NPC Spawn Egg is a specialized item in Bedrock Edition used to summon Non-Player Characters. NPCs are stationary entities that map creators can use to provide dialogue, information, or even execute commands. They are highly customizable, offering various skins and the ability to trigger complex scripts when a player interacts with them. This makes them indispensable for creating adventure maps, tutorial worlds, and interactive stories."
+    },
+    "minecraft:agent_spawn_egg": {
+        id: "minecraft:agent_spawn_egg",
+        name: "Agent Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Summoning the Agent companion for coding and automation",
+            secondaryUse: "Used in Education Edition for programming lessons"
+        },
+        crafting: {
+            recipeType: "Commands Only",
+            ingredients: ["Only available with Education features enabled"]
+        },
+        specialNotes: [
+            "Summons the Agent, a coding companion robot in Bedrock and Education Edition.",
+            "Controlled and programmed through coding platforms like Microsoft MakeCode.",
+            "Can be instructed to build structures, mine ores, and harvest crops automatically.",
+            "Acts as a separate entity that helps bridge the gap between gameplay and programming.",
+            "Typically only available when Education Edition features are enabled.",
+            "One of the few entities in Bedrock designed for full programmability."
+        ],
+        description: "The Agent Spawn Egg summons a unique robotic companion found in Bedrock and Education Editions. The Agent is designed as a tool for learning programming, allowing players to automate tasks like building, mining, and farming through external code editors. It is a separate entity from the player and can be programmed to navigate the world and perform complex actions, serving as an entry point into the world of Minecraft coding and automation."
     }
 };
