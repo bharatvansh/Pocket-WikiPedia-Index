@@ -182,6 +182,27 @@ export const itemIndex = [
         themeColor: "§5"
     },
     {
+        id: "minecraft:potion_of_swiftness",
+        name: "Potion of Swiftness",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:potion_of_strength",
+        name: "Potion of Strength",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:potion_of_fire_resistance",
+        name: "Potion of Fire Resistance",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
