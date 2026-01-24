@@ -2421,6 +2421,54 @@ export const miscItems = {
         ],
         description: "Sparklers are decorative items that create a beautiful, continuous stream of colored particles when held and used. They come in five distinct colors, each determined by the specific metal chloride used during crafting. While they don't provide functional lighting for exploration, they are perfect for celebrations, markers, or atmospheric effects in maps. They are a staple of the chemistry-based crafting available in Bedrock Edition's education mode."
     },
+    "minecraft:underwater_torch": {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Underwater illumination",
+            secondaryUse: "Land-based lighting (matches regular torches)"
+        },
+        crafting: {
+            recipeType: "Lab Table / Crafting",
+            ingredients: ["1x Torch", "1x Magnesium"]
+        },
+        specialNotes: [
+            "Exclusive to Bedrock Edition with Education features enabled",
+            "Functions perfectly underwater without being extinguished",
+            "Emits distinctive sparkling particles when placed",
+            "Crafted using Magnesium element on a Lab Table or Crafting Grid",
+            "Has the same light level as a standard torch (14)",
+            "Cannot be used to craft colored torches"
+        ],
+        description: "The Underwater Torch is a specialized light source exclusive to Minecraft Bedrock and Education Edition. Crafted by combining a regular torch with magnesium, it provides reliable illumination that functions both on land and submerged in water. Unlike standard torches which break instantly when touched by water, underwater torches emit a steady glow and distinctive particles while undersea. This makes them essential tools for exploring ocean monuments, underwater ruins, and deep-sea ravines where visibility is low."
+    },
+    "minecraft:underwater_tnt": {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Underwater block destruction",
+            secondaryUse: "Surface-level explosions (matches regular TNT)"
+        },
+        crafting: {
+            recipeType: "Lab Table / Crafting",
+            ingredients: ["1x TNT", "1x Sodium"]
+        },
+        specialNotes: [
+            "Exclusive to Bedrock Edition with Education features enabled",
+            "Capable of destroying blocks underwater, unlike standard TNT",
+            "Features a distinctive cyan-blue colored texture",
+            "Triggered like regular TNT with redstone or flint and steel",
+            "Essential for underwater excavation and terraforming",
+            "Created by combining TNT with Sodium element on a Lab Table"
+        ],
+        description: "Underwater TNT is a powerful explosive variant exclusive to Minecraft Bedrock and Education Edition. It is crafted by combining standard TNT with sodium element. While regular TNT creates a shockwave that displaces water but deals no block damage when submerged, underwater TNT is capable of destroying blocks underwater. It features a distinctive teal-blue texture, making it easily identifiable in the inventory. This hazardous tool is invaluable for underwater excavation, clearing shipwrecks, or deep-sea structural removal."
+    },
     "minecraft:glow_stick": {
         id: "minecraft:glow_stick",
         name: "Glow Stick",
