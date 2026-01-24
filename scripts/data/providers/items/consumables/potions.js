@@ -254,6 +254,75 @@ export const potions = {
         ],
         description: "The Potion of Fire Resistance is a vital survival tool for any player venturing into the Nether or working near large lava pools. It grants absolute immunity to all forms of heat-based damage, including fire, lava, and the fireball projectiles from Blazes and Ghasts. This effect allows players to safely swim through lava lakes and navigate the hazardous terrain of the Nether with much less risk. It is brewed by adding Magma Cream to an Awkward Potion. Unlike most offensive potions, it doesn't have a Level II variant, but it can be extended to last for 8 minutes using redstone."
     },
+    "minecraft:potion_of_night_vision": {
+        id: "minecraft:potion_of_night_vision",
+        name: "Potion of Night Vision",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Seeing in total darkness and underwater",
+            secondaryUse: "Exploring dark caves and nighttime scouting"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Golden Carrot"]
+        },
+        specialNotes: [
+            "Grants the Night Vision effect, allowing the player to see in the dark and underwater",
+            "Effect makes the environment appear at full brightness",
+            "Sky and water may take on a reddish tint at the end of the duration",
+            "Brewed using a Golden Carrot and an Awkward Potion",
+            "Duration can be extended to 8 minutes using Redstone Dust"
+        ],
+        description: "The Potion of Night Vision is an invaluable tool for explorers and miners, as it grants the ability to see perfectly in total darkness. When consumed, it raises the perceived light level of the environment to 15, making caves and nighttime landscapes clear. It also significantly improves visibility through water. It is brewed by adding a Golden Carrot to an Awkward Potion. While it cannot be upgraded to a second level, its duration can be extended with redstone, making it ideal for long mining sessions or deep-sea diving."
+    },
+    "minecraft:potion_of_regeneration": {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Restoring health steadily over time",
+            secondaryUse: "Tactical sustain during boss fights"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Ghast Tear"]
+        },
+        specialNotes: [
+            "Restores health over time by half-heart intervals",
+            "Rate of healing depends on the level of the effect (Regeneration I vs II)",
+            "Brewed using a Ghast Tear and an Awkward Potion",
+            "Level II variant doubles the healing rate but has a shorter duration",
+            "Extended duration variant lasts for 2 minutes in Bedrock Edition"
+        ],
+        description: "The Potion of Regeneration is a vital defensive brew that restores health over time. Unlike the Potion of Healing, which provides instant HP, Regeneration applies a steady healing effect that can sustain a player during long battles or after surviving a fall. It is brewed by adding a Ghast Tear to an Awkward Potion. In Bedrock Edition, the extended version lasts for 2 minutes, while the Level II variant provides rapid healing for a shorter period. It is considered an essential item for challenging boss fights and high-level RAID encounters."
+    },
+    "minecraft:potion_of_water_breathing": {
+        id: "minecraft:potion_of_water_breathing",
+        name: "Potion of Water Breathing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Indefinite underwater breathing",
+            secondaryUse: "Exploring ocean structures and shipwreck looting"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Pufferfish"]
+        },
+        specialNotes: [
+            "Prevents the loss of oxygen while submerged in water",
+            "Air bubbles on the HUD will remain full for the duration",
+            "Slightly improves underwater vision but less than Night Vision",
+            "Brewed using a Pufferfish and an Awkward Potion",
+            "Essential for exploring Ocean Monuments and shipwrecks"
+        ],
+        description: "The Potion of Water Breathing allows players to stay submerged indefinitely without drowning. While the effect is active, the oxygen bar does not deplete, enabling full focus on underwater activities like mining clay, looting shipwrecks, or raiding ocean monuments. It is brewed by combining a Pufferfish with an Awkward Potion. This potion is a cornerstone of aquatic exploration, often used alongside Depth Strider boots and Respiration helmets. Its duration can be extended to 8 minutes with redstone, providing ample time for extended dive operations."
+    },
     "minecraft:potion_of_decay": {
         id: "minecraft:potion_of_decay",
         name: "Potion of Decay",

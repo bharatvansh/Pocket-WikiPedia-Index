@@ -203,6 +203,27 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:potion_of_night_vision",
+        name: "Potion of Night Vision",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§1"
+    },
+    {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:potion_of_water_breathing",
+        name: "Potion of Water Breathing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
