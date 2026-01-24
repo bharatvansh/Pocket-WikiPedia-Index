@@ -181,6 +181,79 @@ export const potions = {
         ],
         description: "The Potion of Wind Charging imbues the consumer with the essence of the Breeze. Upon the entity's death, it releases a powerful Wind Burst, similar to the explosion of a Wind Charge, which knocks back nearby mobs and interacts with redstone components. This effect can be used to set off traps or clear space. It is brewed by adding a Breeze Rod to an Awkward Potion. Like other 1.21 potions, it is frequently obtained from rewards within Trial Chambers, serving as a powerful late-game alchemical tool for tactical combat."
     },
+    "minecraft:potion_of_swiftness": {
+        id: "minecraft:potion_of_swiftness",
+        name: "Potion of Swiftness",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increasing movement speed and field of view",
+            secondaryUse: "Transpoting items and exploring biomes"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Sugar"]
+        },
+        specialNotes: [
+            "Increases speed by 20% (Level I) or 40% (Level II)",
+            "Also increases the player's field of view (FOV)",
+            "Level II is brewed with Glowstone Dust",
+            "Duration can be extended with Redstone Dust",
+            "Essential for traversing long distances and exploration"
+        ],
+        description: "The Potion of Swiftness is a core alchemical brew that grants the Speed status effect. When consumed, it significantly increases the player's movement speed and slightly enlarges their field of view. This makes it an essential tool for traversing large distances, outrunning hostile mobs, or gaining a tactical advantage in PvP combat. It is brewed by adding Sugar to an Awkward Potion. Like most potions, its potency can be nearly doubled with glowstone or its duration significantly extended with redstone."
+    },
+    "minecraft:potion_of_strength": {
+        id: "minecraft:potion_of_strength",
+        name: "Potion of Strength",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increasing melee damage",
+            secondaryUse: "Boss fights and clearing mob swarms"
+        },
+        combat: {
+            attackDamage: 0,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Blaze Powder"]
+        },
+        specialNotes: [
+            "Increases melee damage by 3 (Level I) or 6 (Level II)",
+            "Potency increased by brewing with Glowstone Dust",
+            "Duration extended by brewing with Redstone Dust",
+            "Does not affect ranged damage (arrows/tridents)",
+            "Essential for endgame boss fights like the Wither"
+        ],
+        description: "The Potion of Strength is a powerful offensive brew that enhances the player's physical prowess. Upon consumption, it grants the Strength status effect, which adds substantial bonus damage to every melee attack. This makes it a staple for high-level combat scenarios, such as raiding ocean monuments or battling the Wither. It is brewed by combining Blaze Powder with an Awkward Potion. While it doesn't affect bow or trident damage, its impact on sword and axe combat is devastating, especially when upgraded to its more potent Level II form."
+    },
+    "minecraft:potion_of_fire_resistance": {
+        id: "minecraft:potion_of_fire_resistance",
+        name: "Potion of Fire Resistance",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Immunity to fire and lava damage",
+            secondaryUse: "Nether exploration and lava swimming"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Magma Cream"]
+        },
+        specialNotes: [
+            "Grants complete immunity to fire, lava, and blazes",
+            "Does not protect against physical attacks from blazes",
+            "Allows players to swim and see through lava more clearly",
+            "Lasts for 3 minutes (base) or 8 minutes (extended)",
+            "Brewed from Magma Cream"
+        ],
+        description: "The Potion of Fire Resistance is a vital survival tool for any player venturing into the Nether or working near large lava pools. It grants absolute immunity to all forms of heat-based damage, including fire, lava, and the fireball projectiles from Blazes and Ghasts. This effect allows players to safely swim through lava lakes and navigate the hazardous terrain of the Nether with much less risk. It is brewed by adding Magma Cream to an Awkward Potion. Unlike most offensive potions, it doesn't have a Level II variant, but it can be extended to last for 8 minutes using redstone."
+    },
     "minecraft:potion_of_decay": {
         id: "minecraft:potion_of_decay",
         name: "Potion of Decay",
