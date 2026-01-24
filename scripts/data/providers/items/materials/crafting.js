@@ -6,7 +6,7 @@
 // blaze powder, nether wart, fermented spider eye, glistering melon slice,
 // eye of ender, golden carrot (crafting), rabbit foot, dragon breath,
 // flow pottery sherd, guster pottery sherd, heart_of_the_sea, nether_star,
-// amethyst shard, heavy_core, gunpowder, popped chorus fruit
+// amethyst shard, gunpowder, popped chorus fruit
 // ============================================
 
 /**
@@ -85,30 +85,6 @@ export const craftingMaterials = {
             "Renewable through Nether Fortress farming"
         ],
         description: "Nether Wart is a fundamental brewing material found exclusively in Nether Fortresses, growing on patches of Soul Sand. It is the primary ingredient for brewing Awkward Potions, which serve as the base for nearly all other potions. Players must travel to a Nether Fortress to find the wart, harvest it, and plant their own farm in the Nether. The wart grows through three stages over roughly 34 minutes, yielding 2-4 pieces when fully matured. Beyond brewing, Nether Wart can be crafted into Red Nether Brick blocks for decorative building, making it a valuable resource for both alchemists and builders exploring the Nether."
-    },
-    "minecraft:heavy_core": {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Crafting the Mace weapon",
-            secondaryUse: "High-level decoration and atmospheric building"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Obtained only from Ominous Vaults"]
-        },
-        specialNotes: [
-            "Introduced as a core component of the Mace weapon in 1.21",
-            "Extremely rare drop from Ominous Vaults in Trial Chambers",
-            "Has a blast resistance of 1200, matching obsidian",
-            "Dropped as an item when the block is mined with any pickaxe",
-            "Combined with a Breeze Rod to create the Mace",
-            "Unique high-density texture distinctive to Trial Chambers"
-        ],
-        description: "The Heavy Core is a unique, dense block and crafting component introduced in the 1.21 Tricky Trials update. Obtained exclusively as a rare reward from Ominous Vaults in Trial Chambers, it serves as the essential ingredient for crafting the Mace weapon when combined with a Breeze Rod. This mysterious, high-tech looking core represents one of the most prestigious rewards from Trial Chambers, requiring players to overcome difficult combat challenges. While it can be placed as a decorative block, its primary value lies in its role as the foundation of the powerful Mace weapon."
     },
     "minecraft:rabbit_foot": {
         id: "minecraft:rabbit_foot",

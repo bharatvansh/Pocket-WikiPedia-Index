@@ -105,11 +105,11 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
+        id: "minecraft:heat_block",
+        name: "Heat Block",
         category: "item",
-        icon: "textures/blocks/heavy_core",
-        themeColor: "§7" // gray/silver
+        icon: "textures/blocks/heat_block",
+        themeColor: "§6" // orange/red
     },
     {
         id: "minecraft:underwater_torch",

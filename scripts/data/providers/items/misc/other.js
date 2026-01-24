@@ -2469,6 +2469,30 @@ export const miscItems = {
         ],
         description: "Underwater TNT is a powerful explosive variant exclusive to Minecraft Bedrock and Education Edition. It is crafted by combining standard TNT with sodium element. While regular TNT creates a shockwave that displaces water but deals no block damage when submerged, underwater TNT is capable of destroying blocks underwater. It features a distinctive teal-blue texture, making it easily identifiable in the inventory. This hazardous tool is invaluable for underwater excavation, clearing shipwrecks, or deep-sea structural removal."
     },
+    "minecraft:heat_block": {
+        id: "minecraft:heat_block",
+        name: "Heat Block",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Melting ice and snow in a radius",
+            secondaryUse: "Decoration with industrial appearance"
+        },
+        crafting: {
+            recipeType: "Lab Table",
+            ingredients: ["1x Charcoal", "1x Iron", "1x Water", "1x Salt"]
+        },
+        specialNotes: [
+            "Exclusive to Bedrock Edition with Education features enabled",
+            "Melts snow layers and ice blocks within a 2-block radius",
+            "Unique among heat sources as it provides no light (light level 0)",
+            "Essential for temperature control in high-latitude builds",
+            "Crafted using Charcoal, Iron, Water, and Salt at a Lab Table",
+            "Used to prevent ice formation in farms without increasing light levels"
+        ],
+        description: "The Heat Block is a specialized Education Edition block designed to manage environmental temperature. Its primary function is to melt snow and ice in a small radius around it. Unlike torches or magma blocks, it produces no light, making it a unique utility for builders who need to clear snow or prevent ice formation without disrupting low-light environments (like mob farms or specific lighting designs). It is created through experimental chemistry at a Lab Table by combining Iron, Water, Charcoal, and Salt."
+    },
     "minecraft:glow_stick": {
         id: "minecraft:glow_stick",
         name: "Glow Stick",
