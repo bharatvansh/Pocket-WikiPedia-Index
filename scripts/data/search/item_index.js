@@ -3518,5 +3518,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_ender_dragon",
         themeColor: "§5"
+    },
+    {
+        id: "minecraft:zoglin_spawn_egg",
+        name: "Zoglin Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_zoglin",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:npc_spawn_egg",
+        name: "NPC Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_npc",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:agent_spawn_egg",
+        name: "Agent Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_agent",
+        themeColor: "§7"
     }
 ];
