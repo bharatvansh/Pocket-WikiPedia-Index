@@ -254,6 +254,75 @@ export const potions = {
         ],
         description: "The Potion of Fire Resistance is a vital survival tool for any player venturing into the Nether or working near large lava pools. It grants absolute immunity to all forms of heat-based damage, including fire, lava, and the fireball projectiles from Blazes and Ghasts. This effect allows players to safely swim through lava lakes and navigate the hazardous terrain of the Nether with much less risk. It is brewed by adding Magma Cream to an Awkward Potion. Unlike most offensive potions, it doesn't have a Level II variant, but it can be extended to last for 8 minutes using redstone."
     },
+    "minecraft:potion_of_healing": {
+        id: "minecraft:potion_of_healing",
+        name: "Potion of Healing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Restoring health instantly",
+            secondaryUse: "Damaging undead mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Glistering Melon Slice"]
+        },
+        specialNotes: [
+            "Restores 2 hearts (Level I) or 4 hearts (Level II) instantly",
+            "Level II is brewed by adding Glowstone Dust",
+            "Has the opposite effect on undead mobs like Zombies and Skeletons",
+            "Cannot be extended with Redstone Dust",
+            "Essential for emergency recovery during combat"
+        ],
+        description: "The Potion of Healing is a vital consumable that provides instantaneous health restoration. Unlike the Potion of Regeneration which heals over time, this brew restores a set amount of health the moment it is consumed. In Bedrock Edition, it is created by brewing a Glistering Melon Slice into an Awkward Potion. For greater potency, players can add Glowstone Dust to create a Potion of Healing II. Interestingly, this potion acts as a weapon against undead creatures, dealing instant damage to them instead of healing."
+    },
+    "minecraft:potion_of_night_vision": {
+        id: "minecraft:potion_of_night_vision",
+        name: "Potion of Night Vision",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Seeing clearly in darkness and underwater",
+            secondaryUse: "Brewing ingredient for Potions of Invisibility"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Golden Carrot"]
+        },
+        specialNotes: [
+            "Provides full brightness even in light level 0",
+            "Improves visibility through water and lava",
+            "Duration can be extended from 3 to 8 minutes using Redstone Dust",
+            "Required base for brewing Potions of Invisibility",
+            "Extremely useful for cave exploration and ocean monument raids"
+        ],
+        description: "The Potion of Night Vision grants the user the ability to see perfectly in the dark. While active, every block is rendered at maximum light level, making it appear as if it were broad daylight. This effect also significantly improves vision underwater, allowing players to see distant structures and mobs more clearly. It is brewed by adding a Golden Carrot to an Awkward Potion. For longer-lasting effects, Redstone Dust can be added to extend its duration to 8 minutes, making it a favorite for miners and underwater explorers."
+    },
+    "minecraft:potion_of_invisibility": {
+        id: "minecraft:potion_of_invisibility",
+        name: "Potion of Invisibility",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Making the player character model invisible",
+            secondaryUse: "Sneaking past hostile mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Potion of Night Vision", "Fermented Spider Eye"]
+        },
+        specialNotes: [
+            "Armor, items in hand, and arrows stuck in body remain visible",
+            "Mobs have a significantly reduced detection range (17% of normal)",
+            "Duration can be extended to 8 minutes with Redstone Dust",
+            "Brewed by corrupting a Potion of Night Vision with a Fermented Spider Eye",
+            "Invisibility is broken if the player attacks or wears too much armor"
+        ],
+        description: "The Potion of Invisibility is a powerful tool for stealth and evasion. When consumed, it makes the player character model completely invisible to others and mobs. However, armor, held items, and particle effects remain visible, which can give away a player's position. Mobs also have a much harder time detecting an invisible player, though wearing armor increases their detection range. It is brewed by adding a Fermented Spider Eye to a Potion of Night Vision. It is ideal for sneaking through dangerous areas or avoiding unwanted combat."
+    },
     "minecraft:potion_of_decay": {
         id: "minecraft:potion_of_decay",
         name: "Potion of Decay",
