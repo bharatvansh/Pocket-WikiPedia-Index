@@ -2093,6 +2093,75 @@ export const miscItems = {
         ],
         description: "The Birch Sign is a light-colored informational item crafted from birch planks and a stick. Due to its' pale, creamy color, it offers excellent contrast for dark text, making it one of the most readable sign types. Like all signs in Bedrock Edition, it can be placed in multiple orientations and features double-sided text support. Players can enhance their signs with colored dyes or glow ink, and lock them using honeycomb to prevent tampering. Its' clean, bright appearance makes it a favorite for modern builds, labs, and well-lit residential areas."
     },
+    "minecraft:cherry_sign": {
+        id: "minecraft:cherry_sign",
+        name: "Cherry Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing and displaying text with a pink aesthetic",
+            secondaryUse: "Labeling and decoration for cherry wood structures"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cherry Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Matches the vibrant pink color of the Cherry Grove biome",
+            "Supports up to 4 lines of text on both the front and back sides",
+            "Text can be customized with dyes and made to grow with Glow Ink Sacs",
+            "Editable after placement; use Honeycomb to wax and prevent further edits",
+            "Introduced as part of the 1.20 Trails & Tales update"
+        ],
+        description: "The Cherry Sign is a decorative and informational item crafted from cherry planks and a stick. Introduced in the 1.20 Trails & Tales update, it features a beautiful, soft pink color that perfectly complements cherry wood constructions. In Bedrock Edition, players can write on both sides of the sign, and the text can be further enhanced using various dyes or made to glow with a Glow Ink Sac. Like other signs, it can be waxed with a honeycomb to lock the text and prevent any future editing, making it ideal for permanent landmarks and shop signage."
+    },
+    "minecraft:bamboo_sign": {
+        id: "minecraft:bamboo_sign",
+        name: "Bamboo Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Broadcasting written information with a tropical theme",
+            secondaryUse: "Labeling gardens and bamboo constructions"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Features a unique horizontal texture from the bamboo wood set",
+            "Both sides support up to four lines of text each",
+            "Can be made into a glowing sign using Glow Ink Sacs",
+            "Treating with Honeycomb prevents any further text editing",
+            "Added in the 1.20 update alongside other bamboo wood products"
+        ],
+        description: "The Bamboo Sign is a distinct informational item crafted from bamboo planks. It stands out from traditional wood signs due to its' unique horizontal wood grain and yellowish-tan color. Introduced in the 1.20 Trails & Tales update, it brings a tropical or eastern aesthetic to signage. Like all modern Bedrock signs, it features dual-sided text entry and can be customized with colored dyes. Its' distinctive appearance makes it a favorite for players building in jungle biomes or those using the versatile bamboo wood set for their structures."
+    },
+    "minecraft:mangrove_sign": {
+        id: "minecraft:mangrove_sign",
+        name: "Mangrove Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing signage with a deep red swamp wood aesthetic",
+            secondaryUse: "Labeling chests in dark or swampy environments"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Mangrove Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Features the deep reddish-brown hue of mangrove wood",
+            "Front and back sides both support up to 4 lines of text",
+            "Text can be tinted with dyes or made luminous with Glow Ink Sacs",
+            "Waxing with Honeycomb locks the text permanently",
+            "Introduced in the 1.19 Wild Update"
+        ],
+        description: "The Mangrove Sign is a dark-wood variant of the sign item, crafted from mangrove planks and a stick. It features the rich, deep red color characteristic of the mangrove swamp's flora, providing an atmospheric tool for communication and organization. In Bedrock Edition, it supports writing on both faces, which can be further customized with dyes or glow ink to ensure readability in low-light swamp environments. Whether used for marking submerged paths or labeling dark-oak and mangrove builds, it offers both functionality and a unique gothic aesthetic."
+    },
     "minecraft:cherry_hanging_sign": {
         id: "minecraft:cherry_hanging_sign",
         name: "Cherry Hanging Sign",
