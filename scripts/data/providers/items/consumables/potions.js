@@ -346,5 +346,74 @@ export const potions = {
             "Highly rare survival item with significant combat utility"
         ],
         description: "The Potion of Decay is a rare and powerful Bedrock Edition exclusive item that inflicts the Wither II effect for 40 seconds. Unlike most potions, it cannot be brewed at a brewing stand in survival mode. It is primarily found as a rare loot item in Witch Hut cauldrons or obtained through commands. When used, it drains the health of most living entities, turning their health bar black and dealing continuous damage. It is one of the few ways to weaponize the Wither effect in Bedrock, making it highly prized for high-stakes encounters."
+    },
+    "minecraft:potion_of_water_breathing": {
+        id: "minecraft:potion_of_water_breathing",
+        name: "Potion of Water Breathing",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Allows breathing underwater without using the oxygen bar",
+            secondaryUse: "Required for deep-sea exploration and mining"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Pufferfish"]
+        },
+        specialNotes: [
+            "Grants the Water Breathing status effect",
+            "Prevents drowning damage while submerged",
+            "Duration can be extended to 8 minutes using Redstone Dust",
+            "Indispensable for Ocean Monument and Shipwreck exploration",
+            "Does not improve visibility; pair with Night Vision for best results"
+        ],
+        description: "The Potion of Water Breathing is an essential tool for any explorer wishing to conquer the oceans of Minecraft. By granting the Water Breathing status effect, it allows players to stay submerged indefinitely without consuming their oxygen bar. This makes it perfect for raiding ocean monuments, searching shipwrecks, or collecting resources like prismarine and scute. It is brewed by adding a Pufferfish to an Awkwaard Potion."
+    },
+    "minecraft:potion_of_slow_falling": {
+        id: "minecraft:potion_of_slow_falling",
+        name: "Potion of Slow Falling",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Slows falling speed and negates fall damage",
+            secondaryUse: "Safely navigating the End or high-altitude structures"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Phantom Membrane"]
+        },
+        specialNotes: [
+            "Completely negates any fall damage upon landing",
+            "Slows the rate of descent, allowing for limited gliding",
+            "Prevents the player from trampling crops while active",
+            "Brewed using Phantom Membranes dropped by Phantoms",
+            "Extremely useful for fighting the Ender Dragon to avoid death from being launched"
+        ],
+        description: "The Potion of Slow Falling is a tactical brew that allows players to descend gracefully from any height. While under its effect, fall speed is significantly reduced, and all fall damage is completely negated, making it a lifesaver in high-stakes environments like the End. It also has a minor benefit of allowing players to walk over crops without destroying them. This potion is brewed by combining a Phantom Membrane with an Awkward Potion."
+    },
+    "minecraft:potion_of_turtle_master": {
+        id: "minecraft:potion_of_turtle_master",
+        name: "Potion of the Turtle Master",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Granting extreme damage resistance at the cost of movement speed",
+            secondaryUse: "Tanking heavy hits from bosses or many enemies"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Turtle Shell"]
+        },
+        specialNotes: [
+            "Applies Slowness IV and Resistance III (Level I) or Slowness VI and Resistance IV (Level II)",
+            "Resistance IV provides a massive 80% damage reduction from most sources",
+            "Brewed by using a Turtle Shell (Helmet) as the brewing ingredient",
+            "Duration is short (20s base), but can be extended with Redstone Dust",
+            "Ideal for surviving high-damage bursts when mobility isn't required"
+        ],
+        description: "The Potion of the Turtle Master is a unique brew that offers a powerful trade-off: incredible defensive prowess in exchange for sluggish movement. When drunk, it grants Resistance III (or IV for Level II) and Slowness IV, reflecting the attributes of a turtle. This makes the player an immovable tank, capable of surviving even the deadliest attacks with ease. It is brewed by adding a Turtle Shell helmet to an Awkward Potion."
     }
 };
