@@ -243,5 +243,74 @@ export const bannerItems = {
             "Has a maximum stack size of 16 items"
         ],
         description: "The Cyan Banner is a vibrant decorative item often associated with the ocean and modern aesthetics in Minecraft Bedrock Edition. Crafted from six pieces of cyan wool and a stick, it serves as a versatile canvas for heraldic designs. Its bright, teal color makes it an excellent choice for visibility and marking important locations, especially in aquatic or modern-themed builds."
+    },
+    "minecraft:light_gray_banner": {
+        id: "minecraft:light_gray_banner",
+        name: "Light Gray Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Light Gray Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 light gray wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Light gray dye is obtained from Azure Bluet, Oxeye Daisy, White Tulip, or mixing other dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items"
+        ],
+        description: "The Light Gray Banner is a soft-colored decorative item used for base heraldry and signaling in Minecraft Bedrock Edition. It is crafted with six pieces of light gray wool and a stick. Like all base banners, it can be customized with various patterns using a Loom and can be applied to shields for a personalized look. Its subtle hue makes it a popular choice for forming the background of elegant emblems or marking territory without being overly distracting."
+    },
+    "minecraft:gray_banner": {
+        id: "minecraft:gray_banner",
+        name: "Gray Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Gray Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 gray wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Gray dye is crafted by combining black and white dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items"
+        ],
+        description: "The Gray Banner is a versatile decorative item used to display heraldry and mark territory in Minecraft Bedrock Edition. It is crafted by combining six pieces of gray wool with a single stick. Like other banners, it can be elaborately customized in a Loom using dyes and banner patterns to create unique designs. Since the 1.20 update, it can also be applied to Shields to provide a personalized defensive option. Its neutral color is perfect for industrial builds, stone-themed areas, or as a sophisticated background."
+    },
+    "minecraft:light_blue_banner": {
+        id: "minecraft:light_blue_banner",
+        name: "Light Blue Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Light Blue Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 light blue wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Light blue dye is obtained from Blue Orchids or by mixing blue and white dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items"
+        ],
+        description: "The Light Blue Banner is a bright, sky-colored decorative item often used for water-themed builds and royal heraldry in Minecraft Bedrock Edition. Crafted from six pieces of light blue wool and a stick, it serves as a versatile canvas for intricate loom patterns. Whether placed atop a palace or applied to a shield for personal flair, the light blue banner provides a clean and ethereal look. Its color is easily sourced from flowers and bone meal, making it a sustainable and attractive choice for decoration."
     }
 };
