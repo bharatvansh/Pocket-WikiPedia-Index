@@ -13,6 +13,78 @@
  * @type {Object.<string, import('../../item_types').ItemDetails>}
  */
 export const miscItems = {
+    "minecraft:shulker_box": {
+        id: "minecraft:shulker_box",
+        name: "Shulker Box",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Portable storage that retains items when broken",
+            secondaryUse: "Can be dyed in 16 different colors"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["2x Shulker Shell", "1x Chest"]
+        },
+        specialNotes: [
+            "Preserves inventory contents even after being broken",
+            "Cannot be placed inside another shulker box",
+            "Bedrock Edition allows breaking by hand while still dropping as an item",
+            "Provides 27 slots of storage space",
+            "Can be moved by pistons but will break if pushed into a solid block",
+            "Interacting with a shulker box while it's in a dispenser places it"
+        ],
+        description: "A Shulker Box is a revolutionary storage item that keeps its inventory when broken, unlike standard chests. This makes it essential for long-distance transport and organizing large quantities of resources. Introduced in the 1.11 update, it is crafted from shulker shells obtained in the End. Shulker boxes provide 27 slots of space and can be customized with 16 different colors. In Bedrock Edition, they can be broken by any tool or even by hand without losing the items inside, although a pickaxe remains the most efficient method."
+    },
+    "minecraft:conduit": {
+        id: "minecraft:conduit",
+        name: "Conduit",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Providing Conduit Power and attacking hostile mobs underwater",
+            secondaryUse: "Emits a high light level (15) even when not active"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["8x Nautilus Shell", "1x Heart of the Sea"]
+        },
+        specialNotes: [
+            "Requires a frame of 16-42 Prismarine or Sea Lantern blocks to activate",
+            "Provides the 'Conduit Power' effect (Water Breathing, Night Vision, Haste)",
+            "Fully powered conduits (42 blocks) attack nearby hostile mobs in water",
+            "Range varies from 32 to 96 blocks depending on the frame size",
+            "Acts as a permanent light source even when deactivated",
+            "Must be submerged in water to function"
+        ],
+        description: "The Conduit is a powerful beacon-like block that grants players mystical abilities while underwater. When placed in the center of a prismarine or sea lantern frame and submerged in water, it activates and bestows 'Conduit Power'—a combination of Water Breathing, Night Vision, and Haste. For those who complete a full 42-block frame, the Conduit also serves as a sentinel, damaging hostile mobs within an 8-block radius of the frame. It is crafted from rare heart of the sea and nautilus shells, making it a prized asset for oceanic exploration and base building."
+    },
+    "minecraft:ender_chest": {
+        id: "minecraft:ender_chest",
+        name: "Ender Chest",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Accessing a shared, player-private inventory across all Ender Chests",
+            secondaryUse: "Highly blast resistant storage (3,000 resistance)"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["8x Obsidian", "1x Eye of Ender"]
+        },
+        specialNotes: [
+            "All Ender Chests share the same cross-dimensional, player-specific inventory",
+            "Contents are safe even if the chest is destroyed; they remain in the player's 'Ender' space",
+            "Requires Silk Touch to pick up; otherwise drops 8 blocks of Obsidian",
+            "Excellent for protecting valuable items in multiplayer environments",
+            "Cannot be moved by pistons or used with hoppers",
+            "Explosion resistance is high enough to withstand TNT and creeper blasts"
+        ],
+        description: "The Ender Chest is a specialized storage block that allows players to access a private, shared inventory from any Ender Chest in any dimension. Unlike normal chests, the contents of an Ender Chest are unique to each player and remain stored even if every Ender Chest in the world is destroyed. This makes it an essential tool for safely transporting high-value items like diamonds and enchanted gear. Crafted from obsidian and an eye of ender, it is very durable. To retrieve the block itself, a pickaxe with Silk Touch is required; otherwise, it will simply break into its base obsidian."
+    },
     "minecraft:dragon_egg": {
         id: "minecraft:dragon_egg",
         name: "Dragon Egg",
