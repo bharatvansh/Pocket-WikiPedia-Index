@@ -415,5 +415,74 @@ export const potions = {
             "Ideal for surviving high-damage bursts when mobility isn't required"
         ],
         description: "The Potion of the Turtle Master is a unique brew that offers a powerful trade-off: incredible defensive prowess in exchange for sluggish movement. When drunk, it grants Resistance III (or IV for Level II) and Slowness IV, reflecting the attributes of a turtle. This makes the player an immovable tank, capable of surviving even the deadliest attacks with ease. It is brewed by adding a Turtle Shell helmet to an Awkward Potion."
+    },
+    "minecraft:potion_of_regeneration": {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Restoring health over time",
+            secondaryUse: "Brewing extended or more potent versions"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Ghast Tear"]
+        },
+        specialNotes: [
+            "Restores health even when the hunger bar is low",
+            "Does not restore health to undead mobs (Zombies, Skeletons)",
+            "Base duration is 45 seconds in Bedrock Edition",
+            "Extended version lasts 2 minutes with Redstone Dust",
+            "Level II version restores health faster but lasts only 22 seconds"
+        ],
+        description: "The Potion of Regeneration is a vital defensive brew that restores the player's health over time. Unlike the Potion of Healing, which provides an instant burst of health, Regeneration provides a steady recovery, making it ideal for drawn-out battles or surviving environmental hazards. It is brewed by adding a Ghast Tear to an Awkward Potion. In Bedrock Edition, the effect is potent enough to sustain a player through significant damage, provided they can avoid being overwhelmed quickly."
+    },
+    "minecraft:potion_of_poison": {
+        id: "minecraft:potion_of_poison",
+        name: "Potion of Poison",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying damage over time to enemies",
+            secondaryUse: "Brewing into Splash or Lingering potions for combat"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Spider Eye"]
+        },
+        specialNotes: [
+            "Reduces health to a minimum of half a heart; cannot kill directly",
+            "Undead mobs are immune to poison effects",
+            "Spider eyes used for brewing can be obtained from Spiders and Cave Spiders",
+            "Most effective when used as a Splash Potion against multiple targets",
+            "Duration can be extended or potency increased with Redstone or Glowstone"
+        ],
+        description: "The Potion of Poison is a classic offensive alchemical tool that inflicts damage over time. When consumed or thrown, it slowly drains the target's health bar. Crucially, poison alone cannot kill a mob or player; it will stop dealing damage once the target is reduced to half a heart (one hit point). This makes it a perfect 'softening' tool before a final blow. It is brewed by adding a Spider Eye to an Awkward Potion. In Bedrock Edition, it is often used in Splash form to weaken groups of raiders or players in PvP."
+    },
+    "minecraft:potion_of_leaping": {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increasing jump height and distance",
+            secondaryUse: "Reducing fall damage and navigating vertical terrain"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Rabbit's Foot"]
+        },
+        specialNotes: [
+            "Level I allows jumping over 1.25 blocks; Level II allows jumping over 2.5 blocks",
+            "Slightly reduces fall damage by accounting for the increased jump peak",
+            "Brewed using a Rabbit's Foot, a rare drop from Rabbits",
+            "Highly useful for traversing mountainous biomes like Jagged Peaks",
+            "Can be extended to 8 minutes with Redstone Dust"
+        ],
+        description: "The Potion of Leaping grants the Jump Boost status effect, significantly enhancing the player's athletic capabilities. While active, the player can clear higher obstacles and jump across wider gaps that would normally be impassable. This makes it an excellent choice for exploration in rugged terrain or for gaining the high ground during combat. It is brewed by adding a Rabbit's Foot to an Awkward Potion. In Bedrock Edition, the increased mobility is particularly useful for building, cave exploration, and safely descending steep cliffs."
     }
 };
