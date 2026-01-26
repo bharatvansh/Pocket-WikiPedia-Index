@@ -415,5 +415,74 @@ export const potions = {
             "Ideal for surviving high-damage bursts when mobility isn't required"
         ],
         description: "The Potion of the Turtle Master is a unique brew that offers a powerful trade-off: incredible defensive prowess in exchange for sluggish movement. When drunk, it grants Resistance III (or IV for Level II) and Slowness IV, reflecting the attributes of a turtle. This makes the player an immovable tank, capable of surviving even the deadliest attacks with ease. It is brewed by adding a Turtle Shell helmet to an Awkward Potion."
+    },
+    "minecraft:potion_of_poison": {
+        id: "minecraft:potion_of_poison",
+        name: "Potion of Poison",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying poison damage to living entities",
+            secondaryUse: "Brewing ingredient for Potions of Harming"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Spider Eye"]
+        },
+        specialNotes: [
+            "Inflicts the Poison status effect, dealing damage over time.",
+            "Cannot kill the target; health will stop dropping at half a heart.",
+            "Brewed by adding a Spider Eye to an Awkward Potion.",
+            "Can be extended with Redstone or enhanced with Glowstone.",
+            "Used to craft Potion of Harming (Instant Damage) with a Fermented Spider Eye."
+        ],
+        description: "The Potion of Poison is a brewing-based consumable that inflicts the Poison status effect. While active, the consumer takes continuous damage over time, though it cannot reduce health below half a heart. It is essential for offensive splash variants to weaken enemies. In Bedrock Edition, it is brewed by adding a Spider Eye to an Awkward Potion. The effect can be extended to 1:30 or 2:00 minutes using redstone, or enhanced to Poison II with glowstone for faster damage."
+    },
+    "minecraft:potion_of_regeneration": {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Gradually restoring health over time",
+            secondaryUse: "Survival in high-damage environments"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Ghast Tear"]
+        },
+        specialNotes: [
+            "Restores health gradually over time.",
+            "Brewed by combining a Ghast Tear with an Awkward Potion.",
+            "Essential for long combat encounters and boss fights.",
+            "Potency can be doubled (Regeneration II) using Glowstone Dust.",
+            "Duration can be significantly extended using Redstone Dust."
+        ],
+        description: "The Potion of Regeneration is a vital health-restoring brew that grants the Regeneration status effect. Unlike the Potion of Healing, which is instantaneous, this potion restores health gradually over its duration. This makes it ideal for sustained combat or recovery between battles. It is crafted in a Brewing Stand by combining a Ghast Tear with an Awkward Potion. Its potency can be increased with glowstone or its duration extended with redstone dust."
+    },
+    "minecraft:potion_of_harming": {
+        id: "minecraft:potion_of_harming",
+        name: "Potion of Harming",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Dealing instant damage to living entities",
+            secondaryUse: "Instantly healing undead mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Potion of Poison/Healing", "Fermented Spider Eye"]
+        },
+        specialNotes: [
+            "Deals 3 hearts of Instant Damage (Level I) or 6 hearts (Level II).",
+            "Heals undead mobs instead of damaging them.",
+            "Brewed by adding a Fermented Spider Eye to a Potion of Poison or Healing.",
+            "Best used as a Splash Potion for offensive combat.",
+            "Damage is unaffected by armor but can be reduced by Protection enchantments."
+        ],
+        description: "The Potion of Harming is a powerful offensive brew that inflicts Instant Damage. Upon consumption or impact, it immediately subtracts health from the target. Uniquely, this potion heals undead mobs like Zombies and Skeletons while damaging living entities. In Bedrock Edition, it is created by fermenting a Potion of Poison or Potion of Healing with a Fermented Spider Eye. It is most commonly used as a Splash Potion to deal area-of-effect damage to enemies."
     }
 };
