@@ -36,6 +36,29 @@ export const miscItems = {
         ],
         description: "The Dragon Egg is a unique trophy item that appears at the top of the exit portal after defeating the Ender Dragon for the first time. It is widely considered the rarest item in the game since only one naturally generates per world. While it has no functional crafting use, it serves as a prestigious decorative piece. In survival mode, attempting to mine it normally will cause it to teleport to a nearby location; players must use clever methods like pistons or placing a torch under the block it falls on to successfully collect it."
     },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the powerful Mace weapon",
+            secondaryUse: "High-weight decorative block for structures"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found as a 7.5% drop from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Extremely dense and heavy block used as a weapon core",
+            "Obtained exclusively from Ominous Vaults in Trial Chambers",
+            "Combined with a Breeze Rod to craft the Mace",
+            "Can be placed as a decorative block with a unique stone-like texture",
+            "Introduced in the 1.21 Tricky Trials update"
+        ],
+        description: "The Heavy Core is a rare and exceptionally dense item introduced in the 1.21 Tricky Trials update. It is primarily sought after as the essential component for crafting the Mace, a unique weapon that deals increased damage based on fall distance. This heavy block cannot be crafted and must be obtained as a rare reward by unlocking Ominous Vaults with Ominous Trial Keys. Beyond its use in weapon smithing, it can be placed as a decorative block, possessing a high blast resistance and a distinct, industrial aesthetic that reflects its immense weight."
+    },
     "minecraft:name_tag": {
         id: "minecraft:name_tag",
         name: "Name Tag",

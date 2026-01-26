@@ -484,5 +484,51 @@ export const potions = {
             "Damage is unaffected by armor but can be reduced by Protection enchantments."
         ],
         description: "The Potion of Harming is a powerful offensive brew that inflicts Instant Damage. Upon consumption or impact, it immediately subtracts health from the target. Uniquely, this potion heals undead mobs like Zombies and Skeletons while damaging living entities. In Bedrock Edition, it is created by fermenting a Potion of Poison or Potion of Healing with a Fermented Spider Eye. It is most commonly used as a Splash Potion to deal area-of-effect damage to enemies."
+    },
+    "minecraft:potion_of_leaping": {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increasing jump height and reducing fall damage",
+            secondaryUse: "Vertical exploration and navigating rough terrain"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Rabbit's Foot"]
+        },
+        specialNotes: [
+            "Increases jump height by 1/2 block (Level I) or 1 1/4 blocks (Level II)",
+            "Reduces fall damage received due to increased jump height benefits",
+            "Level II is brewed by adding Glowstone Dust",
+            "Duration can be extended to 8 minutes with Redstone Dust",
+            "Essential for clearing fences or reaching high ledges"
+        ],
+        description: "The Potion of Leaping is an agility-focused brew that grants the Jump Boost status effect. When consumed, it allows the player to jump higher than the standard one-block height, which is particularly useful for traversing mountainous terrain or escaping danger. It also provides a minor benefit of reducing fall damage from lower heights. This potion is brewed by adding a Rabbit's Foot to an Awkward Potion. Like many other potions, its jump power can be boosted or its duration extended through standard alchemical enhancements."
+    },
+    "minecraft:potion_of_slowness": {
+        id: "minecraft:potion_of_slowness",
+        name: "Potion of Slowness",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decreasing movement speed and field of view",
+            secondaryUse: "Tactical combat control and trapping entities"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Potion of Swiftness/Leaping", "Fermented Spider Eye"]
+        },
+        specialNotes: [
+            "Decreases movement speed by 15% (Level I) or 60% (Level IV with specific recipes)",
+            "Also contracts the user's field of view (FOV)",
+            "Brewed by adding a Fermented Spider Eye to a Potion of Swiftness or Leaping",
+            "Highly effective when used as a Splash Potion against fast enemies",
+            "Commonly used to control mob placement or slow down players in PvP"
+        ],
+        description: "The Potion of Slowness is a debuffing concoction that significantly impairs an entity's mobility. By granting the Slowness status effect, it reduces movement speed and narrows the victim's field of vision, making it much harder for them to navigate or fight effectively. While harmful to the drinker, it is an invaluable tool in splash form for tactical combat. It is created by 'corrupting' a Potion of Swiftness or Leaping with a Fermented Spider Eye, turning a mobility buff into a crippling speed reduction."
     }
 };

@@ -147,6 +147,13 @@ export const itemIndex = [
         themeColor: "§6" // copper/brown
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:ominous_bottle",
         name: "Ominous Bottle",
         category: "item",
@@ -285,6 +292,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/potion_bottle_drinkable",
         themeColor: "§4" // dark red/maroon
+    },
+    {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:potion_of_slowness",
+        name: "Potion of Slowness",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§7" // gray
     },
     {
         id: "minecraft:creeper_spawn_egg",
