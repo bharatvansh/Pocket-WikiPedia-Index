@@ -2403,6 +2403,69 @@ export const miscItems = {
         ],
         description: "The Portfolio is a specialized item used to store and organize the photos captured with a Camera. It functions similarly to a book, allowing players to flip through their pictures and add captions. This makes it an essential companion for the Camera, providing a way to preserve and share memories of your Minecraft journey. It is only available when Education features are enabled or via the Creative inventory."
     },
+    "minecraft:photo": {
+        id: "minecraft:photo",
+        name: "Photo",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Viewing captured images.",
+            secondaryUse: "Storing in a Portfolio."
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Produced by using a Camera"]
+        },
+        specialNotes: [
+            "Stores a snapshot of the Minecraft world.",
+            "Can be placed into a Portfolio to create a photo album.",
+            "Bedrock and Education Edition exclusive."
+        ],
+        description: "A Photo is an item generated when a player uses a Camera to take a snapshot of the world. Each photo captures a still image of what the camera was pointing at at the moment of capture. These items can be held and viewed by the player or placed inside a Portfolio for organization and captioning. Photos are essential for documenting builds, adventures, and educational projects within the Bedrock and Education Editions of Minecraft."
+    },
+    "minecraft:slate": {
+        id: "minecraft:slate",
+        name: "Slate",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Writing and displaying text (1x1 area).",
+            secondaryUse: "Decorative signage."
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Obtainable via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "The smallest type of Chalkboard available.",
+            "Can be edited by clicking on it once placed.",
+            "Locked to a 1x1 block surface."
+        ],
+        description: "The Slate is the smallest version of the Chalkboard item, measuring 1x1 blocks. It allows players and educators to write short messages or labels on a dark, stone-like surface. Unique to Bedrock and Education Editions, slates are often used in educational maps to provide instructions or information. Once placed, any player with appropriate permissions can interact with it to change the text, making it a dynamic communicative tool."
+    },
+    "minecraft:poster": {
+        id: "minecraft:poster",
+        name: "Poster",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Writing and displaying text (2x1 area).",
+            secondaryUse: "Classroom-style signage."
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Obtainable via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "A medium-sized Chalkboard.",
+            "Covers a 2x1 block area.",
+            "Ideal for titles or short instructions."
+        ],
+        description: "The Poster is a medium-sized Chalkboard that occupies a 2x1 vertical space. It provides more room for text than a Slate, making it ideal for headings, warnings, or classroom-style notes. Like other chalkboards in Bedrock and Education Editions, it can be placed on wall surfaces and edited to display custom text. It is a key tool for world-builders who need a larger surface for communication than a sign but smaller than a full-sized Board."
+    },
     "minecraft:balloon": {
         id: "minecraft:balloon",
         name: "Balloon",
