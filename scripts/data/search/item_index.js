@@ -3219,6 +3219,27 @@ export const itemIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:photo",
+        name: "Photo",
+        category: "item",
+        icon: "textures/items/photo",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:slate",
+        name: "Slate",
+        category: "item",
+        icon: "textures/items/chalkboard_small",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:poster",
+        name: "Poster",
+        category: "item",
+        icon: "textures/items/chalkboard_medium",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:balloon",
         name: "Balloon",
         category: "item",
