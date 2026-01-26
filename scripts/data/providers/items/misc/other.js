@@ -183,6 +183,75 @@ export const miscItems = {
         ],
         description: "The Trial Explorer Map is a specialized navigational tool used to uncover the location of Trial Chambers. These maps are not found in chests or crafted; instead, they must be purchased from a Journeyman-level Cartographer. The map reveals the surrounding terrain of a nearby Trial Chamber, marking its location with a small icon. This makes them indispensable for players looking to engage with the combat challenges and rewards of the chambers."
     },
+    "minecraft:ocean_explorer_map": {
+        id: "minecraft:ocean_explorer_map",
+        name: "Ocean Explorer Map",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Ocean Monuments",
+            secondaryUse: "Navigation and aquatic exploration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Traded by Apprentice Cartographer villagers"]
+        },
+        specialNotes: [
+            "Points to the nearest Ocean Monument in the world",
+            "Obtained from Apprentice level Cartographers for 12 emeralds and a compass",
+            "Displays a unique blue icon for the monument",
+            "Essential for finding Elder Guardians and sponges",
+            "Functional in any dimension but only points to Overworld structures"
+        ],
+        description: "The Ocean Explorer Map is a specialized map used to locate the nearest Ocean Monument. Unlike standard maps, it highlights the structure with a unique icon and shows the surrounding terrain relative to the monument. In Bedrock Edition, it is purchased from Apprentice-level Cartographers. It is essential for players seeking to conquer Elder Guardians and obtain rare materials like sponges or prismarine blocks."
+    },
+    "minecraft:woodland_explorer_map": {
+        id: "minecraft:woodland_explorer_map",
+        name: "Woodland Explorer Map",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Woodland Mansions",
+            secondaryUse: "Navigation and forest scouting"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Traded by Journeyman Cartographer villagers"]
+        },
+        specialNotes: [
+            "Points to the nearest Woodland Mansion structure",
+            "Obtained from Journeyman level Cartographers for 12 emeralds and a compass",
+            "Woodland Mansions can be extremely far away (often 10,000+ blocks)",
+            "The map reveals the layout of the dark forest around the mansion",
+            "Key item for finding Totems of Undying dropped by Evokers"
+        ],
+        description: "The Woodland Explorer Map is a rare navigational tool that points to the nearest Woodland Mansion. These mansions are often thousands of blocks away from the world spawn, making the map indispensable for finding them. In Bedrock Edition, it can be traded from a Journeyman-level Cartographer. The map reveals the layout of the area surrounding the mansion, helping players prepare for the dangerous Illagers and Vindicators residing within."
+    },
+    "minecraft:buried_treasure_map": {
+        id: "minecraft:buried_treasure_map",
+        name: "Buried Treasure Map",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Locating Buried Treasure chests",
+            secondaryUse: "Finding rare loot like Heart of the Sea"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Shipwrecks and Ocean Ruins"]
+        },
+        specialNotes: [
+            "Features a red 'X' mark showing the treasure location",
+            "Cannot be purchased; must be found in the world",
+            "Usually found in Shipwrecks or Ocean Ruins",
+            "Treasure is typically buried under sand or gravel",
+            "Crucial for obtaining the Heart of the Sea to craft a Conduit"
+        ],
+        description: "A Buried Treasure Map is a navigational item used to locate hidden loot under sand or gravel. Unlike other explorer maps, these cannot be purchased from villagers; they must be found in Shipwrecks or Ocean Ruins. The map features a red 'X' marking the exact spot of a Buried Treasure chest, which contains valuable items such as the Heart of the Sea, diamonds, and iron ingots."
+    },
     "minecraft:wolf_armor": {
         id: "minecraft:wolf_armor",
         name: "Wolf Armor",
