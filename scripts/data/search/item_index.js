@@ -224,6 +224,27 @@ export const itemIndex = [
         themeColor: "§5"
     },
     {
+        id: "minecraft:potion_of_regeneration",
+        name: "Potion of Regeneration",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:potion_of_poison",
+        name: "Potion of Poison",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a"
+    },
+    {
         id: "minecraft:potion_of_swiftness",
         name: "Potion of Swiftness",
         category: "item",
