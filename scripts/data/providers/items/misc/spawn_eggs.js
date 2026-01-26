@@ -1633,5 +1633,71 @@ export const spawnEggs = {
             "One of the few entities in Bedrock designed for full programmability."
         ],
         description: "The Agent Spawn Egg summons a unique robotic companion found in Bedrock and Education Editions. The Agent is designed as a tool for learning programming, allowing players to automate tasks like building, mining, and farming through external code editors. It is a separate entity from the player and can be programmed to navigate the world and perform complex actions, serving as an entry point into the world of Minecraft coding and automation."
+    },
+    "minecraft:zombie_villager_spawn_egg": {
+        id: "minecraft:zombie_villager_spawn_egg",
+        name: "Zombie Villager Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Zombie Villager",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Zombie Villager that can be cured into a regular Villager.",
+            "Changes a Spawner's type to Zombie Villager when used on it.",
+            "Essential for testing curing mechanics and discount systems.",
+            "In Bedrock, they do not spawn with equipment naturally."
+        ],
+        description: "The Zombie Villager Spawn Egg is an item used to instantly summon a Zombie Villager. These mobs are unique because they can be cured back into Villagers using a Weakness potion and a Golden Apple, which often results in significant trade discounts. In Bedrock Edition, natural zombie villagers make up about 5% of zombie spawns. This spawn egg is a vital tool for map makers and technical players who need to establish villager trading halls or test mob conversion mechanics in a controlled environment."
+    },
+    "minecraft:tropical_fish_spawn_egg": {
+        id: "minecraft:tropical_fish_spawn_egg",
+        name: "Tropical Fish Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Tropical Fish",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons one of 2,700 naturally occurring tropical fish variants.",
+            "In Bedrock, fish spawn eggs have unique, detailed textures.",
+            "Requires water to survive or will begin to suffocate on land.",
+            "Can be used to create randomized, colorful coral reef environments."
+        ],
+        description: "The Tropical Fish Spawn Egg allows players to instantly summon a variety of tropical fish. With over 2,700 possible combinations of patterns and colors in Bedrock Edition, this egg is the fastest way to populate aquariums and reefs with vibrant marine life. Each usage results in a randomized fish variant, making it a favorite for decorators. Like all aquatic electronics, tropical fish must be placed in water to prevent them from suffocating. It can also be used to modify Monster Spawners to produce tropical fish."
+    },
+    "minecraft:salmon_spawn_egg": {
+        id: "minecraft:salmon_spawn_egg",
+        name: "Salmon Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Salmon",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "In Bedrock, Salmon can spawn in three distinct sizes: small, medium, and large.",
+            "Essential for populating rivers and cold ocean biomes.",
+            "Salmon are a primary source of raw salmon food and experience.",
+            "Must be placed in water to avoid suffocation."
+        ],
+        description: "The Salmon Spawn Egg is used to instantly summon a Salmon at the targeted location. A unique feature of Salmon in Bedrock Edition is their ability to spawn in three different sizes, each with slightly different hitboxes. These fish are commonly found in rivers and oceans and are a reliable source of food. This spawn egg is highly useful for Creative builders designing fish ladders, cold-water habitats, or automated fishing systems. As with other eggs, it can be applied to a Monster Spawner to create a salmon-producing block."
     }
 };
