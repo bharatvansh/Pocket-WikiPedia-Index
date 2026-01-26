@@ -203,6 +203,27 @@ export const itemIndex = [
         themeColor: "§5"
     },
     {
+        id: "minecraft:potion_of_water_breathing",
+        name: "Potion of Water Breathing",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:potion_of_slow_falling",
+        name: "Potion of Slow Falling",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:potion_of_turtle_master",
+        name: "Potion of the Turtle Master",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:potion_of_swiftness",
         name: "Potion of Swiftness",
         category: "item",
