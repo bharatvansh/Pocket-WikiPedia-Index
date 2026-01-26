@@ -197,5 +197,51 @@ export const bannerItems = {
             "Has a maximum stack size of 16 items"
         ],
         description: "The Yellow Banner is a sun-colored decorative item used to brighten up builds and display player-created designs in Minecraft Bedrock Edition. It is crafted using six blocks of yellow wool and a single stick. This banner represents light and energy, making it a popular choice for marking settlements, shops, or farms. Beyond being a simple flag, it can be customized with various patterns in a Loom and applied to shields for personal expression. Its visibility from a distance makes it an excellent tool for navigation and signaling across the Overworld biomes."
+    },
+    "minecraft:purple_banner": {
+        id: "minecraft:purple_banner",
+        name: "Purple Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Purple Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 purple wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Purple dye is crafted by combining red and blue dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items"
+        ],
+        description: "The Purple Banner is a regal decorative item often associated with mystery and magic in Minecraft Bedrock Edition. Crafted from six pieces of purple wool and a stick, it serves as a versatile canvas for heraldic designs. Whether placed atop a wizard's tower or applied to a shield for personal flair, the purple banner provides a rich and professional look for any player faction. Its color is easily sourced from mixing primary dyes, making it a sustainable choice for large-scale decoration."
+    },
+    "minecraft:cyan_banner": {
+        id: "minecraft:cyan_banner",
+        name: "Cyan Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Cyan Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 cyan wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Cyan dye is crafted by combining green and blue dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items"
+        ],
+        description: "The Cyan Banner is a vibrant decorative item often associated with the ocean and modern aesthetics in Minecraft Bedrock Edition. Crafted from six pieces of cyan wool and a stick, it serves as a versatile canvas for heraldic designs. Its bright, teal color makes it an excellent choice for visibility and marking important locations, especially in aquatic or modern-themed builds."
     }
 };

@@ -455,6 +455,13 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:music_disc_5",
+        name: "Music Disc (5)",
+        category: "item",
+        icon: "textures/items/music_disc_5",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:creeper_banner_pattern",
         name: "Creeper Banner Pattern",
         category: "item",
@@ -544,6 +551,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/banner_yellow",
         themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:purple_banner",
+        name: "Purple Banner",
+        category: "item",
+        icon: "textures/items/banner_purple",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:cyan_banner",
+        name: "Cyan Banner",
+        category: "item",
+        icon: "textures/items/banner_cyan",
+        themeColor: "§3" // cyan
     },
     {
         id: "minecraft:flow_pottery_sherd",
@@ -1496,13 +1517,6 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/gold_ingot",
         themeColor: "§e"
-    },
-    {
-        id: "minecraft:music_disc_5",
-        name: "Music Disc (5)",
-        category: "item",
-        icon: "textures/items/music_disc_5",
-        themeColor: "§b"
     },
     {
         id: "minecraft:wither_skeleton_skull",
@@ -3161,6 +3175,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/tipped_arrow",
         themeColor: "§b" // aqua/potion
+    },
+    {
+        id: "minecraft:arrow_of_decay",
+        name: "Arrow of Decay",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§2"
     },
     {
         id: "minecraft:cow_spawn_egg",
