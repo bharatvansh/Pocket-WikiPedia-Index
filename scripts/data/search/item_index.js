@@ -588,6 +588,27 @@ export const itemIndex = [
         themeColor: "§3" // cyan
     },
     {
+        id: "minecraft:light_gray_banner",
+        name: "Light Gray Banner",
+        category: "item",
+        icon: "textures/items/banner_light_gray",
+        themeColor: "§7" // light gray
+    },
+    {
+        id: "minecraft:gray_banner",
+        name: "Gray Banner",
+        category: "item",
+        icon: "textures/items/banner_gray",
+        themeColor: "§8" // gray
+    },
+    {
+        id: "minecraft:light_blue_banner",
+        name: "Light Blue Banner",
+        category: "item",
+        icon: "textures/items/banner_light_blue",
+        themeColor: "§b" // light blue
+    },
+    {
         id: "minecraft:flow_pottery_sherd",
         name: "Flow Pottery Sherd",
         category: "item",
