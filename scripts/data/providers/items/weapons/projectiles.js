@@ -122,6 +122,33 @@ export const projectiles = {
         ],
         description: "Tipped Arrows are advanced projectiles that combine standard ranged damage with the utility of status effects. In Bedrock Edition, they feature a unique crafting method where players can dip regular arrows into a cauldron filled with a potion, providing a highly efficient way to mass-produce them. These arrows are invaluable for tactical combat, allowing players to weaken foes from a distance or apply helpful buffs to allies. Because they are consumed even with the Infinity enchantment, they are often saved for critical encounters."
     },
+    "minecraft:arrow_of_decay": {
+        id: "minecraft:arrow_of_decay",
+        name: "Arrow of Decay",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting the Wither effect on targets from a distance",
+            secondaryUse: "Tactical combat against players and most mobs"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Decay (in Cauldron)"]
+        },
+        specialNotes: [
+            "Exclusive to Minecraft Bedrock Edition (and Education Edition)",
+            "Inflicts the Wither status effect, which deals damage over time",
+            "Wither damage can kill a target, unlike Poison which leaves them at 1/2 heart",
+            "Can be found as rare loot in Buried Treasure chests",
+            "One of the most powerful tipped arrows for PvP combat"
+        ],
+        description: "The Arrow of Decay is a powerful and rare tipped arrow exclusive to Bedrock and Education Editions. It inflicts the Wither status effect on hit, which progressively drains the target's health. Unlike poison, the Wither effect can be fatal, making these arrows extremely dangerous in combat. They are primarily obtained by dipping regular arrows into a cauldron filled with a Potion of Decay, or by finding them in Buried Treasure chests. Their scarcity and high damage potential make them a prized asset for late-game players."
+    },
     "minecraft:ice_bomb": {
         id: "minecraft:ice_bomb",
         name: "Ice Bomb",
