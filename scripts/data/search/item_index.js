@@ -476,6 +476,27 @@ export const itemIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:music_disc_magnetic",
+        name: "Music Disc (Magnetic)",
+        category: "item",
+        icon: "textures/items/music_disc_magnetic",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:music_disc_resonance",
+        name: "Music Disc (Resonance)",
+        category: "item",
+        icon: "textures/items/music_disc_resonance",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:music_disc_ponder",
+        name: "Music Disc (Ponder)",
+        category: "item",
+        icon: "textures/items/music_disc_ponder",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",
         category: "item",
