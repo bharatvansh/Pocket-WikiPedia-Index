@@ -111,6 +111,32 @@ export const swords = {
         ],
         description: "The Iron Sword is a versatile weapon that deals moderate damage. It's more durable than wooden or stone swords but less powerful than diamond or netherite swords. Iron swords can be enchanted with various combat-related enchantments."
     },
+    "minecraft:copper_sword": {
+        id: "minecraft:copper_sword",
+        name: "Copper Sword",
+        maxStack: 1,
+        durability: 180,
+        enchantable: true,
+        usage: {
+            primaryUse: "Melee combat",
+            secondaryUse: "Breaking cobwebs"
+        },
+        combat: {
+            attackDamage: 6,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x2", "Stick"]
+        },
+        specialNotes: [
+            "Deals 6 attack damage (3 hearts) per hit",
+            "Durability of 180 is higher than stone (132) but less than iron (251)",
+            "Exclusive to Bedrock Edition 1.21.111+ (The Copper Age)",
+            "Can be smelted into a Copper Nugget"
+        ],
+        description: "The Copper Sword is a mid-tier melee weapon introduced in the 1.21.111 'Copper Age' update. It deals the same damage as a Stone Sword (6 points/3 hearts) but features significantly higher durability at 180 uses. This makes it a sustainable alternative for players with an abundance of copper who haven't yet secured enough iron. Like other swords, it can be enchanted and used to clear cobwebs efficiently."
+    },
     "minecraft:diamond_sword": {
         id: "minecraft:diamond_sword",
         name: "Diamond Sword",
