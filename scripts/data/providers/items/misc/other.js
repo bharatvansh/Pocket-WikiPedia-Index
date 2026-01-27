@@ -2887,6 +2887,75 @@ export const miscItems = {
         ],
         description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
     },
+    "minecraft:ammonia": {
+        id: "minecraft:ammonia",
+        name: "Ammonia",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Super Fertilizer",
+            secondaryUse: "Experimental chemistry"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Nitrogen x1", "Hydrogen x3"]
+        },
+        specialNotes: [
+            "Created in the Compound Creator using Nitrogen and Hydrogen.",
+            "Used as a key ingredient for crafting Super Fertilizer in the Lab Table.",
+            "Essential for advanced chemical experiments in Bedrock Education Edition.",
+            "Stackable up to 64 items in the inventory.",
+            "Classified as a chemical compound within the Education feature set."
+        ],
+        description: "Ammonia is a chemical compound available in Minecraft Bedrock when Education features are active. It is produced by combining one Nitrogen atom and three Hydrogen atoms in the Compound Creator. As a vital component of the game's chemistry system, Ammonia's primary utility is in the manufacturing of Super Fertilizer, which is crafted at the Lab Table. This compound represents the educational potential of Bedrock Edition, allowing players to explore molecular combinations and their practical applications in agriculture and experimental science."
+    },
+    "minecraft:salt": {
+        id: "minecraft:salt",
+        name: "Salt",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Heat Blocks",
+            secondaryUse: "Learning about ionic bonding"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Sodium x1", "Chlorine x1"]
+        },
+        specialNotes: [
+            "Produced in the Compound Creator by combining Sodium and Chlorine.",
+            "Used as an ingredient for creating Heat Blocks in the Lab Table.",
+            "Fundamental for learning about ionic bonding in a virtual laboratory.",
+            "Essential material for temperature management in frozen environments.",
+            "Stackable up to 64, like most other chemical compounds."
+        ],
+        description: "Salt, also known as Sodium Chloride, is a chemical compound in Minecraft Bedrock's Education Edition. It is synthesized in the Compound Creator by combining one Sodium atom and one Chlorine atom. Salt serves as a foundational material for advanced chemistry, primarily used at the Lab Table to manufacture Heat Blocks. These blocks are invaluable for survival in snowy biomes, as they melt ice and snow without requiring a light source. The inclusion of salt in the chemistry system allows players to understand the formation of ionic compounds and their use in practical engineering."
+    },
+    "minecraft:benzene": {
+        id: "minecraft:benzene",
+        name: "Benzene",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Ingredient for crafting Glow Sticks",
+            secondaryUse: "Molecular ring chemistry research"
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Carbon x6", "Hydrogen x6"]
+        },
+        specialNotes: [
+            "Created by combining six Carbon atoms and six Hydrogen atoms.",
+            "Serves as a primary ingredient for crafting Glow Sticks in various colors.",
+            "Represented by its molecular formula C6H6 in the chemistry system.",
+            "Requires a Compound Creator for precise atomic assembly.",
+            "Found exclusively in Bedrock and Education Editions with chemistry enabled."
+        ],
+        description: "Benzene is a complex hydrocarbon compound available in the chemistry system of Minecraft Bedrock and Education Edition. It is produced in the Compound Creator by combining six Carbon atoms and six Hydrogen atoms, forming a hexagonal molecular ring. Its most popular application is in the crafting of Glow Sticks, where it is combined with luminol and various dyes. This compound demonstrates the structural complexity of organic chemistry within the game, providing players with a hands-on way to create vibrant, light-emitting items for decoration and exploration."
+    },
     "minecraft:crimson_sign": {
         id: "minecraft:crimson_sign",
         name: "Crimson Sign",

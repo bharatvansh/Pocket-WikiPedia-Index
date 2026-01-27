@@ -3709,6 +3709,27 @@ export const itemIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:ammonia",
+        name: "Ammonia",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:salt",
+        name: "Salt",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:benzene",
+        name: "Benzene",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:iron_golem_spawn_egg",
         name: "Iron Golem Spawn Egg",
         category: "item",
