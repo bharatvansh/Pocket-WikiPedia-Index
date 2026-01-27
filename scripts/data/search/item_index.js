@@ -1358,6 +1358,27 @@ export const itemIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:copper_sword",
+        name: "Copper Sword",
+        category: "item",
+        icon: "textures/items/copper_sword",
+        themeColor: "§6" // copper
+    },
+    {
+        id: "minecraft:copper_pickaxe",
+        name: "Copper Pickaxe",
+        category: "item",
+        icon: "textures/items/copper_pickaxe",
+        themeColor: "§6" // copper
+    },
+    {
+        id: "minecraft:copper_helmet",
+        name: "Copper Helmet",
+        category: "item",
+        icon: "textures/items/copper_helmet",
+        themeColor: "§6" // copper
+    },
+    {
         id: "minecraft:raw_iron",
         name: "Raw Iron",
         category: "item",

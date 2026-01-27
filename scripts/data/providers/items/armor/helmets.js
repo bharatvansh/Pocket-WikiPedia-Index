@@ -79,6 +79,28 @@ export const helmets = {
         ],
         description: "The Iron Helmet is a reliable mid-tier armor piece that provides 2 points of armor for the head. It is crafted using five iron ingots and is much more accessible than diamond gear, making it a staple for players transitioning out of the early game. Iron helmets can also be found in various loot chests throughout the world or obtained from villager trading. With 165 durability, it offers decent protection and can be enchanted to improve survivability in various environments."
     },
+    "minecraft:copper_helmet": {
+        id: "minecraft:copper_helmet",
+        name: "Copper Helmet",
+        maxStack: 1,
+        durability: 110,
+        enchantable: true,
+        usage: {
+            primaryUse: "Head protection",
+            secondaryUse: "Mid-tier armor set component"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x5"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 bar)",
+            "Durability: 110 (Between Leather's 55 and Iron's 165)",
+            "Introduced in Bedrock Edition 1.21.111 update",
+            "Can be smelted into one Copper Nugget"
+        ],
+        description: "The Copper Helmet is an armor piece introduced in the Copper Age update (1.21.111). It provides 2 points of armor and has a durability of 110. While it offers less protection than an Iron Helmet, it is a significant upgrade over leather gear and utilizes copper ingots, which are highly abundant. This makes copper armor an excellent choice for players exploring the early to mid-game world who want reliable defense without depleting their iron reserves."
+    },
     "minecraft:golden_helmet": {
         id: "minecraft:golden_helmet",
         name: "Golden Helmet",

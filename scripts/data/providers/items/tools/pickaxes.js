@@ -164,5 +164,31 @@ export const pickaxes = {
             "Can break almost all blocks that require a pickaxe"
         ],
         description: "The Iron Pickaxe is the workhorse of Minecraft tools, offering a balance of durability and mining capability. Crafted with three iron ingots and two sticks, it is required to mine diamond, gold, redstone, and emerald ores. With 251 durability, it is reliable for most mid-game mining tasks."
+    },
+    "minecraft:copper_pickaxe": {
+        id: "minecraft:copper_pickaxe",
+        name: "Copper Pickaxe",
+        maxStack: 1,
+        durability: 180,
+        enchantable: true,
+        usage: {
+            primaryUse: "Mining blocks",
+            secondaryUse: "Effective for copper and iron ores"
+        },
+        combat: {
+            attackDamage: 4,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x3", "Stick x2"]
+        },
+        specialNotes: [
+            "Can mine Iron, Lapis, and Copper ores",
+            "180 durability; positioned between Stone and Iron tools",
+            "Mines faster than Stone but slower than Iron",
+            "Part of the Copper Age game drop"
+        ],
+        description: "The Copper Pickaxe is a durable utility tool added in Minecraft's Copper Age (1.21.111). Positioned between stone and iron in performance, it offers 180 durability points, making it a reliable choice for extended mining sessions when iron is scarce. It is capable of mining iron ore, lapis lazuli, and other stone-tier blocks. Its introduction provides a meaningful use for the massive amounts of copper players often accumulate."
     }
 };
