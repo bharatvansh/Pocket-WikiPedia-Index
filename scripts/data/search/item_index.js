@@ -3770,5 +3770,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/mangrove_sign",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_sign",
+        name: "Crimson Sign",
+        category: "item",
+        icon: "textures/items/crimson_sign",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:warped_sign",
+        name: "Warped Sign",
+        category: "item",
+        icon: "textures/items/warped_sign",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        category: "item",
+        icon: "textures/items/jungle_sign",
+        themeColor: "§2"
     }
 ];

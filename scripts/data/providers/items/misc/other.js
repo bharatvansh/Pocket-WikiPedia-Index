@@ -2886,5 +2886,74 @@ export const miscItems = {
             "Works in conjunction with Aluminum Oxide to reinforce glass structures."
         ],
         description: "Boron Trioxide is a specialized chemical compound fundamental to the production of Hardened Glass in Minecraft Bedrock's education features. Produced in the Compound Creator from boron and oxygen, it serves as one of the reinforcing agents when applied to standard glass blocks. By layering Boron Trioxide and Aluminum Oxide with glass in a crafting grid, players can create transparent blocks that are significantly more resistant to explosions and breakage than their standard counterparts."
+    },
+    "minecraft:crimson_sign": {
+        id: "minecraft:crimson_sign",
+        name: "Crimson Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing and displaying text on walls or floor",
+            secondaryUse: "Providing fireproof labels in the Nether"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Crimson Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Made from crimson planks, making it completely fireproof and immune to lava.",
+            "Supports up to four lines of text on both the front and back sides in Bedrock Edition.",
+            "Text can be customized with dyes and made to glow using Glow Ink Sacs.",
+            "Can be waxed with Honeycomb to lock the text and prevent any further editing.",
+            "Features a vibrant purple-red color that matches the Crimson Forest biome."
+        ],
+        description: "The Crimson Sign is a fireproof informational item crafted from crimson planks and a stick. Native to the Nether's Crimson Forest, it is immune to fire and lava, ensuring that important directions or labels remain intact even in harsh environments. In Bedrock Edition, players can write on both sides of the sign, customize the text with a variety of dyes, and apply glow ink for visibility in the dark. It is an essential tool for Nether survivalists and builders."
+    },
+    "minecraft:warped_sign": {
+        id: "minecraft:warped_sign",
+        name: "Warped Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Placing and displaying text on walls or floor",
+            secondaryUse: "High-visibility labeling in dark Nether biomes"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Warped Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Crafted from warped planks, it is entirely fireproof and will not burn in lava.",
+            "Allows for up to four lines of text on both the front and back faces.",
+            "Text color can be modified with dyes, and luminosity added with Glow Ink Sacs.",
+            "Features a striking teal-blue color that provides high contrast in dark areas.",
+            "Can be lock-edited using Honeycomb to prevent tampering."
+        ],
+        description: "The Warped Sign is a teal-colored, fire-resistant signage option that originates from the Warped Forest in the Nether. Like other Nether wood products, it is completely immune to fire and lava damage. Its' vibrant teal color makes it highly visible against the darker blocks of the Nether, serving as an excellent navigational aid. It supports dual-sided text entry and full customization with dyes and glow effects, making it both a practical and atmospheric decorative item."
+    },
+    "minecraft:jungle_sign": {
+        id: "minecraft:jungle_sign",
+        name: "Jungle Sign",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Displaying written text on ground or wall surfaces",
+            secondaryUse: "Tropical-themed labeling and decoration"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Jungle Planks x6", "Stick x1"]
+        },
+        specialNotes: [
+            "Features the distinctive greenish-brown hue of jungle wood.",
+            "Supports four lines of text on both the front and back sides.",
+            "Text can be enhanced with various dyes and made to glow with Glow Ink Sacs.",
+            "Can be waxed with Honeycomb to permanently lock the written message.",
+            "Regularly used in tropical and treehouse build designs."
+        ],
+        description: "The Jungle Sign is a decorative and informational tool crafted from jungle planks and a stick. It features the unique greenish-brown color palette of the jungle wood set, making it a perfect match for tropical environments and lush greenery. Functionally identical to other signs in Bedrock Edition, it supports double-sided text and extensive customization options including dyeing and glowing effects. It is a favorite for players building in jungle biomes and those seeking a more organic wood tone for their signage."
     }
 };
