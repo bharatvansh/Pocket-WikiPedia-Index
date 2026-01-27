@@ -102,6 +102,75 @@ export const musicDiscs = {
         ],
         description: "'Tears' is a music disc composed by Amos Roddy and added in 2025. It is dropped by Ghasts when the player kills them by deflecting their fireball back at them. When played in a Jukebox it emits a comparator signal strength of 10 and plays an electronic track that remixes ghast sounds."
     },
+    "minecraft:music_disc_magnetic": {
+        id: "minecraft:music_disc_magnetic",
+        name: "Music Disc (Magnetic)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Magnetic' music track in a Jukebox",
+            secondaryUse: "Comparator emits a signal strength of 11 when played"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found as rare loot in Ancient City chests"]
+        },
+        specialNotes: [
+            "Composed by Lena Raine",
+            "Added in the 1.21.50 Winter Drop update",
+            "Has a redstone signal strength of 11 when played in a Jukebox",
+            "Features a tech-focused, rhythmic soundscape",
+            "In Bedrock Edition, rarity is officially classified as 'Rare' (§b)"
+        ],
+        description: "'Magnetic' is a music disc composed by Lena Raine, introduced in the 1.21.50 update. This track features a distinctive rhythmic and mechanical sound, fitting the mysterious atmosphere of the Deep Dark where it is found. In Bedrock Edition, it is exclusively obtainable as a rare loot item from chests within Ancient Cities. When played in a Jukebox, it provides a Comparator signal strength of 11, making it a valuable addition to both music libraries and redstone contraptions."
+    },
+    "minecraft:music_disc_resonance": {
+        id: "minecraft:music_disc_resonance",
+        name: "Music Disc (Resonance)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Resonance' music track in a Jukebox",
+            secondaryUse: "Comparator emits a signal strength of 12 when played"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found as rare loot in Stronghold library chests"]
+        },
+        specialNotes: [
+            "Composed by Lena Raine",
+            "Added in the 1.21.50 Winter Drop update",
+            "Has a redstone signal strength of 12 when played in a Jukebox",
+            "Features a high-energy electronic sound profile",
+            "In Bedrock Edition, rarity is officially classified as 'Rare' (§b)"
+        ],
+        description: "'Resonance' is a high-energy music disc composed by Lena Raine, added to Minecraft Bedrock Edition in version 1.21.50. This track is known for its pulsing electronic beats and vibrant melody. Players can discover this disc by exploring Strongholds, where it appears as rare loot within library chests. When inserted into a Jukebox, it outputs a Comparator signal strength of 12, allowing it to be used in complex redstone systems that require specific signal levels."
+    },
+    "minecraft:music_disc_ponder": {
+        id: "minecraft:music_disc_ponder",
+        name: "Music Disc (Ponder)",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Playing the 'Ponder' music track in a Jukebox",
+            secondaryUse: "Comparator emits a signal strength of 13 when played"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found as rare loot in Desert Temple, Jungle Temple, or Dungeon chests"]
+        },
+        specialNotes: [
+            "Composed by Lena Raine",
+            "Added in the 1.21.50 Winter Drop update",
+            "Has a redstone signal strength of 13 when played in a Jukebox",
+            "Features a thoughtful and melodic composition",
+            "In Bedrock Edition, rarity is officially classified as 'Rare' (§b)"
+        ],
+        description: "'Ponder' is a melodic music disc composed by Lena Raine, introduced as part of the 1.21.50 update. The track offers a more introspective and thoughtful sound compared to other recent additions. It can be found by adventurous players as rare loot in various structures, including Desert Temples, Jungle Temples, and Dungeons. Like other premium discs, it provides a unique redstone output, emitting a Comparator signal strength of 13 when played in a Jukebox."
+    },
     "minecraft:music_disc_5": {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",
