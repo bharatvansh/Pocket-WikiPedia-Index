@@ -484,5 +484,74 @@ export const potions = {
             "Damage is unaffected by armor but can be reduced by Protection enchantments."
         ],
         description: "The Potion of Harming is a powerful offensive brew that inflicts Instant Damage. Upon consumption or impact, it immediately subtracts health from the target. Uniquely, this potion heals undead mobs like Zombies and Skeletons while damaging living entities. In Bedrock Edition, it is created by fermenting a Potion of Poison or Potion of Healing with a Fermented Spider Eye. It is most commonly used as a Splash Potion to deal area-of-effect damage to enemies."
+    },
+    "minecraft:potion_of_leaping": {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Increases jump height and reduces fall damage",
+            secondaryUse: "Jumping over fences and navigating terrain"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Awkward Potion", "Rabbit's Foot"]
+        },
+        specialNotes: [
+            "Grants the Jump Boost effect, allowing you to jump over fences at Level I.",
+            "Increases jump height by approximately 1.8 blocks (Level I) or 2.5 blocks (Level II).",
+            "Reduces fall damage by 1 heart per level of Jump Boost.",
+            "Can be extended to 8:00 minutes with Redstone Dust.",
+            "Can be enhanced to Potion of Leaping II with Glowstone Dust."
+        ],
+        description: "The Potion of Leaping is a mobility-enhancing brew that grants the Jump Boost effect. It allows players to jump much higher than normal, with Level I providing enough lift to clear a fence block effortlessly. Beyond vertical movement, it also mitigates fall damage, making it ideal for navigating mountainous terrain or escaping danger from high places. It is brewed by adding a Rabbit's Foot to an Awkward Potion. Skilled alchemists can enhance its potency with glowstone or extend its duration with redstone dust."
+    },
+    "minecraft:potion_of_slowness": {
+        id: "minecraft:potion_of_slowness",
+        name: "Potion of Slowness",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decreases movement speed of entities",
+            secondaryUse: "Combat crowd control and stopping fast mobs"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Potion of Swiftness/Leaping", "Fermented Spider Eye"]
+        },
+        specialNotes: [
+            "Decreases walking speed by 15% (Level I) or 40% (Level IV in Bedrock).",
+            "Brewed by adding a Fermented Spider Eye to a Potion of Swiftness or Leaping.",
+            "Best used as a Splash Potion to slow down enemies in PvP or PvE.",
+            "Duration can be extended to 4:00 minutes with Redstone Dust.",
+            "One of the few potions that corrupts multiple different base potions."
+        ],
+        description: "The Potion of Slowness is a debuffing brew that significantly hampers the movement speed of any affected mob or player. By granting the Slowness status effect, it makes targets much easier to outrun or hit with ranged weapons. It is created by 'corrupting' either a Potion of Swiftness or a Potion of Leaping with a Fermented Spider Eye. While often used defensively as a Splash Potion, it can also be extended to provide long-lasting area control, making it useful in various combat strategies."
+    },
+    "minecraft:potion_of_weakness": {
+        id: "minecraft:potion_of_weakness",
+        name: "Potion of Weakness",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Reducing melee damage of entities",
+            secondaryUse: "Curing Zombie Villagers"
+        },
+        crafting: {
+            recipeType: "Brewing",
+            ingredients: ["Water Bottle", "Fermented Spider Eye"]
+        },
+        specialNotes: [
+            "Reduces melee damage by 0.5 (half-heart) in Bedrock Edition.",
+            "Essential for the curing process of Zombie Villagers.",
+            "The only potion that can be brewed directly from a Water Bottle without Nether Wart.",
+            "Duration can be extended to 4:00 minutes with Redstone Dust.",
+            "Does not have a Level II variant in vanilla Minecraft."
+        ],
+        description: "The Potion of Weakness is a unique alchemical brew that reduces the melee damage of the consumer. It is most famous for its critical role in village management; when a Splash Potion of Weakness is used on a Zombie Villager followed by a Golden Apple, the villager is cured. Uniquely, it is the only effect that can be brewed by adding a Fermented Spider Eye directly to a Water Bottle, bypassing the need for an Awkward Potion. This makes it one of the most accessible and important potions in the game for both combat and resource management."
     }
 };
