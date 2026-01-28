@@ -378,6 +378,27 @@ export const itemIndex = [
         themeColor: "§b" // wind/aqua
     },
     {
+        id: "minecraft:zombie_villager_spawn_egg",
+        name: "Zombie Villager Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_zombie_villager",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:tropical_fish_spawn_egg",
+        name: "Tropical Fish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tropical_fish",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:salmon_spawn_egg",
+        name: "Salmon Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_salmon",
+        themeColor: "§c" // red
+    },
+    {
         id: "minecraft:frog_spawn_egg",
         name: "Frog Spawn Egg",
         category: "item",
