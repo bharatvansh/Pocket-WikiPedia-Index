@@ -105,6 +105,27 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
+        id: "minecraft:heat_block",
+        name: "Heat Block",
+        category: "item",
+        icon: "textures/blocks/heat_block",
+        themeColor: "§6" // orange/red
+    },
+    {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        category: "item",
+        icon: "textures/items/underwater_torch",
+        themeColor: "§b" // cyan/light blue
+    },
+    {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        category: "item",
+        icon: "textures/items/underwater_tnt",
+        themeColor: "§b" // cyan/light blue
+    },
+    {
         id: "minecraft:red_bundle",
         name: "Red Bundle",
         category: "item",
