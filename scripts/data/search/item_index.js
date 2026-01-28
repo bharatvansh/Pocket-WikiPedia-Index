@@ -693,6 +693,13 @@ export const itemIndex = [
         themeColor: "§e" // yellow/uncommon
     },
     {
+        id: "minecraft:conduit",
+        name: "Conduit",
+        category: "item",
+        icon: "textures/blocks/conduit",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:nether_star",
         name: "Nether Star",
         category: "item",
@@ -1342,6 +1349,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/shulker_shell",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:shulker_box",
+        name: "Shulker Box",
+        category: "item",
+        icon: "textures/blocks/shulker_top_undyed",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:ender_chest",
+        name: "Ender Chest",
+        category: "item",
+        icon: "textures/blocks/ender_chest_front",
+        themeColor: "§5" // dark purple
     },
     {
         id: "minecraft:diamond",
