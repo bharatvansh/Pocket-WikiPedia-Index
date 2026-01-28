@@ -105,6 +105,27 @@ export const itemIndex = [
         themeColor: "§5" // ominous purple
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7" // gray/silver
+    },
+    {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        category: "item",
+        icon: "textures/items/underwater_torch",
+        themeColor: "§b" // cyan/light blue
+    },
+    {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        category: "item",
+        icon: "textures/items/underwater_tnt",
+        themeColor: "§b" // cyan/light blue
+    },
+    {
         id: "minecraft:red_bundle",
         name: "Red Bundle",
         category: "item",
