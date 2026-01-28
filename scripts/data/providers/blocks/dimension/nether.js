@@ -767,5 +767,26 @@ export const netherBlocks = {
             yRange: "Crafted from Crimson Planks"
         },
         description: "The Crimson Door is a fire-resistant door made from crimson planks, native to the Crimson Forest biomes in the Nether. It shares the fireproof properties of all Nether wood types, ensuring it remains intact even when exposed to nearby lava or fire. Its deep maroon and red hues provide a dark, rustic aesthetic that complements netherrack and blackstone builds. Like other doors in Bedrock Edition, it can be used to block mob pathfinding and can be opened by hand or with redstone signals, all while resisting the Nether's heat."
+    },
+    "minecraft:portal": {
+        id: "minecraft:portal",
+        name: "Nether Portal",
+        hardness: -1,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 11,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "The Nether",
+            yRange: "Inside Obsidian frame"
+        },
+        description: "The Nether Portal block is the purple, translucent block that fills an activated obsidian portal frame. It emits a light level of 11 and produces portal particles. Standing inside this block for a few seconds teleports the player between the Overworld and the Nether. Though it has an indestructible hardness value, it is extremely fragile and will disappear if any part of the obsidian frame is broken, or if an explosion occurs nearby."
     }
 };
