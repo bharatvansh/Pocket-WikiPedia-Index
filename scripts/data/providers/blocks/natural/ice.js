@@ -91,5 +91,26 @@ export const iceBlocks = {
             yRange: "Snowy Biomes, Igloos"
         },
         description: "A Snow Block is a full-sized block crafted from four snowballs. It is primarily used for building and creating snow golems. Unlike snow layers, snow blocks are not affected by gravity and do not melt near light sources. They are easily broken with a shovel and are a common building material in cold biomes for creating igloos and snowy structures."
+    },
+    "minecraft:powder_snow": {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        hardness: 0.25,
+        blastResistance: 0.25,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (Requires Bucket to collect)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Snowy Slopes, Jagged Peaks, Frozen Peaks"
+        },
+        description: "Powder Snow is a trap-like block that mimics regular snow but lacks a solid physical collision. Players and most mobs fall into it and eventually start freezing, taking continuous frost damage unless wearing leather armor. It can be collected using an empty bucket to obtain a Powder Snow Bucket, which can then be placed again. Entities can walk on top of powder snow if they are wearing leather boots. It also acts as an insulator, preventing certain blocks from being seen by sculk sensors. In Bedrock Edition, it has a distinct texture that is slightly different from regular snow."
     }
 };
