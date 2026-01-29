@@ -147,6 +147,13 @@ export const itemIndex = [
         themeColor: "§6" // copper/brown
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§5" // epic purple
+    },
+    {
         id: "minecraft:ominous_bottle",
         name: "Ominous Bottle",
         category: "item",
@@ -1769,6 +1776,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/diamond_nautilus_armor",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        category: "item",
+        icon: "textures/items/iron_nautilus_armor",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        category: "item",
+        icon: "textures/items/netherite_nautilus_armor",
+        themeColor: "§8"
     },
     {
         id: "minecraft:music_disc_otherside",

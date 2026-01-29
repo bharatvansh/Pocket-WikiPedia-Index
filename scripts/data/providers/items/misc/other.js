@@ -873,6 +873,52 @@ export const miscItems = {
         ],
         description: "Diamond Nautilus Armor is a high-tier protective equipment for the Nautilus mount, added in the Mounts of Mayhem update. Like horse armor, it does not have durability and cannot be crafted, requiring players to explore Shipwrecks, Ocean Ruins, and Buried Treasure to find it. It provides 11 armor points and 2 toughness, making the Nautilus significantly more resilient. It can also be upgraded to a Netherite version using a Netherite Upgrade Smithing Template for even greater protection."
     },
+    "minecraft:iron_nautilus_armor": {
+        id: "minecraft:iron_nautilus_armor",
+        name: "Iron Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Equipping on a tamed Nautilus mount for defense",
+            secondaryUse: "Mid-tier protection for aquatic mounts"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in Shipwrecks, Ocean Ruins, and Buried Treasure"]
+        },
+        specialNotes: [
+            "Provides 7 armor points (3.5 bars) when equipped on a Nautilus",
+            "Found in oceanic loot chests like Shipwrecks and Ocean Ruins",
+            "Cannot be crafted; must be discovered through exploration",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)",
+            "Protects the Nautilus from Drowned and other hostile aquatic mobs"
+        ],
+        description: "Iron Nautilus Armor is a durable mid-tier equipment designed to protect the Nautilus mount. Introduced in the 1.21.130 'Mounts of Mayhem' update, it allows players to safeguard their aquatic steeds during undersea exploration. Like other mount armors, it lacks durability and cannot be crafted, requiring players to search for it in nautically-themed loot chests. Providing 7 armor points, it offers a solid balance of protection for players who have not yet secured diamond or netherite-tier nautical gear."
+    },
+    "minecraft:netherite_nautilus_armor": {
+        id: "minecraft:netherite_nautilus_armor",
+        name: "Netherite Nautilus Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Maximum protection for a Nautilus mount",
+            secondaryUse: "Fire and lava resistance for mount equipment"
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Nautilus Armor", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "Provides 13 armor points and 3 toughness to the Nautilus",
+            "Elite protection level, outperforming diamond mount armor",
+            "Fire-resistant and floats on lava; will not burn if dropped",
+            "Must be upgraded from Diamond Nautilus Armor at a Smithing Table",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "Netherite Nautilus Armor is the ultimate defensive equipment for the Nautilus mount in Minecraft Bedrock Edition. Added in the Mounts of Mayhem update, it is obtained by smithing Diamond Nautilus Armor with a Netherite Ingot and a Smithing Template. It provides a massive 13 armor points and 3 toughness, ensuring the Nautilus can withstand intense combat. Like all netherite equipment, it is resistant to fire and floats on lava, preventing the loss of this extremely valuable item in hazardous environments."
+    },
     "minecraft:iron_horse_armor": {
         id: "minecraft:iron_horse_armor",
         name: "Iron Horse Armor",
