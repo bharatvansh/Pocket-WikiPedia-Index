@@ -1757,6 +1757,13 @@ export const itemIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        category: "item",
+        icon: "textures/items/netherite_horse_armor",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:diamond_nautilus_armor",
         name: "Diamond Nautilus Armor",
         category: "item",
@@ -1916,6 +1923,20 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/netherite_spear",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:iron_spear",
+        name: "Iron Spear",
+        category: "item",
+        icon: "textures/items/iron_spear",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:copper_spear",
+        name: "Copper Spear",
+        category: "item",
+        icon: "textures/items/copper_spear",
+        themeColor: "§6"
     },
     {
         id: "minecraft:iron_horse_armor",

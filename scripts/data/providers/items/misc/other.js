@@ -831,6 +831,29 @@ export const miscItems = {
         ],
         description: "Diamond Horse Armor is the highest tier of protection available for horses in Minecraft Bedrock Edition. Unlike player armor, it cannot be crafted and must be discovered within chests in various structures throughout the world, such as Nether Fortresses, End Cities, and Bastion Remnants. When equipped on a tamed horse, it provides a significant boost to its survivability, granting 11 armor points to reduce incoming damage. This makes it an essential item for players who rely on horses for long-distance travel and combat."
     },
+    "minecraft:netherite_horse_armor": {
+        id: "minecraft:netherite_horse_armor",
+        name: "Netherite Horse Armor",
+        maxStack: 1,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Maximum protection for tamed horses",
+            secondaryUse: "Fire and lava protection for mounts"
+        },
+        crafting: {
+            recipeType: "Smithing",
+            ingredients: ["Netherite Upgrade Smithing Template", "Diamond Horse Armor", "Netherite Ingot"]
+        },
+        specialNotes: [
+            "Provides a massive 13 armor points to the horse",
+            "Grants 3 points of armor toughness to the horse",
+            "Completely immune to fire and floats on lava",
+            "Requires upgrading Diamond Horse Armor at a Smithing Table",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "Netherite Horse Armor is the ultimate defensive upgrade for an adventurer's steed. Added in the 1.21.130 'Mounts of Mayhem' update, it provides 13 armor points and 3 toughness—the highest protection available for any mount. Like other netherite-tier items, it is fire-resistant and floats on lava, ensuring the armor is not lost even if the horse meets a tragic end. It cannot be found in nature and must be forged by combining Diamond Horse Armor with a Netherite Ingot and Smithing Template."
+    },
     "minecraft:diamond_nautilus_armor": {
         id: "minecraft:diamond_nautilus_armor",
         name: "Diamond Nautilus Armor",
