@@ -287,6 +287,27 @@ export const itemIndex = [
         themeColor: "§4" // dark red/maroon
     },
     {
+        id: "minecraft:potion_of_leaping",
+        name: "Potion of Leaping",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:potion_of_weakness",
+        name: "Potion of Weakness",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:potion_of_slowness",
+        name: "Potion of Slowness",
+        category: "item",
+        icon: "textures/items/potion_bottle_drinkable",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
