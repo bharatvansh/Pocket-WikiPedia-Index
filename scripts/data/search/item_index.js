@@ -3833,5 +3833,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/jungle_sign",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:turtle_spawn_egg",
+        name: "Sea Turtle Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_turtle",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pufferfish",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:tropical_fish_spawn_egg",
+        name: "Tropical Fish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tropical_fish",
+        themeColor: "§d"
     }
 ];

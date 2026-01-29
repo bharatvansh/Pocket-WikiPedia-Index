@@ -1633,5 +1633,68 @@ export const spawnEggs = {
             "One of the few entities in Bedrock designed for full programmability."
         ],
         description: "The Agent Spawn Egg summons a unique robotic companion found in Bedrock and Education Editions. The Agent is designed as a tool for learning programming, allowing players to automate tasks like building, mining, and farming through external code editors. It is a separate entity from the player and can be programmed to navigate the world and perform complex actions, serving as an entry point into the world of Minecraft coding and automation."
+    },
+    "minecraft:turtle_spawn_egg": {
+        id: "minecraft:turtle_spawn_egg",
+        name: "Sea Turtle Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Sea Turtle mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Sea Turtle at the target location.",
+            "Sea Turtles return to their home beach to lay eggs on sand.",
+            "Can be used to create Sea Turtle spawners for scute farming."
+        ],
+        description: "The Sea Turtle Spawn Egg is a Creative Mode item used to instantly summon a Sea Turtle. These aquatic mobs are known for their ability to travel between land and sea, and for returning to their home beach to lay eggs. In Creative Mode, this egg allows for the quick placement of turtles in various biomes, which is useful for testing turtle-related mechanics or populating beaches. Using it on a Monster Spawner will create a Sea Turtle spawner, which can be used to farm seagrass or scutes if the turtles are grown from babies in specialized farms."
+    },
+    "minecraft:pufferfish_spawn_egg": {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Pufferfish mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Spawns a Pufferfish that inflates when threatened.",
+            "Deals poison damage to nearby players or mobs when inflated.",
+            "Useful for creating Pufferfish spawners for potion ingredient farms."
+        ],
+        description: "The Pufferfish Spawn Egg is a Creative Mode item that summons a Pufferfish instantly. Pufferfish are unique aquatic mobs that puff up when players or other mobs get too close, dealing poison damage and applying the Nausea effect. This spawn egg is particularly useful for populating coral reefs or creating hazardous underwater environments in custom maps. When used on a Monster Spawner, it converts it into a Pufferfish spawner. These spawners can be used to create efficient pufferfish farms, which provide a reliable source of pufferfish for brewing Water Breathing potions."
+    },
+    "minecraft:tropical_fish_spawn_egg": {
+        id: "minecraft:tropical_fish_spawn_egg",
+        name: "Tropical Fish Spawn Egg",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Instantly spawning a Tropical Fish mob",
+            secondaryUse: "Used on a Spawner to change its mob type"
+        },
+        crafting: {
+            recipeType: "Creative/Commands Only",
+            ingredients: []
+        },
+        specialNotes: [
+            "Summons a Tropical Fish with a randomized color and pattern.",
+            "Tropical Fish have over 3,000 possible variants in the game.",
+            "Can be used on a Spawner to create a Tropical Fish spawner."
+        ],
+        description: "The Tropical Fish Spawn Egg allows for the immediate summoning of a Tropical Fish. One of the most diverse mobs in Minecraft, Tropical Fish can appear in thousands of different color and pattern combinations. This egg is essential for Creative builders looking to add vibrant life to aquariums or coral reef builds. Like other spawn eggs, it can be used on a Monster Spawner to create a Tropical Fish spawner. This is a highly efficient way to populate large water bodies with a variety of colorful fish without needing to transport them in buckets individually."
     }
 };
