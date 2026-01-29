@@ -1589,5 +1589,28 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "High-tier decorative block-item"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Rare reward from Ominous Vaults (8.3% chance in Bedrock Edition)",
+            "Essential for crafting the Mace (Heavy Core + Breeze Rod)",
+            "Blast resistance of 1200, making it highly resistant to explosions",
+            "Added in the 1.21 Tricky Trials update",
+            "Considered an 'Epic' rarity item with a purple name"
+        ],
+        description: "The Heavy Core is a rare and exceptionally dense material found exclusively as a reward from Ominous Vaults within Trial Chambers. Its primary purpose is to serve as the heavy head of a Mace, a unique weapon that increases in power the further a player falls before striking. Obtaining a Heavy Core requires players to brave the Ominous Trial challenges to get an Ominous Trial Key. Beyond its use in weaponry, it is one of the toughest items in the game, with a blast resistance and hardness that make it virtually indestructible."
     }
 };
