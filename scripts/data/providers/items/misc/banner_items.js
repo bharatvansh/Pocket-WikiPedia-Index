@@ -312,5 +312,77 @@ export const bannerItems = {
             "Has a maximum stack size of 16 items"
         ],
         description: "The Light Blue Banner is a bright, sky-colored decorative item often used for water-themed builds and royal heraldry in Minecraft Bedrock Edition. Crafted from six pieces of light blue wool and a stick, it serves as a versatile canvas for intricate loom patterns. Whether placed atop a palace or applied to a shield for personal flair, the light blue banner provides a clean and ethereal look. Its color is easily sourced from flowers and bone meal, making it a sustainable and attractive choice for decoration."
+    },
+    "minecraft:pink_banner": {
+        id: "minecraft:pink_banner",
+        name: "Pink Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Pink Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 pink wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Pink wool is obtained from pink sheep or by using pink dye from pink tulips and peonies",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items",
+            "Frequently used for aesthetic, 'lofi', or magical-themed base decorations"
+        ],
+        description: "The Pink Banner is a delightful decorative item used to bring a touch of softness and vibrancy to any structure in Minecraft Bedrock Edition. Crafted from six blocks of pink wool and a stick, it serves as a base for whimsical or royal designs in a Loom. Its bright yet gentle hue makes it perfect for marking cozy settlements or creating eye-catching signals. Since version 1.20, players can proudly carry their pink emblems into battle by applying customized banners to their shields, combining style with protection."
+    },
+    "minecraft:lime_banner": {
+        id: "minecraft:lime_banner",
+        name: "Lime Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Lime Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 lime wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Lime dye is obtained by combining green and white dyes",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items",
+            "Offers high visibility, making it an excellent marker for trails and landmarks"
+        ],
+        description: "The Lime Banner is a striking, neon-like decorative item that adds a burst of energy to builds in Minecraft Bedrock Edition. It is crafted using six pieces of lime wool and a single stick, providing a high-visibility marker for explorers and builders alike. Its bright green color is ideal for radioactive-themed builds, lush gardens, or as a modern aesthetic choice. In addition to being a versatile base for Loom patterns, it can be applied to shields to create bold personal insignias that stand out in any combat encounter."
+    },
+    "minecraft:brown_banner": {
+        id: "minecraft:brown_banner",
+        name: "Brown Banner",
+        maxStack: 16,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative banner that can be placed on the ground or on walls",
+            secondaryUse: "Used in a Loom to create complex designs or applied to Shields for customization"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["6x Brown Wool", "1x Stick"]
+        },
+        specialNotes: [
+            "Crafted with 6 brown wool blocks in the top two rows and a stick in the bottom-middle slot",
+            "Brown wool is obtained from brown sheep or by using cocoa beans to dye wool",
+            "In Bedrock Edition, can be applied to a Shield in a crafting grid to transfer designs",
+            "Can be washed in a Cauldron to remove the top-most pattern layer",
+            "Has a maximum stack size of 16 items",
+            "Ideal for representating wooden structures, taverns, or nature-focused heraldry"
+        ],
+        description: "The Brown Banner is an earthy, natural decorative item frequently used to represent wood, chocolate, or grounding elements in Minecraft Bedrock Edition. It is crafted with six pieces of brown wool and a stick, making it a sustainable choice for players with cocoa bean farms. Its rich, dark hue provides a classic and understated background for heraldry or camouflage in forested areas. Like other base banners, it can be customized with various patterns and applied to shields for a personalized touch of ruggedness."
     }
 };
