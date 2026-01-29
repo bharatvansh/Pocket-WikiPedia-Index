@@ -168,6 +168,27 @@ export const itemIndex = [
         themeColor: "§b" // wind/cyan
     },
     {
+        id: "minecraft:cactus_flower",
+        name: "Cactus Flower",
+        category: "item",
+        icon: "textures/items/cactus_flower",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:firefly_bush",
+        name: "Firefly Bush",
+        category: "item",
+        icon: "textures/items/firefly_bush",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:short_dry_grass",
+        name: "Short Dry Grass",
+        category: "item",
+        icon: "textures/items/short_dry_grass",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:potion_of_oozing",
         name: "Potion of Oozing",
         category: "item",
