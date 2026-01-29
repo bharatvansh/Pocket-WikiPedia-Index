@@ -61,6 +61,75 @@ export const craftingMaterials = {
         ],
         description: "Popped Chorus Fruit is a crafting material produced by smelting Chorus Fruit in a furnace, smoker, or campfire. While the popping process removes its edible properties and teleportation abilities, it transforms the fruit into a hard, durable material essential for creating End-themed architecture. Four pieces of popped chorus fruit can be crafted into Purpur Blocks, and it is also a key component in manufacturing End Rods. This makes it a vital resource for players looking to incorporate the sleek, purple aesthetic of End Cities into their own builds."
     },
+    "minecraft:cactus_flower": {
+        id: "minecraft:cactus_flower",
+        name: "Cactus Flower",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Growing Flowering Cacti and crafting Pink Dye",
+            secondaryUse: "Growing regular cacti on sand blocks"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Harvested from a Flowering Cactus"]
+        },
+        specialNotes: [
+            "Introduced in Minecraft Bedrock 1.21.50 as part of the Spring to Life Drop",
+            "Dropped when a Flowering Cactus is broken or its supporting block is removed",
+            "Can be placed on a regular Cactus to turn it into a Flowering Cactus",
+            "Acts as a plantable seed on Sand, Red Sand, and Suspicious Sand",
+            "Crafted into one Pink Dye in a crafting grid"
+        ],
+        description: "The Cactus Flower is a specialized plant item introduced in the 1.21.50 update. It is obtained by harvesting a Flowering Cactus, which naturally generates in dry biomes or can be created by applying a flower to a standard cactus. This vibrant pink bloom serves multiple purposes: it can be used as a seed to grow new cacti on various sand types, applied to existing cacti for decoration, or processed into Pink Dye. Its addition adds more life and utility to the desert and badlands biomes."
+    },
+    "minecraft:firefly_bush": {
+        id: "minecraft:firefly_bush",
+        name: "Firefly Bush",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative light source and ambient particle emitter",
+            secondaryUse: "Landscaping and garden decoration"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Found in the Pale Garden biome (Upcoming)"]
+        },
+        specialNotes: [
+            "Added in the 1.21.50 update (Spring to Life Drop)",
+            "Emits small firefly particles when exposed to low light levels",
+            "Does not emit actual light (Light Level 0), but provides visual ambiance",
+            "Can be harvested and placed on most solid blocks",
+            "Bees are uniquely attracted to Firefly Bushes in some versions"
+        ],
+        description: "The Firefly Bush is a unique decorative plant that brings a touch of magic to night-time landscapes. Introduced in the 1.21.50 update, this bush is most notable for the soft, glowing firefly particles it releases when the surrounding light level is low. While it does not provide functional illumination, the ambient effect creates a serene and mystic atmosphere for gardens and forests. It can be easily harvested and relocated, making it a favorite for players who enjoy detailed atmospheric builds."
+    },
+    "minecraft:short_dry_grass": {
+        id: "minecraft:short_dry_grass",
+        name: "Short Dry Grass",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Decorative ground cover for arid biomes",
+            secondaryUse: "Landscaping and building textures"
+        },
+        crafting: {
+            recipeType: "Natural",
+            ingredients: ["Harvested from Deserts and Badlands"]
+        },
+        specialNotes: [
+            "Introduced as a new foliage variant in Minecraft 1.21.50",
+            "Generates naturally on Sand and Terracotta in Desert and Badlands biomes",
+            "Has a distinct yellow-brown 'dried' appearance unlike regular green grass",
+            "Can be harvested using shears to obtain the item version",
+            "Helps define the parched, extreme environment of hot climates"
+        ],
+        description: "Short Dry Grass is a foliage variant that populates the harshest environments in Minecraft. Found naturally in Deserts and Badlands, it takes the form of parched, yellowed stalks that have adapted to the lack of water. Unlike regular grass, it grows directly on sand and terracotta, providing a realistic texture to arid plains. Players can collect it with shears to use in their own landscaping projects, particularly those aiming for a wilderness or desert-themed aesthetic."
+    },
     "minecraft:nether_wart": {
         id: "minecraft:nether_wart",
         name: "Nether Wart",

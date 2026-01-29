@@ -168,6 +168,27 @@ export const itemIndex = [
         themeColor: "§b" // wind/cyan
     },
     {
+        id: "minecraft:cactus_flower",
+        name: "Cactus Flower",
+        category: "item",
+        icon: "textures/items/cactus_flower",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:firefly_bush",
+        name: "Firefly Bush",
+        category: "item",
+        icon: "textures/items/firefly_bush",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:short_dry_grass",
+        name: "Short Dry Grass",
+        category: "item",
+        icon: "textures/items/short_dry_grass",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:potion_of_oozing",
         name: "Potion of Oozing",
         category: "item",
@@ -3812,5 +3833,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/jungle_sign",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:turtle_spawn_egg",
+        name: "Sea Turtle Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_turtle",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:pufferfish_spawn_egg",
+        name: "Pufferfish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_pufferfish",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:tropical_fish_spawn_egg",
+        name: "Tropical Fish Spawn Egg",
+        category: "item",
+        icon: "textures/items/spawn_egg_tropical_fish",
+        themeColor: "§d"
     }
 ];
