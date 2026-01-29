@@ -3429,6 +3429,13 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:board",
+        name: "Board",
+        category: "item",
+        icon: "textures/items/chalkboard_large",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:balloon",
         name: "Balloon",
         category: "item",
@@ -3767,6 +3774,20 @@ export const itemIndex = [
     {
         id: "minecraft:sodium_hypochlorite",
         name: "Sodium Hypochlorite",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:ammonia",
+        name: "Ammonia",
+        category: "item",
+        icon: "textures/items/compound",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:salt",
+        name: "Salt",
         category: "item",
         icon: "textures/items/compound",
         themeColor: "§f"
