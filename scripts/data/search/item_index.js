@@ -672,6 +672,27 @@ export const itemIndex = [
         themeColor: "§b" // light blue
     },
     {
+        id: "minecraft:pink_banner",
+        name: "Pink Banner",
+        category: "item",
+        icon: "textures/items/banner_pink",
+        themeColor: "§d" // pink
+    },
+    {
+        id: "minecraft:lime_banner",
+        name: "Lime Banner",
+        category: "item",
+        icon: "textures/items/banner_lime",
+        themeColor: "§a" // lime
+    },
+    {
+        id: "minecraft:brown_banner",
+        name: "Brown Banner",
+        category: "item",
+        icon: "textures/items/banner_brown",
+        themeColor: "§6" // brown
+    },
+    {
         id: "minecraft:flow_pottery_sherd",
         name: "Flow Pottery Sherd",
         category: "item",
