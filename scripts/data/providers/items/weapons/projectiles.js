@@ -230,6 +230,33 @@ export const projectiles = {
         ],
         description: "The Arrow of Oozing is a unique tipped arrow that inflicts the Oozing effect. Upon the death of an entity affected by this arrow, two medium-sized slimes will spawn at its location. This makes it an excellent tool for farm automation or creating distractions in combat. Introduced in the 1.21 update, it can be found in Ominous Vaults or crafted in Bedrock Edition using a potion-filled cauldron. The ability to spawn additional mobs upon a target's defeat adds a new layer of strategy to ranged engagement, turning every kill into a potential defensive obstacle for remaining enemies."
     },
+    "minecraft:arrow_of_weaving": {
+        id: "minecraft:arrow_of_weaving",
+        name: "Arrow of Weaving",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting the Weaving effect on entities",
+            secondaryUse: "Spawning cobwebs upon the death of a target"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Weaving (in Cauldron)"]
+        },
+        specialNotes: [
+            "Applies the Weaving effect for 22 seconds in Bedrock Edition",
+            "Target spawns 2-3 cobwebs upon death",
+            "Affected targets can move through cobwebs slightly faster",
+            "Obtained from Ominous Vaults or via cauldron tipping",
+            "Excellent for area denial and crowd control"
+        ],
+        description: "The Arrow of Weaving is a tactical projectile added in the 1.21 update. When it impacts a target, it applies the Weaving effect, which triggers the spawning of multiple cobwebs upon the entity's death. This unique mechanic allows players to transform their defeated foes into environmental traps, slowing down remaining enemies. In Bedrock Edition, these arrows are efficiently produced by using standard arrows on a cauldron filled with a Potion of Weaving, making them a powerful tool for battlefield control and survival."
+    },
     "minecraft:ice_bomb": {
         id: "minecraft:ice_bomb",
         name: "Ice Bomb",

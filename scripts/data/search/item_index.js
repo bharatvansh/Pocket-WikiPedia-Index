@@ -3917,5 +3917,26 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_egg_tropical_fish",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:arrow_of_weaving",
+        name: "Arrow of Weaving",
+        category: "item",
+        icon: "textures/items/arrow_of_weaving",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:scrape_banner_pattern",
+        name: "Scrape Banner Pattern",
+        category: "item",
+        icon: "textures/items/scrape_banner_pattern",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/blocks/heavy_core",
+        themeColor: "§7"
     }
 ];
