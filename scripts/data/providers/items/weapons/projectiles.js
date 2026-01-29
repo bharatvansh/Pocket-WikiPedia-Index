@@ -149,6 +149,87 @@ export const projectiles = {
         ],
         description: "The Arrow of Decay is a powerful and rare tipped arrow exclusive to Bedrock and Education Editions. It inflicts the Wither status effect on hit, which progressively drains the target's health. Unlike poison, the Wither effect can be fatal, making these arrows extremely dangerous in combat. They are primarily obtained by dipping regular arrows into a cauldron filled with a Potion of Decay, or by finding them in Buried Treasure chests. Their scarcity and high damage potential make them a prized asset for late-game players."
     },
+    "minecraft:arrow_of_wind_charging": {
+        id: "minecraft:arrow_of_wind_charging",
+        name: "Arrow of Wind Charging",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting the Wind Charged effect on a target",
+            secondaryUse: "Tactical use to create wind bursts upon entity death"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Wind Charging (in Cauldron)"]
+        },
+        specialNotes: [
+            "Introduced in the 1.21 Tricky Trials update",
+            "Applies the Wind Charged effect for 22 seconds (Bedrock tipped arrow duration)",
+            "Causes the target to emit a wind burst upon death, knocking back nearby mobs",
+            "Obtained by using arrows on a cauldron filled with Potion of Wind Charging",
+            "Also found as a common reward from Ominous Vaults in Trial Chambers"
+        ],
+        description: "The Arrow of Wind Charging is a specialized tipped arrow introduced in Minecraft 1.21. When it hits a target, it applies the Wind Charged effect, which causes the entity to release a powerful burst of air upon death. This effect can be used tactically to clear out groups of enemies or manipulate mob movement. In Bedrock Edition, these arrows are efficiently crafted using a cauldron filled with the corresponding potion. They are also frequently discovered within Ominous Vaults, rewarding players who overcome the heightened challenges of Trial Chambers."
+    },
+    "minecraft:arrow_of_infestation": {
+        id: "minecraft:arrow_of_infestation",
+        name: "Arrow of Infestation",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting the Infested status effect on entities",
+            secondaryUse: "Tactical combat to spawn silverfish from damaged targets"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Infestation (in Cauldron)"]
+        },
+        specialNotes: [
+            "Adds a 10% chance for the target to spawn 1-2 silverfish when hurt",
+            "Effect lasts for 22 seconds in Bedrock Edition",
+            "Highly effective against players and high-health mobs in PvP",
+            "Obtained from Ominous Vaults or via potion cauldrons",
+            "Can create chaotic distractions by introducing hostile silverfish into a fight"
+        ],
+        description: "The Arrow of Infestation is a tactical projectile that applies the Infested effect to its target. While under this effect, the entity has a 10% chance to spawn one or two silverfish whenever it takes damage. This can create chaos in enemy ranks, especially when used against high-health mobs or in crowded areas. Like other 1.21 tipped arrows, it is primarily obtained through Ominous Vaults or by using arrows on a cauldron filled with Potion of Infestation. It is a unique tool for players seeking to use environmental hazards against their foes."
+    },
+    "minecraft:arrow_of_oozing": {
+        id: "minecraft:arrow_of_oozing",
+        name: "Arrow of Oozing",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Inflicting the Oozing status effect on entities",
+            secondaryUse: "Spawning slimes upon the death of a target"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Oozing (in Cauldron)"]
+        },
+        specialNotes: [
+            "Causes two medium-sized slimes to spawn from the target upon death",
+            "Effect duration is 22 seconds in Minecraft Bedrock Edition",
+            "Useful for mob farm automation or battlefield control",
+            "Obtained from Ominous Vaults or via cauldron tipping",
+            "Introduced as part of the Tricky Trials (1.21) update"
+        ],
+        description: "The Arrow of Oozing is a unique tipped arrow that inflicts the Oozing effect. Upon the death of an entity affected by this arrow, two medium-sized slimes will spawn at its location. This makes it an excellent tool for farm automation or creating distractions in combat. Introduced in the 1.21 update, it can be found in Ominous Vaults or crafted in Bedrock Edition using a potion-filled cauldron. The ability to spawn additional mobs upon a target's defeat adds a new layer of strategy to ranged engagement, turning every kill into a potential defensive obstacle for remaining enemies."
+    },
     "minecraft:ice_bomb": {
         id: "minecraft:ice_bomb",
         name: "Ice Bomb",

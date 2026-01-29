@@ -3310,6 +3310,27 @@ export const itemIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:arrow_of_wind_charging",
+        name: "Arrow of Wind Charging",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:arrow_of_infestation",
+        name: "Arrow of Infestation",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:arrow_of_oozing",
+        name: "Arrow of Oozing",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§a"
+    },
+    {
         id: "minecraft:cow_spawn_egg",
         name: "Cow Spawn Egg",
         category: "item",
