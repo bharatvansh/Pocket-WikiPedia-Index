@@ -693,6 +693,27 @@ export const itemIndex = [
         themeColor: "§6" // brown/pottery
     },
     {
+        id: "minecraft:loner_pottery_sherd",
+        name: "Loner Pottery Sherd",
+        category: "item",
+        icon: "textures/items/loner_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:maker_pottery_sherd",
+        name: "Maker Pottery Sherd",
+        category: "item",
+        icon: "textures/items/maker_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
+        id: "minecraft:whirl_pottery_sherd",
+        name: "Whirl Pottery Sherd",
+        category: "item",
+        icon: "textures/items/whirl_pottery_sherd",
+        themeColor: "§6" // brown/pottery
+    },
+    {
         id: "minecraft:blade_pottery_sherd",
         name: "Blade Pottery Sherd",
         category: "item",

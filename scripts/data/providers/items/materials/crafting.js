@@ -1589,5 +1589,77 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:loner_pottery_sherd": {
+        id: "minecraft:loner_pottery_sherd",
+        name: "Loner Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Loner motif",
+            secondaryUse: "Collecting Trial Chamber-themed archaeological designs"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots that generate in Trial Chambers"]
+        },
+        specialNotes: [
+            "Breaking a Decorated Pot drops the exact bricks and pottery sherds used to craft it",
+            "Used as one of the four side ingredients when crafting a Decorated Pot",
+            "Decorated Pots featuring the Loner design naturally generate in Trial Chambers",
+            "Stacks up to 64 in Bedrock Edition",
+            "Introduced in Minecraft 1.21 (Tricky Trials)",
+            "Features a stylized silhouette of a single figure"
+        ],
+        description: "The Loner Pottery Sherd is an archaeology-themed item introduced in the 1.21 Tricky Trials update. It depicts a simplified silhouette of a single figure, symbolizing solitude or a unique character. In Minecraft Bedrock Edition, it is found within Trial Chambers by breaking naturally generated Decorated Pots that use the Loner sherd. When placed into the Decorated Pot crafting recipe, it determines the pattern displayed on one side of the finished pot, allowing players to create customized pottery with meaningful iconography."
+    },
+    "minecraft:maker_pottery_sherd": {
+        id: "minecraft:maker_pottery_sherd",
+        name: "Maker Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Maker motif",
+            secondaryUse: "Collecting Trial Chamber-themed archaeological designs"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots that generate in Trial Chambers"]
+        },
+        specialNotes: [
+            "Breaking a Decorated Pot drops the exact bricks and pottery sherds used to craft it",
+            "Used as one of the four side ingredients when crafting a Decorated Pot",
+            "Decorated Pots featuring the Maker design naturally generate in Trial Chambers",
+            "Stacks up to 64 in Bedrock Edition",
+            "Introduced in Minecraft 1.21 (Tricky Trials)",
+            "Features a design often interpreted as a person crafting or a hammer"
+        ],
+        description: "The Maker Pottery Sherd is a pottery decoration ingredient from the 1.21 update that depicts a stylized figure often associated with crafting or labor. In Minecraft Bedrock Edition, players can obtain it in Trial Chambers by breaking naturally generated Decorated Pots that were crafted with the Maker sherd. By combining it with bricks or other pottery sherds in the Decorated Pot recipe, builders can create unique pottery that highlights the theme of creation and craftsmanship prevalent in the Trial Chambers."
+    },
+    "minecraft:whirl_pottery_sherd": {
+        id: "minecraft:whirl_pottery_sherd",
+        name: "Whirl Pottery Sherd",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Decorated Pots with a Whirl motif",
+            secondaryUse: "Collecting Trial Chamber-themed archaeological designs"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained by breaking Decorated Pots that generate in Trial Chambers"]
+        },
+        specialNotes: [
+            "Breaking a Decorated Pot drops the exact bricks and pottery sherds used to craft it",
+            "Used as one of the four side ingredients when crafting a Decorated Pot",
+            "Decorated Pots featuring the Whirl design naturally generate in Trial Chambers",
+            "Stacks up to 64 in Bedrock Edition",
+            "Introduced in Minecraft 1.21 (Tricky Trials)",
+            "Features a swirling wind-like pattern"
+        ],
+        description: "The Whirl Pottery Sherd is an archaeological item introduced in Minecraft 1.21 that features a distinctive swirling pattern reminiscent of wind or air. Found exclusively within Trial Chambers, it is obtained by breaking naturally generated Decorated Pots. This sherd can be used in a crafting table alongside bricks or other pottery fragments to create a Decorated Pot with the Whirl design on its sides. Its wind-themed motif perfectly complements the Breeze-inhabited corridors of the Trial Chambers."
     }
 };
