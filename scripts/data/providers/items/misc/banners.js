@@ -79,6 +79,52 @@ export const bannerPatterns = {
         ],
         description: "The Guster Banner Pattern is a decorative item added in the 1.21 Tricky Trials update, found exclusively in Trial Chamber Vaults. It allows players to apply a 'Guster' design to banners, featuring a swirling vortex inspired by the Breeze mob. Since it cannot be crafted, it is a sought-after collectible for explorers. Using it in a Loom with a banner and dye creates a unique wind-themed visual, ideal for marking territory or themed base decoration."
     },
+    "minecraft:bolt_banner_pattern": {
+        id: "minecraft:bolt_banner_pattern",
+        name: "Bolt Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Bolt' pattern to a banner in a Loom",
+            secondaryUse: "Creating decorative banners with a crisp, bolt-like design"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Found in standard Vaults within Trial Chambers"]
+        },
+        specialNotes: [
+            "Has a 3.6% chance to drop from Vaults in Bedrock Edition",
+            "Features a sharp, bolt-shaped pattern that complements Trial Chamber architecture",
+            "Introduced in the 1.21 Tricky Trials update",
+            "Reusable item; not consumed when used in a Loom",
+            "Acquired exclusively as exploration loot"
+        ],
+        description: "The Bolt Banner Pattern is a rare decorative item found in standard Vaults within Trial Chambers. Added in the 1.21 update, it allows players to apply a sharp, geometric 'Bolt' design to banners. This pattern reflects the industrial and combat-oriented aesthetic of the chambers where it is found. As with all banner patterns, it can be used repeatedly in a Loom with any color dye, making it a permanent addition to a player's collection of heraldic designs."
+    },
+    "minecraft:scrape_banner_pattern": {
+        id: "minecraft:scrape_banner_pattern",
+        name: "Scrape Banner Pattern",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying the 'Scrape' pattern to a banner in a Loom",
+            secondaryUse: "Creating banners with a distinctive jagged design for decoration"
+        },
+        crafting: {
+            recipeType: "Uncraftable",
+            ingredients: ["Obtained as loot from Ominous Vaults in Trial Chambers"]
+        },
+        specialNotes: [
+            "Has a 4.4% chance to appear in Ominous Vaults in Bedrock Edition",
+            "The banner pattern item is not consumed when used in a Loom",
+            "Added in the 1.21 Tricky Trials update",
+            "Features a jagged, aggressive motif matching Trial Chamber aesthetics",
+            "Used in a Loom with a banner and any color dye"
+        ],
+        description: "The Scrape Banner Pattern is an elusive decorative item found exclusively within Ominous Vaults in Trial Chambers. Introduced in 1.21, it allows players to apply the 'Scrape' design to their banners, a jagged and intimidating pattern perfect for marking territory in dangerous areas. Like all banner patterns, it is a permanent tool that can be used repeatedly in a Loom without being consumed, making it a highly valued find for players looking to customize their base heraldry with a touch of trial-worn prestige."
+    },
     "minecraft:skull_banner_pattern": {
         id: "minecraft:skull_banner_pattern",
         name: "Skull Banner Pattern",
