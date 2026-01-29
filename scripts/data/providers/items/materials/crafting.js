@@ -1589,28 +1589,5 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
-    },
-    "minecraft:heavy_core": {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
-        maxStack: 64,
-        durability: 0,
-        enchantable: false,
-        usage: {
-            primaryUse: "Crafting the Mace melee weapon",
-            secondaryUse: "Trophy item representing mastery of Trial Chambers"
-        },
-        crafting: {
-            recipeType: "Uncraftable",
-            ingredients: ["Found in Ominous Vaults in Trial Chambers"]
-        },
-        specialNotes: [
-            "Dropped from Ominous Vaults with a 2.2% chance",
-            "Essential component for crafting the Mace (Heavy Core + Breeze Rod)",
-            "Cannot be crafted or obtained through other means in survival",
-            "Stacks up to 64 in Bedrock Edition",
-            "Highly sought after by players seeking late-game combat power"
-        ],
-        description: "The Heavy Core is a rare and prestigious crafting material introduced in Minecraft 1.21. Found exclusively within Ominous Vaults in Trial Chambers, this dense object is the most difficult component to acquire for crafting the Mace. When combined with a Breeze Rod, it creates the ultimate hammer-like weapon capable of dealing massive fall-distance damage. In Bedrock Edition, its low drop rate makes it a significant trophy for players who conquer the most dangerous trial spawners, marking their victory over the game's toughest combat challenges."
     }
 };

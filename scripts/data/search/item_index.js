@@ -3933,10 +3933,10 @@ export const itemIndex = [
         themeColor: "§7"
     },
     {
-        id: "minecraft:heavy_core",
-        name: "Heavy Core",
+        id: "minecraft:bolt_banner_pattern",
+        name: "Bolt Banner Pattern",
         category: "item",
-        icon: "textures/blocks/heavy_core",
+        icon: "textures/items/bolt_banner_pattern",
         themeColor: "§7"
     }
 ];
