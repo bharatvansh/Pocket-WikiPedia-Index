@@ -2535,6 +2535,27 @@ export const miscItems = {
         ],
         description: "The Poster is a medium-sized Chalkboard that occupies a 2x1 vertical space. It provides more room for text than a Slate, making it ideal for headings, warnings, or classroom-style notes. Like other chalkboards in Bedrock and Education Editions, it can be placed on wall surfaces and edited to display custom text. It is a key tool for world-builders who need a larger surface for communication than a sign but smaller than a full-sized Board."
     },
+    "minecraft:board": {
+        id: "minecraft:board",
+        name: "Board",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Writing and displaying text (3x2 area).",
+            secondaryUse: "Large-scale classroom instructions."
+        },
+        crafting: {
+            recipeType: "None",
+            ingredients: ["Obtainable via commands or Creative inventory"]
+        },
+        specialNotes: [
+            "The largest type of Chalkboard available.",
+            "Covers a 3x2 block area horizontally.",
+            "Ideal for detailed instructions or community announcements."
+        ],
+        description: "The Board is the largest version of the Chalkboard item in Minecraft Bedrock and Education Editions, measuring 3x2 blocks. It provides a massive surface for text, making it perfect for classrooms, hubs, or any area requiring extensive written information. Like slates and posters, it can be interacted with to edit text once placed on a wall. It is an indispensable tool for educators and map creators who need to convey complex information clearly to other players."
+    },
     "minecraft:balloon": {
         id: "minecraft:balloon",
         name: "Balloon",
@@ -2820,6 +2841,50 @@ export const miscItems = {
             "Essential for chem-based cleaning and color restoration in Minecraft."
         ],
         description: "Sodium Hypochlorite is a powerful oxidizing compound used in the production of Bleach within Minecraft Bedrock's education features. Players can create it in the Compound Creator by balancing sodium, chlorine, and oxygen elements. When mixed with water at a Lab Table, it produces Bleach, a versatile tool for removing dyes from beds, banners, and wool. It serves as a key example of how chemistry can be applied to decorative and utility-based crafting."
+    },
+    "minecraft:ammonia": {
+        id: "minecraft:ammonia",
+        name: "Ammonia",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting Super Fertilizer.",
+            secondaryUse: "Chemistry component."
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Nitrogen x1", "Hydrogen x3"]
+        },
+        specialNotes: [
+            "Created using the formula NH3 in the Compound Creator.",
+            "Key ingredient for producing Super Fertilizer on a Lab Table.",
+            "Requires Education Edition features to be enabled.",
+            "Represented by a white, beaker-like item icon."
+        ],
+        description: "Ammonia is a vital compound in the chemistry system of Minecraft Bedrock Edition, synthesized by combining one nitrogen atom and three hydrogen atoms. Its primary use in survival and education mode is as a precursor for Super Fertilizer, which is produced when combined with phosphorus on a Lab Table. As a fundamental part of the nitrogen cycle and industrial chemistry, it teaches players about compound proportions and their practical applications in agriculture."
+    },
+    "minecraft:salt": {
+        id: "minecraft:salt",
+        name: "Salt",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Chemistry component.",
+            secondaryUse: "Crafting material in specific educational scenarios."
+        },
+        crafting: {
+            recipeType: "Compound Creator",
+            ingredients: ["Sodium x1", "Chlorine x1"]
+        },
+        specialNotes: [
+            "Created using the formula NaCl in the Compound Creator.",
+            "One of the simplest and most recognizable compounds in Education Edition.",
+            "Requires Education Edition features to be enabled.",
+            "Used to demonstrate the formation of ionic bonds between metals and non-metals."
+        ],
+        description: "Salt, or Sodium Chloride, is a basic chemical compound available in Minecraft's education-enabled worlds. It is formed by combining one sodium atom with one chlorine atom in the Compound Creator. While it may not have as many high-tech applications as other compounds, it serves as an excellent introduction to chemistry mechanics in the game. It represents common table salt and is used by educators to illustrate chemical reactions and the concept of elements bonding to form a new substance."
     },
     "minecraft:magnesium_oxide": {
         id: "minecraft:magnesium_oxide",
