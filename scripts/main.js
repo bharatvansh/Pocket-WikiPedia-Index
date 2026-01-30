@@ -3,7 +3,7 @@
 
 import { world, system } from "@minecraft/server";
 import { ActionFormData, ModalFormData } from "@minecraft/server-ui";
-import { searchIndex, indexCounts } from "./data/search/index.js";
+import { getSearchIndex, indexCounts } from "./data/search/index.js";
 import { getBlockDetails } from "./data/providers/blocks/index.js";
 import { getItemDetails } from "./data/providers/items/index.js";
 import { getMobDetails } from "./data/providers/mobs/index.js";
@@ -157,7 +157,7 @@ function showSearchResults(player, searchTerm) {
     const results = [];
     const term = searchTerm.toLowerCase();
 
-    for (const entry of searchIndex) {
+    for (const entry of getSearchIndex()) {
         if (entry._sn.includes(term) || entry._si.includes(term)) {
             results.push(entry);
             if (results.length >= MAX_RESULTS) break; // Early exit!

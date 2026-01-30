@@ -28,16 +28,27 @@ const addSearchKeys = (entry) => ({
     _si: entry.id.toLowerCase()
 });
 
+// Cache for the search index
+let _cachedIndex = null;
+
 /**
- * Combined search index containing all entries with pre-computed lowercase keys
- * Maintains the same order as the original: Blocks, Items, Mobs
- * @type {SearchEntry[]}
+ * lazy-load search index containing all entries with pre-computed lowercase keys.
+ * Builds the index on first use to prevent script watchdog warnings during startup.
+ * @returns {SearchEntry[]}
  */
-export const searchIndex = Object.freeze([
-    ...blockIndex.map(addSearchKeys),
-    ...itemIndex.map(addSearchKeys),
-    ...mobIndex.map(addSearchKeys)
-]);
+export function getSearchIndex() {
+    if (_cachedIndex) return _cachedIndex;
+
+    // Use a single array allocation if possible for better memory, but spread is fine for readability
+    // mapped items are cached
+    _cachedIndex = [
+        ...blockIndex.map(addSearchKeys),
+        ...itemIndex.map(addSearchKeys),
+        ...mobIndex.map(addSearchKeys)
+    ];
+
+    return _cachedIndex;
+}
 
 /**
  * Pre-computed category counts (computed once at import time)
