@@ -1589,5 +1589,30 @@ export const craftingMaterials = {
             "Part of the archaeology system introduced in the Trails & Tales update"
         ],
         description: "The Skull Pottery Sherd is an archaeological artifact found in Desert Temples by brushing Suspicious Sand. This pottery fragment features a clear skull design, representing danger or death. It is a tribute to the dangers of the desert and ancient temples. When used to craft a Decorated Pot, the Skull pattern creates a thematic decoration perfect for dungeons, graveyards, or any build that celebrates the macabre."
+    },
+    "minecraft:heavy_core": {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Crafting the Mace weapon",
+            secondaryUse: "Decorative block with high blast resistance"
+        },
+        crafting: {
+            recipeType: "Loot Only",
+            ingredients: ["Found in Ominous Vaults (7.5% chance)"]
+        },
+        specialNotes: [
+            "Introduced in the 1.21 Tricky Trials update",
+            "Obtained exclusively from Ominous Vaults in Trial Chambers",
+            "Has a 7.5% drop rate from Ominous Vaults",
+            "Cannot be crafted and is a rare late-game utility item",
+            "Used to craft the Mace by combining it with a Breeze Rod on a Crafting Table",
+            "Emits a heavy metallic sound when walked upon and is extremely durable",
+            "Immune to most fire and lava damage in Bedrock Edition"
+        ],
+        description: "The Heavy Core is a rare and mysterious block found deep within Trial Chambers. It is a key ingredient in crafting the Mace, a powerful high-velocity melee weapon. Players must defeat waves of mobs in an Ominous Trial to obtain an Ominous Trial Key, which can then be used to unlock an Ominous Vault for a chance to receive this item. Its high density and metallic properties make it both a functional material and a unique decorative block for advanced players."
     }
 };
