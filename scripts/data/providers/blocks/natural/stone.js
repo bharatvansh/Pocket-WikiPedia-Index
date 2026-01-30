@@ -619,5 +619,26 @@ export const stoneBlocks = {
             yRange: "Strongholds, Igloos"
         },
         description: "Infested Chiseled Stone Bricks contain a hidden Silverfish and perfectly imitate the decorative appearance of chiseled stone bricks. They generate naturally in strongholds and underneath igloos. In Bedrock Edition, their unique property of breaking faster than normal decorative stone is the only way to detect them before they are broken. If a player mines this block without the Silk Touch enchantment, it will vanish and unleash a hostile Silverfish. They are often used in the architecture of ancient structures to deter intruders."
+    },
+    "minecraft:mob_spawner": {
+        id: "minecraft:mob_spawner",
+        name: "Monster Spawner",
+        hardness: 5.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["None (XP only in some cases)"],
+        generation: {
+            dimension: "Overworld, Nether",
+            yRange: "Dungeons, mineshafts, strongholds, nether fortresses, bastion remnants"
+        },
+        description: "The Monster Spawner is a cage-like block that spawns mobs within a 9x9x9 area when a player is nearby. It naturally generates in dungeons, abandoned mineshafts, strongholds, nether fortresses, and bastion remnants. In Bedrock Edition, spawners cannot be obtained in Survival mode; they break instantly and drop nothing. However, spawn eggs can be used on placed spawners to change the mob type they produce. The spinning flame particle animation and low light emission help identify spawners in dark environments. They are essential for mob farming and trap-based gameplay."
     }
 };
