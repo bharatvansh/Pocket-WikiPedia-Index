@@ -104,5 +104,86 @@ export const spears = {
             "Upgraded from a Diamond Spear at a Smithing Table"
         ],
         description: "The Netherite Spear represents the pinnacle of polearm weaponry in Minecraft. It combines the extreme durability and fire resistance of netherite with the extended reach of the spear. Dealing 10 damage in Bedrock Edition, it is an elite choice for late-game combat, especially when facing large groups or mounted enemies. Like other netherite gear, it does not burn in lava and must be upgraded from its diamond counterpart."
+    },
+    "minecraft:wooden_spear": {
+        id: "minecraft:wooden_spear",
+        name: "Wooden Spear",
+        maxStack: 1,
+        durability: 60,
+        enchantable: true,
+        usage: {
+            primaryUse: "Basic reach-based melee combat",
+            secondaryUse: "Safe engagement with early-game hostile mobs"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Planks x1", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts) per hit",
+            "Longer reach than a wooden sword, keeping enemies at distance",
+            "Crafted with one Plank and two Sticks arranged vertically",
+            "Lowest durability in the spear family (60 uses)",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "The Wooden Spear is the most basic polearm, added in the 1.21.130 Mounts of Mayhem update. While it has low durability, it provides a critical advantage for early-game survival: extended reach. This allows players to strike zombies and spiders from a distance where they cannot easily counter-attack. It is an inexpensive weapon to craft, requiring only a single wooden plank and two sticks. For new players, it serves as a safer alternative to the wooden sword during their first nights in the Overworld."
+    },
+    "minecraft:stone_spear": {
+        id: "minecraft:stone_spear",
+        name: "Stone Spear",
+        maxStack: 1,
+        durability: 132,
+        enchantable: true,
+        usage: {
+            primaryUse: "Reliable reach-based combat",
+            secondaryUse: "Early-game mounted combat defense"
+        },
+        combat: {
+            attackDamage: 7,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Cobblestone x1", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 7 attack damage (3.5 hearts) per hit",
+            "Matches the damage of a copper spear but with lower durability (132)",
+            "Crafted with one Cobblestone (or Blackstone/Deepslate) and two Sticks",
+            "Significant upgrade from wooden weaponry for early survival",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "The Stone Spear is a formidable early-game weapon that bridges the gap between basic wooden tools and metal armaments. Introduced in version 1.21.130, it offers 7 points of damage, making it statistically stronger than an iron sword but with restricted close-quarters utility. Its main benefit is the polearm reach, which is essential for fending off creepers and skeletons. It can be crafted from common cobblestone, blackstone, or cobbled deepslate, ensuring players can always have a reliable reach weapon at hand."
+    },
+    "minecraft:golden_spear": {
+        id: "minecraft:golden_spear",
+        name: "Golden Spear",
+        maxStack: 1,
+        durability: 33,
+        enchantable: true,
+        usage: {
+            primaryUse: "Enchantment-heavy reach combat",
+            secondaryUse: "Fast jab attacks and high-level enchantability"
+        },
+        combat: {
+            attackDamage: 5,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Gold Ingot x1", "Stick x2"]
+        },
+        specialNotes: [
+            "Deals 5 attack damage (2.5 hearts) per hit",
+            "Extremely low durability (33 uses), identical to the golden sword",
+            "Highly enchantable, making it easy to obtain powerful spear-specific enchants",
+            "Can be used by Piglins in the Nether in some situations",
+            "Introduced in the Mounts of Mayhem update (1.21.130+)"
+        ],
+        description: "The Golden Spear is a specialized polearm characterized by its brilliant appearance and extreme fragility. While it deals the same damage as a wooden spear and lasts for only 33 strikes, it boasts the highest enchantability of any spear tier. This makes it a prime candidate for obtaining powerful enchantments like Lunge or Sharpness V with minimal investment. Introduced in the 1.21.130 update, it is often used as a trophy weapon or a temporary tool when high-level magic is more important than durability."
     }
 };

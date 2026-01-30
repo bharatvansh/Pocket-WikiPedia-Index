@@ -1967,6 +1967,27 @@ export const itemIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:wooden_spear",
+        name: "Wooden Spear",
+        category: "item",
+        icon: "textures/items/wooden_spear",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stone_spear",
+        name: "Stone Spear",
+        category: "item",
+        icon: "textures/items/stone_spear",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:golden_spear",
+        name: "Golden Spear",
+        category: "item",
+        icon: "textures/items/golden_spear",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:iron_spear",
         name: "Iron Spear",
         category: "item",
