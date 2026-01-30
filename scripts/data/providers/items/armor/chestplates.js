@@ -80,6 +80,28 @@ export const chestplates = {
         ],
         description: "The Iron Chestplate is a fundamental piece of armor that provides 6 points of armor, making it significantly more protective than leather or chainmail. It is crafted with eight iron ingots and is a staple for most players due to iron's abundance. It offers a great balance between cost and protection, serving as the primary defense against common hostile mobs before the player acquires diamond equipment. Like all chestplates, it can be enchanted with various protection types."
     },
+    "minecraft:copper_chestplate": {
+        id: "minecraft:copper_chestplate",
+        name: "Copper Chestplate",
+        maxStack: 1,
+        durability: 160,
+        enchantable: true,
+        usage: {
+            primaryUse: "Torso protection",
+            secondaryUse: "Mid-tier armor set component"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x8"]
+        },
+        specialNotes: [
+            "Provides 5 armor points (2.5 bars)",
+            "Durability: 160 (Above Gold's 112 but below Iron's 240)",
+            "Introduced in Bedrock Edition 1.21.111 update",
+            "Can be smelted into one Copper Nugget"
+        ],
+        description: "The Copper Chestplate is a torso protection item introduced in the 1.21.111 update. It provides 5 points of armor and has a durability of 160. Positioned between gold and iron equipment, it offers a sustainable defense option for players with abundant copper supplies. It is highly effective for mid-game survival, allowing for better protection than leather without the higher cost of iron."
+    },
     "minecraft:golden_chestplate": {
         id: "minecraft:golden_chestplate",
         name: "Golden Chestplate",

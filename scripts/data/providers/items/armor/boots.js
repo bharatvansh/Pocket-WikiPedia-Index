@@ -78,6 +78,28 @@ export const boots = {
         ],
         description: "Iron Boots are fundamental footwear for any mid-game explorer. Providing 2 armor points, they offer decent protection and can be enchanted with powerful effects like Feather Falling to reduce fall damage or Depth Strider for faster swimming. They are the cheapest piece of iron armor to craft, requiring only four iron ingots. Despite being the lowest tier of iron armor in terms of defense, they are vital for completing the full iron set and receiving the set's maximum defense benefits."
     },
+    "minecraft:copper_boots": {
+        id: "minecraft:copper_boots",
+        name: "Copper Boots",
+        maxStack: 1,
+        durability: 130,
+        enchantable: true,
+        usage: {
+            primaryUse: "Foot protection",
+            secondaryUse: "Mid-tier armor set component"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x4"]
+        },
+        specialNotes: [
+            "Provides 2 armor points (1 bar)",
+            "Durability: 130 (Better than Gold's 91 but less than Iron's 195)",
+            "Craftable with four Copper Ingots",
+            "Can be smelted into one Copper Nugget"
+        ],
+        description: "Copper Boots are the foot protection component of the copper armor set, providing 2 points of armor. With a durability of 130, they last significantly longer than gold or leather boots while remaining extremely affordable to craft. They were added as part of the Copper Age update to give players a productive way to utilize copper. Like other copper gear, they bridge the gap between early-game survival and established mid-tier exploration."
+    },
     "minecraft:golden_boots": {
         id: "minecraft:golden_boots",
         name: "Golden Boots",
