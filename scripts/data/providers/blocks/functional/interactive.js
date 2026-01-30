@@ -537,6 +537,48 @@ export const interactiveBlocks = {
         },
         description: "The Structure Void is an invisible, intangible block used to indicate empty space in structures saved with Structure Blocks. When a structure is loaded, blocks in the target area are not overwritten if the corresponding block in the saved structure is a structure void. It is distinct from air, which overwrites existing blocks with air. Visible only when holding a structure void item or enabling 'Show Invisible Blocks', it allows for complex structure merging and terrain preservation."
     },
+    "minecraft:bed": {
+        id: "minecraft:bed",
+        name: "Bed",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bed"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Igloos"
+        },
+        description: "A Bed is a functional block used to sleep through the night and set the player's respawn point. Crafted from three wool blocks and three planks of matching or different types, beds come in 16 dye colors. In the Overworld, sleeping skips to dawn if all nearby players sleep simultaneously. Beds explode with force 5 when used in the Nether or End, making them dangerous weapons. In Bedrock Edition, beds display the message 'You can only sleep at night' when used at inappropriate times."
+    },
+    "minecraft:black_candle": {
+        id: "minecraft:black_candle",
+        name: "Black Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities"
+        },
+        description: "A Black Candle is a light-emitting block that adds 3 to the light level per candle, up to 12 with four candles. Crafted by combining a candle with black dye, it can be placed alone or in groups on solid surfaces. Must be lit with flint and steel or fire charges. Candles are waterloggable but extinguish when submerged. They create atmospheric dark-themed lighting perfect for gothic or spooky builds. Part of the 16 dye color candle variants introduced in Caves and Cliffs."
+    },
     "minecraft:wet_sponge": {
         id: "minecraft:wet_sponge",
         name: "Wet Sponge",
