@@ -495,5 +495,26 @@ export const redstoneBlocks = {
             yRange: "Bastion Remnants; Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
+    },
+    "minecraft:cherry_button": {
+        id: "minecraft:cherry_button",
+        name: "Cherry Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Button is a redstone power source crafted from cherry planks, introduced in Minecraft 1.20. When pressed, it emits a redstone signal for 15 ticks (1.5 seconds) before resetting. Its pink hue makes it a decorative choice for redstone interfaces in colorful builds. Like other wooden buttons, it can be activated by arrows and wooden projectiles. It can be placed on any face of a solid block to activate adjacent redstone components."
     }
 };
