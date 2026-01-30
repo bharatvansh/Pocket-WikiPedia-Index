@@ -52,7 +52,7 @@ export const itemIndex = [
         id: "minecraft:bow",
         name: "Bow",
         category: "item",
-        icon: "textures/items/bow",
+        icon: "textures/items/bow_standby",
         themeColor: "§e" // yellow
     },
     {
@@ -73,14 +73,14 @@ export const itemIndex = [
         id: "minecraft:tripwire_hook",
         name: "Tripwire Hook",
         category: "item",
-        icon: "textures/items/tripwire_hook",
+        icon: "textures/blocks/trip_wire_source",
         themeColor: "§7" // gray/iron
     },
     {
         id: "minecraft:shield",
         name: "Shield",
         category: "item",
-        icon: "textures/items/shield",
+        icon: "textures/entity/shield",
         themeColor: "§6" // brown/wood
     },
     {
@@ -171,7 +171,7 @@ export const itemIndex = [
         id: "minecraft:cactus_flower",
         name: "Cactus Flower",
         category: "item",
-        icon: "textures/items/cactus_flower",
+        icon: "textures/blocks/cactus_flower",
         themeColor: "§d"
     },
     {
@@ -185,7 +185,7 @@ export const itemIndex = [
         id: "minecraft:short_dry_grass",
         name: "Short Dry Grass",
         category: "item",
-        icon: "textures/items/short_dry_grass",
+        icon: "textures/blocks/short_dry_grass",
         themeColor: "§e"
     },
     {
@@ -332,105 +332,105 @@ export const itemIndex = [
         id: "minecraft:creeper_spawn_egg",
         name: "Creeper Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_creeper",
+        icon: "textures/items/spawn_eggs/spawn_egg_creeper",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:zombie_spawn_egg",
         name: "Zombie Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_zombie",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:skeleton_spawn_egg",
         name: "Skeleton Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_skeleton",
+        icon: "textures/items/spawn_eggs/spawn_egg_skeleton",
         themeColor: "§7" // gray
     },
     {
         id: "minecraft:spider_spawn_egg",
         name: "Spider Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_spider",
+        icon: "textures/items/spawn_eggs/spawn_egg_spider",
         themeColor: "§8" // dark gray/brown
     },
     {
         id: "minecraft:villager_spawn_egg",
         name: "Villager Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_villager",
+        icon: "textures/items/spawn_eggs/spawn_egg_villager",
         themeColor: "§6" // brown
     },
     {
         id: "minecraft:allay_spawn_egg",
         name: "Allay Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_allay",
+        icon: "textures/items/spawn_eggs/spawn_egg_allay",
         themeColor: "§b" // aqua
     },
     {
         id: "minecraft:axolotl_spawn_egg",
         name: "Axolotl Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_axolotl",
+        icon: "textures/items/spawn_eggs/spawn_egg_axolotl",
         themeColor: "§d" // pink
     },
     {
         id: "minecraft:camel_spawn_egg",
         name: "Camel Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_camel",
+        icon: "textures/items/spawn_eggs/spawn_egg_camel",
         themeColor: "§6" // brown
     },
     {
         id: "minecraft:sniffer_spawn_egg",
         name: "Sniffer Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_sniffer",
+        icon: "textures/items/spawn_eggs/spawn_egg_sniffer",
         themeColor: "§2" // dark green
     },
     {
         id: "minecraft:warden_spawn_egg",
         name: "Warden Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_warden",
+        icon: "textures/items/spawn_eggs/spawn_egg_warden",
         themeColor: "§3" // dark aqua
     },
     {
         id: "minecraft:armadillo_spawn_egg",
         name: "Armadillo Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_armadillo",
+        icon: "textures/items/spawn_eggs/spawn_egg_armadillo",
         themeColor: "§6" // brown/tan
     },
     {
         id: "minecraft:bogged_spawn_egg",
         name: "Bogged Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_bogged",
+        icon: "textures/items/spawn_eggs/spawn_egg_bogged",
         themeColor: "§2" // swamp green
     },
     {
         id: "minecraft:breeze_spawn_egg",
         name: "Breeze Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_breeze",
+        icon: "textures/items/spawn_eggs/spawn_egg_breeze",
         themeColor: "§b" // wind/aqua
     },
     {
         id: "minecraft:frog_spawn_egg",
         name: "Frog Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_frog",
+        icon: "textures/items/spawn_eggs/spawn_egg_frog",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:goat_spawn_egg",
         name: "Goat Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_goat",
+        icon: "textures/items/spawn_eggs/spawn_egg_goat",
         themeColor: "§f" // white
     },
     {
@@ -633,7 +633,7 @@ export const itemIndex = [
         id: "minecraft:yellow_banner",
         name: "Yellow Banner",
         category: "item",
-        icon: "textures/items/banner_yellow",
+        icon: "textures/ui/yellow_banner",
         themeColor: "§e" // yellow
     },
     {
@@ -1221,14 +1221,14 @@ export const itemIndex = [
         id: "minecraft:cod_bucket",
         name: "Bucket of Cod",
         category: "item",
-        icon: "textures/items/cod_bucket",
+        icon: "textures/items/bucket_cod",
         themeColor: "§b" // aqua/water
     },
     {
         id: "minecraft:salmon_bucket",
         name: "Bucket of Salmon",
         category: "item",
-        icon: "textures/items/salmon_bucket",
+        icon: "textures/items/bucket_salmon",
         themeColor: "§b" // aqua/water
     },
     {
@@ -1697,7 +1697,7 @@ export const itemIndex = [
         id: "minecraft:nether_brick",
         name: "Nether Brick",
         category: "item",
-        icon: "textures/items/nether_brick",
+        icon: "textures/blocks/nether_brick",
         themeColor: "§4"
     },
     {
@@ -1774,7 +1774,7 @@ export const itemIndex = [
         id: "minecraft:diamond_horse_armor",
         name: "Diamond Horse Armor",
         category: "item",
-        icon: "textures/items/horse_armor_diamond",
+        icon: "textures/entity/horse/armor/horse_armor_diamond",
         themeColor: "§b"
     },
     {
@@ -1788,7 +1788,7 @@ export const itemIndex = [
         id: "minecraft:diamond_nautilus_armor",
         name: "Diamond Nautilus Armor",
         category: "item",
-        icon: "textures/items/diamond_nautilus_armor",
+        icon: "textures/items/nautilus_armor/diamond_nautilus_armor",
         themeColor: "§b"
     },
     {
@@ -1935,49 +1935,49 @@ export const itemIndex = [
         id: "minecraft:diamond_spear",
         name: "Diamond Spear",
         category: "item",
-        icon: "textures/items/diamond_spear",
+        icon: "textures/items/spear/diamond_spear",
         themeColor: "§b"
     },
     {
         id: "minecraft:netherite_spear",
         name: "Netherite Spear",
         category: "item",
-        icon: "textures/items/netherite_spear",
+        icon: "textures/items/spear/netherite_spear",
         themeColor: "§8"
     },
     {
         id: "minecraft:iron_spear",
         name: "Iron Spear",
         category: "item",
-        icon: "textures/items/iron_spear",
+        icon: "textures/items/spear/iron_spear",
         themeColor: "§f"
     },
     {
         id: "minecraft:copper_spear",
         name: "Copper Spear",
         category: "item",
-        icon: "textures/items/copper_spear",
+        icon: "textures/items/spear/copper_spear",
         themeColor: "§6"
     },
     {
         id: "minecraft:iron_horse_armor",
         name: "Iron Horse Armor",
         category: "item",
-        icon: "textures/items/horse_armor_iron",
+        icon: "textures/entity/horse/armor/horse_armor_iron",
         themeColor: "§7"
     },
     {
         id: "minecraft:golden_horse_armor",
         name: "Golden Horse Armor",
         category: "item",
-        icon: "textures/items/horse_armor_gold",
+        icon: "textures/entity/horse/armor/horse_armor_gold",
         themeColor: "§6"
     },
     {
         id: "minecraft:leather_horse_armor",
         name: "Leather Horse Armor",
         category: "item",
-        icon: "textures/items/horse_armor_leather",
+        icon: "textures/entity/horse/armor/horse_armor_leather",
         themeColor: "§6"
     },
     {
@@ -2033,7 +2033,7 @@ export const itemIndex = [
         id: "minecraft:minecart",
         name: "Minecart",
         category: "item",
-        icon: "textures/items/minecart",
+        icon: "textures/entity/minecart",
         themeColor: "§f"
     },
     {
@@ -2075,21 +2075,21 @@ export const itemIndex = [
         id: "minecraft:raft",
         name: "Raft",
         category: "item",
-        icon: "textures/items/raft",
+        icon: "textures/items/bamboo_raft",
         themeColor: "§6"
     },
     {
         id: "minecraft:mangrove_boat",
         name: "Mangrove Boat",
         category: "item",
-        icon: "textures/items/boat_mangrove",
+        icon: "textures/items/mangrove_boat",
         themeColor: "§4"
     },
     {
         id: "minecraft:cherry_boat",
         name: "Cherry Boat",
         category: "item",
-        icon: "textures/items/boat_cherry",
+        icon: "textures/items/cherry_boat",
         themeColor: "§d"
     },
     {
@@ -3082,28 +3082,28 @@ export const itemIndex = [
         id: "minecraft:enderman_spawn_egg",
         name: "Enderman Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_enderman",
+        icon: "textures/items/spawn_eggs/spawn_egg_enderman",
         themeColor: "§8"
     },
     {
         id: "minecraft:wither_skeleton_spawn_egg",
         name: "Wither Skeleton Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_wither_skeleton",
+        icon: "textures/items/spawn_eggs/spawn_egg_wither_skeleton",
         themeColor: "§0"
     },
     {
         id: "minecraft:guardian_spawn_egg",
         name: "Guardian Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_guardian",
+        icon: "textures/items/spawn_eggs/spawn_egg_guardian",
         themeColor: "§3"
     },
     {
         id: "minecraft:shulker_spawn_egg",
         name: "Shulker Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_shulker",
+        icon: "textures/items/spawn_eggs/spawn_egg_shulker",
         themeColor: "§d"
     },
     {
@@ -3166,14 +3166,14 @@ export const itemIndex = [
         id: "minecraft:spruce_sign",
         name: "Spruce Sign",
         category: "item",
-        icon: "textures/items/spruce_sign",
+        icon: "textures/items/sign_spruce",
         themeColor: "§6"
     },
     {
         id: "minecraft:birch_sign",
         name: "Birch Sign",
         category: "item",
-        icon: "textures/items/birch_sign",
+        icon: "textures/items/sign_birch",
         themeColor: "§f"
     },
     {
@@ -3236,77 +3236,77 @@ export const itemIndex = [
         id: "minecraft:creaking_spawn_egg",
         name: "Creaking Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_creaking",
+        icon: "textures/items/spawn_eggs/spawn_egg_creaking",
         themeColor: "§7"
     },
     {
         id: "minecraft:blaze_spawn_egg",
         name: "Blaze Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_blaze",
+        icon: "textures/items/spawn_eggs/spawn_egg_blaze",
         themeColor: "§6"
     },
     {
         id: "minecraft:ghast_spawn_egg",
         name: "Ghast Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_ghast",
+        icon: "textures/items/spawn_eggs/spawn_egg_ghast",
         themeColor: "§f"
     },
     {
         id: "minecraft:magma_cube_spawn_egg",
         name: "Magma Cube Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_magma_cube",
+        icon: "textures/items/spawn_eggs/spawn_egg_magma_cube",
         themeColor: "§c"
     },
     {
         id: "minecraft:phantom_spawn_egg",
         name: "Phantom Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_phantom",
+        icon: "textures/items/spawn_eggs/spawn_egg_phantom",
         themeColor: "§9"
     },
     {
         id: "minecraft:witch_spawn_egg",
         name: "Witch Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_witch",
+        icon: "textures/items/spawn_eggs/spawn_egg_witch",
         themeColor: "§5"
     },
     {
         id: "minecraft:drowned_spawn_egg",
         name: "Drowned Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_drowned",
+        icon: "textures/items/spawn_eggs/spawn_egg_drowned",
         themeColor: "§b"
     },
     {
         id: "minecraft:husk_spawn_egg",
         name: "Husk Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_husk",
+        icon: "textures/items/spawn_eggs/spawn_egg_husk",
         themeColor: "§6"
     },
     {
         id: "minecraft:stray_spawn_egg",
         name: "Stray Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_stray",
+        icon: "textures/items/spawn_eggs/spawn_egg_stray",
         themeColor: "§7"
     },
     {
         id: "minecraft:pillager_spawn_egg",
         name: "Pillager Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_pillager",
+        icon: "textures/items/spawn_eggs/spawn_egg_pillager",
         themeColor: "§7"
     },
     {
         id: "minecraft:ravager_spawn_egg",
         name: "Ravager Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_ravager",
+        icon: "textures/items/spawn_eggs/spawn_egg_ravager",
         themeColor: "§8"
     },
     {
@@ -3376,35 +3376,35 @@ export const itemIndex = [
         id: "minecraft:cow_spawn_egg",
         name: "Cow Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_cow",
+        icon: "textures/items/spawn_eggs/spawn_egg_cow",
         themeColor: "§8" // dark brown
     },
     {
         id: "minecraft:pig_spawn_egg",
         name: "Pig Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_pig",
+        icon: "textures/items/spawn_eggs/spawn_egg_pig",
         themeColor: "§d" // pink
     },
     {
         id: "minecraft:sheep_spawn_egg",
         name: "Sheep Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_sheep",
+        icon: "textures/items/spawn_eggs/spawn_egg_sheep",
         themeColor: "§f" // white
     },
     {
         id: "minecraft:chicken_spawn_egg",
         name: "Chicken Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_chicken",
+        icon: "textures/items/spawn_eggs/spawn_egg_chicken",
         themeColor: "§f" // white
     },
     {
         id: "minecraft:rabbit_spawn_egg",
         name: "Rabbit Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_rabbit",
+        icon: "textures/items/spawn_eggs/spawn_egg_rabbit",
         themeColor: "§f" // white
     },
     {
@@ -3418,7 +3418,7 @@ export const itemIndex = [
         id: "minecraft:camera",
         name: "Camera",
         category: "item",
-        icon: "textures/items/camera",
+        icon: "textures/blocks/camera_side",
         themeColor: "§8"
     },
     {
@@ -3467,245 +3467,245 @@ export const itemIndex = [
         id: "minecraft:wolf_spawn_egg",
         name: "Wolf Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_wolf",
+        icon: "textures/items/spawn_eggs/spawn_egg_wolf",
         themeColor: "§7"
     },
     {
         id: "minecraft:mooshroom_spawn_egg",
         name: "Mooshroom Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_mooshroom",
+        icon: "textures/items/spawn_eggs/spawn_egg_mooshroom",
         themeColor: "§c"
     },
     {
         id: "minecraft:squid_spawn_egg",
         name: "Squid Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_squid",
+        icon: "textures/items/spawn_eggs/spawn_egg_squid",
         themeColor: "§9"
     },
     {
         id: "minecraft:glow_squid_spawn_egg",
         name: "Glow Squid Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_glow_squid",
+        icon: "textures/items/spawn_eggs/spawn_egg_glow_squid",
         themeColor: "§3"
     },
     {
         id: "minecraft:fox_spawn_egg",
         name: "Fox Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_fox",
+        icon: "textures/items/spawn_eggs/spawn_egg_fox",
         themeColor: "§6"
     },
     {
         id: "minecraft:elder_guardian_spawn_egg",
         name: "Elder Guardian Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_elder_guardian",
+        icon: "textures/items/spawn_eggs/spawn_egg_elder_guardian",
         themeColor: "§7"
     },
     {
         id: "minecraft:evoker_spawn_egg",
         name: "Evoker Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_evoker",
+        icon: "textures/items/spawn_eggs/spawn_egg_evoker",
         themeColor: "§7"
     },
     {
         id: "minecraft:vindicator_spawn_egg",
         name: "Vindicator Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_vindicator",
+        icon: "textures/items/spawn_eggs/spawn_egg_vindicator",
         themeColor: "§7"
     },
     {
         id: "minecraft:piglin_brute_spawn_egg",
         name: "Piglin Brute Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_piglin_brute",
+        icon: "textures/items/spawn_eggs/spawn_egg_piglin_brute",
         themeColor: "§6"
     },
     {
         id: "minecraft:wandering_trader_spawn_egg",
         name: "Wandering Trader Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_wandering_trader",
+        icon: "textures/items/spawn_eggs/spawn_egg_wandering_trader",
         themeColor: "§b"
     },
     {
         id: "minecraft:dolphin_spawn_egg",
         name: "Dolphin Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_dolphin",
+        icon: "textures/items/spawn_eggs/spawn_egg_dolphin",
         themeColor: "§b"
     },
     {
         id: "minecraft:llama_spawn_egg",
         name: "Llama Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_llama",
+        icon: "textures/items/spawn_eggs/spawn_egg_llama",
         themeColor: "§e"
     },
     {
         id: "minecraft:panda_spawn_egg",
         name: "Panda Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_panda",
+        icon: "textures/items/spawn_eggs/spawn_egg_panda",
         themeColor: "§f"
     },
     {
         id: "minecraft:parrot_spawn_egg",
         name: "Parrot Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_parrot",
+        icon: "textures/items/spawn_eggs/spawn_egg_parrot",
         themeColor: "§c"
     },
     {
         id: "minecraft:polar_bear_spawn_egg",
         name: "Polar Bear Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_polar_bear",
+        icon: "textures/items/spawn_eggs/spawn_egg_polar_bear",
         themeColor: "§f"
     },
     {
         id: "minecraft:slime_spawn_egg",
         name: "Slime Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_slime",
+        icon: "textures/items/spawn_eggs/spawn_egg_slime",
         themeColor: "§a"
     },
     {
         id: "minecraft:silverfish_spawn_egg",
         name: "Silverfish Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_silverfish",
+        icon: "textures/items/spawn_eggs/spawn_egg_silverfish",
         themeColor: "§7"
     },
     {
         id: "minecraft:cave_spider_spawn_egg",
         name: "Cave Spider Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_cave_spider",
+        icon: "textures/items/spawn_eggs/spawn_egg_cave_spider",
         themeColor: "§3"
     },
     {
         id: "minecraft:bat_spawn_egg",
         name: "Bat Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_bat",
+        icon: "textures/items/spawn_eggs/spawn_egg_bat",
         themeColor: "§0"
     },
     {
         id: "minecraft:cat_spawn_egg",
         name: "Cat Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_cat",
+        icon: "textures/items/spawn_eggs/spawn_egg_cat",
         themeColor: "§6"
     },
     {
         id: "minecraft:bee_spawn_egg",
         name: "Bee Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_bee",
+        icon: "textures/items/spawn_eggs/spawn_egg_bee",
         themeColor: "§e"
     },
     {
         id: "minecraft:piglin_spawn_egg",
         name: "Piglin Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_piglin",
+        icon: "textures/items/spawn_eggs/spawn_egg_piglin",
         themeColor: "§6"
     },
     {
         id: "minecraft:hoglin_spawn_egg",
         name: "Hoglin Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_hoglin",
+        icon: "textures/items/spawn_eggs/spawn_egg_hoglin",
         themeColor: "§c"
     },
     {
         id: "minecraft:strider_spawn_egg",
         name: "Strider Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_strider",
+        icon: "textures/items/spawn_eggs/spawn_egg_strider",
         themeColor: "§4"
     },
     {
         id: "minecraft:zombified_piglin_spawn_egg",
         name: "Zombified Piglin Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_zombified_piglin",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombified_piglin",
         themeColor: "§a"
     },
     {
         id: "minecraft:ocelot_spawn_egg",
         name: "Ocelot Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_ocelot",
+        icon: "textures/items/spawn_eggs/spawn_egg_ocelot",
         themeColor: "§e"
     },
     {
         id: "minecraft:donkey_spawn_egg",
         name: "Donkey Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_donkey",
+        icon: "textures/items/spawn_eggs/spawn_egg_donkey",
         themeColor: "§7"
     },
     {
         id: "minecraft:mule_spawn_egg",
         name: "Mule Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_mule",
+        icon: "textures/items/spawn_eggs/spawn_egg_mule",
         themeColor: "§6"
     },
     {
         id: "minecraft:skeleton_horse_spawn_egg",
         name: "Skeleton Horse Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_skeleton_horse",
+        icon: "textures/items/spawn_eggs/spawn_egg_skeleton_horse",
         themeColor: "§f"
     },
     {
         id: "minecraft:zombie_horse_spawn_egg",
         name: "Zombie Horse Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_zombie_horse",
+        icon: "textures/items/spawn_eggs/spawn_egg_zombie_horse",
         themeColor: "§a"
     },
     {
         id: "minecraft:horse_spawn_egg",
         name: "Horse Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_horse",
+        icon: "textures/items/spawn_eggs/spawn_egg_horse",
         themeColor: "§7"
     },
     {
         id: "minecraft:vex_spawn_egg",
         name: "Vex Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_vex",
+        icon: "textures/items/spawn_eggs/spawn_egg_vex",
         themeColor: "§b"
     },
     {
         id: "minecraft:endermite_spawn_egg",
         name: "Endermite Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_endermite",
+        icon: "textures/items/spawn_eggs/spawn_egg_endermite",
         themeColor: "§5"
     },
     {
         id: "minecraft:tadpole_spawn_egg",
         name: "Tadpole Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_tadpole",
+        icon: "textures/items/spawn_eggs/spawn_egg_tadpole",
         themeColor: "§6"
     },
     {
         id: "minecraft:trader_llama_spawn_egg",
         name: "Trader Llama Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_trader_llama",
+        icon: "textures/items/spawn_eggs/spawn_egg_trader_llama",
         themeColor: "§f"
     },
     {
@@ -3817,28 +3817,28 @@ export const itemIndex = [
         id: "minecraft:iron_golem_spawn_egg",
         name: "Iron Golem Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_iron_golem",
+        icon: "textures/items/spawn_eggs/spawn_egg_iron_golem",
         themeColor: "§f"
     },
     {
         id: "minecraft:snow_golem_spawn_egg",
         name: "Snow Golem Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_snow_golem",
+        icon: "textures/items/spawn_eggs/spawn_egg_snow_golem",
         themeColor: "§f"
     },
     {
         id: "minecraft:ender_dragon_spawn_egg",
         name: "Ender Dragon Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_ender_dragon",
+        icon: "textures/items/spawn_eggs/spawn_egg_ender_dragon",
         themeColor: "§5"
     },
     {
         id: "minecraft:zoglin_spawn_egg",
         name: "Zoglin Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_zoglin",
+        icon: "textures/items/spawn_eggs/spawn_egg_zoglin",
         themeColor: "§5"
     },
     {
@@ -3852,7 +3852,7 @@ export const itemIndex = [
         id: "minecraft:agent_spawn_egg",
         name: "Agent Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_agent",
+        icon: "textures/items/spawn_eggs/spawn_egg_agent",
         themeColor: "§7"
     },
     {
@@ -3880,35 +3880,35 @@ export const itemIndex = [
         id: "minecraft:crimson_sign",
         name: "Crimson Sign",
         category: "item",
-        icon: "textures/items/crimson_sign",
+        icon: "textures/items/sign_crimson",
         themeColor: "§c"
     },
     {
         id: "minecraft:warped_sign",
         name: "Warped Sign",
         category: "item",
-        icon: "textures/items/warped_sign",
+        icon: "textures/items/sign_warped",
         themeColor: "§3"
     },
     {
         id: "minecraft:jungle_sign",
         name: "Jungle Sign",
         category: "item",
-        icon: "textures/items/jungle_sign",
+        icon: "textures/items/sign_jungle",
         themeColor: "§2"
     },
     {
         id: "minecraft:turtle_spawn_egg",
         name: "Sea Turtle Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_turtle",
+        icon: "textures/items/spawn_eggs/spawn_egg_turtle",
         themeColor: "§2"
     },
     {
         id: "minecraft:pufferfish_spawn_egg",
         name: "Pufferfish Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_pufferfish",
+        icon: "textures/items/spawn_eggs/spawn_egg_pufferfish",
         themeColor: "§e"
     },
     {
