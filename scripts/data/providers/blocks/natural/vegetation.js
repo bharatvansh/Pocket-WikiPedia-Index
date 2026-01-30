@@ -1149,5 +1149,68 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:flowering_azalea": {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Any",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flowering Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "Flowering Azalea is a decorative flowering bush that generates naturally above Lush Caves in the Overworld, serving as a surface indicator of the cave biome below. It features vibrant pink and purple flowers among lush green leaves. When planted on dirt, grass, or moss blocks and supplied with bone meal, it can grow into an Azalea Tree with flowering azalea leaves. This bush is highly valued for landscaping and natural garden designs in Minecraft Bedrock Edition, providing aesthetic appeal and hinting at underground lush cave systems for explorers."
+    },
+    "minecraft:melon": {
+        id: "minecraft:melon",
+        name: "Melon",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Melon Slices (3-7)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes, Woodland Mansions"
+        },
+        description: "Melon is a fruit block that generates naturally in Jungle biomes and Woodland Mansions. When broken, it drops 3-7 melon slices which can be eaten to restore hunger or crafted into melon seeds. Using Silk Touch allows harvesting the whole block. Melons grow from melon stems planted on farmland, attaching to adjacent blocks when mature. They are an essential food source in survival mode and can be farmed efficiently. In Bedrock Edition, melons can also be crafted into glistering melon slices for brewing potions of healing."
+    },
+    "minecraft:sugar_cane": {
+        id: "minecraft:sugar_cane",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Any",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Near water in most biomes"
+        },
+        description: "Sugar Cane is a plant block that grows naturally along riverbanks, ocean shores, and near water sources in almost every Overworld biome. It grows up to three blocks tall and can be harvested at any height, with the remaining base continuing to grow. Sugar cane must be planted on grass, dirt, sand, or red sand adjacent to water. It is essential for crafting paper (used for books, maps, and fireworks) and sugar (used in cakes, pumpkin pies, and potions). In Bedrock Edition, it is a renewable and valuable farming resource for enchanting and trading."
     }
 };
