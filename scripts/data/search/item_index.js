@@ -3926,6 +3926,27 @@ export const itemIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:arrow_of_splashing",
+        name: "Arrow of Splashing",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:arrow_of_slow_falling",
+        name: "Arrow of Slow Falling",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:arrow_of_water_breathing",
+        name: "Arrow of Water Breathing",
+        category: "item",
+        icon: "textures/items/tipped_arrow_head",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:scrape_banner_pattern",
         name: "Scrape Banner Pattern",
         category: "item",

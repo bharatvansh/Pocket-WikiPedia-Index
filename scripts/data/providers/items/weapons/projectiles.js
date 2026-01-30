@@ -257,6 +257,87 @@ export const projectiles = {
         ],
         description: "The Arrow of Weaving is a tactical projectile added in the 1.21 update. When it impacts a target, it applies the Weaving effect, which triggers the spawning of multiple cobwebs upon the entity's death. This unique mechanic allows players to transform their defeated foes into environmental traps, slowing down remaining enemies. In Bedrock Edition, these arrows are efficiently produced by using standard arrows on a cauldron filled with a Potion of Weaving, making them a powerful tool for battlefield control and survival."
     },
+    "minecraft:arrow_of_splashing": {
+        id: "minecraft:arrow_of_splashing",
+        name: "Arrow of Splashing",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Projectile with no effect",
+            secondaryUse: "Collectible unique item"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Water (in Cauldron)"]
+        },
+        specialNotes: [
+            "Bedrock Edition exclusive tipped arrow variant",
+            "Created by dipping arrows into a cauldron filled with water",
+            "Does not apply any status effects to the target",
+            "Functional as a normal arrow but visibly distinct in the inventory",
+            "Commonly considered a curiosity due to its lack of specific effects"
+        ],
+        description: "The Arrow of Splashing is a specialized tipped arrow unique to Minecraft Bedrock Edition. Unlike other tipped arrows that apply status effects, the Arrow of Splashing is created by dipping arrows into a cauldron filled with water. It does not apply any additional effects to targets beyond standard arrow damage, but it serves as a unique collectible or a way to use up excess water in cauldrons. It retains the standard projectile properties of a regular arrow when fired from a bow or crossbow."
+    },
+    "minecraft:arrow_of_slow_falling": {
+        id: "minecraft:arrow_of_slow_falling",
+        name: "Arrow of Slow Falling",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Applying Slow Falling effect to targets",
+            secondaryUse: "Preventing fall damage during tactical retreats"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Slow Falling (in Cauldron)"]
+        },
+        specialNotes: [
+            "Applies the Slow Falling status effect for a short duration",
+            "Prevents fall damage and slows vertical descent for the target",
+            "In Bedrock, crafted efficiently using a cauldron with Potion of Slow Falling",
+            "Commonly used to assist teammates or manipulate mob physics",
+            "Vibrant white color makes it easy to distinguish from other tipped arrows"
+        ],
+        description: "The Arrow of Slow Falling is a tactical tipped arrow that applies the Slow Falling effect to any entity it strikes. In Bedrock Edition, it is most efficiently crafted using a cauldron filled with a Potion of Slow Falling. This arrow is particularly useful for saving allies from long falls or preventing hostile mobs from falling quickly, allowing for better battlefield control. Affected entities fall at a significantly reduced rate and take no fall damage while the effect is active, making it a versatile tool for both rescue and strategy."
+    },
+    "minecraft:arrow_of_water_breathing": {
+        id: "minecraft:arrow_of_water_breathing",
+        name: "Arrow of Water Breathing",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Granting Water Breathing effect to entities",
+            secondaryUse: "Tactical support for underwater exploration"
+        },
+        combat: {
+            attackDamage: 2,
+            attackSpeed: 0
+        },
+        crafting: {
+            recipeType: "Cauldron (Bedrock Only)",
+            ingredients: ["Arrow", "Potion of Water Breathing (in Cauldron)"]
+        },
+        specialNotes: [
+            "Grants the Water Breathing effect, preventing drowning",
+            "Crucial for supporting players or pets during underwater operations",
+            "In Bedrock Edition, produced by dipping arrows in a Potion of Water Breathing cauldron",
+            "A single potion bottle in a cauldron can dip up to 64 arrows if filled with 3 bottles",
+            "Distinct teal color identifies its aquatic utility"
+        ],
+        description: "The Arrow of Water Breathing is a specialized projectile that grants the Water Breathing status effect upon hitting a target. This allows players to support allies or pets by preventing them from drowning during deep-sea exploration or underwater combat. In Minecraft Bedrock Edition, these arrows are crafted using the cauldron tipping mechanic, making them highly efficient to produce. It essentially delivers the benefits of a Potion of Water Breathing at a distance, providing a unique tactical option for teams working together in aquatic biomes."
+    },
     "minecraft:ice_bomb": {
         id: "minecraft:ice_bomb",
         name: "Ice Bomb",
