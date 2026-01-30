@@ -3365,5 +3365,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:bed",
+        name: "Bed",
+        category: "block",
+        icon: "textures/blocks/bed_red_top_head",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:black_candle",
+        name: "Black Candle",
+        category: "block",
+        icon: "textures/blocks/candles/black_candle",
+        themeColor: "§0"
     }
 ];
