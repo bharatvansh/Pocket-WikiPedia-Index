@@ -642,5 +642,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:acacia_hanging_sign": {
+        id: "minecraft:acacia_hanging_sign",
+        name: "Acacia Hanging Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Hanging Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Acacia Stripped Logs and Chains"
+        },
+        description: "The Acacia Hanging Sign is a decorative block introduced in Minecraft 1.20. Crafted from two chains and stripped acacia logs, it features the vibrant orange hue characteristic of acacia wood. Unlike regular signs, it hangs from the block above or extends from the side of a block. It can hold text on both sides and is perfect for labeling shops, streets, or adding detail to builds. Being made of wood, it is flammable and can be used as fuel in a furnace."
     }
 };

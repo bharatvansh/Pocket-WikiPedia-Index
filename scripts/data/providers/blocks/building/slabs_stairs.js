@@ -722,5 +722,26 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
+    },
+    "minecraft:bamboo_mosaic_slab": {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Mosaic"
+        },
+        description: "Bamboo Mosaic Slab is a half-block variant of the Bamboo Mosaic block, introduced in Minecraft 1.20. It features a unique woven pattern distinct from regular bamboo planks. Crafted from three bamboo mosaic blocks in a row or via a stonecutter, it is ideal for flooring, roofing, and decorative accents. Like other wooden slabs, it is flammable and can be waterlogged. Its bright yellow texture adds a fresh, tropical feel to any build."
     }
 };

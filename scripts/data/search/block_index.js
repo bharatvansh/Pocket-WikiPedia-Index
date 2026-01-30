@@ -3365,5 +3365,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:acacia_hanging_sign",
+        name: "Acacia Hanging Sign",
+        category: "block",
+        icon: "textures/blocks/hanging_sign_acacia",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:cherry_button",
+        name: "Cherry Button",
+        category: "block",
+        icon: "textures/blocks/cherry_button",
+        themeColor: "§d" // light purple
     }
 ];
