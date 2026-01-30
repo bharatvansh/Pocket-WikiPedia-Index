@@ -497,6 +497,27 @@ export const blockIndex = [
         themeColor: "§6" // orange
     },
     {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:portal",
+        name: "Nether Portal",
+        category: "block",
+        icon: "textures/blocks/portal",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:mob_spawner",
+        name: "Monster Spawner",
+        category: "block",
+        icon: "textures/blocks/spawner",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:chiseled_tuff",
         name: "Chiseled Tuff",
         category: "block",
