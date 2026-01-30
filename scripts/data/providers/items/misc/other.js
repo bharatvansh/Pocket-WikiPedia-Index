@@ -1530,6 +1530,31 @@ export const miscItems = {
         ],
         description: "The Bamboo Raft is a distinct vehicle introduced in the 1.20 Trails & Tales update, offering a flat, open design compared to traditional walled boats. Despite its different appearance, it functions identically to standard boats, allowing for two passengers and high-speed travel on ice. Crafted from five bamboo planks, the raft provides a unique aesthetic that fits well with jungle or tropical themed builds. It also shares the ability to negate fall damage and transport mobs across water."
     },
+    "minecraft:bamboo_door": {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Blocking or allowing movement and vision through an opening",
+            secondaryUse: "Decorative building element with a unique lattice design"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Bamboo Planks x6"]
+        },
+        specialNotes: [
+            "Introduced in the 1.20 Trails & Tales update",
+            "Functional wooden door with a unique horizontal lattice appearance",
+            "Can be opened by players, villagers, and certain hostile mobs",
+            "Requires a redstone signal to open if used with pressure plates or levers",
+            "Can be broken by zombies on Hard difficulty in Bedrock Edition",
+            "Stacks to 64 in the inventory",
+            "Adds a tropical or modern aesthetic to builds"
+        ],
+        description: "The Bamboo Door is a functional block added in the 1.20 update, matching the bamboo wood set. It features a unique horizontal lattice design that distinguishes it from other wooden doors, offering a fresh aesthetic for jungle habitats, beach houses, or modern constructions. Crafted using six bamboo planks, it functions like any other wooden door—it can be opened by hand or via redstone components and provides a secure barrier against unwanted guests while allowing players to pass through easily."
+    },
     "minecraft:birch_boat": {
         id: "minecraft:birch_boat",
         name: "Birch Boat",

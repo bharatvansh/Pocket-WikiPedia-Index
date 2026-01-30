@@ -98,6 +98,13 @@ export const itemIndex = [
         themeColor: "§6" // copper/gold
     },
     {
+        id: "minecraft:heavy_core",
+        name: "Heavy Core",
+        category: "item",
+        icon: "textures/items/heavy_core",
+        themeColor: "§7" // gray/stone
+    },
+    {
         id: "minecraft:ominous_trial_key",
         name: "Ominous Trial Key",
         category: "item",
@@ -1575,6 +1582,13 @@ export const itemIndex = [
         themeColor: "§f" // paper/white
     },
     {
+        id: "minecraft:empty_locator_map",
+        name: "Empty Locator Map",
+        category: "item",
+        icon: "textures/items/map_empty",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:filled_map",
         name: "Map",
         category: "item",
@@ -1860,6 +1874,13 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/bamboo",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        category: "item",
+        icon: "textures/items/bamboo_door",
+        themeColor: "§e"
     },
     {
         id: "minecraft:angler_pottery_sherd",

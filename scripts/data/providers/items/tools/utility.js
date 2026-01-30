@@ -128,6 +128,31 @@ export const utilityTools = {
         ],
         description: "An Empty Map is crafted from paper and becomes a Map when used, letting you record explored terrain in a fixed map region. In Minecraft Bedrock Edition, crafting with a compass creates an Empty Locator Map that shows a position marker (when locator maps are enabled), while the paper-only recipe makes a non-locator map without a position marker. After using it, a Cartography Table can copy, zoom out, or lock the finished map."
     },
+    "minecraft:empty_locator_map": {
+        id: "minecraft:empty_locator_map",
+        name: "Empty Locator Map",
+        maxStack: 64,
+        durability: 0,
+        enchantable: false,
+        usage: {
+            primaryUse: "Creating a new Map with player pointers and markers",
+            secondaryUse: "Navigation and base marking in Bedrock Edition"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Paper x8", "Compass x1"]
+        },
+        specialNotes: [
+            "Exclusive to Minecraft Bedrock Edition",
+            "Displays arrows for players and dots for beacons or other players",
+            "When used, transforms into a Filled Locator Map (minecraft:filled_map)",
+            "Allows players to see their direction and position on the map",
+            "Can be zoomed out up to Level 4 at a Cartography Table",
+            "Necessary for creating Explorer Maps at a Cartography Table",
+            "Can be found in various loot chests like Shipwrecks or Buried Treasure"
+        ],
+        description: "The Empty Locator Map is a specialized item in Minecraft Bedrock Edition that allows players to create maps featuring player position markers and orientation arrows. Unlike the standard Empty Map, which only shows terrain, the Locator variant is essential for group play, base-finding, and complex navigation. It is crafted by surrounding a compass with eight pieces of paper on a crafting table. Once used, it captures the terrain of the current chunk's grid and provides live tracking of the player's movement within that region."
+    },
     "minecraft:filled_map": {
         id: "minecraft:filled_map",
         name: "Map",
