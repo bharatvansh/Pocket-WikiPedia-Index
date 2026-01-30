@@ -3365,5 +3365,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:white_bed",
+        name: "White Bed",
+        category: "block",
+        icon: "textures/blocks/bed_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:orange_bed",
+        name: "Orange Bed",
+        category: "block",
+        icon: "textures/blocks/bed_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:magenta_bed",
+        name: "Magenta Bed",
+        category: "block",
+        icon: "textures/blocks/bed_magenta",
+        themeColor: "§d"
     }
 ];

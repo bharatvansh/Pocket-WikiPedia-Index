@@ -705,4 +705,67 @@ export const interactiveBlocks = {
         },
         description: "An Iron Trapdoor is a horizontal variant of the iron door, functioning as a one-block opening that only responds to redstone power. It cannot be toggled by player interaction, making it ideal for trap-based defenses, hidden entrances, or secure flooring. Like its vertical counterpart, it is fire-proof and explosion-resistant. Its sleek, metallic appearance also makes it a popular industrial-themed decoration for skylights, ventilation shafts, or futuristic flooring."
     }
+    "minecraft:white_bed": {
+        id: "minecraft:white_bed",
+        name: "White Bed",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Bed"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village houses, igloos"
+        },
+        description: "A White Bed is a decorative and functional block that allows players to set their spawn point and skip the night. When placed, it occupies two blocks horizontally and features a white wool texture. Players can dye white beds using any dye color to match their build aesthetic. In Bedrock Edition, beds explode when used in the Nether or End dimensions, dealing massive damage to entities. Villagers use beds to rest and breed, making them essential for village mechanics."
+    },
+    "minecraft:orange_bed": {
+        id: "minecraft:orange_bed",
+        name: "Orange Bed",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Bed"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village houses"
+        },
+        description: "An Orange Bed is a vibrant sleeping block that lets players set their respawn location and advance through the night. Crafted by combining a white bed with orange dye or by using orange wool during crafting, it adds warm color to interior designs. The bed features an orange wool texture with matching sheets and pillows. In Bedrock Edition, attempting to sleep in the Nether or End causes a violent explosion, making it a dangerous prank tool."
+    },
+    "minecraft:magenta_bed": {
+        id: "minecraft:magenta_bed",
+        name: "Magenta Bed",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Magenta Bed"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Village houses"
+        },
+        description: "A Magenta Bed is a colorful sleeping furniture piece that enables players to set spawn points and pass through night quickly. Its striking magenta wool color makes it a standout decorative choice for modern and creative builds. The bed can be crafted with magenta wool or by dyeing a white bed. Like all beds in Bedrock Edition, it violently explodes if a player attempts to use it in the Nether or End dimensions, creating a hazardous trap possibility."
+    }
 };
