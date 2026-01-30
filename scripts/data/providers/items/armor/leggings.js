@@ -80,6 +80,28 @@ export const leggings = {
         ],
         description: "Iron Leggings are a standard mid-tier choice for lower-body protection. Offering 5 armor points, they provide a significant defensive boost while remaining easy to craft using iron ingots. They are often one of the first pieces of armor a player crafts after a chestplate. These leggings are durable enough for extensive exploration and cave diving, and they can be found in various loot chests in villages, shipwrecks, and strongholds."
     },
+    "minecraft:copper_leggings": {
+        id: "minecraft:copper_leggings",
+        name: "Copper Leggings",
+        maxStack: 1,
+        durability: 150,
+        enchantable: true,
+        usage: {
+            primaryUse: "Leg protection",
+            secondaryUse: "Mid-tier armor set component"
+        },
+        crafting: {
+            recipeType: "Shaped",
+            ingredients: ["Copper Ingot x7"]
+        },
+        specialNotes: [
+            "Provides 4 armor points (2 bars)",
+            "Durability: 150 (Superior to Gold's 105 but inferior to Iron's 225)",
+            "Part of the Copper Age game drop",
+            "Can be smelted into one Copper Nugget"
+        ],
+        description: "Copper Leggings provide 4 armor points for the lower body, offering a reliable middle ground between gold and iron armor. Introduced in the 1.21.111 update, they feature 150 durability points. They are crafted from seven copper ingots and are ideal for players who need dependable leg protection while conserving iron for other tools. Their distinctive orange-brown tint makes them easily recognizable in early-game gear sets."
+    },
     "minecraft:golden_leggings": {
         id: "minecraft:golden_leggings",
         name: "Golden Leggings",
