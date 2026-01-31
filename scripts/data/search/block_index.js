@@ -3386,5 +3386,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/glass_pane",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:dragon_head",
+        name: "Dragon Head",
+        category: "block",
+        icon: "textures/blocks/dragon_head",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:piglin_head",
+        name: "Piglin Head",
+        category: "block",
+        icon: "textures/blocks/piglin_head",
+        themeColor: "§6"
     }
 ];
