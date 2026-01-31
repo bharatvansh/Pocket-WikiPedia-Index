@@ -663,6 +663,27 @@ export const interactiveBlocks = {
         },
         description: "The Oak Fence Gate is the interactive counterpart to the oak fence, allowing players and entities to pass through periodic openings in a perimeter. It can be toggled by right-clicking or by redstone power. When placed, it automatically aligns with adjacent fences and walls. One unique property of fence gates is that they can be placed in mid-air and will remain there, which is often used in complex builds or mob-grinding designs."
     },
+    "minecraft:bamboo_fence_gate": {
+        id: "minecraft:bamboo_fence_gate",
+        name: "Bamboo Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Fence Gate"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Bamboo Fence Gate is a functional wood-based block introduced in version 1.20 as part of the bamboo set. Like other wood gates, it serves as a toggleable barrier that can be opened or closed by interacting with it or via redstone signals. It features the unique woven texture and light-yellow color characteristic of bamboo planks. When placed between walls, it adjusts its height to match. It is an essential component for creating secure enclosures in bamboo-themed gardens or structures, combining the utility of a gate with a distinct tropical aesthetic."
+    },
     "minecraft:iron_door": {
         id: "minecraft:iron_door",
         name: "Iron Door",

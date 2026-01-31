@@ -3365,5 +3365,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bamboo_mosaic_stairs",
+        name: "Bamboo Mosaic Stairs",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:bamboo_fence_gate",
+        name: "Bamboo Fence Gate",
+        category: "block",
+        icon: "textures/blocks/bamboo_fence_gate",
+        themeColor: "§e"
     }
 ];

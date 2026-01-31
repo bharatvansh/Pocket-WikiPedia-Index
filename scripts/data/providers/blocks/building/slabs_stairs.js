@@ -324,6 +324,48 @@ export const slabsStairsBlocks = {
         },
         description: "Bamboo Slab is a half-block variant of bamboo planks, featuring the same distinctive yellow-tan woven texture. It provides a low-profile building option for floors, ceilings, and intricate architectural details. Crafted by placing three bamboo planks horizontally or using a stonecutter, it is an essential part of the bamboo wood family. Bamboo slabs are flammable and can be combined into double slabs or placed in the top half of a block space. They offer a unique natural look that complements tropical, rustic, and modern builds effortlessly."
     },
+    "minecraft:bamboo_mosaic_slab": {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Bamboo Mosaic Slabs are half-block variants of the decorative Bamboo Mosaic, added in the 1.20 update. They possess the distinctive checkered texture of the mosaic blocks, making them perfect for detailed flooring, ceilings, and architectural accents. Crafted from three Bamboo Mosaic blocks horizontally or through a stonecutter, these slabs offer versatility in building. They can be placed in top or bottom halves of a block space or combined into double slabs, and they support waterlogging in Bedrock Edition."
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+        id: "minecraft:bamboo_mosaic_stairs",
+        name: "Bamboo Mosaic Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Bamboo Mosaic Stairs are a decorative stair variant introduced in Minecraft 1.20. They are crafted from Bamboo Mosaic blocks and feature the same intricate, checkered pattern. Like other stairs, they are used for creating compact elevation changes, sloped roofs, and detailed trim. In Bedrock Edition, they are waterloggable and provide a unique, stylized look for tropical or modern builds. They can be crafted using six Bamboo Mosaic blocks in a stair pattern or created efficiently using a stonecutter."
+    },
     "minecraft:mangrove_slab": {
         id: "minecraft:mangrove_slab",
         name: "Mangrove Slab",
