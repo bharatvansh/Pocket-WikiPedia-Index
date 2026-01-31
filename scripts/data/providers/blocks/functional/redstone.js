@@ -525,7 +525,7 @@ export const redstoneBlocks = {
         flammability: false,
         gravityAffected: false,
         transparent: true,
-        luminance: 0,
+        luminance: 7,
         mining: {
             tool: "Pickaxe",
             minTier: "Wood",
@@ -533,8 +533,8 @@ export const redstoneBlocks = {
         },
         drops: ["Powered Rail"],
         generation: {
-            dimension: "None",
-            yRange: "Crafted from Gold, Sticks, and Redstone"
+            dimension: "Overworld",
+            yRange: "Mineshafts"
         },
         description: "A Powered Rail is a specialized type of rail used to accelerate or decelerate minecarts. When powered by redstone, it provides a significant speed boost to passing minecarts; when unpowered, it acts as a brake, quickly bringing minecarts to a halt. It is crafted from six gold ingots, one stick, and one redstone dust. In Bedrock Edition, these rails are essential for long-distance transport networks, ensuring minecarts maintain momentum over hills and across flat terrain. They do not naturally curve like standard rails."
     },
