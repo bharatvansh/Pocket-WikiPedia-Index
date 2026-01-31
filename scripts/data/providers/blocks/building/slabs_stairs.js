@@ -722,5 +722,47 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
+    },
+    "minecraft:petrified_oak_slab": {
+        id: "minecraft:petrified_oak_slab",
+        name: "Petrified Oak Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Petrified Oak Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Commands/Creative only"
+        },
+        description: "Petrified Oak Slab is a unique, non-flammable slab that has the appearance of an oak slab but the properties of a stone-based block. In Bedrock Edition, it is a legacy item that can no longer be obtained through normal crafting, making it a rarity. Because it is considered a stone block type, it must be mined with a pickaxe rather than an axe. It is ideal for builds that require a wooden aesthetic without the risk of fire damage."
+    },
+    "minecraft:bamboo_mosaic_slab": {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "A bamboo mosaic slab is a decorative half-block crafted from bamboo slabs, featuring a distinct checkered or woven pattern that differs from standard bamboo planks. It introduces a tropical and sophisticated texture to builds, perfect for intricate flooring, ceilings, and staircases. While it retains the flammability of bamboo, it offers a sturdy and renewable building material for survival players. In Bedrock Edition, it is particularly useful as a high-efficiency fuel source in furnaces."
     }
 };
