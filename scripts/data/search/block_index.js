@@ -3407,5 +3407,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/glass_pane",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
     }
 ];

@@ -198,5 +198,68 @@ export const plankBlocks = {
             yRange: "N/A"
         },
         description: "Mangrove Planks are a deep red building material harvested from Mangrove trees in the Mangrove Swamp biome. They were introduced in the 1.19 Wild Update. Like other wood types, they are versatile and can be crafted into stairs, slabs, doors, and fences. Their rich coloration makes them a favorite for adding bold accents to builds, especially in tropical or nautical themes. They share the same physical properties as other wood planks, offering both durability and aesthetic appeal for a wide range of construction projects."
+    },
+    "minecraft:oak_planks": {
+        id: "minecraft:oak_planks",
+        name: "Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Oak Logs)"
+        },
+        description: "Oak Planks are a standard building block and one of the most essential materials in Minecraft. Harvested from oak logs found in nearly every Overworld biome, they serve as the foundation for countless crafting recipes, including sticks, tools, and structural components. Their light tan color and versatile texture make them a staple for both early-game shelters and complex architectural designs. As a wood-based block, they are flammable and can be easily destroyed by fire or explosions, requiring careful planning in hazardous environments."
+    },
+    "minecraft:spruce_planks": {
+        id: "minecraft:spruce_planks",
+        name: "Spruce Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Spruce Logs)"
+        },
+        description: "Spruce Planks are building blocks crafted from spruce logs, primarily found in taiga and snowy biomes. Known for their deep, dark brown hue, they are highly favored by builders for creating rustic cabins, medieval structures, and cozy interiors. They share the same physical properties as other wood planks—hardness of 2.0 and blast resistance of 3.0—and are fully flammable. Spruce is often paired with stone or darker logs to create high-contrast, atmospheric designs, making it a vital resource for players seeking a warm and sturdy aesthetic."
+    },
+    "minecraft:birch_planks": {
+        id: "minecraft:birch_planks",
+        name: "Birch Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Birch Logs)"
+        },
+        description: "Birch Planks are a light-colored wood building material crafted from birch logs, typically harvested from birch forest biomes. Featuring a pale, yellowish-white color, they are a popular choice for modern architecture, clean flooring, and bright interior spaces. Like all wood planks, they can be processed into stairs, slabs, fences, and boats. While they offer the same structural integrity as other woods, their bright aesthetic provides a stark contrast to darker blocks, allowing for contemporary and minimalist build styles while maintaining standard wood flammability."
     }
 };
