@@ -1149,5 +1149,47 @@ export const vegetationBlocks = {
             yRange: "Taiga, Jungle, Flower Forest"
         },
         description: "Ferns are decorative vegetation blocks that add texture and detail to forest floors, especially in Taiga and Jungle biomes. They share properties with tall grass, appearing as small, bushy green plants. While they don't produce unique items, they can be harvested with shears for use in landscaping or placed in flower pots. Using bone meal on a fern will transform it into a Large Fern, which is two blocks tall. They are a staple for builders looking to create organic environments."
+    },
+    "minecraft:dandelion": {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dandelion"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Forest, Meadow biomes"
+        },
+        description: "A classic bright yellow flower found in many grassy overworld biomes like Plains and Forests. Dandelions are a primarily used as a source of Yellow Dye, which can be obtained by crafting a single flower. They can also be used in Suspicious Stew to grant the Saturation effect, making them a useful survival resource. These flowers add a nice splash of color to home gardens and meadows and can be placed in Flower Pots for decoration."
+    },
+    "minecraft:poppy": {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Poppy"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Forest, Meadow, and other grassy biomes"
+        },
+        description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
     }
 };

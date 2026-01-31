@@ -3365,5 +3365,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:dandelion",
+        name: "Dandelion",
+        category: "block",
+        icon: "textures/blocks/flower_dandelion",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:poppy",
+        name: "Poppy",
+        category: "block",
+        icon: "textures/blocks/flower_rose",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:glass_pane",
+        name: "Glass Pane",
+        category: "block",
+        icon: "textures/items/glass_pane",
+        themeColor: "§f" // white
     }
 ];
