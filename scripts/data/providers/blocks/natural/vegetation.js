@@ -287,7 +287,7 @@ export const vegetationBlocks = {
             dimension: "Overworld",
             yRange: "Lush Caves (on Moss Blocks)"
         },
-        description: "Flowering Azalea is a decorative plant block found in Lush Caves. It is essentially a variant of the standard azalea bush adorned with small, bright purple flowers. Like the regular azalea, using bone meal on it will grow an azalea tree, though the resulting tree will contain both regular and flowering leaves. It can be grown by using bone meal on a moss block or a regular azalea bush. In Bedrock Edition, it is a key element for landscaping lush gardens and underground bases."
+        description: "Flowering Azalea is a decorative plant block found in Lush Caves. It is essentially a variant of the standard azalea bush adorned with small, bright purple flowers. Like the regular azalea, using bone meal on it will grow an azalea tree, though the resulting tree will contain both regular and flowering leaves. It can be grown by using bone meal on a moss block. In Bedrock Edition, it is a key element for landscaping lush gardens and underground bases."
     },
     "minecraft:flowering_azalea_leaves": {
         id: "minecraft:flowering_azalea_leaves",
