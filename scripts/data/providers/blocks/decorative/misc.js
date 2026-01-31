@@ -347,7 +347,7 @@ export const miscDecorativeBlocks = {
             dimension: "Overworld",
             yRange: "Laid by frogs on water surface"
         },
-        description: "Frog Spawn is a non-solid block laid by frogs after breeding with slimeballs on the surface of water. It is extremely fragile and will break instantly if an entity stands on it or if the water beneath it is removed. In Bedrock Edition, the spawn takes between 5 to 10 minutes to hatch into 2-5 tadpoles. It cannot be obtained as an item in Survival mode, even with the Silk Touch enchantment, ensuring that tadpole production remains a localized process within the frogs' natural or artificial habitats."
+        description: "Frog Spawn is a non-solid block laid by frogs after breeding with slimeballs on the surface of water. Entities pass through it rather than standing on it, and it does not break due to trampling or collision. It breaks if the supporting water block is removed or if broken by a player. In Bedrock Edition, the spawn takes between 5 to 10 minutes to hatch into 2-5 tadpoles. It cannot be obtained as an item in Survival mode, even with the Silk Touch enchantment, ensuring that tadpole production remains a localized process within the frogs' natural or artificial habitats."
     },
     "minecraft:turtle_egg": {
         id: "minecraft:turtle_egg",
