@@ -3449,5 +3449,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/azalea_leaves_flowers_side",
         themeColor: "§d" // light purple
+    },
+    {
+        id: "minecraft:petrified_oak_slab",
+        name: "Petrified Oak Slab",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§7" // stone gray
+    },
+    {
+        id: "minecraft:netherreactor",
+        name: "Nether Reactor Core",
+        category: "block",
+        icon: "textures/blocks/nether_reactor_core_front",
+        themeColor: "§b" // light blue
+    },
+    {
+        id: "minecraft:glowing_obsidian",
+        name: "Glowing Obsidian",
+        category: "block",
+        icon: "textures/blocks/glowing_obsidian",
+        themeColor: "§c" // red
     }
 ];
