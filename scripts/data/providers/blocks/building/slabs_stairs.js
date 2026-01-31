@@ -722,5 +722,68 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
+    },
+    "minecraft:andesite_wall": {
+        id: "minecraft:andesite_wall",
+        name: "Andesite Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Andesite Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A"
+        },
+        description: "Andesite Wall is a decorative building block crafted from Andesite. Introduced to provide more variety in stone-based barriers, it features the smooth, gray texture of andesite. Like other walls, it is 1.5 blocks high for most entities, preventing them from jumping over it, while only taking up a single block space visually. It connects to adjacent blocks and walls, making it ideal for creating intricate railings, garden boundaries, and structural detailing. It can be crafted from six andesite blocks or produced via a stonecutter."
+    },
+    "minecraft:diorite_wall": {
+        id: "minecraft:diorite_wall",
+        name: "Diorite Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Diorite Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A"
+        },
+        description: "Diorite Wall is a decorative masonry block made from Diorite. It shares the characteristic 'bird poop' white and gray speckled texture of diorite, offering a bright and clean aesthetic for perimeters and decorative accents. It behaves identically to other wall types, connecting to nearby blocks and providing a 1.5-block high barrier for pathfinding. Whether used for modern architecture or rustic garden fences, diorite walls are a durable and stylistic choice. They are crafted in a crafting table or stonecutter from diorite blocks."
+    },
+    "minecraft:granite_wall": {
+        id: "minecraft:granite_wall",
+        name: "Granite Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Granite Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A"
+        },
+        description: "Granite Wall is a sturdy decorative block crafted from Granite, featuring a warm, reddish-brown stone texture. It provides excellent utility for creating boundaries, protective railings, and architectural details that require a more colorful stone palette. Like all walls, it connects smoothly with other walls and solid blocks, creating a continuous and secure barrier. Granite walls are particularly effective in desert or mountain-themed builds, matching the natural tones of the earth. They can be manufactured using six granite blocks or more efficiently with a stonecutter."
     }
 };

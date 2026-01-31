@@ -3388,24 +3388,24 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
-        id: "minecraft:dragon_egg",
-        name: "Dragon Egg",
+        id: "minecraft:andesite_wall",
+        name: "Andesite Wall",
         category: "block",
-        icon: "textures/blocks/dragon_egg",
-        themeColor: "§5"
+        icon: "textures/blocks/andesite",
+        themeColor: "§7"
     },
     {
-        id: "minecraft:dragon_head",
-        name: "Dragon Head",
+        id: "minecraft:diorite_wall",
+        name: "Diorite Wall",
         category: "block",
-        icon: "textures/blocks/dragon_head",
-        themeColor: "§d"
+        icon: "textures/blocks/diorite",
+        themeColor: "§f"
     },
     {
-        id: "minecraft:piglin_head",
-        name: "Piglin Head",
+        id: "minecraft:granite_wall",
+        name: "Granite Wall",
         category: "block",
-        icon: "textures/blocks/piglin_head",
+        icon: "textures/blocks/granite",
         themeColor: "§6"
     }
 ];

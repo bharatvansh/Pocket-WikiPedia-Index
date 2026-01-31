@@ -642,26 +642,5 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
-    },
-    "minecraft:piglin_head": {
-        id: "minecraft:piglin_head",
-        name: "Piglin Head",
-        hardness: 1.0,
-        blastResistance: 1.0,
-        flammability: false,
-        gravityAffected: false,
-        transparent: true,
-        luminance: 0,
-        mining: {
-            tool: "None",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Piglin Head"],
-        generation: {
-            dimension: "The Nether",
-            yRange: "Dropped by Piglins"
-        },
-        description: "The Piglin Head is a decorative mob head obtained when a Piglin is killed by a Charged Creeper's explosion. It features a unique animation where its ears flap when the player wearing it moves or when it receives a redstone signal. Like other mob heads, placing it on a Note Block triggers the corresponding mob's ambient sound. It is a prized collection item that showcases a player's ability to manipulate rare game mechanics in the Nether."
     }
 };
