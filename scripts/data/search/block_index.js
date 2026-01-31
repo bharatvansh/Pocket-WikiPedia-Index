@@ -1498,10 +1498,10 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
-        id: "minecraft:frogspawn",
-        name: "Frogspawn",
+        id: "minecraft:frog_spawn",
+        name: "Frog Spawn",
         category: "block",
-        icon: "textures/blocks/frogspawn",
+        icon: "textures/blocks/frog_spawn",
         themeColor: "§a" // green
     },
     {
@@ -3428,5 +3428,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_birch",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:frosted_ice",
+        name: "Frosted Ice",
+        category: "block",
+        icon: "textures/blocks/frosted_ice_0",
+        themeColor: "§b" // light blue/ice
+    },
+    {
+        id: "minecraft:powder_snow",
+        name: "Powder Snow",
+        category: "block",
+        icon: "textures/blocks/powder_snow",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        category: "block",
+        icon: "textures/blocks/azalea_leaves_flowers_side",
+        themeColor: "§d" // light purple
     }
 ];

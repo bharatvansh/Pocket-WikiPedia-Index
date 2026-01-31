@@ -266,7 +266,28 @@ export const vegetationBlocks = {
             dimension: "Overworld",
             yRange: "Lush Caves (on ceiling), Azalea biomes"
         },
-        description: "Azalea is a flowering plant that grows in the Lush Caves biome, clinging to cave ceilings and forming part of the unique underground ecosystem. When placed in the Overworld, it can grow into Flowering Azalea Leaves when bone meal is applied. This small, delicate plant has vibrant green leaves and produces beautiful pink or purple flowers when matured. Azalea plants can be harvested using shears to preserve their structure, or broken by hand. They serve as an important component of cave decoration and can be used to create beautiful botanical displays in underground gardens."
+        description: "Azalea is a decorative bush that generates in Lush Caves biomes. In Bedrock Edition, it represents the sapling stage of an Azalea Tree. It can be planted on many blocks, including grass, dirt, and moss. When bone meal is applied to an azalea bush, it grows into a full azalea tree, complete with azalea leaves and flowering azalea leaves. Unlike most saplings, it has a small blast resistance and can be broken instantly by hand, though shears are often used to harvest it for decorative purposes."
+    },
+    "minecraft:flowering_azalea": {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flowering Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves (on Moss Blocks)"
+        },
+        description: "Flowering Azalea is a decorative plant block found in Lush Caves. It is essentially a variant of the standard azalea bush adorned with small, bright purple flowers. Like the regular azalea, using bone meal on it will grow an azalea tree, though the resulting tree will contain both regular and flowering leaves. It can be grown by using bone meal on a moss block. In Bedrock Edition, it is a key element for landscaping lush gardens and underground bases."
     },
     "minecraft:flowering_azalea_leaves": {
         id: "minecraft:flowering_azalea_leaves",
