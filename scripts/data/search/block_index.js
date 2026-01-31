@@ -98,6 +98,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:andesite_wall",
+        name: "Andesite Wall",
+        category: "block",
+        icon: "textures/blocks/stone_andesite",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:diorite",
         name: "Diorite",
         category: "block",
@@ -105,11 +112,25 @@ export const blockIndex = [
         themeColor: "§7" // gray/white
     },
     {
+        id: "minecraft:diorite_wall",
+        name: "Diorite Wall",
+        category: "block",
+        icon: "textures/blocks/stone_diorite",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:granite",
         name: "Granite",
         category: "block",
         icon: "textures/blocks/stone_granite",
         themeColor: "§6" // pinkish-brown
+    },
+    {
+        id: "minecraft:granite_wall",
+        name: "Granite Wall",
+        category: "block",
+        icon: "textures/blocks/stone_granite",
+        themeColor: "§6"
     },
     {
         id: "minecraft:polished_granite",
@@ -3386,26 +3407,5 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/glass_pane",
         themeColor: "§f" // white
-    },
-    {
-        id: "minecraft:andesite_wall",
-        name: "Andesite Wall",
-        category: "block",
-        icon: "textures/blocks/andesite",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:diorite_wall",
-        name: "Diorite Wall",
-        category: "block",
-        icon: "textures/blocks/diorite",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:granite_wall",
-        name: "Granite Wall",
-        category: "block",
-        icon: "textures/blocks/granite",
-        themeColor: "§6"
     }
 ];
