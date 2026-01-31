@@ -132,6 +132,6 @@ export const iceBlocks = {
             dimension: "Overworld",
             yRange: "Snowy Slopes and Groves"
         },
-        description: "Powder Snow is a trap-like block that entities can sink into. It generates naturally in high-altitude snowy biomes. Entities submerged in powder snow for too long will begin to freeze, taking periodic damage. Wearing leather boots allows players to walk on top of the snow without sinking. It can be collected and placed using a bucket, providing a Powder Snow Bucket. This block is unique in Bedrock Edition as it can be pushed and pulled by pistons without being destroyed."
+        description: "Powder Snow is a trap-like block that entities can sink into. It generates naturally in high-altitude snowy biomes. Entities submerged in powder snow for too long will begin to freeze, taking periodic damage. Wearing leather boots allows players to walk on top of the snow without sinking. It can be collected and placed using a bucket, providing a Powder Snow Bucket. This block can be pushed and pulled by pistons without being destroyed, making it useful for certain redstone mechanics."
     }
 };
