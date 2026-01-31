@@ -350,6 +350,20 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:firefly_bush",
+        name: "Firefly Bush",
+        category: "block",
+        icon: "textures/items/firefly_bush",
+        themeColor: "#617d3d"
+    },
+    {
+        id: "minecraft:leaf_litter",
+        name: "Leaf Litter",
+        category: "block",
+        icon: "textures/blocks/leaf_litter",
+        themeColor: "#7e8d4a"
+    },
+    {
         id: "minecraft:glowstone",
         name: "Glowstone",
         category: "block",
@@ -418,6 +432,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/purpur_block",
         themeColor: "§8" // light purple/pink
+    },
+    {
+        id: "minecraft:ominous_trial_spawner",
+        name: "Ominous Trial Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner_top_ominous",
+        themeColor: "#2c56a1"
     },
     {
         id: "minecraft:trial_spawner",

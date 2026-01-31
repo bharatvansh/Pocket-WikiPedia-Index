@@ -457,6 +457,48 @@ export const vegetationBlocks = {
         },
         description: "Small Dripleaves are elegant aquatic and terrestrial plants that naturally generate in Lush Caves. They can be placed on clay or moss blocks, and if underwater, they can also be placed on dirt and several other block types. When bone meal is used on a small dripleaf, it grows into a Big Dripleaf that can be several blocks tall. They are fragile and break instantly when mined, but require shears to be collected as an item. Unlike big dripleaves, they cannot be stood upon as platforms, serving instead as a decorative element and the initial growth stage for their larger counterparts."
     },
+    "minecraft:firefly_bush": {
+        id: "minecraft:firefly_bush",
+        name: "Firefly Bush",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 2,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Firefly Bush"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Education Edition / Experimental"
+        },
+        description: "The Firefly Bush is a rare decorative plant block found in Bedrock Edition. It is a short, leafy bush that emits a faint, greenish-yellow glow, simulating the presence of fireflies within its foliage. It has a light level of 2, making it a subtle atmospheric light source rather than a primary one. It can be placed on most grassy and dirt-based blocks and is often used for landscaping in magical or swamp-themed builds. It is instantly breakable and can be harvested by hand."
+    },
+    "minecraft:leaf_litter": {
+        id: "minecraft:leaf_litter",
+        name: "Leaf Litter",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Leaf Litter"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Forest biomes"
+        },
+        description: "Leaf Litter is a thin, decorative vegetation block introduced in recent Bedrock Edition updates. It appears as a scattered layer of fallen leaves covering the ground, similar in behavior to moss carpet or snow layers. It naturally generates in various forest biomes, adding a realistic, organic feel to the forest floor. It can be placed on most solid blocks and does not obstruct player movement. While it provides no functional utility or resources, it is a highly valued detailing block for nature-themed builds and landscaping, helping to blend trees into the surrounding terrain."
+    },
     "minecraft:open_eyeblossom": {
         id: "minecraft:open_eyeblossom",
         name: "Open Eyeblossom",
