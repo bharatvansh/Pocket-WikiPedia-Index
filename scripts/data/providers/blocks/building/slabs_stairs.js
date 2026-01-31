@@ -786,6 +786,69 @@ export const slabsStairsBlocks = {
         },
         description: "Granite Wall is a sturdy decorative block crafted from Granite, featuring a warm, reddish-brown stone texture. It provides excellent utility for creating boundaries, protective railings, and architectural details that require a more colorful stone palette. Like all walls, it connects smoothly with other walls and solid blocks, creating a continuous and secure barrier. Granite walls are particularly effective in desert or mountain-themed builds, matching the natural tones of the earth. They can be manufactured using six granite blocks or more efficiently with a stonecutter."
     },
+    "minecraft:andesite_stairs": {
+        id: "minecraft:andesite_stairs",
+        name: "Andesite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Andesite Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Andesite Stairs are decorative stone blocks that provide smooth elevation changes in builds. Featuring the neutral, speckled gray texture of andesite, they are ideal for creating detailed rooflines, subtle architectural trim, and sturdy staircases. They are crafted using six andesite blocks in a crafting table or more efficiently via a stonecutter. Like other stone-based stairs, they are fire-resistant, blast-resistant, and can be waterlogged. Their industrial gray appearance makes them a versatile choice for both modern structures and dungeon-themed environments."
+    },
+    "minecraft:diorite_stairs": {
+        id: "minecraft:diorite_stairs",
+        name: "Diorite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Diorite Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Diorite Stairs provide a bright, clean aesthetic for vertical transitions and architectural detailing. Featuring the signature white and gray speckled texture of diorite, these stairs are perfect for highlighting edges or creating contrast in darker builds. They are produced by crafting six diorite blocks together or using a stonecutter for a one-to-one conversion. Diorite stairs are fireproof and possess moderate blast resistance, making them durable for various construction projects. They can be placed in multiple orientations to create complex shapes like pillars or cornices."
+    },
+    "minecraft:granite_stairs": {
+        id: "minecraft:granite_stairs",
+        name: "Granite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Granite Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Granite Stairs offer a warm, earthy-red stone texture for architectural designs. They are perfect for creating rustic accents, sloped roofs, and grand staircases that require a more colorful stone palette than standard gray variants. These stairs are formed by crafting six granite blocks in a stair pattern or by using a stonecutter. As a stone material, they are non-flammable and explosion-resistant. Granite stairs pair excellently with other warm blocks like bricks or sandstone, providing both functional utility and a distinctive aesthetic touch to any structure."
+    },
     "minecraft:petrified_oak_slab": {
         id: "minecraft:petrified_oak_slab",
         name: "Petrified Oak Slab",

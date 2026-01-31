@@ -3470,5 +3470,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glowing_obsidian",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:andesite_stairs",
+        name: "Andesite Stairs",
+        category: "block",
+        icon: "textures/blocks/andesite_stairs",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:diorite_stairs",
+        name: "Diorite Stairs",
+        category: "block",
+        icon: "textures/blocks/diorite_stairs",
+        themeColor: "§7" // white/gray
+    },
+    {
+        id: "minecraft:granite_stairs",
+        name: "Granite Stairs",
+        category: "block",
+        icon: "textures/blocks/granite_stairs",
+        themeColor: "§6" // pinkish-brown
     }
 ];
