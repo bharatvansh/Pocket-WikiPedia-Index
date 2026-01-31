@@ -785,5 +785,26 @@ export const slabsStairsBlocks = {
             yRange: "N/A"
         },
         description: "Granite Wall is a sturdy decorative block crafted from Granite, featuring a warm, reddish-brown stone texture. It provides excellent utility for creating boundaries, protective railings, and architectural details that require a more colorful stone palette. Like all walls, it connects smoothly with other walls and solid blocks, creating a continuous and secure barrier. Granite walls are particularly effective in desert or mountain-themed builds, matching the natural tones of the earth. They can be manufactured using six granite blocks or more efficiently with a stonecutter."
+    },
+    "minecraft:petrified_oak_slab": {
+        id: "minecraft:petrified_oak_slab",
+        name: "Petrified Oak Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Petrified Oak Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Unobtainable (Legacy)"
+        },
+        description: "The Petrified Oak Slab is a unique legacy block in Minecraft Bedrock Edition that appears identical to a standard oak slab but behaves like stone. Unlike regular wooden slabs, it is non-flammable and must be mined with a pickaxe to be dropped. It was originally the only type of wooden slab when slabs were first introduced and used stone properties. While it can no longer be crafted in modern versions, it remains in the game's code and can be obtained via commands or in older upgraded worlds."
     }
 };

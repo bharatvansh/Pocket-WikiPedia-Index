@@ -704,5 +704,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "An Iron Trapdoor is a horizontal variant of the iron door, functioning as a one-block opening that only responds to redstone power. It cannot be toggled by player interaction, making it ideal for trap-based defenses, hidden entrances, or secure flooring. Like its vertical counterpart, it is fire-proof and explosion-resistant. Its sleek, metallic appearance also makes it a popular industrial-themed decoration for skylights, ventilation shafts, or futuristic flooring."
+    },
+    "minecraft:netherreactor": {
+        id: "minecraft:netherreactor",
+        name: "Nether Reactor Core",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Reactor Core"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Legacy / Creative Only"
+        },
+        description: "The Nether Reactor Core is an iconic legacy block from the early days of Minecraft Pocket Edition. Before the addition of the Nether dimension, players used this core as part of a multi-block structure with cobblestone and gold blocks to generate a 'Nether Spire.' Upon activation, it turned the surrounding area into a vertical tower of netherrack and spawned various items and Zombified Piglins. Although now obsolete following the introduction of the actual Nether dimension, the block remains a nostalgic piece of Bedrock history, obtainable only through commands."
     }
 };
