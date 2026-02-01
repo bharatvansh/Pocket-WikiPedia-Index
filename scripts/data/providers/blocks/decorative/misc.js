@@ -642,5 +642,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg (when pushed by piston)"],
+        generation: {
+            dimension: "End",
+            yRange: "End Portal Exit (after defeating Ender Dragon)"
+        },
+        description: "The Dragon Egg is a decorative trophy block generating atop the End Portal upon defeating the Ender Dragon. It is Minecraft's rarest block, with only one per world. When clicked, it teleports to a random nearby location, making collection challenging. Its gravity-affected nature causes it to fall when unsupported. The most reliable collection method uses a piston. With its distinctive dark purple texture and gray speckles, the Dragon Egg serves as the ultimate symbol of victory in Minecraft Bedrock Edition."
     }
 };

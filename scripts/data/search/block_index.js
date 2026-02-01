@@ -2226,6 +2226,27 @@ export const blockIndex = [
         themeColor: "§c" // red
     },
     {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "block",
+        icon: "textures/blocks/rail_normal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        category: "block",
+        icon: "textures/blocks/rail_detector",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:emerald_block",
         name: "Block of Emerald",
         category: "block",
