@@ -495,5 +495,26 @@ export const redstoneBlocks = {
             yRange: "Bastion Remnants; Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts"
+        },
+        description: "Rails are non-solid blocks used to create paths for minecarts to travel along. They naturally generate in abandoned mineshafts and can be crafted with iron ingots and sticks. Rails automatically orient themselves when placed and connect to adjacent rails, forming curves and intersections. They can ascend slopes up to one block high per rail piece. In Bedrock Edition, rails can be waterlogged and work underwater. Rails are essential for transportation systems, mob farms, and automated item delivery networks in survival gameplay."
     }
 };

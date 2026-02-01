@@ -1412,6 +1412,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/campfire",
         themeColor: "§6" // orange/gold
+    {
+        id: "minecraft:cake",
+        name: "Cake",
+        category: "block",
+        icon: "textures/blocks/cake_top",
+        themeColor: "§f"
+    },
     },
     {
         id: "minecraft:spore_blossom",
@@ -2462,6 +2469,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/repeater",
         themeColor: "§c"
+    {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "block",
+        icon: "textures/blocks/rail_normal",
+        themeColor: "§7"
+    },
     },
     {
         id: "minecraft:stone_pressure_plate",
@@ -3127,6 +3141,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/end_gateway",
         themeColor: "§5"
+    {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5"
+    },
     },
     {
         id: "minecraft:bamboo_sapling",

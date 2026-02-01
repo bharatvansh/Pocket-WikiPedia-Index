@@ -725,5 +725,26 @@ export const interactiveBlocks = {
             yRange: "Legacy / Creative Only"
         },
         description: "The Nether Reactor Core is an iconic legacy block from the early days of Minecraft Pocket Edition. Before the addition of the Nether dimension, players used this core as part of a multi-block structure with cobblestone and gold blocks to generate a 'Nether Spire.' Upon activation, it turned the surrounding area into a vertical tower of netherrack and spawned various items and Zombified Piglins. Although now obsolete following the introduction of the actual Nether dimension, the block remains a nostalgic piece of Bedrock history, obtainable only through commands."
+    },
+    "minecraft:cake": {
+        id: "minecraft:cake",
+        name: "Cake",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Cake is a unique food block that can be placed and consumed in slices. Each cake has seven slices, with each slice restoring 2 hunger points and 0.4 saturation when eaten by right-clicking. Unlike other foods, cake must be placed on a solid block before consumption and cannot be eaten from the inventory. Crafted with milk buckets, sugar, eggs, and wheat, cake is often used for decoration in builds or as a renewable food source. In Bedrock Edition, cake can be pushed by pistons, making it useful in certain redstone contraptions."
     }
 };

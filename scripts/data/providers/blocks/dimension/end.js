@@ -303,5 +303,26 @@ export const endBlocks = {
             yRange: "75 (Main Island) / Various (Outer Islands)"
         },
         description: "The End Gateway is a small, indestructible portal block that facilitates travel between the main End island and outer islands. It generates when the Ender Dragon is defeated. Players can enter by throwing an ender pearl into the gap or by using a trapdoor to crawl through. It emits a powerful light level of 15 and features a unique end galaxy texture. This block is essential for exploring the vast outer reaches of the End where End Cities and Chorus Plants are found."
+    },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 1,
+        mining: {
+            tool: "Piston",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg"],
+        generation: {
+            dimension: "The End",
+            yRange: "Exit Portal (after defeating Ender Dragon)"
+        },
+        description: "The Dragon Egg is a decorative block that generates atop the exit portal when the Ender Dragon is defeated for the first time. It is the rarest block in Minecraft, as only one spawns per world in Bedrock Edition. The egg emits a faint light level of 1 and features a distinctive black texture with purple particles. When clicked, it teleports to a random nearby location. To collect it, players must push it with a piston or let it fall onto a non-solid block like a torch. Affected by gravity like sand and gravel, it serves as a trophy symbolizing victory over the Ender Dragon."
     }
 };
