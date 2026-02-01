@@ -495,5 +495,47 @@ export const redstoneBlocks = {
             yRange: "Bastion Remnants; Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts, Woodland Mansions"
+        },
+        description: "The Rail is a fundamental transportation block that allows minecarts to travel along its path. Crafted from six iron ingots and one stick, it forms the backbone of minecart systems for moving players, items, and mobs. When placed, rails automatically connect to adjacent rails, forming continuous tracks. In Bedrock Edition, rails are essential for automated item transport systems and player transportation networks. They generate naturally in abandoned mineshafts and woodland mansions."
+    },
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Detector Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Mineshafts"
+        },
+        description: "The Detector Rail is a specialized redstone component that detects minecarts passing over it, emitting a redstone signal strength of 15. Crafted from six iron ingots, one stone pressure plate, and one redstone dust, it triggers automatic systems based on minecart movement. When activated, it powers adjacent redstone components for 20 ticks. In Bedrock Edition, detector rails are essential for automated minecart stations, item sorting systems, and player detection mechanisms. They generate naturally in abandoned mineshafts."
     }
 };
