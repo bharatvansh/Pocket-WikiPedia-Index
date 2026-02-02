@@ -307,6 +307,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The sniffer egg is a large, decorative block that eventually hatches into a snifflet. It can be found in suspicious sand within warm ocean ruins or obtained by breeding two adult sniffers. When placed on a moss block, the egg hatches in approximately 10 minutes, which is twice as fast as on any other block type."
     },
+    "minecraft:dragon_egg": {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        hardness: 3.0,
+        blastResistance: 5.0,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Egg (Only obtainable via piston or special methods)"],
+        generation: {
+            dimension: "The End",
+            yRange: "Top of exit portal (First Dragon)"
+        },
+        description: "The Dragon Egg is a unique trophy block that appears on top of the exit portal after defeating the Ender Dragon for the first time. It teleports when interacted with or mined normally, and can only be collected using a piston or by causing it to drop (e.g., torch technique). If there is no supporting block under it, it will fall like sand or gravel."
+    },
     "minecraft:amethyst_cluster": {
         id: "minecraft:amethyst_cluster",
         name: "Amethyst Cluster",

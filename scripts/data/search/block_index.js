@@ -2009,6 +2009,13 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:hanging_sign",
         name: "Hanging Sign",
         category: "block",
