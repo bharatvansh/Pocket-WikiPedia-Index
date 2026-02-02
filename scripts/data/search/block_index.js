@@ -3499,4 +3499,26 @@ export const blockIndex = [
         icon: "textures/blocks/granite_stairs",
         themeColor: "§6" // pinkish-brown
     }
+,
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/blocks/bamboo",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        category: "block",
+        icon: "textures/blocks/flowering_azalea_side",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:azalea_leaves_flowered",
+        name: "Flowered Azalea Leaves",
+        category: "block",
+        icon: "textures/blocks/flowering_azalea_leaves",
+        themeColor: "§a" // green
+    }
 ];

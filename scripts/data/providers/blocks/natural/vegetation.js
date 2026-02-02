@@ -1212,5 +1212,68 @@ export const vegetationBlocks = {
             yRange: "Plains, Forest, Meadow, and other grassy biomes"
         },
         description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes, Bamboo Forest"
+        },
+        description: "Bamboo is a fast-growing plant that can be found naturally in Jungle biomes and Bamboo Forest variants. It grows in clusters and can reach impressive heights, making it useful for building structures and creating sustainable resource farms. Bamboo can be crafted into various items including sticks, bamboo blocks, and scaffolding. Each bamboo plant yields 1-2 bamboo items when harvested. In Bedrock Edition, bamboo is also used to craft bamboo planks and various bamboo-based building materials. It burns easily and serves as an effective renewable fuel source."
+    },
+    "minecraft:flowering_azalea": {
+        id: "minecraft:flowering_azalea",
+        name: "Flowering Azalea",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flowering Azalea"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves, can be grown with bone meal"
+        },
+        description: "Flowering Azalea is a decorative plant that naturally generates in Lush Caves. It features small white flowers that bloom atop a green leafy base, making it a beautiful addition to any garden or cave build. When bone meal is applied to azalea or flowering azalea, it can spread to adjacent blocks. The flowering variant can be used to obtain light gray dye, making it valuable for color crafting. It has the same growing properties as regular azalea and can be placed in flower pots for indoor decoration."
+    },
+    "minecraft:azalea_leaves_flowered": {
+        id: "minecraft:azalea_leaves_flowered",
+        name: "Flowered Azalea Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Flowering Azalea Leaves"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves, can be grown with bone meal"
+        },
+        description: "Flowered Azalea Leaves are the flowering variant of azalea leaves, found naturally in Lush Caves. These leaves are covered with small white flowers and serve as both a decorative and functional building material. When broken with shears, they drop themselves as an item, making them renewable for decoration purposes. They can be composted in a composter and provide bone meal when harvested. Like regular azalea leaves, they have a very low hardness and blast resistance, making them easy to harvest. They are primarily used for their aesthetic appeal in garden and indoor builds."
     }
 };
