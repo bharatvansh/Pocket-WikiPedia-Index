@@ -644,5 +644,26 @@ export const copperBlocks = {
             yRange: "Crafted from Copper Grates or applied Honeycomb"
         },
         description: "A transparent lattice-style block crafted from copper that has been waxed to lock in its' fresh appearance. It allows light to pass through and can be walked upon, making it perfect for industrial walkways, vents, or decorative railings. Because it is waxed, it won't weather into the green patina common to older copper structures. Players can remove the wax coating using an axe, which then allows the block to oxidize through its' usual stages. In Bedrock Edition, it behaves as a transparent block that requires a pickaxe for harvesting."
+    },
+    "minecraft:copper_chain": {
+        id: "minecraft:copper_chain",
+        name: "Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Copper Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted (1 Copper Ingot, 2 Copper Nuggets)"
+        },
+        description: "The Copper Chain is a decorative metal chain crafted from copper ingots and nuggets. Like other copper blocks, it oxidizes through four stages from bright orange to teal green. It can be waxed with honeycomb to freeze oxidation at any stage, or scraped with an axe to reverse aging. The chain doesn't require supporting blocks and can be placed freely in mid-air, making it ideal for hanging bells, lanterns, and signs. Introduced in The Copper Age update (Bedrock 1.21.111), it provides medieval and industrial building aesthetics."
     }
 };

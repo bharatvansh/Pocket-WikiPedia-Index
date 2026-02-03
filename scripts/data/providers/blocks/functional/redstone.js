@@ -579,5 +579,26 @@ export const redstoneBlocks = {
             yRange: "Y: -64 to 320 (Mineshafts)"
         },
         description: "A Detector Rail is a redstone-active block that functions like a pressure plate for minecarts. It emits a redstone signal whenever a minecart is positioned on it, making it essential for automating rail junctions and monitoring cart traffic. It can be used to trigger gates, activate powered rails, or signal the arrival of an item collection cart at a storage system. In Bedrock Edition, it provides a reliable way to integrate minecart systems with other redstone machinery and automation."
+    },
+    "minecraft:activator_rail": {
+        id: "minecraft:activator_rail",
+        name: "Activator Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Activator Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted (6 Iron Ingots, 2 Sticks, 1 Redstone Torch = 16 rails)"
+        },
+        description: "An Activator Rail is a specialized rail block that ejects entities from minecarts when powered by redstone. It can also activate TNT minecarts, lock/unlock hopper minecarts, and trigger various minecart behaviors. Crafted from iron ingots, sticks, and a redstone torch, activator rails are essential for mob transport systems, automated TNT miners, and selective item collection. In Bedrock Edition, activation occurs on C-ticks and adjacent rails propagate signals up to 8 blocks away."
     }
 };
