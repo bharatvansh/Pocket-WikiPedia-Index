@@ -3730,5 +3730,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_trapdoor",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:red_nether_bricks",
+        name: "Red Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/red_nether_bricks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:white_shulker_box",
+        name: "White Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_white",
+        themeColor: "§f"
     }
 ];
