@@ -3038,6 +3038,27 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:cyan_glazed_terracotta",
+        name: "Cyan Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_cyan",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_purple",
+        themeColor: "§5" // dark purple
+    },
+    {
+        id: "minecraft:lime_glazed_terracotta",
+        name: "Lime Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_lime",
+        themeColor: "§a" // green
+    },
+    {
         id: "minecraft:white_stained_glass",
         name: "White Stained Glass",
         category: "block",

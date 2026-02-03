@@ -134,6 +134,69 @@ export const miscBuildingBlocks = {
         },
         description: "White Glazed Terracotta is a vibrant decorative block with a unique, ornate pattern. It is created by smelting white terracotta in a furnace. Like other glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it valuable for complex redstone machinery. Its directional placement allows players to create large, recurring patterns across floors and walls."
     },
+    "minecraft:cyan_glazed_terracotta": {
+        id: "minecraft:cyan_glazed_terracotta",
+        name: "Cyan Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cyan Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Cyan Terracotta"
+        },
+        description: "Cyan Glazed Terracotta is a decorative block featuring a complex cyan, brown, and dark aqua pattern that resembles arrows or a stylized creeper face when combined. It is obtained by smelting cyan terracotta in a furnace. Like all glazed terracotta, it cannot be pulled by sticky pistons or honey blocks, making it highly useful for advanced redstone contraptions and industrial aesthetics. Its vibrant and intricate design is ideal for creating ornate floor mosaics and decorative pathways."
+    },
+    "minecraft:purple_glazed_terracotta": {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purple Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Purple Terracotta"
+        },
+        description: "Purple Glazed Terracotta is an ornate block displaying a swirling purple and magenta pattern. Created by smelting purple terracotta, it serves as a high-tier decorative material. Its unique property of being un-pullable by sticky pistons makes it a staple in technical redstone builds. When rotated correctly, four blocks can form a large circular or star-like geometric pattern, making it a favorite for majestic palace floors and magical-themed interior designs."
+    },
+    "minecraft:lime_glazed_terracotta": {
+        id: "minecraft:lime_glazed_terracotta",
+        name: "Lime Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Lime Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Lime Terracotta"
+        },
+        description: "Lime Glazed Terracotta is a vibrant decorative block featuring a bright lime and yellow geometric design. It is produced by smelting lime terracotta in a furnace. This block is notably used for its high-contrast patterns and its inability to be moved by sticky pistons, providing utility in both aesthetics and redstone machinery. Its bold colors and intricate lines allow for the creation of striking modern art and colorful, organic-themed architectural details."
+    },
     "minecraft:smooth_quartz": {
         id: "minecraft:smooth_quartz",
         name: "Smooth Quartz Block",
