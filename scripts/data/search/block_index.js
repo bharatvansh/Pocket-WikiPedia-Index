@@ -3687,5 +3687,27 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/copper_chain",
         themeColor: "§6"
+    },
+
+    {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/copper_bulb",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:cherry_door",
+        name: "Cherry Door",
+        category: "block",
+        icon: "textures/items/cherry_door",
+        themeColor: "§d"
     }
 ];

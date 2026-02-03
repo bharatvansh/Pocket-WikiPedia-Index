@@ -953,5 +953,27 @@ export const slabsStairsBlocks = {
             yRange: "Unobtainable (Legacy)"
         },
         description: "The Petrified Oak Slab is a unique legacy block in Minecraft Bedrock Edition that appears identical to a standard oak slab but behaves like stone. Unlike regular wooden slabs, it is non-flammable and must be mined with a pickaxe to be dropped. It was originally the only type of wooden slab when slabs were first introduced and used stone properties. While it can no longer be crafted in modern versions, it remains in the game's code and can be obtained via commands or in older upgraded worlds."
+    },
+
+    "minecraft:bamboo_mosaic_slab": {
+        id: "minecraft:bamboo_mosaic_slab",
+        name: "Bamboo Mosaic Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Mosaic"
+        },
+        description: "Bamboo Mosaic Slab is a decorative half-block variant of the Bamboo Mosaic. It features a unique woven pattern different from standard bamboo planks. It can be used for flooring, roofing, and intricate designs. Like other wooden slabs, it is flammable. It is crafted from Bamboo Mosaic blocks or via a stonecutter."
     }
 };

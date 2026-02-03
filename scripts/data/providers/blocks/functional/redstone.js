@@ -600,5 +600,27 @@ export const redstoneBlocks = {
             yRange: "Crafted (6 Iron Ingots, 2 Sticks, 1 Redstone Torch = 16 rails)"
         },
         description: "An Activator Rail is a specialized rail block that ejects entities from minecarts when powered by redstone. It can also activate TNT minecarts, lock/unlock hopper minecarts, and trigger various minecart behaviors. Crafted from iron ingots, sticks, and a redstone torch, activator rails are essential for mob transport systems, automated TNT miners, and selective item collection. In Bedrock Edition, activation occurs on C-ticks and adjacent rails propagate signals up to 8 blocks away."
+    },
+
+    "minecraft:waxed_copper_bulb": {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Bulb"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Copper Blocks"
+        },
+        description: "A Waxed Copper Bulb is a light-emitting block that toggles its state when powered by redstone. Unlike a redstone lamp, it acts as a T-Flip-Flop, maintaining its ON or OFF state even after the redstone signal is removed. Being waxed, it will not oxidize further. It emits a light level of 15 when active. The texture changes slightly to indicate its powered state. It is crafted from copper blocks, blaze rods, and redstone dust."
     }
 };
