@@ -1212,5 +1212,68 @@ export const vegetationBlocks = {
             yRange: "Plains, Forest, Meadow, and other grassy biomes"
         },
         description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
+    },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Near water sources in most biomes"
+        },
+        description: "Sugar Cane is a vital natural plant block found near water sources in the Overworld. Growing in stalks up to three blocks high, it is an essential resource for crafting Paper and Sugar. It can be planted on Grass, Dirt, Podzol, or Sand blocks, provided they are directly adjacent to water. Sugar cane is also used in trading with Librarian villagers. In Bedrock Edition, it is a non-solid block that can be instantly broken and cannot catch fire, making it a safe choice for decorative water features."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle and Bamboo Jungle biomes"
+        },
+        description: "Bamboo is the fastest-growing plant in Minecraft, primarily found in Jungle biomes. It can grow up to 16 blocks high and is a versatile material for crafting Scaffolding, Sticks, and Bamboo-based wood blocks. Pandas are known to consume bamboo, and it can also be used as a high-efficiency fuel source in furnaces. In Bedrock Edition, it has a notable hardness that makes it slightly slower to break by hand compared to other plants, but it remains easily harvestable with an axe or sword. It can be planted on many blocks, including moss and mud."
+    },
+    "minecraft:big_dripleaf_stem": {
+        id: "minecraft:big_dripleaf_stem",
+        name: "Big Dripleaf Stem",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Big Dripleaf"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Lush Caves"
+        },
+        description: "The Big Dripleaf Stem is the vertical supporting structure that elevates the Big Dripleaf platform. It generates naturally in Lush Caves and can be increased in height by using bone meal on a Big Dripleaf. While the stem itself cannot be stood upon, it is a crucial part of the plant's growth. When the top leaf part is broken, it drops a Big Dripleaf item which includes both the leaf and the potential to regrow the stem. Builders often use these stems to add verticality and a prehistoric feel to tropical or underground botanical gardens."
     }
 };

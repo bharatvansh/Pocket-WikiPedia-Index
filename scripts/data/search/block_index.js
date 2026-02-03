@@ -3519,5 +3519,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/granite_stairs",
         themeColor: "§6" // pinkish-brown
+    },
+    {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/items/sugar_cane",
+        themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/items/bamboo",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:big_dripleaf_stem",
+        name: "Big Dripleaf Stem",
+        category: "block",
+        icon: "textures/blocks/big_dripleaf_side",
+        themeColor: "§a" // green
     }
 ];
