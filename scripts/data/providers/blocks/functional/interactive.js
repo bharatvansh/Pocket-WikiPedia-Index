@@ -746,5 +746,27 @@ export const interactiveBlocks = {
             yRange: "Legacy / Creative Only"
         },
         description: "The Nether Reactor Core is an iconic legacy block from the early days of Minecraft Pocket Edition. Before the addition of the Nether dimension, players used this core as part of a multi-block structure with cobblestone and gold blocks to generate a 'Nether Spire.' Upon activation, it turned the surrounding area into a vertical tower of netherrack and spawned various items and Zombified Piglins. Although now obsolete following the introduction of the actual Nether dimension, the block remains a nostalgic piece of Bedrock history, obtainable only through commands."
+    },
+
+    "minecraft:cherry_door": {
+        id: "minecraft:cherry_door",
+        name: "Cherry Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Door is a wooden door crafted from Cherry Planks. It features a light pink color with a unique window design, making it ideal for decorative entrances in cute or floral-themed builds. Like other wooden doors, it can be opened by hand or redstone. It occupies a two-block high space."
     }
 };
