@@ -768,5 +768,68 @@ export const interactiveBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "The Cherry Door is a wooden door crafted from Cherry Planks. It features a light pink color with a unique window design, making it ideal for decorative entrances in cute or floral-themed builds. Like other wooden doors, it can be opened by hand or redstone. It occupies a two-block high space."
+    },
+    "minecraft:cherry_fence_gate": {
+        id: "minecraft:cherry_fence_gate",
+        name: "Cherry Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted)"
+        },
+        description: "A cherry fence gate is a functional block with a beautiful pinkish hue, matching the aesthetic of the cherry grove biome. Like other fence gates, it can be toggled open or closed via interaction or redstone signals. It provides a way to control entity movement through fences and stands 1.5 blocks high, effectively preventing most mobs from jumping over it while allowing for decorative and secure boundaries."
+    },
+    "minecraft:mangrove_door": {
+        id: "minecraft:mangrove_door",
+        name: "Mangrove Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted)"
+        },
+        description: "The Mangrove Door is a wooden door crafted from mangrove planks, featuring a deep red-brown color and a unique architectural style with a small decorative window. It functions as a two-block high entrance that blocks mob movement while allowing players to pass through. It can be opened manually or through redstone components like pressure plates and levers, making it a versatile choice for both aesthetics and security."
+    },
+    "minecraft:bamboo_trapdoor": {
+        id: "minecraft:bamboo_trapdoor",
+        name: "Bamboo Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted)"
+        },
+        description: "The Bamboo Trapdoor is a functional block crafted from bamboo planks, showcasing a distinctive cross-hatch pattern unique to bamboo wood. It serves as a horizontal door that can be toggled between open and closed states. It is often used for creating trap pits, hidden entrances, or simply as a decorative slab-like detail in builds. Like other trapdoors, it can be controlled by hand or through various redstone signals."
     }
 };

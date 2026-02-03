@@ -3709,5 +3709,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/cherry_door",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:cherry_fence_gate",
+        name: "Cherry Fence Gate",
+        category: "block",
+        icon: "textures/blocks/cherry_fence_gate",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:mangrove_door",
+        name: "Mangrove Door",
+        category: "block",
+        icon: "textures/items/mangrove_door",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:bamboo_trapdoor",
+        name: "Bamboo Trapdoor",
+        category: "block",
+        icon: "textures/blocks/bamboo_trapdoor",
+        themeColor: "§e"
     }
 ];
