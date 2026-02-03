@@ -136,5 +136,68 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "White Concrete is a durable building block known for its solid, vibrant white color and smooth texture. It is formed when White Concrete Powder comes into contact with water, rain, or cauldron water. Unlike wool, it is not flammable, making it a safer choice for building structures. It requires a pickaxe to mine; otherwise, it drops nothing. It is widely used in modern architectural builds due to its clean appearance."
+    },
+    "minecraft:orange_concrete": {
+        id: "minecraft:orange_concrete",
+        name: "Orange Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Orange Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Concrete is a solid, vibrant building block known for its smooth, matte texture and intense orange hue. It is formed by exposing Orange Concrete Powder to water, which hardens it instantly. Frequently used in modern architecture and colorful designs, it offers a non-flammable and more durable alternative to orange wool. It requires a pickaxe to mine and is a favorite for creating high-contrast structural accents."
+    },
+    "minecraft:magenta_concrete": {
+        id: "minecraft:magenta_concrete",
+        name: "Magenta Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Magenta Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Concrete is a striking building block characterized by its deep purplish-pink color and perfectly uniform, texture-less surface. It is created when Magenta Concrete Powder comes into contact with water, solidifying into a hard, fire-resistant block. Ideal for modern builds, large-scale pixel art, and decorative highlights, this block provides a clean and neon-like aesthetic that stays consistent across all six faces."
+    },
+    "minecraft:light_blue_concrete": {
+        id: "minecraft:light_blue_concrete",
+        name: "Light Blue Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Blue Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Concrete is a bright, sky-colored building block that provides a smooth, solid appearance without the grain found in other materials. It is produced by hydrating Light Blue Concrete Powder, causing it to set into a hard, matte block. Its soft blue tone is often used to represent water or clear skies in large structures. Being non-flammable and relatively blast-resistant, it is a practical and aesthetic choice for contemporary Minecraft designs."
     }
 };
