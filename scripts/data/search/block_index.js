@@ -427,6 +427,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:ominous_trial_spawner",
+        name: "Ominous Trial Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner_side",
+        themeColor: "§5" // dark purple
+    },
+    {
         id: "minecraft:vault",
         name: "Vault",
         category: "block",
@@ -2485,6 +2492,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:stone_button",
+        name: "Stone Button",
+        category: "block",
+        icon: "textures/blocks/stone",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:quartz_ore",
         name: "Nether Quartz Ore",
         category: "block",
@@ -3484,6 +3498,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_oak",
         themeColor: "§7" // stone gray
+    },
+    {
+        id: "minecraft:oak_slab",
+        name: "Oak Slab",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6" // gold/brown
     },
     {
         id: "minecraft:netherreactor",

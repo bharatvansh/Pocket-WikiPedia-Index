@@ -849,6 +849,27 @@ export const slabsStairsBlocks = {
         },
         description: "Granite Stairs offer a warm, earthy-red stone texture for architectural designs. They are perfect for creating rustic accents, sloped roofs, and grand staircases that require a more colorful stone palette than standard gray variants. These stairs are formed by crafting six granite blocks in a stair pattern or by using a stonecutter. As a stone material, they are non-flammable and explosion-resistant. Granite stairs pair excellently with other warm blocks like bricks or sandstone, providing both functional utility and a distinctive aesthetic touch to any structure."
     },
+    "minecraft:oak_slab": {
+        id: "minecraft:oak_slab",
+        name: "Oak Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oak Planks"
+        },
+        description: "The Oak Slab is a versatile half-block building material and one of the most fundamental construction items in Minecraft. Crafted from Oak Planks, it is widely used for creating smooth elevation changes, detailed flooring, and efficient roofing. Slabs can be placed in either the upper or lower half of a block space, allowing for intricate architectural designs. When two slabs of the same type are stacked, they form a double slab. In Bedrock Edition, oak slabs are flammable and can also serve as a fuel source in furnaces. Their warm, classic wood texture makes them a favorite for both interior and exterior detailing."
+    },
     "minecraft:petrified_oak_slab": {
         id: "minecraft:petrified_oak_slab",
         name: "Petrified Oak Slab",
