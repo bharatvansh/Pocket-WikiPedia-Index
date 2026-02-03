@@ -644,5 +644,26 @@ export const copperBlocks = {
             yRange: "Crafted from Copper Grates or applied Honeycomb"
         },
         description: "A transparent lattice-style block crafted from copper that has been waxed to lock in its' fresh appearance. It allows light to pass through and can be walked upon, making it perfect for industrial walkways, vents, or decorative railings. Because it is waxed, it won't weather into the green patina common to older copper structures. Players can remove the wax coating using an axe, which then allows the block to oxidize through its' usual stages. In Bedrock Edition, it behaves as a transparent block that requires a pickaxe for harvesting."
+    },
+    "minecraft:waxed_copper_bulb": {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers (Crafted/Waxed)"
+        },
+        description: "The Waxed Copper Bulb is a decorative variant of the copper bulb light source introduced in Minecraft 1.21. It has been treated with honeycomb to permanently lock its oxidation state and maintain its' maximum light level of 15. Like standard copper bulbs, it can be toggled on and off by a redstone pulse, functioning as a compact T-flip-flop. Its' vibrant orange appearance and high light output make it an ideal choice for modern and industrial lighting designs. To obtain it, players can either craft it or use honeycomb on a fresh copper bulb. It requires a stone pickaxe or better to harvest."
     }
 };

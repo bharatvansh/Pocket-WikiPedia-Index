@@ -1275,5 +1275,26 @@ export const vegetationBlocks = {
             yRange: "Dropped from Oak Leaves"
         },
         description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
+    },
+    "minecraft:wheat": {
+        id: "minecraft:wheat",
+        name: "Wheat Crop",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wheat (1)", "Wheat Seeds (0-3)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown on Farmland"
+        },
+        description: "Wheat is a farmable crop grown from wheat seeds on hydrated farmland. It progresses through eight growth stages, changing from small green sprouts to tall, golden-yellow stalks. It requires a light level of 9 or higher to grow. When fully mature (stage 7), it can be harvested to yield one wheat item and 0-3 seeds. Wheat is a primary food source, used for crafting bread, cake, and cookies, as well as for breeding cows and sheep. Using bone meal on a wheat crop advances its development instantly, making it a highly reliable and essential resource for early-game survival."
     }
 };

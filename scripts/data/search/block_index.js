@@ -203,6 +203,13 @@ export const blockIndex = [
         themeColor: "§6" // yellow/tan
     },
     {
+        id: "minecraft:dragon_egg",
+        name: "Dragon Egg",
+        category: "block",
+        icon: "textures/blocks/dragon_egg",
+        themeColor: "§d" // purple/pink
+    },
+    {
         id: "minecraft:stone_bricks",
         name: "Stone Bricks",
         category: "block",
@@ -459,6 +466,13 @@ export const blockIndex = [
         name: "Copper Bulb",
         category: "block",
         icon: "textures/blocks/copper_bulb",
+        themeColor: "§6" // copper/orange
+    },
+    {
+        id: "minecraft:waxed_copper_bulb",
+        name: "Waxed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/waxed_copper_bulb",
         themeColor: "§6" // copper/orange
     },
     {
@@ -2875,6 +2889,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sweet_berry_bush_stage3",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:wheat",
+        name: "Wheat Crop",
+        category: "block",
+        icon: "textures/blocks/wheat_stage7",
+        themeColor: "§e" // yellow/gold
     },
     {
         id: "minecraft:cave_vines",
