@@ -2408,6 +2408,27 @@ export const blockIndex = [
         themeColor: "§d" // Pink
     },
     {
+        id: "minecraft:fire_coral_fan",
+        name: "Fire Coral Fan",
+        category: "block",
+        icon: "textures/blocks/fire_coral_fan",
+        themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:horn_coral_fan",
+        name: "Horn Coral Fan",
+        category: "block",
+        icon: "textures/blocks/horn_coral_fan",
+        themeColor: "§e" // Yellow
+    },
+    {
+        id: "minecraft:dead_brain_coral_fan",
+        name: "Dead Brain Coral Fan",
+        category: "block",
+        icon: "textures/blocks/dead_brain_coral_fan",
+        themeColor: "§7" // Gray
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",

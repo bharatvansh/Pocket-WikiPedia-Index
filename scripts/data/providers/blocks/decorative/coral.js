@@ -282,5 +282,68 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (sides of coral blocks)"
         },
         description: "Bubble Coral Fan is a magenta-colored fan variant that grows naturally on the sides of coral blocks within warm ocean reefs. It provides a unique vertical decoration with its vibrant purple-pink hue and flat, fan-like shape. Like other coral fans, it is delicate and requires a Silk Touch enchanted tool for successful harvesting. It depends on water to maintain its life and color; it will turn into a dead variant if removed from the ocean or placed on land. It is an essential component for creating diverse and visually interesting coral reef ecosystems."
+    },
+    "minecraft:fire_coral_fan": {
+        id: "minecraft:fire_coral_fan",
+        name: "Fire Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Fire Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of coral blocks)"
+        },
+        description: "Fire Coral Fan is a striking red, fan-shaped marine structure that populates the warm ocean floors and reefs. Known for its vibrant crimson hue, it typically grows on the sides of coral blocks, contributing to the complex architecture of undersea life. In Bedrock Edition, these fans are delicate and require water to maintain their color; if removed from water, they quickly dehydrate into their dead variants. They are best harvested with Silk Touch to keep their vivid appearance, making them a favorite for players looking to create lush, red-tinted aquatic displays."
+    },
+    "minecraft:horn_coral_fan": {
+        id: "minecraft:horn_coral_fan",
+        name: "Horn Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Horn Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of coral blocks)"
+        },
+        description: "Horn Coral Fan is a distinctive yellow, fan-like growth found within warm ocean biomes. Its bright yellow color and branching, fan shape make it stand out amidst the blues and purples of a coral reef. Like other coral fans, it often attaches to the sides of solid coral blocks and provides essential detail to the underwater environment. To collect one without it breaking, a tool with the Silk Touch enchantment must be used. It belongs to the horn coral family and will turn gray and lifeless if left out of water for too long, losing its characteristic sunny glow."
+    },
+    "minecraft:dead_brain_coral_fan": {
+        id: "minecraft:dead_brain_coral_fan",
+        name: "Dead Brain Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dead Brain Coral Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "Dead Brain Coral Fan is the bleached, gray remains of a once-vibrant Brain Coral Fan. This state occurs when the living coral is removed from its aquatic habitat or when the water source is destroyed. While it lacks the pinkish color of its living counterpart, it remains a useful decorative block for builders aiming for a more muted or weathered underwater aesthetic. It features the same intricate, maze-like patterns characteristic of the brain coral family. It can be found naturally in biomes where reefs have died or created by placing living coral fans on land."
     }
 };
