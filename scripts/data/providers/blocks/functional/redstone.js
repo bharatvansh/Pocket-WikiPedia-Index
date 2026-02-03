@@ -410,7 +410,28 @@ export const redstoneBlocks = {
             dimension: "Overworld",
             yRange: "Crafted; Desert Pyramids, Jungle Temples"
         },
-        description: "The Wooden Button is a redstone switch that provides a 30 redstone tick pulse when pressed, longer than the stone button's 20 ticks. Activated by hand or projectile, it serves as a temporary power source for doors, trapdoors, and other redstone mechanisms. In Bedrock Edition, wooden buttons can be crafted from any wood type and occasionally generate naturally in desert pyramids and jungle temples. Their extended pulse duration makes them particularly useful for timing-sensitive circuits and contraptions."
+        description: "The Wooden Button is a redstone switch that provides a 15 redstone tick pulse when pressed, slightly longer than the stone button's 10 ticks. Activated by hand or projectile, it serves as a temporary power source for doors, trapdoors, and other redstone mechanisms. In Bedrock Edition, wooden buttons can be crafted from any wood type and occasionally generate naturally in desert pyramids and jungle temples. Their extended pulse duration makes them particularly useful for timing-sensitive circuits and contraptions."
+    },
+    "minecraft:stone_button": {
+        id: "minecraft:stone_button",
+        name: "Stone Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stone Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Stone"
+        },
+        description: "The Stone Button is a compact redstone component that provides a momentary 1-second (10 redstone ticks) pulse when pressed. Unlike wooden variants, stone buttons cannot be activated by arrows or projectiles, making them ideal for secure inputs. They can be placed on the side, top, or bottom of any solid block to activate nearby mechanisms. In Bedrock Edition, they are frequently used for precise timing in redstone circuits and can be found naturally in various structures like Jungle Temples where they serve as triggers for traps."
     },
     "minecraft:pale_oak_button": {
         id: "minecraft:pale_oak_button",
