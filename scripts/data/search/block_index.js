@@ -3666,5 +3666,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_powder_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:activator_rail",
+        name: "Activator Rail",
+        category: "block",
+        icon: "textures/blocks/rail_activator",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:bubble_column",
+        name: "Bubble Column",
+        category: "block",
+        icon: "textures/blocks/water_flow",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:copper_chain",
+        name: "Copper Chain",
+        category: "block",
+        icon: "textures/items/copper_chain",
+        themeColor: "§6"
     }
 ];
