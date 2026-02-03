@@ -516,5 +516,68 @@ export const redstoneBlocks = {
             yRange: "Bastion Remnants; Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Button is a stone-type button introduced as part of the Nether Update. Like the standard stone button, it provides a redstone pulse lasting 10 ticks (1 second) when pressed. It can be activated by players and mobs but not by projectiles like arrows. Its dark, sleek appearance allows it to blend perfectly into blackstone structures or provide a high-contrast accent to lighter blocks. It is functionally identical to the stone button but offers a distinct aesthetic for Nether-themed builds."
+    },
+    "minecraft:rail": {
+        id: "minecraft:rail",
+        name: "Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Y: -64 to 320 (Mineshafts)"
+        },
+        description: "A Rail is a non-solid block that provides a path for minecarts to travel. Found naturally in abandoned mineshafts or crafted from iron ingots and sticks, rails are fundamental for creating transportation networks. They can be placed on flat surfaces or slopes and automatically connect to adjacent rails, forming curves and vertical inclines. In Bedrock Edition, rails are essential for efficient long-distance travel and automated resource movement between distant biomes or points of interest."
+    },
+    "minecraft:golden_rail": {
+        id: "minecraft:golden_rail",
+        name: "Powered Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Powered Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Y: -64 to 320 (Mineshafts)"
+        },
+        description: "A Powered Rail is a specialized track used to control the speed of minecarts. When activated by a redstone signal, it provides a significant speed boost to passing carts, allowing them to travel uphill or maintain momentum over long distances. If unpowered, the rail acts as a brake, quickly bringing any moving minecart to a complete stop. This dual functionality is vital for building complex transportation systems, roller coasters, and automated farm collection paths in Bedrock Edition."
+    },
+    "minecraft:detector_rail": {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        hardness: 0.7,
+        blastResistance: 0.7,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Detector Rail"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Y: -64 to 320 (Mineshafts)"
+        },
+        description: "A Detector Rail is a redstone-active block that functions like a pressure plate for minecarts. It emits a redstone signal whenever a minecart is positioned on it, making it essential for automating rail junctions and monitoring cart traffic. It can be used to trigger gates, activate powered rails, or signal the arrival of an item collection cart at a storage system. In Bedrock Edition, it provides a reliable way to integrate minecart systems with other redstone machinery and automation."
     }
 };
