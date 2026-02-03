@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_sapling",
+        name: "Spruce Sapling",
+        category: "block",
+        icon: "textures/blocks/spruce_sapling",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:birch_sapling",
+        name: "Birch Sapling",
+        category: "block",
+        icon: "textures/blocks/birch_sapling",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:jungle_sapling",
+        name: "Jungle Sapling",
+        category: "block",
+        icon: "textures/blocks/jungle_sapling",
+        themeColor: "§2"
     }
 ];

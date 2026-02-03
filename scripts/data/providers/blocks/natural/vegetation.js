@@ -1275,5 +1275,68 @@ export const vegetationBlocks = {
             yRange: "Dropped from Oak Leaves"
         },
         description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
+    },
+    "minecraft:spruce_sapling": {
+        id: "minecraft:spruce_sapling",
+        name: "Spruce Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dropped from Spruce Leaves in Taiga biomes"
+        },
+        description: "Spruce Saplings are the delicate initial stage of Spruce trees, characterized by their dark green, needle-like leaves. They naturally generate from decaying or broken spruce leaves in Taiga, Snowy Taiga, and Giant Tree Taiga biomes. A single sapling grows into a standard spruce tree, but planting four in a 2x2 grid spawns a massive Mega Spruce. They require a light level of 9 or higher to grow, a process which can be instantly finished using bone meal. In Bedrock Edition, they are essential for renewable dark wood and leaf production."
+    },
+    "minecraft:birch_sapling": {
+        id: "minecraft:birch_sapling",
+        name: "Birch Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dropped from Birch Leaves in Birch Forest biomes"
+        },
+        description: "Birch Saplings are light green vegetation blocks that grow into Birch trees, known for their distinctive white bark. They are obtained from decomposing birch leaves and can be planted on dirt, grass, podzol, or moss. Unlike oak trees, birch trees always grow into a predictable, medium-sized height with no branched variants, making them a favorite for players who want consistent wood harvests. They grow only in the Overworld and need sufficient overhead space. Using bone meal on a birch sapling will instantly mature it into a full-sized tree."
+    },
+    "minecraft:jungle_sapling": {
+        id: "minecraft:jungle_sapling",
+        name: "Jungle Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dropped from Jungle Leaves in Jungle biomes"
+        },
+        description: "Jungle Saplings are the seeds of the towering trees found in tropical Jungle biomes. While a single sapling grows into a small jungle tree, planting a 2x2 square of four saplings creates a massive, sky-high Giant Jungle Tree, often covered in vines. They serve as a primary source of jungle wood, which has a unique pinkish-brown hue. These saplings require a light level of at least 9 to grow. They are slightly rarer than oak or birch saplings due to the dense canopy of their native biome, making them a valuable find for forestry."
     }
 };
