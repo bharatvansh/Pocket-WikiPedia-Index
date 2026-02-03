@@ -723,6 +723,69 @@ export const slabsStairsBlocks = {
         },
         description: "Deepslate Brick Slab is the half-block counterpart to deepslate bricks, featuring the same dark, tiled masonry texture. It offers a compact building option for flooring, ceilings, and decorative accents where a full block would be too bulky. These slabs are perfect for creating smooth transitions in tiered architecture and are frequently used in modern or gothic-style builds. They generate naturally within the structures of Ancient Cities. Because they are stone-based, they provide excellent fire resistance and durability, making them as practical as they are aesthetic."
     },
+    "minecraft:deepslate_tile_stairs": {
+        id: "minecraft:deepslate_tile_stairs",
+        name: "Deepslate Tile Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Tile Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Tile Stairs are the polished, stair-shaped variant of deepslate tiles, introduced in 1.17 Caves & Cliffs. They feature a sophisticated dark-gray tiled pattern that is perfect for professional-looking staircases, sloped roofs, and architectural trim. Crafted from deepslate tiles or more efficiently in a stonecutter, they share the same high durability and blast resistance (6.0) as other deepslate family blocks. They generate naturally in Ancient Cities, often forming part of the grand structures and walkways. Like most stone stairs, they can be waterlogged and placed upside down."
+    },
+    "minecraft:deepslate_tile_slab": {
+        id: "minecraft:deepslate_tile_slab",
+        name: "Deepslate Tile Slab",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Tile Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Tile Slab is a half-block variant of deepslate tiles, featuring the same dark and elegant tiled texture. It provides a sleek, low-profile option for detailed flooring, ceilings, and various architectural highlights. These slabs can be crafted from deepslate tiles or produced via a stonecutter. They are highly durable with a blast resistance of 6.0 and hardness of 3.5. Naturally occurring in Ancient Cities, they are versatile for creating tiered transitions and smooth surface patterns. Like other slabs, they can be placed in the upper or lower half of a block space."
+    },
+    "minecraft:deepslate_tile_wall": {
+        id: "minecraft:deepslate_tile_wall",
+        name: "Deepslate Tile Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Tile Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Tile Walls are sturdy, decorative barriers crafted from deepslate tiles. They feature a dark, refined masonry texture that provides a modern and sleek look compared to the rugged appearance of cobbled deepslate walls. Like other wall types, they connect to adjacent blocks and walls to form a continuous barrier 1.5 blocks high for most entities, making them effective for security and decoration. They are naturally found in Ancient Cities and can be crafted from six deepslate tile blocks or using a stonecutter. Their high blast resistance makes them ideal for fortified structures."
+    },
     "minecraft:andesite_wall": {
         id: "minecraft:andesite_wall",
         name: "Andesite Wall",
