@@ -3624,5 +3624,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_big_oak",
         themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:rail",
+        name: "Rail",
+        category: "block",
+        icon: "textures/blocks/rail_normal",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:golden_rail",
+        name: "Powered Rail",
+        category: "block",
+        icon: "textures/blocks/rail_golden",
+        themeColor: "§6" // gold
+    },
+    {
+        id: "minecraft:detector_rail",
+        name: "Detector Rail",
+        category: "block",
+        icon: "textures/blocks/rail_detector",
+        themeColor: "§c" // red
     }
 ];
