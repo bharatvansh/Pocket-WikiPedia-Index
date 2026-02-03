@@ -2625,8 +2625,29 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:warped_fence",
+        name: "Warped Fence",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:crimson_planks",
         name: "Crimson Planks",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_fence",
+        name: "Crimson Fence",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_fence_gate",
+        name: "Crimson Fence Gate",
         category: "block",
         icon: "textures/blocks/huge_fungus/crimson_planks",
         themeColor: "§4"
