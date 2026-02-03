@@ -219,5 +219,26 @@ export const lightingBlocks = {
             yRange: "Strongholds, Villages, Mineshafts, Ancient Cities"
         },
         description: "A Torch is a non-solid block that emits a light level of 14. It is one of the most common light sources in the game, essential for preventing hostile mob spawning and illuminating caves and structures. Crafted from a stick and coal or charcoal, torches can be placed on the top or sides of most solid blocks. They break if the block they are attached to is removed or if water flows into them. Torches are also used in crafting lanterns and jack o'lanterns."
+    },
+    "minecraft:underwater_torch": {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Underwater Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted using Magnesium and Torch"
+        },
+        description: "The Underwater Torch is a light source exclusive to the Bedrock and Education Editions, specifically designed for nautical exploration. It is crafted by combining Magnesium with a standard torch. Unlike regular torches, which are immediately extinguished and broken by water, the Underwater Torch can be placed and remains functional even when fully submerged. It emits a bright light level of 14, making it essential for illuminating deep-sea ruins, underwater caves, and coral reefs where traditional torches would fail."
     }
 };

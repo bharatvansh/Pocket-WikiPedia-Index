@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        category: "block",
+        icon: "textures/blocks/underwater_tnt",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        category: "block",
+        icon: "textures/blocks/underwater_torch",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        category: "block",
+        icon: "textures/blocks/hard_glass",
+        themeColor: "§f"
     }
 ];

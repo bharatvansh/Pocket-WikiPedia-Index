@@ -328,6 +328,27 @@ export const redstoneBlocks = {
         },
         description: "TNT is an explosive block that can be primed using flint and steel, fire charges, or a redstone signal. Once primed, it becomes an entity and explodes after a 4-second delay, damaging nearby blocks and entities. In Bedrock Edition, it can also be ignited by projectiles enchanted with Flame or by hitting it if 'TNT Explodes' game rule is on. It generates naturally in desert pyramids and woodland mansions. When broken without igniting, it drops itself."
     },
+    "minecraft:underwater_tnt": {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Underwater TNT"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted using Sodium and TNT"
+        },
+        description: "Underwater TNT is a specialized explosive block exclusive to Bedrock and Education Editions. It is uniquely capable of destroying blocks when submerged in water, a feat standard TNT cannot achieve due to water's blast-damping effects. Crafted by combining a block of Sodium with regular TNT, it is visually distinguished by its blue-tinted texture. It can be ignited with flint and steel, fire, or redstone signals. This makes it an invaluable tool for underwater excavation, clearing shipwrecks, or landscaping on the ocean floor."
+    },
     "minecraft:redstone_block": {
         id: "minecraft:redstone_block",
         name: "Block of Redstone",

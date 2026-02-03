@@ -51,6 +51,27 @@ export const glassBlocks = {
         },
         description: "Glass is a fundamental transparent building block crafted by smelting sand in a furnace. It serves as a versatile construction material that allows light to pass through while providing weather protection. Glass is essential for building greenhouses, windows, modern architecture, and underwater structures. While fragile with low hardness and blast resistance (0.3 each), glass can be crafted into glass panes for more efficient space usage and lighter visual weight. Glass blocks are non-flammable and provide complete visibility from both sides. They're perfect for creating bright, airy interiors and are especially valuable for farming setups, aquariums, and decorative lighting effects. In Bedrock Edition, glass drops itself when broken, making collection straightforward without the need for Silk Touch enchantment."
     },
+    "minecraft:hard_glass": {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        hardness: 0.3,
+        blastResistance: 45.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted using Glass, Aluminum Oxide, and Boron Trioxide"
+        },
+        description: "Hardened Glass is a chemically strengthened variant of glass available in Bedrock and Education Editions. Unlike regular glass, which is fragile and shatters when broken without Silk Touch, Hardened Glass always drops itself regardless of the tool used. It features much higher durability and significant blast resistance—equal to End Stone—making it highly resistant to creeper and TNT explosions. It is created by combining Glass with Aluminum Oxide and Boron Trioxide in a Compound Creator, offering a robust and transparent building material for protected structures."
+    },
     "minecraft:white_stained_glass": {
         id: "minecraft:white_stained_glass",
         name: "White Stained Glass",
