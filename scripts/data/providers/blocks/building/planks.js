@@ -261,5 +261,68 @@ export const plankBlocks = {
             yRange: "N/A (Crafted from Birch Logs)"
         },
         description: "Birch Planks are a light-colored wood building material crafted from birch logs, typically harvested from birch forest biomes. Featuring a pale, yellowish-white color, they are a popular choice for modern architecture, clean flooring, and bright interior spaces. Like all wood planks, they can be processed into stairs, slabs, fences, and boats. While they offer the same structural integrity as other woods, their bright aesthetic provides a stark contrast to darker blocks, allowing for contemporary and minimalist build styles while maintaining standard wood flammability."
+    },
+    "minecraft:jungle_planks": {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Jungle Logs)"
+        },
+        description: "Jungle Planks are a wood-type building block crafted from Jungle Logs found in the dense Jungle biomes. They feature an unmistakable pinkish-orange or warm tan hue that differentiates them from the more traditional oak or spruce variants. Introduced early in Minecraft's development, these planks are fundamental for crafting jungle-themed items such as stairs, slabs, doors, and the jungle boat. Their vibrant and tropical color palette is highly valued by builders for creating warm, exotic interiors or jungle-integrated structures that blend naturally with the surrounding foliage."
+    },
+    "minecraft:acacia_planks": {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Acacia Logs)"
+        },
+        description: "Acacia Planks are distinctive, bright orange building blocks crafted from Acacia Logs, which are native to the Savanna biome. Their unique and bold coloration provides a stark contrast to most other wood types, making them a popular choice for accenting builds or creating rustic, African-inspired architecture. Like all wood planks, they are versatile and can be crafted into signs, fences, gates, and boats. While they share the standard physical properties of other woods, their intense orange color makes them one of the most polarizing yet unique decorative materials in the game."
+    },
+    "minecraft:dark_oak_planks": {
+        id: "minecraft:dark_oak_planks",
+        name: "Dark Oak Planks",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Planks"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "N/A (Crafted from Dark Oak Logs)"
+        },
+        description: "Dark Oak Planks are a deep, rich brown building material crafted from Dark Oak Logs, found primarily in the Roofed Forest biome. Featuring the darkest natural tone among the Overworld wood sets, they are a staple for builders looking to create sophisticated, medieval, or gothic-style structures. They were introduced in the 1.7 update and have since become essential for crafting dark oak doors, boats, and fences. Their dense color pairs exceptionally well with lighter blocks like birch or diorite, offering a high-contrast aesthetic that adds depth and elegance to any build."
     }
 };

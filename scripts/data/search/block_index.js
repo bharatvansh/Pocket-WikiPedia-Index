@@ -3561,5 +3561,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sapling_oak",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:jungle_planks",
+        name: "Jungle Planks",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6" // warm tan/orange
+    },
+    {
+        id: "minecraft:acacia_planks",
+        name: "Acacia Planks",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6" // bright orange
+    },
+    {
+        id: "minecraft:dark_oak_planks",
+        name: "Dark Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8" // dark brown
     }
 ];
