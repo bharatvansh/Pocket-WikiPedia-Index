@@ -366,6 +366,69 @@ export const slabsStairsBlocks = {
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
     },
+    "minecraft:smooth_stone_slab": {
+        id: "minecraft:smooth_stone_slab",
+        name: "Smooth Stone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Stone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only or Villages"
+        },
+        description: "Smooth Stone Slabs are the half-block variant of smooth stone. They feature a clean, light gray surface with a distinct border, making them a popular choice for flooring and architectural detailing. They were originally one of the 'seamless' double slabs in Bedrock Edition. They can be obtained by smelting stone slabs in a furnace or more commonly by crafting them from smooth stone blocks. They also generate naturally in certain village houses, particularly those of butchers."
+    },
+    "minecraft:smooth_sandstone_slab": {
+        id: "minecraft:smooth_sandstone_slab",
+        name: "Smooth Sandstone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Sandstone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Smooth Sandstone Slabs are half-block versions of smooth sandstone. They have a refined, uniform appearance compared to regular sandstone slabs, lacking the layered texture and featuring a smooth yellow-tan color. They are crafted from smooth sandstone blocks or can be made directly in a stonecutter. Their clean aesthetic makes them excellent for desert-themed builds, interior flooring, and smooth architectural transitions where a warm tone is desired."
+    },
+    "minecraft:smooth_red_sandstone_slab": {
+        id: "minecraft:smooth_red_sandstone_slab",
+        name: "Smooth Red Sandstone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Red Sandstone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Smooth Red Sandstone Slabs are the half-block variant of smooth red sandstone. They provide a sleek, vibrant orange-red surface that is much more uniform than regular red sandstone. These slabs are crafted from smooth red sandstone blocks or created using a stonecutter. They are perfect for adding detailed trim, smooth slopes, and elegant flooring to mesa-inspired builds or any architecture where a bold, warm color palette is needed without the rugged texture of natural sandstone."
+    },
     "minecraft:oak_stairs": {
         id: "minecraft:oak_stairs",
         name: "Oak Stairs",

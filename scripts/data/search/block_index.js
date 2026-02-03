@@ -3751,5 +3751,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_white",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:smooth_stone_slab",
+        name: "Smooth Stone Slab",
+        category: "block",
+        icon: "textures/blocks/stone_slab_top",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:smooth_sandstone_slab",
+        name: "Smooth Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/sandstone_slab_top",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:smooth_red_sandstone_slab",
+        name: "Smooth Red Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_slab_top",
+        themeColor: "§6"
     }
 ];
