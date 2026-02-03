@@ -3751,5 +3751,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_white",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        category: "block",
+        icon: "textures/items/skull_skeleton",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:wither_skeleton_skull",
+        name: "Wither Skeleton Skull",
+        category: "block",
+        icon: "textures/items/skull_wither",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dragon_head",
+        name: "Dragon Head",
+        category: "block",
+        icon: "textures/items/dragon_head",
+        themeColor: "§8"
     }
 ];

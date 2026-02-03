@@ -663,5 +663,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:skeleton_skull": {
+        id: "minecraft:skeleton_skull",
+        name: "Skeleton Skull",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Skeleton Skull"],
+        generation: {
+            dimension: "Overworld (Ancient Cities)",
+            yRange: "Any"
+        },
+        description: "The Skeleton Skull is a decorative block representing the head of a skeleton mob. It can be found naturally in Ancient Cities or obtained when a skeleton is killed by a charged creeper's explosion. It can be placed in 16 different orientations on top of blocks or mounted on walls. When worn by a player, it reduces the detection range of skeletons by 50%. It can also be used to craft the Skeleton Banner Pattern or placed on a note block to play skeleton ambient sounds."
+    },
+    "minecraft:wither_skeleton_skull": {
+        id: "minecraft:wither_skeleton_skull",
+        name: "Wither Skeleton Skull",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Wither Skeleton Skull"],
+        generation: {
+            dimension: "Nether (Fortresses)",
+            yRange: "Any"
+        },
+        description: "The Wither Skeleton Skull is a rare and essential decorative block. It has a 2.5% chance to drop when a wither skeleton is killed by a player or tamed wolf. Its primary purpose is to summon the Wither boss when three skulls are placed atop four blocks of soul sand or soul soil in a T-shape. Like other heads, it reduces detection range from its corresponding mob by 50% when worn. It can also be placed on note blocks to produce wither skeleton sounds or used to craft the Wither Charge banner pattern."
+    },
+    "minecraft:dragon_head": {
+        id: "minecraft:dragon_head",
+        name: "Dragon Head",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dragon Head"],
+        generation: {
+            dimension: "The End (End Ships)",
+            yRange: "Any"
+        },
+        description: "The Dragon Head is a large decorative block found on the prow of End ships in the outer islands of the End. It is unique among heads as it is the only one with an animated part; when powered by redstone or worn by a moving player, its jaw continuously opens and closes. It is twice the size of other mob heads and can be worn as a helmet. While it has no effect on mob detection, its imposing size and animation make it a highly sought-after trophy for advanced players and builders."
     }
 };
