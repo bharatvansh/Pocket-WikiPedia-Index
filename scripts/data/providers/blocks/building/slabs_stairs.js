@@ -681,6 +681,48 @@ export const slabsStairsBlocks = {
         },
         description: "Cobbled Deepslate Walls are decorative barrier blocks used to create perimeters, fortifications, or garden boundaries with a dark, stony aesthetic. They connect to adjacent walls and blocks, forming a continuous barrier that is 1.5 blocks high for most entities, preventing them from jumping over. Crafted from six cobbled deepslate blocks or via a stonecutter, these walls are more durable than their cobblestone counterparts. They are perfect for reinforcing underground structures or adding a layer of security to grim, fortress-style builds."
     },
+    "minecraft:deepslate_brick_wall": {
+        id: "minecraft:deepslate_brick_wall",
+        name: "Deepslate Brick Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Deepslate Brick Walls are a decorative variant of deepslate bricks, providing a dark and textured barrier ideal for fortifying structures or adding architectural depth. Crafted from deepslate bricks or produced efficiently through a stonecutter, these walls feature the high durability and distinctive layered pattern characteristic of deepslate materials. They are particularly effective for creating ominous atmospheres in underground bases or gothic-style builds. In Bedrock Edition, they can be waterlogged and connect seamlessly with adjacent blocks."
+    },
+    "minecraft:polished_deepslate_wall": {
+        id: "minecraft:polished_deepslate_wall",
+        name: "Polished Deepslate Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Deepslate Walls offer a sleek and refined dark gray appearance, making them a premium choice for modern and industrial-style constructions. Produced by stonecutting polished deepslate or crafting deepslate blocks, these walls provide the same robust structural properties as the base material while featuring a smoother, cleaner texture. They are often used to create sophisticated fencing, pillars, and architectural accents. Like other wall variants in Bedrock, they are waterloggable and adapt their shape to connect with neighboring blocks."
+    },
     "minecraft:deepslate_brick_stairs": {
         id: "minecraft:deepslate_brick_stairs",
         name: "Deepslate Brick Stairs",

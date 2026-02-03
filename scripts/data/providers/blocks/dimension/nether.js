@@ -55,6 +55,27 @@ export const netherBlocks = {
         },
         description: "Nether Bricks are the primary building blocks of Nether fortresses, massive structures that generate in the Nether dimension. These dark reddish-brown bricks are crafted from four nether brick items, which are smelted from netherrack. Nether bricks are fire-resistant and immune to ghast fireballs, making them excellent for defensive structures. They can be crafted into stairs, slabs, walls, fences, and other decorative variants. Nether bricks are not affected by wither or ender dragon attacks, providing durable construction in hostile dimensions."
     },
+    "minecraft:red_nether_bricks": {
+        id: "minecraft:red_nether_bricks",
+        name: "Red Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted"
+        },
+        description: "Red Nether Bricks are a vibrant variation of nether bricks, distinguished by their deeper red color achieved by combining nether bricks with nether wart in a crafting grid. These blocks share the same hardness and high blast resistance as their standard counterparts, making them durable and explosion-proof against ghast fireballs. While they do not generate naturally in fortresses, they are popular for adding a rich color palette to builds in the Nether. In Bedrock Edition, they can be crafted into slabs, stairs, and walls to provide consistent architectural detail."
+    },
     "minecraft:quartz_block": {
         id: "minecraft:quartz_block",
         name: "Quartz Block",

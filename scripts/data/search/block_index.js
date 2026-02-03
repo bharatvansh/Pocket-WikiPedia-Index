@@ -1183,6 +1183,13 @@ export const blockIndex = [
         themeColor: "§4" // dark red
     },
     {
+        id: "minecraft:red_nether_bricks",
+        name: "Red Nether Bricks",
+        category: "block",
+        icon: "textures/blocks/red_nether_bricks",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:nether_gold_ore",
         name: "Nether Gold Ore",
         category: "block",
@@ -3434,6 +3441,20 @@ export const blockIndex = [
         name: "Cobbled Deepslate Wall",
         category: "block",
         icon: "textures/blocks/deepslate/cobbled_deepslate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_brick_wall",
+        name: "Deepslate Brick Wall",
+        category: "block",
+        icon: "textures/blocks/deepslate/deepslate_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_deepslate_wall",
+        name: "Polished Deepslate Wall",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
         themeColor: "§8"
     },
     {
