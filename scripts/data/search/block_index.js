@@ -3521,24 +3521,24 @@ export const blockIndex = [
         themeColor: "§6" // pinkish-brown
     },
     {
-        id: "minecraft:reeds",
-        name: "Sugar Cane",
+        id: "minecraft:large_fern",
+        name: "Large Fern",
         category: "block",
-        icon: "textures/items/sugar_cane",
-        themeColor: "§a" // green
-    },
-    {
-        id: "minecraft:bamboo",
-        name: "Bamboo",
-        category: "block",
-        icon: "textures/items/bamboo",
+        icon: "textures/blocks/fern_upper",
         themeColor: "§2" // dark green
     },
     {
-        id: "minecraft:big_dripleaf_stem",
-        name: "Big Dripleaf Stem",
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
         category: "block",
-        icon: "textures/blocks/big_dripleaf_side",
+        icon: "textures/blocks/flower_blue_orchid",
+        themeColor: "§b" // light blue
+    },
+    {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/sapling_oak",
         themeColor: "§a" // green
     }
 ];

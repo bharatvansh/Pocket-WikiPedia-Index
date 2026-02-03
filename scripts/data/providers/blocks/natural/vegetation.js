@@ -1213,12 +1213,33 @@ export const vegetationBlocks = {
         },
         description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
     },
-    "minecraft:reeds": {
-        id: "minecraft:reeds",
-        name: "Sugar Cane",
+    "minecraft:large_fern": {
+        id: "minecraft:large_fern",
+        name: "Large Fern",
         hardness: 0,
         blastResistance: 0,
-        flammability: false,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Large Fern (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle, Taiga, and Old Growth Pine/Spruce Taiga biomes"
+        },
+        description: "The Large Fern is a striking two-block-tall decorative plant that adds a lush, prehistoric feel to Minecraft's temperate and tropical biomes. Generating naturally in Taigas and Jungles, it is a non-solid block that can be easily walked through. While it can be broken instantly by hand, using shears is the only way to obtain it as an item. It is a variant of the standard fern and serves as a vital component for players looking to create dense, layered undergrowth in their landscaping projects. In Bedrock Edition, they can be instantly grown from regular ferns using bone meal."
+    },
+    "minecraft:blue_orchid": {
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
         gravityAffected: false,
         transparent: true,
         luminance: 0,
@@ -1227,53 +1248,32 @@ export const vegetationBlocks = {
             minTier: "None",
             silkTouch: false
         },
-        drops: ["Sugar Cane"],
+        drops: ["Blue Orchid"],
         generation: {
             dimension: "Overworld",
-            yRange: "Near water sources in most biomes"
+            yRange: "Swamp biomes"
         },
-        description: "Sugar Cane is a vital natural plant block found near water sources in the Overworld. Growing in stalks up to three blocks high, it is an essential resource for crafting Paper and Sugar. It can be planted on Grass, Dirt, Podzol, or Sand blocks, provided they are directly adjacent to water. Sugar cane is also used in trading with Librarian villagers. In Bedrock Edition, it is a non-solid block that can be instantly broken and cannot catch fire, making it a safe choice for decorative water features."
+        description: "The Blue Orchid is a rare and beautiful flower found exclusively in Swamp biomes. Its distinct light-blue petals make it a highly sought-after decorative item for builders looking to add a splash of cool color to their gardens or interiors. Like most flowers, it can be harvested instantly by hand and used to craft Light Blue Dye. Beyond its aesthetic appeal, it can be used to breed bees and help them produce honey. Its rarity and specific spawning conditions make the Blue Orchid a prized find for explorers navigating the murky waters and tangled vines of the swamp."
     },
-    "minecraft:bamboo": {
-        id: "minecraft:bamboo",
-        name: "Bamboo",
-        hardness: 1.0,
-        blastResistance: 1.0,
+    "minecraft:oak_sapling": {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
         flammability: true,
         gravityAffected: false,
         transparent: true,
         luminance: 0,
         mining: {
-            tool: "Sword",
+            tool: "None",
             minTier: "None",
             silkTouch: false
         },
-        drops: ["Bamboo"],
+        drops: ["Oak Sapling"],
         generation: {
             dimension: "Overworld",
-            yRange: "Jungle and Bamboo Jungle biomes"
+            yRange: "Dropped from Oak Leaves"
         },
-        description: "Bamboo is the fastest-growing plant in Minecraft, primarily found in Jungle biomes. It can grow up to 16 blocks high and is a versatile material for crafting Scaffolding, Sticks, and Bamboo-based wood blocks. Pandas are known to consume bamboo, and it can also be used as a high-efficiency fuel source in furnaces. In Bedrock Edition, it has a notable hardness that makes it slightly slower to break by hand compared to other plants, but it remains easily harvestable with an axe or sword. It can be planted on many blocks, including moss and mud."
-    },
-    "minecraft:big_dripleaf_stem": {
-        id: "minecraft:big_dripleaf_stem",
-        name: "Big Dripleaf Stem",
-        hardness: 0.1,
-        blastResistance: 0.1,
-        flammability: true,
-        gravityAffected: false,
-        transparent: true,
-        luminance: 0,
-        mining: {
-            tool: "Axe",
-            minTier: "None",
-            silkTouch: false
-        },
-        drops: ["Big Dripleaf"],
-        generation: {
-            dimension: "Overworld",
-            yRange: "Lush Caves"
-        },
-        description: "The Big Dripleaf Stem is the vertical supporting structure that elevates the Big Dripleaf platform. It generates naturally in Lush Caves and can be increased in height by using bone meal on a Big Dripleaf. While the stem itself cannot be stood upon, it is a crucial part of the plant's growth. When the top leaf part is broken, it drops a Big Dripleaf item which includes both the leaf and the potential to regrow the stem. Builders often use these stems to add verticality and a prehistoric feel to tropical or underground botanical gardens."
+        description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
     }
 };
