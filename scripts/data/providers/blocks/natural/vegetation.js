@@ -1129,6 +1129,48 @@ export const vegetationBlocks = {
         },
         description: "A Bamboo Sapling is the initial growth stage of a bamboo plant. It is created when a player plants bamboo on a valid block like grass, dirt, or sand. After a short period, it matures into a full bamboo stalk. While in this stage, it is extremely fragile and will break instantly if harvested or if its supporting block is removed. In Bedrock Edition, it's a key part of the fast-growing bamboo ecosystem, allowing players to quickly establish large bamboo forests for wood, fuel, and crafting."
     },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Banks of rivers and oceans"
+        },
+        description: "Sugar Cane is a vital plant found naturally on sand, red sand, dirt, podzol, or grass blocks directly adjacent to water. It grows up to three blocks tall and is used to craft sugar, paper, and fireworks. In Bedrock Edition, it can also be grown using bone meal, and it can grow underwater if adjacent to a water source. It is essential for enchanting, as paper is required for books and bookshelves. Sugar cane does not obstruct the player's movement and can be broken instantly by hand."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Sword",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes"
+        },
+        description: "Bamboo is the fastest-growing plant in Minecraft, primarily found in Jungle biomes. It can grow up to 12-16 blocks high and can be planted on many blocks including grass, dirt, and moss. Bamboo is incredibly versatile: it can be used to craft scaffolding, sticks, and fuel for smelting. It is also the primary food source for Pandas. In 1.20, bamboo became a functional wood type, allowing it to be crafted into planks, mosaic, and other wood-based items. A sword is the most efficient tool for harvesting it instantly."
+    },
     "minecraft:moss_carpet": {
         id: "minecraft:moss_carpet",
         name: "Moss Carpet",
