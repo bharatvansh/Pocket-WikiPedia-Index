@@ -1212,5 +1212,68 @@ export const vegetationBlocks = {
             yRange: "Plains, Forest, Meadow, and other grassy biomes"
         },
         description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
+    },
+    "minecraft:large_fern": {
+        id: "minecraft:large_fern",
+        name: "Large Fern",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Large Fern (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle, Taiga, and Old Growth Pine/Spruce Taiga biomes"
+        },
+        description: "The Large Fern is a striking two-block-tall decorative plant that adds a lush, prehistoric feel to Minecraft's temperate and tropical biomes. Generating naturally in Taigas and Jungles, it is a non-solid block that can be easily walked through. While it can be broken instantly by hand, using shears is the only way to obtain it as an item. It is a variant of the standard fern and serves as a vital component for players looking to create dense, layered undergrowth in their landscaping projects. In Bedrock Edition, they can be instantly grown from regular ferns using bone meal."
+    },
+    "minecraft:blue_orchid": {
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Orchid"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Swamp biomes"
+        },
+        description: "The Blue Orchid is a rare and beautiful flower found exclusively in Swamp biomes. Its distinct light-blue petals make it a highly sought-after decorative item for builders looking to add a splash of cool color to their gardens or interiors. Like most flowers, it can be harvested instantly by hand and used to craft Light Blue Dye. Beyond its aesthetic appeal, it can be used to breed bees and help them produce honey. Its rarity and specific spawning conditions make the Blue Orchid a prized find for explorers navigating the murky waters and tangled vines of the swamp."
+    },
+    "minecraft:oak_sapling": {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dropped from Oak Leaves"
+        },
+        description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
     }
 };

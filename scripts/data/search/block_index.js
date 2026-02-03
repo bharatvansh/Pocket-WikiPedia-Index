@@ -3519,5 +3519,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/granite_stairs",
         themeColor: "§6" // pinkish-brown
+    },
+    {
+        id: "minecraft:large_fern",
+        name: "Large Fern",
+        category: "block",
+        icon: "textures/blocks/fern_upper",
+        themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:blue_orchid",
+        name: "Blue Orchid",
+        category: "block",
+        icon: "textures/blocks/flower_blue_orchid",
+        themeColor: "§b" // light blue
+    },
+    {
+        id: "minecraft:oak_sapling",
+        name: "Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/sapling_oak",
+        themeColor: "§a" // green
     }
 ];
