@@ -953,5 +953,26 @@ export const slabsStairsBlocks = {
             yRange: "Unobtainable (Legacy)"
         },
         description: "The Petrified Oak Slab is a unique legacy block in Minecraft Bedrock Edition that appears identical to a standard oak slab but behaves like stone. Unlike regular wooden slabs, it is non-flammable and must be mined with a pickaxe to be dropped. It was originally the only type of wooden slab when slabs were first introduced and used stone properties. While it can no longer be crafted in modern versions, it remains in the game's code and can be obtained via commands or in older upgraded worlds."
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+        id: "minecraft:mossy_cobblestone_stairs",
+        name: "Mossy Cobblestone Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dungeons, Pillager Outposts, Jungle Temples"
+        },
+        description: "Mossy Cobblestone Stairs are a decorative variant of cobblestone stairs that feature overgrown moss on their surface. They are used to create aged or reclaimed-looking staircases, roofs, and walls in medieval or overgrown builds. These stairs can be crafted by combining mossy cobblestone blocks or by adding moss to regular cobblestone stairs. They share the same durability as standard cobblestone but provide a distinct aesthetic that blends seamlessly with natural environments."
     }
 };

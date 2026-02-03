@@ -168,6 +168,13 @@ export const blockIndex = [
         themeColor: "§2" // green
     },
     {
+        id: "minecraft:mossy_cobblestone_stairs",
+        name: "Mossy Cobblestone Stairs",
+        category: "block",
+        icon: "textures/blocks/mossy_cobblestone_stairs",
+        themeColor: "§2" // green
+    },
+    {
         id: "minecraft:diamond_block",
         name: "Diamond Block",
         category: "block",
@@ -390,6 +397,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mud_bricks",
         themeColor: "§6" // brown/earthy
+    },
+    {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        category: "block",
+        icon: "textures/blocks/mud_brick_wall",
+        themeColor: "§6" // brown
     },
     {
         id: "minecraft:obsidian",
@@ -2196,6 +2210,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_lime",
         themeColor: "§a" // lime
+    },
+    {
+        id: "minecraft:pink_concrete",
+        name: "Pink Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_pink",
+        themeColor: "§d" // pink
     },
     {
         id: "minecraft:white_wool",
