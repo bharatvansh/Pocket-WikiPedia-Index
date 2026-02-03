@@ -3451,6 +3451,27 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:deepslate_tile_stairs",
+        name: "Deepslate Tile Stairs",
+        category: "block",
+        icon: "textures/blocks/deepslate/deepslate_tiles",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_tile_slab",
+        name: "Deepslate Tile Slab",
+        category: "block",
+        icon: "textures/blocks/deepslate/deepslate_tiles",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:deepslate_tile_wall",
+        name: "Deepslate Tile Wall",
+        category: "block",
+        icon: "textures/blocks/deepslate/deepslate_tiles",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:dandelion",
         name: "Dandelion",
         category: "block",
