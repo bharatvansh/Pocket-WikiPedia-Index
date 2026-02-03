@@ -136,5 +136,68 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "White Concrete is a durable building block known for its solid, vibrant white color and smooth texture. It is formed when White Concrete Powder comes into contact with water, rain, or cauldron water. Unlike wool, it is not flammable, making it a safer choice for building structures. It requires a pickaxe to mine; otherwise, it drops nothing. It is widely used in modern architectural builds due to its clean appearance."
+    },
+    "minecraft:white_concrete_powder": {
+        id: "minecraft:white_concrete_powder",
+        name: "White Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "White Concrete Powder is a gravity-affected building block that serves as the precursor to White Concrete. When it comes into contact with water, it instantly solidifies into a hardened state. It is crafted from sand, gravel, and white dye, and is highly versatile for creating textured landscapes or as a temporary building material. Due to its susceptibility to gravity, it will fall if the block beneath it is removed, similar to sand or gravel."
+    },
+    "minecraft:black_concrete_powder": {
+        id: "minecraft:black_concrete_powder",
+        name: "Black Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Black Concrete Powder is an intensely dark, grainy block that hardens into sleek Black Concrete when exposed to water. It follows the laws of gravity, meaning it will drop if unsupported, making it useful for certain traps or temporary structures. It is crafted using black dye alongside sand and gravel. Builders often use its textured appearance for darker terrains like volcanic soil or as a stylistic choice before turning it into a smooth matte finish."
+    },
+    "minecraft:blue_concrete_powder": {
+        id: "minecraft:blue_concrete_powder",
+        name: "Blue Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Blue Concrete Powder is a colorful, gravity-bound block that transitions into deep Blue Concrete upon hydration. Crafted from blue dye, sand, and gravel, it provides a unique grainy texture that can be used for artistic landscaping or colorful pathways. Like other powders, it falls when its support is gone. It is essential for builders who want to create large-scale blue structures, as it is the only way to produce the smooth, non-flammable blue concrete blocks."
     }
 };

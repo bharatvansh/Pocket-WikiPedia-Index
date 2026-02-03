@@ -3645,5 +3645,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/rail_detector",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:white_concrete_powder",
+        name: "White Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:black_concrete_powder",
+        name: "Black Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:blue_concrete_powder",
+        name: "Blue Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_blue",
+        themeColor: "§1"
     }
 ];
