@@ -975,5 +975,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Bamboo Mosaic"
         },
         description: "Bamboo Mosaic Slab is a decorative half-block variant of the Bamboo Mosaic. It features a unique woven pattern different from standard bamboo planks. It can be used for flooring, roofing, and intricate designs. Like other wooden slabs, it is flammable. It is crafted from Bamboo Mosaic blocks or via a stonecutter."
+    },
+    "minecraft:cobblestone_wall": {
+        id: "minecraft:cobblestone_wall",
+        name: "Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted"
+        },
+        description: "Cobblestone Walls are versatile defensive and decorative blocks made from cobblestone. They function similarly to fences, preventing most mobs from jumping over them as they have a collision height of 1.5 blocks. When placed adjacent to each other, they connect to form a continuous barrier. They can also support banners and torches. Their durability and ease of crafting make them a popular choice for perimeter walls and detailing in medieval-style builds."
     }
 };

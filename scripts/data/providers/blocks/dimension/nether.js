@@ -851,5 +851,26 @@ export const netherBlocks = {
             yRange: "Crafted from Crimson Planks and Sticks"
         },
         description: "The Crimson Fence Gate is a fire-resistant entryway designed to be used in conjunction with crimson fences or other solid blocks. It shares the fireproof quality of the crimson forest's wood, ensuring it remains intact even when exposed to the Nether's intense heat or lava flows. It can be opened or closed by players and can also be triggered via redstone signals. When opened, it allows passage for players and most entities, while being 1.5 blocks high when closed. This gate is essential for creating secure yet accessible enclosures in the Nether, offering a cohesive aesthetic with its deep red wood."
+    },
+    "minecraft:red_nether_bricks": {
+        id: "minecraft:red_nether_bricks",
+        name: "Red Nether Bricks",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Bricks"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted"
+        },
+        description: "Red Nether Bricks are a decorative variant of Nether Bricks with a vibrant dark red color. Unlike standard nether bricks which are found naturally in fortresses, red nether bricks can only be obtained through crafting. They provide a striking contrast and are often used by players to create menacing or elegant structures. They share the same high blast resistance and fire resistance as standard nether bricks, making them ideal for building in the hostile environment of the Nether."
     }
 };

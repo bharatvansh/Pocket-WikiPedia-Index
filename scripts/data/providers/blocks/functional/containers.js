@@ -219,5 +219,26 @@ export const containerBlocks = {
             yRange: "Crafted only"
         },
         description: "A Hopper is a functional block used to collect item entities and move items between containers. It has five inventory slots and can be placed under a container to pull items from it, or against a container to push items into it. Hoppers can be disabled by a redstone signal, which prevents them from moving items. They are essential for automation in farms and storage systems. Crafted from five iron ingots and one chest, they are a fundamental component in advanced redstone engineering in Bedrock Edition."
+    },
+    "minecraft:white_shulker_box": {
+        id: "minecraft:white_shulker_box",
+        name: "White Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Shulker Box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + White Dye)"
+        },
+        description: "The White Shulker Box is a portable storage block that retains its contents when broken. It is created by dyeing a regular shulker box with white dye. This feature makes it an essential tool for high-level resource gathering and inventory management. It can be placed and opened like a chest but cannot be opened if a block is directly above it. When broken, it drops as an item containing all stored items, allowing players to carry vast amounts of materials easily."
     }
 };
