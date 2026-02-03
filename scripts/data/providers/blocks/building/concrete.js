@@ -199,5 +199,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Blue Concrete Powder is a colorful, gravity-bound block that transitions into deep Blue Concrete upon hydration. Crafted from blue dye, sand, and gravel, it provides a unique grainy texture that can be used for artistic landscaping or colorful pathways. Like other powders, it falls when its support is gone. It is essential for builders who want to create large-scale blue structures, as it is the only way to produce the smooth, non-flammable blue concrete blocks."
+    },
+    "minecraft:brown_concrete": {
+        id: "minecraft:brown_concrete",
+        name: "Brown Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brown Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Concrete is a solid, earth-toned building block known for its smooth texture and rich, uniform color. It is created by bringing Brown Concrete Powder into contact with water, solidifying it into a durable form. Unlike its powder counterpart, it is not affected by gravity, making it ideal for permanent structures. Its non-flammable properties and clean, matte finish make it a popular choice for creators building rustic homes, road systems, or naturalistic architectural accents."
     }
 };

@@ -1275,5 +1275,26 @@ export const vegetationBlocks = {
             yRange: "Dropped from Oak Leaves"
         },
         description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
+    },
+    "minecraft:dark_oak_sapling": {
+        id: "minecraft:dark_oak_sapling",
+        name: "Dark Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dark Forest biomes"
+        },
+        description: "Dark Oak Saplings are the unique saplings of the Dark Oak tree, distinguished by their requirement to be planted in a 2x2 grid to grow. A single sapling will never grow into a tree on its own. Found primarily in Dark Forest biomes, they are obtained by breaking or decaying Dark Oak Leaves. When grown, they produce thick logs and dense canopies of dark wood. They are essential for players wishing to cultivate dark oak wood and can be grown quickly using bone meal on any of the four saplings in the grid."
     }
 };

@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:brown_concrete",
+        name: "Brown Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_brown",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:blue_terracotta",
+        name: "Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_blue",
+        themeColor: "§1"
+    },
+    {
+        id: "minecraft:dark_oak_sapling",
+        name: "Dark Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/sapling_dark_oak",
+        themeColor: "§8"
     }
 ];
