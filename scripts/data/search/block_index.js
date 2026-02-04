@@ -3940,5 +3940,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_planks",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:acacia_door",
+        name: "Acacia Door",
+        category: "block",
+        icon: "textures/items/acacia_door",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_trapdoor",
+        name: "Acacia Trapdoor",
+        category: "block",
+        icon: "textures/blocks/acacia_trapdoor",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_button",
+        name: "Acacia Button",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
     }
 ];
