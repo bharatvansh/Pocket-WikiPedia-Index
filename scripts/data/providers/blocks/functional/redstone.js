@@ -622,5 +622,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Copper Blocks"
         },
         description: "A Waxed Copper Bulb is a light-emitting block that toggles its state when powered by redstone. Unlike a redstone lamp, it acts as a T-Flip-Flop, maintaining its ON or OFF state even after the redstone signal is removed. Being waxed, it will not oxidize further. It emits a light level of 15 when active. The texture changes slightly to indicate its powered state. It is crafted from copper blocks, blaze rods, and redstone dust."
+    },
+    "minecraft:jungle_button": {
+        id: "minecraft:jungle_button",
+        name: "Jungle Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "The Jungle Button is a compact redstone power source crafted from a single jungle plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its warm pinkish-tan hue allows it to blend perfectly with other jungle wood blocks, making it an excellent choice for hidden inputs or tropical-themed mechanisms. It can be attached to any side of a solid block. Like other wooden buttons, it can be activated by players, mobs, and projectiles like arrows."
     }
 };
