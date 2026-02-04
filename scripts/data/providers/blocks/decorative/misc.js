@@ -705,5 +705,26 @@ export const miscDecorativeBlocks = {
             yRange: "Taiga Villages"
         },
         description: "Spruce Fences are thin barrier blocks crafted from spruce planks and sticks. They provide a 1.5-block high collision box that prevents most mobs from jumping over, while appearing visually as a single block. Characterized by their dark, rustic wood tone, they are a favorite for medieval, alpine, and cabin-style builds. Like other fences, they automatically connect to adjacent fences, gates, and solid blocks. Being wood-based, they are flammable and are best harvested with an axe."
+    },
+    "minecraft:mangrove_fence": {
+        id: "minecraft:mangrove_fence",
+        name: "Mangrove Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks and Sticks"
+        },
+        description: "A Mangrove Fence is a thin, decorative barrier block crafted from mangrove planks and sticks. It stands 1.5 blocks high for entities, preventing players and most mobs from jumping over it, while appearing only one block tall visually. Characterized by its deep red-brown wood tone, it is perfect for tropical, swampy, or rustic builds. It automatically connects to adjacent fences, gates, and most solid blocks to form a continuous perimeter. Like other wood variants, it is flammable and best harvested with an axe. It is a durable and stylish choice for secure enclosures and railings."
     }
 };

@@ -643,5 +643,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Jungle Planks"
         },
         description: "The Jungle Button is a compact redstone power source crafted from a single jungle plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its warm pinkish-tan hue allows it to blend perfectly with other jungle wood blocks, making it an excellent choice for hidden inputs or tropical-themed mechanisms. It can be attached to any side of a solid block. Like other wooden buttons, it can be activated by players, mobs, and projectiles like arrows."
+    },
+    "minecraft:mangrove_button": {
+        id: "minecraft:mangrove_button",
+        name: "Mangrove Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "The Mangrove Button is a compact redstone power source crafted from a single mangrove plank. It provides a temporary redstone pulse of 15 ticks (1.5 seconds) when activated by hand or by projectiles like arrows. Its deep red-brown color allows it to blend seamlessly with mangrove-themed structures or provide a warm accent to other materials. It can be placed on any side of a solid block, making it ideal for compact circuits, hidden entrances, and tropical-themed mechanisms. Being a wood product, it is flammable and is most efficiently harvested using an axe."
     }
 };
