@@ -873,5 +873,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from Mangrove Planks"
         },
         description: "The Mangrove Trapdoor is a functional block crafted from mangrove planks, featuring a deep red-brown color and a unique design with a large circular cutout. It serves as a horizontal door that can be toggled manually or with redstone. Its distinctive look is popular for tropical-themed builds, vents, or decorative accents. Like other wooden trapdoors, it is flammable and most efficiently harvested with an axe."
+    },
+    "minecraft:gray_candle": {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Gray Dye"
+        },
+        description: "The Gray Candle is a decorative light source block that can be placed in clusters of up to four. Each candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a neutral gray color and must be lit using flint and steel to emit light. Gray candles can also be placed on cakes to create a gray candle cake, perfect for themed decorations."
+    },
+    "minecraft:mangrove_fence_gate": {
+        id: "minecraft:mangrove_fence_gate",
+        name: "Mangrove Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks and Sticks"
+        },
+        description: "A Mangrove Fence Gate is an interactive entrance block that matches the rich, deep red aesthetic of the mangrove wood set. Introduced in the 1.19 Wild Update, it is used to provide controlled passage through mangrove fence perimeters. It stands 1.5 blocks high, effectively preventing most mobs from jumping over it. The gate can be toggled open or closed by hand or via redstone signals. Its vibrant coloration makes it a standout choice for tropical, swampy, or high-contrast architectural designs."
     }
 };
