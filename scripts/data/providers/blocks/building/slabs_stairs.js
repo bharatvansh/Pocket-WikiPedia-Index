@@ -1122,5 +1122,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Mud Bricks"
         },
         description: "Mud Brick Slabs are half-block variants of mud bricks, introduced in the 1.19 Wild Update. They offer a warm, earthy-brown aesthetic perfect for rustic, desert, or swamp-themed builds. Crafted from three mud bricks or via a stonecutter, they allow for precise elevation changes and detailed architectural accents. Like full mud bricks, they are fire-resistant and provide a solid, grounded feel to any structure. They are especially useful for creating smooth pathways, tiered landscaping, and intricate rooflines that blend seamlessly with natural environments."
+    },
+    "minecraft:mossy_stone_brick_wall": {
+        id: "minecraft:mossy_stone_brick_wall",
+        name: "Mossy Stone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Stonecut"
+        },
+        description: "Mossy Stone Brick Walls are decorative barrier blocks that combine the refined pattern of stone bricks with overgrown moss, giving them an ancient and weathered appearance. They function as a 1.5-block high barrier for pathfinding, preventing most mobs from jumping over them while occupying only a single block space. These walls are perfect for creating ancient ruins, overgrown garden boundaries, or adding a sense of age to fortifications. They can be crafted by combining mossy stone bricks or using a stonecutter. In Bedrock Edition, they can be waterlogged and connect seamlessly."
+    },
+    "minecraft:blackstone_wall": {
+        id: "minecraft:blackstone_wall",
+        name: "Blackstone Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Blackstone Walls are sturdy, dark-colored barrier blocks found naturally in the Nether, primarily within Bastion Remnants. Crafted from blackstone, they provide a 1.5-block high collision height that prevents most mobs from leaping over, making them excellent for defensive perimeters in the Nether. Their deep gray, rugged texture complements other blackstone variants and provides a somber, fortress-like aesthetic. They are fire-resistant and immune to ghast fireballs, making them superior to wooden fences in hazardous environments. They can be crafted or made in a stonecutter."
+    },
+    "minecraft:polished_blackstone_stairs": {
+        id: "minecraft:polished_blackstone_stairs",
+        name: "Polished Blackstone Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Stairs are refined building blocks crafted from polished blackstone, offering a sleek and dark aesthetic for Nether-themed architecture. They allow for smooth elevation changes and are frequently used for detailed roofing, grand staircases, and decorative trim in Bastion Remnants. Like all blackstone variants, they are fire-resistant and possess high blast resistance, providing both style and durability. They can be crafted using six polished blackstone blocks or produced more efficiently via a stonecutter. They are also waterloggable in Bedrock Edition."
     }
 };
