@@ -684,5 +684,26 @@ export const miscDecorativeBlocks = {
             yRange: "Savanna Villages"
         },
         description: "Acacia Fences are thin barrier blocks crafted from acacia planks and sticks, known for their vibrant orange hue. They provide a 1.5-block high collision box that prevents most mobs from jumping over, while appearing as only one block high. Naturally occurring in Savanna villages, they are a staple for desert-themed landscaping and livestock enclosures. They connect automatically to adjacent fences, gates, and solid blocks. Being a wood-based block, they are flammable and are most efficiently broken with an axe, making them a durable and stylish choice for colorful builds."
+    },
+    "minecraft:spruce_fence": {
+        id: "minecraft:spruce_fence",
+        name: "Spruce Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga Villages"
+        },
+        description: "Spruce Fences are thin barrier blocks crafted from spruce planks and sticks. They provide a 1.5-block high collision box that prevents most mobs from jumping over, while appearing visually as a single block. Characterized by their dark, rustic wood tone, they are a favorite for medieval, alpine, and cabin-style builds. Like other fences, they automatically connect to adjacent fences, gates, and solid blocks. Being wood-based, they are flammable and are best harvested with an axe."
     }
 };

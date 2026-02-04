@@ -894,5 +894,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence Gate is a functional block introduced in the 1.20 Trails & Tales update as part of the bamboo wood set. It features a unique, yellowish woven texture that provides a tropical or oriental aesthetic to perimeters. Like other fence gates, it can be toggled by player interaction or redstone signals and stands 1.5 blocks high, preventing most mobs from jumping over it. It is crafted from bamboo planks and sticks. Being a wood product, it is flammable and best harvested with an axe. It automatically aligns with adjacent fences to create a cohesive barrier."
+    },
+    "minecraft:birch_door": {
+        id: "minecraft:birch_door",
+        name: "Birch Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks"
+        },
+        description: "The Birch Door is a wooden door variant crafted from Birch Planks. It features a light, pale color with a clean, simple design and a small square window. Its bright aesthetic makes it a popular choice for modern, minimalist, or airy interiors. Like all wooden doors, it can be toggled manually or by redstone power. It occupies a two-block high space and is 100% flammable. While it provides less protection than an iron door, it is easily accessible and offers a welcoming look to any home or library."
     }
 };
