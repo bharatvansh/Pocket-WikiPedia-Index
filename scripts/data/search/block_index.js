@@ -3835,5 +3835,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/candle_blue",
         themeColor: "§9"
+    },
+    {
+        id: "minecraft:mud_brick_slab",
+        name: "Mud Brick Slab",
+        category: "block",
+        icon: "textures/blocks/mud_brick_slab",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:bamboo_fence_gate",
+        name: "Bamboo Fence Gate",
+        category: "block",
+        icon: "textures/blocks/bamboo_fence_gate",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:acacia_fence",
+        name: "Acacia Fence",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
     }
 ];

@@ -663,5 +663,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:acacia_fence": {
+        id: "minecraft:acacia_fence",
+        name: "Acacia Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna Villages"
+        },
+        description: "Acacia Fences are thin barrier blocks crafted from acacia planks and sticks, known for their vibrant orange hue. They provide a 1.5-block high collision box that prevents most mobs from jumping over, while appearing as only one block high. Naturally occurring in Savanna villages, they are a staple for desert-themed landscaping and livestock enclosures. They connect automatically to adjacent fences, gates, and solid blocks. Being a wood-based block, they are flammable and are most efficiently broken with an axe, making them a durable and stylish choice for colorful builds."
     }
 };

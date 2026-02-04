@@ -873,5 +873,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Mangrove Planks"
         },
         description: "The Mangrove Trapdoor is a functional block crafted from mangrove planks, featuring a deep red-brown color and a unique design with a large circular cutout. It serves as a horizontal door that can be toggled manually or with redstone. Its distinctive look is popular for tropical-themed builds, vents, or decorative accents. Like other wooden trapdoors, it is flammable and most efficiently harvested with an axe."
+    },
+    "minecraft:bamboo_fence_gate": {
+        id: "minecraft:bamboo_fence_gate",
+        name: "Bamboo Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Fence Gate is a functional block introduced in the 1.20 Trails & Tales update as part of the bamboo wood set. It features a unique, yellowish woven texture that provides a tropical or oriental aesthetic to perimeters. Like other fence gates, it can be toggled by player interaction or redstone signals and stands 1.5 blocks high, preventing most mobs from jumping over it. It is crafted from bamboo planks and sticks. Being a wood product, it is flammable and best harvested with an axe. It automatically aligns with adjacent fences to create a cohesive barrier."
     }
 };

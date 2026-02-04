@@ -1101,5 +1101,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Mangrove Planks"
         },
         description: "Mangrove Stairs are versatile building blocks introduced in the 1.19 Wild Update, crafted from Mangrove Planks. They feature a distinct deep red coloration characteristic of the Mangrove wood set, offering a rich and warm aesthetic for tropical or nautical-themed builds. Like all wooden stairs, they allow for smooth elevation changes and can be used to create detailed roofs, furniture, and architectural trim. They are waterloggable and can be placed in various orientations. In Bedrock Edition, they share the same physical properties as other wood planks, being fully flammable."
+    },
+    "minecraft:mud_brick_slab": {
+        id: "minecraft:mud_brick_slab",
+        name: "Mud Brick Slab",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Mud Bricks"
+        },
+        description: "Mud Brick Slabs are half-block variants of mud bricks, introduced in the 1.19 Wild Update. They offer a warm, earthy-brown aesthetic perfect for rustic, desert, or swamp-themed builds. Crafted from three mud bricks or via a stonecutter, they allow for precise elevation changes and detailed architectural accents. Like full mud bricks, they are fire-resistant and provide a solid, grounded feel to any structure. They are especially useful for creating smooth pathways, tiered landscaping, and intricate rooflines that blend seamlessly with natural environments."
     }
 };
