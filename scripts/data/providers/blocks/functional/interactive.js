@@ -999,5 +999,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from Jungle Planks"
         },
         description: "The Jungle Trapdoor is a warm, pinkish-orange functional block crafted from jungle planks. It features a unique design with a central window, providing a tropical and exotic feel to any structure while allowing for limited visibility. It acts as a horizontal door that can be toggled manually or via redstone power. Its vibrant coloration is highly valued for builds in jungle biomes or for adding a touch of warmth to various architectural designs. As with all wood-based trapdoors, it can be ignited by fire and is most effectively mined with an axe."
+    },
+    "minecraft:acacia_door": {
+        id: "minecraft:acacia_door",
+        name: "Acacia Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Planks"
+        },
+        description: "The Acacia Door is a wooden door crafted from six acacia planks. It features a unique, vibrant orange color and a stylish design with three small horizontal windows, making it a popular choice for savanna-themed builds or modern architectural designs. Like all wooden doors, it can be opened by hand or powered by redstone. It occupies a two-block high space and is 100% flammable."
+    },
+    "minecraft:acacia_trapdoor": {
+        id: "minecraft:acacia_trapdoor",
+        name: "Acacia Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Planks"
+        },
+        description: "The Acacia Trapdoor is a functional block crafted from acacia planks, showcasing a vibrant orange hue and a unique design with a central rectangular cutout. It serves as a horizontal door that can be toggled manually or with redstone signals. Its distinctive appearance is ideal for savanna-themed builds, as decorative window shutters, or for creating unique ventilation details. Like other wooden trapdoors, it is flammable and most efficiently harvested using an axe."
     }
 };

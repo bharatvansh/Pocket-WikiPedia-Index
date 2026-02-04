@@ -685,5 +685,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Button is a compact redstone component introduced in the 1.20 Trails & Tales update, crafted from a single bamboo plank. When pressed, it provides a temporary redstone pulse lasting 15 ticks (1.5 seconds) in Bedrock Edition. Its bright yellow, textured appearance allows it to blend perfectly with other bamboo-based building blocks, making it ideal for secret inputs in tropical or Asian-inspired builds. Like other wooden buttons, it can be activated by players, mobs, and projectiles such as arrows or tridents."
+    },
+    "minecraft:acacia_button": {
+        id: "minecraft:acacia_button",
+        name: "Acacia Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Planks"
+        },
+        description: "The Acacia Button is a compact redstone power source crafted from a single acacia plank. It provides a momentary redstone pulse of 15 ticks (1.5 seconds) in Bedrock Edition when activated by hand or by projectiles like arrows. Its vibrant orange color allows it to blend seamlessly with acacia-based structures or provide a bright accent to other materials. It can be placed on any side of a solid block and is most efficiently harvested using an axe."
     }
 };
