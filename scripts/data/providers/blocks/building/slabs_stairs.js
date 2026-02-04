@@ -1059,5 +1059,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted"
         },
         description: "Cobblestone Walls are versatile defensive and decorative blocks made from cobblestone. They function similarly to fences, preventing most mobs from jumping over them as they have a collision height of 1.5 blocks. When placed adjacent to each other, they connect to form a continuous barrier. They can also support banners and torches. Their durability and ease of crafting make them a popular choice for perimeter walls and detailing in medieval-style builds."
+    },
+    "minecraft:mossy_cobblestone_wall": {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples, Dungeons, or Crafted"
+        },
+        description: "Mossy Cobblestone Walls are decorative barrier blocks that combine the rugged texture of cobblestone with overgrown moss. They function as a 1.5-block high barrier for pathfinding, preventing most mobs from jumping over them while occupying only a single block space. These walls are ideal for creating ancient, weathered structures, medieval fortifications, or garden boundaries that blend with lush environments. They generate naturally in jungle temples and dungeons or can be crafted. In Bedrock Edition, they can be waterlogged and connect seamlessly to adjacent walls and blocks."
+    },
+    "minecraft:mangrove_stairs": {
+        id: "minecraft:mangrove_stairs",
+        name: "Mangrove Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "Mangrove Stairs are versatile building blocks introduced in the 1.19 Wild Update, crafted from Mangrove Planks. They feature a distinct deep red coloration characteristic of the Mangrove wood set, offering a rich and warm aesthetic for tropical or nautical-themed builds. Like all wooden stairs, they allow for smooth elevation changes and can be used to create detailed roofs, furniture, and architectural trim. They are waterloggable and can be placed in various orientations. In Bedrock Edition, they share the same physical properties as other wood planks, being fully flammable."
     }
 };

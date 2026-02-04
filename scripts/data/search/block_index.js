@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:mossy_cobblestone_wall",
+        name: "Mossy Cobblestone Wall",
+        category: "block",
+        icon: "textures/blocks/cobblestone_mossy",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:mangrove_stairs",
+        name: "Mangrove Stairs",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:dark_oak_leaves",
+        name: "Dark Oak Leaves",
+        category: "block",
+        icon: "textures/blocks/leaves_big_oak",
+        themeColor: "§2"
     }
 ];

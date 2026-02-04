@@ -766,5 +766,26 @@ export const woodBlocks = {
             yRange: "Obtained by using an axe on Warped Stem"
         },
         description: "Stripped Warped Stem is a fire-resistant block created by stripping the 'bark' from a Warped Stem using an axe. It features a beautiful, smooth teal or cyan-green surface that is both alien and aesthetically pleasing. Found naturally in the huge fungi of the Warped Forest, these blocks are immune to fire and lava, making them excellent for construction in dangerous environments. They can be crafted into warped planks or used as structural pillars. Their bright, non-burning nature distinguishes them from all Overworld wood types, offering a unique utility and style."
+    },
+    "minecraft:dark_oak_leaves": {
+        id: "minecraft:dark_oak_leaves",
+        name: "Dark Oak Leaves",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dark Oak Sapling (5%)", "Apple (0.5%)", "Stick (2%)", "Dark Oak Leaves (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "64 to 320 (Dark Forest)"
+        },
+        description: "Dark Oak Leaves are the dense, dark green foliage of Dark Oak trees, primarily found in the Roofed Forest biome. They are unique for forming thick, opaque canopies that can block out enough light to allow hostile mobs to spawn during the day. Like other leaves, they have a small chance to drop apples and dark oak saplings when they decay or are broken. They are highly flammable and best harvested using shears or silk touch tools for decorative landscaping. In Bedrock Edition, they provide a lush, dark green canopy that is essential for the atmospheric look of dark forest biomes."
     }
 };
