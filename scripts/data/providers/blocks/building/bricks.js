@@ -221,6 +221,27 @@ export const brickBlocks = {
         },
         description: "Mud Bricks are decorative building blocks introduced in Minecraft 1.19. They are crafted by placing four Packed Mud in a 2x2 square. Packed Mud itself is made from Mud and Wheat. Mud Bricks feature a warm, reddish-brown color with a classic brick texture, perfect for rustic or desert builds. They are fire-resistant and require a pickaxe to mine efficiently. Players can further craft them into stairs, slabs, and walls, providing architectural versatility for warm-toned designs."
     },
+    "minecraft:mud_brick_wall": {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mud Bricks"
+        },
+        description: "The Mud Brick Wall is a decorative barrier block introduced in the 1.19 Wild Update. It is crafted from mud bricks and shares the same warm, earthy reddish-brown color and texture. Like other walls, it connects to adjacent blocks and stands 1.5 blocks high for entities, preventing them from jumping over it. It provides a rustic and solid alternative to wooden fences, making it ideal for rural boundaries, garden enclosures, or industrial-themed builds in swampy or desert environments."
+    },
     "minecraft:quartz_bricks": {
         id: "minecraft:quartz_bricks",
         name: "Quartz Bricks",

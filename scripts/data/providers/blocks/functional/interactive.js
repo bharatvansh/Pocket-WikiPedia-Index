@@ -537,6 +537,27 @@ export const interactiveBlocks = {
         },
         description: "A Candle is a light source block that can be placed in clusters of up to four. Each candle adds 3 to the light level, reaching a maximum of 12. Candles are crafted from string and honeycomb and can be dyed into 16 colors. They are unlit when placed and must be lit using flint and steel, fire charge, or any flaming projectile. Candles are waterloggable but cannot be lit while waterlogged. They can also be placed on cakes to create a candle cake."
     },
+    "minecraft:blue_candle": {
+        id: "minecraft:blue_candle",
+        name: "Blue Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Blue Dye"
+        },
+        description: "The Blue Candle is a decorative light source block that can be placed in clusters of up to four. Each candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a vibrant blue color and must be lit using flint and steel to emit light. Blue candles can also be placed on cakes to create a blue candle cake, perfect for themed decorations."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",
@@ -831,5 +852,26 @@ export const interactiveBlocks = {
             yRange: "N/A (Crafted)"
         },
         description: "The Bamboo Trapdoor is a functional block crafted from bamboo planks, showcasing a distinctive cross-hatch pattern unique to bamboo wood. It serves as a horizontal door that can be toggled between open and closed states. It is often used for creating trap pits, hidden entrances, or simply as a decorative slab-like detail in builds. Like other trapdoors, it can be controlled by hand or through various redstone signals."
+    },
+    "minecraft:mangrove_trapdoor": {
+        id: "minecraft:mangrove_trapdoor",
+        name: "Mangrove Trapdoor",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "The Mangrove Trapdoor is a functional block crafted from mangrove planks, featuring a deep red-brown color and a unique design with a large circular cutout. It serves as a horizontal door that can be toggled manually or with redstone. Its distinctive look is popular for tropical-themed builds, vents, or decorative accents. Like other wooden trapdoors, it is flammable and most efficiently harvested with an axe."
     }
 };
