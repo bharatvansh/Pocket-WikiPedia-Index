@@ -937,6 +937,27 @@ export const interactiveBlocks = {
         },
         description: "The Mangrove Fence Gate is the interactive counterpart to the mangrove fence, serving as a secure entrance through perimeters. Matching the deep red-brown hue of the mangrove wood set, it can be toggled open or closed by player interaction or redstone signals. When placed, it automatically aligns with adjacent fences and walls. It stands 1.5 blocks high, effectively blocking mob passage while closed. Being crafted from wood, it is flammable and most efficiently broken with an axe. Its unique color makes it an excellent choice for atmospheric swamp-themed builds and gardens."
     },
+    "minecraft:jungle_fence_gate": {
+        id: "minecraft:jungle_fence_gate",
+        name: "Jungle Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks and Sticks"
+        },
+        description: "The Jungle Fence Gate is the interactive counterpart to the jungle fence, providing a secure entrance through perimeters. It features a warm, pinkish-orange hue that matches the jungle wood set. Like other fence gates, it can be toggled open or closed by hand or redstone signals and stands 1.5 blocks high for entities. It is a perfect choice for tropical-themed builds and gardens, automatically aligning with adjacent fences and walls."
+    },
     "minecraft:spruce_trapdoor": {
         id: "minecraft:spruce_trapdoor",
         name: "Spruce Trapdoor",

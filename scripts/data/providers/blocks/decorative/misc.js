@@ -643,6 +643,27 @@ export const miscDecorativeBlocks = {
         },
         description: "An Oak Fence is a thin barrier block, 1.5 blocks high for movement but only 1 block high visually. Crafted from sticks and oak planks, it provides a rustic and efficient way to contain livestock or protect property without blocking line of sight. It connects automatically to neighboring fences and solid blocks. In Bedrock Edition, it is a staple of early-game construction, found naturally in many villages and farm structures."
     },
+    "minecraft:birch_fence": {
+        id: "minecraft:birch_fence",
+        name: "Birch Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks and Sticks"
+        },
+        description: "Birch Fences are thin, decorative barrier blocks crafted from birch planks and sticks. They are 1.5 blocks high for entities, preventing them from being jumped over, while appearing only one block tall. Their bright, pale color matches the birch wood set, making them ideal for modern, minimalist, or airy builds. Like other fences, they connect automatically to adjacent fences, gates, and most solid blocks."
+    },
     "minecraft:bamboo_fence": {
         id: "minecraft:bamboo_fence",
         name: "Bamboo Fence",
