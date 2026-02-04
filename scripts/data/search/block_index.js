@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/items/reeds",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        category: "block",
+        icon: "textures/items/bamboo",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:tuff_tiles",
+        name: "Tuff Tiles",
+        category: "block",
+        icon: "textures/blocks/tuff_tiles",
+        themeColor: "§7"
     }
 ];

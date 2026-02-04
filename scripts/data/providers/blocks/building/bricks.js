@@ -326,6 +326,27 @@ export const brickBlocks = {
         },
         description: "Polished Tuff is a smooth, dark gray building block introduced in Minecraft 1.21. Found naturally in Trial Chambers, it is crafted from regular tuff via a stonecutter or by placing four tuff blocks in a 2x2 grid. It features subtle striations and a refined finish, making it excellent for modern architecture. Additionally, it serves as the base ingredient for crafting tuff bricks when arranged in a 2x2 grid. It offers a sophisticated alternative to the raw variant while remaining easy to mass-produce for large-scale construction projects."
     },
+    "minecraft:tuff_tiles": {
+        id: "minecraft:tuff_tiles",
+        name: "Tuff Tiles",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Tuff Tiles"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Tuff Tiles are decorative building blocks introduced in the 1.21 update, featuring a clean, tiled stone texture. Crafted from four polished tuff in a 2x2 grid or processed via a stonecutter, they provide a durable and aesthetic alternative to traditional bricks or stone tiles. They generate naturally within Trial Chambers, fitting the biome's industrial and weathered theme. Like other tuff variants, they can be crafted into slabs, stairs, and walls, making them highly versatile for complex architectural designs in both modern and ancient builds."
+    },
     "minecraft:tuff_wall": {
         id: "minecraft:tuff_wall",
         name: "Tuff Wall",

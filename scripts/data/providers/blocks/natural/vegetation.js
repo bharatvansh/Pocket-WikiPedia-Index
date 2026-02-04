@@ -1275,5 +1275,47 @@ export const vegetationBlocks = {
             yRange: "Dropped from Oak Leaves"
         },
         description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
+    },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Adjacent to water (Grass, Sand, Dirt, Podzol)"
+        },
+        description: "Sugar Cane is a vital plant found naturally near water on grass, sand, or dirt blocks. It can grow up to three blocks high and is used to craft sugar and paper. In Bedrock Edition, sugar cane can be grown instantly using bone meal, facilitating large-scale farming. It is essential for producing books, maps, and explosive rockets for Elytra flight. While it has no hardness or blast resistance, it must remain adjacent to water to survive."
+    },
+    "minecraft:bamboo": {
+        id: "minecraft:bamboo",
+        name: "Bamboo",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Bamboo Jungles, Jungles"
+        },
+        description: "Bamboo is a fast-growing plant found primarily in Jungle biomes, especially Bamboo Jungles. It can reach heights of up to 16 blocks and is a versatile resource used for crafting scaffolding, sticks, and wood-like blocks. In Bedrock Edition, bamboo is notable for its rapid growth and use in breeding pandas. It has a hardness of 1.0 and is best harvested with an axe or sword, which breaks it instantly. It also serves as an efficient renewable fuel source for furnaces."
     }
 };
