@@ -3982,5 +3982,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_jungle",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        category: "block",
+        icon: "textures/blocks/stripped_spruce_log_side",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:oak_door",
+        name: "Oak Door",
+        category: "block",
+        icon: "textures/items/door_wood",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:spruce_fence_gate",
+        name: "Spruce Fence Gate",
+        category: "block",
+        icon: "textures/blocks/spruce_fence_gate",
+        themeColor: "§8"
     }
 ];

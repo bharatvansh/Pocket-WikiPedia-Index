@@ -1062,5 +1062,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from Acacia Planks"
         },
         description: "The Acacia Trapdoor is a functional block crafted from acacia planks, showcasing a vibrant orange hue and a unique design with a central rectangular cutout. It serves as a horizontal door that can be toggled manually or with redstone signals. Its distinctive appearance is ideal for savanna-themed builds, as decorative window shutters, or for creating unique ventilation details. Like other wooden trapdoors, it is flammable and most efficiently harvested using an axe."
+    },
+    "minecraft:oak_door": {
+        id: "minecraft:oak_door",
+        name: "Oak Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains Villages, Shipwrecks"
+        },
+        description: "The Oak Door is a fundamental functional block crafted from six oak planks. It serves as a two-block high entrance that allows players and villagers to pass through while blocking most hostile mobs. It can be toggled manually by interacting with it or powered by redstone signals. In Bedrock Edition, oak doors generate naturally in many structures, including plains villages and shipwrecks. They are flammable and provide a classic, rustic look to any building."
+    },
+    "minecraft:spruce_fence_gate": {
+        id: "minecraft:spruce_fence_gate",
+        name: "Spruce Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga Villages"
+        },
+        description: "The Spruce Fence Gate is the interactive counterpart to spruce fences, providing a secure entrance through perimeters. It features the deep, dark brown tone characteristic of spruce wood, making it a favorite for rustic, medieval, or cabin-style builds. Like other fence gates, it stands 1.5 blocks high for entities, preventing most mobs from jumping over it while closed. It can be opened by hand or triggered with redstone. Spruce fence gates naturally generate in taiga villages and can be placed in mid-air."
     }
 };
