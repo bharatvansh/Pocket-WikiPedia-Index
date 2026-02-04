@@ -915,5 +915,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Birch Planks"
         },
         description: "The Birch Door is a wooden door variant crafted from Birch Planks. It features a light, pale color with a clean, simple design and a small square window. Its bright aesthetic makes it a popular choice for modern, minimalist, or airy interiors. Like all wooden doors, it can be toggled manually or by redstone power. It occupies a two-block high space and is 100% flammable. While it provides less protection than an iron door, it is easily accessible and offers a welcoming look to any home or library."
+    },
+    "minecraft:mangrove_fence_gate": {
+        id: "minecraft:mangrove_fence_gate",
+        name: "Mangrove Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks and Sticks"
+        },
+        description: "The Mangrove Fence Gate is the interactive counterpart to the mangrove fence, serving as a secure entrance through perimeters. Matching the deep red-brown hue of the mangrove wood set, it can be toggled open or closed by player interaction or redstone signals. When placed, it automatically aligns with adjacent fences and walls. It stands 1.5 blocks high, effectively blocking mob passage while closed. Being crafted from wood, it is flammable and most efficiently broken with an axe. Its unique color makes it an excellent choice for atmospheric swamp-themed builds and gardens."
     }
 };

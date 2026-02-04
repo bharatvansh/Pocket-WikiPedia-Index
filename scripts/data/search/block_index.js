@@ -3877,5 +3877,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_jungle",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:mangrove_button",
+        name: "Mangrove Button",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mangrove_fence",
+        name: "Mangrove Fence",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:mangrove_fence_gate",
+        name: "Mangrove Fence Gate",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4"
     }
 ];
