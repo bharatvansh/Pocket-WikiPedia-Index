@@ -684,5 +684,26 @@ export const miscDecorativeBlocks = {
             yRange: "Savanna Villages"
         },
         description: "Acacia Fences are thin barrier blocks crafted from acacia planks and sticks, known for their vibrant orange hue. They provide a 1.5-block high collision box that prevents most mobs from jumping over, while appearing as only one block high. Naturally occurring in Savanna villages, they are a staple for desert-themed landscaping and livestock enclosures. They connect automatically to adjacent fences, gates, and solid blocks. Being a wood-based block, they are flammable and are most efficiently broken with an axe, making them a durable and stylish choice for colorful builds."
+    },
+    "minecraft:cherry_fence": {
+        id: "minecraft:cherry_fence",
+        name: "Cherry Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks and Sticks"
+        },
+        description: "Cherry Fences are decorative barrier blocks characterized by their beautiful light pink color. They are 1.5 blocks high for most entities, preventing them from being jumped over, while visually occupying only one block height. Crafted from cherry planks and sticks, they are perfect for creating enclosures or decorative railings in cherry grove biomes. They connect automatically to adjacent fences, gates, and solid blocks, providing a charming and secure perimeter for gardens and livestock."
     }
 };

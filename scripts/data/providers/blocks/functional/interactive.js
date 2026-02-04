@@ -894,5 +894,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence Gate is a functional block introduced in the 1.20 Trails & Tales update as part of the bamboo wood set. It features a unique, yellowish woven texture that provides a tropical or oriental aesthetic to perimeters. Like other fence gates, it can be toggled by player interaction or redstone signals and stands 1.5 blocks high, preventing most mobs from jumping over it. It is crafted from bamboo planks and sticks. Being a wood product, it is flammable and best harvested with an axe. It automatically aligns with adjacent fences to create a cohesive barrier."
+    },
+    "minecraft:dark_oak_fence_gate": {
+        id: "minecraft:dark_oak_fence_gate",
+        name: "Dark Oak Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks and Sticks"
+        },
+        description: "A Dark Oak Fence Gate is a thick, dark brown entryway designed to be used with fences or walls. It can be opened or closed by players and can also be operated by redstone signals. When closed, it provides a 1.5-block high barrier that prevents most mobs from passing, but when opened, it allows free movement. Its deep, rich color matches dark oak wood structures perfectly, making it a popular choice for secure and aesthetically pleasing entrances in dense forest builds."
     }
 };

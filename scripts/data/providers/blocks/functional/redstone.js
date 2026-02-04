@@ -454,6 +454,27 @@ export const redstoneBlocks = {
         },
         description: "The Pale Oak Button is a compact redstone power source crafted from a single pale oak plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its muted, cream-gray color allows it to blend subtly with other pale oak blocks or stand out against darker materials. It can be placed on any side of a solid block, making it a versatile tool for activating doors, machines, or hidden mechanisms."
     },
+    "minecraft:mangrove_button": {
+        id: "minecraft:mangrove_button",
+        name: "Mangrove Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "A Mangrove Button is a compact redstone power source crafted from mangrove planks. When pressed, it provides a temporary redstone signal for 15 ticks (1.5 seconds) before retracting. It can be activated by players, mobs, or projectiles like arrows. Its distinct reddish-brown color makes it ideal for matching with mangrove structures or as a colorful accent on other blocks. It can be placed on the top, bottom, or sides of any solid block to trigger nearby mechanisms or doors."
+    },
     "minecraft:light_weighted_pressure_plate": {
         id: "minecraft:light_weighted_pressure_plate",
         name: "Light Weighted Pressure Plate",
