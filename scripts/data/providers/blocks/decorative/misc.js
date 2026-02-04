@@ -663,5 +663,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Bamboo Planks"
         },
         description: "The Bamboo Fence is a vibrant, yellowish wood-type barrier introduced with the bamboo wood set. Crafted from bamboo planks and sticks, it features a unique vertical grain and a bright palette that fits perfectly with tropical or oriental-themed builds. Like other fences, it prevents most mobs from jumping over it and connects to adjacent solid surfaces. It offers a fresh, renewable alternative to traditional wood types, reflecting the dense growth of jungle biomes."
+    },
+    "minecraft:cherry_fence": {
+        id: "minecraft:cherry_fence",
+        name: "Cherry Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Fence"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "A decorative and functional barrier made from cherry wood planks. Known for its distinctively warm pink hue, the cherry fence is a popular choice for light-themed builds and gardens in the Cherry Grove biome. It acts as a 1.5-block high barrier that prevents most mobs and players from jumping over. Like all wooden fences, it is flammable and can be used to tether animals with leads, combining practical security with the elegant aesthetic of cherry blossoms."
     }
 };

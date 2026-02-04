@@ -282,6 +282,27 @@ export const slabsStairsBlocks = {
         },
         description: "Mud Brick Stairs are the stair-shaped variant of mud bricks, introduced in 1.19's Wild Update. They offer a warm, earthy-brown aesthetic that is perfect for desert, swamp, or rustic-themed builds. Crafted from six mud bricks or via a stonecutter, they allow for smooth vertical transitions and detailed roofing. While they have relatively low blast resistance compared to stone stairs, they provide a unique texture that bridges the gap between wood and stone. They can be waterlogged and placed in various orientations to create complex architectural details."
     },
+    "minecraft:mud_brick_wall": {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        hardness: 1.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mud Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trail Ruins"
+        },
+        description: "A decorative wall variant created from mud bricks. Mud brick walls serve both as functional barriers and aesthetic architectural elements, offering a rustic or ancient appearance. They can be found naturally in Trail Ruins or crafted by the player. Like other walls, they connect to adjacent blocks and provide a height of 1.5 blocks, preventing players and mobs from jumping over them."
+    },
     "minecraft:bamboo_stairs": {
         id: "minecraft:bamboo_stairs",
         name: "Bamboo Stairs",

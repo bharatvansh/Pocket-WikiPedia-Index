@@ -3772,5 +3772,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_sandstone_slab_top",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        category: "block",
+        icon: "textures/blocks/mud_bricks",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:torchflower_crop",
+        name: "Torchflower Crop",
+        category: "block",
+        icon: "textures/blocks/torchflower_crop_stage_1",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:cherry_fence",
+        name: "Cherry Fence",
+        category: "block",
+        icon: "textures/blocks/cherry_planks",
+        themeColor: "§d"
     }
 ];
