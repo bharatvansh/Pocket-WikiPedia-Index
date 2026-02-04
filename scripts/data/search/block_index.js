@@ -3898,5 +3898,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mangrove_planks",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:spruce_trapdoor",
+        name: "Spruce Trapdoor",
+        category: "block",
+        icon: "textures/blocks/spruce_trapdoor",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_trapdoor",
+        name: "Birch Trapdoor",
+        category: "block",
+        icon: "textures/blocks/birch_trapdoor",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_trapdoor",
+        name: "Jungle Trapdoor",
+        category: "block",
+        icon: "textures/blocks/jungle_trapdoor",
+        themeColor: "§6"
     }
 ];

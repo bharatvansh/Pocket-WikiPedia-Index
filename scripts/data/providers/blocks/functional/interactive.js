@@ -936,5 +936,68 @@ export const interactiveBlocks = {
             yRange: "Crafted from Mangrove Planks and Sticks"
         },
         description: "The Mangrove Fence Gate is the interactive counterpart to the mangrove fence, serving as a secure entrance through perimeters. Matching the deep red-brown hue of the mangrove wood set, it can be toggled open or closed by player interaction or redstone signals. When placed, it automatically aligns with adjacent fences and walls. It stands 1.5 blocks high, effectively blocking mob passage while closed. Being crafted from wood, it is flammable and most efficiently broken with an axe. Its unique color makes it an excellent choice for atmospheric swamp-themed builds and gardens."
+    },
+    "minecraft:spruce_trapdoor": {
+        id: "minecraft:spruce_trapdoor",
+        name: "Spruce Trapdoor",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "The Spruce Trapdoor is a functional block crafted from spruce planks, featuring the deep, dark brown coloration characteristic of the spruce wood set. It serves as a horizontal door that can be toggled manually or with redstone signals. Its solid and sturdy appearance makes it a popular choice for rustic, medieval, or cabin-themed builds, often used as decorative window shutters, floor hatches, or sturdy ceiling details. Like other wooden trapdoors, it is flammable and most efficiently harvested using an axe."
+    },
+    "minecraft:birch_trapdoor": {
+        id: "minecraft:birch_trapdoor",
+        name: "Birch Trapdoor",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks"
+        },
+        description: "The Birch Trapdoor is a light-colored functional block crafted from birch planks, featuring a distinct design that resembles a shoji screen. Its clean, pale aesthetic matches the bright look of the birch wood set, making it ideal for modern, minimalist, or Eastern-inspired builds. It functions as a horizontal opening that can be toggled by player interaction or redstone power. Builders often use birch trapdoors as decorative wall panels, shelving accents, or elegant skylights in light-themed structures. It is fully flammable and is best broken with an axe."
+    },
+    "minecraft:jungle_trapdoor": {
+        id: "minecraft:jungle_trapdoor",
+        name: "Jungle Trapdoor",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "The Jungle Trapdoor is a warm, pinkish-orange functional block crafted from jungle planks. It features a unique design with a central window, providing a tropical and exotic feel to any structure while allowing for limited visibility. It acts as a horizontal door that can be toggled manually or via redstone power. Its vibrant coloration is highly valued for builds in jungle biomes or for adding a touch of warmth to various architectural designs. As with all wood-based trapdoors, it can be ignited by fire and is most effectively mined with an axe."
     }
 };
