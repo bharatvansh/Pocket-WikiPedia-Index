@@ -305,6 +305,27 @@ export const woodBlocks = {
         },
         description: "Oak logs are one of the most common wood types in Minecraft, harvested from oak trees. They feature a grayish-brown bark and a light tan interior. Oak wood is highly versatile, serving as a primary crafting ingredient for planks, sticks, and various tools. They are found across numerous biomes, including forests, plains, and riverbanks, making them an essential resource for players starting their survival journey."
     },
+    "minecraft:stripped_oak_log": {
+        id: "minecraft:stripped_oak_log",
+        name: "Stripped Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Oak Log"
+        },
+        description: "Stripped Oak Log is a wood variant obtained by using an axe on a regular oak log. This removes the bark, revealing the smooth, tan interior wood. It is commonly used as a clean building material for modern or rustic designs. Like other stripped wood, it can be crafted into oak planks, hanging signs, or wood blocks. Its uniform texture makes it a favorite for builders looking to create polished wooden structures."
+    },
     "minecraft:spruce_log": {
         id: "minecraft:spruce_log",
         name: "Spruce Log",
