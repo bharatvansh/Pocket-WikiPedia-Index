@@ -3814,5 +3814,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/sapling_jungle",
         themeColor: "§2" // dark green
+    },
+    {
+        id: "minecraft:mud_brick_wall",
+        name: "Mud Brick Wall",
+        category: "block",
+        icon: "textures/blocks/mud_brick_wall",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:mangrove_trapdoor",
+        name: "Mangrove Trapdoor",
+        category: "block",
+        icon: "textures/blocks/mangrove_trapdoor",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:blue_candle",
+        name: "Blue Candle",
+        category: "block",
+        icon: "textures/blocks/candle_blue",
+        themeColor: "§9"
     }
 ];
