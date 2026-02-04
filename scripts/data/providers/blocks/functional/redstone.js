@@ -664,5 +664,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Mangrove Planks"
         },
         description: "The Mangrove Button is a compact redstone power source crafted from a single mangrove plank. It provides a temporary redstone pulse of 15 ticks (1.5 seconds) when activated by hand or by projectiles like arrows. Its deep red-brown color allows it to blend seamlessly with mangrove-themed structures or provide a warm accent to other materials. It can be placed on any side of a solid block, making it ideal for compact circuits, hidden entrances, and tropical-themed mechanisms. Being a wood product, it is flammable and is most efficiently harvested using an axe."
+    },
+    "minecraft:bamboo_button": {
+        id: "minecraft:bamboo_button",
+        name: "Bamboo Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Button is a compact redstone component introduced in the 1.20 Trails & Tales update, crafted from a single bamboo plank. When pressed, it provides a temporary redstone pulse lasting 15 ticks (1.5 seconds) in Bedrock Edition. Its bright yellow, textured appearance allows it to blend perfectly with other bamboo-based building blocks, making it ideal for secret inputs in tropical or Asian-inspired builds. Like other wooden buttons, it can be activated by players, mobs, and projectiles such as arrows or tridents."
     }
 };

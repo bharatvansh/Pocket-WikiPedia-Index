@@ -1338,5 +1338,47 @@ export const vegetationBlocks = {
             yRange: "Jungle biomes"
         },
         description: "The Jungle Sapling is a tropical plant that grows into towering Jungle trees. It is found in Jungle biomes and is dropped by Jungle Leaves, though at a lower rate (2.5%) than most other saplings. When planted in a 2x2 grid, it grows into a massive Giant Jungle tree that can reach incredible heights and is often covered in vines. Jungle saplings can also grow into smaller trees if planted individually. They are essential for producing jungle wood and supporting the growth of cocoa beans on their trunks, reflecting the lush and diverse life of tropical rainforests."
+    },
+    "minecraft:acacia_sapling": {
+        id: "minecraft:acacia_sapling",
+        name: "Acacia Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna biomes"
+        },
+        description: "Acacia Saplings are the initial growth stage of Acacia trees, primarily found in the Savanna biome. They can be obtained by breaking or decaying Acacia Leaves and can be replanted on dirt, grass, or moss blocks. Unlike dark oak saplings, a single acacia sapling will grow into a mature acacia tree with its characteristic diagonal trunk and flat canopy. Growth can be accelerated using bone meal. In Bedrock Edition, they are a vital renewable source for obtaining the distinctive gray-barked acacia wood."
+    },
+    "minecraft:dark_oak_sapling": {
+        id: "minecraft:dark_oak_sapling",
+        name: "Dark Oak Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Dark Forest biomes"
+        },
+        description: "Dark Oak Saplings are the plants that grow into Dark Oak trees, which are native to the Dark Forest biome. A unique requirement for Dark Oak trees is that they must be planted in a 2x2 grid of four saplings to grow; a single sapling will never grow into a tree on its own. They are obtained from decaying or broken Dark Oak Leaves, which have a slightly higher drop rate for saplings than most other leaves to compensate for the 2x2 requirement. These saplings are essential for producing dark oak wood, known for its deep brown color and thick trunks."
     }
 };

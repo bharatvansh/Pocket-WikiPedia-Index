@@ -3919,5 +3919,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/jungle_trapdoor",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_sapling",
+        name: "Acacia Sapling",
+        category: "block",
+        icon: "textures/blocks/sapling_acacia",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:dark_oak_sapling",
+        name: "Dark Oak Sapling",
+        category: "block",
+        icon: "textures/blocks/sapling_roofed_oak",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:bamboo_button",
+        name: "Bamboo Button",
+        category: "block",
+        icon: "textures/blocks/bamboo_planks",
+        themeColor: "§e"
     }
 ];
