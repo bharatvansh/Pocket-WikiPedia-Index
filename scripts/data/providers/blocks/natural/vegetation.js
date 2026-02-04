@@ -1275,5 +1275,68 @@ export const vegetationBlocks = {
             yRange: "Dropped from Oak Leaves"
         },
         description: "The Oak Sapling is the fundamental building block of Minecraft's most iconic tree type. Obtained when oak leaves decay or are broken, these saplings can be replanted on dirt or grass to grow into fully matured Oak Trees. They require a light level of at least 9 and a direct vertical clearing to grow naturally, a process that can be greatly accelerated using bone meal. In Bedrock Edition, oak saplings are not just a source of wood; they are also a key component for renewable tree farming and can even be grown into 'Big Oaks' with a bit of luck or forced growth techniques."
+    },
+    "minecraft:spruce_sapling": {
+        id: "minecraft:spruce_sapling",
+        name: "Spruce Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga and Snowy biomes"
+        },
+        description: "The Spruce Sapling is a natural vegetation block that grows into Spruce trees when planted on dirt or grass. Found primarily in Taiga and Snowy biomes, it can be obtained by breaking or decaying Spruce Leaves. A unique feature of the Spruce Sapling is that it can be planted in a 2x2 grid of four saplings to grow a Mega Spruce tree, which is much taller and thicker than the standard version. Like most saplings, its growth can be accelerated using bone meal. It is a vital resource for players seeking spruce wood for its rustic and cozy aesthetic in their builds."
+    },
+    "minecraft:birch_sapling": {
+        id: "minecraft:birch_sapling",
+        name: "Birch Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Birch Forest biomes"
+        },
+        description: "The Birch Sapling is a plant block that grows into Birch trees, characterized by their unique white bark. It is naturally obtained from decaying or broken Birch Leaves in Birch Forest biomes. Unlike some other trees, birch saplings always grow into single-trunk trees and do not have a giant variant. They require a light level of at least 9 to grow and can be instantly matured with bone meal. Birch saplings are favored by builders for establishing renewable sources of light-colored birch wood, which is popular for modern and clean architectural styles."
+    },
+    "minecraft:jungle_sapling": {
+        id: "minecraft:jungle_sapling",
+        name: "Jungle Sapling",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Sapling"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle biomes"
+        },
+        description: "The Jungle Sapling is a tropical plant that grows into towering Jungle trees. It is found in Jungle biomes and is dropped by Jungle Leaves, though at a lower rate (2.5%) than most other saplings. When planted in a 2x2 grid, it grows into a massive Giant Jungle tree that can reach incredible heights and is often covered in vines. Jungle saplings can also grow into smaller trees if planted individually. They are essential for producing jungle wood and supporting the growth of cocoa beans on their trunks, reflecting the lush and diverse life of tropical rainforests."
     }
 };
