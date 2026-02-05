@@ -747,5 +747,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Mangrove Planks and Sticks"
         },
         description: "A Mangrove Fence is a thin, decorative barrier block crafted from mangrove planks and sticks. It stands 1.5 blocks high for entities, preventing players and most mobs from jumping over it, while appearing only one block tall visually. Characterized by its deep red-brown wood tone, it is perfect for tropical, swampy, or rustic builds. It automatically connects to adjacent fences, gates, and most solid blocks to form a continuous perimeter. Like other wood variants, it is flammable and best harvested with an axe. It is a durable and stylish choice for secure enclosures and railings."
+    },
+    "minecraft:jungle_fence": {
+        id: "minecraft:jungle_fence",
+        name: "Jungle Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks and Sticks"
+        },
+        description: "Jungle Fences are thin barrier blocks crafted from jungle planks and sticks. They possess a unique pinkish-tan hue that matches the tropical aesthetic of the jungle wood set. Standing 1.5 blocks high for most entities, they effectively prevent mobs from jumping over while allowing players to see through them. They connect automatically to adjacent fences, gates, and most solid blocks. Being wood-based, they are flammable and are best harvested using an axe, making them a stylish choice for tropical enclosures."
     }
 };
