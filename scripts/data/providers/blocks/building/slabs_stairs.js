@@ -1181,5 +1181,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Crimson Planks"
         },
         description: "Crimson Slabs are half-block building components crafted from crimson planks, a fire-resistant wood type native to the Nether's Crimson Forests. They feature a unique deep maroon and red fungal texture. Unlike Overworld wooden slabs, crimson slabs are completely immune to fire and lava, making them essential for safe construction in the Nether. They can be placed in the upper or lower half of a block space or combined into double slabs. Their rich color and fireproof nature make them ideal for both aesthetic detailing and functional structures in hazardous environments."
+    },
+    "minecraft:mossy_stone_brick_stairs": {
+        id: "minecraft:mossy_stone_brick_stairs",
+        name: "Mossy Stone Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Brick Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Jungle Temples, or Crafted"
+        },
+        description: "Mossy Stone Brick Stairs are a weathered and overgrown variant of stone brick stairs, featuring a distinct texture of cracked stone and green vines. They share the same high durability and blast resistance as regular stone brick stairs, making them excellent for building sturdy, ancient-looking structures. Naturally generating in strongholds and jungle temples, they can also be crafted by combining mossy stone bricks or using a stonecutter. Like other stairs, they are waterloggable and can be placed in various orientations to create complex architectural details."
+    },
+    "minecraft:nether_brick_slab": {
+        id: "minecraft:nether_brick_slab",
+        name: "Nether Brick Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Brick Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Nether Fortresses"
+        },
+        description: "Nether Brick Slabs are fire-resistant half-blocks crafted from Nether Bricks, essential for building in the hazardous Nether dimension. They naturally generate within the massive corridors of Nether Fortresses, providing durable walkways and decorative trim that are immune to ghast fireballs. Because they are stone-based, they provide reliable protection against fire and explosions. Slabs can be placed in either the upper or lower half of a block space or combined into double slabs, offering versatile options for detailed architecture, roofing, and smooth elevation changes."
     }
 };

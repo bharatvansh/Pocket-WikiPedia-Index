@@ -727,5 +727,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Birch Planks"
         },
         description: "The Birch Button is a compact redstone component crafted from a single birch plank. When pressed, it provides a temporary redstone pulse lasting 15 redstone ticks (1.5 seconds) in Bedrock Edition. Its bright, pale color matches the birch wood set, making it ideal for discreet inputs in light-colored builds or as a subtle accent. Like other wooden buttons, it can be activated by players, mobs, and projectiles like arrows. It can be placed on any face of a solid block."
+    },
+    "minecraft:birch_pressure_plate": {
+        id: "minecraft:birch_pressure_plate",
+        name: "Birch Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks"
+        },
+        description: "The Birch Pressure Plate is a redstone-activated switch crafted from two birch planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its light, pale color matches the birch wood set, providing a clean and modern aesthetic for automatic doors and hidden mechanisms in light-colored builds. Like other wooden pressure plates, it remains active as long as an entity is on top of it and for a short time after they leave. It is flammable and can be easily harvested using an axe or by hand."
     }
 };

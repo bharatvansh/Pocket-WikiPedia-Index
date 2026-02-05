@@ -4024,5 +4024,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/huge_fungus/crimson_planks",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:mossy_stone_brick_stairs",
+        name: "Mossy Stone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:nether_brick_slab",
+        name: "Nether Brick Slab",
+        category: "block",
+        icon: "textures/blocks/nether_brick",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:birch_pressure_plate",
+        name: "Birch Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
     }
 ];
