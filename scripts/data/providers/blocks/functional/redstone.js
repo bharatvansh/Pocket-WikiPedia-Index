@@ -790,5 +790,47 @@ export const redstoneBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "The Cherry Button is a compact redstone component crafted from a single cherry plank. Introduced in update 1.20, it provides a temporary 1-second (10 redstone ticks) pulse when activated by hand or by projectiles like arrows in Bedrock Edition. Its beautiful pale pink color matches the cherry wood set, making it perfect for discreet or aesthetic inputs in floral and colorful builds. It can be placed on any side of a solid block and is most efficiently harvested with an axe. Like other wooden buttons, it is flammable and offers a unique aesthetic touch to functional redstone contraptions."
+    },
+    "minecraft:jungle_pressure_plate": {
+        id: "minecraft:jungle_pressure_plate",
+        name: "Jungle Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "The Jungle Pressure Plate is a redstone-activated switch crafted from two jungle planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its warm, pinkish-tan hue matches the jungle wood set, making it ideal for automatic doors and hidden mechanisms in tropical-themed builds. Like other wooden pressure plates in Bedrock Edition, it remains active as long as an entity is on top of it and for a short time after they leave. It is flammable and best harvested using an axe."
+    },
+    "minecraft:acacia_pressure_plate": {
+        id: "minecraft:acacia_pressure_plate",
+        name: "Acacia Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Planks"
+        },
+        description: "The Acacia Pressure Plate is a redstone-activated switch crafted from two acacia planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its vibrant orange color matches the acacia wood set, making it ideal for automatic doors and hidden mechanisms in savanna-themed builds. Like other wooden pressure plates in Bedrock Edition, it remains active as long as an entity is on top of it and for a short duration after they leave. It is flammable and best harvested using an axe."
     }
 };

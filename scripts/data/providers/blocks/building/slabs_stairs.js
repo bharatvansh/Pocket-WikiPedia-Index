@@ -1223,5 +1223,26 @@ export const slabsStairsBlocks = {
             yRange: "Nether Fortresses"
         },
         description: "Nether Brick Slabs are fire-resistant half-blocks crafted from Nether Bricks, essential for building in the hazardous Nether dimension. They naturally generate within the massive corridors of Nether Fortresses, providing durable walkways and decorative trim that are immune to ghast fireballs. Because they are stone-based, they provide reliable protection against fire and explosions. Slabs can be placed in either the upper or lower half of a block space or combined into double slabs, offering versatile options for detailed architecture, roofing, and smooth elevation changes."
+    },
+    "minecraft:mossy_stone_brick_wall": {
+        id: "minecraft:mossy_stone_brick_wall",
+        name: "Mossy Stone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds"
+        },
+        description: "Mossy Stone Brick Walls are durable decorative barriers that combine the refined masonry of stone bricks with weathered moss. They provide a 1.5-block high collision box for entities, preventing most mobs from jumping over them while only occupying a single block space visually. They are ideal for creating ancient ruins, castle fortifications, or garden boundaries in lush environments. Naturally found in Strongholds in Bedrock Edition, they can also be crafted by combining Mossy Stone Bricks or using a stonecutter. They are fireproof and highly resistant to explosions."
     }
 };
