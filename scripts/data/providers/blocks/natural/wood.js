@@ -578,6 +578,69 @@ export const woodBlocks = {
         },
         description: "Birch Wood is a wood-type block that displays the iconic white-and-black bark of birch trees on all sides. Crafted from four birch logs, it allows for the creation of seamless white pillars and custom organic shapes. Its high-contrast, bright appearance makes it a staple for modern architecture and decorative accents. It follows the same mechanical rules as other Overworld wood blocks, being susceptible to fire and requiring an axe for quick mining. It can be stripped to reveal the light-colored interior wood while keeping the six-sided bark-like format."
     },
+    "minecraft:acacia_wood": {
+        id: "minecraft:acacia_wood",
+        name: "Acacia Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Acacia Wood is a block that features the dark gray bark of an acacia log on all six sides. It is obtained by crafting four acacia logs together in a 2x2 grid, which yields three wood blocks. Unlike logs, wood blocks provide a seamless bark appearance, making them ideal for building custom trees, organic structures, or decorative pillars where the inner rings are not desired. In Bedrock Edition, it possesses the same physical properties as acacia logs, being highly flammable and best harvested with an axe. It can also be stripped to create stripped acacia wood."
+    },
+    "minecraft:jungle_wood": {
+        id: "minecraft:jungle_wood",
+        name: "Jungle Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Jungle Wood is a decorative block displaying the greenish-gray bark of jungle logs on all six faces. By crafting four jungle logs in a 2x2 grid, players can create these blocks to achieve a uniform bark texture without the exposed rings seen on standard logs. This makes jungle wood particularly useful for building realistic massive trees or thick vines in tropical-themed environments. It shares the same properties as other Overworld wood types, meaning it is flammable and efficiently broken with an axe. It can also be further processed into its stripped variant."
+    },
+    "minecraft:dark_oak_wood": {
+        id: "minecraft:dark_oak_wood",
+        name: "Dark Oak Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "None"
+        },
+        description: "Dark Oak Wood is a block that showcases the rich, dark brown bark of dark oak logs on all six of its sides. It is produced by crafting four dark oak logs in a 2x2 arrangement. This block is highly valued by builders for creating seamless, dark-colored organic structures or structural beams where the log's end-grain rings would be out of place. Native to the dense Dark Forest biome, it inherits the properties of its source logs, including flammability and a hardness of 2.0. Like other wood blocks in Bedrock Edition, it can be stripped using an axe for a smoother aesthetic."
+    },
     "minecraft:mangrove_wood": {
         id: "minecraft:mangrove_wood",
         name: "Mangrove Wood",
