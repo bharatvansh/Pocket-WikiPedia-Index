@@ -770,6 +770,27 @@ export const redstoneBlocks = {
         },
         description: "The Bamboo Pressure Plate is a redstone-activated switch crafted from two bamboo planks. Introduced in the 1.20 Trails & Tales update, it features a unique yellowish woven texture that matches the rest of the bamboo wood set. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. This makes it ideal for automatic doors and hidden mechanisms in tropical or Asian-inspired builds. Like other wooden pressure plates, it remains active as long as an entity is on top of it. It is flammable and easily harvested using an axe."
     },
+    "minecraft:cherry_pressure_plate": {
+        id: "minecraft:cherry_pressure_plate",
+        name: "Cherry Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Pressure Plate is a wooden redstone component that emits a signal when stepped on by players, mobs, or items. Crafted from two cherry planks, it features the distinctive pink hue of cherry wood, making it a decorative yet functional addition to any base. It provides a standard redstone pulse of strength 15 while an entity is on top of it. Like other wooden pressure plates, it is flammable and can be easily broken and collected by hand or more quickly with an axe."
+    },
     "minecraft:cherry_button": {
         id: "minecraft:cherry_button",
         name: "Cherry Button",

@@ -1265,5 +1265,26 @@ export const slabsStairsBlocks = {
             yRange: "None"
         },
         description: "Smooth Sandstone Stairs are a refined building block that provides smooth elevation changes with a clean, uniform texture. Unlike regular sandstone stairs, they lack the grainy, layered appearance, offering a more polished look for desert-themed architecture. They are crafted from smooth sandstone blocks or made directly in a stonecutter. As a stone material, they are fire-resistant and offer moderate blast protection. Builders often use them for elegant staircases, sloped roofs, and decorative detailing in high-end desert builds where a sophisticated aesthetic is desired."
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+        id: "minecraft:oxidized_cut_copper_stairs",
+        name: "Oxidized Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally (Final stage)"
+        },
+        description: "Oxidized Cut Copper Stairs are a decorative building block that represents the final stage of the copper weathering process. They feature the iconic teal-green patina that occurs when copper is exposed to the elements over time. These stairs are perfect for creating aged roofs, detailed trim, or weathered monuments. They can be waxed to preserve their green color or scraped with an axe to revert them to a previous weathering stage, offering great versatility for industrial or historic builds."
     }
 };
