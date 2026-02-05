@@ -3982,5 +3982,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_jungle",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:dark_oak_stairs",
+        name: "Dark Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_button",
+        name: "Birch Button",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:jungle_fence",
+        name: "Jungle Fence",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
     }
 ];

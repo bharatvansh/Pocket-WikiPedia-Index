@@ -706,5 +706,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Acacia Planks"
         },
         description: "The Acacia Button is a compact redstone power source crafted from a single acacia plank. It provides a momentary redstone pulse of 15 ticks (1.5 seconds) in Bedrock Edition when activated by hand or by projectiles like arrows. Its vibrant orange color allows it to blend seamlessly with acacia-based structures or provide a bright accent to other materials. It can be placed on any side of a solid block and is most efficiently harvested using an axe."
+    },
+    "minecraft:birch_button": {
+        id: "minecraft:birch_button",
+        name: "Birch Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks"
+        },
+        description: "The Birch Button is a compact redstone component crafted from a single birch plank. It provides a momentary redstone pulse lasting 15 ticks (1.5 seconds) in Bedrock Edition. Its pale, clean aesthetic allows it to blend perfectly with birch-based architecture or stand out as a bright, minimalist input on darker surfaces. Like other wooden buttons, it can be attached to any side of a solid block and can be activated by players, mobs, and projectiles like arrows."
     }
 };
