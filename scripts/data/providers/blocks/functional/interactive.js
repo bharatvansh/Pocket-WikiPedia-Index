@@ -1062,5 +1062,47 @@ export const interactiveBlocks = {
             yRange: "Crafted from Acacia Planks"
         },
         description: "The Acacia Trapdoor is a functional block crafted from acacia planks, showcasing a vibrant orange hue and a unique design with a central rectangular cutout. It serves as a horizontal door that can be toggled manually or with redstone signals. Its distinctive appearance is ideal for savanna-themed builds, as decorative window shutters, or for creating unique ventilation details. Like other wooden trapdoors, it is flammable and most efficiently harvested using an axe."
+    },
+    "minecraft:acacia_fence_gate": {
+        id: "minecraft:acacia_fence_gate",
+        name: "Acacia Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Found in Savanna Villages"
+        },
+        description: "The Acacia Fence Gate is a vibrant, orange-toned interactive barrier block that matches the acacia wood set. Naturally found in Savanna villages, it serves as a secure entrance for fences and walls. Like other wooden gates, it can be toggled manually or with redstone power. It stands 1.5 blocks high for entities, preventing them from jumping over while closed. It is flammable and best harvested with an axe, making it both a practical and stylish choice for savanna-themed enclosures."
+    },
+    "minecraft:brown_candle": {
+        id: "minecraft:brown_candle",
+        name: "Brown Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Brown Dye"
+        },
+        description: "The Brown Candle is a decorative light source block featuring a rich, earthy brown color. Like other candles, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3. It must be lit with flint and steel or a fire charge to provide illumination. Brown candles can also be placed on top of a cake to create a brown candle cake, making them a versatile choice for rustic or nature-themed interior decorations."
     }
 };
