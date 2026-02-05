@@ -789,5 +789,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Cherry Planks and Sticks"
         },
         description: "Cherry Fences are decorative barrier blocks introduced in the 1.20 Trails & Tales update. Crafted from cherry planks and sticks, they feature a beautiful pale pink color that matches the cherry grove aesthetic. Like other fences, they stand 1.5 blocks high for entities, preventing players and most mobs from jumping over them. They connect to adjacent fences, gates, and solid blocks. Their soft pink hue makes them ideal for floral gardens, aesthetic cottages, and adding a delicate touch to any build."
+    },
+    "minecraft:dark_oak_fence": {
+        id: "minecraft:dark_oak_fence",
+        name: "Dark Oak Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks and Sticks"
+        },
+        description: "Dark Oak Fences are thin barrier blocks crafted from dark oak planks and sticks. Known for their rich, deep brown color, they provide a 1.5-block high collision box that effectively contains livestock or protects property while remaining visually one block tall. They connect automatically to adjacent fences, gates, and solid blocks, creating a seamless and secure perimeter. Their sophisticated dark tone makes them a popular choice for gothic, rustic, or moody architectural designs. Being wood-based, they are flammable and are most efficiently harvested using an axe."
     }
 };
