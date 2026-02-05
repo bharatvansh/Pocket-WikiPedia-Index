@@ -4045,5 +4045,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_birch",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:acacia_fence_gate",
+        name: "Acacia Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:warped_fence_gate",
+        name: "Warped Fence Gate",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:brown_candle",
+        name: "Brown Candle",
+        category: "block",
+        icon: "textures/blocks/candle_brown",
+        themeColor: "§6"
     }
 ];

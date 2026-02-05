@@ -872,5 +872,26 @@ export const netherBlocks = {
             yRange: "Crafted"
         },
         description: "Red Nether Bricks are a decorative variant of Nether Bricks with a vibrant dark red color. Unlike standard nether bricks which are found naturally in fortresses, red nether bricks can only be obtained through crafting. They provide a striking contrast and are often used by players to create menacing or elegant structures. They share the same high blast resistance and fire resistance as standard nether bricks, making them ideal for building in the hostile environment of the Nether."
+    },
+    "minecraft:warped_fence_gate": {
+        id: "minecraft:warped_fence_gate",
+        name: "Warped Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Fence Gate"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks and Sticks"
+        },
+        description: "The Warped Fence Gate is a teal-colored, fireproof interactive barrier native to the Warped Forest in the Nether. Crafted from warped planks and sticks, it is completely immune to fire and lava, unlike Overworld fence gates. It functions as a secure entrance that can be opened manually or via redstone. Its vibrant teal hue and alien texture provide a unique aesthetic for builds in hazardous environments while effectively containing or repelling mobs."
     }
 };
