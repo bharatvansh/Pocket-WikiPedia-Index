@@ -4003,5 +4003,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_jungle",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:cherry_fence",
+        name: "Cherry Fence",
+        category: "block",
+        icon: "textures/blocks/cherry_planks",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:polished_blackstone_wall",
+        name: "Polished Blackstone Wall",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:crimson_slab",
+        name: "Crimson Slab",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
     }
 ];

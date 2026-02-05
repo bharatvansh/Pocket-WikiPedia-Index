@@ -768,5 +768,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Jungle Planks and Sticks"
         },
         description: "Jungle Fences are thin barrier blocks crafted from jungle planks and sticks. They possess a unique pinkish-tan hue that matches the tropical aesthetic of the jungle wood set. Standing 1.5 blocks high for most entities, they effectively prevent mobs from jumping over while allowing players to see through them. They connect automatically to adjacent fences, gates, and most solid blocks. Being wood-based, they are flammable and are best harvested using an axe, making them a stylish choice for tropical enclosures."
+    },
+    "minecraft:cherry_fence": {
+        id: "minecraft:cherry_fence",
+        name: "Cherry Fence",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Fence"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks and Sticks"
+        },
+        description: "Cherry Fences are decorative barrier blocks introduced in the 1.20 Trails & Tales update. Crafted from cherry planks and sticks, they feature a beautiful pale pink color that matches the cherry grove aesthetic. Like other fences, they stand 1.5 blocks high for entities, preventing players and most mobs from jumping over them. They connect to adjacent fences, gates, and solid blocks. Their soft pink hue makes them ideal for floral gardens, aesthetic cottages, and adding a delicate touch to any build."
     }
 };
