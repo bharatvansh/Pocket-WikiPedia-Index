@@ -1244,5 +1244,26 @@ export const slabsStairsBlocks = {
             yRange: "Strongholds"
         },
         description: "Mossy Stone Brick Walls are durable decorative barriers that combine the refined masonry of stone bricks with weathered moss. They provide a 1.5-block high collision box for entities, preventing most mobs from jumping over them while only occupying a single block space visually. They are ideal for creating ancient ruins, castle fortifications, or garden boundaries in lush environments. Naturally found in Strongholds in Bedrock Edition, they can also be crafted by combining Mossy Stone Bricks or using a stonecutter. They are fireproof and highly resistant to explosions."
+    },
+    "minecraft:smooth_sandstone_stairs": {
+        id: "minecraft:smooth_sandstone_stairs",
+        name: "Smooth Sandstone Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Sandstone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "None"
+        },
+        description: "Smooth Sandstone Stairs are a refined building block that provides smooth elevation changes with a clean, uniform texture. Unlike regular sandstone stairs, they lack the grainy, layered appearance, offering a more polished look for desert-themed architecture. They are crafted from smooth sandstone blocks or made directly in a stonecutter. As a stone material, they are fire-resistant and offer moderate blast protection. Builders often use them for elegant staircases, sloped roofs, and decorative detailing in high-end desert builds where a sophisticated aesthetic is desired."
     }
 };

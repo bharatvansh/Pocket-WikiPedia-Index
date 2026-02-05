@@ -4150,5 +4150,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stonebrick_mossy",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:smooth_sandstone_stairs",
+        name: "Smooth Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/sandstone_smooth",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:dead_brain_coral_block",
+        name: "Dead Brain Coral Block",
+        category: "block",
+        icon: "textures/blocks/dead_brain_coral_block",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:chipped_anvil",
+        name: "Chipped Anvil",
+        category: "block",
+        icon: "textures/blocks/anvil_top",
+        themeColor: "§7"
     }
 ];
