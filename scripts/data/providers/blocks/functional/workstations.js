@@ -406,5 +406,26 @@ export const workstationBlocks = {
             yRange: "Village mason houses"
         },
         description: "A Stonecutter is a functional block used to craft stone-related blocks into their various slab, stair, and brick variants. It serves as a more efficient alternative to the crafting table for stone recipes, allowing for a 1:1 conversion ratio and skipping intermediate steps (like crafting a block before a stair). It also functions as the job site block for Mason villagers. Crafted from one iron ingot and three stone blocks, it features an animated saw blade on top. While the blade appears dangerous, it does not damage players or mobs in Bedrock Edition."
+    },
+    "minecraft:chipped_anvil": {
+        id: "minecraft:chipped_anvil",
+        name: "Chipped Anvil",
+        hardness: 5,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Chipped Anvil"],
+        generation: {
+            dimension: "None",
+            yRange: "Result of Anvil degradation"
+        },
+        description: "A Chipped Anvil is the second stage of an anvil's durability, showing visible signs of wear and minor fractures on its surface. It occurs naturally with a 12% chance whenever an anvil is used for repairing, renaming, or enchanting items. Despite the cosmetic damage, it remains fully functional and retains the same properties as a new anvil, including its high blast resistance and ability to fall due to gravity. It can still be used to maintain high-tier equipment, but it is one step closer to becoming a damaged anvil and eventually breaking completely."
     }
 };

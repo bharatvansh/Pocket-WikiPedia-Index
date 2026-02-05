@@ -345,5 +345,26 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (results from living coral fans dying)"
         },
         description: "Dead Brain Coral Fan is the bleached, gray remains of a once-vibrant Brain Coral Fan. This state occurs when the living coral is removed from its aquatic habitat or when the water source is destroyed. While it lacks the pinkish color of its living counterpart, it remains a useful decorative block for builders aiming for a more muted or weathered underwater aesthetic. It features the same intricate, maze-like patterns characteristic of the brain coral family. It can be found naturally in biomes where reefs have died or created by placing living coral fans on land."
+    },
+    "minecraft:dead_brain_coral_block": {
+        id: "minecraft:dead_brain_coral_block",
+        name: "Dead Brain Coral Block",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dead Brain Coral Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "A Dead Brain Coral Block is the desaturated, gray remains of a living brain coral block. This state occurs when a living coral block is placed out of water or when its water source is removed. While it loses its vibrant pink color, it retains its intricate, maze-like texture and structural properties. It can be mined with any pickaxe and does not require Silk Touch to be harvested once dead. Builders often use these blocks for weathered underwater structures, rocky sea floors, or as a muted alternative to stone in various architectural designs."
     }
 };
