@@ -1244,5 +1244,26 @@ export const slabsStairsBlocks = {
             yRange: "Strongholds"
         },
         description: "Mossy Stone Brick Walls are durable decorative barriers that combine the refined masonry of stone bricks with weathered moss. They provide a 1.5-block high collision box for entities, preventing most mobs from jumping over them while only occupying a single block space visually. They are ideal for creating ancient ruins, castle fortifications, or garden boundaries in lush environments. Naturally found in Strongholds in Bedrock Edition, they can also be crafted by combining Mossy Stone Bricks or using a stonecutter. They are fireproof and highly resistant to explosions."
+    },
+    "minecraft:dark_oak_slab": {
+        id: "minecraft:dark_oak_slab",
+        name: "Dark Oak Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "Dark Oak Slab is a versatile half-block building component crafted from dark oak planks. It features the same elegant, deep brown texture as the full planks, providing a sophisticated option for detailed flooring, ceilings, and roofing. Slabs can be placed in either the upper or lower half of a block space or combined into double slabs, allowing for smooth architectural transitions and tiered designs. Being fire-resistant in certain contexts but generally flammable, it is best harvested with an axe. Its dark aesthetic is perfect for creating moody interiors and grand, rustic exteriors."
     }
 };

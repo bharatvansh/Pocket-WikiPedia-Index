@@ -1104,5 +1104,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Candle and Brown Dye"
         },
         description: "The Brown Candle is a decorative light source block featuring a rich, earthy brown color. Like other candles, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3. It must be lit with flint and steel or a fire charge to provide illumination. Brown candles can also be placed on top of a cake to create a brown candle cake, making them a versatile choice for rustic or nature-themed interior decorations."
+    },
+    "minecraft:dark_oak_fence_gate": {
+        id: "minecraft:dark_oak_fence_gate",
+        name: "Dark Oak Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks and Sticks"
+        },
+        description: "The Dark Oak Fence Gate is a functional barrier block that complements the dark oak wood set with its rich, deep brown color. It serves as an interactive entrance through perimeters, allowing players and entities to pass when toggled. Like other fence gates, it stands 1.5 blocks high for most entities, preventing them from jumping over it while closed. It can be opened manually or by redstone power and automatically aligns with adjacent fences or walls. Its sophisticated dark tone makes it a popular choice for high-contrast gardens and gothic-themed architectural perimeters."
     }
 };

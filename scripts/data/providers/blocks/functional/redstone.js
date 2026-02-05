@@ -832,5 +832,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Acacia Planks"
         },
         description: "The Acacia Pressure Plate is a redstone-activated switch crafted from two acacia planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its vibrant orange color matches the acacia wood set, making it ideal for automatic doors and hidden mechanisms in savanna-themed builds. Like other wooden pressure plates in Bedrock Edition, it remains active as long as an entity is on top of it and for a short duration after they leave. It is flammable and best harvested using an axe."
+    },
+    "minecraft:dark_oak_button": {
+        id: "minecraft:dark_oak_button",
+        name: "Dark Oak Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "The Dark Oak Button is a compact redstone component crafted from a single dark oak plank. It provides a momentary redstone pulse of 15 ticks (1.5 seconds) when pressed, matching the behavior of other wooden buttons in Bedrock Edition. Its deep brown color allows it to blend subtly with dark oak structures, making it an excellent choice for hidden inputs and secret passages. It can be placed on any side of a solid block and can be activated by players, mobs, and projectiles like arrows. As a wood-based component, it is flammable and most efficiently harvested using an axe."
     }
 };

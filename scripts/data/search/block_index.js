@@ -4129,5 +4129,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stonebrick_mossy",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:dark_oak_fence_gate",
+        name: "Dark Oak Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_slab",
+        name: "Dark Oak Slab",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_button",
+        name: "Dark Oak Button",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
     }
 ];
