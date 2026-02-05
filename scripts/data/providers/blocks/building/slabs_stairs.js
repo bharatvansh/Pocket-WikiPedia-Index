@@ -1143,5 +1143,43 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Dark Oak Planks"
         },
         description: "Dark Oak Stairs are decorative building blocks crafted from dark oak planks. They feature the same rich, dark brown color as the rest of the dark oak wood set, making them perfect for creating moody or sophisticated architecture. Like all stairs, they allow for smooth vertical movement and can be used for detailed roofing, furniture, and trim. They are waterloggable and can be placed in various orientations. They are flammable and are most efficiently harvested with an axe."
+    },
+    "minecraft:polished_blackstone_wall": {
+        id: "minecraft:polished_blackstone_wall",
+        name: "Polished Blackstone Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Polished Blackstone"
+        },
+        description: "Polished Blackstone Walls are durable decorative barriers crafted from polished blackstone. They provide a 1.5-block high collision box, making them excellent for containing mobs or securing perimeters in the Nether. Featuring a sleek, dark masonry texture, they offer a sophisticated and somber aesthetic for fortresses and gothic-style builds. Like other wall types, they connect to adjacent blocks and walls to form a continuous barrier, and they are highly resistant to explosions."
+    },
+    "minecraft:crimson_slab": {
+        id: "minecraft:crimson_slab",
+        name: "Crimson Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "Crimson Slabs are half-block building components crafted from crimson planks, a fire-resistant wood type native to the Nether's Crimson Forests. They feature a unique deep maroon and red fungal texture. Unlike Overworld wooden slabs, crimson slabs are completely immune to fire and lava, making them essential for safe construction in the Nether. They can be placed in the upper or lower half of a block space or combined into double slabs. Their rich color and fireproof nature make them ideal for both aesthetic detailing and functional structures in hazardous environments."
     }
 };
