@@ -4171,5 +4171,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:cyan_concrete",
+        name: "Cyan Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:cherry_pressure_plate",
+        name: "Cherry Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/cherry_planks",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:oxidized_cut_copper_stairs",
+        name: "Oxidized Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/oxidized_cut_copper",
+        themeColor: "§2"
     }
 ];

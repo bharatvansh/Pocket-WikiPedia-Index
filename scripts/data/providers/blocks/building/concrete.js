@@ -116,6 +116,27 @@ export const concreteBlocks = {
         },
         description: "Lime Concrete is a vivid, neon-green building block that offers a smooth and uniform surface. It is formed when Lime Concrete Powder is submerged in or touched by water. Its intense color is perfect for modern designs, vegetation-themed builds, or any project requiring a bright, eye-catching accent. As a non-flammable alternative to lime wool, it provides both safety and a more refined texture, making it a staple for creators focusing on clean lines and bold color palettes."
     },
+    "minecraft:cyan_concrete": {
+        id: "minecraft:cyan_concrete",
+        name: "Cyan Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cyan Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cyan Concrete is a vibrant and durable building block that provides a solid, teal-colored finish with a smooth matte texture. It is created by hydrating Cyan Concrete Powder with water, which instantly hardens it. Unlike wool, it is non-flammable and offers better blast resistance, making it an ideal choice for colorful, permanent structures. Builders often use it for modern architecture, aquatic-themed designs, or as a striking accent in large-scale pixel art."
+    },
     "minecraft:white_concrete": {
         id: "minecraft:white_concrete",
         name: "White Concrete",
