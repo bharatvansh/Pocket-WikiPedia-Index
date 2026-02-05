@@ -1122,5 +1122,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Mud Bricks"
         },
         description: "Mud Brick Slabs are half-block variants of mud bricks, introduced in the 1.19 Wild Update. They offer a warm, earthy-brown aesthetic perfect for rustic, desert, or swamp-themed builds. Crafted from three mud bricks or via a stonecutter, they allow for precise elevation changes and detailed architectural accents. Like full mud bricks, they are fire-resistant and provide a solid, grounded feel to any structure. They are especially useful for creating smooth pathways, tiered landscaping, and intricate rooflines that blend seamlessly with natural environments."
+    },
+    "minecraft:dark_oak_stairs": {
+        id: "minecraft:dark_oak_stairs",
+        name: "Dark Oak Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "Dark Oak Stairs are decorative building blocks crafted from dark oak planks. They feature the same rich, dark brown color as the rest of the dark oak wood set, making them perfect for creating moody or sophisticated architecture. Like all stairs, they allow for smooth vertical movement and can be used for detailed roofing, furniture, and trim. They are waterloggable and can be placed in various orientations. They are flammable and are most efficiently harvested with an axe."
     }
 };
