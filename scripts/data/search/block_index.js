@@ -2625,6 +2625,27 @@ export const blockIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:acacia_wood",
+        name: "Acacia Wood",
+        category: "block",
+        icon: "textures/blocks/log_acacia",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:jungle_wood",
+        name: "Jungle Wood",
+        category: "block",
+        icon: "textures/blocks/log_jungle",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:dark_oak_wood",
+        name: "Dark Oak Wood",
+        category: "block",
+        icon: "textures/blocks/log_big_oak",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:jungle_log",
         name: "Jungle Log",
         category: "block",
