@@ -748,5 +748,47 @@ export const redstoneBlocks = {
             yRange: "Crafted from Birch Planks"
         },
         description: "The Birch Pressure Plate is a redstone-activated switch crafted from two birch planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its light, pale color matches the birch wood set, providing a clean and modern aesthetic for automatic doors and hidden mechanisms in light-colored builds. Like other wooden pressure plates, it remains active as long as an entity is on top of it and for a short time after they leave. It is flammable and can be easily harvested using an axe or by hand."
+    },
+    "minecraft:bamboo_pressure_plate": {
+        id: "minecraft:bamboo_pressure_plate",
+        name: "Bamboo Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Planks"
+        },
+        description: "The Bamboo Pressure Plate is a redstone-activated switch crafted from two bamboo planks. Introduced in the 1.20 Trails & Tales update, it features a unique yellowish woven texture that matches the rest of the bamboo wood set. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. This makes it ideal for automatic doors and hidden mechanisms in tropical or Asian-inspired builds. Like other wooden pressure plates, it remains active as long as an entity is on top of it. It is flammable and easily harvested using an axe."
+    },
+    "minecraft:cherry_button": {
+        id: "minecraft:cherry_button",
+        name: "Cherry Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Button is a compact redstone component crafted from a single cherry plank. Introduced in update 1.20, it provides a temporary 1-second (10 redstone ticks) pulse when activated by hand or by projectiles like arrows in Bedrock Edition. Its beautiful pale pink color matches the cherry wood set, making it perfect for discreet or aesthetic inputs in floral and colorful builds. It can be placed on any side of a solid block and is most efficiently harvested with an axe. Like other wooden buttons, it is flammable and offers a unique aesthetic touch to functional redstone contraptions."
     }
 };

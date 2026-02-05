@@ -4066,5 +4066,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/candle_brown",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:cherry_button",
+        name: "Cherry Button",
+        category: "block",
+        icon: "textures/blocks/cherry_planks",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:dark_oak_fence",
+        name: "Dark Oak Fence",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:bamboo_pressure_plate",
+        name: "Bamboo Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/bamboo_planks",
+        themeColor: "§e"
     }
 ];
