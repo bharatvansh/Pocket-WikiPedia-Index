@@ -221,6 +221,27 @@ export const woodBlocks = {
         },
         description: "Warped Hyphae is a wood-like block that has the warped stem's bark texture on all six sides. It is fire-resistant and pulses with a dark aqua color. Unlike many other nether blocks, it can be crafted into warped planks or used as a decorative building block. It is essentially the 'wood' version of the warped stem, allowing for consistent bark textures on all sides of a pillar or structure."
     },
+    "minecraft:stripped_warped_hyphae": {
+        id: "minecraft:stripped_warped_hyphae",
+        name: "Stripped Warped Hyphae",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Warped Hyphae"],
+        generation: {
+            dimension: "None",
+            yRange: "N/A"
+        },
+        description: "Stripped Warped Hyphae is a teal-colored, fire-resistant block that displays the smooth, stripped texture of warped stem on all six faces. It can be obtained by crafting four stripped warped stems in a 2x2 grid or by stripping regular warped hyphae with an axe. Its uniform, vibrant teal surface makes it a favorite for builders creating large, seamless structures or alien-themed architecture. Since it is native to the Nether's Warped Forest, it does not burn, making it a safe and stylish choice for constructions near lava."
+    },
     "minecraft:pale_oak_wood": {
         id: "minecraft:pale_oak_wood",
         name: "Pale Oak Wood",
@@ -283,6 +304,27 @@ export const woodBlocks = {
             yRange: "None"
         },
         description: "Crimson Hyphae is a block with the bark texture of Crimson Stem on all six sides. It can be crafted by arranging four Crimson Stems in a 2x2 grid. It is often used in building for creating custom trees or organic structures where the log rings are not desired. Like the stem, it is fire-resistant and can be stripped to create Stripped Crimson Hyphae."
+    },
+    "minecraft:stripped_crimson_hyphae": {
+        id: "minecraft:stripped_crimson_hyphae",
+        name: "Stripped Crimson Hyphae",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Crimson Hyphae"],
+        generation: {
+            dimension: "None",
+            yRange: "N/A"
+        },
+        description: "Stripped Crimson Hyphae is a decorative, fire-resistant block that features the smooth, vibrant purple-red texture of stripped crimson stem on all six sides. It is crafted by arranging four stripped crimson stems in a 2x2 grid, or by using an axe on regular crimson hyphae. This block is ideal for creating seamless organic structures, such as thick branches or custom pillars, in the Nether or fire-prone builds. Like other nether stems, it is completely immune to fire and lava, providing both a striking aesthetic and structural safety."
     },
     "minecraft:oak_log": {
         id: "minecraft:oak_log",
@@ -472,6 +514,27 @@ export const woodBlocks = {
             yRange: "None"
         },
         description: "Oak Wood is a block that features the bark texture of an oak log on all six sides. It is crafted by placing four oak logs in a 2x2 grid, yielding three blocks of wood. Unlike logs, which show rings on two ends, wood blocks provide a seamless bark appearance, making them ideal for building custom tree trunks, large branches, or decorative pillars. In Bedrock Edition, they share the same physical properties as oak logs, including flammability and hardness. They can also be stripped with an axe to create stripped oak wood."
+    },
+    "minecraft:stripped_oak_wood": {
+        id: "minecraft:stripped_oak_wood",
+        name: "Stripped Oak Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Oak Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "N/A"
+        },
+        description: "Stripped Oak Wood is a versatile building block that features the smooth, tan interior of an oak log on all six sides. It is obtained by using an axe on oak wood or by crafting four stripped oak logs in a 2x2 grid. Unlike logs, which show rings on two ends, this block provides a continuous, bark-free surface that is ideal for creating polished columns, large-scale structures, and detailed organic builds. It shares the same properties as other oak wood variants, including being highly flammable. Its warm color palette makes it a staple for many architectural styles."
     },
     "minecraft:spruce_wood": {
         id: "minecraft:spruce_wood",

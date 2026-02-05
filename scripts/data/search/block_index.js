@@ -4087,5 +4087,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/bamboo_planks",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:stripped_crimson_hyphae",
+        name: "Stripped Crimson Hyphae",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/stripped_crimson_stem_side",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:stripped_warped_hyphae",
+        name: "Stripped Warped Hyphae",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/stripped_warped_stem_side",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:stripped_oak_wood",
+        name: "Stripped Oak Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_oak_log_side",
+        themeColor: "§6"
     }
 ];
