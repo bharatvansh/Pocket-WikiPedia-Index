@@ -4108,5 +4108,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stripped_oak_log_side",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:jungle_pressure_plate",
+        name: "Jungle Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_pressure_plate",
+        name: "Acacia Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:mossy_stone_brick_wall",
+        name: "Mossy Stone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§2"
     }
 ];
