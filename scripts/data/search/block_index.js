@@ -4402,5 +4402,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:black_terracotta",
+        name: "Black Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:brown_concrete_powder",
+        name: "Brown Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_brown",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:gray_shulker_box",
+        name: "Gray Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_gray",
+        themeColor: "§8"
     }
 ];

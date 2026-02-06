@@ -262,5 +262,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Cyan Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a vibrant teal hue. It is crafted using four sand, four gravel, and one cyan dye. When this block comes into contact with water, it instantly solidifies into smooth Cyan Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps or temporary structures. It is a favorite for adding texture to beaches or creating colorful pathways in artistic landscapes."
+    },
+    "minecraft:brown_concrete_powder": {
+        id: "minecraft:brown_concrete_powder",
+        name: "Brown Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Concrete Powder is a gravity-affected building block with a grainy, earthy brown texture. It is crafted from sand, gravel, and brown dye. When it touches water, it solidifies into smooth Brown Concrete. It is commonly used for landscaping, dirt-like paths, and temporary structures in Bedrock Edition. Its warm, natural tone makes it an ideal choice for blending artificial structures with earthy environments."
     }
 };
