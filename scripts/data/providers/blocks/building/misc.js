@@ -113,6 +113,27 @@ export const miscBuildingBlocks = {
         },
         description: "Orange Terracotta is a vibrant, earth-toned block found abundantly in the Badlands biome and occasionally in savanna village houses. It is created by smelting clay and applying orange dye, or found naturally in massive strata. It features a warm, orange-brown hue that fits perfectly with desert or Mediterranean-style architecture. Like all terracotta variants, it has a hardness of 1.25 and requires a pickaxe for collection. Its matte texture is distinct from the glossy look of concrete, providing a more natural feel to builds. It can also be further smelted into orange glazed terracotta."
     },
+    "minecraft:blue_terracotta": {
+        id: "minecraft:blue_terracotta",
+        name: "Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blue Terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands Biome"
+        },
+        description: "Blue Terracotta is a durable building block with a muted, earthy blue tone and a smooth matte finish. It is primarily obtained by dyeing regular terracotta with blue dye or found naturally in some Badlands biome strata. In Bedrock Edition, it requires a pickaxe to harvest efficiently and provides significantly better blast resistance than wool or concrete powder. Its subtle, desaturated color makes it a favorite for Mediterranean-style builds, industrial textures, and sophisticated gradients where a less intense blue is desired."
+    },
     "minecraft:white_glazed_terracotta": {
         id: "minecraft:white_glazed_terracotta",
         name: "White Glazed Terracotta",
