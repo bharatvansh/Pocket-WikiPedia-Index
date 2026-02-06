@@ -4297,5 +4297,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_birch",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_slab",
+        name: "Acacia Slab",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
     }
 ];

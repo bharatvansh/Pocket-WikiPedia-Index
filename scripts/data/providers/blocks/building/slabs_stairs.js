@@ -1433,5 +1433,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Birch Planks"
         },
         description: "The Birch Slab is a light-colored half-block building material crafted from birch planks. Its pale, almost white texture makes it ideal for modern designs, clean interiors, and highlighting architectural details. Slabs can be placed in either the top or bottom half of a block space or combined into a double slab. In Bedrock Edition, birch slabs are flammable and have a hardness of 2.0 and blast resistance of 3.0. They provide a versatile way to create smooth elevation changes, detailed flooring, and sleek roofing while maintaining a bright and welcoming aesthetic."
+    },
+    "minecraft:spruce_slab": {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "Spruce Slab is a half-block variant of Spruce planks, featuring a rich, dark brown texture. It is a popular choice for rustic and medieval-style builds, offering a cozy and sturdy appearance. Like other wooden slabs, it can be placed in the upper or lower half of a block space, or combined into a double slab. It is flammable and can be used as fuel in furnaces. Spruce slabs are versatile for creating detailed flooring, staircases, and rooflines that complement darker wood palettes."
+    },
+    "minecraft:jungle_slab": {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "Jungle Slab is a half-block variant of Jungle planks, characterized by its unique pinkish-tan hue. It is often found in tropical-themed builds and pairs well with other jungle materials like bamboo and vines. These slabs are useful for creating smooth elevation changes and detailed architectural accents in jungle temples or shipwreck-inspired designs. Like all wooden slabs, they are flammable and can be broken most efficiently with an axe. They provide a warm and natural aesthetic to any structure."
+    },
+    "minecraft:acacia_slab": {
+        id: "minecraft:acacia_slab",
+        name: "Acacia Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Acacia Planks"
+        },
+        description: "Acacia Slab is a building block crafted from Acacia Planks, known for its vibrant orange color. It is a staple in Savanna-themed architecture, providing a bold and high-contrast look to roofs and flooring. Like other slabs, it occupies half a block space and can be placed in various orientations. It is flammable and can be waterlogged in Bedrock Edition. Acacia slabs are excellent for adding intricate details to modern or desert-themed builds where a warm and bright wood tone is desired."
     }
 };
