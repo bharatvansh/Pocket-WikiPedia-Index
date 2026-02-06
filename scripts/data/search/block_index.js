@@ -4255,5 +4255,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/spruce_door",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:warped_pressure_plate",
+        name: "Warped Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:crimson_pressure_plate",
+        name: "Crimson Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:polished_blackstone_pressure_plate",
+        name: "Polished Blackstone Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
     }
 ];

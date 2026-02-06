@@ -916,5 +916,68 @@ export const redstoneBlocks = {
             yRange: "Crafted from Mangrove Planks"
         },
         description: "The Mangrove Pressure Plate is a redstone switch crafted from two mangrove planks. It features a rich, deep red color unique to the mangrove wood set, ideal for tropical or swamp-themed contraptions. It detects players, mobs, and items, outputting a signal of strength 15. This plate is a decorative yet functional addition to any Bedrock Edition world. Like all wooden pressure plates, it is flammable and should be harvested with an axe for maximum efficiency."
+    },
+    "minecraft:warped_pressure_plate": {
+        id: "minecraft:warped_pressure_plate",
+        name: "Warped Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Pressure Plate"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "The Warped Pressure Plate is a fire-resistant redstone component crafted from two warped planks. Native to the Nether's Warped Forest, it possesses a unique teal color and is completely immune to fire and lava. It detects when any entity, including players, mobs, and items, lands on its surface, emitting a redstone signal of strength 15. This makes it ideal for automatic doors and mechanisms in hazardous environments where traditional wooden plates would burn. It remains active as long as an entity is on top and for a short duration after they leave."
+    },
+    "minecraft:crimson_pressure_plate": {
+        id: "minecraft:crimson_pressure_plate",
+        name: "Crimson Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Pressure Plate"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "The Crimson Pressure Plate is a durable, fire-resistant redstone switch crafted from two crimson planks. Found naturally in the Nether's Crimson Forest, its deep burgundy hue provides a dark, rustic aesthetic for Nether-based constructions. It detects when any entity, such as a player, mob, or dropped item, stands on it, outputting a redstone signal of strength 15. Being immune to fire and lava, it is a superior choice for automated systems near lava lakes or in the Nether. It functions identically to Overworld wooden pressure plates but with significantly higher heat resistance."
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+        id: "minecraft:polished_blackstone_pressure_plate",
+        name: "Polished Blackstone Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Pressure Plate"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Polished Blackstone"
+        },
+        description: "The Polished Blackstone Pressure Plate is a stone-type redstone switch crafted from two polished blackstone blocks. Unlike wooden variants, it only detects players and mobs, ignoring dropped items, which makes it perfect for secure inputs and mob-specific traps. Its dark, sleek appearance allows it to blend seamlessly into blackstone-themed structures or provide a high-contrast accent to lighter blocks. It is fire-resistant and provides a signal strength of 15 when activated. It combines the functionality of a stone pressure plate with the unique aesthetic of the Nether."
     }
 };
