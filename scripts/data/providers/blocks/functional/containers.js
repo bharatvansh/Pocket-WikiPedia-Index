@@ -240,5 +240,26 @@ export const containerBlocks = {
             yRange: "Crafted (Shulker Box + White Dye)"
         },
         description: "The White Shulker Box is a portable storage block that retains its contents when broken. It is created by dyeing a regular shulker box with white dye. This feature makes it an essential tool for high-level resource gathering and inventory management. It can be placed and opened like a chest but cannot be opened if a block is directly above it. When broken, it drops as an item containing all stored items, allowing players to carry vast amounts of materials easily."
+    },
+    "minecraft:magenta_shulker_box": {
+        id: "minecraft:magenta_shulker_box",
+        name: "Magenta Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Magenta Shulker Box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Magenta Dye)"
+        },
+        description: "The Magenta Shulker Box is a premium portable storage solution that retains its items even when broken and carried in the inventory. It is crafted by combining a standard shulker box with magenta dye. With 27 slots of storage space, it effectively expands a player's inventory capacity. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, and it provides a colorful way to organize complex storage systems and categorize resources effectively."
     }
 };
