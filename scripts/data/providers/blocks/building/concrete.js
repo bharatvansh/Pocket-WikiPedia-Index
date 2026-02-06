@@ -283,5 +283,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Brown Concrete Powder is a gravity-affected building block with a grainy, earthy brown texture. It is crafted from sand, gravel, and brown dye. When it touches water, it solidifies into smooth Brown Concrete. It is commonly used for landscaping, dirt-like paths, and temporary structures in Bedrock Edition. Its warm, natural tone makes it an ideal choice for blending artificial structures with earthy environments."
+    },
+    "minecraft:brown_concrete": {
+        id: "minecraft:brown_concrete",
+        name: "Brown Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brown Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Concrete is a solid, earth-toned building block known for its smooth, matte texture and uniform color. It is formed when Brown Concrete Powder comes into contact with water, which instantly hardens it. Builders favor brown concrete for its natural, earthy hue, making it ideal for rustic architecture, roads, or mountain-themed structures where a clean, non-textured look is desired. Unlike wood or wool, it is non-flammable and offers better blast resistance, providing a durable and fire-safe alternative for permanent constructions in a variety of environments."
     }
 };
