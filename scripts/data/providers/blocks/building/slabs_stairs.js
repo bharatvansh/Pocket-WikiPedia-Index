@@ -1559,5 +1559,47 @@ export const slabsStairsBlocks = {
             yRange: "Bastion Remnants, Ruined Portals"
         },
         description: "Blackstone Stairs are rugged, dark-toned stairs that provide a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants and Ruined Portals, they are a primary building component for Piglin architecture. They share the same high blast resistance and durability as regular stone, but with a unique dark gray-to-black color palette. Blackstone stairs are essential for creating detailed rooflines, grand staircases, and atmospheric trim in Nether-themed builds. They can be crafted from six blackstone blocks or made more efficiently using a stonecutter. They are also waterloggable."
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+        id: "minecraft:bamboo_mosaic_stairs",
+        name: "Bamboo Mosaic Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Mosaic Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Bamboo Mosaic"
+        },
+        description: "Bamboo Mosaic Stairs are a decorative building block crafted from Bamboo Mosaic, introduced in Minecraft 1.20. They feature a unique 'woven' or 'checkerboard' texture distinct from traditional bamboo planks, offering a tropical and refined aesthetic. Like other stairs, they allow for smooth elevation changes and are waterloggable in Bedrock Edition. They are flammable and are most efficiently harvested with an axe. Their intricate design makes them ideal for detailed roofing, oriental-themed builds, and sophisticated interior accents."
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+        id: "minecraft:oxidized_cut_copper_slab",
+        name: "Oxidized Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Oxidized Cut Copper Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally (Final stage)"
+        },
+        description: "Oxidized Cut Copper Slab is a building block that represents the final oxidation stage of cut copper in slab form. It features the iconic teal-green patina and a tiled masonry texture, perfect for low-profile roofing, detailed pathways, and decorative accents in weathered or industrial builds. Like other copper blocks, it can be waxed to preserve its color or scraped with an axe to revert it to a previous oxidation stage. In Bedrock Edition, it requires a stone pickaxe or better to mine and is waterloggable."
     }
 };

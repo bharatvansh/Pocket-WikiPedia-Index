@@ -4339,5 +4339,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/blackstone",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:bamboo_mosaic_stairs",
+        name: "Bamboo Mosaic Stairs",
+        category: "block",
+        icon: "textures/blocks/bamboo_mosaic",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:cherry_trapdoor",
+        name: "Cherry Trapdoor",
+        category: "block",
+        icon: "textures/blocks/cherry_trapdoor",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:oxidized_cut_copper_slab",
+        name: "Oxidized Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/oxidized_cut_copper",
+        themeColor: "§2"
     }
 ];
