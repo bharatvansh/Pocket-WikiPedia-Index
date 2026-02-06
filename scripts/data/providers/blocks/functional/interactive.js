@@ -1125,5 +1125,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Spruce Planks"
         },
         description: "A Spruce Door is a sturdy wooden door crafted from spruce planks. It is distinguished by its deep, rustic brown color and a solid, windowless design, offering a more defensive and private aesthetic compared to other wooden doors. Naturally occurring in taiga village houses, it is a favorite for medieval, cabin, or fortress-style builds. It functions as a two-block high barrier that can be opened manually or by redstone. Like other wood products, it is flammable and is best broken using an axe."
+    },
+    "minecraft:dark_oak_door": {
+        id: "minecraft:dark_oak_door",
+        name: "Dark Oak Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "The Dark Oak Door is a sturdy wooden door crafted from dark oak planks. It is characterized by its rich, chocolate-brown color and a heavy, solid appearance with small square windows. This door is a favorite for medieval, gothic, or formal builds, providing both privacy and a sophisticated look. It can be opened manually or toggled by redstone power. In Bedrock Edition, it has a hardness of 3.0 and blast resistance of 3.0. It naturally generates in woodland mansions and can be crafted using six dark oak planks."
     }
 };

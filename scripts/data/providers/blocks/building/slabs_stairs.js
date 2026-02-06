@@ -1391,5 +1391,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted only"
         },
         description: "Mossy Cobblestone Slab is the half-block variant of mossy cobblestone, featuring a distinctive mixture of weathered stone and organic moss growth. It offers a compact building option for detailed flooring, atmospheric pathways, and aged roofing where a full block would be too bulky. These slabs can be combined into double slabs or placed in the top or bottom half of a block space. They share the same high durability and fire resistance as regular cobblestone products and can be crafted manually or produced efficiently with a stonecutter."
+    },
+    "minecraft:polished_blackstone_stairs": {
+        id: "minecraft:polished_blackstone_stairs",
+        name: "Polished Blackstone Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Polished Blackstone"
+        },
+        description: "Polished Blackstone Stairs are a sleek, dark building block crafted from polished blackstone. They provide a sophisticated and somber aesthetic, perfect for fortresses, gothic-style architecture, and Nether-based structures. With a hardness of 1.5 and a blast resistance of 6.0, they offer reliable durability against most environmental hazards. Like other stairs, they allow for smooth elevation changes and can be waterlogged in Bedrock Edition. They are primarily obtained through crafting or by using a stonecutter on polished blackstone blocks."
+    },
+    "minecraft:birch_slab": {
+        id: "minecraft:birch_slab",
+        name: "Birch Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks"
+        },
+        description: "The Birch Slab is a light-colored half-block building material crafted from birch planks. Its pale, almost white texture makes it ideal for modern designs, clean interiors, and highlighting architectural details. Slabs can be placed in either the top or bottom half of a block space or combined into a double slab. In Bedrock Edition, birch slabs are flammable and have a hardness of 2.0 and blast resistance of 3.0. They provide a versatile way to create smooth elevation changes, detailed flooring, and sleek roofing while maintaining a bright and welcoming aesthetic."
     }
 };

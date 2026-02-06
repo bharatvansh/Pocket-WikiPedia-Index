@@ -4276,5 +4276,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/polished_blackstone",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_blackstone_stairs",
+        name: "Polished Blackstone Stairs",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_door",
+        name: "Dark Oak Door",
+        category: "block",
+        icon: "textures/items/dark_oak_door",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:birch_slab",
+        name: "Birch Slab",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
     }
 ];
