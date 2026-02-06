@@ -196,5 +196,26 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Black Terracotta"
         },
         description: "Black Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with dark gray and black tones. It is created by smelting black terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion, offering a sleek and modern look to any structure."
+    },
+    "minecraft:blue_glazed_terracotta": {
+        id: "minecraft:blue_glazed_terracotta",
+        name: "Blue Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blue Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Blue Terracotta"
+        },
+        description: "Blue Glazed Terracotta is a vibrant decorative block with an intricate, swirling pattern of deep blue and lighter shades. It is produced by smelting blue terracotta in a furnace. Its unique directional placement allows builders to create large, recurring geometric designs by rotating the block. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. It provides a sophisticated and artistic touch to floors and walls while being more resistant to fire than wool."
     }
 };

@@ -1147,6 +1147,27 @@ export const interactiveBlocks = {
         },
         description: "The Dark Oak Door is a sturdy wooden door crafted from dark oak planks. It is characterized by its rich, chocolate-brown color and a heavy, solid appearance with small square windows. This door is a favorite for medieval, gothic, or formal builds, providing both privacy and a sophisticated look. It can be opened manually or toggled by redstone power. In Bedrock Edition, it has a hardness of 3.0 and blast resistance of 3.0. It naturally generates in woodland mansions and can be crafted using six dark oak planks."
     },
+    "minecraft:birch_fence_gate": {
+        id: "minecraft:birch_fence_gate",
+        name: "Birch Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Birch Planks and Sticks"
+        },
+        description: "The Birch Fence Gate is a light-colored interactive barrier block that perfectly complements the birch wood set. It features the signature pale bark-like appearance of birch, making it ideal for bright, modern, or airy builds. Like other fence gates, it can be opened manually or via redstone signals, and it always opens away from the player. It stands 1.5 blocks high for entities, preventing them from jumping over it while closed. It is crafted from birch planks and sticks, is flammable, and is best harvested using an axe."
+    },
     "minecraft:cherry_trapdoor": {
         id: "minecraft:cherry_trapdoor",
         name: "Cherry Trapdoor",
