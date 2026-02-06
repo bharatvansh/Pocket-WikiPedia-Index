@@ -220,5 +220,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Blue Concrete Powder is a colorful, gravity-bound block that transitions into deep Blue Concrete upon hydration. Crafted from blue dye, sand, and gravel, it provides a unique grainy texture that can be used for artistic landscaping or colorful pathways. Like other powders, it falls when its support is gone. It is essential for builders who want to create large-scale blue structures, as it is the only way to produce the smooth, non-flammable blue concrete blocks."
+    },
+    "minecraft:orange_concrete": {
+        id: "minecraft:orange_concrete",
+        name: "Orange Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Orange Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Concrete is a solid and vibrant building block that provides a smooth, matte finish without any visible texture. It is created by placing Orange Concrete Powder in contact with water, which causes it to solidify instantly. Unlike terracotta, its color is bold and uniform across the entire block. Orange concrete is a popular choice for modern architecture, large-scale pixel art, and as a non-flammable alternative to orange wool. It is durable and requires a pickaxe for efficient harvesting, making it a staple for colorful and permanent constructions."
     }
 };

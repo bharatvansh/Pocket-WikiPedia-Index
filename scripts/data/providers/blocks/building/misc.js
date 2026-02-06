@@ -154,5 +154,26 @@ export const miscBuildingBlocks = {
             yRange: "Bridge Bastion Remnants"
         },
         description: "Smooth Quartz Block is a refined version of the Block of Quartz, obtained by smelting a Block of Quartz in a furnace. It features a smoother, cleaner texture without the visible borders found on regular quartz blocks, making it highly desirable for modern architectural designs. While visually similar, it remains a distinct block. It naturally generates in some Bastion Remnant structures in the Nether. It has the same hardness and blast resistance as regular stone."
+    },
+    "minecraft:red_glazed_terracotta": {
+        id: "minecraft:red_glazed_terracotta",
+        name: "Red Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Red Terracotta"
+        },
+        description: "Red Glazed Terracotta is a highly decorative block featuring a complex, ornate pattern with a bold red color palette. It is produced by smelting red terracotta in a furnace. One of its most unique properties is that it cannot be pulled by sticky pistons, slime blocks, or honey blocks, making it extremely useful for advanced redstone machinery. When placed in different orientations, its patterns can be combined to create large-scale designs. Its hardness and blast resistance are slightly higher than wool, providing a durable and stylish option for floors and walls."
     }
 };

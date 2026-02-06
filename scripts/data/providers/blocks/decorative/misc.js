@@ -810,5 +810,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Dark Oak Planks and Sticks"
         },
         description: "Dark Oak Fences are thin barrier blocks crafted from dark oak planks and sticks. Known for their rich, deep brown color, they provide a 1.5-block high collision box that effectively contains livestock or protects property while remaining visually one block tall. They connect automatically to adjacent fences, gates, and solid blocks, creating a seamless and secure perimeter. Their sophisticated dark tone makes them a popular choice for gothic, rustic, or moody architectural designs. Being wood-based, they are flammable and are most efficiently harvested using an axe."
+    },
+    "minecraft:blue_wool": {
+        id: "minecraft:blue_wool",
+        name: "Blue Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pillager Outposts, Ancient Cities, Villages"
+        },
+        description: "Blue Wool is a versatile decorative block with a soft, fuzzy texture and a deep blue hue. It can be obtained by shearing blue-dyed sheep or by crafting four pieces of string. In Bedrock Edition, wool has unique sound-dampening properties, allowing it to block vibrations from reaching sculk sensors and preventing sculk shriekers from being triggered when walked upon. While it is highly flammable and has low blast resistance, its vibrant color and acoustic utility make it a favorite for interior design, banners, and stealthy navigation in the Deep Dark."
     }
 };
