@@ -242,6 +242,27 @@ export const concreteBlocks = {
         },
         description: "Orange Concrete is a solid, brightly colored building block with a smooth, matte finish. It is produced by exposing Orange Concrete Powder to water, which instantly hardens it. Builders favor orange concrete for its clean look and bold hue, making it ideal for modern architecture, industrial designs, and pixel art. Unlike wool, concrete is non-flammable and has better blast resistance, making it a more durable choice for permanent structures. Its uniform color ensures that large surfaces look consistent and striking."
     },
+    "minecraft:brown_concrete": {
+        id: "minecraft:brown_concrete",
+        name: "Brown Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brown Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Concrete is a solid, earth-toned building block with a smooth, matte finish. It is produced by exposing Brown Concrete Powder to water, which hardens it instantly. Builders often use brown concrete for its clean look and natural hue, making it ideal for creating paths, tree trunks, or industrial structures. Unlike wool, it is non-flammable and provides a consistent color that fits perfectly in rustic or earthy environments."
+    },
     "minecraft:cyan_concrete_powder": {
         id: "minecraft:cyan_concrete_powder",
         name: "Cyan Concrete Powder",

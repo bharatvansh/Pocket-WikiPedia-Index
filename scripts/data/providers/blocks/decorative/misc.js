@@ -831,5 +831,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Blue Sheep"
         },
         description: "Blue Wool is a vibrant decorative block obtained by shearing blue sheep or crafting white wool with blue dye. It has a soft texture and is primarily used for construction and art. Like all wool blocks, it is highly flammable and provides low blast resistance. In Bedrock Edition, wool blocks have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being activated by nearby footsteps. It can also be used as a fuel in furnaces, smelting a small number of items."
+    },
+    "minecraft:blue_carpet": {
+        id: "minecraft:blue_carpet",
+        name: "Blue Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Blue Carpet is a thin, decorative block crafted from two pieces of blue wool. It can be placed on any surface, including non-solid blocks, making it ideal for adding color to floors without changing the height of the room. In Bedrock Edition, carpet also dampens vibrations, preventing Sculk Sensors from detecting movement and allowing players to walk stealthily near Sculk Shriekers. It is flammable and easily broken by hand or any tool."
     }
 };
