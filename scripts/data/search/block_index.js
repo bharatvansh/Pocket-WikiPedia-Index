@@ -4213,5 +4213,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/mangrove_planks",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:andesite_slab",
+        name: "Andesite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_andesite",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:smooth_red_sandstone_stairs",
+        name: "Smooth Red Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_smooth",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:smooth_quartz_stairs",
+        name: "Smooth Quartz Stairs",
+        category: "block",
+        icon: "textures/blocks/quartz_block_smooth",
+        themeColor: "§f"
     }
 ];

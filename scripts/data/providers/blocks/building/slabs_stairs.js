@@ -1286,5 +1286,68 @@ export const slabsStairsBlocks = {
             yRange: "Weathered naturally (Final stage)"
         },
         description: "Oxidized Cut Copper Stairs are a decorative building block that represents the final stage of the copper weathering process. They feature the iconic teal-green patina that occurs when copper is exposed to the elements over time. These stairs are perfect for creating aged roofs, detailed trim, or weathered monuments. They can be waxed to preserve their green color or scraped with an axe to revert them to a previous weathering stage, offering great versatility for industrial or historic builds."
+    },
+    "minecraft:andesite_slab": {
+        id: "minecraft:andesite_slab",
+        name: "Andesite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Andesite Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Andesite Slabs are the half-block variant of andesite, offering a low-profile building option while retaining the block's characteristic speckled gray texture. Like other slabs, they are versatile for creating detailed flooring, ceilings, and smooth elevation changes without the bulk of a full block. They can be crafted from three andesite blocks in a horizontal row or obtained more efficiently through a stonecutter. Because they are stone-based, they are non-flammable and provide reliable protection against environmental hazards, making them a staple in both interior and exterior designs."
+    },
+    "minecraft:smooth_red_sandstone_stairs": {
+        id: "minecraft:smooth_red_sandstone_stairs",
+        name: "Smooth Red Sandstone Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Red Sandstone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Smooth Red Sandstone Stairs are a refined building block providing smooth vertical transitions with a sleek, vibrant orange-red texture. Unlike standard red sandstone stairs, they feature a uniform appearance without the natural layering, making them ideal for modern Mesa-inspired or desert architecture. These stairs are crafted from smooth red sandstone blocks or produced efficiently using a stonecutter. They are fire-resistant and offer moderate blast protection. Their clean aesthetic is perfect for creating grand staircases, elegant roofs, and detailed architectural trim in high-end builds."
+    },
+    "minecraft:smooth_quartz_stairs": {
+        id: "minecraft:smooth_quartz_stairs",
+        name: "Smooth Quartz Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Quartz Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Smooth Quartz Stairs are the refined stair-shaped variant of smooth quartz, highly valued for their sleek and borderless appearance. Smelting quartz blocks into smooth quartz significantly increases their durability, making these stairs tougher than their regular quartz counterparts. They are essential for modern architectural designs, providing clean lines for staircases, sloped roofs, and minimalist furniture. Crafted from smooth quartz blocks or via a stonecutter, they offer a bright, professional aesthetic. Like other stone stairs, they are fireproof, blast-resistant, and waterloggable."
     }
 };
