@@ -1146,5 +1146,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Dark Oak Planks"
         },
         description: "The Dark Oak Door is a sturdy wooden door crafted from dark oak planks. It is characterized by its rich, chocolate-brown color and a heavy, solid appearance with small square windows. This door is a favorite for medieval, gothic, or formal builds, providing both privacy and a sophisticated look. It can be opened manually or toggled by redstone power. In Bedrock Edition, it has a hardness of 3.0 and blast resistance of 3.0. It naturally generates in woodland mansions and can be crafted using six dark oak planks."
+    },
+    "minecraft:cherry_trapdoor": {
+        id: "minecraft:cherry_trapdoor",
+        name: "Cherry Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cherry Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cherry Planks"
+        },
+        description: "The Cherry Trapdoor is a functional block crafted from Cherry Planks, introduced in Minecraft 1.20. It features a delightful light pink color and a unique design with a small decorative window, matching the aesthetic of the Cherry Grove biome. Like other wooden trapdoors, it serves as a horizontal door that can be toggled manually or with redstone. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Its aesthetic appeal makes it popular for creating decorative shutters, floor hatches, or delicate architectural accents."
     }
 };
