@@ -1167,5 +1167,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "The Cherry Trapdoor is a functional block crafted from Cherry Planks, introduced in Minecraft 1.20. It features a delightful light pink color and a unique design with a small decorative window, matching the aesthetic of the Cherry Grove biome. Like other wooden trapdoors, it serves as a horizontal door that can be toggled manually or with redstone. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Its aesthetic appeal makes it popular for creating decorative shutters, floor hatches, or delicate architectural accents."
+    },
+    "minecraft:birch_fence_gate": {
+        id: "minecraft:birch_fence_gate",
+        name: "Birch Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Birch Fence Gate is a light-colored interactive barrier block that perfectly complements the birch wood set. It features the signature pale bark-like appearance of birch, making it ideal for bright, modern, or airy builds. Like other fence gates, it can be opened manually or via redstone signals, and it always opens away from the player. It stands 1.5 blocks high for entities, preventing them from jumping over it while closed. It is crafted from birch planks and sticks, is flammable, and is best harvested using an axe."
     }
 };

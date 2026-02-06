@@ -4402,5 +4402,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:birch_fence_gate",
+        name: "Birch Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:blue_glazed_terracotta",
+        name: "Blue Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_blue",
+        themeColor: "§1"
+    },
+    {
+        id: "minecraft:brown_concrete",
+        name: "Brown Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_brown",
+        themeColor: "§6"
     }
 ];
