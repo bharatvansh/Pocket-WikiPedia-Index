@@ -4234,5 +4234,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/quartz_block_smooth",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:mossy_cobblestone_stairs",
+        name: "Mossy Cobblestone Stairs",
+        category: "block",
+        icon: "textures/blocks/cobblestone_mossy",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:mossy_cobblestone_slab",
+        name: "Mossy Cobblestone Slab",
+        category: "block",
+        icon: "textures/blocks/cobblestone_mossy",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:spruce_door",
+        name: "Spruce Door",
+        category: "block",
+        icon: "textures/items/spruce_door",
+        themeColor: "§8"
     }
 ];
