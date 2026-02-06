@@ -154,5 +154,26 @@ export const miscBuildingBlocks = {
             yRange: "Bridge Bastion Remnants"
         },
         description: "Smooth Quartz Block is a refined version of the Block of Quartz, obtained by smelting a Block of Quartz in a furnace. It features a smoother, cleaner texture without the visible borders found on regular quartz blocks, making it highly desirable for modern architectural designs. While visually similar, it remains a distinct block. It naturally generates in some Bastion Remnant structures in the Nether. It has the same hardness and blast resistance as regular stone."
+    },
+    "minecraft:blue_terracotta": {
+        id: "minecraft:blue_terracotta",
+        name: "Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blue Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Blue Terracotta is a smooth, durable building block with a deep blue matte finish. It is obtained by dyeing terracotta with blue dye. Unlike many other terracotta colors, it does not generate naturally in the Badlands biome, making it primarily a crafted decorative material. Its earthy blue tone and matte texture provide a sophisticated look for architectural projects, and its high blast resistance makes it more durable than wool. It can also be smelted into blue glazed terracotta for more intricate designs."
     }
 };
