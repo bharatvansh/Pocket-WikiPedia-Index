@@ -241,5 +241,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Orange Concrete is a solid, brightly colored building block with a smooth, matte finish. It is produced by exposing Orange Concrete Powder to water, which instantly hardens it. Builders favor orange concrete for its clean look and bold hue, making it ideal for modern architecture, industrial designs, and pixel art. Unlike wool, concrete is non-flammable and has better blast resistance, making it a more durable choice for permanent structures. Its uniform color ensures that large surfaces look consistent and striking."
+    },
+    "minecraft:cyan_concrete_powder": {
+        id: "minecraft:cyan_concrete_powder",
+        name: "Cyan Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cyan Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cyan Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a vibrant teal hue. It is crafted using four sand, four gravel, and one cyan dye. When this block comes into contact with water, it instantly solidifies into smooth Cyan Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps or temporary structures. It is a favorite for adding texture to beaches or creating colorful pathways in artistic landscapes."
     }
 };

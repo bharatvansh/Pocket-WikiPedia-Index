@@ -175,5 +175,26 @@ export const miscBuildingBlocks = {
             yRange: "Crafted only"
         },
         description: "Blue Terracotta is a smooth, durable building block with a deep blue matte finish. It is obtained by dyeing terracotta with blue dye. Unlike many other terracotta colors, it does not generate naturally in the Badlands biome, making it primarily a crafted decorative material. Its earthy blue tone and matte texture provide a sophisticated look for architectural projects, and its high blast resistance makes it more durable than wool. It can also be smelted into blue glazed terracotta for more intricate designs."
+    },
+    "minecraft:black_glazed_terracotta": {
+        id: "minecraft:black_glazed_terracotta",
+        name: "Black Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Black Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Black Terracotta"
+        },
+        description: "Black Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with dark gray and black tones. It is created by smelting black terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion, offering a sleek and modern look to any structure."
     }
 };
