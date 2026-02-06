@@ -853,5 +853,68 @@ export const redstoneBlocks = {
             yRange: "Crafted from Acacia Planks"
         },
         description: "The Acacia Pressure Plate is a redstone-activated switch crafted from two acacia planks. It detects when any player, mob, or dropped item lands on it, emitting a redstone signal of strength 15. Its vibrant orange color matches the acacia wood set, making it ideal for automatic doors and hidden mechanisms in savanna-themed builds. Like other wooden pressure plates in Bedrock Edition, it remains active as long as an entity is on top of it and for a short duration after they leave. It is flammable and best harvested using an axe."
+    },
+    "minecraft:spruce_pressure_plate": {
+        id: "minecraft:spruce_pressure_plate",
+        name: "Spruce Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "The Spruce Pressure Plate is a redstone-activated switch crafted from two spruce planks. It detects when a player, mob, or item lands on it, emitting a signal of strength 15. Its dark brown texture matches the spruce wood set, making it perfect for rustic or woodland-themed builds. Like other wooden pressure plates in Bedrock Edition, it remains active as long as an entity is on top. It is flammable and best harvested with an axe."
+    },
+    "minecraft:dark_oak_pressure_plate": {
+        id: "minecraft:dark_oak_pressure_plate",
+        name: "Dark Oak Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "The Dark Oak Pressure Plate is a redstone component crafted from two dark oak planks. It emits a redstone signal of strength 15 when activated by players, mobs, or dropped items. Its deep, dark brown color blends seamlessly with dark oak structures, providing a discreet way to trigger doors or mechanisms. It functions similarly to other wooden pressure plates, maintaining its signal while an entity is present. It is flammable and most efficiently collected using an axe."
+    },
+    "minecraft:mangrove_pressure_plate": {
+        id: "minecraft:mangrove_pressure_plate",
+        name: "Mangrove Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Pressure Plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Mangrove Planks"
+        },
+        description: "The Mangrove Pressure Plate is a redstone switch crafted from two mangrove planks. It features a rich, deep red color unique to the mangrove wood set, ideal for tropical or swamp-themed contraptions. It detects players, mobs, and items, outputting a signal of strength 15. This plate is a decorative yet functional addition to any Bedrock Edition world. Like all wooden pressure plates, it is flammable and should be harvested with an axe for maximum efficiency."
     }
 };
