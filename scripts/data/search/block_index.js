@@ -4318,5 +4318,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/deepslate_bricks",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:nether_brick_wall",
+        name: "Nether Brick Wall",
+        category: "block",
+        icon: "textures/blocks/nether_brick",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:prismarine_slab",
+        name: "Prismarine Slab",
+        category: "block",
+        icon: "textures/blocks/prismarine",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:blackstone_stairs",
+        name: "Blackstone Stairs",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8"
     }
 ];

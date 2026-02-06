@@ -1496,5 +1496,68 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Deepslate Brick Walls are sturdy decorative barriers crafted from deepslate bricks, introduced in the 1.17 Caves & Cliffs update. They feature a sophisticated dark masonry pattern that provides a more polished look than cobbled deepslate walls. These walls generate naturally in Ancient Cities and are essential for securing perimeters or adding architectural detail to subterranean builds. They connect to adjacent blocks and walls, forming a 1.5-block high collision box. As a deepslate variant, they are tougher than standard stone walls and must be mined with a pickaxe."
+    },
+    "minecraft:nether_brick_wall": {
+        id: "minecraft:nether_brick_wall",
+        name: "Nether Brick Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Brick Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Nether Fortresses"
+        },
+        description: "Nether Brick Walls are sturdy, fire-resistant barriers that generate naturally within the dark, sprawling corridors of Nether Fortresses. They provide a 1.5-block high collision box, making them ideal for securing perimeters and containing hostile mobs in the Nether. Unlike wooden fences, they are immune to ghast fireballs and lava, making them essential for safe construction in the Nether dimension. They can be crafted from six nether brick blocks or produced via a stonecutter. Their dark, gothic aesthetic is a favorite for builders creating fortresses and atmospheric structures."
+    },
+    "minecraft:prismarine_slab": {
+        id: "minecraft:prismarine_slab",
+        name: "Prismarine Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Slabs are decorative half-blocks featuring the animated blue-green texture of prismarine. They generate naturally within Ocean Monuments, forming parts of the grand underwater architecture. These slabs are versatile for creating detailed aquatic-themed floors, ceilings, and smooth elevation changes. Because they are stone-based, they are fireproof and offer reliable blast resistance. They can be crafted from three prismarine blocks or produced via a stonecutter. Like other slabs, they can be waterlogged, allowing them to blend perfectly into submerged temples and high-end underwater bases."
+    },
+    "minecraft:blackstone_stairs": {
+        id: "minecraft:blackstone_stairs",
+        name: "Blackstone Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, Ruined Portals"
+        },
+        description: "Blackstone Stairs are rugged, dark-toned stairs that provide a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants and Ruined Portals, they are a primary building component for Piglin architecture. They share the same high blast resistance and durability as regular stone, but with a unique dark gray-to-black color palette. Blackstone stairs are essential for creating detailed rooflines, grand staircases, and atmospheric trim in Nether-themed builds. They can be crafted from six blackstone blocks or made more efficiently using a stonecutter. They are also waterloggable."
     }
 };
