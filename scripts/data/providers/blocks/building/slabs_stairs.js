@@ -1433,5 +1433,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Birch Planks"
         },
         description: "The Birch Slab is a light-colored half-block building material crafted from birch planks. Its pale, almost white texture makes it ideal for modern designs, clean interiors, and highlighting architectural details. Slabs can be placed in either the top or bottom half of a block space or combined into a double slab. In Bedrock Edition, birch slabs are flammable and have a hardness of 2.0 and blast resistance of 3.0. They provide a versatile way to create smooth elevation changes, detailed flooring, and sleek roofing while maintaining a bright and welcoming aesthetic."
+    },
+    "minecraft:diorite_slab": {
+        id: "minecraft:diorite_slab",
+        name: "Diorite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Diorite Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Diorite Slabs are the half-block variant of diorite, featuring the characteristic speckled white and gray appearance of the stone. They provide a bright and clean aesthetic for flooring, ceilings, and architectural detailing where a full block would be too large. These slabs can be crafted from three diorite blocks in a horizontal row or produced more efficiently using a stonecutter. As a stone-based material, they are non-flammable and provide moderate protection against environmental hazards. They can be placed in either the top or bottom half of a block space or combined into a double slab."
+    },
+    "minecraft:granite_slab": {
+        id: "minecraft:granite_slab",
+        name: "Granite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Granite Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Granite Slabs are half-block building components crafted from granite, featuring a warm, pinkish-brown stone texture. They allow for smooth elevation changes, detailed flooring, and sleek roofing while maintaining the characteristic speckled appearance of granite. These slabs can be crafted from three granite blocks or obtained more efficiently through a stonecutter. As a stone-based material, they are non-flammable and provide moderate protection against environmental hazards. They can be combined into double slabs or placed in various halves of a block space for versatile building."
+    },
+    "minecraft:deepslate_brick_wall": {
+        id: "minecraft:deepslate_brick_wall",
+        name: "Deepslate Brick Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Deepslate Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Deepslate Brick Walls are sturdy decorative barriers crafted from deepslate bricks, introduced in the 1.17 Caves & Cliffs update. They feature a sophisticated dark masonry pattern that provides a more polished look than cobbled deepslate walls. These walls generate naturally in Ancient Cities and are essential for securing perimeters or adding architectural detail to subterranean builds. They connect to adjacent blocks and walls, forming a 1.5-block high collision box. As a deepslate variant, they are tougher than standard stone walls and must be mined with a pickaxe."
     }
 };

@@ -4297,5 +4297,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/planks_birch",
         themeColor: "§f"
+    },
+    {
+        id: "minecraft:diorite_slab",
+        name: "Diorite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_diorite",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:granite_slab",
+        name: "Granite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_granite",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:deepslate_brick_wall",
+        name: "Deepslate Brick Wall",
+        category: "block",
+        icon: "textures/blocks/deepslate/deepslate_bricks",
+        themeColor: "§8"
     }
 ];
