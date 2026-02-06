@@ -1349,5 +1349,47 @@ export const slabsStairsBlocks = {
             yRange: "Crafted only"
         },
         description: "Smooth Quartz Stairs are the refined stair-shaped variant of smooth quartz, highly valued for their sleek and borderless appearance. Smelting quartz blocks into smooth quartz significantly increases their durability, making these stairs tougher than their regular quartz counterparts. They are essential for modern architectural designs, providing clean lines for staircases, sloped roofs, and minimalist furniture. Crafted from smooth quartz blocks or via a stonecutter, they offer a bright, professional aesthetic. Like other stone stairs, they are fireproof, blast-resistant, and waterloggable."
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+        id: "minecraft:mossy_cobblestone_stairs",
+        name: "Mossy Cobblestone Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Mossy Cobblestone Stairs are a decorative building block that combines the rugged, time-worn texture of cobblestone with lush green moss. Perfect for ancient ruins, overgrown castles, or rustic garden paths, they provide a sense of history and age to any structure. Like standard cobblestone stairs, they are durable and fire-resistant, requiring a pickaxe to mine efficiently. They can be crafted from mossy cobblestone blocks or created using a stonecutter. In Bedrock Edition, they can be waterlogged and placed in various orientations to create complex architectural details."
+    },
+    "minecraft:mossy_cobblestone_slab": {
+        id: "minecraft:mossy_cobblestone_slab",
+        name: "Mossy Cobblestone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Cobblestone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Mossy Cobblestone Slab is the half-block variant of mossy cobblestone, featuring a distinctive mixture of weathered stone and organic moss growth. It offers a compact building option for detailed flooring, atmospheric pathways, and aged roofing where a full block would be too bulky. These slabs can be combined into double slabs or placed in the top or bottom half of a block space. They share the same high durability and fire resistance as regular cobblestone products and can be crafted manually or produced efficiently with a stonecutter."
     }
 };

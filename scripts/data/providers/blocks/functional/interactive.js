@@ -1104,5 +1104,26 @@ export const interactiveBlocks = {
             yRange: "Crafted from Candle and Brown Dye"
         },
         description: "The Brown Candle is a decorative light source block featuring a rich, earthy brown color. Like other candles, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3. It must be lit with flint and steel or a fire charge to provide illumination. Brown candles can also be placed on top of a cake to create a brown candle cake, making them a versatile choice for rustic or nature-themed interior decorations."
+    },
+    "minecraft:spruce_door": {
+        id: "minecraft:spruce_door",
+        name: "Spruce Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "A Spruce Door is a sturdy wooden door crafted from spruce planks. It is distinguished by its deep, rustic brown color and a solid, windowless design, offering a more defensive and private aesthetic compared to other wooden doors. Naturally occurring in taiga village houses, it is a favorite for medieval, cabin, or fortress-style builds. It functions as a two-block high barrier that can be opened manually or by redstone. Like other wood products, it is flammable and is best broken using an axe."
     }
 };
