@@ -4192,5 +4192,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/oxidized_cut_copper",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:spruce_pressure_plate",
+        name: "Spruce Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_pressure_plate",
+        name: "Dark Oak Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:mangrove_pressure_plate",
+        name: "Mangrove Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/mangrove_planks",
+        themeColor: "§4"
     }
 ];
