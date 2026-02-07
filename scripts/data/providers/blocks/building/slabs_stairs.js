@@ -1602,6 +1602,27 @@ export const slabsStairsBlocks = {
         },
         description: "Nether Brick Walls are sturdy, fire-resistant barriers that generate naturally within the dark, sprawling corridors of Nether Fortresses. They provide a 1.5-block high collision box, making them ideal for securing perimeters and containing hostile mobs in the Nether. Unlike wooden fences, they are immune to ghast fireballs and lava, making them essential for safe construction in the Nether dimension. They can be crafted from six nether brick blocks or produced via a stonecutter. Their dark, gothic aesthetic is a favorite for builders creating fortresses and atmospheric structures."
     },
+    "minecraft:red_nether_brick_wall": {
+        id: "minecraft:red_nether_brick_wall",
+        name: "Red Nether Brick Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Brick Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Red Nether Bricks"
+        },
+        description: "Red Nether Brick Wall is a sturdy, fire-resistant decorative barrier crafted from red nether bricks. It provides a 1.5-block high collision box that prevents most mobs from jumping over, while occupying only a single block space visually. Its vibrant crimson-red color offers a striking alternative to standard nether brick walls, perfect for Nether fortresses and high-contrast architecture. Like other walls, it connects to adjacent blocks and is completely immune to ghast fireballs."
+    },
     "minecraft:prismarine_slab": {
         id: "minecraft:prismarine_slab",
         name: "Prismarine Slab",
