@@ -4528,5 +4528,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dark_oak_trapdoor",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:acacia_slab",
+        name: "Acacia Slab",
+        category: "block",
+        icon: "textures/blocks/planks_acacia",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:blue_glazed_terracotta",
+        name: "Blue Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_blue",
+        themeColor: "§1"
+    },
+    {
+        id: "minecraft:yellow_wool",
+        name: "Yellow Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_yellow",
+        themeColor: "§e"
     }
 ];

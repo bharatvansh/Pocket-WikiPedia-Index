@@ -1685,5 +1685,26 @@ export const slabsStairsBlocks = {
             yRange: "Weathered naturally or crafted"
         },
         description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
+    },
+    "minecraft:acacia_slab": {
+        id: "minecraft:acacia_slab",
+        name: "Acacia Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Acacia Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna Villages, Shipwrecks"
+        },
+        description: "Acacia Slab is a building block crafted from Acacia Planks, featuring a vibrant orange hue characteristic of the savanna wood set. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a warm and unique aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It generates naturally in savanna villages and shipwrecks, and can be crafted by placing three acacia planks horizontally in a crafting grid."
     }
 };

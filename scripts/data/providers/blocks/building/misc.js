@@ -259,5 +259,26 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Red Terracotta"
         },
         description: "Red Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with bold red and orange tones. It is created by smelting red terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion, offering a striking and ornate look to any structure."
+    },
+    "minecraft:blue_glazed_terracotta": {
+        id: "minecraft:blue_glazed_terracotta",
+        name: "Blue Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blue Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Blue Terracotta"
+        },
+        description: "Blue Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with deep blue and light blue tones. It is created by smelting blue terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create large, recurring geometric designs when multiple blocks are placed in a circular fashion, offering a sophisticated and ornate look to floors and walls in any architectural project."
     }
 };
