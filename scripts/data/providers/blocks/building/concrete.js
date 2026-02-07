@@ -430,5 +430,47 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Gray Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a neutral gray hue. It is crafted using four sand, four gravel, and one gray dye. When this block comes into contact with water, it instantly solidifies into smooth Gray Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It provides a more textured appearance compared to the hardened concrete variant."
+    },
+    "minecraft:light_blue_concrete": {
+        id: "minecraft:light_blue_concrete",
+        name: "Light Blue Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Blue Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Concrete is a solid, vibrant building block characterized by its smooth, matte finish and pale blue color. It is produced by exposing Light Blue Concrete Powder to water, causing it to solidify instantly. Builders favor this block for modern architecture, aquatic-themed projects, and pixel art due to its uniform color and lack of texture. In Bedrock Edition, it is non-flammable and more blast-resistant than wool, making it a durable choice for colorful, permanent structures. Its clean appearance ensures a professional look in any creative build."
+    },
+    "minecraft:lime_concrete_powder": {
+        id: "minecraft:lime_concrete_powder",
+        name: "Lime Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Lime Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bright lime-green hue. It is crafted from sand, gravel, and lime dye. When this block comes into contact with water, it instantly hardens into smooth Lime Concrete. Because it is affected by gravity, it will fall if the supporting block beneath it is removed, making it useful for certain traps, landscaping, or temporary structures. It serves as the essential precursor for producing vibrant, durable lime-colored construction materials in Bedrock Edition."
     }
 };
