@@ -915,5 +915,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Green Sheep"
         },
         description: "Green Wool is a decorative building block with a soft texture and a deep forest-green color. It is obtained by shearing green sheep or by combining white wool with green dye. In Bedrock Edition, green wool has the unique property of blocking vibrations, making it essential for navigating sculk-infested areas like Ancient Cities without alerting Sculk Sensors. While highly flammable and weak to explosions, its rich color and acoustic dampening qualities make it a popular choice for lush organic builds, nature-themed decorations, and complex redstone sound-proofing."
+    },
+    "minecraft:black_carpet": {
+        id: "minecraft:black_carpet",
+        name: "Black Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from 2 Black Wool"
+        },
+        description: "Black Carpet is a thin decorative block used for flooring and aesthetics, crafted from two blocks of black wool. In Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being triggered. It can be placed on most blocks, including transparent ones like glass, without adding significant height. Its deep black color is perfect for modern interiors, shadows, and detailed patterns. It is highly flammable and breaks instantly, making it easy to relocate but susceptible to fire."
     }
 };

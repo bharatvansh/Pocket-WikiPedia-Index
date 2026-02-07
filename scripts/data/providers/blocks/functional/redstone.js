@@ -1000,5 +1000,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Pressure Plate is a stone-type redstone switch crafted from two polished blackstone blocks. Unlike wooden variants, it only detects players and mobs, ignoring dropped items, which makes it perfect for secure inputs and mob-specific traps. Its dark, sleek appearance allows it to blend seamlessly into blackstone-themed structures or provide a high-contrast accent to lighter blocks. It is fire-resistant and provides a signal strength of 15 when activated. It combines the functionality of a stone pressure plate with the unique aesthetic of the Nether."
+    },
+    "minecraft:crimson_button": {
+        id: "minecraft:crimson_button",
+        name: "Crimson Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Button"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "The Crimson Button is a fire-resistant redstone component crafted from crimson planks found in the Nether's Crimson Forest. In Bedrock Edition, it provides a 15-tick (1.5 seconds) redstone pulse when activated by hand or projectiles like arrows. Its unique burgundy color matches the crimson wood set, making it ideal for fire-proof circuits and Nether-themed builds. It can be placed on any side of a solid block and is most efficiently harvested with an axe. Unlike Overworld wooden buttons, it is completely immune to fire and lava damage."
     }
 };

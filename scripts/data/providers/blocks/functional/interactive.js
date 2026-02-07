@@ -1293,5 +1293,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Dark Oak Trapdoor is a functional block crafted from dark oak planks, featuring a rich, chocolate-brown color and a solid, heavy design with a small square window. It functions as a horizontal door that can be toggled manually or with redstone power. Its sturdy and sophisticated look makes it a favorite for medieval or formal builds, often used as decorative window shutters or floor hatches. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Like all wooden trapdoors, it is flammable."
+    },
+    "minecraft:crimson_trapdoor": {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Trapdoor"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks"
+        },
+        description: "The Crimson Trapdoor is a fire-resistant horizontal door crafted from crimson planks, native to the Nether's Crimson Forest. In Bedrock Edition, it can be toggled manually or with redstone signals, providing a secure and decorative opening that is completely immune to fire and lava. Its deep burgundy color and unique texture make it a popular choice for Nether-based builds and atmospheric flooring. It has a hardness of 3.0 and is most efficiently harvested with an axe. Unlike Overworld wooden trapdoors, it provides excellent durability in hazardous environments."
     }
 };

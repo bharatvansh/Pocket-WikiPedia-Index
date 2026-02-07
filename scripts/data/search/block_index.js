@@ -4089,6 +4089,13 @@ export const blockIndex = [
         themeColor: "§d"
     },
     {
+        id: "minecraft:crimson_button",
+        name: "Crimson Button",
+        category: "block",
+        icon: "textures/blocks/crimson_button",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:polished_blackstone_wall",
         name: "Polished Blackstone Wall",
         category: "block",
@@ -4439,6 +4446,13 @@ export const blockIndex = [
         themeColor: "§d"
     },
     {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        category: "block",
+        icon: "textures/blocks/crimson_trapdoor",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:oxidized_cut_copper_slab",
         name: "Oxidized Cut Copper Slab",
         category: "block",
@@ -4528,6 +4542,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glazed_terracotta_red",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:black_carpet",
+        name: "Black Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_black",
+        themeColor: "§0"
     },
     {
         id: "minecraft:blue_carpet",
