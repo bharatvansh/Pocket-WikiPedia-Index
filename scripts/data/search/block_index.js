@@ -4444,5 +4444,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_brown",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:black_shulker_box",
+        name: "Black Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:orange_concrete_powder",
+        name: "Orange Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:exposed_cut_copper_stairs",
+        name: "Exposed Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/exposed_cut_copper",
+        themeColor: "§6"
     }
 ];

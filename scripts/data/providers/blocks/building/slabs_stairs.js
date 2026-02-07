@@ -1601,5 +1601,26 @@ export const slabsStairsBlocks = {
             yRange: "Weathered naturally (Final stage)"
         },
         description: "Oxidized Cut Copper Slab is a building block that represents the final oxidation stage of cut copper in slab form. It features the iconic teal-green patina and a tiled masonry texture, perfect for low-profile roofing, detailed pathways, and decorative accents in weathered or industrial builds. Like other copper blocks, it can be waxed to preserve its color or scraped with an axe to revert it to a previous oxidation stage. In Bedrock Edition, it requires a stone pickaxe or better to mine and is waterloggable."
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+        id: "minecraft:exposed_cut_copper_stairs",
+        name: "Exposed Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
     }
 };

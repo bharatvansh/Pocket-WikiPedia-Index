@@ -304,5 +304,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Brown Concrete is a solid, earth-toned building block known for its smooth, matte texture and uniform color. It is formed when Brown Concrete Powder comes into contact with water, which instantly hardens it. Builders favor brown concrete for its natural, earthy hue, making it ideal for rustic architecture, roads, or mountain-themed structures where a clean, non-textured look is desired. Unlike wood or wool, it is non-flammable and offers better blast resistance, providing a durable and fire-safe alternative for permanent constructions in a variety of environments."
+    },
+    "minecraft:orange_concrete_powder": {
+        id: "minecraft:orange_concrete_powder",
+        name: "Orange Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bold orange hue. It is crafted using four sand, four gravel, and one orange dye. When this block comes into contact with water, it instantly solidifies into smooth Orange Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It is a favorite for adding vibrant texture to builds before it is hardened into a more permanent and durable matte finish."
     }
 };
