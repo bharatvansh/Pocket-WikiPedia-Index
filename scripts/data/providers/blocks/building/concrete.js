@@ -346,5 +346,47 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Orange Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bold orange hue. It is crafted using four sand, four gravel, and one orange dye. When this block comes into contact with water, it instantly solidifies into smooth Orange Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It is a favorite for adding vibrant texture to builds before it is hardened into a more permanent and durable matte finish."
+    },
+    "minecraft:magenta_concrete": {
+        id: "minecraft:magenta_concrete",
+        name: "Magenta Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Magenta Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Concrete is a vibrant building block with a smooth, matte texture and a rich purple-pink hue. It is created by exposing Magenta Concrete Powder to water, which hardens it instantly into a durable form. Highly valued by builders for its uniform, grainless color, it is perfect for modern architecture, large-scale pixel art, and eye-catching decorative accents. Unlike wool, magenta concrete is non-flammable and offers better blast resistance, providing a safe and sophisticated aesthetic for permanent structures."
+    },
+    "minecraft:brown_terracotta": {
+        id: "minecraft:brown_terracotta",
+        name: "Brown Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brown Terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands, Savanna Villages"
+        },
+        description: "Brown Terracotta is a smooth building block with a muted, earthy brown tone. It can be found naturally in the Badlands biome or crafted by smelting clay and applying brown dye. Its matte, non-reflective surface makes it ideal for rustic or desert-themed architecture, providing a more natural and weathered look than concrete. In Bedrock Edition, it requires a pickaxe to harvest efficiently and possesses significantly higher blast resistance than most decorative blocks, making it a durable choice for colorful builds."
     }
 };
