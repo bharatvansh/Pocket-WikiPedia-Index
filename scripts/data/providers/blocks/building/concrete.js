@@ -388,5 +388,26 @@ export const concreteBlocks = {
             yRange: "Badlands, Savanna Villages"
         },
         description: "Brown Terracotta is a smooth building block with a muted, earthy brown tone. It can be found naturally in the Badlands biome or crafted by smelting clay and applying brown dye. Its matte, non-reflective surface makes it ideal for rustic or desert-themed architecture, providing a more natural and weathered look than concrete. In Bedrock Edition, it requires a pickaxe to harvest efficiently and possesses significantly higher blast resistance than most decorative blocks, making it a durable choice for colorful builds."
+    },
+    "minecraft:magenta_concrete_powder": {
+        id: "minecraft:magenta_concrete_powder",
+        name: "Magenta Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Magenta Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Concrete Powder is a vibrant, gravity-affected block used primarily for decoration and as a precursor to concrete. It is crafted from sand, gravel, and magenta dye. When it comes into contact with water, it instantly solidifies into magenta concrete. In Bedrock Edition, its bright color makes it a popular choice for colorful builds. Like sand and gravel, it falls if there is no block beneath it, which can be used to create simple traps or temporary structures. It is best harvested with a shovel for efficiency."
     }
 };
