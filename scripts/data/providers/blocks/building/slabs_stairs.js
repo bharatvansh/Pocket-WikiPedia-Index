@@ -492,6 +492,27 @@ export const slabsStairsBlocks = {
         },
         description: "Spruce Stairs are crafted from Spruce Planks and feature a dark, rustic brown tone. Popular in medieval and cabin-style builds, they offer a cozy aesthetic compared to the lighter oak variant. Like all stairs, they are waterloggable and can be placed in multiple directions to create complex shapes like corners and eaves. They naturally generate in Taiga villages and shipwreck structures. Being a wood product, they are flammable and are best harvested using an axe."
     },
+    "minecraft:stone_stairs": {
+        id: "minecraft:stone_stairs",
+        name: "Stone Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Stone Stairs are a stair-shaped building block crafted from regular stone. They allow players and mobs to change elevation smoothly without jumping, making them ideal for staircases, roofs, and decorative architectural trim. In Bedrock Edition, they provide a clean, gray aesthetic that matches natural stone environments and stone-based structures. They can be crafted using six stone blocks in a crafting table or more efficiently created via a stonecutter. Like other stone-based variants, they are fire-resistant and possess a blast resistance of 6.0."
+    },
     "minecraft:birch_stairs": {
         id: "minecraft:birch_stairs",
         name: "Birch Stairs",
