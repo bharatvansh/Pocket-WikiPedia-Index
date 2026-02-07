@@ -2184,6 +2184,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:gray_concrete",
+        name: "Gray Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_gray",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:blue_concrete",
         name: "Blue Concrete",
         category: "block",
@@ -3774,6 +3781,13 @@ export const blockIndex = [
         themeColor: "§4"
     },
     {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        category: "block",
+        icon: "textures/items/bamboo_door",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:bamboo_trapdoor",
         name: "Bamboo Trapdoor",
         category: "block",
@@ -4444,6 +4458,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:blue_shulker_box",
+        name: "Blue Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_blue",
+        themeColor: "§1"
     },
     {
         id: "minecraft:black_terracotta",

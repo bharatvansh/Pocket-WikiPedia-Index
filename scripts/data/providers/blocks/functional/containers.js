@@ -262,6 +262,27 @@ export const containerBlocks = {
         },
         description: "The Magenta Shulker Box is a premium portable storage solution that retains its items even when broken and carried in the inventory. It is crafted by combining a standard shulker box with magenta dye. With 27 slots of storage space, it effectively expands a player's inventory capacity. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, and it provides a colorful way to organize complex storage systems and categorize resources effectively."
     },
+    "minecraft:blue_shulker_box": {
+        id: "minecraft:blue_shulker_box",
+        name: "Blue Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Shulker Box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Blue Dye)"
+        },
+        description: "The Blue Shulker Box is a premium portable storage block that preserves its contents even when broken and carried in the inventory. It is created by combining a standard shulker box with blue dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport and organization. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, and it provides a vibrant, deep blue option for categorized storage systems."
+    },
     "minecraft:gray_shulker_box": {
         id: "minecraft:gray_shulker_box",
         name: "Gray Shulker Box",
