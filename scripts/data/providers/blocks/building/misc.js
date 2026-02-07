@@ -280,5 +280,47 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Blue Terracotta"
         },
         description: "Blue Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with deep blue and light blue tones. It is created by smelting blue terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create large, recurring geometric designs when multiple blocks are placed in a circular fashion, offering a sophisticated and ornate look to floors and walls in any architectural project."
+    },
+    "minecraft:green_terracotta": {
+        id: "minecraft:green_terracotta",
+        name: "Green Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Green Terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands"
+        },
+        description: "Green Terracotta is a smooth, durable building block with a dark green matte finish. It is obtained by dyeing regular terracotta with green dye or can be found naturally in the Badlands biome. In Bedrock Edition, it requires a pickaxe to be harvested; breaking it by hand yields no drops. Its muted, earthy green tone and matte texture make it ideal for architectural projects that require a natural yet refined look. It can also be smelted into green glazed terracotta, which features an intricate pattern for more decorative designs."
+    },
+    "minecraft:cyan_glazed_terracotta": {
+        id: "minecraft:cyan_glazed_terracotta",
+        name: "Cyan Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cyan Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Cyan Terracotta"
+        },
+        description: "Cyan Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with a Creeper face design. It is created by smelting cyan terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating geometric designs, offering a distinct and stylized look to any construction in Bedrock Edition. It requires a pickaxe for collection."
     }
 };
