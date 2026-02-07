@@ -4675,5 +4675,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_powder_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:brown_glazed_terracotta",
+        name: "Brown Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_brown",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:lime_terracotta",
+        name: "Lime Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_lime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:gray_concrete_powder",
+        name: "Gray Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_gray",
+        themeColor: "§7"
     }
 ];
