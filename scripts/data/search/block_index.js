@@ -2919,6 +2919,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:brown_terracotta",
+        name: "Brown Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_brown",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:sweet_berry_bush",
         name: "Sweet Berry Bush",
         category: "block",
@@ -4432,6 +4439,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:magenta_concrete",
+        name: "Magenta Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_magenta",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:blue_terracotta",
         name: "Blue Terracotta",
         category: "block",
@@ -4591,5 +4605,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_yellow",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:green_wool",
+        name: "Green Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_green",
+        themeColor: "§2"
     }
 ];
