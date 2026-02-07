@@ -2709,6 +2709,20 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:warped_trapdoor",
+        name: "Warped Trapdoor",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_trapdoor",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:warped_fence",
         name: "Warped Fence",
         category: "block",
@@ -2720,6 +2734,13 @@ export const blockIndex = [
         name: "Crimson Planks",
         category: "block",
         icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_trapdoor",
         themeColor: "§4"
     },
     {

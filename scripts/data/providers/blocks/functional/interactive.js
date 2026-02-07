@@ -1293,5 +1293,47 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Dark Oak Trapdoor is a functional block crafted from dark oak planks, featuring a rich, chocolate-brown color and a solid, heavy design with a small square window. It functions as a horizontal door that can be toggled manually or with redstone power. Its sturdy and sophisticated look makes it a favorite for medieval or formal builds, often used as decorative window shutters or floor hatches. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Like all wooden trapdoors, it is flammable."
+    },
+    "minecraft:crimson_trapdoor": {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Crimson Trapdoor"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Crimson Trapdoor is a fire-resistant horizontal door crafted from crimson planks, found in the Nether's Crimson Forest. It features a deep reddish-purple hue and a unique design that provides both functionality and a rustic Nether aesthetic. Unlike Overworld wooden trapdoors, it is completely immune to fire and lava, making it an essential component for secure structures in the Nether. It can be toggled manually or via redstone signals, serving as a decorative hatch or window shutter."
+    },
+    "minecraft:warped_trapdoor": {
+        id: "minecraft:warped_trapdoor",
+        name: "Warped Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Trapdoor"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Trapdoor is a teal-colored, fire-resistant horizontal door introduced in the Nether Update. Crafted from warped planks, it features a unique organic texture that perfectly complements the alien landscape of the Warped Forest. It is completely immune to fire and lava, ensuring it remains intact even in the harshest Nether environments. Functionally identical to other trapdoors, it can be opened by hand or powered by redstone signals. It is widely used by builders for creating secure hatches or decorative accents."
     }
 };

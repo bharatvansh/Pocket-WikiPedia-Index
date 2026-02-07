@@ -1001,6 +1001,27 @@ export const redstoneBlocks = {
         },
         description: "The Crimson Button is a fire-resistant redstone component crafted from crimson planks. It provides a momentary redstone pulse of 15 ticks (1.5 seconds) in Bedrock Edition when activated. Its deep red, fungal texture allows it to blend perfectly with other crimson wood blocks, making it ideal for hidden inputs in Nether-themed builds. Unlike Overworld wooden buttons, it is completely immune to fire and lava. It can be placed on any side of a solid block."
     },
+    "minecraft:warped_button": {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Button"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Button is a compact redstone power source crafted from warped planks. In Minecraft Bedrock Edition, it provides a momentary redstone pulse of 1.0 second (10 ticks) when activated by a player or mob. Its vibrant teal color allows it to blend seamlessly with other warped wood structures or serve as a high-contrast accent in builds. Being a Nether wood product, it is completely fire-resistant and immune to lava damage. It can be attached to any side of a solid block and is best harvested using an axe."
+    },
     "minecraft:polished_blackstone_pressure_plate": {
         id: "minecraft:polished_blackstone_pressure_plate",
         name: "Polished Blackstone Pressure Plate",
