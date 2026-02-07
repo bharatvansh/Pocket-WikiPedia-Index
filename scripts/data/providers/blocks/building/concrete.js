@@ -158,6 +158,27 @@ export const concreteBlocks = {
         },
         description: "White Concrete is a durable building block known for its solid, vibrant white color and smooth texture. It is formed when White Concrete Powder comes into contact with water, rain, or cauldron water. Unlike wool, it is not flammable, making it a safer choice for building structures. It requires a pickaxe to mine; otherwise, it drops nothing. It is widely used in modern architectural builds due to its clean appearance."
     },
+    "minecraft:gray_concrete": {
+        id: "minecraft:gray_concrete",
+        name: "Gray Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Gray Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Gray Concrete is a solid building block known for its smooth, matte texture and uniform neutral gray color. It is produced by exposing Gray Concrete Powder to water, which hardens it instantly. Builders often use it for industrial designs, roads, and modern architecture due to its clean appearance without distracting patterns. Unlike wool, gray concrete is fire-resistant and offers better blast resistance, making it a more durable and safe choice for permanent structures in a variety of environments."
+    },
     "minecraft:white_concrete_powder": {
         id: "minecraft:white_concrete_powder",
         name: "White Concrete Powder",

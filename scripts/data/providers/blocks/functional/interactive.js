@@ -853,6 +853,27 @@ export const interactiveBlocks = {
         },
         description: "The Mangrove Door is a wooden door crafted from mangrove planks, featuring a deep red-brown color and a unique architectural style with a small decorative window. It functions as a two-block high entrance that blocks mob movement while allowing players to pass through. It can be opened manually or through redstone components like pressure plates and levers, making it a versatile choice for both aesthetics and security."
     },
+    "minecraft:bamboo_door": {
+        id: "minecraft:bamboo_door",
+        name: "Bamboo Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Bamboo Door"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Bamboo Door is a functional and decorative block introduced in the Trails & Tales update, crafted from bamboo planks. It features a unique, modern aesthetic with vertical slats, fitting perfectly with tropical or Asian-themed builds. Like other wooden doors, it can be opened and closed by hand or via redstone signals and occupies a two-block high space. In Bedrock Edition, it provides a distinctive style for players' homes and is most efficiently harvested with an axe."
+    },
     "minecraft:bamboo_trapdoor": {
         id: "minecraft:bamboo_trapdoor",
         name: "Bamboo Trapdoor",
