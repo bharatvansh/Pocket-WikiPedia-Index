@@ -705,6 +705,27 @@ export const interactiveBlocks = {
         },
         description: "The Oak Fence Gate is the interactive counterpart to the oak fence, allowing players and entities to pass through periodic openings in a perimeter. It can be toggled by right-clicking or by redstone power. When placed, it automatically aligns with adjacent fences and walls. One unique property of fence gates is that they can be placed in mid-air and will remain there, which is often used in complex builds or mob-grinding designs."
     },
+    "minecraft:birch_fence_gate": {
+        id: "minecraft:birch_fence_gate",
+        name: "Birch Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Birch Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Birch Fence Gate is a light-colored interactive barrier block that matches the Birch wood set. It serves as a secure entrance through birch fences and walls, and can be toggled manually or with redstone power. Naturally found in some village types, it stands 1.5 blocks high for entities, preventing them from jumping over while closed. Its clean, pale aesthetic makes it popular for modern gardens and light-themed architectural designs. Like other wood variants, it is flammable and best harvested with an axe."
+    },
     "minecraft:iron_door": {
         id: "minecraft:iron_door",
         name: "Iron Door",

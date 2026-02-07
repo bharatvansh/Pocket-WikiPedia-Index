@@ -4465,5 +4465,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/exposed_cut_copper",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_fence_gate",
+        name: "Birch Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:black_wool",
+        name: "Black Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:cyan_terracotta",
+        name: "Cyan Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_cyan",
+        themeColor: "§3"
     }
 ];

@@ -176,6 +176,27 @@ export const miscBuildingBlocks = {
         },
         description: "Blue Terracotta is a smooth, durable building block with a deep blue matte finish. It is obtained by dyeing terracotta with blue dye. Unlike many other terracotta colors, it does not generate naturally in the Badlands biome, making it primarily a crafted decorative material. Its earthy blue tone and matte texture provide a sophisticated look for architectural projects, and its high blast resistance makes it more durable than wool. It can also be smelted into blue glazed terracotta for more intricate designs."
     },
+    "minecraft:cyan_terracotta": {
+        id: "minecraft:cyan_terracotta",
+        name: "Cyan Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cyan Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cyan Terracotta is a smooth, durable building block with a distinct teal-gray matte finish. It is obtained by dyeing regular terracotta with cyan dye. Like several other colors, it does not generate naturally in the Badlands biome and must be crafted. Its muted, earthy cyan tone provides a sophisticated and modern look for architectural projects, blending well with both natural and industrial materials. It possesses higher blast resistance than wool or concrete powder and can be smelted into cyan glazed terracotta for decorative patterns."
+    },
     "minecraft:black_terracotta": {
         id: "minecraft:black_terracotta",
         name: "Black Terracotta",
