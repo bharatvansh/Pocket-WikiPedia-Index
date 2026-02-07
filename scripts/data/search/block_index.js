@@ -42,6 +42,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:stone_stairs",
+        name: "Stone Stairs",
+        category: "block",
+        icon: "textures/blocks/stone",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:bedrock",
         name: "Bedrock",
         category: "block",
@@ -2051,6 +2058,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow
     },
     {
+        id: "minecraft:underwater_torch",
+        name: "Underwater Torch",
+        category: "block",
+        icon: "textures/blocks/underwater_torch",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:prismarine_bricks",
         name: "Prismarine Bricks",
         category: "block",
@@ -2154,6 +2168,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tnt_side",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:underwater_tnt",
+        name: "Underwater TNT",
+        category: "block",
+        icon: "textures/blocks/underwater_tnt",
+        themeColor: "§b"
     },
     {
         id: "minecraft:white_concrete",
