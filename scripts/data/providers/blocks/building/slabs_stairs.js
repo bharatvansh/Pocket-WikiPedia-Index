@@ -366,6 +366,27 @@ export const slabsStairsBlocks = {
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
     },
+    "minecraft:red_sandstone_wall": {
+        id: "minecraft:red_sandstone_wall",
+        name: "Red Sandstone Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Sandstone Wall"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Sandstone Wall is a decorative masonry block crafted from Red Sandstone. It features the same vibrant orange-red color as the base block and provides a sturdy, 1.5-block high barrier that prevents most mobs from jumping over. These walls connect to each other and adjacent blocks, making them versatile for creating perimeters, railings, and architectural details in mesa or desert-themed builds. They can be crafted using six Red Sandstone blocks or more efficiently via a stonecutter."
+    },
     "minecraft:smooth_stone_slab": {
         id: "minecraft:smooth_stone_slab",
         name: "Smooth Stone Slab",
@@ -1539,6 +1560,27 @@ export const slabsStairsBlocks = {
         },
         description: "Prismarine Slabs are decorative half-blocks featuring the animated blue-green texture of prismarine. They generate naturally within Ocean Monuments, forming parts of the grand underwater architecture. These slabs are versatile for creating detailed aquatic-themed floors, ceilings, and smooth elevation changes. Because they are stone-based, they are fireproof and offer reliable blast resistance. They can be crafted from three prismarine blocks or produced via a stonecutter. Like other slabs, they can be waterlogged, allowing them to blend perfectly into submerged temples and high-end underwater bases."
     },
+    "minecraft:prismarine_wall": {
+        id: "minecraft:prismarine_wall",
+        name: "Prismarine Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Wall is a decorative barrier block made from prismarine, primarily used for underwater or aquatic-themed construction. It shares the characteristic animated blue-green texture of the prismarine family. Like other walls, it stands 1.5 blocks high for most entities, preventing them from jumping over while occupying a single block space. It connects to adjacent walls and blocks, making it ideal for creating intricate railings and structural detailing in submerged temples and bases."
+    },
     "minecraft:blackstone_stairs": {
         id: "minecraft:blackstone_stairs",
         name: "Blackstone Stairs",
@@ -1559,6 +1601,27 @@ export const slabsStairsBlocks = {
             yRange: "Bastion Remnants, Ruined Portals"
         },
         description: "Blackstone Stairs are rugged, dark-toned stairs that provide a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants and Ruined Portals, they are a primary building component for Piglin architecture. They share the same high blast resistance and durability as regular stone, but with a unique dark gray-to-black color palette. Blackstone stairs are essential for creating detailed rooflines, grand staircases, and atmospheric trim in Nether-themed builds. They can be crafted from six blackstone blocks or made more efficiently using a stonecutter. They are also waterloggable."
+    },
+    "minecraft:blackstone_wall": {
+        id: "minecraft:blackstone_wall",
+        name: "Blackstone Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Blackstone Wall is a rugged, dark-toned decorative barrier that provides a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants, it is a primary building component for Piglin architecture. It shares the same high blast resistance and durability as regular stone but with a unique dark gray-to-black color palette. These walls connect to adjacent blocks and walls to form a continuous barrier, perfect for secure perimeters in the hazardous Nether environment."
     },
     "minecraft:bamboo_mosaic_stairs": {
         id: "minecraft:bamboo_mosaic_stairs",

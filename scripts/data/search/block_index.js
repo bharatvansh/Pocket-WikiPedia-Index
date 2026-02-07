@@ -2996,6 +2996,13 @@ export const blockIndex = [
         themeColor: "§c" // red/orange
     },
     {
+        id: "minecraft:red_sandstone_wall",
+        name: "Red Sandstone Wall",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_top",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:infested_cobblestone",
         name: "Infested Cobblestone",
         category: "block",
@@ -4334,8 +4341,22 @@ export const blockIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:prismarine_wall",
+        name: "Prismarine Wall",
+        category: "block",
+        icon: "textures/blocks/prismarine",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:blackstone_stairs",
         name: "Blackstone Stairs",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:blackstone_wall",
+        name: "Blackstone Wall",
         category: "block",
         icon: "textures/blocks/blackstone",
         themeColor: "§8"
