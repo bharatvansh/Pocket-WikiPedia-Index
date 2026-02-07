@@ -4486,5 +4486,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_cyan",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:cyan_glazed_terracotta",
+        name: "Cyan Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:blue_glazed_terracotta",
+        name: "Blue Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_blue",
+        themeColor: "§1"
+    },
+    {
+        id: "minecraft:cyan_wool",
+        name: "Cyan Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_cyan",
+        themeColor: "§3"
     }
 ];
