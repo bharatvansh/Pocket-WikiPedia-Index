@@ -4537,6 +4537,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:lime_shulker_box",
+        name: "Lime Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_lime",
+        themeColor: "§a"
+    },
+    {
         id: "minecraft:red_glazed_terracotta",
         name: "Red Glazed Terracotta",
         category: "block",
@@ -4556,6 +4563,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_black",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:cyan_carpet",
+        name: "Cyan Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_cyan",
+        themeColor: "§3"
     },
     {
         id: "minecraft:brown_concrete",
@@ -4689,6 +4703,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b"
     },
     {
         id: "minecraft:gray_concrete_powder",

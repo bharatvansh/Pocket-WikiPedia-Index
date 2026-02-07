@@ -364,5 +364,26 @@ export const miscBuildingBlocks = {
             yRange: "Crafted only"
         },
         description: "Lime Terracotta is a smooth, durable building block with a bright lime green matte finish. It is obtained by dyeing regular terracotta with lime dye. Like several other colors, it does not generate naturally in the Badlands biome and must be crafted. Its vibrant, earthy lime tone provides a fresh and modern look for architectural projects, blending well with both natural and industrial materials. It possesses higher blast resistance than wool or concrete powder."
+    },
+    "minecraft:light_blue_terracotta": {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Blue Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Terracotta is a smooth, durable building block with a pale blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. In Bedrock Edition, it requires a pickaxe for collection; breaking it by hand yields no drops. Its soft, earthy blue tone and matte texture make it a popular choice for architectural projects, and its high blast resistance compared to decorative blocks like wool makes it a durable material for colorful constructions."
     }
 };
