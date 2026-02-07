@@ -304,6 +304,27 @@ export const containerBlocks = {
         },
         description: "The Gray Shulker Box is a premium portable storage block that retains its contents even when broken and carried. It is created by combining a standard shulker box with gray dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, and it provides a sleek, neutral option for organizing storage systems."
     },
+    "minecraft:lime_shulker_box": {
+        id: "minecraft:lime_shulker_box",
+        name: "Lime Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Shulker Box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Lime Dye)"
+        },
+        description: "The Lime Shulker Box is a premium portable storage block that preserves its contents even when broken and carried in the inventory. It is created by combining a standard shulker box with lime dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport and organization. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, providing a bright, vibrant green option for categorized storage systems."
+    },
     "minecraft:black_shulker_box": {
         id: "minecraft:black_shulker_box",
         name: "Black Shulker Box",
