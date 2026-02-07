@@ -637,6 +637,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:exposed_copper_bars",
+        name: "Exposed Copper Bars",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_bars",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
         id: "minecraft:exposed_copper_grate",
         name: "Exposed Copper Grate",
         category: "block",
@@ -2424,6 +2431,13 @@ export const blockIndex = [
     {
         id: "minecraft:brain_coral_fan",
         name: "Brain Coral Fan",
+        category: "block",
+        icon: "textures/blocks/brain_coral_fan",
+        themeColor: "§d" // Pink
+    },
+    {
+        id: "minecraft:brain_coral_wall_fan",
+        name: "Brain Coral Wall Fan",
         category: "block",
         icon: "textures/blocks/brain_coral_fan",
         themeColor: "§d" // Pink
@@ -4576,6 +4590,13 @@ export const blockIndex = [
         name: "Orange Concrete Powder",
         category: "block",
         icon: "textures/blocks/concrete_powder_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:cut_copper_stairs",
+        name: "Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/cut_copper",
         themeColor: "§6"
     },
     {

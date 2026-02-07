@@ -1749,6 +1749,27 @@ export const slabsStairsBlocks = {
         },
         description: "Oxidized Cut Copper Slab is a building block that represents the final oxidation stage of cut copper in slab form. It features the iconic teal-green patina and a tiled masonry texture, perfect for low-profile roofing, detailed pathways, and decorative accents in weathered or industrial builds. Like other copper blocks, it can be waxed to preserve its color or scraped with an axe to revert it to a previous oxidation stage. In Bedrock Edition, it requires a stone pickaxe or better to mine and is waterloggable."
     },
+    "minecraft:cut_copper_stairs": {
+        id: "minecraft:cut_copper_stairs",
+        name: "Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Cut Copper Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cut Copper Stairs are a decorative building block crafted from Cut Copper. They feature a clean, brownish-orange tiled texture and allow for smooth elevation changes without jumping. Like other copper blocks, they naturally oxidize over time, eventually turning green unless waxed with honeycomb. They are perfect for creating detailed rooflines and architectural trim in industrial or modern builds. In Bedrock Edition, they require a pickaxe of stone tier or higher to drop."
+    },
     "minecraft:exposed_cut_copper_stairs": {
         id: "minecraft:exposed_cut_copper_stairs",
         name: "Exposed Cut Copper Stairs",
