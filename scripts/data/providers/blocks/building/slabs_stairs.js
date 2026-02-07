@@ -1770,6 +1770,69 @@ export const slabsStairsBlocks = {
         },
         description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
     },
+    "minecraft:polished_blackstone_brick_stairs": {
+        id: "minecraft:polished_blackstone_brick_stairs",
+        name: "Polished Blackstone Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Brick Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Stairs are a dark, decorative building block introduced in the Nether Update. Crafted from six polished blackstone bricks or via a stonecutter, they offer a sophisticated and somber aesthetic perfect for Nether-themed fortresses. In Bedrock Edition, they can be waterlogged and placed in various orientations to create complex architectural shapes like eaves and decorative trim. They naturally generate in Bastion Remnants as part of the Piglin architecture. Being stone-based, they are fire-resistant and require a pickaxe to mine efficiently."
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+        id: "minecraft:polished_blackstone_brick_slab",
+        name: "Polished Blackstone Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Brick Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Slab is a half-block building material crafted from polished blackstone bricks. It features a sleek, dark masonry texture that provides a professional look for flooring, ceilings, and atmospheric pathways in the Nether. Naturally occurring in Bastion Remnants, it is a key component of Piglin structures. In Bedrock Edition, it can be combined into double slabs or placed in the upper or lower half of a block space. It is highly blast-resistant and fireproof, making it a reliable choice for constructing safe bases in hazardous dimensions."
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+        id: "minecraft:polished_blackstone_brick_wall",
+        name: "Polished Blackstone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Brick Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Wall is a sturdy decorative barrier crafted from polished blackstone bricks. It provides a 1.5-block high collision box, effectively preventing most mobs from jumping over while only occupying a single block space visually. These walls generate naturally within Bastion Remnants, reflecting the ancient and fortified nature of Piglin strongholds. Like other walls in Bedrock Edition, they connect to adjacent blocks and walls to form continuous barriers. They are completely immune to fire and offer high blast resistance against ghast explosions."
+    },
     "minecraft:acacia_slab": {
         id: "minecraft:acacia_slab",
         name: "Acacia Slab",
