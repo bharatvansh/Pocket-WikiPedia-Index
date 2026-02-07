@@ -265,6 +265,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Copper bars are decorative fencing blocks with a hardness of 5.0 and blast resistance of 6.0, harvested with a wooden pickaxe. Like iron bars, they connect to adjacent blocks to form barriers. They feature four stages of oxidation (unoxidized, exposed, weathered, and oxidized), shifting from orange to teal. Players can use honeycomb to wax bars and lock their appearance or use axes and lightning to scrape away oxidation layers. They connect to solid blocks and other bars, providing a dynamic, aging aesthetic for windows, cages, and intricate structural designs."
     },
+    "minecraft:exposed_copper_bars": {
+        id: "minecraft:exposed_copper_bars",
+        name: "Exposed Copper Bars",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Copper Bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Exposed copper bars are decorative fencing blocks representing the first stage of oxidation. They feature a slightly tarnished brownish-orange color and connect to adjacent blocks to form barriers. Like iron bars, they allow light and air to pass through while providing security. Players can use honeycomb to wax them and lock their appearance or an axe to scrape away oxidation. They are ideal for adding an aged industrial look to windows, cages, and structural designs in Bedrock Edition."
+    },
     "minecraft:slime_block": {
         id: "minecraft:slime_block",
         name: "Slime Block",
