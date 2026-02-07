@@ -2723,6 +2723,13 @@ export const blockIndex = [
         themeColor: "§4"
     },
     {
+        id: "minecraft:crimson_button",
+        name: "Crimson Button",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:crimson_fence",
         name: "Crimson Fence",
         category: "block",
@@ -3369,6 +3376,13 @@ export const blockIndex = [
     {
         id: "minecraft:red_nether_brick_stairs",
         name: "Red Nether Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:red_nether_brick_wall",
+        name: "Red Nether Brick Wall",
         category: "block",
         icon: "textures/blocks/red_nether_brick",
         themeColor: "§4"
@@ -4535,6 +4549,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:black_carpet",
+        name: "Black Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_black",
+        themeColor: "§0"
     },
     {
         id: "minecraft:brown_concrete",
