@@ -1188,5 +1188,68 @@ export const interactiveBlocks = {
             yRange: "Crafted from Cherry Planks"
         },
         description: "The Cherry Trapdoor is a functional block crafted from Cherry Planks, introduced in Minecraft 1.20. It features a delightful light pink color and a unique design with a small decorative window, matching the aesthetic of the Cherry Grove biome. Like other wooden trapdoors, it serves as a horizontal door that can be toggled manually or with redstone. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Its aesthetic appeal makes it popular for creating decorative shutters, floor hatches, or delicate architectural accents."
+    },
+    "minecraft:dark_oak_fence_gate": {
+        id: "minecraft:dark_oak_fence_gate",
+        name: "Dark Oak Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Dark Oak Fence Gate is a sturdy, chocolate-colored interactive barrier that matches the Dark Oak wood set. It serves as a secure entrance for fences and walls, and can be toggled manually or with redstone power. Naturally found in woodland mansions, it stands 1.5 blocks high for entities, preventing them from jumping over while closed. Like other wooden gates, it is flammable and best harvested with an axe. It automatically aligns with adjacent fences to create a cohesive and elegant perimeter."
+    },
+    "minecraft:spruce_fence_gate": {
+        id: "minecraft:spruce_fence_gate",
+        name: "Spruce Fence Gate",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Fence Gate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Spruce Fence Gate is a dark brown interactive barrier block that matches the rustic aesthetic of the Spruce wood set. It provides a secure entrance through fences and walls, and can be opened or closed manually or via redstone signals. Often found in taiga village perimeters, it stands 1.5 blocks high for entities, ensuring they cannot jump over when it is closed. It is fully flammable and most efficiently broken with an axe. Its solid, darker appearance makes it a popular choice for cabins and rustic designs."
+    },
+    "minecraft:dark_oak_trapdoor": {
+        id: "minecraft:dark_oak_trapdoor",
+        name: "Dark Oak Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Dark Oak Trapdoor is a functional block crafted from dark oak planks, featuring a rich, chocolate-brown color and a solid, heavy design with a small square window. It functions as a horizontal door that can be toggled manually or with redstone power. Its sturdy and sophisticated look makes it a favorite for medieval or formal builds, often used as decorative window shutters or floor hatches. In Bedrock Edition, it has a hardness of 3.0 and is best harvested with an axe. Like all wooden trapdoors, it is flammable."
     }
 };

@@ -4507,5 +4507,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_cyan",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:dark_oak_fence_gate",
+        name: "Dark Oak Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:spruce_fence_gate",
+        name: "Spruce Fence Gate",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_trapdoor",
+        name: "Dark Oak Trapdoor",
+        category: "block",
+        icon: "textures/blocks/dark_oak_trapdoor",
+        themeColor: "§8"
     }
 ];
