@@ -873,5 +873,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Blue Carpet is a thin, decorative block primarily used for floor covering and aesthetics. It is crafted from two blocks of blue wool, yielding three carpets. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement above them. They can be placed on most solid blocks, including non-full blocks like glass or other carpets. Blue carpets provide a soft, vibrant surface for interiors without adding significant height, making them ideal for detailed rug designs, runners, or acoustic dampening in sculk-sensitive areas."
+    },
+    "minecraft:yellow_wool": {
+        id: "minecraft:yellow_wool",
+        name: "Yellow Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Yellow Sheep"
+        },
+        description: "Yellow Wool is a bright decorative block obtained by shearing yellow sheep or crafting white wool with yellow dye. It is primarily used for construction and creative art due to its vibrant color. Like all wool blocks, it is highly flammable and provides low blast resistance. In Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement nearby. It can also be used as a fuel in furnaces, though inefficiently, and is an essential material for crafting yellow carpets, banners, beds, and decorative tapestries."
     }
 };
