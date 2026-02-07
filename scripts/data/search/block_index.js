@@ -2583,6 +2583,27 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:polished_blackstone_brick_stairs",
+        name: "Polished Blackstone Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_blackstone_brick_slab",
+        name: "Polished Blackstone Brick Slab",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_blackstone_brick_wall",
+        name: "Polished Blackstone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:cracked_polished_blackstone_bricks",
         name: "Cracked Polished Blackstone Bricks",
         category: "block",
