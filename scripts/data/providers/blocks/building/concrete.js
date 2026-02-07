@@ -409,5 +409,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Magenta Concrete Powder is a vibrant, gravity-affected block used primarily for decoration and as a precursor to concrete. It is crafted from sand, gravel, and magenta dye. When it comes into contact with water, it instantly solidifies into magenta concrete. In Bedrock Edition, its bright color makes it a popular choice for colorful builds. Like sand and gravel, it falls if there is no block beneath it, which can be used to create simple traps or temporary structures. It is best harvested with a shovel for efficiency."
+    },
+    "minecraft:gray_concrete_powder": {
+        id: "minecraft:gray_concrete_powder",
+        name: "Gray Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Gray Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a neutral gray hue. It is crafted using four sand, four gravel, and one gray dye. When this block comes into contact with water, it instantly solidifies into smooth Gray Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It provides a more textured appearance compared to the hardened concrete variant."
     }
 };

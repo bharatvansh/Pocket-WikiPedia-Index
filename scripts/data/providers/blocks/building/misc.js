@@ -322,5 +322,47 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Cyan Terracotta"
         },
         description: "Cyan Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with a Creeper face design. It is created by smelting cyan terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating geometric designs, offering a distinct and stylized look to any construction in Bedrock Edition. It requires a pickaxe for collection."
+    },
+    "minecraft:brown_glazed_terracotta": {
+        id: "minecraft:brown_glazed_terracotta",
+        name: "Brown Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brown Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Brown Terracotta"
+        },
+        description: "Brown Glazed Terracotta is a decorative block featuring an intricate, ornate pattern with earthy brown and tan tones. It is created by smelting brown terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating geometric designs, offering a distinct and stylized look to any construction."
+    },
+    "minecraft:lime_terracotta": {
+        id: "minecraft:lime_terracotta",
+        name: "Lime Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Lime Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Lime Terracotta is a smooth, durable building block with a bright lime green matte finish. It is obtained by dyeing regular terracotta with lime dye. Like several other colors, it does not generate naturally in the Badlands biome and must be crafted. Its vibrant, earthy lime tone provides a fresh and modern look for architectural projects, blending well with both natural and industrial materials. It possesses higher blast resistance than wool or concrete powder."
     }
 };
