@@ -936,5 +936,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Green Sheep"
         },
         description: "Green Wool is a decorative building block with a soft texture and a deep forest-green color. It is obtained by shearing green sheep or by combining white wool with green dye. In Bedrock Edition, green wool has the unique property of blocking vibrations, making it essential for navigating sculk-infested areas like Ancient Cities without alerting Sculk Sensors. While highly flammable and weak to explosions, its rich color and acoustic dampening qualities make it a popular choice for lush organic builds, nature-themed decorations, and complex redstone sound-proofing."
+    },
+    "minecraft:pink_wool": {
+        id: "minecraft:pink_wool",
+        name: "Pink Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pink Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Pink Sheep"
+        },
+        description: "Pink Wool is a soft, decorative block primarily obtained by shearing pink sheep or crafting white wool with pink dye. Its gentle pink hue makes it a popular choice for aesthetic builds, pixel art, and cozy interior designs. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being triggered by nearby footsteps. While it is highly flammable and offers low blast resistance, its versatility in crafting beds, banners, and carpets makes it an essential material for any creative builder."
     }
 };
