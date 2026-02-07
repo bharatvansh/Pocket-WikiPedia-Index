@@ -366,6 +366,27 @@ export const slabsStairsBlocks = {
         },
         description: "Red Sandstone Slabs are half-block variants of red sandstone, offering versatile building options for floors, ceilings, and roofs. They provide a compact way to create smooth elevation changes without the bulk of a full block. These slabs can be crafted from red sandstone blocks or produced efficiently using a stonecutter. Because they are stone-based, they are fire-resistant and provide moderate protection against explosions. They can be placed in the upper or lower half of a block or combined into a double slab."
     },
+    "minecraft:cut_red_sandstone_slab": {
+        id: "minecraft:cut_red_sandstone_slab",
+        name: "Cut Red Sandstone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cut Red Sandstone Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cut Red Sandstone Slab is a refined half-block building component crafted from cut red sandstone. It features the same vibrant orange-red color as regular red sandstone but with a smoother, more uniform 'cut' texture. These slabs are essential for creating detailed architectural trim, smooth elevation changes, and sophisticated flooring in mesa or desert-themed builds. In Bedrock Edition, they are fire-resistant and require a pickaxe of wooden tier or higher to drop as an item. They can be produced efficiently using a stonecutter."
+    },
     "minecraft:red_sandstone_wall": {
         id: "minecraft:red_sandstone_wall",
         name: "Red Sandstone Wall",
@@ -1328,6 +1349,27 @@ export const slabsStairsBlocks = {
             yRange: "Weathered naturally (Final stage)"
         },
         description: "Oxidized Cut Copper Stairs are a decorative building block that represents the final stage of the copper weathering process. They feature the iconic teal-green patina that occurs when copper is exposed to the elements over time. These stairs are perfect for creating aged roofs, detailed trim, or weathered monuments. They can be waxed to preserve their green color or scraped with an axe to revert them to a previous weathering stage, offering great versatility for industrial or historic builds."
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+        id: "minecraft:weathered_cut_copper_stairs",
+        name: "Weathered Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally"
+        },
+        description: "Weathered Cut Copper Stairs represent the intermediate stage of the copper oxidation process in a stair shape. They feature a prominent blue-green patina mixed with remaining brownish-orange tones, offering a classic aged look. Builders use these stairs to create detailed gradients and weathered architectural features like sloped roofs and decorative trim. In Bedrock Edition, they can be waxed with honeycomb to lock their current state or scraped with an axe to revert them to the exposed stage. They require a stone pickaxe or better to mine."
     },
     "minecraft:andesite_slab": {
         id: "minecraft:andesite_slab",

@@ -3031,6 +3031,13 @@ export const blockIndex = [
         themeColor: "§c" // red/orange
     },
     {
+        id: "minecraft:cut_red_sandstone_slab",
+        name: "Cut Red Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_cut",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:red_sandstone_wall",
         name: "Red Sandstone Wall",
         category: "block",
@@ -4138,6 +4145,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:black_candle",
+        name: "Black Candle",
+        category: "block",
+        icon: "textures/blocks/candle_black",
+        themeColor: "§0"
+    },
+    {
         id: "minecraft:cherry_button",
         name: "Cherry Button",
         category: "block",
@@ -4241,6 +4255,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/oxidized_cut_copper",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:weathered_cut_copper_stairs",
+        name: "Weathered Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/weathered_cut_copper",
+        themeColor: "§3"
     },
     {
         id: "minecraft:spruce_pressure_plate",

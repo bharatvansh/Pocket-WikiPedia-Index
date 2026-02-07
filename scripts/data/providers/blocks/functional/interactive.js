@@ -1147,6 +1147,27 @@ export const interactiveBlocks = {
         },
         description: "The Brown Candle is a decorative light source block featuring a rich, earthy brown color. Like other candles, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3. It must be lit with flint and steel or a fire charge to provide illumination. Brown candles can also be placed on top of a cake to create a brown candle cake, making them a versatile choice for rustic or nature-themed interior decorations."
     },
+    "minecraft:black_candle": {
+        id: "minecraft:black_candle",
+        name: "Black Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Black Dye"
+        },
+        description: "The Black Candle is a dark decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. Its deep black tone makes it ideal for gothic, moody, or sophisticated interior designs. Like other candles in Bedrock Edition, it must be lit with flint and steel or other flaming tools to emit light. It can also be placed on a cake to create a black candle cake, providing a striking visual for celebrations."
+    },
     "minecraft:spruce_door": {
         id: "minecraft:spruce_door",
         name: "Spruce Door",
