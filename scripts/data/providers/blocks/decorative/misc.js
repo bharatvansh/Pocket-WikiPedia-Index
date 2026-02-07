@@ -832,6 +832,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Blue Wool is a vibrant decorative block obtained by shearing blue sheep or crafting white wool with blue dye. It has a soft texture and is primarily used for construction and art. Like all wool blocks, it is highly flammable and provides low blast resistance. In Bedrock Edition, wool blocks have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being activated by nearby footsteps. It can also be used as a fuel in furnaces, smelting a small number of items."
     },
+    "minecraft:black_wool": {
+        id: "minecraft:black_wool",
+        name: "Black Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Black Sheep"
+        },
+        description: "Black Wool is a dark decorative block obtained by shearing black sheep or crafting white wool with black dye. It is one of the few wool colors that can be found naturally on sheep. Like all wool blocks, it is highly flammable and offers low blast resistance. In Bedrock Edition, it can dampen vibrations for Sculk Sensors and prevent Sculk Shrieker activation. Its deep black tone makes it ideal for pixel art, shadows, and sleek modern designs. It can also be used as a fuel in furnaces, though it is relatively inefficient."
+    },
     "minecraft:blue_carpet": {
         id: "minecraft:blue_carpet",
         name: "Blue Carpet",
