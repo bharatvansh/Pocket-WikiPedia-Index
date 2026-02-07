@@ -382,7 +382,7 @@ export const miscDecorativeBlocks = {
         mining: {
             tool: "None",
             minTier: "None",
-            silkTouch: true
+            silkTouch: false
         },
         drops: ["Turtle Egg"],
         generation: {
@@ -873,6 +873,27 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Blue Carpet is a thin, decorative block primarily used for floor covering and aesthetics. It is crafted from two blocks of blue wool, yielding three carpets. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement above them. They can be placed on most solid blocks, including non-full blocks like glass or other carpets. Blue carpets provide a soft, vibrant surface for interiors without adding significant height, making them ideal for detailed rug designs, runners, or acoustic dampening in sculk-sensitive areas."
+    },
+    "minecraft:cyan_carpet": {
+        id: "minecraft:cyan_carpet",
+        name: "Cyan Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cyan Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Cyan Carpet is a thin decorative block used for flooring and aesthetics. Crafted from cyan wool, it provides a soft surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly useful for stealthy navigation in sculk-infested areas like Ancient Cities."
     },
     "minecraft:black_carpet": {
         id: "minecraft:black_carpet",

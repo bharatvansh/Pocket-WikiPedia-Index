@@ -2723,6 +2723,13 @@ export const blockIndex = [
         themeColor: "§4"
     },
     {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/crimson_trapdoor",
+        themeColor: "§4"
+    },
+    {
         id: "minecraft:crimson_button",
         name: "Crimson Button",
         category: "block",
@@ -3120,6 +3127,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:blue_stained_glass",
+        name: "Blue Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_blue",
+        themeColor: "§1"
     },
     {
         id: "minecraft:sunflower",
@@ -4549,6 +4563,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:cyan_carpet",
+        name: "Cyan Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_cyan",
+        themeColor: "§3"
     },
     {
         id: "minecraft:black_carpet",
