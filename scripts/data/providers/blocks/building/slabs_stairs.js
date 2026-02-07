@@ -1790,5 +1790,26 @@ export const slabsStairsBlocks = {
             yRange: "Savanna Villages, Shipwrecks"
         },
         description: "Acacia Slab is a building block crafted from Acacia Planks, featuring a vibrant orange hue characteristic of the savanna wood set. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a warm and unique aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It generates naturally in savanna villages and shipwrecks, and can be crafted by placing three acacia planks horizontally in a crafting grid."
+    },
+    "minecraft:warped_stairs": {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "Warped Stairs are fire-resistant stairs crafted from warped planks, a wood-type native to the Warped Forest in the Nether. Unlike Overworld wooden stairs, they are completely immune to fire and lava, making them ideal for safe construction in the Nether. They feature a unique cyan and teal color scheme with an alien, fungal texture. They can be waterlogged and placed in various orientations to create complex shapes. Like other wood-based stairs, they are best harvested with an axe, but they offer the durability and fire-resistance of nether-based materials."
     }
 };

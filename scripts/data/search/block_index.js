@@ -2716,6 +2716,13 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:crimson_planks",
         name: "Crimson Planks",
         category: "block",
@@ -2741,6 +2748,13 @@ export const blockIndex = [
         name: "Crimson Fence Gate",
         category: "block",
         icon: "textures/blocks/huge_fungus/crimson_planks",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:crimson_trapdoor",
+        name: "Crimson Trapdoor",
+        category: "block",
+        icon: "textures/blocks/crimson_trapdoor",
         themeColor: "§4"
     },
     {
@@ -4555,6 +4569,13 @@ export const blockIndex = [
         name: "Black Carpet",
         category: "block",
         icon: "textures/blocks/carpet_colored_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_black",
         themeColor: "§0"
     },
     {
