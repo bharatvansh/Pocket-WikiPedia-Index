@@ -1706,5 +1706,47 @@ export const slabsStairsBlocks = {
             yRange: "Savanna Villages, Shipwrecks"
         },
         description: "Acacia Slab is a building block crafted from Acacia Planks, featuring a vibrant orange hue characteristic of the savanna wood set. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a warm and unique aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It generates naturally in savanna villages and shipwrecks, and can be crafted by placing three acacia planks horizontally in a crafting grid."
+    },
+    "minecraft:red_nether_brick_wall": {
+        id: "minecraft:red_nether_brick_wall",
+        name: "Red Nether Brick Wall",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Red Nether Brick Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "Red Nether Brick Walls are sturdy, fire-resistant barriers crafted from red nether bricks. They offer a vibrant crimson-red alternative to the dark purple of standard nether brick walls, making them highly desirable for Nether-themed architecture and high-contrast builds. They share the same durability as nether bricks and are immune to ghast fireballs. Like standard nether bricks, they produce 'bass drum' sounds when placed under a note block. They can be crafted in a crafting grid or via a stonecutter, providing a sturdy and atmospheric way to create boundaries and railings in the Nether."
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+        id: "minecraft:polished_blackstone_brick_wall",
+        name: "Polished Blackstone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Brick Wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Walls are durable decorative barriers crafted from polished blackstone bricks. They feature a sophisticated dark masonry pattern that provides a more refined look than regular blackstone walls. These walls are ideal for securing perimeters or adding architectural detail to fortresses and gothic-style builds. They connect to adjacent blocks and walls, forming a 1.5-block high collision box that prevents most mobs from jumping over. Like other blackstone variants, they are highly resistant to explosions and are native to the Nether's Bastion Remnants."
     }
 };

@@ -4549,5 +4549,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_yellow",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:red_nether_brick_wall",
+        name: "Red Nether Brick Wall",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:polished_blackstone_brick_wall",
+        name: "Polished Blackstone Brick Wall",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone_bricks",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:magenta_concrete",
+        name: "Magenta Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_magenta",
+        themeColor: "§d"
     }
 ];

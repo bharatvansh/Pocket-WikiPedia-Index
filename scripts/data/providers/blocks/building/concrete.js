@@ -325,5 +325,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Orange Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bold orange hue. It is crafted using four sand, four gravel, and one orange dye. When this block comes into contact with water, it instantly solidifies into smooth Orange Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It is a favorite for adding vibrant texture to builds before it is hardened into a more permanent and durable matte finish."
+    },
+    "minecraft:magenta_concrete": {
+        id: "minecraft:magenta_concrete",
+        name: "Magenta Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Magenta Concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Concrete is a solid, vibrant building block known for its bright purple-pink hue and smooth, matte texture. It is created by exposing Magenta Concrete Powder to water, which hardens it instantly into this durable form. Unlike wool, Magenta Concrete is non-flammable and offers better blast resistance, making it an excellent choice for colorful structures that require fire safety. It is a favorite among builders for adding bold pops of color to modern architectural designs or as a striking accent in large-scale pixel art due to its uniform color."
     }
 };
