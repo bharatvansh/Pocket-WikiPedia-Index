@@ -448,5 +448,47 @@ export const miscBuildingBlocks = {
             yRange: "Badlands"
         },
         description: "Red Terracotta is a smooth, earthy building block found naturally in the Badlands biome. It is created by smelting clay and applying red dye, or found in massive strata in the wild. Its vibrant yet matte red appearance makes it ideal for southwestern architecture, desert-themed builds, or Mediterranean-style houses. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand yields nothing. It possesses high blast resistance and can be further smelted into red glazed terracotta for intricate decorative patterns."
+    },
+    "minecraft:gray_terracotta": {
+        id: "minecraft:gray_terracotta",
+        name: "Gray Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:gray_terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands"
+        },
+        description: "Gray Terracotta is a smooth, durable building block with a muted, dark gray matte finish. It is obtained by smelting clay and applying gray dye, or can be found naturally generating in the Badlands biome. In Bedrock Edition, it requires a pickaxe to harvest correctly; breaking it by hand results in no drops. Its neutral, industrial tone makes it a favorite for modern architectural designs, providing a sleek and sophisticated look that contrasts well with brighter materials like concrete. It can also be smelted into gray glazed terracotta for more intricate patterns."
+    },
+    "minecraft:orange_glazed_terracotta": {
+        id: "minecraft:orange_glazed_terracotta",
+        name: "Orange Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_glazed_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Orange Terracotta"
+        },
+        description: "Orange Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate geometric pattern with bold orange and cyan tones. It is created by smelting orange terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating designs when four blocks are placed in a circular fashion. In Bedrock Edition, it requires a pickaxe for collection and offers a striking, stylized look."
     }
 };
