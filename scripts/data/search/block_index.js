@@ -3213,6 +3213,13 @@ export const blockIndex = [
         themeColor: "§1"
     },
     {
+        id: "minecraft:red_stained_glass",
+        name: "Red Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_red",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:sunflower",
         name: "Sunflower",
         category: "block",
@@ -4733,6 +4740,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:exposed_cut_copper_slab",
+        name: "Exposed Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/exposed_cut_copper",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:birch_fence_gate",
         name: "Birch Fence Gate",
         category: "block",
@@ -4808,6 +4822,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_green",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:magenta_terracotta",
+        name: "Magenta Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_magenta",
+        themeColor: "§d"
     },
     {
         id: "minecraft:cyan_glazed_terracotta",
