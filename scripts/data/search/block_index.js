@@ -2219,6 +2219,13 @@ export const blockIndex = [
         themeColor: "§7" // gray
     },
     {
+        id: "minecraft:light_gray_concrete",
+        name: "Light Gray Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_silver",
+        themeColor: "§7" // light gray
+    },
+    {
         id: "minecraft:blue_concrete",
         name: "Blue Concrete",
         category: "block",
@@ -2252,6 +2259,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_lime",
         themeColor: "§a" // lime
+    },
+    {
+        id: "minecraft:green_concrete",
+        name: "Green Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_green",
+        themeColor: "§2" // green
     },
     {
         id: "minecraft:white_wool",
@@ -4927,6 +4941,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_powder_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:green_concrete_powder",
+        name: "Green Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_green",
+        themeColor: "§2" // green
     },
     {
         id: "minecraft:magenta_wool",
