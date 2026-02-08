@@ -637,6 +637,27 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:exposed_copper_bars",
+        name: "Exposed Copper Bars",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_bars",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
+        id: "minecraft:weathered_copper_bars",
+        name: "Weathered Copper Bars",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_bars",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:oxidized_copper_bars",
+        name: "Oxidized Copper Bars",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_bars",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
         id: "minecraft:exposed_copper_grate",
         name: "Exposed Copper Grate",
         category: "block",

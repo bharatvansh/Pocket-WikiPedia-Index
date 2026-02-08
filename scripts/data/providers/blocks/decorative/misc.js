@@ -265,6 +265,69 @@ export const miscDecorativeBlocks = {
         },
         description: "Copper bars are decorative fencing blocks with a hardness of 5.0 and blast resistance of 6.0, harvested with a wooden pickaxe. Like iron bars, they connect to adjacent blocks to form barriers. They feature four stages of oxidation (unoxidized, exposed, weathered, and oxidized), shifting from orange to teal. Players can use honeycomb to wax bars and lock their appearance or use axes and lightning to scrape away oxidation layers. They connect to solid blocks and other bars, providing a dynamic, aging aesthetic for windows, cages, and intricate structural designs."
     },
+    "minecraft:exposed_copper_bars": {
+        id: "minecraft:exposed_copper_bars",
+        name: "Exposed Copper Bars",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:exposed_copper_bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Exposed Copper Bars are decorative barrier blocks representing the second stage of copper oxidation. Introduced in the Minecraft 1.21 update, they exhibit a light green patina beginning to cover the original orange copper. They function identically to iron bars, connecting to adjacent blocks to form fences or windows. Players can stop the oxidation process by applying honeycomb, creating a waxed version, or scrape the patina off using an axe. They require a stone pickaxe or higher to harvest and are immune to fire, making them a durable and evolving architectural element."
+    },
+    "minecraft:weathered_copper_bars": {
+        id: "minecraft:weathered_copper_bars",
+        name: "Weathered Copper Bars",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:weathered_copper_bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Weathered Copper Bars are the third oxidation stage of copper bars, showcasing a significant teal-green coloration with only hints of the original copper visible. Like other copper variants in Minecraft 1.21, they provide a unique, aging aesthetic to builds. They share the same physical properties as iron bars, connecting to adjacent blocks and surfaces to form barriers. They are highly resistant to explosions and can be scraped back to an exposed state with an axe or struck by lightning to revert further. Their distinct blue-green hue is ideal for ancient or aquatic-themed structures."
+    },
+    "minecraft:oxidized_copper_bars": {
+        id: "minecraft:oxidized_copper_bars",
+        name: "Oxidized Copper Bars",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:oxidized_copper_bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Oxidized Copper Bars represent the final, fully weathered stage of copper bars, featuring a complete teal-green patina. These decorative blocks are perfect for creating aged, weathered looks in Minecraft Bedrock Edition. Introduced in version 1.21, they connect to surrounding blocks just like iron bars and offer the same durability. While they no longer oxidize further, they can still be scraped with an axe to reveal previous stages or waxed to preserve their current appearance. Their vibrant green color and thin profile make them popular for intricate metalwork, industrial cages, and overgrown ruins."
+    },
     "minecraft:slime_block": {
         id: "minecraft:slime_block",
         name: "Slime Block",
