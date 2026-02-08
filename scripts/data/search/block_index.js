@@ -3808,6 +3808,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:polished_andesite_slab",
+        name: "Polished Andesite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_andesite_smooth",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:polished_diorite_stairs",
         name: "Polished Diorite Stairs",
         category: "block",
@@ -4754,6 +4761,13 @@ export const blockIndex = [
         themeColor: "§0"
     },
     {
+        id: "minecraft:brown_shulker_box",
+        name: "Brown Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_brown",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:lime_shulker_box",
         name: "Lime Shulker Box",
         category: "block",
@@ -4857,6 +4871,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glazed_terracotta_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:brown_carpet",
+        name: "Brown Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_brown",
+        themeColor: "§6"
     },
     {
         id: "minecraft:yellow_wool",

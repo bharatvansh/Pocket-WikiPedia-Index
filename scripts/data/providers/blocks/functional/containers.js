@@ -325,6 +325,27 @@ export const containerBlocks = {
         },
         description: "The Black Shulker Box is a versatile portable storage solution that retains its items even when broken and carried in the inventory. It is crafted by combining a standard shulker box with black dye, providing a sleek and dark aesthetic for organization. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, making it ideal for compact and secure storage systems."
     },
+    "minecraft:brown_shulker_box": {
+        id: "minecraft:brown_shulker_box",
+        name: "Brown Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:brown_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Brown Dye)"
+        },
+        description: "The Brown Shulker Box is a durable, portable storage block that preserves its contents when broken and moved. Crafted by applying brown dye to a standard shulker box, it offers 27 slots of secure inventory space. This block is indispensable for organized resource gathering and long-range exploration. In Bedrock Edition, it can be broken by hand or any tool to be collected as an item without losing the items inside. Its earthy brown color is perfect for camouflaging in natural environments or categorizing soil and wood-based materials in complex storage systems."
+    },
     "minecraft:red_shulker_box": {
         id: "minecraft:red_shulker_box",
         name: "Red Shulker Box",

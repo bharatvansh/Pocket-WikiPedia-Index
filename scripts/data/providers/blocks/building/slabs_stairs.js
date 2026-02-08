@@ -1059,6 +1059,27 @@ export const slabsStairsBlocks = {
         },
         description: "Polished Andesite Stairs are a smooth, gray decorative building block crafted from polished andesite. They provide a refined and clean aesthetic for staircases, sloped roofs, and architectural detailing in both modern and traditional builds. Like other stone-based stairs, they are fire-resistant and have a blast resistance of 6.0 in Bedrock Edition. They can be waterlogged and placed in various orientations to create complex shapes like cornices and eaves."
     },
+    "minecraft:polished_andesite_slab": {
+        id: "minecraft:polished_andesite_slab",
+        name: "Polished Andesite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_andesite_slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Andesite Slab is a smooth, gray building block crafted from polished andesite. It provides a refined and clean aesthetic for flooring, ceilings, and architectural detailing in various builds. Like other stone-based slabs, it is fire-resistant and has a blast resistance of 6.0 in Bedrock Edition. It can be placed on the top or bottom of a block space and can be waterlogged. Its versatile gray tone makes it ideal for modern pathways and structural accents."
+    },
     "minecraft:polished_diorite_stairs": {
         id: "minecraft:polished_diorite_stairs",
         name: "Polished Diorite Stairs",
