@@ -4418,6 +4418,27 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:dead_bubble_coral_block",
+        name: "Dead Bubble Coral Block",
+        category: "block",
+        icon: "textures/blocks/dead_bubble_coral_block",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dead_fire_coral_block",
+        name: "Dead Fire Coral Block",
+        category: "block",
+        icon: "textures/blocks/dead_fire_coral_block",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dead_horn_coral_block",
+        name: "Dead Horn Coral Block",
+        category: "block",
+        icon: "textures/blocks/dead_horn_coral_block",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:chipped_anvil",
         name: "Chipped Anvil",
         category: "block",

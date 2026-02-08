@@ -366,5 +366,68 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (Result of living coral dying)"
         },
         description: "A Dead Brain Coral Block is the desaturated, gray remains of a living brain coral block. This state occurs when a living coral block is placed out of water or when its water source is removed. While it loses its vibrant pink color, it retains its intricate, maze-like texture and structural properties. It can be mined with any pickaxe and does not require Silk Touch to be harvested once dead. Builders often use these blocks for weathered underwater structures, rocky sea floors, or as a muted alternative to stone in various architectural designs."
+    },
+    "minecraft:dead_bubble_coral_block": {
+        id: "minecraft:dead_bubble_coral_block",
+        name: "Dead Bubble Coral Block",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dead Bubble Coral Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "A Dead Bubble Coral Block is the gray, lifeless form of a bubble coral block that has been removed from water or has seen its water source vanish. Although it loses its vibrant magenta or purple color, it maintains its unique bubble-like surface texture and solid structure. In Bedrock Edition, it can be harvested with any pickaxe without needing the Silk Touch enchantment. It is frequently utilized by players to build realistic, desaturated reef environments or as a textured gray building material for rugged underwater landscapes."
+    },
+    "minecraft:dead_fire_coral_block": {
+        id: "minecraft:dead_fire_coral_block",
+        name: "Dead Fire Coral Block",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dead Fire Coral Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "A Dead Fire Coral Block represents the bleached remains of a living fire coral block. This transformation occurs when the block is exposed to air for too long. While the striking red hue is gone, the block remains a sturdy decorative element with a distinct, branching texture. It is a solid block that requires a pickaxe to mine efficiently in Bedrock Edition, and once dead, it will drop itself even without Silk Touch. It is ideal for creating the look of ancient or dying reefs and adding organic variety to stone-based builds."
+    },
+    "minecraft:dead_horn_coral_block": {
+        id: "minecraft:dead_horn_coral_block",
+        name: "Dead Horn Coral Block",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dead Horn Coral Block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "Dead Horn Coral Blocks are the desaturated, gray versions of the vibrant yellow horn coral blocks. They are created when a living horn coral block is left out of water, causing it to die and lose its color. Despite its lifeless appearance, it retains its interesting structural patterns. In Minecraft Bedrock, these blocks can be mined with any pickaxe and do not require Silk Touch to be collected. They are excellent for adding textural detail to underwater caves, rocky shorelines, or any build where a weathered, organic stone look is desired."
     }
 };
