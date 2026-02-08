@@ -324,5 +324,68 @@ export const containerBlocks = {
             yRange: "Crafted (Shulker Box + Black Dye)"
         },
         description: "The Black Shulker Box is a versatile portable storage solution that retains its items even when broken and carried in the inventory. It is crafted by combining a standard shulker box with black dye, providing a sleek and dark aesthetic for organization. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, making it ideal for compact and secure storage systems."
+    },
+    "minecraft:red_shulker_box": {
+        id: "minecraft:red_shulker_box",
+        name: "Red Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Red Dye)"
+        },
+        description: "The Red Shulker Box is a premium portable storage solution in Minecraft Bedrock Edition that retains its items even when broken and carried. It is crafted by combining a standard shulker box with red dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, and its vibrant red color makes it ideal for organizing and categorizing high-priority resources."
+    },
+    "minecraft:yellow_shulker_box": {
+        id: "minecraft:yellow_shulker_box",
+        name: "Yellow Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:yellow_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Yellow Dye)"
+        },
+        description: "The Yellow Shulker Box is a bright, portable storage container that preserves its contents when broken and moved. Crafted by applying yellow dye to a standard shulker box, it offers 27 slots of secure inventory space. This block is essential for organized resource gathering and long-range exploration. In Bedrock Edition, it can be broken by hand or any tool to be collected as an item without losing the items inside. Its sunny yellow hue stands out in dark environments, making it a favorite for labeling equipment or specific building materials in complex storage systems."
+    },
+    "minecraft:lime_shulker_box": {
+        id: "minecraft:lime_shulker_box",
+        name: "Lime Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:lime_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Lime Dye)"
+        },
+        description: "The Lime Shulker Box is a vibrant, portable storage solution that keeps its contents intact even when broken and carried. Created by dyeing a regular shulker box with lime dye, it provides 27 slots of inventory capacity. In Bedrock Edition, it features the unique property of being mineable by hand while still dropping as an item. It cannot be opened if obstructed by a solid block above it. Its striking lime green color is perfect for categorization in storage rooms, helping players quickly identify specific blocks, organic materials, or farm outputs during their adventures."
     }
 };
