@@ -372,6 +372,27 @@ export const copperBlocks = {
         },
         description: "The Oxidized Copper Grate is the final oxidation stage of copper grates, featuring a rich teal-green patina. Found naturally in Trial Chambers, these transparent blocks are ideal for ancient or industrial builds. Like other copper variants, they can be waxed with honeycomb to lock their appearance or scraped with an axe to revert them to the weathered state. This allows builders to precisely control the aging of their structures while maintaining the unique lattice-like visibility of the grate block."
     },
+    "minecraft:waxed_oxidized_copper_grate": {
+        id: "minecraft:waxed_oxidized_copper_grate",
+        name: "Waxed Oxidized Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_copper_grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Copper Grate or applied Honeycomb"
+        },
+        description: "Waxed Oxidized Copper Grate is a transparent, lattice-style block from Minecraft 1.21 that has been treated with honeycomb to preserve its beautiful teal-green patina. It is a durable decorative block that allows light to pass through while providing a solid surface to walk on. The wax coating prevents any further change from the elements, ensuring its aged industrial look remains permanent. It is commonly used for vents, railings, and decorative flooring in weathered structures where consistent color is required."
+    },
     "minecraft:oxidized_copper_bulb": {
         id: "minecraft:oxidized_copper_bulb",
         name: "Oxidized Copper Bulb",
@@ -392,6 +413,27 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Oxidized Copper Bulb is the final oxidation stage of copper bulbs introduced in 1.21. Featuring a distinct teal-green patina, it emits the lowest light level of the family at level 4, perfect for dim atmospheric lighting. Like other variants, it toggles between on and off states via redstone pulses. Found in Trial Chambers, it can be waxed with honeycomb to preserve its appearance. It drops itself when mined with a stone pickaxe or higher. This block is highly valued by builders for its authentic aged aesthetic and unique redstone interaction."
+    },
+    "minecraft:waxed_oxidized_copper_bulb": {
+        id: "minecraft:waxed_oxidized_copper_bulb",
+        name: "Waxed Oxidized Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 4,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_copper_bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Copper Bulb or applied Honeycomb"
+        },
+        description: "The Waxed Oxidized Copper Bulb is a decorative light source from Minecraft 1.21 that has been treated with honeycomb to lock in its final oxidation stage. It emits a dim light level of 4 and toggles its state when receiving a redstone pulse, acting as a compact T-flip-flop. Because it is waxed, it permanently retains its teal-green patina and won't revert stage if scraped by an axe unless the wax is removed first. It is a versatile block for atmospheric lighting and redstone circuits that require a consistent, aged aesthetic."
     },
     "minecraft:exposed_copper_door": {
         id: "minecraft:exposed_copper_door",

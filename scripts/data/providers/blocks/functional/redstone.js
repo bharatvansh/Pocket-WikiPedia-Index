@@ -475,6 +475,27 @@ export const redstoneBlocks = {
         },
         description: "The Pale Oak Button is a compact redstone power source crafted from a single pale oak plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its muted, cream-gray color allows it to blend subtly with other pale oak blocks or stand out against darker materials. It can be placed on any side of a solid block, making it a versatile tool for activating doors, machines, or hidden mechanisms."
     },
+    "minecraft:pale_oak_pressure_plate": {
+        id: "minecraft:pale_oak_pressure_plate",
+        name: "Pale Oak Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:pale_oak_pressure_plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks"
+        },
+        description: "The Pale Oak Pressure Plate is a wooden redstone component crafted from two pale oak planks, introduced in Minecraft Bedrock Edition 1.21.50. It features a muted cream-gray color that matches the eerie aesthetic of the Pale Garden biome. Like other wooden pressure plates, it detects players, mobs, and items, emitting a redstone signal of strength 15 when activated. It remains active as long as an entity stands on it and for a short time after they leave. Being a wood product, it is flammable and most efficiently harvested using an axe."
+    },
     "minecraft:light_weighted_pressure_plate": {
         id: "minecraft:light_weighted_pressure_plate",
         name: "Light Weighted Pressure Plate",
