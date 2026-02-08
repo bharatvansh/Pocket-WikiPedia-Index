@@ -1853,5 +1853,68 @@ export const slabsStairsBlocks = {
             yRange: "Savanna Villages, Shipwrecks"
         },
         description: "Acacia Slab is a building block crafted from Acacia Planks, featuring a vibrant orange hue characteristic of the savanna wood set. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a warm and unique aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It generates naturally in savanna villages and shipwrecks, and can be crafted by placing three acacia planks horizontally in a crafting grid."
+    },
+    "minecraft:warped_stairs": {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:warped_stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "Warped Stairs are fire-resistant stairs crafted from warped planks, found in the Warped Forest biome of the Nether. They feature a unique teal and cyan color palette with a fungal texture. Unlike ordinary wooden stairs, they are completely immune to fire and lava, making them ideal for safe building in the Nether. They can be crafted using six warped planks or a stonecutter. Like other wood products, they are best harvested with an axe. Their vibrant color and resistance to burning make them a popular choice for both Nether and Overworld builds."
+    },
+    "minecraft:sandstone_stairs": {
+        id: "minecraft:sandstone_stairs",
+        name: "Sandstone Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:sandstone_stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Villages and Temples"
+        },
+        description: "Sandstone Stairs are building blocks crafted from sandstone, providing a warm, yellowish-tan aesthetic. They naturally generate in desert villages and desert temples, where they are used for roofs, entrances, and decorative accents. These stairs allow players and mobs to change elevation smoothly without jumping. While they have lower blast resistance than stone stairs, they are fire-resistant and ideal for desert-themed architecture. They can be crafted from six sandstone blocks or produced more efficiently using a stonecutter."
+    },
+    "minecraft:quartz_stairs": {
+        id: "minecraft:quartz_stairs",
+        name: "Quartz Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:quartz_stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Blocks of Quartz"
+        },
+        description: "Quartz Stairs are elegant white building blocks crafted from blocks of quartz. They are highly favored for their clean, bright appearance, making them perfect for modern and classical architectural designs. Like other stairs, they facilitate smooth vertical movement and can be placed in various orientations, including upside down for eaves and cornices. They are fire-resistant and provide a sophisticated look to any structure. They can be crafted using six blocks of quartz in a crafting table or made more efficiently in a stonecutter."
     }
 };

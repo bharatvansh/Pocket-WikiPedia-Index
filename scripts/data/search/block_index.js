@@ -1211,6 +1211,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:quartz_stairs",
+        name: "Quartz Stairs",
+        category: "block",
+        icon: "textures/blocks/quartz_block_side",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:grindstone",
         name: "Grindstone",
         category: "block",
@@ -3031,6 +3038,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow/sand
     },
     {
+        id: "minecraft:sandstone_stairs",
+        name: "Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/sandstone_top",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:red_sandstone",
         name: "Red Sandstone",
         category: "block",
@@ -3428,6 +3442,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/crimson_stairs",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:warped_stairs",
+        name: "Warped Stairs",
+        category: "block",
+        icon: "textures/blocks/warped_stairs",
+        themeColor: "§3"
     },
     {
         id: "minecraft:cherry_wood",
