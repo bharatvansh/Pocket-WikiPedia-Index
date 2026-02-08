@@ -833,6 +833,48 @@ export const redstoneBlocks = {
         },
         description: "The Cherry Button is a compact redstone component crafted from a single cherry plank. Introduced in update 1.20, it provides a temporary 1-second (10 redstone ticks) pulse when activated by hand or by projectiles like arrows in Bedrock Edition. Its beautiful pale pink color matches the cherry wood set, making it perfect for discreet or aesthetic inputs in floral and colorful builds. It can be placed on any side of a solid block and is most efficiently harvested with an axe. Like other wooden buttons, it is flammable and offers a unique aesthetic touch to functional redstone contraptions."
     },
+    "minecraft:spruce_button": {
+        id: "minecraft:spruce_button",
+        name: "Spruce Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "The Spruce Button is a compact redstone power source crafted from a single spruce plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its deep, rustic brown color allows it to blend seamlessly with spruce-themed structures or provide a dark, earthy accent to other materials. It can be placed on any face of a solid block. Like other wooden buttons, it can be activated by players, mobs, and projectiles such as arrows or tridents."
+    },
+    "minecraft:dark_oak_button": {
+        id: "minecraft:dark_oak_button",
+        name: "Dark Oak Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Button"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Dark Oak Planks"
+        },
+        description: "The Dark Oak Button is a compact redstone power source crafted from a single dark oak plank. It provides a momentary redstone pulse when pressed, lasting for 15 ticks (1.5 seconds) in Bedrock Edition. Its rich, chocolate-brown color allows it to blend subtly with other dark oak blocks or provide a dark accent to lighter materials. It can be placed on any side of a solid block. Like other wooden buttons, it can be activated by players, mobs, and projectiles like arrows."
+    },
     "minecraft:jungle_pressure_plate": {
         id: "minecraft:jungle_pressure_plate",
         name: "Jungle Pressure Plate",

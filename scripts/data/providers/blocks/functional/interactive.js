@@ -1042,6 +1042,27 @@ export const interactiveBlocks = {
         },
         description: "The Birch Trapdoor is a light-colored functional block crafted from birch planks, featuring a distinct design that resembles a shoji screen. Its clean, pale aesthetic matches the bright look of the birch wood set, making it ideal for modern, minimalist, or Eastern-inspired builds. It functions as a horizontal opening that can be toggled by player interaction or redstone power. Builders often use birch trapdoors as decorative wall panels, shelving accents, or elegant skylights in light-themed structures. It is fully flammable and is best broken with an axe."
     },
+    "minecraft:jungle_door": {
+        id: "minecraft:jungle_door",
+        name: "Jungle Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "The Jungle Door is a wooden door crafted from jungle planks, featuring a warm, pinkish-orange hue and a unique design with a small window. It functions as a two-block high entrance that blocks mob movement while allowing players to pass through. It can be opened manually or through redstone components like pressure plates and levers, making it ideal for tropical or exotic-themed builds. Like other wooden doors in Bedrock Edition, it is flammable and most efficiently harvested with an axe."
+    },
     "minecraft:jungle_trapdoor": {
         id: "minecraft:jungle_trapdoor",
         name: "Jungle Trapdoor",
