@@ -4733,6 +4733,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:orange_shulker_box",
+        name: "Orange Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_orange",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:red_shulker_box",
         name: "Red Shulker Box",
         category: "block",
@@ -4887,6 +4894,13 @@ export const blockIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:light_blue_concrete_powder",
+        name: "Light Blue Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_light_blue",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:lime_concrete_powder",
         name: "Lime Concrete Powder",
         category: "block",
@@ -4912,6 +4926,13 @@ export const blockIndex = [
         name: "Pink Wool",
         category: "block",
         icon: "textures/blocks/wool_colored_pink",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:pink_terracotta",
+        name: "Pink Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_pink",
         themeColor: "§d"
     },
     {
