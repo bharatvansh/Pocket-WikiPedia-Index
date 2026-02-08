@@ -260,6 +260,27 @@ export const miscBuildingBlocks = {
         },
         description: "Pink Terracotta is a smooth, durable building block with a soft pink matte finish. It is obtained by dyeing regular terracotta with pink dye. It provides a sophisticated and earthy tone for architectural projects, offering higher blast resistance than wool or concrete powder. In Bedrock Edition, a pickaxe is required to harvest it; breaking it by hand will result in no drops. It can also be smelted into pink glazed terracotta for more intricate designs, blending well with both natural and modern materials."
     },
+    "minecraft:gray_terracotta": {
+        id: "minecraft:gray_terracotta",
+        name: "Gray Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:gray_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Gray Terracotta is a smooth, durable building block with a neutral gray matte finish. It is obtained by dyeing terracotta with gray dye. It provides a sophisticated and earthy tone for architectural projects, offering higher blast resistance than wool or concrete powder. In Bedrock Edition, a pickaxe is required to harvest it correctly; breaking it by hand results in no drops. It can also be smelted into gray glazed terracotta for more intricate designs."
+    },
     "minecraft:black_glazed_terracotta": {
         id: "minecraft:black_glazed_terracotta",
         name: "Black Glazed Terracotta",
