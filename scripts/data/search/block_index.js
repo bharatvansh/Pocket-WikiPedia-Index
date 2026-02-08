@@ -3787,6 +3787,27 @@ export const blockIndex = [
         themeColor: "§6" // pinkish-brown
     },
     {
+        id: "minecraft:polished_andesite_stairs",
+        name: "Polished Andesite Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_andesite_smooth",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:polished_diorite_stairs",
+        name: "Polished Diorite Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_diorite_smooth",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:polished_granite_stairs",
+        name: "Polished Granite Stairs",
+        category: "block",
+        icon: "textures/blocks/stone_granite_smooth",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:large_fern",
         name: "Large Fern",
         category: "block",
