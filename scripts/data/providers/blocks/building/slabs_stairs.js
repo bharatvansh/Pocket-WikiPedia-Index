@@ -2000,5 +2000,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Blocks of Quartz"
         },
         description: "Quartz Stairs are elegant white building blocks crafted from blocks of quartz. They are highly favored for their clean, bright appearance, making them perfect for modern and classical architectural designs. Like other stairs, they facilitate smooth vertical movement and can be placed in various orientations, including upside down for eaves and cornices. They are fire-resistant and provide a sophisticated look to any structure. They can be crafted using six blocks of quartz in a crafting table or made more efficiently in a stonecutter."
+    },
+    "minecraft:red_sandstone_stairs": {
+        id: "minecraft:red_sandstone_stairs",
+        name: "Red Sandstone Stairs",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_sandstone_stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Villages and Temples"
+        },
+        description: "Red Sandstone Stairs are building blocks crafted from red sandstone, offering a warm and vibrant orange-red aesthetic. They naturally generate in desert villages and desert temples, where they are used for roofs, entrances, and decorative accents. These stairs allow for smooth elevation changes without jumping. While they have lower blast resistance than stone stairs, they are fire-resistant and ideal for mesa or desert-themed architecture. In Bedrock Edition, they can be crafted from six red sandstone blocks or produced efficiently using a stonecutter."
     }
 };

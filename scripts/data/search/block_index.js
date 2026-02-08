@@ -3031,11 +3031,25 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:orange_glazed_terracotta",
+        name: "Orange Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_orange",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:brown_terracotta",
         name: "Brown Terracotta",
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_brown",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:gray_terracotta",
+        name: "Gray Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_gray",
+        themeColor: "§8"
     },
     {
         id: "minecraft:sweet_berry_bush",
@@ -4506,6 +4520,13 @@ export const blockIndex = [
         name: "Smooth Red Sandstone Stairs",
         category: "block",
         icon: "textures/blocks/red_sandstone_smooth",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:red_sandstone_stairs",
+        name: "Red Sandstone Stairs",
+        category: "block",
+        icon: "textures/blocks/red_sandstone_top",
         themeColor: "§c"
     },
     {
