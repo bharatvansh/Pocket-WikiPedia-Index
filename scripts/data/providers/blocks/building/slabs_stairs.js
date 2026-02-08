@@ -1038,6 +1038,69 @@ export const slabsStairsBlocks = {
         },
         description: "Granite Stairs offer a warm, earthy-red stone texture for architectural designs. They are perfect for creating rustic accents, sloped roofs, and grand staircases that require a more colorful stone palette than standard gray variants. These stairs are formed by crafting six granite blocks in a stair pattern or by using a stonecutter. As a stone material, they are non-flammable and explosion-resistant. Granite stairs pair excellently with other warm blocks like bricks or sandstone, providing both functional utility and a distinctive aesthetic touch to any structure."
     },
+    "minecraft:polished_andesite_stairs": {
+        id: "minecraft:polished_andesite_stairs",
+        name: "Polished Andesite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_andesite_stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Andesite Stairs are a smooth, gray decorative building block crafted from polished andesite. They provide a refined and clean aesthetic for staircases, sloped roofs, and architectural detailing in both modern and traditional builds. Like other stone-based stairs, they are fire-resistant and have a blast resistance of 6.0 in Bedrock Edition. They can be waterlogged and placed in various orientations to create complex shapes like cornices and eaves."
+    },
+    "minecraft:polished_diorite_stairs": {
+        id: "minecraft:polished_diorite_stairs",
+        name: "Polished Diorite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_diorite_stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Diorite Stairs offer a bright, polished white and gray speckled appearance for vertical transitions. Crafted from polished diorite, they are ideal for creating high-contrast architectural accents and elegant staircases in Bedrock Edition. They share the same durability as other stone-based variants and are immune to fire. Their smooth, refined texture makes them a favorite for modern interior designs and sophisticated exterior trim where a clean, stone look is desired."
+    },
+    "minecraft:polished_granite_stairs": {
+        id: "minecraft:polished_granite_stairs",
+        name: "Polished Granite Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_granite_stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Granite Stairs provide a warm, pinkish-brown stone texture with a refined, smooth finish. They are perfect for adding color and sophistication to staircases, sloped roofs, and decorative cornices in Bedrock Edition. Crafted from polished granite, these stairs are fire-resistant and offer solid protection against explosions. Their rich, earthy tones pair well with other warm blocks like bricks and sandstone, making them a versatile choice for a wide range of architectural styles and structural details."
+    },
     "minecraft:oak_slab": {
         id: "minecraft:oak_slab",
         name: "Oak Slab",
