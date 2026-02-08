@@ -3241,6 +3241,13 @@ export const blockIndex = [
         themeColor: "§c"
     },
     {
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_black",
+        themeColor: "§0"
+    },
+    {
         id: "minecraft:sunflower",
         name: "Sunflower",
         category: "block",
@@ -4775,6 +4782,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:purple_shulker_box",
+        name: "Purple Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_purple",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:red_shulker_box",
         name: "Red Shulker Box",
         category: "block",
@@ -4990,5 +5004,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_yellow",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b"
     }
 ];
