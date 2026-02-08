@@ -72,6 +72,27 @@ export const glassBlocks = {
         },
         description: "White Stained Glass is a transparent block created by surrounding a piece of White Dye with eight glass blocks. It retains the transparency of regular glass while adding a soft white tint, perfect for modern windows or decorative light filters. Like regular glass, it is fragile and requires a Silk Touch tool to be harvested; otherwise, it shatters when broken."
     },
+    "minecraft:black_stained_glass": {
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:black_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted (Glass x8 + Black Dye)"
+        },
+        description: "Black Stained Glass is a transparent decorative block created by surrounding black dye with eight glass blocks. It retains the transparency of regular glass while adding a sleek, dark tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is ideal for creating tinted windows, modern architectural designs, and decorative light filters that require a more opaque or sophisticated look while still allowing some visibility and light to pass through."
+    },
     "minecraft:blue_stained_glass": {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",

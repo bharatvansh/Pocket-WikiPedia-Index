@@ -393,6 +393,27 @@ export const copperBlocks = {
         },
         description: "Waxed Oxidized Copper Grate is a transparent, lattice-style block from Minecraft 1.21 that has been treated with honeycomb to preserve its beautiful teal-green patina. It is a durable decorative block that allows light to pass through while providing a solid surface to walk on. The wax coating prevents any further change from the elements, ensuring its aged industrial look remains permanent. It is commonly used for vents, railings, and decorative flooring in weathered structures where consistent color is required."
     },
+    "minecraft:waxed_weathered_copper_grate": {
+        id: "minecraft:waxed_weathered_copper_grate",
+        name: "Waxed Weathered Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_copper_grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Copper Grate or applied Honeycomb"
+        },
+        description: "Waxed Weathered Copper Grate is a transparent, lattice-style block from Minecraft 1.21 that has been treated with honeycomb to lock in its distinct blue-green oxidation stage. This process prevents further aging, ensuring the block maintains its weathered industrial appearance indefinitely. It allows light to pass through and can be walked upon, making it ideal for vents, railings, and decorative walkways. In Bedrock Edition, it can be mined with any pickaxe (Wood tier or higher). The wax coating can be removed with an axe if the player wishes to resume the oxidation process."
+    },
     "minecraft:oxidized_copper_bulb": {
         id: "minecraft:oxidized_copper_bulb",
         name: "Oxidized Copper Bulb",
