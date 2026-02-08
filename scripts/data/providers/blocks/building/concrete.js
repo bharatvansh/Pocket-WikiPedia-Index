@@ -472,5 +472,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Lime Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bright lime-green hue. It is crafted from sand, gravel, and lime dye. When this block comes into contact with water, it instantly hardens into smooth Lime Concrete. Because it is affected by gravity, it will fall if the supporting block beneath it is removed, making it useful for certain traps, landscaping, or temporary structures. It serves as the essential precursor for producing vibrant, durable lime-colored construction materials in Bedrock Edition."
+    },
+    "minecraft:pink_concrete": {
+        id: "minecraft:pink_concrete",
+        name: "Pink Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:pink_concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Pink Concrete is a solid, vibrantly colored building block with a smooth, matte texture. It is formed when Pink Concrete Powder comes into contact with water, solidifying instantly. Highly valued for modern and aesthetic builds, it provides a clean, consistent pink color without the distracting patterns found in other blocks. Unlike pink wool, it is completely fire-resistant and has better blast resistance, making it a durable and safe choice for permanent structures and decorative pixel art."
     }
 };

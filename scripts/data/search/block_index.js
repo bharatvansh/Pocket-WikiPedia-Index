@@ -4796,10 +4796,31 @@ export const blockIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:magenta_wool",
+        name: "Magenta Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:pink_concrete",
+        name: "Pink Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_pink",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:pink_wool",
         name: "Pink Wool",
         category: "block",
         icon: "textures/blocks/wool_colored_pink",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:yellow_terracotta",
+        name: "Yellow Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_yellow",
+        themeColor: "§e"
     }
 ];

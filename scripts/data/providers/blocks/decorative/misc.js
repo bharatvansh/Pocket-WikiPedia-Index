@@ -978,5 +978,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Pink Sheep"
         },
         description: "Pink Wool is a soft, decorative block primarily obtained by shearing pink sheep or crafting white wool with pink dye. Its gentle pink hue makes it a popular choice for aesthetic builds, pixel art, and cozy interior designs. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being triggered by nearby footsteps. While it is highly flammable and offers low blast resistance, its versatility in crafting beds, banners, and carpets makes it an essential material for any creative builder."
+    },
+    "minecraft:magenta_wool": {
+        id: "minecraft:magenta_wool",
+        name: "Magenta Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:magenta_wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Dyed Sheep"
+        },
+        description: "Magenta Wool is a vibrant decorative block obtained by shearing magenta sheep or crafting white wool with magenta dye. Like all wool in Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being activated. It is highly flammable and weak to explosions, but its rich color makes it a favorite for artistic builds, carpets, and banners. It can also be used as a fuel in furnaces."
     }
 };
