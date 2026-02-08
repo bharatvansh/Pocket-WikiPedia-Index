@@ -3206,11 +3206,11 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
-        id: "minecraft:white_stained_glass",
-        name: "White Stained Glass",
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
         category: "block",
-        icon: "textures/blocks/glass_white",
-        themeColor: "§f" // white
+        icon: "textures/blocks/glass_black",
+        themeColor: "§0"
     },
     {
         id: "minecraft:blue_stained_glass",
@@ -3220,11 +3220,25 @@ export const blockIndex = [
         themeColor: "§1"
     },
     {
+        id: "minecraft:green_stained_glass",
+        name: "Green Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_green",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:red_stained_glass",
         name: "Red Stained Glass",
         category: "block",
         icon: "textures/blocks/glass_red",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:white_stained_glass",
+        name: "White Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // white
     },
     {
         id: "minecraft:sunflower",
@@ -4934,6 +4948,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_pink",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:gray_terracotta",
+        name: "Gray Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_gray",
+        themeColor: "§8"
     },
     {
         id: "minecraft:red_terracotta",
