@@ -408,5 +408,68 @@ export const containerBlocks = {
             yRange: "Crafted (Shulker Box + Orange Dye)"
         },
         description: "The Orange Shulker Box is a vibrant portable storage container that retains its contents even when broken. It is created by dyeing a regular shulker box with orange dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, and its bright color makes it ideal for organizing and categorizing resources."
+    },
+    "minecraft:cyan_shulker_box": {
+        id: "minecraft:cyan_shulker_box",
+        name: "Cyan Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cyan_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Cyan Dye)"
+        },
+        description: "The Cyan Shulker Box is a versatile portable storage solution that retains its items even when broken and carried in the inventory. It is crafted by combining a standard shulker box with cyan dye, offering a vibrant teal aesthetic. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, making it ideal for organized and colorful storage systems."
+    },
+    "minecraft:green_shulker_box": {
+        id: "minecraft:green_shulker_box",
+        name: "Green Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:green_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Green Dye)"
+        },
+        description: "The Green Shulker Box is a sturdy portable storage container that preserves its contents when broken, allowing for efficient item transport. Created by dyeing a regular shulker box with green dye, it provides 27 slots of secure inventory space. This block is indispensable for large-scale resource gathering and organization. In Bedrock Edition, it can be broken by hand or any tool to be collected as an item without losing the items inside. Its deep forest-green color is excellent for categorizing organic materials or farm outputs in complex storage systems."
+    },
+    "minecraft:brown_shulker_box": {
+        id: "minecraft:brown_shulker_box",
+        name: "Brown Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:brown_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Brown Dye)"
+        },
+        description: "The Brown Shulker Box is a specialized portable storage block that retains all stored items when broken and moved. It is crafted by combining a standard shulker box with brown dye, providing an earthy tone that blends well with rustic or industrial environments. Offering 27 slots of inventory space, it is a vital tool for inventory management during long adventures. In Bedrock Edition, it can be mined with any tool or by hand. It cannot be opened if obstructed by a solid block above, and its natural color is perfect for organizing wood or earth-based materials."
     }
 };
