@@ -1497,6 +1497,69 @@ export const slabsStairsBlocks = {
         },
         description: "Polished Blackstone Stairs are a sleek, dark building block crafted from polished blackstone. They provide a sophisticated and somber aesthetic, perfect for fortresses, gothic-style architecture, and Nether-based structures. With a hardness of 1.5 and a blast resistance of 6.0, they offer reliable durability against most environmental hazards. Like other stairs, they allow for smooth elevation changes and can be waterlogged in Bedrock Edition. They are primarily obtained through crafting or by using a stonecutter on polished blackstone blocks."
     },
+    "minecraft:polished_blackstone_brick_stairs": {
+        id: "minecraft:polished_blackstone_brick_stairs",
+        name: "Polished Blackstone Brick Stairs",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_blackstone_brick_stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Stairs are a decorative building block crafted from Polished Blackstone Bricks. They share the same dark, ornate brick pattern and durability as their base block, making them ideal for creating intricate staircases and detailing in dark-themed constructions. They generate naturally within Bastion Remnants and can be crafted using a stonecutter or by arranging Polished Blackstone Bricks in a stair pattern. Like other Blackstone variants, they are highly resistant to explosions and provide a sophisticated aesthetic for Nether constructions."
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+        id: "minecraft:polished_blackstone_brick_slab",
+        name: "Polished Blackstone Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_blackstone_brick_slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Slabs are half-height versions of Polished Blackstone Bricks, used for flooring, ceilings, and architectural layering. They exhibit a detailed brick texture, providing a clean and dark finish. Naturally found in Bastion Remnants, these slabs are often used in bridges and decorative trims. They are crafted from Polished Blackstone Bricks or via a stonecutter. They are non-flammable and possess high blast resistance, ensuring that constructions remain intact in the Nether while being placeable in both upper and lower halves of a block space."
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+        id: "minecraft:polished_blackstone_brick_wall",
+        name: "Polished Blackstone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_blackstone_brick_wall"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Brick Walls are decorative barriers that connect to adjacent blocks and other walls. They feature the same refined brick design as Polished Blackstone Bricks, offering a dark and sturdy option for fencing or structural support. These walls generate naturally in Bastion Remnants and are crafted from Polished Blackstone Bricks or by using a stonecutter. When placed, they automatically form posts and connect to neighboring blocks, creating a seamless barrier. Their high durability makes them perfect for securing areas against ghasts and other Nether threats."
+    },
     "minecraft:birch_slab": {
         id: "minecraft:birch_slab",
         name: "Birch Slab",
