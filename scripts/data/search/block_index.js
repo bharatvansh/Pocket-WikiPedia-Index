@@ -3395,6 +3395,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:jungle_door",
+        name: "Jungle Door",
+        category: "block",
+        icon: "textures/items/jungle_door",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:acacia_stairs",
         name: "Acacia Stairs",
         category: "block",
@@ -4390,6 +4397,13 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:spruce_button",
+        name: "Spruce Button",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:spruce_door",
         name: "Spruce Door",
         category: "block",
@@ -4422,6 +4436,13 @@ export const blockIndex = [
         name: "Polished Blackstone Stairs",
         category: "block",
         icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_button",
+        name: "Dark Oak Button",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
         themeColor: "§8"
     },
     {
