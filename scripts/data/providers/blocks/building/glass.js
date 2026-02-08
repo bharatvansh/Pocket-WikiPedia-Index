@@ -114,6 +114,48 @@ export const glassBlocks = {
         },
         description: "Red Stained Glass is a vibrant, transparent decorative block created by surrounding a piece of red dye with eight glass blocks. It retains the transparency of regular glass while adding a bold red tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs, offering a striking visual impact in both modern and traditional builds."
     },
+    "minecraft:green_stained_glass": {
+        id: "minecraft:green_stained_glass",
+        name: "Green Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:green_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Green Stained Glass is a transparent decorative block created by surrounding a piece of green dye with eight glass blocks. It retains the transparency of regular glass while adding a rich green tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs, providing a natural and vibrant aesthetic."
+    },
+    "minecraft:brown_stained_glass": {
+        id: "minecraft:brown_stained_glass",
+        name: "Brown Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:brown_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Stained Glass is a transparent decorative block created by surrounding brown dye with eight glass blocks. It retains the transparency of regular glass while adding an earthy brown tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons, especially in rustic or autumn-themed builds where a warmer, muted tone is desired."
+    },
     "minecraft:glass_pane": {
         id: "minecraft:glass_pane",
         name: "Glass Pane",
