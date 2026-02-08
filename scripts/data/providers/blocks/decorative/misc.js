@@ -916,6 +916,69 @@ export const miscDecorativeBlocks = {
         },
         description: "Black Wool is a dark decorative block obtained by shearing black sheep or crafting white wool with black dye. It is one of the few wool colors that can be found naturally on sheep. Like all wool blocks, it is highly flammable and offers low blast resistance. In Bedrock Edition, it can dampen vibrations for Sculk Sensors and prevent Sculk Shrieker activation. Its deep black tone makes it ideal for pixel art, shadows, and sleek modern designs. It can also be used as a fuel in furnaces, though it is relatively inefficient."
     },
+    "minecraft:brown_wool": {
+        id: "minecraft:brown_wool",
+        name: "Brown Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:brown_wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Brown Sheep"
+        },
+        description: "Brown Wool is a decorative building block obtained by shearing brown sheep or by crafting white wool with brown dye. It is one of the natural colors that can appear on sheep in the wild, though it is less common than white. Like other wool blocks, it is highly flammable and provides low blast resistance. In Bedrock Edition, wool has the unique ability to dampen vibrations, which prevents Sculk Sensors from detecting movement on or near it. It is commonly used for earthy-toned architecture, pixel art, and as a component for crafting brown carpets and beds."
+    },
+    "minecraft:gray_wool": {
+        id: "minecraft:gray_wool",
+        name: "Gray Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:gray_wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Gray Sheep"
+        },
+        description: "Gray Wool is a somber decorative block obtained by shearing gray sheep or combining white wool with gray dye. It is a natural color that can occasionally be found on sheep in the Overworld. In Bedrock Edition, wool blocks possess acoustic dampening properties, effectively blocking vibrations from reaching Sculk Sensors and preventing the activation of Sculk Shriekers by movement. While it is weak against explosions and highly flammable, its neutral tone makes it an excellent choice for industrial designs, shadows in pixel art, and creating transition gradients in colorful builds."
+    },
+    "minecraft:cyan_wool": {
+        id: "minecraft:cyan_wool",
+        name: "Cyan Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cyan_wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from White Wool and Cyan Dye"
+        },
+        description: "Cyan Wool is a vibrant decorative block crafted by applying cyan dye to white wool or shearing a cyan-dyed sheep. It features a rich, blue-green hue that provides a striking pop of color for any build. Like all wool variants in Bedrock Edition, it functions as an acoustic insulator, preventing Sculk Sensors from detecting vibrations and allowing for stealthy movement in Deep Dark biomes. Although it is flammable and offers minimal protection against blasts, its unique color is highly valued for modern architecture, aquatic-themed designs, and detailed pixel art."
+    },
     "minecraft:blue_carpet": {
         id: "minecraft:blue_carpet",
         name: "Blue Carpet",

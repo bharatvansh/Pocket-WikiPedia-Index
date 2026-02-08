@@ -2261,6 +2261,27 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:brown_wool",
+        name: "Brown Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_brown",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:gray_wool",
+        name: "Gray Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_gray",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:cyan_wool",
+        name: "Cyan Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_cyan",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:coal_block",
         name: "Block of Coal",
         category: "block",
