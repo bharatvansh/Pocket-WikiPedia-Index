@@ -2527,6 +2527,13 @@ export const blockIndex = [
         themeColor: "§7" // Gray
     },
     {
+        id: "minecraft:dead_horn_coral_fan",
+        name: "Dead Horn Coral Fan",
+        category: "block",
+        icon: "textures/blocks/dead_horn_coral_fan",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",
@@ -4768,6 +4775,13 @@ export const blockIndex = [
         themeColor: "§1"
     },
     {
+        id: "minecraft:light_blue_shulker_box",
+        name: "Light Blue Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_light_blue",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:black_terracotta",
         name: "Black Terracotta",
         category: "block",
@@ -4969,6 +4983,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:purple_terracotta",
+        name: "Purple Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_purple",
+        themeColor: "§5"
     },
     {
         id: "minecraft:cyan_glazed_terracotta",
