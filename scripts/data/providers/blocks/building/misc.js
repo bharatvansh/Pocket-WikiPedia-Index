@@ -239,6 +239,27 @@ export const miscBuildingBlocks = {
         },
         description: "Magenta Terracotta is a smooth, durable building block with a muted purple-pink matte finish. It is obtained by dyeing regular terracotta with magenta dye. It provides a sophisticated and earthy tone for architectural projects, offering higher blast resistance than wool or concrete powder. In Bedrock Edition, a pickaxe is required to harvest it; breaking it by hand will result in no drops. It can also be smelted into magenta glazed terracotta for more intricate designs."
     },
+    "minecraft:purple_terracotta": {
+        id: "minecraft:purple_terracotta",
+        name: "Purple Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:purple_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Purple Terracotta is a solid, durable building block with a muted purple matte finish. It is obtained by dyeing regular terracotta with purple dye. In Bedrock Edition, it is a favored material for large-scale architectural projects due to its sophisticated tone and higher blast resistance than wool or concrete powder. It requires a pickaxe for harvesting, as breaking it by hand results in no drops. It can also be further smelted into purple glazed terracotta to create intricate, patterned floors and walls."
+    },
     "minecraft:pink_terracotta": {
         id: "minecraft:pink_terracotta",
         name: "Pink Terracotta",
