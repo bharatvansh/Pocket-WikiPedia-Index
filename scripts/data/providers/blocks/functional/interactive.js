@@ -1335,5 +1335,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Crimson Trapdoor is a fire-resistant functional block crafted from Crimson Planks. Introduced in the Nether Update, it serves as a horizontal door that can be toggled by players or redstone signals. Unlike Overworld trapdoors, it is completely immune to fire and lava, making it ideal for builds in the Nether. In Bedrock Edition, it has a hardness of 3.0 and is most efficiently broken with an axe."
+    },
+    "minecraft:warped_trapdoor": {
+        id: "minecraft:warped_trapdoor",
+        name: "Warped Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:warped_trapdoor"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Trapdoor is a fire-resistant functional block crafted from warped planks, native to the Nether's Warped Forest. It serves as a horizontal door that can be toggled by player interaction or redstone signals. Unlike Overworld wooden trapdoors, it is completely immune to fire and lava, making it essential for builds in hazardous dimensions. It features a unique teal color and a strange, alien-like texture that matches the warped wood set. In Bedrock Edition, it has a hardness of 3.0 and is most efficiently harvested using an axe."
     }
 };

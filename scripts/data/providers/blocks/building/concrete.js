@@ -493,5 +493,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Pink Concrete is a solid, vibrantly colored building block with a smooth, matte texture. It is formed when Pink Concrete Powder comes into contact with water, solidifying instantly. Highly valued for modern and aesthetic builds, it provides a clean, consistent pink color without the distracting patterns found in other blocks. Unlike pink wool, it is completely fire-resistant and has better blast resistance, making it a durable and safe choice for permanent structures and decorative pixel art."
+    },
+    "minecraft:purple_concrete": {
+        id: "minecraft:purple_concrete",
+        name: "Purple Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:purple_concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Purple Concrete is a solid, vibrant building block crafted by combining purple concrete powder with water. It offers a smooth, matte finish that is highly valued for modern architecture, pixel art, and large-scale creative projects. Unlike concrete powder, it is not affected by gravity and must be mined with a pickaxe of wood tier or higher to be collected. Its rich purple tone provides a cleaner aesthetic than purple wool or terracotta, and its blast resistance makes it a durable choice for permanent structures in Bedrock Edition."
     }
 };
