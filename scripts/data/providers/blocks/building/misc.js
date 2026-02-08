@@ -448,5 +448,68 @@ export const miscBuildingBlocks = {
             yRange: "Badlands"
         },
         description: "Red Terracotta is a smooth, earthy building block found naturally in the Badlands biome. It is created by smelting clay and applying red dye, or found in massive strata in the wild. Its vibrant yet matte red appearance makes it ideal for southwestern architecture, desert-themed builds, or Mediterranean-style houses. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand yields nothing. It possesses high blast resistance and can be further smelted into red glazed terracotta for intricate decorative patterns."
+    },
+    "minecraft:orange_glazed_terracotta": {
+        id: "minecraft:orange_glazed_terracotta",
+        name: "Orange Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_glazed_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Orange Terracotta"
+        },
+        description: "Orange Glazed Terracotta is a vibrant decorative block with a unique, ornate pattern that resembles a stylized sun or geometric flower. It is created by smelting orange terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create large, recurring circular designs when four blocks are placed together, providing a warm and intricate look to floors and walls in any construction."
+    },
+    "minecraft:yellow_glazed_terracotta": {
+        id: "minecraft:yellow_glazed_terracotta",
+        name: "Yellow Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:yellow_glazed_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Yellow Terracotta"
+        },
+        description: "Yellow Glazed Terracotta is a bright decorative block featuring a stylized, curved floral pattern with sunny yellow and tan tones. It is created by smelting yellow terracotta in a furnace. This block is notably immune to slime and honey blocks, providing utility in redstone contraptions where specific blocks must remain stationary. Its directional property allows players to create flowing, organic geometric designs on surfaces. When harvested, it requires a pickaxe of any tier; breaking it by hand yields no drops, following the standard behavior for all glazed terracotta."
+    },
+    "minecraft:magenta_glazed_terracotta": {
+        id: "minecraft:magenta_glazed_terracotta",
+        name: "Magenta Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:magenta_glazed_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Magenta Terracotta"
+        },
+        description: "Magenta Glazed Terracotta is a unique decorative block famous for its distinctive arrow-like pattern. Created by smelting magenta terracotta, its vibrant purple-pink design is frequently used by players to create directional cues, markers, or complex geometric floors. Like other glazed terracotta blocks, it cannot be pulled or pushed by slime or honey blocks, making it an essential component for certain redstone machines. By rotating the block during placement, players can form intricate four-way arrows or spinning star designs, adding both color and function to their builds."
     }
 };

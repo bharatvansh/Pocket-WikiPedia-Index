@@ -4950,6 +4950,27 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:orange_glazed_terracotta",
+        name: "Orange Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_orange",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:yellow_glazed_terracotta",
+        name: "Yellow Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_yellow",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:magenta_glazed_terracotta",
+        name: "Magenta Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
         id: "minecraft:lime_terracotta",
         name: "Lime Terracotta",
         category: "block",
