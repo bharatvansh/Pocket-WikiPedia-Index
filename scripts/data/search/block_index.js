@@ -259,6 +259,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:exposed_cut_copper",
+        name: "Exposed Cut Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_cut_copper",
+        themeColor: "§6" // orange/copper
+    },
+    {
         id: "minecraft:oxidized_cut_copper",
         name: "Oxidized Cut Copper",
         category: "block",
@@ -1720,6 +1727,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pitcher_crop_stage_3",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:torchflower_crop",
+        name: "Torchflower Crop",
+        category: "block",
+        icon: "textures/blocks/torchflower_crop_stage1",
+        themeColor: "§e" // yellow
     },
     {
         id: "minecraft:short_grass",
@@ -3274,6 +3288,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_red",
         themeColor: "§c"
+    },
+    {
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_black",
+        themeColor: "§0" // black
     },
     {
         id: "minecraft:sunflower",

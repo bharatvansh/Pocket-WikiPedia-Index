@@ -120,6 +120,27 @@ export const copperBlocks = {
         },
         description: "Cut Copper is a decorative building block crafted by stonecutting or crafting from four blocks of copper. It features a unique tiled texture that makes it ideal for industrial flooring, modern roofs, and accent walls. Like regular copper blocks, cut copper undergoes four stages of oxidation, changing from orange to teal over time. It can be waxed to preserve a specific color or scraped to reverse the aging process."
     },
+    "minecraft:exposed_cut_copper": {
+        id: "minecraft:exposed_cut_copper",
+        name: "Exposed Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Exposed Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Exposed Cut Copper is a decorative metal block that represents the first stage of oxidation for cut copper. It features a unique tiled texture with a slightly tarnished, brownish-orange appearance. Like other copper variants, it can be waxed with honeycomb to lock its current look or scraped with an axe to revert it to a fresh state. It naturally forms from cut copper over time or can be crafted using a stonecutter. In Bedrock Edition, it requires a stone pickaxe or higher to harvest; otherwise, it drops nothing. It is ideal for adding a sense of age to industrial builds."
+    },
     "minecraft:oxidized_cut_copper": {
         id: "minecraft:oxidized_cut_copper",
         name: "Oxidized Cut Copper",
