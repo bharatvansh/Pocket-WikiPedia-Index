@@ -387,5 +387,26 @@ export const containerBlocks = {
             yRange: "Crafted (Shulker Box + Lime Dye)"
         },
         description: "The Lime Shulker Box is a vibrant, portable storage solution that keeps its contents intact even when broken and carried. Created by dyeing a regular shulker box with lime dye, it provides 27 slots of inventory capacity. In Bedrock Edition, it features the unique property of being mineable by hand while still dropping as an item. It cannot be opened if obstructed by a solid block above it. Its striking lime green color is perfect for categorization in storage rooms, helping players quickly identify specific blocks, organic materials, or farm outputs during their adventures."
+    },
+    "minecraft:orange_shulker_box": {
+        id: "minecraft:orange_shulker_box",
+        name: "Orange Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Orange Dye)"
+        },
+        description: "The Orange Shulker Box is a vibrant portable storage container that retains its contents even when broken. It is created by dyeing a regular shulker box with orange dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or by hand to be relocated. It cannot be opened if there is a solid block directly above it, and its bright color makes it ideal for organizing and categorizing resources."
     }
 };

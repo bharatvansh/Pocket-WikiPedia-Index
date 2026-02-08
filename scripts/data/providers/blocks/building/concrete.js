@@ -452,6 +452,27 @@ export const concreteBlocks = {
         },
         description: "Light Blue Concrete is a solid, vibrant building block characterized by its smooth, matte finish and pale blue color. It is produced by exposing Light Blue Concrete Powder to water, causing it to solidify instantly. Builders favor this block for modern architecture, aquatic-themed projects, and pixel art due to its uniform color and lack of texture. In Bedrock Edition, it is non-flammable and more blast-resistant than wool, making it a durable choice for colorful, permanent structures. Its clean appearance ensures a professional look in any creative build."
     },
+    "minecraft:light_blue_concrete_powder": {
+        id: "minecraft:light_blue_concrete_powder",
+        name: "Light Blue Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_concrete_powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a soft light blue hue. It is crafted from sand, gravel, and light blue dye. When this block comes into contact with water, it instantly hardens into smooth Light Blue Concrete. Because it is affected by gravity, it will fall if the supporting block beneath it is removed, making it useful for certain traps, landscaping, or temporary structures. It serves as the essential precursor for producing vibrant, durable light blue construction materials."
+    },
     "minecraft:lime_concrete_powder": {
         id: "minecraft:lime_concrete_powder",
         name: "Lime Concrete Powder",
