@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_oxidized_copper_grate",
+        name: "Waxed Oxidized Copper Grate",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_grate",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
         category: "block",
@@ -3346,6 +3353,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:pale_oak_pressure_plate",
+        name: "Pale Oak Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/pale_oak_planks",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:diamond_ore",
         name: "Diamond Ore",
         category: "block",
@@ -3933,6 +3947,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/copper_bulb",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_oxidized_copper_bulb",
+        name: "Waxed Oxidized Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_bulb",
+        themeColor: "§2" // dark green (fully oxidized)
     },
     {
         id: "minecraft:bamboo_mosaic_slab",
