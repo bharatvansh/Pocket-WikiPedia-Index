@@ -470,6 +470,27 @@ export const miscBuildingBlocks = {
         },
         description: "Gray Terracotta is a smooth, durable building block with a muted, dark gray matte finish. It is obtained by smelting clay and applying gray dye, or can be found naturally generating in the Badlands biome. In Bedrock Edition, it requires a pickaxe to harvest correctly; breaking it by hand results in no drops. Its neutral, industrial tone makes it a favorite for modern architectural designs, providing a sleek and sophisticated look that contrasts well with brighter materials like concrete. It can also be smelted into gray glazed terracotta for more intricate patterns."
     },
+    "minecraft:light_gray_terracotta": {
+        id: "minecraft:light_gray_terracotta",
+        name: "Light Gray Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands, Savanna Villages"
+        },
+        description: "Light Gray Terracotta is a smooth, durable building block with a neutral, light gray matte finish. It generates naturally in the Badlands biome and can be found in some Savanna village houses. It is obtained by dyeing regular terracotta with light gray dye. In Bedrock Edition, a pickaxe is required to harvest it correctly; breaking it by hand yields no drops. Its clean, industrial tone makes it ideal for modern architecture and providing subtle contrast in diverse builds. It can also be smelted into light gray glazed terracotta."
+    },
     "minecraft:orange_glazed_terracotta": {
         id: "minecraft:orange_glazed_terracotta",
         name: "Orange Glazed Terracotta",
