@@ -535,5 +535,68 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Purple Concrete is a solid, vibrant building block crafted by combining purple concrete powder with water. It offers a smooth, matte finish that is highly valued for modern architecture, pixel art, and large-scale creative projects. Unlike concrete powder, it is not affected by gravity and must be mined with a pickaxe of wood tier or higher to be collected. Its rich purple tone provides a cleaner aesthetic than purple wool or terracotta, and its blast resistance makes it a durable choice for permanent structures in Bedrock Edition."
+    },
+    "minecraft:green_concrete": {
+        id: "minecraft:green_concrete",
+        name: "Green Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:green_concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Green Concrete is a solid, vibrant building block known for its deep forest-green hue and smooth, matte texture. It is created by exposing Green Concrete Powder to water, which hardens it instantly. In Minecraft Bedrock Edition, it is non-flammable and more blast-resistant than wool, making it a durable choice for colorful, permanent structures. It requires a pickaxe of any tier to mine effectively. Its uniform color ensures a clean appearance in modern architecture and large-scale pixel art."
+    },
+    "minecraft:green_concrete_powder": {
+        id: "minecraft:green_concrete_powder",
+        name: "Green Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:green_concrete_powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Green Concrete Powder is a gravity-affected building block with a grainy texture and a deep green color. It is crafted using sand, gravel, and green dye. When it comes into contact with water, it instantly solidifies into smooth Green Concrete. Like sand and gravel, it falls if the block beneath it is removed, which can be useful for certain traps or temporary structures in Bedrock Edition. It is best harvested with a shovel for efficiency and is primarily used as a precursor to the more durable concrete variant."
+    },
+    "minecraft:light_gray_concrete": {
+        id: "minecraft:light_gray_concrete",
+        name: "Light Gray Concrete",
+        hardness: 1.8,
+        blastResistance: 1.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_concrete"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Gray Concrete is a versatile building block with a smooth, matte finish and a neutral tone. It is formed when Light Gray Concrete Powder is hydrated by water, solidifying it into a durable form. In Minecraft Bedrock Edition, it provides a clean, professional look for modern architecture and industrial designs. Unlike wool, it is non-flammable and offers better blast resistance, making it ideal for permanent constructions. Its uniform color makes it an excellent choice for large surfaces, roads, or as a sophisticated accent in artistic builds."
     }
 };
