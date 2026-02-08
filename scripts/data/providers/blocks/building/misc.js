@@ -211,12 +211,33 @@ export const miscBuildingBlocks = {
             minTier: "Wood",
             silkTouch: false
         },
-        drops: ["Black Terracotta"],
+        drops: ["minecraft:black_terracotta"],
         generation: {
             dimension: "None",
             yRange: "Crafted only"
         },
         description: "Black Terracotta is a smooth, durable building block with a matte black finish. It is obtained by dyeing regular terracotta with black dye. In Bedrock Edition, it is a versatile decorative material frequently used in modern and minimalist architecture for its clean, dark aesthetic. It can also be smelted into black glazed terracotta for more intricate, patterned designs."
+    },
+    "minecraft:magenta_terracotta": {
+        id: "minecraft:magenta_terracotta",
+        name: "Magenta Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:magenta_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Terracotta is a smooth, durable building block with a muted purple-pink matte finish. It is obtained by dyeing regular terracotta with magenta dye. It provides a sophisticated and earthy tone for architectural projects, offering higher blast resistance than wool or concrete powder. In Bedrock Edition, a pickaxe is required to harvest it; breaking it by hand will result in no drops. It can also be smelted into magenta glazed terracotta for more intricate designs."
     },
     "minecraft:black_glazed_terracotta": {
         id: "minecraft:black_glazed_terracotta",

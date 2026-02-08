@@ -1826,12 +1826,33 @@ export const slabsStairsBlocks = {
             minTier: "Stone",
             silkTouch: false
         },
-        drops: ["Exposed Cut Copper Stairs"],
+        drops: ["minecraft:exposed_cut_copper_stairs"],
         generation: {
             dimension: "Overworld",
             yRange: "Weathered naturally or crafted"
         },
         description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
+    },
+    "minecraft:exposed_cut_copper_slab": {
+        id: "minecraft:exposed_cut_copper_slab",
+        name: "Exposed Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:exposed_cut_copper_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Exposed Cut Copper Slab is a decorative half-block representing the first stage of copper oxidation. It features a slightly tarnished brownish-orange appearance, showing early signs of weathering on its tiled surface. It is ideal for creating rustic rooflines, industrial pathways, and detailed trim where a less-than-pristine copper look is desired. In Bedrock Edition, it can be waxed to preserve its current state or scraped with an axe to revert it. It naturally evolves into weathered cut copper over time and requires a stone pickaxe or better to mine."
     },
     "minecraft:acacia_slab": {
         id: "minecraft:acacia_slab",
