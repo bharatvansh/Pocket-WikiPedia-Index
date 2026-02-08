@@ -301,6 +301,13 @@ export const blockIndex = [
         themeColor: "§2" // dark green (fully oxidized)
     },
     {
+        id: "minecraft:waxed_weathered_copper_grate",
+        name: "Waxed Weathered Copper Grate",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_grate",
+        themeColor: "§3" // dark aqua
+    },
+    {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
         category: "block",
@@ -3248,6 +3255,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:black_stained_glass",
+        name: "Black Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_black",
+        themeColor: "§0" // black
+    },
+    {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
         category: "block",
@@ -4850,6 +4864,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_orange",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:purple_shulker_box",
+        name: "Purple Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_purple",
+        themeColor: "§5" // purple
     },
     {
         id: "minecraft:red_shulker_box",
