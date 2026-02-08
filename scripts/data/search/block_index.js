@@ -2779,6 +2779,13 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:warped_trapdoor",
+        name: "Warped Trapdoor",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_trapdoor",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:warped_fence",
         name: "Warped Fence",
         category: "block",
@@ -4607,6 +4614,13 @@ export const blockIndex = [
         themeColor: "§d"
     },
     {
+        id: "minecraft:purple_concrete",
+        name: "Purple Concrete",
+        category: "block",
+        icon: "textures/blocks/concrete_purple",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:blue_terracotta",
         name: "Blue Terracotta",
         category: "block",
@@ -4899,6 +4913,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_pink",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:red_terracotta",
+        name: "Red Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_red",
+        themeColor: "§c"
     },
     {
         id: "minecraft:yellow_terracotta",

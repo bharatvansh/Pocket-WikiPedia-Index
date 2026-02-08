@@ -406,5 +406,26 @@ export const miscBuildingBlocks = {
             yRange: "Badlands"
         },
         description: "Yellow Terracotta is a smooth, earthy building block found naturally in the Badlands biome. It is created by smelting clay and applying yellow dye, or found in massive strata in the wild. Its warm, sun-dried appearance and matte finish make it ideal for desert-themed architecture or Mediterranean builds. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand yields nothing. It possesses high blast resistance and can be further smelted into yellow glazed terracotta."
+    },
+    "minecraft:red_terracotta": {
+        id: "minecraft:red_terracotta",
+        name: "Red Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands"
+        },
+        description: "Red Terracotta is a smooth, earthy building block found naturally in the Badlands biome. It is created by smelting clay and applying red dye, or found in massive strata in the wild. Its vibrant yet matte red appearance makes it ideal for southwestern architecture, desert-themed builds, or Mediterranean-style houses. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand yields nothing. It possesses high blast resistance and can be further smelted into red glazed terracotta for intricate decorative patterns."
     }
 };
