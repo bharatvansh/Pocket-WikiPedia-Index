@@ -520,6 +520,27 @@ export const vegetationBlocks = {
         },
         description: "The Pitcher Crop is a plantable crop block introduced in Minecraft 1.20, grown from Pitcher Pods dug up by Sniffers. It advances through four growth stages before producing a mature Pitcher Plant. It requires light level 9 or higher to grow and can be accelerated with bone meal. Unlike other crops, it drops a Pitcher Pod when broken at any growth stage, making it renewable. Players can harvest the fully grown Pitcher Plant to obtain Cyan Dye for building palettes and decoration."
     },
+    "minecraft:torchflower_crop": {
+        id: "minecraft:torchflower_crop",
+        name: "Torchflower Crop",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Torchflower Seeds"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Grown from Torchflower Seeds"
+        },
+        description: "The Torchflower Crop is the growing stage of the ancient Torchflower, introduced in the 1.20 Trails & Tales update. It grows from Torchflower Seeds, which are rare items discovered by Sniffers. The crop advances through three growth stages (0-2) before reaching maturity. While it resembles a glowing plant, it does not emit light. Once fully grown, it can be harvested to obtain a Torchflower. In Bedrock Edition, it requires light to grow and can be accelerated with bone meal. It adds a touch of prehistoric flora to gardens and serves as a unique reward for Sniffer exploration."
+    },
     "minecraft:short_grass": {
         id: "minecraft:short_grass",
         name: "Short Grass",
