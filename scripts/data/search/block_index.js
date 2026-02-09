@@ -2807,6 +2807,13 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:stripped_jungle_wood",
+        name: "Stripped Jungle Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_jungle_log_side",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:dark_oak_wood",
         name: "Dark Oak Wood",
         category: "block",
@@ -3586,6 +3593,13 @@ export const blockIndex = [
     {
         id: "minecraft:prismarine_brick_stairs",
         name: "Prismarine Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/prismarine_bricks",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
         category: "block",
         icon: "textures/blocks/prismarine_bricks",
         themeColor: "§b"
@@ -4801,6 +4815,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b"
     },
     {
         id: "minecraft:black_glazed_terracotta",

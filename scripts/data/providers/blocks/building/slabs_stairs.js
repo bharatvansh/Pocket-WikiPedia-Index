@@ -660,6 +660,27 @@ export const slabsStairsBlocks = {
         },
         description: "Prismarine Brick Stairs are decorative blocks featuring the characteristic tiled pattern of prismarine bricks. They provide a refined and structured look for buildings, often used as trim or structural accents in ocean monuments. These stairs share the same hardness and blast resistance as other prismarine variants but offer a distinct geometric texture. They are crafted from prismarine bricks or via a stonecutter. As with all stairs, they are waterloggable, making them perfect for grand underwater entrances, decorative pillars, and complex ceiling designs in submerged palaces."
     },
+    "minecraft:prismarine_brick_slab": {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Brick Slab is a half-block variant of prismarine bricks, featuring the same structured, tiled blue-green pattern. It provides a compact and refined option for aquatic flooring, decorative trim, and underwater architecture where a full block is not required. These slabs can be crafted from prismarine bricks or produced efficiently via a stonecutter. In Bedrock Edition, they are waterloggable and highly resistant to explosions, making them perfect for grand underwater entrances, decorative pillars, and detailed ceiling designs in submerged palaces."
+    },
     "minecraft:red_nether_brick_stairs": {
         id: "minecraft:red_nether_brick_stairs",
         name: "Red Nether Brick Stairs",
