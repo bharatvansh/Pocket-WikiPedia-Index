@@ -176,6 +176,27 @@ export const miscBuildingBlocks = {
         },
         description: "Blue Terracotta is a smooth, durable building block with a deep blue matte finish. It is obtained by dyeing terracotta with blue dye. Unlike many other terracotta colors, it does not generate naturally in the Badlands biome, making it primarily a crafted decorative material. Its earthy blue tone and matte texture provide a sophisticated look for architectural projects, and its high blast resistance makes it more durable than wool. It can also be smelted into blue glazed terracotta for more intricate designs."
     },
+    "minecraft:light_blue_terracotta": {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Blue Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Terracotta is a smooth, durable building block with a soft blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. Unlike many other terracotta colors, it does not generate naturally in the Badlands biome, making it primarily a crafted decorative material. Its earthy aqua tone and matte texture provide a sophisticated look for architectural projects, and its high blast resistance makes it more durable than wool. In Bedrock Edition, it requires a pickaxe of wooden tier or higher to mine correctly."
+    },
     "minecraft:cyan_terracotta": {
         id: "minecraft:cyan_terracotta",
         name: "Cyan Terracotta",

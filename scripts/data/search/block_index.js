@@ -700,6 +700,13 @@ export const blockIndex = [
         themeColor: "§3" // dark aqua/blue-green
     },
     {
+        id: "minecraft:waxed_weathered_copper_grate",
+        name: "Waxed Weathered Copper Grate",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_grate",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
         id: "minecraft:oxidized_copper_grate",
         name: "Oxidized Copper Grate",
         category: "block",
@@ -3549,6 +3556,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:birch_stairs",
         name: "Birch Stairs",
         category: "block",
@@ -5025,6 +5039,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_silver",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b" // aqua
     },
     {
         id: "minecraft:magenta_terracotta",
