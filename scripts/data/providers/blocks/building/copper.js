@@ -351,6 +351,27 @@ export const copperBlocks = {
         },
         description: "The Exposed Copper Grate is the first oxidation stage of the copper grate, introduced in Minecraft 1.21. It features a tarnished brownish color with orange spots, representing early weathering. These blocks are transparent, making them ideal for decorative vents, railings, and walkways. Found in Trial Chambers or crafted, they can be waxed with honeycomb to lock their current appearance or scraped with an axe to revert them to the unoxidized state. Without maintenance, they will continue to oxidize through further stages over time."
     },
+    "minecraft:waxed_exposed_copper_grate": {
+        id: "minecraft:waxed_exposed_copper_grate",
+        name: "Waxed Exposed Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_copper_grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Copper Grate or applied Honeycomb"
+        },
+        description: "The Waxed Exposed Copper Grate is a transparent building block crafted from copper that has been treated with honeycomb to lock in its first oxidation stage. It features a unique lattice pattern with a tarnished, brownish-orange appearance. Because it is waxed, it is permanently preserved and will not further weather into weathered or oxidized stages. It allows light to pass through while providing a solid surface for players to walk on, making it ideal for industrial walkways, vents, and decorative accents in modern or rustic Minecraft builds."
+    },
     "minecraft:weathered_copper_grate": {
         id: "minecraft:weathered_copper_grate",
         name: "Weathered Copper Grate",

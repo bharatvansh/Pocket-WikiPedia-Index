@@ -1371,6 +1371,27 @@ export const slabsStairsBlocks = {
         },
         description: "Nether Brick Slabs are fire-resistant half-blocks crafted from Nether Bricks, essential for building in the hazardous Nether dimension. They naturally generate within the massive corridors of Nether Fortresses, providing durable walkways and decorative trim that are immune to ghast fireballs. Because they are stone-based, they provide reliable protection against fire and explosions. Slabs can be placed in either the upper or lower half of a block space or combined into double slabs, offering versatile options for detailed architecture, roofing, and smooth elevation changes."
     },
+    "minecraft:red_nether_brick_slab": {
+        id: "minecraft:red_nether_brick_slab",
+        name: "Red Nether Brick Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_nether_brick_slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Red Nether Bricks"
+        },
+        description: "Red Nether Brick Slabs are durable, fire-resistant half-blocks crafted from Red Nether Bricks. They offer the same striking crimson hue as their full-block counterparts, making them a popular choice for Nether-themed architecture, roofing, and flooring. In Bedrock Edition, they are highly resistant to explosions and immune to fire, providing excellent protection against Ghast fireballs. They can be placed in top or bottom halves of a block space, allowing for versatile architectural designs and preventing most mob spawns when placed on the bottom half."
+    },
     "minecraft:mossy_stone_brick_wall": {
         id: "minecraft:mossy_stone_brick_wall",
         name: "Mossy Stone Brick Wall",
