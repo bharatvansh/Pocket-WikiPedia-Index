@@ -294,6 +294,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
         id: "minecraft:waxed_copper_grate",
         name: "Waxed Copper Grate",
         category: "block",
@@ -3262,6 +3269,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
         category: "block",
@@ -3988,6 +4002,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/copper_chain",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:exposed_copper_chain",
+        name: "Exposed Copper Chain",
+        category: "block",
+        icon: "textures/items/exposed_copper_chain",
+        themeColor: "§6" // gold/brownish copper
     },
 
     {
