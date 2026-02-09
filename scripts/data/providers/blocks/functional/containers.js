@@ -492,5 +492,68 @@ export const containerBlocks = {
             yRange: "Crafted (Shulker Box + Purple Dye)"
         },
         description: "The Purple Shulker Box is a portable storage solution that retains its contents even when broken and carried. It is created by combining a standard shulker box with purple dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, and its royal purple color makes it ideal for organizing and categorizing high-value resources like enchantments or rare ores."
+    },
+    "minecraft:pink_shulker_box": {
+        id: "minecraft:pink_shulker_box",
+        name: "Pink Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:pink_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Pink Dye)"
+        },
+        description: "The Pink Shulker Box is a vibrant, portable storage block in Minecraft Bedrock Edition that retains its items even when broken. Crafted by combining a standard shulker box with pink dye, it provides 27 slots of inventory capacity for long-distance transport. In Bedrock, it can be mined with any tool or even by hand and will still drop as an item. It cannot be opened if a solid block is directly above it. Its soft pink color is ideal for organizing specific resources or adding a colorful touch to complex storage systems."
+    },
+    "minecraft:light_blue_shulker_box": {
+        id: "minecraft:light_blue_shulker_box",
+        name: "Light Blue Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Light Blue Dye)"
+        },
+        description: "The Light Blue Shulker Box is a premium portable storage solution that preserves its contents even when broken and carried. It is created by combining a standard shulker box with light blue dye. With 27 slots of storage space, it effectively expands a player's inventory capacity for long-distance transport and organization. In Bedrock Edition, it can be mined with any tool or even by hand to be relocated. It cannot be opened if there is a solid block directly above it, and it provides a bright, airy color option for categorized storage systems."
+    },
+    "minecraft:light_gray_shulker_box": {
+        id: "minecraft:light_gray_shulker_box",
+        name: "Light Gray Shulker Box",
+        hardness: 2.0,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_shulker_box"],
+        generation: {
+            dimension: "End",
+            yRange: "Crafted (Shulker Box + Light Gray Dye)"
+        },
+        description: "The Light Gray Shulker Box is a versatile portable storage block that preserves its contents when broken, allowing for efficient item transport. Created by dyeing a regular shulker box with light gray dye, it provides 27 slots of secure inventory space. This block is indispensable for large-scale resource gathering and organization. In Bedrock Edition, it can be broken by hand or any tool to be collected as an item without losing the items inside. Its neutral light gray tone is excellent for blending into industrial builds or categorizing stone-based materials."
     }
 };
