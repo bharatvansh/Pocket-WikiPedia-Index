@@ -1589,6 +1589,13 @@ export const blockIndex = [
         themeColor: "§b" // aqua
     },
     {
+        id: "minecraft:soul_fire",
+        name: "Soul Fire",
+        category: "block",
+        icon: "textures/blocks/soul_fire_0",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:turtle_egg",
         name: "Turtle Egg",
         category: "block",
@@ -3318,6 +3325,13 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:magenta_stained_glass",
+        name: "Magenta Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
         id: "minecraft:red_stained_glass",
         name: "Red Stained Glass",
         category: "block",
@@ -4423,6 +4437,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/candle_brown",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:pink_candle",
+        name: "Pink Candle",
+        category: "block",
+        icon: "textures/blocks/candle_pink",
+        themeColor: "§d" // light purple/pink
     },
     {
         id: "minecraft:black_candle",
