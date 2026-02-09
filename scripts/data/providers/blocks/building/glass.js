@@ -177,6 +177,48 @@ export const glassBlocks = {
         },
         description: "Black Stained Glass is a transparent decorative block created by surrounding a piece of black dye with eight glass blocks. It retains the transparency of regular glass while adding a deep black tint, making it perfect for modern architecture and sleek window designs. Notably in Minecraft Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment, unlike in Java Edition. It can be used to create artistic beacons or decorative light filters that provide a sophisticated and mysterious aesthetic to any structure."
     },
+    "minecraft:orange_stained_glass": {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Stained Glass is a transparent decorative block created by surrounding orange dye with eight glass blocks. It retains the transparency of regular glass while adding a vibrant orange tint, perfect for autumnal themes or industrial warning windows. Notably in Minecraft Bedrock Edition, all stained glass blocks drop themselves when broken even without the Silk Touch enchantment, making them much easier to relocate than in Java Edition. It is commonly used for artistic window designs and as a filter for beacons to create colorful light beams."
+    },
+    "minecraft:hard_glass": {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:hard_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition features)"
+        },
+        description: "Hardened Glass is an industrial-strength variant of regular glass introduced through Education Edition features in Bedrock. It is crafted by combining glass with Aluminum Oxide and Boron Trioxide, resulting in a block that retains the transparency of glass but with significantly improved blast resistance (9.0). This makes it ideal for observing explosive experiments or building secure underwater facilities where regular glass might fail. Like standard glass, it requires Silk Touch to be harvested as an item; otherwise, it shatters without dropping anything when broken."
+    },
     "minecraft:glass_pane": {
         id: "minecraft:glass_pane",
         name: "Glass Pane",

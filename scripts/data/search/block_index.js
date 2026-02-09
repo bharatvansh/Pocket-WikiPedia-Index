@@ -385,6 +385,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        category: "block",
+        icon: "textures/blocks/hard_glass",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:sea_lantern",
         name: "Sea Lantern",
         category: "block",
@@ -2114,6 +2121,13 @@ export const blockIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:colored_torch_blue",
+        name: "Blue Torch",
+        category: "block",
+        icon: "textures/blocks/colored_torch_blue",
+        themeColor: "§9" // blue
+    },
+    {
         id: "minecraft:prismarine_bricks",
         name: "Prismarine Bricks",
         category: "block",
@@ -3295,6 +3309,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_black",
         themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6" // orange/gold
     },
     {
         id: "minecraft:sunflower",
