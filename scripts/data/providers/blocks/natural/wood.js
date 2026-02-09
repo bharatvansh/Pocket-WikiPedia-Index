@@ -557,6 +557,27 @@ export const woodBlocks = {
         },
         description: "Spruce Wood is a decorative block with the dark, textured bark of spruce logs on all six faces. It is obtained through crafting with four spruce logs or via stonecutting in some versions. Builders favor spruce wood for its rustic, cabin-like aesthetic, using it to create organic-looking structures where the cross-section rings of a log would be undesirable. Like other wood variants, it is flammable and most efficiently harvested with an axe. It can be further processed into stripped spruce wood, maintaining its versatile structural role in northern-themed builds."
     },
+    "minecraft:stripped_spruce_wood": {
+        id: "minecraft:stripped_spruce_wood",
+        name: "Stripped Spruce Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_spruce_wood"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Stripped Spruce Logs"
+        },
+        description: "Stripped Spruce Wood is a decorative block with a uniform, bark-free texture on all six sides. It is crafted by placing four Stripped Spruce Logs in a 2x2 grid. It shares the same dark brown, rustic tone as other spruce variants but lacks the rough outer bark, offering a smoother and more refined look for pillars, walls, and flooring. Like other wood blocks, it is flammable and can be used as fuel in furnaces. It is particularly favored by Bedrock Edition builders for creating realistic timber frames and detailed interior accents in cabin-style structures."
+    },
     "minecraft:birch_wood": {
         id: "minecraft:birch_wood",
         name: "Birch Wood",

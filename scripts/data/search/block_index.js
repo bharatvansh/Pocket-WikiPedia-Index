@@ -308,6 +308,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_exposed_copper_grate",
+        name: "Waxed Exposed Copper Grate",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_grate",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
         id: "minecraft:waxed_oxidized_copper_grate",
         name: "Waxed Oxidized Copper Grate",
         category: "block",
@@ -2772,6 +2779,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:stripped_spruce_wood",
+        name: "Stripped Spruce Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_spruce_wood",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:birch_log",
         name: "Birch Log",
         category: "block",
@@ -3589,6 +3603,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/red_nether_brick",
         themeColor: "§4"
+    },
+    {
+        id: "minecraft:red_nether_brick_slab",
+        name: "Red Nether Brick Slab",
+        category: "block",
+        icon: "textures/blocks/red_nether_brick",
+        themeColor: "§4" // dark red
     },
     {
         id: "minecraft:red_nether_brick_wall",
