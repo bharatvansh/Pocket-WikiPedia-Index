@@ -4432,6 +4432,27 @@ export const blockIndex = [
         themeColor: "§0"
     },
     {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        category: "block",
+        icon: "textures/blocks/candle_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:cyan_candle",
+        name: "Cyan Candle",
+        category: "block",
+        icon: "textures/blocks/candle_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:magenta_candle",
+        name: "Magenta Candle",
+        category: "block",
+        icon: "textures/blocks/candle_magenta",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:cherry_button",
         name: "Cherry Button",
         category: "block",

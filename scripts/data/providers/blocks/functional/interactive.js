@@ -1189,6 +1189,69 @@ export const interactiveBlocks = {
         },
         description: "The Black Candle is a dark decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. Its deep black tone makes it ideal for gothic, moody, or sophisticated interior designs. Like other candles in Bedrock Edition, it must be lit with flint and steel or other flaming tools to emit light. It can also be placed on a cake to create a black candle cake, providing a striking visual for celebrations."
     },
+    "minecraft:white_candle": {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:white_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted only"
+        },
+        description: "The White Candle is a clean, decorative light source block that can be placed in clusters of up to four on a single block. Each candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. White candles naturally generate in Ancient Cities but can also be crafted using white dye and an undyed candle. Like other candles, they must be lit with flint and steel or a fire charge to provide illumination. They can also be placed on top of a cake to create a white candle cake, a classic decoration for any Minecraft celebration."
+    },
+    "minecraft:cyan_candle": {
+        id: "minecraft:cyan_candle",
+        name: "Cyan Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cyan_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Cyan Dye"
+        },
+        description: "The Cyan Candle is a vibrant decorative light source block featuring a distinct teal hue. Up to four candles can be placed on a single block, with each adding 3 to the total light level (max 12). Crafted by combining an undyed candle with cyan dye, it offers a modern and colorful aesthetic for interior design. Cyan candles must be lit to provide illumination and can be extinguished by water or interaction. They are also compatible with cakes, allowing players to create cyan candle cakes for themed parties or builds."
+    },
+    "minecraft:magenta_candle": {
+        id: "minecraft:magenta_candle",
+        name: "Magenta Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:magenta_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Magenta Dye"
+        },
+        description: "The Magenta Candle is a bright, decorative light source block with a rich purple-pink color. Like all candles, it can be grouped in clusters of up to four, increasing the light level in increments of 3 up to a maximum of 12. It is obtained by dyeing a standard candle with magenta dye. To function as a light source, it must be lit using flint and steel. Magenta candles provide a bold splash of color to any room and can be used to top a cake, creating a magenta candle cake that is as functional as it is decorative."
+    },
     "minecraft:spruce_door": {
         id: "minecraft:spruce_door",
         name: "Spruce Door",
