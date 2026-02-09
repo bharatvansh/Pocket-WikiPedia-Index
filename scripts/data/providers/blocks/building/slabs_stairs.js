@@ -1122,6 +1122,27 @@ export const slabsStairsBlocks = {
         },
         description: "The Oak Slab is a versatile half-block building material and one of the most fundamental construction items in Minecraft. Crafted from Oak Planks, it is widely used for creating smooth elevation changes, detailed flooring, and efficient roofing. Slabs can be placed in either the upper or lower half of a block space, allowing for intricate architectural designs. When two slabs of the same type are stacked, they form a double slab. In Bedrock Edition, oak slabs are flammable and can also serve as a fuel source in furnaces. Their warm, classic wood texture makes them a favorite for both interior and exterior detailing."
     },
+    "minecraft:spruce_slab": {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Taiga Villages, Shipwrecks, or Crafted"
+        },
+        description: "Spruce Slab is a half-block building component crafted from Spruce Planks. It features the deep, rustic brown texture characteristic of the spruce wood family, making it ideal for flooring, roofing, and intricate architectural details in cabin or medieval-style builds. Slabs can be placed in either the top or bottom half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can generate naturally in Taiga villages and shipwrecks."
+    },
     "minecraft:petrified_oak_slab": {
         id: "minecraft:petrified_oak_slab",
         name: "Petrified Oak Slab",

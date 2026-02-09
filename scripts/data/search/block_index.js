@@ -3437,6 +3437,20 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:oak_door",
+        name: "Oak Door",
+        category: "block",
+        icon: "textures/items/oak_door",
+        themeColor: "§6" // gold/brown
+    },
+    {
+        id: "minecraft:oak_trapdoor",
+        name: "Oak Trapdoor",
+        category: "block",
+        icon: "textures/blocks/trapdoor",
+        themeColor: "§6" // gold/brown
+    },
+    {
         id: "minecraft:pale_oak_pressure_plate",
         name: "Pale Oak Pressure Plate",
         category: "block",
@@ -4640,6 +4654,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/spruce_door",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8" // dark gray/brown
     },
     {
         id: "minecraft:warped_pressure_plate",
