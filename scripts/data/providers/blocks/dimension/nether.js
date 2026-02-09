@@ -370,6 +370,27 @@ export const netherBlocks = {
         },
         description: "Soul Soil is a block naturally found in the Soul Sand Valley biome of the Nether. Unlike Soul Sand, it does not slow down movement and is a full solid block. Soul Fire burns indefinitely on top of Soul Soil. It is used to craft Soul Torches and Soul Campfires. It produces basalt when lava flows over it while it is next to Blue Ice."
     },
+    "minecraft:soul_fire": {
+        id: "minecraft:soul_fire",
+        name: "Soul Fire",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 10,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Nether",
+            yRange: "Soul Sand Valleys"
+        },
+        description: "Soul Fire is a blue variant of fire that generates naturally in Soul Sand Valley biomes within the Nether. It is created when soul sand or soul soil is ignited. It deals twice as much damage as regular fire and emits a lower light level of 10. Unlike normal fire, Soul Fire does not melt snow or ice. It is a key element for crafting other soul-themed light sources like soul torches and soul lanterns. It cannot be obtained as an item and disappears when the supporting block is broken or the fire is extinguished."
+    },
     "minecraft:crimson_roots": {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
