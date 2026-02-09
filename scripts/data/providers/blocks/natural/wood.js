@@ -410,6 +410,27 @@ export const woodBlocks = {
         },
         description: "Birch logs are easily identifiable by their unique white bark with black horizontal streaks. They are harvested from birch trees, which typically grow in birch forest biomes. The interior of the log reveals a very light tan wood. Because of their bright and clean appearance, birch logs and their planks are popular for modern-style builds and contrast well with darker materials like stone or dark oak, offering a clean, airy feel to any structure."
     },
+    "minecraft:stripped_birch_log": {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Birch Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Birch Log"
+        },
+        description: "Stripped Birch Log is a wood variant obtained by using an axe on a regular birch log, removing its characteristic white and black bark. This reveals the smooth, creamy-yellow interior wood, which is highly valued by builders for its clean and bright appearance. It is a versatile material for modern architecture, Scandinavian-style builds, and light-toned furniture. Like other logs in Bedrock Edition, it can be crafted into birch planks or used as a structural pillar. Its uniform texture provides a more refined and polished look than the standard bark-covered log."
+    },
     "minecraft:jungle_log": {
         id: "minecraft:jungle_log",
         name: "Jungle Log",

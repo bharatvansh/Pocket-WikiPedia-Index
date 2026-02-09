@@ -1189,6 +1189,27 @@ export const interactiveBlocks = {
         },
         description: "The Black Candle is a dark decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. Its deep black tone makes it ideal for gothic, moody, or sophisticated interior designs. Like other candles in Bedrock Edition, it must be lit with flint and steel or other flaming tools to emit light. It can also be placed on a cake to create a black candle cake, providing a striking visual for celebrations."
     },
+    "minecraft:lime_candle": {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Lime Dye"
+        },
+        description: "Lime Candle is a decorative, light-emitting block that can be dyed lime or crafted from a regular candle and lime dye. Up to four candles can be placed in a single block space, increasing the light level emitted when lit with a flint and steel. In Bedrock Edition, a single lit candle provides a light level of 3, reaching up to 12 with four. They are non-flammable and can be extinguished by hand or water. Lime candles offer a vibrant, neon-green glow, making them popular for adding colorful, atmospheric lighting to modern or tropical-themed builds."
+    },
     "minecraft:spruce_door": {
         id: "minecraft:spruce_door",
         name: "Spruce Door",
