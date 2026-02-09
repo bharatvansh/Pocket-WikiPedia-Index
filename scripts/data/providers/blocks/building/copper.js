@@ -288,6 +288,27 @@ export const copperBlocks = {
         },
         description: "Exposed Chiseled Copper is the first oxidation stage of the chiseled copper block, featuring a tarnished brownish-orange color. It retains the unique carved geometric pattern but shows signs of early weathering. Like all copper blocks, it can be waxed with honeycomb to lock this specific look or scraped with an axe to revert it to the fresh copper stage. It naturally forms in Trial Chambers or through the gradual oxidation of a pristine chiseled copper block when exposed to air."
     },
+    "minecraft:waxed_exposed_chiseled_copper": {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_chiseled_copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Exposed Chiseled Copper is a decorative block with a geometric pattern that has been treated with honeycomb to lock in its first oxidation stage. The wax preserves the tarnished brownish-orange appearance, preventing further weathering into a teal patina. It remains as durable as its unwaxed counterpart and requires a stone pickaxe or higher to harvest in Bedrock Edition. Players can scrape the wax off with any axe to allow the block to resume its natural aging process, making it a versatile choice for controlled architectural gradients."
+    },
     "minecraft:weathered_chiseled_copper": {
         id: "minecraft:weathered_chiseled_copper",
         name: "Weathered Chiseled Copper",
@@ -728,5 +749,26 @@ export const copperBlocks = {
             yRange: "Crafted (1 Copper Ingot, 2 Copper Nuggets)"
         },
         description: "The Copper Chain is a decorative metal chain crafted from copper ingots and nuggets. Like other copper blocks, it oxidizes through four stages from bright orange to teal green. It can be waxed with honeycomb to freeze oxidation at any stage, or scraped with an axe to reverse aging. The chain doesn't require supporting blocks and can be placed freely in mid-air, making it ideal for hanging bells, lanterns, and signs. Introduced in The Copper Age update (Bedrock 1.21.111), it provides medieval and industrial building aesthetics."
+    },
+    "minecraft:exposed_copper_chain": {
+        id: "minecraft:exposed_copper_chain",
+        name: "Exposed Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:exposed_copper_chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Natural oxidation or Scraped"
+        },
+        description: "Exposed Copper Chain is a decorative metallic barrier representing the first stage of oxidation for copper chains. It features a tarnished brownish-orange appearance, showing the beginnings of a weathered patina. Like other copper-based blocks in Bedrock Edition, it can be waxed with honeycomb to preserve its current color or scraped with an axe to return it to a pristine orange state. It connects to adjacent blocks and other chains, offering a unique, aging aesthetic for hanging lanterns, signs, or creating medieval-style fences and industrial barriers."
     }
 };
