@@ -513,6 +513,27 @@ export const slabsStairsBlocks = {
         },
         description: "Spruce Stairs are crafted from Spruce Planks and feature a dark, rustic brown tone. Popular in medieval and cabin-style builds, they offer a cozy aesthetic compared to the lighter oak variant. Like all stairs, they are waterloggable and can be placed in multiple directions to create complex shapes like corners and eaves. They naturally generate in Taiga villages and shipwreck structures. Being a wood product, they are flammable and are best harvested using an axe."
     },
+    "minecraft:spruce_slab": {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Igloos, Taiga Villages, Shipwrecks"
+        },
+        description: "Spruce Slabs are half-block building components crafted from spruce planks. They feature the same dark, rustic brown tone as spruce wood, making them a popular choice for cozy cabin-style builds and medieval architecture. Slabs can be placed in either the upper or lower half of a block space or combined into double slabs. They are flammable and are most efficiently harvested using an axe. In Bedrock Edition, they can be found naturally generating as flooring and tabletops in igloos and various taiga village structures."
+    },
     "minecraft:stone_stairs": {
         id: "minecraft:stone_stairs",
         name: "Stone Stairs",
