@@ -1,0 +1,137 @@
+diff --git a/scripts/data/providers/blocks/building/slabs_stairs.js b/scripts/data/providers/blocks/building/slabs_stairs.js
+index b391dc1..3acbd41 100644
+--- a/scripts/data/providers/blocks/building/slabs_stairs.js
++++ b/scripts/data/providers/blocks/building/slabs_stairs.js
+@@ -1371,6 +1371,27 @@ export const slabsStairsBlocks = {
+         },
+         description: "Mossy Stone Brick Walls are durable decorative barriers that combine the refined masonry of stone bricks with weathered moss. They provide a 1.5-block high collision box for entities, preventing most mobs from jumping over them while only occupying a single block space visually. They are ideal for creating ancient ruins, castle fortifications, or garden boundaries in lush environments. Naturally found in Strongholds in Bedrock Edition, they can also be crafted by combining Mossy Stone Bricks or using a stonecutter. They are fireproof and highly resistant to explosions."
+     },
++    "minecraft:mossy_stone_brick_slab": {
++        id: "minecraft:mossy_stone_brick_slab",
++        name: "Mossy Stone Brick Slab",
++        hardness: 1.5,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: true,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["minecraft:mossy_stone_brick_slab"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Strongholds or Crafted"
++        },
++        description: "Mossy Stone Brick Slab is the half-block variant of mossy stone bricks, featuring the same weathered texture of cracked stone and green moss. It provides a versatile option for detailed flooring, atmospheric pathways, and aged roofing in ancient-looking builds. Like other stone brick slabs, it is durable and fire-resistant. Naturally generating in strongholds, it can also be crafted or made in a stonecutter. It can be placed in either the top or bottom half of a block space or combined into a double slab for seamless architectural transitions."
++    },
+     "minecraft:smooth_sandstone_stairs": {
+         id: "minecraft:smooth_sandstone_stairs",
+         name: "Smooth Sandstone Stairs",
+@@ -1896,6 +1917,27 @@ export const slabsStairsBlocks = {
+         },
+         description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
+     },
++    "minecraft:waxed_exposed_cut_copper_stairs": {
++        id: "minecraft:waxed_exposed_cut_copper_stairs",
++        name: "Waxed Exposed Cut Copper Stairs",
++        hardness: 3.0,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: true,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Stone",
++            silkTouch: false
++        },
++        drops: ["minecraft:waxed_exposed_cut_copper_stairs"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Crafted from Exposed Cut Copper and Honeycomb"
++        },
++        description: "Waxed Exposed Cut Copper Stairs are a decorative building block that has been treated with honeycomb to preserve its early oxidation state. They feature a slightly tarnished brownish-orange appearance with the characteristic tiled pattern of cut copper. Because they are waxed, they will never fully oxidize into the teal-green stage, making them ideal for builders who want to maintain a specific rustic look permanently. Like other stairs, they facilitate smooth elevation changes and can be waterlogged. They require a stone-tier pickaxe or better to mine effectively in Bedrock Edition."
++    },
+     "minecraft:exposed_cut_copper_slab": {
+         id: "minecraft:exposed_cut_copper_slab",
+         name: "Exposed Cut Copper Slab",
+diff --git a/scripts/data/providers/blocks/decorative/coral.js b/scripts/data/providers/blocks/decorative/coral.js
+index da2e207..405e7db 100644
+--- a/scripts/data/providers/blocks/decorative/coral.js
++++ b/scripts/data/providers/blocks/decorative/coral.js
+@@ -429,5 +429,26 @@ export const coralBlocks = {
+             yRange: "Warm Ocean biomes (Result of living coral dying)"
+         },
+         description: "Dead Horn Coral Blocks are the desaturated, gray versions of the vibrant yellow horn coral blocks. They are created when a living horn coral block is left out of water, causing it to die and lose its color. Despite its lifeless appearance, it retains its interesting structural patterns. In Minecraft Bedrock, these blocks can be mined with any pickaxe and do not require Silk Touch to be collected. They are excellent for adding textural detail to underwater caves, rocky shorelines, or any build where a weathered, organic stone look is desired."
++    },
++    "minecraft:dead_tube_coral_block": {
++        id: "minecraft:dead_tube_coral_block",
++        name: "Dead Tube Coral Block",
++        hardness: 1.5,
++        blastResistance: 6.0,
++        flammability: false,
++        gravityAffected: false,
++        transparent: false,
++        luminance: 0,
++        mining: {
++            tool: "Pickaxe",
++            minTier: "Wood",
++            silkTouch: false
++        },
++        drops: ["minecraft:dead_tube_coral_block"],
++        generation: {
++            dimension: "Overworld",
++            yRange: "Warm Ocean biomes (Result of living coral dying)"
++        },
++        description: "A Dead Tube Coral Block is the gray, lifeless remains of a once-vibrant blue tube coral block. This state occurs when the living coral block is removed from water or its source is destroyed. In Minecraft Bedrock, it retains its distinct tubular texture while losing all its color. It is a solid block that can be mined with any pickaxe and does not require Silk Touch to be harvested. Builders often use it for desaturated underwater landscapes, rocky sea floors, or as a textured gray material for rugged coastal architecture."
+     }
+ };
+diff --git a/scripts/data/search/block_index.js b/scripts/data/search/block_index.js
+index 3898b79..149cc96 100644
+--- a/scripts/data/search/block_index.js
++++ b/scripts/data/search/block_index.js
+@@ -4347,6 +4347,13 @@ export const blockIndex = [
+         icon: "textures/blocks/stonebrick_mossy",
+         themeColor: "§2"
+     },
++    {
++        id: "minecraft:mossy_stone_brick_slab",
++        name: "Mossy Stone Brick Slab",
++        category: "block",
++        icon: "textures/blocks/stonebrick_mossy",
++        themeColor: "§2"
++    },
+     {
+         id: "minecraft:nether_brick_slab",
+         name: "Nether Brick Slab",
+@@ -4487,6 +4494,13 @@ export const blockIndex = [
+         icon: "textures/blocks/dead_horn_coral_block",
+         themeColor: "§7"
+     },
++    {
++        id: "minecraft:dead_tube_coral_block",
++        name: "Dead Tube Coral Block",
++        category: "block",
++        icon: "textures/blocks/dead_tube_coral_block",
++        themeColor: "§7"
++    },
+     {
+         id: "minecraft:chipped_anvil",
+         name: "Chipped Anvil",
+@@ -4893,6 +4907,13 @@ export const blockIndex = [
+         icon: "textures/blocks/exposed_cut_copper",
+         themeColor: "§6"
+     },
++    {
++        id: "minecraft:waxed_exposed_cut_copper_stairs",
++        name: "Waxed Exposed Cut Copper Stairs",
++        category: "block",
++        icon: "textures/blocks/exposed_cut_copper",
++        themeColor: "§6"
++    },
+     {
+         id: "minecraft:exposed_cut_copper_slab",
+         name: "Exposed Cut Copper Slab",

@@ -429,5 +429,26 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (Result of living coral dying)"
         },
         description: "Dead Horn Coral Blocks are the desaturated, gray versions of the vibrant yellow horn coral blocks. They are created when a living horn coral block is left out of water, causing it to die and lose its color. Despite its lifeless appearance, it retains its interesting structural patterns. In Minecraft Bedrock, these blocks can be mined with any pickaxe and do not require Silk Touch to be collected. They are excellent for adding textural detail to underwater caves, rocky shorelines, or any build where a weathered, organic stone look is desired."
+    },
+    "minecraft:dead_tube_coral_block": {
+        id: "minecraft:dead_tube_coral_block",
+        name: "Dead Tube Coral Block",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:dead_tube_coral_block"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "A Dead Tube Coral Block is the gray, lifeless remains of a once-vibrant blue tube coral block. This state occurs when the living coral block is removed from water or its source is destroyed. In Minecraft Bedrock, it retains its distinct tubular texture while losing all its color. It is a solid block that can be mined with any pickaxe and does not require Silk Touch to be harvested. Builders often use it for desaturated underwater landscapes, rocky sea floors, or as a textured gray material for rugged coastal architecture."
     }
 };
