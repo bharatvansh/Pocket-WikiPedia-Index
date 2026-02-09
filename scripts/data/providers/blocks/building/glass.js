@@ -197,5 +197,26 @@ export const glassBlocks = {
             yRange: "Crafted from Glass x6, also found in Villages and Structures"
         },
         description: "Glass Panes are thin, transparent blocks that offer a more delicate alternative to full glass blocks. They are highly resource-efficient, as six glass blocks can be crafted into sixteen panes. Unlike full blocks, they connect to adjacent blocks and other panes, creating a thin, seamless glass wall. While they provide excellent visibility and light, they are fragile and require Silk Touch for retrieval, otherwise they will drop nothing when broken."
+    },
+    "minecraft:blue_stained_glass_pane": {
+        id: "minecraft:blue_stained_glass_pane",
+        name: "Blue Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:blue_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Blue Stained Glass x6 or Glass Pane + Blue Dye"
+        },
+        description: "Blue Stained Glass Panes are thin, transparent decorative blocks that offer a delicate alternative to full stained glass blocks. They are crafted by combining blue dye with regular glass panes or by using six blue stained glass blocks to create sixteen panes. They connect to adjacent blocks and other panes, creating a thin, seamless wall of colored glass. While they provide excellent visibility and light filtration with a rich blue tint, they are fragile and require the Silk Touch enchantment to be harvested, otherwise they drop nothing when broken."
     }
 };

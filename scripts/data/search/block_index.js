@@ -3815,6 +3815,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:blue_stained_glass_pane",
+        name: "Blue Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_blue",
+        themeColor: "§1" // blue
+    },
+    {
         id: "minecraft:oak_planks",
         name: "Oak Planks",
         category: "block",
@@ -5027,6 +5034,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:magenta_terracotta",
         name: "Magenta Terracotta",
         category: "block",
@@ -5179,5 +5193,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_purple",
         themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:pink_shulker_box",
+        name: "Pink Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_pink",
+        themeColor: "§d" // pink
     }
 ];
