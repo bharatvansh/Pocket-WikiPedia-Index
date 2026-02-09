@@ -641,6 +641,27 @@ export const woodBlocks = {
         },
         description: "Jungle Wood is a decorative block displaying the greenish-gray bark of jungle logs on all six faces. By crafting four jungle logs in a 2x2 grid, players can create three of these blocks to achieve a uniform bark texture without the exposed rings seen on standard logs. This makes jungle wood particularly useful for building realistic massive trees or thick vines in tropical-themed environments. It shares the same properties as other Overworld wood types, meaning it is flammable and efficiently broken with an axe. It can also be further processed into its stripped variant."
     },
+    "minecraft:stripped_jungle_wood": {
+        id: "minecraft:stripped_jungle_wood",
+        name: "Stripped Jungle Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Jungle Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Stripped Jungle Logs"
+        },
+        description: "Stripped Jungle Wood is a decorative block that features the smooth, pinkish-brown interior of jungle logs on all six sides. It is crafted by placing four Stripped Jungle Logs in a 2x2 grid or by using an axe on regular Jungle Wood. Unlike logs, wood blocks provide a seamless texture without 'rings' on the ends, making them ideal for building large-scale wooden structures, custom trees, and detailed interior accents. In Bedrock Edition, it is flammable and most efficiently harvested with an axe, sharing the same durability as other jungle wood variants."
+    },
     "minecraft:dark_oak_wood": {
         id: "minecraft:dark_oak_wood",
         name: "Dark Oak Wood",
