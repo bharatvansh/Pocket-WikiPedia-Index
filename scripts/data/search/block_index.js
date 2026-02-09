@@ -5034,6 +5034,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:magenta_glazed_terracotta",
+        name: "Magenta Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_magenta",
+        themeColor: "§d" // magenta
+    },
+    {
         id: "minecraft:lime_terracotta",
         name: "Lime Terracotta",
         category: "block",
@@ -5104,6 +5111,13 @@ export const blockIndex = [
         themeColor: "§d"
     },
     {
+        id: "minecraft:purple_terracotta",
+        name: "Purple Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_purple",
+        themeColor: "§5" // purple
+    },
+    {
         id: "minecraft:red_terracotta",
         name: "Red Terracotta",
         category: "block",
@@ -5137,5 +5151,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_brown",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:purple_shulker_box",
+        name: "Purple Shulker Box",
+        category: "block",
+        icon: "textures/blocks/shulker_top_purple",
+        themeColor: "§5" // purple
     }
 ];
