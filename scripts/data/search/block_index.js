@@ -2793,6 +2793,13 @@ export const blockIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        category: "block",
+        icon: "textures/blocks/stripped_birch_log_side",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:acacia_wood",
         name: "Acacia Wood",
         category: "block",
@@ -4432,6 +4439,13 @@ export const blockIndex = [
         themeColor: "§0"
     },
     {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        category: "block",
+        icon: "textures/blocks/candle_lime",
+        themeColor: "§a" // lime
+    },
+    {
         id: "minecraft:cherry_button",
         name: "Cherry Button",
         category: "block",
@@ -4878,6 +4892,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_black",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:white_carpet",
+        name: "White Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_white",
+        themeColor: "§f" // white
     },
     {
         id: "minecraft:brown_concrete",

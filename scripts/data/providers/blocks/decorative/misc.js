@@ -1042,6 +1042,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Black Carpet is a thin, decorative block used for floor covering and aesthetic detailing. It is crafted from black wool and provides a soft, dark surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes it a valuable tool for stealthy navigation in sculk-infested areas. It is highly flammable and can be placed on most solid surfaces."
     },
+    "minecraft:white_carpet": {
+        id: "minecraft:white_carpet",
+        name: "White Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from White Wool"
+        },
+        description: "White Carpet is a thin, decorative block primarily used for floor covering and aesthetic detailing. It is crafted from two blocks of white wool, yielding three carpets. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them exceptionally useful for stealthy navigation in sculk-infested areas like Ancient Cities. White carpet provides a clean, neutral surface that can be used to hide lighting sources or add soft textures to interiors without increasing the block height."
+    },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
         name: "Yellow Wool",
