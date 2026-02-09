@@ -642,6 +642,27 @@ export const interactiveBlocks = {
         },
         description: "A Pale Oak Door is a decorative and functional block crafted from six pale oak planks. It features a muted, desaturated gray-white color that matches the eerie aesthetic of the Pale Garden biome. Like other wooden doors, it can be opened by hand or powered by redstone. It occupies a two-block high space and provides a ghostly, elegant entrance to any build."
     },
+    "minecraft:oak_door": {
+        id: "minecraft:oak_door",
+        name: "Oak Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Shipwrecks, or Crafted"
+        },
+        description: "An Oak Door is a fundamental functional and decorative block crafted from six oak planks. It serves as a standard entrance for players and certain mobs, providing security and privacy for buildings. In Bedrock Edition, it has a hardness of 3.0 and can be opened manually or with redstone power. Naturally found in villages and shipwrecks, it is one of the most common door types and is essential for early-game home construction."
+    },
     "minecraft:pale_oak_trapdoor": {
         id: "minecraft:pale_oak_trapdoor",
         name: "Pale Oak Trapdoor",
@@ -662,6 +683,27 @@ export const interactiveBlocks = {
             yRange: "Crafted from Pale Oak Planks"
         },
         description: "The Pale Oak Trapdoor is a horizontal variant of the pale oak wood set. It shares the characteristic ghostly palette of the Pale Garden. Crafted from six pale oak planks, it functions as a one-block opening that can be toggled by player interaction or redstone signals. Its desaturated appearance makes it ideal for subtle flooring details, hidden passages, or unique architectural accents in more somber or weathered building designs."
+    },
+    "minecraft:oak_trapdoor": {
+        id: "minecraft:oak_trapdoor",
+        name: "Oak Trapdoor",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "The Oak Trapdoor is a horizontal variant of the oak wood set, serving as a one-block opening for floors or ceilings. Crafted from six oak planks, it can be toggled manually or with redstone signals. Beyond its primary use as a compact entrance, it is widely used in Bedrock Edition for decorative purposes such as wall paneling, window shutters, or hidden storage. It is flammable and most efficiently harvested using an axe."
     },
     "minecraft:pale_oak_fence_gate": {
         id: "minecraft:pale_oak_fence_gate",
