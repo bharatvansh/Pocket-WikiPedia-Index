@@ -259,6 +259,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_exposed_cut_copper_stairs",
+        name: "Waxed Exposed Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/exposed_cut_copper",
+        themeColor: "§6" // Gold
+    },
+    {
         id: "minecraft:exposed_cut_copper",
         name: "Exposed Cut Copper",
         category: "block",
@@ -2541,6 +2548,13 @@ export const blockIndex = [
         themeColor: "§7" // Gray
     },
     {
+        id: "minecraft:dead_tube_coral",
+        name: "Dead Tube Coral",
+        category: "block",
+        icon: "textures/blocks/dead_tube_coral",
+        themeColor: "§7" // Gray
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",
@@ -2711,6 +2725,13 @@ export const blockIndex = [
     {
         id: "minecraft:mossy_stone_bricks",
         name: "Mossy Stone Bricks",
+        category: "block",
+        icon: "textures/blocks/stonebrick_mossy",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:mossy_stone_brick_slab",
+        name: "Mossy Stone Brick Slab",
         category: "block",
         icon: "textures/blocks/stonebrick_mossy",
         themeColor: "§2"

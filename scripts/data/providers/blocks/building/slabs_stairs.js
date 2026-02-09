@@ -1329,6 +1329,27 @@ export const slabsStairsBlocks = {
         },
         description: "Mossy Stone Brick Stairs are a weathered and overgrown variant of stone brick stairs, featuring a distinct texture of cracked stone and green vines. They share the same high durability and blast resistance as regular stone brick stairs, making them excellent for building sturdy, ancient-looking structures. Naturally generating in strongholds and jungle temples, they can also be crafted by combining mossy stone bricks or using a stonecutter. Like other stairs, they are waterloggable and can be placed in various orientations to create complex architectural details."
     },
+    "minecraft:mossy_stone_brick_slab": {
+        id: "minecraft:mossy_stone_brick_slab",
+        name: "Mossy Stone Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Mossy Stone Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Jungle Temples, or Crafted"
+        },
+        description: "Mossy Stone Brick Slab is a weathered half-block variant of stone bricks, featuring a blend of cracked masonry and overgrown green moss. It offers a compact building option for detailed flooring, steps, and roofing in ancient or rustic-themed builds. In Bedrock Edition, it is fire-resistant and provides solid blast protection, matching the durability of regular stone bricks. It can be crafted from three mossy stone bricks or more efficiently via a stonecutter. Its aged appearance makes it ideal for ruins, jungle-themed structures, and atmospheric pathways."
+    },
     "minecraft:nether_brick_slab": {
         id: "minecraft:nether_brick_slab",
         name: "Nether Brick Slab",
@@ -1895,6 +1916,27 @@ export const slabsStairsBlocks = {
             yRange: "Weathered naturally or crafted"
         },
         description: "Exposed Cut Copper Stairs are a decorative building block that represents the first stage of the copper oxidation process in a stair shape. They feature a slightly tarnished brownish-orange appearance, showing the early effects of weathering on copper. These stairs are perfect for creating rustic rooflines, detailed trim, or industrial-themed staircases. They can be waxed with honeycomb to lock in their current look or scraped with an axe to revert them to the fresh copper stage. Like other copper blocks, they naturally oxidize over time into the weathered stage."
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+        id: "minecraft:waxed_exposed_cut_copper_stairs",
+        name: "Waxed Exposed Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Cut Copper or via Honeycomb application"
+        },
+        description: "Waxed Exposed Cut Copper Stairs are a decorative building block that has been treated with honeycomb to lock in its first stage of oxidation. They feature a unique tiled texture with a slightly tarnished, brownish-orange appearance that will not change over time. These stairs are perfect for creating permanent rustic rooflines or industrial-themed staircases. In Bedrock Edition, they require a stone-tier pickaxe or better to harvest. Players can remove the wax with an axe if they wish to allow the copper to continue its natural weathering process."
     },
     "minecraft:exposed_cut_copper_slab": {
         id: "minecraft:exposed_cut_copper_slab",
