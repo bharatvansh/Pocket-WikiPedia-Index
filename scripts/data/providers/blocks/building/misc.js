@@ -491,6 +491,27 @@ export const miscBuildingBlocks = {
         },
         description: "Light Gray Terracotta is a smooth, durable building block with a neutral, light gray matte finish. It generates naturally in the Badlands biome and can be found in some Savanna village houses. It is obtained by dyeing regular terracotta with light gray dye. In Bedrock Edition, a pickaxe is required to harvest it correctly; breaking it by hand yields no drops. Its clean, industrial tone makes it ideal for modern architecture and providing subtle contrast in diverse builds. It can also be smelted into light gray glazed terracotta."
     },
+    "minecraft:light_blue_terracotta": {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Terracotta is a smooth, durable building block with a soft, sky-blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. Unlike several other terracotta colors, it does not generate naturally in the Badlands biome and must be crafted. Its vibrant yet earthy light blue tone provides a fresh and modern look for architectural projects, offering higher blast resistance than wool or concrete powder. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand will result in no drops. It can also be smelted into light blue glazed terracotta."
+    },
     "minecraft:orange_glazed_terracotta": {
         id: "minecraft:orange_glazed_terracotta",
         name: "Orange Glazed Terracotta",
