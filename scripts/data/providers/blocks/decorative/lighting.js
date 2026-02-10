@@ -240,5 +240,68 @@ export const lightingBlocks = {
             yRange: "Crafted only"
         },
         description: "An Underwater Torch is a unique light source block available in Bedrock and Education Editions that remains functional when submerged in water. While regular torches instantly break when touched by water, underwater torches provide a steady light level of 14 even in the depths of the ocean. They are crafted by combining a standard torch with Magnesium. These torches are essential for illuminating underwater bases, shipwrecks, and ocean monuments without the need for expensive alternatives like sea lanterns or conduits. They share the same fragility as regular torches."
+    },
+    "minecraft:colored_torch_blue": {
+        id: "minecraft:colored_torch_blue",
+        name: "Blue Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Blue Torch is a unique light source available in Bedrock Edition when Education features are enabled. It is crafted by combining a standard torch with Cerium Chloride. Emitting a light level of 14, it provides a distinct blue glow that can be used for decorative purposes. Like regular torches, it can be placed on the top or sides of most solid blocks. It breaks instantly when broken by hand or any tool, and it will also break if water flows into its space."
+    },
+    "minecraft:colored_torch_red": {
+        id: "minecraft:colored_torch_red",
+        name: "Red Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Red Torch is a decorative light source block exclusive to Bedrock and Education Editions. It is created by crafting a regular torch with Mercuric Chloride. It emits a light level of 14 with a vibrant red flame, offering a unique aesthetic compared to standard or redstone torches. It can be placed on walls or floors and is easily broken by any means. While it provides light, it does not have the functional power output of a redstone torch."
+    },
+    "minecraft:colored_torch_green": {
+        id: "minecraft:colored_torch_green",
+        name: "Green Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Green Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Green Torch is a specialized lighting block found in Bedrock Edition's Education mode. It is produced by combining a torch with Tungsten Chloride. This torch emits a steady light level of 14 and features a bright green flame. It is primarily used for creative builds and thematic decorations. It shares the same placement and breaking mechanics as standard torches, being fragile and easily washed away by water or moved by pistons."
     }
 };
