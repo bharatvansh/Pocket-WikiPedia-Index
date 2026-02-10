@@ -76,6 +76,27 @@ export const redstoneBlocks = {
         },
         description: "The Exposed Lightning Rod is a functional block representing the second stage of copper oxidation. Like the base lightning rod, it attracts strikes within a 64-block radius in Bedrock Edition and emits a redstone signal when hit. Over time, it will continue to weather into a weathered lightning rod unless waxed with honeycomb. It features a slightly tarnished brownish-orange appearance. Players can use an axe to scrape off the oxidation or apply wax to preserve this specific stage. It remains a vital tool for protecting flammable structures from lightning-induced fires."
     },
+    "minecraft:weathered_lightning_rod": {
+        id: "minecraft:weathered_lightning_rod",
+        name: "Weathered Lightning Rod",
+        hardness: 3,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Lightning Rod"],
+        generation: {
+            dimension: "None",
+            yRange: "Weathered naturally"
+        },
+        description: "The Weathered Lightning Rod represents the third stage of copper oxidation, featuring a significant greenish-teal patina while still retaining hints of its original bronze color. It attracts lightning strikes within a 64-block radius in Bedrock Edition, protecting nearby flammable structures by redirecting bolts to itself. When struck, it emits a redstone signal that can power adjacent components. Players can use an axe to scrape off the oxidation and return it to an earlier stage, or apply honeycomb to wax it."
+    },
     "minecraft:oxidized_lightning_rod": {
         id: "minecraft:oxidized_lightning_rod",
         name: "Oxidized Lightning Rod",

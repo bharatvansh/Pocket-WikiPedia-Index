@@ -558,6 +558,27 @@ export const interactiveBlocks = {
         },
         description: "The Blue Candle is a decorative light source block that can be placed in clusters of up to four. Each candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a vibrant blue color and must be lit using flint and steel to emit light. Blue candles can also be placed on cakes to create a blue candle cake, perfect for themed decorations."
     },
+    "minecraft:cyan_candle": {
+        id: "minecraft:cyan_candle",
+        name: "Cyan Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Cyan Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Candle and Cyan Dye"
+        },
+        description: "The Cyan Candle is a decorative light source that adds a splash of vibrant teal color to any setting. Like all candles in Bedrock Edition, it can be clustered with up to four identical candles on a single block, increasing the light level from 3 to a maximum of 12. It must be lit using flint and steel, a fire charge, or a flaming projectile to emit light. These candles are waterloggable but cannot be lit while submerged. They can also be placed atop a cake to create a festive Cyan Candle Cake."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",

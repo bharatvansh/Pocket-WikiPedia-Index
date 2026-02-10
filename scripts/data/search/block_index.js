@@ -1001,6 +1001,13 @@ export const blockIndex = [
         themeColor: "§6" // gold/copper
     },
     {
+        id: "minecraft:weathered_lightning_rod",
+        name: "Weathered Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/weathered_lightning_rod",
+        themeColor: "§3" // dark aqua
+    },
+    {
         id: "minecraft:oxidized_lightning_rod",
         name: "Oxidized Lightning Rod",
         category: "block",
@@ -4306,6 +4313,13 @@ export const blockIndex = [
         themeColor: "§9"
     },
     {
+        id: "minecraft:cyan_candle",
+        name: "Cyan Candle",
+        category: "block",
+        icon: "textures/blocks/candle_cyan",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:mud_brick_slab",
         name: "Mud Brick Slab",
         category: "block",
@@ -5276,6 +5290,13 @@ export const blockIndex = [
         name: "Pink Concrete",
         category: "block",
         icon: "textures/blocks/concrete_pink",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:pink_concrete_powder",
+        name: "Pink Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_pink",
         themeColor: "§d"
     },
     {
