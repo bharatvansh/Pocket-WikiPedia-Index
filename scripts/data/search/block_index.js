@@ -1316,6 +1316,13 @@ export const blockIndex = [
         themeColor: "§8" // dark gray/brown
     },
     {
+        id: "minecraft:soul_fire",
+        name: "Soul Fire",
+        category: "block",
+        icon: "textures/blocks/soul_fire_0",
+        themeColor: "§b" // aqua
+    },
+    {
         id: "minecraft:glow_lichen",
         name: "Glow Lichen",
         category: "block",
@@ -1509,6 +1516,20 @@ export const blockIndex = [
         name: "Anvil",
         category: "block",
         icon: "textures/blocks/anvil_top",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:leaf_litter",
+        name: "Leaf Litter",
+        category: "block",
+        icon: "textures/blocks/leaf_litter",
+        themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:tall_dry_grass",
+        name: "Tall Dry Grass",
+        category: "block",
+        icon: "textures/blocks/tall_dry_grass",
         themeColor: "§7" // gray
     },
     {
