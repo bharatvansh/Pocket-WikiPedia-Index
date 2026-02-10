@@ -2149,6 +2149,27 @@ export const blockIndex = [
         themeColor: "§b"
     },
     {
+        id: "minecraft:colored_torch_blue",
+        name: "Blue Torch",
+        category: "block",
+        icon: "textures/blocks/colored_torch_blue",
+        themeColor: "§9" // blue
+    },
+    {
+        id: "minecraft:colored_torch_red",
+        name: "Red Torch",
+        category: "block",
+        icon: "textures/blocks/colored_torch_red",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:colored_torch_green",
+        name: "Green Torch",
+        category: "block",
+        icon: "textures/blocks/colored_torch_green",
+        themeColor: "§2" // green
+    },
+    {
         id: "minecraft:prismarine_bricks",
         name: "Prismarine Bricks",
         category: "block",
