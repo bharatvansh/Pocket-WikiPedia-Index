@@ -198,6 +198,27 @@ export const glassBlocks = {
         },
         description: "Black Stained Glass is a transparent decorative block created by surrounding a piece of black dye with eight glass blocks. It retains the transparency of regular glass while adding a deep black tint, making it perfect for modern architecture and sleek window designs. Notably in Minecraft Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment, unlike in Java Edition. It can be used to create artistic beacons or decorative light filters that provide a sophisticated and mysterious aesthetic to any structure."
     },
+    "minecraft:black_stained_glass_pane": {
+        id: "minecraft:black_stained_glass_pane",
+        name: "Black Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Black Stained Glass Pane (with Silk Touch)"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Black Stained Glass Panes are thin, transparent decorative blocks that offer a sleek and sophisticated alternative to full glass blocks. They are crafted by combining glass panes with black dye or by crafting black stained glass blocks into panes. Like other glass panes, they connect to adjacent blocks and other panes to create seamless, dark-tinted windows. In Bedrock Edition, they require a tool with Silk Touch to be harvested; otherwise, they shatter and drop nothing. They are highly resource-efficient for large-scale window designs."
+    },
     "minecraft:magenta_stained_glass": {
         id: "minecraft:magenta_stained_glass",
         name: "Magenta Stained Glass",

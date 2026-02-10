@@ -3430,6 +3430,13 @@ export const blockIndex = [
         themeColor: "§0" // black
     },
     {
+        id: "minecraft:black_stained_glass_pane",
+        name: "Black Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_black",
+        themeColor: "§0" // black
+    },
+    {
         id: "minecraft:magenta_stained_glass",
         name: "Magenta Stained Glass",
         category: "block",
@@ -4074,6 +4081,13 @@ export const blockIndex = [
         themeColor: "§6" // warm tan/orange
     },
     {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6" // Gold/Brown
+    },
+    {
         id: "minecraft:acacia_planks",
         name: "Acacia Planks",
         category: "block",
@@ -4083,6 +4097,13 @@ export const blockIndex = [
     {
         id: "minecraft:dark_oak_planks",
         name: "Dark Oak Planks",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8" // dark brown
+    },
+    {
+        id: "minecraft:dark_oak_slab",
+        name: "Dark Oak Slab",
         category: "block",
         icon: "textures/blocks/planks_big_oak",
         themeColor: "§8" // dark brown

@@ -576,6 +576,27 @@ export const slabsStairsBlocks = {
         },
         description: "Jungle Stairs are crafted from Jungle Planks and possess a unique pinkish-tan hue. They are most commonly found in Jungle Temples and shipwrecked vessels. These stairs are perfect for tropical-themed builds and complement other jungle-derived materials like vines and bamboo. They provide the standard stair utility, allowing for seamless vertical movement and versatile decorative applications. Like other wood variants, they are flammable and can be mined with any tool, though an axe is preferred."
     },
+    "minecraft:jungle_slab": {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Jungle Slab is a half-block variant of jungle planks, featuring a unique pinkish-orange or warm tan hue. It provides a low-profile building option for floors, ceilings, and intricate architectural details while maintaining a tropical aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It is an essential component for structures requiring the vibrant and exotic palette of the Jungle."
+    },
     "minecraft:acacia_stairs": {
         id: "minecraft:acacia_stairs",
         name: "Acacia Stairs",
@@ -1290,6 +1311,27 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Dark Oak Planks"
         },
         description: "Dark Oak Stairs are decorative building blocks crafted from dark oak planks. They feature the same rich, dark brown color as the rest of the dark oak wood set, making them perfect for creating moody or sophisticated architecture. Like all stairs, they allow for smooth vertical movement and can be used for detailed roofing, furniture, and trim. They are waterloggable and can be placed in various orientations. They are flammable and are most efficiently harvested with an axe."
+    },
+    "minecraft:dark_oak_slab": {
+        id: "minecraft:dark_oak_slab",
+        name: "Dark Oak Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Dark Oak Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Dark Oak Slab is a building block crafted from Dark Oak Planks, featuring a rich, deep brown color. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a sophisticated and moody aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It is an essential component for structures requiring the dark, elegant palette of the Roofed Forest."
     },
     "minecraft:polished_blackstone_wall": {
         id: "minecraft:polished_blackstone_wall",
