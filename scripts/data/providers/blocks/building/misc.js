@@ -428,6 +428,27 @@ export const miscBuildingBlocks = {
         },
         description: "Yellow Terracotta is a smooth, earthy building block found naturally in the Badlands biome. It is created by smelting clay and applying yellow dye, or found in massive strata in the wild. Its warm, sun-dried appearance and matte finish make it ideal for desert-themed architecture or Mediterranean builds. In Bedrock Edition, it requires a pickaxe for harvesting; breaking it by hand yields nothing. It possesses high blast resistance and can be further smelted into yellow glazed terracotta."
     },
+    "minecraft:yellow_glazed_terracotta": {
+        id: "minecraft:yellow_glazed_terracotta",
+        name: "Yellow Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Yellow Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Yellow Terracotta"
+        },
+        description: "Yellow Glazed Terracotta is a vibrant decorative block in Bedrock Edition featuring an intricate, sun-themed geometric pattern. It is obtained by smelting yellow terracotta in a furnace. Like all glazed terracotta, it is notable for being unmovable by slime blocks or honey blocks, making it a vital component for advanced redstone machines and flying contraptions. Its directional placement allows players to create complex, repeating motifs on floors and walls. The yellow variant adds a bright, cheerful aesthetic to builds and is immune to fire, requiring a pickaxe for harvesting."
+    },
     "minecraft:red_terracotta": {
         id: "minecraft:red_terracotta",
         name: "Red Terracotta",

@@ -1001,6 +1001,13 @@ export const blockIndex = [
         themeColor: "§6" // gold/copper
     },
     {
+        id: "minecraft:oxidized_lightning_rod",
+        name: "Oxidized Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/oxidized_lightning_rod",
+        themeColor: "§2" // Dark Green
+    },
+    {
         id: "minecraft:lodestone",
         name: "Lodestone",
         category: "block",
@@ -3157,6 +3164,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:yellow_glazed_terracotta",
+        name: "Yellow Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_yellow",
+        themeColor: "§e" // Yellow
+    },
+    {
         id: "minecraft:brown_terracotta",
         name: "Brown Terracotta",
         category: "block",
@@ -3372,6 +3386,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:blue_stained_glass_pane",
+        name: "Blue Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_blue",
+        themeColor: "§1" // Dark Blue
     },
     {
         id: "minecraft:brown_stained_glass",
