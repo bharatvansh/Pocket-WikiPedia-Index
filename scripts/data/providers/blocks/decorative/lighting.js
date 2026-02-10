@@ -240,5 +240,26 @@ export const lightingBlocks = {
             yRange: "Crafted only"
         },
         description: "An Underwater Torch is a unique light source block available in Bedrock and Education Editions that remains functional when submerged in water. While regular torches instantly break when touched by water, underwater torches provide a steady light level of 14 even in the depths of the ocean. They are crafted by combining a standard torch with Magnesium. These torches are essential for illuminating underwater bases, shipwrecks, and ocean monuments without the need for expensive alternatives like sea lanterns or conduits. They share the same fragility as regular torches."
+    },
+    "minecraft:colored_torch_blue": {
+        id: "minecraft:colored_torch_blue",
+        name: "Blue Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "A Blue Torch is a unique lighting block available in Minecraft Bedrock and Education Editions. It emits a light level of 14, identical to a standard torch, but features a distinctive blue flame. It is crafted in a standard crafting table by combining a torch with Cerium Chloride, which is created in a Compound Creator from Cerium and Chlorine. Like regular torches, blue torches cannot be placed underwater and will break if water touches them. They are primarily used for decoration and to add atmospheric lighting to laboratories or futuristic builds."
     }
 };
