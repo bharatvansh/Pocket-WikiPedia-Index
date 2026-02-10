@@ -1084,6 +1084,27 @@ export const miscDecorativeBlocks = {
         },
         description: "White Carpet is a thin decorative block used for flooring and aesthetics. It is crafted from white wool and provides a soft, bright surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes it a valuable tool for stealthy navigation in sculk-infested areas like Ancient Cities. It also generates naturally in Ancient Cities as part of the structures and in igloo basements. It is highly flammable and can be placed on most solid surfaces."
     },
+    "minecraft:brown_carpet": {
+        id: "minecraft:brown_carpet",
+        name: "Brown Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Brown Wool"
+        },
+        description: "Brown Carpet is a thin, decorative block used primarily for flooring. It is crafted from two blocks of brown wool. In Bedrock Edition, carpets have the unique property of dampening vibrations, which prevents Sculk Sensors from detecting player movement above them. This makes them essential for navigating ancient cities stealthily. They can be placed on most solid blocks and are highly flammable. Brown carpets are often used for earthy-toned interior designs and as a component in complex rug patterns."
+    },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
         name: "Yellow Wool",
@@ -1125,6 +1146,27 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Green Sheep"
         },
         description: "Green Wool is a decorative building block with a soft texture and a deep forest-green color. It is obtained by shearing green sheep or by combining white wool with green dye. In Bedrock Edition, green wool has the unique property of blocking vibrations, making it essential for navigating sculk-infested areas like Ancient Cities without alerting Sculk Sensors. While highly flammable and weak to explosions, its rich color and acoustic dampening qualities make it a popular choice for lush organic builds, nature-themed decorations, and complex redstone sound-proofing."
+    },
+    "minecraft:lime_wool": {
+        id: "minecraft:lime_wool",
+        name: "Lime Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Lime Sheep"
+        },
+        description: "Lime Wool is a vibrant decorative block obtained by shearing lime-colored sheep or by combining white wool with lime dye. In Bedrock Edition, wool blocks possess acoustic dampening properties, effectively blocking vibrations from reaching Sculk Sensors and preventing the activation of Sculk Shriekers by movement. While it is highly flammable and offers low blast resistance, its bright color makes it ideal for artistic builds, pixel art, and creating transition gradients. It can also be used as a fuel in furnaces and is required for crafting lime carpets and beds."
     },
     "minecraft:pink_wool": {
         id: "minecraft:pink_wool",
