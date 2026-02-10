@@ -261,5 +261,68 @@ export const lightingBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "A Blue Torch is a unique lighting block available in Minecraft Bedrock and Education Editions. It emits a light level of 14, identical to a standard torch, but features a distinctive blue flame. It is crafted in a standard crafting table by combining a torch with Cerium Chloride, which is created in a Compound Creator from Cerium and Chlorine. Like regular torches, blue torches cannot be placed underwater and will break if water touches them. They are primarily used for decoration and to add atmospheric lighting to laboratories or futuristic builds."
+    },
+    "minecraft:colored_torch_green": {
+        id: "minecraft:colored_torch_green",
+        name: "Green Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Green Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "A Green Torch is a specialized light source available in Bedrock and Education Editions. It produces a bright green flame with a light level of 14, providing a distinct atmosphere compared to standard orange torches. Players can craft it by combining a torch with Tungsten Chloride, which requires Tungsten and Chlorine. It shares the placement rules of standard torches and cannot be used underwater. These torches are popular for fantasy builds, toxic-themed environments, or simply to add a splash of color to laboratory settings."
+    },
+    "minecraft:colored_torch_purple": {
+        id: "minecraft:colored_torch_purple",
+        name: "Purple Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "A Purple Torch is an Education Edition feature also accessible in Bedrock Edition via experimental toggles. It emits a mystical purple flame while maintaining a luminance level of 14. Crafting requires a standard torch and Potassium Chloride, a compound made from Potassium and Chlorine. Like all torches, it can be placed on the top or sides of most solid blocks but will pop off if water touches it. Its unique purple hue makes it perfect for magical or alien-themed builds and adds a creative flair to chemistry-focused gameplay."
+    },
+    "minecraft:colored_torch_red": {
+        id: "minecraft:colored_torch_red",
+        name: "Red Torch",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "A Red Torch is a decorative lighting block exclusive to Minecraft Bedrock and Education Editions. It emits a light level of 14, matching standard torches, but features a vivid red flame for thematic lighting. It is crafted by combining a standard torch with Mercuric Chloride, a compound created using Mercury and Chlorine in a Compound Creator. Like other torches, it is non-solid, fragile, and will break if submerged in water. It is ideal for red-themed builds, adventure maps, or simulating emergency lighting in industrial settings."
     }
 };
