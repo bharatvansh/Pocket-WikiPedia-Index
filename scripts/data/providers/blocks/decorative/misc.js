@@ -160,6 +160,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Obsidian is one of the hardest blocks in Minecraft, formed when water flows over a lava source block. It requires a diamond or netherite pickaxe to mine, taking about 9.4 seconds with a diamond pickaxe. Obsidian is essential for building Nether portals and is practically immune to explosions, making it ideal for blast-resistant structures."
     },
+    "minecraft:glowingobsidian": {
+        id: "minecraft:glowingobsidian",
+        name: "Glowing Obsidian",
+        hardness: 50.0,
+        blastResistance: 1200.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 12,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Diamond",
+            silkTouch: false
+        },
+        drops: ["Glowing Obsidian"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Nether Reactor (Historic)"
+        },
+        description: "Glowing Obsidian is a rare, luminous block found in Minecraft Bedrock Edition, historically associated with the activation of the Nether Reactor. It emits a light level of 12 and produces distinctive red smoke particles. While it shares the incredible hardness (50) and blast resistance (1200) of regular obsidian, it is notably distinguished by its glowing red texture. In current versions, it can only be obtained through commands, but it remains a nostalgic reminder of the game's early mobile development."
+    },
     "minecraft:reinforced_deepslate": {
         id: "minecraft:reinforced_deepslate",
         name: "Reinforced Deepslate",
