@@ -1143,6 +1143,27 @@ export const slabsStairsBlocks = {
         },
         description: "The Petrified Oak Slab is a unique legacy block in Minecraft Bedrock Edition that appears identical to a standard oak slab but behaves like stone. Unlike regular wooden slabs, it is non-flammable and must be mined with a pickaxe to be dropped. It was originally the only type of wooden slab when slabs were first introduced and used stone properties. While it can no longer be crafted in modern versions, it remains in the game's code and can be obtained via commands or in older upgraded worlds."
     },
+    "minecraft:spruce_slab": {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Spruce Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Spruce Planks"
+        },
+        description: "Spruce Slab is a building block crafted from spruce planks, featuring a dark and rustic brown tone. It is used to create smooth elevation changes, detailed flooring, and efficient roofing while maintaining a cozy, cabin-like aesthetic. Like other wooden slabs, it can be placed in either the upper or lower half of a block space or combined into a double slab. In Bedrock Edition, it is flammable and can be waterlogged. It can be crafted by placing three spruce planks horizontally in a crafting grid or more efficiently by using a stonecutter."
+    },
 
     "minecraft:bamboo_mosaic_slab": {
         id: "minecraft:bamboo_mosaic_slab",
