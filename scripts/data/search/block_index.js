@@ -3598,6 +3598,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:birch_stairs",
         name: "Birch Stairs",
         category: "block",
@@ -3607,6 +3614,13 @@ export const blockIndex = [
     {
         id: "minecraft:jungle_stairs",
         name: "Jungle Stairs",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
         category: "block",
         icon: "textures/blocks/planks_jungle",
         themeColor: "§6"
@@ -4392,6 +4406,13 @@ export const blockIndex = [
     {
         id: "minecraft:dark_oak_stairs",
         name: "Dark Oak Stairs",
+        category: "block",
+        icon: "textures/blocks/planks_big_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dark_oak_slab",
+        name: "Dark Oak Slab",
         category: "block",
         icon: "textures/blocks/planks_big_oak",
         themeColor: "§8"
