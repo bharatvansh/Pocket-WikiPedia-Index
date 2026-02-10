@@ -2884,6 +2884,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:stripped_dark_oak_log",
+        name: "Stripped Dark Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_dark_oak_log_side",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:jungle_log",
         name: "Jungle Log",
         category: "block",
@@ -4095,6 +4102,13 @@ export const blockIndex = [
         themeColor: "§1"
     },
     {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_yellow",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:activator_rail",
         name: "Activator Rail",
         category: "block",
@@ -4822,6 +4836,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/prismarine",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:dark_prismarine_slab",
+        name: "Dark Prismarine Slab",
+        category: "block",
+        icon: "textures/blocks/prismarine_dark",
+        themeColor: "§3"
     },
     {
         id: "minecraft:prismarine_wall",
