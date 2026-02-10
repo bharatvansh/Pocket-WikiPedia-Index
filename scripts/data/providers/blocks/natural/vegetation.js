@@ -562,6 +562,48 @@ export const vegetationBlocks = {
         },
         description: "Short Grass is a common vegetation block introduced in Minecraft 1.20.3 to replace the tall grass texture in most biomes, while the renamed Tall Grass (minecraft:tall_grass) remains much taller and rarer. Found in abundance across nearly every grassy Overworld biome, it can be instantly broken by hand or water and has a chance to drop wheat seeds. It often generates with flowers mixed in, creating natural-looking meadows. Short grass is a purely decorative block that adds visual diversity to landscapes without obstructing player movement."
     },
+    "minecraft:leaf_litter": {
+        id: "minecraft:leaf_litter",
+        name: "Leaf Litter",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Leaf Litter (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "Leaf Litter is a decorative vegetation block introduced in the Pale Garden biome. Similar to pink petals, up to four leaf litter pieces can be placed on a single block, allowing for varied density and texture on the forest floor. It represents fallen, decaying leaves and fits the desaturated theme of the Pale Garden. While it can be broken easily, Shears are needed to harvest it. It can also be used as a fuel source in furnaces, smelting half an item per piece. This block adds a layer of natural detail to ground surfaces, enhancing the atmospheric depth of builds."
+    },
+    "minecraft:tall_dry_grass": {
+        id: "minecraft:tall_dry_grass",
+        name: "Tall Dry Grass",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Tall Dry Grass (with Shears)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Pale Garden biome"
+        },
+        description: "Tall Dry Grass is a desaturated vegetation block found naturally in the Pale Garden biome. It stands taller than standard short grass and contributes to the eerie, monochromatic aesthetic of its native environment. Like other grass variants, it can be broken instantly by hand or with any tool, but requires Shears to be collected as an item. It provides a unique decorative element for builders looking to create aged, weathered, or ghostly landscapes. In Bedrock Edition, it is a key component of the Pale Garden's distinct flora, reflecting the biome's haunting atmosphere."
+    },
     "minecraft:pale_oak_sapling": {
         id: "minecraft:pale_oak_sapling",
         name: "Pale Oak Sapling",
