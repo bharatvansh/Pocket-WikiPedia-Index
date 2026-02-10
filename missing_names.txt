@@ -372,7 +372,6 @@ undyed_shulker_box
 unlit_redstone_torch
 unpowered_comparator
 unpowered_repeater
-villager_v2
 wall_banner
 wall_sign
 warped_button
@@ -469,7 +468,5 @@ yellow_stained_glass
 yellow_stained_glass_pane
 zombie_nautilus
 zombie_nautilus_spawn_egg
-zombie_pigman
 zombie_pigman_spawn_egg
 zombie_villager_spawn_egg
-zombie_villager_v2
