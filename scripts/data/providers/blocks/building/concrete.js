@@ -95,6 +95,27 @@ export const concreteBlocks = {
         },
         description: "Yellow Concrete is a bright and cheerful building block that provides a solid, sunny color with a smooth finish. It is created by allowing Yellow Concrete Powder to touch water, which triggers its transformation into a hardened state. This block is ideal for adding pops of color to a build or creating large-scale pixel art. Its non-flammable nature and clean look make it a superior choice over yellow wool for many permanent structures, offering a consistent hue that doesn't fade or vary."
     },
+    "minecraft:yellow_concrete_powder": {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:yellow_concrete_powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bright yellow hue. It is crafted using four sand, four gravel, and one yellow dye. When this block comes into contact with water, it instantly solidifies into smooth Yellow Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It provides a vibrant, textured appearance that is highly valued for colorful builds before being hardened into a permanent state."
+    },
     "minecraft:lime_concrete": {
         id: "minecraft:lime_concrete",
         name: "Lime Concrete",

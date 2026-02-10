@@ -1833,6 +1833,27 @@ export const slabsStairsBlocks = {
         },
         description: "Prismarine Slabs are decorative half-blocks featuring the animated blue-green texture of prismarine. They generate naturally within Ocean Monuments, forming parts of the grand underwater architecture. These slabs are versatile for creating detailed aquatic-themed floors, ceilings, and smooth elevation changes. Because they are stone-based, they are fireproof and offer reliable blast resistance. They can be crafted from three prismarine blocks or produced via a stonecutter. Like other slabs, they can be waterlogged, allowing them to blend perfectly into submerged temples and high-end underwater bases."
     },
+    "minecraft:dark_prismarine_slab": {
+        id: "minecraft:dark_prismarine_slab",
+        name: "Dark Prismarine Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:dark_prismarine_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Dark Prismarine Slab is a half-block variant of dark prismarine, featuring a deep teal-cyan color that provides a striking contrast in aquatic builds. These slabs are essential for creating smooth elevation changes, detailed flooring, and sleek roofing in underwater monuments or high-end submerged bases. Like other prismarine variants, they are durable and highly resistant to explosions. In Bedrock Edition, they can be waterlogged and placed in various orientations. They can be crafted from three dark prismarine blocks or produced more efficiently using a stonecutter."
+    },
     "minecraft:prismarine_wall": {
         id: "minecraft:prismarine_wall",
         name: "Prismarine Wall",

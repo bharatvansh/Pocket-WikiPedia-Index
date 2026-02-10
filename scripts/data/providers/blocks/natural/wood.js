@@ -515,6 +515,27 @@ export const woodBlocks = {
         },
         description: "Dark Oak Logs are harvested from the thick, sprawling dark oak trees found in the dense Dark Forest biome. They feature a very dark brown, almost black bark and a slightly lighter brown interior wood. Dark oak trees are unique because they require four saplings planted in a 2x2 grid to grow, resulting in massive trunks. These logs are a favorite among builders for their rich, deep color, which provides excellent contrast against lighter materials. They can be crafted into dark oak planks, stripped with an axe, or used as a strong structural element in medieval and gothic-style builds."
     },
+    "minecraft:stripped_dark_oak_log": {
+        id: "minecraft:stripped_dark_oak_log",
+        name: "Stripped Dark Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_dark_oak_log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Dark Oak Log"
+        },
+        description: "Stripped Dark Oak Log is a wood variant obtained by using an axe on a regular dark oak log. This removes the rough, dark brown bark, revealing the smooth, brown interior wood. It is widely used by builders in Bedrock Edition as a clean and professional building material for sophisticated architecture, furniture, and detailed flooring. Like other stripped wood, it can be crafted into dark oak planks, hanging signs, or wood blocks. Its uniform texture and rich, deep color make it excellent for creating polished wooden structures and decorative columns."
+    },
     "minecraft:oak_wood": {
         id: "minecraft:oak_wood",
         name: "Oak Wood",
