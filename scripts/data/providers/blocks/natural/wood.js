@@ -473,6 +473,27 @@ export const woodBlocks = {
         },
         description: "Acacia logs come from the uniquely shaped, umbrella-like acacia trees found in the savanna biome. They feature a dark gray bark and a distinctive vibrant orange interior wood. This striking color contrast makes acacia logs a popular choice for unique architectural designs and decorative accents. They can be crafted into acacia planks, which retain the warm orange hue, making them ideal for adding a splash of color to desert or savanna-dwelling structures."
     },
+    "minecraft:stripped_acacia_log": {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_acacia_log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna Villages"
+        },
+        description: "Stripped Acacia Log is a wood variant obtained by using an axe on an acacia log, removing the dark gray bark to reveal the vibrant orange interior wood. It generates naturally in savanna villages and is widely used for its unique and warm color palette. Like other stripped logs, it can be crafted into acacia planks, hanging signs, or wood blocks. It is flammable and possesses a hardness and blast resistance of 2.0, making it a sturdy and colorful building material in Bedrock Edition."
+    },
     "minecraft:mangrove_leaves": {
         id: "minecraft:mangrove_leaves",
         name: "Mangrove Leaves",
@@ -514,6 +535,27 @@ export const woodBlocks = {
             yRange: "60–128 (Surface)"
         },
         description: "Dark Oak Logs are harvested from the thick, sprawling dark oak trees found in the dense Dark Forest biome. They feature a very dark brown, almost black bark and a slightly lighter brown interior wood. Dark oak trees are unique because they require four saplings planted in a 2x2 grid to grow, resulting in massive trunks. These logs are a favorite among builders for their rich, deep color, which provides excellent contrast against lighter materials. They can be crafted into dark oak planks, stripped with an axe, or used as a strong structural element in medieval and gothic-style builds."
+    },
+    "minecraft:stripped_jungle_log": {
+        id: "minecraft:stripped_jungle_log",
+        name: "Stripped Jungle Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_jungle_log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Biomes"
+        },
+        description: "Stripped Jungle Log is a wood variant obtained by using an axe on a jungle log, removing the greenish-gray bark to reveal the smooth, pinkish-brown interior wood. It is commonly used as a warm and natural-looking material for tropical or rustic designs. Like other stripped wood, it can be crafted into jungle planks, hanging signs, or wood blocks. It is flammable and has a hardness and blast resistance of 2.0. Its uniform texture and earthy tone make it excellent for creating detailed wooden structures and decorative pillars."
     },
     "minecraft:oak_wood": {
         id: "minecraft:oak_wood",

@@ -2863,11 +2863,25 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        category: "block",
+        icon: "textures/blocks/stripped_acacia_log_side",
+        themeColor: "§6" // Gold
+    },
+    {
         id: "minecraft:jungle_wood",
         name: "Jungle Wood",
         category: "block",
         icon: "textures/blocks/log_jungle",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:stripped_jungle_log",
+        name: "Stripped Jungle Log",
+        category: "block",
+        icon: "textures/blocks/stripped_jungle_log_side",
+        themeColor: "§6" // Gold
     },
     {
         id: "minecraft:dark_oak_wood",
@@ -3358,6 +3372,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // White
     },
     {
         id: "minecraft:blue_stained_glass",
