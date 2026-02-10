@@ -2821,6 +2821,13 @@ export const blockIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        category: "block",
+        icon: "textures/blocks/stripped_birch_log_side",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:acacia_wood",
         name: "Acacia Wood",
         category: "block",
@@ -4558,6 +4565,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:dead_tube_coral_block",
+        name: "Dead Tube Coral Block",
+        category: "block",
+        icon: "textures/blocks/dead_tube_coral_block",
+        themeColor: "§7" // gray
+    },
+    {
         id: "minecraft:chipped_anvil",
         name: "Chipped Anvil",
         category: "block",
@@ -5053,6 +5067,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_clay_stained_silver",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay_stained_light_blue",
+        themeColor: "§b" // aqua
     },
     {
         id: "minecraft:silver_glazed_terracotta",

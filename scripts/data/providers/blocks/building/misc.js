@@ -574,5 +574,26 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Magenta Terracotta"
         },
         description: "Magenta Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with magenta and pink tones. It is created by smelting magenta terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it is notably unmovable by pistons, unlike many other decorative blocks."
+    },
+    "minecraft:light_blue_terracotta": {
+        id: "minecraft:light_blue_terracotta",
+        name: "Light Blue Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Light Blue Terracotta is a smooth, durable building block with a soft, pale blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. In Bedrock Edition, it does not generate naturally in the Badlands biome and must be crafted by the player. Its calm, earthy blue tone provides a sophisticated and clean look for architectural projects, offering significantly higher blast resistance than wool or concrete powder. It requires a pickaxe for harvesting; breaking it by hand will result in no drops. It can also be smelted into light blue glazed terracotta."
     }
 };

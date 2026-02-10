@@ -955,5 +955,26 @@ export const woodBlocks = {
             yRange: "64 to 320 (Dark Forest)"
         },
         description: "Dark Oak Leaves are the dense, dark green foliage of Dark Oak trees, primarily found in the Roofed Forest biome. They are unique for forming thick, opaque canopies that can block out enough light to allow hostile mobs to spawn during the day. Like other leaves, they have a small chance to drop apples and dark oak saplings when they decay or are broken. They are highly flammable and best harvested using shears or silk touch tools for decorative landscaping. In Bedrock Edition, they provide a lush, dark green canopy that is essential for the atmospheric look of dark forest biomes."
+    },
+    "minecraft:stripped_birch_log": {
+        id: "minecraft:stripped_birch_log",
+        name: "Stripped Birch Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_birch_log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Birch Log"
+        },
+        description: "Stripped Birch Log is a wood variant obtained by using an axe on a regular birch log. This process removes the iconic white-and-black bark, revealing the smooth, light tan interior wood. It is widely used by builders in Bedrock Edition as a clean, bright building material for modern or Scandinavian-style designs. Like other stripped logs, it can be crafted into birch planks, hanging signs, or wood blocks. Its uniform, pale texture makes it excellent for creating polished wooden structures, decorative pillars, and providing a bright contrast to darker materials."
     }
 };
