@@ -684,6 +684,27 @@ export const interactiveBlocks = {
         },
         description: "A Pale Oak Fence Gate serves as an interactive entrance through fence perimeters. Matching the Pale Oak wood set, it displays a light, ghostly gray-white hue. It can be opened and closed by hand or via redstone, and always opens away from the player. When placed, it provides a seamless transition for pale oak fences while maintaining the desaturated, atmospheric look of the Pale Garden biome."
     },
+    "minecraft:pale_oak_sign": {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:pale_oak_sign"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Pale Oak Planks x6"
+        },
+        description: "The Pale Oak Sign is a decorative and functional block introduced with the Pale Garden biome. It features a muted, desaturated gray-white color characteristic of pale oak wood. Like other signs, it can be placed on the ground or on walls and can display up to four lines of text on both sides. In Bedrock Edition, signs can be edited after placement, and their text can be dyed or made to glow with a glow ink sac. Its ghostly appearance makes it perfect for eerie or sophisticated builds."
+    },
     "minecraft:oak_fence_gate": {
         id: "minecraft:oak_fence_gate",
         name: "Oak Fence Gate",
