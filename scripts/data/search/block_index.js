@@ -5200,5 +5200,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/shulker_top_silver",
         themeColor: "§7" // light gray
+    },
+    {
+        id: "minecraft:glowingobsidian",
+        name: "Glowing Obsidian",
+        category: "block",
+        icon: "textures/blocks/glowing_obsidian",
+        themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:chemical_heat",
+        name: "Heat Block",
+        category: "block",
+        icon: "textures/blocks/heat_block",
+        themeColor: "§6" // gold/orange
+    },
+    {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        category: "block",
+        icon: "textures/blocks/hardened_glass",
+        themeColor: "§7" // gray
     }
 ];

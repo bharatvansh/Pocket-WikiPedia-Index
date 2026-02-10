@@ -1356,5 +1356,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Warped Trapdoor is a fire-resistant functional block crafted from warped planks, native to the Nether's Warped Forest. It serves as a horizontal door that can be toggled by player interaction or redstone signals. Unlike Overworld wooden trapdoors, it is completely immune to fire and lava, making it essential for builds in hazardous dimensions. It features a unique teal color and a strange, alien-like texture that matches the warped wood set. In Bedrock Edition, it has a hardness of 3.0 and is most efficiently harvested using an axe."
+    },
+    "minecraft:chemical_heat": {
+        id: "minecraft:chemical_heat",
+        name: "Heat Block",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Heat Block"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Heat Block is a specialized functional block available in Bedrock Edition with Education features enabled. Its primary function is to melt nearby snow, ice, and frosted ice, similar to a torch, but without emitting any visible light. This makes it a unique tool for hidden utility, allowing players to keep paths clear or melt ice traps while maintaining complete darkness. It is created using a Lab Table by combining Iron, Charcoal, Salt, and Water, making it a valuable chemistry-based utility block."
     }
 };

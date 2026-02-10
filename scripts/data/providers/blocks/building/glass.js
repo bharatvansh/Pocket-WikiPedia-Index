@@ -197,5 +197,26 @@ export const glassBlocks = {
             yRange: "Crafted from Glass x6, also found in Villages and Structures"
         },
         description: "Glass Panes are thin, transparent blocks that offer a more delicate alternative to full glass blocks. They are highly resource-efficient, as six glass blocks can be crafted into sixteen panes. Unlike full blocks, they connect to adjacent blocks and other panes, creating a thin, seamless glass wall. While they provide excellent visibility and light, they are fragile and require Silk Touch for retrieval, otherwise they will drop nothing when broken."
+    },
+    "minecraft:hard_glass": {
+        id: "minecraft:hard_glass",
+        name: "Hardened Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Glass is a reinforced variant of glass available in Bedrock Edition when Education Edition features are active. Unlike standard glass, which is fragile, Hardened Glass boasts a significantly higher hardness of 10 and a blast resistance of 9, making it much more durable against physical impact and explosions. It is crafted in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Glass. This makes it ideal for underwater bases or high-security windows where visibility and strength are both required."
     }
 };
