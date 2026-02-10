@@ -994,6 +994,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/metal
     },
     {
+        id: "minecraft:exposed_lightning_rod",
+        name: "Exposed Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/exposed_lightning_rod",
+        themeColor: "§6" // gold/copper
+    },
+    {
         id: "minecraft:lodestone",
         name: "Lodestone",
         category: "block",
@@ -3619,6 +3626,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:spruce_slab",
+        name: "Spruce Slab",
+        category: "block",
+        icon: "textures/blocks/planks_spruce",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:birch_stairs",
         name: "Birch Stairs",
         category: "block",
@@ -4962,6 +4976,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_black",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:white_carpet",
+        name: "White Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_white",
+        themeColor: "§f" // white
     },
     {
         id: "minecraft:brown_concrete",
