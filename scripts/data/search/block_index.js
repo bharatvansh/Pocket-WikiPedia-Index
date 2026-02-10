@@ -1393,6 +1393,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/stone
     },
     {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "block",
+        icon: "textures/blocks/trip_wire_source",
+        themeColor: "§7" // gray/iron
+    },
+    {
         id: "minecraft:amethyst_cluster",
         name: "Amethyst Cluster",
         category: "block",
@@ -2875,6 +2882,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/log_acacia",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        category: "block",
+        icon: "textures/blocks/stripped_acacia_log_side",
+        themeColor: "§6" // Gold
     },
     {
         id: "minecraft:jungle_wood",
@@ -5046,6 +5060,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/concrete_powder_orange",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_yellow",
+        themeColor: "§e" // Yellow
     },
     {
         id: "minecraft:orange_shulker_box",

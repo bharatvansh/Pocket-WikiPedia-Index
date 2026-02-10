@@ -139,6 +139,27 @@ export const redstoneBlocks = {
         },
         description: "A Lever is a simple redstone switch that toggles between on and off, providing a constant signal for circuits, doors, and machines. It can be attached to floors, walls, ceilings, and some upside-down slabs or stairs, making it easy to integrate into builds. In Bedrock Edition, levers are waterloggable, break quickly, and can generate in jungle temples, woodland mansions, and ancient cities."
     },
+    "minecraft:tripwire_hook": {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Tripwire Hook"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Jungle Temples"
+        },
+        description: "The Tripwire Hook is a functional redstone component that detects entities when connected by a string to another hook. When an entity passes through the string, both hooks activate, emitting a redstone signal. They are naturally found in Jungle Temples as part of arrow traps. In Bedrock Edition, they can be placed on the sides of most solid blocks. They are essential for creating traps, player detection systems, and automated security. When the string is broken with shears, it does not trigger the hook, allowing for safe disarming."
+    },
     "minecraft:observer": {
         id: "minecraft:observer",
         name: "Observer",

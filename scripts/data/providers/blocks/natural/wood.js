@@ -851,6 +851,27 @@ export const woodBlocks = {
         },
         description: "Acacia Leaves are found on the uniquely shaped, diagonal-growing acacia trees in savanna biomes. They have a distinct green color that complements the reddish-orange hue of acacia wood. Like other leaves, they are best harvested with shears or a silk touch tool. They contribute to the iconic silhouette of the savanna landscape. In Bedrock Edition, they serve as a versatile decoration block for players looking to recreate African-inspired landscapes or desert oases."
     },
+    "minecraft:stripped_acacia_log": {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Acacia Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Savanna villages"
+        },
+        description: "A Stripped Acacia Log is a variant of the acacia log that has had its bark removed using an axe. It features the same vibrant orange internal wood color but with a smooth, barkless texture. In Bedrock Edition, it naturally generates in some savanna village structures. It can be used to craft acacia planks, buttons, doors, and other wood-based items. Like other logs, it is flammable and can be used as fuel or for decorative building. Its unique orange hue is highly valued for adding warmth and color to architectural designs."
+    },
     "minecraft:cherry_wood": {
         id: "minecraft:cherry_wood",
         name: "Cherry Wood",

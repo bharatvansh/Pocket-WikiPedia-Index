@@ -347,6 +347,27 @@ export const concreteBlocks = {
         },
         description: "Orange Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a bold orange hue. It is crafted using four sand, four gravel, and one orange dye. When this block comes into contact with water, it instantly solidifies into smooth Orange Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It is a favorite for adding vibrant texture to builds before it is hardened into a more permanent and durable matte finish."
     },
+    "minecraft:yellow_concrete_powder": {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Concrete Powder is a gravity-affected building block that solidifies into yellow concrete when it comes into contact with water. It is crafted using four sand, four gravel, and one yellow dye. In Bedrock Edition, it is a versatile material for creating vibrant structures. Unlike concrete, the powder variant falls like sand or gravel, making it useful for certain traps or temporary structures. Once it touches a water source or flowing water, it instantly hardens into a solid, durable concrete block, losing its gravity-affected property."
+    },
     "minecraft:magenta_concrete": {
         id: "minecraft:magenta_concrete",
         name: "Magenta Concrete",
