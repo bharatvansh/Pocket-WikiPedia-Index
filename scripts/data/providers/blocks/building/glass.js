@@ -218,5 +218,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Glass is a reinforced variant of glass available in Bedrock Edition when Education Edition features are active. Unlike standard glass, which is fragile, Hardened Glass boasts a significantly higher hardness of 10 and a blast resistance of 9, making it much more durable against physical impact and explosions. It is crafted in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Glass. This makes it ideal for underwater bases or high-security windows where visibility and strength are both required."
+    },
+    "minecraft:hard_glass_pane": {
+        id: "minecraft:hard_glass_pane",
+        name: "Hardened Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Glass Pane is a thin, reinforced transparent block available in Bedrock Edition with Education features enabled. It is the pane variant of Hardened Glass, offering the same significantly increased durability with a hardness of 10 and blast resistance of 9. Crafted by combining Hardened Glass blocks, these panes provide a sleek, lightweight look while remaining resistant to explosions and physical impact. Unlike regular glass panes that shatter easily, hardened panes require a pickaxe to mine efficiently and drop as items even without Silk Touch."
     }
 };

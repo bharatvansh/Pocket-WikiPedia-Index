@@ -2128,6 +2128,13 @@ export const blockIndex = [
         themeColor: "§6" // brown/terracotta
     },
     {
+        id: "minecraft:colored_torch_blue",
+        name: "Blue Torch",
+        category: "block",
+        icon: "textures/blocks/colored_torch_blue",
+        themeColor: "§9"
+    },
+    {
         id: "minecraft:soul_torch",
         name: "Soul Torch",
         category: "block",
@@ -5048,6 +5055,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:silver_glazed_terracotta",
+        name: "Light Gray Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_silver",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:magenta_terracotta",
         name: "Magenta Terracotta",
         category: "block",
@@ -5242,5 +5256,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_glass",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:hard_glass_pane",
+        name: "Hardened Glass Pane",
+        category: "block",
+        icon: "textures/blocks/hardened_glass",
+        themeColor: "§7"
     }
 ];
