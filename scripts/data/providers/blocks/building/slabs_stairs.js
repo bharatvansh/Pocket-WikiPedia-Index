@@ -576,6 +576,27 @@ export const slabsStairsBlocks = {
         },
         description: "Jungle Stairs are crafted from Jungle Planks and possess a unique pinkish-tan hue. They are most commonly found in Jungle Temples and shipwrecked vessels. These stairs are perfect for tropical-themed builds and complement other jungle-derived materials like vines and bamboo. They provide the standard stair utility, allowing for seamless vertical movement and versatile decorative applications. Like other wood variants, they are flammable and can be mined with any tool, though an axe is preferred."
     },
+    "minecraft:jungle_slab": {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Jungle Planks"
+        },
+        description: "Jungle Slab is a half-block building component crafted from Jungle Planks. It features the same warm, pinkish-tan hue and unique texture as the planks, making it ideal for creating tropical-themed flooring, roofing, and architectural trim. In Bedrock Edition, jungle slabs are flammable and can be waterlogged. They allow for smooth elevation changes without jumping and can be placed in either the upper or lower half of a block space. They are most efficiently harvested with an axe."
+    },
     "minecraft:acacia_stairs": {
         id: "minecraft:acacia_stairs",
         name: "Acacia Stairs",
