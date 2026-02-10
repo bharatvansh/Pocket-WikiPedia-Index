@@ -72,6 +72,27 @@ export const glassBlocks = {
         },
         description: "White Stained Glass is a transparent block created by surrounding a piece of White Dye with eight glass blocks. It retains the transparency of regular glass while adding a soft white tint, perfect for modern windows or decorative light filters. Like regular glass, it is fragile and requires a Silk Touch tool to be harvested; otherwise, it shatters when broken."
     },
+    "minecraft:white_stained_glass_pane": {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:white_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from White Stained Glass"
+        },
+        description: "White Stained Glass Pane is a thin, transparent decorative block crafted from white stained glass blocks. It provides a delicate, white-tinted alternative to full glass blocks, allowing light to pass through while adding a soft aesthetic touch to windows. In Bedrock Edition, these panes require the Silk Touch enchantment to be harvested; otherwise, they shatter and drop nothing. They connect to adjacent blocks and other panes to create seamless glass surfaces and are non-flammable with low blast resistance."
+    },
     "minecraft:blue_stained_glass": {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
