@@ -1393,6 +1393,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/stone
     },
     {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "block",
+        icon: "textures/blocks/tripwire_hook",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:amethyst_cluster",
         name: "Amethyst Cluster",
         category: "block",
@@ -3976,6 +3983,13 @@ export const blockIndex = [
         themeColor: "§6" // gold/brown
     },
     {
+        id: "minecraft:jungle_slab",
+        name: "Jungle Slab",
+        category: "block",
+        icon: "textures/blocks/planks_jungle",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:netherreactor",
         name: "Nether Reactor Core",
         category: "block",
@@ -5004,6 +5018,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_white",
         themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:green_carpet",
+        name: "Green Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_green",
+        themeColor: "§2"
     },
     {
         id: "minecraft:brown_concrete",

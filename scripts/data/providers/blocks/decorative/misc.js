@@ -1084,6 +1084,27 @@ export const miscDecorativeBlocks = {
         },
         description: "White Carpet is a thin decorative block used for flooring and aesthetics. It is crafted from white wool and provides a soft, bright surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes it a valuable tool for stealthy navigation in sculk-infested areas like Ancient Cities. It also generates naturally in Ancient Cities as part of the structures and in igloo basements. It is highly flammable and can be placed on most solid surfaces."
     },
+    "minecraft:green_carpet": {
+        id: "minecraft:green_carpet",
+        name: "Green Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Green Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Green Carpet is a thin decorative block primarily used for floor covering and adding aesthetic detail to builds. It is crafted from two blocks of green wool. Like all carpets in Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of it. This makes it a valuable tool for stealthy navigation in sculk-infested areas. It provides a soft, dark green surface without adding significant height, making it ideal for mossy or lush interior designs."
+    },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
         name: "Yellow Wool",
