@@ -389,6 +389,27 @@ export const woodBlocks = {
         },
         description: "Spruce logs are harvested from spruce trees, primarily found in colder biomes like the taiga and snowy tundra. They have a dark brown bark and a slightly lighter brown interior. Spruce wood is favored by many builders for its cozy, rustic aesthetic, often used in medieval or winter-themed constructions. These logs can be crafted into spruce planks or used in their raw form for structural support, blending seamlessly into snowy landscapes."
     },
+    "minecraft:stripped_spruce_log": {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_spruce_log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Spruce Log"
+        },
+        description: "Stripped Spruce Log is a wood variant obtained by using an axe on a regular spruce log. This process removes the dark, rustic bark, revealing the smooth, brown interior wood. It is widely used by builders in Bedrock Edition as a warm and clean building material for rustic cabins, medieval structures, and detailed flooring. Like other stripped logs, it can be crafted into spruce planks, hanging signs, or wood blocks. Its uniform texture and rich color make it excellent for creating polished wooden structures and decorative pillars."
+    },
     "minecraft:birch_log": {
         id: "minecraft:birch_log",
         name: "Birch Log",

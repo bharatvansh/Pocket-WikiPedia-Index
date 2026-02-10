@@ -2807,6 +2807,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:stripped_spruce_log",
+        name: "Stripped Spruce Log",
+        category: "block",
+        icon: "textures/blocks/stripped_spruce_log_side",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:stripped_spruce_wood",
         name: "Stripped Spruce Wood",
         category: "block",
@@ -3365,6 +3372,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_black",
         themeColor: "§0" // black
+    },
+    {
+        id: "minecraft:magenta_stained_glass",
+        name: "Magenta Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_magenta",
+        themeColor: "§d" // light purple/pink
     },
     {
         id: "minecraft:sunflower",
@@ -4465,6 +4479,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/candle_black",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:light_gray_candle",
+        name: "Light Gray Candle",
+        category: "block",
+        icon: "textures/blocks/candle_silver",
+        themeColor: "§7" // gray/light gray
     },
     {
         id: "minecraft:cherry_button",
