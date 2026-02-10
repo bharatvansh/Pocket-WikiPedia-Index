@@ -93,6 +93,27 @@ export const glassBlocks = {
         },
         description: "Blue Stained Glass is a transparent decorative block created by surrounding blue dye with eight glass blocks. It retains the transparency of regular glass while adding a rich blue tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs."
     },
+    "minecraft:blue_stained_glass_pane": {
+        id: "minecraft:blue_stained_glass_pane",
+        name: "Blue Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:blue_stained_glass_pane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Blue Stained Glass x6"
+        },
+        description: "Blue Stained Glass Pane is a thin, transparent decorative block that offers a more delicate alternative to full glass blocks. It features a rich blue tint while maintaining clear visibility. Notably in Minecraft Bedrock Edition, stained glass panes drop themselves when broken even without the Silk Touch enchantment, unlike in Java Edition. They are highly resource-efficient, as six glass blocks can be crafted into sixteen panes, and they seamlessly connect to adjacent blocks and other panes."
+    },
     "minecraft:red_stained_glass": {
         id: "minecraft:red_stained_glass",
         name: "Red Stained Glass",

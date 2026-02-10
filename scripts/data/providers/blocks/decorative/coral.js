@@ -262,6 +262,27 @@ export const coralBlocks = {
         },
         description: "Brain Coral Fan is a pink, decorative aquatic plant that attaches to the vertical surfaces of coral blocks in warm oceans. It features the same intricate, folded patterns as Brain Coral but in a flat, fan-like configuration. This non-solid block is instantly broken by hand and requires Silk Touch to be collected as an item. It must remain in water to stay alive and colorful. Builders often use Brain Coral Fans to create more realistic and complex coral reef designs, utilizing its ability to be placed on the sides of blocks for extra detail."
     },
+    "minecraft:brain_coral_wall_fan": {
+        id: "minecraft:brain_coral_wall_fan",
+        name: "Brain Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:brain_coral_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes"
+        },
+        description: "The Brain Coral Wall Fan is a pink aquatic organism that grows exclusively on the vertical faces of blocks within warm ocean reefs. It displays the same intricate, maze-like patterns as other brain coral variants but in a delicate, flat fan shape. Unlike regular coral fans that sit on top of blocks, wall fans provide essential vertical detail to underwater landscapes. To collect it as an item, players must use a tool with Silk Touch; without it, the fan is destroyed. It depends on water to survive and will turn gray if exposed to air for too long."
+    },
     "minecraft:bubble_coral_fan": {
         id: "minecraft:bubble_coral_fan",
         name: "Bubble Coral Fan",

@@ -2555,6 +2555,13 @@ export const blockIndex = [
         themeColor: "§d" // Pink
     },
     {
+        id: "minecraft:brain_coral_wall_fan",
+        name: "Brain Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/brain_coral_fan",
+        themeColor: "§d" // Pink
+    },
+    {
         id: "minecraft:bubble_coral_fan",
         name: "Bubble Coral Fan",
         category: "block",
@@ -3346,6 +3353,13 @@ export const blockIndex = [
         themeColor: "§1"
     },
     {
+        id: "minecraft:blue_stained_glass_pane",
+        name: "Blue Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_blue",
+        themeColor: "§1" // Blue
+    },
+    {
         id: "minecraft:brown_stained_glass",
         name: "Brown Stained Glass",
         category: "block",
@@ -3491,6 +3505,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_sign",
+        name: "Pale Oak Sign",
+        category: "block",
+        icon: "textures/items/pale_oak_sign",
+        themeColor: "§7" // Gray
     },
     {
         id: "minecraft:diamond_ore",
