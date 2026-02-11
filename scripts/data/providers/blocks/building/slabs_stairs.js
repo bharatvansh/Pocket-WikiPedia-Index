@@ -2294,5 +2294,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Oxidized Cut Copper or via Honeycomb application"
         },
         description: "Waxed Oxidized Cut Copper Stairs are a decorative block that has been treated with honeycomb to permanently preserve its final teal-green oxidation stage. They feature a unique tiled masonry texture that represents years of exposure to the elements, locked in place to prevent further weathering. These stairs are perfect for creating grand, aged rooflines and monuments that require a consistent aesthetic. In Bedrock Edition, the wax can be removed using an axe, and they require a stone-tier pickaxe or better for harvesting."
+    },
+    "minecraft:prismarine_brick_slab": {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Brick Slab is a decorative half-block variant of prismarine bricks, featuring a refined and structured tiled pattern in a teal-cyan hue. It is primarily used for underwater or aquatic-themed construction, offering a more precise building option than full blocks for floors, ceilings, and architectural trim. Naturally generating in Ocean Monuments, these slabs are fire-resistant and highly blast-resistant. In Bedrock Edition, they can be waterlogged and are best mined with a pickaxe. They provide a sophisticated and geometric look for submerged palaces and high-end bases."
+    },
+    "minecraft:polished_blackstone_slab": {
+        id: "minecraft:polished_blackstone_slab",
+        name: "Polished Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Blackstone Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants, Ruined Portals"
+        },
+        description: "Polished Blackstone Slab is a sleek, dark half-block building component crafted from polished blackstone. It offers a sophisticated and somber aesthetic, perfect for fortresses, gothic architecture, and Nether-based structures. With its smooth masonry texture and deep gray color, it provides a refined alternative to rugged blackstone for detailed flooring and roofing. In Bedrock Edition, it is fire-resistant and has high blast resistance (6.0), making it durable against environmental hazards. It can be crafted via a crafting table or more efficiently using a stonecutter."
+    },
+    "minecraft:polished_granite_slab": {
+        id: "minecraft:polished_granite_slab",
+        name: "Polished Granite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Granite Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Polished Granite Slab is a refined half-block variant of polished granite, featuring a warm, pinkish-brown stone texture with a smooth finish. It is ideal for adding color and sophistication to floors, ceilings, and decorative trim in various architectural styles. Slabs allow for more precise elevation changes and detailed architectural highlights compared to full blocks. In Bedrock Edition, they are fire-resistant and offer solid protection against explosions. They can be obtained by crafting three polished granite blocks horizontally or efficiently via a stonecutter."
     }
 };
