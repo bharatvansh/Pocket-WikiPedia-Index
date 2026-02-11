@@ -617,6 +617,27 @@ export const miscBuildingBlocks = {
         },
         description: "Magenta Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with magenta and pink tones. It is created by smelting magenta terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it is notably unmovable by pistons, unlike many other decorative blocks."
     },
+    "minecraft:purple_glazed_terracotta": {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purple Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Purple Terracotta"
+        },
+        description: "Purple Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with a central floral motif. Created by smelting purple terracotta, it is highly valued for its unique directional placement that allows for complex repeating designs. In Bedrock Edition, it is notably unmovable by pistons, making it a critical component for advanced redstone machinery and flying contraptions where specific block stability is required. It is immune to fire and requires a pickaxe to harvest. Its rich color and durability make it ideal for decorative flooring and walls."
+    },
     "minecraft:light_blue_terracotta": {
         id: "minecraft:light_blue_terracotta",
         name: "Light Blue Terracotta",
