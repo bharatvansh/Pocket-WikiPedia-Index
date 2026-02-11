@@ -280,6 +280,13 @@ export const blockIndex = [
         themeColor: "§6" // orange/copper
     },
     {
+        id: "minecraft:weathered_cut_copper",
+        name: "Weathered Cut Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_cut_copper",
+        themeColor: "§3" // dark aqua
+    },
+    {
         id: "minecraft:oxidized_cut_copper",
         name: "Oxidized Cut Copper",
         category: "block",
@@ -4824,6 +4831,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:polished_andesite_slab",
+        name: "Polished Andesite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_andesite_smooth",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:smooth_red_sandstone_stairs",
         name: "Smooth Red Sandstone Stairs",
         category: "block",
@@ -5515,6 +5529,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glowing_obsidian",
         themeColor: "§c" // red
+    },
+    {
+        id: "minecraft:brown_candle_cake",
+        name: "Brown Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_brown",
+        themeColor: "§6" // brown
     },
     {
         id: "minecraft:chemical_heat",

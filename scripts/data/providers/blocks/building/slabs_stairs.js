@@ -1560,6 +1560,27 @@ export const slabsStairsBlocks = {
         },
         description: "Andesite Slabs are the half-block variant of andesite, offering a low-profile building option while retaining the block's characteristic speckled gray texture. Like other slabs, they are versatile for creating detailed flooring, ceilings, and smooth elevation changes without the bulk of a full block. They can be crafted from three andesite blocks in a horizontal row or obtained more efficiently through a stonecutter. Because they are stone-based, they are non-flammable and provide reliable protection against environmental hazards, making them a staple in both interior and exterior designs."
     },
+    "minecraft:polished_andesite_slab": {
+        id: "minecraft:polished_andesite_slab",
+        name: "Polished Andesite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Andesite Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Andesite Slab is a smooth, gray half-block building component crafted from polished andesite. It provides a refined and clean aesthetic for flooring, ceilings, and detailed architectural trim in both modern and traditional builds. Like other stone-based slabs, it is fire-resistant and has a blast resistance of 6.0 in Bedrock Edition. It can be produced efficiently using a stonecutter or by crafting three polished andesite blocks in a row. These slabs can be combined into double slabs or placed in various halves of a block space for versatile building."
+    },
     "minecraft:smooth_red_sandstone_stairs": {
         id: "minecraft:smooth_red_sandstone_stairs",
         name: "Smooth Red Sandstone Stairs",
