@@ -3276,6 +3276,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow/sand
     },
     {
+        id: "minecraft:cut_sandstone_slab",
+        name: "Cut Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/cut_sandstone",
+        themeColor: "§e"
+    },
+    {
         id: "minecraft:chiseled_sandstone",
         name: "Chiseled Sandstone",
         category: "block",
@@ -4817,6 +4824,13 @@ export const blockIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:smooth_quartz_slab",
+        name: "Smooth Quartz Slab",
+        category: "block",
+        icon: "textures/blocks/quartz_block_smooth",
+        themeColor: "§f"
+    },
+    {
         id: "minecraft:mossy_cobblestone_stairs",
         name: "Mossy Cobblestone Stairs",
         category: "block",
@@ -4966,6 +4980,13 @@ export const blockIndex = [
     {
         id: "minecraft:oxidized_cut_copper_slab",
         name: "Oxidized Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/oxidized_cut_copper",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:waxed_oxidized_cut_copper_stairs",
+        name: "Waxed Oxidized Cut Copper Stairs",
         category: "block",
         icon: "textures/blocks/oxidized_cut_copper",
         themeColor: "§2"
