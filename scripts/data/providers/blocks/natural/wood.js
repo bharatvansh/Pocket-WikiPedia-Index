@@ -997,5 +997,26 @@ export const woodBlocks = {
             yRange: "Axe on Birch Log"
         },
         description: "Stripped Birch Log is a wood variant obtained by using an axe on a regular birch log. This process removes the iconic white-and-black bark, revealing the smooth, light tan interior wood. It is widely used by builders in Bedrock Edition as a clean, bright building material for modern or Scandinavian-style designs. Like other stripped logs, it can be crafted into birch planks, hanging signs, or wood blocks. Its uniform, pale texture makes it excellent for creating polished wooden structures, decorative pillars, and providing a bright contrast to darker materials."
+    },
+    "minecraft:stripped_dark_oak_log": {
+        id: "minecraft:stripped_dark_oak_log",
+        name: "Stripped Dark Oak Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Dark Oak Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Shipwrecks / Stripping Dark Oak Logs"
+        },
+        description: "Stripped Dark Oak Log is a decorative wood block obtained by using an axe on a Dark Oak Log or wood. This process removes the thick, dark bark to reveal the smooth, deep brown wood beneath. Like other logs, it can be placed in various orientations and is a popular choice for rustic pillars, beam-work, and sophisticated furniture designs. It remains flammable and is most efficiently harvested with an axe. In Bedrock Edition, it can be found naturally generating in the hulls of shipwrecks, reflecting a dark and refined architectural style."
     }
 };
