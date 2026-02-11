@@ -219,6 +219,27 @@ export const glassBlocks = {
         },
         description: "Black Stained Glass Panes are thin, transparent decorative blocks that offer a sleek and sophisticated alternative to full glass blocks. They are crafted by combining glass panes with black dye or by crafting black stained glass blocks into panes. Like other glass panes, they connect to adjacent blocks and other panes to create seamless, dark-tinted windows. In Bedrock Edition, they require a tool with Silk Touch to be harvested; otherwise, they shatter and drop nothing. They are highly resource-efficient for large-scale window designs."
     },
+    "minecraft:white_stained_glass_pane": {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["White Stained Glass Pane (with Silk Touch)"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "White Stained Glass Panes are thin, transparent decorative blocks that offer a delicate, soft-tinted alternative to full glass blocks. They are crafted by combining glass panes with white dye or by crafting white stained glass blocks into panes. They connect to adjacent blocks and other panes to form seamless, light-filtering windows. In Bedrock Edition, they require a tool with Silk Touch to be harvested; otherwise, they shatter and drop nothing. They are highly resource-efficient, providing sixteen panes from just six glass blocks, making them ideal for large architectural projects."
+    },
     "minecraft:magenta_stained_glass": {
         id: "minecraft:magenta_stained_glass",
         name: "Magenta Stained Glass",

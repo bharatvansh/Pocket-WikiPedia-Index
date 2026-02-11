@@ -3437,6 +3437,13 @@ export const blockIndex = [
         themeColor: "§0" // black
     },
     {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // White
+    },
+    {
         id: "minecraft:magenta_stained_glass",
         name: "Magenta Stained Glass",
         category: "block",
@@ -5279,6 +5286,13 @@ export const blockIndex = [
         themeColor: "§d" // magenta
     },
     {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_purple",
+        themeColor: "§5" // Purple
+    },
+    {
         id: "minecraft:lime_terracotta",
         name: "Lime Terracotta",
         category: "block",
@@ -5326,6 +5340,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_magenta",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:red_wool",
+        name: "Red Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_red",
+        themeColor: "§c" // Red
     },
     {
         id: "minecraft:pink_concrete",

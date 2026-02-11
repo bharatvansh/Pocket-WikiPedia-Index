@@ -1230,5 +1230,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Dyed Sheep"
         },
         description: "Magenta Wool is a vibrant decorative block obtained by shearing magenta sheep or crafting white wool with magenta dye. Like all wool in Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being activated. It is highly flammable and weak to explosions, but its rich color makes it a favorite for artistic builds, carpets, and banners. It can also be used as a fuel in furnaces."
+    },
+    "minecraft:red_wool": {
+        id: "minecraft:red_wool",
+        name: "Red Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Red Sheep"
+        },
+        description: "Red Wool is a vibrant decorative block obtained by shearing red sheep or crafting white wool with red dye. In Bedrock Edition, it has the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on or near it. This makes it essential for navigating Ancient Cities and other sculk-infested areas stealthily. While it has low blast resistance and is highly flammable, its bold color makes it a favorite for pixel art, carpets, and banners. It can also be used as a fuel in furnaces, though it is quite inefficient for large-scale smelting."
     }
 };
