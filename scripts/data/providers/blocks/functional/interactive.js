@@ -1419,5 +1419,68 @@ export const interactiveBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "The Heat Block is a specialized functional block available in Bedrock Edition with Education features enabled. Its primary function is to melt nearby snow, ice, and frosted ice, similar to a torch, but without emitting any visible light. This makes it a unique tool for hidden utility, allowing players to keep paths clear or melt ice traps while maintaining complete darkness. It is created using a Lab Table by combining Iron, Charcoal, Salt, and Water, making it a valuable chemistry-based utility block."
+    },
+    "minecraft:lab_table": {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        hardness: 2.5,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative or Command only"
+        },
+        description: "The Lab Table is a specialized workstation block available in Bedrock Edition with Education features enabled. It is used to combine substances created with the Compound Creator to produce various unique items like Bleach, Heat Blocks, Ice Bombs, and Super Fertilizer. When a combination is successful, the items are produced; otherwise, it may produce garbage or even cause a small explosion. It features a unique UI with nine input slots and is essential for chemistry-based gameplay in Minecraft."
+    },
+    "minecraft:compound_creator": {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        hardness: 2.5,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative or Command only"
+        },
+        description: "The Compound Creator is an essential chemistry block in Bedrock Edition's Education features. It is used to combine elements created in the Element Constructor into over 30 different compounds, ranging from Charcoal and Salt to more complex substances like Luminol or Polyethylene. These compounds can then be used in the Lab Table to craft unique items. It features a grid where players can place elements in specific quantities to discover new chemical combinations, providing an interactive way to learn about chemistry and molecular composition."
+    },
+    "minecraft:element_constructor": {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        hardness: 2.5,
+        blastResistance: 2.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "None",
+            yRange: "Creative or Command only"
+        },
+        description: "The Element Constructor is a fundamental chemistry block in Bedrock Edition with Education features. It allows players to create elements from the periodic table by adjusting the number of protons, electrons, and neutrons in its interface. From Hydrogen to Oganesson, all 118 elements can be constructed and used as building blocks for compounds and other chemical reactions. This block serves as an interactive educational tool for understanding atomic structure and is a starting point for all chemistry-related crafting in Minecraft."
     }
 };

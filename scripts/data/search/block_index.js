@@ -5419,6 +5419,27 @@ export const blockIndex = [
         themeColor: "§6" // gold/orange
     },
     {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        category: "block",
+        icon: "textures/blocks/lab_table_side",
+        themeColor: "§6" // Gold
+    },
+    {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        category: "block",
+        icon: "textures/blocks/compound_creator_side",
+        themeColor: "§6" // Gold
+    },
+    {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        category: "block",
+        icon: "textures/blocks/element_constructor_side",
+        themeColor: "§6" // Gold
+    },
+    {
         id: "minecraft:hard_glass",
         name: "Hardened Glass",
         category: "block",
