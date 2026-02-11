@@ -161,6 +161,13 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:cobblestone_slab",
+        name: "Cobblestone Slab",
+        category: "block",
+        icon: "textures/blocks/cobblestone",
+        themeColor: "§7" // Gray
+    },
+    {
         id: "minecraft:moss_block",
         name: "Moss Block",
         category: "block",
@@ -1946,6 +1953,13 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:polished_deepslate_wall",
+        name: "Polished Deepslate Wall",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8" // Dark Gray
+    },
+    {
         id: "minecraft:soul_lantern",
         name: "Soul Lantern",
         category: "block",
@@ -2210,6 +2224,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/prismarine_dark",
         themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:dark_prismarine_slab",
+        name: "Dark Prismarine Slab",
+        category: "block",
+        icon: "textures/blocks/prismarine_dark",
+        themeColor: "§3" // Dark Aqua
     },
     {
         id: "minecraft:grass_block",
@@ -5452,5 +5473,5 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/hardened_glass",
         themeColor: "§7"
-    }
+    },
 ];

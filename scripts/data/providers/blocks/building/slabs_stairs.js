@@ -2147,5 +2147,68 @@ export const slabsStairsBlocks = {
             yRange: "Desert Villages and Temples"
         },
         description: "Red Sandstone Stairs are building blocks crafted from red sandstone, offering a warm and vibrant orange-red aesthetic. They naturally generate in desert villages and desert temples, where they are used for roofs, entrances, and decorative accents. These stairs allow for smooth elevation changes without jumping. While they have lower blast resistance than stone stairs, they are fire-resistant and ideal for mesa or desert-themed architecture. In Bedrock Edition, they can be crafted from six red sandstone blocks or produced efficiently using a stonecutter."
+    },
+    "minecraft:dark_prismarine_slab": {
+        id: "minecraft:dark_prismarine_slab",
+        name: "Dark Prismarine Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Dark Prismarine Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Dark Prismarine Slab is a decorative half-block variant of dark prismarine, featuring its signature deep teal-cyan color. It provides a sleek, low-profile option for detailed flooring, ceilings, and architectural accents in aquatic-themed builds. While the full blocks generate naturally in Ocean Monuments, these slabs are crafted by the player using a crafting table or more efficiently with a stonecutter. In Bedrock Edition, they are highly blast-resistant and can be waterlogged, allowing them to blend seamlessly into submerged structures and intricate underwater designs."
+    },
+    "minecraft:polished_deepslate_wall": {
+        id: "minecraft:polished_deepslate_wall",
+        name: "Polished Deepslate Wall",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Wall"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Polished Deepslate"
+        },
+        description: "Polished Deepslate Wall is a sturdy decorative barrier introduced in Minecraft Bedrock Edition's 1.17 Caves & Cliffs update. Crafted from polished deepslate, it features a sleek and dark masonry texture that provides a modern, sophisticated look. Like other walls, it stands 1.5 blocks high for most entities, making it an effective barrier for security and animal containment. It connects smoothly to adjacent blocks and walls, and its high blast resistance makes it an excellent choice for fortified structures or elegant architectural detailing in dark environments."
+    },
+    "minecraft:cobblestone_slab": {
+        id: "minecraft:cobblestone_slab",
+        name: "Cobblestone Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cobblestone Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Cobblestone Slab is a versatile half-block variant of cobblestone, offering an essential building option for floors, ceilings, and smooth elevation changes. It retains the rugged, fractured gray texture of its parent block, making it perfect for rustic, medieval, and dungeon-themed builds. In Bedrock Edition, it is fire-resistant and highly durable against explosions with a blast resistance of 6.0. It can be crafted by placing three cobblestone blocks horizontally in a crafting table or more efficiently via a stonecutter, and can be combined into double slabs."
     }
 };
