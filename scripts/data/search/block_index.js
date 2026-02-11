@@ -1407,6 +1407,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/stone
     },
     {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "block",
+        icon: "textures/blocks/trip_wire_source",
+        themeColor: "§7" // Gray
+    },
+    {
         id: "minecraft:amethyst_cluster",
         name: "Amethyst Cluster",
         category: "block",
@@ -3437,6 +3444,13 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:lime_stained_glass",
+        name: "Lime Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_lime",
+        themeColor: "§a" // Lime
+    },
+    {
         id: "minecraft:red_stained_glass",
         name: "Red Stained Glass",
         category: "block",
@@ -4962,6 +4976,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_blue",
         themeColor: "§1"
+    },
+    {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_light_blue",
+        themeColor: "§b" // Aqua
     },
     {
         id: "minecraft:orange_concrete",
