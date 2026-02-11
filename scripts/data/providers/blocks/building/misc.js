@@ -575,6 +575,27 @@ export const miscBuildingBlocks = {
         },
         description: "Orange Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate geometric pattern with bold orange and cyan tones. It is created by smelting orange terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating designs when four blocks are placed in a circular fashion. In Bedrock Edition, it requires a pickaxe for collection and offers a striking, stylized look."
     },
+    "minecraft:green_glazed_terracotta": {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Green Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Green Terracotta"
+        },
+        description: "Green Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with deep green tones. It is created by smelting green terracotta in a furnace. Like all glazed terracotta in Bedrock Edition, it is unique for being immovable by slime blocks or honey blocks when moved by pistons, a property highly prized by redstone engineers for building compact machinery. Its directional placement allows players to create complex, repeating geometric designs when four blocks are placed in a circular fashion, providing a sophisticated and stylized look to floors and walls."
+    },
     "minecraft:purple_terracotta": {
         id: "minecraft:purple_terracotta",
         name: "Purple Terracotta",
