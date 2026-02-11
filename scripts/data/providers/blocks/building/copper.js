@@ -833,5 +833,68 @@ export const copperBlocks = {
             yRange: "Natural oxidation or scraping"
         },
         description: "The Oxidized Copper Chain is the final, fully aged stage of the copper chain family, added in the Tricky Trials update (Bedrock 1.21). It boasts a rich teal-green patina that covers its entire surface, providing a beautiful weathered aesthetic for ancient ruins or industrial structures. Despite its heavy oxidation, it remains as durable as the original chain with high resistance to explosions. It can be scraped with an axe to reveal earlier oxidation stages or waxed to maintain its teal hue permanently. This chain is a versatile decorative element for hanging items."
+    },
+    "minecraft:waxed_exposed_chiseled_copper": {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Exposed Chiseled Copper is a decorative block with an intricate geometric design, treated with honeycomb to lock in its first stage of oxidation. This preservation ensures it maintains its distinctive tarnished, brownish-orange appearance indefinitely, preventing further weathering into green tones. It is ideal for architectural accents where a specific level of aging is desired. In Bedrock Edition, it requires a stone pickaxe or higher to harvest, otherwise it drops nothing. It can be scraped with an axe to remove the wax coating."
+    },
+    "minecraft:waxed_weathered_chiseled_copper": {
+        id: "minecraft:waxed_weathered_chiseled_copper",
+        name: "Waxed Weathered Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Weathered Chiseled Copper is a decorative copper block with a unique carved pattern that has been treated with honeycomb to preserve its second oxidation stage. This process freezes its characteristic blue-green patina mixed with orange undertones, making it a permanent choice for builders seeking an aged metallic aesthetic. Like all chiseled copper variants, it is highly durable and explosion-resistant. In Bedrock Edition, it must be mined with a stone-tier pickaxe or better. Removing the wax with an axe allows the block to resume natural oxidation over time."
+    },
+    "minecraft:waxed_oxidized_chiseled_copper": {
+        id: "minecraft:waxed_oxidized_chiseled_copper",
+        name: "Waxed Oxidized Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Oxidized Chiseled Copper is the fully aged variant of the chiseled copper block, sealed with honeycomb to maintain its vibrant teal-green patina. The intricate geometric carvings remain a key feature, providing sophisticated architectural detail to any structure. By waxing the block, builders can ensure the beautiful weathered look is permanent and unaffected by the elements. In Bedrock Edition, harvesting requires a stone pickaxe or higher. While its oxidation is locked, players can still scrape away the wax with an axe if they wish to return to a previous stage."
     }
 };

@@ -336,6 +336,27 @@ export const blockIndex = [
         themeColor: "§2" // dark green (fully oxidized)
     },
     {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6" // gold/brownish copper
+    },
+    {
+        id: "minecraft:waxed_weathered_chiseled_copper",
+        name: "Waxed Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§3" // dark aqua/blue-green
+    },
+    {
+        id: "minecraft:waxed_oxidized_chiseled_copper",
+        name: "Waxed Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§2" // dark green (fully oxidized)
+    },
+    {
         id: "minecraft:iron_ore",
         name: "Iron Ore",
         category: "block",
