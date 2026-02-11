@@ -1000,6 +1000,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Gray Wool is a somber decorative block obtained by shearing gray sheep or combining white wool with gray dye. It is a natural color that can occasionally be found on sheep in the Overworld. In Bedrock Edition, wool blocks possess acoustic dampening properties, effectively blocking vibrations from reaching Sculk Sensors and preventing the activation of Sculk Shriekers by movement. While it is weak against explosions and highly flammable, its neutral tone makes it an excellent choice for industrial designs, shadows in pixel art, and creating transition gradients in colorful builds."
     },
+    "minecraft:light_gray_wool": {
+        id: "minecraft:light_gray_wool",
+        name: "Light Gray Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Light Gray Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Light Gray Sheep"
+        },
+        description: "Light Gray Wool is a neutral-toned decorative block obtained by shearing light gray sheep or by crafting white wool with light gray dye. In Bedrock Edition, wool has unique acoustic properties that dampen vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being triggered. While highly flammable and weak against explosions, its soft texture and versatile color make it ideal for modern architecture, industrial designs, and pixel art. It can also be used as a fuel in furnaces and as a base for crafting light gray carpets and beds."
+    },
     "minecraft:cyan_wool": {
         id: "minecraft:cyan_wool",
         name: "Cyan Wool",
@@ -1125,6 +1146,27 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted from Brown Wool"
         },
         description: "Brown Carpet is a thin, decorative block used primarily for flooring. It is crafted from two blocks of brown wool. In Bedrock Edition, carpets have the unique property of dampening vibrations, which prevents Sculk Sensors from detecting player movement above them. This makes them essential for navigating ancient cities stealthily. They can be placed on most solid blocks and are highly flammable. Brown carpets are often used for earthy-toned interior designs and as a component in complex rug patterns."
+    },
+    "minecraft:magenta_carpet": {
+        id: "minecraft:magenta_carpet",
+        name: "Magenta Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Magenta Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Magenta Wool"
+        },
+        description: "Magenta Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of magenta wool, providing a vibrant, soft surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including non-solid blocks like glass."
     },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
