@@ -4334,6 +4334,13 @@ export const blockIndex = [
         themeColor: "§9"
     },
     {
+        id: "minecraft:blue_candle_cake",
+        name: "Blue Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_blue",
+        themeColor: "§9" // Blue
+    },
+    {
         id: "minecraft:cyan_candle",
         name: "Cyan Candle",
         category: "block",
@@ -4971,6 +4978,13 @@ export const blockIndex = [
         themeColor: "§0"
     },
     {
+        id: "minecraft:gray_glazed_terracotta",
+        name: "Gray Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_gray",
+        themeColor: "§8" // Dark Gray
+    },
+    {
         id: "minecraft:cyan_concrete_powder",
         name: "Cyan Concrete Powder",
         category: "block",
@@ -5179,6 +5193,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/wool_colored_yellow",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:orange_wool",
+        name: "Orange Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_orange",
+        themeColor: "§6" // Gold/Orange
     },
     {
         id: "minecraft:green_wool",
