@@ -5600,4 +5600,25 @@ export const blockIndex = [
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
+        category: "block",
+        icon: "textures/blocks/prismarine_bricks",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:polished_blackstone_slab",
+        name: "Polished Blackstone Slab",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_granite_slab",
+        name: "Polished Granite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_granite_smooth",
+        themeColor: "§6"
+    },
 ];
