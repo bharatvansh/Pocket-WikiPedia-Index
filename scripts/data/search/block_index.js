@@ -2415,6 +2415,13 @@ export const blockIndex = [
         themeColor: "§7"
     },
     {
+        id: "minecraft:light_gray_wool",
+        name: "Light Gray Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_silver",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:cyan_wool",
         name: "Cyan Wool",
         category: "block",
@@ -3463,6 +3470,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_magenta",
         themeColor: "§d" // light purple/pink
+    },
+    {
+        id: "minecraft:pink_stained_glass",
+        name: "Pink Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_pink",
+        themeColor: "§d"
     },
     {
         id: "minecraft:cyan_stained_glass",
@@ -5088,6 +5102,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_brown",
         themeColor: "§6" // Brown
+    },
+    {
+        id: "minecraft:magenta_carpet",
+        name: "Magenta Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_magenta",
+        themeColor: "§d"
     },
     {
         id: "minecraft:brown_concrete",
