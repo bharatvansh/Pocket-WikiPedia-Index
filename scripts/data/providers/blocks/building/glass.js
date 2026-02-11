@@ -344,5 +344,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "The Hardened Glass Pane is a thin, reinforced transparent block available in Bedrock Edition with Education features enabled. It is the pane variant of Hardened Glass, offering the same significantly increased durability with a hardness of 10 and blast resistance of 9. Crafted by combining Hardened Glass blocks, these panes provide a sleek, lightweight look while remaining resistant to explosions and physical impact. Unlike regular glass panes that shatter easily, hardened panes require a pickaxe to mine efficiently and drop as items even without Silk Touch."
+    },
+    "minecraft:hard_light_blue_stained_glass": {
+        id: "minecraft:hard_light_blue_stained_glass",
+        name: "Hardened Light Blue Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Light Blue Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Light Blue Stained Glass is a reinforced colored glass variant available in Bedrock Edition with Education features active. It combines a soft sky-blue tint with extreme durability, boasting a hardness of 10 and blast resistance of 9. Crafted by combining Light Blue Stained Glass with Aluminum Oxide and Boron Trioxide, it is ideal for high-security windows in ocean bases or industrial sites where visibility and explosion protection are paramount. Unlike regular stained glass, it requires a pickaxe for efficient harvesting and drops itself as an item when broken."
     }
 };
