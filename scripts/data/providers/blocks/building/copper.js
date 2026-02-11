@@ -748,6 +748,69 @@ export const copperBlocks = {
             dimension: "Overworld",
             yRange: "Crafted (1 Copper Ingot, 2 Copper Nuggets)"
         },
-        description: "The Copper Chain is a decorative metal chain crafted from copper ingots and nuggets. Like other copper blocks, it oxidizes through four stages from bright orange to teal green. It can be waxed with honeycomb to freeze oxidation at any stage, or scraped with an axe to reverse aging. The chain doesn't require supporting blocks and can be placed freely in mid-air, making it ideal for hanging bells, lanterns, and signs. Introduced in The Copper Age update (Bedrock 1.21.111), it provides medieval and industrial building aesthetics."
+        description: "The Copper Chain is a decorative metal chain crafted from copper ingots and nuggets. Like other copper blocks, it oxidizes through four stages from bright orange to teal green. It can be waxed with honeycomb to freeze oxidation at any stage, or scraped with an axe to reverse aging. The chain doesn't require supporting blocks and can be placed freely in mid-air, making it ideal for hanging bells, lanterns, and signs. Introduced in the Tricky Trials update (Bedrock 1.21), it provides medieval and industrial building aesthetics."
+    },
+    "minecraft:exposed_copper_chain": {
+        id: "minecraft:exposed_copper_chain",
+        name: "Exposed Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Exposed Copper Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Natural oxidation or scraping"
+        },
+        description: "The Exposed Copper Chain is the first oxidation stage of the copper chain, introduced in the Tricky Trials update (Bedrock 1.21). It features a slightly tarnished, brownish-orange appearance as the copper begins to react with the air. It shares the same properties as the standard chain, including a hardness of 5.0 and blast resistance of 6.0. It can be waxed with honeycomb to lock this specific look or scraped with an axe to revert it to a fresh state. Like iron chains, it can be placed in any orientation and used to hang objects like lanterns or bells."
+    },
+    "minecraft:weathered_copper_chain": {
+        id: "minecraft:weathered_copper_chain",
+        name: "Weathered Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Weathered Copper Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Natural oxidation or scraping"
+        },
+        description: "The Weathered Copper Chain represents the second stage of copper oxidation, exhibiting a distinct blue-green patina mixed with remaining orange tones. Introduced in the Tricky Trials update, it naturally forms from exposed copper over time when exposed to the elements. This decorative chain is ideal for adding a sense of age and history to builds without losing the structural utility of a standard chain. Players can preserve its color using honeycomb or reverse the aging process using an axe or lightning strikes. In Bedrock Edition, it requires a pickaxe to harvest correctly."
+    },
+    "minecraft:oxidized_copper_chain": {
+        id: "minecraft:oxidized_copper_chain",
+        name: "Oxidized Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Oxidized Copper Chain"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Natural oxidation or scraping"
+        },
+        description: "The Oxidized Copper Chain is the final, fully aged stage of the copper chain family, added in the Tricky Trials update (Bedrock 1.21). It boasts a rich teal-green patina that covers its entire surface, providing a beautiful weathered aesthetic for ancient ruins or industrial structures. Despite its heavy oxidation, it remains as durable as the original chain with high resistance to explosions. It can be scraped with an axe to reveal earlier oxidation stages or waxed to maintain its teal hue permanently. This chain is a versatile decorative element for hanging items."
     }
 };

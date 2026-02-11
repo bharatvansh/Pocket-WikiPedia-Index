@@ -4213,6 +4213,27 @@ export const blockIndex = [
         icon: "textures/items/copper_chain",
         themeColor: "§6"
     },
+    {
+        id: "minecraft:exposed_copper_chain",
+        name: "Exposed Copper Chain",
+        category: "block",
+        icon: "textures/items/exposed_copper_chain",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:weathered_copper_chain",
+        name: "Weathered Copper Chain",
+        category: "block",
+        icon: "textures/items/weathered_copper_chain",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:oxidized_copper_chain",
+        name: "Oxidized Copper Chain",
+        category: "block",
+        icon: "textures/items/oxidized_copper_chain",
+        themeColor: "§2"
+    },
 
     {
         id: "minecraft:waxed_copper_bulb",
