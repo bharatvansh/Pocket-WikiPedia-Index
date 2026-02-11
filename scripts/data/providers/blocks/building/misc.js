@@ -637,5 +637,47 @@ export const miscBuildingBlocks = {
             yRange: "Crafted only"
         },
         description: "Light Blue Terracotta is a smooth, durable building block with a soft, pale blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. In Bedrock Edition, it does not generate naturally in the Badlands biome and must be crafted by the player. Its calm, earthy blue tone provides a sophisticated and clean look for architectural projects, offering significantly higher blast resistance than wool or concrete powder. It requires a pickaxe for harvesting; breaking it by hand will result in no drops. It can also be smelted into light blue glazed terracotta."
+    },
+    "minecraft:green_glazed_terracotta": {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Green Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Green Terracotta"
+        },
+        description: "Green Glazed Terracotta is a vibrant decorative block featuring an intricate, circular geometric pattern with deep forest green tones. It is created by smelting green terracotta in a furnace. Like all glazed terracotta, it is unique for its immunity to being moved by slime blocks or honey blocks, making it an essential component for advanced redstone machines and flying contraptions in Bedrock Edition. Its directional placement allows builders to create large, recurring floral or Celtic-style motifs on floors and walls, providing a rich, textured look to any construction."
+    },
+    "minecraft:purple_glazed_terracotta": {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Purple Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Purple Terracotta"
+        },
+        description: "Purple Glazed Terracotta is a decorative block featuring an intricate, ornate pattern with royal purple and light purple highlights. It is obtained by smelting purple terracotta in a furnace. In Bedrock Edition, it is prized by redstone engineers because it cannot be moved by slime or honey blocks, allowing for compact and complex circuitry. When placed in specific orientations, its pattern forms a beautiful, repeating star-like design, making it ideal for palace floors, mystical towers, and decorative borders. It requires a pickaxe to harvest correctly."
     }
 };
