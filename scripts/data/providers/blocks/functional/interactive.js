@@ -558,6 +558,27 @@ export const interactiveBlocks = {
         },
         description: "The Blue Candle is a decorative light source block that can be placed in clusters of up to four. Each candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a vibrant blue color and must be lit using flint and steel to emit light. Blue candles can also be placed on cakes to create a blue candle cake, perfect for themed decorations."
     },
+    "minecraft:blue_candle_cake": {
+        id: "minecraft:blue_candle_cake",
+        name: "Blue Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Blue Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Blue Candle Cake is a festive block created by placing a blue candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the blue candle, and the cake is destroyed. It is a perfect decorative addition for celebrations and themed interior designs."
+    },
     "minecraft:cyan_candle": {
         id: "minecraft:cyan_candle",
         name: "Cyan Candle",

@@ -685,6 +685,27 @@ export const miscDecorativeBlocks = {
         },
         description: "White Wool is a decorative building block obtained by shearing or killing white sheep, or by crafting four strings together. It is flammable and weak against explosions. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations from reaching Sculk Sensors and prevents Sculk Shriekers from detecting players walking on it. It can be dyed into 15 other colors. It generates naturally in Shepherd villager houses, woodland mansions, and pillager outposts."
     },
+    "minecraft:orange_wool": {
+        id: "minecraft:orange_wool",
+        name: "Orange Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Orange Sheep"
+        },
+        description: "Orange Wool is a vibrant decorative block obtained by shearing orange sheep or by crafting white wool with orange dye. Like all wool blocks in Bedrock Edition, it is highly flammable and provides low blast resistance. It features unique acoustic properties, dampening vibrations to prevent detection by Sculk Sensors and activation of Sculk Shriekers. This makes it ideal for stealthy movement in the Deep Dark. Beyond its functional use, its bright color is perfect for creative builds, pixel art, and as a component for crafting orange carpets and beds."
+    },
     "minecraft:pale_oak_fence": {
         id: "minecraft:pale_oak_fence",
         name: "Pale Oak Fence",
