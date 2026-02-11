@@ -427,5 +427,26 @@ export const workstationBlocks = {
             yRange: "Result of Anvil degradation"
         },
         description: "A Chipped Anvil is the second stage of an anvil's durability, showing visible signs of wear and minor fractures on its surface. It occurs naturally with a 12% chance whenever an anvil is used for repairing, renaming, or enchanting items. Despite the cosmetic damage, it remains fully functional and retains the same properties as a new anvil, including its high blast resistance and ability to fall due to gravity. It can still be used to maintain high-tier equipment, but it is one step closer to becoming a damaged anvil and eventually breaking completely."
+    },
+    "minecraft:damaged_anvil": {
+        id: "minecraft:damaged_anvil",
+        name: "Damaged Anvil",
+        hardness: 5,
+        blastResistance: 1200,
+        flammability: false,
+        gravityAffected: true,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Damaged Anvil"],
+        generation: {
+            dimension: "None",
+            yRange: "Result of Anvil degradation"
+        },
+        description: "A Damaged Anvil is the final durability stage of an anvil before it completely breaks. It features heavy fracturing and significant wear on its surface, occurring with a 12% chance whenever an anvil is used for repairing, renaming, or combining enchantments. Despite its battered appearance, it remains fully functional and retains the high blast resistance and gravity-affected properties of a new anvil. Once it reaches this stage, the next degradation event will result in the anvil's total destruction, dropping no items."
     }
 };

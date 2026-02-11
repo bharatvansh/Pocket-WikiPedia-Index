@@ -5558,4 +5558,25 @@ export const blockIndex = [
         icon: "textures/blocks/candle_cake_yellow",
         themeColor: "§e"
     },
+    {
+        id: "minecraft:magenta_candle",
+        name: "Magenta Candle",
+        category: "block",
+        icon: "textures/blocks/candle_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:magenta_candle_cake",
+        name: "Magenta Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:damaged_anvil",
+        name: "Damaged Anvil",
+        category: "block",
+        icon: "textures/blocks/anvil_top",
+        themeColor: "§7"
+    },
 ];
