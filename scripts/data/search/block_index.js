@@ -5537,4 +5537,25 @@ export const blockIndex = [
         icon: "textures/blocks/hardened_glass",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:red_wool",
+        name: "Red Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:stripped_dark_oak_log",
+        name: "Stripped Dark Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_dark_oak_log_side",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:yellow_candle_cake",
+        name: "Yellow Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_yellow",
+        themeColor: "§e"
+    },
 ];
