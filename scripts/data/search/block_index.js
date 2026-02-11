@@ -5600,4 +5600,25 @@ export const blockIndex = [
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:hard_light_blue_stained_glass",
+        name: "Hardened Light Blue Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_light_blue",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:waxed_oxidized_chiseled_copper",
+        name: "Waxed Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:gray_carpet",
+        name: "Gray Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_gray",
+        themeColor: "§8"
+    },
 ];

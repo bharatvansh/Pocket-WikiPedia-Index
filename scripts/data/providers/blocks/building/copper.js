@@ -833,5 +833,26 @@ export const copperBlocks = {
             yRange: "Natural oxidation or scraping"
         },
         description: "The Oxidized Copper Chain is the final, fully aged stage of the copper chain family, added in the Tricky Trials update (Bedrock 1.21). It boasts a rich teal-green patina that covers its entire surface, providing a beautiful weathered aesthetic for ancient ruins or industrial structures. Despite its heavy oxidation, it remains as durable as the original chain with high resistance to explosions. It can be scraped with an axe to reveal earlier oxidation stages or waxed to maintain its teal hue permanently. This chain is a versatile decorative element for hanging items."
+    },
+    "minecraft:waxed_oxidized_chiseled_copper": {
+        id: "minecraft:waxed_oxidized_chiseled_copper",
+        name: "Waxed Oxidized Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or applied Honeycomb"
+        },
+        description: "Waxed Oxidized Chiseled Copper is a decorative block featuring an intricate carved geometric pattern and a beautiful, permanent teal-green patina. By applying honeycomb to an oxidized chiseled copper block, players can lock in its final oxidation stage, ensuring it never reverts or changes further. This block is ideal for grand pillars, detailed borders, and architectural accents that require a consistent, aged copper aesthetic. In Bedrock Edition, it requires a stone pickaxe or higher to harvest correctly, otherwise dropping nothing when broken."
     }
 };
