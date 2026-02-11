@@ -1168,6 +1168,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Magenta Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of magenta wool, providing a vibrant, soft surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including non-solid blocks like glass."
     },
+    "minecraft:yellow_carpet": {
+        id: "minecraft:yellow_carpet",
+        name: "Yellow Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Yellow Wool"
+        },
+        description: "Yellow Carpet is a thin, decorative block crafted from yellow wool. It is primarily used for interior decoration, providing a vibrant splash of color to floors without occupying a full block's height. In Bedrock Edition, carpets have the unique property of dampening vibrations, making them essential for navigating around Sculk Sensors and Wardens in Ancient Cities. They can be placed on any solid surface, including other non-solid blocks like glass. Yellow carpet can also be used as a fuel source in furnaces, smelting 0.335 items per piece."
+    },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
         name: "Yellow Wool",
