@@ -2210,5 +2210,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted only"
         },
         description: "Cobblestone Slab is a versatile half-block variant of cobblestone, offering an essential building option for floors, ceilings, and smooth elevation changes. It retains the rugged, fractured gray texture of its parent block, making it perfect for rustic, medieval, and dungeon-themed builds. In Bedrock Edition, it is fire-resistant and highly durable against explosions with a blast resistance of 6.0. It can be crafted by placing three cobblestone blocks horizontally in a crafting table or more efficiently via a stonecutter, and can be combined into double slabs."
+    },
+    "minecraft:smooth_quartz_slab": {
+        id: "minecraft:smooth_quartz_slab",
+        name: "Smooth Quartz Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Smooth Quartz Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Smooth Quartz Slab is the half-block variant of smooth quartz, featuring a sleek, borderless white texture. It is obtained by crafting three smooth quartz blocks or using a stonecutter. In Bedrock Edition, it is significantly more durable than regular quartz slabs, sharing the 2.0 hardness and 6.0 blast resistance of smooth stone. Its clean aesthetic makes it a favorite for modern architectural designs, smooth pathways, and minimalist interior detailing where a bright, professional finish is required."
+    },
+    "minecraft:cut_sandstone_slab": {
+        id: "minecraft:cut_sandstone_slab",
+        name: "Cut Sandstone Slab",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cut Sandstone Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Cut Sandstone Slab is a refined half-block variant of cut sandstone. It features a smooth, uniform tan-yellow texture that lacks the natural layering found in regular sandstone. These slabs are essential for creating detailed architectural trim, smooth elevation changes, and sophisticated flooring in desert-themed builds. In Bedrock Edition, they are fire-resistant and require a pickaxe of wooden tier or higher to drop as an item. They can be produced efficiently using a stonecutter from sandstone blocks."
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+        id: "minecraft:waxed_oxidized_cut_copper_stairs",
+        name: "Waxed Oxidized Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Cut Copper or via Honeycomb application"
+        },
+        description: "Waxed Oxidized Cut Copper Stairs are a decorative block that has been treated with honeycomb to permanently preserve its final teal-green oxidation stage. They feature a unique tiled masonry texture that represents years of exposure to the elements, locked in place to prevent further weathering. These stairs are perfect for creating grand, aged rooflines and monuments that require a consistent aesthetic. In Bedrock Edition, the wax can be removed using an axe, and they require a stone-tier pickaxe or better for harvesting."
     }
 };
