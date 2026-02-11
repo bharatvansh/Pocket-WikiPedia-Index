@@ -5600,4 +5600,25 @@ export const blockIndex = [
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_light_blue",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_green",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_purple",
+        themeColor: "§5"
+    },
 ];
