@@ -1400,6 +1400,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/stone
     },
     {
+        id: "minecraft:tripwire_hook",
+        name: "Tripwire Hook",
+        category: "block",
+        icon: "textures/blocks/trip_wire_source",
+        themeColor: "§7" // Gray
+    },
+    {
         id: "minecraft:amethyst_cluster",
         name: "Amethyst Cluster",
         category: "block",
@@ -3169,6 +3176,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glazed_terracotta_orange",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_green",
+        themeColor: "§2" // Green
     },
     {
         id: "minecraft:yellow_glazed_terracotta",
@@ -5053,6 +5067,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_black",
         themeColor: "§0"
+    },
+    {
+        id: "minecraft:gray_carpet",
+        name: "Gray Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_gray",
+        themeColor: "§8" // Dark Gray
     },
     {
         id: "minecraft:white_carpet",
