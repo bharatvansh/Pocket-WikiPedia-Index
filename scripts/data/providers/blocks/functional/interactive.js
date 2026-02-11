@@ -1420,6 +1420,27 @@ export const interactiveBlocks = {
         },
         description: "The Warped Trapdoor is a fire-resistant functional block crafted from warped planks, native to the Nether's Warped Forest. It serves as a horizontal door that can be toggled by player interaction or redstone signals. Unlike Overworld wooden trapdoors, it is completely immune to fire and lava, making it essential for builds in hazardous dimensions. It features a unique teal color and a strange, alien-like texture that matches the warped wood set. In Bedrock Edition, it has a hardness of 3.0 and is most efficiently harvested using an axe."
     },
+    "minecraft:brown_candle_cake": {
+        id: "minecraft:brown_candle_cake",
+        name: "Brown Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Brown Candle Cake is a festive block created by placing a brown candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a cozy light level of 3, perfect for rustic-themed celebrations. If a player eats a slice of the cake, the brown candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the brown candle, and the cake is destroyed. It is an excellent decorative addition for birthdays."
+    },
     "minecraft:chemical_heat": {
         id: "minecraft:chemical_heat",
         name: "Heat Block",

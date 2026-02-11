@@ -141,6 +141,27 @@ export const copperBlocks = {
         },
         description: "Exposed Cut Copper is a decorative metal block that represents the first stage of oxidation for cut copper. It features a unique tiled texture with a slightly tarnished, brownish-orange appearance. Like other copper variants, it can be waxed with honeycomb to lock its current look or scraped with an axe to revert it to a fresh state. It naturally forms from cut copper over time or can be crafted using a stonecutter. In Bedrock Edition, it requires a stone pickaxe or higher to harvest; otherwise, it drops nothing. It is ideal for adding a sense of age to industrial builds."
     },
+    "minecraft:weathered_cut_copper": {
+        id: "minecraft:weathered_cut_copper",
+        name: "Weathered Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Cut Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Weathered Cut Copper is a decorative metal block that represents the second stage of oxidation for cut copper. It features a prominent blue-green patina mixed with remaining brownish-orange tones, offering a classic aged look. Like other copper variants, it can be waxed with honeycomb to lock its current state or scraped with an axe to revert it to the exposed stage. It is crafted from weathered copper blocks or more efficiently in a stonecutter. In Bedrock Edition, it requires a stone pickaxe or higher to harvest; otherwise, it drops nothing. It's ideal for creating detailed gradients."
+    },
     "minecraft:oxidized_cut_copper": {
         id: "minecraft:oxidized_cut_copper",
         name: "Oxidized Cut Copper",
