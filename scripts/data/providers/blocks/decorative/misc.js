@@ -1419,5 +1419,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Bamboo Standing Sign is a functional block made from the bamboo wood set. Crafted using bamboo planks and a stick, it features a unique yellowish texture with a distinct vertical grain. It functions identically to other wood signs, allowing for 16-way rotation when placed on the ground and supporting text on both sides. Introduced in the 1.20 update, it provides a renewable and tropical-themed option for labeling and decoration in Minecraft Bedrock Edition."
+    },
+    "minecraft:darkoak_standing_sign": {
+        id: "minecraft:darkoak_standing_sign",
+        name: "Dark Oak Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dark_oak_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Dark Oak Standing Sign is a functional wood block used for signage and decoration. Crafted from dark oak planks and a stick, it showcases the deep, sophisticated brown color of the Dark Forest wood set. In Bedrock Edition, it can be placed on solid ground and rotated to face any of 16 directions, providing a rustic and refined way to label areas or leave messages. While it is flammable, its rich dark tone makes it a popular choice for gothic, medieval, and atmospheric builds."
     }
 };

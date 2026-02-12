@@ -5832,6 +5832,27 @@ export const blockIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:crimson_standing_sign",
+        name: "Crimson Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_crimson",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:warped_standing_sign",
+        name: "Warped Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_warped",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:darkoak_standing_sign",
+        name: "Dark Oak Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_darkoak",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:pink_glazed_terracotta",
         name: "Pink Glazed Terracotta",
         category: "block",
