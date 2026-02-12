@@ -5852,4 +5852,25 @@ export const blockIndex = [
         icon: "textures/blocks/glazed_terracotta_light_blue",
         themeColor: "§b"
     },
+    {
+        id: "minecraft:dead_brain_coral",
+        name: "Dead Brain Coral",
+        category: "block",
+        icon: "textures/blocks/dead_brain_coral",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_light_blue",
+        themeColor: "§b"
+    },
 ];
