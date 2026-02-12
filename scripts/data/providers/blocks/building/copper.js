@@ -729,6 +729,27 @@ export const copperBlocks = {
         },
         description: "Waxed Chiseled Copper is a decorative block with a unique carved geometric pattern that has been treated with honeycomb to prevent oxidation. This treatment ensures the block maintains its' original orange-copper color indefinitely. It provides a sophisticated look for pillars, borders, and accent walls in architectural designs. If a player decides they want a more weathered look, they can scrape the wax off with any axe, allowing the block to eventually turn green through natural exposure to air."
     },
+    "minecraft:waxed_exposed_chiseled_copper": {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Chiseled Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Chiseled Copper or applied Honeycomb"
+        },
+        description: "Waxed Exposed Chiseled Copper is a decorative metal block featuring a unique carved geometric pattern that has been treated with honeycomb to lock in its first oxidation stage. This process preserves its tarnished, brownish-orange appearance indefinitely, preventing it from weathering further into teal-green states. It retains the durability of standard copper and can be used for sophisticated architectural details like pillars and accent walls. Players can use an axe to scrape off the wax, allowing the block to resume its natural aging process. In Bedrock Edition, it requires a stone pickaxe or higher to harvest."
+    },
     "minecraft:waxed_copper_grate": {
         id: "minecraft:waxed_copper_grate",
         name: "Waxed Copper Grate",

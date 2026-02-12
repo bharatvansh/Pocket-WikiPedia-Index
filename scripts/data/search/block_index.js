@@ -5600,4 +5600,25 @@ export const blockIndex = [
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:pink_glazed_terracotta",
+        name: "Pink Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_pink",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pink_candle_cake",
+        name: "Pink Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_pink",
+        themeColor: "§d"
+    },
 ];
