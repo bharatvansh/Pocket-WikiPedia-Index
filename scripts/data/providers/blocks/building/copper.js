@@ -414,6 +414,27 @@ export const copperBlocks = {
         },
         description: "The Weathered Copper Grate is the second oxidation stage of copper grates, featuring a distinct blue-green hue. Introduced in 1.21, these transparent blocks are ideal for decorative vents, railings, or industrial builds requiring an aged look. They occur naturally in Trial Chambers or through the gradual oxidation of exposed copper. Players can use honeycomb to wax and preserve the color or an axe to scrape it back to previous oxidation states. Like other grates, they allow light to pass through while providing a solid walking surface."
     },
+    "minecraft:waxed_weathered_copper_grate": {
+        id: "minecraft:waxed_weathered_copper_grate",
+        name: "Waxed Weathered Copper Grate",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_copper_grate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Copper Grate or via Honeycomb application"
+        },
+        description: "The Waxed Weathered Copper Grate is a semi-transparent block from Minecraft Bedrock 1.21. Treated with honeycomb to lock in its blue-green patina, this block will never fully oxidize. It retains its lattice texture, allowing light to pass through while supporting entities. In Bedrock, players can use an axe to scrape off the wax, permitting natural oxidation to resume. It requires a pickaxe of stone tier or higher to harvest. This block is ideal for industrial-themed walkways and atmospheric vents where a stable, aged look is desired without the risk of further weathering."
+    },
     "minecraft:oxidized_copper_grate": {
         id: "minecraft:oxidized_copper_grate",
         name: "Oxidized Copper Grate",

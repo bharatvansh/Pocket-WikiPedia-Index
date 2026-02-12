@@ -600,6 +600,27 @@ export const interactiveBlocks = {
         },
         description: "The Cyan Candle is a decorative light source that adds a splash of vibrant teal color to any setting. Like all candles in Bedrock Edition, it can be clustered with up to four identical candles on a single block, increasing the light level from 3 to a maximum of 12. It must be lit using flint and steel, a fire charge, or a flaming projectile to emit light. These candles are waterloggable but cannot be lit while submerged. They can also be placed atop a cake to create a festive Cyan Candle Cake."
     },
+    "minecraft:cyan_candle_cake": {
+        id: "minecraft:cyan_candle_cake",
+        name: "Cyan Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cyan_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Cyan Candle Cake is a festive block created by placing a cyan candle on an uneaten cake. It serves as both a light source and a food source in Bedrock Edition. When lit, the candle emits a light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake. Similarly, if the block is broken, it drops only the candle, and the cake is destroyed. It is a perfect decorative addition for celebrations, offering a vibrant teal accent to interior designs, parties, and themed birthday events."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",
