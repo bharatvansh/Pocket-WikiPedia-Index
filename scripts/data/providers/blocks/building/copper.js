@@ -1022,5 +1022,26 @@ export const copperBlocks = {
             yRange: "Crafted from Weathered Copper Door or applied Honeycomb"
         },
         description: "The Waxed Weathered Copper Door is a functional and decorative block that has been treated with honeycomb to lock in its distinct blue-green patina. This treatment ensures that the door will never fully oxidize, maintaining its aged aesthetic indefinitely. Like other copper doors, it can be opened by hand or with redstone signals and is waterloggable in Bedrock Edition. Players can use an axe to scrape off the wax layer if they wish to allow natural oxidation to resume."
+    },
+    "minecraft:waxed_exposed_copper_chain": {
+        id: "minecraft:waxed_exposed_copper_chain",
+        name: "Waxed Exposed Copper Chain",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_copper_chain"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Exposed Copper Chain is a decorative block introduced in the Tricky Trials update (Bedrock 1.21). It represents the first oxidation stage (exposed) of a copper chain, which has been treated with honeycomb to lock in its appearance and prevent further aging. It displays a distinctive blend of its original copper orange and greenish-aqua oxidation patches. Like standard chains, it can be used to hang lanterns or bells, and connects vertically to other chains. It provides a unique industrial or weathered look while maintaining its metallic integrity."
     }
 };

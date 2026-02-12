@@ -576,5 +576,26 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (results from living coral fans dying)"
         },
         description: "Dead Bubble Coral Fan is the bleached, gray remains of a once-vibrant Bubble Coral Fan. This state occurs when the living coral is removed from its aquatic habitat or when the water source is destroyed. While it lacks the magenta color of its living counterpart, it remains a useful decorative block for builders aiming for a more muted or weathered underwater aesthetic. In Bedrock Edition, it retains its unique flat, fan-like shape and must be harvested with Silk Touch to be collected."
+    },
+    "minecraft:dead_fire_coral_fan": {
+        id: "minecraft:dead_fire_coral_fan",
+        name: "Dead Fire Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dead_fire_coral_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "Dead Fire Coral Fan is the gray, skeletal remains of a living Fire Coral Fan. This transformation occurs when the living coral is removed from water or its water source is destroyed. In Bedrock Edition, it retains its unique flat, fan-like shape but loses its vibrant red color, turning into a desaturated gray. While it lacks the color of its living counterpart, it is a useful decorative element for creating weathered or ancient underwater reef aesthetics. In Bedrock, it can be harvested by hand or with any tool even without Silk Touch."
     }
 };
