@@ -5705,4 +5705,25 @@ export const blockIndex = [
         icon: "textures/blocks/oxidized_chiseled_copper",
         themeColor: "§2"
     },
+    {
+        id: "minecraft:black_candle_cake",
+        name: "Black Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_black",
+        themeColor: "§0"
+    },
+    {
+        id: "minecraft:waxed_exposed_copper_door",
+        name: "Waxed Exposed Copper Door",
+        category: "block",
+        icon: "textures/items/exposed_copper_door",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:dead_brain_coral_wall_fan",
+        name: "Dead Brain Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/dead_brain_coral_fan",
+        themeColor: "§7"
+    },
 ];

@@ -1587,5 +1587,26 @@ export const interactiveBlocks = {
             yRange: "Placed on Cake"
         },
         description: "Candle Cake is a festive block created by placing a single undyed candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit, the candle emits a light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the candle, and the cake itself is destroyed. It is a perfect decorative addition for birthdays and in-game celebrations."
+    },
+    "minecraft:black_candle_cake": {
+        id: "minecraft:black_candle_cake",
+        name: "Black Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Black Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "A celebratory block created by placing a black candle on an uneaten cake. In Bedrock Edition, it can be lit using flint and steel to provide a light level of 3. Eating a slice of the cake will cause the candle to drop as an item. It is a popular choice for gothic or dark-themed celebrations in Minecraft."
     }
 };
