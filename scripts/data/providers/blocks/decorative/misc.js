@@ -1335,5 +1335,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Yellow Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of yellow wool. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including glass."
+    },
+    "minecraft:red_carpet": {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Carpet is a thin, decorative block used for flooring and aesthetic detailing. Crafted from two blocks of red wool, it provides a vibrant surface without adding significant height. In Bedrock Edition, carpets have the unique property of dampening vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas. They can be placed on most solid surfaces, including glass, and are also used to decorate tamed llamas. Red carpets are a staple for adding warmth and luxury to any interior build."
     }
 };

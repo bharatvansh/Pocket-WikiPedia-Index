@@ -1147,5 +1147,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Pressure Plate is a stone-type redstone switch crafted from two polished blackstone blocks. Unlike wooden variants, it only detects players and mobs, ignoring dropped items, which makes it perfect for secure inputs and mob-specific traps. Its dark, sleek appearance allows it to blend seamlessly into blackstone-themed structures or provide a high-contrast accent to lighter blocks. It is fire-resistant and provides a signal strength of 15 when activated. It combines the functionality of a stone pressure plate with the unique aesthetic of the Nether."
+    },
+    "minecraft:daylight_detector_inverted": {
+        id: "minecraft:daylight_detector_inverted",
+        name: "Inverted Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Interaction with Daylight Detector"
+        },
+        description: "The Inverted Daylight Detector is a redstone component that outputs a signal based on moonlight or the absence of sunlight. In Bedrock Edition, it has a distinct block ID and is created by interacting with a standard daylight detector. Its signal strength increases as it gets darker, peaking at midnight, making it indispensable for automated night-time lighting systems. When broken, it drops a standard daylight detector. It features a unique blue-tinted top texture and provides a compact solution for night-sensing logic in complex redstone contraptions."
     }
 };

@@ -2294,5 +2294,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Oxidized Cut Copper or via Honeycomb application"
         },
         description: "Waxed Oxidized Cut Copper Stairs are a decorative block that has been treated with honeycomb to permanently preserve its final teal-green oxidation stage. They feature a unique tiled masonry texture that represents years of exposure to the elements, locked in place to prevent further weathering. These stairs are perfect for creating grand, aged rooflines and monuments that require a consistent aesthetic. In Bedrock Edition, the wax can be removed using an axe, and they require a stone-tier pickaxe or better for harvesting."
+    },
+    "minecraft:prismarine_brick_slab": {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Brick Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Prismarine Brick Slab is a decorative half-block variant of prismarine bricks, featuring a structured teal-tiled pattern. In Minecraft Bedrock Edition, it is primarily used for aquatic-themed flooring, roofing, and detailed architectural trim. Unlike in Java Edition, these slabs do not generate naturally in Ocean Monuments and must be crafted by the player using a crafting table or stonecutter. They are highly resistant to explosions and can be waterlogged, making them perfect for grand underwater structures. They provide a refined and clean look for any submerged build."
     }
 };
