@@ -5663,4 +5663,25 @@ export const blockIndex = [
         icon: "textures/blocks/carpet_colored_yellow",
         themeColor: "§e"
     },
+    {
+        id: "minecraft:daylight_detector_inverted",
+        name: "Inverted Daylight Detector",
+        category: "block",
+        icon: "textures/blocks/daylight_detector_inverted_top",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:candle_cake",
+        name: "Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        category: "block",
+        icon: "textures/blocks/candle_white",
+        themeColor: "§f"
+    },
 ];

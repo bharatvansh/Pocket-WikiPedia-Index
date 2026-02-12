@@ -307,6 +307,27 @@ export const redstoneBlocks = {
         },
         description: "The Daylight Detector is a redstone component that generates a signal based on the intensity of sunlight. Its signal strength varies from 0 to 15 depending on the time of day and weather. Players can interact with it to toggle it into an Inverted Daylight Detector, which emits a signal based on moonlight or the absence of sunlight. Crafted from glass, nether quartz, and wooden slabs, it is essential for automating lighting systems or time-based mechanisms. In Bedrock Edition, it provides a compact way to detect the day-night cycle for various automated contraptions."
     },
+    "minecraft:daylight_detector_inverted": {
+        id: "minecraft:daylight_detector_inverted",
+        name: "Inverted Daylight Detector",
+        hardness: 0.2,
+        blastResistance: 0.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Daylight Detector"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "An Inverted Daylight Detector is a redstone component that outputs a signal based on moonlight or the absence of sunlight. It is toggled by interacting with a standard Daylight Detector. Its signal strength varies from 0 to 15, peaking at midnight and during heavy thunderstorms. In Bedrock Edition, breaking it drops a standard Daylight Detector regardless of its state. This block is essential for automating night-time lighting systems or time-based contraptions that require activation after sunset."
+    },
     "minecraft:redstone_wire": {
         id: "minecraft:redstone_wire",
         name: "Redstone Dust",
