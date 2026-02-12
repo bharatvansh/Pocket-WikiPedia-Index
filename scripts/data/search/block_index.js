@@ -5684,4 +5684,25 @@ export const blockIndex = [
         icon: "textures/blocks/candle_white",
         themeColor: "§f"
     },
+    {
+        id: "minecraft:waxed_exposed_chiseled_copper",
+        name: "Waxed Exposed Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_chiseled_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_weathered_chiseled_copper",
+        name: "Waxed Weathered Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_chiseled_copper",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:waxed_oxidized_chiseled_copper",
+        name: "Waxed Oxidized Chiseled Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_chiseled_copper",
+        themeColor: "§2"
+    },
 ];
