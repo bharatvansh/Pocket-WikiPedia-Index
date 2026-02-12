@@ -1482,5 +1482,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Dark Oak Standing Sign is a functional decorative block crafted from dark oak planks and a stick. It features the rich, deep brown aesthetic of the dark oak wood set, often used in moody or sophisticated structures. In Bedrock Edition, it can be rotated in 16 directions when placed on the ground and displays text on both sides. The text color can be adjusted with dyes, and it can be made to glow using a glow ink sac. Its dark background provides excellent contrast for light-colored text, making it a favorite for signs in forest cabins and gothic-themed builds."
+    },
+    "minecraft:jungle_standing_sign": {
+        id: "minecraft:jungle_standing_sign",
+        name: "Jungle Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:jungle_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Jungle Standing Sign is a wood-based functional block used for labeling and communication. Crafted from jungle planks and a stick, it features the warm, pinkish-tan hue characteristic of the jungle wood set. It can be placed on the top surface of any solid block and rotated in 16 different directions. Like all signs in Bedrock Edition, it supports text on both sides, which can be dyed or made to glow with glow ink sacs. Its tropical appearance makes it an ideal choice for signs in jungle bases, treehouses, and exotic-themed builds."
     }
 };
