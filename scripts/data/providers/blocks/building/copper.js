@@ -750,6 +750,69 @@ export const copperBlocks = {
         },
         description: "A transparent lattice-style block crafted from copper that has been waxed to lock in its' fresh appearance. It allows light to pass through and can be walked upon, making it perfect for industrial walkways, vents, or decorative railings. Because it is waxed, it won't weather into the green patina common to older copper structures. Players can remove the wax coating using an axe, which then allows the block to oxidize through its' usual stages. In Bedrock Edition, it behaves as a transparent block that requires a pickaxe for harvesting."
     },
+    "minecraft:waxed_exposed_copper": {
+        id: "minecraft:waxed_exposed_copper",
+        name: "Waxed Exposed Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Exposed Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Copper or applied Honeycomb"
+        },
+        description: "Waxed Exposed Copper is a Block of Copper that has reached its first stage of oxidation and been treated with honeycomb to lock in its appearance. It features a slightly tarnished, brownish-orange surface that will no longer turn green over time. Like other waxed variants, players can scrape the wax off with an axe to allow oxidation to continue. In Bedrock Edition, it retains a hardness of 3.0 and requires a stone pickaxe or higher to harvest, dropping itself as an item. It is ideal for maintaining a weathered look in industrial builds."
+    },
+    "minecraft:waxed_weathered_copper": {
+        id: "minecraft:waxed_weathered_copper",
+        name: "Waxed Weathered Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Weathered Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Copper or applied Honeycomb"
+        },
+        description: "Waxed Weathered Copper is the second oxidation stage of the copper block, permanently preserved using honeycomb. It displays a prominent blue-green patina mixed with remaining copper tones, offering a classic aged aesthetic that will not change regardless of exposure to rain or air. Using an axe on the block removes the wax coating, permitting natural oxidation to resume. It has a blast resistance of 6.0 and must be mined with a stone-tier pickaxe or better. Builders often use this block for roofing and decorative accents that require a stable, historical appearance."
+    },
+    "minecraft:waxed_oxidized_copper": {
+        id: "minecraft:waxed_oxidized_copper",
+        name: "Waxed Oxidized Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Copper or applied Honeycomb"
+        },
+        description: "Waxed Oxidized Copper is the final oxidation stage of a copper block that has been waxed to preserve its rich teal-green patina. This decorative block is ideal for creating grand, aged structures like turquoise roofs and verdigris statues without the risk of accidentally scraping it back to a previous stage during maintenance. The wax coating can be removed with an axe, though it is already at the final weathering stage. In Bedrock Edition, it requires a pickaxe of stone tier or higher to drop. It provides a beautiful, permanent aged look for industrial architecture."
+    },
     "minecraft:copper_chain": {
         id: "minecraft:copper_chain",
         name: "Copper Chain",
