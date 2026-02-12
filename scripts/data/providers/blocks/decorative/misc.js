@@ -1419,5 +1419,47 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Bamboo Standing Sign is a functional block made from the bamboo wood set. Crafted using bamboo planks and a stick, it features a unique yellowish texture with a distinct vertical grain. It functions identically to other wood signs, allowing for 16-way rotation when placed on the ground and supporting text on both sides. Introduced in the 1.20 update, it provides a renewable and tropical-themed option for labeling and decoration in Minecraft Bedrock Edition."
+    },
+    "minecraft:red_carpet": {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Carpet is a thin, decorative block primarily used for flooring and aesthetic detailing. It is crafted from two blocks of red wool, yielding three carpets. In Bedrock Edition, carpets have the unique property of dampening vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is flammable and can be placed on most solid surfaces, including non-full blocks like glass."
+    },
+    "minecraft:light_blue_wool": {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Light Blue Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Light Blue Sheep"
+        },
+        description: "Light Blue Wool is a soft, decorative block primarily obtained by shearing light blue sheep or crafting white wool with light blue dye. In Bedrock Edition, wool has unique acoustic properties; it blocks vibrations, preventing Sculk Sensors from detecting movement and Sculk Shriekers from being triggered. While highly flammable and weak against explosions, its bright and calming color makes it ideal for aesthetic builds, pixel art, and cozy interior designs. It can also be used as a fuel in furnaces, although it is relatively inefficient."
     }
 };
