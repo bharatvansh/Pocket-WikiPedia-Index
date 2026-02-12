@@ -1080,6 +1080,27 @@ export const slabsStairsBlocks = {
         },
         description: "Polished Andesite Stairs are a smooth, gray decorative building block crafted from polished andesite. They provide a refined and clean aesthetic for staircases, sloped roofs, and architectural detailing in both modern and traditional builds. Like other stone-based stairs, they are fire-resistant and have a blast resistance of 6.0 in Bedrock Edition. They can be waterlogged and placed in various orientations to create complex shapes like cornices and eaves."
     },
+    "minecraft:polished_diorite_slab": {
+        id: "minecraft:polished_diorite_slab",
+        name: "Polished Diorite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_diorite_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Diorite Slab is a smooth, speckled half-block variant of polished diorite. It offers a bright and clean architectural component for detailed flooring, ceilings, and elegant steps. Crafted from polished diorite blocks or produced efficiently via a stonecutter, it provides a sophisticated look while maintaining the durability of natural stone. In Bedrock Edition, it is fire-resistant and has a blast resistance of 6.0. Slabs can be combined into double slabs or placed in various halves of a block space, making them highly versatile for modern and classical designs."
+    },
     "minecraft:polished_diorite_stairs": {
         id: "minecraft:polished_diorite_stairs",
         name: "Polished Diorite Stairs",
@@ -1100,6 +1121,27 @@ export const slabsStairsBlocks = {
             yRange: "Crafted/Stonecut"
         },
         description: "Polished Diorite Stairs offer a bright, polished white and gray speckled appearance for vertical transitions. Crafted from polished diorite, they are ideal for creating high-contrast architectural accents and elegant staircases in Bedrock Edition. They share the same durability as other stone-based variants and are immune to fire. Their smooth, refined texture makes them a favorite for modern interior designs and sophisticated exterior trim where a clean, stone look is desired."
+    },
+    "minecraft:polished_granite_slab": {
+        id: "minecraft:polished_granite_slab",
+        name: "Polished Granite Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_granite_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Granite Slab is a smooth, pinkish-brown half-block variant of polished granite. It provides a warm stone material for detailed flooring, decorative trim, and elegant staircases. Crafted from polished granite blocks or produced efficiently using a stonecutter, it maintains the high durability and blast resistance of natural granite. In Bedrock Edition, it is non-flammable and can be waterlogged. Slabs offer a versatile way to create smooth transitions and intricate architectural details while showcasing the refined texture of polished granite."
     },
     "minecraft:polished_granite_stairs": {
         id: "minecraft:polished_granite_stairs",
@@ -1664,6 +1706,27 @@ export const slabsStairsBlocks = {
             yRange: "Crafted only"
         },
         description: "Mossy Cobblestone Slab is the half-block variant of mossy cobblestone, featuring a distinctive mixture of weathered stone and organic moss growth. It offers a compact building option for detailed flooring, atmospheric pathways, and aged roofing where a full block would be too bulky. These slabs can be combined into double slabs or placed in the top or bottom half of a block space. They share the same high durability and fire resistance as regular cobblestone products and can be crafted manually or produced efficiently with a stonecutter."
+    },
+    "minecraft:polished_blackstone_slab": {
+        id: "minecraft:polished_blackstone_slab",
+        name: "Polished Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_blackstone_slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Polished Blackstone Slab is a half-block variant of polished blackstone, providing a sleek and dark building material for Nether-themed construction. It offers a low-profile option for detailed flooring, ceilings, and architectural accents while maintaining high durability and blast resistance. Naturally generating in Bastion Remnants, it is a key component of Piglin architecture. It can be crafted from polished blackstone or produced via stonecutter. In Bedrock Edition, it is fire-resistant and can be placed in various orientations or combined into double slabs."
     },
     "minecraft:polished_blackstone_stairs": {
         id: "minecraft:polished_blackstone_stairs",
