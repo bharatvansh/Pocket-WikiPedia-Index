@@ -914,5 +914,47 @@ export const netherBlocks = {
             yRange: "Crafted from Warped Planks and Sticks"
         },
         description: "The Warped Fence Gate is a teal-colored, fireproof interactive barrier native to the Warped Forest in the Nether. Crafted from warped planks and sticks, it is completely immune to fire and lava, unlike Overworld fence gates. It functions as a secure entrance that can be opened manually or via redstone. Its vibrant teal hue and alien texture provide a unique aesthetic for builds in hazardous environments while effectively containing or repelling mobs."
+    },
+    "minecraft:crimson_standing_sign": {
+        id: "minecraft:crimson_standing_sign",
+        name: "Crimson Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:crimson_sign"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Crimson Standing Sign is a fire-resistant decorative block used for displaying text. Crafted from crimson planks and a stick, it features the vibrant, pulsating maroon texture characteristic of the Crimson Forest in the Nether. Like other signs in Bedrock Edition, it can be placed on the top surface of solid blocks and rotated in 16 different directions. Its immunity to fire and lava makes it a durable choice for labeling and navigation in hazardous environments."
+    },
+    "minecraft:warped_standing_sign": {
+        id: "minecraft:warped_standing_sign",
+        name: "Warped Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:warped_sign"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Standing Sign is a teal-colored, fireproof wood sign native to the Warped Forest biome. It is crafted from warped planks and a stick, exhibiting a unique alien aesthetic with its shifting blue-green color. In Bedrock Edition, it functions as a versatile tool for communication, supporting text on both sides and 16-way ground rotation. Being non-flammable, it is exceptionally useful for marking paths near lava or in Nether-based bases where standard wooden signs would burn."
     }
 };
