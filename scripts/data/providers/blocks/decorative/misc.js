@@ -1419,5 +1419,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Bamboo Standing Sign is a functional block made from the bamboo wood set. Crafted using bamboo planks and a stick, it features a unique yellowish texture with a distinct vertical grain. It functions identically to other wood signs, allowing for 16-way rotation when placed on the ground and supporting text on both sides. Introduced in the 1.20 update, it provides a renewable and tropical-themed option for labeling and decoration in Minecraft Bedrock Edition."
+    },
+    "minecraft:acacia_standing_sign": {
+        id: "minecraft:acacia_standing_sign",
+        name: "Acacia Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:acacia_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Acacia Standing Sign is a functional decorative block used for displaying text. Crafted from acacia planks and a stick, it features the vibrant orange hue characteristic of the savanna wood set. In Bedrock Edition, it can be placed on the top surface of solid blocks and rotated in 16 directions. It can hold text on both sides, which can be customized with dyes or made luminous with glow ink sacs. Its bright color makes it a popular choice for desert-themed builds and high-visibility markers."
+    },
+    "minecraft:birch_standing_sign": {
+        id: "minecraft:birch_standing_sign",
+        name: "Birch Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:birch_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Birch Standing Sign is a wood-based functional block used for labeling and communication. Crafted from birch planks and a stick, it showcases the pale, creamy color of the birch wood set. It can be placed on any solid top surface and rotated to 16 different angles to face players. Like all signs in Bedrock Edition, it supports four lines of text on each side, which can be edited unless waxed with honeycomb. Its clean and minimalist appearance makes it ideal for modern builds or any structure requiring a bright, light-colored aesthetic."
+    },
+    "minecraft:darkoak_standing_sign": {
+        id: "minecraft:darkoak_standing_sign",
+        name: "Dark Oak Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dark_oak_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Dark Oak Standing Sign is a functional decorative block crafted from dark oak planks and a stick. It features the rich, deep brown aesthetic of the dark oak wood set, often used in moody or sophisticated structures. In Bedrock Edition, it can be rotated in 16 directions when placed on the ground and displays text on both sides. The text color can be adjusted with dyes, and it can be made to glow using a glow ink sac. Its dark background provides excellent contrast for light-colored text, making it a favorite for signs in forest cabins and gothic-themed builds."
     }
 };

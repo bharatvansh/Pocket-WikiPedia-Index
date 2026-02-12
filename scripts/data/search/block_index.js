@@ -5852,4 +5852,25 @@ export const blockIndex = [
         icon: "textures/blocks/glazed_terracotta_light_blue",
         themeColor: "§b"
     },
+    {
+        id: "minecraft:acacia_standing_sign",
+        name: "Acacia Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_acacia",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:birch_standing_sign",
+        name: "Birch Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:darkoak_standing_sign",
+        name: "Dark Oak Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_dark_oak",
+        themeColor: "§8"
+    },
 ];
