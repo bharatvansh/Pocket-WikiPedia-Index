@@ -5160,6 +5160,13 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:gray_carpet",
+        name: "Gray Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_gray",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:black_carpet",
         name: "Black Carpet",
         category: "block",
@@ -5398,6 +5405,13 @@ export const blockIndex = [
         themeColor: "§d" // magenta
     },
     {
+        id: "minecraft:purple_glazed_terracotta",
+        name: "Purple Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_purple",
+        themeColor: "§5"
+    },
+    {
         id: "minecraft:lime_terracotta",
         name: "Lime Terracotta",
         category: "block",
@@ -5592,6 +5606,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stripped_dark_oak_log_side",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:stripped_jungle_log",
+        name: "Stripped Jungle Log",
+        category: "block",
+        icon: "textures/blocks/stripped_jungle_log_side",
+        themeColor: "§6"
     },
     {
         id: "minecraft:yellow_candle_cake",
