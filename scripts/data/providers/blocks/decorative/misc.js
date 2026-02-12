@@ -601,6 +601,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The Hanging Sign is an elegant decorative block introduced in Minecraft 1.20 that displays text in a hanging format. Crafted from two chains and stripped wood, hanging signs provide a sophisticated alternative to standard signs. They can only be placed on the bottom face of solid blocks, with chains attaching to the ceiling. Like regular signs, they can hold up to 90 characters on four lines. Perfect for tavern names, shop signs, and detailed player-created signage systems."
     },
+    "minecraft:spruce_standing_sign": {
+        id: "minecraft:spruce_standing_sign",
+        name: "Spruce Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:spruce_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Spruce Standing Sign is a functional wood-based block used for displaying text. Crafted from spruce planks and a stick, it features the deep, dark brown aesthetic characteristic of the spruce wood set. In Bedrock Edition, it can be placed on the top surface of any solid block and can be rotated in 16 different directions. It can hold up to four lines of text on both sides, and its message can be edited after placement unless waxed with honeycomb. Its rustic appearance makes it a popular choice for signs in cabins and medieval-themed builds."
+    },
     "minecraft:flower_pot": {
         id: "minecraft:flower_pot",
         name: "Flower Pot",

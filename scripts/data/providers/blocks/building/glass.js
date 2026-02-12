@@ -240,6 +240,27 @@ export const glassBlocks = {
         },
         description: "Magenta Stained Glass is a vibrant, transparent decorative block created by surrounding a piece of magenta dye with eight glass blocks. It retains the transparency of regular glass while adding a bold magenta tint. Notably in Bedrock Edition 1.21+, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs, offering a striking visual impact in both modern and traditional builds."
     },
+    "minecraft:magenta_stained_glass_pane": {
+        id: "minecraft:magenta_stained_glass_pane",
+        name: "Magenta Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:magenta_stained_glass_pane (with Silk Touch)"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Magenta Stained Glass Panes are thin, transparent decorative blocks that offer a vibrant alternative to full glass blocks. They are crafted by combining glass panes with magenta dye or by crafting magenta stained glass blocks into panes. Like other glass panes, they connect to adjacent blocks and other panes to create seamless, colorful windows. In Bedrock Edition, they require a tool with Silk Touch to be harvested; otherwise, they shatter and drop nothing. They are highly resource-efficient for large-scale window designs and modern architectural builds."
+    },
     "minecraft:pink_stained_glass": {
         id: "minecraft:pink_stained_glass",
         name: "Pink Stained Glass",
