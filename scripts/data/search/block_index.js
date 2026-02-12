@@ -5873,4 +5873,25 @@ export const blockIndex = [
         icon: "textures/items/sign_dark_oak",
         themeColor: "§8"
     },
+    {
+        id: "minecraft:light_gray_concrete_powder",
+        name: "Light Gray Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_silver",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:jungle_standing_sign",
+        name: "Jungle Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:crimson_standing_sign",
+        name: "Crimson Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_crimson",
+        themeColor: "§4"
+    },
 ];

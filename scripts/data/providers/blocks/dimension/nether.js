@@ -914,5 +914,26 @@ export const netherBlocks = {
             yRange: "Crafted from Warped Planks and Sticks"
         },
         description: "The Warped Fence Gate is a teal-colored, fireproof interactive barrier native to the Warped Forest in the Nether. Crafted from warped planks and sticks, it is completely immune to fire and lava, unlike Overworld fence gates. It functions as a secure entrance that can be opened manually or via redstone. Its vibrant teal hue and alien texture provide a unique aesthetic for builds in hazardous environments while effectively containing or repelling mobs."
+    },
+    "minecraft:crimson_standing_sign": {
+        id: "minecraft:crimson_standing_sign",
+        name: "Crimson Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:crimson_sign"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Crimson Planks and Sticks"
+        },
+        description: "The Crimson Standing Sign is a fire-resistant functional block crafted from crimson planks and a stick. Native to the Crimson Forest biomes in the Nether, it shares the fireproof properties of all crimson wood types, ensuring it remains intact even when exposed to nearby lava or fire. It features a deep maroon and red hue that provides a dark, rustic aesthetic. It can be placed on any solid top surface and rotated in 16 directions. In Bedrock Edition, its text can be customized with dyes and glow ink sacs, providing high visibility in the Nether's dark environment."
     }
 };
