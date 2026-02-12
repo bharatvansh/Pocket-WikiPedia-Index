@@ -1276,6 +1276,69 @@ export const vegetationBlocks = {
         },
         description: "A vibrant red flower and one of the most common plants in Minecraft. Poppies can be used to craft Red Dye or added to Suspicious Stew for a short-duration Night Vision effect. They are notable for their unique interaction with Iron Golems, which occasionally hold them out to baby villagers as a sign of friendship. They generate naturally across most grassy biomes and are also dropped by Iron Golems upon defeat."
     },
+    "minecraft:red_tulip": {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "60 to 128"
+        },
+        description: "Red Tulips are vibrant flowers that naturally generate in Flower Forest, Plains, and Meadow biomes. They can be harvested instantly by hand and are used for decoration or crafted into Red Dye. In Bedrock Edition, when used in Suspicious Stew, they grant the Weakness effect for 9 seconds. They can be placed in flower pots for classic floral decoration and attract bees for pollination."
+    },
+    "minecraft:orange_tulip": {
+        id: "minecraft:orange_tulip",
+        name: "Orange Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "60 to 128"
+        },
+        description: "Orange Tulips are bright decorative flowers found in Flower Forest, Plains, and Meadow biomes. Easily harvested by hand, they can be crafted into Orange Dye. In Bedrock Edition, adding an Orange Tulip to Suspicious Stew inflicts the Weakness effect for 9 seconds. Their warm hue is popular for autumn-themed landscaping or as colorful accents in flower pots and gardens."
+    },
+    "minecraft:pink_tulip": {
+        id: "minecraft:pink_tulip",
+        name: "Pink Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:pink_tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "60 to 128"
+        },
+        description: "Pink Tulips are delicate decorative flowers naturally occurring in Flower Forest, Plains, and Meadow biomes. They serve as a natural source of Pink Dye and are frequently used for aesthetic landscaping. In Bedrock Edition, Suspicious Stew made with a Pink Tulip grants the Weakness effect for 9 seconds. Their soft pink color is ideal for gentle floral atmospheres and they interact with bees for pollination."
+    },
     "minecraft:large_fern": {
         id: "minecraft:large_fern",
         name: "Large Fern",

@@ -5894,4 +5894,25 @@ export const blockIndex = [
         icon: "textures/blocks/dead_fire_coral_fan",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:red_tulip",
+        name: "Red Tulip",
+        category: "block",
+        icon: "textures/blocks/flower_tulip_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:orange_tulip",
+        name: "Orange Tulip",
+        category: "block",
+        icon: "textures/blocks/flower_tulip_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pink_tulip",
+        name: "Pink Tulip",
+        category: "block",
+        icon: "textures/blocks/flower_tulip_pink",
+        themeColor: "§d"
+    },
 ];
