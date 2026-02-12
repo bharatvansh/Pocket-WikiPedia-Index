@@ -1293,5 +1293,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted or Sheared from Red Sheep"
         },
         description: "Red Wool is a vibrant decorative block obtained by shearing red sheep or crafting white wool with red dye. In Bedrock Edition, it provides excellent acoustic dampening, blocking vibrations from reaching Sculk Sensors and preventing Sculk Shriekers from being triggered by footsteps. While highly flammable and weak against explosions, its bold color makes it a favorite for pixel art, flags, and royal-themed architecture. It can also be used as a fuel in furnaces, although it is relatively inefficient, and is a key ingredient for crafting red carpets and beds."
+    },
+    "minecraft:yellow_carpet": {
+        id: "minecraft:yellow_carpet",
+        name: "Yellow Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of yellow wool. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including glass."
     }
 };

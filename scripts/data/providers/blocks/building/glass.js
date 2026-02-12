@@ -344,5 +344,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "The Hardened Glass Pane is a thin, reinforced transparent block available in Bedrock Edition with Education features enabled. It is the pane variant of Hardened Glass, offering the same significantly increased durability with a hardness of 10 and blast resistance of 9. Crafted by combining Hardened Glass blocks, these panes provide a sleek, lightweight look while remaining resistant to explosions and physical impact. Unlike regular glass panes that shatter easily, hardened panes require a pickaxe to mine efficiently and drop as items even without Silk Touch."
+    },
+    "minecraft:lime_stained_glass": {
+        id: "minecraft:lime_stained_glass",
+        name: "Lime Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Lime Stained Glass is a vibrant, transparent decorative block. In Bedrock Edition 1.21+, it has the unique property of dropping itself when broken even without Silk Touch. It allows light to pass through while adding a lime tint to the view. Crafted by surrounding lime dye with eight glass blocks, it is perfect for greenhouses, modern builds, and beacons."
     }
 };
