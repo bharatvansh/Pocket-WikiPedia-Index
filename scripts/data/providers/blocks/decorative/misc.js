@@ -1084,6 +1084,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Cyan Carpet is a thin decorative block used for flooring and aesthetics. Crafted from cyan wool, it provides a soft surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly useful for stealthy navigation in sculk-infested areas like Ancient Cities."
     },
+    "minecraft:gray_carpet": {
+        id: "minecraft:gray_carpet",
+        name: "Gray Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Gray Wool"
+        },
+        description: "Gray Carpet is a thin, decorative block primarily used for flooring and interior detailing in Minecraft Bedrock Edition. It is crafted from two blocks of gray wool, providing a soft, neutral-colored surface without adding significant height. Like other carpets in Bedrock, it has the unique property of dampening vibrations, preventing Sculk Sensors from detecting movement above it. This makes it a vital tool for stealthy exploration in the Deep Dark. It can also be used to equip llamas, giving them a unique patterned rug with a sophisticated gray aesthetic."
+    },
     "minecraft:black_carpet": {
         id: "minecraft:black_carpet",
         name: "Black Carpet",

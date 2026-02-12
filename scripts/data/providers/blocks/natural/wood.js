@@ -1018,5 +1018,26 @@ export const woodBlocks = {
             yRange: "Shipwrecks / Stripping Dark Oak Logs"
         },
         description: "Stripped Dark Oak Log is a decorative wood block obtained by using an axe on a Dark Oak Log or wood. This process removes the thick, dark bark to reveal the smooth, deep brown wood beneath. Like other logs, it can be placed in various orientations and is a popular choice for rustic pillars, beam-work, and sophisticated furniture designs. It remains flammable and is most efficiently harvested with an axe. In Bedrock Edition, it can be found naturally generating in the hulls of shipwrecks, reflecting a dark and refined architectural style."
+    },
+    "minecraft:stripped_jungle_log": {
+        id: "minecraft:stripped_jungle_log",
+        name: "Stripped Jungle Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Jungle Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Shipwrecks / Axe on Jungle Log"
+        },
+        description: "Stripped Jungle Log is a wood variant obtained by using an axe on a regular jungle log. This process removes the bark, revealing the smooth, pinkish-tan interior wood. In Minecraft Bedrock Edition, it is commonly used as a clean building material for tropical or modern designs and can be found naturally in the hulls of shipwrecks. Like other stripped logs, it can be crafted into jungle planks, hanging signs, or wood blocks. Its uniform texture and warm, golden-brown color make it a favorite for builders looking to create polished wooden structures."
     }
 };
