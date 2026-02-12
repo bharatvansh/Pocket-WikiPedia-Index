@@ -1525,6 +1525,27 @@ export const interactiveBlocks = {
         },
         description: "Yellow Candle Cake is a celebratory block created by placing a single yellow candle on an uneaten cake. When lit with flint and steel, it emits a cozy light level of 3, making it a perfect centerpiece for birthdays and in-game celebrations. In Bedrock Edition, if a player eats a slice of the cake, the yellow candle drops as an item and the block reverts to a regular cake. Similarly, if the block is broken, only the candle is recovered while the cake is lost. It combines the functionality of a light source with the utility of a food block."
     },
+    "minecraft:red_candle": {
+        id: "minecraft:red_candle",
+        name: "Red Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Red Candle is a decorative light source block that can be placed in clusters of up to four. Each candle adds 3 to the light level, reaching a maximum of 12 for a full cluster. Crafted from string, honeycomb, and red dye, it must be lit with flint and steel or a fire charge to emit light. Red candles can also be placed on top of a cake to create a Red Candle Cake. They are waterloggable but cannot be lit while submerged, offering a warm and bold lighting option for various interior designs."
+    },
     "minecraft:magenta_candle": {
         id: "minecraft:magenta_candle",
         name: "Magenta Candle",

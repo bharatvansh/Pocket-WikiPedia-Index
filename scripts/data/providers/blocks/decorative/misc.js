@@ -1357,6 +1357,48 @@ export const miscDecorativeBlocks = {
         },
         description: "Yellow Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of yellow wool. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including glass."
     },
+    "minecraft:red_carpet": {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Carpet is a thin, decorative block primarily used for floor covering and aesthetic detailing. It is crafted from two blocks of red wool, yielding three carpets. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement above them. They can be placed on most solid blocks and are ideal for creating soft, vibrant surfaces in interiors, royal-themed builds, or for acoustic dampening in sculk-sensitive areas like Ancient Cities."
+    },
+    "minecraft:lime_carpet": {
+        id: "minecraft:lime_carpet",
+        name: "Lime Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Lime Carpet is a thin decorative block used for flooring and adding a bright, vibrant aesthetic to builds. It is crafted from lime wool and provides a soft surface without adding significant height to a block. In Bedrock Edition, carpets possess the unique ability to dampen vibrations, which prevents Sculk Sensors from detecting movement on top of them. This makes them a vital tool for stealthy navigation in the Deep Dark. It is highly flammable and can be placed on most solid surfaces."
+    },
     "minecraft:mangrove_standing_sign": {
         id: "minecraft:mangrove_standing_sign",
         name: "Mangrove Standing Sign",
