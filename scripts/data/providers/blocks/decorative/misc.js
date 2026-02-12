@@ -1356,5 +1356,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Yellow Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of yellow wool. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including glass."
+    },
+    "minecraft:mangrove_standing_sign": {
+        id: "minecraft:mangrove_standing_sign",
+        name: "Mangrove Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:mangrove_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Mangrove Standing Sign is a functional decorative block used for displaying text. Crafted from mangrove planks and a stick, it features the deep red-brown aesthetic of the mangrove wood set. In Bedrock Edition, it can be placed on the top of solid blocks and rotated in 16 directions. It can hold text on both sides, which can be dyed or made to glow with glow ink sacs. Its unique wood tone makes it a striking choice for swamp-themed or tropical builds."
+    },
+    "minecraft:cherry_standing_sign": {
+        id: "minecraft:cherry_standing_sign",
+        name: "Cherry Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cherry_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Cherry Standing Sign is a decorative wood-based block used for signage. Introduced in version 1.20, it is crafted from cherry planks and a stick, showcasing a beautiful pale pink color. It can be placed on any solid top surface and rotated to face 16 different angles. Like other signs, it supports four lines of text on each side. The text color can be changed using dyes, and glow ink sacs can be applied to make the text luminous, making it perfect for aesthetic and colorful builds."
+    },
+    "minecraft:bamboo_standing_sign": {
+        id: "minecraft:bamboo_standing_sign",
+        name: "Bamboo Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:bamboo_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Bamboo Standing Sign is a functional block made from the bamboo wood set. Crafted using bamboo planks and a stick, it features a unique yellowish texture with a distinct vertical grain. It functions identically to other wood signs, allowing for 16-way rotation when placed on the ground and supporting text on both sides. Introduced in the 1.20 update, it provides a renewable and tropical-themed option for labeling and decoration in Minecraft Bedrock Edition."
     }
 };
