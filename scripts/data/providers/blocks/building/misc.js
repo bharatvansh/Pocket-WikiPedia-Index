@@ -658,5 +658,68 @@ export const miscBuildingBlocks = {
             yRange: "Crafted only"
         },
         description: "Light Blue Terracotta is a smooth, durable building block with a soft, pale blue matte finish. It is obtained by dyeing regular terracotta with light blue dye. In Bedrock Edition, it does not generate naturally in the Badlands biome and must be crafted by the player. Its calm, earthy blue tone provides a sophisticated and clean look for architectural projects, offering significantly higher blast resistance than wool or concrete powder. It requires a pickaxe for harvesting; breaking it by hand will result in no drops. It can also be smelted into light blue glazed terracotta."
+    },
+    "minecraft:pink_glazed_terracotta": {
+        id: "minecraft:pink_glazed_terracotta",
+        name: "Pink Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Pink Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Pink Terracotta"
+        },
+        description: "Pink Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with soft pink and white tones. It is created by smelting pink terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime blocks or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it provides a striking and ornate look to any structure."
+    },
+    "minecraft:lime_glazed_terracotta": {
+        id: "minecraft:lime_glazed_terracotta",
+        name: "Lime Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Lime Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Lime Terracotta"
+        },
+        description: "Lime Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with bright lime green and dark green tones. It is obtained by smelting lime terracotta in a furnace. In Bedrock Edition, it is unique because it is immovable by slime blocks and honey blocks, which is a property highly valued by redstone engineers for creating complex machinery. Its directional placement allows players to create large, recurring geometric designs on floors and walls. It requires a pickaxe for harvesting; breaking it by hand will result in no drops."
+    },
+    "minecraft:light_blue_glazed_terracotta": {
+        id: "minecraft:light_blue_glazed_terracotta",
+        name: "Light Blue Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Light Blue Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Light Blue Terracotta"
+        },
+        description: "Light Blue Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with light blue and white tones. It is created by smelting light blue terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it provides a striking and ornate look to any structure."
     }
 };

@@ -5831,4 +5831,25 @@ export const blockIndex = [
         icon: "textures/items/bamboo_sign",
         themeColor: "§e"
     },
+    {
+        id: "minecraft:pink_glazed_terracotta",
+        name: "Pink Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_pink",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:lime_glazed_terracotta",
+        name: "Lime Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_lime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:light_blue_glazed_terracotta",
+        name: "Light Blue Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_light_blue",
+        themeColor: "§b"
+    },
 ];
