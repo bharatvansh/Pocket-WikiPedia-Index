@@ -147,6 +147,13 @@ export const blockIndex = [
         themeColor: "§6" // pinkish-brown
     },
     {
+        id: "minecraft:polished_granite_slab",
+        name: "Polished Granite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_granite_smooth",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:clay_block",
         name: "Clay Block",
         category: "block",
@@ -530,6 +537,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stone_diorite_smooth",
         themeColor: "§7" // gray/white
+    },
+    {
+        id: "minecraft:polished_diorite_slab",
+        name: "Polished Diorite Slab",
+        category: "block",
+        icon: "textures/blocks/stone_diorite_smooth",
+        themeColor: "§7"
     },
     {
         id: "minecraft:copper_bulb",
@@ -2809,6 +2823,13 @@ export const blockIndex = [
     {
         id: "minecraft:polished_blackstone",
         name: "Polished Blackstone",
+        category: "block",
+        icon: "textures/blocks/polished_blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_blackstone_slab",
+        name: "Polished Blackstone Slab",
         category: "block",
         icon: "textures/blocks/polished_blackstone",
         themeColor: "§8"
