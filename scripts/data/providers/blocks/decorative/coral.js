@@ -471,5 +471,26 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (Result of living coral dying)"
         },
         description: "A Dead Tube Coral Block is the desaturated, gray remains of a living tube coral block. This state occurs when the living coral is removed from water or its water source vanishes. In Minecraft Bedrock Edition, it retains its unique tubular surface texture and solid structure. It can be mined with any pickaxe and does not require the Silk Touch enchantment to be harvested once dead. Builders often use these blocks for weathered underwater structures, rocky sea floors, or as a muted building material to add organic variety to stone-based constructions."
+    },
+    "minecraft:dead_brain_coral_wall_fan": {
+        id: "minecraft:dead_brain_coral_wall_fan",
+        name: "Dead Brain Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Dead Brain Coral Wall Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "A gray, lifeless variant of the brain coral fan that is attached to the side of a block. Dead brain coral fans are created when a live coral fan is placed out of water or if its supporting water source is removed. They serve as purely decorative elements, often used to create a weathered or skeletal aesthetic in aquatic or coastal builds. In Bedrock Edition, they can be broken instantly by hand or with any tool."
     }
 };
