@@ -5747,4 +5747,25 @@ export const blockIndex = [
         icon: "textures/blocks/dead_brain_coral_fan",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:brain_coral_wall_fan",
+        name: "Brain Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/brain_coral_fan",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:dead_bubble_coral_fan",
+        name: "Dead Bubble Coral Fan",
+        category: "block",
+        icon: "textures/blocks/dead_bubble_coral_fan",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:waxed_weathered_copper_door",
+        name: "Waxed Weathered Copper Door",
+        category: "block",
+        icon: "textures/items/weathered_copper_door",
+        themeColor: "§3"
+    },
 ];

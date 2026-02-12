@@ -507,11 +507,53 @@ export const coralBlocks = {
             minTier: "None",
             silkTouch: true
         },
-        drops: ["Dead Brain Coral Wall Fan (with Silk Touch)"],
+        drops: ["minecraft:dead_brain_coral_wall_fan"],
         generation: {
             dimension: "Overworld",
             yRange: "Warm Ocean biomes (results from living coral fans dying)"
         },
         description: "A gray, lifeless variant of the brain coral fan that is attached to the side of a block. Dead brain coral fans are created when a live coral fan is placed out of water or if its supporting water source is removed. They serve as purely decorative elements, often used to create a weathered or skeletal aesthetic in aquatic or coastal builds. In Bedrock Edition, they can be broken instantly by hand or with any tool."
+    },
+    "minecraft:brain_coral_wall_fan": {
+        id: "minecraft:brain_coral_wall_fan",
+        name: "Brain Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:brain_coral_wall_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of blocks)"
+        },
+        description: "The Brain Coral Wall Fan is a delicate, pink aquatic structure that grows on the vertical surfaces of blocks in warm ocean reefs. It features the same intricate, folded patterns as Brain Coral but in a flat, fan-like configuration attached to walls. Like other coral fans, it is extremely fragile and will only drop as an item if harvested with a Silk Touch tool. Submergence in water is essential for its survival; without it, it quickly withers and becomes a Dead Brain Coral Wall Fan."
+    },
+    "minecraft:dead_bubble_coral_fan": {
+        id: "minecraft:dead_bubble_coral_fan",
+        name: "Dead Bubble Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:dead_bubble_coral_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "Dead Bubble Coral Fan is the bleached, gray remains of a once-vibrant Bubble Coral Fan. This state occurs when the living coral is removed from its aquatic habitat or when the water source is destroyed. While it lacks the magenta color of its living counterpart, it remains a useful decorative block for builders aiming for a more muted or weathered underwater aesthetic. In Bedrock Edition, it retains its unique flat, fan-like shape and must be harvested with Silk Touch to be collected."
     }
 };
