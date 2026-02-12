@@ -5768,4 +5768,25 @@ export const blockIndex = [
         icon: "textures/items/weathered_copper_door",
         themeColor: "§3"
     },
+    {
+        id: "minecraft:dead_bubble_coral",
+        name: "Dead Bubble Coral",
+        category: "block",
+        icon: "textures/blocks/dead_bubble_coral",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:spruce_standing_sign",
+        name: "Spruce Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_spruce",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:magenta_stained_glass_pane",
+        name: "Magenta Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_magenta",
+        themeColor: "§d"
+    },
 ];

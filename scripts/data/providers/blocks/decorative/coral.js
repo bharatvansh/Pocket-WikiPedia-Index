@@ -220,6 +220,27 @@ export const coralBlocks = {
         },
         description: "Bubble Coral is a magenta-colored, non-solid aquatic plant found naturally in warm ocean reefs. It grows on the upper surfaces of coral blocks and adds a vibrant splash of purple-pink to the underwater environment. This delicate organism can be broken instantly by hand but only yields an item if mined with a Silk Touch tool. Like all living corals, it must remain submerged in water to retain its color and life; exposure to air causes it to die and turn gray. It is highly valued by builders for its unique color and shape."
     },
+    "minecraft:dead_bubble_coral": {
+        id: "minecraft:dead_bubble_coral",
+        name: "Dead Bubble Coral",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dead_bubble_coral"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "Dead Bubble Coral is the gray, skeletal remains of a living bubble coral plant. It occurs when living bubble coral is removed from water or its water source is destroyed. Unlike its vibrant magenta counterpart, it can be harvested with any tool and does not require Silk Touch to drop as an item. It retains its unique bubble-like shape even after losing its color, making it a versatile decorative element for creating weathered or ancient underwater landscapes in Bedrock Edition."
+    },
     "minecraft:fire_coral": {
         id: "minecraft:fire_coral",
         name: "Fire Coral",
