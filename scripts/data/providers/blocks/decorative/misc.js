@@ -1482,5 +1482,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Dark Oak Standing Sign is a functional decorative block crafted from dark oak planks and a stick. It features the rich, deep brown aesthetic of the dark oak wood set, often used in moody or sophisticated structures. In Bedrock Edition, it can be rotated in 16 directions when placed on the ground and displays text on both sides. The text color can be adjusted with dyes, and it can be made to glow using a glow ink sac. Its dark background provides excellent contrast for light-colored text, making it a favorite for signs in forest cabins and gothic-themed builds."
+    },
+    "minecraft:lime_carpet": {
+        id: "minecraft:lime_carpet",
+        name: "Lime Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:lime_carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Lime Carpet is a thin, decorative block primarily used for flooring and aesthetic purposes. In Bedrock Edition, it has the functional property of dampening vibrations, making it useful for moving stealthily around Sculk Sensors. It can be crafted by placing two pieces of lime wool horizontally in a crafting grid, yielding three carpets. It can also be used to cover light sources like sea lanterns or glowstone to soften the appearance of a floor while still allowing light to illuminate the area."
     }
 };
