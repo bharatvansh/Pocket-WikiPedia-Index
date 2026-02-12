@@ -5810,4 +5810,25 @@ export const blockIndex = [
         icon: "textures/blocks/glass_magenta",
         themeColor: "§d"
     },
+    {
+        id: "minecraft:mangrove_standing_sign",
+        name: "Mangrove Standing Sign",
+        category: "block",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:cherry_standing_sign",
+        name: "Cherry Standing Sign",
+        category: "block",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:bamboo_standing_sign",
+        name: "Bamboo Standing Sign",
+        category: "block",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
 ];
