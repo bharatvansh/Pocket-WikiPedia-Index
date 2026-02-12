@@ -301,6 +301,27 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_exposed_copper",
+        name: "Waxed Exposed Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_copper",
+        themeColor: "§6" // Gold/Orange
+    },
+    {
+        id: "minecraft:waxed_weathered_copper",
+        name: "Waxed Weathered Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_copper",
+        themeColor: "§3" // Cyan/Dark Aqua
+    },
+    {
+        id: "minecraft:waxed_oxidized_copper",
+        name: "Waxed Oxidized Copper",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper",
+        themeColor: "§2" // Dark Green
+    },
+    {
         id: "minecraft:waxed_cut_copper",
         name: "Waxed Cut Copper",
         category: "block",
