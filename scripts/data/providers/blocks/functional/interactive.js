@@ -1252,6 +1252,27 @@ export const interactiveBlocks = {
         },
         description: "Light Gray Candle is a decorative light source that can be placed on most solid blocks and lit using flint and steel. Up to four candles of the same color can be placed on a single block, with each candle increasing the light level by 3, up to a maximum of 12. They can be extinguished with water or by interacting with them. In Bedrock Edition, light gray candles provide a neutral, sophisticated lighting option for interior designs, shrines, and atmospheric pathways."
     },
+    "minecraft:white_candle": {
+        id: "minecraft:white_candle",
+        name: "White Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["White Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted"
+        },
+        description: "The White Candle is a decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. It features a clean white color and must be lit using flint and steel or a fire charge to emit light. White candles can also be placed on top of a cake to create a White Candle Cake. They offer a neutral, bright aesthetic for various interior lighting and decorations in Minecraft Bedrock Edition."
+    },
     "minecraft:spruce_door": {
         id: "minecraft:spruce_door",
         name: "Spruce Door",
@@ -1545,5 +1566,26 @@ export const interactiveBlocks = {
             yRange: "Placed on Cake"
         },
         description: "Pink Candle Cake is a celebratory block created by placing a pink candle on an uneaten cake. When lit with flint and steel, it emits a light level of 3. In Bedrock Edition, if a player eats a slice of the cake, the pink candle drops as an item and the block reverts to a regular cake. Similarly, if the block is broken, only the candle is recovered while the cake is lost. It is a perfect decorative addition for celebrations and themed interior designs."
+    },
+    "minecraft:candle_cake": {
+        id: "minecraft:candle_cake",
+        name: "Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Candle Cake is a festive block created by placing a single undyed candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit, the candle emits a light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the candle, and the cake itself is destroyed. It is a perfect decorative addition for birthdays and in-game celebrations."
     }
 };
