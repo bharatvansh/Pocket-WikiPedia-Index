@@ -5600,4 +5600,25 @@ export const blockIndex = [
         icon: "textures/blocks/anvil_top",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:lime_stained_glass",
+        name: "Lime Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_lime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:pink_candle_cake",
+        name: "Pink Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_pink",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:yellow_carpet",
+        name: "Yellow Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_yellow",
+        themeColor: "§e"
+    },
 ];
