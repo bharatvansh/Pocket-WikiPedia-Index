@@ -157,6 +157,27 @@ export const coralBlocks = {
         },
         description: "Horn Coral is a decorative, yellow non-solid block that grows naturally in warm ocean reefs, typically found atop coral blocks. This small plant-like structure adds intricate detail and a splash of bright yellow to the ocean floor. It is very fragile and is destroyed immediately if broken without a Silk Touch tool. Like all coral, it requires water to live and will die if exposed to air. Its branch-like appearance is reminiscent of marine horns or antlers, making it a beautiful addition to any player-made reef."
     },
+    "minecraft:dead_horn_coral": {
+        id: "minecraft:dead_horn_coral",
+        name: "Dead Horn Coral",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dead_horn_coral"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (Result of living coral dying)"
+        },
+        description: "Dead Horn Coral is the gray, skeletal remains of a living horn coral plant in Bedrock Edition. It forms when living coral is removed from water or its water source is destroyed. Unlike the vibrant yellow variant, dead horn coral can be harvested with any tool without Silk Touch. It is a non-solid block used to add a weathered or ancient aesthetic to sea floors and rocky underwater landscapes. It retains its unique branching shape even after losing its color, making it a versatile decorative element for aquatic environments and realistic reef reconstructions."
+    },
     "minecraft:brain_coral": {
         id: "minecraft:brain_coral",
         name: "Brain Coral",

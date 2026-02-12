@@ -350,6 +350,13 @@ export const blockIndex = [
         themeColor: "§6" // gold/brownish copper
     },
     {
+        id: "minecraft:waxed_weathered_copper_grate",
+        name: "Waxed Weathered Copper Grate",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_grate",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:waxed_oxidized_copper_grate",
         name: "Waxed Oxidized Copper Grate",
         category: "block",
@@ -2688,6 +2695,13 @@ export const blockIndex = [
         themeColor: "§7" // Gray
     },
     {
+        id: "minecraft:dead_horn_coral",
+        name: "Dead Horn Coral",
+        category: "block",
+        icon: "textures/blocks/dead_horn_coral",
+        themeColor: "§7"
+    },
+    {
         id: "minecraft:crimson_roots",
         name: "Crimson Roots",
         category: "block",
@@ -4436,6 +4450,13 @@ export const blockIndex = [
         name: "Cyan Candle",
         category: "block",
         icon: "textures/blocks/candle_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:cyan_candle_cake",
+        name: "Cyan Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_cyan",
         themeColor: "§3"
     },
     {
