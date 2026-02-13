@@ -5999,4 +5999,25 @@ export const blockIndex = [
         icon: "textures/blocks/prismarine_bricks",
         themeColor: "§b"
     },
+    {
+        id: "minecraft:waxed_exposed_copper_bulb",
+        name: "Waxed Exposed Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_bulb",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_bulb",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:jungle_standing_sign",
+        name: "Jungle Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_jungle",
+        themeColor: "§6"
+    },
 ];
