@@ -1336,6 +1336,48 @@ export const miscDecorativeBlocks = {
         },
         description: "Red Wool is a vibrant decorative block obtained by shearing red sheep or crafting white wool with red dye. In Bedrock Edition, it provides excellent acoustic dampening, blocking vibrations from reaching Sculk Sensors and preventing Sculk Shriekers from being triggered by footsteps. While highly flammable and weak against explosions, its bold color makes it a favorite for pixel art, flags, and royal-themed architecture. It can also be used as a fuel in furnaces, although it is relatively inefficient, and is a key ingredient for crafting red carpets and beds."
     },
+    "minecraft:purple_wool": {
+        id: "minecraft:purple_wool",
+        name: "Purple Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Purple Sheep"
+        },
+        description: "Purple Wool is a rich, decorative block obtained by shearing purple sheep or crafting white wool with purple dye. In Bedrock Edition, it features unique acoustic dampening properties, blocking vibrations from reaching Sculk Sensors and preventing Sculk Shriekers from being triggered. While highly flammable and weak to explosions, its deep royal color is ideal for artistic builds, banners, and carpets. It can also be used as a fuel in furnaces, though inefficiently. Its bold hue adds a regal touch to any structure or interior design."
+    },
+    "minecraft:light_blue_wool": {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shears",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Light Blue Wool"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted or Sheared from Light Blue Sheep"
+        },
+        description: "Light Blue Wool is a bright, airy decorative block obtained by shearing light blue sheep or crafting white wool with light blue dye. In Bedrock Edition, it functions as an acoustic insulator, dampening vibrations to prevent detection by Sculk Sensors and the activation of Sculk Shriekers. This is valuable for stealthy movement in the Deep Dark. Although flammable and weak against explosions, its soft color is popular for modern architecture, sky-themed designs, and pixel art. It can also be used to craft light blue carpets and beds."
+    },
     "minecraft:yellow_carpet": {
         id: "minecraft:yellow_carpet",
         name: "Yellow Carpet",
@@ -1503,5 +1545,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Lime Carpet is a thin, decorative block primarily used for flooring and aesthetic purposes. In Bedrock Edition, it has the functional property of dampening vibrations, making it useful for moving stealthily around Sculk Sensors. It can be crafted by placing two pieces of lime wool horizontally in a crafting grid, yielding three carpets. It can also be used to cover light sources like sea lanterns or glowstone to soften the appearance of a floor while still allowing light to illuminate the area."
+    },
+    "minecraft:green_carpet": {
+        id: "minecraft:green_carpet",
+        name: "Green Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Green Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Green Carpet is a thin, decorative block used for flooring and aesthetic detailing. Crafted from two blocks of green wool, it provides a soft surface without adding significant height. In Bedrock Edition, carpets dampen vibrations, preventing Sculk Sensors from detecting movement above them. This makes them essential for navigating sculk-infested areas like Ancient Cities stealthily. They can be placed on most solid surfaces, including non-full blocks, and are highly flammable. Green carpets are popular for creating lush, grassy-looking indoor spaces."
     }
 };
