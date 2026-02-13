@@ -2295,6 +2295,27 @@ export const slabsStairsBlocks = {
         },
         description: "Polished Deepslate Wall is a sturdy decorative barrier introduced in Minecraft Bedrock Edition's 1.17 Caves & Cliffs update. Crafted from polished deepslate, it features a sleek and dark masonry texture that provides a modern, sophisticated look. Like other walls, it stands 1.5 blocks high for most entities, making it an effective barrier for security and animal containment. It connects smoothly to adjacent blocks and walls, and its high blast resistance makes it an excellent choice for fortified structures or elegant architectural detailing in dark environments."
     },
+    "minecraft:polished_deepslate_stairs": {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Deepslate Stairs are a refined stair-shaped variant of polished deepslate, introduced in the 1.17 Caves & Cliffs update. They allow for smooth elevation changes while providing a sleek, dark masonry pattern perfect for modern or gothic architecture. Crafted from six polished deepslate blocks or via a stonecutter, they are tougher than standard stone stairs, with a hardness of 3.5 and blast resistance of 6.0. They are fire-resistant and can be waterlogged, making them a versatile choice for detailed structural accents and elegant staircases."
+    },
     "minecraft:cobblestone_slab": {
         id: "minecraft:cobblestone_slab",
         name: "Cobblestone Slab",
