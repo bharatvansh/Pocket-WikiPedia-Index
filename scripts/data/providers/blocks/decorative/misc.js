@@ -1357,6 +1357,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Purple Wool is a rich, decorative block obtained by shearing purple sheep or crafting white wool with purple dye. In Bedrock Edition, it features unique acoustic dampening properties, blocking vibrations from reaching Sculk Sensors and preventing Sculk Shriekers from being triggered. While highly flammable and weak to explosions, its deep royal color is ideal for artistic builds, banners, and carpets. It can also be used as a fuel in furnaces, though inefficiently. Its bold hue adds a regal touch to any structure or interior design."
     },
+    "minecraft:purple_carpet": {
+        id: "minecraft:purple_carpet",
+        name: "Purple Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Purple Carpet is a thin, decorative block crafted from purple wool, used primarily for flooring and interior detailing. In Bedrock Edition, it shares the acoustic dampening properties of wool, effectively blocking vibrations and preventing Sculk Sensors from detecting movement on top of it. This makes it an essential tool for stealthy exploration in Ancient Cities. Its rich royal purple color provides an elegant aesthetic for high-end builds, throne rooms, and complex rug patterns while remaining highly resource-efficient."
+    },
     "minecraft:light_blue_wool": {
         id: "minecraft:light_blue_wool",
         name: "Light Blue Wool",
@@ -1608,6 +1629,27 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Jungle Standing Sign is a functional decorative wood-based block used for displaying text. Crafted from jungle planks and a stick, it features the unique pinkish-tan hue characteristic of the tropical jungle wood set. In Bedrock Edition, it can be placed on the top surface of any solid block and rotated in 16 different directions. It can hold up to four lines of text on both sides, which can be dyed or made luminous with glow ink sacs. Its tropical appearance makes it a popular choice for signs in jungle bases, beach resorts, and exotic-themed builds."
+    },
+    "minecraft:jungle_wall_sign": {
+        id: "minecraft:jungle_wall_sign",
+        name: "Jungle Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jungle Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Jungle Wall Sign is a functional decorative wood-based block used for displaying text on the sides of solid blocks. Crafted from jungle planks and a stick, it features the unique pinkish-tan hue characteristic of the tropical jungle wood set. Like other wall signs in Bedrock Edition, it supports text on both sides and can be edited after placement. Players can customize the text with dyes and glow ink sacs to improve readability. Its exotic wood tone makes it ideal for labeling rooms or providing directions in tropical-themed or vibrant architectural builds."
     },
     "minecraft:mangrove_wall_sign": {
         id: "minecraft:mangrove_wall_sign",

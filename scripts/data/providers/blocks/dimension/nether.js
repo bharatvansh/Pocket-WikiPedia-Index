@@ -977,5 +977,26 @@ export const netherBlocks = {
             yRange: "Crafted only"
         },
         description: "The Crimson Wall Sign is a fire-resistant functional block crafted from crimson planks and a stick. Native to the Crimson Forest, it shares the non-flammable properties of all Nether wood types, making it immune to fire and lava. It can be placed on the sides of solid blocks to display text. In Bedrock Edition, the text can be edited after placement, dyed with various colors, or made to glow using glow ink sacs. Its vibrant dark red hue provides a unique aesthetic that complements Nether-themed builds and high-contrast designs while remaining highly durable."
+    },
+    "minecraft:warped_wall_sign": {
+        id: "minecraft:warped_wall_sign",
+        name: "Warped Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Wall Sign is a teal-colored, fireproof functional block crafted from warped planks. Native to the Warped Forest, it is completely immune to fire and lava damage, making it a safe choice for labeling in hazardous Nether environments. In Bedrock Edition, it can be attached to the side of any solid block to display information or directions. The text on the sign can be edited, customized with various dyes, or enhanced with glow ink sacs to make it readable in the dim light of the Nether. Its alien aesthetic and vibrant color make it a striking addition to any build."
     }
 };
