@@ -6230,4 +6230,25 @@ export const blockIndex = [
         icon: "textures/blocks/stripped_acacia_log_side",
         themeColor: "§6"
     },
+    {
+        id: "minecraft:warped_wall_sign",
+        name: "Warped Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_warped",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:jungle_wall_sign",
+        name: "Jungle Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_jungle",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:purple_carpet",
+        name: "Purple Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_purple",
+        themeColor: "§5"
+    },
 ];
