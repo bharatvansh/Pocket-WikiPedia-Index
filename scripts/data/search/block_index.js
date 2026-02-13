@@ -6041,4 +6041,25 @@ export const blockIndex = [
         icon: "textures/blocks/dead_tube_coral_fan",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:brown_stained_glass_pane",
+        name: "Brown Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_brown",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:mangrove_wall_sign",
+        name: "Mangrove Wall Sign",
+        category: "block",
+        icon: "textures/items/mangrove_sign",
+        themeColor: "§4"
+    },
 ];
