@@ -1043,5 +1043,47 @@ export const copperBlocks = {
             yRange: "Crafted only"
         },
         description: "Waxed Exposed Copper Chain is a decorative block introduced in the Tricky Trials update (Bedrock 1.21). It represents the first oxidation stage (exposed) of a copper chain, which has been treated with honeycomb to lock in its appearance and prevent further aging. It displays a distinctive blend of its original copper orange and greenish-aqua oxidation patches. Like standard chains, it can be used to hang lanterns or bells, and connects vertically to other chains. It provides a unique industrial or weathered look while maintaining its metallic integrity."
+    },
+    "minecraft:waxed_exposed_copper_bulb": {
+        id: "minecraft:waxed_exposed_copper_bulb",
+        name: "Waxed Exposed Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 12,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_copper_bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Copper Bulb or applied Honeycomb"
+        },
+        description: "A Waxed Exposed Copper Bulb is a decorative light source from Minecraft 1.21 that has been treated with honeycomb to lock in its first oxidation stage. It emits a light level of 12 and toggles its state when receiving a redstone pulse, acting as a compact T-flip-flop. Because it is waxed, it permanently retains its brownish-orange appearance and won't oxidize further. It is ideal for atmospheric lighting and redstone circuits that require a consistent, slightly weathered look without turning fully green."
+    },
+    "minecraft:waxed_weathered_copper_bulb": {
+        id: "minecraft:waxed_weathered_copper_bulb",
+        name: "Waxed Weathered Copper Bulb",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 8,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_copper_bulb"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Copper Bulb or applied Honeycomb"
+        },
+        description: "A Waxed Weathered Copper Bulb is a decorative light source from Minecraft 1.21 that has been treated with honeycomb to lock in its second oxidation stage. It emits a light level of 8 and toggles its state when receiving a redstone pulse. Because it is waxed, it permanently retains its distinct blue-green patina and won't fully oxidize. It is a versatile block for atmospheric lighting and redstone circuits that require a consistent, aged aesthetic. Players can use an axe to scrape off the wax if they wish to allow natural oxidation to resume."
     }
 };

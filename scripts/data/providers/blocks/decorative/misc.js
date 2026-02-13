@@ -1566,5 +1566,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Green Carpet is a thin, decorative block used for flooring and aesthetic detailing. Crafted from two blocks of green wool, it provides a soft surface without adding significant height. In Bedrock Edition, carpets dampen vibrations, preventing Sculk Sensors from detecting movement above them. This makes them essential for navigating sculk-infested areas like Ancient Cities stealthily. They can be placed on most solid surfaces, including non-full blocks, and are highly flammable. Green carpets are popular for creating lush, grassy-looking indoor spaces."
+    },
+    "minecraft:jungle_standing_sign": {
+        id: "minecraft:jungle_standing_sign",
+        name: "Jungle Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:jungle_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Jungle Standing Sign is a functional decorative wood-based block used for displaying text. Crafted from jungle planks and a stick, it features the unique pinkish-tan hue characteristic of the tropical jungle wood set. In Bedrock Edition, it can be placed on the top surface of any solid block and rotated in 16 different directions. It can hold up to four lines of text on both sides, which can be dyed or made luminous with glow ink sacs. Its tropical appearance makes it a popular choice for signs in jungle bases, beach resorts, and exotic-themed builds."
     }
 };
