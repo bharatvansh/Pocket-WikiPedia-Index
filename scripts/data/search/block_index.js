@@ -6209,4 +6209,25 @@ export const blockIndex = [
         icon: "textures/blocks/trial_spawner_side",
         themeColor: "§b"
     },
+    {
+        id: "minecraft:red_concrete_powder",
+        name: "Red Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_yellow",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        category: "block",
+        icon: "textures/blocks/stripped_acacia_log_side",
+        themeColor: "§6"
+    },
 ];

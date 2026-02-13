@@ -661,5 +661,47 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Purple Concrete Powder is a gravity-affected building block with a grainy texture and a rich purple hue. It is crafted from sand, gravel, and purple dye. When this block comes into contact with water, it instantly solidifies into smooth Purple Concrete. As it follows the laws of physics, it will fall if its supporting block is removed, allowing it to be used for dynamic builds, traps, or colorful landscaping. In Bedrock Edition, it provides an essential step in producing vibrant, non-flammable construction materials with a clean matte finish."
+    },
+    "minecraft:red_concrete_powder": {
+        id: "minecraft:red_concrete_powder",
+        name: "Red Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Concrete Powder is a vibrant, gravity-affected block used primarily for decoration and as the precursor to Red Concrete. Crafted from sand, gravel, and red dye, it features a grainy, sand-like texture. When it comes into contact with water, it instantly hardens into a smooth, solid block of concrete. In Bedrock Edition, its bold color makes it popular for landscaping and artistic builds. Like sand, it falls if unsupported, making it useful for certain traps or temporary structures before being solidified."
+    },
+    "minecraft:yellow_concrete_powder": {
+        id: "minecraft:yellow_concrete_powder",
+        name: "Yellow Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Concrete Powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Concrete Powder is a bright, gravity-bound block that serves as the essential first step in creating Yellow Concrete. It is crafted by combining sand, gravel, and yellow dye. This block follows the laws of physics and will drop if there is no supporting block beneath it. When exposed to any water source, it instantly transitions from a grainy powder into a durable, smooth yellow concrete block. Its sunny, cheerful hue is favored by builders for colorful pathways, beach-themed builds, or vibrant architectural accents."
     }
 };
