@@ -2462,5 +2462,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted only"
         },
         description: "Brick Stairs are a decorative building block crafted from bricks. They allow for smooth elevation changes without jumping and are frequently used for sloped roofs, grand staircases, and intricate architectural detailing. In Bedrock Edition, they provide a classic red masonry aesthetic that pairs well with other stone and wood materials. Like other stone-based stairs, they are fire-resistant and highly durable against explosions. They can be waterlogged and placed in various orientations, making them a versatile choice for both residential and historical-themed builds."
+    },
+    "minecraft:brick_slab": {
+        id: "minecraft:brick_slab",
+        name: "Brick Slab",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brick Slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brick Slab is a half-height version of the standard brick block, perfect for creating smooth staircases, detailed flooring, and architectural trim. In Bedrock Edition, it is fire-resistant and highly durable against explosions, matching the 6.0 blast resistance of other stone-based blocks. It can be crafted by placing three brick blocks horizontally in a crafting table or more efficiently via a stonecutter. Slabs can be placed in both upper and lower halves of a block space or combined into double slabs, providing versatile building options for traditional masonry styles."
+    },
+    "minecraft:blackstone_slab": {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Blackstone Slab is a dark, rugged half-block variant of blackstone, providing a somber and ancient aesthetic for construction. Naturally generating in Bastion Remnants, it is a primary building component for Piglin architecture in the Nether. It shares the same high blast resistance and durability as regular stone but with a unique dark gray-to-black color palette. These slabs are essential for creating detailed rooflines, atmospheric pathways, and tiered elevation changes in Nether-themed builds. They can be crafted from three blackstone blocks or produced efficiently using a stonecutter."
+    },
+    "minecraft:polished_deepslate_slab": {
+        id: "minecraft:polished_deepslate_slab",
+        name: "Polished Deepslate Slab",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Deep Dark structures"
+        },
+        description: "Polished Deepslate Slab is a refined half-block building component introduced in Minecraft Bedrock Edition 1.17. It features a sleek and dark masonry texture that provides a modern, sophisticated look compared to rugged deepslate variants. In Bedrock Edition, it possesses a hardness of 3.5 and a blast resistance of 6.0, making it tougher than standard stone slabs. These slabs are essential for creating professional-looking staircases, sloped roofs, and architectural trim in dark-themed builds. They can be crafted from polished deepslate blocks or produced efficiently using a stonecutter."
     }
 };

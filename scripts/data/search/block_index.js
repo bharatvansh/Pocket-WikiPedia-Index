@@ -6293,4 +6293,25 @@ export const blockIndex = [
         icon: "textures/blocks/carpet_colored_purple",
         themeColor: "§5"
     },
+    {
+        id: "minecraft:brick_slab",
+        name: "Brick Slab",
+        category: "block",
+        icon: "textures/blocks/brick",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_deepslate_slab",
+        name: "Polished Deepslate Slab",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
+    },
 ];
