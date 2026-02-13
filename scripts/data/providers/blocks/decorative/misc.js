@@ -1483,6 +1483,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The Acacia Standing Sign is a functional decorative block used for displaying text. Crafted from acacia planks and a stick, it features the vibrant orange hue characteristic of the savanna wood set. In Bedrock Edition, it can be placed on the top surface of solid blocks and rotated in 16 directions. It can hold text on both sides, which can be customized with dyes or made luminous with glow ink sacs. Its bright color makes it a popular choice for desert-themed builds and high-visibility markers."
     },
+    "minecraft:acacia_wall_sign": {
+        id: "minecraft:acacia_wall_sign",
+        name: "Acacia Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:acacia_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "An Acacia Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from acacia planks and a stick, it features the vibrant orange hue characteristic of the savanna wood set. Like other wall signs in Bedrock Edition, it can hold up to four lines of text on its front face. The text can be customized with dyes or made to glow with glow ink sacs. It is an excellent choice for labeling or providing directions in desert-themed or vibrant architectural builds."
+    },
     "minecraft:birch_standing_sign": {
         id: "minecraft:birch_standing_sign",
         name: "Birch Standing Sign",

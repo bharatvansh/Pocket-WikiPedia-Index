@@ -431,6 +431,27 @@ export const concreteBlocks = {
         },
         description: "Gray Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a neutral gray hue. It is crafted using four sand, four gravel, and one gray dye. When this block comes into contact with water, it instantly solidifies into smooth Gray Concrete. Due to its physics, it will fall if the supporting block beneath it is removed, making it useful for certain traps, temporary structures, or decorative landscaping. It provides a more textured appearance compared to the hardened concrete variant."
     },
+    "minecraft:light_gray_concrete_powder": {
+        id: "minecraft:light_gray_concrete_powder",
+        name: "Light Gray Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_concrete_powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Light Gray Concrete Powder is a gravity-affected building block with a grainy, sand-like texture and a neutral light gray hue. It is crafted from sand, gravel, and light gray dye. When this block comes into contact with water, it instantly solidifies into smooth Light Gray Concrete. Like other concrete powders, it will fall if the supporting block beneath it is removed, making it useful for temporary structures or decorative landscaping before it is hardened into a more permanent finish."
+    },
     "minecraft:light_blue_concrete": {
         id: "minecraft:light_blue_concrete",
         name: "Light Blue Concrete",
