@@ -5825,6 +5825,27 @@ export const blockIndex = [
         themeColor: "§d"
     },
     {
+        id: "minecraft:horn_coral_wall_fan",
+        name: "Horn Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/horn_coral_fan",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:tube_coral_wall_fan",
+        name: "Tube Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/tube_coral_fan",
+        themeColor: "§9"
+    },
+    {
+        id: "minecraft:bubble_coral_wall_fan",
+        name: "Bubble Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/bubble_coral_fan",
+        themeColor: "§d"
+    },
+    {
         id: "minecraft:dead_bubble_coral_fan",
         name: "Dead Bubble Coral Fan",
         category: "block",
