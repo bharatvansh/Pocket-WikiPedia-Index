@@ -619,5 +619,26 @@ export const concreteBlocks = {
             yRange: "Crafted only"
         },
         description: "Light Gray Concrete is a versatile building block with a smooth, matte finish and a neutral tone. It is formed when Light Gray Concrete Powder is hydrated by water, solidifying it into a durable form. In Minecraft Bedrock Edition, it provides a clean, professional look for modern architecture and industrial designs. Unlike wool, it is non-flammable and offers better blast resistance, making it ideal for permanent constructions. Its uniform color makes it an excellent choice for large surfaces, roads, or as a sophisticated accent in artistic builds."
+    },
+    "minecraft:purple_concrete_powder": {
+        id: "minecraft:purple_concrete_powder",
+        name: "Purple Concrete Powder",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: true,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Shovel",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:purple_concrete_powder"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Purple Concrete Powder is a gravity-affected building block with a grainy texture and a rich purple hue. It is crafted from sand, gravel, and purple dye. When this block comes into contact with water, it instantly solidifies into smooth Purple Concrete. As it follows the laws of physics, it will fall if its supporting block is removed, allowing it to be used for dynamic builds, traps, or colorful landscaping. In Bedrock Edition, it provides an essential step in producing vibrant, non-flammable construction materials with a clean matte finish."
     }
 };
