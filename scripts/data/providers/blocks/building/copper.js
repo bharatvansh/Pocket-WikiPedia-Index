@@ -1085,5 +1085,26 @@ export const copperBlocks = {
             yRange: "Crafted from Weathered Copper Bulb or applied Honeycomb"
         },
         description: "A Waxed Weathered Copper Bulb is a decorative light source from Minecraft 1.21 that has been treated with honeycomb to lock in its second oxidation stage. It emits a light level of 8 and toggles its state when receiving a redstone pulse. Because it is waxed, it permanently retains its distinct blue-green patina and won't fully oxidize. It is a versatile block for atmospheric lighting and redstone circuits that require a consistent, aged aesthetic. Players can use an axe to scrape off the wax if they wish to allow natural oxidation to resume."
+    },
+    "minecraft:cut_copper_stairs": {
+        id: "minecraft:cut_copper_stairs",
+        name: "Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Cut Copper Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "Cut Copper Stairs are decorative metal blocks featuring a unique tiled texture. Introduced in the 1.17 Caves & Cliffs update, they provide a sophisticated industrial look for staircases and sloped roofs. Like other copper blocks, they undergo four stages of oxidation, changing from bright orange to a teal-green patina over time. Naturally generating within Trial Chambers, they can be waxed with honeycomb to lock their current color or scraped with an axe to revert their aging. In Bedrock Edition, they can be mined with any pickaxe, including those made of wood."
     }
 };

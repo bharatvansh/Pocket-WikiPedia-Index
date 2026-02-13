@@ -1629,5 +1629,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "A Mangrove Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from mangrove planks and a stick, it features the deep red-brown aesthetic of the mangrove wood set. Like other wall signs in Bedrock Edition, it can hold up to four lines of text on its front face. The text can be customized with dyes or made to glow with glow ink sacs. It is a perfect choice for labeling rooms or providing directions in tropical or nautical-themed builds."
+    },
+    "minecraft:bamboo_wall_sign": {
+        id: "minecraft:bamboo_wall_sign",
+        name: "Bamboo Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:bamboo_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Bamboo Wall Sign is a functional decorative block used for displaying text on the sides of solid blocks. Crafted from bamboo planks and a stick, it features the unique yellowish texture and distinct vertical grain of the bamboo wood set. Like other signs in Bedrock Edition, it supports four lines of text on both sides that can be customized with dyes or made to glow with glow ink sacs. Introduced in the 1.20 Trails & Tales update, it offers a renewable and tropical-themed option for labeling and navigation within oriental or island-inspired structures."
     }
 };

@@ -2441,5 +2441,26 @@ export const slabsStairsBlocks = {
             yRange: "Ocean Monuments"
         },
         description: "Prismarine Brick Slab is a decorative half-block variant of prismarine bricks, featuring a structured tiled pattern. Naturally generating within Ocean Monuments, these slabs are used for detailed aquatic-themed floors, ceilings, and smooth elevation changes. Like other prismarine variants, they are stone-based, fireproof, and highly blast-resistant. They can be crafted from three prismarine brick blocks or produced via a stonecutter. In Bedrock Edition, they can be waterlogged, allowing them to blend seamlessly into grand underwater palaces and submerged bases."
+    },
+    "minecraft:brick_stairs": {
+        id: "minecraft:brick_stairs",
+        name: "Brick Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Brick Stairs"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brick Stairs are a decorative building block crafted from bricks. They allow for smooth elevation changes without jumping and are frequently used for sloped roofs, grand staircases, and intricate architectural detailing. In Bedrock Edition, they provide a classic red masonry aesthetic that pairs well with other stone and wood materials. Like other stone-based stairs, they are fire-resistant and highly durable against explosions. They can be waterlogged and placed in various orientations, making them a versatile choice for both residential and historical-themed builds."
     }
 };
