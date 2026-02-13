@@ -2169,6 +2169,27 @@ export const slabsStairsBlocks = {
         },
         description: "Warped Stairs are fire-resistant stairs crafted from warped planks, found in the Warped Forest biome of the Nether. They feature a unique teal and cyan color palette with a fungal texture. Unlike ordinary wooden stairs, they are completely immune to fire and lava, making them ideal for safe building in the Nether. They can be crafted using six warped planks or a stonecutter. Like other wood products, they are best harvested with an axe. Their vibrant color and resistance to burning make them a popular choice for both Nether and Overworld builds."
     },
+    "minecraft:warped_slab": {
+        id: "minecraft:warped_slab",
+        name: "Warped Slab",
+        hardness: 2.0,
+        blastResistance: 3.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "Warped Slabs are fire-resistant half-blocks crafted from warped planks, found in the Warped Forest biome of the Nether. They feature a unique teal and cyan color palette with a fungal texture. Unlike Overworld wooden slabs, they are completely immune to fire and lava, making them ideal for safe building in the Nether. They can be placed in the upper or lower half of a block space or combined into double slabs. Their vibrant color and resistance to burning make them a popular choice for both Nether and Overworld builds where a striking blue-green aesthetic is desired."
+    },
     "minecraft:sandstone_stairs": {
         id: "minecraft:sandstone_stairs",
         name: "Sandstone Stairs",

@@ -6020,4 +6020,25 @@ export const blockIndex = [
         icon: "textures/items/sign_jungle",
         themeColor: "§6"
     },
+    {
+        id: "minecraft:warped_slab",
+        name: "Warped Slab",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:dead_fire_coral",
+        name: "Dead Fire Coral",
+        category: "block",
+        icon: "textures/blocks/dead_fire_coral",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:dead_tube_coral_fan",
+        name: "Dead Tube Coral Fan",
+        category: "block",
+        icon: "textures/blocks/dead_tube_coral_fan",
+        themeColor: "§7"
+    },
 ];
