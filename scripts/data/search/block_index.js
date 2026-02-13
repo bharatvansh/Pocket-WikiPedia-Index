@@ -2016,6 +2016,20 @@ export const blockIndex = [
         themeColor: "§8" // Dark Gray
     },
     {
+        id: "minecraft:polished_deepslate_slab",
+        name: "Polished Deepslate Slab",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:soul_lantern",
         name: "Soul Lantern",
         category: "block",
@@ -5064,6 +5078,13 @@ export const blockIndex = [
     {
         id: "minecraft:blackstone_stairs",
         name: "Blackstone Stairs",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
         category: "block",
         icon: "textures/blocks/blackstone",
         themeColor: "§8"

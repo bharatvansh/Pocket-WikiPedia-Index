@@ -2001,6 +2001,27 @@ export const slabsStairsBlocks = {
         },
         description: "Blackstone Stairs are rugged, dark-toned stairs that provide a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants and Ruined Portals, they are a primary building component for Piglin architecture. They share the same high blast resistance and durability as regular stone, but with a unique dark gray-to-black color palette. Blackstone stairs are essential for creating detailed rooflines, grand staircases, and atmospheric trim in Nether-themed builds. They can be crafted from six blackstone blocks or made more efficiently using a stonecutter. They are also waterloggable."
     },
+    "minecraft:blackstone_slab": {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Blackstone Slab is a dark gray stone slab introduced in the Nether Update. It generates naturally in Bastion Remnants and can be crafted from three Blackstone blocks or via a stonecutter. As a stone-based slab, it is fire-resistant and offers reliable protection against explosions. It can be placed in the top or bottom half of a block space or combined into a double slab, providing versatile options for detailed architecture and smooth elevation changes in Nether-themed builds."
+    },
     "minecraft:blackstone_wall": {
         id: "minecraft:blackstone_wall",
         name: "Blackstone Wall",
@@ -2294,6 +2315,48 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Polished Deepslate"
         },
         description: "Polished Deepslate Wall is a sturdy decorative barrier introduced in Minecraft Bedrock Edition's 1.17 Caves & Cliffs update. Crafted from polished deepslate, it features a sleek and dark masonry texture that provides a modern, sophisticated look. Like other walls, it stands 1.5 blocks high for most entities, making it an effective barrier for security and animal containment. It connects smoothly to adjacent blocks and walls, and its high blast resistance makes it an excellent choice for fortified structures or elegant architectural detailing in dark environments."
+    },
+    "minecraft:polished_deepslate_slab": {
+        id: "minecraft:polished_deepslate_slab",
+        name: "Polished Deepslate Slab",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Deepslate Slab is a smooth, dark gray half-block variant of deepslate. It provides a refined and modern aesthetic for detailed flooring, ceilings, and architectural accents. Crafted from polished deepslate blocks or produced efficiently via a stonecutter, it maintains the high durability characteristic of the deepslate family. Like other slabs, it can be waterlogged and placed in various halves of a block space. Its sleek appearance makes it a popular choice for underground bases and sophisticated industrial designs."
+    },
+    "minecraft:polished_deepslate_stairs": {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only"
+        },
+        description: "Polished Deepslate Stairs are the stair-shaped variant of polished deepslate. They allow for smooth elevation changes while providing a sleek, dark gray aesthetic for subterranean and modern architecture. Crafted from polished deepslate or via a stonecutter, these stairs share the same high hardness and blast resistance as other deepslate blocks. They can be waterlogged and placed in multiple orientations to create complex shapes like corners and eaves, making them essential for cohesive builds using polished deepslate materials."
     },
     "minecraft:cobblestone_slab": {
         id: "minecraft:cobblestone_slab",
