@@ -1339,6 +1339,27 @@ export const vegetationBlocks = {
         },
         description: "Pink Tulips are delicate decorative flowers naturally occurring in Flower Forest, Plains, and Meadow biomes. They serve as a natural source of Pink Dye and are frequently used for aesthetic landscaping. In Bedrock Edition, Suspicious Stew made with a Pink Tulip grants the Weakness effect for 9 seconds. Their soft pink color is ideal for gentle floral atmospheres and they interact with bees for pollination."
     },
+    "minecraft:white_tulip": {
+        id: "minecraft:white_tulip",
+        name: "White Tulip",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:white_tulip"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Plains, Flower Forest, Meadow"
+        },
+        description: "White Tulips are elegant decorative flowers found in Plains, Flower Forest, and Meadow biomes. They can be harvested instantly by hand and are commonly used to craft Light Gray Dye. In Minecraft Bedrock Edition, using a White Tulip to craft Suspicious Stew provides the player with the Night Vision status effect for 5 seconds. Their clean white appearance makes them a versatile choice for landscaping, indoor decoration in flower pots, and attracting bees for honey production."
+    },
     "minecraft:large_fern": {
         id: "minecraft:large_fern",
         name: "Large Fern",
