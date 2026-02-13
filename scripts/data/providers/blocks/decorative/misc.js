@@ -1587,5 +1587,26 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Jungle Standing Sign is a functional decorative wood-based block used for displaying text. Crafted from jungle planks and a stick, it features the unique pinkish-tan hue characteristic of the tropical jungle wood set. In Bedrock Edition, it can be placed on the top surface of any solid block and rotated in 16 different directions. It can hold up to four lines of text on both sides, which can be dyed or made luminous with glow ink sacs. Its tropical appearance makes it a popular choice for signs in jungle bases, beach resorts, and exotic-themed builds."
+    },
+    "minecraft:mangrove_wall_sign": {
+        id: "minecraft:mangrove_wall_sign",
+        name: "Mangrove Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Mangrove Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Mangrove Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from mangrove planks and a stick, it features the deep red-brown aesthetic of the mangrove wood set. Like other wall signs in Bedrock Edition, it can hold up to four lines of text on its front face. The text can be customized with dyes or made to glow with glow ink sacs. It is a perfect choice for labeling rooms or providing directions in tropical or nautical-themed builds."
     }
 };

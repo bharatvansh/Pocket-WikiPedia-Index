@@ -407,5 +407,26 @@ export const glassBlocks = {
             yRange: "Crafted only"
         },
         description: "Lime Stained Glass is a vibrant, transparent decorative block. In Bedrock Edition 1.21+, it has the unique property of dropping itself when broken even without Silk Touch. It allows light to pass through while adding a lime tint to the view. Crafted by surrounding lime dye with eight glass blocks, it is perfect for greenhouses, modern builds, and beacons."
+    },
+    "minecraft:brown_stained_glass_pane": {
+        id: "minecraft:brown_stained_glass_pane",
+        name: "Brown Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Brown Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Brown Stained Glass Panes are thin, transparent decorative blocks that offer a warm, earthy alternative to full glass blocks. They are crafted by combining glass panes with brown dye or by crafting brown stained glass blocks into panes. In Bedrock Edition 1.21+, they drop themselves when broken even without Silk Touch. They connect to adjacent blocks to form seamless windows, making them perfect for rustic or autumn-themed builds while remaining highly resource-efficient."
     }
 };
