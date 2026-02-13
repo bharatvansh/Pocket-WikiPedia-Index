@@ -6083,4 +6083,25 @@ export const blockIndex = [
         icon: "textures/items/mangrove_sign",
         themeColor: "§4"
     },
+    {
+        id: "minecraft:brick_stairs",
+        name: "Brick Stairs",
+        category: "block",
+        icon: "textures/blocks/brick",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:cut_copper_stairs",
+        name: "Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/cut_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:bamboo_wall_sign",
+        name: "Bamboo Wall Sign",
+        category: "block",
+        icon: "textures/items/bamboo_sign",
+        themeColor: "§e"
+    },
 ];
