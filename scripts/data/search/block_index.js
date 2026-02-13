@@ -3500,6 +3500,27 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:yellow_stained_glass",
+        name: "Yellow Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_yellow",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:gray_stained_glass",
+        name: "Gray Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_gray",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
         category: "block",

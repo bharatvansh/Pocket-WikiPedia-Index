@@ -449,5 +449,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened White Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education Edition features enabled. Combining a clean white tint with superior durability, it boasts a hardness of 0.3 and a blast resistance of 9. Unlike regular stained glass, it does not shatter easily and can be harvested by hand. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and White Stained Glass. This block is ideal for high-security windows and underwater bases where both visibility and strength are required."
+    },
+    "minecraft:yellow_stained_glass": {
+        id: "minecraft:yellow_stained_glass",
+        name: "Yellow Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Stained Glass is a bright, transparent decorative block created by combining eight glass blocks with yellow dye. In Minecraft Bedrock Edition, this block uniquely drops itself when broken, even without the Silk Touch enchantment. It is ideal for creating sunny window designs, warm light filters for beacons, and adding vibrant accents to modern or traditional architecture while maintaining full visibility."
+    },
+    "minecraft:gray_stained_glass": {
+        id: "minecraft:gray_stained_glass",
+        name: "Gray Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Gray Stained Glass is a sleek, transparent decorative block that offers a muted, professional aesthetic. It is crafted by surrounding gray dye with eight glass blocks. In Bedrock Edition, it drops itself as an item when broken without needing Silk Touch. This makes it highly versatile for industrial builds, modern skyscraper windows, and subtle light-filtering effects that require a sophisticated gray tint without sacrificing clarity."
+    },
+    "minecraft:orange_stained_glass": {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Stained Glass is a warm, transparent decorative block created by surrounding orange dye with eight glass blocks. In Bedrock Edition, it possesses the helpful property of dropping itself when broken without requiring the Silk Touch enchantment. Its vibrant orange hue is perfect for autumn-themed constructions, sunset-themed windows, and as a colorful filter for beacon beams, providing a cozy and inviting atmosphere."
     }
 };
