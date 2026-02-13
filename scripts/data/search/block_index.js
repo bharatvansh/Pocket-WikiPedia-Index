@@ -6188,4 +6188,25 @@ export const blockIndex = [
         icon: "textures/items/candle_light_blue",
         themeColor: "§b"
     },
+    {
+        id: "minecraft:hard_white_stained_glass",
+        name: "Hardened White Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:crimson_wall_sign",
+        name: "Crimson Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_crimson",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:ominous_item_spawner",
+        name: "Ominous Item Spawner",
+        category: "block",
+        icon: "textures/blocks/trial_spawner_side",
+        themeColor: "§b"
+    },
 ];

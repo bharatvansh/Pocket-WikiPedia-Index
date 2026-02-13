@@ -1776,5 +1776,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Light Blue Candle is a bright, airy decorative light source block that can be placed in clusters of up to four. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a soft sky-blue color and must be lit using flint and steel to emit light. Light blue candles can also be placed on top of a cake to create a Light Blue Candle Cake, ideal for sky-themed decorations or cold-biome interior designs. Like all candles, they are easily harvested and can be extinguished by water or interaction."
+    },
+    "minecraft:ominous_item_spawner": {
+        id: "minecraft:ominous_item_spawner",
+        name: "Ominous Item Spawner",
+        hardness: -1.0,
+        blastResistance: 3600000.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Trial Chambers"
+        },
+        description: "The Ominous Item Spawner is a specialized technical block introduced in Minecraft 1.21, found exclusively in Trial Chambers during ominous trials. It is spawned by an Ominous Trial Spawner to challenge players by spawning projectiles, such as splash potions and arrows, directly above their heads. This block is indestructible and cannot be obtained by players in Survival mode. It emits unique soul fire blue particles, signaling an active ominous event. Its role is purely mechanical, ensuring a dynamic and difficult combat experience within the chamber's trials."
     }
 };
