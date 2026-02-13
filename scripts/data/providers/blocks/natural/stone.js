@@ -557,6 +557,27 @@ export const stoneBlocks = {
         },
         description: "Bedrock is an indestructible block that forms the boundary of the world. It generates at the very bottom of the Overworld and both the top and bottom of the Nether, preventing players from falling into the void or escaping the dimension's confines. While it can be viewed and used as a foundation in Creative mode, it is impossible to mine or destroy in Survival mode without using glitches. It also serves as the primary component of the End's exit portal and gateway structures, providing a permanent frame for these essential inter-dimensional travel points."
     },
+    "minecraft:invisible_bedrock": {
+        id: "minecraft:invisible_bedrock",
+        name: "Invisible Bedrock",
+        hardness: -1.0,
+        blastResistance: 3600000.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: [],
+        generation: {
+            dimension: "Overworld",
+            yRange: "None (Technical block)"
+        },
+        description: "Invisible Bedrock is a technical block in Minecraft Bedrock Edition that serves as an indestructible, transparent barrier. Historically used to define the boundaries of 'Old' world types, it prevents players from venturing beyond the playable area. It is completely invisible to the eye but behaves physically like standard Bedrock, making it impossible to mine or destroy in Survival mode. While mostly legacy, it remains in the game's code and can still be encountered in older world saves or placed via commands."
+    },
     "minecraft:infested_stone_bricks": {
         id: "minecraft:infested_stone_bricks",
         name: "Infested Stone Bricks",
