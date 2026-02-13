@@ -5657,6 +5657,20 @@ export const blockIndex = [
         themeColor: "§c"
     },
     {
+        id: "minecraft:purple_wool",
+        name: "Purple Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_purple",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:light_blue_wool",
+        name: "Light Blue Wool",
+        category: "block",
+        icon: "textures/blocks/wool_colored_light_blue",
+        themeColor: "§b"
+    },
+    {
         id: "minecraft:stripped_dark_oak_log",
         name: "Stripped Dark Oak Log",
         category: "block",
@@ -5893,6 +5907,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/carpet_colored_lime",
         themeColor: "§a"
+    },
+    {
+        id: "minecraft:green_carpet",
+        name: "Green Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_green",
+        themeColor: "§2"
     },
     {
         id: "minecraft:waxed_exposed_copper_chain",
