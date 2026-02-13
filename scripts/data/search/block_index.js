@@ -6125,4 +6125,25 @@ export const blockIndex = [
         icon: "textures/items/sign_spruce",
         themeColor: "§8"
     },
+    {
+        id: "minecraft:red_candle",
+        name: "Red Candle",
+        category: "block",
+        icon: "textures/items/candle_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:green_candle",
+        name: "Green Candle",
+        category: "block",
+        icon: "textures/items/candle_green",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:yellow_candle",
+        name: "Yellow Candle",
+        category: "block",
+        icon: "textures/items/candle_yellow",
+        themeColor: "§e"
+    },
 ];

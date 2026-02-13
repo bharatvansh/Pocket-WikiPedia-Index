@@ -1650,5 +1650,68 @@ export const interactiveBlocks = {
             yRange: "Placed on Cake"
         },
         description: "A celebratory block created by placing a black candle on an uneaten cake. In Bedrock Edition, it can be lit using flint and steel to provide a light level of 3. Eating a slice of the cake will cause the candle to drop as an item. It is a popular choice for gothic or dark-themed celebrations in Minecraft."
+    },
+    "minecraft:red_candle": {
+        id: "minecraft:red_candle",
+        name: "Red Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Red Candle is a vibrant decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. It features a bold red color and must be lit using flint and steel or a fire charge to emit light. Red candles can also be placed on top of a cake to create a Red Candle Cake. They offer a warm, energetic aesthetic for various interior lighting and themed decorations in Minecraft Bedrock Edition."
+    },
+    "minecraft:green_candle": {
+        id: "minecraft:green_candle",
+        name: "Green Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Green Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Green Candle is a decorative light source block featuring a rich, dark green color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Green candles can also be placed on top of a cake to create a Green Candle Cake, making them a versatile choice for nature-themed or forest-inspired interior decorations. They are waterloggable but cannot be lit while submerged."
+    },
+    "minecraft:yellow_candle": {
+        id: "minecraft:yellow_candle",
+        name: "Yellow Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Yellow Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Yellow Candle is a bright decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a cheery yellow color and must be lit using flint and steel to emit light. Yellow candles can also be placed on cakes to create a Yellow Candle Cake, perfect for birthdays or sun-themed decorations. Like all candles, they can be extinguished by water or interaction and are easily broken by hand."
     }
 };
