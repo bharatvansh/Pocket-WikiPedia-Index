@@ -5916,6 +5916,13 @@ export const blockIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_green",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:light_blue_glazed_terracotta",
         name: "Light Blue Glazed Terracotta",
         category: "block",
@@ -6215,6 +6222,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/candle_light_blue",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        category: "block",
+        icon: "textures/items/candle_gray",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        category: "block",
+        icon: "textures/items/candle_lime",
+        themeColor: "§a"
     },
     {
         id: "minecraft:hard_white_stained_glass",
