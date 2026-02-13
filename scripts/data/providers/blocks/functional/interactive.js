@@ -1713,5 +1713,68 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Yellow Candle is a bright decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a cheery yellow color and must be lit using flint and steel to emit light. Yellow candles can also be placed on cakes to create a Yellow Candle Cake, perfect for birthdays or sun-themed decorations. Like all candles, they can be extinguished by water or interaction and are easily broken by hand."
+    },
+    "minecraft:orange_candle": {
+        id: "minecraft:orange_candle",
+        name: "Orange Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Orange Candle is a vibrant decorative light source block that can be placed in clusters of up to four. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a warm orange color and must be lit using flint and steel to emit light. Orange candles can also be placed on top of a cake to create an Orange Candle Cake, perfect for themed decorations or celebrations. Like all candles in Bedrock Edition, they can be extinguished by water or player interaction and are easily broken by hand."
+    },
+    "minecraft:purple_candle": {
+        id: "minecraft:purple_candle",
+        name: "Purple Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Purple Candle is a decorative light source block featuring a rich, deep purple color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Purple candles can also be placed on top of a cake to create a Purple Candle Cake, making them a versatile choice for mystical or regal-themed interior decorations. They are waterloggable but cannot be lit while submerged in water."
+    },
+    "minecraft:light_blue_candle": {
+        id: "minecraft:light_blue_candle",
+        name: "Light Blue Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Light Blue Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Light Blue Candle is a bright, airy decorative light source block that can be placed in clusters of up to four. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a soft sky-blue color and must be lit using flint and steel to emit light. Light blue candles can also be placed on top of a cake to create a Light Blue Candle Cake, ideal for sky-themed decorations or cold-biome interior designs. Like all candles, they are easily harvested and can be extinguished by water or interaction."
     }
 };
