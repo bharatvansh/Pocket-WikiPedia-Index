@@ -810,6 +810,27 @@ export const interactiveBlocks = {
         },
         description: "The Iron Door is a high-security entrance block that cannot be opened by hand, requiring redstone signals from levers, buttons, or pressure plates to function. This makes it immune to villager and zombie interaction, providing a safe haven for players. Crafted from six iron ingots, it is much more durable than wooden doors and is highly resistant to explosions. It is a fundamental component for secure bases and automated dungeon designs in Bedrock Edition."
     },
+    "minecraft:wooden_door": {
+        id: "minecraft:wooden_door",
+        name: "Oak Door",
+        hardness: 3.0,
+        blastResistance: 3.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Oak Door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages, Strongholds, Shipwrecks"
+        },
+        description: "The Oak Door (internally wooden_door) is a fundamental interactive block crafted from six oak planks. It serves as a two-block high entrance that can be opened and closed by hand or via redstone signals. Unlike iron doors, oak doors can be broken by zombies on higher difficulties. They naturally generate in many Overworld structures, including villages and strongholds. In Bedrock Edition, they provide essential privacy and protection for early-game shelters while allowing light to pass through their small windows."
+    },
     "minecraft:iron_trapdoor": {
         id: "minecraft:iron_trapdoor",
         name: "Iron Trapdoor",

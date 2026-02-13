@@ -1210,6 +1210,48 @@ export const miscDecorativeBlocks = {
         },
         description: "Magenta Carpet is a thin, decorative block used primarily for flooring and aesthetic detailing. It is crafted from two blocks of magenta wool, providing a vibrant, soft surface without adding significant height to a block. In Bedrock Edition, carpets have the unique ability to dampen vibrations, preventing Sculk Sensors from detecting movement on top of them. This makes them highly valuable for stealthy navigation in sculk-infested areas like Ancient Cities. It is highly flammable and can be placed on most solid surfaces, including non-solid blocks like glass."
     },
+    "minecraft:orange_carpet": {
+        id: "minecraft:orange_carpet",
+        name: "Orange Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Carpet is a thin, decorative block used for flooring and aesthetic detailing. Crafted from orange wool, it provides a vibrant, soft surface without adding significant height to a block. In Bedrock Edition, carpets dampen vibrations, preventing Sculk Sensors from detecting movement above them. This makes them essential for navigating sculk-infested areas like Ancient Cities stealthily. They can be placed on most solid surfaces, including non-full blocks, and are highly flammable. Their bright color makes them popular for high-contrast interior designs."
+    },
+    "minecraft:pink_carpet": {
+        id: "minecraft:pink_carpet",
+        name: "Pink Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pink Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Pink Carpet is a thin, decorative block primarily used for floor covering and aesthetic purposes. It is crafted from pink wool and provides a soft, gentle surface without adding significant height to a block. In Bedrock Edition, carpets have the unique functional property of dampening vibrations, which prevents Sculk Sensors from detecting movement on top of them. This makes them essential for stealthy navigation in sculk-infested areas like Ancient Cities. They can be placed on most solid blocks and are highly flammable."
+    },
     "minecraft:yellow_wool": {
         id: "minecraft:yellow_wool",
         name: "Yellow Wool",
