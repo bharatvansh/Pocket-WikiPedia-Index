@@ -428,5 +428,26 @@ export const glassBlocks = {
             yRange: "Crafted only"
         },
         description: "Brown Stained Glass Panes are thin, transparent decorative blocks that offer a warm, earthy alternative to full glass blocks. They are crafted by combining glass panes with brown dye or by crafting brown stained glass blocks into panes. In Bedrock Edition 1.21+, they drop themselves when broken even without Silk Touch. They connect to adjacent blocks to form seamless windows, making them perfect for rustic or autumn-themed builds while remaining highly resource-efficient."
+    },
+    "minecraft:hard_white_stained_glass": {
+        id: "minecraft:hard_white_stained_glass",
+        name: "Hardened White Stained Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened White Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened White Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education Edition features enabled. Combining a clean white tint with superior durability, it boasts a hardness of 0.3 and a blast resistance of 9. Unlike regular stained glass, it does not shatter easily and can be harvested by hand. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and White Stained Glass. This block is ideal for high-security windows and underwater bases where both visibility and strength are required."
     }
 };
