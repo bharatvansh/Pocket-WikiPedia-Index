@@ -2022,6 +2022,27 @@ export const slabsStairsBlocks = {
         },
         description: "Blackstone Wall is a rugged, dark-toned decorative barrier that provides a somber and ancient aesthetic to any build. Naturally generating in Bastion Remnants, it is a primary building component for Piglin architecture. It shares the same high blast resistance and durability as regular stone but with a unique dark gray-to-black color palette. These walls connect to adjacent blocks and walls to form a continuous barrier, perfect for secure perimeters in the hazardous Nether environment."
     },
+    "minecraft:blackstone_slab": {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Blackstone Slab is a dark-toned half-block building component that provides a somber and ancient aesthetic to any build. It retains the rugged, fractured appearance of regular blackstone, making it ideal for detailing Nether-themed pathways, tiered flooring, and architectural accents. These slabs are highly durable and blast-resistant, matching the strength of regular stone variants. They generate naturally in Bastion Remnants and can be crafted from blackstone or produced more efficiently using a stonecutter."
+    },
     "minecraft:bamboo_mosaic_stairs": {
         id: "minecraft:bamboo_mosaic_stairs",
         name: "Bamboo Mosaic Stairs",

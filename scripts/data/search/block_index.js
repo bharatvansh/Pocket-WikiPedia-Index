@@ -6272,4 +6272,25 @@ export const blockIndex = [
         icon: "textures/blocks/carpet_colored_purple",
         themeColor: "§5"
     },
+    {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        category: "block",
+        icon: "textures/blocks/blackstone",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:green_stained_glass_pane",
+        name: "Green Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_green",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
 ];

@@ -1106,6 +1106,27 @@ export const redstoneBlocks = {
         },
         description: "The Warped Pressure Plate is a fire-resistant redstone component crafted from two warped planks. Native to the Nether's Warped Forest, it possesses a unique teal color and is completely immune to fire and lava. It detects when any entity, including players, mobs, and items, lands on its surface, emitting a redstone signal of strength 15. This makes it ideal for automatic doors and mechanisms in hazardous environments where traditional wooden plates would burn. It remains active as long as an entity is on top and for a short duration after they leave."
     },
+    "minecraft:warped_button": {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Warped Button"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted only"
+        },
+        description: "The Warped Button is a fire-resistant redstone component crafted from a single warped plank, native to the Nether's Warped Forest. It provides a momentary redstone pulse of 10 ticks (1.0 second) in Bedrock Edition when activated. Its unique teal color and fungal texture allow it to blend perfectly with other warped wood blocks, making it ideal for hidden inputs in Nether-themed builds. Unlike Overworld wooden buttons, it is completely immune to fire and lava. It can be placed on any side of a solid block."
+    },
     "minecraft:crimson_pressure_plate": {
         id: "minecraft:crimson_pressure_plate",
         name: "Crimson Pressure Plate",
