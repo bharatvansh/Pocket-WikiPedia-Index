@@ -556,6 +556,69 @@ export const coralBlocks = {
         },
         description: "The Brain Coral Wall Fan is a delicate, pink aquatic structure that grows on the vertical surfaces of blocks in warm ocean reefs. It features the same intricate, folded patterns as Brain Coral but in a flat, fan-like configuration attached to walls. Like other coral fans, it is extremely fragile and will only drop as an item if harvested with a Silk Touch tool. Submergence in water is essential for its survival; without it, it quickly withers and becomes a Dead Brain Coral Wall Fan."
     },
+    "minecraft:horn_coral_wall_fan": {
+        id: "minecraft:horn_coral_wall_fan",
+        name: "Horn Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Horn Coral Wall Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of blocks)"
+        },
+        description: "Horn Coral Wall Fan is a vibrant yellow aquatic plant that attaches to the vertical faces of blocks in warm ocean reefs. It is the wall-mounted version of the horn coral fan, featuring a flat, branching structure. Like all living corals, it requires being submerged in water to maintain its bright color and life; exposure to air will cause it to die and turn into a dead variant. It must be harvested using a tool with the Silk Touch enchantment to be obtained as an item, otherwise it shatters and drops nothing when broken."
+    },
+    "minecraft:tube_coral_wall_fan": {
+        id: "minecraft:tube_coral_wall_fan",
+        name: "Tube Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Tube Coral Wall Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of blocks)"
+        },
+        description: "Tube Coral Wall Fan is a striking blue, non-solid aquatic structure found naturally in warm ocean biomes. It grows specifically on the sides of solid blocks, contributing to the vertical complexity of coral reefs. This delicate fan is extremely fragile and requires Silk Touch to be harvested successfully. Without water contact, it quickly loses its vibrant blue hue and transforms into a desaturated Dead Tube Coral Wall Fan. It is a favorite among underwater builders for adding organic detail and rich color to vertical surfaces."
+    },
+    "minecraft:bubble_coral_wall_fan": {
+        id: "minecraft:bubble_coral_wall_fan",
+        name: "Bubble Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["Bubble Coral Wall Fan (with Silk Touch)"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (sides of blocks)"
+        },
+        description: "Bubble Coral Wall Fan is a magenta-colored, fan-like structure that grows on the vertical surfaces of blocks within coral reefs. It features the unique bubble-like textures characteristic of the bubble coral family but in a flat, vertical orientation. This aquatic plant is highly sensitive to its environment and must remain underwater to survive. Harvesting it requires a tool with Silk Touch, as it shatters easily. Its vibrant purple-pink color adds a beautiful splash of light and variety to any underwater landscape or aquarium design."
+    },
     "minecraft:dead_bubble_coral_fan": {
         id: "minecraft:dead_bubble_coral_fan",
         name: "Dead Bubble Coral Fan",
