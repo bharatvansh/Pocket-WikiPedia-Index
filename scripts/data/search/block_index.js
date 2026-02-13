@@ -3927,6 +3927,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:wooden_door",
+        name: "Oak Door",
+        category: "block",
+        icon: "textures/items/door_wood",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:iron_door",
         name: "Iron Door",
         category: "block",
@@ -6243,6 +6250,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/sign_jungle",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:orange_carpet",
+        name: "Orange Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:pink_carpet",
+        name: "Pink Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_pink",
+        themeColor: "§d"
     },
     {
         id: "minecraft:purple_carpet",
