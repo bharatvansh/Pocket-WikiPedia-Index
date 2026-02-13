@@ -6041,4 +6041,25 @@ export const blockIndex = [
         icon: "textures/blocks/dead_tube_coral_fan",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        category: "block",
+        icon: "textures/blocks/stripped_acacia_log_side",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        category: "block",
+        icon: "textures/blocks/pumpkin_face_on",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
+    },
 ];

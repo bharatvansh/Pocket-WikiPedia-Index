@@ -1039,5 +1039,26 @@ export const woodBlocks = {
             yRange: "Shipwrecks / Axe on Jungle Log"
         },
         description: "Stripped Jungle Log is a wood variant obtained by using an axe on a regular jungle log. This process removes the bark, revealing the smooth, pinkish-tan interior wood. In Minecraft Bedrock Edition, it is commonly used as a clean building material for tropical or modern designs and can be found naturally in the hulls of shipwrecks. Like other stripped logs, it can be crafted into jungle planks, hanging signs, or wood blocks. Its uniform texture and warm, golden-brown color make it a favorite for builders looking to create polished wooden structures."
+    },
+    "minecraft:stripped_acacia_log": {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Acacia Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Acacia Log"
+        },
+        description: "Stripped Acacia Log is a wood variant obtained by using an axe on a regular acacia log. This process removes the dark gray bark, revealing the vibrant, smooth orange interior wood characteristic of the acacia tree. It is a highly valued building material for its bold color and clean finish, making it ideal for high-contrast architectural designs, desert-themed structures, and modern furniture. Like other stripped wood, it can be crafted into planks, hanging signs, or wood blocks. In Bedrock Edition, it retains its flammable nature and requires an axe for efficient harvesting."
     }
 };
