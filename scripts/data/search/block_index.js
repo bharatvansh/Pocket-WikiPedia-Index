@@ -5936,4 +5936,25 @@ export const blockIndex = [
         icon: "textures/blocks/flower_tulip_white",
         themeColor: "§f"
     },
+    {
+        id: "minecraft:crimson_standing_sign",
+        name: "Crimson Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_crimson",
+        themeColor: "§4"
+    },
+    {
+        id: "minecraft:warped_standing_sign",
+        name: "Warped Standing Sign",
+        category: "block",
+        icon: "textures/items/sign_warped",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:purple_concrete_powder",
+        name: "Purple Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_purple",
+        themeColor: "§5"
+    },
 ];
