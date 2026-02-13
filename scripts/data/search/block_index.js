@@ -6314,4 +6314,25 @@ export const blockIndex = [
         icon: "textures/blocks/deepslate/polished_deepslate",
         themeColor: "§8"
     },
+    {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_green",
+        themeColor: "§2"
+    },
+    {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        category: "block",
+        icon: "textures/items/candle_gray",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:yellow_stained_glass",
+        name: "Yellow Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_yellow",
+        themeColor: "§e"
+    },
 ];
