@@ -6146,4 +6146,25 @@ export const blockIndex = [
         icon: "textures/items/candle_yellow",
         themeColor: "§e"
     },
+    {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:pale_oak_standing_sign",
+        name: "Pale Oak Standing Sign",
+        category: "block",
+        icon: "textures/items/pale_oak_sign",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:pale_oak_wall_sign",
+        name: "Pale Oak Wall Sign",
+        category: "block",
+        icon: "textures/items/pale_oak_sign",
+        themeColor: "§7"
+    },
 ];

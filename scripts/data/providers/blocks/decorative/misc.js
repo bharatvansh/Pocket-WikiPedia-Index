@@ -1713,5 +1713,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Spruce Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from spruce planks and a stick, it features the deep, dark brown aesthetic characteristic of the spruce wood set. Since the Trails & Tales update, it supports text on both sides and can be edited by interacting with it. The text color can be changed using dyes and made luminous with glow ink sacs. Its rustic and sturdy appearance makes it a popular choice for labeling and providing directions in cabins, taverns, and medieval-themed builds."
+    },
+    "minecraft:red_carpet": {
+        id: "minecraft:red_carpet",
+        name: "Red Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Carpet"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Carpet is a thin, decorative block primarily used for flooring and aesthetic purposes. Crafted from two blocks of red wool, it provides a bold, vibrant surface without adding significant height to a block. In Bedrock Edition, carpets have the unique functional property of dampening vibrations, which prevents Sculk Sensors from detecting movement on top of them. This makes them essential for stealthy navigation in sculk-infested areas like Ancient Cities. They can be placed on most solid blocks and are highly flammable. Their striking color makes them a favorite for royal-themed builds and detailed interior designs."
+    },
+    "minecraft:pale_oak_standing_sign": {
+        id: "minecraft:pale_oak_standing_sign",
+        name: "Pale Oak Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Pale Oak Standing Sign is a functional decorative wood-based block used for displaying text. Introduced in Minecraft 1.21.50 as part of the Pale Garden update, it is crafted from pale oak planks and a stick. It features a ghostly light gray appearance matching the somber aesthetic of the Pale Garden biome. In Bedrock Edition, it can be placed on any solid top surface and rotated in 16 directions. It supports text on both sides, which can be dyed or made to glow. Its unique pale tone provides a distinct look for atmospheric or minimalist signage."
+    },
+    "minecraft:pale_oak_wall_sign": {
+        id: "minecraft:pale_oak_wall_sign",
+        name: "Pale Oak Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Pale Oak Sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Pale Oak Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from pale oak planks and a stick, it features the ghostly light gray aesthetic of the pale oak wood set from the Pale Garden biome. Like other wall signs in Bedrock Edition, it can hold text on both sides, which can be edited after placement. Players can customize the text with dyes and glow ink sacs, or wax it with honeycomb. Its unique pale appearance makes it ideal for labeling rooms or providing directions in eerie or modern architectural builds."
     }
 };
