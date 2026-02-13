@@ -6167,4 +6167,25 @@ export const blockIndex = [
         icon: "textures/items/pale_oak_sign",
         themeColor: "§7"
     },
+    {
+        id: "minecraft:orange_candle",
+        name: "Orange Candle",
+        category: "block",
+        icon: "textures/items/candle_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:purple_candle",
+        name: "Purple Candle",
+        category: "block",
+        icon: "textures/items/candle_purple",
+        themeColor: "§5"
+    },
+    {
+        id: "minecraft:light_blue_candle",
+        name: "Light Blue Candle",
+        category: "block",
+        icon: "textures/items/candle_light_blue",
+        themeColor: "§b"
+    },
 ];
