@@ -701,6 +701,27 @@ export const miscBuildingBlocks = {
         },
         description: "Lime Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with bright lime green and dark green tones. It is obtained by smelting lime terracotta in a furnace. In Bedrock Edition, it is unique because it is immovable by slime blocks and honey blocks, which is a property highly valued by redstone engineers for creating complex machinery. Its directional placement allows players to create large, recurring geometric designs on floors and walls. It requires a pickaxe for harvesting; breaking it by hand will result in no drops."
     },
+    "minecraft:green_glazed_terracotta": {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Green Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Green Terracotta"
+        },
+        description: "Green Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with dark green and lime tones. It is created by smelting green terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it provides a striking and natural look to any structure."
+    },
     "minecraft:light_blue_glazed_terracotta": {
         id: "minecraft:light_blue_glazed_terracotta",
         name: "Light Blue Glazed Terracotta",

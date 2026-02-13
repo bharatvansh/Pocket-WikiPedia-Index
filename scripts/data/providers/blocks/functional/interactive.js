@@ -1798,6 +1798,48 @@ export const interactiveBlocks = {
         },
         description: "The Light Blue Candle is a bright, airy decorative light source block that can be placed in clusters of up to four. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a soft sky-blue color and must be lit using flint and steel to emit light. Light blue candles can also be placed on top of a cake to create a Light Blue Candle Cake, ideal for sky-themed decorations or cold-biome interior designs. Like all candles, they are easily harvested and can be extinguished by water or interaction."
     },
+    "minecraft:gray_candle": {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Gray Candle is a decorative light source block featuring a neutral, dark gray color. In Minecraft Bedrock Edition, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Gray candles can also be placed on top of a cake to create a Gray Candle Cake, making them ideal for modern or industrial-themed interior decorations. They are waterloggable but cannot be lit while submerged in water."
+    },
+    "minecraft:lime_candle": {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Lime Candle is a bright, decorative light source block featuring a vivid lime green color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Lime candles can also be placed on top of a cake to create a Lime Candle Cake, perfect for vibrant, nature-themed, or celebratory interior decorations. They are waterloggable but cannot be lit while submerged in water."
+    },
     "minecraft:ominous_item_spawner": {
         id: "minecraft:ominous_item_spawner",
         name: "Ominous Item Spawner",
