@@ -6104,4 +6104,25 @@ export const blockIndex = [
         icon: "textures/items/bamboo_sign",
         themeColor: "§e"
     },
+    {
+        id: "minecraft:birch_wall_sign",
+        name: "Birch Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_birch",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:darkoak_wall_sign",
+        name: "Dark Oak Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_dark_oak",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:spruce_wall_sign",
+        name: "Spruce Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_spruce",
+        themeColor: "§8"
+    },
 ];

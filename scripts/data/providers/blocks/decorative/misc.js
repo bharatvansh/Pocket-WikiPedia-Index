@@ -1650,5 +1650,68 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "Bamboo Wall Sign is a functional decorative block used for displaying text on the sides of solid blocks. Crafted from bamboo planks and a stick, it features the unique yellowish texture and distinct vertical grain of the bamboo wood set. Like other signs in Bedrock Edition, it supports four lines of text on both sides that can be customized with dyes or made to glow with glow ink sacs. Introduced in the 1.20 Trails & Tales update, it offers a renewable and tropical-themed option for labeling and navigation within oriental or island-inspired structures."
+    },
+    "minecraft:birch_wall_sign": {
+        id: "minecraft:birch_wall_sign",
+        name: "Birch Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:birch_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Birch Wall Sign is a functional decorative block crafted from birch planks and a stick. It features a pale, creamy color that matches the birch wood set, offering a clean and minimalist aesthetic. In Bedrock Edition 1.20+, it supports up to four lines of text on both sides, which can be edited after placement. Players can customize the text with dyes and glow ink sacs, or apply honeycomb to wax it and prevent further changes. Its bright appearance makes it ideal for modern builds and light-colored interiors."
+    },
+    "minecraft:darkoak_wall_sign": {
+        id: "minecraft:darkoak_wall_sign",
+        name: "Dark Oak Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dark_oak_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Dark Oak Wall Sign is a functional decorative block used for labeling and communication. Crafted from dark oak planks and a stick, it showcases the rich chocolate-brown color of the dark oak wood set. In Bedrock Edition, it can be placed on the sides of solid blocks and supports four lines of text on both sides. The dark background provides excellent contrast for light-colored dyes and glowing text. Like other signs, it can be waxed with honeycomb to lock its message. It is perfect for adding a sophisticated or somber touch to libraries and formal structures."
+    },
+    "minecraft:spruce_wall_sign": {
+        id: "minecraft:spruce_wall_sign",
+        name: "Spruce Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:spruce_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Spruce Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from spruce planks and a stick, it features the deep, dark brown aesthetic characteristic of the spruce wood set. Since the Trails & Tales update, it supports text on both sides and can be edited by interacting with it. The text color can be changed using dyes and made luminous with glow ink sacs. Its rustic and sturdy appearance makes it a popular choice for labeling and providing directions in cabins, taverns, and medieval-themed builds."
     }
 };
