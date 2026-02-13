@@ -2357,5 +2357,68 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Oxidized Cut Copper or via Honeycomb application"
         },
         description: "Waxed Oxidized Cut Copper Stairs are a decorative block that has been treated with honeycomb to permanently preserve its final teal-green oxidation stage. They feature a unique tiled masonry texture that represents years of exposure to the elements, locked in place to prevent further weathering. These stairs are perfect for creating grand, aged rooflines and monuments that require a consistent aesthetic. In Bedrock Edition, the wax can be removed using an axe, and they require a stone-tier pickaxe or better for harvesting."
+    },
+    "minecraft:nether_brick_stairs": {
+        id: "minecraft:nether_brick_stairs",
+        name: "Nether Brick Stairs",
+        hardness: 2.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Nether Brick Stairs"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Nether Fortresses"
+        },
+        description: "Nether Brick Stairs are fire-resistant building blocks that generate naturally within Nether Fortresses. Crafted from Nether Bricks, they provide a dark and atmospheric way to create staircases and sloped roofs in the Nether. Unlike wooden stairs, they are completely immune to fire and ghast fireballs, making them essential for safe construction in hazardous environments. In Bedrock Edition, they share the same high durability as nether bricks and can be waterlogged. They are a staple for builders seeking a gothic or fortress-like aesthetic."
+    },
+    "minecraft:stone_brick_wall": {
+        id: "minecraft:stone_brick_wall",
+        name: "Stone Brick Wall",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Stone Brick Wall"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds, Villages"
+        },
+        description: "Stone Brick Walls are sturdy decorative barriers crafted from stone bricks. They provide a 1.5-block high collision box that prevents most mobs from jumping over them while occupying only a single block space visually. They connect to adjacent walls and blocks, making them perfect for creating perimeters, railings, and structural detailing in medieval-style builds. In Bedrock Edition, they can be found naturally in strongholds and some villages. They are fireproof and offer excellent blast resistance, matching the durability of regular stone bricks."
+    },
+    "minecraft:prismarine_brick_slab": {
+        id: "minecraft:prismarine_brick_slab",
+        name: "Prismarine Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Prismarine Brick Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ocean Monuments"
+        },
+        description: "Prismarine Brick Slab is a decorative half-block variant of prismarine bricks, featuring a structured tiled pattern. Naturally generating within Ocean Monuments, these slabs are used for detailed aquatic-themed floors, ceilings, and smooth elevation changes. Like other prismarine variants, they are stone-based, fireproof, and highly blast-resistant. They can be crafted from three prismarine brick blocks or produced via a stonecutter. In Bedrock Edition, they can be waterlogged, allowing them to blend seamlessly into grand underwater palaces and submerged bases."
     }
 };
