@@ -1546,6 +1546,27 @@ export const interactiveBlocks = {
         },
         description: "The Magenta Candle is a vibrant, decorative light source in Minecraft Bedrock Edition. Like all candles, it can be clustered with up to four identical candles on a single block, with each candle increasing the light level by 3 to a maximum of 12. It must be lit using flint and steel, a fire charge, or any flaming projectile. Magenta candles are waterloggable but cannot be lit while submerged in water. They can also be placed on top of a cake to create a festive Magenta Candle Cake, perfect for colorful celebrations."
     },
+    "minecraft:pink_candle": {
+        id: "minecraft:pink_candle",
+        name: "Pink Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:pink_candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Pink Candle is a decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. It features a soft pink color and must be lit using flint and steel or a fire charge to emit light. Pink candles can also be placed on top of a cake to create a Pink Candle Cake. They offer a warm, gentle aesthetic for various interior lighting and decorations in Minecraft Bedrock Edition."
+    },
     "minecraft:magenta_candle_cake": {
         id: "minecraft:magenta_candle_cake",
         name: "Magenta Candle Cake",

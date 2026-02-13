@@ -2408,6 +2408,13 @@ export const blockIndex = [
         themeColor: "§7" // light gray
     },
     {
+        id: "minecraft:light_gray_concrete_powder",
+        name: "Light Gray Concrete Powder",
+        category: "block",
+        icon: "textures/blocks/concrete_powder_silver",
+        themeColor: "§7" // light gray
+    },
+    {
         id: "minecraft:blue_concrete",
         name: "Blue Concrete",
         category: "block",
@@ -5720,6 +5727,13 @@ export const blockIndex = [
         themeColor: "§a"
     },
     {
+        id: "minecraft:pink_candle",
+        name: "Pink Candle",
+        category: "block",
+        icon: "textures/blocks/candle_pink",
+        themeColor: "§d" // pink
+    },
+    {
         id: "minecraft:pink_candle_cake",
         name: "Pink Candle Cake",
         category: "block",
@@ -5886,6 +5900,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/sign_acacia",
         themeColor: "§6"
+    },
+    {
+        id: "minecraft:acacia_wall_sign",
+        name: "Acacia Wall Sign",
+        category: "block",
+        icon: "textures/items/sign_acacia",
+        themeColor: "§6" // orange/wood
     },
     {
         id: "minecraft:birch_standing_sign",
