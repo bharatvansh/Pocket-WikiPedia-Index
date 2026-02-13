@@ -324,5 +324,26 @@ export const lightingBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "A Red Torch is a decorative lighting block exclusive to Minecraft Bedrock and Education Editions. It emits a light level of 14, matching standard torches, but features a vivid red flame for thematic lighting. It is crafted by combining a standard torch with Mercuric Chloride, a compound created using Mercury and Chlorine in a Compound Creator. Like other torches, it is non-solid, fragile, and will break if submerged in water. It is ideal for red-themed builds, adventure maps, or simulating emergency lighting in industrial settings."
+    },
+    "minecraft:lit_pumpkin": {
+        id: "minecraft:lit_pumpkin",
+        name: "Jack o'Lantern",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        luminance: 15,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Jack o'Lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Carved Pumpkin and Torch"
+        },
+        description: "The Jack o'Lantern (minecraft:lit_pumpkin) is a luminous decorative block crafted by combining a carved pumpkin with a torch. It emits a maximum light level of 15, making it a reliable and atmospheric light source that also functions underwater. Unlike torches, Jack o'Lanterns have a solid collision box and can support other blocks, such as carpets or pressure plates. They are frequently used in Halloween-themed builds, as affordable lighting for pathways, and to prevent mob spawning. In Bedrock Edition, they can be broken quickly by hand, though an axe is slightly faster."
     }
 };

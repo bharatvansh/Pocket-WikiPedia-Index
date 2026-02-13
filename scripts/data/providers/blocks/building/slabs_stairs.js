@@ -2441,5 +2441,26 @@ export const slabsStairsBlocks = {
             yRange: "Ocean Monuments"
         },
         description: "Prismarine Brick Slab is a decorative half-block variant of prismarine bricks, featuring a structured tiled pattern. Naturally generating within Ocean Monuments, these slabs are used for detailed aquatic-themed floors, ceilings, and smooth elevation changes. Like other prismarine variants, they are stone-based, fireproof, and highly blast-resistant. They can be crafted from three prismarine brick blocks or produced via a stonecutter. In Bedrock Edition, they can be waterlogged, allowing them to blend seamlessly into grand underwater palaces and submerged bases."
+    },
+    "minecraft:polished_deepslate_stairs": {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Polished Deepslate Stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted/Stonecut"
+        },
+        description: "Polished Deepslate Stairs are the refined, stair-shaped variant of polished deepslate, introduced in the Caves & Cliffs update. They feature a sleek, dark gray masonry texture that is perfect for professional-looking staircases, sloped roofs, and architectural trim in modern or subterranean builds. Crafted from polished deepslate blocks or more efficiently in a stonecutter, they share the same high durability and blast resistance (6.0) as other deepslate family blocks. Like most stone stairs, they can be waterlogged and placed upside down, providing great versatility for complex architectural designs."
     }
 };
