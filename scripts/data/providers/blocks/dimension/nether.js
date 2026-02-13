@@ -118,6 +118,27 @@ export const netherBlocks = {
         },
         description: "Blackstone is a dark gray stone-like block introduced in Minecraft 1.16, found naturally in the Nether. It generates abundantly in basalt deltas, below lava seas, underground, and in bastion remnants. Piglins can barter 8-16 blackstone blocks when given gold ingots. Blackstone substitutes for cobblestone in many crafting recipes including stone tools, furnaces, and brewing stands. It can be crafted into polished blackstone, bricks, and decorative forms. With hardness of 1.5 and blast resistance of 6, blackstone provides excellent building material with a unique dark aesthetic."
     },
+    "minecraft:blackstone_slab": {
+        id: "minecraft:blackstone_slab",
+        name: "Blackstone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Blackstone Slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "A Blackstone Slab is a half-block variant of Blackstone, a dark stone-like block found naturally in the Nether. It generates within the structures of Bastion Remnants. It can be crafted from three Blackstone blocks or obtained efficiently using a stonecutter. Like Blackstone, it serves as a durable, fire-resistant building material. It provides a unique dark aesthetic for paths, flooring, and architectural trim in Nether-themed builds where its half-block height is preferred for smooth elevation changes."
+    },
     "minecraft:crying_obsidian": {
         id: "minecraft:crying_obsidian",
         name: "Crying Obsidian",

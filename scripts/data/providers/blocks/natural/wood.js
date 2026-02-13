@@ -473,6 +473,27 @@ export const woodBlocks = {
         },
         description: "Acacia logs come from the uniquely shaped, umbrella-like acacia trees found in the savanna biome. They feature a dark gray bark and a distinctive vibrant orange interior wood. This striking color contrast makes acacia logs a popular choice for unique architectural designs and decorative accents. They can be crafted into acacia planks, which retain the warm orange hue, making them ideal for adding a splash of color to desert or savanna-dwelling structures."
     },
+    "minecraft:stripped_acacia_log": {
+        id: "minecraft:stripped_acacia_log",
+        name: "Stripped Acacia Log",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Acacia Log"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Axe on Acacia Log"
+        },
+        description: "Stripped Acacia Log is a wood variant created by using an axe on an Acacia Log. This removes the dark gray bark, revealing the smooth, vibrant orange interior wood. It is a popular choice for unique architectural designs and decorative accents due to its striking color. Like other logs, it can be crafted into acacia planks, hanging signs, or wood blocks. It remains flammable and is most efficiently harvested with an axe. In Bedrock Edition, it provides a bold splash of color to any structure, especially those inspired by savanna or desert landscapes."
+    },
     "minecraft:mangrove_leaves": {
         id: "minecraft:mangrove_leaves",
         name: "Mangrove Leaves",
