@@ -6481,5 +6481,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_light_blue",
         themeColor: "§b"
+    },
+    {
+        id: "minecraft:wooden_pressure_plate",
+        name: "Oak Pressure Plate",
+        category: "block",
+        icon: "textures/blocks/planks_oak",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:wall_sign",
+        name: "Oak Wall Sign",
+        category: "block",
+        icon: "textures/items/sign",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:glow_frame",
+        name: "Glow Item Frame",
+        category: "block",
+        icon: "textures/items/glow_item_frame",
+        themeColor: "§e"
     }
 ];
