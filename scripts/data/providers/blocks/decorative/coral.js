@@ -723,5 +723,26 @@ export const coralBlocks = {
             yRange: "Warm Ocean biomes (results from living coral fans dying)"
         },
         description: "Dead Tube Coral Fan is the gray, skeletal remains of a living Tube Coral Fan. This transformation occurs when the living coral is removed from water or its water source is destroyed. In Bedrock Edition, it retains its unique flat, fan-like shape but loses its vibrant blue color, turning into a desaturated gray. It can be found attached to the sides of blocks in dead or dying reefs. While it lacks the color of its living counterpart, it is a useful decorative element for creating weathered or ancient underwater aesthetics and can be harvested without Silk Touch."
+    },
+    "minecraft:dead_horn_coral_fan": {
+        id: "minecraft:dead_horn_coral_fan",
+        name: "Dead Horn Coral Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:dead_horn_coral_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "Dead Horn Coral Fan is the gray, skeletal remains of a living horn coral fan. In Minecraft Bedrock Edition, this structure forms when a living horn coral fan dies, typically due to being removed from water. While it loses its vibrant yellow color, it retains its unique flat, branching fan shape. It serves as a decorative element for creating weathered or ancient underwater reef aesthetics. Unlike living coral, it can be harvested instantly by hand or with any tool without needing the Silk Touch enchantment, making it easy to collect for aquatic-themed builds."
     }
 };
