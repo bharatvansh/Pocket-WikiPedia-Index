@@ -6314,4 +6314,25 @@ export const blockIndex = [
         icon: "textures/blocks/deepslate/polished_deepslate",
         themeColor: "§8"
     },
+    {
+        id: "minecraft:stripped_birch_wood",
+        name: "Stripped Birch Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_birch_log_side",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:stripped_acacia_wood",
+        name: "Stripped Acacia Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_acacia_log_side",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_jungle_wood",
+        name: "Stripped Jungle Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_jungle_log_side",
+        themeColor: "§6"
+    },
 ];

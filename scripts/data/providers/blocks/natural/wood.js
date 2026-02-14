@@ -1060,5 +1060,68 @@ export const woodBlocks = {
             yRange: "Shipwrecks / Axe on Jungle Log"
         },
         description: "Stripped Jungle Log is a wood variant obtained by using an axe on a regular jungle log. This process removes the bark, revealing the smooth, pinkish-tan interior wood. In Minecraft Bedrock Edition, it is commonly used as a clean building material for tropical or modern designs and can be found naturally in the hulls of shipwrecks. Like other stripped logs, it can be crafted into jungle planks, hanging signs, or wood blocks. Its uniform texture and warm, golden-brown color make it a favorite for builders looking to create polished wooden structures."
+    },
+    "minecraft:stripped_birch_wood": {
+        id: "minecraft:stripped_birch_wood",
+        name: "Stripped Birch Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Birch Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Stripped Birch Logs"
+        },
+        description: "Stripped Birch Wood is a decorative block that features the smooth, light tan interior of birch logs on all six sides. It is crafted by placing four stripped birch logs in a 2x2 grid or by using an axe on birch wood. Unlike logs, which show rings on two ends, wood blocks provide a seamless, bark-free surface, making them ideal for creating polished columns, large-scale structures, and bright architectural designs. It shares the same properties as other birch wood variants, including being highly flammable. Its pale coloration offers a clean, airy aesthetic for builds."
+    },
+    "minecraft:stripped_acacia_wood": {
+        id: "minecraft:stripped_acacia_wood",
+        name: "Stripped Acacia Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Acacia Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Stripped Acacia Logs"
+        },
+        description: "Stripped Acacia Wood is a vibrant building block that showcases the smooth, orange interior of acacia logs on all six faces. It is obtained by crafting four stripped acacia logs in a 2x2 arrangement or by using an axe on acacia wood. This block provides a continuous, bark-free surface with a bold orange hue, making it a favorite for builders seeking to add warmth and energy to their constructions. Like other wood variants in Bedrock Edition, it is flammable and most efficiently harvested with an axe. It is excellent for creating colorful pillars and unique structural accents."
+    },
+    "minecraft:stripped_jungle_wood": {
+        id: "minecraft:stripped_jungle_wood",
+        name: "Stripped Jungle Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Stripped Jungle Wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Stripped Jungle Logs"
+        },
+        description: "Stripped Jungle Wood is a decorative block featuring the smooth, pinkish-tan interior of jungle logs on all six sides. By crafting four stripped jungle logs in a 2x2 grid or using an axe on jungle wood, players can create a block that offers a seamless, uniform texture without the bark or exposed rings of standard logs. This makes it particularly useful for tropical-themed builds, large wooden structures, and sophisticated interior designs. It shares the same mechanical properties as other Overworld wood types, being flammable and best harvested with an axe."
     }
 };
