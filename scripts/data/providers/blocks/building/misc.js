@@ -721,5 +721,26 @@ export const miscBuildingBlocks = {
             yRange: "Smelted from Light Blue Terracotta"
         },
         description: "Light Blue Glazed Terracotta is a vibrant decorative block featuring an intricate, swirling pattern with light blue and white tones. It is created by smelting light blue terracotta in a furnace. Like all glazed terracotta variants, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery and decorative flooring. Its unique directional placement allows builders to create complex, repeating geometric designs when four blocks are placed in a circular fashion. In Bedrock Edition, it provides a striking and ornate look to any structure."
+    },
+    "minecraft:green_glazed_terracotta": {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        hardness: 1.4,
+        blastResistance: 1.4,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Green Glazed Terracotta"],
+        generation: {
+            dimension: "None",
+            yRange: "Smelted from Green Terracotta"
+        },
+        description: "Green Glazed Terracotta is a vibrant decorative block featuring an intricate, ornate pattern with dark green and lime tones. It is created by smelting green terracotta in a furnace. Like all glazed terracotta, it is immune to being moved by slime or honey blocks, making it highly useful for advanced redstone machinery. Its unique directional placement allows builders to create complex, repeating geometric designs, offering a distinct and stylized look to any construction. It requires a pickaxe for harvesting; breaking it by hand will result in no drops."
     }
 };

@@ -1818,5 +1818,47 @@ export const interactiveBlocks = {
             yRange: "Trial Chambers"
         },
         description: "The Ominous Item Spawner is a specialized technical block introduced in Minecraft 1.21, found exclusively in Trial Chambers during ominous trials. It is spawned by an Ominous Trial Spawner to challenge players by spawning projectiles, such as splash potions and arrows, directly above their heads. This block is indestructible and cannot be obtained by players in Survival mode. It emits unique soul fire blue particles, signaling an active ominous event. Its role is purely mechanical, ensuring a dynamic and difficult combat experience within the chamber's trials."
+    },
+    "minecraft:gray_candle": {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Gray Candle is a neutral-toned decorative light source that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. Its muted gray color makes it ideal for industrial, modern, or stony interior designs. Like other candles in Bedrock Edition, it must be lit with flint and steel to emit light. It can also be placed on top of a cake to create a gray candle cake, perfect for low-profile celebrations. These candles are waterloggable but cannot be lit while submerged."
+    },
+    "minecraft:lime_candle": {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Candle"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Lime Candle is a vibrant decorative light source block featuring a bright lime green color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Lime candles can also be placed on top of a cake to create a Lime Candle Cake, making them a versatile choice for tropical-themed or toxic-inspired interior decorations. They are waterloggable but cannot be lit while submerged."
     }
 };
