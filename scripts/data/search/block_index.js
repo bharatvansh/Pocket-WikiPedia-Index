@@ -721,6 +721,13 @@ export const blockIndex = [
         themeColor: "§a" // green/copper
     },
     {
+        id: "minecraft:exposed_copper_lantern",
+        name: "Exposed Copper Lantern",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_lantern",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:copper_bars",
         name: "Copper Bars",
         category: "block",
@@ -2261,6 +2268,13 @@ export const blockIndex = [
         themeColor: "§e" // yellow
     },
     {
+        id: "minecraft:copper_torch",
+        name: "Copper Torch",
+        category: "block",
+        icon: "textures/blocks/copper_torch",
+        themeColor: "§a"
+    },
+    {
         id: "minecraft:underwater_torch",
         name: "Underwater Torch",
         category: "block",
@@ -2700,6 +2714,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/fire_coral_fan",
         themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:fire_coral_wall_fan",
+        name: "Fire Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/fire_coral_fan",
+        themeColor: "§c"
     },
     {
         id: "minecraft:horn_coral_fan",
