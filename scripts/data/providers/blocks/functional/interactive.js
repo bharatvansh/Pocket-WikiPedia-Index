@@ -1860,5 +1860,47 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Lime Candle is a vibrant decorative light source block featuring a bright lime green color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Lime candles can also be placed on top of a cake to create a Lime Candle Cake, making them a versatile choice for tropical-themed or toxic-inspired interior decorations. They are waterloggable but cannot be lit while submerged."
+    },
+    "minecraft:wall_sign": {
+        id: "minecraft:wall_sign",
+        name: "Oak Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:oak_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Oak Wall Sign (internally wall_sign) is a functional decorative block used for displaying text on the sides of solid blocks. Crafted from oak planks and a stick, it features the classic wooden aesthetic found throughout the Overworld. Like other wall signs in Bedrock Edition, it supports four lines of text on both sides and its message can be edited unless waxed with honeycomb. It is highly flammable and most efficiently harvested using an axe."
+    },
+    "minecraft:glow_frame": {
+        id: "minecraft:glow_frame",
+        name: "Glow Item Frame",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:glow_item_frame"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Glow Item Frame is a specialized variant of the item frame that makes the item inside it appear brightly lit, even in complete darkness. In Bedrock Edition, it is a block that does not emit an actual light level but ensures items and maps are always clearly visible. It is crafted by combining a regular item frame with a glow ink sac. This makes it perfect for displaying maps in dark rooms or creating glowing signs and decorations without affecting the ambient lighting."
     }
 };

@@ -1168,5 +1168,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Polished Blackstone"
         },
         description: "The Polished Blackstone Pressure Plate is a stone-type redstone switch crafted from two polished blackstone blocks. Unlike wooden variants, it only detects players and mobs, ignoring dropped items, which makes it perfect for secure inputs and mob-specific traps. Its dark, sleek appearance allows it to blend seamlessly into blackstone-themed structures or provide a high-contrast accent to lighter blocks. It is fire-resistant and provides a signal strength of 15 when activated. It combines the functionality of a stone pressure plate with the unique aesthetic of the Nether."
+    },
+    "minecraft:wooden_pressure_plate": {
+        id: "minecraft:wooden_pressure_plate",
+        name: "Oak Pressure Plate",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:wooden_pressure_plate"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Villages"
+        },
+        description: "The Oak Pressure Plate (internally wooden_pressure_plate) is a wooden redstone component that detects players, mobs, and items. When stepped on or weighted, it emits a redstone signal of strength 15. In Bedrock Edition, it stays active for 30 game ticks (1.5 seconds) after the weight is removed. It is crafted from two oak planks and is frequently found in plains village houses, serving as a simple trigger for doors or traps."
     }
 };
