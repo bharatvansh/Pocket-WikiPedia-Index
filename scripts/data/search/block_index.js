@@ -6502,5 +6502,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/glow_item_frame",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:waxed_weathered_cut_copper_stairs",
+        name: "Waxed Weathered Cut Copper Stairs",
+        category: "block",
+        icon: "textures/blocks/weathered_cut_copper",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:dead_fire_coral_wall_fan",
+        name: "Dead Fire Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/dead_fire_coral_fan",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:stone_block_slab",
+        name: "Stone Slab",
+        category: "block",
+        icon: "textures/blocks/stone",
+        themeColor: "§7"
     }
 ];

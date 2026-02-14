@@ -2525,5 +2525,47 @@ export const slabsStairsBlocks = {
             yRange: "Deep Dark structures"
         },
         description: "Polished Deepslate Slab is a refined half-block building component introduced in Minecraft Bedrock Edition 1.17. It features a sleek and dark masonry texture that provides a modern, sophisticated look compared to rugged deepslate variants. In Bedrock Edition, it possesses a hardness of 3.5 and a blast resistance of 6.0, making it tougher than standard stone slabs. These slabs are essential for creating professional-looking staircases, sloped roofs, and architectural trim in dark-themed builds. They can be crafted from polished deepslate blocks or produced efficiently using a stonecutter."
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+        id: "minecraft:waxed_weathered_cut_copper_stairs",
+        name: "Waxed Weathered Cut Copper Stairs",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_cut_copper_stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Cut Copper Stairs + Honeycomb"
+        },
+        description: "Waxed Weathered Cut Copper Stairs are a decorative metal building block that has been treated with honeycomb to lock in its second oxidation stage. They feature a distinct blue-green patina mixed with remaining brownish-orange tones, providing a classic aged appearance that will not change over time. These stairs are perfect for creating stable rooflines, detailed trim, or industrial-themed staircases. In Bedrock Edition, they require a stone-tier pickaxe or better to harvest. The wax coating can be removed with an axe if the player wishes to resume natural weathering."
+    },
+    "minecraft:stone_block_slab": {
+        id: "minecraft:stone_block_slab",
+        name: "Stone Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:stone_block_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Stone"
+        },
+        description: "Stone Slab is a fundamental building component in Minecraft Bedrock Edition, crafted from three blocks of regular stone. It provides a half-block alternative for detailed flooring, smooth steps, and layered architecture while maintaining the clean, gray texture of stone. Unlike smooth stone slabs, which are made by smelting, these slabs retain the natural stone look and are essential for matching stone-based structures. They can be placed in either the upper or lower half of a block space or combined into a double slab. Being stone-based, they are fire-resistant and offer solid protection."
     }
 };
