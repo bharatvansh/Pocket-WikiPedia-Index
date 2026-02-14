@@ -601,6 +601,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The Hanging Sign is an elegant decorative block introduced in Minecraft 1.20 that displays text in a hanging format. Crafted from two chains and stripped wood, hanging signs provide a sophisticated alternative to standard signs. They can only be placed on the bottom face of solid blocks, with chains attaching to the ceiling. Like regular signs, they can hold up to 90 characters on four lines. Perfect for tavern names, shop signs, and detailed player-created signage systems."
     },
+    "minecraft:standing_sign": {
+        id: "minecraft:standing_sign",
+        name: "Oak Standing Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:oak_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Oak Standing Sign is a functional decorative block used for displaying text. It is the default sign variant in Minecraft, crafted from oak planks and a stick. When placed on the top surface of a solid block, it appears on a post and can be rotated in 16 different directions. It supports up to four lines of text on both the front and back sides. Players can customize the text with dyes and glow ink sacs, or use honeycomb to wax the sign and prevent further editing. It is highly flammable and most efficiently harvested using an axe."
+    },
     "minecraft:spruce_standing_sign": {
         id: "minecraft:spruce_standing_sign",
         name: "Spruce Standing Sign",

@@ -728,6 +728,20 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:weathered_copper_lantern",
+        name: "Weathered Copper Lantern",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_lantern",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:oxidized_copper_lantern",
+        name: "Oxidized Copper Lantern",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_lantern",
+        themeColor: "§2"
+    },
+    {
         id: "minecraft:copper_bars",
         name: "Copper Bars",
         category: "block",
@@ -5907,6 +5921,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dead_bubble_coral",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:standing_sign",
+        name: "Oak Standing Sign",
+        category: "block",
+        icon: "textures/items/sign",
+        themeColor: "§6"
     },
     {
         id: "minecraft:spruce_standing_sign",

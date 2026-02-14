@@ -81,18 +81,60 @@ export const lightingBlocks = {
         flammability: false,
         gravityAffected: false,
         transparent: true,
-        luminance: 15,
+        luminance: 12,
         mining: {
             tool: "Pickaxe",
-            minTier: "Wood",
+            minTier: "Stone",
             silkTouch: false
         },
         drops: ["minecraft:exposed_copper_lantern"],
         generation: {
-            dimension: "None",
-            yRange: "Crafted only"
+            dimension: "Overworld",
+            yRange: "Weathered naturally or generated in structures"
         },
-        description: "Exposed Copper Lantern is a metallic light source representing the second stage of copper oxidation. It emits a bright light level of 15 with a unique green-tinted glow. Crafted from copper nuggets and a copper torch, it features a light green patina beginning to cover its original orange copper surface. Like regular lanterns, it can be placed on top of blocks or hung from ceilings and chains. Players can use honeycomb to wax the lantern and lock it in this stage, or use an axe to scrape the oxidation off. It is highly durable and fire-proof, ideal for aging structural builds."
+        description: "Exposed Copper Lantern is a metallic light source representing the second stage of copper oxidation. It emits a bright light level of 12 as its surface begins to develop a light green patina. It naturally forms from a regular copper lantern over time or can be found generated in structures like Trial Chambers. Like other lanterns, it can be placed on blocks or hung from ceilings. Players can use honeycomb to wax the lantern and lock it in this stage, or use an axe to scrape the oxidation off and revert it to a fresh state."
+    },
+    "minecraft:weathered_copper_lantern": {
+        id: "minecraft:weathered_copper_lantern",
+        name: "Weathered Copper Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 8,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:weathered_copper_lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally"
+        },
+        description: "The Weathered Copper Lantern is a metallic light source representing the third stage of copper oxidation. It emits a moderate light level of 8, providing an atmospheric glow as its surface develops a significant teal-green patina. It naturally forms from an exposed copper lantern when left in the world over time. Players can use an axe to scrape off the oxidation and revert it to a previous stage, or apply honeycomb to wax it and preserve its weathered state indefinitely. Like other lanterns, it can be placed on solid blocks or hung from ceilings."
+    },
+    "minecraft:oxidized_copper_lantern": {
+        id: "minecraft:oxidized_copper_lantern",
+        name: "Oxidized Copper Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 4,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:oxidized_copper_lantern"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally (Final stage)"
+        },
+        description: "The Oxidized Copper Lantern is the final weathering stage of the copper lantern, featuring a complete teal-green patina. It emits a dim light level of 4, making it ideal for low-light atmospheric builds or eerie environments. It naturally forms from a weathered copper lantern over time. Although it has reached its final oxidation state, players can still use an axe to scrape away the patina and reveal the copper beneath, or use honeycomb to wax the lantern and lock in its iconic fully-aged appearance permanently."
     },
     "minecraft:verdant_froglight": {
         id: "minecraft:verdant_froglight",
