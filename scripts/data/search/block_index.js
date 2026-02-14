@@ -6418,5 +6418,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dead_horn_coral_fan",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:light_blue_carpet",
+        name: "Light Blue Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_light_blue",
+        themeColor: "§b"
+    },
+    {
+        id: "minecraft:light_gray_carpet",
+        name: "Light Gray Carpet",
+        category: "block",
+        icon: "textures/blocks/carpet_colored_silver",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:light_blue_stained_glass",
+        name: "Light Blue Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_light_blue",
+        themeColor: "§b"
     }
 ];
