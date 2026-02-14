@@ -470,5 +470,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened White Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education Edition features enabled. Combining a clean white tint with superior durability, it boasts a hardness of 0.3 and a blast resistance of 9. Unlike regular stained glass, it does not shatter easily and can be harvested by hand. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and White Stained Glass. This block is ideal for high-security windows and underwater bases where both visibility and strength are required."
+    },
+    "minecraft:hard_red_stained_glass": {
+        id: "minecraft:hard_red_stained_glass",
+        name: "Hardened Red Stained Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_red_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Red Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education Edition features enabled. Combining a vibrant red tint with superior durability, it boasts a hardness of 0.3 and a blast resistance of 9.0. Unlike regular stained glass, it does not shatter easily and can be harvested by hand without requiring Silk Touch. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Red Stained Glass. This block is ideal for high-security windows and underwater bases where both visibility and strength are required."
     }
 };

@@ -6377,4 +6377,25 @@ export const blockIndex = [
         icon: "textures/blocks/glazed_terracotta_green",
         themeColor: "§2"
     },
+    {
+        id: "minecraft:cherry_wall_sign",
+        name: "Cherry Wall Sign",
+        category: "block",
+        icon: "textures/items/cherry_sign",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:hard_red_stained_glass",
+        name: "Hardened Red Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_red",
+        themeColor: "§c"
+    },
+    {
+        id: "minecraft:dead_bubble_coral_wall_fan",
+        name: "Dead Bubble Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/dead_bubble_coral_fan",
+        themeColor: "§8"
+    }
 ];
