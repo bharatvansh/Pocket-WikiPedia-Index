@@ -533,5 +533,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Black Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are active. It combines a sleek black tint with exceptional durability, boasting a blast resistance of 9.0. This makes it a perfect choice for modern architectural designs that require both aesthetic appeal and protection from explosions. It is produced in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Black Stained Glass. It can be harvested without Silk Touch and provides a sophisticated, darkened view while maintaining structural integrity."
+    },
+    "minecraft:light_blue_stained_glass": {
+        id: "minecraft:light_blue_stained_glass",
+        name: "Light Blue Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Glass x8 and Light Blue Dye"
+        },
+        description: "Light Blue Stained Glass is a transparent decorative block that offers a soft, airy blue tint while maintaining the clear visibility of regular glass. It is crafted by surrounding a piece of light blue dye with eight glass blocks. In Bedrock Edition 1.21+, stained glass blocks have the unique property of dropping themselves as items when broken, even without the Silk Touch enchantment. This makes them highly practical for creative building, allowing for easy collection and relocation. They are ideal for creating sky-themed windows, modern aquariums, and vibrant beacon filters."
     }
 };

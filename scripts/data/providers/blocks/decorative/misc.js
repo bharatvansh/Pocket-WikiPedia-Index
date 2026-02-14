@@ -1881,5 +1881,47 @@ export const miscDecorativeBlocks = {
             yRange: "Crafted only"
         },
         description: "The Pale Oak Wall Sign is a functional wood-based block used for displaying text on the sides of solid blocks. Crafted from pale oak planks and a stick, it features the ghostly light gray aesthetic of the pale oak wood set from the Pale Garden biome. Like other wall signs in Bedrock Edition, it can hold text on both sides, which can be edited after placement. Players can customize the text with dyes and glow ink sacs, or wax it with honeycomb. Its unique pale appearance makes it ideal for labeling rooms or providing directions in eerie or modern architectural builds."
+    },
+    "minecraft:light_blue_carpet": {
+        id: "minecraft:light_blue_carpet",
+        name: "Light Blue Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Light Blue Wool x2"
+        },
+        description: "Light Blue Carpet is a decorative block primarily used for flooring and adding soft accents to builds. It is crafted from two blocks of light blue wool, yielding three carpets. In Minecraft Bedrock Edition, carpets possess a unique acoustic dampening property that prevents Sculk Sensors from detecting movement on top of them, making them vital for navigating the Deep Dark stealthily. They are highly flammable and have a very low blast resistance. Their airy, bright color is often used in modern interiors, sky-themed decorations, and child-friendly room designs."
+    },
+    "minecraft:light_gray_carpet": {
+        id: "minecraft:light_gray_carpet",
+        name: "Light Gray Carpet",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_carpet"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Light Gray Wool x2"
+        },
+        description: "Light Gray Carpet is a thin decorative block used for versatile flooring and detailing. It is crafted from two blocks of light gray wool. In Bedrock Edition, all carpets function as acoustic dampeners, effectively blocking vibrations from reaching Sculk Sensors when entities move across them. This makes them essential tools for exploring Ancient Cities. They are easily broken by hand and highly susceptible to fire. Their neutral, muted tone makes them perfect for modern industrial builds, professional-looking office spaces, and as a subtle transition between higher-contrast materials."
     }
 };
