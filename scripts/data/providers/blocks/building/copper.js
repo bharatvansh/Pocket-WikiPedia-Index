@@ -162,6 +162,27 @@ export const copperBlocks = {
         },
         description: "Weathered Cut Copper is a decorative metal block that represents the second stage of oxidation for cut copper. It features a prominent blue-green patina mixed with remaining brownish-orange tones, offering a classic aged look. Like other copper variants, it can be waxed with honeycomb to lock its current state or scraped with an axe to revert it to the exposed stage. It is crafted from weathered copper blocks or more efficiently in a stonecutter. In Bedrock Edition, it requires a stone pickaxe or higher to harvest; otherwise, it drops nothing. It's ideal for creating detailed gradients."
     },
+    "minecraft:weathered_cut_copper_slab": {
+        id: "minecraft:weathered_cut_copper_slab",
+        name: "Weathered Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Weathered Cut Copper Slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Weathered Cut Copper Slab is a building block that represents the third stage of copper oxidation. It features a distinct greenish-aqua patina characteristic of weathered copper, providing a classic aged look. As a half-block, it offers versatile architectural options for roofing, flooring, and detailed trim work. Like other copper blocks, it can be waxed with honeycomb to preserve its current state or scraped with an axe to revert it. In Bedrock Edition, it requires a stone pickaxe or better to mine."
+    },
     "minecraft:oxidized_cut_copper": {
         id: "minecraft:oxidized_cut_copper",
         name: "Oxidized Cut Copper",

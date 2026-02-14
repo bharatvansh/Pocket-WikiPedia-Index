@@ -3521,6 +3521,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:red_stained_glass_pane",
+        name: "Red Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_red",
+        themeColor: "§c"
+    },
+    {
         id: "minecraft:green_stained_glass",
         name: "Green Stained Glass",
         category: "block",
@@ -5314,6 +5321,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:weathered_cut_copper_slab",
+        name: "Weathered Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/weathered_cut_copper",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:exposed_cut_copper_slab",
         name: "Exposed Cut Copper Slab",
         category: "block",
@@ -5687,6 +5701,13 @@ export const blockIndex = [
     {
         id: "minecraft:stripped_dark_oak_log",
         name: "Stripped Dark Oak Log",
+        category: "block",
+        icon: "textures/blocks/stripped_dark_oak_log_side",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:stripped_dark_oak_wood",
+        name: "Stripped Dark Oak Wood",
         category: "block",
         icon: "textures/blocks/stripped_dark_oak_log_side",
         themeColor: "§8"

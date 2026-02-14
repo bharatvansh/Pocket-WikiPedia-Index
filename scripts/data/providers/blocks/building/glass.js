@@ -135,6 +135,27 @@ export const glassBlocks = {
         },
         description: "Red Stained Glass is a vibrant, transparent decorative block created by surrounding a piece of red dye with eight glass blocks. It retains the transparency of regular glass while adding a bold red tint. Notably in Bedrock Edition, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs, offering a striking visual impact in both modern and traditional builds."
     },
+    "minecraft:red_stained_glass_pane": {
+        id: "minecraft:red_stained_glass_pane",
+        name: "Red Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Red Stained Glass Panes are thin, transparent decorative blocks that provide a vibrant alternative to full glass blocks. They are crafted by combining glass panes with red dye or by crafting red stained glass blocks into panes. In Bedrock Edition 1.21+, they drop themselves when broken even without the Silk Touch enchantment. They connect to adjacent blocks to form seamless windows, perfect for adding a bold splash of color to any build while remaining resource-efficient."
+    },
     "minecraft:green_stained_glass": {
         id: "minecraft:green_stained_glass",
         name: "Green Stained Glass",
