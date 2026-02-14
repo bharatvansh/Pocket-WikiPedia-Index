@@ -346,6 +346,27 @@ export const coralBlocks = {
         },
         description: "Fire Coral Fan is a striking red, fan-shaped marine structure that populates the warm ocean floors and reefs. Known for its vibrant crimson hue, it typically grows on the sides of coral blocks, contributing to the complex architecture of undersea life. In Bedrock Edition, these fans are delicate and require water to maintain their color; if removed from water, they quickly dehydrate into their dead variants. They are best harvested with Silk Touch to keep their vivid appearance, making them a favorite for players looking to create lush, red-tinted aquatic displays."
     },
+    "minecraft:fire_coral_wall_fan": {
+        id: "minecraft:fire_coral_wall_fan",
+        name: "Fire Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:fire_coral_wall_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes"
+        },
+        description: "Fire Coral Wall Fan is a vibrant red, fan-shaped marine structure that grows on the vertical surfaces of blocks in warm ocean reefs. As a living organism, it requires submergence in water to maintain its striking crimson color; exposure to air causes it to die and turn into a gray dead variant. It is extremely fragile and can only be harvested as an item using a tool enchanted with Silk Touch. Its ability to attach to the sides of blocks makes it a favorite for adding vertical detail and natural variety to underwater landscapes and aquariums in Bedrock Edition."
+    },
     "minecraft:horn_coral_fan": {
         id: "minecraft:horn_coral_fan",
         name: "Horn Coral Fan",

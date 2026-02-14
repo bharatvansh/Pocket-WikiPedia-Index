@@ -73,6 +73,27 @@ export const lightingBlocks = {
         },
         description: "The Copper Lantern emits a level 15 green-tinted light. Crafted from copper nuggets and a copper torch, it shares the 3.5 hardness and blast resistance of standard lanterns. It features four oxidation stages: unoxidized, exposed, weathered, and oxidized, changing its color from orange to teal-green over time without affecting its luminance. Players can apply honeycomb to wax the lantern, preserving its current stage. Introduced in the Copper Age update, its unique atmospheric glow and aging mechanic make it a versatile choice for decorative and functional lighting."
     },
+    "minecraft:exposed_copper_lantern": {
+        id: "minecraft:exposed_copper_lantern",
+        name: "Exposed Copper Lantern",
+        hardness: 3.5,
+        blastResistance: 3.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 15,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:exposed_copper_lantern"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Exposed Copper Lantern is a metallic light source representing the second stage of copper oxidation. It emits a bright light level of 15 with a unique green-tinted glow. Crafted from copper nuggets and a copper torch, it features a light green patina beginning to cover its original orange copper surface. Like regular lanterns, it can be placed on top of blocks or hung from ceilings and chains. Players can use honeycomb to wax the lantern and lock it in this stage, or use an axe to scrape the oxidation off. It is highly durable and fire-proof, ideal for aging structural builds."
+    },
     "minecraft:verdant_froglight": {
         id: "minecraft:verdant_froglight",
         name: "Verdant Froglight",
@@ -219,6 +240,27 @@ export const lightingBlocks = {
             yRange: "Strongholds, Villages, Mineshafts, Ancient Cities"
         },
         description: "A Torch is a non-solid block that emits a light level of 14. It is one of the most common light sources in the game, essential for preventing hostile mob spawning and illuminating caves and structures. Crafted from a stick and coal or charcoal, torches can be placed on the top or sides of most solid blocks. They break if the block they are attached to is removed or if water flows into them. Torches are also used in crafting lanterns and jack o'lanterns."
+    },
+    "minecraft:copper_torch": {
+        id: "minecraft:copper_torch",
+        name: "Copper Torch",
+        hardness: 0.0,
+        blastResistance: 0.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 14,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:copper_torch"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "A Copper Torch is a unique lighting block introduced in Minecraft 1.21 that emits a distinctive green flame. It provides a light level of 14, matching the standard torch, but offers a different aesthetic suitable for copper-themed builds or magical atmospheres. It is crafted by combining a regular torch with a copper nugget. Copper torches can be placed on the top or sides of most solid blocks and serve as a key ingredient in crafting copper lanterns. Like other torches, they are non-solid and will break if their support is removed or if they are touched by water."
     },
     "minecraft:underwater_torch": {
         id: "minecraft:underwater_torch",
