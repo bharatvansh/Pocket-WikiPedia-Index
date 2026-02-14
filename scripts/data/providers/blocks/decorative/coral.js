@@ -619,6 +619,27 @@ export const coralBlocks = {
         },
         description: "Bubble Coral Wall Fan is a magenta-colored, fan-like structure that grows on the vertical surfaces of blocks within coral reefs. It features the unique bubble-like textures characteristic of the bubble coral family but in a flat, vertical orientation. This aquatic plant is highly sensitive to its environment and must remain underwater to survive. Harvesting it requires a tool with Silk Touch, as it shatters easily. Its vibrant purple-pink color adds a beautiful splash of light and variety to any underwater landscape or aquarium design."
     },
+    "minecraft:dead_bubble_coral_wall_fan": {
+        id: "minecraft:dead_bubble_coral_wall_fan",
+        name: "Dead Bubble Coral Wall Fan",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: true
+        },
+        drops: ["minecraft:dead_bubble_coral_wall_fan"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Warm Ocean biomes (results from living coral fans dying)"
+        },
+        description: "Dead Bubble Coral Wall Fan is the desaturated, gray remains of a living Bubble Coral Wall Fan. This state occurs when the living coral fan is removed from water or its water source is destroyed. While it loses its vibrant magenta color, it retains its unique flat, fan-like shape attached to the vertical sides of blocks. In Bedrock Edition, it serves as a purely decorative element, often used to create a weathered or skeletal aesthetic in aquatic or coastal builds. It can be broken instantly by hand and requires Silk Touch to be harvested as an item."
+    },
     "minecraft:dead_bubble_coral_fan": {
         id: "minecraft:dead_bubble_coral_fan",
         name: "Dead Bubble Coral Fan",

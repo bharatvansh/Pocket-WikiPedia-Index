@@ -1504,6 +1504,27 @@ export const miscDecorativeBlocks = {
         },
         description: "The Cherry Standing Sign is a decorative wood-based block used for signage. Introduced in version 1.20, it is crafted from cherry planks and a stick, showcasing a beautiful pale pink color. It can be placed on any solid top surface and rotated to face 16 different angles. Like other signs, it supports four lines of text on each side. The text color can be changed using dyes, and glow ink sacs can be applied to make the text luminous, making it perfect for aesthetic and colorful builds."
     },
+    "minecraft:cherry_wall_sign": {
+        id: "minecraft:cherry_wall_sign",
+        name: "Cherry Wall Sign",
+        hardness: 1.0,
+        blastResistance: 1.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:cherry_sign"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Cherry Wall Sign is a functional decorative wood-based block used for displaying text on the sides of solid blocks. Introduced in the 1.20 Trails & Tales update, it is crafted from cherry planks and a stick, showcasing a beautiful pale pink color. Like other wall signs in Bedrock Edition, it supports four lines of text on both sides, which can be edited after placement. Players can customize the text with dyes and glow ink sacs, or apply honeycomb to wax it and prevent further changes. Its soft pink hue makes it ideal for floral-themed builds and aesthetic interiors."
+    },
     "minecraft:bamboo_standing_sign": {
         id: "minecraft:bamboo_standing_sign",
         name: "Bamboo Standing Sign",
