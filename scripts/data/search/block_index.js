@@ -6397,5 +6397,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dead_bubble_coral_fan",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:hard_blue_stained_glass",
+        name: "Hardened Blue Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_blue",
+        themeColor: "§9"
+    },
+    {
+        id: "minecraft:hard_black_stained_glass",
+        name: "Hardened Black Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_black",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:dead_horn_coral_fan",
+        name: "Dead Horn Coral Fan",
+        category: "block",
+        icon: "textures/blocks/dead_horn_coral_fan",
+        themeColor: "§8"
     }
 ];
