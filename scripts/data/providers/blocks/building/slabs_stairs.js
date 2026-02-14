@@ -2525,5 +2525,68 @@ export const slabsStairsBlocks = {
             yRange: "Deep Dark structures"
         },
         description: "Polished Deepslate Slab is a refined half-block building component introduced in Minecraft Bedrock Edition 1.17. It features a sleek and dark masonry texture that provides a modern, sophisticated look compared to rugged deepslate variants. In Bedrock Edition, it possesses a hardness of 3.5 and a blast resistance of 6.0, making it tougher than standard stone slabs. These slabs are essential for creating professional-looking staircases, sloped roofs, and architectural trim in dark-themed builds. They can be crafted from polished deepslate blocks or produced efficiently using a stonecutter."
+    },
+    "minecraft:cut_copper_slab": {
+        id: "minecraft:cut_copper_slab",
+        name: "Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:cut_copper_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cut Copper or Stonecutter"
+        },
+        description: "Cut Copper Slab is a decorative building block introduced in Minecraft Bedrock Edition's 1.17 update. It is a half-block variant of cut copper, featuring the same unique tiled texture that makes it perfect for industrial flooring, modern roofing, and detailed trim work. Like other copper blocks, it oxidizes through four stages over time, changing from a bright orange to a distinctive teal-green patina. In Bedrock Edition, it requires a stone pickaxe or higher to harvest and can be waxed with honeycomb to preserve its current oxidation state or scraped with an axe to revert it."
+    },
+    "minecraft:waxed_cut_copper_slab": {
+        id: "minecraft:waxed_cut_copper_slab",
+        name: "Waxed Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_cut_copper_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Cut Copper Slab and Honeycomb"
+        },
+        description: "Waxed Cut Copper Slab is a decorative building block that has been treated with honeycomb to lock its pristine, orange-copper appearance indefinitely. As a half-block variant, it provides versatile architectural options for roofs, floors, and trim while maintaining its distinctive tiled texture without the risk of oxidation. This block is ideal for modern or industrial builds where a permanent metallic look is desired. In Bedrock Edition, players can use an axe on the block to remove the wax layer, allowing it to begin weathering naturally through its oxidation stages."
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+        id: "minecraft:waxed_exposed_cut_copper_slab",
+        name: "Waxed Exposed Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_cut_copper_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Cut Copper Slab and Honeycomb"
+        },
+        description: "Waxed Exposed Cut Copper Slab is a decorative building component that has been waxed to preserve its first stage of oxidation. It features a slightly tarnished, brownish-orange appearance with a unique tiled texture, perfect for rustic or weathered architectural details. By applying honeycomb, the block's current look is permanently locked, preventing further transition to the teal-green patina of fully oxidized copper. In Bedrock Edition, it behaves as a durable stone-like half-block that requires a stone pickaxe or better to mine, and its wax coating can be removed using any axe."
     }
 };
