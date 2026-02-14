@@ -6356,4 +6356,25 @@ export const blockIndex = [
         icon: "textures/blocks/stripped_jungle_log_side",
         themeColor: "§6"
     },
+    {
+        id: "minecraft:gray_candle",
+        name: "Gray Candle",
+        category: "block",
+        icon: "textures/items/candle_gray",
+        themeColor: "§8"
+    },
+    {
+        id: "minecraft:lime_candle",
+        name: "Lime Candle",
+        category: "block",
+        icon: "textures/items/candle_lime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:green_glazed_terracotta",
+        name: "Green Glazed Terracotta",
+        category: "block",
+        icon: "textures/blocks/glazed_terracotta_green",
+        themeColor: "§2"
+    },
 ];
