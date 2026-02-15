@@ -575,5 +575,26 @@ export const glassBlocks = {
             yRange: "Crafted from Glass x8 and Light Blue Dye"
         },
         description: "Light Blue Stained Glass is a transparent decorative block that offers a soft, airy blue tint while maintaining the clear visibility of regular glass. It is crafted by surrounding a piece of light blue dye with eight glass blocks. In Bedrock Edition 1.21+, stained glass blocks have the unique property of dropping themselves as items when broken, even without the Silk Touch enchantment. This makes them highly practical for creative building, allowing for easy collection and relocation. They are ideal for creating sky-themed windows, modern aquariums, and vibrant beacon filters."
+    },
+    "minecraft:gray_stained_glass": {
+        id: "minecraft:gray_stained_glass",
+        name: "Gray Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:gray_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Glass x8 and Gray Dye"
+        },
+        description: "Gray Stained Glass is a transparent decorative block with a muted gray tint. In Bedrock Edition 1.21+, stained glass blocks drop themselves as items when broken even without the Silk Touch enchantment. It is crafted by surrounding gray dye with eight glass blocks. This block is perfect for modern architectural designs, providing a sleek and industrial aesthetic while allowing light to pass through. It can also be used to color beacon beams or create artistic window designs that require a more neutral and sophisticated color palette."
     }
 };

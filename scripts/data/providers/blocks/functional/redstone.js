@@ -1189,5 +1189,26 @@ export const redstoneBlocks = {
             yRange: "Villages"
         },
         description: "The Oak Pressure Plate (internally wooden_pressure_plate) is a wooden redstone component that detects players, mobs, and items. When stepped on or weighted, it emits a redstone signal of strength 15. In Bedrock Edition, it stays active for 30 game ticks (1.5 seconds) after the weight is removed. It is crafted from two oak planks and is frequently found in plains village houses, serving as a simple trigger for doors or traps."
+    },
+    "minecraft:warped_button": {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        hardness: 0.5,
+        blastResistance: 0.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:warped_button"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Crafted from Warped Planks"
+        },
+        description: "A Warped Button is a fire-resistant redstone switch crafted from a warped plank. Like other wooden buttons, it provides a 1.5-second (15 redstone ticks) pulse when activated by hand or by projectiles like arrows. Being native to the Nether's fungal forests, it is completely immune to fire and lava, making it ideal for mechanisms in hazardous environments. Its distinct teal color allows it to blend seamlessly with warped-themed structures or provide a vibrant accent to other blocks. It can be placed on any side of a solid block."
     }
 };
