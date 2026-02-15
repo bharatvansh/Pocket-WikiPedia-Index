@@ -263,6 +263,27 @@ export const woodBlocks = {
         },
         description: "Pale Oak Wood is a block with the bark texture of Pale Oak logs on all six sides, introduced in Minecraft 1.21.50. It is crafted by arranging four Pale Oak Logs in a 2x2 grid. Unlike logs, which have a top and bottom 'rings' texture, wood blocks appear as bark on every face, making them ideal for creating seamless organic structures like custom trees or roots. Like other wood blocks, it can be stripped using an axe to create Stripped Pale Oak Wood."
     },
+    "minecraft:stripped_pale_oak_wood": {
+        id: "minecraft:stripped_pale_oak_wood",
+        name: "Stripped Pale Oak Wood",
+        hardness: 2.0,
+        blastResistance: 2.0,
+        flammability: true,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:stripped_pale_oak_wood"],
+        generation: {
+            dimension: "None",
+            yRange: "Axe on Pale Oak Wood or crafting"
+        },
+        description: "Stripped Pale Oak Wood is a decorative wood block from the Pale Garden biome, introduced in Minecraft Bedrock 1.21.40. It is created by using an axe on Pale Oak Wood or by crafting together stripped pale oak logs. Unlike logs, it features the desaturated, ghostly bark-free texture on all six sides, making it an excellent choice for seamless pillars and beams. Its muted, pale coloration provides an eerie, atmospheric feel perfect for gothic or spectral-themed builds. It is flammable and most efficiently harvested using an axe."
+    },
     "minecraft:crimson_stem": {
         id: "minecraft:crimson_stem",
         name: "Crimson Stem",

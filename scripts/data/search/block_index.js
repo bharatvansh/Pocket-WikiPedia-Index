@@ -6586,5 +6586,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/polished_deepslate",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:hard_cyan_stained_glass",
+        name: "Hardened Cyan Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_cyan",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:waxed_exposed_copper_trapdoor",
+        name: "Waxed Exposed Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/exposed_copper_trapdoor",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:stripped_pale_oak_wood",
+        name: "Stripped Pale Oak Wood",
+        category: "block",
+        icon: "textures/blocks/stripped_pale_oak_log_side",
+        themeColor: "§e"
     }
 ];

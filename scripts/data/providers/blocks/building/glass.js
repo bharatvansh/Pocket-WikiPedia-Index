@@ -638,5 +638,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Yellow Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education features enabled. It combines a cheerful yellow tint with superior blast resistance of 9.0, making it much more durable against explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Yellow Stained Glass. Unlike regular glass, it can be harvested by hand without requiring Silk Touch, making it ideal for high-security builds and underwater observatories."
+    },
+    "minecraft:hard_cyan_stained_glass": {
+        id: "minecraft:hard_cyan_stained_glass",
+        name: "Hardened Cyan Stained Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_cyan_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Cyan Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are enabled. It combines a vibrant blue-green tint with superior durability, featuring a blast resistance of 9.0, making it much more resistant to explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Cyan Stained Glass. Unlike regular glass, it does not shatter easily and can be harvested by hand without Silk Touch, making it ideal for high-security builds and underwater observatories."
     }
 };
