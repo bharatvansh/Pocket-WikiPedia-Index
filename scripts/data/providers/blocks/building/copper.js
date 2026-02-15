@@ -1127,5 +1127,26 @@ export const copperBlocks = {
             yRange: "Trial Chambers"
         },
         description: "Cut Copper Stairs are decorative metal blocks featuring a unique tiled texture. Introduced in the 1.17 Caves & Cliffs update, they provide a sophisticated industrial look for staircases and sloped roofs. Like other copper blocks, they undergo four stages of oxidation, changing from bright orange to a teal-green patina over time. Naturally generating within Trial Chambers, they can be waxed with honeycomb to lock their current color or scraped with an axe to revert their aging. In Bedrock Edition, they can be mined with any pickaxe, including those made of wood."
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+        id: "minecraft:waxed_oxidized_cut_copper",
+        name: "Waxed Oxidized Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_cut_copper"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Oxidized Cut Copper is a decorative metal block that has been treated with honeycomb to permanently preserve its final teal-green patina. It features a unique tiled texture that provides a sophisticated industrial look. Because it is waxed, it is immune to further environmental changes, ensuring the aged aesthetic remains stable. In Minecraft Bedrock Edition, it can be harvested with any pickaxe, including those made of wood. Players can use an axe to remove the wax coating or scrape off oxidation layers if they wish to revert the block's appearance."
     }
 };

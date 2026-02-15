@@ -596,5 +596,47 @@ export const glassBlocks = {
             yRange: "Crafted from Glass x8 and Gray Dye"
         },
         description: "Gray Stained Glass is a transparent decorative block with a muted gray tint. In Bedrock Edition 1.21+, stained glass blocks drop themselves as items when broken even without the Silk Touch enchantment. It is crafted by surrounding gray dye with eight glass blocks. This block is perfect for modern architectural designs, providing a sleek and industrial aesthetic while allowing light to pass through. It can also be used to color beacon beams or create artistic window designs that require a more neutral and sophisticated color palette."
+    },
+    "minecraft:gray_stained_glass_pane": {
+        id: "minecraft:gray_stained_glass_pane",
+        name: "Gray Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:gray_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Gray Stained Glass Panes are thin, transparent decorative blocks that provide a neutral alternative to full glass blocks. In Bedrock Edition, they are crafted exclusively from gray stained glass blocks using a crafting table or stonecutter. Starting with version 1.21+, they drop themselves as items when broken even without the Silk Touch enchantment. These panes connect to adjacent blocks to form seamless, modern windows, offering a sophisticated and muted aesthetic while remaining highly resource-efficient for large-scale builds."
+    },
+    "minecraft:hard_yellow_stained_glass": {
+        id: "minecraft:hard_yellow_stained_glass",
+        name: "Hardened Yellow Stained Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_yellow_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Yellow Stained Glass is a reinforced variant of stained glass available in Bedrock Edition with Education features enabled. It combines a cheerful yellow tint with superior blast resistance of 9.0, making it much more durable against explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Yellow Stained Glass. Unlike regular glass, it can be harvested by hand without requiring Silk Touch, making it ideal for high-security builds and underwater observatories."
     }
 };
