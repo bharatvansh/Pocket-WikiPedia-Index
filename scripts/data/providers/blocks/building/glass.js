@@ -534,6 +534,27 @@ export const glassBlocks = {
         },
         description: "Hardened Black Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are active. It combines a sleek black tint with exceptional durability, boasting a blast resistance of 9.0. This makes it a perfect choice for modern architectural designs that require both aesthetic appeal and protection from explosions. It is produced in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Black Stained Glass. It can be harvested without Silk Touch and provides a sophisticated, darkened view while maintaining structural integrity."
     },
+    "minecraft:hard_orange_stained_glass": {
+        id: "minecraft:hard_orange_stained_glass",
+        name: "Hardened Orange Stained Glass",
+        hardness: 0.3,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_orange_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Orange Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are enabled. It combines a vibrant orange tint with superior durability, featuring a blast resistance of 9.0, making it much more resistant to explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Orange Stained Glass. Unlike regular glass, it does not shatter easily and can be harvested by hand without Silk Touch, making it ideal for high-security builds and underwater observatories."
+    },
     "minecraft:light_blue_stained_glass": {
         id: "minecraft:light_blue_stained_glass",
         name: "Light Blue Stained Glass",

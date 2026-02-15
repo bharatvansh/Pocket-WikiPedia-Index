@@ -2567,5 +2567,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Stone"
         },
         description: "Stone Slab is a fundamental building component in Minecraft Bedrock Edition, crafted from three blocks of regular stone. It provides a half-block alternative for detailed flooring, smooth steps, and layered architecture while maintaining the clean, gray texture of stone. Unlike smooth stone slabs, which are made by smelting, these slabs retain the natural stone look and are essential for matching stone-based structures. They can be placed in either the upper or lower half of a block space or combined into a double slab. Being stone-based, they are fire-resistant and offer solid protection."
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+        id: "minecraft:waxed_oxidized_cut_copper_slab",
+        name: "Waxed Oxidized Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_cut_copper_slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted from Oxidized Cut Copper Slab + Honeycomb"
+        },
+        description: "Waxed Oxidized Cut Copper Slab is a durable building block that permanently preserves the final teal-green oxidation stage of cut copper in slab form. Treated with honeycomb to prevent further weathering, it features a refined, tiled masonry texture perfect for low-profile roofing, detailed pathways, and decorative accents in historic or industrial builds. In Bedrock Edition, it requires a stone-tier pickaxe or higher to harvest and can be waterlogged. Players can remove the protective wax layer using an axe if they wish to return the block to its unwaxed state."
     }
 };

@@ -6518,10 +6518,31 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:dead_horn_coral_wall_fan",
+        name: "Dead Horn Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/dead_horn_coral_fan",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:stone_block_slab",
         name: "Stone Slab",
         category: "block",
         icon: "textures/blocks/stone",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:hard_orange_stained_glass",
+        name: "Hardened Orange Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_oxidized_cut_copper_slab",
+        name: "Waxed Oxidized Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/oxidized_cut_copper",
+        themeColor: "§2"
     }
 ];
