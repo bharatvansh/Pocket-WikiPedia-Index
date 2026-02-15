@@ -6607,5 +6607,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stripped_pale_oak_log_side",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:hard_magenta_stained_glass",
+        name: "Hardened Magenta Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_magenta",
+        themeColor: "§d"
+    },
+    {
+        id: "minecraft:hard_lime_stained_glass",
+        name: "Hardened Lime Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_lime",
+        themeColor: "§a"
+    },
+    {
+        id: "minecraft:hard_purple_stained_glass",
+        name: "Hardened Purple Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_purple",
+        themeColor: "§5"
     }
 ];
