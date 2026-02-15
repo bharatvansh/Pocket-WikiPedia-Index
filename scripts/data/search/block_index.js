@@ -6523,5 +6523,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stone",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        category: "block",
+        icon: "textures/blocks/lab_table",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        category: "block",
+        icon: "textures/blocks/element_constructor",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        category: "block",
+        icon: "textures/blocks/compound_creator",
+        themeColor: "§7"
     }
 ];
