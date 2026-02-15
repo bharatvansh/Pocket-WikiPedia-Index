@@ -827,5 +827,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Pink Stained Glass is an exceptionally durable building material introduced in the Education Edition features of Minecraft Bedrock. It combines the transparency of standard glass with high hardness (10.0) and blast resistance (9.0), making it much tougher than regular glass. Its soft pink tint and superior strength make it a top choice for players building in hazardous environments or creating industrial-themed aesthetic designs. Unlike standard stained glass, it does not require the Silk Touch enchantment and can be harvested with any pickaxe."
+    },
+    "minecraft:hard_red_stained_glass_pane": {
+        id: "minecraft:hard_red_stained_glass_pane",
+        name: "Hardened Red Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Red Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Red Stained Glass Pane is a reinforced, thin transparent block exclusive to Bedrock Edition with Education features enabled. It combines a vibrant red tint with exceptional durability, boasting a hardness of 10 and blast resistance of 9. These panes connect to adjacent blocks to form seamless, colored windows that are resistant to explosions and physical impact. Unlike regular glass panes that are fragile, hardened red panes drop as items when broken even without Silk Touch, making them ideal for high-security decorative builds."
+    },
+    "minecraft:hard_white_stained_glass_pane": {
+        id: "minecraft:hard_white_stained_glass_pane",
+        name: "Hardened White Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened White Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened White Stained Glass Panes are durable, thin transparent blocks available when Education Edition features are active. They offer a clean white tint with a high blast resistance of 9.0 and hardness of 10.0, making them much tougher than standard panes. These reinforced panes provide a sleek look while remaining resistant to explosions. They can be harvested efficiently with a pickaxe and do not require Silk Touch to drop as items, providing a perfect blend of aesthetic clarity and structural security for advanced architectural projects."
+    },
+    "minecraft:hard_yellow_stained_glass_pane": {
+        id: "minecraft:hard_yellow_stained_glass_pane",
+        name: "Hardened Yellow Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Yellow Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Yellow Stained Glass Panes are exceptionally durable building materials introduced in the Education Edition features. They combine a cheerful yellow tint with the superior strength of hardened glass, featuring a hardness of 10.0 and blast resistance of 9.0. These panes are ideal for hazardous environments or industrial designs where both visibility and safety are paramount. Unlike standard glass panes, they are resistant to blasts and do not require the Silk Touch enchantment to be retrieved, making them a practical choice for complex builds."
     }
 };
