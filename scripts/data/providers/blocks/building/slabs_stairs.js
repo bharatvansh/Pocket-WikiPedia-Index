@@ -2609,5 +2609,68 @@ export const slabsStairsBlocks = {
             yRange: "Ancient Cities, Crafted/Stonecut"
         },
         description: "Polished Deepslate Stairs are a durable building block crafted from polished deepslate. They feature a smooth, dark gray texture that is ideal for creating sophisticated staircases, sloped roofs, and detailed architectural trim. As a deepslate variant, they are tougher than standard stone stairs, with a blast resistance of 6.0. They naturally occur in Ancient Cities and are favored by builders for their elegant, modern appearance. They can be waterlogged and placed in various orientations to create complex shapes like cornices and eaves."
+    },
+    "minecraft:sandstone_slab": {
+        id: "minecraft:sandstone_slab",
+        name: "Sandstone Slab",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:sandstone_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Desert Villages and Temples"
+        },
+        description: "Sandstone Slab is a versatile building block in Minecraft Bedrock Edition, crafted from three blocks of regular sandstone. It provides a half-height alternative for detailed desert-themed construction, such as tiered flooring, smooth staircases, and intricate architectural highlights. Naturally found in desert temples and villages, these slabs share the same warm, yellowish-tan texture as sandstone. They are fire-resistant and can be placed in either the upper or lower half of a block space, or combined into double slabs for a solid appearance."
+    },
+    "minecraft:quartz_slab": {
+        id: "minecraft:quartz_slab",
+        name: "Quartz Slab",
+        hardness: 0.8,
+        blastResistance: 0.8,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:quartz_slab"],
+        generation: {
+            dimension: "Nether",
+            yRange: "Bastion Remnants"
+        },
+        description: "Quartz Slab is a sleek, white building component crafted from blocks of quartz. Highly valued for its clean and bright aesthetic, it is a staple in modern architectural designs, providing polished highlights for flooring, ceilings, and minimalist furniture. Unlike smooth quartz slabs, regular quartz slabs feature a subtle border that adds detail to structures. In Bedrock Edition, they are fire-resistant and can be placed in various orientations. These slabs allow for smooth elevation changes and tiered layering while showcasing the luxury of Nether-derived materials."
+    },
+    "minecraft:stone_brick_slab": {
+        id: "minecraft:stone_brick_slab",
+        name: "Stone Brick Slab",
+        hardness: 1.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:stone_brick_slab"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Strongholds and Villages"
+        },
+        description: "Stone Brick Slab is a durable masonry building block crafted from Stone Bricks. It features the refined, structured pattern of stone bricks in a half-block form, making it ideal for creating professional-looking pathways, castle battlements, and grand staircases. Naturally generating in strongholds and some villages, it provides a sturdy and atmospheric touch to any build. In Bedrock Edition, stone brick slabs are fire-proof and offer high blast resistance. They can be waterlogged and placed in multiple halves of a block, offering immense versatility for medieval architecture."
     }
 };
