@@ -5888,6 +5888,13 @@ export const blockIndex = [
         themeColor: "§0"
     },
     {
+        id: "minecraft:waxed_copper_door",
+        name: "Waxed Copper Door",
+        category: "block",
+        icon: "textures/items/copper_door",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:waxed_exposed_copper_door",
         name: "Waxed Exposed Copper Door",
         category: "block",
@@ -5942,6 +5949,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/weathered_copper_door",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:waxed_oxidized_copper_door",
+        name: "Waxed Oxidized Copper Door",
+        category: "block",
+        icon: "textures/items/oxidized_copper_door",
+        themeColor: "§2"
     },
     {
         id: "minecraft:dead_bubble_coral",
@@ -6180,6 +6194,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/dead_tube_coral_fan",
         themeColor: "§7"
+    },
+    {
+        id: "minecraft:dead_tube_coral_wall_fan",
+        name: "Dead Tube Coral Wall Fan",
+        category: "block",
+        icon: "textures/blocks/dead_tube_coral_fan",
+        themeColor: "§8"
     },
     {
         id: "minecraft:brown_stained_glass_pane",
