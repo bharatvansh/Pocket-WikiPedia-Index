@@ -1044,6 +1044,27 @@ export const copperBlocks = {
         },
         description: "Waxed Oxidized Chiseled Copper represents the final oxidation stage of the chiseled copper block, preserved indefinitely using honeycomb. It features a rich, uniform teal-green patina that covers its unique geometric carvings, providing a beautiful weathered aesthetic for grand structures. The wax coating ensures it remains in this fully aged state regardless of environmental exposure. In Bedrock Edition, it requires a stone-tier pickaxe or higher to harvest correctly. Like other waxed variants, the wax layer can be scraped off with an axe if needed."
     },
+    "minecraft:waxed_copper_door": {
+        id: "minecraft:waxed_copper_door",
+        name: "Waxed Copper Door",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_copper_door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Copper Door or applied Honeycomb"
+        },
+        description: "The Waxed Copper Door is a functional and decorative block introduced in the 1.21 Tricky Trials update. By applying honeycomb to a standard copper door, players can permanently lock its pristine orange appearance and prevent natural oxidation. Like other doors, it can be opened manually or with redstone signals and is waterloggable in Bedrock Edition. To harvest this block, a stone-tier pickaxe or higher must be used; otherwise, it will not drop as an item. It provides a warm, metallic aesthetic that remains constant regardless of environmental exposure."
+    },
     "minecraft:waxed_exposed_copper_door": {
         id: "minecraft:waxed_exposed_copper_door",
         name: "Waxed Exposed Copper Door",
@@ -1085,6 +1106,27 @@ export const copperBlocks = {
             yRange: "Crafted from Weathered Copper Door or applied Honeycomb"
         },
         description: "The Waxed Weathered Copper Door is a functional and decorative block that has been treated with honeycomb to lock in its distinct blue-green patina. This treatment ensures that the door will never fully oxidize, maintaining its aged aesthetic indefinitely. Like other copper doors, it can be opened by hand or with redstone signals and is waterloggable in Bedrock Edition. Players can use an axe to scrape off the wax layer if they wish to allow natural oxidation to resume."
+    },
+    "minecraft:waxed_oxidized_copper_door": {
+        id: "minecraft:waxed_oxidized_copper_door",
+        name: "Waxed Oxidized Copper Door",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_copper_door"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Copper Door or applied Honeycomb"
+        },
+        description: "The Waxed Oxidized Copper Door is the final oxidation stage of the copper door family, permanently preserved with honeycomb. It features a rich teal-green patina that offers a beautiful weathered look for ancient ruins or industrial architecture. The wax coating ensures that the block's appearance remains permanent regardless of environmental exposure. Like other variants, it can be opened manually or via redstone and is waterloggable in Bedrock Edition. To obtain the block as an item, it must be mined with a stone-tier pickaxe or higher, as breaking it with lesser tools yields no drops."
     },
     "minecraft:waxed_exposed_copper_chain": {
         id: "minecraft:waxed_exposed_copper_chain",
