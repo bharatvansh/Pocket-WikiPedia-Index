@@ -750,6 +750,48 @@ export const copperBlocks = {
         },
         description: "A decorative variant of cut copper that has been waxed with honeycomb to prevent further oxidation. It features the same tiled, industrial texture as standard cut copper but is permanently frozen in its pristine orange state. Waxed cut copper is ideal for builders who want a consistent, non-aging tiled look for modern flooring or industrial roofing. Like other waxed blocks, the wax can be scraped off with an axe to allow the block to begin weathering naturally into its' subsequent developmental stages."
     },
+    "minecraft:waxed_exposed_cut_copper": {
+        id: "minecraft:waxed_exposed_cut_copper",
+        name: "Waxed Exposed Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_cut_copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Waxed Exposed Cut Copper is a decorative metal block from Minecraft Bedrock Edition that has been treated with honeycomb to permanently preserve its first oxidation stage. It features a distinct tiled texture with a tarnished, brownish-orange appearance. Because it is waxed, it is immune to further weathering from air or rain, allowing builders to lock in a specific aesthetic for their industrial or modern structures. In Bedrock Edition, it can be harvested with any pickaxe, including those made of wood, provided it is used to break the block correctly."
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+        id: "minecraft:waxed_weathered_cut_copper",
+        name: "Waxed Weathered Cut Copper",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_cut_copper"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Weathered naturally or crafted"
+        },
+        description: "Waxed Weathered Cut Copper is a decorative building block that has reached the second stage of oxidation and been sealed with honeycomb to prevent further aging. It exhibits a prominent blue-green patina mixed with remaining brownish-orange tones, providing a classic aged look that remains stable regardless of environmental exposure. This waxed variant is ideal for roofing and detailed architectural accents where a permanent, time-worn metallic appearance is desired. In Bedrock Edition, it can be harvested with any pickaxe tier, making it easy to collect and reposition."
+    },
     "minecraft:waxed_chiseled_copper": {
         id: "minecraft:waxed_chiseled_copper",
         name: "Waxed Chiseled Copper",

@@ -280,6 +280,13 @@ export const blockIndex = [
         themeColor: "§6" // copper/orange
     },
     {
+        id: "minecraft:waxed_exposed_cut_copper",
+        name: "Waxed Exposed Cut Copper",
+        category: "block",
+        icon: "textures/blocks/exposed_cut_copper",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:waxed_exposed_cut_copper_stairs",
         name: "Waxed Exposed Cut Copper Stairs",
         category: "block",
@@ -6511,6 +6518,13 @@ export const blockIndex = [
         themeColor: "§e"
     },
     {
+        id: "minecraft:waxed_weathered_cut_copper",
+        name: "Waxed Weathered Cut Copper",
+        category: "block",
+        icon: "textures/blocks/weathered_cut_copper",
+        themeColor: "§3"
+    },
+    {
         id: "minecraft:waxed_weathered_cut_copper_stairs",
         name: "Waxed Weathered Cut Copper Stairs",
         category: "block",
@@ -6586,6 +6600,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/deepslate/polished_deepslate",
         themeColor: "§8"
+    },
+    {
+        id: "minecraft:hard_brown_stained_glass",
+        name: "Hardened Brown Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_brown",
+        themeColor: "§6"
     },
     {
         id: "minecraft:hard_cyan_stained_glass",

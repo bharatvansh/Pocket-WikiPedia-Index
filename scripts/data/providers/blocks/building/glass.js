@@ -722,5 +722,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Purple Stained Glass is a durable, transparent block exclusive to Bedrock Edition's Education features. It features a deep purple tint and superior structural integrity compared to standard stained glass, with a hardness of 10 and blast resistance of 9. This reinforced block does not shatter when broken and can be safely harvested by hand or with any tool. It is created in the Compound Creator by mixing Aluminum Oxide and Boron Trioxide with Purple Stained Glass, making it excellent for protective windows."
+    },
+    "minecraft:hard_brown_stained_glass": {
+        id: "minecraft:hard_brown_stained_glass",
+        name: "Hardened Brown Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_brown_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Brown Stained Glass is a reinforced building block available in Bedrock Edition with Education Edition features enabled. It combines an earthy brown tint with exceptional durability, boasting a hardness of 10.0 and a blast resistance of 9.0. This makes it significantly more resistant to explosions and physical impact than standard glass. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Brown Stained Glass. Unlike regular glass, it does not shatter and can be harvested by hand without the need for Silk Touch."
     }
 };
