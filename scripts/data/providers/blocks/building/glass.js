@@ -764,5 +764,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Green Stained Glass is an exceptionally durable building material introduced in the Education Edition. It combines the transparency of standard glass with high hardness and blast resistance, making it much tougher than regular glass. Unlike standard stained glass, it does not require the Silk Touch enchantment to be harvested and will drop itself even when broken by hand. Its vibrant green tint and superior strength make it a top choice for players building in hazardous environments or creating industrial-themed aesthetic designs."
+    },
+    "minecraft:hard_gray_stained_glass": {
+        id: "minecraft:hard_gray_stained_glass",
+        name: "Hardened Gray Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Gray Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Gray Stained Glass is a reinforced building block available in Bedrock Edition when Education features are enabled. It combines a muted gray tint with exceptional durability, boasting a hardness of 10.0 and a blast resistance of 9.0. This makes it significantly more resistant to explosions and physical impact than standard glass. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Gray Stained Glass. Unlike regular glass, it does not shatter and can be harvested with a pickaxe without the need for Silk Touch."
+    },
+    "minecraft:hard_light_gray_stained_glass": {
+        id: "minecraft:hard_light_gray_stained_glass",
+        name: "Hardened Light Gray Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Light Gray Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Light Gray Stained Glass is a reinforced building block available in Bedrock Edition with Education Edition features enabled. It combines a neutral light gray tint with superior durability, boasting a hardness of 10.0 and a blast resistance of 9.0. This makes it ideal for high-security windows and underwater bases where both visibility and strength are required. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Light Gray Stained Glass. Unlike standard glass, it does not shatter easily and can be harvested with a pickaxe."
+    },
+    "minecraft:hard_pink_stained_glass": {
+        id: "minecraft:hard_pink_stained_glass",
+        name: "Hardened Pink Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Pink Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Pink Stained Glass is an exceptionally durable building material introduced in the Education Edition features of Minecraft Bedrock. It combines the transparency of standard glass with high hardness (10.0) and blast resistance (9.0), making it much tougher than regular glass. Its soft pink tint and superior strength make it a top choice for players building in hazardous environments or creating industrial-themed aesthetic designs. Unlike standard stained glass, it does not require the Silk Touch enchantment and can be harvested with any pickaxe."
     }
 };
