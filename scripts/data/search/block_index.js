@@ -6544,5 +6544,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/oxidized_cut_copper",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:warped_button",
+        name: "Warped Button",
+        category: "block",
+        icon: "textures/blocks/huge_fungus/warped_planks",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:gray_stained_glass",
+        name: "Gray Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_gray",
+        themeColor: "§7"
+    },
+    {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
     }
 ];

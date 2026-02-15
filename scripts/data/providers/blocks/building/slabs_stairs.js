@@ -2588,5 +2588,26 @@ export const slabsStairsBlocks = {
             yRange: "Crafted from Oxidized Cut Copper Slab + Honeycomb"
         },
         description: "Waxed Oxidized Cut Copper Slab is a durable building block that permanently preserves the final teal-green oxidation stage of cut copper in slab form. Treated with honeycomb to prevent further weathering, it features a refined, tiled masonry texture perfect for low-profile roofing, detailed pathways, and decorative accents in historic or industrial builds. In Bedrock Edition, it requires a stone-tier pickaxe or higher to harvest and can be waterlogged. Players can remove the protective wax layer using an axe if they wish to return the block to its unwaxed state."
+    },
+    "minecraft:polished_deepslate_stairs": {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        hardness: 3.5,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:polished_deepslate_stairs"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Ancient Cities, Crafted/Stonecut"
+        },
+        description: "Polished Deepslate Stairs are a durable building block crafted from polished deepslate. They feature a smooth, dark gray texture that is ideal for creating sophisticated staircases, sloped roofs, and detailed architectural trim. As a deepslate variant, they are tougher than standard stone stairs, with a blast resistance of 6.0. They naturally occur in Ancient Cities and are favored by builders for their elegant, modern appearance. They can be waterlogged and placed in various orientations to create complex shapes like cornices and eaves."
     }
 };
