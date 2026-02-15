@@ -6607,5 +6607,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/stripped_pale_oak_log_side",
         themeColor: "§e"
+    },
+    {
+        id: "minecraft:waxed_copper_trapdoor",
+        name: "Waxed Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/copper_trapdoor",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_weathered_copper_trapdoor",
+        name: "Waxed Weathered Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/weathered_copper_trapdoor",
+        themeColor: "§3"
+    },
+    {
+        id: "minecraft:waxed_oxidized_copper_trapdoor",
+        name: "Waxed Oxidized Copper Trapdoor",
+        category: "block",
+        icon: "textures/blocks/oxidized_copper_trapdoor",
+        themeColor: "§2"
     }
 ];
