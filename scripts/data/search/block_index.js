@@ -6691,5 +6691,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_green",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:sandstone_slab",
+        name: "Sandstone Slab",
+        category: "block",
+        icon: "textures/blocks/sandstone_top",
+        themeColor: "§e"
+    },
+    {
+        id: "minecraft:quartz_slab",
+        name: "Quartz Slab",
+        category: "block",
+        icon: "textures/blocks/quartz_block_side",
+        themeColor: "§f"
+    },
+    {
+        id: "minecraft:stone_brick_slab",
+        name: "Stone Brick Slab",
+        category: "block",
+        icon: "textures/blocks/stonebrick",
+        themeColor: "§8"
     }
 ];
