@@ -1169,5 +1169,68 @@ export const copperBlocks = {
             yRange: "Crafted from Exposed Copper Trapdoor or applied Honeycomb"
         },
         description: "The Waxed Exposed Copper Trapdoor is a decorative and functional block introduced in Minecraft 1.21. This variant is in the first stage of oxidation, showing a slight brownish tarnish, and has been coated with honeycomb to prevent further aging. Like other trapdoors, it can be toggled manually, by redstone, or with Wind Charges. Found naturally in Trial Chambers or crafted from exposed copper, it provides an industrial aesthetic while maintaining its current appearance indefinitely. It must be mined with a pickaxe to be collected as an item."
+    },
+    "minecraft:waxed_copper_trapdoor": {
+        id: "minecraft:waxed_copper_trapdoor",
+        name: "Waxed Copper Trapdoor",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_copper_trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Copper Trapdoor or applied Honeycomb"
+        },
+        description: "The Waxed Copper Trapdoor is a functional block introduced in Minecraft 1.21. It is a variant of the copper trapdoor that has been treated with honeycomb to lock in its fresh, orange-copper appearance. Like other copper trapdoors, it can be opened manually, with redstone, or by Wind Charges. Because it is waxed, it is permanently preserved and will not oxidize into further stages. In Bedrock Edition, it must be mined with a stone-tier pickaxe or better to be collected; otherwise, it will not drop as an item. The wax coating can be removed with an axe if natural oxidation is desired."
+    },
+    "minecraft:waxed_weathered_copper_trapdoor": {
+        id: "minecraft:waxed_weathered_copper_trapdoor",
+        name: "Waxed Weathered Copper Trapdoor",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_copper_trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Weathered Copper Trapdoor or applied Honeycomb"
+        },
+        description: "The Waxed Weathered Copper Trapdoor is a decorative and functional block that has been treated with honeycomb to permanently lock in its second oxidation stage. It features a distinct blue-green patina mixed with remaining brownish-orange tones, providing a stable aged look. Like other copper trapdoors, it responds to player interaction, redstone signals, and Wind Charges. The wax prevents it from fully oxidizing, making it ideal for builds requiring a consistent, time-worn aesthetic. In Bedrock Edition, a stone-tier pickaxe or higher is required to harvest the block as an item."
+    },
+    "minecraft:waxed_oxidized_copper_trapdoor": {
+        id: "minecraft:waxed_oxidized_copper_trapdoor",
+        name: "Waxed Oxidized Copper Trapdoor",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_oxidized_copper_trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Oxidized Copper Trapdoor or applied Honeycomb"
+        },
+        description: "The Waxed Oxidized Copper Trapdoor is the final oxidation stage of the copper trapdoor family, preserved indefinitely using honeycomb. It features a rich, uniform teal-green patina that gives it a beautiful weathered appearance perfect for ancient or industrial-themed builds. While the base block naturally occurs in Trial Chambers, this waxed variant ensures the aged look remains permanent. It functions like other copper trapdoors, being toggleable by hand, redstone, or Wind Charges. It must be mined with a stone pickaxe or better to drop, ensuring durability in complex structures."
     }
 };
