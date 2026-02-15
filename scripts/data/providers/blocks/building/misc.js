@@ -71,6 +71,27 @@ export const miscBuildingBlocks = {
         },
         description: "A Hay Bale is a decorative and functional block crafted from nine wheat or found naturally in villages and pillager outposts. It is unique for its ability to reduce fall damage by 80% when landed on, making it a lifesaver in parkour or high-altitude builds. Hay bales can be used to feed horses, llamas, and donkeys to heal them or speed up the growth of foals, and are required to breed llamas. When placed under a campfire, they increase the smoke height significantly, which is useful for signaling. They are flammable and orientable like logs."
     },
+    "minecraft:hardened_clay": {
+        id: "minecraft:hardened_clay",
+        name: "Terracotta",
+        hardness: 1.25,
+        blastResistance: 4.2,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Terracotta"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Badlands, Village buildings"
+        },
+        description: "Terracotta is a solid building block that comes in various colors, with the plain variant featuring a warm, earthy orange-brown hue. It naturally generates in Badlands biomes, forming massive strata of colorful layers. Players can also obtain it by smelting clay blocks in a furnace. Terracotta is prized for its high blast resistance and matte texture, making it more durable than wool and less vibrant than concrete. It serves as a base material for crafting glazed terracotta and is a staple for Southwestern or desert-themed architecture."
+    },
     "minecraft:white_terracotta": {
         id: "minecraft:white_terracotta",
         name: "White Terracotta",

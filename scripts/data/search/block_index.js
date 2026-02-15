@@ -3297,6 +3297,13 @@ export const blockIndex = [
         themeColor: "§f"
     },
     {
+        id: "minecraft:hardened_clay",
+        name: "Terracotta",
+        category: "block",
+        icon: "textures/blocks/hardened_clay",
+        themeColor: "§6"
+    },
+    {
         id: "minecraft:white_terracotta",
         name: "White Terracotta",
         category: "block",
@@ -3498,6 +3505,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/seagrass",
         themeColor: "§a" // green
+    },
+    {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        category: "block",
+        icon: "textures/items/sugar_cane",
+        themeColor: "§a"
     },
     {
         id: "minecraft:coarse_dirt",
@@ -6649,5 +6663,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_purple",
         themeColor: "§5"
+    },
+    {
+        id: "minecraft:hard_green_stained_glass",
+        name: "Hardened Green Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_green",
+        themeColor: "§2"
     }
 ];

@@ -730,6 +730,27 @@ export const vegetationBlocks = {
         },
         description: "Carved Pumpkin is a block with a spooky face carved into one side. It can be obtained by shearing a regular pumpkin or found naturally in woodland mansions and pillager outposts. It is a key component for building Snow Golems and Iron Golems. Additionally, players can wear a carved pumpkin as a helmet to prevent Endermen from becoming hostile when looked at, though it obscures vision with a pumpkin overlay. It can also be combined with a torch to create a Jack o'Lantern."
     },
+    "minecraft:reeds": {
+        id: "minecraft:reeds",
+        name: "Sugar Cane",
+        hardness: 0,
+        blastResistance: 0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Sugar Cane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Adjacent to water (Grass, Dirt, Sand)"
+        },
+        description: "Sugar Cane is an important vegetation block that grows naturally on grass, dirt, sand, or red sand blocks directly adjacent to water. It can grow up to three blocks tall and is harvested for crafting sugar and paper, making it essential for firework rockets, books, and map-making. While it is technically a block when placed, it is often referred to by its item name. In Bedrock Edition, it uproots immediately if all adjacent water source blocks or flowing water are removed. It is a vital crop for players advancing into enchanting and automation."
+    },
     "minecraft:kelp": {
         id: "minecraft:kelp",
         name: "Kelp",

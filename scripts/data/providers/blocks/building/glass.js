@@ -743,5 +743,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Brown Stained Glass is a reinforced building block available in Bedrock Edition with Education Edition features enabled. It combines an earthy brown tint with exceptional durability, boasting a hardness of 10.0 and a blast resistance of 9.0. This makes it significantly more resistant to explosions and physical impact than standard glass. It is crafted in a Compound Creator using Aluminum Oxide, Boron Trioxide, and Brown Stained Glass. Unlike regular glass, it does not shatter and can be harvested by hand without the need for Silk Touch."
+    },
+    "minecraft:hard_green_stained_glass": {
+        id: "minecraft:hard_green_stained_glass",
+        name: "Hardened Green Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened Green Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Green Stained Glass is an exceptionally durable building material introduced in the Education Edition. It combines the transparency of standard glass with high hardness and blast resistance, making it much tougher than regular glass. Unlike standard stained glass, it does not require the Silk Touch enchantment to be harvested and will drop itself even when broken by hand. Its vibrant green tint and superior strength make it a top choice for players building in hazardous environments or creating industrial-themed aesthetic designs."
     }
 };
