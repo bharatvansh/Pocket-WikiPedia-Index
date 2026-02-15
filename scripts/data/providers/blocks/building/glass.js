@@ -659,5 +659,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Cyan Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are enabled. It combines a vibrant blue-green tint with superior durability, featuring a blast resistance of 9.0, making it much more resistant to explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Cyan Stained Glass. Unlike regular glass, it does not shatter easily and can be harvested by hand without Silk Touch, making it ideal for high-security builds and underwater observatories."
+    },
+    "minecraft:hard_magenta_stained_glass": {
+        id: "minecraft:hard_magenta_stained_glass",
+        name: "Hardened Magenta Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened Magenta Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Magenta Stained Glass is a reinforced version of magenta stained glass, exclusive to Bedrock Edition's Education features. It combines a bold magenta hue with exceptional durability, boasting a hardness of 10 and blast resistance of 9. Unlike standard glass, it is resistant to explosions and can be harvested by hand or any tool without breaking. It is crafted in the Compound Creator using Aluminum Oxide, Boron Trioxide, and Magenta Stained Glass, making it ideal for high-security windows where both color and strength are needed."
+    },
+    "minecraft:hard_lime_stained_glass": {
+        id: "minecraft:hard_lime_stained_glass",
+        name: "Hardened Lime Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened Lime Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Lime Stained Glass is a reinforced variant of lime stained glass, available when Education features are enabled in Minecraft Bedrock Edition. This block offers a vibrant lime tint while providing significantly higher durability than regular glass, with a hardness of 10 and blast resistance of 9. It can be harvested without Silk Touch, dropping itself as an item even when broken by hand. Players can craft it in the Compound Creator by combining Aluminum Oxide and Boron Trioxide with Lime Stained Glass."
+    },
+    "minecraft:hard_purple_stained_glass": {
+        id: "minecraft:hard_purple_stained_glass",
+        name: "Hardened Purple Stained Glass",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Hardened Purple Stained Glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Purple Stained Glass is a durable, transparent block exclusive to Bedrock Edition's Education features. It features a deep purple tint and superior structural integrity compared to standard stained glass, with a hardness of 10 and blast resistance of 9. This reinforced block does not shatter when broken and can be safely harvested by hand or with any tool. It is created in the Compound Creator by mixing Aluminum Oxide and Boron Trioxide with Purple Stained Glass, making it excellent for protective windows."
     }
 };
