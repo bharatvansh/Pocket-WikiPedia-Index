@@ -1148,5 +1148,26 @@ export const copperBlocks = {
             yRange: "Crafted only"
         },
         description: "Waxed Oxidized Cut Copper is a decorative metal block that has been treated with honeycomb to permanently preserve its final teal-green patina. It features a unique tiled texture that provides a sophisticated industrial look. Because it is waxed, it is immune to further environmental changes, ensuring the aged aesthetic remains stable. In Minecraft Bedrock Edition, it can be harvested with any pickaxe, including those made of wood. Players can use an axe to remove the wax coating or scrape off oxidation layers if they wish to revert the block's appearance."
+    },
+    "minecraft:waxed_exposed_copper_trapdoor": {
+        id: "minecraft:waxed_exposed_copper_trapdoor",
+        name: "Waxed Exposed Copper Trapdoor",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_copper_trapdoor"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted from Exposed Copper Trapdoor or applied Honeycomb"
+        },
+        description: "The Waxed Exposed Copper Trapdoor is a decorative and functional block introduced in Minecraft 1.21. This variant is in the first stage of oxidation, showing a slight brownish tarnish, and has been coated with honeycomb to prevent further aging. Like other trapdoors, it can be toggled manually, by redstone, or with Wind Charges. Found naturally in Trial Chambers or crafted from exposed copper, it provides an industrial aesthetic while maintaining its current appearance indefinitely. It must be mined with a pickaxe to be collected as an item."
     }
 };
