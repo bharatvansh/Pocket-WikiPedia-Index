@@ -448,5 +448,68 @@ export const workstationBlocks = {
             yRange: "Result of Anvil degradation"
         },
         description: "A Damaged Anvil is the final durability stage of an anvil before it completely breaks. It features heavy fracturing and significant wear on its surface, occurring with a 12% chance whenever an anvil is used for repairing, renaming, or combining enchantments. Despite its battered appearance, it remains fully functional and retains the high blast resistance and gravity-affected properties of a new anvil. Once it reaches this stage, the next degradation event will result in the anvil's total destruction, dropping no items."
+    },
+    "minecraft:lab_table": {
+        id: "minecraft:lab_table",
+        name: "Lab Table",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:lab_table"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Lab Table is a specialized workstation used in Minecraft Education Edition and Bedrock Edition (with Education features enabled) to perform chemistry experiments. It allows players to combine various elements and compounds to create unique items like bleach, ice bombs, and sparklers. The table features a unique interface where players can select ingredients and 'Combine' them; a successful reaction produces the desired item, while an incorrect one results in a 'garbage' item and a small explosion of particles."
+    },
+    "minecraft:element_constructor": {
+        id: "minecraft:element_constructor",
+        name: "Element Constructor",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:element_constructor"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Element Constructor is a fundamental chemistry workstation in Minecraft Bedrock Edition that allows players to build elements from the periodic table based on their atomic structure. By using the interactive sliders in its interface, players can adjust the number of protons, electrons, and neutrons to create any of the 118 elements and over 400 isotopes. These elements serve as the building blocks for further chemistry activities in the Compound Creator and Lab Table, providing an immersive way to explore subatomic science."
+    },
+    "minecraft:compound_creator": {
+        id: "minecraft:compound_creator",
+        name: "Compound Creator",
+        hardness: 1.5,
+        blastResistance: 1.5,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Axe",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:compound_creator"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Compound Creator is a workstation used to synthesize over 30 different chemical compounds by combining elements from the periodic table. Players place elements into the creator's 3x3 grid in specific ratios to produce substances like charcoal, latex, and crude oil. These compounds are essential ingredients for advanced chemistry recipes on the Lab Table. The block features a specialized interface for molecular synthesis and is a key component of the chemistry feature set in Education-enabled Bedrock worlds."
     }
 };

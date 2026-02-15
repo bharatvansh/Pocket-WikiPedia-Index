@@ -3744,27 +3744,6 @@ export const itemIndex = [
         themeColor: "§a"
     },
     {
-        id: "minecraft:compound_creator",
-        name: "Compound Creator",
-        category: "item",
-        icon: "textures/blocks/compound_creator",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:element_constructor",
-        name: "Element Constructor",
-        category: "item",
-        icon: "textures/blocks/element_constructor",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:lab_table",
-        name: "Lab Table",
-        category: "item",
-        icon: "textures/blocks/lab_table",
-        themeColor: "§7"
-    },
-    {
         id: "minecraft:material_reducer",
         name: "Material Reducer",
         category: "item",
