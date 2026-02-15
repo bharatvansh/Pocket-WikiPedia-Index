@@ -6378,6 +6378,13 @@ export const blockIndex = [
         themeColor: "§8"
     },
     {
+        id: "minecraft:polished_deepslate_stairs",
+        name: "Polished Deepslate Stairs",
+        category: "block",
+        icon: "textures/blocks/deepslate/polished_deepslate",
+        themeColor: "§8"
+    },
+    {
         id: "minecraft:stripped_birch_wood",
         name: "Stripped Birch Wood",
         category: "block",
@@ -6509,6 +6516,20 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/weathered_cut_copper",
         themeColor: "§3"
+    },
+    {
+        id: "minecraft:cut_copper_slab",
+        name: "Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/cut_copper",
+        themeColor: "§6"
+    },
+    {
+        id: "minecraft:waxed_cut_copper_slab",
+        name: "Waxed Cut Copper Slab",
+        category: "block",
+        icon: "textures/blocks/cut_copper",
+        themeColor: "§6"
     },
     {
         id: "minecraft:dead_fire_coral_wall_fan",
