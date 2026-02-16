@@ -1016,5 +1016,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Cyan Stained Glass Panes are reinforced transparent blocks that offer a distinctive blue-green tint and exceptional durability. Introduced with Education Edition features, these panes feature a hardness of 10.0 and blast resistance of 9.0, providing robust protection against explosions. They connect to adjacent blocks just like standard panes, making them ideal for high-security windows in modern or aquatic builds. Notably, they drop themselves when broken without needing Silk Touch, ensuring that their vibrant color and structural strength are easily reclaimed."
+    },
+    "minecraft:hard_lime_stained_glass_pane": {
+        id: "minecraft:hard_lime_stained_glass_pane",
+        name: "Hardened Lime Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Lime Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Lime Stained Glass Pane is a reinforced, thin transparent block available in Bedrock Edition with Education features enabled. It combines a vibrant lime tint with exceptional durability, boasting a hardness of 10 and blast resistance of 9. These panes connect to adjacent blocks to form seamless, colorful windows that are resistant to explosions and physical impact. Unlike regular glass panes that are fragile, hardened lime panes drop as items when broken even without Silk Touch, making them ideal for high-security decorative builds in modern or nature-themed structures."
+    },
+    "minecraft:hard_brown_stained_glass_pane": {
+        id: "minecraft:hard_brown_stained_glass_pane",
+        name: "Hardened Brown Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Brown Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Brown Stained Glass Pane is a durable, thin transparent block exclusive to Bedrock Edition's Education features. It features an earthy brown tint and superior structural integrity compared to standard glass panes, with a hardness of 10 and blast resistance of 9. This reinforced block does not shatter when broken and can be safely harvested using a pickaxe. It is ideal for protective windows in rustic builds or industrial environments where both visibility and strength are required. Like other panes, it connects to adjacent blocks for a seamless appearance."
+    },
+    "minecraft:hard_green_stained_glass_pane": {
+        id: "minecraft:hard_green_stained_glass_pane",
+        name: "Hardened Green Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Green Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Green Stained Glass Panes are exceptionally durable building materials introduced in the Education Edition features. They combine a rich green tint with the superior strength of hardened glass, featuring a hardness of 10.0 and blast resistance of 9.0. These panes are ideal for hazardous environments or industrial designs where both visibility and safety are paramount. Unlike standard glass panes, they are resistant to blasts and do not require the Silk Touch enchantment to be retrieved, making them a practical choice for complex and high-security architectural projects."
     }
 };
