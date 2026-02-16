@@ -953,5 +953,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Yellow Stained Glass Panes are exceptionally durable building materials introduced in the Education Edition features. They combine a cheerful yellow tint with the superior strength of hardened glass, featuring a hardness of 10.0 and blast resistance of 9.0. These panes are ideal for hazardous environments or industrial designs where both visibility and safety are paramount. Unlike standard glass panes, they are resistant to blasts and do not require the Silk Touch enchantment to be retrieved, making them a practical choice for complex builds."
+    },
+    "minecraft:hard_brown_stained_glass_pane": {
+        id: "minecraft:hard_brown_stained_glass_pane",
+        name: "Hardened Brown Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Brown Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Brown Stained Glass Panes are durable, thin transparent blocks available when Education Edition features are active. They offer an earthy brown tint with a high blast resistance of 9.0 and hardness of 10.0, making them much tougher than standard panes. These reinforced panes provide a rustic look while remaining resistant to explosions. They can be harvested efficiently with a pickaxe and do not require Silk Touch to drop as items, providing a perfect blend of aesthetic warmth and structural security for advanced architectural projects."
+    },
+    "minecraft:hard_cyan_stained_glass_pane": {
+        id: "minecraft:hard_cyan_stained_glass_pane",
+        name: "Hardened Cyan Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Cyan Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Cyan Stained Glass Pane is a thin, reinforced transparent block exclusive to Bedrock Edition with Education features enabled. It combines a vibrant blue-green tint with exceptional durability, boasting a hardness of 10 and blast resistance of 9. These panes connect to adjacent blocks to form seamless, colored windows that are resistant to explosions and physical impact. Unlike regular glass panes that are fragile, hardened cyan panes drop as items when broken even without Silk Touch, making them ideal for high-security decorative builds."
+    },
+    "minecraft:hard_gray_stained_glass_pane": {
+        id: "minecraft:hard_gray_stained_glass_pane",
+        name: "Hardened Gray Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Gray Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Gray Stained Glass Panes are durable, thin transparent blocks available in Bedrock Edition when Education features are active. They combine a muted gray tint with exceptional durability, boasting a hardness of 10 and blast resistance of 9. These reinforced panes connect to adjacent blocks to create seamless, dark-tinted windows that are resistant to explosions and physical impact. Unlike standard glass panes that shatter easily, hardened gray panes require a pickaxe to mine efficiently and drop as items even without Silk Touch, providing both sophistication and safety."
     }
 };
