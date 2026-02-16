@@ -1016,5 +1016,68 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Cyan Stained Glass Panes are reinforced transparent blocks that offer a distinctive blue-green tint and exceptional durability. Introduced with Education Edition features, these panes feature a hardness of 10.0 and blast resistance of 9.0, providing robust protection against explosions. They connect to adjacent blocks just like standard panes, making them ideal for high-security windows in modern or aquatic builds. Notably, they drop themselves when broken without needing Silk Touch, ensuring that their vibrant color and structural strength are easily reclaimed."
+    },
+    "minecraft:hard_lime_stained_glass_pane": {
+        id: "minecraft:hard_lime_stained_glass_pane",
+        name: "Hardened Lime Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Lime Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Lime Stained Glass Panes are reinforced glass panels that combine a vibrant light-green aesthetic with extreme durability. As part of the Education Edition features, they possess a hardness of 10.0 and blast resistance of 9.0, making them much tougher than standard glass. They are primarily used in high-security builds or laboratory settings where visibility and safety are both required. Unlike regular glass panes, these can be broken and collected without the Silk Touch enchantment, and they connect seamlessly to adjacent blocks."
+    },
+    "minecraft:hard_brown_stained_glass_pane": {
+        id: "minecraft:hard_brown_stained_glass_pane",
+        name: "Hardened Brown Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Brown Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Brown Stained Glass Panes are durable, earth-toned transparent blocks introduced for laboratory and educational use. Featuring a high blast resistance of 9.0 and a hardness of 10.0, they provide significant protection while allowing for a warm, tinted view. These panes are ideal for rustic or industrial designs that require both aesthetic appeal and structural integrity. They follow standard pane behavior, connecting to walls and other blocks, but uniquely drop themselves as items when broken with any tool or by hand, unlike their non-hardened counterparts."
+    },
+    "minecraft:hard_green_stained_glass_pane": {
+        id: "minecraft:hard_green_stained_glass_pane",
+        name: "Hardened Green Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Green Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Green Stained Glass Panes are a reinforced variant of decorative glass that offer a deep forest-green tint and superior resilience. Designed for use in Education Edition scenarios, they provide a blast resistance of 9.0, shielding structures from explosions that would shatter normal glass. These panes are perfect for creating sturdy windows in nature-themed or secure builds. Functionally, they are waterloggable and connect to neighboring blocks. A key benefit is that they are easily reclaimed when broken, as they do not require Silk Touch to drop as an item."
     }
 };
