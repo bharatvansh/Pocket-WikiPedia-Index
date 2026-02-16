@@ -3633,6 +3633,27 @@ export const blockIndex = [
         themeColor: "§3" // Cyan
     },
     {
+        id: "minecraft:yellow_stained_glass",
+        name: "Yellow Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_yellow",
+        themeColor: "§e" // yellow
+    },
+    {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6" // orange
+    },
+    {
+        id: "minecraft:purple_stained_glass",
+        name: "Purple Stained Glass",
+        category: "block",
+        icon: "textures/blocks/glass_purple",
+        themeColor: "§5" // purple
+    },
+    {
         id: "minecraft:sunflower",
         name: "Sunflower",
         category: "block",
