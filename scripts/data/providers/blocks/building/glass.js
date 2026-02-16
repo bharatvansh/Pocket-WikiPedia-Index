@@ -324,6 +324,69 @@ export const glassBlocks = {
         },
         description: "Cyan Stained Glass is a transparent building block with a distinctive blue-green tint. It is crafted by surrounding cyan dye with eight glass blocks. Like other glass blocks in Bedrock Edition, it can be harvested without Silk Touch in recent versions (1.21+). It is commonly used for decorative windows, color-coded light filters for beacons, and modern architectural accents. It does not block light and can be used to create colorful shadows when sunlight passes through it."
     },
+    "minecraft:yellow_stained_glass": {
+        id: "minecraft:yellow_stained_glass",
+        name: "Yellow Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:yellow_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Yellow Stained Glass is a transparent decorative block created by surrounding yellow dye with eight glass blocks. It retains the transparency of regular glass while adding a bright yellow tint. Notably in Bedrock Edition 1.21+, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. This makes them highly practical for creative building, allowing for easy collection and relocation. They are perfect for creating cheerful windows, vibrant beacon filters, and sun-themed architectural accents that brighten any structure."
+    },
+    "minecraft:orange_stained_glass": {
+        id: "minecraft:orange_stained_glass",
+        name: "Orange Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_stained_glass"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Orange Stained Glass is a transparent decorative block created by surrounding orange dye with eight glass blocks. It retains the transparency of regular glass while adding a vibrant orange tint. Notably in Bedrock Edition 1.21+, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It is perfect for creating colorful windows, decorative light filters, and artistic beacons in various architectural designs. It provides a warm and energetic aesthetic, making it an excellent choice for autumn-themed builds, sunset windows, and modern accents."
+    },
+    "minecraft:purple_stained_glass": {
+        id: "minecraft:purple_stained_glass",
+        name: "Purple Stained Glass",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:purple_stained_glass"],
+        generation: {
+            dimension: "End",
+            yRange: "End Cities"
+        },
+        description: "Purple Stained Glass is a transparent decorative block created by surrounding purple dye with eight glass blocks. It retains the transparency of regular glass while adding a rich purple tint. Notably in Bedrock Edition 1.21+, stained glass blocks drop themselves when broken even without the Silk Touch enchantment. It generates naturally in End Cities, where it is used for decorative windows. It is perfect for creating mystical windows, royal beacon filters, and artistic accents in various designs, offering a sophisticated and magical aesthetic to any structure."
+    },
     "minecraft:glass_pane": {
         id: "minecraft:glass_pane",
         name: "Glass Pane",
