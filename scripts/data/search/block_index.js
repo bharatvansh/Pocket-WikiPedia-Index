@@ -6105,6 +6105,13 @@ export const blockIndex = [
         themeColor: "§2"
     },
     {
+        id: "minecraft:waxed_copper_chain",
+        name: "Waxed Copper Chain",
+        category: "block",
+        icon: "textures/items/copper_chain",
+        themeColor: "§6" // gold/orange
+    },
+    {
         id: "minecraft:waxed_exposed_copper_chain",
         name: "Waxed Exposed Copper Chain",
         category: "block",
@@ -6313,6 +6320,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/items/candle_green",
         themeColor: "§2"
+    },
+    {
+        id: "minecraft:green_candle_cake",
+        name: "Green Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_green",
+        themeColor: "§2" // green
     },
     {
         id: "minecraft:yellow_candle",
@@ -6859,5 +6873,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_gray",
         themeColor: "§8" // dark gray
+    },
+    {
+        id: "minecraft:hard_light_gray_stained_glass_pane",
+        name: "Hardened Light Gray Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_silver",
+        themeColor: "§7" // gray
     }
 ];
