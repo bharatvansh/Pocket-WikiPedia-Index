@@ -663,6 +663,69 @@ export const interactiveBlocks = {
         },
         description: "Green Candle Cake is a festive block created by placing a single green candle on an uneaten cake. When lit with flint and steel, it emits a steady light level of 3, making it a perfect centerpiece for themed in-game celebrations. In Bedrock Edition, if a player eats a slice of the cake, the green candle drops as an item and the block reverts to a regular cake. Similarly, if the block is broken, only the green candle is recovered while the cake is lost. It is a delightful decorative addition for parties, birthdays, and forest-themed interior designs."
     },
+    "minecraft:red_candle_cake": {
+        id: "minecraft:red_candle_cake",
+        name: "Red Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:red_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Red Candle Cake is a festive block created by placing a red candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a vibrant light level of 3. If a player eats a slice of the cake, the red candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the red candle, and the cake itself is destroyed. It is a perfect decorative addition for celebrations and themed interior designs."
+    },
+    "minecraft:orange_candle_cake": {
+        id: "minecraft:orange_candle_cake",
+        name: "Orange Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:orange_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Orange Candle Cake is a celebratory block created by placing an orange candle on an uneaten cake. It provides a warm light source and acts as a food source in Bedrock Edition. When lit, the candle emits a steady light level of 3. If a player eats a slice of the cake, the orange candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, only the orange candle is recovered. It is a delightful decorative addition for autumn-themed parties or birthdays."
+    },
+    "minecraft:lime_candle_cake": {
+        id: "minecraft:lime_candle_cake",
+        name: "Lime Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:lime_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Lime Candle Cake is a colorful block created by placing a lime candle on an uneaten cake. It functions as both a decorative light source and a food source in Bedrock Edition. When lit with flint and steel, the lime candle provides a light level of 3, making it an excellent centerpiece for themed in-game celebrations. In Bedrock Edition, if a player eats a slice of the cake, the lime candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, only the lime candle is recovered while the cake is lost."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",

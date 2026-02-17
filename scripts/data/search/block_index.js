@@ -4607,6 +4607,27 @@ export const blockIndex = [
         themeColor: "§8" // dark gray
     },
     {
+        id: "minecraft:red_candle_cake",
+        name: "Red Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_red",
+        themeColor: "§c" // Red
+    },
+    {
+        id: "minecraft:orange_candle_cake",
+        name: "Orange Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_orange",
+        themeColor: "§6" // Orange
+    },
+    {
+        id: "minecraft:lime_candle_cake",
+        name: "Lime Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_lime",
+        themeColor: "§a" // Lime
+    },
+    {
         id: "minecraft:mud_brick_slab",
         name: "Mud Brick Slab",
         category: "block",
