@@ -1079,5 +1079,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Green Stained Glass Panes are exceptionally durable building materials introduced in the Education Edition features. They combine a rich green tint with the superior strength of hardened glass, featuring a hardness of 10.0 and blast resistance of 9.0. These panes are ideal for hazardous environments or industrial designs where both visibility and safety are paramount. Unlike standard glass panes, they are resistant to blasts and do not require the Silk Touch enchantment to be retrieved, making them a practical choice for complex and high-security architectural projects."
+    },
+    "minecraft:hard_gray_stained_glass_pane": {
+        id: "minecraft:hard_gray_stained_glass_pane",
+        name: "Hardened Gray Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Hardened Gray Stained Glass Pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Gray Stained Glass Pane is a durable, thin transparent block exclusive to Bedrock Edition's Education features. It features an earthy gray tint and superior structural integrity compared to standard glass panes, with a hardness of 10 and blast resistance of 9. This reinforced block does not shatter when broken and can be safely harvested using a pickaxe. It is ideal for protective windows in modern or industrial builds where both visibility and strength are required. Like other panes, it connects to adjacent blocks for a seamless appearance."
     }
 };

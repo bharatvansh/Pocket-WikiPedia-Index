@@ -349,6 +349,27 @@ export const miscDecorativeBlocks = {
         },
         description: "Oxidized Copper Bars represent the final, fully weathered stage of copper bars, featuring a complete teal-green patina. These decorative blocks are perfect for creating aged, weathered looks in Minecraft Bedrock Edition. Introduced in version 1.21, they connect to surrounding blocks just like iron bars and offer the same durability. While they no longer oxidize further, they can still be scraped with an axe to reveal previous stages or waxed to preserve their current appearance. Their vibrant green color and thin profile make them popular for intricate metalwork, industrial cages, and overgrown ruins."
     },
+    "minecraft:waxed_copper_bars": {
+        id: "minecraft:waxed_copper_bars",
+        name: "Waxed Copper Bars",
+        hardness: 5.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["Waxed Copper Bars"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Copper Bars + Honeycomb)"
+        },
+        description: "Waxed Copper Bars are a decorative variant of copper bars that have been treated with honeycomb to lock in their pristine orange appearance. Introduced in the 1.21 Tricky Trials update, they function similarly to iron bars, connecting to adjacent blocks to form barriers or windows. Because they are waxed, they are permanently preserved and will not oxidize into greenish tones over time. They can be scraped with an axe to remove the wax coating, allowing natural oxidation to resume. They provide a warm, metallic aesthetic for industrial or modern builds while remaining fireproof."
+    },
     "minecraft:slime_block": {
         id: "minecraft:slime_block",
         name: "Slime Block",
