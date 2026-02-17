@@ -6880,5 +6880,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_silver",
         themeColor: "§7" // gray
+    },
+    {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // white
+    },
+    {
+        id: "minecraft:purple_candle_cake",
+        name: "Purple Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_purple",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:waxed_oxidized_lightning_rod",
+        name: "Waxed Oxidized Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/oxidized_lightning_rod",
+        themeColor: "§2" // dark green
     }
 ];

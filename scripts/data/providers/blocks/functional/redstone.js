@@ -1210,5 +1210,26 @@ export const redstoneBlocks = {
             yRange: "Crafted from Warped Planks"
         },
         description: "A Warped Button is a fire-resistant redstone switch crafted from a warped plank. Like other wooden buttons, it provides a 1.5-second (15 redstone ticks) pulse when activated by hand or by projectiles like arrows. Being native to the Nether's fungal forests, it is completely immune to fire and lava, making it ideal for mechanisms in hazardous environments. Its distinct teal color allows it to blend seamlessly with warped-themed structures or provide a vibrant accent to other blocks. It can be placed on any side of a solid block."
+    },
+    "minecraft:waxed_oxidized_lightning_rod": {
+        id: "minecraft:waxed_oxidized_lightning_rod",
+        name: "Waxed Oxidized Lightning Rod",
+        hardness: 3,
+        blastResistance: 6,
+        flammability: false,
+        gravityAffected: false,
+        transparent: false,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["Waxed Oxidized Lightning Rod"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "The Waxed Oxidized Lightning Rod is a functional redstone block that has reached its final weathering stage and been preserved with honeycomb. It features a rich teal-green patina that will never revert, providing a permanent aged aesthetic for industrial or ancient builds. Like standard lightning rods, it redirects lightning strikes within a 64-block radius to itself, protecting flammable structures while emitting a redstone signal. In Bedrock Edition, it must be mined with a stone-tier pickaxe or better to drop as an item."
     }
 };

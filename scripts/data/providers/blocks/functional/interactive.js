@@ -1944,5 +1944,26 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Glow Item Frame is a specialized variant of the item frame that makes the item inside it appear brightly lit, even in complete darkness. In Bedrock Edition, it is a block that does not emit an actual light level but ensures items and maps are always clearly visible. It is crafted by combining a regular item frame with a glow ink sac. This makes it perfect for displaying maps in dark rooms or creating glowing signs and decorations without affecting the ambient lighting."
+    },
+    "minecraft:purple_candle_cake": {
+        id: "minecraft:purple_candle_cake",
+        name: "Purple Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Purple Candle Cake is a festive block created by placing a purple candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a steady light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake. It is a perfect decorative addition for mystical or regal-themed celebrations."
     }
 };
