@@ -1735,6 +1735,27 @@ export const interactiveBlocks = {
         },
         description: "The Red Candle is a vibrant decorative light source block that can be placed in clusters of up to four on a single block. Each individual candle provides a light level of 3, reaching a maximum of 12 when a full cluster is present. It features a bold red color and must be lit using flint and steel or a fire charge to emit light. Red candles can also be placed on top of a cake to create a Red Candle Cake. They offer a warm, energetic aesthetic for various interior lighting and themed decorations in Minecraft Bedrock Edition."
     },
+    "minecraft:red_candle_cake": {
+        id: "minecraft:red_candle_cake",
+        name: "Red Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Red Candle Cake is a vibrant festive block made by placing a red candle atop an uneaten cake. It brings a classic celebratory look to any Minecraft environment, emitting a light level of 3 when the candle is lit. This block is an ideal choice for birthdays, holidays, or any event requiring a touch of bright color. As with all candle cakes in Bedrock Edition, eating a portion of the cake will cause the red candle to drop for collection. If the block is broken by hand or tool, only the candle is recovered, and the cake is lost, emphasizing its role as a special, consumable decoration."
+    },
     "minecraft:green_candle": {
         id: "minecraft:green_candle",
         name: "Green Candle",
@@ -1798,6 +1819,27 @@ export const interactiveBlocks = {
         },
         description: "The Orange Candle is a vibrant decorative light source block that can be placed in clusters of up to four. Each individual candle provides a light level of 3, reaching a maximum of 12 when four are grouped together. It features a warm orange color and must be lit using flint and steel to emit light. Orange candles can also be placed on top of a cake to create an Orange Candle Cake, perfect for themed decorations or celebrations. Like all candles in Bedrock Edition, they can be extinguished by water or player interaction and are easily broken by hand."
     },
+    "minecraft:orange_candle_cake": {
+        id: "minecraft:orange_candle_cake",
+        name: "Orange Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Orange Candle Cake is a festive block created by placing an orange candle on an uneaten cake. In Bedrock Edition, it functions as both a decorative light source and a multi-slice food block. When lit with flint and steel, it emits a cozy light level of 3, perfect for autumn-themed celebrations or warm interior designs. Eating a slice of the cake or breaking the block causes the orange candle to drop as an item, while the cake is either consumed or destroyed. This block provides a vibrant splash of color to any celebratory setting."
+    },
     "minecraft:purple_candle": {
         id: "minecraft:purple_candle",
         name: "Purple Candle",
@@ -1818,6 +1860,27 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Purple Candle is a decorative light source block featuring a rich, deep purple color. Like other candles in Bedrock Edition, it can be placed in clusters of up to four on a single block, with each candle increasing the light level by 3 to a maximum of 12. It must be lit with flint and steel or a fire charge to provide illumination. Purple candles can also be placed on top of a cake to create a Purple Candle Cake, making them a versatile choice for mystical or regal-themed interior decorations. They are waterloggable but cannot be lit while submerged in water."
+    },
+    "minecraft:purple_candle_cake": {
+        id: "minecraft:purple_candle_cake",
+        name: "Purple Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Purple Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Purple Candle Cake is a celebratory block formed by adding a purple candle to an uneaten cake. This decorative block serves as a light source with a level of 3 when lit, offering a mystical or regal ambiance to Minecraft builds. It is particularly popular for themed parties or as a sophisticated centerpiece in dining areas. In Bedrock Edition, interacting with the cake to eat a slice will remove the candle, dropping it as an item. The block then reverts to a standard cake with one slice missing, making it both a functional food source and a charming decorative element."
     },
     "minecraft:light_blue_candle": {
         id: "minecraft:light_blue_candle",
