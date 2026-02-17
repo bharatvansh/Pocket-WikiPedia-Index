@@ -1092,6 +1092,13 @@ export const blockIndex = [
         themeColor: "§7" // gray/metal
     },
     {
+        id: "minecraft:waxed_lightning_rod",
+        name: "Waxed Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/lightning_rod",
+        themeColor: "§7" // gray/metal
+    },
+    {
         id: "minecraft:exposed_lightning_rod",
         name: "Exposed Lightning Rod",
         category: "block",
@@ -1099,8 +1106,22 @@ export const blockIndex = [
         themeColor: "§6" // gold/copper
     },
     {
+        id: "minecraft:waxed_exposed_lightning_rod",
+        name: "Waxed Exposed Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/exposed_lightning_rod",
+        themeColor: "§6" // gold/copper
+    },
+    {
         id: "minecraft:weathered_lightning_rod",
         name: "Weathered Lightning Rod",
+        category: "block",
+        icon: "textures/blocks/weathered_lightning_rod",
+        themeColor: "§3" // dark aqua
+    },
+    {
+        id: "minecraft:waxed_weathered_lightning_rod",
+        name: "Waxed Weathered Lightning Rod",
         category: "block",
         icon: "textures/blocks/weathered_lightning_rod",
         themeColor: "§3" // dark aqua
