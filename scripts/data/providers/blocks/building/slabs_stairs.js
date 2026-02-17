@@ -2568,6 +2568,69 @@ export const slabsStairsBlocks = {
         },
         description: "Stone Slab is a fundamental building component in Minecraft Bedrock Edition, crafted from three blocks of regular stone. It provides a half-block alternative for detailed flooring, smooth steps, and layered architecture while maintaining the clean, gray texture of stone. Unlike smooth stone slabs, which are made by smelting, these slabs retain the natural stone look and are essential for matching stone-based structures. They can be placed in either the upper or lower half of a block space or combined into a double slab. Being stone-based, they are fire-resistant and offer solid protection."
     },
+    "minecraft:waxed_cut_copper_slab": {
+        id: "minecraft:waxed_cut_copper_slab",
+        name: "Waxed Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_cut_copper_slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Cut Copper Slab is a durable building block that permanently preserves the pristine orange appearance of cut copper in slab form. Treated with honeycomb to prevent oxidation, it features a refined, tiled masonry texture perfect for low-profile roofing, detailed pathways, and decorative accents. In Bedrock Edition, it requires a stone pickaxe or higher to harvest and can be waterlogged. Players can remove the protective wax layer using an axe if they wish to allow natural weathering to resume."
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+        id: "minecraft:waxed_exposed_cut_copper_slab",
+        name: "Waxed Exposed Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_exposed_cut_copper_slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Exposed Cut Copper Slab is a decorative building block that has been treated with honeycomb to lock in its first stage of oxidation. It features a unique tiled texture with a slightly tarnished, brownish-orange appearance that will not change over time. These slabs are perfect for creating permanent rustic rooflines or industrial-themed pathways. In Bedrock Edition, they require a stone-tier pickaxe or better to harvest. Players can remove the wax with an axe if they wish to allow the copper to continue its natural weathering process."
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+        id: "minecraft:waxed_weathered_cut_copper_slab",
+        name: "Waxed Weathered Cut Copper Slab",
+        hardness: 3.0,
+        blastResistance: 6.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Stone",
+            silkTouch: false
+        },
+        drops: ["minecraft:waxed_weathered_cut_copper_slab"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only"
+        },
+        description: "Waxed Weathered Cut Copper Slab is a decorative metal building block that has been treated with honeycomb to lock in its second oxidation stage. It features a distinct blue-green patina mixed with remaining brownish-orange tones, providing a classic aged appearance that will not change over time. These slabs are perfect for creating stable, weathered rooflines, detailed trim, or industrial-themed pathways. In Bedrock Edition, they require a stone-tier pickaxe or better to harvest. The wax coating can be removed with an axe if the player wishes to resume natural weathering."
+    },
     "minecraft:waxed_oxidized_cut_copper_slab": {
         id: "minecraft:waxed_oxidized_cut_copper_slab",
         name: "Waxed Oxidized Cut Copper Slab",
