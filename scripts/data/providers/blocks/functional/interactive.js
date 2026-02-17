@@ -1944,5 +1944,68 @@ export const interactiveBlocks = {
             yRange: "Crafted only"
         },
         description: "The Glow Item Frame is a specialized variant of the item frame that makes the item inside it appear brightly lit, even in complete darkness. In Bedrock Edition, it is a block that does not emit an actual light level but ensures items and maps are always clearly visible. It is crafted by combining a regular item frame with a glow ink sac. This makes it perfect for displaying maps in dark rooms or creating glowing signs and decorations without affecting the ambient lighting."
+    },
+    "minecraft:red_candle_cake": {
+        id: "minecraft:red_candle_cake",
+        name: "Red Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Red Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Red Candle Cake is a festive block created by placing a red candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a light level of 3. If a player eats a slice of the cake, the red candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the red candle, and the cake itself is destroyed. It is a perfect decorative addition for celebrations and bold-themed interior designs."
+    },
+    "minecraft:orange_candle_cake": {
+        id: "minecraft:orange_candle_cake",
+        name: "Orange Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Orange Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Orange Candle Cake is a celebratory block formed by adding an orange candle to a whole cake. In Bedrock Edition, this block provides a warm glow with a light level of 3 when lit. It is highly valued for seasonal decorations and festive occasions. If any part of the cake is consumed, the orange candle is returned to the player's inventory as an item, and the block becomes a partially eaten cake. Breaking the block entirely will only yield the orange candle. Its vibrant color makes it an ideal centerpiece for autumn-themed builds and sun-focused celebrations."
+    },
+    "minecraft:lime_candle_cake": {
+        id: "minecraft:lime_candle_cake",
+        name: "Lime Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Lime Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Lime Candle Cake is a vibrant decorative block created by placing a lime candle on an uneaten cake. Perfect for tropical or toxic-themed celebrations, it emits a light level of 3 when lit with a flint and steel or fire charge. As with all candle cakes in Bedrock Edition, interacting with the cake to eat a slice will cause the lime candle to drop as an item, leaving behind a regular cake. If the block is broken by hand or any tool, only the lime candle is recovered. Its bright neon hue provides a unique aesthetic for modern interior designs and colorful parties."
     }
 };
