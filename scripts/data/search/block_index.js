@@ -6922,5 +6922,26 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/candle_cake_lime",
         themeColor: "§a" // lime
+    },
+    {
+        id: "minecraft:purple_candle_cake",
+        name: "Purple Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_purple",
+        themeColor: "§5" // purple
+    },
+    {
+        id: "minecraft:light_blue_candle_cake",
+        name: "Light Blue Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_light_blue",
+        themeColor: "§b" // aqua
+    },
+    {
+        id: "minecraft:light_gray_candle_cake",
+        name: "Light Gray Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_silver",
+        themeColor: "§7" // gray
     }
 ];
