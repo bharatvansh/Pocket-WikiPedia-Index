@@ -72,6 +72,27 @@ export const glassBlocks = {
         },
         description: "White Stained Glass is a transparent block created by surrounding a piece of White Dye with eight glass blocks. It retains the transparency of regular glass while adding a soft white tint, perfect for modern windows or decorative light filters. Like regular glass, it is fragile and requires a Silk Touch tool to be harvested; otherwise, it shatters when broken."
     },
+    "minecraft:white_stained_glass_pane": {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        hardness: 0.3,
+        blastResistance: 0.3,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:white_stained_glass_pane"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Crafted only, generates in Plains Village Temples"
+        },
+        description: "White Stained Glass Panes are thin, transparent decorative blocks that provide a delicate alternative to full glass blocks. They are crafted by combining glass panes with white dye or by crafting white stained glass blocks into panes. In Bedrock Edition 1.21+, they drop themselves when broken even without the Silk Touch enchantment. These panes connect to adjacent blocks to form seamless, bright windows, making them perfect for modern and minimalist builds while remaining highly resource-efficient."
+    },
     "minecraft:blue_stained_glass": {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
@@ -618,6 +639,27 @@ export const glassBlocks = {
         },
         description: "Hardened Orange Stained Glass is a reinforced variant of stained glass available in Bedrock Edition when Education features are enabled. It combines a vibrant orange tint with superior durability, featuring a blast resistance of 9.0, making it much more resistant to explosions than standard glass. It is produced in a Compound Creator by combining Aluminum Oxide and Boron Trioxide with Orange Stained Glass. Unlike regular glass, it does not shatter easily and can be harvested by hand without Silk Touch, making it ideal for high-security builds and underwater observatories."
     },
+    "minecraft:hard_orange_stained_glass_pane": {
+        id: "minecraft:hard_orange_stained_glass_pane",
+        name: "Hardened Orange Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_orange_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Orange Stained Glass Panes are reinforced, thin transparent blocks exclusive to Bedrock Edition with Education features enabled. They combine a vibrant orange tint with exceptional durability, boasting a hardness of 10 and blast resistance of 9. These panes connect to adjacent blocks to form seamless, colored windows that are resistant to explosions and physical impact. Unlike regular panes, hardened orange panes drop as items when broken even without Silk Touch, making them ideal for high-security decorative builds in modern or sunset-themed structures."
+    },
     "minecraft:light_blue_stained_glass": {
         id: "minecraft:light_blue_stained_glass",
         name: "Light Blue Stained Glass",
@@ -890,6 +932,27 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "Hardened Pink Stained Glass is an exceptionally durable building material introduced in the Education Edition features of Minecraft Bedrock. It combines the transparency of standard glass with high hardness (10.0) and blast resistance (9.0), making it much tougher than regular glass. Its soft pink tint and superior strength make it a top choice for players building in hazardous environments or creating industrial-themed aesthetic designs. Unlike standard stained glass, it does not require the Silk Touch enchantment and can be harvested with any pickaxe."
+    },
+    "minecraft:hard_pink_stained_glass_pane": {
+        id: "minecraft:hard_pink_stained_glass_pane",
+        name: "Hardened Pink Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_pink_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "Hardened Pink Stained Glass Panes are durable, thin transparent blocks exclusive to Bedrock Edition's Education features. They offer a soft pink tint combined with a hardness of 10 and blast resistance of 9, making them far more durable than standard glass. These panes connect to adjacent blocks to create seamless, colorful windows resistant to physical impact and explosions. Unlike regular panes, they drop as items when broken even without Silk Touch, providing a perfect blend of delicate aesthetic and high-security structural integrity for advanced architectural projects."
     },
     "minecraft:hard_red_stained_glass_pane": {
         id: "minecraft:hard_red_stained_glass_pane",

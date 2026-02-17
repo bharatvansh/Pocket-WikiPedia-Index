@@ -3563,6 +3563,13 @@ export const blockIndex = [
         themeColor: "§f" // white
     },
     {
+        id: "minecraft:white_stained_glass_pane",
+        name: "White Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_white",
+        themeColor: "§f" // white
+    },
+    {
         id: "minecraft:blue_stained_glass",
         name: "Blue Stained Glass",
         category: "block",
@@ -6644,6 +6651,13 @@ export const blockIndex = [
         themeColor: "§6"
     },
     {
+        id: "minecraft:hard_orange_stained_glass_pane",
+        name: "Hardened Orange Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_orange",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:waxed_oxidized_cut_copper_slab",
         name: "Waxed Oxidized Cut Copper Slab",
         category: "block",
@@ -6803,6 +6817,13 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_pink",
         themeColor: "§d"
+    },
+    {
+        id: "minecraft:hard_pink_stained_glass_pane",
+        name: "Hardened Pink Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_pink",
+        themeColor: "§d" // pink
     },
     {
         id: "minecraft:hard_red_stained_glass_pane",
