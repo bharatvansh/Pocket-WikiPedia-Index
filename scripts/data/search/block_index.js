@@ -777,6 +777,13 @@ export const blockIndex = [
         themeColor: "§2" // dark green (fully oxidized)
     },
     {
+        id: "minecraft:waxed_copper_bars",
+        name: "Waxed Copper Bars",
+        category: "block",
+        icon: "textures/blocks/copper_bars",
+        themeColor: "§6" // orange
+    },
+    {
         id: "minecraft:exposed_copper_grate",
         name: "Exposed Copper Grate",
         category: "block",
@@ -4586,6 +4593,13 @@ export const blockIndex = [
         themeColor: "§3"
     },
     {
+        id: "minecraft:gray_candle_cake",
+        name: "Gray Candle Cake",
+        category: "block",
+        icon: "textures/blocks/candle_cake_gray",
+        themeColor: "§8" // dark gray
+    },
+    {
         id: "minecraft:mud_brick_slab",
         name: "Mud Brick Slab",
         category: "block",
@@ -6838,5 +6852,12 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/glass_green",
         themeColor: "§2" // green
+    },
+    {
+        id: "minecraft:hard_gray_stained_glass_pane",
+        name: "Hardened Gray Stained Glass Pane",
+        category: "block",
+        icon: "textures/blocks/glass_gray",
+        themeColor: "§8" // dark gray
     }
 ];

@@ -621,6 +621,27 @@ export const interactiveBlocks = {
         },
         description: "Cyan Candle Cake is a festive block created by placing a cyan candle on an uneaten cake. It serves as both a light source and a food source in Bedrock Edition. When lit, the candle emits a light level of 3. If a player eats a slice of the cake, the candle drops as an item and the block reverts to a regular cake. Similarly, if the block is broken, it drops only the candle, and the cake is destroyed. It is a perfect decorative addition for celebrations, offering a vibrant teal accent to interior designs, parties, and themed birthday events."
     },
+    "minecraft:gray_candle_cake": {
+        id: "minecraft:gray_candle_cake",
+        name: "Gray Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["Gray Candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Gray Candle Cake is a festive block created by placing a gray candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a steady light level of 3. If a player eats a slice of the cake, the gray candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the gray candle, and the cake is destroyed. It is a perfect decorative addition for sophisticated or neutral-themed celebrations."
+    },
     "minecraft:structure_void": {
         id: "minecraft:structure_void",
         name: "Structure Void",
