@@ -2007,5 +2007,68 @@ export const interactiveBlocks = {
             yRange: "Placed on Cake"
         },
         description: "Lime Candle Cake is a vibrant decorative block created by placing a lime candle on an uneaten cake. Perfect for tropical or toxic-themed celebrations, it emits a light level of 3 when lit with a flint and steel or fire charge. As with all candle cakes in Bedrock Edition, interacting with the cake to eat a slice will cause the lime candle to drop as an item, leaving behind a regular cake. If the block is broken by hand or any tool, only the lime candle is recovered. Its bright neon hue provides a unique aesthetic for modern interior designs and colorful parties."
+    },
+    "minecraft:purple_candle_cake": {
+        id: "minecraft:purple_candle_cake",
+        name: "Purple Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:purple_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Purple Candle Cake is a festive block created by placing a purple candle on an uneaten cake. It serves as both a light source and a food source in Minecraft Bedrock Edition. When lit with flint and steel, the candle emits a regal light level of 3. If a player eats a slice of the cake, the purple candle drops as an item and the block reverts to a regular cake with one slice missing. Similarly, if the block is broken, it drops only the purple candle, and the cake itself is destroyed. It is a perfect decorative addition for mystical or royal-themed celebrations."
+    },
+    "minecraft:light_blue_candle_cake": {
+        id: "minecraft:light_blue_candle_cake",
+        name: "Light Blue Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_blue_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Light Blue Candle Cake is a celebratory block created by placing a light blue candle on an uneaten cake. It functions as both a light source and a food source in Bedrock Edition. When lit, it provides a gentle glow with a light level of 3. Interacting with the cake to consume a slice will cause the light blue candle to drop as an item, leaving behind a regular cake with a missing slice. If the block is broken, only the candle is recovered. Its soft blue hue makes it an ideal centerpiece for sky-themed parties or winter-themed interior designs."
+    },
+    "minecraft:light_gray_candle_cake": {
+        id: "minecraft:light_gray_candle_cake",
+        name: "Light Gray Candle Cake",
+        hardness: 0.1,
+        blastResistance: 0.1,
+        flammability: true,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 3,
+        mining: {
+            tool: "None",
+            minTier: "None",
+            silkTouch: false
+        },
+        drops: ["minecraft:light_gray_candle"],
+        generation: {
+            dimension: "Overworld",
+            yRange: "Placed on Cake"
+        },
+        description: "Light Gray Candle Cake is a sophisticated decorative block created by placing a light gray candle on an uneaten cake. It serves as a functional light source and food item in Minecraft Bedrock Edition. When lit with a flint and steel, it emits a light level of 3. Consuming a slice of the cake results in the light gray candle being returned to the player, while breaking the block entirely only drops the candle. Its neutral, elegant tone makes it a versatile choice for modern interior designs, weddings, or any refined in-game celebration."
     }
 };
