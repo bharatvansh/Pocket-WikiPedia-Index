@@ -1100,5 +1100,26 @@ export const glassBlocks = {
             yRange: "Crafted only (Education Edition)"
         },
         description: "The Hardened Gray Stained Glass Pane is a durable, thin transparent block exclusive to Bedrock Edition's Education features. It features an earthy gray tint and superior structural integrity compared to standard glass panes, with a hardness of 10 and blast resistance of 9. This reinforced block does not shatter when broken and can be safely harvested using a pickaxe. It is ideal for protective windows in modern or industrial builds where both visibility and strength are required. Like other panes, it connects to adjacent blocks for a seamless appearance."
+    },
+    "minecraft:hard_light_gray_stained_glass_pane": {
+        id: "minecraft:hard_light_gray_stained_glass_pane",
+        name: "Hardened Light Gray Stained Glass Pane",
+        hardness: 10.0,
+        blastResistance: 9.0,
+        flammability: false,
+        gravityAffected: false,
+        transparent: true,
+        luminance: 0,
+        mining: {
+            tool: "Pickaxe",
+            minTier: "Wood",
+            silkTouch: false
+        },
+        drops: ["minecraft:hard_light_gray_stained_glass_pane"],
+        generation: {
+            dimension: "None",
+            yRange: "Crafted only (Education Edition)"
+        },
+        description: "The Hardened Light Gray Stained Glass Pane is a specialized building block from the Education Edition of Minecraft. It is crafted from glass panes and compounds like aluminum oxide and boron trioxide, resulting in a significantly higher blast resistance (9.0) and hardness (10.0) compared to regular glass. This makes it ideal for protecting structures from explosions while maintaining visibility. It features a subtle light gray tint and drops itself when broken, even without the Silk Touch enchantment. It provides a sleek, modern, and highly durable alternative to standard glass panes."
     }
 };
