@@ -87,7 +87,7 @@ export const blockIndex = [
         id: "minecraft:deepslate",
         name: "Deepslate",
         category: "block",
-        icon: "textures/blocks/deepslate",
+        icon: "textures/blocks/deepslate/deepslate",
         themeColor: "§8" // dark gray
     },
     {
@@ -220,14 +220,14 @@ export const blockIndex = [
         id: "minecraft:end_stone_brick_wall",
         name: "End Stone Brick Wall",
         category: "block",
-        icon: "textures/blocks/end_stone_brick_wall",
+        icon: "textures/blocks/end_bricks",
         themeColor: "§6" // yellow/tan
     },
     {
         id: "minecraft:end_stone_brick_slab",
         name: "End Stone Brick Slab",
         category: "block",
-        icon: "textures/blocks/end_stone_brick_slab",
+        icon: "textures/blocks/end_bricks",
         themeColor: "§6" // yellow/tan
     },
     {
@@ -437,7 +437,7 @@ export const blockIndex = [
         id: "minecraft:flowering_azalea_leaves",
         name: "Flowering Azalea Leaves",
         category: "block",
-        icon: "textures/blocks/flowering_azalea_leaves",
+        icon: "textures/blocks/azalea_leaves_flowers",
         themeColor: "§a" // green/pink
     },
     {
@@ -507,7 +507,7 @@ export const blockIndex = [
         id: "minecraft:prismarine",
         name: "Prismarine",
         category: "block",
-        icon: "textures/blocks/prismarine",
+        icon: "textures/blocks/prismarine_rough",
         themeColor: "§b" // aqua/teal
     },
     {
@@ -612,7 +612,7 @@ export const blockIndex = [
         id: "minecraft:pale_hanging_moss",
         name: "Pale Hanging Moss",
         category: "block",
-        icon: "textures/blocks/pale_hanging_moss",
+        icon: "textures/blocks/pale_oak_leaves",
         themeColor: "§7" // gray
     },
     {
@@ -717,7 +717,7 @@ export const blockIndex = [
         id: "minecraft:creaking_heart",
         name: "Creaking Heart",
         category: "block",
-        icon: "textures/blocks/creaking_heart",
+        icon: "textures/blocks/pale_oak_log_side",
         themeColor: "§6" // orange/gold (resin color)
     },
     {
@@ -899,7 +899,7 @@ export const blockIndex = [
         id: "minecraft:pale_moss_carpet",
         name: "Pale Moss Carpet",
         category: "block",
-        icon: "textures/blocks/pale_moss_carpet",
+        icon: "textures/blocks/pale_moss_block",
         themeColor: "§7" // gray
     },
     {
@@ -1053,14 +1053,14 @@ export const blockIndex = [
         id: "minecraft:conduit",
         name: "Conduit",
         category: "block",
-        icon: "textures/blocks/conduit",
+        icon: "textures/blocks/conduit_base",
         themeColor: "§b" // aqua/cyan
     },
     {
         id: "minecraft:honeycomb_block",
         name: "Honeycomb Block",
         category: "block",
-        icon: "textures/blocks/honeycomb_block",
+        icon: "textures/blocks/honeycomb",
         themeColor: "§6" // gold/orange
     },
     {
@@ -1158,7 +1158,7 @@ export const blockIndex = [
         id: "minecraft:pointed_dripstone",
         name: "Pointed Dripstone",
         category: "block",
-        icon: "textures/blocks/pointed_dripstone",
+        icon: "textures/blocks/pointed_dripstone_up_tip",
         themeColor: "§7" // gray
     },
     {
@@ -1214,7 +1214,7 @@ export const blockIndex = [
         id: "minecraft:smooth_basalt",
         name: "Smooth Basalt",
         category: "block",
-        icon: "textures/blocks/smooth_basalt_side",
+        icon: "textures/blocks/smooth_basalt",
         themeColor: "§7" // gray
     },
     {
@@ -1228,7 +1228,7 @@ export const blockIndex = [
         id: "minecraft:suspicious_sand",
         name: "Suspicious Sand",
         category: "block",
-        icon: "textures/blocks/suspicious_sand",
+        icon: "textures/blocks/suspicious_sand_0",
         themeColor: "§6" // gold/brown
     },
     {
@@ -1319,14 +1319,14 @@ export const blockIndex = [
         id: "minecraft:suspicious_gravel",
         name: "Suspicious Gravel",
         category: "block",
-        icon: "textures/blocks/suspicious_gravel",
+        icon: "textures/blocks/suspicious_gravel_0",
         themeColor: "§8" // dark gray/brown
     },
     {
         id: "minecraft:honey_block",
         name: "Honey Block",
         category: "block",
-        icon: "textures/blocks/honey_block_side",
+        icon: "textures/blocks/honey_side",
         themeColor: "§6" // gold/orange
     },
     {
@@ -1354,7 +1354,7 @@ export const blockIndex = [
         id: "minecraft:nether_bricks",
         name: "Nether Bricks",
         category: "block",
-        icon: "textures/blocks/nether_bricks",
+        icon: "textures/blocks/nether_brick",
         themeColor: "§4" // dark red
     },
     {
@@ -1452,7 +1452,7 @@ export const blockIndex = [
         id: "minecraft:mushroom_stem",
         name: "Mushroom Stem",
         category: "block",
-        icon: "textures/blocks/mushroom_stem",
+        icon: "textures/blocks/mushroom_block_skin_stem",
         themeColor: "§f"
     },
     {
@@ -1480,7 +1480,7 @@ export const blockIndex = [
         id: "minecraft:fletching_table",
         name: "Fletching Table",
         category: "block",
-        icon: "textures/blocks/fletching_table",
+        icon: "textures/blocks/cartography_table_top",
         themeColor: "§6"
     },
     {
@@ -1557,7 +1557,7 @@ export const blockIndex = [
         id: "minecraft:mangrove_wood",
         name: "Mangrove Wood",
         category: "block",
-        icon: "textures/blocks/mangrove_wood",
+        icon: "textures/blocks/mangrove_log_side",
         themeColor: "§4"
     },
     {
@@ -1571,14 +1571,14 @@ export const blockIndex = [
         id: "minecraft:stripped_mangrove_wood",
         name: "Stripped Mangrove Wood",
         category: "block",
-        icon: "textures/blocks/stripped_mangrove_wood",
+        icon: "textures/blocks/stripped_mangrove_log_side",
         themeColor: "§4"
     },
     {
         id: "minecraft:mangrove_slab",
         name: "Mangrove Slab",
         category: "block",
-        icon: "textures/blocks/mangrove_slab",
+        icon: "textures/blocks/mangrove_planks",
         themeColor: "§4"
     },
     {
@@ -1634,7 +1634,7 @@ export const blockIndex = [
         id: "minecraft:anvil",
         name: "Anvil",
         category: "block",
-        icon: "textures/blocks/anvil_top",
+        icon: "textures/blocks/anvil_base",
         themeColor: "§7" // gray
     },
     {
@@ -1655,7 +1655,7 @@ export const blockIndex = [
         id: "minecraft:pitcher_plant",
         name: "Pitcher Plant",
         category: "block",
-        icon: "textures/blocks/pitcher_plant",
+        icon: "textures/blocks/pitcher_crop_top_stage_4",
         themeColor: "§9" // blue
     },
     {
@@ -1683,21 +1683,21 @@ export const blockIndex = [
         id: "minecraft:sticky_piston",
         name: "Sticky Piston",
         category: "block",
-        icon: "textures/blocks/piston_side_sticky",
+        icon: "textures/blocks/piston_top_sticky",
         themeColor: "§a"
     },
     {
         id: "minecraft:dispenser",
         name: "Dispenser",
         category: "block",
-        icon: "textures/blocks/dispenser_front",
+        icon: "textures/blocks/dispenser_front_horizontal",
         themeColor: "§7"
     },
     {
         id: "minecraft:dropper",
         name: "Dropper",
         category: "block",
-        icon: "textures/blocks/dropper_front",
+        icon: "textures/blocks/dropper_front_horizontal",
         themeColor: "§7"
     },
     {
@@ -1711,7 +1711,7 @@ export const blockIndex = [
         id: "minecraft:frog_spawn",
         name: "Frog Spawn",
         category: "block",
-        icon: "textures/blocks/frog_spawn",
+        icon: "textures/blocks/frogspawn",
         themeColor: "§a" // green
     },
     {
@@ -1739,7 +1739,7 @@ export const blockIndex = [
         id: "minecraft:dried_kelp_block",
         name: "Dried Kelp Block",
         category: "block",
-        icon: "textures/blocks/dried_kelp_block",
+        icon: "textures/blocks/dried_kelp_side_a",
         themeColor: "§2" // dark green
     },
     {
@@ -1767,21 +1767,21 @@ export const blockIndex = [
         id: "minecraft:rooted_dirt",
         name: "Rooted Dirt",
         category: "block",
-        icon: "textures/blocks/rooted_dirt",
+        icon: "textures/blocks/coarse_dirt",
         themeColor: "§6" // brown
     },
     {
         id: "minecraft:brown_mushroom_block",
         name: "Brown Mushroom Block",
         category: "block",
-        icon: "textures/blocks/brown_mushroom_block",
+        icon: "textures/blocks/mushroom_block_skin_brown",
         themeColor: "§6"
     },
     {
         id: "minecraft:red_mushroom_block",
         name: "Red Mushroom Block",
         category: "block",
-        icon: "textures/blocks/red_mushroom_block",
+        icon: "textures/blocks/mushroom_block_skin_red",
         themeColor: "§c"
     },
     {
@@ -1837,14 +1837,14 @@ export const blockIndex = [
         id: "minecraft:open_eyeblossom",
         name: "Open Eyeblossom",
         category: "block",
-        icon: "textures/blocks/open_eyeblossom",
+        icon: "textures/blocks/flower_allium",
         themeColor: "§6"
     },
     {
         id: "minecraft:closed_eyeblossom",
         name: "Closed Eyeblossom",
         category: "block",
-        icon: "textures/blocks/closed_eyeblossom",
+        icon: "textures/blocks/flower_houstonia",
         themeColor: "§7"
     },
     {
@@ -1879,14 +1879,14 @@ export const blockIndex = [
         id: "minecraft:pitcher_crop",
         name: "Pitcher Crop",
         category: "block",
-        icon: "textures/blocks/pitcher_crop_stage_3",
+        icon: "textures/blocks/pitcher_crop_bottom_stage_3",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:torchflower_crop",
         name: "Torchflower Crop",
         category: "block",
-        icon: "textures/blocks/torchflower_crop_stage1",
+        icon: "textures/blocks/torchflower_crop_stage_1",
         themeColor: "§e" // yellow
     },
     {
@@ -1935,14 +1935,14 @@ export const blockIndex = [
         id: "minecraft:pale_oak_bricks",
         name: "Pale Oak Bricks",
         category: "block",
-        icon: "textures/blocks/pale_oak_bricks",
+        icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7" // gray/pale
     },
     {
         id: "minecraft:pale_oak_stairs",
         name: "Pale Oak Stairs",
         category: "block",
-        icon: "textures/blocks/pale_oak_stairs",
+        icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7" // gray/pale
     },
     {
@@ -1978,20 +1978,6 @@ export const blockIndex = [
         name: "Barrier",
         category: "block",
         icon: "textures/blocks/barrier",
-        themeColor: "§c" // red
-    },
-    {
-        id: "minecraft:allow",
-        name: "Allow",
-        category: "block",
-        icon: "textures/blocks/build_allow",
-        themeColor: "§a" // green
-    },
-    {
-        id: "minecraft:deny",
-        name: "Deny",
-        category: "block",
-        icon: "textures/blocks/build_deny",
         themeColor: "§c" // red
     },
     {
@@ -2159,7 +2145,7 @@ export const blockIndex = [
         id: "minecraft:tuff_brick_wall",
         name: "Tuff Brick Wall",
         category: "block",
-        icon: "textures/blocks/tuff_brick_wall",
+        icon: "textures/blocks/tuff_bricks",
         themeColor: "§7" // gray
     },
     {
@@ -2229,7 +2215,7 @@ export const blockIndex = [
         id: "minecraft:end_portal_frame",
         name: "End Portal Frame",
         category: "block",
-        icon: "textures/blocks/end_portal_frame_top",
+        icon: "textures/blocks/endframe_top",
         themeColor: "§a" // green
     },
     {
@@ -2257,28 +2243,28 @@ export const blockIndex = [
         id: "minecraft:colored_torch_blue",
         name: "Blue Torch",
         category: "block",
-        icon: "textures/blocks/colored_torch_blue",
+        icon: "textures/blocks/torch_on",
         themeColor: "§9" // blue
     },
     {
         id: "minecraft:colored_torch_green",
         name: "Green Torch",
         category: "block",
-        icon: "textures/blocks/colored_torch_green",
+        icon: "textures/blocks/torch_on",
         themeColor: "§2" // green
     },
     {
         id: "minecraft:colored_torch_purple",
         name: "Purple Torch",
         category: "block",
-        icon: "textures/blocks/colored_torch_purple",
+        icon: "textures/blocks/torch_on",
         themeColor: "§5" // purple
     },
     {
         id: "minecraft:colored_torch_red",
         name: "Red Torch",
         category: "block",
-        icon: "textures/blocks/colored_torch_red",
+        icon: "textures/blocks/torch_on",
         themeColor: "§c" // red
     },
     {
@@ -2301,13 +2287,6 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/copper_torch",
         themeColor: "§a"
-    },
-    {
-        id: "minecraft:underwater_torch",
-        name: "Underwater Torch",
-        category: "block",
-        icon: "textures/blocks/underwater_torch",
-        themeColor: "§b"
     },
     {
         id: "minecraft:prismarine_bricks",
@@ -2369,7 +2348,7 @@ export const blockIndex = [
         id: "minecraft:trapped_chest",
         name: "Trapped Chest",
         category: "block",
-        icon: "textures/blocks/chest_trap",
+        icon: "textures/blocks/chest_side",
         themeColor: "§8" // dark brown
     },
     {
@@ -2394,13 +2373,6 @@ export const blockIndex = [
         themeColor: "§a" // green
     },
     {
-        id: "minecraft:border_block",
-        name: "Border Block",
-        category: "block",
-        icon: "textures/blocks/border",
-        themeColor: "§c" // red
-    },
-    {
         id: "minecraft:structure_block",
         name: "Structure Block",
         category: "block",
@@ -2411,7 +2383,7 @@ export const blockIndex = [
         id: "minecraft:light_block",
         name: "Light Block",
         category: "block",
-        icon: "textures/items/light_block",
+        icon: "textures/blocks/glowstone",
         themeColor: "§e" // yellow
     },
     {
@@ -2420,13 +2392,6 @@ export const blockIndex = [
         category: "block",
         icon: "textures/blocks/tnt_side",
         themeColor: "§c" // red
-    },
-    {
-        id: "minecraft:underwater_tnt",
-        name: "Underwater TNT",
-        category: "block",
-        icon: "textures/blocks/underwater_tnt",
-        themeColor: "§b"
     },
     {
         id: "minecraft:white_concrete",
@@ -2586,7 +2551,7 @@ export const blockIndex = [
         id: "minecraft:crimson_stem",
         name: "Crimson Stem",
         category: "block",
-        icon: "textures/blocks/crimson_stem_side",
+        icon: "textures/blocks/huge_fungus/stripped_crimson_stem_side",
         themeColor: "§4" // dark red
     },
     {
@@ -2614,14 +2579,14 @@ export const blockIndex = [
         id: "minecraft:crimson_hyphae",
         name: "Crimson Hyphae",
         category: "block",
-        icon: "textures/blocks/crimson_stem_side",
+        icon: "textures/blocks/huge_fungus/stripped_crimson_stem_side",
         themeColor: "§4" // dark red
     },
     {
         id: "minecraft:kelp",
         name: "Kelp",
         category: "block",
-        icon: "textures/blocks/kelp_plant",
+        icon: "textures/blocks/dried_kelp_side_a",
         themeColor: "§a" // green
     },
     {
@@ -2635,7 +2600,7 @@ export const blockIndex = [
         id: "minecraft:wither_rose",
         name: "Wither Rose",
         category: "block",
-        icon: "textures/blocks/wither_rose",
+        icon: "textures/blocks/flower_wither_rose",
         themeColor: "§0" // black
     },
     {
@@ -2649,133 +2614,133 @@ export const blockIndex = [
         id: "minecraft:brain_coral_block",
         name: "Brain Coral Block",
         category: "block",
-        icon: "textures/blocks/brain_coral_block",
+        icon: "textures/blocks/coral_pink",
         themeColor: "§d" // Pink
     },
     {
         id: "minecraft:bubble_coral_block",
         name: "Bubble Coral Block",
         category: "block",
-        icon: "textures/blocks/bubble_coral_block",
+        icon: "textures/blocks/coral_purple",
         themeColor: "§5" // Purple
     },
     {
         id: "minecraft:fire_coral_block",
         name: "Fire Coral Block",
         category: "block",
-        icon: "textures/blocks/fire_coral_block",
+        icon: "textures/blocks/coral_red",
         themeColor: "§c" // Red
     },
     {
         id: "minecraft:tube_coral_block",
         name: "Tube Coral Block",
         category: "block",
-        icon: "textures/blocks/tube_coral_block",
+        icon: "textures/blocks/coral_blue",
         themeColor: "§9" // Blue
     },
     {
         id: "minecraft:horn_coral_block",
         name: "Horn Coral Block",
         category: "block",
-        icon: "textures/blocks/horn_coral_block",
+        icon: "textures/blocks/coral_yellow",
         themeColor: "§e" // Yellow
     },
     {
         id: "minecraft:tube_coral",
         name: "Tube Coral",
         category: "block",
-        icon: "textures/blocks/tube_coral",
+        icon: "textures/blocks/coral_blue",
         themeColor: "§9" // Blue
     },
     {
         id: "minecraft:horn_coral",
         name: "Horn Coral",
         category: "block",
-        icon: "textures/blocks/horn_coral",
+        icon: "textures/blocks/coral_yellow",
         themeColor: "§e" // Yellow
     },
     {
         id: "minecraft:brain_coral",
         name: "Brain Coral",
         category: "block",
-        icon: "textures/blocks/brain_coral",
+        icon: "textures/blocks/coral_pink",
         themeColor: "§d" // Pink
     },
     {
         id: "minecraft:bubble_coral",
         name: "Bubble Coral",
         category: "block",
-        icon: "textures/blocks/bubble_coral",
+        icon: "textures/blocks/coral_purple",
         themeColor: "§d" // Pink
     },
     {
         id: "minecraft:fire_coral",
         name: "Fire Coral",
         category: "block",
-        icon: "textures/blocks/fire_coral",
+        icon: "textures/blocks/coral_red",
         themeColor: "§c" // Red
     },
     {
         id: "minecraft:tube_coral_fan",
         name: "Tube Coral Fan",
         category: "block",
-        icon: "textures/blocks/tube_coral_fan",
+        icon: "textures/blocks/coral_fan_blue",
         themeColor: "§9" // Blue
     },
     {
         id: "minecraft:brain_coral_fan",
         name: "Brain Coral Fan",
         category: "block",
-        icon: "textures/blocks/brain_coral_fan",
+        icon: "textures/blocks/coral_fan_pink",
         themeColor: "§d" // Pink
     },
     {
         id: "minecraft:bubble_coral_fan",
         name: "Bubble Coral Fan",
         category: "block",
-        icon: "textures/blocks/bubble_coral_fan",
+        icon: "textures/blocks/coral_fan_purple",
         themeColor: "§d" // Pink
     },
     {
         id: "minecraft:fire_coral_fan",
         name: "Fire Coral Fan",
         category: "block",
-        icon: "textures/blocks/fire_coral_fan",
+        icon: "textures/blocks/coral_fan_red",
         themeColor: "§c" // Red
     },
     {
         id: "minecraft:fire_coral_wall_fan",
         name: "Fire Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/fire_coral_fan",
+        icon: "textures/blocks/coral_fan_red",
         themeColor: "§c"
     },
     {
         id: "minecraft:horn_coral_fan",
         name: "Horn Coral Fan",
         category: "block",
-        icon: "textures/blocks/horn_coral_fan",
+        icon: "textures/blocks/coral_fan_yellow",
         themeColor: "§e" // Yellow
     },
     {
         id: "minecraft:dead_brain_coral_fan",
         name: "Dead Brain Coral Fan",
         category: "block",
-        icon: "textures/blocks/dead_brain_coral_fan",
+        icon: "textures/blocks/coral_fan_pink_dead",
         themeColor: "§7" // Gray
     },
     {
         id: "minecraft:dead_tube_coral",
         name: "Dead Tube Coral",
         category: "block",
-        icon: "textures/blocks/dead_tube_coral",
+        icon: "textures/blocks/coral_blue_dead",
         themeColor: "§7" // Gray
     },
     {
         id: "minecraft:dead_horn_coral",
         name: "Dead Horn Coral",
         category: "block",
-        icon: "textures/blocks/dead_horn_coral",
+        icon: "textures/blocks/coral_yellow_dead",
         themeColor: "§7"
     },
     {
@@ -2817,7 +2782,7 @@ export const blockIndex = [
         id: "minecraft:twisting_vines",
         name: "Twisting Vines",
         category: "block",
-        icon: "textures/items/twisting_vines",
+        icon: "textures/blocks/weeping_vines",
         themeColor: "§3" // Dark Aqua
     },
     {
@@ -3006,14 +2971,14 @@ export const blockIndex = [
         id: "minecraft:stripped_spruce_log",
         name: "Stripped Spruce Log",
         category: "block",
-        icon: "textures/blocks/stripped_spruce_log_side",
+        icon: "textures/blocks/stripped_spruce_log",
         themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:stripped_spruce_wood",
         name: "Stripped Spruce Wood",
         category: "block",
-        icon: "textures/blocks/stripped_spruce_wood",
+        icon: "textures/blocks/stripped_spruce_log",
         themeColor: "§8" // dark gray
     },
     {
@@ -3027,7 +2992,7 @@ export const blockIndex = [
         id: "minecraft:stripped_birch_log",
         name: "Stripped Birch Log",
         category: "block",
-        icon: "textures/blocks/stripped_birch_log_side",
+        icon: "textures/blocks/stripped_birch_log",
         themeColor: "§f" // white
     },
     {
@@ -3139,28 +3104,28 @@ export const blockIndex = [
         id: "minecraft:mud_brick_stairs",
         name: "Mud Brick Stairs",
         category: "block",
-        icon: "textures/blocks/mud_brick_stairs",
+        icon: "textures/blocks/mud_bricks",
         themeColor: "§6"
     },
     {
         id: "minecraft:cracked_deepslate_bricks",
         name: "Cracked Deepslate Bricks",
         category: "block",
-        icon: "textures/blocks/deepslate_bricks_cracked",
+        icon: "textures/blocks/deepslate/cracked_deepslate_bricks",
         themeColor: "§8"
     },
     {
         id: "minecraft:cracked_deepslate_tiles",
         name: "Cracked Deepslate Tiles",
         category: "block",
-        icon: "textures/blocks/deepslate_tiles_cracked",
+        icon: "textures/blocks/deepslate/cracked_deepslate_tiles",
         themeColor: "§8"
     },
     {
         id: "minecraft:quartz_pillar",
         name: "Quartz Pillar",
         category: "block",
-        icon: "textures/blocks/quartz_pillar",
+        icon: "textures/blocks/quartz_block_lines",
         themeColor: "§f"
     },
     {
@@ -3265,7 +3230,7 @@ export const blockIndex = [
         id: "minecraft:end_stone_brick_stairs",
         name: "End Stone Brick Stairs",
         category: "block",
-        icon: "textures/blocks/end_stone_brick_stairs",
+        icon: "textures/blocks/end_bricks",
         themeColor: "§6"
     },
     {
@@ -3363,7 +3328,7 @@ export const blockIndex = [
         id: "minecraft:cave_vines",
         name: "Cave Vines",
         category: "block",
-        icon: "textures/blocks/cave_vines_body_with_berries",
+        icon: "textures/blocks/cave_vines_body_berries",
         themeColor: "§a"
     },
     {
@@ -3384,14 +3349,14 @@ export const blockIndex = [
         id: "minecraft:infested_deepslate",
         name: "Infested Deepslate",
         category: "block",
-        icon: "textures/blocks/deepslate",
+        icon: "textures/blocks/deepslate/deepslate",
         themeColor: "§8"
     },
     {
         id: "minecraft:warped_hyphae",
         name: "Warped Hyphae",
         category: "block",
-        icon: "textures/blocks/warped_hyphae",
+        icon: "textures/blocks/huge_fungus/warped_stem_side",
         themeColor: "§3" // dark aqua
     },
     {
@@ -3405,28 +3370,28 @@ export const blockIndex = [
         id: "minecraft:cut_sandstone",
         name: "Cut Sandstone",
         category: "block",
-        icon: "textures/blocks/cut_sandstone",
+        icon: "textures/blocks/sandstone_smooth",
         themeColor: "§e" // yellow/sand
     },
     {
         id: "minecraft:cut_sandstone_slab",
         name: "Cut Sandstone Slab",
         category: "block",
-        icon: "textures/blocks/cut_sandstone",
+        icon: "textures/blocks/sandstone_smooth",
         themeColor: "§e"
     },
     {
         id: "minecraft:chiseled_sandstone",
         name: "Chiseled Sandstone",
         category: "block",
-        icon: "textures/blocks/chiseled_sandstone",
+        icon: "textures/blocks/sandstone_carved",
         themeColor: "§e" // yellow/sand
     },
     {
         id: "minecraft:sandstone_wall",
         name: "Sandstone Wall",
         category: "block",
-        icon: "textures/blocks/sandstone_wall",
+        icon: "textures/blocks/sandstone_normal",
         themeColor: "§e" // yellow/sand
     },
     {
@@ -3447,14 +3412,14 @@ export const blockIndex = [
         id: "minecraft:chiseled_red_sandstone",
         name: "Chiseled Red Sandstone",
         category: "block",
-        icon: "textures/blocks/red_sandstone_chiseled",
+        icon: "textures/blocks/red_sandstone_carved",
         themeColor: "§c" // red/orange
     },
     {
         id: "minecraft:cut_red_sandstone",
         name: "Cut Red Sandstone",
         category: "block",
-        icon: "textures/blocks/red_sandstone_cut",
+        icon: "textures/blocks/red_sandstone_smooth",
         themeColor: "§c" // red/orange
     },
     {
@@ -3468,14 +3433,14 @@ export const blockIndex = [
         id: "minecraft:red_sandstone_slab",
         name: "Red Sandstone Slab",
         category: "block",
-        icon: "textures/blocks/red_sandstone_slab_top",
+        icon: "textures/blocks/red_sandstone_top",
         themeColor: "§c" // red/orange
     },
     {
         id: "minecraft:cut_red_sandstone_slab",
         name: "Cut Red Sandstone Slab",
         category: "block",
-        icon: "textures/blocks/red_sandstone_cut",
+        icon: "textures/blocks/red_sandstone_smooth",
         themeColor: "§c"
     },
     {
@@ -3517,7 +3482,7 @@ export const blockIndex = [
         id: "minecraft:reeds",
         name: "Sugar Cane",
         category: "block",
-        icon: "textures/items/sugar_cane",
+        icon: "textures/items/reeds",
         themeColor: "§a"
     },
     {
@@ -3538,7 +3503,7 @@ export const blockIndex = [
         id: "minecraft:dirt_path",
         name: "Dirt Path",
         category: "block",
-        icon: "textures/blocks/dirt_path_top",
+        icon: "textures/blocks/farmland_dry",
         themeColor: "§e" // yellow/brown
     },
     {
@@ -3671,7 +3636,7 @@ export const blockIndex = [
         id: "minecraft:sunflower",
         name: "Sunflower",
         category: "block",
-        icon: "textures/blocks/sunflower_front",
+        icon: "textures/blocks/double_plant_sunflower_front",
         themeColor: "§e" // yellow
     },
     {
@@ -3755,21 +3720,21 @@ export const blockIndex = [
         id: "minecraft:pale_oak_fence",
         name: "Pale Oak Fence",
         category: "block",
-        icon: "textures/blocks/pale_oak_fence",
+        icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7"
     },
     {
         id: "minecraft:pale_oak_fence_gate",
         name: "Pale Oak Fence Gate",
         category: "block",
-        icon: "textures/blocks/pale_oak_fence_gate",
+        icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7"
     },
     {
         id: "minecraft:pale_oak_button",
         name: "Pale Oak Button",
         category: "block",
-        icon: "textures/blocks/pale_oak_button",
+        icon: "textures/blocks/pale_oak_planks",
         themeColor: "§7"
     },
     {
@@ -3811,7 +3776,7 @@ export const blockIndex = [
         id: "minecraft:moss_carpet",
         name: "Moss Carpet",
         category: "block",
-        icon: "textures/blocks/moss_carpet",
+        icon: "textures/blocks/moss_block",
         themeColor: "§2"
     },
     {
@@ -3909,7 +3874,7 @@ export const blockIndex = [
         id: "minecraft:jungle_door",
         name: "Jungle Door",
         category: "block",
-        icon: "textures/items/jungle_door",
+        icon: "textures/items/door_jungle",
         themeColor: "§6"
     },
     {
@@ -3923,7 +3888,7 @@ export const blockIndex = [
         id: "minecraft:prismarine_stairs",
         name: "Prismarine Stairs",
         category: "block",
-        icon: "textures/blocks/prismarine_stairs",
+        icon: "textures/blocks/prismarine_rough",
         themeColor: "§b"
     },
     {
@@ -3937,7 +3902,7 @@ export const blockIndex = [
         id: "minecraft:dark_prismarine_stairs",
         name: "Dark Prismarine Stairs",
         category: "block",
-        icon: "textures/blocks/dark_prismarine_stairs",
+        icon: "textures/blocks/prismarine_dark",
         themeColor: "§3"
     },
     {
@@ -3965,21 +3930,21 @@ export const blockIndex = [
         id: "minecraft:crimson_stairs",
         name: "Crimson Stairs",
         category: "block",
-        icon: "textures/blocks/crimson_stairs",
+        icon: "textures/blocks/huge_fungus/crimson_planks",
         themeColor: "§4"
     },
     {
         id: "minecraft:warped_stairs",
         name: "Warped Stairs",
         category: "block",
-        icon: "textures/blocks/warped_stairs",
+        icon: "textures/blocks/huge_fungus/warped_planks",
         themeColor: "§3"
     },
     {
         id: "minecraft:cherry_wood",
         name: "Cherry Wood",
         category: "block",
-        icon: "textures/blocks/cherry_wood",
+        icon: "textures/blocks/cherry_log_side",
         themeColor: "§d"
     },
     {
@@ -3993,21 +3958,21 @@ export const blockIndex = [
         id: "minecraft:stripped_cherry_wood",
         name: "Stripped Cherry Wood",
         category: "block",
-        icon: "textures/blocks/stripped_cherry_wood",
+        icon: "textures/blocks/stripped_cherry_log_side",
         themeColor: "§d"
     },
     {
         id: "minecraft:cherry_stairs",
         name: "Cherry Stairs",
         category: "block",
-        icon: "textures/blocks/cherry_stairs",
+        icon: "textures/blocks/cherry_planks",
         themeColor: "§d"
     },
     {
         id: "minecraft:cherry_slab",
         name: "Cherry Slab",
         category: "block",
-        icon: "textures/blocks/cherry_slab",
+        icon: "textures/blocks/cherry_planks",
         themeColor: "§d"
     },
     {
@@ -4161,7 +4126,7 @@ export const blockIndex = [
         id: "minecraft:glass_pane",
         name: "Glass Pane",
         category: "block",
-        icon: "textures/items/glass_pane",
+        icon: "textures/blocks/glass",
         themeColor: "§f" // white
     },
     {
@@ -4203,7 +4168,7 @@ export const blockIndex = [
         id: "minecraft:flowering_azalea",
         name: "Flowering Azalea",
         category: "block",
-        icon: "textures/blocks/azalea_leaves_flowers_side",
+        icon: "textures/blocks/flowering_azalea_side",
         themeColor: "§d" // light purple
     },
     {
@@ -4224,7 +4189,7 @@ export const blockIndex = [
         id: "minecraft:netherreactor",
         name: "Nether Reactor Core",
         category: "block",
-        icon: "textures/blocks/nether_reactor_core_front",
+        icon: "textures/blocks/netherrack",
         themeColor: "§b" // light blue
     },
     {
@@ -4238,21 +4203,21 @@ export const blockIndex = [
         id: "minecraft:andesite_stairs",
         name: "Andesite Stairs",
         category: "block",
-        icon: "textures/blocks/andesite_stairs",
+        icon: "textures/blocks/stone_andesite",
         themeColor: "§7" // gray
     },
     {
         id: "minecraft:diorite_stairs",
         name: "Diorite Stairs",
         category: "block",
-        icon: "textures/blocks/diorite_stairs",
+        icon: "textures/blocks/stone_diorite",
         themeColor: "§7" // white/gray
     },
     {
         id: "minecraft:granite_stairs",
         name: "Granite Stairs",
         category: "block",
-        icon: "textures/blocks/granite_stairs",
+        icon: "textures/blocks/stone_granite",
         themeColor: "§6" // pinkish-brown
     },
     {
@@ -4280,7 +4245,7 @@ export const blockIndex = [
         id: "minecraft:large_fern",
         name: "Large Fern",
         category: "block",
-        icon: "textures/blocks/fern_upper",
+        icon: "textures/blocks/double_plant_fern_carried",
         themeColor: "§2" // dark green
     },
     {
@@ -4449,7 +4414,7 @@ export const blockIndex = [
         id: "minecraft:cherry_fence_gate",
         name: "Cherry Fence Gate",
         category: "block",
-        icon: "textures/blocks/cherry_fence_gate",
+        icon: "textures/blocks/cherry_planks",
         themeColor: "§d"
     },
     {
@@ -4477,7 +4442,7 @@ export const blockIndex = [
         id: "minecraft:red_nether_bricks",
         name: "Red Nether Bricks",
         category: "block",
-        icon: "textures/blocks/red_nether_bricks",
+        icon: "textures/blocks/red_nether_brick",
         themeColor: "§4"
     },
     {
@@ -4505,14 +4470,14 @@ export const blockIndex = [
         id: "minecraft:smooth_sandstone_slab",
         name: "Smooth Sandstone Slab",
         category: "block",
-        icon: "textures/blocks/sandstone_slab_top",
+        icon: "textures/blocks/sandstone_top",
         themeColor: "§e"
     },
     {
         id: "minecraft:smooth_red_sandstone_slab",
         name: "Smooth Red Sandstone Slab",
         category: "block",
-        icon: "textures/blocks/red_sandstone_slab_top",
+        icon: "textures/blocks/red_sandstone_top",
         themeColor: "§6"
     },
     {
@@ -4561,7 +4526,7 @@ export const blockIndex = [
         id: "minecraft:mud_brick_wall",
         name: "Mud Brick Wall",
         category: "block",
-        icon: "textures/blocks/mud_brick_wall",
+        icon: "textures/blocks/mud_bricks",
         themeColor: "§6"
     },
     {
@@ -4575,42 +4540,42 @@ export const blockIndex = [
         id: "minecraft:blue_candle",
         name: "Blue Candle",
         category: "block",
-        icon: "textures/blocks/candle_blue",
+        icon: "textures/blocks/candles/blue_candle",
         themeColor: "§9"
     },
     {
         id: "minecraft:blue_candle_cake",
         name: "Blue Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_blue",
+        icon: "textures/blocks/candles/blue_candle",
         themeColor: "§9" // Blue
     },
     {
         id: "minecraft:cyan_candle",
         name: "Cyan Candle",
         category: "block",
-        icon: "textures/blocks/candle_cyan",
+        icon: "textures/blocks/candles/cyan_candle",
         themeColor: "§3"
     },
     {
         id: "minecraft:cyan_candle_cake",
         name: "Cyan Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_cyan",
+        icon: "textures/blocks/candles/cyan_candle",
         themeColor: "§3"
     },
     {
         id: "minecraft:gray_candle_cake",
         name: "Gray Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_gray",
+        icon: "textures/blocks/candles/gray_candle",
         themeColor: "§8" // dark gray
     },
     {
         id: "minecraft:mud_brick_slab",
         name: "Mud Brick Slab",
         category: "block",
-        icon: "textures/blocks/mud_brick_slab",
+        icon: "textures/blocks/mud_bricks",
         themeColor: "§6"
     },
     {
@@ -4638,7 +4603,7 @@ export const blockIndex = [
         id: "minecraft:birch_door",
         name: "Birch Door",
         category: "block",
-        icon: "textures/items/birch_door",
+        icon: "textures/items/door_birch",
         themeColor: "§f"
     },
     {
@@ -4715,7 +4680,7 @@ export const blockIndex = [
         id: "minecraft:acacia_door",
         name: "Acacia Door",
         category: "block",
-        icon: "textures/items/acacia_door",
+        icon: "textures/items/door_acacia",
         themeColor: "§6"
     },
     {
@@ -4736,7 +4701,7 @@ export const blockIndex = [
         id: "minecraft:stripped_oak_log",
         name: "Stripped Oak Log",
         category: "block",
-        icon: "textures/blocks/stripped_oak_log_side",
+        icon: "textures/blocks/stripped_oak_log",
         themeColor: "§6"
     },
     {
@@ -4834,21 +4799,21 @@ export const blockIndex = [
         id: "minecraft:brown_candle",
         name: "Brown Candle",
         category: "block",
-        icon: "textures/blocks/candle_brown",
+        icon: "textures/blocks/candles/brown_candle",
         themeColor: "§6"
     },
     {
         id: "minecraft:black_candle",
         name: "Black Candle",
         category: "block",
-        icon: "textures/blocks/candle_black",
+        icon: "textures/blocks/candles/black_candle",
         themeColor: "§0"
     },
     {
         id: "minecraft:light_gray_candle",
         name: "Light Gray Candle",
         category: "block",
-        icon: "textures/blocks/candle_silver",
+        icon: "textures/blocks/candles/light_gray_candle",
         themeColor: "§7" // gray/light gray
     },
     {
@@ -4890,7 +4855,7 @@ export const blockIndex = [
         id: "minecraft:stripped_oak_wood",
         name: "Stripped Oak Wood",
         category: "block",
-        icon: "textures/blocks/stripped_oak_log_side",
+        icon: "textures/blocks/stripped_oak_log",
         themeColor: "§6"
     },
     {
@@ -4925,42 +4890,42 @@ export const blockIndex = [
         id: "minecraft:dead_brain_coral_block",
         name: "Dead Brain Coral Block",
         category: "block",
-        icon: "textures/blocks/dead_brain_coral_block",
+        icon: "textures/blocks/coral_pink_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_bubble_coral_block",
         name: "Dead Bubble Coral Block",
         category: "block",
-        icon: "textures/blocks/dead_bubble_coral_block",
+        icon: "textures/blocks/coral_purple_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_fire_coral_block",
         name: "Dead Fire Coral Block",
         category: "block",
-        icon: "textures/blocks/dead_fire_coral_block",
+        icon: "textures/blocks/coral_red_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_horn_coral_block",
         name: "Dead Horn Coral Block",
         category: "block",
-        icon: "textures/blocks/dead_horn_coral_block",
+        icon: "textures/blocks/coral_yellow_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_tube_coral_block",
         name: "Dead Tube Coral Block",
         category: "block",
-        icon: "textures/blocks/dead_tube_coral_block",
+        icon: "textures/blocks/coral_blue_dead",
         themeColor: "§7" // gray
     },
     {
         id: "minecraft:chipped_anvil",
         name: "Chipped Anvil",
         category: "block",
-        icon: "textures/blocks/anvil_top",
+        icon: "textures/blocks/anvil_base",
         themeColor: "§7"
     },
     {
@@ -5051,14 +5016,14 @@ export const blockIndex = [
         id: "minecraft:smooth_quartz_stairs",
         name: "Smooth Quartz Stairs",
         category: "block",
-        icon: "textures/blocks/quartz_block_smooth",
+        icon: "textures/blocks/quartz_block_bottom",
         themeColor: "§f"
     },
     {
         id: "minecraft:smooth_quartz_slab",
         name: "Smooth Quartz Slab",
         category: "block",
-        icon: "textures/blocks/quartz_block_smooth",
+        icon: "textures/blocks/quartz_block_bottom",
         themeColor: "§f"
     },
     {
@@ -5086,7 +5051,7 @@ export const blockIndex = [
         id: "minecraft:spruce_door",
         name: "Spruce Door",
         category: "block",
-        icon: "textures/items/spruce_door",
+        icon: "textures/items/door_spruce",
         themeColor: "§8"
     },
     {
@@ -5128,7 +5093,7 @@ export const blockIndex = [
         id: "minecraft:dark_oak_door",
         name: "Dark Oak Door",
         category: "block",
-        icon: "textures/items/dark_oak_door",
+        icon: "textures/items/door_dark_oak",
         themeColor: "§8"
     },
     {
@@ -5170,14 +5135,14 @@ export const blockIndex = [
         id: "minecraft:prismarine_slab",
         name: "Prismarine Slab",
         category: "block",
-        icon: "textures/blocks/prismarine",
+        icon: "textures/blocks/prismarine_rough",
         themeColor: "§b"
     },
     {
         id: "minecraft:prismarine_wall",
         name: "Prismarine Wall",
         category: "block",
-        icon: "textures/blocks/prismarine",
+        icon: "textures/blocks/prismarine_rough",
         themeColor: "§b"
     },
     {
@@ -5324,49 +5289,49 @@ export const blockIndex = [
         id: "minecraft:blue_carpet",
         name: "Blue Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_blue",
+        icon: "textures/blocks/wool_colored_blue",
         themeColor: "§1"
     },
     {
         id: "minecraft:cyan_carpet",
         name: "Cyan Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_cyan",
+        icon: "textures/blocks/wool_colored_cyan",
         themeColor: "§3"
     },
     {
         id: "minecraft:gray_carpet",
         name: "Gray Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_gray",
+        icon: "textures/blocks/wool_colored_gray",
         themeColor: "§7"
     },
     {
         id: "minecraft:black_carpet",
         name: "Black Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_black",
+        icon: "textures/blocks/wool_colored_black",
         themeColor: "§0"
     },
     {
         id: "minecraft:white_carpet",
         name: "White Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_white",
+        icon: "textures/blocks/wool_colored_white",
         themeColor: "§f" // white
     },
     {
         id: "minecraft:brown_carpet",
         name: "Brown Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_brown",
+        icon: "textures/blocks/wool_colored_brown",
         themeColor: "§6" // Brown
     },
     {
         id: "minecraft:magenta_carpet",
         name: "Magenta Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_magenta",
+        icon: "textures/blocks/wool_colored_magenta",
         themeColor: "§d"
     },
     {
@@ -5751,36 +5716,8 @@ export const blockIndex = [
         id: "minecraft:brown_candle_cake",
         name: "Brown Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_brown",
+        icon: "textures/blocks/candles/brown_candle",
         themeColor: "§6" // brown
-    },
-    {
-        id: "minecraft:chemical_heat",
-        name: "Heat Block",
-        category: "block",
-        icon: "textures/blocks/heat_block",
-        themeColor: "§6" // gold/orange
-    },
-    {
-        id: "minecraft:hard_glass",
-        name: "Hardened Glass",
-        category: "block",
-        icon: "textures/blocks/hardened_glass",
-        themeColor: "§7" // gray
-    },
-    {
-        id: "minecraft:hard_glass_pane",
-        name: "Hardened Glass Pane",
-        category: "block",
-        icon: "textures/blocks/hardened_glass",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:hard_light_blue_stained_glass",
-        name: "Hardened Light Blue Stained Glass",
-        category: "block",
-        icon: "textures/blocks/glass_light_blue",
-        themeColor: "§b"
     },
     {
         id: "minecraft:red_wool",
@@ -5807,49 +5744,49 @@ export const blockIndex = [
         id: "minecraft:stripped_dark_oak_log",
         name: "Stripped Dark Oak Log",
         category: "block",
-        icon: "textures/blocks/stripped_dark_oak_log_side",
+        icon: "textures/blocks/stripped_dark_oak_log",
         themeColor: "§8"
     },
     {
         id: "minecraft:stripped_dark_oak_wood",
         name: "Stripped Dark Oak Wood",
         category: "block",
-        icon: "textures/blocks/stripped_dark_oak_log_side",
+        icon: "textures/blocks/stripped_dark_oak_log",
         themeColor: "§8"
     },
     {
         id: "minecraft:stripped_jungle_log",
         name: "Stripped Jungle Log",
         category: "block",
-        icon: "textures/blocks/stripped_jungle_log_side",
+        icon: "textures/blocks/stripped_jungle_log",
         themeColor: "§6"
     },
     {
         id: "minecraft:yellow_candle_cake",
         name: "Yellow Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_yellow",
+        icon: "textures/blocks/candles/yellow_candle",
         themeColor: "§e"
     },
     {
         id: "minecraft:magenta_candle",
         name: "Magenta Candle",
         category: "block",
-        icon: "textures/blocks/candle_magenta",
+        icon: "textures/blocks/candles/magenta_candle",
         themeColor: "§d"
     },
     {
         id: "minecraft:magenta_candle_cake",
         name: "Magenta Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_magenta",
+        icon: "textures/blocks/candles/magenta_candle",
         themeColor: "§d"
     },
     {
         id: "minecraft:damaged_anvil",
         name: "Damaged Anvil",
         category: "block",
-        icon: "textures/blocks/anvil_top",
+        icon: "textures/blocks/anvil_base",
         themeColor: "§7"
     },
     {
@@ -5863,21 +5800,21 @@ export const blockIndex = [
         id: "minecraft:pink_candle",
         name: "Pink Candle",
         category: "block",
-        icon: "textures/blocks/candle_pink",
+        icon: "textures/blocks/candles/pink_candle",
         themeColor: "§d" // pink
     },
     {
         id: "minecraft:pink_candle_cake",
         name: "Pink Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_pink",
+        icon: "textures/blocks/candles/pink_candle",
         themeColor: "§d"
     },
     {
         id: "minecraft:yellow_carpet",
         name: "Yellow Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_yellow",
+        icon: "textures/blocks/wool_colored_yellow",
         themeColor: "§e"
     },
     {
@@ -5891,14 +5828,14 @@ export const blockIndex = [
         id: "minecraft:candle_cake",
         name: "Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake",
+        icon: "textures/blocks/candles/candle",
         themeColor: "§f"
     },
     {
         id: "minecraft:white_candle",
         name: "White Candle",
         category: "block",
-        icon: "textures/blocks/candle_white",
+        icon: "textures/blocks/candles/white_candle",
         themeColor: "§f"
     },
     {
@@ -5926,7 +5863,7 @@ export const blockIndex = [
         id: "minecraft:black_candle_cake",
         name: "Black Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_black",
+        icon: "textures/blocks/candles/black_candle",
         themeColor: "§0"
     },
     {
@@ -5947,42 +5884,42 @@ export const blockIndex = [
         id: "minecraft:dead_brain_coral_wall_fan",
         name: "Dead Brain Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/dead_brain_coral_fan",
+        icon: "textures/blocks/coral_fan_pink_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:brain_coral_wall_fan",
         name: "Brain Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/brain_coral_fan",
+        icon: "textures/blocks/coral_fan_pink",
         themeColor: "§d"
     },
     {
         id: "minecraft:horn_coral_wall_fan",
         name: "Horn Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/horn_coral_fan",
+        icon: "textures/blocks/coral_fan_yellow",
         themeColor: "§e"
     },
     {
         id: "minecraft:tube_coral_wall_fan",
         name: "Tube Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/tube_coral_fan",
+        icon: "textures/blocks/coral_fan_blue",
         themeColor: "§9"
     },
     {
         id: "minecraft:bubble_coral_wall_fan",
         name: "Bubble Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/bubble_coral_fan",
+        icon: "textures/blocks/coral_fan_purple",
         themeColor: "§d"
     },
     {
         id: "minecraft:dead_bubble_coral_fan",
         name: "Dead Bubble Coral Fan",
         category: "block",
-        icon: "textures/blocks/dead_bubble_coral_fan",
+        icon: "textures/blocks/coral_fan_purple_dead",
         themeColor: "§7"
     },
     {
@@ -6003,7 +5940,7 @@ export const blockIndex = [
         id: "minecraft:dead_bubble_coral",
         name: "Dead Bubble Coral",
         category: "block",
-        icon: "textures/blocks/dead_bubble_coral",
+        icon: "textures/blocks/coral_purple_dead",
         themeColor: "§7"
     },
     {
@@ -6094,21 +6031,21 @@ export const blockIndex = [
         id: "minecraft:darkoak_standing_sign",
         name: "Dark Oak Standing Sign",
         category: "block",
-        icon: "textures/items/sign_dark_oak",
+        icon: "textures/items/sign_darkoak",
         themeColor: "§8"
     },
     {
         id: "minecraft:lime_carpet",
         name: "Lime Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_lime",
+        icon: "textures/blocks/wool_colored_lime",
         themeColor: "§a"
     },
     {
         id: "minecraft:green_carpet",
         name: "Green Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_green",
+        icon: "textures/blocks/wool_colored_green",
         themeColor: "§2"
     },
     {
@@ -6129,7 +6066,7 @@ export const blockIndex = [
         id: "minecraft:dead_fire_coral_fan",
         name: "Dead Fire Coral Fan",
         category: "block",
-        icon: "textures/blocks/dead_fire_coral_fan",
+        icon: "textures/blocks/coral_fan_red_dead",
         themeColor: "§7"
     },
     {
@@ -6185,7 +6122,7 @@ export const blockIndex = [
         id: "minecraft:nether_brick_stairs",
         name: "Nether Brick Stairs",
         category: "block",
-        icon: "textures/blocks/nether_bricks",
+        icon: "textures/blocks/nether_brick",
         themeColor: "§4"
     },
     {
@@ -6234,21 +6171,21 @@ export const blockIndex = [
         id: "minecraft:dead_fire_coral",
         name: "Dead Fire Coral",
         category: "block",
-        icon: "textures/blocks/dead_fire_coral",
+        icon: "textures/blocks/coral_red_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_tube_coral_fan",
         name: "Dead Tube Coral Fan",
         category: "block",
-        icon: "textures/blocks/dead_tube_coral_fan",
+        icon: "textures/blocks/coral_fan_blue_dead",
         themeColor: "§7"
     },
     {
         id: "minecraft:dead_tube_coral_wall_fan",
         name: "Dead Tube Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/dead_tube_coral_fan",
+        icon: "textures/blocks/coral_fan_blue_dead",
         themeColor: "§8"
     },
     {
@@ -6304,7 +6241,7 @@ export const blockIndex = [
         id: "minecraft:darkoak_wall_sign",
         name: "Dark Oak Wall Sign",
         category: "block",
-        icon: "textures/items/sign_dark_oak",
+        icon: "textures/items/sign_darkoak",
         themeColor: "§8"
     },
     {
@@ -6318,35 +6255,35 @@ export const blockIndex = [
         id: "minecraft:red_candle",
         name: "Red Candle",
         category: "block",
-        icon: "textures/items/candle_red",
+        icon: "textures/blocks/candles/red_candle",
         themeColor: "§c"
     },
     {
         id: "minecraft:green_candle",
         name: "Green Candle",
         category: "block",
-        icon: "textures/items/candle_green",
+        icon: "textures/blocks/candles/green_candle",
         themeColor: "§2"
     },
     {
         id: "minecraft:green_candle_cake",
         name: "Green Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_green",
+        icon: "textures/blocks/candles/green_candle",
         themeColor: "§2" // green
     },
     {
         id: "minecraft:yellow_candle",
         name: "Yellow Candle",
         category: "block",
-        icon: "textures/items/candle_yellow",
+        icon: "textures/blocks/candles/yellow_candle",
         themeColor: "§e"
     },
     {
         id: "minecraft:red_carpet",
         name: "Red Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_red",
+        icon: "textures/blocks/wool_colored_red",
         themeColor: "§c"
     },
     {
@@ -6367,21 +6304,21 @@ export const blockIndex = [
         id: "minecraft:orange_candle",
         name: "Orange Candle",
         category: "block",
-        icon: "textures/items/candle_orange",
+        icon: "textures/blocks/candles/orange_candle",
         themeColor: "§6"
     },
     {
         id: "minecraft:purple_candle",
         name: "Purple Candle",
         category: "block",
-        icon: "textures/items/candle_purple",
+        icon: "textures/blocks/candles/purple_candle",
         themeColor: "§5"
     },
     {
         id: "minecraft:light_blue_candle",
         name: "Light Blue Candle",
         category: "block",
-        icon: "textures/items/candle_light_blue",
+        icon: "textures/blocks/candles/light_blue_candle",
         themeColor: "§b"
     },
     {
@@ -6423,7 +6360,7 @@ export const blockIndex = [
         id: "minecraft:stripped_acacia_log",
         name: "Stripped Acacia Log",
         category: "block",
-        icon: "textures/blocks/stripped_acacia_log_side",
+        icon: "textures/blocks/stripped_acacia_log",
         themeColor: "§6"
     },
     {
@@ -6444,21 +6381,21 @@ export const blockIndex = [
         id: "minecraft:orange_carpet",
         name: "Orange Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_orange",
+        icon: "textures/blocks/wool_colored_orange",
         themeColor: "§6"
     },
     {
         id: "minecraft:pink_carpet",
         name: "Pink Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_pink",
+        icon: "textures/blocks/wool_colored_pink",
         themeColor: "§d"
     },
     {
         id: "minecraft:purple_carpet",
         name: "Purple Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_purple",
+        icon: "textures/blocks/wool_colored_purple",
         themeColor: "§5"
     },
     {
@@ -6486,35 +6423,35 @@ export const blockIndex = [
         id: "minecraft:stripped_birch_wood",
         name: "Stripped Birch Wood",
         category: "block",
-        icon: "textures/blocks/stripped_birch_log_side",
+        icon: "textures/blocks/stripped_birch_log",
         themeColor: "§f"
     },
     {
         id: "minecraft:stripped_acacia_wood",
         name: "Stripped Acacia Wood",
         category: "block",
-        icon: "textures/blocks/stripped_acacia_log_side",
+        icon: "textures/blocks/stripped_acacia_log",
         themeColor: "§6"
     },
     {
         id: "minecraft:stripped_jungle_wood",
         name: "Stripped Jungle Wood",
         category: "block",
-        icon: "textures/blocks/stripped_jungle_log_side",
+        icon: "textures/blocks/stripped_jungle_log",
         themeColor: "§6"
     },
     {
         id: "minecraft:gray_candle",
         name: "Gray Candle",
         category: "block",
-        icon: "textures/items/candle_gray",
+        icon: "textures/blocks/candles/gray_candle",
         themeColor: "§8"
     },
     {
         id: "minecraft:lime_candle",
         name: "Lime Candle",
         category: "block",
-        icon: "textures/items/candle_lime",
+        icon: "textures/blocks/candles/lime_candle",
         themeColor: "§a"
     },
     {
@@ -6542,7 +6479,7 @@ export const blockIndex = [
         id: "minecraft:dead_bubble_coral_wall_fan",
         name: "Dead Bubble Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/dead_bubble_coral_fan",
+        icon: "textures/blocks/coral_fan_purple_dead",
         themeColor: "§8"
     },
     {
@@ -6563,21 +6500,21 @@ export const blockIndex = [
         id: "minecraft:dead_horn_coral_fan",
         name: "Dead Horn Coral Fan",
         category: "block",
-        icon: "textures/blocks/dead_horn_coral_fan",
+        icon: "textures/blocks/coral_fan_yellow_dead",
         themeColor: "§8"
     },
     {
         id: "minecraft:light_blue_carpet",
         name: "Light Blue Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_light_blue",
+        icon: "textures/blocks/wool_colored_light_blue",
         themeColor: "§b"
     },
     {
         id: "minecraft:light_gray_carpet",
         name: "Light Gray Carpet",
         category: "block",
-        icon: "textures/blocks/carpet_colored_silver",
+        icon: "textures/blocks/wool_colored_silver",
         themeColor: "§7"
     },
     {
@@ -6626,14 +6563,14 @@ export const blockIndex = [
         id: "minecraft:dead_fire_coral_wall_fan",
         name: "Dead Fire Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/dead_fire_coral_fan",
+        icon: "textures/blocks/coral_fan_red_dead",
         themeColor: "§8"
     },
     {
         id: "minecraft:dead_horn_coral_wall_fan",
         name: "Dead Horn Coral Wall Fan",
         category: "block",
-        icon: "textures/blocks/dead_horn_coral_fan",
+        icon: "textures/blocks/coral_fan_yellow_dead",
         themeColor: "§8"
     },
     {
@@ -6927,21 +6864,21 @@ export const blockIndex = [
         id: "minecraft:red_candle_cake",
         name: "Red Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_red",
+        icon: "textures/blocks/candles/red_candle",
         themeColor: "§c" // red
     },
     {
         id: "minecraft:orange_candle_cake",
         name: "Orange Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_orange",
+        icon: "textures/blocks/candles/orange_candle",
         themeColor: "§6" // orange
     },
     {
         id: "minecraft:lime_candle_cake",
         name: "Lime Candle Cake",
         category: "block",
-        icon: "textures/blocks/candle_cake_lime",
+        icon: "textures/blocks/candles/lime_candle",
         themeColor: "§a" // lime
     }
 ];

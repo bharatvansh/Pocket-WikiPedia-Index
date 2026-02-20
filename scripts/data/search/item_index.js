@@ -521,28 +521,28 @@ export const itemIndex = [
         id: "minecraft:music_disc_magnetic",
         name: "Music Disc (Magnetic)",
         category: "item",
-        icon: "textures/items/music_disc_magnetic",
+        icon: "textures/items/music_disc_relic",
         themeColor: "§b" // aqua
     },
     {
         id: "minecraft:music_disc_resonance",
         name: "Music Disc (Resonance)",
         category: "item",
-        icon: "textures/items/music_disc_resonance",
+        icon: "textures/items/music_disc_relic",
         themeColor: "§b" // aqua
     },
     {
         id: "minecraft:music_disc_ponder",
         name: "Music Disc (Ponder)",
         category: "item",
-        icon: "textures/items/music_disc_ponder",
+        icon: "textures/items/music_disc_relic",
         themeColor: "§b" // aqua
     },
     {
         id: "minecraft:music_disc_5",
         name: "Music Disc (5)",
         category: "item",
-        icon: "textures/items/music_disc_5",
+        icon: "textures/items/record_5",
         themeColor: "§8" // dark gray
     },
     {
@@ -577,56 +577,56 @@ export const itemIndex = [
         id: "minecraft:piglin_banner_pattern",
         name: "Snout Banner Pattern",
         category: "item",
-        icon: "textures/items/snout_banner_pattern",
+        icon: "textures/items/piglin_banner_pattern",
         themeColor: "§6" // brown/gold
     },
     {
         id: "minecraft:white_banner",
         name: "White Banner",
         category: "item",
-        icon: "textures/items/banner_white",
+        icon: "textures/items/banner_pattern",
         themeColor: "§f" // white
     },
     {
         id: "minecraft:black_banner",
         name: "Black Banner",
         category: "item",
-        icon: "textures/items/banner_black",
+        icon: "textures/items/banner_pattern",
         themeColor: "§0" // black
     },
     {
         id: "minecraft:red_banner",
         name: "Red Banner",
         category: "item",
-        icon: "textures/items/banner_red",
+        icon: "textures/items/banner_pattern",
         themeColor: "§c" // red
     },
     {
         id: "minecraft:blue_banner",
         name: "Blue Banner",
         category: "item",
-        icon: "textures/items/banner_blue",
+        icon: "textures/items/banner_pattern",
         themeColor: "§9" // blue
     },
     {
         id: "minecraft:green_banner",
         name: "Green Banner",
         category: "item",
-        icon: "textures/items/banner_green",
+        icon: "textures/items/banner_pattern",
         themeColor: "§2" // green
     },
     {
         id: "minecraft:orange_banner",
         name: "Orange Banner",
         category: "item",
-        icon: "textures/items/banner_orange",
+        icon: "textures/items/banner_pattern",
         themeColor: "§6" // orange
     },
     {
         id: "minecraft:magenta_banner",
         name: "Magenta Banner",
         category: "item",
-        icon: "textures/items/banner_magenta",
+        icon: "textures/items/banner_pattern",
         themeColor: "§d" // magenta
     },
     {
@@ -640,56 +640,56 @@ export const itemIndex = [
         id: "minecraft:purple_banner",
         name: "Purple Banner",
         category: "item",
-        icon: "textures/items/banner_purple",
+        icon: "textures/items/banner_pattern",
         themeColor: "§5" // purple
     },
     {
         id: "minecraft:cyan_banner",
         name: "Cyan Banner",
         category: "item",
-        icon: "textures/items/banner_cyan",
+        icon: "textures/items/banner_pattern",
         themeColor: "§3" // cyan
     },
     {
         id: "minecraft:light_gray_banner",
         name: "Light Gray Banner",
         category: "item",
-        icon: "textures/items/banner_light_gray",
+        icon: "textures/items/banner_pattern",
         themeColor: "§7" // light gray
     },
     {
         id: "minecraft:gray_banner",
         name: "Gray Banner",
         category: "item",
-        icon: "textures/items/banner_gray",
+        icon: "textures/items/banner_pattern",
         themeColor: "§8" // gray
     },
     {
         id: "minecraft:light_blue_banner",
         name: "Light Blue Banner",
         category: "item",
-        icon: "textures/items/banner_light_blue",
+        icon: "textures/items/banner_pattern",
         themeColor: "§b" // light blue
     },
     {
         id: "minecraft:pink_banner",
         name: "Pink Banner",
         category: "item",
-        icon: "textures/items/banner_pink",
+        icon: "textures/items/banner_pattern",
         themeColor: "§d" // pink
     },
     {
         id: "minecraft:lime_banner",
         name: "Lime Banner",
         category: "item",
-        icon: "textures/items/banner_lime",
+        icon: "textures/items/banner_pattern",
         themeColor: "§a" // lime
     },
     {
         id: "minecraft:brown_banner",
         name: "Brown Banner",
         category: "item",
-        icon: "textures/items/banner_brown",
+        icon: "textures/items/banner_pattern",
         themeColor: "§6" // brown
     },
     {
@@ -752,7 +752,7 @@ export const itemIndex = [
         id: "minecraft:heart_of_the_sea",
         name: "Heart of the Sea",
         category: "item",
-        icon: "textures/items/heart_of_the_sea",
+        icon: "textures/items/heartofthesea_closed",
         themeColor: "§e" // yellow/uncommon
     },
     {
@@ -878,7 +878,7 @@ export const itemIndex = [
         id: "minecraft:recovery_compass",
         name: "Recovery Compass",
         category: "item",
-        icon: "textures/items/recovery_compass",
+        icon: "textures/items/recovery_compass_item",
         themeColor: "§5" // ominous purple
     },
     {
@@ -976,7 +976,7 @@ export const itemIndex = [
         id: "minecraft:nautilus_shell",
         name: "Nautilus Shell",
         category: "item",
-        icon: "textures/items/nautilus_shell",
+        icon: "textures/items/nautilus",
         themeColor: "§f"
     },
     {
@@ -1088,7 +1088,7 @@ export const itemIndex = [
         id: "minecraft:turtle_scute",
         name: "Turtle Scute",
         category: "item",
-        icon: "textures/items/turtle_scute",
+        icon: "textures/items/turtle_shell_piece",
         themeColor: "§a" // green
     },
     {
@@ -1130,7 +1130,7 @@ export const itemIndex = [
         id: "minecraft:fishing_rod",
         name: "Fishing Rod",
         category: "item",
-        icon: "textures/items/fishing_rod",
+        icon: "textures/items/fishing_rod_uncast",
         themeColor: "§6" // brown
     },
     {
@@ -1228,7 +1228,7 @@ export const itemIndex = [
         id: "minecraft:tropical_fish_bucket",
         name: "Bucket of Tropical Fish",
         category: "item",
-        icon: "textures/items/tropical_fish_bucket",
+        icon: "textures/items/bucket_tropical",
         themeColor: "§b" // aqua/water
     },
     {
@@ -1256,7 +1256,7 @@ export const itemIndex = [
         id: "minecraft:fire_charge",
         name: "Fire Charge",
         category: "item",
-        icon: "textures/items/fire_charge",
+        icon: "textures/items/fireball",
         themeColor: "§c"
     },
     {
@@ -1305,7 +1305,7 @@ export const itemIndex = [
         id: "minecraft:glow_ink_sac",
         name: "Glow Ink Sac",
         category: "item",
-        icon: "textures/items/glow_ink_sac",
+        icon: "textures/items/dye_powder_blue",
         themeColor: "§e" // glowing gold
     },
     {
@@ -1340,7 +1340,7 @@ export const itemIndex = [
         id: "minecraft:bone_meal",
         name: "Bone Meal",
         category: "item",
-        icon: "textures/items/bone_meal",
+        icon: "textures/items/dye_powder_white",
         themeColor: "§f" // white/bone color
     },
     {
@@ -1543,7 +1543,7 @@ export const itemIndex = [
         id: "minecraft:lodestone_compass",
         name: "Lodestone Compass",
         category: "item",
-        icon: "textures/items/lodestone_compass_item",
+        icon: "textures/items/lodestonecompass_item",
         themeColor: "§e" // gold
     },
     {
@@ -1662,21 +1662,21 @@ export const itemIndex = [
         id: "minecraft:wither_skeleton_skull",
         name: "Wither Skeleton Skull",
         category: "item",
-        icon: "textures/items/wither_skeleton_skull",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§8"
     },
     {
         id: "minecraft:dragon_head",
         name: "Dragon Head",
         category: "item",
-        icon: "textures/items/dragon_head",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§5"
     },
     {
         id: "minecraft:piglin_head",
         name: "Piglin Head",
         category: "item",
-        icon: "textures/items/piglin_head",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§d"
     },
     {
@@ -1697,7 +1697,7 @@ export const itemIndex = [
         id: "minecraft:ink_sac",
         name: "Ink Sac",
         category: "item",
-        icon: "textures/items/ink_sac",
+        icon: "textures/items/dye_powder_black",
         themeColor: "§0"
     },
     {
@@ -1732,7 +1732,7 @@ export const itemIndex = [
         id: "minecraft:firework_star",
         name: "Firework Star",
         category: "item",
-        icon: "textures/items/firework_star",
+        icon: "textures/items/fireworks",
         themeColor: "§f" // white/varies
     },
     {
@@ -1753,7 +1753,7 @@ export const itemIndex = [
         id: "minecraft:music_disc_pigstep",
         name: "Music Disc (Pigstep)",
         category: "item",
-        icon: "textures/items/music_disc_pigstep",
+        icon: "textures/items/record_pigstep",
         themeColor: "§c" // red
     },
     {
@@ -1788,7 +1788,7 @@ export const itemIndex = [
         id: "minecraft:music_disc_otherside",
         name: "Music Disc (Otherside)",
         category: "item",
-        icon: "textures/items/music_disc_otherside",
+        icon: "textures/items/record_otherside",
         themeColor: "§b"
     },
     {
@@ -1844,7 +1844,7 @@ export const itemIndex = [
         id: "minecraft:sugar_cane",
         name: "Sugar Cane",
         category: "item",
-        icon: "textures/items/sugar_cane",
+        icon: "textures/items/reeds",
         themeColor: "§a"
     },
     {
@@ -2005,7 +2005,7 @@ export const itemIndex = [
         id: "minecraft:music_disc_13",
         name: "Music Disc (13)",
         category: "item",
-        icon: "textures/items/music_disc_13",
+        icon: "textures/items/record_13",
         themeColor: "§e"
     },
     {
@@ -2089,14 +2089,14 @@ export const itemIndex = [
         id: "minecraft:bamboo_raft",
         name: "Bamboo Raft",
         category: "item",
-        icon: "textures/items/boat_bamboo",
+        icon: "textures/items/bamboo_raft",
         themeColor: "§e"
     },
     {
         id: "minecraft:boat_oar",
         name: "Boat Oar",
         category: "item",
-        icon: "textures/items/boat_oar",
+        icon: "textures/items/boat",
         themeColor: "§6"
     },
     {
@@ -2166,7 +2166,7 @@ export const itemIndex = [
         id: "minecraft:thing_banner_pattern",
         name: "Thing Banner Pattern",
         category: "item",
-        icon: "textures/items/thing_banner_pattern",
+        icon: "textures/items/mojang_banner_pattern",
         themeColor: "§d"
     },
     {
@@ -2194,7 +2194,7 @@ export const itemIndex = [
         id: "minecraft:oak_chest_boat",
         name: "Oak Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_oak_chest",
+        icon: "textures/items/oak_chest_boat",
         themeColor: "§6"
     },
     {
@@ -2264,7 +2264,7 @@ export const itemIndex = [
         id: "minecraft:cocoa_beans",
         name: "Cocoa Beans",
         category: "item",
-        icon: "textures/items/cocoa_beans",
+        icon: "textures/items/dye_powder_brown",
         themeColor: "§6" // brown
     },
     {
@@ -2327,21 +2327,21 @@ export const itemIndex = [
         id: "minecraft:music_disc_wait",
         name: "Music Disc (Wait)",
         category: "item",
-        icon: "textures/items/music_disc_wait",
+        icon: "textures/items/record_wait",
         themeColor: "§b" // Aqua
     },
     {
         id: "minecraft:music_disc_strad",
         name: "Music Disc (Strad)",
         category: "item",
-        icon: "textures/items/music_disc_strad",
+        icon: "textures/items/record_strad",
         themeColor: "§f" // White
     },
     {
         id: "minecraft:music_disc_mall",
         name: "Music Disc (Mall)",
         category: "item",
-        icon: "textures/items/music_disc_mall",
+        icon: "textures/items/record_mall",
         themeColor: "§5" // Purple
     },
     {
@@ -2712,7 +2712,7 @@ export const itemIndex = [
         id: "minecraft:light_gray_dye",
         name: "Light Gray Dye",
         category: "item",
-        icon: "textures/items/dye_powder_light_gray",
+        icon: "textures/items/dye_powder_silver",
         themeColor: "§7"
     },
     {
@@ -2977,56 +2977,56 @@ export const itemIndex = [
         id: "minecraft:spruce_chest_boat",
         name: "Spruce Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_spruce_chest",
+        icon: "textures/items/spruce_chest_boat",
         themeColor: "§6"
     },
     {
         id: "minecraft:birch_chest_boat",
         name: "Birch Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_birch_chest",
+        icon: "textures/items/birch_chest_boat",
         themeColor: "§f"
     },
     {
         id: "minecraft:jungle_chest_boat",
         name: "Jungle Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_jungle_chest",
+        icon: "textures/items/jungle_chest_boat",
         themeColor: "§6"
     },
     {
         id: "minecraft:acacia_chest_boat",
         name: "Acacia Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_acacia_chest",
+        icon: "textures/items/acacia_chest_boat",
         themeColor: "§6"
     },
     {
         id: "minecraft:dark_oak_chest_boat",
         name: "Dark Oak Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_dark_oak_chest",
+        icon: "textures/items/dark_oak_chest_boat",
         themeColor: "§6"
     },
     {
         id: "minecraft:mangrove_chest_boat",
         name: "Mangrove Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_mangrove_chest",
+        icon: "textures/items/mangrove_chest_boat",
         themeColor: "§c"
     },
     {
         id: "minecraft:cherry_chest_boat",
         name: "Cherry Boat with Chest",
         category: "item",
-        icon: "textures/items/boat_cherry_chest",
+        icon: "textures/items/cherry_chest_boat",
         themeColor: "§d"
     },
     {
         id: "minecraft:bamboo_chest_raft",
         name: "Bamboo Raft with Chest",
         category: "item",
-        icon: "textures/items/raft_bamboo_chest",
+        icon: "textures/items/bamboo_chest_raft",
         themeColor: "§e"
     },
     {
@@ -3061,7 +3061,7 @@ export const itemIndex = [
         id: "minecraft:tropical_fish_item",
         name: "Tropical Fish",
         category: "item",
-        icon: "textures/items/fish_tropical",
+        icon: "textures/items/fish_clownfish_raw",
         themeColor: "§c"
     },
     {
@@ -3306,28 +3306,28 @@ export const itemIndex = [
         id: "minecraft:zombie_head",
         name: "Zombie Head",
         category: "item",
-        icon: "textures/items/zombie_head",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:skeleton_skull",
         name: "Skeleton Skull",
         category: "item",
-        icon: "textures/items/skeleton_skull",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§f" // white
     },
     {
         id: "minecraft:creeper_head",
         name: "Creeper Head",
         category: "item",
-        icon: "textures/items/creeper_head",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§a" // green
     },
     {
         id: "minecraft:player_head",
         name: "Player Head",
         category: "item",
-        icon: "textures/items/player_head",
+        icon: "textures/items/skull_banner_pattern",
         themeColor: "§f" // white
     },
     {
@@ -3406,55 +3406,6 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/copper_nugget",
         themeColor: "§6"
-    },
-    {
-        id: "minecraft:camera",
-        name: "Camera",
-        category: "item",
-        icon: "textures/blocks/camera_side",
-        themeColor: "§8"
-    },
-    {
-        id: "minecraft:portfolio",
-        name: "Portfolio",
-        category: "item",
-        icon: "textures/items/portfolio",
-        themeColor: "§6"
-    },
-    {
-        id: "minecraft:photo",
-        name: "Photo",
-        category: "item",
-        icon: "textures/items/photo",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:slate",
-        name: "Slate",
-        category: "item",
-        icon: "textures/items/chalkboard_small",
-        themeColor: "§8"
-    },
-    {
-        id: "minecraft:poster",
-        name: "Poster",
-        category: "item",
-        icon: "textures/items/chalkboard_medium",
-        themeColor: "§8"
-    },
-    {
-        id: "minecraft:balloon",
-        name: "Balloon",
-        category: "item",
-        icon: "textures/items/balloon",
-        themeColor: "§c"
-    },
-    {
-        id: "minecraft:ice_bomb",
-        name: "Ice Bomb",
-        category: "item",
-        icon: "textures/items/ice_bomb",
-        themeColor: "§b"
     },
     {
         id: "minecraft:wolf_spawn_egg",
@@ -3705,105 +3656,42 @@ export const itemIndex = [
         id: "minecraft:latex",
         name: "Latex",
         category: "item",
-        icon: "textures/items/latex",
+        icon: "textures/items/slimeball",
         themeColor: "§f"
-    },
-    {
-        id: "minecraft:bleach",
-        name: "Bleach",
-        category: "item",
-        icon: "textures/items/bleach",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:sparkler",
-        name: "Sparkler",
-        category: "item",
-        icon: "textures/items/sparkler_orange",
-        themeColor: "§6"
-    },
-    {
-        id: "minecraft:glow_stick",
-        name: "Glow Stick",
-        category: "item",
-        icon: "textures/items/glow_stick_blue",
-        themeColor: "§b"
-    },
-    {
-        id: "minecraft:medicine",
-        name: "Medicine",
-        category: "item",
-        icon: "textures/items/medicine_antidote",
-        themeColor: "§f"
-    },
-    {
-        id: "minecraft:super_fertilizer",
-        name: "Super Fertilizer",
-        category: "item",
-        icon: "textures/items/super_fertilizer",
-        themeColor: "§a"
-    },
-    {
-        id: "minecraft:compound_creator",
-        name: "Compound Creator",
-        category: "item",
-        icon: "textures/blocks/compound_creator",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:element_constructor",
-        name: "Element Constructor",
-        category: "item",
-        icon: "textures/blocks/element_constructor",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:lab_table",
-        name: "Lab Table",
-        category: "item",
-        icon: "textures/blocks/lab_table",
-        themeColor: "§7"
-    },
-    {
-        id: "minecraft:material_reducer",
-        name: "Material Reducer",
-        category: "item",
-        icon: "textures/blocks/material_reducer",
-        themeColor: "§7"
     },
     {
         id: "minecraft:sodium_acetate",
         name: "Sodium Acetate",
         category: "item",
-        icon: "textures/items/compound",
+        icon: "textures/items/blaze_powder",
         themeColor: "§f"
     },
     {
         id: "minecraft:sodium_hypochlorite",
         name: "Sodium Hypochlorite",
         category: "item",
-        icon: "textures/items/compound",
+        icon: "textures/items/blaze_powder",
         themeColor: "§f"
     },
     {
         id: "minecraft:magnesium_oxide",
         name: "Magnesium Oxide",
         category: "item",
-        icon: "textures/items/compound",
+        icon: "textures/items/blaze_powder",
         themeColor: "§f"
     },
     {
         id: "minecraft:aluminum_oxide",
         name: "Aluminum Oxide",
         category: "item",
-        icon: "textures/items/compound",
+        icon: "textures/items/blaze_powder",
         themeColor: "§f"
     },
     {
         id: "minecraft:boron_trioxide",
         name: "Boron Trioxide",
         category: "item",
-        icon: "textures/items/compound",
+        icon: "textures/items/blaze_powder",
         themeColor: "§f"
     },
     {
@@ -3833,20 +3721,6 @@ export const itemIndex = [
         category: "item",
         icon: "textures/items/spawn_eggs/spawn_egg_zoglin",
         themeColor: "§5"
-    },
-    {
-        id: "minecraft:npc_spawn_egg",
-        name: "NPC Spawn Egg",
-        category: "item",
-        icon: "textures/items/spawn_egg_npc",
-        themeColor: "§e"
-    },
-    {
-        id: "minecraft:agent_spawn_egg",
-        name: "Agent Spawn Egg",
-        category: "item",
-        icon: "textures/items/spawn_eggs/spawn_egg_agent",
-        themeColor: "§7"
     },
     {
         id: "minecraft:cherry_sign",
@@ -3908,14 +3782,14 @@ export const itemIndex = [
         id: "minecraft:tropical_fish_spawn_egg",
         name: "Tropical Fish Spawn Egg",
         category: "item",
-        icon: "textures/items/spawn_egg_tropical_fish",
+        icon: "textures/items/spawn_eggs/spawn_egg_tropicalfish",
         themeColor: "§d"
     },
     {
         id: "minecraft:arrow_of_weaving",
         name: "Arrow of Weaving",
         category: "item",
-        icon: "textures/items/arrow_of_weaving",
+        icon: "textures/items/tipped_arrow_weaving",
         themeColor: "§a"
     },
     {
@@ -3943,14 +3817,14 @@ export const itemIndex = [
         id: "minecraft:scrape_banner_pattern",
         name: "Scrape Banner Pattern",
         category: "item",
-        icon: "textures/items/scrape_banner_pattern",
+        icon: "textures/items/flow_banner_pattern",
         themeColor: "§7"
     },
     {
         id: "minecraft:bolt_banner_pattern",
         name: "Bolt Banner Pattern",
         category: "item",
-        icon: "textures/items/bolt_banner_pattern",
+        icon: "textures/items/guster_banner_pattern",
         themeColor: "§7"
     }
 ];
